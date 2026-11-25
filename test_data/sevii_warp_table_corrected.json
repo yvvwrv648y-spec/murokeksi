@@ -1,0 +1,4653 @@
+{
+ "generated_by": "work/build_corrections.py",
+ "convention": "dest_warp is the loader 1-based warp id (warps list index + 1)",
+ "maps": {
+  "BirthIsland_Exterior": {
+   "name": "BirthIsland_Exterior",
+   "id_const": "MAP_BIRTH_ISLAND_EXTERIOR",
+   "region": "sevii",
+   "width_tiles": 30,
+   "height_tiles": 30,
+   "warps": [
+    {
+     "id": 1,
+     "x": 15,
+     "y": 24,
+     "dest_map": "MAP_BIRTH_ISLAND_HARBOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "BirthIsland_Harbor": {
+   "name": "BirthIsland_Harbor",
+   "id_const": "MAP_BIRTH_ISLAND_HARBOR",
+   "region": "sevii",
+   "width_tiles": 17,
+   "height_tiles": 13,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 2,
+     "dest_map": "MAP_BIRTH_ISLAND_EXTERIOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland": {
+   "name": "FiveIsland",
+   "id_const": "MAP_FIVE_ISLAND",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 20,
+   "warps": [
+    {
+     "id": 1,
+     "x": 12,
+     "y": 14,
+     "dest_map": "MAP_FIVE_ISLAND_HARBOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 18,
+     "y": 6,
+     "dest_map": "MAP_FIVE_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 12,
+     "y": 6,
+     "dest_map": "MAP_FIVE_ISLAND_HOUSE1",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 22,
+     "y": 9,
+     "dest_map": "MAP_FIVE_ISLAND_HOUSE2",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "up",
+     "dest_map": "MAP_FIVE_ISLAND_WATER_LABYRINTH",
+     "dest_name": "FiveIsland_WaterLabyrinth",
+     "offset": -48
+    },
+    {
+     "direction": "right",
+     "dest_map": "MAP_FIVE_ISLAND_MEADOW",
+     "dest_name": "FiveIsland_Meadow",
+     "offset": 0
+    }
+   ]
+  },
+  "FiveIsland_Harbor": {
+   "name": "FiveIsland_Harbor",
+   "id_const": "MAP_FIVE_ISLAND_HARBOR",
+   "region": "sevii",
+   "width_tiles": 17,
+   "height_tiles": 13,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 2,
+     "dest_map": "MAP_FIVE_ISLAND",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_House1": {
+   "name": "FiveIsland_House1",
+   "id_const": "MAP_FIVE_ISLAND_HOUSE1",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_FIVE_ISLAND",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_House2": {
+   "name": "FiveIsland_House2",
+   "id_const": "MAP_FIVE_ISLAND_HOUSE2",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_FIVE_ISLAND",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Entrance": {
+   "name": "FiveIsland_LostCave_Entrance",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ENTRANCE",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_RESORT_GORGEOUS",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 5,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room1": {
+   "name": "FiveIsland_LostCave_Room1",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 2,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ENTRANCE",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 8,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM2",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 5,
+     "x": 2,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room10": {
+   "name": "FiveIsland_LostCave_Room10",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM10",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room11": {
+   "name": "FiveIsland_LostCave_Room11",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM11",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room12": {
+   "name": "FiveIsland_LostCave_Room12",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM12",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room13": {
+   "name": "FiveIsland_LostCave_Room13",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM13",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 2,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room14": {
+   "name": "FiveIsland_LostCave_Room14",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM14",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room2": {
+   "name": "FiveIsland_LostCave_Room2",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM2",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM3",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 8,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM11",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 2,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room3": {
+   "name": "FiveIsland_LostCave_Room3",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM3",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 8,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM4",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 2,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room4": {
+   "name": "FiveIsland_LostCave_Room4",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM4",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM12",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 8,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM5",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 2,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room5": {
+   "name": "FiveIsland_LostCave_Room5",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM5",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 8,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM6",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 2,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room6": {
+   "name": "FiveIsland_LostCave_Room6",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM6",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 8,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM13",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 2,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM7",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room7": {
+   "name": "FiveIsland_LostCave_Room7",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM7",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 8,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM8",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 2,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room8": {
+   "name": "FiveIsland_LostCave_Room8",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM8",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 8,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM9",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 2,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM14",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_LostCave_Room9": {
+   "name": "FiveIsland_LostCave_Room9",
+   "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM9",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM10",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 8,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 2,
+     "y": 5,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_Meadow": {
+   "name": "FiveIsland_Meadow",
+   "id_const": "MAP_FIVE_ISLAND_MEADOW",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 40,
+   "warps": [
+    {
+     "id": 1,
+     "x": 12,
+     "y": 21,
+     "dest_map": "MAP_FIVE_ISLAND_ROCKET_WAREHOUSE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "left",
+     "dest_map": "MAP_FIVE_ISLAND",
+     "dest_name": "FiveIsland",
+     "offset": 0
+    },
+    {
+     "direction": "right",
+     "dest_map": "MAP_FIVE_ISLAND_MEMORIAL_PILLAR",
+     "dest_name": "FiveIsland_MemorialPillar",
+     "offset": 20
+    }
+   ]
+  },
+  "FiveIsland_MemorialPillar": {
+   "name": "FiveIsland_MemorialPillar",
+   "id_const": "MAP_FIVE_ISLAND_MEMORIAL_PILLAR",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 60,
+   "warps": [],
+   "connections": [
+    {
+     "direction": "left",
+     "dest_map": "MAP_FIVE_ISLAND_MEADOW",
+     "dest_name": "FiveIsland_Meadow",
+     "offset": -20
+    }
+   ]
+  },
+  "FiveIsland_PokemonCenter_1F": {
+   "name": "FiveIsland_PokemonCenter_1F",
+   "id_const": "MAP_FIVE_ISLAND_POKEMON_CENTER_1F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 7,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_FIVE_ISLAND_POKEMON_CENTER_2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_PokemonCenter_2F": {
+   "name": "FiveIsland_PokemonCenter_2F",
+   "id_const": "MAP_FIVE_ISLAND_POKEMON_CENTER_2F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_FIVE_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_UNION_ROOM",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Union Room authored from the FRLG original (build 6 converts it)"
+    },
+    {
+     "id": 3,
+     "x": 9,
+     "y": 1,
+     "retarget": "MAP_TRADE_CENTER -> TRADE_CENTER (audit R-03)",
+     "dest_map": "TRADE_CENTER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Bound TradeCenter; warp list authored in this patch set (R-04 pattern)"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_ResortGorgeous": {
+   "name": "FiveIsland_ResortGorgeous",
+   "id_const": "MAP_FIVE_ISLAND_RESORT_GORGEOUS",
+   "region": "sevii",
+   "width_tiles": 72,
+   "height_tiles": 20,
+   "warps": [
+    {
+     "id": 1,
+     "x": 64,
+     "y": 13,
+     "dest_map": "MAP_FIVE_ISLAND_LOST_CAVE_ENTRANCE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 39,
+     "y": 8,
+     "dest_map": "MAP_FIVE_ISLAND_RESORT_GORGEOUS_HOUSE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "down",
+     "dest_map": "MAP_FIVE_ISLAND_WATER_LABYRINTH",
+     "dest_name": "FiveIsland_WaterLabyrinth",
+     "offset": -48
+    }
+   ]
+  },
+  "FiveIsland_ResortGorgeous_House": {
+   "name": "FiveIsland_ResortGorgeous_House",
+   "id_const": "MAP_FIVE_ISLAND_RESORT_GORGEOUS_HOUSE",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_FIVE_ISLAND_RESORT_GORGEOUS",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_RocketWarehouse": {
+   "name": "FiveIsland_RocketWarehouse",
+   "id_const": "MAP_FIVE_ISLAND_ROCKET_WAREHOUSE",
+   "region": "sevii",
+   "width_tiles": 29,
+   "height_tiles": 27,
+   "warps": [
+    {
+     "id": 1,
+     "x": 24,
+     "y": 25,
+     "dest_map": "MAP_FIVE_ISLAND_MEADOW",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FiveIsland_WaterLabyrinth": {
+   "name": "FiveIsland_WaterLabyrinth",
+   "id_const": "MAP_FIVE_ISLAND_WATER_LABYRINTH",
+   "region": "sevii",
+   "width_tiles": 72,
+   "height_tiles": 20,
+   "warps": [],
+   "connections": [
+    {
+     "direction": "up",
+     "dest_map": "MAP_FIVE_ISLAND_RESORT_GORGEOUS",
+     "dest_name": "FiveIsland_ResortGorgeous",
+     "offset": 48
+    },
+    {
+     "direction": "down",
+     "dest_map": "MAP_FIVE_ISLAND",
+     "dest_name": "FiveIsland",
+     "offset": 48
+    }
+   ]
+  },
+  "FourIsland": {
+   "name": "FourIsland",
+   "id_const": "MAP_FOUR_ISLAND",
+   "region": "sevii",
+   "width_tiles": 48,
+   "height_tiles": 40,
+   "warps": [
+    {
+     "id": 1,
+     "x": 18,
+     "y": 20,
+     "dest_map": "MAP_FOUR_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 12,
+     "y": 13,
+     "dest_map": "MAP_FOUR_ISLAND_POKEMON_DAY_CARE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 25,
+     "y": 14,
+     "dest_map": "MAP_FOUR_ISLAND_HOUSE1",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 38,
+     "y": 12,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 5,
+     "x": 33,
+     "y": 23,
+     "dest_map": "MAP_FOUR_ISLAND_LORELEIS_HOUSE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 6,
+     "x": 25,
+     "y": 26,
+     "dest_map": "MAP_FOUR_ISLAND_HOUSE2",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 7,
+     "x": 10,
+     "y": 28,
+     "dest_map": "MAP_FOUR_ISLAND_HARBOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 8,
+     "x": 22,
+     "y": 26,
+     "dest_map": "MAP_FOUR_ISLAND_MART",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FourIsland_Harbor": {
+   "name": "FourIsland_Harbor",
+   "id_const": "MAP_FOUR_ISLAND_HARBOR",
+   "region": "sevii",
+   "width_tiles": 17,
+   "height_tiles": 13,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 2,
+     "dest_map": "MAP_FOUR_ISLAND",
+     "dest_warp": 7,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FourIsland_House1": {
+   "name": "FourIsland_House1",
+   "id_const": "MAP_FOUR_ISLAND_HOUSE1",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_FOUR_ISLAND",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FourIsland_House2": {
+   "name": "FourIsland_House2",
+   "id_const": "MAP_FOUR_ISLAND_HOUSE2",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_FOUR_ISLAND",
+     "dest_warp": 6,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FourIsland_IcefallCave_1F": {
+   "name": "FourIsland_IcefallCave_1F",
+   "id_const": "MAP_FOUR_ISLAND_ICEFALL_CAVE_1F",
+   "region": "sevii",
+   "width_tiles": 20,
+   "height_tiles": 20,
+   "warps": [
+    {
+     "id": 1,
+     "x": 3,
+     "y": 17,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 2,
+     "y": 8,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 12,
+     "y": 12,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 12,
+     "y": 3,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 5,
+     "x": 15,
+     "y": 16,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 6,
+     "x": 3,
+     "y": 6,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FourIsland_IcefallCave_B1F": {
+   "name": "FourIsland_IcefallCave_B1F",
+   "id_const": "MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 20,
+   "warps": [
+    {
+     "id": 1,
+     "x": 12,
+     "y": 12,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_1F",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 12,
+     "y": 3,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 15,
+     "y": 16,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_1F",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FourIsland_IcefallCave_Back": {
+   "name": "FourIsland_IcefallCave_Back",
+   "id_const": "MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK",
+   "region": "sevii",
+   "width_tiles": 25,
+   "height_tiles": 26,
+   "warps": [
+    {
+     "id": 1,
+     "x": 12,
+     "y": 23,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_1F",
+     "dest_warp": 6,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FourIsland_IcefallCave_Entrance": {
+   "name": "FourIsland_IcefallCave_Entrance",
+   "id_const": "MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE",
+   "region": "sevii",
+   "width_tiles": 30,
+   "height_tiles": 36,
+   "warps": [
+    {
+     "id": 1,
+     "x": 17,
+     "y": 30,
+     "dest_map": "MAP_FOUR_ISLAND",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 10,
+     "y": 21,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 9,
+     "y": 7,
+     "dest_map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FourIsland_LoreleisHouse": {
+   "name": "FourIsland_LoreleisHouse",
+   "id_const": "MAP_FOUR_ISLAND_LORELEIS_HOUSE",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_FOUR_ISLAND",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FourIsland_Mart": {
+   "name": "FourIsland_Mart",
+   "id_const": "MAP_FOUR_ISLAND_MART",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_FOUR_ISLAND",
+     "dest_warp": 8,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FourIsland_PokemonCenter_1F": {
+   "name": "FourIsland_PokemonCenter_1F",
+   "id_const": "MAP_FOUR_ISLAND_POKEMON_CENTER_1F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 7,
+     "y": 8,
+     "dest_map": "MAP_FOUR_ISLAND",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_FOUR_ISLAND_POKEMON_CENTER_2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "FourIsland_PokemonCenter_2F": {
+   "name": "FourIsland_PokemonCenter_2F",
+   "id_const": "MAP_FOUR_ISLAND_POKEMON_CENTER_2F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_FOUR_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_UNION_ROOM",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Union Room authored from the FRLG original (build 6 converts it)"
+    },
+    {
+     "id": 3,
+     "x": 9,
+     "y": 1,
+     "retarget": "MAP_TRADE_CENTER -> TRADE_CENTER (audit R-03)",
+     "dest_map": "TRADE_CENTER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Bound TradeCenter; warp list authored in this patch set (R-04 pattern)"
+    }
+   ],
+   "connections": []
+  },
+  "FourIsland_PokemonDayCare": {
+   "name": "FourIsland_PokemonDayCare",
+   "id_const": "MAP_FOUR_ISLAND_POKEMON_DAY_CARE",
+   "region": "sevii",
+   "width_tiles": 12,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_FOUR_ISLAND",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_Exterior": {
+   "name": "MtEmber_Exterior",
+   "id_const": "MAP_MT_EMBER_EXTERIOR",
+   "region": "sevii",
+   "width_tiles": 57,
+   "height_tiles": 54,
+   "warps": [
+    {
+     "id": 1,
+     "x": 28,
+     "y": 48,
+     "dest_map": "MAP_ONE_ISLAND_KINDLE_ROAD",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 29,
+     "y": 48,
+     "dest_map": "MAP_ONE_ISLAND_KINDLE_ROAD",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 14,
+     "y": 24,
+     "dest_map": "MAP_MT_EMBER_SUMMIT_PATH_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 39,
+     "y": 19,
+     "dest_map": "MAP_MT_EMBER_SUMMIT_PATH_3F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 5,
+     "x": 29,
+     "y": 7,
+     "dest_map": "MAP_MT_EMBER_SUMMIT",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 6,
+     "x": 42,
+     "y": 39,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_RubyPath_1F": {
+   "name": "MtEmber_RubyPath_1F",
+   "id_const": "MAP_MT_EMBER_RUBY_PATH_1F",
+   "region": "sevii",
+   "width_tiles": 27,
+   "height_tiles": 19,
+   "warps": [
+    {
+     "id": 1,
+     "x": 22,
+     "y": 17,
+     "dest_map": "MAP_MT_EMBER_EXTERIOR",
+     "dest_warp": 6,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 1,
+     "y": 1,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 24,
+     "y": 5,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_RubyPath_B1F": {
+   "name": "MtEmber_RubyPath_B1F",
+   "id_const": "MAP_MT_EMBER_RUBY_PATH_B1F",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 23,
+   "warps": [
+    {
+     "id": 1,
+     "x": 9,
+     "y": 21,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 6,
+     "y": 1,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_RubyPath_B1F_Stairs": {
+   "name": "MtEmber_RubyPath_B1F_Stairs",
+   "id_const": "MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS",
+   "region": "sevii",
+   "width_tiles": 6,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 1,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B3F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 1,
+     "y": 5,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_RubyPath_B2F": {
+   "name": "MtEmber_RubyPath_B2F",
+   "id_const": "MAP_MT_EMBER_RUBY_PATH_B2F",
+   "region": "sevii",
+   "width_tiles": 16,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 1,
+     "y": 7,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 13,
+     "y": 9,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B3F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_RubyPath_B2F_Stairs": {
+   "name": "MtEmber_RubyPath_B2F_Stairs",
+   "id_const": "MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS",
+   "region": "sevii",
+   "width_tiles": 8,
+   "height_tiles": 6,
+   "warps": [
+    {
+     "id": 1,
+     "x": 6,
+     "y": 1,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 1,
+     "y": 4,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_1F",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_RubyPath_B3F": {
+   "name": "MtEmber_RubyPath_B3F",
+   "id_const": "MAP_MT_EMBER_RUBY_PATH_B3F",
+   "region": "sevii",
+   "width_tiles": 31,
+   "height_tiles": 23,
+   "warps": [
+    {
+     "id": 1,
+     "x": 1,
+     "y": 4,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B2F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 19,
+     "y": 19,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 5,
+     "y": 19,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B4F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_RubyPath_B4F": {
+   "name": "MtEmber_RubyPath_B4F",
+   "id_const": "MAP_MT_EMBER_RUBY_PATH_B4F",
+   "region": "sevii",
+   "width_tiles": 18,
+   "height_tiles": 16,
+   "warps": [
+    {
+     "id": 1,
+     "x": 14,
+     "y": 14,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B5F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 2,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B3F",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_RubyPath_B5F": {
+   "name": "MtEmber_RubyPath_B5F",
+   "id_const": "MAP_MT_EMBER_RUBY_PATH_B5F",
+   "region": "sevii",
+   "width_tiles": 16,
+   "height_tiles": 15,
+   "warps": [
+    {
+     "id": 1,
+     "x": 11,
+     "y": 7,
+     "dest_map": "MAP_MT_EMBER_RUBY_PATH_B4F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_Summit": {
+   "name": "MtEmber_Summit",
+   "id_const": "MAP_MT_EMBER_SUMMIT",
+   "region": "sevii",
+   "width_tiles": 19,
+   "height_tiles": 22,
+   "warps": [
+    {
+     "id": 1,
+     "x": 9,
+     "y": 15,
+     "dest_map": "MAP_MT_EMBER_EXTERIOR",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_SummitPath_1F": {
+   "name": "MtEmber_SummitPath_1F",
+   "id_const": "MAP_MT_EMBER_SUMMIT_PATH_1F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 18,
+   "warps": [
+    {
+     "id": 1,
+     "x": 2,
+     "y": 15,
+     "dest_map": "MAP_MT_EMBER_EXTERIOR",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 11,
+     "y": 1,
+     "dest_map": "MAP_MT_EMBER_SUMMIT_PATH_2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_SummitPath_2F": {
+   "name": "MtEmber_SummitPath_2F",
+   "id_const": "MAP_MT_EMBER_SUMMIT_PATH_2F",
+   "region": "sevii",
+   "width_tiles": 48,
+   "height_tiles": 46,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 39,
+     "dest_map": "MAP_MT_EMBER_SUMMIT_PATH_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 39,
+     "y": 6,
+     "dest_map": "MAP_MT_EMBER_SUMMIT_PATH_3F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "MtEmber_SummitPath_3F": {
+   "name": "MtEmber_SummitPath_3F",
+   "id_const": "MAP_MT_EMBER_SUMMIT_PATH_3F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 2,
+     "y": 4,
+     "dest_map": "MAP_MT_EMBER_SUMMIT_PATH_2F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 11,
+     "y": 8,
+     "dest_map": "MAP_MT_EMBER_EXTERIOR",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_1F": {
+   "name": "NavelRock_1F",
+   "id_const": "MAP_NAVEL_ROCK_1F",
+   "region": "sevii",
+   "width_tiles": 17,
+   "height_tiles": 26,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_B1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 8,
+     "y": 23,
+     "dest_map": "MAP_NAVEL_ROCK_EXTERIOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_B1F": {
+   "name": "NavelRock_B1F",
+   "id_const": "MAP_NAVEL_ROCK_B1F",
+   "region": "sevii",
+   "width_tiles": 17,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 11,
+     "y": 5,
+     "dest_map": "MAP_NAVEL_ROCK_FORK",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_Base": {
+   "name": "NavelRock_Base",
+   "id_const": "MAP_NAVEL_ROCK_BASE",
+   "region": "sevii",
+   "width_tiles": 21,
+   "height_tiles": 23,
+   "warps": [
+    {
+     "id": 1,
+     "x": 13,
+     "y": 20,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B11F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_BasePath_B10F": {
+   "name": "NavelRock_BasePath_B10F",
+   "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B10F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B9F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B11F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_BasePath_B11F": {
+   "name": "NavelRock_BasePath_B11F",
+   "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B11F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B10F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_BASE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_BasePath_B1F": {
+   "name": "NavelRock_BasePath_B1F",
+   "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B1F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_FORK",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_BasePath_B2F": {
+   "name": "NavelRock_BasePath_B2F",
+   "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B2F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B3F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_BasePath_B3F": {
+   "name": "NavelRock_BasePath_B3F",
+   "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B3F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B2F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B4F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_BasePath_B4F": {
+   "name": "NavelRock_BasePath_B4F",
+   "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B4F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B3F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B5F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_BasePath_B5F": {
+   "name": "NavelRock_BasePath_B5F",
+   "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B5F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B4F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B6F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_BasePath_B6F": {
+   "name": "NavelRock_BasePath_B6F",
+   "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B6F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B5F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B7F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_BasePath_B7F": {
+   "name": "NavelRock_BasePath_B7F",
+   "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B7F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B6F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B8F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_BasePath_B8F": {
+   "name": "NavelRock_BasePath_B8F",
+   "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B8F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B7F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B9F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_BasePath_B9F": {
+   "name": "NavelRock_BasePath_B9F",
+   "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B9F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B8F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B10F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_Exterior": {
+   "name": "NavelRock_Exterior",
+   "id_const": "MAP_NAVEL_ROCK_EXTERIOR",
+   "region": "sevii",
+   "width_tiles": 20,
+   "height_tiles": 23,
+   "warps": [
+    {
+     "id": 1,
+     "x": 9,
+     "y": 8,
+     "dest_map": "MAP_NAVEL_ROCK_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 9,
+     "y": 16,
+     "dest_map": "MAP_NAVEL_ROCK_HARBOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_Fork": {
+   "name": "NavelRock_Fork",
+   "id_const": "MAP_NAVEL_ROCK_FORK",
+   "region": "sevii",
+   "width_tiles": 30,
+   "height_tiles": 100,
+   "warps": [
+    {
+     "id": 1,
+     "x": 13,
+     "y": 95,
+     "dest_map": "MAP_NAVEL_ROCK_B1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 3,
+     "y": 1,
+     "dest_map": "MAP_NAVEL_ROCK_SUMMIT_PATH_2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 26,
+     "y": 1,
+     "dest_map": "MAP_NAVEL_ROCK_BASE_PATH_B1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_Harbor": {
+   "name": "NavelRock_Harbor",
+   "id_const": "MAP_NAVEL_ROCK_HARBOR",
+   "region": "sevii",
+   "width_tiles": 17,
+   "height_tiles": 13,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_EXTERIOR",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_Summit": {
+   "name": "NavelRock_Summit",
+   "id_const": "MAP_NAVEL_ROCK_SUMMIT",
+   "region": "sevii",
+   "width_tiles": 19,
+   "height_tiles": 25,
+   "warps": [
+    {
+     "id": 1,
+     "x": 10,
+     "y": 18,
+     "dest_map": "MAP_NAVEL_ROCK_SUMMIT_PATH_5F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_SummitPath_2F": {
+   "name": "NavelRock_SummitPath_2F",
+   "id_const": "MAP_NAVEL_ROCK_SUMMIT_PATH_2F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_FORK",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_SUMMIT_PATH_3F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_SummitPath_3F": {
+   "name": "NavelRock_SummitPath_3F",
+   "id_const": "MAP_NAVEL_ROCK_SUMMIT_PATH_3F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_SUMMIT_PATH_2F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_SUMMIT_PATH_4F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_SummitPath_4F": {
+   "name": "NavelRock_SummitPath_4F",
+   "id_const": "MAP_NAVEL_ROCK_SUMMIT_PATH_4F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_SUMMIT_PATH_3F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_SUMMIT_PATH_5F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "NavelRock_SummitPath_5F": {
+   "name": "NavelRock_SummitPath_5F",
+   "id_const": "MAP_NAVEL_ROCK_SUMMIT_PATH_5F",
+   "region": "sevii",
+   "width_tiles": 7,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 2,
+     "y": 2,
+     "dest_map": "MAP_NAVEL_ROCK_SUMMIT_PATH_4F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 4,
+     "dest_map": "MAP_NAVEL_ROCK_SUMMIT",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "OneIsland": {
+   "name": "OneIsland",
+   "id_const": "MAP_ONE_ISLAND",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 20,
+   "warps": [
+    {
+     "id": 1,
+     "x": 14,
+     "y": 5,
+     "dest_map": "MAP_ONE_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 19,
+     "y": 9,
+     "dest_map": "MAP_ONE_ISLAND_HOUSE1",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 8,
+     "y": 11,
+     "dest_map": "MAP_ONE_ISLAND_HOUSE2",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 12,
+     "y": 18,
+     "dest_map": "MAP_ONE_ISLAND_HARBOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "down",
+     "dest_map": "MAP_ONE_ISLAND_TREASURE_BEACH",
+     "dest_name": "OneIsland_TreasureBeach",
+     "offset": 0
+    },
+    {
+     "direction": "right",
+     "dest_map": "MAP_ONE_ISLAND_KINDLE_ROAD",
+     "dest_name": "OneIsland_KindleRoad",
+     "offset": -120
+    }
+   ]
+  },
+  "OneIsland_Harbor": {
+   "name": "OneIsland_Harbor",
+   "id_const": "MAP_ONE_ISLAND_HARBOR",
+   "region": "sevii",
+   "width_tiles": 17,
+   "height_tiles": 13,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 2,
+     "dest_map": "MAP_ONE_ISLAND",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "OneIsland_House1": {
+   "name": "OneIsland_House1",
+   "id_const": "MAP_ONE_ISLAND_HOUSE1",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_ONE_ISLAND",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "OneIsland_House2": {
+   "name": "OneIsland_House2",
+   "id_const": "MAP_ONE_ISLAND_HOUSE2",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_ONE_ISLAND",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "OneIsland_KindleRoad": {
+   "name": "OneIsland_KindleRoad",
+   "id_const": "MAP_ONE_ISLAND_KINDLE_ROAD",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 140,
+   "warps": [
+    {
+     "id": 1,
+     "x": 11,
+     "y": 6,
+     "dest_map": "MAP_MT_EMBER_EXTERIOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 12,
+     "y": 6,
+     "dest_map": "MAP_MT_EMBER_EXTERIOR",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 15,
+     "y": 58,
+     "dest_map": "MAP_ONE_ISLAND_KINDLE_ROAD_EMBER_SPA",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "left",
+     "dest_map": "MAP_ONE_ISLAND",
+     "dest_name": "OneIsland",
+     "offset": 120
+    }
+   ]
+  },
+  "OneIsland_KindleRoad_EmberSpa": {
+   "name": "OneIsland_KindleRoad_EmberSpa",
+   "id_const": "MAP_ONE_ISLAND_KINDLE_ROAD_EMBER_SPA",
+   "region": "sevii",
+   "width_tiles": 27,
+   "height_tiles": 39,
+   "warps": [
+    {
+     "id": 1,
+     "x": 13,
+     "y": 36,
+     "dest_map": "MAP_ONE_ISLAND_KINDLE_ROAD",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "OneIsland_PokemonCenter_1F": {
+   "name": "OneIsland_PokemonCenter_1F",
+   "id_const": "MAP_ONE_ISLAND_POKEMON_CENTER_1F",
+   "region": "sevii",
+   "width_tiles": 19,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 9,
+     "y": 9,
+     "dest_map": "MAP_ONE_ISLAND",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 1,
+     "y": 5,
+     "dest_map": "MAP_ONE_ISLAND_POKEMON_CENTER_2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "OneIsland_PokemonCenter_2F": {
+   "name": "OneIsland_PokemonCenter_2F",
+   "id_const": "MAP_ONE_ISLAND_POKEMON_CENTER_2F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_ONE_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_UNION_ROOM",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Union Room authored from the FRLG original (build 6 converts it)"
+    },
+    {
+     "id": 3,
+     "x": 9,
+     "y": 1,
+     "retarget": "MAP_TRADE_CENTER -> TRADE_CENTER (audit R-03)",
+     "dest_map": "TRADE_CENTER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Bound TradeCenter; warp list authored in this patch set (R-04 pattern)"
+    }
+   ],
+   "connections": []
+  },
+  "OneIsland_TreasureBeach": {
+   "name": "OneIsland_TreasureBeach",
+   "id_const": "MAP_ONE_ISLAND_TREASURE_BEACH",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 40,
+   "warps": [],
+   "connections": [
+    {
+     "direction": "up",
+     "dest_map": "MAP_ONE_ISLAND",
+     "dest_name": "OneIsland",
+     "offset": 0
+    }
+   ]
+  },
+  "SevenIsland": {
+   "name": "SevenIsland",
+   "id_const": "MAP_SEVEN_ISLAND",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 20,
+   "warps": [
+    {
+     "id": 1,
+     "x": 11,
+     "y": 9,
+     "dest_map": "MAP_SEVEN_ISLAND_HOUSE_ROOM1",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 5,
+     "y": 9,
+     "dest_map": "MAP_SEVEN_ISLAND_MART",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 12,
+     "y": 3,
+     "dest_map": "MAP_SEVEN_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 16,
+     "y": 13,
+     "dest_map": "MAP_SEVEN_ISLAND_HARBOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "up",
+     "dest_map": "MAP_SEVEN_ISLAND_TRAINER_TOWER",
+     "dest_name": "SevenIsland_TrainerTower",
+     "offset": -48
+    },
+    {
+     "direction": "down",
+     "dest_map": "MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE",
+     "dest_name": "SevenIsland_SevaultCanyon_Entrance",
+     "offset": 0
+    }
+   ]
+  },
+  "SevenIsland_Harbor": {
+   "name": "SevenIsland_Harbor",
+   "id_const": "MAP_SEVEN_ISLAND_HARBOR",
+   "region": "sevii",
+   "width_tiles": 17,
+   "height_tiles": 13,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 2,
+     "dest_map": "MAP_SEVEN_ISLAND",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_House_Room1": {
+   "name": "SevenIsland_House_Room1",
+   "id_const": "MAP_SEVEN_ISLAND_HOUSE_ROOM1",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_SEVEN_ISLAND",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 1,
+     "dest_map": "MAP_SEVEN_ISLAND_HOUSE_ROOM2",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_House_Room2": {
+   "name": "SevenIsland_House_Room2",
+   "id_const": "MAP_SEVEN_ISLAND_HOUSE_ROOM2",
+   "region": "sevii",
+   "width_tiles": 12,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 3,
+     "y": 1,
+     "dest_map": "MAP_SEVEN_ISLAND_HOUSE_ROOM1",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_Mart": {
+   "name": "SevenIsland_Mart",
+   "id_const": "MAP_SEVEN_ISLAND_MART",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_SEVEN_ISLAND",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_PokemonCenter_1F": {
+   "name": "SevenIsland_PokemonCenter_1F",
+   "id_const": "MAP_SEVEN_ISLAND_POKEMON_CENTER_1F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 7,
+     "y": 8,
+     "dest_map": "MAP_SEVEN_ISLAND",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_SEVEN_ISLAND_POKEMON_CENTER_2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_PokemonCenter_2F": {
+   "name": "SevenIsland_PokemonCenter_2F",
+   "id_const": "MAP_SEVEN_ISLAND_POKEMON_CENTER_2F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_SEVEN_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_UNION_ROOM",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Union Room authored from the FRLG original (build 6 converts it)"
+    },
+    {
+     "id": 3,
+     "x": 9,
+     "y": 1,
+     "retarget": "MAP_TRADE_CENTER -> TRADE_CENTER (audit R-03)",
+     "dest_map": "TRADE_CENTER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Bound TradeCenter; warp list authored in this patch set (R-04 pattern)"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_SevaultCanyon": {
+   "name": "SevenIsland_SevaultCanyon",
+   "id_const": "MAP_SEVEN_ISLAND_SEVAULT_CANYON",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 80,
+   "warps": [
+    {
+     "id": 1,
+     "x": 7,
+     "y": 17,
+     "dest_map": "MAP_SEVEN_ISLAND_SEVAULT_CANYON_TANOBY_KEY",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 14,
+     "y": 61,
+     "dest_map": "MAP_SEVEN_ISLAND_SEVAULT_CANYON_HOUSE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "down",
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS",
+     "dest_name": "SevenIsland_TanobyRuins",
+     "offset": -48
+    },
+    {
+     "direction": "left",
+     "dest_map": "MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE",
+     "dest_name": "SevenIsland_SevaultCanyon_Entrance",
+     "offset": -20
+    }
+   ]
+  },
+  "SevenIsland_SevaultCanyon_Entrance": {
+   "name": "SevenIsland_SevaultCanyon_Entrance",
+   "id_const": "MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 40,
+   "warps": [],
+   "connections": [
+    {
+     "direction": "up",
+     "dest_map": "MAP_SEVEN_ISLAND",
+     "dest_name": "SevenIsland",
+     "offset": 0
+    },
+    {
+     "direction": "right",
+     "dest_map": "MAP_SEVEN_ISLAND_SEVAULT_CANYON",
+     "dest_name": "SevenIsland_SevaultCanyon",
+     "offset": 20
+    }
+   ]
+  },
+  "SevenIsland_SevaultCanyon_House": {
+   "name": "SevenIsland_SevaultCanyon_House",
+   "id_const": "MAP_SEVEN_ISLAND_SEVAULT_CANYON_HOUSE",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_SEVEN_ISLAND_SEVAULT_CANYON",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_SevaultCanyon_TanobyKey": {
+   "name": "SevenIsland_SevaultCanyon_TanobyKey",
+   "id_const": "MAP_SEVEN_ISLAND_SEVAULT_CANYON_TANOBY_KEY",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 16,
+   "warps": [
+    {
+     "id": 1,
+     "x": 7,
+     "y": 13,
+     "dest_map": "MAP_SEVEN_ISLAND_SEVAULT_CANYON",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_TanobyRuins": {
+   "name": "SevenIsland_TanobyRuins",
+   "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS",
+   "region": "sevii",
+   "width_tiles": 144,
+   "height_tiles": 20,
+   "warps": [
+    {
+     "id": 1,
+     "x": 120,
+     "y": 10,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 103,
+     "y": 10,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS_LIPTOO_CHAMBER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 88,
+     "y": 8,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS_WEEPTH_CHAMBER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 44,
+     "y": 11,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS_DILFORD_CHAMBER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 5,
+     "x": 32,
+     "y": 9,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS_SCUFIB_CHAMBER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 6,
+     "x": 12,
+     "y": 15,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS_RIXY_CHAMBER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 7,
+     "x": 11,
+     "y": 6,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS_VIAPOIS_CHAMBER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "up",
+     "dest_map": "MAP_SEVEN_ISLAND_SEVAULT_CANYON",
+     "dest_name": "SevenIsland_SevaultCanyon",
+     "offset": 48
+    }
+   ]
+  },
+  "SevenIsland_TanobyRuins_DilfordChamber": {
+   "name": "SevenIsland_TanobyRuins_DilfordChamber",
+   "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_DILFORD_CHAMBER",
+   "region": "sevii",
+   "width_tiles": 23,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 11,
+     "y": 15,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_TanobyRuins_LiptooChamber": {
+   "name": "SevenIsland_TanobyRuins_LiptooChamber",
+   "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_LIPTOO_CHAMBER",
+   "region": "sevii",
+   "width_tiles": 23,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 11,
+     "y": 15,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_TanobyRuins_MoneanChamber": {
+   "name": "SevenIsland_TanobyRuins_MoneanChamber",
+   "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER",
+   "region": "sevii",
+   "width_tiles": 23,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 11,
+     "y": 15,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_TanobyRuins_RixyChamber": {
+   "name": "SevenIsland_TanobyRuins_RixyChamber",
+   "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_RIXY_CHAMBER",
+   "region": "sevii",
+   "width_tiles": 23,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 11,
+     "y": 15,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS",
+     "dest_warp": 6,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_TanobyRuins_ScufibChamber": {
+   "name": "SevenIsland_TanobyRuins_ScufibChamber",
+   "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_SCUFIB_CHAMBER",
+   "region": "sevii",
+   "width_tiles": 23,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 11,
+     "y": 15,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_TanobyRuins_ViapoisChamber": {
+   "name": "SevenIsland_TanobyRuins_ViapoisChamber",
+   "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_VIAPOIS_CHAMBER",
+   "region": "sevii",
+   "width_tiles": 23,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 11,
+     "y": 15,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS",
+     "dest_warp": 7,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_TanobyRuins_WeepthChamber": {
+   "name": "SevenIsland_TanobyRuins_WeepthChamber",
+   "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_WEEPTH_CHAMBER",
+   "region": "sevii",
+   "width_tiles": 23,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 11,
+     "y": 15,
+     "dest_map": "MAP_SEVEN_ISLAND_TANOBY_RUINS",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SevenIsland_TrainerTower": {
+   "name": "SevenIsland_TrainerTower",
+   "id_const": "MAP_SEVEN_ISLAND_TRAINER_TOWER",
+   "region": "sevii",
+   "width_tiles": 120,
+   "height_tiles": 40,
+   "warps": [
+    {
+     "id": 1,
+     "x": 58,
+     "y": 7,
+     "dest_map": "MAP_TRAINER_TOWER_LOBBY",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "down",
+     "dest_map": "MAP_SEVEN_ISLAND",
+     "dest_name": "SevenIsland",
+     "offset": 48
+    }
+   ]
+  },
+  "SevenIsland_UnusedHouse": {
+   "name": "SevenIsland_UnusedHouse",
+   "id_const": "MAP_SEVEN_ISLAND_UNUSED_HOUSE",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [],
+   "connections": []
+  },
+  "SixIsland": {
+   "name": "SixIsland",
+   "id_const": "MAP_SIX_ISLAND",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 30,
+   "warps": [
+    {
+     "id": 1,
+     "x": 11,
+     "y": 23,
+     "dest_map": "MAP_SIX_ISLAND_HARBOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 11,
+     "y": 11,
+     "dest_map": "MAP_SIX_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 16,
+     "y": 17,
+     "dest_map": "MAP_SIX_ISLAND_HOUSE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 20,
+     "y": 11,
+     "dest_map": "MAP_SIX_ISLAND_MART",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "right",
+     "dest_map": "MAP_SIX_ISLAND_WATER_PATH",
+     "dest_name": "SixIsland_WaterPath",
+     "offset": -40
+    }
+   ]
+  },
+  "SixIsland_AlteringCave": {
+   "name": "SixIsland_AlteringCave",
+   "id_const": "MAP_SIX_ISLAND_ALTERING_CAVE",
+   "region": "sevii",
+   "width_tiles": 32,
+   "height_tiles": 24,
+   "warps": [
+    {
+     "id": 1,
+     "x": 18,
+     "y": 22,
+     "dest_map": "MAP_SIX_ISLAND_OUTCAST_ISLAND",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_DottedHole_1F": {
+   "name": "SixIsland_DottedHole_1F",
+   "id_const": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+   "region": "sevii",
+   "width_tiles": 16,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 6,
+     "y": 9,
+     "dest_map": "MAP_SIX_ISLAND_RUIN_VALLEY",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 6,
+     "y": 5,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_B1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 13,
+     "y": 5,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_SAPPHIRE_ROOM",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 6,
+     "y": 7,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_B1F",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_DottedHole_B1F": {
+   "name": "SixIsland_DottedHole_B1F",
+   "id_const": "MAP_SIX_ISLAND_DOTTED_HOLE_B1F",
+   "region": "sevii",
+   "width_tiles": 13,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 6,
+     "y": 7,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 6,
+     "y": 1,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_B2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 11,
+     "y": 5,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 6,
+     "y": 9,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 5,
+     "x": 1,
+     "y": 5,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_DottedHole_B2F": {
+   "name": "SixIsland_DottedHole_B2F",
+   "id_const": "MAP_SIX_ISLAND_DOTTED_HOLE_B2F",
+   "region": "sevii",
+   "width_tiles": 13,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 6,
+     "y": 7,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_B1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 6,
+     "y": 1,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 11,
+     "y": 5,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 6,
+     "y": 9,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 5,
+     "x": 1,
+     "y": 5,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_B3F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_DottedHole_B3F": {
+   "name": "SixIsland_DottedHole_B3F",
+   "id_const": "MAP_SIX_ISLAND_DOTTED_HOLE_B3F",
+   "region": "sevii",
+   "width_tiles": 13,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 6,
+     "y": 7,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_B2F",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 6,
+     "y": 1,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 11,
+     "y": 5,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_B4F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 6,
+     "y": 9,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 5,
+     "x": 1,
+     "y": 5,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_DottedHole_B4F": {
+   "name": "SixIsland_DottedHole_B4F",
+   "id_const": "MAP_SIX_ISLAND_DOTTED_HOLE_B4F",
+   "region": "sevii",
+   "width_tiles": 13,
+   "height_tiles": 11,
+   "warps": [
+    {
+     "id": 1,
+     "x": 6,
+     "y": 7,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_B3F",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 6,
+     "y": 1,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 11,
+     "y": 5,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 6,
+     "y": 9,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_SAPPHIRE_ROOM",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 5,
+     "x": 1,
+     "y": 5,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_DottedHole_SapphireRoom": {
+   "name": "SixIsland_DottedHole_SapphireRoom",
+   "id_const": "MAP_SIX_ISLAND_DOTTED_HOLE_SAPPHIRE_ROOM",
+   "region": "sevii",
+   "width_tiles": 16,
+   "height_tiles": 15,
+   "warps": [
+    {
+     "id": 1,
+     "x": 11,
+     "y": 7,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 5,
+     "y": 9,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_B4F",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_GreenPath": {
+   "name": "SixIsland_GreenPath",
+   "id_const": "MAP_SIX_ISLAND_GREEN_PATH",
+   "region": "sevii",
+   "width_tiles": 72,
+   "height_tiles": 20,
+   "warps": [
+    {
+     "id": 1,
+     "x": 63,
+     "y": 10,
+     "dest_map": "MAP_SIX_ISLAND_PATTERN_BUSH",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 64,
+     "y": 10,
+     "dest_map": "MAP_SIX_ISLAND_PATTERN_BUSH",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 45,
+     "y": 10,
+     "dest_map": "MAP_SIX_ISLAND_PATTERN_BUSH",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 46,
+     "y": 10,
+     "dest_map": "MAP_SIX_ISLAND_PATTERN_BUSH",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "up",
+     "dest_map": "MAP_SIX_ISLAND_OUTCAST_ISLAND",
+     "dest_name": "SixIsland_OutcastIsland",
+     "offset": 0
+    },
+    {
+     "direction": "right",
+     "dest_map": "MAP_SIX_ISLAND_WATER_PATH",
+     "dest_name": "SixIsland_WaterPath",
+     "offset": 0
+    }
+   ]
+  },
+  "SixIsland_Harbor": {
+   "name": "SixIsland_Harbor",
+   "id_const": "MAP_SIX_ISLAND_HARBOR",
+   "region": "sevii",
+   "width_tiles": 17,
+   "height_tiles": 13,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 2,
+     "dest_map": "MAP_SIX_ISLAND",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_House": {
+   "name": "SixIsland_House",
+   "id_const": "MAP_SIX_ISLAND_HOUSE",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_SIX_ISLAND",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_Mart": {
+   "name": "SixIsland_Mart",
+   "id_const": "MAP_SIX_ISLAND_MART",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_SIX_ISLAND",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_OutcastIsland": {
+   "name": "SixIsland_OutcastIsland",
+   "id_const": "MAP_SIX_ISLAND_OUTCAST_ISLAND",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 80,
+   "warps": [
+    {
+     "id": 1,
+     "x": 7,
+     "y": 21,
+     "dest_map": "MAP_SIX_ISLAND_ALTERING_CAVE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "down",
+     "dest_map": "MAP_SIX_ISLAND_GREEN_PATH",
+     "dest_name": "SixIsland_GreenPath",
+     "offset": 0
+    }
+   ]
+  },
+  "SixIsland_PatternBush": {
+   "name": "SixIsland_PatternBush",
+   "id_const": "MAP_SIX_ISLAND_PATTERN_BUSH",
+   "region": "sevii",
+   "width_tiles": 60,
+   "height_tiles": 32,
+   "warps": [
+    {
+     "id": 1,
+     "x": 54,
+     "y": 26,
+     "dest_map": "MAP_SIX_ISLAND_GREEN_PATH",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 55,
+     "y": 26,
+     "dest_map": "MAP_SIX_ISLAND_GREEN_PATH",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 56,
+     "y": 26,
+     "dest_map": "MAP_SIX_ISLAND_GREEN_PATH",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 3,
+     "y": 26,
+     "dest_map": "MAP_SIX_ISLAND_GREEN_PATH",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 5,
+     "x": 4,
+     "y": 26,
+     "dest_map": "MAP_SIX_ISLAND_GREEN_PATH",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 6,
+     "x": 5,
+     "y": 26,
+     "dest_map": "MAP_SIX_ISLAND_GREEN_PATH",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_PokemonCenter_1F": {
+   "name": "SixIsland_PokemonCenter_1F",
+   "id_const": "MAP_SIX_ISLAND_POKEMON_CENTER_1F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 7,
+     "y": 8,
+     "dest_map": "MAP_SIX_ISLAND",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_SIX_ISLAND_POKEMON_CENTER_2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_PokemonCenter_2F": {
+   "name": "SixIsland_PokemonCenter_2F",
+   "id_const": "MAP_SIX_ISLAND_POKEMON_CENTER_2F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_SIX_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_UNION_ROOM",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Union Room authored from the FRLG original (build 6 converts it)"
+    },
+    {
+     "id": 3,
+     "x": 9,
+     "y": 1,
+     "retarget": "MAP_TRADE_CENTER -> TRADE_CENTER (audit R-03)",
+     "dest_map": "TRADE_CENTER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Bound TradeCenter; warp list authored in this patch set (R-04 pattern)"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_RuinValley": {
+   "name": "SixIsland_RuinValley",
+   "id_const": "MAP_SIX_ISLAND_RUIN_VALLEY",
+   "region": "sevii",
+   "width_tiles": 48,
+   "height_tiles": 40,
+   "warps": [
+    {
+     "id": 1,
+     "x": 24,
+     "y": 24,
+     "dest_map": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "right",
+     "dest_map": "MAP_SIX_ISLAND_WATER_PATH",
+     "dest_name": "SixIsland_WaterPath",
+     "offset": -80
+    }
+   ]
+  },
+  "SixIsland_WaterPath": {
+   "name": "SixIsland_WaterPath",
+   "id_const": "MAP_SIX_ISLAND_WATER_PATH",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 100,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 13,
+     "dest_map": "MAP_SIX_ISLAND_WATER_PATH_HOUSE1",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 11,
+     "y": 19,
+     "dest_map": "MAP_SIX_ISLAND_WATER_PATH_HOUSE2",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "left",
+     "dest_map": "MAP_SIX_ISLAND_GREEN_PATH",
+     "dest_name": "SixIsland_GreenPath",
+     "offset": 0
+    },
+    {
+     "direction": "left",
+     "dest_map": "MAP_SIX_ISLAND",
+     "dest_name": "SixIsland",
+     "offset": 40
+    },
+    {
+     "direction": "left",
+     "dest_map": "MAP_SIX_ISLAND_RUIN_VALLEY",
+     "dest_name": "SixIsland_RuinValley",
+     "offset": 80
+    }
+   ]
+  },
+  "SixIsland_WaterPath_House1": {
+   "name": "SixIsland_WaterPath_House1",
+   "id_const": "MAP_SIX_ISLAND_WATER_PATH_HOUSE1",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 3,
+     "y": 7,
+     "dest_map": "MAP_SIX_ISLAND_WATER_PATH",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "SixIsland_WaterPath_House2": {
+   "name": "SixIsland_WaterPath_House2",
+   "id_const": "MAP_SIX_ISLAND_WATER_PATH_HOUSE2",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_SIX_ISLAND_WATER_PATH",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "ThreeIsland": {
+   "name": "ThreeIsland",
+   "id_const": "MAP_THREE_ISLAND",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 40,
+   "warps": [
+    {
+     "id": 1,
+     "x": 3,
+     "y": 31,
+     "dest_map": "MAP_THREE_ISLAND_HOUSE1",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 14,
+     "y": 27,
+     "dest_map": "MAP_THREE_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 18,
+     "y": 12,
+     "dest_map": "MAP_THREE_ISLAND_MART",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 4,
+     "y": 6,
+     "dest_map": "MAP_THREE_ISLAND_HOUSE2",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 5,
+     "x": 12,
+     "y": 6,
+     "dest_map": "MAP_THREE_ISLAND_HOUSE3",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 6,
+     "x": 12,
+     "y": 12,
+     "dest_map": "MAP_THREE_ISLAND_HOUSE4",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 7,
+     "x": 13,
+     "y": 19,
+     "dest_map": "MAP_THREE_ISLAND_HOUSE5",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "down",
+     "dest_map": "MAP_THREE_ISLAND_PORT",
+     "dest_name": "ThreeIsland_Port",
+     "offset": 0
+    },
+    {
+     "direction": "left",
+     "dest_map": "MAP_THREE_ISLAND_BOND_BRIDGE",
+     "dest_name": "ThreeIsland_BondBridge",
+     "offset": 0
+    }
+   ]
+  },
+  "ThreeIsland_BerryForest": {
+   "name": "ThreeIsland_BerryForest",
+   "id_const": "MAP_THREE_ISLAND_BERRY_FOREST",
+   "region": "sevii",
+   "width_tiles": 57,
+   "height_tiles": 47,
+   "warps": [
+    {
+     "id": 1,
+     "x": 43,
+     "y": 41,
+     "dest_map": "MAP_THREE_ISLAND_BOND_BRIDGE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 42,
+     "y": 41,
+     "dest_map": "MAP_THREE_ISLAND_BOND_BRIDGE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 44,
+     "y": 41,
+     "dest_map": "MAP_THREE_ISLAND_BOND_BRIDGE",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "ThreeIsland_BondBridge": {
+   "name": "ThreeIsland_BondBridge",
+   "id_const": "MAP_THREE_ISLAND_BOND_BRIDGE",
+   "region": "sevii",
+   "width_tiles": 96,
+   "height_tiles": 20,
+   "warps": [
+    {
+     "id": 1,
+     "x": 12,
+     "y": 6,
+     "dest_map": "MAP_THREE_ISLAND_BERRY_FOREST",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 13,
+     "y": 6,
+     "dest_map": "MAP_THREE_ISLAND_BERRY_FOREST",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "right",
+     "dest_map": "MAP_THREE_ISLAND",
+     "dest_name": "ThreeIsland",
+     "offset": 0
+    }
+   ]
+  },
+  "ThreeIsland_DunsparceTunnel": {
+   "name": "ThreeIsland_DunsparceTunnel",
+   "id_const": "MAP_THREE_ISLAND_DUNSPARCE_TUNNEL",
+   "region": "sevii",
+   "width_tiles": 30,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 3,
+     "y": 4,
+     "dest_map": "MAP_THREE_ISLAND_PORT",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 25,
+     "y": 5,
+     "dest_map": "MAP_THREE_ISLAND_PORT",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "ThreeIsland_Harbor": {
+   "name": "ThreeIsland_Harbor",
+   "id_const": "MAP_THREE_ISLAND_HARBOR",
+   "region": "sevii",
+   "width_tiles": 17,
+   "height_tiles": 13,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 2,
+     "dest_map": "MAP_THREE_ISLAND_PORT",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "ThreeIsland_House1": {
+   "name": "ThreeIsland_House1",
+   "id_const": "MAP_THREE_ISLAND_HOUSE1",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_THREE_ISLAND",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "ThreeIsland_House2": {
+   "name": "ThreeIsland_House2",
+   "id_const": "MAP_THREE_ISLAND_HOUSE2",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_THREE_ISLAND",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "ThreeIsland_House3": {
+   "name": "ThreeIsland_House3",
+   "id_const": "MAP_THREE_ISLAND_HOUSE3",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_THREE_ISLAND",
+     "dest_warp": 5,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "ThreeIsland_House4": {
+   "name": "ThreeIsland_House4",
+   "id_const": "MAP_THREE_ISLAND_HOUSE4",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_THREE_ISLAND",
+     "dest_warp": 6,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "ThreeIsland_House5": {
+   "name": "ThreeIsland_House5",
+   "id_const": "MAP_THREE_ISLAND_HOUSE5",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_THREE_ISLAND",
+     "dest_warp": 7,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "ThreeIsland_Mart": {
+   "name": "ThreeIsland_Mart",
+   "id_const": "MAP_THREE_ISLAND_MART",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_THREE_ISLAND",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "ThreeIsland_PokemonCenter_1F": {
+   "name": "ThreeIsland_PokemonCenter_1F",
+   "id_const": "MAP_THREE_ISLAND_POKEMON_CENTER_1F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 7,
+     "y": 8,
+     "dest_map": "MAP_THREE_ISLAND",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_THREE_ISLAND_POKEMON_CENTER_2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "ThreeIsland_PokemonCenter_2F": {
+   "name": "ThreeIsland_PokemonCenter_2F",
+   "id_const": "MAP_THREE_ISLAND_POKEMON_CENTER_2F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_THREE_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_UNION_ROOM",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Union Room authored from the FRLG original (build 6 converts it)"
+    },
+    {
+     "id": 3,
+     "x": 9,
+     "y": 1,
+     "retarget": "MAP_TRADE_CENTER -> TRADE_CENTER (audit R-03)",
+     "dest_map": "TRADE_CENTER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Bound TradeCenter; warp list authored in this patch set (R-04 pattern)"
+    }
+   ],
+   "connections": []
+  },
+  "ThreeIsland_Port": {
+   "name": "ThreeIsland_Port",
+   "id_const": "MAP_THREE_ISLAND_PORT",
+   "region": "sevii",
+   "width_tiles": 48,
+   "height_tiles": 20,
+   "warps": [
+    {
+     "id": 1,
+     "x": 16,
+     "y": 4,
+     "dest_map": "MAP_THREE_ISLAND_DUNSPARCE_TUNNEL",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 38,
+     "y": 5,
+     "dest_map": "MAP_THREE_ISLAND_DUNSPARCE_TUNNEL",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 12,
+     "y": 13,
+     "dest_map": "MAP_THREE_ISLAND_HARBOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "up",
+     "dest_map": "MAP_THREE_ISLAND",
+     "dest_name": "ThreeIsland",
+     "offset": 0
+    }
+   ]
+  },
+  "TrainerTower_1F": {
+   "name": "TrainerTower_1F",
+   "id_const": "MAP_TRAINER_TOWER_1F",
+   "region": "sevii",
+   "width_tiles": 18,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 15,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_2F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_LOBBY",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TrainerTower_2F": {
+   "name": "TrainerTower_2F",
+   "id_const": "MAP_TRAINER_TOWER_2F",
+   "region": "sevii",
+   "width_tiles": 18,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 15,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_3F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 13,
+     "y": 5,
+     "dest_map": "MAP_TRAINER_TOWER_ELEVATOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TrainerTower_3F": {
+   "name": "TrainerTower_3F",
+   "id_const": "MAP_TRAINER_TOWER_3F",
+   "region": "sevii",
+   "width_tiles": 18,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 15,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_4F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 13,
+     "y": 5,
+     "dest_map": "MAP_TRAINER_TOWER_ELEVATOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TrainerTower_4F": {
+   "name": "TrainerTower_4F",
+   "id_const": "MAP_TRAINER_TOWER_4F",
+   "region": "sevii",
+   "width_tiles": 18,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 15,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_5F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_3F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 13,
+     "y": 5,
+     "dest_map": "MAP_TRAINER_TOWER_ELEVATOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TrainerTower_5F": {
+   "name": "TrainerTower_5F",
+   "id_const": "MAP_TRAINER_TOWER_5F",
+   "region": "sevii",
+   "width_tiles": 18,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 15,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_6F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_4F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 13,
+     "y": 5,
+     "dest_map": "MAP_TRAINER_TOWER_ELEVATOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TrainerTower_6F": {
+   "name": "TrainerTower_6F",
+   "id_const": "MAP_TRAINER_TOWER_6F",
+   "region": "sevii",
+   "width_tiles": 18,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 15,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_7F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_5F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 13,
+     "y": 5,
+     "dest_map": "MAP_TRAINER_TOWER_ELEVATOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TrainerTower_7F": {
+   "name": "TrainerTower_7F",
+   "id_const": "MAP_TRAINER_TOWER_7F",
+   "region": "sevii",
+   "width_tiles": 18,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 15,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_8F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_6F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 13,
+     "y": 5,
+     "dest_map": "MAP_TRAINER_TOWER_ELEVATOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TrainerTower_8F": {
+   "name": "TrainerTower_8F",
+   "id_const": "MAP_TRAINER_TOWER_8F",
+   "region": "sevii",
+   "width_tiles": 18,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 15,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_ROOF",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_7F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 13,
+     "y": 5,
+     "dest_map": "MAP_TRAINER_TOWER_ELEVATOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TrainerTower_Elevator": {
+   "name": "TrainerTower_Elevator",
+   "id_const": "MAP_TRAINER_TOWER_ELEVATOR",
+   "region": "sevii",
+   "width_tiles": 5,
+   "height_tiles": 7,
+   "warps": [
+    {
+     "id": 1,
+     "x": 2,
+     "y": 5,
+     "dest_map": "MAP_DYNAMIC",
+     "dest_warp": "WARP_ID_DYNAMIC",
+     "class": "DYNAMIC_BY_DESIGN",
+     "disposition": "FRLG floor-select elevator warp (MAP_DYNAMIC / WARP_ID_DYNAMIC in the source). Not statically normalizable; the host resolves it via floor-select over the Trainer Tower held maps (audit R-06)."
+    }
+   ],
+   "connections": []
+  },
+  "TrainerTower_Lobby": {
+   "name": "TrainerTower_Lobby",
+   "id_const": "MAP_TRAINER_TOWER_LOBBY",
+   "region": "sevii",
+   "width_tiles": 19,
+   "height_tiles": 17,
+   "warps": [
+    {
+     "id": 1,
+     "x": 9,
+     "y": 2,
+     "dest_map": "MAP_TRAINER_TOWER_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 9,
+     "y": 15,
+     "dest_map": "MAP_SEVEN_ISLAND_TRAINER_TOWER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 17,
+     "y": 8,
+     "dest_map": "MAP_TRAINER_TOWER_ELEVATOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TrainerTower_Roof": {
+   "name": "TrainerTower_Roof",
+   "id_const": "MAP_TRAINER_TOWER_ROOF",
+   "region": "sevii",
+   "width_tiles": 18,
+   "height_tiles": 16,
+   "warps": [
+    {
+     "id": 1,
+     "x": 13,
+     "y": 5,
+     "dest_map": "MAP_TRAINER_TOWER_ELEVATOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 4,
+     "y": 6,
+     "dest_map": "MAP_TRAINER_TOWER_8F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TwoIsland": {
+   "name": "TwoIsland",
+   "id_const": "MAP_TWO_ISLAND",
+   "region": "sevii",
+   "width_tiles": 48,
+   "height_tiles": 20,
+   "warps": [
+    {
+     "id": 1,
+     "x": 39,
+     "y": 9,
+     "dest_map": "MAP_TWO_ISLAND_JOYFUL_GAME_CORNER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 33,
+     "y": 9,
+     "dest_map": "MAP_TWO_ISLAND_HOUSE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 3,
+     "x": 21,
+     "y": 7,
+     "dest_map": "MAP_TWO_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 4,
+     "x": 10,
+     "y": 8,
+     "dest_map": "MAP_TWO_ISLAND_HARBOR",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "up",
+     "dest_map": "MAP_TWO_ISLAND_CAPE_BRINK",
+     "dest_name": "TwoIsland_CapeBrink",
+     "offset": 24
+    }
+   ]
+  },
+  "TwoIsland_CapeBrink": {
+   "name": "TwoIsland_CapeBrink",
+   "id_const": "MAP_TWO_ISLAND_CAPE_BRINK",
+   "region": "sevii",
+   "width_tiles": 24,
+   "height_tiles": 40,
+   "warps": [
+    {
+     "id": 1,
+     "x": 12,
+     "y": 16,
+     "dest_map": "MAP_TWO_ISLAND_CAPE_BRINK_HOUSE",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": [
+    {
+     "direction": "down",
+     "dest_map": "MAP_TWO_ISLAND",
+     "dest_name": "TwoIsland",
+     "offset": -24
+    }
+   ]
+  },
+  "TwoIsland_CapeBrink_House": {
+   "name": "TwoIsland_CapeBrink_House",
+   "id_const": "MAP_TWO_ISLAND_CAPE_BRINK_HOUSE",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_TWO_ISLAND_CAPE_BRINK",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TwoIsland_Harbor": {
+   "name": "TwoIsland_Harbor",
+   "id_const": "MAP_TWO_ISLAND_HARBOR",
+   "region": "sevii",
+   "width_tiles": 17,
+   "height_tiles": 13,
+   "warps": [
+    {
+     "id": 1,
+     "x": 8,
+     "y": 2,
+     "dest_map": "MAP_TWO_ISLAND",
+     "dest_warp": 4,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TwoIsland_House": {
+   "name": "TwoIsland_House",
+   "id_const": "MAP_TWO_ISLAND_HOUSE",
+   "region": "sevii",
+   "width_tiles": 11,
+   "height_tiles": 9,
+   "warps": [
+    {
+     "id": 1,
+     "x": 4,
+     "y": 7,
+     "dest_map": "MAP_TWO_ISLAND",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TwoIsland_JoyfulGameCorner": {
+   "name": "TwoIsland_JoyfulGameCorner",
+   "id_const": "MAP_TWO_ISLAND_JOYFUL_GAME_CORNER",
+   "region": "sevii",
+   "width_tiles": 12,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 5,
+     "y": 8,
+     "dest_map": "MAP_TWO_ISLAND",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TwoIsland_PokemonCenter_1F": {
+   "name": "TwoIsland_PokemonCenter_1F",
+   "id_const": "MAP_TWO_ISLAND_POKEMON_CENTER_1F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 7,
+     "y": 8,
+     "dest_map": "MAP_TWO_ISLAND",
+     "dest_warp": 3,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_TWO_ISLAND_POKEMON_CENTER_2F",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE"
+    }
+   ],
+   "connections": []
+  },
+  "TwoIsland_PokemonCenter_2F": {
+   "name": "TwoIsland_PokemonCenter_2F",
+   "id_const": "MAP_TWO_ISLAND_POKEMON_CENTER_2F",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 10,
+   "warps": [
+    {
+     "id": 1,
+     "x": 1,
+     "y": 6,
+     "dest_map": "MAP_TWO_ISLAND_POKEMON_CENTER_1F",
+     "dest_warp": 2,
+     "class": "OK_AFTER_NORMALIZE"
+    },
+    {
+     "id": 2,
+     "x": 5,
+     "y": 1,
+     "dest_map": "MAP_UNION_ROOM",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Union Room authored from the FRLG original (build 6 converts it)"
+    },
+    {
+     "id": 3,
+     "x": 9,
+     "y": 1,
+     "retarget": "MAP_TRADE_CENTER -> TRADE_CENTER (audit R-03)",
+     "dest_map": "TRADE_CENTER",
+     "dest_warp": 1,
+     "class": "OK_AFTER_NORMALIZE",
+     "dest_note": "Bound TradeCenter; warp list authored in this patch set (R-04 pattern)"
+    }
+   ],
+   "connections": []
+  },
+  "UnionRoom": {
+   "name": "UnionRoom",
+   "id_const": "MAP_UNION_ROOM",
+   "region": "sevii",
+   "width_tiles": 15,
+   "height_tiles": 12,
+   "authored": true,
+   "source": "pokefirered data/maps/UnionRoom/map.json; layouts LAYOUT_UNION_ROOM (15x12, gTileset_Building/gTileset_HallOfFame)",
+   "warps": [
+    {
+     "id": 1,
+     "x": 7,
+     "y": 11,
+     "dest_map": "LAST_MAP",
+     "dest_warp": 2,
+     "class": "LAST_MAP_EXIT"
+    }
+   ],
+   "connections": []
+  }
+ },
+ "annex_room_lists": {
+  "TradeCenter": [
+   {
+    "x": 8,
+    "y": 14,
+    "w": 2,
+    "h": 2,
+    "dest_map": "POKECENTER_2F",
+    "dest_warp": 2
+   },
+   {
+    "x": 10,
+    "y": 14,
+    "w": 2,
+    "h": 2,
+    "dest_map": "POKECENTER_2F",
+    "dest_warp": 2
+   }
+  ],
+  "Colosseum": [
+   {
+    "x": 8,
+    "y": 14,
+    "w": 2,
+    "h": 2,
+    "dest_map": "POKECENTER_2F",
+    "dest_warp": 3
+   },
+   {
+    "x": 10,
+    "y": 14,
+    "w": 2,
+    "h": 2,
+    "dest_map": "POKECENTER_2F",
+    "dest_warp": 3
+   }
+  ]
+ },
+ "annex_note": "TradeCenter/Colosseum are bound Kanto maps whose authored warp lists are part of this correction set (audit R-04); they appear in patches, not as Sevii table entries."
+}
