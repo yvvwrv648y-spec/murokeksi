@@ -1,0 +1,77 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/mart_scene.gd" id="1_mart"]
+[ext_resource type="Script" path="res://systems/inventory/inventory_manager.gd" id="2_inv"]
+
+[node name="Mart" type="Control"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mart")
+
+[node name="InventoryManager" type="Node" parent="."]
+script = ExtResource("2_inv")
+
+[node name="TitleLabel" type="Label" parent="."]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 40.0
+grow_horizontal = 2
+text = "Poke Mart"
+horizontal_alignment = 1
+
+[node name="MainRow" type="HBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 48.0
+offset_bottom = -60.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="ShopList" type="ItemList" parent="MainRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="DetailPanel" type="VBoxContainer" parent="MainRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ItemDetailLabel" type="Label" parent="MainRow/DetailPanel"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Pick an item to see its price."
+autowrap_mode = 2
+
+[node name="MoneyLabel" type="Label" parent="MainRow/DetailPanel"]
+layout_mode = 2
+text = "Money: 3000 coins"
+
+[node name="MessageLabel" type="Label" parent="MainRow/DetailPanel"]
+layout_mode = 2
+text = ""
+autowrap_mode = 2
+
+[node name="BuyButton" type="Button" parent="MainRow/DetailPanel"]
+layout_mode = 2
+disabled = true
+text = "Buy (1)"
+
+[node name="SellButton" type="Button" parent="MainRow/DetailPanel"]
+layout_mode = 2
+disabled = true
+text = "Sell (1)"
+
+[node name="BackButton" type="Button" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -52.0
+offset_left = -220.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Back"

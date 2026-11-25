@@ -1,0 +1,77 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scenes/bag_scene.gd" id="1_bag"]
+[ext_resource type="Script" path="res://interface/inventory/inventory_controller.gd" id="2_panel"]
+[ext_resource type="Script" path="res://systems/inventory/inventory_manager.gd" id="3_inv"]
+
+[node name="Bag" type="Control"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bag")
+
+[node name="BagPanel" type="Control" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_panel")
+
+[node name="InventoryManager" type="Node" parent="."]
+script = ExtResource("3_inv")
+
+[node name="TitleLabel" type="Label" parent="."]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 40.0
+grow_horizontal = 2
+text = "Bag"
+horizontal_alignment = 1
+
+[node name="MainRow" type="HBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 48.0
+offset_bottom = -60.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="ItemList" type="ItemList" parent="MainRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="DetailPanel" type="VBoxContainer" parent="MainRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ItemDetailLabel" type="Label" parent="MainRow/DetailPanel"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Pick an item to see what it does."
+autowrap_mode = 2
+
+[node name="MessageLabel" type="Label" parent="MainRow/DetailPanel"]
+layout_mode = 2
+text = ""
+autowrap_mode = 2
+
+[node name="UseButton" type="Button" parent="MainRow/DetailPanel"]
+layout_mode = 2
+disabled = true
+text = "Use"
+
+[node name="BackButton" type="Button" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -52.0
+offset_left = -220.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Back"

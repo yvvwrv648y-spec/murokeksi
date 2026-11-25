@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/main.gd" id="1_main"]
+[ext_resource type="Script" path="res://core/scene_transition.gd" id="2_trans"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_main")
+
+[node name="SceneTransition" type="Node" parent="."]
+script = ExtResource("2_trans")
+
+[node name="Title" type="Label" parent="."]
+offset_left = -200.0
+offset_top = -24.0
+offset_right = 200.0
+offset_bottom = 24.0
+text = "Pokemon Ultimate World"
+horizontal_alignment = 1
