@@ -1,0 +1,42 @@
+{
+  "species_id": 133,
+  "family": "PKDX",
+  "moemon_counterpart_id": "mdx_0133_eevee",
+  "name": "Eevee",
+  "types": [
+    "normal"
+  ],
+  "base_stats": {
+    "hp": 55,
+    "attack": 55,
+    "defense": 50,
+    "special_attack": 45,
+    "special_defense": 65,
+    "speed": 55
+  },
+  "growth_rate": "medium_slow",
+  "evolution_rules": [
+    {
+      "target_species_id": 134,
+      "target_name": "Vaporeon",
+      "method": "use_item",
+      "item_id": "water_stone"
+    },
+    {
+      "target_species_id": 135,
+      "target_name": "Jolteon",
+      "method": "use_item",
+      "item_id": "thunder_stone"
+    },
+    {
+      "target_species_id": 136,
+      "target_name": "Flareon",
+      "method": "use_item",
+      "item_id": "fire_stone"
+    }
+  ],
+  "learnset_id": "eevee_learnset",
+  "cry_id": "cry_pkdx_0133_eevee",
+  "animation_profile": "species_default",
+  "behaviour_profile": "kanto_native"
+}

@@ -1,0 +1,30 @@
+{
+  "species_id": 4,
+  "family": "PKDX",
+  "moemon_counterpart_id": "mdx_0004_charmander",
+  "name": "Charmander",
+  "types": [
+    "fire"
+  ],
+  "base_stats": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "special_attack": 60,
+    "special_defense": 50,
+    "speed": 65
+  },
+  "growth_rate": "medium_slow",
+  "evolution_rules": [
+    {
+      "target_species_id": 5,
+      "target_name": "Charmeleon",
+      "method": "level_up",
+      "min_level": 16
+    }
+  ],
+  "learnset_id": "charmander_learnset",
+  "cry_id": "cry_pkdx_0004_charmander",
+  "animation_profile": "species_default",
+  "behaviour_profile": "kanto_native"
+}

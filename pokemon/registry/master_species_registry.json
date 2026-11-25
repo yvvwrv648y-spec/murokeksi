@@ -1,0 +1,1128 @@
+{
+  "schema_version": "2.0.0",
+  "coverage": "Gen 1-10 Cross-Generation Master Registry (Official Gen X Reveals Marked Regional Availability Unconfirmed)",
+  "species": [
+    {
+      "nat_dex": 1,
+      "species_id": "bulbasaur",
+      "name": "Bulbasaur",
+      "gen": 1,
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "atk": 49,
+        "def": 49,
+        "spa": 65,
+        "spd": 65,
+        "spe": 45
+      },
+      "abilities": [
+        "Overgrow",
+        "Chlorophyll"
+      ],
+      "evo_family": "fam_0001_bulbasaur",
+      "habitats": [
+        "temperate_meadow",
+        "sunlit_woodland"
+      ],
+      "climates": [
+        "temperate",
+        "mild"
+      ],
+      "ecology": [
+        "herbivore",
+        "photosynthetic"
+      ],
+      "native_region": "kanto",
+      "migration_origin": null,
+      "rarity": "rare",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild_or_starter",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 4,
+      "species_id": "charmander",
+      "name": "Charmander",
+      "gen": 1,
+      "types": [
+        "Fire"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 39,
+        "atk": 52,
+        "def": 43,
+        "spa": 60,
+        "spd": 50,
+        "spe": 65
+      },
+      "abilities": [
+        "Blaze",
+        "Solar Power"
+      ],
+      "evo_family": "fam_0004_charmander",
+      "habitats": [
+        "rocky_foothills",
+        "geothermal_caldera"
+      ],
+      "climates": [
+        "warm",
+        "volcanic"
+      ],
+      "ecology": [
+        "carnivore",
+        "thermophilic"
+      ],
+      "native_region": "kanto",
+      "migration_origin": null,
+      "rarity": "rare",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild_or_starter",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 7,
+      "species_id": "squirtle",
+      "name": "Squirtle",
+      "gen": 1,
+      "types": [
+        "Water"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 44,
+        "atk": 48,
+        "def": 65,
+        "spa": 50,
+        "spd": 64,
+        "spe": 43
+      },
+      "abilities": [
+        "Torrent",
+        "Rain Dish"
+      ],
+      "evo_family": "fam_0007_squirtle",
+      "habitats": [
+        "freshwater_river",
+        "coastal_bay"
+      ],
+      "climates": [
+        "temperate",
+        "coastal"
+      ],
+      "ecology": [
+        "omnivore",
+        "amphibious"
+      ],
+      "native_region": "kanto",
+      "migration_origin": null,
+      "rarity": "rare",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild_or_starter",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 16,
+      "species_id": "pidgey",
+      "name": "Pidgey",
+      "gen": 1,
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "atk": 45,
+        "def": 40,
+        "spa": 35,
+        "spd": 35,
+        "spe": 56
+      },
+      "abilities": [
+        "Keen Eye",
+        "Tangled Feet"
+      ],
+      "evo_family": "fam_0016_pidgey",
+      "habitats": [
+        "temperate_meadow",
+        "sunlit_woodland"
+      ],
+      "climates": [
+        "temperate"
+      ],
+      "ecology": [
+        "insectivore",
+        "granivore"
+      ],
+      "native_region": "kanto",
+      "migration_origin": null,
+      "rarity": "common",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 25,
+      "species_id": "pikachu",
+      "name": "Pikachu",
+      "gen": 1,
+      "types": [
+        "Electric"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 35,
+        "atk": 55,
+        "def": 40,
+        "spa": 50,
+        "spd": 50,
+        "spe": 90
+      },
+      "abilities": [
+        "Static",
+        "Lightning Rod"
+      ],
+      "evo_family": "fam_0172_pichu",
+      "habitats": [
+        "sunlit_woodland",
+        "power_infrastructure"
+      ],
+      "climates": [
+        "temperate"
+      ],
+      "ecology": [
+        "frugivore",
+        "bioelectric"
+      ],
+      "native_region": "kanto",
+      "migration_origin": null,
+      "rarity": "uncommon",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild_or_starter",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 37,
+      "species_id": "vulpix",
+      "name": "Vulpix",
+      "gen": 1,
+      "types": [
+        "Fire"
+      ],
+      "forms": [
+        "base",
+        "alolan_vulpix"
+      ],
+      "base_stats": {
+        "hp": 38,
+        "atk": 41,
+        "def": 40,
+        "spa": 50,
+        "spd": 65,
+        "spe": 65
+      },
+      "abilities": [
+        "Flash Fire",
+        "Drought"
+      ],
+      "evo_family": "fam_0037_vulpix",
+      "habitats": [
+        "temperate_meadow",
+        "geothermal_caldera"
+      ],
+      "climates": [
+        "temperate",
+        "warm"
+      ],
+      "ecology": [
+        "omnivore",
+        "nocturnal_forager"
+      ],
+      "native_region": "kanto",
+      "migration_origin": null,
+      "rarity": "uncommon",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 92,
+      "species_id": "gastly",
+      "name": "Gastly",
+      "gen": 1,
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 30,
+        "atk": 35,
+        "def": 30,
+        "spa": 100,
+        "spd": 35,
+        "spe": 80
+      },
+      "abilities": [
+        "Levitate"
+      ],
+      "evo_family": "fam_0092_gastly",
+      "habitats": [
+        "haunted_historic",
+        "nocturnal_ruins"
+      ],
+      "climates": [
+        "temperate",
+        "cool"
+      ],
+      "ecology": [
+        "ectoplasmic",
+        "nocturnal"
+      ],
+      "native_region": "kanto",
+      "migration_origin": null,
+      "rarity": "uncommon",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 133,
+      "species_id": "eevee",
+      "name": "Eevee",
+      "gen": 1,
+      "types": [
+        "Normal"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "atk": 55,
+        "def": 50,
+        "spa": 45,
+        "spd": 65,
+        "spe": 55
+      },
+      "abilities": [
+        "Run Away",
+        "Adaptability"
+      ],
+      "evo_family": "fam_0133_eevee",
+      "habitats": [
+        "temperate_meadow",
+        "urban_park"
+      ],
+      "climates": [
+        "temperate"
+      ],
+      "ecology": [
+        "omnivore",
+        "adaptable"
+      ],
+      "native_region": "kanto",
+      "migration_origin": null,
+      "rarity": "very_rare",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 179,
+      "species_id": "mareep",
+      "name": "Mareep",
+      "gen": 2,
+      "types": [
+        "Electric"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "atk": 40,
+        "def": 40,
+        "spa": 65,
+        "spd": 45,
+        "spe": 35
+      },
+      "abilities": [
+        "Static",
+        "Plus"
+      ],
+      "evo_family": "fam_0179_mareep",
+      "habitats": [
+        "temperate_meadow"
+      ],
+      "climates": [
+        "temperate"
+      ],
+      "ecology": [
+        "grazer",
+        "static_fleece"
+      ],
+      "native_region": "johto",
+      "migration_origin": "johto_east_corridor",
+      "rarity": "uncommon",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 194,
+      "species_id": "wooper",
+      "name": "Wooper",
+      "gen": 2,
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "forms": [
+        "base",
+        "paldean_wooper"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "atk": 45,
+        "def": 45,
+        "spa": 25,
+        "spd": 25,
+        "spe": 15
+      },
+      "abilities": [
+        "Damp",
+        "Water Absorb"
+      ],
+      "evo_family": "fam_0194_wooper",
+      "habitats": [
+        "freshwater_river",
+        "wetland_marsh"
+      ],
+      "climates": [
+        "temperate",
+        "rainy"
+      ],
+      "ecology": [
+        "amphibious",
+        "mud_forager"
+      ],
+      "native_region": "johto",
+      "migration_origin": "johto_tohjo_watershed",
+      "rarity": "common",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 280,
+      "species_id": "ralts",
+      "name": "Ralts",
+      "gen": 3,
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 28,
+        "atk": 25,
+        "def": 25,
+        "spa": 45,
+        "spd": 35,
+        "spe": 40
+      },
+      "abilities": [
+        "Synchronize",
+        "Trace"
+      ],
+      "evo_family": "fam_0280_ralts",
+      "habitats": [
+        "sunlit_woodland",
+        "urban_park"
+      ],
+      "climates": [
+        "temperate"
+      ],
+      "ecology": [
+        "empathic",
+        "forager"
+      ],
+      "native_region": "hoenn",
+      "migration_origin": "hoenn_sea_route",
+      "rarity": "rare",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 304,
+      "species_id": "aron",
+      "name": "Aron",
+      "gen": 3,
+      "types": [
+        "Steel",
+        "Rock"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "atk": 70,
+        "def": 100,
+        "spa": 40,
+        "spd": 40,
+        "spe": 30
+      },
+      "abilities": [
+        "Sturdy",
+        "Rock Head"
+      ],
+      "evo_family": "fam_0304_aron",
+      "habitats": [
+        "mineral_cavern",
+        "mountain_summit"
+      ],
+      "climates": [
+        "subterranean",
+        "alpine"
+      ],
+      "ecology": [
+        "lithovore",
+        "iron_grazer"
+      ],
+      "native_region": "hoenn",
+      "migration_origin": "mt_moon_ore_veins",
+      "rarity": "uncommon",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 396,
+      "species_id": "starly",
+      "name": "Starly",
+      "gen": 4,
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "atk": 55,
+        "def": 30,
+        "spa": 30,
+        "spd": 30,
+        "spe": 60
+      },
+      "abilities": [
+        "Keen Eye",
+        "Reckless"
+      ],
+      "evo_family": "fam_0396_starly",
+      "habitats": [
+        "temperate_meadow",
+        "sunlit_woodland"
+      ],
+      "climates": [
+        "temperate"
+      ],
+      "ecology": [
+        "flocking_insectivore"
+      ],
+      "native_region": "sinnoh",
+      "migration_origin": "northern_flyway",
+      "rarity": "common",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 403,
+      "species_id": "shinx",
+      "name": "Shinx",
+      "gen": 4,
+      "types": [
+        "Electric"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "atk": 65,
+        "def": 34,
+        "spa": 40,
+        "spd": 34,
+        "spe": 45
+      },
+      "abilities": [
+        "Rivalry",
+        "Intimidate"
+      ],
+      "evo_family": "fam_0403_shinx",
+      "habitats": [
+        "temperate_meadow",
+        "rocky_foothills"
+      ],
+      "climates": [
+        "temperate"
+      ],
+      "ecology": [
+        "pack_predator",
+        "electro_muscular"
+      ],
+      "native_region": "sinnoh",
+      "migration_origin": "sinnoh_northern_migration",
+      "rarity": "uncommon",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 595,
+      "species_id": "joltik",
+      "name": "Joltik",
+      "gen": 5,
+      "types": [
+        "Bug",
+        "Electric"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "atk": 47,
+        "def": 50,
+        "spa": 57,
+        "spd": 50,
+        "spe": 65
+      },
+      "abilities": [
+        "Compound Eyes",
+        "Unnerve"
+      ],
+      "evo_family": "fam_0595_joltik",
+      "habitats": [
+        "power_infrastructure",
+        "mineral_cavern"
+      ],
+      "climates": [
+        "temperate",
+        "industrial"
+      ],
+      "ecology": [
+        "static_parasite",
+        "cavern_weaver"
+      ],
+      "native_region": "unova",
+      "migration_origin": "vermilion_cargo_shipping",
+      "rarity": "uncommon",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 607,
+      "species_id": "litwick",
+      "name": "Litwick",
+      "gen": 5,
+      "types": [
+        "Ghost",
+        "Fire"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "atk": 30,
+        "def": 55,
+        "spa": 65,
+        "spd": 55,
+        "spe": 20
+      },
+      "abilities": [
+        "Flash Fire",
+        "Flame Body"
+      ],
+      "evo_family": "fam_0607_litwick",
+      "habitats": [
+        "haunted_historic",
+        "nocturnal_ruins"
+      ],
+      "climates": [
+        "temperate",
+        "cool"
+      ],
+      "ecology": [
+        "spirit_lantern",
+        "nocturnal"
+      ],
+      "native_region": "unova",
+      "migration_origin": "lavender_memorial_convergence",
+      "rarity": "uncommon",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 661,
+      "species_id": "fletchling",
+      "name": "Fletchling",
+      "gen": 6,
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "atk": 50,
+        "def": 43,
+        "spa": 40,
+        "spd": 38,
+        "spe": 62
+      },
+      "abilities": [
+        "Big Pecks",
+        "Gale Wings"
+      ],
+      "evo_family": "fam_0661_fletchling",
+      "habitats": [
+        "temperate_meadow",
+        "sunlit_woodland"
+      ],
+      "climates": [
+        "temperate",
+        "warm"
+      ],
+      "ecology": [
+        "territorial_songbird"
+      ],
+      "native_region": "kalos",
+      "migration_origin": "transcontinental_flyway",
+      "rarity": "uncommon",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 747,
+      "species_id": "mareanie",
+      "name": "Mareanie",
+      "gen": 7,
+      "types": [
+        "Poison",
+        "Water"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "atk": 53,
+        "def": 62,
+        "spa": 43,
+        "spd": 52,
+        "spe": 45
+      },
+      "abilities": [
+        "Merciless",
+        "Regenerator"
+      ],
+      "evo_family": "fam_0747_mareanie",
+      "habitats": [
+        "coral_reef",
+        "coastal_bay"
+      ],
+      "climates": [
+        "warm_current",
+        "coastal"
+      ],
+      "ecology": [
+        "reef_predator"
+      ],
+      "native_region": "alola",
+      "migration_origin": "kuroshio_warm_current",
+      "rarity": "rare",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 821,
+      "species_id": "rookidee",
+      "name": "Rookidee",
+      "gen": 8,
+      "types": [
+        "Flying"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 38,
+        "atk": 47,
+        "def": 35,
+        "spa": 33,
+        "spd": 35,
+        "spe": 57
+      },
+      "abilities": [
+        "Keen Eye",
+        "Unnerve"
+      ],
+      "evo_family": "fam_0821_rookidee",
+      "habitats": [
+        "temperate_meadow",
+        "mountain_summit"
+      ],
+      "climates": [
+        "temperate",
+        "windy"
+      ],
+      "ecology": [
+        "bold_insectivore"
+      ],
+      "native_region": "galar",
+      "migration_origin": "eurasian_flyway",
+      "rarity": "uncommon",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 837,
+      "species_id": "rolycoly",
+      "name": "Rolycoly",
+      "gen": 8,
+      "types": [
+        "Rock"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 30,
+        "atk": 40,
+        "def": 50,
+        "spa": 40,
+        "spd": 50,
+        "spe": 30
+      },
+      "abilities": [
+        "Steam Engine",
+        "Heatproof"
+      ],
+      "evo_family": "fam_0837_rolycoly",
+      "habitats": [
+        "geothermal_caldera",
+        "mineral_cavern"
+      ],
+      "climates": [
+        "volcanic",
+        "subterranean"
+      ],
+      "ecology": [
+        "coal_mineral_grazer"
+      ],
+      "native_region": "galar",
+      "migration_origin": "cinnabar_coal_seams",
+      "rarity": "uncommon",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 928,
+      "species_id": "smoliv",
+      "name": "Smoliv",
+      "gen": 9,
+      "types": [
+        "Grass",
+        "Normal"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 41,
+        "atk": 35,
+        "def": 45,
+        "spa": 58,
+        "spd": 51,
+        "spe": 30
+      },
+      "abilities": [
+        "Early Bird",
+        "Harvest"
+      ],
+      "evo_family": "fam_0928_smoliv",
+      "habitats": [
+        "sunlit_woodland",
+        "temperate_meadow"
+      ],
+      "climates": [
+        "temperate",
+        "sunny"
+      ],
+      "ecology": [
+        "photosynthetic",
+        "oil_bearing"
+      ],
+      "native_region": "paldea",
+      "migration_origin": "celadon_botanical_exchange",
+      "rarity": "rare",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 963,
+      "species_id": "finizen",
+      "name": "Finizen",
+      "gen": 9,
+      "types": [
+        "Water"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "atk": 45,
+        "def": 40,
+        "spa": 45,
+        "spd": 40,
+        "spe": 75
+      },
+      "abilities": [
+        "Water Veil"
+      ],
+      "evo_family": "fam_0963_finizen",
+      "habitats": [
+        "deep_ocean",
+        "coastal_bay"
+      ],
+      "climates": [
+        "pelagic",
+        "coastal"
+      ],
+      "ecology": [
+        "pod_swimmer",
+        "pelagic_forager"
+      ],
+      "native_region": "paldea",
+      "migration_origin": "pacific_pelagic_pod",
+      "rarity": "rare",
+      "legendary_mythical": false,
+      "story_restrictions": null,
+      "encounter_eligible": true,
+      "capture_legality": "legal_wild",
+      "source_status": "VERIFIED"
+    },
+    {
+      "nat_dex": 1026,
+      "species_id": "browt",
+      "name": "Browt",
+      "gen": 10,
+      "types": [
+        "Grass"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": null,
+      "abilities": [
+        "Overgrow"
+      ],
+      "evo_family": "fam_gen10_browt_unrevealed",
+      "habitats": [
+        "tropical_archipelago_unconfirmed"
+      ],
+      "climates": [
+        "tropical"
+      ],
+      "ecology": [
+        "bean_chick_official_reveal"
+      ],
+      "native_region": "gen10_archipelago_unconfirmed",
+      "migration_origin": null,
+      "rarity": "starter_unconfirmed",
+      "legendary_mythical": false,
+      "story_restrictions": "gen10_regional_availability_unconfirmed",
+      "encounter_eligible": false,
+      "capture_legality": "unconfirmed_gen10",
+      "source_status": "VERIFIED_OFFICIAL_REVEAL_FEB_2026"
+    },
+    {
+      "nat_dex": 1027,
+      "species_id": "pombon",
+      "name": "Pombon",
+      "gen": 10,
+      "types": [
+        "Fire"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": null,
+      "abilities": [
+        "Blaze"
+      ],
+      "evo_family": "fam_gen10_pombon_unrevealed",
+      "habitats": [
+        "tropical_archipelago_unconfirmed"
+      ],
+      "climates": [
+        "tropical"
+      ],
+      "ecology": [
+        "fire_puppy_official_reveal"
+      ],
+      "native_region": "gen10_archipelago_unconfirmed",
+      "migration_origin": null,
+      "rarity": "starter_unconfirmed",
+      "legendary_mythical": false,
+      "story_restrictions": "gen10_regional_availability_unconfirmed",
+      "encounter_eligible": false,
+      "capture_legality": "unconfirmed_gen10",
+      "source_status": "VERIFIED_OFFICIAL_REVEAL_FEB_2026"
+    },
+    {
+      "nat_dex": 1028,
+      "species_id": "gecqua",
+      "name": "Gecqua",
+      "gen": 10,
+      "types": [
+        "Water"
+      ],
+      "forms": [
+        "base"
+      ],
+      "base_stats": null,
+      "abilities": [
+        "Torrent"
+      ],
+      "evo_family": "fam_gen10_gecqua_unrevealed",
+      "habitats": [
+        "tropical_archipelago_unconfirmed"
+      ],
+      "climates": [
+        "tropical"
+      ],
+      "ecology": [
+        "water_gecko_official_reveal"
+      ],
+      "native_region": "gen10_archipelago_unconfirmed",
+      "migration_origin": null,
+      "rarity": "starter_unconfirmed",
+      "legendary_mythical": false,
+      "story_restrictions": "gen10_regional_availability_unconfirmed",
+      "encounter_eligible": false,
+      "capture_legality": "unconfirmed_gen10",
+      "source_status": "VERIFIED_OFFICIAL_REVEAL_FEB_2026"
+    }
+  ],
+  "regional_forms": [
+    {
+      "form_id": "alolan_vulpix",
+      "species_id": "vulpix",
+      "name": "Alolan Vulpix",
+      "types": [
+        "Ice"
+      ],
+      "native_region": "alola",
+      "habitats": [
+        "alpine_snow_peak"
+      ],
+      "kanto_eligible": false,
+      "reason": "Requires sub-zero alpine climate; incompatible with temperate Kanto Route 1."
+    },
+    {
+      "form_id": "paldean_wooper",
+      "species_id": "wooper",
+      "name": "Paldean Wooper",
+      "types": [
+        "Poison",
+        "Ground"
+      ],
+      "native_region": "paldea",
+      "habitats": [
+        "toxic_bog"
+      ],
+      "kanto_eligible": false,
+      "reason": "Distinct regional form (not duplicate species); native to Paldean toxic bogs, not Kanto freshwater rivers."
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "policy": "SMOGON_OPTIMAL_COMPETITIVE_252_PLUS",
+  "species_sets": {
+    "pikachu": {
+      "nature": "Timid",
+      "nature_plus": "spe",
+      "nature_minus": "atk",
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moves": [
+        "Thunderbolt",
+        "Volt Switch",
+        "Surf",
+        "Grass Knot"
+      ]
+    },
+    "bulbasaur": {
+      "nature": "Modest",
+      "nature_plus": "spa",
+      "nature_minus": "atk",
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "hp": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moves": [
+        "Giga Drain",
+        "Sludge Bomb",
+        "Earth Power",
+        "Sleep Powder"
+      ]
+    },
+    "charmander": {
+      "nature": "Timid",
+      "nature_plus": "spe",
+      "nature_minus": "atk",
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "spd": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moves": [
+        "Flamethrower",
+        "Dragon Pulse",
+        "Scorching Sands",
+        "Will-O-Wisp"
+      ]
+    },
+    "squirtle": {
+      "nature": "Modest",
+      "nature_plus": "spa",
+      "nature_minus": "atk",
+      "evs": {
+        "hp": 252,
+        "spa": 252,
+        "def": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moves": [
+        "Scald",
+        "Ice Beam",
+        "Aura Sphere",
+        "Rapid Spin"
+      ]
+    },
+    "eevee": {
+      "nature": "Jolly",
+      "nature_plus": "spe",
+      "nature_minus": "spa",
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "hp": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moves": [
+        "Double-Edge",
+        "Quick Attack",
+        "Trailblaze",
+        "Protect"
+      ]
+    },
+    "pidgey": {
+      "nature": "Timid",
+      "nature_plus": "spe",
+      "nature_minus": "atk",
+      "evs": {
+        "spa": 252,
+        "spe": 252,
+        "def": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moves": [
+        "Hurricane",
+        "Heat Wave",
+        "U-turn",
+        "Roost"
+      ]
+    },
+    "mareep": {
+      "nature": "Modest",
+      "nature_plus": "spa",
+      "nature_minus": "atk",
+      "evs": {
+        "hp": 252,
+        "spa": 252,
+        "spd": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moves": [
+        "Thunderbolt",
+        "Volt Switch",
+        "Power Gem",
+        "Dazzling Gleam"
+      ]
+    },
+    "shinx": {
+      "nature": "Adamant",
+      "nature_plus": "atk",
+      "nature_minus": "spa",
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "hp": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moves": [
+        "Wild Charge",
+        "Crunch",
+        "Ice Fang",
+        "Volt Switch"
+      ]
+    },
+    "starly": {
+      "nature": "Jolly",
+      "nature_plus": "spe",
+      "nature_minus": "spa",
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "hp": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moves": [
+        "Brave Bird",
+        "Close Combat",
+        "U-turn",
+        "Double-Edge"
+      ]
+    },
+    "fletchling": {
+      "nature": "Jolly",
+      "nature_plus": "spe",
+      "nature_minus": "spa",
+      "evs": {
+        "atk": 252,
+        "spe": 252,
+        "hp": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moves": [
+        "Brave Bird",
+        "Flare Blitz",
+        "U-turn",
+        "Roost"
+      ]
+    },
+    "rookidee": {
+      "nature": "Impish",
+      "nature_plus": "def",
+      "nature_minus": "spa",
+      "evs": {
+        "hp": 252,
+        "def": 252,
+        "spd": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moves": [
+        "Brave Bird",
+        "Body Press",
+        "U-turn",
+        "Roost"
+      ]
+    },
+    "smoliv": {
+      "nature": "Modest",
+      "nature_plus": "spa",
+      "nature_minus": "atk",
+      "evs": {
+        "hp": 252,
+        "spa": 252,
+        "spd": 4
+      },
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "moves": [
+        "Energy Ball",
+        "Earth Power",
+        "Hyper Voice",
+        "Synthesis"
+      ]
+    }
+  }
+}

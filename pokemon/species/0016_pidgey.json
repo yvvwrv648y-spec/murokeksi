@@ -1,0 +1,31 @@
+{
+  "species_id": 16,
+  "family": "PKDX",
+  "moemon_counterpart_id": "mdx_0016_pidgey",
+  "name": "Pidgey",
+  "types": [
+    "normal",
+    "flying"
+  ],
+  "base_stats": {
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 56
+  },
+  "growth_rate": "medium_slow",
+  "evolution_rules": [
+    {
+      "target_species_id": 17,
+      "target_name": "Pidgeotto",
+      "method": "level_up",
+      "min_level": 18
+    }
+  ],
+  "learnset_id": "pidgey_learnset",
+  "cry_id": "cry_pkdx_0016_pidgey",
+  "animation_profile": "species_default",
+  "behaviour_profile": "kanto_native"
+}

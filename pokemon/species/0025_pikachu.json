@@ -1,0 +1,38 @@
+{
+  "species_id": 25,
+  "family": "PKDX",
+  "moemon_counterpart_id": "mdx_0025_pikachu",
+  "name": "Pikachu",
+  "types": [
+    "electric"
+  ],
+  "base_stats": {
+    "hp": 35,
+    "attack": 55,
+    "defense": 40,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 90
+  },
+  "growth_rate": "medium_fast",
+  "evolution_rules": [
+    {
+      "target_species_id": 26,
+      "target_name": "Raichu",
+      "method": "use_item",
+      "item_id": "thunder_stone",
+      "region_form": "kanto"
+    },
+    {
+      "target_species_id": 26,
+      "target_name": "Raichu (Alola)",
+      "method": "use_item",
+      "item_id": "thunder_stone",
+      "region_form": "alola"
+    }
+  ],
+  "learnset_id": "pikachu_learnset",
+  "cry_id": "cry_pkdx_0025_pikachu",
+  "animation_profile": "quadruped_electric",
+  "behaviour_profile": "curious_small_mammal"
+}

@@ -1,0 +1,31 @@
+{
+  "species_id": 1,
+  "family": "PKDX",
+  "moemon_counterpart_id": "mdx_0001_bulbasaur",
+  "name": "Bulbasaur",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "base_stats": {
+    "hp": 45,
+    "attack": 49,
+    "defense": 49,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 45
+  },
+  "growth_rate": "medium_slow",
+  "evolution_rules": [
+    {
+      "target_species_id": 2,
+      "target_name": "Ivysaur",
+      "method": "level_up",
+      "min_level": 16
+    }
+  ],
+  "learnset_id": "bulbasaur_learnset",
+  "cry_id": "cry_pkdx_0001_bulbasaur",
+  "animation_profile": "species_default",
+  "behaviour_profile": "kanto_native"
+}
