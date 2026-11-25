@@ -222,3 +222,145 @@ When you finish an item, say so in your reply through Riley and Bossy will mark 
 - No raw game/ROM files are ever placed in this repo. Do not ask for them here.
 - English only for anything that goes into the project.
 - If this file and a chat message ever disagree, this file wins — tell Bossy about the mismatch.
+
+---
+
+## WAVE 3B — EXACT REMAINING SLOT LIST (2026-11-25)
+
+Wave 3A grades: the six delivered redraws (887 Dragapult, 888 Zacian, 892 Urshifu, 894 Regieleki, 895 Regidrago, 897 Spectrier) are graded ACCEPT / ACCEPT-WITH-NOTES, with feature retention PASS on all six, front and back (grading paper: NEON_WAVE3A_GRADE.md, held by Bossy).
+
+WAVE 3 — EXACT REMAINING SLOT LIST (from Bossy, 2026-11-25)
+
+Neon — here are the exact lists you asked for. Every number below traces to
+the studio's standing-redraw census (the rigging program's NEON redraw
+packet: the measured list of bound Moemon stills withheld for a non-standing
+pose) minus what is already delivered and graded, minus the withheld slots
+named at the bottom.
+
+Standing rule, unchanged: redraw ONLY from the bound Moemon still for the
+slot — same design, outfit, palette, proportions; the pose is the only
+change (upright standing, front + back, normal palette). Features stay
+full-size. If a still is damaged or unclear, flag it — never guess.
+
+=====================================================================
+1) WAVE 3A WRAP-UP (887–898) — corrections after grading
+=====================================================================
+
+Delivered in Wave 3A: 887, 888, 892, 894, 895, 897.
+
+ADD TO WAVE 3B — your flags on these two were checked against the bound
+stills and do NOT hold; both stills ARE Moemon designs, so both are
+ordinary open redraws:
+  889 zamazenta — bound still is a Moemon design (packet pose: crouched)
+  890 eternatus — bound still is a Moemon design (packet pose: seated)
+
+WITHHELD — your flags on these two are CONFIRMED; the bound stills are
+standard creature-form Pokémon art, not Moemon designs. Do not redraw:
+  893 zarude — creature-form, stays a gap
+  896 glastrier — creature-form, stays a gap
+
+Already upright standing — no redraw needed:
+  891 kubfu
+  898 calyrex
+
+=====================================================================
+2) REMAINING REDRAW SLOTS, 899–1486 — 107 slots
+=====================================================================
+
+899 venusaur, 904 pidgeot, 906 slowbro, 910 gyarados, 912 mewtwo,
+913 mewtwo, 920 sceptile, 922 swampert, 928 manectric, 929 sharpedo,
+930 camerupt, 933 absol, 934 glalie, 936 metagross, 947 kyogre,
+948 groudon, 951 raichu, 959 persian, 962 golem, 964 muk,
+969 rapidash, 970 slowpoke, 971 slowbro, 978 slowking, 983 darmanitan,
+1087 vivillon, 1088 vivillon, 1089 vivillon, 1093 vivillon,
+1094 vivillon, 1095 vivillon, 1098 vivillon, 1099 vivillon,
+1100 vivillon, 1101 vivillon, 1102 vivillon, 1105 vivillon,
+1115 florges, 1116 florges, 1117 florges, 1118 florges, 1129 aegislash,
+1136 xerneas, 1141 hoopa, 1146 lycanroc, 1147 lycanroc, 1200 zacian,
+1202 eternatus, 1209 ursaluna, 1211 sneasler, 1219 skeledirge,
+1225 voltorb, 1226 electrode, 1227 typhlosion, 1228 qwilfish,
+1230 samurott, 1237 goodra, 1245 oinkologne, 1250 pawmi,
+1259 arboliva, 1262 naclstack, 1268 bellibolt, 1271 maschiff,
+1272 mabosstiff, 1277 toedscool, 1278 toedscruel, 1283 rabsca,
+1285 espathra, 1288 tinkaton, 1291 bombirdier, 1297 orthworm,
+1299 glimmora, 1301 houndstone, 1306 dondozo, 1309 clodsire,
+1310 farigiraf, 1312 kingambit, 1313 great_tusk, 1317 slither_wing,
+1318 sandy_shocks, 1322 iron_jugulis, 1332 ting_lu, 1336 koraidon,
+1337 miraidon, 1338 walking_wake, 1340 oinkologne, 1353 wooper,
+1356 sinistcha, 1358 munkidori, 1359 fezandipiti, 1361 ursaluna,
+1363 sinistcha, 1371 archaludon, 1372 hydrapple, 1375 iron_boulder,
+1435 venusaur, 1444 lapras, 1446 snorlax, 1447 garbodor,
+1448 melmetal, 1449 rillaboom, 1451 inteleon, 1461 centiskorch,
+1466 duraludon, 1471 clefable, 1475 meganium, 1482 scrafty
+
+Any slot in 899–1486 that is NOT in this list and NOT in sections 4–5
+below is not on the redraw census: its bound still was not withheld for
+pose, so no standing redraw is owed for it.
+
+=====================================================================
+3) THE 12 VIVILLON PATTERN SLOTS (already counted inside section 2)
+=====================================================================
+
+The 12 are: 1087, 1088, 1089, 1093, 1094, 1095, 1098, 1099, 1100, 1101,
+1102, 1105. (The other 8 of the 20 pattern slots — 0666 and 1090, 1091,
+1092, 1096, 1097, 1103, 1104 — are not on the redraw census.)
+
+Pattern names settled by a studio record (follower production palette
+census, mdx_follower_tranche27):
+  1089 — Sun pattern
+  1093 — Modern pattern
+  1101 — Monsoon pattern
+
+For the other 9 slots (1087, 1088, 1094, 1095, 1098, 1099, 1100, 1102,
+1105) no studio record settles the pattern name — see UNSETTLED below.
+The redraw packet's rule covers the work either way: each slot's wing
+pattern is that pattern's identity — reproduce THAT slot's pattern
+exactly from its own bound still; only the pose standardizes.
+
+=====================================================================
+4) WITHHELD — DO NOT REDRAW (in range 899–1486)
+=====================================================================
+
+  1241 enamorus (Therian) — the bound sprite is the standard
+      creature-form Therian Enamorus, not a Moemon design (confirmed
+      against the ROM on our side). Stays a gap for the Moemon set.
+  1350 tauros (Combat breed) — the ROM's sprite bytes are byte-identical
+      copies of Kanto Tauros slot 128; no Moemon design exists to redraw
+      from. Stays a gap until real breed art lands.
+  1351 tauros (Blaze breed) — same as 1350.
+  1352 tauros (Aqua breed) — same as 1350.
+  (893 zarude and 896 glastrier — same creature-form ruling, section 1.)
+
+=====================================================================
+5) ALREADY DONE IN RANGE — NOT on the remaining list
+=====================================================================
+
+  1133, 1134, 1135 gourgeist (size forms) — delivered in Wave 1, graded
+      (one redraw serves all four Gourgeist slots, per the packet).
+  1205, 1206 calyrex (Ice Rider / Shadow Rider) — unmounted standing
+      redraws delivered in Wave 1 as a special item, graded PASS.
+  1379, 1380 terapagos (Terastal / Stellar) — hovering-pose special
+      items, accepted in the Batch B grading.
+
+=====================================================================
+6) UNSETTLED — BOSSY TO RULE
+=====================================================================
+
+  - Vivillon pattern NAMES for slots 1087, 1088, 1094, 1095, 1098, 1099,
+    1100, 1102, 1105: no held record maps these slots to canonical
+    pattern names (the one production record that names any names only
+    1089 Sun, 1093 Modern, 1101 Monsoon). Bossy to rule before any
+    name-based filing matters; the redraw itself does not wait on it —
+    copy each slot's own pattern from its still.
+  - Packet slots just past the gate range — 1490 malamar, 1492 dragalge,
+    1497 raichu, 1498 raichu, 1501 staraptor, 1502 garchomp, 1503 lucario
+    — are on the same redraw census but outside 887–1486; not assigned
+    in this list. Bossy to rule when Wave 3 closes.
+  - Slot 884 duraludon sits on the census just below the Wave 3 range
+    (Wave 2 territory); not covered by this list.
+
+Sources: mdx_follower_rigging/NEON_REDRAW_PACKET.md (the census);
+FOR_NEON.md gate section 2026-11-25 (range + Tauros/Enamorus rulings);
+NEON_WAVE1_INTAKE_REPORT.md + NEON_ROUND2_GRADE.md (delivered/graded);
+NEON_WAVE3A_GRADE.md (889/890 open, 893/896 withheld, 891/898 standing);
+mdx_follower_tranche27/PRODUCTION_REPORT.md (Vivillon names named there).
