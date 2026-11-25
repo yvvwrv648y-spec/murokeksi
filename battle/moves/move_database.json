@@ -1,0 +1,1056 @@
+{
+  "schema_version": "2.0.0",
+  "move_count": 94,
+  "moves": {
+    "Thunderbolt": {
+      "type": "Electric",
+      "cat": "Special",
+      "power": 90,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "status": "PAR",
+      "status_chance": 10,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Volt Switch": {
+      "type": "Electric",
+      "cat": "Special",
+      "power": 70,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "pivot": true,
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Thunder Wave": {
+      "type": "Electric",
+      "cat": "Status",
+      "power": 0,
+      "acc": 90,
+      "pp": 32,
+      "priority": 0,
+      "status": "PAR",
+      "status_chance": 100,
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Surf": {
+      "type": "Water",
+      "cat": "Special",
+      "power": 90,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "spread": true,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Hydro Pump": {
+      "type": "Water",
+      "cat": "Special",
+      "power": 110,
+      "acc": 80,
+      "pp": 8,
+      "priority": 0,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Scald": {
+      "type": "Water",
+      "cat": "Special",
+      "power": 80,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "status": "BRN",
+      "status_chance": 30,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Flip Turn": {
+      "type": "Water",
+      "cat": "Physical",
+      "power": 60,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "pivot": true,
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Aqua Jet": {
+      "type": "Water",
+      "cat": "Physical",
+      "power": 40,
+      "acc": 100,
+      "pp": 32,
+      "priority": 1,
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Rain Dance": {
+      "type": "Water",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 8,
+      "priority": 0,
+      "weather": "rain",
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Flamethrower": {
+      "type": "Fire",
+      "cat": "Special",
+      "power": 90,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "status": "BRN",
+      "status_chance": 10,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Fire Blast": {
+      "type": "Fire",
+      "cat": "Special",
+      "power": 110,
+      "acc": 85,
+      "pp": 8,
+      "priority": 0,
+      "status": "BRN",
+      "status_chance": 10,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Flare Blitz": {
+      "type": "Fire",
+      "cat": "Physical",
+      "power": 120,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "recoil": 0.33,
+      "status": "BRN",
+      "status_chance": 10,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Will-O-Wisp": {
+      "type": "Fire",
+      "cat": "Status",
+      "power": 0,
+      "acc": 85,
+      "pp": 24,
+      "priority": 0,
+      "status": "BRN",
+      "status_chance": 100,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Sunny Day": {
+      "type": "Fire",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 8,
+      "priority": 0,
+      "weather": "sun",
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Giga Drain": {
+      "type": "Grass",
+      "cat": "Special",
+      "power": 75,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "drain": 0.5,
+      "healing_move": true,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Energy Ball": {
+      "type": "Grass",
+      "cat": "Special",
+      "power": 90,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Grass Knot": {
+      "type": "Grass",
+      "cat": "Special",
+      "power": 80,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Leaf Storm": {
+      "type": "Grass",
+      "cat": "Special",
+      "power": 130,
+      "acc": 90,
+      "pp": 8,
+      "priority": 0,
+      "self_drop": {
+        "spa": -2
+      },
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Sleep Powder": {
+      "type": "Grass",
+      "cat": "Status",
+      "power": 0,
+      "acc": 75,
+      "pp": 24,
+      "priority": 0,
+      "status": "SLP",
+      "status_chance": 100,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Spore": {
+      "type": "Grass",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "status": "SLP",
+      "status_chance": 100,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Synthesis": {
+      "type": "Grass",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 8,
+      "priority": 0,
+      "heal_self": 0.5,
+      "healing_move": true,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Ice Beam": {
+      "type": "Ice",
+      "cat": "Special",
+      "power": 90,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "status": "FRZ",
+      "status_chance": 10,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Blizzard": {
+      "type": "Ice",
+      "cat": "Special",
+      "power": 110,
+      "acc": 70,
+      "pp": 8,
+      "priority": 0,
+      "spread": true,
+      "status": "FRZ",
+      "status_chance": 10,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Freeze-Dry": {
+      "type": "Ice",
+      "cat": "Special",
+      "power": 70,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "super_effective_vs": [
+        "Water"
+      ],
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Ice Shard": {
+      "type": "Ice",
+      "cat": "Physical",
+      "power": 40,
+      "acc": 100,
+      "pp": 48,
+      "priority": 1,
+      "base_pp": 30,
+      "pp_max": 48
+    },
+    "Aurora Veil": {
+      "type": "Ice",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "screen": "aurora_veil",
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Close Combat": {
+      "type": "Fighting",
+      "cat": "Physical",
+      "power": 120,
+      "acc": 100,
+      "pp": 8,
+      "priority": 0,
+      "self_drop": {
+        "def": -1,
+        "spd": -1
+      },
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Drain Punch": {
+      "type": "Fighting",
+      "cat": "Physical",
+      "power": 75,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "drain": 0.5,
+      "healing_move": true,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Mach Punch": {
+      "type": "Fighting",
+      "cat": "Physical",
+      "power": 40,
+      "acc": 100,
+      "pp": 48,
+      "priority": 1,
+      "base_pp": 30,
+      "pp_max": 48
+    },
+    "Aura Sphere": {
+      "type": "Fighting",
+      "cat": "Special",
+      "power": 80,
+      "acc": 999,
+      "pp": 32,
+      "priority": 0,
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Sludge Bomb": {
+      "type": "Poison",
+      "cat": "Special",
+      "power": 90,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "status": "PSN",
+      "status_chance": 30,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Toxic": {
+      "type": "Poison",
+      "cat": "Status",
+      "power": 0,
+      "acc": 90,
+      "pp": 16,
+      "priority": 0,
+      "status": "TOX",
+      "status_chance": 100,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Toxic Spikes": {
+      "type": "Poison",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "hazard": "toxic_spikes",
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Earthquake": {
+      "type": "Ground",
+      "cat": "Physical",
+      "power": 100,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "spread": true,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Earth Power": {
+      "type": "Ground",
+      "cat": "Special",
+      "power": 90,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Spikes": {
+      "type": "Ground",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "hazard": "spikes",
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Air Slash": {
+      "type": "Flying",
+      "cat": "Special",
+      "power": 75,
+      "acc": 95,
+      "pp": 24,
+      "priority": 0,
+      "flinch_chance": 30,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Brave Bird": {
+      "type": "Flying",
+      "cat": "Physical",
+      "power": 120,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "recoil": 0.33,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Hurricane": {
+      "type": "Flying",
+      "cat": "Special",
+      "power": 110,
+      "acc": 70,
+      "pp": 16,
+      "priority": 0,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Roost": {
+      "type": "Flying",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 8,
+      "priority": 0,
+      "heal_self": 0.5,
+      "healing_move": true,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Tailwind": {
+      "type": "Flying",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "side_condition": "tailwind",
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Psychic": {
+      "type": "Psychic",
+      "cat": "Special",
+      "power": 90,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Psyshock": {
+      "type": "Psychic",
+      "cat": "Special",
+      "power": 80,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "hits_physical_def": true,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Calm Mind": {
+      "type": "Psychic",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "self_boost": {
+        "spa": 1,
+        "spd": 1
+      },
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Reflect": {
+      "type": "Psychic",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "screen": "reflect",
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Light Screen": {
+      "type": "Psychic",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 48,
+      "priority": 0,
+      "screen": "light_screen",
+      "base_pp": 30,
+      "pp_max": 48
+    },
+    "Trick Room": {
+      "type": "Psychic",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 8,
+      "priority": -7,
+      "field": "trick_room",
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "U-turn": {
+      "type": "Bug",
+      "cat": "Physical",
+      "power": 70,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "pivot": true,
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Bug Buzz": {
+      "type": "Bug",
+      "cat": "Special",
+      "power": 90,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Sticky Web": {
+      "type": "Bug",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "hazard": "sticky_web",
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Stone Edge": {
+      "type": "Rock",
+      "cat": "Physical",
+      "power": 100,
+      "acc": 80,
+      "pp": 8,
+      "priority": 0,
+      "high_crit": true,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Rock Slide": {
+      "type": "Rock",
+      "cat": "Physical",
+      "power": 75,
+      "acc": 90,
+      "pp": 16,
+      "priority": 0,
+      "spread": true,
+      "flinch_chance": 30,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Stealth Rock": {
+      "type": "Rock",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "hazard": "stealth_rock",
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Shadow Ball": {
+      "type": "Ghost",
+      "cat": "Special",
+      "power": 80,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Shadow Sneak": {
+      "type": "Ghost",
+      "cat": "Physical",
+      "power": 40,
+      "acc": 100,
+      "pp": 48,
+      "priority": 1,
+      "base_pp": 30,
+      "pp_max": 48
+    },
+    "Poltergeist": {
+      "type": "Ghost",
+      "cat": "Physical",
+      "power": 110,
+      "acc": 90,
+      "pp": 8,
+      "priority": 0,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Dragon Claw": {
+      "type": "Dragon",
+      "cat": "Physical",
+      "power": 80,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Outrage": {
+      "type": "Dragon",
+      "cat": "Physical",
+      "power": 120,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Draco Meteor": {
+      "type": "Dragon",
+      "cat": "Special",
+      "power": 130,
+      "acc": 90,
+      "pp": 8,
+      "priority": 0,
+      "self_drop": {
+        "spa": -2
+      },
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Dragon Dance": {
+      "type": "Dragon",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "self_boost": {
+        "atk": 1,
+        "spe": 1
+      },
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Dark Pulse": {
+      "type": "Dark",
+      "cat": "Special",
+      "power": 80,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "flinch_chance": 20,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Knock Off": {
+      "type": "Dark",
+      "cat": "Physical",
+      "power": 65,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "removes_item": true,
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Sucker Punch": {
+      "type": "Dark",
+      "cat": "Physical",
+      "power": 70,
+      "acc": 100,
+      "pp": 8,
+      "priority": 1,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Nasty Plot": {
+      "type": "Dark",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "self_boost": {
+        "spa": 2
+      },
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Flash Cannon": {
+      "type": "Steel",
+      "cat": "Special",
+      "power": 80,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Iron Head": {
+      "type": "Steel",
+      "cat": "Physical",
+      "power": 80,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "flinch_chance": 30,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Bullet Punch": {
+      "type": "Steel",
+      "cat": "Physical",
+      "power": 40,
+      "acc": 100,
+      "pp": 48,
+      "priority": 1,
+      "base_pp": 30,
+      "pp_max": 48
+    },
+    "Make It Rain": {
+      "type": "Steel",
+      "cat": "Special",
+      "power": 120,
+      "acc": 100,
+      "pp": 8,
+      "priority": 0,
+      "spread": true,
+      "self_drop": {
+        "spa": -1
+      },
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Moonblast": {
+      "type": "Fairy",
+      "cat": "Special",
+      "power": 95,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Dazzling Gleam": {
+      "type": "Fairy",
+      "cat": "Special",
+      "power": 80,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "spread": true,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Play Rough": {
+      "type": "Fairy",
+      "cat": "Physical",
+      "power": 90,
+      "acc": 90,
+      "pp": 16,
+      "priority": 0,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Extreme Speed": {
+      "type": "Normal",
+      "cat": "Physical",
+      "power": 80,
+      "acc": 100,
+      "pp": 8,
+      "priority": 2,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Quick Attack": {
+      "type": "Normal",
+      "cat": "Physical",
+      "power": 40,
+      "acc": 100,
+      "pp": 48,
+      "priority": 1,
+      "base_pp": 30,
+      "pp_max": 48
+    },
+    "Hyper Voice": {
+      "type": "Normal",
+      "cat": "Special",
+      "power": 90,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "spread": true,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Swords Dance": {
+      "type": "Normal",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 32,
+      "priority": 0,
+      "self_boost": {
+        "atk": 2
+      },
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Protect": {
+      "type": "Normal",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 16,
+      "priority": 4,
+      "protect": true,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Recover": {
+      "type": "Normal",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 8,
+      "priority": 0,
+      "heal_self": 0.5,
+      "healing_move": true,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Rapid Spin": {
+      "type": "Normal",
+      "cat": "Physical",
+      "power": 50,
+      "acc": 100,
+      "pp": 64,
+      "priority": 0,
+      "clears_hazards": true,
+      "self_boost": {
+        "spe": 1
+      },
+      "base_pp": 40,
+      "pp_max": 64
+    },
+    "Defog": {
+      "type": "Flying",
+      "cat": "Status",
+      "power": 0,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "clears_hazards": true,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Tera Blast": {
+      "type": "Normal",
+      "cat": "Special",
+      "power": 80,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "uses_tera_type": true,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Kowtow Cleave": {
+      "type": "Dark",
+      "cat": "Physical",
+      "power": 85,
+      "acc": 999,
+      "pp": 16,
+      "priority": 0,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Scale Shot": {
+      "type": "Dragon",
+      "cat": "Physical",
+      "power": 100,
+      "acc": 90,
+      "pp": 32,
+      "priority": 0,
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Flower Trick": {
+      "type": "Grass",
+      "cat": "Physical",
+      "power": 70,
+      "acc": 999,
+      "pp": 16,
+      "priority": 0,
+      "always_crit": true,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Bitter Blade": {
+      "type": "Fire",
+      "cat": "Physical",
+      "power": 90,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "drain": 0.5,
+      "healing_move": true,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Headlong Rush": {
+      "type": "Ground",
+      "cat": "Physical",
+      "power": 120,
+      "acc": 100,
+      "pp": 8,
+      "priority": 0,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Collision Course": {
+      "type": "Fighting",
+      "cat": "Physical",
+      "power": 100,
+      "acc": 100,
+      "pp": 8,
+      "priority": 0,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Electro Drift": {
+      "type": "Electric",
+      "cat": "Special",
+      "power": 100,
+      "acc": 100,
+      "pp": 8,
+      "priority": 0,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Torch Song": {
+      "type": "Fire",
+      "cat": "Special",
+      "power": 80,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Salt Cure": {
+      "type": "Rock",
+      "cat": "Physical",
+      "power": 40,
+      "acc": 100,
+      "pp": 24,
+      "priority": 0,
+      "base_pp": 15,
+      "pp_max": 24
+    },
+    "Behemoth Blade": {
+      "type": "Steel",
+      "cat": "Physical",
+      "power": 100,
+      "acc": 100,
+      "pp": 8,
+      "priority": 0,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Dragon Ascent": {
+      "type": "Flying",
+      "cat": "Physical",
+      "power": 120,
+      "acc": 100,
+      "pp": 8,
+      "priority": 0,
+      "base_pp": 5,
+      "pp_max": 8
+    },
+    "Psystrike": {
+      "type": "Psychic",
+      "cat": "Special",
+      "power": 100,
+      "acc": 100,
+      "pp": 16,
+      "priority": 0,
+      "hits_physical_def": true,
+      "base_pp": 10,
+      "pp_max": 16
+    },
+    "Water Shuriken": {
+      "type": "Water",
+      "cat": "Special",
+      "power": 60,
+      "acc": 100,
+      "pp": 32,
+      "priority": 1,
+      "base_pp": 20,
+      "pp_max": 32
+    },
+    "Sacred Fire": {
+      "type": "Fire",
+      "cat": "Physical",
+      "power": 100,
+      "acc": 95,
+      "pp": 8,
+      "priority": 0,
+      "status": "BRN",
+      "status_chance": 50,
+      "base_pp": 5,
+      "pp_max": 8
+    }
+  },
+  "pp_policy": "Official Gen IX PP Max (base_pp * 8 / 5) enforced for competitive 6v6"
+}
