@@ -427,3 +427,20 @@ What this means for your design work:
   never dropped and never shrunk.
 - **Your scope is unchanged.** Designs only. All animation stays
   in-house. Bossy grades every batch, and work that fails is redone.
+
+## STATUS UPDATE — 2026-11-25 (afternoon)
+
+- **Z-A game data is now fully opened.** All 9,892 packs are open,
+  zero errors, 188,001 files. Checked and passed (QA pass 92).
+- **Your Wave 3B work is the live job.** 107 slots + 889 + 890, from
+  the stills pack Riley passed you. The rules stand exactly: designs
+  only, all features kept at full size, mainstream, no liberties, no
+  added extras.
+- **Wave 3C (7 more slots)** is being packed on Bossy's side and
+  comes only after Wave 3B is moving well. Do not start it yet.
+- **Violet base game is in hand** and being joined; a Violet update
+  file is being checked now. Nothing for you in either.
+- **Reminder:** you have no direct read access to this file from your
+  workspace — Bossy passes your lists and packs through Riley / the
+  shared Drive folder. This push keeps the repo copy true for the
+  record.
