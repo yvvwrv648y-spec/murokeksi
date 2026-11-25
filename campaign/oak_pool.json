@@ -1,0 +1,7795 @@
+{
+ "authority": "Riley ruling 2026-11-23 22:53 CST",
+ "counts": {
+  "build_tiers": {
+   "1": 38,
+   "2": 132,
+   "3": 109
+  },
+  "excluded_by_rule": {
+   "legendary": 66,
+   "mythical": 23,
+   "no_battle_animation": 174,
+   "not_basic_stage": 483
+  },
+  "final_pool": 279,
+  "moemon_variant_available": 279,
+  "register_form_records_excluded": 61,
+  "universe": 1025
+ },
+ "crosscheck_notes": [],
+ "exclusions": [
+  {
+   "name": "ivysaur",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 1",
+   "species_id": 2
+  },
+  {
+   "name": "venusaur",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 2",
+   "species_id": 3
+  },
+  {
+   "name": "charmeleon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 4",
+   "species_id": 5
+  },
+  {
+   "name": "charizard",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 5",
+   "species_id": 6
+  },
+  {
+   "name": "wartortle",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 7",
+   "species_id": 8
+  },
+  {
+   "name": "blastoise",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 8",
+   "species_id": 9
+  },
+  {
+   "name": "metapod",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 10",
+   "species_id": 11
+  },
+  {
+   "name": "butterfree",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 11",
+   "species_id": 12
+  },
+  {
+   "name": "kakuna",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 13",
+   "species_id": 14
+  },
+  {
+   "name": "beedrill",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 14",
+   "species_id": 15
+  },
+  {
+   "name": "pidgeotto",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 16",
+   "species_id": 17
+  },
+  {
+   "name": "pidgeot",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 17",
+   "species_id": 18
+  },
+  {
+   "name": "raticate",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 19",
+   "species_id": 20
+  },
+  {
+   "name": "fearow",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 21",
+   "species_id": 22
+  },
+  {
+   "name": "arbok",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 23",
+   "species_id": 24
+  },
+  {
+   "name": "pikachu",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 172",
+   "species_id": 25
+  },
+  {
+   "name": "raichu",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 25",
+   "species_id": 26
+  },
+  {
+   "name": "sandslash",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 27",
+   "species_id": 28
+  },
+  {
+   "name": "nidorina",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 29",
+   "species_id": 30
+  },
+  {
+   "name": "nidoqueen",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 30",
+   "species_id": 31
+  },
+  {
+   "name": "nidorino",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 32",
+   "species_id": 33
+  },
+  {
+   "name": "nidoking",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 33",
+   "species_id": 34
+  },
+  {
+   "name": "clefairy",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 173",
+   "species_id": 35
+  },
+  {
+   "name": "clefable",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 35",
+   "species_id": 36
+  },
+  {
+   "name": "ninetales",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 37",
+   "species_id": 38
+  },
+  {
+   "name": "jigglypuff",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 174",
+   "species_id": 39
+  },
+  {
+   "name": "wigglytuff",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 39",
+   "species_id": 40
+  },
+  {
+   "name": "golbat",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 41",
+   "species_id": 42
+  },
+  {
+   "name": "gloom",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 43",
+   "species_id": 44
+  },
+  {
+   "name": "vileplume",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 44",
+   "species_id": 45
+  },
+  {
+   "name": "parasect",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 46",
+   "species_id": 47
+  },
+  {
+   "name": "venomoth",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 48",
+   "species_id": 49
+  },
+  {
+   "name": "dugtrio",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 50",
+   "species_id": 51
+  },
+  {
+   "name": "persian",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 52",
+   "species_id": 53
+  },
+  {
+   "name": "golduck",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 54",
+   "species_id": 55
+  },
+  {
+   "name": "primeape",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 56",
+   "species_id": 57
+  },
+  {
+   "name": "arcanine",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 58",
+   "species_id": 59
+  },
+  {
+   "name": "poliwhirl",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 60",
+   "species_id": 61
+  },
+  {
+   "name": "poliwrath",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 61",
+   "species_id": 62
+  },
+  {
+   "name": "kadabra",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 63",
+   "species_id": 64
+  },
+  {
+   "name": "alakazam",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 64",
+   "species_id": 65
+  },
+  {
+   "name": "machoke",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 66",
+   "species_id": 67
+  },
+  {
+   "name": "machamp",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 67",
+   "species_id": 68
+  },
+  {
+   "name": "weepinbell",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 69",
+   "species_id": 70
+  },
+  {
+   "name": "victreebel",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 70",
+   "species_id": 71
+  },
+  {
+   "name": "tentacruel",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 72",
+   "species_id": 73
+  },
+  {
+   "name": "graveler",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 74",
+   "species_id": 75
+  },
+  {
+   "name": "golem",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 75",
+   "species_id": 76
+  },
+  {
+   "name": "rapidash",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 77",
+   "species_id": 78
+  },
+  {
+   "name": "slowbro",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 79",
+   "species_id": 80
+  },
+  {
+   "name": "magneton",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 81",
+   "species_id": 82
+  },
+  {
+   "name": "dodrio",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 84",
+   "species_id": 85
+  },
+  {
+   "name": "dewgong",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 86",
+   "species_id": 87
+  },
+  {
+   "name": "muk",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 88",
+   "species_id": 89
+  },
+  {
+   "name": "cloyster",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 90",
+   "species_id": 91
+  },
+  {
+   "name": "haunter",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 92",
+   "species_id": 93
+  },
+  {
+   "name": "gengar",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 93",
+   "species_id": 94
+  },
+  {
+   "name": "hypno",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 96",
+   "species_id": 97
+  },
+  {
+   "name": "kingler",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 98",
+   "species_id": 99
+  },
+  {
+   "name": "electrode",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 100",
+   "species_id": 101
+  },
+  {
+   "name": "exeggutor",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 102",
+   "species_id": 103
+  },
+  {
+   "name": "marowak",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 104",
+   "species_id": 105
+  },
+  {
+   "name": "hitmonlee",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 236",
+   "species_id": 106
+  },
+  {
+   "name": "hitmonchan",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 236",
+   "species_id": 107
+  },
+  {
+   "name": "weezing",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 109",
+   "species_id": 110
+  },
+  {
+   "name": "rhydon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 111",
+   "species_id": 112
+  },
+  {
+   "name": "chansey",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 440",
+   "species_id": 113
+  },
+  {
+   "name": "seadra",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 116",
+   "species_id": 117
+  },
+  {
+   "name": "seaking",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 118",
+   "species_id": 119
+  },
+  {
+   "name": "starmie",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 120",
+   "species_id": 121
+  },
+  {
+   "name": "mrmime",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 439",
+   "species_id": 122
+  },
+  {
+   "name": "jynx",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 238",
+   "species_id": 124
+  },
+  {
+   "name": "electabuzz",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 239",
+   "species_id": 125
+  },
+  {
+   "name": "magmar",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 240",
+   "species_id": 126
+  },
+  {
+   "name": "gyarados",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 129",
+   "species_id": 130
+  },
+  {
+   "name": "vaporeon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 133",
+   "species_id": 134
+  },
+  {
+   "name": "jolteon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 133",
+   "species_id": 135
+  },
+  {
+   "name": "flareon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 133",
+   "species_id": 136
+  },
+  {
+   "name": "omastar",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 138",
+   "species_id": 139
+  },
+  {
+   "name": "kabutops",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 140",
+   "species_id": 141
+  },
+  {
+   "name": "snorlax",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 446",
+   "species_id": 143
+  },
+  {
+   "name": "dragonair",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 147",
+   "species_id": 148
+  },
+  {
+   "name": "dragonite",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 148",
+   "species_id": 149
+  },
+  {
+   "name": "bayleef",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 152",
+   "species_id": 153
+  },
+  {
+   "name": "meganium",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 153",
+   "species_id": 154
+  },
+  {
+   "name": "quilava",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 155",
+   "species_id": 156
+  },
+  {
+   "name": "typhlosion",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 156",
+   "species_id": 157
+  },
+  {
+   "name": "croconaw",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 158",
+   "species_id": 159
+  },
+  {
+   "name": "feraligatr",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 159",
+   "species_id": 160
+  },
+  {
+   "name": "furret",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 161",
+   "species_id": 162
+  },
+  {
+   "name": "noctowl",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 163",
+   "species_id": 164
+  },
+  {
+   "name": "ledian",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 165",
+   "species_id": 166
+  },
+  {
+   "name": "ariados",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 167",
+   "species_id": 168
+  },
+  {
+   "name": "crobat",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 42",
+   "species_id": 169
+  },
+  {
+   "name": "lanturn",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 170",
+   "species_id": 171
+  },
+  {
+   "name": "togetic",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 175",
+   "species_id": 176
+  },
+  {
+   "name": "xatu",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 177",
+   "species_id": 178
+  },
+  {
+   "name": "flaaffy",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 179",
+   "species_id": 180
+  },
+  {
+   "name": "ampharos",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 180",
+   "species_id": 181
+  },
+  {
+   "name": "bellossom",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 44",
+   "species_id": 182
+  },
+  {
+   "name": "marill",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 298",
+   "species_id": 183
+  },
+  {
+   "name": "azumarill",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 183",
+   "species_id": 184
+  },
+  {
+   "name": "sudowoodo",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 438",
+   "species_id": 185
+  },
+  {
+   "name": "politoed",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 61",
+   "species_id": 186
+  },
+  {
+   "name": "skiploom",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 187",
+   "species_id": 188
+  },
+  {
+   "name": "jumpluff",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 188",
+   "species_id": 189
+  },
+  {
+   "name": "sunflora",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 191",
+   "species_id": 192
+  },
+  {
+   "name": "quagsire",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 194",
+   "species_id": 195
+  },
+  {
+   "name": "espeon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 133",
+   "species_id": 196
+  },
+  {
+   "name": "umbreon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 133",
+   "species_id": 197
+  },
+  {
+   "name": "slowking",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 79",
+   "species_id": 199
+  },
+  {
+   "name": "wobbuffet",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 360",
+   "species_id": 202
+  },
+  {
+   "name": "forretress",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 204",
+   "species_id": 205
+  },
+  {
+   "name": "steelix",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 95",
+   "species_id": 208
+  },
+  {
+   "name": "granbull",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 209",
+   "species_id": 210
+  },
+  {
+   "name": "scizor",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 123",
+   "species_id": 212
+  },
+  {
+   "name": "ursaring",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 216",
+   "species_id": 217
+  },
+  {
+   "name": "magcargo",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 218",
+   "species_id": 219
+  },
+  {
+   "name": "piloswine",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 220",
+   "species_id": 221
+  },
+  {
+   "name": "octillery",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 223",
+   "species_id": 224
+  },
+  {
+   "name": "mantine",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 458",
+   "species_id": 226
+  },
+  {
+   "name": "houndoom",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 228",
+   "species_id": 229
+  },
+  {
+   "name": "kingdra",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 117",
+   "species_id": 230
+  },
+  {
+   "name": "donphan",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 231",
+   "species_id": 232
+  },
+  {
+   "name": "porygon2",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 137",
+   "species_id": 233
+  },
+  {
+   "name": "hitmontop",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 236",
+   "species_id": 237
+  },
+  {
+   "name": "blissey",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 113",
+   "species_id": 242
+  },
+  {
+   "name": "pupitar",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 246",
+   "species_id": 247
+  },
+  {
+   "name": "tyranitar",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 247",
+   "species_id": 248
+  },
+  {
+   "name": "grovyle",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 252",
+   "species_id": 253
+  },
+  {
+   "name": "sceptile",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 253",
+   "species_id": 254
+  },
+  {
+   "name": "combusken",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 255",
+   "species_id": 256
+  },
+  {
+   "name": "blaziken",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 256",
+   "species_id": 257
+  },
+  {
+   "name": "marshtomp",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 258",
+   "species_id": 259
+  },
+  {
+   "name": "swampert",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 259",
+   "species_id": 260
+  },
+  {
+   "name": "mightyena",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 261",
+   "species_id": 262
+  },
+  {
+   "name": "linoone",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 263",
+   "species_id": 264
+  },
+  {
+   "name": "silcoon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 265",
+   "species_id": 266
+  },
+  {
+   "name": "beautifly",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 266",
+   "species_id": 267
+  },
+  {
+   "name": "cascoon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 265",
+   "species_id": 268
+  },
+  {
+   "name": "dustox",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 268",
+   "species_id": 269
+  },
+  {
+   "name": "lombre",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 270",
+   "species_id": 271
+  },
+  {
+   "name": "ludicolo",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 271",
+   "species_id": 272
+  },
+  {
+   "name": "nuzleaf",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 273",
+   "species_id": 274
+  },
+  {
+   "name": "shiftry",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 274",
+   "species_id": 275
+  },
+  {
+   "name": "swellow",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 276",
+   "species_id": 277
+  },
+  {
+   "name": "pelipper",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 278",
+   "species_id": 279
+  },
+  {
+   "name": "kirlia",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 280",
+   "species_id": 281
+  },
+  {
+   "name": "gardevoir",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 281",
+   "species_id": 282
+  },
+  {
+   "name": "masquerain",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 283",
+   "species_id": 284
+  },
+  {
+   "name": "breloom",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 285",
+   "species_id": 286
+  },
+  {
+   "name": "vigoroth",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 287",
+   "species_id": 288
+  },
+  {
+   "name": "slaking",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 288",
+   "species_id": 289
+  },
+  {
+   "name": "ninjask",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 290",
+   "species_id": 291
+  },
+  {
+   "name": "shedinja",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 290",
+   "species_id": 292
+  },
+  {
+   "name": "loudred",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 293",
+   "species_id": 294
+  },
+  {
+   "name": "exploud",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 294",
+   "species_id": 295
+  },
+  {
+   "name": "hariyama",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 296",
+   "species_id": 297
+  },
+  {
+   "name": "delcatty",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 300",
+   "species_id": 301
+  },
+  {
+   "name": "lairon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 304",
+   "species_id": 305
+  },
+  {
+   "name": "aggron",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 305",
+   "species_id": 306
+  },
+  {
+   "name": "medicham",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 307",
+   "species_id": 308
+  },
+  {
+   "name": "manectric",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 309",
+   "species_id": 310
+  },
+  {
+   "name": "roselia",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 406",
+   "species_id": 315
+  },
+  {
+   "name": "swalot",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 316",
+   "species_id": 317
+  },
+  {
+   "name": "sharpedo",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 318",
+   "species_id": 319
+  },
+  {
+   "name": "wailord",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 320",
+   "species_id": 321
+  },
+  {
+   "name": "camerupt",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 322",
+   "species_id": 323
+  },
+  {
+   "name": "grumpig",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 325",
+   "species_id": 326
+  },
+  {
+   "name": "vibrava",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 328",
+   "species_id": 329
+  },
+  {
+   "name": "flygon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 329",
+   "species_id": 330
+  },
+  {
+   "name": "cacturne",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 331",
+   "species_id": 332
+  },
+  {
+   "name": "altaria",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 333",
+   "species_id": 334
+  },
+  {
+   "name": "whiscash",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 339",
+   "species_id": 340
+  },
+  {
+   "name": "crawdaunt",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 341",
+   "species_id": 342
+  },
+  {
+   "name": "claydol",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 343",
+   "species_id": 344
+  },
+  {
+   "name": "cradily",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 345",
+   "species_id": 346
+  },
+  {
+   "name": "armaldo",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 347",
+   "species_id": 348
+  },
+  {
+   "name": "milotic",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 349",
+   "species_id": 350
+  },
+  {
+   "name": "banette",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 353",
+   "species_id": 354
+  },
+  {
+   "name": "dusclops",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 355",
+   "species_id": 356
+  },
+  {
+   "name": "chimecho",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 433",
+   "species_id": 358
+  },
+  {
+   "name": "glalie",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 361",
+   "species_id": 362
+  },
+  {
+   "name": "sealeo",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 363",
+   "species_id": 364
+  },
+  {
+   "name": "walrein",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 364",
+   "species_id": 365
+  },
+  {
+   "name": "huntail",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 366",
+   "species_id": 367
+  },
+  {
+   "name": "gorebyss",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 366",
+   "species_id": 368
+  },
+  {
+   "name": "shelgon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 371",
+   "species_id": 372
+  },
+  {
+   "name": "salamence",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 372",
+   "species_id": 373
+  },
+  {
+   "name": "metang",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 374",
+   "species_id": 375
+  },
+  {
+   "name": "metagross",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 375",
+   "species_id": 376
+  },
+  {
+   "name": "grotle",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 387",
+   "species_id": 388
+  },
+  {
+   "name": "torterra",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 388",
+   "species_id": 389
+  },
+  {
+   "name": "monferno",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 390",
+   "species_id": 391
+  },
+  {
+   "name": "infernape",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 391",
+   "species_id": 392
+  },
+  {
+   "name": "prinplup",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 393",
+   "species_id": 394
+  },
+  {
+   "name": "empoleon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 394",
+   "species_id": 395
+  },
+  {
+   "name": "staravia",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 396",
+   "species_id": 397
+  },
+  {
+   "name": "staraptor",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 397",
+   "species_id": 398
+  },
+  {
+   "name": "bibarel",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 399",
+   "species_id": 400
+  },
+  {
+   "name": "kricketune",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 401",
+   "species_id": 402
+  },
+  {
+   "name": "luxio",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 403",
+   "species_id": 404
+  },
+  {
+   "name": "luxray",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 404",
+   "species_id": 405
+  },
+  {
+   "name": "roserade",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 315",
+   "species_id": 407
+  },
+  {
+   "name": "rampardos",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 408",
+   "species_id": 409
+  },
+  {
+   "name": "bastiodon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 410",
+   "species_id": 411
+  },
+  {
+   "name": "wormadam",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 412",
+   "species_id": 413
+  },
+  {
+   "name": "mothim",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 412",
+   "species_id": 414
+  },
+  {
+   "name": "vespiquen",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 415",
+   "species_id": 416
+  },
+  {
+   "name": "floatzel",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 418",
+   "species_id": 419
+  },
+  {
+   "name": "cherrim",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 420",
+   "species_id": 421
+  },
+  {
+   "name": "gastrodon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 422",
+   "species_id": 423
+  },
+  {
+   "name": "ambipom",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 190",
+   "species_id": 424
+  },
+  {
+   "name": "drifblim",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 425",
+   "species_id": 426
+  },
+  {
+   "name": "lopunny",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 427",
+   "species_id": 428
+  },
+  {
+   "name": "mismagius",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 200",
+   "species_id": 429
+  },
+  {
+   "name": "honchkrow",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 198",
+   "species_id": 430
+  },
+  {
+   "name": "purugly",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 431",
+   "species_id": 432
+  },
+  {
+   "name": "skuntank",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 434",
+   "species_id": 435
+  },
+  {
+   "name": "bronzong",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 436",
+   "species_id": 437
+  },
+  {
+   "name": "gabite",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 443",
+   "species_id": 444
+  },
+  {
+   "name": "garchomp",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 444",
+   "species_id": 445
+  },
+  {
+   "name": "lucario",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 447",
+   "species_id": 448
+  },
+  {
+   "name": "hippowdon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 449",
+   "species_id": 450
+  },
+  {
+   "name": "drapion",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 451",
+   "species_id": 452
+  },
+  {
+   "name": "toxicroak",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 453",
+   "species_id": 454
+  },
+  {
+   "name": "lumineon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 456",
+   "species_id": 457
+  },
+  {
+   "name": "abomasnow",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 459",
+   "species_id": 460
+  },
+  {
+   "name": "weavile",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 215",
+   "species_id": 461
+  },
+  {
+   "name": "magnezone",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 82",
+   "species_id": 462
+  },
+  {
+   "name": "lickilicky",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 108",
+   "species_id": 463
+  },
+  {
+   "name": "rhyperior",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 112",
+   "species_id": 464
+  },
+  {
+   "name": "tangrowth",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 114",
+   "species_id": 465
+  },
+  {
+   "name": "electivire",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 125",
+   "species_id": 466
+  },
+  {
+   "name": "magmortar",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 126",
+   "species_id": 467
+  },
+  {
+   "name": "togekiss",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:bs via species 176",
+   "species_id": 468
+  },
+  {
+   "name": "yanmega",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 193",
+   "species_id": 469
+  },
+  {
+   "name": "leafeon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 133",
+   "species_id": 470
+  },
+  {
+   "name": "glaceon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 133",
+   "species_id": 471
+  },
+  {
+   "name": "gliscor",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 207",
+   "species_id": 472
+  },
+  {
+   "name": "mamoswine",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 221",
+   "species_id": 473
+  },
+  {
+   "name": "porygonz",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 233",
+   "species_id": 474
+  },
+  {
+   "name": "gallade",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 281",
+   "species_id": 475
+  },
+  {
+   "name": "probopass",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 299",
+   "species_id": 476
+  },
+  {
+   "name": "dusknoir",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 356",
+   "species_id": 477
+  },
+  {
+   "name": "froslass",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 361",
+   "species_id": 478
+  },
+  {
+   "name": "servine",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 495",
+   "species_id": 496
+  },
+  {
+   "name": "serperior",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 496",
+   "species_id": 497
+  },
+  {
+   "name": "pignite",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 498",
+   "species_id": 499
+  },
+  {
+   "name": "emboar",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 499",
+   "species_id": 500
+  },
+  {
+   "name": "dewott",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 501",
+   "species_id": 502
+  },
+  {
+   "name": "samurott",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 502",
+   "species_id": 503
+  },
+  {
+   "name": "watchog",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 504",
+   "species_id": 505
+  },
+  {
+   "name": "herdier",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 506",
+   "species_id": 507
+  },
+  {
+   "name": "stoutland",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 507",
+   "species_id": 508
+  },
+  {
+   "name": "liepard",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 509",
+   "species_id": 510
+  },
+  {
+   "name": "simisage",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 511",
+   "species_id": 512
+  },
+  {
+   "name": "simisear",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 513",
+   "species_id": 514
+  },
+  {
+   "name": "simipour",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 515",
+   "species_id": 516
+  },
+  {
+   "name": "musharna",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 517",
+   "species_id": 518
+  },
+  {
+   "name": "tranquill",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 519",
+   "species_id": 520
+  },
+  {
+   "name": "unfezant",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 520",
+   "species_id": 521
+  },
+  {
+   "name": "zebstrika",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 522",
+   "species_id": 523
+  },
+  {
+   "name": "boldore",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 524",
+   "species_id": 525
+  },
+  {
+   "name": "gigalith",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 525",
+   "species_id": 526
+  },
+  {
+   "name": "swoobat",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 527",
+   "species_id": 528
+  },
+  {
+   "name": "excadrill",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 529",
+   "species_id": 530
+  },
+  {
+   "name": "gurdurr",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 532",
+   "species_id": 533
+  },
+  {
+   "name": "conkeldurr",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 533",
+   "species_id": 534
+  },
+  {
+   "name": "palpitoad",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 535",
+   "species_id": 536
+  },
+  {
+   "name": "seismitoad",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 536",
+   "species_id": 537
+  },
+  {
+   "name": "swadloon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 540",
+   "species_id": 541
+  },
+  {
+   "name": "leavanny",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 541",
+   "species_id": 542
+  },
+  {
+   "name": "whirlipede",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 543",
+   "species_id": 544
+  },
+  {
+   "name": "scolipede",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 544",
+   "species_id": 545
+  },
+  {
+   "name": "whimsicott",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 546",
+   "species_id": 547
+  },
+  {
+   "name": "lilligant",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 548",
+   "species_id": 549
+  },
+  {
+   "name": "krokorok",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 551",
+   "species_id": 552
+  },
+  {
+   "name": "krookodile",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 552",
+   "species_id": 553
+  },
+  {
+   "name": "darmanitan",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 554",
+   "species_id": 555
+  },
+  {
+   "name": "crustle",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 557",
+   "species_id": 558
+  },
+  {
+   "name": "scrafty",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 559",
+   "species_id": 560
+  },
+  {
+   "name": "cofagrigus",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 562",
+   "species_id": 563
+  },
+  {
+   "name": "carracosta",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 564",
+   "species_id": 565
+  },
+  {
+   "name": "archeops",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 566",
+   "species_id": 567
+  },
+  {
+   "name": "garbodor",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 568",
+   "species_id": 569
+  },
+  {
+   "name": "zoroark",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 570",
+   "species_id": 571
+  },
+  {
+   "name": "cinccino",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 572",
+   "species_id": 573
+  },
+  {
+   "name": "gothorita",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 574",
+   "species_id": 575
+  },
+  {
+   "name": "gothitelle",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 575",
+   "species_id": 576
+  },
+  {
+   "name": "duosion",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 577",
+   "species_id": 578
+  },
+  {
+   "name": "reuniclus",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 578",
+   "species_id": 579
+  },
+  {
+   "name": "swanna",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 580",
+   "species_id": 581
+  },
+  {
+   "name": "vanillish",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 582",
+   "species_id": 583
+  },
+  {
+   "name": "vanilluxe",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 583",
+   "species_id": 584
+  },
+  {
+   "name": "sawsbuck",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 585",
+   "species_id": 586
+  },
+  {
+   "name": "escavalier",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 588",
+   "species_id": 589
+  },
+  {
+   "name": "amoonguss",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 590",
+   "species_id": 591
+  },
+  {
+   "name": "jellicent",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 592",
+   "species_id": 593
+  },
+  {
+   "name": "galvantula",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 595",
+   "species_id": 596
+  },
+  {
+   "name": "ferrothorn",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 597",
+   "species_id": 598
+  },
+  {
+   "name": "klang",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 599",
+   "species_id": 600
+  },
+  {
+   "name": "klinklang",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 600",
+   "species_id": 601
+  },
+  {
+   "name": "eelektrik",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 602",
+   "species_id": 603
+  },
+  {
+   "name": "eelektross",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 603",
+   "species_id": 604
+  },
+  {
+   "name": "beheeyem",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 605",
+   "species_id": 606
+  },
+  {
+   "name": "lampent",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 607",
+   "species_id": 608
+  },
+  {
+   "name": "chandelure",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 608",
+   "species_id": 609
+  },
+  {
+   "name": "fraxure",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 610",
+   "species_id": 611
+  },
+  {
+   "name": "haxorus",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 611",
+   "species_id": 612
+  },
+  {
+   "name": "beartic",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 613",
+   "species_id": 614
+  },
+  {
+   "name": "accelgor",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 616",
+   "species_id": 617
+  },
+  {
+   "name": "mienshao",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 619",
+   "species_id": 620
+  },
+  {
+   "name": "golurk",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 622",
+   "species_id": 623
+  },
+  {
+   "name": "bisharp",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 624",
+   "species_id": 625
+  },
+  {
+   "name": "braviary",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 627",
+   "species_id": 628
+  },
+  {
+   "name": "mandibuzz",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 629",
+   "species_id": 630
+  },
+  {
+   "name": "zweilous",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 633",
+   "species_id": 634
+  },
+  {
+   "name": "hydreigon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 634",
+   "species_id": 635
+  },
+  {
+   "name": "volcarona",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 636",
+   "species_id": 637
+  },
+  {
+   "name": "quilladin",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 650",
+   "species_id": 651
+  },
+  {
+   "name": "chesnaught",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 651",
+   "species_id": 652
+  },
+  {
+   "name": "braixen",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 653",
+   "species_id": 654
+  },
+  {
+   "name": "delphox",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 654",
+   "species_id": 655
+  },
+  {
+   "name": "frogadier",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 656",
+   "species_id": 657
+  },
+  {
+   "name": "greninja",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 657",
+   "species_id": 658
+  },
+  {
+   "name": "diggersby",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 659",
+   "species_id": 660
+  },
+  {
+   "name": "fletchinder",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 661",
+   "species_id": 662
+  },
+  {
+   "name": "talonflame",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 662",
+   "species_id": 663
+  },
+  {
+   "name": "spewpa",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 664",
+   "species_id": 665
+  },
+  {
+   "name": "vivillon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 665",
+   "species_id": 666
+  },
+  {
+   "name": "pyroar",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 667",
+   "species_id": 668
+  },
+  {
+   "name": "floette",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 669",
+   "species_id": 670
+  },
+  {
+   "name": "florges",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 670",
+   "species_id": 671
+  },
+  {
+   "name": "gogoat",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 672",
+   "species_id": 673
+  },
+  {
+   "name": "pangoro",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 674",
+   "species_id": 675
+  },
+  {
+   "name": "meowstic",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 677",
+   "species_id": 678
+  },
+  {
+   "name": "doublade",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 679",
+   "species_id": 680
+  },
+  {
+   "name": "aegislash",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 680",
+   "species_id": 681
+  },
+  {
+   "name": "aromatisse",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 682",
+   "species_id": 683
+  },
+  {
+   "name": "slurpuff",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 684",
+   "species_id": 685
+  },
+  {
+   "name": "malamar",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 686",
+   "species_id": 687
+  },
+  {
+   "name": "barbaracle",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 688",
+   "species_id": 689
+  },
+  {
+   "name": "dragalge",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 690",
+   "species_id": 691
+  },
+  {
+   "name": "clawitzer",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 692",
+   "species_id": 693
+  },
+  {
+   "name": "heliolisk",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 694",
+   "species_id": 695
+  },
+  {
+   "name": "tyrantrum",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 696",
+   "species_id": 697
+  },
+  {
+   "name": "aurorus",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 698",
+   "species_id": 699
+  },
+  {
+   "name": "sylveon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 133",
+   "species_id": 700
+  },
+  {
+   "name": "sliggoo",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 704",
+   "species_id": 705
+  },
+  {
+   "name": "goodra",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 705",
+   "species_id": 706
+  },
+  {
+   "name": "trevenant",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 708",
+   "species_id": 709
+  },
+  {
+   "name": "gourgeist",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 710",
+   "species_id": 711
+  },
+  {
+   "name": "avalugg",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 712",
+   "species_id": 713
+  },
+  {
+   "name": "noivern",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 714",
+   "species_id": 715
+  },
+  {
+   "name": "dartrix",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 722",
+   "species_id": 723
+  },
+  {
+   "name": "decidueye",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 723",
+   "species_id": 724
+  },
+  {
+   "name": "torracat",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 725",
+   "species_id": 726
+  },
+  {
+   "name": "incineroar",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 726",
+   "species_id": 727
+  },
+  {
+   "name": "brionne",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 728",
+   "species_id": 729
+  },
+  {
+   "name": "primarina",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 729",
+   "species_id": 730
+  },
+  {
+   "name": "trumbeak",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 731",
+   "species_id": 732
+  },
+  {
+   "name": "toucannon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 732",
+   "species_id": 733
+  },
+  {
+   "name": "gumshoos",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 734",
+   "species_id": 735
+  },
+  {
+   "name": "charjabug",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 736",
+   "species_id": 737
+  },
+  {
+   "name": "vikavolt",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 737",
+   "species_id": 738
+  },
+  {
+   "name": "crabominable",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 739",
+   "species_id": 740
+  },
+  {
+   "name": "ribombee",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 742",
+   "species_id": 743
+  },
+  {
+   "name": "lycanroc",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 744",
+   "species_id": 745
+  },
+  {
+   "name": "toxapex",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 747",
+   "species_id": 748
+  },
+  {
+   "name": "mudsdale",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 749",
+   "species_id": 750
+  },
+  {
+   "name": "araquanid",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 751",
+   "species_id": 752
+  },
+  {
+   "name": "lurantis",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 753",
+   "species_id": 754
+  },
+  {
+   "name": "shiinotic",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 755",
+   "species_id": 756
+  },
+  {
+   "name": "salazzle",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 757",
+   "species_id": 758
+  },
+  {
+   "name": "bewear",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 759",
+   "species_id": 760
+  },
+  {
+   "name": "steenee",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 761",
+   "species_id": 762
+  },
+  {
+   "name": "tsareena",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 762",
+   "species_id": 763
+  },
+  {
+   "name": "golisopod",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 767",
+   "species_id": 768
+  },
+  {
+   "name": "palossand",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 769",
+   "species_id": 770
+  },
+  {
+   "name": "silvally",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 772",
+   "species_id": 773
+  },
+  {
+   "name": "hakamoo",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 782",
+   "species_id": 783
+  },
+  {
+   "name": "kommoo",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 783",
+   "species_id": 784
+  },
+  {
+   "name": "cosmoem",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 789",
+   "species_id": 790
+  },
+  {
+   "name": "solgaleo",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 790",
+   "species_id": 791
+  },
+  {
+   "name": "lunala",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 790",
+   "species_id": 792
+  },
+  {
+   "name": "naganadel",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 803",
+   "species_id": 804
+  },
+  {
+   "name": "thwackey",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 810",
+   "species_id": 811
+  },
+  {
+   "name": "rillaboom",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 811",
+   "species_id": 812
+  },
+  {
+   "name": "raboot",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 813",
+   "species_id": 814
+  },
+  {
+   "name": "cinderace",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 814",
+   "species_id": 815
+  },
+  {
+   "name": "drizzile",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 816",
+   "species_id": 817
+  },
+  {
+   "name": "inteleon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 817",
+   "species_id": 818
+  },
+  {
+   "name": "greedent",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 819",
+   "species_id": 820
+  },
+  {
+   "name": "corvisquire",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 821",
+   "species_id": 822
+  },
+  {
+   "name": "corviknight",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 822",
+   "species_id": 823
+  },
+  {
+   "name": "dottler",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 824",
+   "species_id": 825
+  },
+  {
+   "name": "orbeetle",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 825",
+   "species_id": 826
+  },
+  {
+   "name": "thievul",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 827",
+   "species_id": 828
+  },
+  {
+   "name": "eldegoss",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 829",
+   "species_id": 830
+  },
+  {
+   "name": "dubwool",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 831",
+   "species_id": 832
+  },
+  {
+   "name": "drednaw",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 833",
+   "species_id": 834
+  },
+  {
+   "name": "boltund",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 835",
+   "species_id": 836
+  },
+  {
+   "name": "carkol",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 837",
+   "species_id": 838
+  },
+  {
+   "name": "coalossal",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 838",
+   "species_id": 839
+  },
+  {
+   "name": "flapple",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 840",
+   "species_id": 841
+  },
+  {
+   "name": "appletun",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 840",
+   "species_id": 842
+  },
+  {
+   "name": "sandaconda",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 843",
+   "species_id": 844
+  },
+  {
+   "name": "barraskewda",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 846",
+   "species_id": 847
+  },
+  {
+   "name": "toxtricity",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 848",
+   "species_id": 849
+  },
+  {
+   "name": "centiskorch",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 850",
+   "species_id": 851
+  },
+  {
+   "name": "grapploct",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 852",
+   "species_id": 853
+  },
+  {
+   "name": "polteageist",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 854",
+   "species_id": 855
+  },
+  {
+   "name": "hattrem",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 856",
+   "species_id": 857
+  },
+  {
+   "name": "hatterene",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 857",
+   "species_id": 858
+  },
+  {
+   "name": "morgrem",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 859",
+   "species_id": 860
+  },
+  {
+   "name": "grimmsnarl",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 860",
+   "species_id": 861
+  },
+  {
+   "name": "obstagoon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 968",
+   "species_id": 862
+  },
+  {
+   "name": "perrserker",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 1039",
+   "species_id": 863
+  },
+  {
+   "name": "cursola",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:ss via species 966",
+   "species_id": 864
+  },
+  {
+   "name": "sirfetchd",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 1053",
+   "species_id": 865
+  },
+  {
+   "name": "mrrime",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 1064",
+   "species_id": 866
+  },
+  {
+   "name": "runerigus",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 1211",
+   "species_id": 867
+  },
+  {
+   "name": "alcremie",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 868",
+   "species_id": 869
+  },
+  {
+   "name": "frosmoth",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 872",
+   "species_id": 873
+  },
+  {
+   "name": "copperajah",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 878",
+   "species_id": 879
+  },
+  {
+   "name": "drakloak",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 885",
+   "species_id": 886
+  },
+  {
+   "name": "dragapult",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 886",
+   "species_id": 887
+  },
+  {
+   "name": "urshifu",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 891",
+   "species_id": 892
+  },
+  {
+   "name": "wyrdeer",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:la via species 234",
+   "species_id": 899
+  },
+  {
+   "name": "kleavor",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 123",
+   "species_id": 900
+  },
+  {
+   "name": "ursaluna",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:la via species 217",
+   "species_id": 901
+  },
+  {
+   "name": "basculegion",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 1200",
+   "species_id": 902
+  },
+  {
+   "name": "sneasler",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 1122",
+   "species_id": 903
+  },
+  {
+   "name": "overqwil",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 1112",
+   "species_id": 904
+  },
+  {
+   "name": "floragato",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 906",
+   "species_id": 907
+  },
+  {
+   "name": "meowscarada",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 907",
+   "species_id": 908
+  },
+  {
+   "name": "crocalor",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 909",
+   "species_id": 910
+  },
+  {
+   "name": "skeledirge",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 910",
+   "species_id": 911
+  },
+  {
+   "name": "quaxwell",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 912",
+   "species_id": 913
+  },
+  {
+   "name": "quaquaval",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 913",
+   "species_id": 914
+  },
+  {
+   "name": "oinkologne",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 915",
+   "species_id": 916
+  },
+  {
+   "name": "spidops",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 917",
+   "species_id": 918
+  },
+  {
+   "name": "lokix",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 919",
+   "species_id": 920
+  },
+  {
+   "name": "pawmo",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 921",
+   "species_id": 922
+  },
+  {
+   "name": "pawmot",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 922",
+   "species_id": 923
+  },
+  {
+   "name": "maushold",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 924",
+   "species_id": 925
+  },
+  {
+   "name": "dachsbun",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 926",
+   "species_id": 927
+  },
+  {
+   "name": "dolliv",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 928",
+   "species_id": 929
+  },
+  {
+   "name": "arboliva",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 929",
+   "species_id": 930
+  },
+  {
+   "name": "naclstack",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 932",
+   "species_id": 933
+  },
+  {
+   "name": "garganacl",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 933",
+   "species_id": 934
+  },
+  {
+   "name": "armarouge",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 935",
+   "species_id": 936
+  },
+  {
+   "name": "ceruledge",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 935",
+   "species_id": 937
+  },
+  {
+   "name": "bellibolt",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 938",
+   "species_id": 939
+  },
+  {
+   "name": "kilowattrel",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 940",
+   "species_id": 941
+  },
+  {
+   "name": "mabosstiff",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 942",
+   "species_id": 943
+  },
+  {
+   "name": "grafaiai",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 944",
+   "species_id": 945
+  },
+  {
+   "name": "brambleghast",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 946",
+   "species_id": 947
+  },
+  {
+   "name": "toedscruel",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 948",
+   "species_id": 949
+  },
+  {
+   "name": "scovillain",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 951",
+   "species_id": 952
+  },
+  {
+   "name": "rabsca",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 953",
+   "species_id": 954
+  },
+  {
+   "name": "espathra",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 955",
+   "species_id": 956
+  },
+  {
+   "name": "tinkatuff",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 957",
+   "species_id": 958
+  },
+  {
+   "name": "tinkaton",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 958",
+   "species_id": 959
+  },
+  {
+   "name": "wugtrio",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 960",
+   "species_id": 961
+  },
+  {
+   "name": "palafin",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 963",
+   "species_id": 964
+  },
+  {
+   "name": "revavroom",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 965",
+   "species_id": 966
+  },
+  {
+   "name": "glimmora",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 969",
+   "species_id": 970
+  },
+  {
+   "name": "houndstone",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 971",
+   "species_id": 972
+  },
+  {
+   "name": "cetitan",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 974",
+   "species_id": 975
+  },
+  {
+   "name": "annihilape",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 57",
+   "species_id": 979
+  },
+  {
+   "name": "clodsire",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 1089",
+   "species_id": 980
+  },
+  {
+   "name": "farigiraf",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 203",
+   "species_id": 981
+  },
+  {
+   "name": "dudunsparce",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 206",
+   "species_id": 982
+  },
+  {
+   "name": "kingambit",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 625",
+   "species_id": 983
+  },
+  {
+   "name": "arctibax",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 996",
+   "species_id": 997
+  },
+  {
+   "name": "baxcalibur",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 997",
+   "species_id": 998
+  },
+  {
+   "name": "gholdengo",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:za via species 999",
+   "species_id": 1000
+  },
+  {
+   "name": "dipplin",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 840",
+   "species_id": 1011
+  },
+  {
+   "name": "sinistcha",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 1012",
+   "species_id": 1013
+  },
+  {
+   "name": "archaludon",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 884",
+   "species_id": 1018
+  },
+  {
+   "name": "hydrapple",
+   "rule": "not_basic_stage",
+   "source": "pkhex_evolutions.json:sv via species 1011",
+   "species_id": 1019
+  },
+  {
+   "name": "articuno",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#144",
+   "species_id": 144
+  },
+  {
+   "name": "zapdos",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#145",
+   "species_id": 145
+  },
+  {
+   "name": "moltres",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#146",
+   "species_id": 146
+  },
+  {
+   "name": "mewtwo",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#150",
+   "species_id": 150
+  },
+  {
+   "name": "mew",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#151",
+   "species_id": 151
+  },
+  {
+   "name": "raikou",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#243",
+   "species_id": 243
+  },
+  {
+   "name": "entei",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#244",
+   "species_id": 244
+  },
+  {
+   "name": "suicune",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#245",
+   "species_id": 245
+  },
+  {
+   "name": "lugia",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#249",
+   "species_id": 249
+  },
+  {
+   "name": "hooh",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#250",
+   "species_id": 250
+  },
+  {
+   "name": "celebi",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#251",
+   "species_id": 251
+  },
+  {
+   "name": "regirock",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#377",
+   "species_id": 377
+  },
+  {
+   "name": "regice",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#378",
+   "species_id": 378
+  },
+  {
+   "name": "registeel",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#379",
+   "species_id": 379
+  },
+  {
+   "name": "latias",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#380",
+   "species_id": 380
+  },
+  {
+   "name": "latios",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#381",
+   "species_id": 381
+  },
+  {
+   "name": "kyogre",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#382",
+   "species_id": 382
+  },
+  {
+   "name": "groudon",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#383",
+   "species_id": 383
+  },
+  {
+   "name": "rayquaza",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#384",
+   "species_id": 384
+  },
+  {
+   "name": "jirachi",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#385",
+   "species_id": 385
+  },
+  {
+   "name": "deoxys",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#386",
+   "species_id": 386
+  },
+  {
+   "name": "uxie",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#480",
+   "species_id": 480
+  },
+  {
+   "name": "mesprit",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#481",
+   "species_id": 481
+  },
+  {
+   "name": "azelf",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#482",
+   "species_id": 482
+  },
+  {
+   "name": "dialga",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#483",
+   "species_id": 483
+  },
+  {
+   "name": "palkia",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#484",
+   "species_id": 484
+  },
+  {
+   "name": "heatran",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#485",
+   "species_id": 485
+  },
+  {
+   "name": "regigigas",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#486",
+   "species_id": 486
+  },
+  {
+   "name": "giratina",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#487",
+   "species_id": 487
+  },
+  {
+   "name": "cresselia",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#488",
+   "species_id": 488
+  },
+  {
+   "name": "phione",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#489",
+   "species_id": 489
+  },
+  {
+   "name": "manaphy",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#490",
+   "species_id": 490
+  },
+  {
+   "name": "darkrai",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#491",
+   "species_id": 491
+  },
+  {
+   "name": "shaymin",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#492",
+   "species_id": 492
+  },
+  {
+   "name": "arceus",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#493",
+   "species_id": 493
+  },
+  {
+   "name": "victini",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#494",
+   "species_id": 494
+  },
+  {
+   "name": "cobalion",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#638",
+   "species_id": 638
+  },
+  {
+   "name": "terrakion",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#639",
+   "species_id": 639
+  },
+  {
+   "name": "virizion",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#640",
+   "species_id": 640
+  },
+  {
+   "name": "tornadus",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#641",
+   "species_id": 641
+  },
+  {
+   "name": "thundurus",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#642",
+   "species_id": 642
+  },
+  {
+   "name": "reshiram",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#643",
+   "species_id": 643
+  },
+  {
+   "name": "zekrom",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#644",
+   "species_id": 644
+  },
+  {
+   "name": "landorus",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#645",
+   "species_id": 645
+  },
+  {
+   "name": "kyurem",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#646",
+   "species_id": 646
+  },
+  {
+   "name": "keldeo",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#647",
+   "species_id": 647
+  },
+  {
+   "name": "meloetta",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#648",
+   "species_id": 648
+  },
+  {
+   "name": "genesect",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#649",
+   "species_id": 649
+  },
+  {
+   "name": "xerneas",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#716",
+   "species_id": 716
+  },
+  {
+   "name": "yveltal",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#717",
+   "species_id": 717
+  },
+  {
+   "name": "zygarde",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#718",
+   "species_id": 718
+  },
+  {
+   "name": "diancie",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#719",
+   "species_id": 719
+  },
+  {
+   "name": "hoopa",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#720",
+   "species_id": 720
+  },
+  {
+   "name": "volcanion",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#721",
+   "species_id": 721
+  },
+  {
+   "name": "typenull",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#772",
+   "species_id": 772
+  },
+  {
+   "name": "tapukoko",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#785",
+   "species_id": 785
+  },
+  {
+   "name": "tapulele",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#786",
+   "species_id": 786
+  },
+  {
+   "name": "tapubulu",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#787",
+   "species_id": 787
+  },
+  {
+   "name": "tapufini",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#788",
+   "species_id": 788
+  },
+  {
+   "name": "cosmog",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#789",
+   "species_id": 789
+  },
+  {
+   "name": "necrozma",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#800",
+   "species_id": 800
+  },
+  {
+   "name": "magearna",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#801",
+   "species_id": 801
+  },
+  {
+   "name": "marshadow",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#802",
+   "species_id": 802
+  },
+  {
+   "name": "zeraora",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#807",
+   "species_id": 807
+  },
+  {
+   "name": "meltan",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#808",
+   "species_id": 808
+  },
+  {
+   "name": "melmetal",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#809",
+   "species_id": 809
+  },
+  {
+   "name": "zacian",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#888",
+   "species_id": 888
+  },
+  {
+   "name": "zamazenta",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#889",
+   "species_id": 889
+  },
+  {
+   "name": "eternatus",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#890",
+   "species_id": 890
+  },
+  {
+   "name": "kubfu",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#891",
+   "species_id": 891
+  },
+  {
+   "name": "zarude",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#893",
+   "species_id": 893
+  },
+  {
+   "name": "regieleki",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#894",
+   "species_id": 894
+  },
+  {
+   "name": "regidrago",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#895",
+   "species_id": 895
+  },
+  {
+   "name": "glastrier",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#896",
+   "species_id": 896
+  },
+  {
+   "name": "spectrier",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#897",
+   "species_id": 897
+  },
+  {
+   "name": "calyrex",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#898",
+   "species_id": 898
+  },
+  {
+   "name": "enamorus",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#905",
+   "species_id": 905
+  },
+  {
+   "name": "wochien",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#1001",
+   "species_id": 1001
+  },
+  {
+   "name": "chienpao",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#1002",
+   "species_id": 1002
+  },
+  {
+   "name": "tinglu",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#1003",
+   "species_id": 1003
+  },
+  {
+   "name": "chiyu",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#1004",
+   "species_id": 1004
+  },
+  {
+   "name": "koraidon",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#1007",
+   "species_id": 1007
+  },
+  {
+   "name": "miraidon",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#1008",
+   "species_id": 1008
+  },
+  {
+   "name": "okidogi",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#1014",
+   "species_id": 1014
+  },
+  {
+   "name": "munkidori",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#1015",
+   "species_id": 1015
+  },
+  {
+   "name": "fezandipiti",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#1016",
+   "species_id": 1016
+  },
+  {
+   "name": "ogerpon",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#1017",
+   "species_id": 1017
+  },
+  {
+   "name": "terapagos",
+   "rule": "legendary",
+   "source": "pokeapi_pokemon_species.json#1024",
+   "species_id": 1024
+  },
+  {
+   "name": "pecharunt",
+   "rule": "mythical",
+   "source": "pokeapi_pokemon_species.json#1025",
+   "species_id": 1025
+  },
+  {
+   "name": "hippopotas",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 449
+  },
+  {
+   "name": "frillish",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 592
+  },
+  {
+   "name": "chespin",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 650
+  },
+  {
+   "name": "fennekin",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 653
+  },
+  {
+   "name": "froakie",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 656
+  },
+  {
+   "name": "bunnelby",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 659
+  },
+  {
+   "name": "fletchling",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 661
+  },
+  {
+   "name": "scatterbug",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 664
+  },
+  {
+   "name": "litleo",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 667
+  },
+  {
+   "name": "flabebe",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 669
+  },
+  {
+   "name": "skiddo",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 672
+  },
+  {
+   "name": "pancham",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 674
+  },
+  {
+   "name": "furfrou",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 676
+  },
+  {
+   "name": "espurr",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 677
+  },
+  {
+   "name": "honedge",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 679
+  },
+  {
+   "name": "spritzee",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 682
+  },
+  {
+   "name": "swirlix",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 684
+  },
+  {
+   "name": "inkay",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 686
+  },
+  {
+   "name": "binacle",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 688
+  },
+  {
+   "name": "skrelp",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 690
+  },
+  {
+   "name": "clauncher",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 692
+  },
+  {
+   "name": "helioptile",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 694
+  },
+  {
+   "name": "tyrunt",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 696
+  },
+  {
+   "name": "amaura",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 698
+  },
+  {
+   "name": "hawlucha",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 701
+  },
+  {
+   "name": "dedenne",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 702
+  },
+  {
+   "name": "carbink",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 703
+  },
+  {
+   "name": "goomy",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 704
+  },
+  {
+   "name": "klefki",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 707
+  },
+  {
+   "name": "phantump",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 708
+  },
+  {
+   "name": "pumpkaboo",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 710
+  },
+  {
+   "name": "bergmite",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 712
+  },
+  {
+   "name": "noibat",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 714
+  },
+  {
+   "name": "rowlet",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 722
+  },
+  {
+   "name": "litten",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 725
+  },
+  {
+   "name": "popplio",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 728
+  },
+  {
+   "name": "pikipek",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 731
+  },
+  {
+   "name": "yungoos",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 734
+  },
+  {
+   "name": "grubbin",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 736
+  },
+  {
+   "name": "crabrawler",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 739
+  },
+  {
+   "name": "oricorio",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 741
+  },
+  {
+   "name": "cutiefly",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 742
+  },
+  {
+   "name": "rockruff",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 744
+  },
+  {
+   "name": "wishiwashi",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 746
+  },
+  {
+   "name": "mareanie",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 747
+  },
+  {
+   "name": "mudbray",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 749
+  },
+  {
+   "name": "dewpider",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 751
+  },
+  {
+   "name": "fomantis",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 753
+  },
+  {
+   "name": "morelull",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 755
+  },
+  {
+   "name": "salandit",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 757
+  },
+  {
+   "name": "stufful",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 759
+  },
+  {
+   "name": "bounsweet",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 761
+  },
+  {
+   "name": "comfey",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 764
+  },
+  {
+   "name": "oranguru",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 765
+  },
+  {
+   "name": "passimian",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 766
+  },
+  {
+   "name": "wimpod",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 767
+  },
+  {
+   "name": "sandygast",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 769
+  },
+  {
+   "name": "pyukumuku",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 771
+  },
+  {
+   "name": "minior",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 774
+  },
+  {
+   "name": "komala",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 775
+  },
+  {
+   "name": "turtonator",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 776
+  },
+  {
+   "name": "togedemaru",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 777
+  },
+  {
+   "name": "mimikyu",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 778
+  },
+  {
+   "name": "bruxish",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 779
+  },
+  {
+   "name": "drampa",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 780
+  },
+  {
+   "name": "dhelmise",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 781
+  },
+  {
+   "name": "jangmoo",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 782
+  },
+  {
+   "name": "nihilego",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 793
+  },
+  {
+   "name": "buzzwole",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 794
+  },
+  {
+   "name": "pheromosa",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 795
+  },
+  {
+   "name": "xurkitree",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 796
+  },
+  {
+   "name": "celesteela",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 797
+  },
+  {
+   "name": "kartana",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 798
+  },
+  {
+   "name": "guzzlord",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 799
+  },
+  {
+   "name": "poipole",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 803
+  },
+  {
+   "name": "stakataka",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 805
+  },
+  {
+   "name": "blacephalon",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 806
+  },
+  {
+   "name": "grookey",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 810
+  },
+  {
+   "name": "scorbunny",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 813
+  },
+  {
+   "name": "sobble",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 816
+  },
+  {
+   "name": "skwovet",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 819
+  },
+  {
+   "name": "rookidee",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 821
+  },
+  {
+   "name": "blipbug",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 824
+  },
+  {
+   "name": "nickit",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 827
+  },
+  {
+   "name": "gossifleur",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 829
+  },
+  {
+   "name": "wooloo",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 831
+  },
+  {
+   "name": "chewtle",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 833
+  },
+  {
+   "name": "yamper",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 835
+  },
+  {
+   "name": "rolycoly",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 837
+  },
+  {
+   "name": "applin",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 840
+  },
+  {
+   "name": "silicobra",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 843
+  },
+  {
+   "name": "cramorant",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 845
+  },
+  {
+   "name": "arrokuda",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 846
+  },
+  {
+   "name": "toxel",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 848
+  },
+  {
+   "name": "sizzlipede",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 850
+  },
+  {
+   "name": "clobbopus",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 852
+  },
+  {
+   "name": "sinistea",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 854
+  },
+  {
+   "name": "hatenna",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 856
+  },
+  {
+   "name": "impidimp",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 859
+  },
+  {
+   "name": "milcery",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 868
+  },
+  {
+   "name": "falinks",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 870
+  },
+  {
+   "name": "pincurchin",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 871
+  },
+  {
+   "name": "snom",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 872
+  },
+  {
+   "name": "stonjourner",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 874
+  },
+  {
+   "name": "eiscue",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 875
+  },
+  {
+   "name": "indeedee",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 876
+  },
+  {
+   "name": "morpeko",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 877
+  },
+  {
+   "name": "cufant",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 878
+  },
+  {
+   "name": "dracozolt",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 880
+  },
+  {
+   "name": "arctozolt",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 881
+  },
+  {
+   "name": "dracovish",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 882
+  },
+  {
+   "name": "arctovish",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 883
+  },
+  {
+   "name": "duraludon",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 884
+  },
+  {
+   "name": "dreepy",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 885
+  },
+  {
+   "name": "sprigatito",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 906
+  },
+  {
+   "name": "fuecoco",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 909
+  },
+  {
+   "name": "quaxly",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 912
+  },
+  {
+   "name": "lechonk",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 915
+  },
+  {
+   "name": "tarountula",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 917
+  },
+  {
+   "name": "nymble",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 919
+  },
+  {
+   "name": "pawmi",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 921
+  },
+  {
+   "name": "tandemaus",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 924
+  },
+  {
+   "name": "fidough",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 926
+  },
+  {
+   "name": "smoliv",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 928
+  },
+  {
+   "name": "squawkabilly",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 931
+  },
+  {
+   "name": "nacli",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 932
+  },
+  {
+   "name": "charcadet",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 935
+  },
+  {
+   "name": "tadbulb",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 938
+  },
+  {
+   "name": "wattrel",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 940
+  },
+  {
+   "name": "maschiff",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 942
+  },
+  {
+   "name": "shroodle",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 944
+  },
+  {
+   "name": "bramblin",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 946
+  },
+  {
+   "name": "toedscool",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 948
+  },
+  {
+   "name": "klawf",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 950
+  },
+  {
+   "name": "capsakid",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 951
+  },
+  {
+   "name": "rellor",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 953
+  },
+  {
+   "name": "flittle",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 955
+  },
+  {
+   "name": "tinkatink",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 957
+  },
+  {
+   "name": "wiglett",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 960
+  },
+  {
+   "name": "bombirdier",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 962
+  },
+  {
+   "name": "finizen",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 963
+  },
+  {
+   "name": "varoom",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 965
+  },
+  {
+   "name": "cyclizar",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 967
+  },
+  {
+   "name": "orthworm",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 968
+  },
+  {
+   "name": "glimmet",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 969
+  },
+  {
+   "name": "greavard",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 971
+  },
+  {
+   "name": "flamigo",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 973
+  },
+  {
+   "name": "cetoddle",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 974
+  },
+  {
+   "name": "veluza",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 976
+  },
+  {
+   "name": "dondozo",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 977
+  },
+  {
+   "name": "tatsugiri",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 978
+  },
+  {
+   "name": "greattusk",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 984
+  },
+  {
+   "name": "screamtail",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 985
+  },
+  {
+   "name": "brutebonnet",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 986
+  },
+  {
+   "name": "fluttermane",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 987
+  },
+  {
+   "name": "slitherwing",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 988
+  },
+  {
+   "name": "sandyshocks",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 989
+  },
+  {
+   "name": "irontreads",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 990
+  },
+  {
+   "name": "ironbundle",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 991
+  },
+  {
+   "name": "ironhands",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 992
+  },
+  {
+   "name": "ironjugulis",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 993
+  },
+  {
+   "name": "ironmoth",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 994
+  },
+  {
+   "name": "ironthorns",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 995
+  },
+  {
+   "name": "frigibax",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 996
+  },
+  {
+   "name": "gimmighoul",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 999
+  },
+  {
+   "name": "roaringmoon",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 1005
+  },
+  {
+   "name": "ironvaliant",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 1006
+  },
+  {
+   "name": "walkingwake",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 1009
+  },
+  {
+   "name": "ironleaves",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 1010
+  },
+  {
+   "name": "poltchageist",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 1012
+  },
+  {
+   "name": "gougingfire",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 1020
+  },
+  {
+   "name": "ragingbolt",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 1021
+  },
+  {
+   "name": "ironboulder",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 1022
+  },
+  {
+   "name": "ironcrown",
+   "rule": "no_battle_animation",
+   "source": "mdx_sprites_index.json + production PASS sets",
+   "species_id": 1023
+  }
+ ],
+ "generated_from": {
+  "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/data_registry/converted/pkhex_evolutions.json": "bfce0ebf62e981ada07dbc2981720f7baedf61f9aa8b9210e9b756c9d1a54a37",
+  "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/data_registry/converted/pkhex_personal_gen1_5.json": "e6ae3a43548d58a5780468bb866c32f14928eb9d66122cd6d525fc1be5625e9e",
+  "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/data_registry/converted/pkhex_personal_gen6_9.json": "c3cae0a09237db5b537b48cc052b1372e4aa758add8ebbcbdd83a4168484dd54",
+  "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/data_registry/converted/pokeapi_pokemon_species.json": "eb39a6a564c8484dcb9421a9b9bc287ee04fdad1892ceb387bbef18bd046d19c",
+  "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/data_registry/converted/showdown_pokedex.json": "a1a70067cf97a39874e71ada29d932f36b0f01db35e7a27c016b4dd06b5f017d",
+  "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/special_pokemon/special_pokemon_register.json": "bfab67deaa0b806efd2854e2418cbf7fa65df7cd04f5ec603bf69c977a0152e5",
+  "/home/hatch/workspace/puw_ref/POKEMON_ULTIMATE_WORLD/data/competitive_sets.json": "9e9920a7980b5a618973976438d8b196b82c00ef8639cb54eddf9b5a7d8f1c4b",
+  "/home/hatch/workspace/puw_ref/POKEMON_ULTIMATE_WORLD/data/ebdx_follower_index.json": "777e161be360810e8edd5251916c05ca87d1eae6c3c9a83ecdc771b2e19d7223",
+  "/home/hatch/workspace/puw_ref/POKEMON_ULTIMATE_WORLD/data/follower_sprites_index.json": "80f3f37da0212ddc1bf67099bc100c277b3e334771a4d8f34f0a0986cde4622c",
+  "/home/hatch/workspace/puw_ref/POKEMON_ULTIMATE_WORLD/data/mdx_sprites_index.json": "23a80d7eebea321a8701e367d5bc7eedc693f6e8142a42c551e63b56a4b96374",
+  "/home/hatch/workspace/puw_ref/POKEMON_ULTIMATE_WORLD/data/willow_follower_index.json": "5c3b99a69c84bf54365a10d515ad8210aba0f9bb31e32417a9d97e3b5f6e6294"
+ },
+ "pool": [
+  {
+   "build_tier": 1,
+   "name": "bulbasaur",
+   "personal_source": "pkhex_personal_gen6_9.json:za#1",
+   "species_id": 1,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "charmander",
+   "personal_source": "pkhex_personal_gen6_9.json:za#4",
+   "species_id": 4,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "squirtle",
+   "personal_source": "pkhex_personal_gen6_9.json:za#7",
+   "species_id": 7,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "caterpie",
+   "personal_source": "pkhex_personal_gen6_9.json:za#10",
+   "species_id": 10,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "weedle",
+   "personal_source": "pkhex_personal_gen6_9.json:za#13",
+   "species_id": 13,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "pidgey",
+   "personal_source": "pkhex_personal_gen6_9.json:za#16",
+   "species_id": 16,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "rattata",
+   "personal_source": "pkhex_personal_gen6_9.json:za#19",
+   "species_id": 19,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "spearow",
+   "personal_source": "pkhex_personal_gen6_9.json:za#21",
+   "species_id": 21,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "ekans",
+   "personal_source": "pkhex_personal_gen6_9.json:za#23",
+   "species_id": 23,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "sandshrew",
+   "personal_source": "pkhex_personal_gen6_9.json:za#27",
+   "species_id": 27,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "nidoranf",
+   "personal_source": "pkhex_personal_gen6_9.json:za#29",
+   "species_id": 29,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "nidoranm",
+   "personal_source": "pkhex_personal_gen6_9.json:za#32",
+   "species_id": 32,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "vulpix",
+   "personal_source": "pkhex_personal_gen6_9.json:za#37",
+   "species_id": 37,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "zubat",
+   "personal_source": "pkhex_personal_gen6_9.json:za#41",
+   "species_id": 41,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "oddish",
+   "personal_source": "pkhex_personal_gen6_9.json:za#43",
+   "species_id": 43,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "paras",
+   "personal_source": "pkhex_personal_gen6_9.json:za#46",
+   "species_id": 46,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "venonat",
+   "personal_source": "pkhex_personal_gen6_9.json:za#48",
+   "species_id": 48,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "diglett",
+   "personal_source": "pkhex_personal_gen6_9.json:za#50",
+   "species_id": 50,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "meowth",
+   "personal_source": "pkhex_personal_gen6_9.json:za#52",
+   "species_id": 52,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "psyduck",
+   "personal_source": "pkhex_personal_gen6_9.json:za#54",
+   "species_id": 54,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "mankey",
+   "personal_source": "pkhex_personal_gen6_9.json:za#56",
+   "species_id": 56,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "growlithe",
+   "personal_source": "pkhex_personal_gen6_9.json:za#58",
+   "species_id": 58,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "poliwag",
+   "personal_source": "pkhex_personal_gen6_9.json:za#60",
+   "species_id": 60,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "abra",
+   "personal_source": "pkhex_personal_gen6_9.json:za#63",
+   "species_id": 63,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "machop",
+   "personal_source": "pkhex_personal_gen6_9.json:za#66",
+   "species_id": 66,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "bellsprout",
+   "personal_source": "pkhex_personal_gen6_9.json:za#69",
+   "species_id": 69,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "tentacool",
+   "personal_source": "pkhex_personal_gen6_9.json:za#72",
+   "species_id": 72,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "geodude",
+   "personal_source": "pkhex_personal_gen6_9.json:za#74",
+   "species_id": 74,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "ponyta",
+   "personal_source": "pkhex_personal_gen6_9.json:za#77",
+   "species_id": 77,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "slowpoke",
+   "personal_source": "pkhex_personal_gen6_9.json:za#79",
+   "species_id": 79,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "magnemite",
+   "personal_source": "pkhex_personal_gen6_9.json:za#81",
+   "species_id": 81,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "farfetchd",
+   "personal_source": "pkhex_personal_gen6_9.json:za#83",
+   "species_id": 83,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "doduo",
+   "personal_source": "pkhex_personal_gen6_9.json:za#84",
+   "species_id": 84,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "seel",
+   "personal_source": "pkhex_personal_gen6_9.json:za#86",
+   "species_id": 86,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "grimer",
+   "personal_source": "pkhex_personal_gen6_9.json:za#88",
+   "species_id": 88,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "shellder",
+   "personal_source": "pkhex_personal_gen6_9.json:za#90",
+   "species_id": 90,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "gastly",
+   "personal_source": "pkhex_personal_gen6_9.json:za#92",
+   "species_id": 92,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "onix",
+   "personal_source": "pkhex_personal_gen6_9.json:za#95",
+   "species_id": 95,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "drowzee",
+   "personal_source": "pkhex_personal_gen6_9.json:za#96",
+   "species_id": 96,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "krabby",
+   "personal_source": "pkhex_personal_gen6_9.json:za#98",
+   "species_id": 98,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "voltorb",
+   "personal_source": "pkhex_personal_gen6_9.json:za#100",
+   "species_id": 100,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "exeggcute",
+   "personal_source": "pkhex_personal_gen6_9.json:za#102",
+   "species_id": 102,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "cubone",
+   "personal_source": "pkhex_personal_gen6_9.json:za#104",
+   "species_id": 104,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "lickitung",
+   "personal_source": "pkhex_personal_gen6_9.json:za#108",
+   "species_id": 108,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "koffing",
+   "personal_source": "pkhex_personal_gen6_9.json:za#109",
+   "species_id": 109,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "rhyhorn",
+   "personal_source": "pkhex_personal_gen6_9.json:za#111",
+   "species_id": 111,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "tangela",
+   "personal_source": "pkhex_personal_gen6_9.json:za#114",
+   "species_id": 114,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "kangaskhan",
+   "personal_source": "pkhex_personal_gen6_9.json:za#115",
+   "species_id": 115,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "horsea",
+   "personal_source": "pkhex_personal_gen6_9.json:za#116",
+   "species_id": 116,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "goldeen",
+   "personal_source": "pkhex_personal_gen6_9.json:za#118",
+   "species_id": 118,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "staryu",
+   "personal_source": "pkhex_personal_gen6_9.json:za#120",
+   "species_id": 120,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "scyther",
+   "personal_source": "pkhex_personal_gen6_9.json:za#123",
+   "species_id": 123,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "pinsir",
+   "personal_source": "pkhex_personal_gen6_9.json:za#127",
+   "species_id": 127,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "tauros",
+   "personal_source": "pkhex_personal_gen6_9.json:za#128",
+   "species_id": 128,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "magikarp",
+   "personal_source": "pkhex_personal_gen6_9.json:za#129",
+   "species_id": 129,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "lapras",
+   "personal_source": "pkhex_personal_gen6_9.json:za#131",
+   "species_id": 131,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "ditto",
+   "personal_source": "pkhex_personal_gen6_9.json:za#132",
+   "species_id": 132,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "eevee",
+   "personal_source": "pkhex_personal_gen6_9.json:za#133",
+   "species_id": 133,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "porygon",
+   "personal_source": "pkhex_personal_gen6_9.json:za#137",
+   "species_id": 137,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "omanyte",
+   "personal_source": "pkhex_personal_gen6_9.json:za#138",
+   "species_id": 138,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "kabuto",
+   "personal_source": "pkhex_personal_gen6_9.json:za#140",
+   "species_id": 140,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "aerodactyl",
+   "personal_source": "pkhex_personal_gen6_9.json:za#142",
+   "species_id": 142,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "dratini",
+   "personal_source": "pkhex_personal_gen6_9.json:za#147",
+   "species_id": 147,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "chikorita",
+   "personal_source": "pkhex_personal_gen6_9.json:za#152",
+   "species_id": 152,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "cyndaquil",
+   "personal_source": "pkhex_personal_gen6_9.json:za#155",
+   "species_id": 155,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "totodile",
+   "personal_source": "pkhex_personal_gen6_9.json:za#158",
+   "species_id": 158,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "sentret",
+   "personal_source": "pkhex_personal_gen6_9.json:za#161",
+   "species_id": 161,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "hoothoot",
+   "personal_source": "pkhex_personal_gen6_9.json:za#163",
+   "species_id": 163,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "ledyba",
+   "personal_source": "pkhex_personal_gen6_9.json:za#165",
+   "species_id": 165,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "spinarak",
+   "personal_source": "pkhex_personal_gen6_9.json:za#167",
+   "species_id": 167,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "chinchou",
+   "personal_source": "pkhex_personal_gen6_9.json:za#170",
+   "species_id": 170,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "pichu",
+   "personal_source": "pkhex_personal_gen6_9.json:za#172",
+   "species_id": 172,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "cleffa",
+   "personal_source": "pkhex_personal_gen6_9.json:za#173",
+   "species_id": 173,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "igglybuff",
+   "personal_source": "pkhex_personal_gen6_9.json:za#174",
+   "species_id": 174,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "togepi",
+   "personal_source": "pkhex_personal_gen6_9.json:za#175",
+   "species_id": 175,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "natu",
+   "personal_source": "pkhex_personal_gen6_9.json:za#177",
+   "species_id": 177,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "mareep",
+   "personal_source": "pkhex_personal_gen6_9.json:za#179",
+   "species_id": 179,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "hoppip",
+   "personal_source": "pkhex_personal_gen6_9.json:za#187",
+   "species_id": 187,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "aipom",
+   "personal_source": "pkhex_personal_gen6_9.json:za#190",
+   "species_id": 190,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "sunkern",
+   "personal_source": "pkhex_personal_gen6_9.json:za#191",
+   "species_id": 191,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "yanma",
+   "personal_source": "pkhex_personal_gen6_9.json:za#193",
+   "species_id": 193,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "wooper",
+   "personal_source": "pkhex_personal_gen6_9.json:za#194",
+   "species_id": 194,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "murkrow",
+   "personal_source": "pkhex_personal_gen6_9.json:za#198",
+   "species_id": 198,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "misdreavus",
+   "personal_source": "pkhex_personal_gen6_9.json:za#200",
+   "species_id": 200,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "unown",
+   "personal_source": "pkhex_personal_gen6_9.json:za#201",
+   "species_id": 201,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "girafarig",
+   "personal_source": "pkhex_personal_gen6_9.json:za#203",
+   "species_id": 203,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "pineco",
+   "personal_source": "pkhex_personal_gen6_9.json:za#204",
+   "species_id": 204,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "dunsparce",
+   "personal_source": "pkhex_personal_gen6_9.json:za#206",
+   "species_id": 206,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "gligar",
+   "personal_source": "pkhex_personal_gen6_9.json:za#207",
+   "species_id": 207,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "snubbull",
+   "personal_source": "pkhex_personal_gen6_9.json:za#209",
+   "species_id": 209,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "qwilfish",
+   "personal_source": "pkhex_personal_gen6_9.json:za#211",
+   "species_id": 211,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "shuckle",
+   "personal_source": "pkhex_personal_gen6_9.json:za#213",
+   "species_id": 213,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "heracross",
+   "personal_source": "pkhex_personal_gen6_9.json:za#214",
+   "species_id": 214,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "sneasel",
+   "personal_source": "pkhex_personal_gen6_9.json:za#215",
+   "species_id": 215,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "teddiursa",
+   "personal_source": "pkhex_personal_gen6_9.json:za#216",
+   "species_id": 216,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "slugma",
+   "personal_source": "pkhex_personal_gen6_9.json:za#218",
+   "species_id": 218,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "swinub",
+   "personal_source": "pkhex_personal_gen6_9.json:za#220",
+   "species_id": 220,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "corsola",
+   "personal_source": "pkhex_personal_gen6_9.json:za#222",
+   "species_id": 222,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "remoraid",
+   "personal_source": "pkhex_personal_gen6_9.json:za#223",
+   "species_id": 223,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "delibird",
+   "personal_source": "pkhex_personal_gen6_9.json:za#225",
+   "species_id": 225,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "skarmory",
+   "personal_source": "pkhex_personal_gen6_9.json:za#227",
+   "species_id": 227,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "houndour",
+   "personal_source": "pkhex_personal_gen6_9.json:za#228",
+   "species_id": 228,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "phanpy",
+   "personal_source": "pkhex_personal_gen6_9.json:za#231",
+   "species_id": 231,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "stantler",
+   "personal_source": "pkhex_personal_gen6_9.json:za#234",
+   "species_id": 234,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "smeargle",
+   "personal_source": "pkhex_personal_gen6_9.json:za#235",
+   "species_id": 235,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "tyrogue",
+   "personal_source": "pkhex_personal_gen6_9.json:za#236",
+   "species_id": 236,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "smoochum",
+   "personal_source": "pkhex_personal_gen6_9.json:za#238",
+   "species_id": 238,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "elekid",
+   "personal_source": "pkhex_personal_gen6_9.json:za#239",
+   "species_id": 239,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "magby",
+   "personal_source": "pkhex_personal_gen6_9.json:za#240",
+   "species_id": 240,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "miltank",
+   "personal_source": "pkhex_personal_gen6_9.json:za#241",
+   "species_id": 241,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "larvitar",
+   "personal_source": "pkhex_personal_gen6_9.json:za#246",
+   "species_id": 246,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "treecko",
+   "personal_source": "pkhex_personal_gen6_9.json:za#252",
+   "species_id": 252,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "torchic",
+   "personal_source": "pkhex_personal_gen6_9.json:za#255",
+   "species_id": 255,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "mudkip",
+   "personal_source": "pkhex_personal_gen6_9.json:za#258",
+   "species_id": 258,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "poochyena",
+   "personal_source": "pkhex_personal_gen6_9.json:za#261",
+   "species_id": 261,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "zigzagoon",
+   "personal_source": "pkhex_personal_gen6_9.json:za#263",
+   "species_id": 263,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "wurmple",
+   "personal_source": "pkhex_personal_gen6_9.json:za#265",
+   "species_id": 265,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "lotad",
+   "personal_source": "pkhex_personal_gen6_9.json:za#270",
+   "species_id": 270,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "seedot",
+   "personal_source": "pkhex_personal_gen6_9.json:za#273",
+   "species_id": 273,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "taillow",
+   "personal_source": "pkhex_personal_gen6_9.json:za#276",
+   "species_id": 276,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "wingull",
+   "personal_source": "pkhex_personal_gen6_9.json:za#278",
+   "species_id": 278,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "ralts",
+   "personal_source": "pkhex_personal_gen6_9.json:za#280",
+   "species_id": 280,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "surskit",
+   "personal_source": "pkhex_personal_gen6_9.json:za#283",
+   "species_id": 283,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "shroomish",
+   "personal_source": "pkhex_personal_gen6_9.json:za#285",
+   "species_id": 285,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "slakoth",
+   "personal_source": "pkhex_personal_gen6_9.json:za#287",
+   "species_id": 287,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "nincada",
+   "personal_source": "pkhex_personal_gen6_9.json:za#290",
+   "species_id": 290,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "whismur",
+   "personal_source": "pkhex_personal_gen6_9.json:za#293",
+   "species_id": 293,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "makuhita",
+   "personal_source": "pkhex_personal_gen6_9.json:za#296",
+   "species_id": 296,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "azurill",
+   "personal_source": "pkhex_personal_gen6_9.json:za#298",
+   "species_id": 298,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "nosepass",
+   "personal_source": "pkhex_personal_gen6_9.json:za#299",
+   "species_id": 299,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "skitty",
+   "personal_source": "pkhex_personal_gen6_9.json:za#300",
+   "species_id": 300,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "sableye",
+   "personal_source": "pkhex_personal_gen6_9.json:za#302",
+   "species_id": 302,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "mawile",
+   "personal_source": "pkhex_personal_gen6_9.json:za#303",
+   "species_id": 303,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "aron",
+   "personal_source": "pkhex_personal_gen6_9.json:za#304",
+   "species_id": 304,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "meditite",
+   "personal_source": "pkhex_personal_gen6_9.json:za#307",
+   "species_id": 307,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "electrike",
+   "personal_source": "pkhex_personal_gen6_9.json:za#309",
+   "species_id": 309,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "plusle",
+   "personal_source": "pkhex_personal_gen6_9.json:za#311",
+   "species_id": 311,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "minun",
+   "personal_source": "pkhex_personal_gen6_9.json:za#312",
+   "species_id": 312,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "volbeat",
+   "personal_source": "pkhex_personal_gen6_9.json:za#313",
+   "species_id": 313,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "illumise",
+   "personal_source": "pkhex_personal_gen6_9.json:za#314",
+   "species_id": 314,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "gulpin",
+   "personal_source": "pkhex_personal_gen6_9.json:za#316",
+   "species_id": 316,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "carvanha",
+   "personal_source": "pkhex_personal_gen6_9.json:za#318",
+   "species_id": 318,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "wailmer",
+   "personal_source": "pkhex_personal_gen6_9.json:za#320",
+   "species_id": 320,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "numel",
+   "personal_source": "pkhex_personal_gen6_9.json:za#322",
+   "species_id": 322,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "torkoal",
+   "personal_source": "pkhex_personal_gen6_9.json:za#324",
+   "species_id": 324,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "spoink",
+   "personal_source": "pkhex_personal_gen6_9.json:za#325",
+   "species_id": 325,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "spinda",
+   "personal_source": "pkhex_personal_gen6_9.json:za#327",
+   "species_id": 327,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "trapinch",
+   "personal_source": "pkhex_personal_gen6_9.json:za#328",
+   "species_id": 328,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "cacnea",
+   "personal_source": "pkhex_personal_gen6_9.json:za#331",
+   "species_id": 331,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "swablu",
+   "personal_source": "pkhex_personal_gen6_9.json:za#333",
+   "species_id": 333,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "zangoose",
+   "personal_source": "pkhex_personal_gen6_9.json:za#335",
+   "species_id": 335,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "seviper",
+   "personal_source": "pkhex_personal_gen6_9.json:za#336",
+   "species_id": 336,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "lunatone",
+   "personal_source": "pkhex_personal_gen6_9.json:za#337",
+   "species_id": 337,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "solrock",
+   "personal_source": "pkhex_personal_gen6_9.json:za#338",
+   "species_id": 338,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "barboach",
+   "personal_source": "pkhex_personal_gen6_9.json:za#339",
+   "species_id": 339,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "corphish",
+   "personal_source": "pkhex_personal_gen6_9.json:za#341",
+   "species_id": 341,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "baltoy",
+   "personal_source": "pkhex_personal_gen6_9.json:za#343",
+   "species_id": 343,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "lileep",
+   "personal_source": "pkhex_personal_gen6_9.json:za#345",
+   "species_id": 345,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "anorith",
+   "personal_source": "pkhex_personal_gen6_9.json:za#347",
+   "species_id": 347,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "feebas",
+   "personal_source": "pkhex_personal_gen6_9.json:za#349",
+   "species_id": 349,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "castform",
+   "personal_source": "pkhex_personal_gen6_9.json:za#351",
+   "species_id": 351,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "kecleon",
+   "personal_source": "pkhex_personal_gen6_9.json:za#352",
+   "species_id": 352,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "shuppet",
+   "personal_source": "pkhex_personal_gen6_9.json:za#353",
+   "species_id": 353,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "duskull",
+   "personal_source": "pkhex_personal_gen6_9.json:za#355",
+   "species_id": 355,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "tropius",
+   "personal_source": "pkhex_personal_gen6_9.json:za#357",
+   "species_id": 357,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "absol",
+   "personal_source": "pkhex_personal_gen6_9.json:za#359",
+   "species_id": 359,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "wynaut",
+   "personal_source": "pkhex_personal_gen6_9.json:za#360",
+   "species_id": 360,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "snorunt",
+   "personal_source": "pkhex_personal_gen6_9.json:za#361",
+   "species_id": 361,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "spheal",
+   "personal_source": "pkhex_personal_gen6_9.json:za#363",
+   "species_id": 363,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "clamperl",
+   "personal_source": "pkhex_personal_gen6_9.json:za#366",
+   "species_id": 366,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "relicanth",
+   "personal_source": "pkhex_personal_gen6_9.json:za#369",
+   "species_id": 369,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "luvdisc",
+   "personal_source": "pkhex_personal_gen6_9.json:za#370",
+   "species_id": 370,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "bagon",
+   "personal_source": "pkhex_personal_gen6_9.json:za#371",
+   "species_id": 371,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "beldum",
+   "personal_source": "pkhex_personal_gen6_9.json:za#374",
+   "species_id": 374,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "turtwig",
+   "personal_source": "pkhex_personal_gen6_9.json:za#387",
+   "species_id": 387,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "chimchar",
+   "personal_source": "pkhex_personal_gen6_9.json:za#390",
+   "species_id": 390,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "piplup",
+   "personal_source": "pkhex_personal_gen6_9.json:za#393",
+   "species_id": 393,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "starly",
+   "personal_source": "pkhex_personal_gen6_9.json:za#396",
+   "species_id": 396,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "bidoof",
+   "personal_source": "pkhex_personal_gen6_9.json:za#399",
+   "species_id": 399,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "kricketot",
+   "personal_source": "pkhex_personal_gen6_9.json:za#401",
+   "species_id": 401,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "shinx",
+   "personal_source": "pkhex_personal_gen6_9.json:za#403",
+   "species_id": 403,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "budew",
+   "personal_source": "pkhex_personal_gen6_9.json:za#406",
+   "species_id": 406,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "cranidos",
+   "personal_source": "pkhex_personal_gen6_9.json:za#408",
+   "species_id": 408,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "shieldon",
+   "personal_source": "pkhex_personal_gen6_9.json:za#410",
+   "species_id": 410,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "burmy",
+   "personal_source": "pkhex_personal_gen6_9.json:za#412",
+   "species_id": 412,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "combee",
+   "personal_source": "pkhex_personal_gen6_9.json:za#415",
+   "species_id": 415,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "pachirisu",
+   "personal_source": "pkhex_personal_gen6_9.json:za#417",
+   "species_id": 417,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "buizel",
+   "personal_source": "pkhex_personal_gen6_9.json:za#418",
+   "species_id": 418,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "cherubi",
+   "personal_source": "pkhex_personal_gen6_9.json:za#420",
+   "species_id": 420,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "shellos",
+   "personal_source": "pkhex_personal_gen6_9.json:za#422",
+   "species_id": 422,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "drifloon",
+   "personal_source": "pkhex_personal_gen6_9.json:za#425",
+   "species_id": 425,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "buneary",
+   "personal_source": "pkhex_personal_gen6_9.json:za#427",
+   "species_id": 427,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "glameow",
+   "personal_source": "pkhex_personal_gen6_9.json:za#431",
+   "species_id": 431,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "chingling",
+   "personal_source": "pkhex_personal_gen6_9.json:za#433",
+   "species_id": 433,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "stunky",
+   "personal_source": "pkhex_personal_gen6_9.json:za#434",
+   "species_id": 434,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "bronzor",
+   "personal_source": "pkhex_personal_gen6_9.json:za#436",
+   "species_id": 436,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "bonsly",
+   "personal_source": "pkhex_personal_gen6_9.json:za#438",
+   "species_id": 438,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "mimejr",
+   "personal_source": "pkhex_personal_gen6_9.json:za#439",
+   "species_id": 439,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "happiny",
+   "personal_source": "pkhex_personal_gen6_9.json:za#440",
+   "species_id": 440,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "chatot",
+   "personal_source": "pkhex_personal_gen6_9.json:za#441",
+   "species_id": 441,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "spiritomb",
+   "personal_source": "pkhex_personal_gen6_9.json:za#442",
+   "species_id": 442,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "gible",
+   "personal_source": "pkhex_personal_gen6_9.json:za#443",
+   "species_id": 443,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "munchlax",
+   "personal_source": "pkhex_personal_gen6_9.json:za#446",
+   "species_id": 446,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "riolu",
+   "personal_source": "pkhex_personal_gen6_9.json:za#447",
+   "species_id": 447,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "skorupi",
+   "personal_source": "pkhex_personal_gen6_9.json:za#451",
+   "species_id": 451,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "croagunk",
+   "personal_source": "pkhex_personal_gen6_9.json:za#453",
+   "species_id": 453,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "carnivine",
+   "personal_source": "pkhex_personal_gen6_9.json:za#455",
+   "species_id": 455,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "finneon",
+   "personal_source": "pkhex_personal_gen6_9.json:za#456",
+   "species_id": 456,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "mantyke",
+   "personal_source": "pkhex_personal_gen6_9.json:za#458",
+   "species_id": 458,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "snover",
+   "personal_source": "pkhex_personal_gen6_9.json:za#459",
+   "species_id": 459,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "rotom",
+   "personal_source": "pkhex_personal_gen6_9.json:za#479",
+   "species_id": 479,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "snivy",
+   "personal_source": "pkhex_personal_gen6_9.json:za#495",
+   "species_id": 495,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "tepig",
+   "personal_source": "pkhex_personal_gen6_9.json:za#498",
+   "species_id": 498,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "oshawott",
+   "personal_source": "pkhex_personal_gen6_9.json:za#501",
+   "species_id": 501,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "patrat",
+   "personal_source": "pkhex_personal_gen6_9.json:za#504",
+   "species_id": 504,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "lillipup",
+   "personal_source": "pkhex_personal_gen6_9.json:za#506",
+   "species_id": 506,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "purrloin",
+   "personal_source": "pkhex_personal_gen6_9.json:za#509",
+   "species_id": 509,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "pansage",
+   "personal_source": "pkhex_personal_gen6_9.json:za#511",
+   "species_id": 511,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "pansear",
+   "personal_source": "pkhex_personal_gen6_9.json:za#513",
+   "species_id": 513,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "panpour",
+   "personal_source": "pkhex_personal_gen6_9.json:za#515",
+   "species_id": 515,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "munna",
+   "personal_source": "pkhex_personal_gen6_9.json:za#517",
+   "species_id": 517,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "pidove",
+   "personal_source": "pkhex_personal_gen6_9.json:za#519",
+   "species_id": 519,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "blitzle",
+   "personal_source": "pkhex_personal_gen6_9.json:za#522",
+   "species_id": 522,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "roggenrola",
+   "personal_source": "pkhex_personal_gen6_9.json:za#524",
+   "species_id": 524,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "woobat",
+   "personal_source": "pkhex_personal_gen6_9.json:za#527",
+   "species_id": 527,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "drilbur",
+   "personal_source": "pkhex_personal_gen6_9.json:za#529",
+   "species_id": 529,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "audino",
+   "personal_source": "pkhex_personal_gen6_9.json:za#531",
+   "species_id": 531,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "timburr",
+   "personal_source": "pkhex_personal_gen6_9.json:za#532",
+   "species_id": 532,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "tympole",
+   "personal_source": "pkhex_personal_gen6_9.json:za#535",
+   "species_id": 535,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "throh",
+   "personal_source": "pkhex_personal_gen6_9.json:za#538",
+   "species_id": 538,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "sawk",
+   "personal_source": "pkhex_personal_gen6_9.json:za#539",
+   "species_id": 539,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "sewaddle",
+   "personal_source": "pkhex_personal_gen6_9.json:za#540",
+   "species_id": 540,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "venipede",
+   "personal_source": "pkhex_personal_gen6_9.json:za#543",
+   "species_id": 543,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "cottonee",
+   "personal_source": "pkhex_personal_gen6_9.json:za#546",
+   "species_id": 546,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "petilil",
+   "personal_source": "pkhex_personal_gen6_9.json:za#548",
+   "species_id": 548,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "basculin",
+   "personal_source": "pkhex_personal_gen6_9.json:za#550",
+   "species_id": 550,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "sandile",
+   "personal_source": "pkhex_personal_gen6_9.json:za#551",
+   "species_id": 551,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "darumaka",
+   "personal_source": "pkhex_personal_gen6_9.json:za#554",
+   "species_id": 554,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "maractus",
+   "personal_source": "pkhex_personal_gen6_9.json:za#556",
+   "species_id": 556,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "dwebble",
+   "personal_source": "pkhex_personal_gen6_9.json:za#557",
+   "species_id": 557,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "scraggy",
+   "personal_source": "pkhex_personal_gen6_9.json:za#559",
+   "species_id": 559,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "sigilyph",
+   "personal_source": "pkhex_personal_gen6_9.json:za#561",
+   "species_id": 561,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "yamask",
+   "personal_source": "pkhex_personal_gen6_9.json:za#562",
+   "species_id": 562,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "tirtouga",
+   "personal_source": "pkhex_personal_gen6_9.json:za#564",
+   "species_id": 564,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "archen",
+   "personal_source": "pkhex_personal_gen6_9.json:za#566",
+   "species_id": 566,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "trubbish",
+   "personal_source": "pkhex_personal_gen6_9.json:za#568",
+   "species_id": 568,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "zorua",
+   "personal_source": "pkhex_personal_gen6_9.json:za#570",
+   "species_id": 570,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "minccino",
+   "personal_source": "pkhex_personal_gen6_9.json:za#572",
+   "species_id": 572,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "gothita",
+   "personal_source": "pkhex_personal_gen6_9.json:za#574",
+   "species_id": 574,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "solosis",
+   "personal_source": "pkhex_personal_gen6_9.json:za#577",
+   "species_id": 577,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "ducklett",
+   "personal_source": "pkhex_personal_gen6_9.json:za#580",
+   "species_id": 580,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "vanillite",
+   "personal_source": "pkhex_personal_gen6_9.json:za#582",
+   "species_id": 582,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "deerling",
+   "personal_source": "pkhex_personal_gen6_9.json:za#585",
+   "species_id": 585,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "emolga",
+   "personal_source": "pkhex_personal_gen6_9.json:za#587",
+   "species_id": 587,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "karrablast",
+   "personal_source": "pkhex_personal_gen6_9.json:za#588",
+   "species_id": 588,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "foongus",
+   "personal_source": "pkhex_personal_gen6_9.json:za#590",
+   "species_id": 590,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "alomomola",
+   "personal_source": "pkhex_personal_gen6_9.json:za#594",
+   "species_id": 594,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "joltik",
+   "personal_source": "pkhex_personal_gen6_9.json:za#595",
+   "species_id": 595,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "ferroseed",
+   "personal_source": "pkhex_personal_gen6_9.json:za#597",
+   "species_id": 597,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "klink",
+   "personal_source": "pkhex_personal_gen6_9.json:za#599",
+   "species_id": 599,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "tynamo",
+   "personal_source": "pkhex_personal_gen6_9.json:za#602",
+   "species_id": 602,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "elgyem",
+   "personal_source": "pkhex_personal_gen6_9.json:za#605",
+   "species_id": 605,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "litwick",
+   "personal_source": "pkhex_personal_gen6_9.json:za#607",
+   "species_id": 607,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "axew",
+   "personal_source": "pkhex_personal_gen6_9.json:za#610",
+   "species_id": 610,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "cubchoo",
+   "personal_source": "pkhex_personal_gen6_9.json:za#613",
+   "species_id": 613,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "cryogonal",
+   "personal_source": "pkhex_personal_gen6_9.json:za#615",
+   "species_id": 615,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "shelmet",
+   "personal_source": "pkhex_personal_gen6_9.json:za#616",
+   "species_id": 616,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 1,
+   "name": "stunfisk",
+   "personal_source": "pkhex_personal_gen6_9.json:za#618",
+   "species_id": 618,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "mienfoo",
+   "personal_source": "pkhex_personal_gen6_9.json:za#619",
+   "species_id": 619,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "druddigon",
+   "personal_source": "pkhex_personal_gen6_9.json:za#621",
+   "species_id": 621,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "golett",
+   "personal_source": "pkhex_personal_gen6_9.json:za#622",
+   "species_id": 622,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "pawniard",
+   "personal_source": "pkhex_personal_gen6_9.json:za#624",
+   "species_id": 624,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "bouffalant",
+   "personal_source": "pkhex_personal_gen6_9.json:za#626",
+   "species_id": 626,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "rufflet",
+   "personal_source": "pkhex_personal_gen6_9.json:za#627",
+   "species_id": 627,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "vullaby",
+   "personal_source": "pkhex_personal_gen6_9.json:za#629",
+   "species_id": 629,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "heatmor",
+   "personal_source": "pkhex_personal_gen6_9.json:za#631",
+   "species_id": 631,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 3,
+   "name": "durant",
+   "personal_source": "pkhex_personal_gen6_9.json:za#632",
+   "species_id": 632,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "deino",
+   "personal_source": "pkhex_personal_gen6_9.json:za#633",
+   "species_id": 633,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  },
+  {
+   "build_tier": 2,
+   "name": "larvesta",
+   "personal_source": "pkhex_personal_gen6_9.json:za#636",
+   "species_id": 636,
+   "variants": {
+    "moemon": true,
+    "pokemon": true
+   }
+  }
+ ],
+ "record": "oak_pick_pool",
+ "register_exclusions": [
+  {
+   "form_code": "PINKAN_NATIVE_CATERPIE",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_CATERPIE",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_WEEDLE",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_WEEDLE",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_PIDGEY",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_PIDGEY",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_RATTATA",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_RATTATA",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_PIKACHU",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_PIKACHU",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_NIDORAN_F",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_NIDORAN_F",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_NIDORAN_M",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_NIDORAN_M",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_NIDOKING",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_NIDOKING",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_VILEPLUME",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_VILEPLUME",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_PARAS",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_PARAS",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_PARASECT",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_PARASECT",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_VENONAT",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_VENONAT",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_DIGLETT",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_DIGLETT",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_MANKEY",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_MANKEY",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_PRIMEAPE",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_PRIMEAPE",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_BELLSPROUT",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_BELLSPROUT",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_DODRIO",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_DODRIO",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_EXEGGUTOR",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_EXEGGUTOR",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_RHYHORN",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_RHYHORN",
+   "species": null
+  },
+  {
+   "form_code": "PINKAN_NATIVE_RHYDON",
+   "rules": [
+    "habitat_locked_pinkan"
+   ],
+   "source": "special_pokemon_register.json:PINKAN_NATIVE_RHYDON",
+   "species": null
+  },
+  {
+   "form_code": "VALENCIAN_BUTTERFREE",
+   "rules": [
+    "habitat_locked_valencia"
+   ],
+   "source": "special_pokemon_register.json:VALENCIAN_BUTTERFREE",
+   "species": null
+  },
+  {
+   "form_code": "VALENCIAN_RATICATE",
+   "rules": [
+    "habitat_locked_valencia"
+   ],
+   "source": "special_pokemon_register.json:VALENCIAN_RATICATE",
+   "species": null
+  },
+  {
+   "form_code": "VALENCIAN_NIDORAN_F",
+   "rules": [
+    "habitat_locked_valencia"
+   ],
+   "source": "special_pokemon_register.json:VALENCIAN_NIDORAN_F",
+   "species": null
+  },
+  {
+   "form_code": "VALENCIAN_NIDORAN_M",
+   "rules": [
+    "habitat_locked_valencia"
+   ],
+   "source": "special_pokemon_register.json:VALENCIAN_NIDORAN_M",
+   "species": null
+  },
+  {
+   "form_code": "VALENCIAN_VILEPLUME",
+   "rules": [
+    "habitat_locked_valencia"
+   ],
+   "source": "special_pokemon_register.json:VALENCIAN_VILEPLUME",
+   "species": null
+  },
+  {
+   "form_code": "VALENCIAN_PARAS",
+   "rules": [
+    "habitat_locked_valencia"
+   ],
+   "source": "special_pokemon_register.json:VALENCIAN_PARAS",
+   "species": null
+  },
+  {
+   "form_code": "VALENCIAN_WEEPINBELL",
+   "rules": [
+    "habitat_locked_valencia"
+   ],
+   "source": "special_pokemon_register.json:VALENCIAN_WEEPINBELL",
+   "species": null
+  },
+  {
+   "form_code": "CRYSTAL_ONIX",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:CRYSTAL_ONIX",
+   "species": null
+  },
+  {
+   "form_code": "SPIKY_EARED_PICHU",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:SPIKY_EARED_PICHU",
+   "species": null
+  },
+  {
+   "form_code": "UKULELE_PICHU",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:UKULELE_PICHU",
+   "species": null
+  },
+  {
+   "form_code": "MAY_HEART_BULBASAUR",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:MAY_HEART_BULBASAUR",
+   "species": null
+  },
+  {
+   "form_code": "POKEMOPOLIS_GENGAR",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:POKEMOPOLIS_GENGAR",
+   "species": null
+  },
+  {
+   "form_code": "POKEMOPOLIS_ALAKAZAM",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:POKEMOPOLIS_ALAKAZAM",
+   "species": null
+  },
+  {
+   "form_code": "POKEMOPOLIS_JIGGLYPUFF",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:POKEMOPOLIS_JIGGLYPUFF",
+   "species": null
+  },
+  {
+   "form_code": "MEWTWO_CLONE_BULBASAUR",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:MEWTWO_CLONE_BULBASAUR",
+   "species": null
+  },
+  {
+   "form_code": "MEWTWO_CLONE_CHARMANDER",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:MEWTWO_CLONE_CHARMANDER",
+   "species": null
+  },
+  {
+   "form_code": "MEWTWO_CLONE_SQUIRTLE",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:MEWTWO_CLONE_SQUIRTLE",
+   "species": null
+  },
+  {
+   "form_code": "MEWTWO_CLONE_VENUSAUR",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:MEWTWO_CLONE_VENUSAUR",
+   "species": null
+  },
+  {
+   "form_code": "MEWTWO_CLONE_CHARIZARD",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:MEWTWO_CLONE_CHARIZARD",
+   "species": null
+  },
+  {
+   "form_code": "MEWTWO_CLONE_BLASTOISE",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:MEWTWO_CLONE_BLASTOISE",
+   "species": null
+  },
+  {
+   "form_code": "MEWTWO_CLONE_PIKACHU",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:MEWTWO_CLONE_PIKACHU",
+   "species": null
+  },
+  {
+   "form_code": "MEWTWO_CLONE_MEOWTH",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:MEWTWO_CLONE_MEOWTH",
+   "species": null
+  },
+  {
+   "form_code": "MEWTWO_CLONE_MEWTWO",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:MEWTWO_CLONE_MEWTWO",
+   "species": null
+  },
+  {
+   "form_code": "LAPRAS_SPOT",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:LAPRAS_SPOT",
+   "species": null
+  },
+  {
+   "form_code": "DOT_TINKATON_HAMMER",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:DOT_TINKATON_HAMMER",
+   "species": null
+  },
+  {
+   "form_code": "COLOR_DEOXYS",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:COLOR_DEOXYS",
+   "species": null
+  },
+  {
+   "form_code": "HORIZONS_BLACK_RAYQUAZA",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:HORIZONS_BLACK_RAYQUAZA",
+   "species": null
+  },
+  {
+   "form_code": "HORIZONS_WHITE_ZYGARDE",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:HORIZONS_WHITE_ZYGARDE",
+   "species": null
+  },
+  {
+   "form_code": "M13_SHINY_ENTEI",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:M13_SHINY_ENTEI",
+   "species": null
+  },
+  {
+   "form_code": "M13_SHINY_RAIKOU",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:M13_SHINY_RAIKOU",
+   "species": null
+  },
+  {
+   "form_code": "M13_SHINY_SUICUNE",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:M13_SHINY_SUICUNE",
+   "species": null
+  },
+  {
+   "form_code": "MOVIE_RED_GENESECT",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:MOVIE_RED_GENESECT",
+   "species": null
+  },
+  {
+   "form_code": "TRADE_ROCKY",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:TRADE_ROCKY",
+   "species": null
+  },
+  {
+   "form_code": "TRADE_MUSCLE",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:TRADE_MUSCLE",
+   "species": null
+  },
+  {
+   "form_code": "TRADE_VOLTY",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:TRADE_VOLTY",
+   "species": null
+  },
+  {
+   "form_code": "TRADE_DON",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:TRADE_DON",
+   "species": null
+  },
+  {
+   "form_code": "TRADE_AEROY",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:TRADE_AEROY",
+   "species": null
+  },
+  {
+   "form_code": "TRADE_KAZZA",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:TRADE_KAZZA",
+   "species": null
+  },
+  {
+   "form_code": "TRADE_GASPAR",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:TRADE_GASPAR",
+   "species": null
+  },
+  {
+   "form_code": "SHADOW_LUGIA_XD001",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:SHADOW_LUGIA_XD001",
+   "species": null
+  },
+  {
+   "form_code": "ANCIENT_GIANT_CLAYDOL",
+   "rules": [
+    "one_per_save_unique"
+   ],
+   "source": "special_pokemon_register.json:ANCIENT_GIANT_CLAYDOL",
+   "species": null
+  }
+ ]
+}
