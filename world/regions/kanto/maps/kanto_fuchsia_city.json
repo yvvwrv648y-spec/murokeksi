@@ -1,0 +1,34 @@
+{
+  "map_id": "kanto_fuchsia_city",
+  "display_name": "Fuchsia City",
+  "category": "city",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe",
+    "anime",
+    "manga"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_fuchsia_city",
+  "connections": [
+    {
+      "target_map": "kanto_route_15",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_18",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_19",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_safari_zone",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

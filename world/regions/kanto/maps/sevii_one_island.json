@@ -1,0 +1,29 @@
+{
+  "map_id": "sevii_one_island",
+  "display_name": "One Island",
+  "category": "island",
+  "continuities": [
+    "frlg"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_sevii_one_island",
+  "connections": [
+    {
+      "target_map": "kanto_vermilion_city",
+      "bidirectional": true
+    },
+    {
+      "target_map": "sevii_mt_ember",
+      "bidirectional": true
+    },
+    {
+      "target_map": "sevii_treasure_beach",
+      "bidirectional": true
+    },
+    {
+      "target_map": "sevii_two_island",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

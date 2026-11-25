@@ -1,0 +1,19 @@
+{
+  "map_id": "kanto_pokemon_tower",
+  "display_name": "Pokémon Tower",
+  "category": "dungeon",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_pokemon_tower",
+  "connections": [
+    {
+      "target_map": "kanto_lavender_town",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

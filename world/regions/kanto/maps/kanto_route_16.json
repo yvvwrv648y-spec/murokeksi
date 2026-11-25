@@ -1,0 +1,24 @@
+{
+  "map_id": "kanto_route_16",
+  "display_name": "Route 16",
+  "category": "land_route",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_route_16",
+  "connections": [
+    {
+      "target_map": "kanto_celadon_city",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_17",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

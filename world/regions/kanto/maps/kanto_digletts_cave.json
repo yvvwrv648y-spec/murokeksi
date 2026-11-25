@@ -1,0 +1,24 @@
+{
+  "map_id": "kanto_digletts_cave",
+  "display_name": "Diglett's Cave",
+  "category": "dungeon",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_digletts_cave",
+  "connections": [
+    {
+      "target_map": "kanto_route_02",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_11",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

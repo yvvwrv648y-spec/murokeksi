@@ -1,0 +1,34 @@
+{
+  "map_id": "kanto_celadon_city",
+  "display_name": "Celadon City",
+  "category": "city",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe",
+    "anime",
+    "manga"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_celadon_city",
+  "connections": [
+    {
+      "target_map": "kanto_celadon_dept_store",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_celadon_game_corner",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_07",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_16",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

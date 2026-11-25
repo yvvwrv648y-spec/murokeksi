@@ -1,0 +1,26 @@
+{
+  "id": "pallet_fisher_001",
+  "name": "Harbor Fisher",
+  "home_location": "pallet_harbor",
+  "schedule": {
+    "morning": "prepare_boat",
+    "afternoon": "fish_at_dock",
+    "evening": "return_home",
+    "night": "sleep"
+  },
+  "weather_override": {
+    "storm": "return_home"
+  },
+  "behaviour": {
+    "wander": true,
+    "talk": true,
+    "react_to_player": true,
+    "avoid_obstacles": true
+  },
+  "personality": {
+    "friendliness": 0.7,
+    "curiosity": 0.4,
+    "patience": 0.8
+  },
+  "dialogue_set_id": "dlg_pallet_fisher_001"
+}

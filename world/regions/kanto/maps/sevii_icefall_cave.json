@@ -1,0 +1,17 @@
+{
+  "map_id": "sevii_icefall_cave",
+  "display_name": "Icefall Cave",
+  "category": "dungeon",
+  "continuities": [
+    "frlg"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_sevii_icefall_cave",
+  "connections": [
+    {
+      "target_map": "sevii_four_island",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

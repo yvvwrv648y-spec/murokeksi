@@ -1,0 +1,17 @@
+{
+  "map_id": "sevii_mt_ember",
+  "display_name": "Mt. Ember",
+  "category": "dungeon",
+  "continuities": [
+    "frlg"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_sevii_mt_ember",
+  "connections": [
+    {
+      "target_map": "sevii_one_island",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

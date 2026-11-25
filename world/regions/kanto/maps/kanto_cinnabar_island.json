@@ -1,0 +1,30 @@
+{
+  "map_id": "kanto_cinnabar_island",
+  "display_name": "Cinnabar Island",
+  "category": "island_city",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe",
+    "anime",
+    "manga"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_cinnabar_island",
+  "connections": [
+    {
+      "target_map": "kanto_pokemon_mansion",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_20",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_21",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

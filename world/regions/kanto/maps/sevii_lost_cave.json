@@ -1,0 +1,17 @@
+{
+  "map_id": "sevii_lost_cave",
+  "display_name": "Lost Cave",
+  "category": "dungeon",
+  "continuities": [
+    "frlg"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_sevii_lost_cave",
+  "connections": [
+    {
+      "target_map": "sevii_five_island",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

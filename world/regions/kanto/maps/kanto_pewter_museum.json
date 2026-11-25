@@ -1,0 +1,20 @@
+{
+  "map_id": "kanto_pewter_museum",
+  "display_name": "Pewter Museum of Science",
+  "category": "facility",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_pewter_museum",
+  "connections": [
+    {
+      "target_map": "kanto_pewter_city",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

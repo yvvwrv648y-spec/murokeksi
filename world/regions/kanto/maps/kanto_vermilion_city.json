@@ -1,0 +1,34 @@
+{
+  "map_id": "kanto_vermilion_city",
+  "display_name": "Vermilion City",
+  "category": "city",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe",
+    "anime",
+    "manga"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_vermilion_city",
+  "connections": [
+    {
+      "target_map": "kanto_route_06",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_11",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_ss_anne",
+      "bidirectional": true
+    },
+    {
+      "target_map": "sevii_one_island",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

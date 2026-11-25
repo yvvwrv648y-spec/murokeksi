@@ -1,0 +1,24 @@
+{
+  "map_id": "kanto_victory_road",
+  "display_name": "Victory Road (Kanto)",
+  "category": "dungeon",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_victory_road",
+  "connections": [
+    {
+      "target_map": "kanto_indigo_plateau",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_23",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

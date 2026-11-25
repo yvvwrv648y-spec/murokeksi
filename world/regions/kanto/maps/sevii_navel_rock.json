@@ -1,0 +1,17 @@
+{
+  "map_id": "sevii_navel_rock",
+  "display_name": "Navel Rock (Event-Dependent)",
+  "category": "event_island",
+  "continuities": [
+    "frlg"
+  ],
+  "event_dependent": true,
+  "music_track_id": "bgm_sevii_navel_rock",
+  "connections": [
+    {
+      "target_map": "sevii_seven_island",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

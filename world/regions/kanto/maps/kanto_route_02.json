@@ -1,0 +1,28 @@
+{
+  "map_id": "kanto_route_02",
+  "display_name": "Route 2",
+  "category": "land_route",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_route_02",
+  "connections": [
+    {
+      "target_map": "kanto_digletts_cave",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_viridian_city",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_viridian_forest",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

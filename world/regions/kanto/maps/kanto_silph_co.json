@@ -1,0 +1,20 @@
+{
+  "map_id": "kanto_silph_co",
+  "display_name": "Silph Co. HQ",
+  "category": "dungeon",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_silph_co",
+  "connections": [
+    {
+      "target_map": "kanto_saffron_city",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

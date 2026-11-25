@@ -1,0 +1,24 @@
+{
+  "map_id": "kanto_viridian_forest",
+  "display_name": "Viridian Forest",
+  "category": "dungeon",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_viridian_forest",
+  "connections": [
+    {
+      "target_map": "kanto_pewter_city",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_02",
+      "bidirectional": true
+    }
+  ],
+  "status": "IMPLEMENTED"
+}

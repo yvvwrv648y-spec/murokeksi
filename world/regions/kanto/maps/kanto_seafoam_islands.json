@@ -1,0 +1,20 @@
+{
+  "map_id": "kanto_seafoam_islands",
+  "display_name": "Seafoam Islands",
+  "category": "dungeon",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_seafoam_islands",
+  "connections": [
+    {
+      "target_map": "kanto_route_20",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

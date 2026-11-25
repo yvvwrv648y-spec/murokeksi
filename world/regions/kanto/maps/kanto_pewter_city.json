@@ -1,0 +1,30 @@
+{
+  "map_id": "kanto_pewter_city",
+  "display_name": "Pewter City",
+  "category": "city",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe",
+    "anime",
+    "manga"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_pewter_city",
+  "connections": [
+    {
+      "target_map": "kanto_pewter_museum",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_03",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_viridian_forest",
+      "bidirectional": true
+    }
+  ],
+  "status": "IMPLEMENTED"
+}

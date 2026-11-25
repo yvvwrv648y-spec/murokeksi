@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "entries": {
+    "oak_welcome_riley": "Ah, Riley! Fresh off the Pallet Channel ferry and already ready to chase the Kanto League!",
+    "oak_welcome_tasha": "Welcome to Pallet Town, Tasha! I heard your flight touched down early this morning.",
+    "oak_welcome_custom": "Welcome, {player_name}! Both Pokémon (PKDX) and Moemon (MDX) await your discovery across Kanto.",
+    "brock_challenge": "I'm Brock, Pewter City's Gym Leader! My rock-hard willpower is evident even in my Pokémon—let's battle!",
+    "brock_victory": "I took you for granted! Take this Boulder Badge as proof of your victory!"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "map_id": "sevii_treasure_beach",
+  "display_name": "Treasure Beach",
+  "category": "landmark",
+  "continuities": [
+    "frlg"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_sevii_treasure_beach",
+  "connections": [
+    {
+      "target_map": "sevii_one_island",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

@@ -1,0 +1,24 @@
+{
+  "map_id": "kanto_mt_moon",
+  "display_name": "Mt. Moon",
+  "category": "dungeon",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_mt_moon",
+  "connections": [
+    {
+      "target_map": "kanto_route_03",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_04",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

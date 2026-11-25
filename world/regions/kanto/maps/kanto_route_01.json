@@ -1,0 +1,24 @@
+{
+  "map_id": "kanto_route_01",
+  "display_name": "Route 1",
+  "category": "land_route",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_route_01",
+  "connections": [
+    {
+      "target_map": "kanto_pallet_town",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_viridian_city",
+      "bidirectional": true
+    }
+  ],
+  "status": "IMPLEMENTED"
+}

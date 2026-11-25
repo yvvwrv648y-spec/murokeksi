@@ -1,0 +1,24 @@
+{
+  "map_id": "kanto_route_21",
+  "display_name": "Route 21",
+  "category": "sea_route",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_route_21",
+  "connections": [
+    {
+      "target_map": "kanto_cinnabar_island",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_pallet_town",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

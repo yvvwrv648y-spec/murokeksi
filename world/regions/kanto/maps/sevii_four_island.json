@@ -1,0 +1,25 @@
+{
+  "map_id": "sevii_four_island",
+  "display_name": "Four Island",
+  "category": "island",
+  "continuities": [
+    "frlg"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_sevii_four_island",
+  "connections": [
+    {
+      "target_map": "sevii_five_island",
+      "bidirectional": true
+    },
+    {
+      "target_map": "sevii_icefall_cave",
+      "bidirectional": true
+    },
+    {
+      "target_map": "sevii_three_island",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

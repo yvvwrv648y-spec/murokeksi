@@ -1,0 +1,24 @@
+{
+  "map_id": "kanto_underground_ew",
+  "display_name": "Underground Path (Routes 7-8)",
+  "category": "transit",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_underground_ew",
+  "connections": [
+    {
+      "target_map": "kanto_route_07",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_08",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

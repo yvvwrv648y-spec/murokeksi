@@ -1,0 +1,21 @@
+{
+  "map_id": "sevii_six_island",
+  "display_name": "Six Island",
+  "category": "island",
+  "continuities": [
+    "frlg"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_sevii_six_island",
+  "connections": [
+    {
+      "target_map": "sevii_five_island",
+      "bidirectional": true
+    },
+    {
+      "target_map": "sevii_seven_island",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

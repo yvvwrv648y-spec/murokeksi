@@ -1,0 +1,42 @@
+{
+  "map_id": "kanto_pallet_town",
+  "display_name": "Pallet Town",
+  "category": "settlement",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe",
+    "anime",
+    "manga"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_pallet_town",
+  "connections": [
+    {
+      "target_map": "kanto_pallet_custom_house",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_pallet_oaks_lab",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_pallet_riley_house",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_pallet_tasha_house",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_01",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_21",
+      "bidirectional": true
+    }
+  ],
+  "status": "IMPLEMENTED"
+}

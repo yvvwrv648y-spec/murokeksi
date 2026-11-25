@@ -1,0 +1,18 @@
+{
+  "map_id": "kanto_safari_zone",
+  "display_name": "Kanto Safari Zone",
+  "category": "facility",
+  "continuities": [
+    "gen1",
+    "frlg"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_safari_zone",
+  "connections": [
+    {
+      "target_map": "kanto_fuchsia_city",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

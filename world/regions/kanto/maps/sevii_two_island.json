@@ -1,0 +1,21 @@
+{
+  "map_id": "sevii_two_island",
+  "display_name": "Two Island",
+  "category": "island",
+  "continuities": [
+    "frlg"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_sevii_two_island",
+  "connections": [
+    {
+      "target_map": "sevii_one_island",
+      "bidirectional": true
+    },
+    {
+      "target_map": "sevii_three_island",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

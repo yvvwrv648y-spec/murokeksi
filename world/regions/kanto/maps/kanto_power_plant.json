@@ -1,0 +1,20 @@
+{
+  "map_id": "kanto_power_plant",
+  "display_name": "Kanto Power Plant",
+  "category": "dungeon",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_power_plant",
+  "connections": [
+    {
+      "target_map": "kanto_route_10",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

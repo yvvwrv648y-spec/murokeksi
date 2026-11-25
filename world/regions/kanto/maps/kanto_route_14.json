@@ -1,0 +1,24 @@
+{
+  "map_id": "kanto_route_14",
+  "display_name": "Route 14",
+  "category": "land_route",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_route_14",
+  "connections": [
+    {
+      "target_map": "kanto_route_13",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_15",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

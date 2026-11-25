@@ -1,0 +1,28 @@
+{
+  "map_id": "kanto_route_12",
+  "display_name": "Route 12",
+  "category": "land_route",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_route_12",
+  "connections": [
+    {
+      "target_map": "kanto_lavender_town",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_11",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_13",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

@@ -1,0 +1,21 @@
+{
+  "map_id": "sevii_three_island",
+  "display_name": "Three Island",
+  "category": "island",
+  "continuities": [
+    "frlg"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_sevii_three_island",
+  "connections": [
+    {
+      "target_map": "sevii_four_island",
+      "bidirectional": true
+    },
+    {
+      "target_map": "sevii_two_island",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

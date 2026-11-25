@@ -1,0 +1,24 @@
+{
+  "map_id": "kanto_route_19",
+  "display_name": "Route 19",
+  "category": "sea_route",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_route_19",
+  "connections": [
+    {
+      "target_map": "kanto_fuchsia_city",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_20",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

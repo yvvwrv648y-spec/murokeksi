@@ -1,0 +1,28 @@
+{
+  "map_id": "kanto_route_10",
+  "display_name": "Route 10",
+  "category": "land_route",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_route_10",
+  "connections": [
+    {
+      "target_map": "kanto_power_plant",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_rock_tunnel",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_09",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

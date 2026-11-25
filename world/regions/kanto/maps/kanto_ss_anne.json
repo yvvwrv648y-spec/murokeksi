@@ -1,0 +1,19 @@
+{
+  "map_id": "kanto_ss_anne",
+  "display_name": "S.S. Anne",
+  "category": "ship_dungeon",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "lgpe"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_ss_anne",
+  "connections": [
+    {
+      "target_map": "kanto_vermilion_city",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

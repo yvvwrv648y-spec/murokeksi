@@ -1,0 +1,22 @@
+{
+  "map_id": "kanto_indigo_plateau",
+  "display_name": "Indigo Plateau",
+  "category": "league",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe",
+    "anime",
+    "manga"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_indigo_plateau",
+  "connections": [
+    {
+      "target_map": "kanto_victory_road",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

@@ -1,0 +1,34 @@
+{
+  "map_id": "kanto_lavender_town",
+  "display_name": "Lavender Town",
+  "category": "town",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe",
+    "anime",
+    "manga"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_lavender_town",
+  "connections": [
+    {
+      "target_map": "kanto_pokemon_tower",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_rock_tunnel",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_08",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_12",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

@@ -1,0 +1,38 @@
+{
+  "map_id": "kanto_cerulean_city",
+  "display_name": "Cerulean City",
+  "category": "city",
+  "continuities": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe",
+    "anime",
+    "manga"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_kanto_cerulean_city",
+  "connections": [
+    {
+      "target_map": "kanto_cerulean_cave",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_04",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_05",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_09",
+      "bidirectional": true
+    },
+    {
+      "target_map": "kanto_route_24",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

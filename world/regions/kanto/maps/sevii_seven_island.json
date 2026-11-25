@@ -1,0 +1,29 @@
+{
+  "map_id": "sevii_seven_island",
+  "display_name": "Seven Island",
+  "category": "island",
+  "continuities": [
+    "frlg"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_sevii_seven_island",
+  "connections": [
+    {
+      "target_map": "sevii_birth_island",
+      "bidirectional": true
+    },
+    {
+      "target_map": "sevii_navel_rock",
+      "bidirectional": true
+    },
+    {
+      "target_map": "sevii_six_island",
+      "bidirectional": true
+    },
+    {
+      "target_map": "sevii_tanoby_ruins",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}

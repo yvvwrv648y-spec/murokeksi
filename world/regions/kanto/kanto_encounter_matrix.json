@@ -1,0 +1,345 @@
+{
+  "region_id": "kanto",
+  "eligibility_priority": [
+    "1. Species and form legality",
+    "2. Regional progression and story unlock",
+    "3. Habitat compatibility",
+    "4. Climate and environmental compatibility",
+    "5. Time, season and weather",
+    "6. Population and rarity",
+    "7. Encounter method",
+    "8. Capture restrictions"
+  ],
+  "routes": [
+    {
+      "location_id": "kanto_route_1",
+      "biome": "temperate_meadow",
+      "habitat": "temperate_meadow",
+      "method": "tall_grass",
+      "population_cap": 100,
+      "entries": [
+        {
+          "species_id": "pidgey",
+          "form_id": "base",
+          "min_lv": 3,
+          "max_lv": 5,
+          "weight": 30,
+          "rarity": "common",
+          "time": "day",
+          "season": "all",
+          "weather": "clear",
+          "reason": "Native Kanto meadow songbird; abundant daytime granivore."
+        },
+        {
+          "species_id": "starly",
+          "form_id": "base",
+          "min_lv": 3,
+          "max_lv": 5,
+          "weight": 20,
+          "rarity": "common",
+          "time": "day",
+          "season": "spring_summer_autumn",
+          "weather": "clear",
+          "reason": "Sinnoh northern flyway migrant nesting in temperate Kanto grasslands."
+        },
+        {
+          "species_id": "fletchling",
+          "form_id": "base",
+          "min_lv": 4,
+          "max_lv": 6,
+          "weight": 15,
+          "rarity": "uncommon",
+          "time": "morning_day",
+          "season": "all",
+          "weather": "clear",
+          "reason": "Transcontinental songbird thriving in sunlit meadow hedgerows."
+        },
+        {
+          "species_id": "mareep",
+          "form_id": "base",
+          "min_lv": 4,
+          "max_lv": 6,
+          "weight": 15,
+          "rarity": "uncommon",
+          "time": "all",
+          "season": "all",
+          "weather": "all",
+          "reason": "Johto east-corridor grazer sharing Route 1 pasture flora."
+        },
+        {
+          "species_id": "shinx",
+          "form_id": "base",
+          "min_lv": 4,
+          "max_lv": 6,
+          "weight": 10,
+          "rarity": "uncommon",
+          "time": "dusk_night",
+          "season": "all",
+          "weather": "all",
+          "reason": "Crepuscular/nocturnal meadow hunter migrated from northern plains."
+        },
+        {
+          "species_id": "rookidee",
+          "form_id": "base",
+          "min_lv": 3,
+          "max_lv": 5,
+          "weight": 7,
+          "rarity": "uncommon",
+          "time": "day",
+          "season": "all",
+          "weather": "windy_clear",
+          "reason": "Galar flyway insectivore competing cleanly with Pidgey flocks."
+        },
+        {
+          "species_id": "eevee",
+          "form_id": "base",
+          "min_lv": 5,
+          "max_lv": 6,
+          "weight": 3,
+          "rarity": "very_rare",
+          "time": "morning",
+          "season": "all",
+          "weather": "clear",
+          "reason": "Rare adaptable urban-meadow omnivore near Pallet border."
+        }
+      ]
+    },
+    {
+      "location_id": "kanto_viridian_forest",
+      "biome": "temperate_woodland",
+      "habitat": "sunlit_woodland",
+      "method": "tall_grass",
+      "population_cap": 80,
+      "entries": [
+        {
+          "species_id": "pikachu",
+          "form_id": "base",
+          "min_lv": 5,
+          "max_lv": 8,
+          "weight": 22,
+          "rarity": "uncommon",
+          "time": "all",
+          "season": "all",
+          "weather": "all",
+          "reason": "Native Viridian Forest frugivore nesting in hollow oaks."
+        },
+        {
+          "species_id": "bulbasaur",
+          "form_id": "base",
+          "min_lv": 6,
+          "max_lv": 8,
+          "weight": 12,
+          "rarity": "rare",
+          "time": "day",
+          "season": "spring_summer",
+          "weather": "clear",
+          "reason": "Photosynthetic woodland native thriving in dappled canopy clearings."
+        },
+        {
+          "species_id": "ralts",
+          "form_id": "base",
+          "min_lv": 6,
+          "max_lv": 9,
+          "weight": 14,
+          "rarity": "rare",
+          "time": "morning_dusk",
+          "season": "all",
+          "weather": "clear",
+          "reason": "Quiet woodland empathic forager avoiding noisy highways."
+        },
+        {
+          "species_id": "smoliv",
+          "form_id": "base",
+          "min_lv": 6,
+          "max_lv": 8,
+          "weight": 12,
+          "rarity": "rare",
+          "time": "day",
+          "season": "summer",
+          "weather": "sunny",
+          "reason": "Established via Celadon botanical exchange in sunlit forest glades."
+        }
+      ]
+    },
+    {
+      "location_id": "kanto_mt_moon",
+      "biome": "mineral_cavern",
+      "habitat": "mineral_cavern",
+      "method": "cave_floor",
+      "population_cap": 60,
+      "entries": [
+        {
+          "species_id": "aron",
+          "form_id": "base",
+          "min_lv": 10,
+          "max_lv": 13,
+          "weight": 35,
+          "rarity": "uncommon",
+          "time": "all",
+          "season": "all",
+          "weather": "underground",
+          "reason": "Iron-ore lithovore drawn to Mt. Moon's meteoric iron veins."
+        },
+        {
+          "species_id": "rolycoly",
+          "form_id": "base",
+          "min_lv": 10,
+          "max_lv": 13,
+          "weight": 30,
+          "rarity": "uncommon",
+          "time": "all",
+          "season": "all",
+          "weather": "underground",
+          "reason": "Subterranean coal-seam grazer thriving in deep mineral shafts."
+        },
+        {
+          "species_id": "joltik",
+          "form_id": "base",
+          "min_lv": 11,
+          "max_lv": 13,
+          "weight": 20,
+          "rarity": "uncommon",
+          "time": "all",
+          "season": "all",
+          "weather": "underground",
+          "reason": "Cavern static-feeder clinging to ionized moonstone crystal walls."
+        }
+      ]
+    },
+    {
+      "location_id": "kanto_cerulean_coast_and_river",
+      "biome": "freshwater_and_coastal",
+      "habitat": "freshwater_river",
+      "method": "surf_and_shore",
+      "population_cap": 75,
+      "entries": [
+        {
+          "species_id": "wooper",
+          "form_id": "base",
+          "min_lv": 12,
+          "max_lv": 16,
+          "weight": 35,
+          "rarity": "common",
+          "time": "all",
+          "season": "all",
+          "weather": "rain_clear",
+          "reason": "Freshwater watershed amphibian migrated via Tohjo river basin (distinct from Paldean toxic-bog form)."
+        },
+        {
+          "species_id": "squirtle",
+          "form_id": "base",
+          "min_lv": 13,
+          "max_lv": 16,
+          "weight": 15,
+          "rarity": "rare",
+          "time": "day",
+          "season": "all",
+          "weather": "all",
+          "reason": "Native Kanto freshwater-coastal turtle nesting along Cerulean Cape."
+        },
+        {
+          "species_id": "mareanie",
+          "form_id": "base",
+          "min_lv": 15,
+          "max_lv": 18,
+          "weight": 15,
+          "rarity": "rare",
+          "time": "all",
+          "season": "summer",
+          "weather": "clear",
+          "reason": "Reef-zone predator carried north by warm Kuroshio coastal currents."
+        },
+        {
+          "species_id": "finizen",
+          "form_id": "base",
+          "min_lv": 16,
+          "max_lv": 20,
+          "weight": 10,
+          "rarity": "rare",
+          "time": "day",
+          "season": "all",
+          "weather": "clear",
+          "reason": "Pelagic deep-water pod swimmer strictly restricted to deep offshore water."
+        }
+      ]
+    },
+    {
+      "location_id": "kanto_lavender_tower",
+      "biome": "haunted_historic",
+      "habitat": "haunted_historic",
+      "method": "interior_floor",
+      "population_cap": 45,
+      "entries": [
+        {
+          "species_id": "gastly",
+          "form_id": "base",
+          "min_lv": 22,
+          "max_lv": 26,
+          "weight": 55,
+          "rarity": "uncommon",
+          "time": "night_all_indoor",
+          "season": "all",
+          "weather": "indoor",
+          "reason": "Native spectral resident anchored to Lavender's historic memorial tower."
+        },
+        {
+          "species_id": "litwick",
+          "form_id": "base",
+          "min_lv": 23,
+          "max_lv": 27,
+          "weight": 45,
+          "rarity": "uncommon",
+          "time": "night_all_indoor",
+          "season": "all",
+          "weather": "indoor",
+          "reason": "Nocturnal spirit-lantern ecology matching haunted memorial sites."
+        }
+      ]
+    },
+    {
+      "location_id": "kanto_cinnabar_caldera",
+      "biome": "volcanic_geothermal",
+      "habitat": "geothermal_caldera",
+      "method": "volcanic_ash",
+      "population_cap": 50,
+      "entries": [
+        {
+          "species_id": "charmander",
+          "form_id": "base",
+          "min_lv": 36,
+          "max_lv": 42,
+          "weight": 30,
+          "rarity": "rare",
+          "time": "all",
+          "season": "all",
+          "weather": "clear_ash",
+          "reason": "Thermophilic native drawn to Cinnabar's active geothermal vents."
+        },
+        {
+          "species_id": "vulpix",
+          "form_id": "base",
+          "min_lv": 35,
+          "max_lv": 40,
+          "weight": 40,
+          "rarity": "uncommon",
+          "time": "dusk_night",
+          "season": "all",
+          "weather": "all",
+          "reason": "Warm-climate Kanto Vulpix (Alolan Ice form strictly excluded here)."
+        },
+        {
+          "species_id": "rolycoly",
+          "form_id": "base",
+          "min_lv": 36,
+          "max_lv": 41,
+          "weight": 30,
+          "rarity": "uncommon",
+          "time": "all",
+          "season": "all",
+          "weather": "all",
+          "reason": "Geothermal coal-vein grazer thriving near volcanic rock."
+        }
+      ]
+    }
+  ]
+}

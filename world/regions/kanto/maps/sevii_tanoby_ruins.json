@@ -1,0 +1,17 @@
+{
+  "map_id": "sevii_tanoby_ruins",
+  "display_name": "Tanoby Ruins",
+  "category": "dungeon",
+  "continuities": [
+    "frlg"
+  ],
+  "event_dependent": false,
+  "music_track_id": "bgm_sevii_tanoby_ruins",
+  "connections": [
+    {
+      "target_map": "sevii_seven_island",
+      "bidirectional": true
+    }
+  ],
+  "status": "SPECIFIED"
+}
