@@ -1,0 +1,234 @@
+{
+ "speed_multiplier": 1.75,
+ "coop_tandem_rule": "Two-seater option is grayed out unless 2-player Co-Op is active. Both players mount one bicycle; the bicycle displayed in the overworld belongs to the player in control (uses controller's unique design first).",
+ "bicycles": [
+  {
+   "id": "riley_solo",
+   "class": "acro",
+   "capacities": [
+    "bunny_hop",
+    "wheelie",
+    "rail_ride"
+   ],
+   "owner": "riley",
+   "exclusive": true,
+   "coop_two_seater": false,
+   "theme": "Meowth & Sylveon Thorned-Heart Cruiser",
+   "colors": [
+    "#f472b6",
+    "#27272a",
+    "#ffd447"
+   ],
+   "art_status": "bound",
+   "art_binding": "bench2 layered stacks (bike_frame_data.json layered_stacks_bench2): rows 1-2 Neon v5, rows 3-4 + tandem driver in-house bench",
+   "outfit_art_status": "bound",
+   "outfit_art_binding": "bench3 layered outfit stacks (bike_frame_data.json layered_stacks_bench2, kind solo_outfit): in-house bench round-3 register redraws of the QA-round-9 v3 outfit designs over the bench-2 bases"
+  },
+  {
+   "id": "riley_tandem",
+   "owner": "riley",
+   "exclusive": true,
+   "coop_two_seater": true,
+   "theme": "Riley's Two-Seater Meowth-Bell Ribbon Tandem (Riley Leads)",
+   "colors": [
+    "#f472b6",
+    "#27272a",
+    "#fff1f2"
+   ],
+   "art_status": "bound",
+   "art_binding": "bench2 layered stacks (bike_frame_data.json layered_stacks_bench2): rows 1-2 Neon v5, rows 3-4 + tandem driver in-house bench",
+   "outfit_art_status": "bound",
+   "outfit_art_binding": "bench3 layered outfit stacks (bike_frame_data.json layered_stacks_bench2, kind solo_outfit): in-house bench round-3 register redraws of the QA-round-9 v3 outfit designs over the bench-2 bases"
+  },
+  {
+   "id": "tasha_solo",
+   "class": "mach",
+   "capacities": [
+    "top_speed",
+    "muddy_slope_climb"
+   ],
+   "owner": "tasha",
+   "exclusive": true,
+   "coop_two_seater": false,
+   "theme": "Klefki & Gengar Gothic-Skull Cruiser",
+   "colors": [
+    "#7e22ce",
+    "#0f172a",
+    "#cbd5e1"
+   ],
+   "art_status": "bound",
+   "art_binding": "bench2 layered stacks (bike_frame_data.json layered_stacks_bench2): rows 1-2 Neon v5, rows 3-4 + tandem driver in-house bench",
+   "outfit_art_status": "bound",
+   "outfit_art_binding": "bench3 layered outfit stacks (bike_frame_data.json layered_stacks_bench2, kind solo_outfit): in-house bench round-3 register redraws of the QA-round-9 v3 outfit designs over the bench-2 bases"
+  },
+  {
+   "id": "tasha_tandem",
+   "owner": "tasha",
+   "exclusive": true,
+   "coop_two_seater": true,
+   "theme": "Tasha's Two-Seater Amethyst-Skull Tandem (Tasha Leads)",
+   "colors": [
+    "#7e22ce",
+    "#0f172a",
+    "#e9d5ff"
+   ],
+   "art_status": "bound",
+   "art_binding": "bench2 layered stacks (bike_frame_data.json layered_stacks_bench2): rows 1-2 Neon v5, rows 3-4 + tandem driver in-house bench",
+   "outfit_art_status": "bound",
+   "outfit_art_binding": "bench3 layered outfit stacks (bike_frame_data.json layered_stacks_bench2, kind solo_outfit): in-house bench round-3 register redraws of the QA-round-9 v3 outfit designs over the bench-2 bases"
+  },
+  {
+   "id": "custom_fem_solo",
+   "class": "acro",
+   "capacities": [
+    "bunny_hop",
+    "wheelie",
+    "rail_ride"
+   ],
+   "owner": "custom",
+   "style": "feminine",
+   "coop_two_seater": false,
+   "theme": "Pearl-Rose & Gold Aero Cruiser (Feminine Scheme)",
+   "colors": [
+    "#fb7185",
+    "#fff1f2",
+    "#fbbf24"
+   ],
+   "art_status": "bound",
+   "art_binding": "bench2 layered stacks (bike_frame_data.json layered_stacks_bench2): rows 1-2 Neon v5, rows 3-4 + tandem driver in-house bench",
+   "outfit_art_status": "bound",
+   "outfit_art_binding": "bench3 layered outfit stacks (bike_frame_data.json layered_stacks_bench2, kind solo_outfit): in-house bench round-3 register redraws of the QA-round-9 v3 outfit designs over the bench-2 bases"
+  },
+  {
+   "id": "custom_fem_tandem",
+   "owner": "custom",
+   "style": "feminine",
+   "coop_two_seater": true,
+   "theme": "Pearl-Rose & Gold Two-Seater Tandem (Co-Op)",
+   "colors": [
+    "#fb7185",
+    "#fff1f2",
+    "#fbbf24"
+   ],
+   "art_status": "bound",
+   "art_binding": "bench2 layered stacks (bike_frame_data.json layered_stacks_bench2): rows 1-2 Neon v5, rows 3-4 + tandem driver in-house bench",
+   "outfit_art_status": "bound",
+   "outfit_art_binding": "bench3 layered outfit stacks (bike_frame_data.json layered_stacks_bench2, kind solo_outfit): in-house bench round-3 register redraws of the QA-round-9 v3 outfit designs over the bench-2 bases"
+  },
+  {
+   "id": "custom_masc_solo",
+   "class": "mach",
+   "capacities": [
+    "top_speed",
+    "muddy_slope_climb"
+   ],
+   "owner": "custom",
+   "style": "masculine",
+   "coop_two_seater": false,
+   "theme": "Cobalt-Crimson & Obsidian Sport Bike (Masculine Scheme)",
+   "colors": [
+    "#2563eb",
+    "#0f172a",
+    "#ef4444"
+   ],
+   "art_status": "bound",
+   "art_binding": "bench2 layered stacks (bike_frame_data.json layered_stacks_bench2): rows 1-2 Neon v5, rows 3-4 + tandem driver in-house bench",
+   "outfit_art_status": "bound",
+   "outfit_art_binding": "bench3 layered outfit stacks (bike_frame_data.json layered_stacks_bench2, kind solo_outfit): in-house bench round-3 register redraws of the QA-round-9 v3 outfit designs over the bench-2 bases"
+  },
+  {
+   "id": "custom_masc_tandem",
+   "owner": "custom",
+   "style": "masculine",
+   "coop_two_seater": true,
+   "theme": "Cobalt-Crimson Two-Seater Tandem (Co-Op)",
+   "colors": [
+    "#2563eb",
+    "#0f172a",
+    "#ef4444"
+   ],
+   "art_status": "bound",
+   "art_binding": "bench2 layered stacks (bike_frame_data.json layered_stacks_bench2): rows 1-2 Neon v5, rows 3-4 + tandem driver in-house bench",
+   "outfit_art_status": "bound",
+   "outfit_art_binding": "bench3 layered outfit stacks (bike_frame_data.json layered_stacks_bench2, kind solo_outfit): in-house bench round-3 register redraws of the QA-round-9 v3 outfit designs over the bench-2 bases"
+  },
+  {
+   "id": "custom_femboy_solo",
+   "class": "mach",
+   "capacities": [
+    "top_speed",
+    "muddy_slope_climb"
+   ],
+   "owner": "custom",
+   "style": "femboy",
+   "coop_two_seater": false,
+   "theme": "Sky-Blush & Silver Sport Bike (Femboy Scheme)",
+   "colors": [
+    "#7dd3fc",
+    "#fda4af",
+    "#e2e8f0"
+   ],
+   "art_status": "bound",
+   "art_binding": "bench2 layered stacks (bike_frame_data.json layered_stacks_bench2): rows 1-2 Neon v5, rows 3-4 + tandem driver in-house bench",
+   "outfit_art_status": "bound",
+   "outfit_art_binding": "bench3 layered outfit stacks (bike_frame_data.json layered_stacks_bench2, kind solo_outfit): in-house bench round-3 register redraws of the QA-round-9 v3 outfit designs over the bench-2 bases"
+  },
+  {
+   "id": "custom_femboy_tandem",
+   "owner": "custom",
+   "style": "femboy",
+   "coop_two_seater": true,
+   "theme": "Sky-Blush Two-Seater Tandem (Co-Op)",
+   "colors": [
+    "#7dd3fc",
+    "#fda4af",
+    "#e2e8f0"
+   ],
+   "art_status": "bound",
+   "art_binding": "bench2 layered stacks (bike_frame_data.json layered_stacks_bench2): rows 1-2 Neon v5, rows 3-4 + tandem driver in-house bench",
+   "outfit_art_status": "bound",
+   "outfit_art_binding": "bench3 layered outfit stacks (bike_frame_data.json layered_stacks_bench2, kind solo_outfit): in-house bench round-3 register redraws of the QA-round-9 v3 outfit designs over the bench-2 bases"
+  },
+  {
+   "id": "custom_futanari_solo",
+   "class": "acro",
+   "capacities": [
+    "bunny_hop",
+    "wheelie",
+    "rail_ride"
+   ],
+   "owner": "custom",
+   "style": "futanari",
+   "coop_two_seater": false,
+   "theme": "Lavender-Mint & Pearl Aero Cruiser (Futanari Scheme)",
+   "colors": [
+    "#a78bfa",
+    "#6ee7b7",
+    "#fafaf9"
+   ],
+   "art_status": "bound",
+   "art_binding": "bench2 layered stacks (bike_frame_data.json layered_stacks_bench2): rows 1-2 Neon v5, rows 3-4 + tandem driver in-house bench",
+   "outfit_art_status": "bound",
+   "outfit_art_binding": "bench3 layered outfit stacks (bike_frame_data.json layered_stacks_bench2, kind solo_outfit): in-house bench round-3 register redraws of the QA-round-9 v3 outfit designs over the bench-2 bases"
+  },
+  {
+   "id": "custom_futanari_tandem",
+   "owner": "custom",
+   "style": "futanari",
+   "coop_two_seater": true,
+   "theme": "Lavender-Mint Two-Seater Tandem (Co-Op)",
+   "colors": [
+    "#a78bfa",
+    "#6ee7b7",
+    "#fafaf9"
+   ],
+   "art_status": "bound",
+   "art_binding": "bench2 layered stacks (bike_frame_data.json layered_stacks_bench2): rows 1-2 Neon v5, rows 3-4 + tandem driver in-house bench",
+   "outfit_art_status": "bound",
+   "outfit_art_binding": "bench3 layered outfit stacks (bike_frame_data.json layered_stacks_bench2, kind solo_outfit): in-house bench round-3 register redraws of the QA-round-9 v3 outfit designs over the bench-2 bases"
+  }
+ ],
+ "bike_class_design_decision": "PUW design decision (Phase 3, 2026-11-22): riley_solo and custom_fem_solo are acro class; tasha_solo and custom_masc_solo are mach class, so both classes exist across the four solo bikes. The capacities themselves mirror the original games' Acro Bike (bunny hop, wheelie, narrow rails) and Mach Bike (top speed, muddy slopes); no new factual claims about the original games are made. Addendum (2026-11-23): custom_futanari_solo is acro class and custom_femboy_solo is mach class, balancing the six solo bikes three acro / three mach and extending the both-classes-present principle above. The Femboy and Futanari presets previously had no registry entries at all. No Neon source defines themes or colors for their bikes (Neon's original registry in the custom work bundle lists the same eight bicycles), so the femboy/futanari themes and colors are PUW-designed in the established scheme format.",
+ "bench2_art_note": "BENCH-2 (2026-11-23): every bicycle in this registry now has bound rider art (art_status bound) in bike_frame_data.json's layered_stacks_bench2 section -- the first bound bike stacks in the project, closing B1-B7. Two bench findings are recorded there and in MERGE_README: (1) the round-11 verdict's tandem coordinates described the layered tandem sheet's own crop, not the certified v2 frame register the stacks are bound at; (2) the layered mach chassis SHEET's rows 3 and 4 both face right (anomaly recorded, sheet left as delivered; the stacks use the correct row-4 facing from the certified v2 frames).",
+ "bench3_art_note": "BENCH-3 (2026-11-23): every bicycle in this registry now also has its outfit stacks bound (outfit_art_status bound) in bike_frame_data.json's layered_stacks_bench2 section -- the 22 stacks the bench-2 binding held (riley x3, tasha x3, custom presets x4 each), redrawn in-house at the bench register from Neon's v3 designs and re-measured on the bound copies: worst overhang 0.000, worst detached far component 0 px, contact 8/8 side cells on all 22. No outfit stack remains held."
+}

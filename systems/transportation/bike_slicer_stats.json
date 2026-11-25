@@ -1,0 +1,341 @@
+{
+ "systems/transportation/bike_custom_fem_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   704,
+   454
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "irregular layout, low confidence grid"
+  ]
+ },
+ "systems/transportation/bike_custom_masc_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   786,
+   768
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frame 2 hero-size component starts at x=569 (intrudes into pose region)",
+   "frame 4 content touches sheet edge: bbox [292,0,263,768] - clipped in source",
+   "1 small accessory component merged into nearest figure frame",
+   "irregular layout, low confidence grid"
+  ]
+ },
+ "systems/transportation/bike_riley_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   629,
+   491
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": []
+ },
+ "systems/transportation/bike_tasha_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   629,
+   480
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": []
+ },
+ "systems/transportation/custom_fem_solo_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   684,
+   588
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "irregular layout, low confidence grid"
+  ]
+ },
+ "systems/transportation/custom_masc_solo_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   632,
+   603
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": []
+ },
+ "systems/transportation/solo_female_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   617,
+   737
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": []
+ },
+ "systems/transportation/solo_femboy_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   572,
+   723
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frames 3,4 content crosses cell bottom edge (y 394+345 > 768 boundary of cell) - sliced by content bbox, not cell"
+  ]
+ },
+ "systems/transportation/solo_futanari_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   572,
+   715
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frame 3 content crosses cell edge"
+  ]
+ },
+ "systems/transportation/solo_male_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   606,
+   737
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frames 3,4 content crosses cell edge"
+  ]
+ },
+ "systems/transportation/tandem_custom_female_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   638,
+   700
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frames 3,4 content crosses cell edge"
+  ]
+ },
+ "systems/transportation/tandem_custom_femboy_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   640,
+   726
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frame 3 content crosses cell edge",
+   "TWO-TONE background, seam at x=688 - keyed against nearest corner colour (see module docstring)"
+  ]
+ },
+ "systems/transportation/tandem_custom_futanari_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   637,
+   718
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": []
+ },
+ "systems/transportation/tandem_custom_male_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   660,
+   731
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": []
+ },
+ "systems/transportation/tandem_female_riley_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   642,
+   737
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": []
+ },
+ "systems/transportation/tandem_female_tasha_sheet.jpg": {
+  "frames_sliced": 4,
+  "canvas": [
+   751,
+   717
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "ONLY 4 components: second side view missing from source art (hero starts at x=567 and takes its space)",
+   "irregular layout, low confidence grid"
+  ]
+ },
+ "systems/transportation/tandem_femboy_riley_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   680,
+   732
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "irregular layout, low confidence grid"
+  ]
+ },
+ "systems/transportation/tandem_femboy_tasha_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   664,
+   729
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frame 2 (hero) content crosses cell edge at x=683"
+  ]
+ },
+ "systems/transportation/tandem_futanari_riley_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   591,
+   709
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frames 3,4 content crosses cell edge"
+  ]
+ },
+ "systems/transportation/tandem_futanari_tasha_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   635,
+   729
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frames 0,1 content crosses cell edge"
+  ]
+ },
+ "systems/transportation/tandem_male_riley_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   666,
+   735
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frame 2 (hero) content crosses cell edge at x=682"
+  ]
+ },
+ "systems/transportation/tandem_male_tasha_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   599,
+   768
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "irregular layout, low confidence grid",
+   "frame 4 content touches sheet edge: bbox [356,0,337,768] - clipped in source",
+   "1 small accessory component merged into nearest figure frame"
+  ]
+ },
+ "systems/transportation/tandem_riley_female_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   661,
+   704
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": []
+ },
+ "systems/transportation/tandem_riley_femboy_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   686,
+   737
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "irregular layout, low confidence grid"
+  ]
+ },
+ "systems/transportation/tandem_riley_futanari_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   622,
+   701
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frames 3,4 content crosses cell edge"
+  ]
+ },
+ "systems/transportation/tandem_riley_male_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   643,
+   726
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frame 2 (hero) content crosses cell edge at x=689; frame 4 crosses cell edge"
+  ]
+ },
+ "systems/transportation/tandem_riley_tasha_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   620,
+   718
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frame 3 content crosses cell edge"
+  ]
+ },
+ "systems/transportation/tandem_tasha_female_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   626,
+   717
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frame 4 content crosses cell edge"
+  ]
+ },
+ "systems/transportation/tandem_tasha_femboy_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   650,
+   711
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": []
+ },
+ "systems/transportation/tandem_tasha_futanari_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   713,
+   729
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "irregular layout, low confidence grid"
+  ]
+ },
+ "systems/transportation/tandem_tasha_male_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   652,
+   692
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": []
+ },
+ "systems/transportation/tandem_tasha_riley_sheet.jpg": {
+  "frames_sliced": 5,
+  "canvas": [
+   626,
+   710
+  ],
+  "anchor_drift_px": 0,
+  "edge_flags": [
+   "frames 3,4 content crosses cell edge"
+  ]
+ }
+}

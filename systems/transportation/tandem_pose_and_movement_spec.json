@@ -1,0 +1,103 @@
+{
+  "outfit_preservation_rule": "ZERO_DEFAULT_REVERSION \u2014 Both front driver and rear passenger ALWAYS preserve their currently equipped outfit, swimwear, colors, and body sliders when mounting solo or tandem bikes.",
+  "tandem_coop_lock": "Tandem two-seater bikes are strictly locked unless 2-player Co-Op is active. Active bike appearance always matches the player currently in control (front seat).",
+  "single_seater_themes": {
+    "riley": "100% Exclusive Meowth-Coin & Sylveon-Ribbon Cruiser",
+    "tasha": "100% Exclusive Gengar-Grin & Klefki-Keyring Gothic Cruiser",
+    "custom_feminine_futanari_femboy": "Cool Feminine Pok\u00e9mon-Themed Aero Cruiser (Espeon/Sylveon Pearl-Rose & Gold)",
+    "custom_male": "Cool Masculine Pok\u00e9mon-Themed Sport Bike (Lucario/Charizard-X Obsidian, Cobalt & Crimson)"
+  },
+  "passenger_pose_matrix": {
+    "riley_behind_tasha": {
+      "intimacy": "HIGHEST_CANON",
+      "pose": "Cuddles Tasha close from behind, arms wrapped warmly around waist, leaning against back."
+    },
+    "tasha_behind_riley": {
+      "intimacy": "HIGHEST_CANON",
+      "pose": "Holds Riley close into her from behind with protective loving embrace."
+    },
+    "riley_behind_futanari": {
+      "intimacy": "CLOSE",
+      "pose": "Wraps arms around the Futanari trainer and leans into them."
+    },
+    "riley_behind_male": {
+      "intimacy": "FRIENDLY",
+      "pose": "Places hands on the shoulders of the Male trainer."
+    },
+    "riley_behind_female": {
+      "intimacy": "FRIENDLY",
+      "pose": "Light supportive hold on waist/shoulders."
+    },
+    "riley_behind_femboy": {
+      "intimacy": "AFFECTIONATE",
+      "pose": "Places hands gently on the waist of the Femboy trainer."
+    },
+    "tasha_behind_male": {
+      "intimacy": "NEUTRAL",
+      "pose": "Uses rear passenger grip bars close to her."
+    },
+    "tasha_behind_female": {
+      "intimacy": "CLOSE",
+      "pose": "Wraps her arms around the Female trainer's waist."
+    },
+    "tasha_behind_femboy": {
+      "intimacy": "AFFECTIONATE",
+      "pose": "Leans into him with one hand on his waist and the other wrapped around his stomach."
+    },
+    "tasha_behind_futanari": {
+      "intimacy": "CLOSE",
+      "pose": "Wraps her arms securely around the Futanari trainer's waist."
+    },
+    "custom_behind_any": {
+      "intimacy": "STANDARD",
+      "pose": "Standard rear passenger grip-bar hold."
+    }
+  },
+  "official_movement_physics": {
+    "crouch_sneak": {
+      "tiles_per_sec": 2.2,
+      "speed_mult": 0.55,
+      "noise_level": 0.0,
+      "detection_mult": 0.35,
+      "source": "Pokemon Legends: Arceus stealth crouch"
+    },
+    "walk": {
+      "tiles_per_sec": 4.0,
+      "speed_mult": 1.0,
+      "noise_level": 0.45,
+      "detection_mult": 1.0,
+      "source": "Mainline Gen III-VI base walk speed"
+    },
+    "running_shoes": {
+      "tiles_per_sec": 8.0,
+      "speed_mult": 2.0,
+      "noise_level": 0.85,
+      "detection_mult": 1.45,
+      "auto_run_toggle": true,
+      "source": "Bulbapedia Running Shoes (~2x walk, 8 steps/sec)"
+    },
+    "bike_acro": {
+      "tiles_per_sec": 10.67,
+      "speed_mult": 2.67,
+      "noise_level": 1.0,
+      "detection_mult": 1.75,
+      "abilities": [
+        "bunny_hop",
+        "narrow_rails"
+      ],
+      "source": "Bulbapedia Acro/Standard Bike (10.67 steps/sec)"
+    },
+    "bike_mach": {
+      "tiles_per_sec": 16.0,
+      "speed_mult": 4.0,
+      "noise_level": 1.0,
+      "detection_mult": 1.9,
+      "abilities": [
+        "cracked_tiles",
+        "muddy_slopes",
+        "collision_speed_reset"
+      ],
+      "source": "Bulbapedia Mach Bike (15-16 steps/sec)"
+    }
+  }
+}

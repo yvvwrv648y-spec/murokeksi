@@ -1,0 +1,1629 @@
+{
+ "difficulty_policy": "MAX_DIFFICULTY_6_POKEMON_STANDARD",
+ "gyms_and_coronation": [
+  {
+   "id": "kanto_gym_1_brock",
+   "name": "Gym Leader Brock",
+   "badge": "Boulder Badge",
+   "strategy": "Sandstorm & Entry Hazard Rock Wall",
+   "party": [
+    {
+     "species": "geodude",
+     "lv": 12,
+     "ability": "Sturdy",
+     "moves": [
+      "Stealth Rock",
+      "Rock Tomb",
+      "Bulldoze",
+      "Defense Curl"
+     ]
+    },
+    {
+     "species": "aron",
+     "lv": 12,
+     "ability": "Rock Head",
+     "moves": [
+      "Metal Claw",
+      "Rock Tomb",
+      "Iron Defense",
+      "Headbutt"
+     ]
+    },
+    {
+     "species": "rolycoly",
+     "lv": 13,
+     "ability": "Steam Engine",
+     "moves": [
+      "Rapid Spin",
+      "Smack Down",
+      "Incinerate",
+      "Ancient Power"
+     ]
+    },
+    {
+     "species": "rhyhorn",
+     "lv": 13,
+     "ability": "Lightning Rod",
+     "moves": [
+      "Horn Attack",
+      "Bulldoze",
+      "Rock Blast",
+      "Scary Face"
+     ]
+    },
+    {
+     "species": "kabuto",
+     "lv": 13,
+     "ability": "Swift Swim",
+     "moves": [
+      "Aqua Jet",
+      "Rock Tomb",
+      "Absorb",
+      "Leer"
+     ]
+    },
+    {
+     "species": "onix",
+     "lv": 14,
+     "ability": "Sturdy",
+     "moves": [
+      "Rock Tomb",
+      "Bind",
+      "Dragon Breath",
+      "Sandstorm"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kanto_gym_2_misty",
+   "name": "Gym Leader Misty",
+   "badge": "Cascade Badge",
+   "strategy": "Rain Offense & Pivot Control",
+   "party": [
+    {
+     "species": "psyduck",
+     "lv": 19,
+     "ability": "Cloud Nine",
+     "moves": [
+      "Water Pulse",
+      "Confusion",
+      "Disable",
+      "Screech"
+     ]
+    },
+    {
+     "species": "wooper",
+     "lv": 19,
+     "ability": "Water Absorb",
+     "moves": [
+      "Mud Shot",
+      "Water Pulse",
+      "Yawn",
+      "Amnesia"
+     ]
+    },
+    {
+     "species": "mareanie",
+     "lv": 20,
+     "ability": "Regenerator",
+     "moves": [
+      "Toxic Spikes",
+      "Venoshock",
+      "Liquidation",
+      "Recover"
+     ]
+    },
+    {
+     "species": "finizen",
+     "lv": 20,
+     "ability": "Water Veil",
+     "moves": [
+      "Flip Turn",
+      "Aqua Jet",
+      "Charm",
+      "Supersonic"
+     ]
+    },
+    {
+     "species": "gyarados",
+     "lv": 20,
+     "ability": "Intimidate",
+     "moves": [
+      "Waterfall",
+      "Bite",
+      "Ice Fang",
+      "Dragon Dance"
+     ]
+    },
+    {
+     "species": "starmie",
+     "lv": 21,
+     "ability": "Natural Cure",
+     "moves": [
+      "Scald",
+      "Psybeam",
+      "Rapid Spin",
+      "Recover"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kanto_gym_3_surge",
+   "name": "Gym Leader Lt. Surge",
+   "badge": "Thunder Badge",
+   "strategy": "Volt-Turn Terrain Momentum",
+   "party": [
+    {
+     "species": "voltorb",
+     "lv": 22,
+     "ability": "Static",
+     "moves": [
+      "Volt Switch",
+      "Sonic Boom",
+      "Light Screen",
+      "Taunt"
+     ]
+    },
+    {
+     "species": "joltik",
+     "lv": 22,
+     "ability": "Compound Eyes",
+     "moves": [
+      "Sticky Web",
+      "Electroweb",
+      "Bug Bite",
+      "Energy Ball"
+     ]
+    },
+    {
+     "species": "shinx",
+     "lv": 23,
+     "ability": "Intimidate",
+     "moves": [
+      "Spark",
+      "Bite",
+      "Thunder Wave",
+      "Baby-Doll Eyes"
+     ]
+    },
+    {
+     "species": "mareep",
+     "lv": 23,
+     "ability": "Static",
+     "moves": [
+      "Discharge",
+      "Power Gem",
+      "Cotton Guard",
+      "Thunder Wave"
+     ]
+    },
+    {
+     "species": "electabuzz",
+     "lv": 23,
+     "ability": "Vital Spirit",
+     "moves": [
+      "Thunder Punch",
+      "Low Kick",
+      "Quick Attack",
+      "Light Screen"
+     ]
+    },
+    {
+     "species": "raichu",
+     "lv": 24,
+     "ability": "Lightning Rod",
+     "moves": [
+      "Thunderbolt",
+      "Surf",
+      "Nasty Plot",
+      "Volt Switch"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kanto_gym_4_erika",
+   "name": "Gym Leader Erika",
+   "badge": "Rainbow Badge",
+   "strategy": "Sun & Status Attrition",
+   "party": [
+    {
+     "species": "tangela",
+     "lv": 27,
+     "ability": "Regenerator",
+     "moves": [
+      "Giga Drain",
+      "Sleep Powder",
+      "Knock Off",
+      "Leech Seed"
+     ]
+    },
+    {
+     "species": "smoliv",
+     "lv": 27,
+     "ability": "Harvest",
+     "moves": [
+      "Terrain Pulse",
+      "Earth Power",
+      "Leech Seed",
+      "Synthesis"
+     ]
+    },
+    {
+     "species": "victreebel",
+     "lv": 28,
+     "ability": "Chlorophyll",
+     "moves": [
+      "Leaf Blade",
+      "Sludge Bomb",
+      "Sucker Punch",
+      "Sunny Day"
+     ]
+    },
+    {
+     "species": "ivysaur",
+     "lv": 28,
+     "ability": "Chlorophyll",
+     "moves": [
+      "Energy Ball",
+      "Sludge Bomb",
+      "Leech Seed",
+      "Synthesis"
+     ]
+    },
+    {
+     "species": "leafeon",
+     "lv": 28,
+     "ability": "Chlorophyll",
+     "moves": [
+      "Leaf Blade",
+      "X-Scissor",
+      "Quick Attack",
+      "Swords Dance"
+     ]
+    },
+    {
+     "species": "vileplume",
+     "lv": 29,
+     "ability": "Effect Spore",
+     "moves": [
+      "Giga Drain",
+      "Sludge Bomb",
+      "Strength Sap",
+      "Moonblast"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kanto_gym_5_koga",
+   "name": "Gym Leader Koga",
+   "badge": "Soul Badge",
+   "strategy": "Toxic Spikes & Stall-Sweep",
+   "party": [
+    {
+     "species": "crobat",
+     "lv": 41,
+     "ability": "Infiltrator",
+     "moves": [
+      "Cross Poison",
+      "Brave Bird",
+      "U-turn",
+      "Taunt"
+     ]
+    },
+    {
+     "species": "toxapex",
+     "lv": 41,
+     "ability": "Regenerator",
+     "moves": [
+      "Toxic Spikes",
+      "Baneful Bunker",
+      "Scald",
+      "Recover"
+     ]
+    },
+    {
+     "species": "muk",
+     "lv": 42,
+     "ability": "Poison Touch",
+     "moves": [
+      "Poison Jab",
+      "Knock Off",
+      "Shadow Sneak",
+      "Minimize"
+     ]
+    },
+    {
+     "species": "venomoth",
+     "lv": 42,
+     "ability": "Tinted Lens",
+     "moves": [
+      "Quiver Dance",
+      "Bug Buzz",
+      "Sludge Bomb",
+      "Sleep Powder"
+     ]
+    },
+    {
+     "species": "nidoking",
+     "lv": 42,
+     "ability": "Sheer Force",
+     "moves": [
+      "Earth Power",
+      "Sludge Wave",
+      "Ice Beam",
+      "Thunderbolt"
+     ]
+    },
+    {
+     "species": "weezing",
+     "lv": 43,
+     "ability": "Levitate",
+     "moves": [
+      "Sludge Bomb",
+      "Will-O-Wisp",
+      "Pain Split",
+      "Flamethrower"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kanto_gym_6_sabrina",
+   "name": "Gym Leader Sabrina",
+   "badge": "Marsh Badge",
+   "strategy": "Psychic Terrain & Trick Room Pivot",
+   "party": [
+    {
+     "species": "espeon",
+     "lv": 41,
+     "ability": "Magic Bounce",
+     "moves": [
+      "Psychic",
+      "Dazzling Gleam",
+      "Shadow Ball",
+      "Morning Sun"
+     ]
+    },
+    {
+     "species": "gardevoir",
+     "lv": 41,
+     "ability": "Trace",
+     "moves": [
+      "Moonblast",
+      "Psychic",
+      "Mystical Fire",
+      "Calm Mind"
+     ]
+    },
+    {
+     "species": "slowbro",
+     "lv": 42,
+     "ability": "Regenerator",
+     "moves": [
+      "Scald",
+      "Future Sight",
+      "Slack Off",
+      "Teleport"
+     ]
+    },
+    {
+     "species": "mr_mime",
+     "lv": 42,
+     "ability": "Filter",
+     "moves": [
+      "Reflect",
+      "Light Screen",
+      "Dazzling Gleam",
+      "Psychic"
+     ]
+    },
+    {
+     "species": "hypno",
+     "lv": 42,
+     "ability": "Insomnia",
+     "moves": [
+      "Hypnosis",
+      "Psychic",
+      "Focus Blast",
+      "Nasty Plot"
+     ]
+    },
+    {
+     "species": "alakazam",
+     "lv": 43,
+     "ability": "Magic Guard",
+     "moves": [
+      "Psychic",
+      "Focus Blast",
+      "Shadow Ball",
+      "Recover"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kanto_gym_7_blaine",
+   "name": "Gym Leader Blaine",
+   "badge": "Volcano Badge",
+   "strategy": "Drought Sun Hyper-Offense",
+   "party": [
+    {
+     "species": "ninetales",
+     "lv": 45,
+     "ability": "Drought",
+     "moves": [
+      "Flamethrower",
+      "Solar Beam",
+      "Will-O-Wisp",
+      "Nasty Plot"
+     ]
+    },
+    {
+     "species": "coalossal",
+     "lv": 45,
+     "ability": "Steam Engine",
+     "moves": [
+      "Heat Crash",
+      "Rock Blast",
+      "Rapid Spin",
+      "Stealth Rock"
+     ]
+    },
+    {
+     "species": "chandelure",
+     "lv": 46,
+     "ability": "Flash Fire",
+     "moves": [
+      "Shadow Ball",
+      "Fire Blast",
+      "Energy Ball",
+      "Trick"
+     ]
+    },
+    {
+     "species": "rapidash",
+     "lv": 46,
+     "ability": "Flash Fire",
+     "moves": [
+      "Flare Blitz",
+      "High Horsepower",
+      "Wild Charge",
+      "Morning Sun"
+     ]
+    },
+    {
+     "species": "magmortar",
+     "lv": 46,
+     "ability": "Flame Body",
+     "moves": [
+      "Fire Blast",
+      "Thunderbolt",
+      "Focus Blast",
+      "Scorching Sands"
+     ]
+    },
+    {
+     "species": "arcanine",
+     "lv": 47,
+     "ability": "Intimidate",
+     "moves": [
+      "Flare Blitz",
+      "Extreme Speed",
+      "Close Combat",
+      "Morning Sun"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kanto_gym_8_giovanni",
+   "name": "Gym Leader Giovanni",
+   "badge": "Earth Badge",
+   "strategy": "Sandstorm Heavy Breaker Core",
+   "party": [
+    {
+     "species": "dugtrio",
+     "lv": 48,
+     "ability": "Arena Trap",
+     "moves": [
+      "Earthquake",
+      "Stone Edge",
+      "Sucker Punch",
+      "Stealth Rock"
+     ]
+    },
+    {
+     "species": "aggron",
+     "lv": 48,
+     "ability": "Sturdy",
+     "moves": [
+      "Heavy Slam",
+      "Head Smash",
+      "Earthquake",
+      "Iron Defense"
+     ]
+    },
+    {
+     "species": "nidoking",
+     "lv": 49,
+     "ability": "Sheer Force",
+     "moves": [
+      "Earth Power",
+      "Sludge Wave",
+      "Ice Beam",
+      "Flamethrower"
+     ]
+    },
+    {
+     "species": "nidoqueen",
+     "lv": 49,
+     "ability": "Sheer Force",
+     "moves": [
+      "Earth Power",
+      "Toxic Spikes",
+      "Ice Beam",
+      "Stealth Rock"
+     ]
+    },
+    {
+     "species": "kangaskhan",
+     "lv": 49,
+     "ability": "Scrappy",
+     "moves": [
+      "Fake Out",
+      "Double-Edge",
+      "Earthquake",
+      "Sucker Punch"
+     ]
+    },
+    {
+     "species": "rhydon",
+     "lv": 50,
+     "ability": "Lightning Rod",
+     "moves": [
+      "Earthquake",
+      "Stone Edge",
+      "Megahorn",
+      "Swords Dance"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "world_coronation_finale_leon",
+   "name": "Monarch Leon (World Coronation Finale)",
+   "badge": "World Coronation Crown",
+   "strategy": "All-Region Championship Balanced Hyper-Offense",
+   "party": [
+    {
+     "species": "dragapult",
+     "lv": 85,
+     "ability": "Infiltrator",
+     "moves": [
+      "Dragon Darts",
+      "Phantom Force",
+      "Flamethrower",
+      "U-turn"
+     ]
+    },
+    {
+     "species": "aegislash",
+     "lv": 85,
+     "ability": "Stance Change",
+     "moves": [
+      "King's Shield",
+      "Shadow Ball",
+      "Flash Cannon",
+      "Sacred Sword"
+     ]
+    },
+    {
+     "species": "haxorus",
+     "lv": 86,
+     "ability": "Mold Breaker",
+     "moves": [
+      "Outrage",
+      "Earthquake",
+      "Iron Tail",
+      "Dragon Dance"
+     ]
+    },
+    {
+     "species": "mr_rime",
+     "lv": 86,
+     "ability": "Screen Cleaner",
+     "moves": [
+      "Freeze-Dry",
+      "Psychic",
+      "Rapid Spin",
+      "Teeter Dance"
+     ]
+    },
+    {
+     "species": "rillaboom",
+     "lv": 87,
+     "ability": "Grassy Surge",
+     "moves": [
+      "Grassy Glide",
+      "Drum Beating",
+      "High Horsepower",
+      "U-turn"
+     ]
+    },
+    {
+     "species": "charizard",
+     "lv": 90,
+     "ability": "Solar Power",
+     "moves": [
+      "Fire Blast",
+      "Air Slash",
+      "Solar Beam",
+      "Ancient Power"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_gym_1_falkner",
+   "name": "Gym Leader Falkner",
+   "badge": "Zephyr Badge",
+   "strategy": "High-Flying Opening Ace",
+   "party": [
+    {
+     "species": "pidgey",
+     "lv": 7,
+     "ability": "Keen Eye",
+     "moves": [
+      "Tackle",
+      "Sand Attack",
+      "Gust",
+      "Quick Attack"
+     ]
+    },
+    {
+     "species": "spearow",
+     "lv": 8,
+     "ability": "Keen Eye",
+     "moves": [
+      "Peck",
+      "Fury Attack",
+      "Leer",
+      "Aerial Ace"
+     ]
+    },
+    {
+     "species": "hoothoot",
+     "lv": 8,
+     "ability": "Insomnia",
+     "moves": [
+      "Peck",
+      "Hypnosis",
+      "Reflect",
+      "Uproar"
+     ]
+    },
+    {
+     "species": "doduo",
+     "lv": 8,
+     "ability": "Run Away",
+     "moves": [
+      "Peck",
+      "Quick Attack",
+      "Fury Attack",
+      "Tri Attack"
+     ]
+    },
+    {
+     "species": "murkrow",
+     "lv": 9,
+     "ability": "Insomnia",
+     "moves": [
+      "Peck",
+      "Astonish",
+      "Pursuit",
+      "Haze"
+     ]
+    },
+    {
+     "species": "pidgeotto",
+     "lv": 9,
+     "ability": "Keen Eye",
+     "moves": [
+      "Gust",
+      "Quick Attack",
+      "Mud-Slap",
+      "Whirlwind"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_gym_2_bugsy",
+   "name": "Gym Leader Bugsy",
+   "badge": "Hive Badge",
+   "strategy": "Chitin Swarm Pressure",
+   "party": [
+    {
+     "species": "metapod",
+     "lv": 14,
+     "ability": "Shed Skin",
+     "moves": [
+      "Harden",
+      "String Shot",
+      "Tackle",
+      "Bug Bite"
+     ]
+    },
+    {
+     "species": "kakuna",
+     "lv": 14,
+     "ability": "Shed Skin",
+     "moves": [
+      "Harden",
+      "Poison Sting",
+      "String Shot",
+      "Bug Bite"
+     ]
+    },
+    {
+     "species": "paras",
+     "lv": 14,
+     "ability": "Effect Spore",
+     "moves": [
+      "Scratch",
+      "Stun Spore",
+      "Poison Powder",
+      "Leech Life"
+     ]
+    },
+    {
+     "species": "beedrill",
+     "lv": 15,
+     "ability": "Swarm",
+     "moves": [
+      "Twineedle",
+      "Pin Missile",
+      "Fury Attack",
+      "Focus Energy"
+     ]
+    },
+    {
+     "species": "butterfree",
+     "lv": 15,
+     "ability": "Compound Eyes",
+     "moves": [
+      "Sleep Powder",
+      "Stun Spore",
+      "Gust",
+      "Psybeam"
+     ]
+    },
+    {
+     "species": "scyther",
+     "lv": 16,
+     "ability": "Technician",
+     "moves": [
+      "Fury Cutter",
+      "Quick Attack",
+      "Aerial Ace",
+      "Pursuit"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_gym_3_whitney",
+   "name": "Gym Leader Whitney",
+   "badge": "Plain Badge",
+   "strategy": "Rollout Snowball",
+   "party": [
+    {
+     "species": "clefairy",
+     "lv": 18,
+     "ability": "Magic Guard",
+     "moves": [
+      "Pound",
+      "Sing",
+      "Doubleslap",
+      "Metronome"
+     ]
+    },
+    {
+     "species": "jigglypuff",
+     "lv": 18,
+     "ability": "Cute Charm",
+     "moves": [
+      "Sing",
+      "Pound",
+      "Disable",
+      "Rollout"
+     ]
+    },
+    {
+     "species": "snubbull",
+     "lv": 19,
+     "ability": "Intimidate",
+     "moves": [
+      "Tackle",
+      "Scary Face",
+      "Bite",
+      "Charm"
+     ]
+    },
+    {
+     "species": "teddiursa",
+     "lv": 19,
+     "ability": "Quick Feet",
+     "moves": [
+      "Scratch",
+      "Leer",
+      "Lick",
+      "Fury Swipes"
+     ]
+    },
+    {
+     "species": "aipom",
+     "lv": 19,
+     "ability": "Run Away",
+     "moves": [
+      "Scratch",
+      "Tail Whip",
+      "Sand Attack",
+      "Fury Swipes"
+     ]
+    },
+    {
+     "species": "miltank",
+     "lv": 20,
+     "ability": "Scrappy",
+     "moves": [
+      "Rollout",
+      "Milk Drink",
+      "Stomp",
+      "Attract"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_gym_4_morty",
+   "name": "Gym Leader Morty",
+   "badge": "Fog Badge",
+   "strategy": "Hypnosis Ghost Chain",
+   "party": [
+    {
+     "species": "gastly",
+     "lv": 21,
+     "ability": "Levitate",
+     "moves": [
+      "Hypnosis",
+      "Lick",
+      "Spite",
+      "Mean Look"
+     ]
+    },
+    {
+     "species": "haunter",
+     "lv": 21,
+     "ability": "Levitate",
+     "moves": [
+      "Spite",
+      "Mean Look",
+      "Curse",
+      "Night Shade"
+     ]
+    },
+    {
+     "species": "haunter",
+     "lv": 23,
+     "ability": "Levitate",
+     "moves": [
+      "Hypnosis",
+      "Shadow Punch",
+      "Confuse Ray",
+      "Night Shade"
+     ]
+    },
+    {
+     "species": "misdreavus",
+     "lv": 23,
+     "ability": "Levitate",
+     "moves": [
+      "Psybeam",
+      "Confuse Ray",
+      "Pain Split",
+      "Shadow Ball"
+     ]
+    },
+    {
+     "species": "sableye",
+     "lv": 22,
+     "ability": "Keen Eye",
+     "moves": [
+      "Shadow Sneak",
+      "Fake Out",
+      "Night Shade",
+      "Feint Attack"
+     ]
+    },
+    {
+     "species": "gengar",
+     "lv": 25,
+     "ability": "Cursed Body",
+     "moves": [
+      "Shadow Ball",
+      "Hypnosis",
+      "Dream Eater",
+      "Curse"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_gym_5_chuck",
+   "name": "Gym Leader Chuck",
+   "badge": "Storm Badge",
+   "strategy": "Raging Waterfall Brawlers",
+   "party": [
+    {
+     "species": "machoke",
+     "lv": 28,
+     "ability": "Guts",
+     "moves": [
+      "Vital Throw",
+      "Revenge",
+      "Bulk Up",
+      "Rock Tomb"
+     ]
+    },
+    {
+     "species": "hitmonlee",
+     "lv": 28,
+     "ability": "Limber",
+     "moves": [
+      "High Jump Kick",
+      "Meditate",
+      "Blaze Kick",
+      "Foresight"
+     ]
+    },
+    {
+     "species": "hitmonchan",
+     "lv": 28,
+     "ability": "Iron Fist",
+     "moves": [
+      "Mach Punch",
+      "Thunder Punch",
+      "Ice Punch",
+      "Fire Punch"
+     ]
+    },
+    {
+     "species": "heracross",
+     "lv": 29,
+     "ability": "Guts",
+     "moves": [
+      "Megahorn",
+      "Counter",
+      "Endure",
+      "Aerial Ace"
+     ]
+    },
+    {
+     "species": "primeape",
+     "lv": 27,
+     "ability": "Vital Spirit",
+     "moves": [
+      "Cross Chop",
+      "Focus Energy",
+      "Rock Slide",
+      "Seismic Toss"
+     ]
+    },
+    {
+     "species": "poliwrath",
+     "lv": 30,
+     "ability": "Water Absorb",
+     "moves": [
+      "DynamicPunch",
+      "Hypnosis",
+      "Surf",
+      "Bulk Up"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_gym_6_jasmine",
+   "name": "Gym Leader Jasmine",
+   "badge": "Mineral Badge",
+   "strategy": "Steel Wall of the Harbor",
+   "party": [
+    {
+     "species": "magnemite",
+     "lv": 30,
+     "ability": "Magnet Pull",
+     "moves": [
+      "Thunder Wave",
+      "Supersonic",
+      "SonicBoom",
+      "Thunderbolt"
+     ]
+    },
+    {
+     "species": "magneton",
+     "lv": 32,
+     "ability": "Magnet Pull",
+     "moves": [
+      "Tri Attack",
+      "Thunder Wave",
+      "Flash Cannon",
+      "Thunderbolt"
+     ]
+    },
+    {
+     "species": "forretress",
+     "lv": 32,
+     "ability": "Sturdy",
+     "moves": [
+      "Spikes",
+      "Explosion",
+      "Rapid Spin",
+      "Bug Bite"
+     ]
+    },
+    {
+     "species": "skarmory",
+     "lv": 33,
+     "ability": "Sturdy",
+     "moves": [
+      "Steel Wing",
+      "Air Cutter",
+      "Sand Attack",
+      "Swift"
+     ]
+    },
+    {
+     "species": "scizor",
+     "lv": 34,
+     "ability": "Technician",
+     "moves": [
+      "Bullet Punch",
+      "Metal Claw",
+      "Quick Attack",
+      "Swords Dance"
+     ]
+    },
+    {
+     "species": "steelix",
+     "lv": 35,
+     "ability": "Sturdy",
+     "moves": [
+      "Iron Tail",
+      "Rock Slide",
+      "Sandstorm",
+      "DragonBreath"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_gym_7_pryce",
+   "name": "Gym Leader Pryce",
+   "badge": "Glacier Badge",
+   "strategy": "Winter Trainer Freeze Lock",
+   "party": [
+    {
+     "species": "seel",
+     "lv": 27,
+     "ability": "Thick Fat",
+     "moves": [
+      "Headbutt",
+      "Icy Wind",
+      "Encore",
+      "Aurora Beam"
+     ]
+    },
+    {
+     "species": "sneasel",
+     "lv": 29,
+     "ability": "Inner Focus",
+     "moves": [
+      "Ice Shard",
+      "Feint Attack",
+      "Quick Attack",
+      "Screech"
+     ]
+    },
+    {
+     "species": "delibird",
+     "lv": 28,
+     "ability": "Vital Spirit",
+     "moves": [
+      "Present",
+      "Aerial Ace",
+      "Ice Shard",
+      "Drill Peck"
+     ]
+    },
+    {
+     "species": "dewgong",
+     "lv": 29,
+     "ability": "Thick Fat",
+     "moves": [
+      "Aurora Beam",
+      "Aqua Jet",
+      "Rest",
+      "Sleep Talk"
+     ]
+    },
+    {
+     "species": "cloyster",
+     "lv": 30,
+     "ability": "Skill Link",
+     "moves": [
+      "Icicle Spear",
+      "Spike Cannon",
+      "Aurora Beam",
+      "Protect"
+     ]
+    },
+    {
+     "species": "piloswine",
+     "lv": 31,
+     "ability": "Oblivious",
+     "moves": [
+      "Blizzard",
+      "Earthquake",
+      "Icy Wind",
+      "Amnesia"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_gym_8_clair",
+   "name": "Gym Leader Clair",
+   "badge": "Rising Badge",
+   "strategy": "Dragon's Den Royal Line",
+   "party": [
+    {
+     "species": "dragonair",
+     "lv": 37,
+     "ability": "Shed Skin",
+     "moves": [
+      "Dragon Pulse",
+      "Thunder Wave",
+      "Slam",
+      "Aqua Tail"
+     ]
+    },
+    {
+     "species": "dragonair",
+     "lv": 37,
+     "ability": "Shed Skin",
+     "moves": [
+      "Dragon Pulse",
+      "Fire Blast",
+      "Thunder Wave",
+      "Slam"
+     ]
+    },
+    {
+     "species": "dragonair",
+     "lv": 37,
+     "ability": "Shed Skin",
+     "moves": [
+      "Dragon Pulse",
+      "Ice Beam",
+      "Agility",
+      "Aqua Tail"
+     ]
+    },
+    {
+     "species": "gyarados",
+     "lv": 38,
+     "ability": "Intimidate",
+     "moves": [
+      "Dragon Dance",
+      "Waterfall",
+      "Crunch",
+      "Ice Fang"
+     ]
+    },
+    {
+     "species": "aerodactyl",
+     "lv": 38,
+     "ability": "Rock Head",
+     "moves": [
+      "Dragon Claw",
+      "Rock Slide",
+      "Crunch",
+      "Fly"
+     ]
+    },
+    {
+     "species": "kingdra",
+     "lv": 40,
+     "ability": "Swift Swim",
+     "moves": [
+      "Dragon Pulse",
+      "Hydro Pump",
+      "Smokescreen",
+      "Agility"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_elite_1_will",
+   "name": "Elite Four Will",
+   "strategy": "Psychic Veil Control",
+   "party": [
+    {
+     "species": "alakazam",
+     "lv": 40,
+     "ability": "Synchronize",
+     "moves": [
+      "Psychic",
+      "Recover",
+      "Reflect",
+      "Shadow Ball"
+     ]
+    },
+    {
+     "species": "jynx",
+     "lv": 41,
+     "ability": "Oblivious",
+     "moves": [
+      "Lovely Kiss",
+      "Ice Beam",
+      "Psychic",
+      "Fake Out"
+     ]
+    },
+    {
+     "species": "exeggutor",
+     "lv": 41,
+     "ability": "Chlorophyll",
+     "moves": [
+      "Psychic",
+      "Sleep Powder",
+      "Leech Seed",
+      "Giga Drain"
+     ]
+    },
+    {
+     "species": "slowbro",
+     "lv": 41,
+     "ability": "Own Tempo",
+     "moves": [
+      "Surf",
+      "Psychic",
+      "Amnesia",
+      "Ice Beam"
+     ]
+    },
+    {
+     "species": "xatu",
+     "lv": 40,
+     "ability": "Synchronize",
+     "moves": [
+      "Psychic",
+      "Night Shade",
+      "Quick Attack",
+      "Confuse Ray"
+     ]
+    },
+    {
+     "species": "xatu",
+     "lv": 42,
+     "ability": "Synchronize",
+     "moves": [
+      "Psychic",
+      "Drill Peck",
+      "Night Shade",
+      "Steel Wing"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_elite_2_koga",
+   "name": "Elite Four Koga",
+   "strategy": "Toxic Ninja Attrition",
+   "party": [
+    {
+     "species": "ariados",
+     "lv": 40,
+     "ability": "Swarm",
+     "moves": [
+      "Spider Web",
+      "Baton Pass",
+      "Toxic",
+      "Giga Drain"
+     ]
+    },
+    {
+     "species": "venomoth",
+     "lv": 41,
+     "ability": "Shield Dust",
+     "moves": [
+      "Sleep Powder",
+      "Psychic",
+      "Stun Spore",
+      "Signal Beam"
+     ]
+    },
+    {
+     "species": "weezing",
+     "lv": 41,
+     "ability": "Levitate",
+     "moves": [
+      "Sludge Bomb",
+      "Explosion",
+      "Will-O-Wisp",
+      "Flamethrower"
+     ]
+    },
+    {
+     "species": "muk",
+     "lv": 42,
+     "ability": "Stench",
+     "moves": [
+      "Sludge Bomb",
+      "Minimize",
+      "Toxic",
+      "Gunk Shot"
+     ]
+    },
+    {
+     "species": "forretress",
+     "lv": 43,
+     "ability": "Sturdy",
+     "moves": [
+      "Spikes",
+      "Rapid Spin",
+      "Explosion",
+      "Toxic"
+     ]
+    },
+    {
+     "species": "crobat",
+     "lv": 44,
+     "ability": "Inner Focus",
+     "moves": [
+      "Wing Attack",
+      "Toxic",
+      "Confuse Ray",
+      "Bite"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_elite_3_bruno",
+   "name": "Elite Four Bruno",
+   "strategy": "Living Mountain Fists",
+   "party": [
+    {
+     "species": "hitmontop",
+     "lv": 42,
+     "ability": "Intimidate",
+     "moves": [
+      "Triple Kick",
+      "Rapid Spin",
+      "Counter",
+      "Dig"
+     ]
+    },
+    {
+     "species": "hitmonlee",
+     "lv": 42,
+     "ability": "Limber",
+     "moves": [
+      "High Jump Kick",
+      "Meditate",
+      "Blaze Kick",
+      "Mega Kick"
+     ]
+    },
+    {
+     "species": "hitmonchan",
+     "lv": 42,
+     "ability": "Iron Fist",
+     "moves": [
+      "Mach Punch",
+      "Ice Punch",
+      "Thunder Punch",
+      "Fire Punch"
+     ]
+    },
+    {
+     "species": "primeape",
+     "lv": 42,
+     "ability": "Vital Spirit",
+     "moves": [
+      "Cross Chop",
+      "Rock Slide",
+      "Focus Energy",
+      "Swagger"
+     ]
+    },
+    {
+     "species": "onix",
+     "lv": 43,
+     "ability": "Rock Head",
+     "moves": [
+      "Earthquake",
+      "Rock Slide",
+      "Sandstorm",
+      "Iron Tail"
+     ]
+    },
+    {
+     "species": "machamp",
+     "lv": 46,
+     "ability": "Guts",
+     "moves": [
+      "Cross Chop",
+      "Earthquake",
+      "Rock Slide",
+      "Vital Throw"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_elite_4_karen",
+   "name": "Elite Four Karen",
+   "strategy": "Dark Devotion",
+   "party": [
+    {
+     "species": "umbreon",
+     "lv": 42,
+     "ability": "Synchronize",
+     "moves": [
+      "Feint Attack",
+      "Mean Look",
+      "Moonlight",
+      "Confuse Ray"
+     ]
+    },
+    {
+     "species": "vileplume",
+     "lv": 42,
+     "ability": "Chlorophyll",
+     "moves": [
+      "Petal Dance",
+      "Sleep Powder",
+      "Sludge Bomb",
+      "Moonlight"
+     ]
+    },
+    {
+     "species": "sneasel",
+     "lv": 43,
+     "ability": "Inner Focus",
+     "moves": [
+      "Ice Shard",
+      "Feint Attack",
+      "Quick Attack",
+      "Screech"
+     ]
+    },
+    {
+     "species": "murkrow",
+     "lv": 44,
+     "ability": "Insomnia",
+     "moves": [
+      "Drill Peck",
+      "Feint Attack",
+      "Haze",
+      "Steel Wing"
+     ]
+    },
+    {
+     "species": "gengar",
+     "lv": 45,
+     "ability": "Cursed Body",
+     "moves": [
+      "Shadow Ball",
+      "Hypnosis",
+      "Dream Eater",
+      "Destiny Bond"
+     ]
+    },
+    {
+     "species": "houndoom",
+     "lv": 47,
+     "ability": "Flash Fire",
+     "moves": [
+      "Flamethrower",
+      "Crunch",
+      "Nasty Plot",
+      "Dark Pulse"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "johto_champion_lance",
+   "name": "Champion Lance",
+   "badge": "Johto Champion",
+   "strategy": "Dragon Master of Indigo",
+   "party": [
+    {
+     "species": "gyarados",
+     "lv": 44,
+     "ability": "Intimidate",
+     "moves": [
+      "Dragon Dance",
+      "Waterfall",
+      "Ice Fang",
+      "Hyper Beam"
+     ]
+    },
+    {
+     "species": "dragonite",
+     "lv": 47,
+     "ability": "Inner Focus",
+     "moves": [
+      "Outrage",
+      "Fly",
+      "Thunder Wave",
+      "Hyper Beam"
+     ]
+    },
+    {
+     "species": "dragonite",
+     "lv": 47,
+     "ability": "Inner Focus",
+     "moves": [
+      "Dragon Rush",
+      "Fire Blast",
+      "Ice Beam",
+      "Hyper Beam"
+     ]
+    },
+    {
+     "species": "charizard",
+     "lv": 46,
+     "ability": "Blaze",
+     "moves": [
+      "Flamethrower",
+      "Dragon Claw",
+      "Air Slash",
+      "Slash"
+     ]
+    },
+    {
+     "species": "aerodactyl",
+     "lv": 46,
+     "ability": "Rock Head",
+     "moves": [
+      "Rock Slide",
+      "Wing Attack",
+      "Crunch",
+      "Hyper Beam"
+     ]
+    },
+    {
+     "species": "dragonite",
+     "lv": 50,
+     "ability": "Inner Focus",
+     "moves": [
+      "Outrage",
+      "Fire Blast",
+      "Blizzard",
+      "Hyper Beam"
+     ]
+    }
+   ]
+  }
+ ]
+}

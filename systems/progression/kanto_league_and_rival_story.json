@@ -1,0 +1,153 @@
+{
+  "anthology_canon_integration": "Unified Kanto Games (RBY/FRLG/LGPE) + Pok\u00e9mon Adventures Manga + Anime + Movies + Spinoffs + Sevii Islands DLC",
+  "branching_rival_and_champion_matrix": {
+    "riley_playthrough": {
+      "primary_rival": "Tasha (6 random encounters across Kanto)",
+      "victory_road_pre_cave_gatekeeper": "Male Trainer (knocked out right before Victory Road cave)",
+      "champion_pool": [
+        "Futanari",
+        "Femboy"
+      ],
+      "runner_up_rule": "Whichever of Futanari or Femboy is NOT the Champion challenges you as the Runner-Up right before the Elite Four."
+    },
+    "tasha_playthrough": {
+      "primary_rival": "Riley (6 random encounters across Kanto)",
+      "victory_road_pre_cave_gatekeeper": "Male Trainer (knocked out right before Victory Road cave)",
+      "champion_pool": [
+        "Futanari",
+        "Femboy"
+      ],
+      "runner_up_rule": "Whichever of Futanari or Femboy is NOT the Champion challenges you as the Runner-Up right before the Elite Four."
+    },
+    "custom_playthrough": {
+      "random_rivals": "Both Riley (3 random encounters -> 3 Exclusive Shiny Moemon Eggs) AND Tasha (3 random encounters -> 3 Exclusive Shiny Pok\u00e9mon Eggs)",
+      "champion_pool": [
+        "Futanari",
+        "Male",
+        "Femboy"
+      ],
+      "runner_up_rule": "Determined by player's choices & first partner pick across Kanto."
+    }
+  },
+  "exclusive_rival_defeat_only_shiny_eggs": {
+    "exclusivity_guarantee": "RIVAL_DEFEAT_ONLY \u2014 Zero wild spawns, zero shop access, impossible to obtain any other way.",
+    "riley_moemon_eggs_mdx": [
+      {
+        "egg_id": "egg_mdx_charmander",
+        "name": "\u2605 Shiny Moemon Charmander Egg",
+        "family": "MDX",
+        "key": "charmander",
+        "gimmicks": [
+          "Mega Charizard X/Y",
+          "G-Max Wildfire"
+        ]
+      },
+      {
+        "egg_id": "egg_mdx_gastly",
+        "name": "\u2605 Shiny Moemon Gastly Egg",
+        "family": "MDX",
+        "key": "pikachu",
+        "gimmicks": [
+          "Mega Gengar",
+          "G-Max Terror"
+        ]
+      },
+      {
+        "egg_id": "egg_mdx_pichu",
+        "name": "\u2605 Shiny Moemon Pichu Egg",
+        "family": "MDX",
+        "key": "pikachu",
+        "gimmicks": [
+          "G-Max Volt Crash",
+          "10,000,000 Volt Thunderbolt Z-Move"
+        ]
+      }
+    ],
+    "tasha_pokemon_eggs_pkdx": [
+      {
+        "egg_id": "egg_pkdx_bulbasaur",
+        "name": "\u2605 Shiny Bulbasaur Egg",
+        "family": "PKDX",
+        "key": "bulbasaur",
+        "gimmicks": [
+          "Mega Venusaur",
+          "G-Max Vine Lash"
+        ]
+      },
+      {
+        "egg_id": "egg_pkdx_squirtle",
+        "name": "\u2605 Shiny Squirtle Egg",
+        "family": "PKDX",
+        "key": "squirtle",
+        "gimmicks": [
+          "Mega Blastoise",
+          "G-Max Cannonade"
+        ]
+      },
+      {
+        "egg_id": "egg_pkdx_eevee",
+        "name": "\u2605 Shiny Eevee Egg",
+        "family": "PKDX",
+        "key": "eevee",
+        "gimmicks": [
+          "G-Max Cuddle",
+          "Extreme Evoboost Z-Move"
+        ]
+      }
+    ]
+  },
+  "kanto_elite_four": [
+    {
+      "id": "e4_lorelei",
+      "name": "Elite Four Lorelei",
+      "specialty": "Ice",
+      "team6": [
+        "Dewgong",
+        "Cloyster",
+        "Slowbro",
+        "Jynx",
+        "Alolan Ninetales",
+        "Lapras (G-Max/Ace)"
+      ]
+    },
+    {
+      "id": "e4_bruno",
+      "name": "Elite Four Bruno",
+      "specialty": "Fighting",
+      "team6": [
+        "Hitmontop",
+        "Hitmonchan",
+        "Hitmonlee",
+        "Steelix (Mega)",
+        "Lucario",
+        "Machamp (G-Max/Ace)"
+      ]
+    },
+    {
+      "id": "e4_agatha",
+      "name": "Elite Four Agatha",
+      "specialty": "Ghost",
+      "team6": [
+        "Crobat",
+        "Chandelure",
+        "Mismagius",
+        "Arbok",
+        "Marowak-Alola",
+        "Gengar (Mega/G-Max Ace)"
+      ]
+    },
+    {
+      "id": "e4_lance",
+      "name": "Elite Four Lance",
+      "specialty": "Dragon",
+      "team6": [
+        "Gyarados",
+        "Aerodactyl (Mega)",
+        "Kingdra",
+        "Haxorus",
+        "Hydreigon",
+        "Dragonite (Ace)"
+      ]
+    }
+  ]
+}
