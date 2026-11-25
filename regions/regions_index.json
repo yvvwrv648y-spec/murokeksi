@@ -1,0 +1,55 @@
+{
+ "source": "PokeAPI https://pokeapi.co/api/v2/region/{id}",
+ "regions": [
+  {
+   "region_id": 1,
+   "name": "kanto",
+   "locations": 96
+  },
+  {
+   "region_id": 2,
+   "name": "johto",
+   "locations": 67
+  },
+  {
+   "region_id": 3,
+   "name": "hoenn",
+   "locations": 110
+  },
+  {
+   "region_id": 4,
+   "name": "sinnoh",
+   "locations": 128
+  },
+  {
+   "region_id": 5,
+   "name": "unova",
+   "locations": 122
+  },
+  {
+   "region_id": 6,
+   "name": "kalos",
+   "locations": 106
+  },
+  {
+   "region_id": 7,
+   "name": "alola",
+   "locations": 101
+  },
+  {
+   "region_id": 8,
+   "name": "galar",
+   "locations": 92
+  },
+  {
+   "region_id": 9,
+   "name": "hisui",
+   "locations": 89
+  },
+  {
+   "region_id": 10,
+   "name": "paldea",
+   "locations": 84
+  }
+ ]
+}
