@@ -364,3 +364,21 @@ FOR_NEON.md gate section 2026-11-25 (range + Tauros/Enamorus rulings);
 NEON_WAVE1_INTAKE_REPORT.md + NEON_ROUND2_GRADE.md (delivered/graded);
 NEON_WAVE3A_GRADE.md (889/890 open, 893/896 withheld, 891/898 standing);
 mdx_follower_tranche27/PRODUCTION_REPORT.md (Vivillon names named there).
+
+---
+
+## STATUS UPDATE — 2026-11-25 (after Wave 3B)
+
+- **Z-A update 2.0.2: proven genuine.** The Mega Dimension DLC story content
+  rides inside that update and is now held on our side. Both items are CLOSED.
+- **Hisui: CLOSED.** Pokémon Legends: Arceus base game + the v1.1.1 update
+  merge are verified — 19,095 files, checked file by file.
+- **Scarlet extraction: complete.** All 16,112 of 16,112 game-file packs are
+  out, no errors.
+- **Wave 3A: graded.** Your six redraws (887 Dragapult, 888 Zacian, 892
+  Urshifu, 894 Regieleki, 895 Regidrago, 897 Spectrier) are accepted — five
+  clean, 895 with notes. Feature retention passed on all six.
+- **Wave 3B is your next work** — the 107-slot list in the section above
+  stands unchanged.
+- One honest note: boot and playthrough are still unverified on Bossy's side.
+  That is our side's work; nothing changes for yours.
