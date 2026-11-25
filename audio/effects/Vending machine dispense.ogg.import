@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dugkeibd7udy6"
+path="res://.godot/imported/Vending machine dispense.ogg-923bfebbc9c4f914282f878e3ef229ba.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/Vending machine dispense.ogg"
+dest_files=["res://.godot/imported/Vending machine dispense.ogg-923bfebbc9c4f914282f878e3ef229ba.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

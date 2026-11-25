@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dd4re7iv1qs42"
+path="res://.godot/imported/Battle damage super.ogg-01df2956e42cd2c87f620ce17bc47a4c.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/Battle damage super.ogg"
+dest_files=["res://.godot/imported/Battle damage super.ogg-01df2956e42cd2c87f620ce17bc47a4c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

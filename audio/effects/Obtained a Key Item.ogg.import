@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c158q4ordqoqq"
+path="res://.godot/imported/Obtained a Key Item.ogg-50a15d484c2d3360ca3dc7be225f5704.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/Obtained a Key Item.ogg"
+dest_files=["res://.godot/imported/Obtained a Key Item.ogg-50a15d484c2d3360ca3dc7be225f5704.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bd20jak67y4c2"
+path="res://.godot/imported/Slots coin.ogg-aa1424cfa20456013d4923524c4f79ea.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/Slots coin.ogg"
+dest_files=["res://.godot/imported/Slots coin.ogg-aa1424cfa20456013d4923524c4f79ea.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

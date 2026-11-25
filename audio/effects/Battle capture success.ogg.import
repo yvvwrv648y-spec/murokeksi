@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://csnpair4lwi2f"
+path="res://.godot/imported/Battle capture success.ogg-68b448b7159ef5676a45cdcc7373af0c.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/Battle capture success.ogg"
+dest_files=["res://.godot/imported/Battle capture success.ogg-68b448b7159ef5676a45cdcc7373af0c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

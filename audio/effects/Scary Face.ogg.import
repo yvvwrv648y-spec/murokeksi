@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://djngb4s42cpk3"
+path="res://.godot/imported/Scary Face.ogg-52903eafc02f46fe7ac001da0b9e678a.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/Scary Face.ogg"
+dest_files=["res://.godot/imported/Scary Face.ogg-52903eafc02f46fe7ac001da0b9e678a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

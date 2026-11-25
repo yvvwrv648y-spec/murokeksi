@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0.0",
+  "originality_policy": "100% original compositions; zero ripped or disguised melodies.",
+  "crossfade_ms": 850,
+  "tracks": [
+    {
+      "track_id": "ost_main_title",
+      "title": "Main Title",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_opening_cinematic",
+      "title": "Opening Cinematic",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_pallet_town",
+      "title": "Pallet Town",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_viridian_city",
+      "title": "Viridian City",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_pewter_city",
+      "title": "Pewter City",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_cerulean_city",
+      "title": "Cerulean City",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_vermilion_city",
+      "title": "Vermilion City",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_lavender_town",
+      "title": "Lavender Town",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_celadon_city",
+      "title": "Celadon City",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_saffron_city",
+      "title": "Saffron City",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_fuchsia_city",
+      "title": "Fuchsia City",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_cinnabar_island",
+      "title": "Cinnabar Island",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_indigo_plateau",
+      "title": "Indigo Plateau",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_kanto_routes",
+      "title": "Kanto Routes",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_viridian_forest",
+      "title": "Viridian Forest",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_mt_moon_caves",
+      "title": "Mt Moon Caves",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_ocean_routes",
+      "title": "Ocean Routes",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_pokemon_center",
+      "title": "Pokemon Center",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_poke_mart",
+      "title": "Poke Mart",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_kanto_gym",
+      "title": "Kanto Gym",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_team_rocket",
+      "title": "Team Rocket",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_rival_encounter",
+      "title": "Rival Encounter",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_wild_battle",
+      "title": "Wild Battle",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_trainer_battle",
+      "title": "Trainer Battle",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_gym_leader_battle",
+      "title": "Gym Leader Battle",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_story_boss_battle",
+      "title": "Story Boss Battle",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_battle_victory",
+      "title": "Battle Victory",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_battle_defeat",
+      "title": "Battle Defeat",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_studio_menus",
+      "title": "Studio Menus",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "track_id": "ost_end_credits",
+      "title": "End Credits",
+      "adaptive_night_layer": true,
+      "status": "SPECIFIED"
+    }
+  ]
+}

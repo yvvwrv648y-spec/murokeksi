@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://h6semiofyko1"
+path="res://.godot/imported/GUI sel cancel.ogg-2efbfb6b9b9470ea3038434ab6db42db.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/GUI sel cancel.ogg"
+dest_files=["res://.godot/imported/GUI sel cancel.ogg-2efbfb6b9b9470ea3038434ab6db42db.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

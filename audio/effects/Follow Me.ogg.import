@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cekmiqslt1e6u"
+path="res://.godot/imported/Follow Me.ogg-fc5bfe39e85b44831292f2d89a377908.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/Follow Me.ogg"
+dest_files=["res://.godot/imported/Follow Me.ogg-fc5bfe39e85b44831292f2d89a377908.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

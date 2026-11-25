@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c13rdshcfmilr"
+path="res://.godot/imported/Obtained a Badge.ogg-0b850e9d4ab3acd4cd2ffc82de95c5dd.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/Obtained a Badge.ogg"
+dest_files=["res://.godot/imported/Obtained a Badge.ogg-0b850e9d4ab3acd4cd2ffc82de95c5dd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

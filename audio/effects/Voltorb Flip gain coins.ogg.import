@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d4br65pu8kqj6"
+path="res://.godot/imported/Voltorb Flip gain coins.ogg-4afbd475b4142bc822d7fcafcf8e1783.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/Voltorb Flip gain coins.ogg"
+dest_files=["res://.godot/imported/Voltorb Flip gain coins.ogg-4afbd475b4142bc822d7fcafcf8e1783.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://duqqxfmsum56a"
+path="res://.godot/imported/Rock Smash.ogg-87eb2e93e50d403071497689b3bd0dac.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/Rock Smash.ogg"
+dest_files=["res://.godot/imported/Rock Smash.ogg-87eb2e93e50d403071497689b3bd0dac.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

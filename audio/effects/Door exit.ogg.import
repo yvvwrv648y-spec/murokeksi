@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://de4pk8uwtkvdi"
+path="res://.godot/imported/Door exit.ogg-3dab95e198e3786f9b59cf2f264f2f7b.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/Door exit.ogg"
+dest_files=["res://.godot/imported/Door exit.ogg-3dab95e198e3786f9b59cf2f264f2f7b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

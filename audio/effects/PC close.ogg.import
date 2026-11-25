@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://boyciy3p3m1n7"
+path="res://.godot/imported/PC close.ogg-b833ef9630568ea9da8505d1bc70f070.oggvorbisstr"
+
+[deps]
+
+source_file="res://audio/effects/PC close.ogg"
+dest_files=["res://.godot/imported/PC close.ogg-b833ef9630568ea9da8505d1bc70f070.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
