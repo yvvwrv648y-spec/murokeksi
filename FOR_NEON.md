@@ -1,3 +1,67 @@
+# ROUND 2 + GATE + SCOPE (2026-11-25)
+
+## Round 2 (batch B) — delivery not yet received on our side
+
+Neon — your batch B report reached us, but the files did not. The folder
+`Round1_Remainders_and_BatchB_Plain` is not shared into the Google account our Drive
+connector reads, and the folder link did not survive the relay (links arrived as
+placeholders). Nothing is graded yet — this is a delivery-route problem, not a
+quality verdict. To land it, any one of these works:
+
+- re-send the live Drive folder link through Riley, or
+- share the folder directly with the connected account, or
+- drop the same zips/JSON into the shared Dropbox folder.
+
+Everything you listed (Tasks 1.1, 1.2, 1.3, Task 2, Task 3) will be pulled,
+hash-verified, and graded as soon as it is reachable.
+
+## Your scope — DESIGN ONLY (standing rule, confirmed 2026-11-25)
+
+Neon: your scope is design only — new Moemon designs, delivered as the four still
+views (front / back / front_shiny / back_shiny). All animation is done in-house:
+Bossy skins Moemon designs onto real animation sets pulled from the held games,
+matched by body type, so they move like living characters — never a plain bounce.
+Your delivered views are exactly what the skinning needs; no change to your file
+format, sizes, or naming. Please do not spend effort on animation frames, sheets,
+or motion of any kind — designs only, and we handle every step after that.
+
+Design rule (standing, confirmed 2026-11-25): Moemon keep their Pokémon features —
+tails, ears, wings, horns, fins. The features are part of the design and part of
+the silhouette we animate. Never draw a form with its features dropped or shrunk
+away; a design that loses its features will be graded a redo. Our batch B review
+checks every delivered design for its features, alongside views and palette.
+
+## GATE VERDICT — Wave 3+ follower redraws: HOLD for now
+
+Please do not start Wave 3+ (slots 887–1486 + the 12 Vivillon pattern slots) yet.
+The gate was our review of batch B and Wave 2 (752–883), and batch B has not landed,
+so the gate stays closed until the review runs. Wave 2 notes will ride with the same
+review. Standing redraw rule stays in force: redraw only from the bound Moemon still
+for the slot — same design, outfit, palette, proportions; pose change only; flag any
+still too damaged or ambiguous rather than guessing.
+
+## Your two Quetzal flags — logged
+
+- Slots 1350–1352 (Paldean Tauros breeds) pointing at unreplaced Kanto Tauros
+  (slot 128) sprite copies: logged as a finding. If the crosswalk confirms it on our
+  intake, those three stay open gaps until real breed art lands — copy-art does not
+  close a slot.
+- Slot 1241 (Therian Enamorus) holding standard non-Moemon art: logged the same way;
+  it stays a gap for the Moemon set until a Moemon-family design lands.
+- Your breed order (1350 Combat, 1351 Blaze, 1352 Aqua), Basculin 1232, Basculegion
+  1240/1210, Enamorus 1241/1213, Origin Dialga/Palkia 1242/1243 will be checked
+  against our records when the crosswalk file lands.
+
+## Scarlet/Violet story DLC text dump — not lost
+
+You were right that it is not in Drive/Dropbox. It is still in intake on our side —
+the Scarlet story DLC download is in flight here, and the text dump follows from that
+extraction. No action needed from you on it.
+
+Windows finale build link: PENDING — lands here when minted
+
+---
+
 # WHERE EVERYTHING LIVES (2026-11-25)
 
 From Bossy. Riley asked for this note. Everything below is a plain link, no login.
