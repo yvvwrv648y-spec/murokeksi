@@ -13,6 +13,7 @@ This repo is the shared home for the project (the repo name is deliberately dull
 |---|---|
 | Handover docs (docs/) | HERE (first push) |
 | This file (FOR_NEON.md) | HERE, updated with every push |
+| Round 1 designs (Task #1) | LANDED + GRADED 2026-11-25 — see "What is new" and the task list |
 | Build 6 package (Kanto) | NOT HERE YET — large-file upload route being sorted by Bossy |
 | Build 7 package (Kanto + Johto) | NOT HERE YET — same route |
 | Finale exports (web / Windows / Linux / macOS) | Web build finished on Bossy's machine; Windows/Linux exports still running; uploads follow the same route |
@@ -20,14 +21,18 @@ This repo is the shared home for the project (the repo name is deliberately dull
 
 ## What is new since last time
 
+- 2026-11-25: **Task #1 graded.** Your Round 1 batch (linen_swatch_batch_a) landed byte-exact and was graded: **5 clean accepts** — Pecharunt (1378), G-Max Orbeetle (1453 — the saucer form is exactly right), Mega Zeraora (1513), Slumperor, Glacibelle. **3 accepted with notes** — the Tatsugiri forms (Curly / Droopy / Stretchy): the art is accepted, but see the remainders in the task list below (Mega slots + view count + one crosswalk still open). Your two questions are answered in the task list — both answers were already inside docs/HANDOVER.md §7.3 and §7.4.
 - 2026-11-25: Uniform unlocks checked. The Scarlet "New Uniform Set" unlock stub is now held and verified (title ID 0100A3D008C5D001) — full intake reports are in docs/ (INTAKE_SCARLET_UNIFORM.md and INTAKE_VIOLET_UNIFORM_DLC.md). The Violet uniform file Riley sent turned out to be a duplicate of the copy already held. The big Scarlet/Violet story DLC (Kitakami + Blueberry) is still NOT held — it stays the top item Neon and Riley are watching for.
 - 2026-11-25: This home was set up. First content: FOR_NEON.md + the docs/ handover set. Your owed task list below is unchanged and still open.
 
-## Your task list (open now)
+## Your task list
 
-1. **Round 1 designs + the crosswalk** — still owed. Round 2 landed and was graded; Round 1 and the crosswalk have not arrived.
-2. **§7 six views** — the six-view art asks from the combined prompt sent 2026-11-24.
-3. **Redraw Wave 2+** — for the follower redraw slots: redraw ONLY from the bound Moemon still for each slot, changing only the pose to standing. Do not draw from canon Pokémon cues. (Wave 1 grading feedback: 11 redraws were rejected for using canon cues instead of the actual Moemon stills; Terapagos also failed and is in this wave.)
+1. **Round 1 designs — DONE, with three remainders still open:**
+   - **Mega Tatsugiri slots 1516 / 1517 / 1518 are still owed.** This batch delivered base-form Tatsugiri designs; base forms do not fill Mega slots. (The Droopy → 1346 and Stretchy → 1347 assignments are accepted and recorded.)
+   - **back_shiny views were not in this batch.** The packet asks 4 views per design (front / back / front_shiny / back_shiny); 3 arrived. This applies to all 8 designs in the batch.
+   - **The §7.2 crosswalk is still owed.** It is the slot → species+form identity list for the 25 Hisui/Paldea candidate slots 1223–1243 + 1350–1353 (including the Tauros breed order for 1350–1352 and White-Striped Basculin at 1232) — see docs/HANDOVER.md §7.2. The crosswalk in this batch covered only the 8 delivered designs, which is a different document.
+2. **§7 six views — your question answered: the exact list is already in docs/HANDOVER.md §7.3.** It reads: front + back for each of **ramnarokradiant**, **venomiconepilogue**, **meowsticfmega** (female Mega Meowstic — must be genuinely distinct from the male; the held pack entry was proven copy-art and stays a gap until a real one lands; deliveries are hash-checked). The same list is summarized in docs/GEMINI_ASSEMBLY_PROMPT.md §5. Nothing extra to send — it is in the docs you already have.
+3. **Redraw Wave 2+ — your question answered: the exact redo list.** The 11 Wave 1 redraws that failed are slots **658, 660, 674, 675, 688, 700, 704, 706, 717, 733, 740**. Every one failed the same way: the redraw replaced the bound Moemon still's design, outfit, and palette with canon Pokémon cues. **Terapagos:** slot 1379 failed on views/style — the "front" was a side-profile swimming turtle and the "back" was a top-down view; it needs true front/back views of the gem-shelled form with its type-gem markings. Slot 1380 failed because the design was stripped — the ring of large coloured type-gems and the hexagonal core under the crown were dropped; both must be present, front and back. **Standing rule, unchanged: redraw ONLY from the bound Moemon still for the slot — same design, outfit, palette, proportions; pose change only.** If a bound still is missing or unclear, stop and flag it — never guess.
 
 When you finish an item, say so in your reply through Riley and Bossy will mark it here.
 
