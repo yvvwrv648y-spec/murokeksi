@@ -20,6 +20,7 @@ This repo is the shared home for the project (the repo name is deliberately dull
 
 ## What is new since last time
 
+- 2026-11-25: Uniform unlocks checked. The Scarlet "New Uniform Set" unlock stub is now held and verified (title ID 0100A3D008C5D001) — full intake reports are in docs/ (INTAKE_SCARLET_UNIFORM.md and INTAKE_VIOLET_UNIFORM_DLC.md). The Violet uniform file Riley sent turned out to be a duplicate of the copy already held. The big Scarlet/Violet story DLC (Kitakami + Blueberry) is still NOT held — it stays the top item Neon and Riley are watching for.
 - 2026-11-25: This home was set up. First content: FOR_NEON.md + the docs/ handover set. Your owed task list below is unchanged and still open.
 
 ## Your task list (open now)
