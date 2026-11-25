@@ -382,3 +382,22 @@ mdx_follower_tranche27/PRODUCTION_REPORT.md (Vivillon names named there).
   stands unchanged.
 - One honest note: boot and playthrough are still unverified on Bossy's side.
   That is our side's work; nothing changes for yours.
+
+---
+
+## VIOLET BASE — CLOSED (2026-11-25)
+
+- **Pokémon Violet base game: held and proven real.** The file Riley sent
+  (via Pixeldrain) is the genuine Violet base game, proven from the insides:
+  title ID 01008F6008C5E000, version 0, the name inside reads "Pokémon
+  Violet" (version 1.0.0), and every content file hash-matched the maker's
+  own signed list.
+- **Violet is off the missing list.** Paldea now has both base games —
+  Scarlet and Violet.
+- **Still missing: the Scarlet/Violet story DLC** — "The Hidden Treasure of
+  Area Zero" (Part 1: The Teal Mask, Part 2: The Indigo Disk). That item
+  stays open. The small uniform-set files held are unlock slips only, not
+  the story content.
+- **Your next art task is unchanged:** Wave 3B — the 107-slot redraw list
+  in the section above — after your reset.
+
