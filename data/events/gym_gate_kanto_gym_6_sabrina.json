@@ -1,0 +1,52 @@
+{
+ "comment": "GYM GATE WIRING, gym 6 (Sabrina, Saffron Gym) - see gym_gate_kanto_gym_3_surge.json's comment for the wiring contract (full record in data/gym_gate_triggers.json). The gate consumes saffron_access + silph_co_cleared from data/gym_requirements.json's kanto_gym_6_sabrina record, both set by data/events/silph_co_liberation.json when the Silph Co. occupation is lifted by play. badge_count is host-supplied step data (live GLOBAL badge count), as in the gym 3 script. Sabrina's intro and post-battle advice lines are exact bank labels (group SaffronGym); her badge/TM grant lines (_SaffronGymSabrinaReceivedMarshBadgeText, _SaffronGymSabrinaReceivedTM46Text) belong to the host's record_gym_win flow, not to this gate script.",
+ "id": "gym_gate_kanto_gym_6_sabrina",
+ "map": "SaffronGym",
+ "steps": [
+  {
+   "op": "say",
+   "speaker": "sabrina",
+   "dialogue": {
+    "map": "SaffronGym",
+    "ref": "_SaffronGymSabrinaText"
+   }
+  },
+  {
+   "op": "battle",
+   "entry": "gym",
+   "gym_ref": "kanto_gym_6_sabrina",
+   "badge_count": 0,
+   "use_campaign_gate": true,
+   "win_goto": "won",
+   "lose_goto": "lost"
+  },
+  {
+   "op": "goto",
+   "label": "end"
+  },
+  {
+   "op": "label",
+   "id": "won"
+  },
+  {
+   "op": "say",
+   "speaker": "sabrina",
+   "dialogue": {
+    "map": "SaffronGym",
+    "ref": "_SaffronGymSabrinaPostBattleAdviceText"
+   }
+  },
+  {
+   "op": "goto",
+   "label": "end"
+  },
+  {
+   "op": "label",
+   "id": "lost"
+  },
+  {
+   "op": "label",
+   "id": "end"
+  }
+ ]
+}

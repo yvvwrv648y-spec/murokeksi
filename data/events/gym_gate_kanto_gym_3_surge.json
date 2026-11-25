@@ -1,0 +1,44 @@
+{
+ "comment": "GYM GATE WIRING, gym 3 (Lt. Surge, Vermilion Gym) - the production trigger for the flag-consuming gym battle; the data-level contract the host applies lives in data/gym_gate_triggers.json. Availability is enforced by the bound machinery, not by this script: the battle step runs PUWBattleEntry.start_gym_battle with use_campaign_gate, so PUWCampaignStitch.can_start_gym_battle -> PUWGymRequirements checks data/gym_requirements.json's kanto_gym_3_surge record against live state (story flag ss_anne_cleared - set by data/events/ss_anne_captain.json - plus the hm01 item it grants, plus the cut field action) and the battle is refused before those are earned by play. badge_count is step data the host overwrites with the live GLOBAL badge count before running (the Oak fixture's step-data convention - the same way its picks are host-supplied); the value 0 here is a placeholder for that overwrite, never a claim about the player's progress. On a win the host calls PUWCampaignStitch.record_gym_win(state, 'kanto_gym_3_surge') (see the triggers file). Surge's pre-battle line is the bank's only VermilionGym leader label.",
+ "id": "gym_gate_kanto_gym_3_surge",
+ "map": "VermilionGym",
+ "steps": [
+  {
+   "op": "say",
+   "speaker": "lt_surge",
+   "dialogue": {
+    "map": "VermilionGym",
+    "ref": "_VermilionGymLTSurgePreBattleText"
+   }
+  },
+  {
+   "op": "battle",
+   "entry": "gym",
+   "gym_ref": "kanto_gym_3_surge",
+   "badge_count": 0,
+   "use_campaign_gate": true,
+   "win_goto": "won",
+   "lose_goto": "lost"
+  },
+  {
+   "op": "goto",
+   "label": "end"
+  },
+  {
+   "op": "label",
+   "id": "won"
+  },
+  {
+   "op": "goto",
+   "label": "end"
+  },
+  {
+   "op": "label",
+   "id": "lost"
+  },
+  {
+   "op": "label",
+   "id": "end"
+  }
+ ]
+}

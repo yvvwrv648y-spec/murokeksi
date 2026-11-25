@@ -1,0 +1,61 @@
+{
+ "comment": "Sevii quest chain, beat 6 (completion): delivering the Sapphire and the Network Machine coming online (pokefirered EventScript_GiveCelioSapphire). Source order: the hand-over (give_item sapphire -1 rides the op's own arithmetic), his thanks, the machine checks, the Lanette link, and his closing thanks. The fanfare hand-over message (Text_HandedSapphireToCelio) is not a say step; the item step IS that moment. Completion effect, mirroring the source's SetPostgameFlags at this exact point: sevii_network_machine_complete is set - the flag build 6 wires to the stitch/region layer as this quest's completion record (the source here sets FLAG_SYS_CAN_LINK_WITH_RS and FLAG_HIDE_CERULEAN_CAVE_GUARD; the cave-guard cross-reference is carried in data/fixed_encounters.json's Mewtwo record). After this script, Celio's repeat talk is Text_WishYouBestOfLuck (source scene 6) - ordinary NPC dialogue, not part of this script.",
+ "id": "sevii_celio_sapphire_delivery",
+ "map": "OneIsland_PokemonCenter_1F",
+ "requires": {
+  "flags": [
+   "sevii_sapphire_recovered"
+  ],
+  "forbidden_flags": [
+   "sevii_network_machine_complete"
+  ]
+ },
+ "steps": [
+  {
+   "op": "give_item",
+   "item": "sapphire",
+   "count": -1
+  },
+  {
+   "op": "say",
+   "speaker": "celio",
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "ThankYouGiveMeTime"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime"
+  },
+  {
+   "op": "say",
+   "speaker": "celio",
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "OkayThisIsGood"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_OkayThisIsGood"
+  },
+  {
+   "op": "say",
+   "speaker": "celio",
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "LinkedUpWithLanette"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette"
+  },
+  {
+   "op": "say",
+   "speaker": "celio",
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "ManagedToLinkWithHoennThankYou"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou"
+  },
+  {
+   "op": "set_flag",
+   "flag": "sevii_network_machine_complete",
+   "value": true
+  }
+ ]
+}

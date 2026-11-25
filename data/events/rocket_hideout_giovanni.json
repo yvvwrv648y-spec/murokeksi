@@ -1,0 +1,82 @@
+{
+ "comment": "Rocket Hideout B4F: Giovanni boss battle and the Silph Scope. In the source (pokered RocketHideoutB4F script) Giovanni's intro plays, the battle runs, his end-battle and departure lines play, and the Silph Scope is the item he leaves behind on B4F (PickUpItemText TEXT_ROCKETHIDEOUTB4F_SILPH_SCOPE) - this script grants it at the same point in the beat. Lines are exact bank labels (group RocketHideoutB4F), the bridge ref being TEXT_ROCKETHIDEOUTB4F_GIOVANNI. Battle identity = GIOVANNI party 1 (party_notes: 'Rocket Hideout B4F'; the bound placement's party_index). Completion flag rocket_hideout_cleared is authored here; losing sets nothing and the battle can be retried.",
+ "id": "rocket_hideout_giovanni",
+ "map": "RocketHideoutB4F",
+ "requires": {
+  "forbidden_flags": [
+   "rocket_hideout_cleared"
+  ]
+ },
+ "steps": [
+  {
+   "op": "say",
+   "speaker": "giovanni",
+   "dialogue": {
+    "map": "RocketHideoutB4F",
+    "ref": "_RocketHideoutB4FGiovanniImpressedYouGotHereText"
+   }
+  },
+  {
+   "op": "battle",
+   "entry": "scripted",
+   "identity": [
+    "ONIX",
+    "RHYHORN",
+    "KANGASKHAN"
+   ],
+   "win_goto": "won",
+   "lose_goto": "lost"
+  },
+  {
+   "op": "goto",
+   "label": "end"
+  },
+  {
+   "op": "label",
+   "id": "won"
+  },
+  {
+   "op": "say",
+   "speaker": "giovanni",
+   "dialogue": {
+    "map": "RocketHideoutB4F",
+    "ref": "_RocketHideoutB4FGiovanniWhatCannotBeText"
+   }
+  },
+  {
+   "op": "say",
+   "speaker": "giovanni",
+   "dialogue": {
+    "map": "RocketHideoutB4F",
+    "ref": "_RocketHideoutB4FGiovanniHopeWeMeetAgainText"
+   }
+  },
+  {
+   "op": "give_item",
+   "item": "silph-scope",
+   "count": 1
+  },
+  {
+   "op": "actor_visible",
+   "actor": "giovanni",
+   "visible": false
+  },
+  {
+   "op": "set_flag",
+   "flag": "rocket_hideout_cleared",
+   "value": true
+  },
+  {
+   "op": "goto",
+   "label": "end"
+  },
+  {
+   "op": "label",
+   "id": "lost"
+  },
+  {
+   "op": "label",
+   "id": "end"
+  }
+ ]
+}

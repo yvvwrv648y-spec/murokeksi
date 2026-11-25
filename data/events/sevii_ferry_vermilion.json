@@ -1,0 +1,419 @@
+{
+ "comment": "Seagallop ferry, Vermilion side (pokefirered VermilionCity/scripts.inc VermilionCity_EventScript_FerrySailor + CheckSeagallopPresent, and data/scripts/seagallop.inc). The source branches on the One Island PC scene var (its record of the Sevii story: >= 5 Rainbow Pass era, >= 1 Tri-Pass era, 0 = the ship has set sail); the PUW form branches on the pass the player HOLDS, via the host's transient flags ferry_tri_pass / ferry_rainbow_pass (the host reads the real bag -- PUWLiveBag over the canonical ids tri-pass / rainbow-pass -- exactly as it supplies fossil picks in the events prep; the runner has no item-check op). With a Rainbow Pass the source first honours the event tickets (MysticTicket -> Navel Rock, AuroraTicket -> Birth Island; the source's FLAG_ENABLE_SHIP_* distribution flags have no PUW counterpart -- holding the ticket IS the enablement). The ticket recognition lines play only until their FLAG_SHOWN_*_TICKET is set: the host's ferry_mystic_ticket / ferry_aurora_ticket flags carry that 'not yet shown' condition and the script sets the shown_mystic_ticket / shown_aurora_ticket story flags itself right after each line. A ticket holder's boarding line is the generic BoardSeagallopFerry (the source's Has*Ticket scripts); a ticketless Rainbow holder hears BoardSeagallopRainbowPass -- the host's ferry_any_ticket flag selects between them. Then offers the Sevii destinations pages (all seven islands). The destination itself is the host's menu: the host sets exactly one ferry_dest_* flag, or none when the player cancels (the source's CancelSail: the script simply ends). Departing lines are the source's own: from Vermilion, VermilionCity_Text_Seagallop7Departing (bank _common) for the islands, Seagallop10Departing / Seagallop12Departing for the ticket islands. The warp step is the scripted transfer the reachability audit prescribes (B-06): NO warp-data edge is added anywhere; arrival is the destination harbor's sole warp (id 1). The sailor is a NEW interactable on VermilionDock (see sevii_ferry_wiring.json -- the bound dock map has no objects; in FRLG the ferry sailor stands on Vermilion City's pier).",
+ "id": "sevii_ferry_vermilion",
+ "map": "VermilionDock",
+ "steps": [
+  {
+   "if_flag": "ferry_rainbow_pass",
+   "label": "rainbow",
+   "op": "goto"
+  },
+  {
+   "if_flag": "ferry_tri_pass",
+   "label": "tri",
+   "op": "goto"
+  },
+  {
+   "dialogue": {
+    "map": "VermilionCity",
+    "ref": "TheShipSetSail"
+   },
+   "dialogue_label": "VermilionCity_Text_TheShipSetSail",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "label": "end",
+   "op": "goto"
+  },
+  {
+   "id": "tri",
+   "op": "label"
+  },
+  {
+   "dialogue": {
+    "map": "VermilionCity",
+    "ref": "BoardSeagallopTriPass"
+   },
+   "dialogue_label": "VermilionCity_Text_BoardSeagallopTriPass",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "VermilionCity_Text_Seagallop7Departing"
+   },
+   "dialogue_label": "VermilionCity_Text_Seagallop7Departing",
+   "if_flag": "ferry_dest_one_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_one_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_one_island",
+   "map": "OneIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "VermilionCity_Text_Seagallop7Departing"
+   },
+   "dialogue_label": "VermilionCity_Text_Seagallop7Departing",
+   "if_flag": "ferry_dest_two_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_two_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_two_island",
+   "map": "TwoIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "VermilionCity_Text_Seagallop7Departing"
+   },
+   "dialogue_label": "VermilionCity_Text_Seagallop7Departing",
+   "if_flag": "ferry_dest_three_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_three_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_three_island",
+   "map": "ThreeIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "label": "end",
+   "op": "goto"
+  },
+  {
+   "id": "rainbow",
+   "op": "label"
+  },
+  {
+   "dialogue": {
+    "map": "VermilionCity",
+    "ref": "OhMysticTicketTakeYouToNavelRock"
+   },
+   "dialogue_label": "VermilionCity_Text_OhMysticTicketTakeYouToNavelRock",
+   "if_flag": "ferry_mystic_ticket",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "flag": "shown_mystic_ticket",
+   "if_flag": "ferry_mystic_ticket",
+   "op": "set_flag",
+   "value": true
+  },
+  {
+   "dialogue": {
+    "map": "VermilionCity",
+    "ref": "OhAuroraTicketTakeYouToBirthIsland"
+   },
+   "dialogue_label": "VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland",
+   "if_flag": "ferry_aurora_ticket",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "flag": "shown_aurora_ticket",
+   "if_flag": "ferry_aurora_ticket",
+   "op": "set_flag",
+   "value": true
+  },
+  {
+   "dialogue": {
+    "map": "VermilionCity",
+    "ref": "BoardSeagallopFerry"
+   },
+   "dialogue_label": "VermilionCity_Text_BoardSeagallopFerry",
+   "if_flag": "ferry_any_ticket",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "dialogue": {
+    "map": "VermilionCity",
+    "ref": "BoardSeagallopRainbowPass"
+   },
+   "dialogue_label": "VermilionCity_Text_BoardSeagallopRainbowPass",
+   "if_not_flag": "ferry_any_ticket",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "VermilionCity_Text_Seagallop7Departing"
+   },
+   "dialogue_label": "VermilionCity_Text_Seagallop7Departing",
+   "if_flag": "ferry_dest_one_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_one_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_one_island",
+   "map": "OneIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "VermilionCity_Text_Seagallop7Departing"
+   },
+   "dialogue_label": "VermilionCity_Text_Seagallop7Departing",
+   "if_flag": "ferry_dest_two_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_two_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_two_island",
+   "map": "TwoIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "VermilionCity_Text_Seagallop7Departing"
+   },
+   "dialogue_label": "VermilionCity_Text_Seagallop7Departing",
+   "if_flag": "ferry_dest_three_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_three_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_three_island",
+   "map": "ThreeIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "VermilionCity_Text_Seagallop7Departing"
+   },
+   "dialogue_label": "VermilionCity_Text_Seagallop7Departing",
+   "if_flag": "ferry_dest_four_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_four_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_four_island",
+   "map": "FourIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "VermilionCity_Text_Seagallop7Departing"
+   },
+   "dialogue_label": "VermilionCity_Text_Seagallop7Departing",
+   "if_flag": "ferry_dest_five_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_five_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_five_island",
+   "map": "FiveIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "VermilionCity_Text_Seagallop7Departing"
+   },
+   "dialogue_label": "VermilionCity_Text_Seagallop7Departing",
+   "if_flag": "ferry_dest_six_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_six_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_six_island",
+   "map": "SixIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "VermilionCity_Text_Seagallop7Departing"
+   },
+   "dialogue_label": "VermilionCity_Text_Seagallop7Departing",
+   "if_flag": "ferry_dest_seven_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_seven_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_seven_island",
+   "map": "SevenIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "VermilionCity",
+    "ref": "Seagallop10Departing"
+   },
+   "dialogue_label": "VermilionCity_Text_Seagallop10Departing",
+   "if_flag": "ferry_dest_navel_rock",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_navel_rock",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_navel_rock",
+   "map": "NavelRock_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "VermilionCity",
+    "ref": "Seagallop12Departing"
+   },
+   "dialogue_label": "VermilionCity_Text_Seagallop12Departing",
+   "if_flag": "ferry_dest_birth_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_birth_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_birth_island",
+   "map": "BirthIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "id": "end",
+   "op": "label"
+  }
+ ]
+}

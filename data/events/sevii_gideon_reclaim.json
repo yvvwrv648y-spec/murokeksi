@@ -1,0 +1,85 @@
+{
+ "comment": "Sevii quest chain, beat 5: reclaiming the Sapphire from Gideon, Five Island Rocket Warehouse (pokefirered FiveIsland_RocketWarehouse_EventScript_Gideon + EventScript_DefeatedGideon: trainerbattle_single TRAINER_SCIENTIST_GIDEON, then setflag FLAG_RECOVERED_SAPPHIRE + giveitem ITEM_SAPPHIRE). Battle identity = Gideon's own party from pokefirered src/data/trainer_parties.h (sParty_ScientistGideon), species only: VOLTORB, ELECTRODE, MAGNEMITE, MAGNETON, PORYGON - the difficulty layer builds it. Intro and defeat lines are exact restored-bank labels. His post-battle speech (FiveIsland_RocketWarehouse_Text_GideonPostBattle) exists in the source text but was NOT decoded into the restored Sevii bank, so it is not played - named as a remainder in PREP_REPORT.md rather than invented or retyped. Sets sevii_sapphire_recovered (FLAG_RECOVERED_SAPPHIRE's mirror). Losing sets nothing; the battle can be retried. PATCHED by code_prep_sevii_access: the GideonPostBattle say is inserted after the defeat line -- the label is now decoded in that prep's sevii_bank_additions.json (group FiveIsland_RocketWarehouse), closing the remainder this script's original comment named. Nothing else changed.",
+ "id": "sevii_gideon_reclaim",
+ "map": "FiveIsland_RocketWarehouse",
+ "requires": {
+  "flags": [
+   "sevii_sapphire_stolen"
+  ],
+  "forbidden_flags": [
+   "sevii_sapphire_recovered"
+  ]
+ },
+ "steps": [
+  {
+   "dialogue": {
+    "map": "FiveIsland_RocketWarehouse",
+    "ref": "GideonIntro"
+   },
+   "dialogue_label": "FiveIsland_RocketWarehouse_Text_GideonIntro",
+   "op": "say",
+   "speaker": "gideon"
+  },
+  {
+   "entry": "scripted",
+   "identity": [
+    "VOLTORB",
+    "ELECTRODE",
+    "MAGNEMITE",
+    "MAGNETON",
+    "PORYGON"
+   ],
+   "lose_goto": "lost",
+   "op": "battle",
+   "win_goto": "won"
+  },
+  {
+   "label": "end",
+   "op": "goto"
+  },
+  {
+   "id": "won",
+   "op": "label"
+  },
+  {
+   "dialogue": {
+    "map": "FiveIsland_RocketWarehouse",
+    "ref": "GideonDefeat"
+   },
+   "dialogue_label": "FiveIsland_RocketWarehouse_Text_GideonDefeat",
+   "op": "say",
+   "speaker": "gideon"
+  },
+  {
+   "dialogue": {
+    "map": "FiveIsland_RocketWarehouse",
+    "ref": "GideonPostBattle"
+   },
+   "dialogue_label": "FiveIsland_RocketWarehouse_Text_GideonPostBattle",
+   "op": "say",
+   "speaker": "gideon"
+  },
+  {
+   "count": 1,
+   "item": "sapphire",
+   "op": "give_item"
+  },
+  {
+   "flag": "sevii_sapphire_recovered",
+   "op": "set_flag",
+   "value": true
+  },
+  {
+   "label": "end",
+   "op": "goto"
+  },
+  {
+   "id": "lost",
+   "op": "label"
+  },
+  {
+   "id": "end",
+   "op": "label"
+  }
+ ]
+}

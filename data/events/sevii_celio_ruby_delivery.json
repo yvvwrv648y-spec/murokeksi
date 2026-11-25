@@ -1,0 +1,71 @@
+{
+ "comment": "Sevii quest chain, beat 3: delivering the Ruby (pokefirered EventScript_GiveCelioRuby + EventScript_GiveRainbowPass + EventScript_ExplainRainbowPass). Source order kept: Celio spots the Ruby, the hand-over, he asks one more favor, he explains the second gemstone, the pass exchange (source: removeitem ITEM_RUBY, removeitem ITEM_TRI_PASS, additem ITEM_RAINBOW_PASS), and his Rainbow Pass explanation. Item removals ride the give_item op's own arithmetic (negative count) - no new op. The fanfare obtain-messages (HandedRubyToCelio, ReturnedTriPassForRainbowPass, ObtainedExtraMapPage) are not say steps; the item steps ARE those moments. The exchange presumes the player holds the Tri-Pass, which the Sevii access beat (build 6 work list item 3) is responsible for granting on arrival, exactly as the source's MeetCelio scene does. Sets sevii_ruby_delivered (the source's VAR_MAP_SCENE value 5). The yes/no on 'one more favor' is host UI: declining in the source only loops the plea (EventScript_DeclineHelpCelio), so the script proceeds on the accept path.",
+ "id": "sevii_celio_ruby_delivery",
+ "map": "OneIsland_PokemonCenter_1F",
+ "requires": {
+  "flags": [
+   "sevii_ruby_held"
+  ],
+  "forbidden_flags": [
+   "sevii_ruby_delivered"
+  ]
+ },
+ "steps": [
+  {
+   "op": "say",
+   "speaker": "celio",
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "OhThats"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_OhThats"
+  },
+  {
+   "op": "say",
+   "speaker": "celio",
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "MayIAskOneMoreFavor"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor"
+  },
+  {
+   "op": "say",
+   "speaker": "celio",
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "AnotherGemstoneInSeviiIslands"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands"
+  },
+  {
+   "op": "give_item",
+   "item": "ruby",
+   "count": -1
+  },
+  {
+   "op": "give_item",
+   "item": "tri-pass",
+   "count": -1
+  },
+  {
+   "op": "give_item",
+   "item": "rainbow-pass",
+   "count": 1
+  },
+  {
+   "op": "say",
+   "speaker": "celio",
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "PassLetYouGetToAllIslands"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands"
+  },
+  {
+   "op": "set_flag",
+   "flag": "sevii_ruby_delivered",
+   "value": true
+  }
+ ]
+}

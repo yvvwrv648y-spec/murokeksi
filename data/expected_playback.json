@@ -1,0 +1,1359 @@
+{
+ "entries": {
+  "BillsHouse|TEXT_BILLSHOUSE_BILL_POKEMON": {
+   "bridge_texts": [
+    "Hiya! I'm a\nPOK\u00e9MON... ...No I'm not!\n\nCall me BILL!\nI'm a true blue POK\u00e9MANIAC! Hey! What's with that skeptical look?\n\nI'm not joshing\nyou, I screwed up an experiment and got combined with a POK\u00e9MON!\n\nSo, how about it?\nHelp me out here!",
+    "When I'm in the\nTELEPORTER, go to my PC and run the Cell Separation System!",
+    "No!? Come on, you\ngotta help a guy in deep trouble!\n\nWhat do you say,\nchief? Please? OK? All right!"
+   ],
+   "assembled_texts": [
+    "Hiya! I'm a\nPOK\u00e9MON... ...No I'm not!\n\nCall me BILL!\nI'm a true blue POK\u00e9MANIAC! Hey! What's with that skeptical look?\n\nI'm not joshing\nyou, I screwed up an experiment and got combined with a POK\u00e9MON!\n\nSo, how about it?\nHelp me out here!",
+    "No!? Come on, you\ngotta help a guy in deep trouble!\n\nWhat do you say,\nchief? Please? OK? All right!",
+    "When I'm in the\nTELEPORTER, go to my PC and run the Cell Separation System!"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "Hiya! I'm a\nPOK\u00e9MON... ...No I'm not!\n\nCall me BILL!\nI'm a true blue POK\u00e9MANIAC! Hey! What's with that skeptical look?\n\nI'm not joshing\nyou, I screwed up an experiment and got combined with a POK\u00e9MON!\n\nSo, how about it?\nHelp me out here!",
+     "yes_texts": [],
+     "no_texts": [
+      "No!? Come on, you\ngotta help a guy in deep trouble!\n\nWhat do you say,\nchief? Please? OK? All right!"
+     ],
+     "tail_texts": [
+      "When I'm in the\nTELEPORTER, go to my PC and run the Cell Separation System!"
+     ],
+     "yes_played": [
+      "Hiya! I'm a\nPOK\u00e9MON... ...No I'm not!\n\nCall me BILL!\nI'm a true blue POK\u00e9MANIAC! Hey! What's with that skeptical look?\n\nI'm not joshing\nyou, I screwed up an experiment and got combined with a POK\u00e9MON!\n\nSo, how about it?\nHelp me out here!",
+      "When I'm in the\nTELEPORTER, go to my PC and run the Cell Separation System!"
+     ],
+     "no_played": [
+      "Hiya! I'm a\nPOK\u00e9MON... ...No I'm not!\n\nCall me BILL!\nI'm a true blue POK\u00e9MANIAC! Hey! What's with that skeptical look?\n\nI'm not joshing\nyou, I screwed up an experiment and got combined with a POK\u00e9MON!\n\nSo, how about it?\nHelp me out here!",
+      "No!? Come on, you\ngotta help a guy in deep trouble!\n\nWhat do you say,\nchief? Please? OK? All right!",
+      "When I'm in the\nTELEPORTER, go to my PC and run the Cell Separation System!"
+     ],
+     "no_source_sequence": [
+      "Hiya! I'm a\nPOK\u00e9MON... ...No I'm not!\n\nCall me BILL!\nI'm a true blue POK\u00e9MANIAC! Hey! What's with that skeptical look?\n\nI'm not joshing\nyou, I screwed up an experiment and got combined with a POK\u00e9MON!\n\nSo, how about it?\nHelp me out here!",
+      "No!? Come on, you\ngotta help a guy in deep trouble!\n\nWhat do you say,\nchief? Please? OK? All right!",
+      "When I'm in the\nTELEPORTER, go to my PC and run the Cell Separation System!"
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 3,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "CeladonMartRoof|TEXT_CELADONMARTROOF_LITTLE_GIRL": {
+   "bridge_texts": [
+    "I'm thirsty!\nI want something to drink!\n\nGive her a drink?",
+    "I'm thirsty!\nI want something to drink!"
+   ],
+   "assembled_texts": [
+    "I'm thirsty!\nI want something to drink!\n\nGive her a drink?",
+    "I'm thirsty!\nI want something to drink!"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "I'm thirsty!\nI want something to drink!\n\nGive her a drink?",
+     "yes_texts": [],
+     "no_texts": [],
+     "tail_texts": [],
+     "yes_played": [
+      "I'm thirsty!\nI want something to drink!\n\nGive her a drink?"
+     ],
+     "no_played": [
+      "I'm thirsty!\nI want something to drink!\n\nGive her a drink?"
+     ],
+     "no_source_sequence": [
+      "I'm thirsty!\nI want something to drink!\n\nGive her a drink?"
+     ],
+     "no_exact": true,
+     "block_len": 2,
+     "branch_end_offset": 1,
+     "branch_goto_offset": 2,
+     "yes_target": 1,
+     "no_target": 1
+    }
+   ]
+  },
+  "Daycare|TEXT_DAYCARE_GENTLEMAN": {
+   "bridge_texts": [
+    "I run a DAYCARE.\nWould you like me to raise one of your POK\u00e9MON?",
+    "Which POK\u00e9MON\nshould I raise?",
+    "Fine, I'll look\nafter [wNameBuffer] for a while.",
+    "Your [wNameBuffer]\nhas grown a lot!\n\nBy level, it's\ngrown by [wDayCareNumLevelsGrown]!\n\nAren't I great?",
+    "You owe me \u00a5[wDayCareTotalCost]\nfor the return of this POK\u00e9MON.",
+    "Thank you! Here's\nyour POK\u00e9MON!",
+    "<PLAYER> got\n[wDayCareMonName] back!"
+   ],
+   "assembled_texts": [
+    "I run a DAYCARE.\nWould you like me to raise one of your POK\u00e9MON?",
+    "come again.",
+    "You only have one\nPOK\u00e9MON with you.",
+    "Which POK\u00e9MON\nshould I raise?",
+    "All right then,",
+    "I can't accept a\nPOK\u00e9MON that knows an HM move.",
+    "Fine, I'll look\nafter [wNameBuffer] for a while.",
+    "Come see me in\na while.",
+    "Back already?\nYour [wNameBuffer] needs some more time with me.",
+    "Your [wNameBuffer]\nhas grown a lot!\n\nBy level, it's\ngrown by [wDayCareNumLevelsGrown]!\n\nAren't I great?",
+    "You have no room\nfor this POK\u00e9MON!",
+    "You owe me \u00a5[wDayCareTotalCost]\nfor the return of this POK\u00e9MON.",
+    "All right then,",
+    "Hey, you don't\nhave enough \u00a5!",
+    "Thank you! Here's\nyour POK\u00e9MON!",
+    "<PLAYER> got\n[wDayCareMonName] back!"
+   ],
+   "restored_texts": [
+    "You only have one\nPOK\u00e9MON with you.",
+    "All right then,",
+    "I can't accept a\nPOK\u00e9MON that knows an HM move.",
+    "Come see me in\na while.",
+    "come again.",
+    "Back already?\nYour [wNameBuffer] needs some more time with me.",
+    "You have no room\nfor this POK\u00e9MON!",
+    "Hey, you don't\nhave enough \u00a5!",
+    "All right then,"
+   ],
+   "choices": [
+    {
+     "prompt_text": "I run a DAYCARE.\nWould you like me to raise one of your POK\u00e9MON?",
+     "yes_texts": [
+      "You only have one\nPOK\u00e9MON with you.",
+      "Which POK\u00e9MON\nshould I raise?",
+      "All right then,",
+      "I can't accept a\nPOK\u00e9MON that knows an HM move.",
+      "Fine, I'll look\nafter [wNameBuffer] for a while.",
+      "Come see me in\na while."
+     ],
+     "no_texts": [
+      "come again."
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "I run a DAYCARE.\nWould you like me to raise one of your POK\u00e9MON?",
+      "You only have one\nPOK\u00e9MON with you.",
+      "Which POK\u00e9MON\nshould I raise?",
+      "All right then,",
+      "I can't accept a\nPOK\u00e9MON that knows an HM move.",
+      "Fine, I'll look\nafter [wNameBuffer] for a while.",
+      "Come see me in\na while."
+     ],
+     "no_played": [
+      "I run a DAYCARE.\nWould you like me to raise one of your POK\u00e9MON?",
+      "come again."
+     ],
+     "no_source_sequence": [
+      "I run a DAYCARE.\nWould you like me to raise one of your POK\u00e9MON?",
+      "come again."
+     ],
+     "no_exact": true,
+     "block_len": 9,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 9,
+     "yes_target": 3,
+     "no_target": 1
+    },
+    {
+     "prompt_text": "You owe me \u00a5[wDayCareTotalCost]\nfor the return of this POK\u00e9MON.",
+     "yes_texts": [
+      "Hey, you don't\nhave enough \u00a5!",
+      "Thank you! Here's\nyour POK\u00e9MON!",
+      "<PLAYER> got\n[wDayCareMonName] back!"
+     ],
+     "no_texts": [
+      "All right then,"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "You owe me \u00a5[wDayCareTotalCost]\nfor the return of this POK\u00e9MON.",
+      "Hey, you don't\nhave enough \u00a5!",
+      "Thank you! Here's\nyour POK\u00e9MON!",
+      "<PLAYER> got\n[wDayCareMonName] back!"
+     ],
+     "no_played": [
+      "You owe me \u00a5[wDayCareTotalCost]\nfor the return of this POK\u00e9MON.",
+      "All right then,"
+     ],
+     "no_source_sequence": [
+      "You owe me \u00a5[wDayCareTotalCost]\nfor the return of this POK\u00e9MON.",
+      "All right then,"
+     ],
+     "no_exact": true,
+     "block_len": 6,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 6,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "FightingDojo|TEXT_FIGHTINGDOJO_HITMONCHAN_POKE_BALL": {
+   "bridge_texts": [
+    "Better not get\ngreedy...",
+    "You want the\npiston punching HITMONCHAN?"
+   ],
+   "assembled_texts": [
+    "Better not get\ngreedy...",
+    "You want the\npiston punching HITMONCHAN?"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "You want the\npiston punching HITMONCHAN?",
+     "yes_texts": [],
+     "no_texts": [],
+     "tail_texts": [],
+     "yes_played": [
+      "You want the\npiston punching HITMONCHAN?"
+     ],
+     "no_played": [
+      "You want the\npiston punching HITMONCHAN?"
+     ],
+     "no_source_sequence": [
+      "You want the\npiston punching HITMONCHAN?"
+     ],
+     "no_exact": true,
+     "block_len": 2,
+     "branch_end_offset": 1,
+     "branch_goto_offset": 2,
+     "yes_target": 1,
+     "no_target": 1
+    }
+   ]
+  },
+  "FightingDojo|TEXT_FIGHTINGDOJO_HITMONLEE_POKE_BALL": {
+   "bridge_texts": [
+    "Better not get\ngreedy...",
+    "You want the\nhard kicking HITMONLEE?"
+   ],
+   "assembled_texts": [
+    "Better not get\ngreedy...",
+    "You want the\nhard kicking HITMONLEE?"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "You want the\nhard kicking HITMONLEE?",
+     "yes_texts": [],
+     "no_texts": [],
+     "tail_texts": [],
+     "yes_played": [
+      "You want the\nhard kicking HITMONLEE?"
+     ],
+     "no_played": [
+      "You want the\nhard kicking HITMONLEE?"
+     ],
+     "no_source_sequence": [
+      "You want the\nhard kicking HITMONLEE?"
+     ],
+     "no_exact": true,
+     "block_len": 2,
+     "branch_end_offset": 1,
+     "branch_goto_offset": 2,
+     "yes_target": 1,
+     "no_target": 1
+    }
+   ]
+  },
+  "FuchsiaGoodRodHouse|TEXT_FUCHSIAGOODRODHOUSE_FISHING_GURU": {
+   "bridge_texts": [
+    "I'm the FISHING\nGURU's older brother!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+    "Hello there,\n<PLAYER>!\n\nHow are the fish\nbiting?"
+   ],
+   "assembled_texts": [
+    "I'm the FISHING\nGURU's older brother!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+    "Oh... That's so\ndisappointing...",
+    "Grand! I like\nyour style!\n\nTake this and\nfish, young one!\n\n<PLAYER> received\na [wStringBuffer]!",
+    "Oh no!\n\nYou have no room\nfor my gift!",
+    "Hello there,\n<PLAYER>!\n\nHow are the fish\nbiting?"
+   ],
+   "restored_texts": [
+    "Grand! I like\nyour style!\n\nTake this and\nfish, young one!\n\n<PLAYER> received\na [wStringBuffer]!",
+    "Oh no!\n\nYou have no room\nfor my gift!",
+    "Oh... That's so\ndisappointing..."
+   ],
+   "choices": [
+    {
+     "prompt_text": "I'm the FISHING\nGURU's older brother!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+     "yes_texts": [
+      "Grand! I like\nyour style!\n\nTake this and\nfish, young one!\n\n<PLAYER> received\na [wStringBuffer]!",
+      "Oh no!\n\nYou have no room\nfor my gift!"
+     ],
+     "no_texts": [
+      "Oh... That's so\ndisappointing..."
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "I'm the FISHING\nGURU's older brother!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+      "Grand! I like\nyour style!\n\nTake this and\nfish, young one!\n\n<PLAYER> received\na [wStringBuffer]!",
+      "Oh no!\n\nYou have no room\nfor my gift!"
+     ],
+     "no_played": [
+      "I'm the FISHING\nGURU's older brother!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+      "Oh... That's so\ndisappointing..."
+     ],
+     "no_source_sequence": [
+      "I'm the FISHING\nGURU's older brother!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+      "Oh... That's so\ndisappointing..."
+     ],
+     "no_exact": true,
+     "block_len": 5,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 5,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "GameCorner|TEXT_GAMECORNER_CLERK1": {
+   "bridge_texts": [
+    "Welcome to ROCKET\nGAME CORNER!\n\nDo you need some\ngame coins?\n\nIt's \u00a51000 for 50\ncoins. Would you like some?",
+    "You don't have a\nCOIN CASE!"
+   ],
+   "assembled_texts": [
+    "Welcome to ROCKET\nGAME CORNER!\n\nDo you need some\ngame coins?\n\nIt's \u00a51000 for 50\ncoins. Would you like some?",
+    "No? Please come\nplay sometime!",
+    "You can't afford\nthe coins!",
+    "Thanks! Here are\nyour 50 coins!",
+    "Oops! Your COIN\nCASE is full.",
+    "You don't have a\nCOIN CASE!"
+   ],
+   "restored_texts": [
+    "You can't afford\nthe coins!",
+    "Thanks! Here are\nyour 50 coins!",
+    "Oops! Your COIN\nCASE is full.",
+    "No? Please come\nplay sometime!"
+   ],
+   "choices": [
+    {
+     "prompt_text": "Welcome to ROCKET\nGAME CORNER!\n\nDo you need some\ngame coins?\n\nIt's \u00a51000 for 50\ncoins. Would you like some?",
+     "yes_texts": [
+      "You can't afford\nthe coins!",
+      "Thanks! Here are\nyour 50 coins!",
+      "Oops! Your COIN\nCASE is full.",
+      "You don't have a\nCOIN CASE!"
+     ],
+     "no_texts": [
+      "No? Please come\nplay sometime!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "Welcome to ROCKET\nGAME CORNER!\n\nDo you need some\ngame coins?\n\nIt's \u00a51000 for 50\ncoins. Would you like some?",
+      "You can't afford\nthe coins!",
+      "Thanks! Here are\nyour 50 coins!",
+      "Oops! Your COIN\nCASE is full.",
+      "You don't have a\nCOIN CASE!"
+     ],
+     "no_played": [
+      "Welcome to ROCKET\nGAME CORNER!\n\nDo you need some\ngame coins?\n\nIt's \u00a51000 for 50\ncoins. Would you like some?",
+      "No? Please come\nplay sometime!"
+     ],
+     "no_source_sequence": [
+      "Welcome to ROCKET\nGAME CORNER!\n\nDo you need some\ngame coins?\n\nIt's \u00a51000 for 50\ncoins. Would you like some?",
+      "No? Please come\nplay sometime!"
+     ],
+     "no_exact": true,
+     "block_len": 7,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 7,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "LavenderTown|TEXT_LAVENDERTOWN_LITTLE_GIRL": {
+   "bridge_texts": [
+    "Do you believe in\nGHOSTs?",
+    "Really? So there\nare believers..."
+   ],
+   "assembled_texts": [
+    "Do you believe in\nGHOSTs?",
+    "Hahaha, I guess\nnot.\n\nThat white hand\non your shoulder, it's not real.",
+    "Really? So there\nare believers..."
+   ],
+   "restored_texts": [
+    "Hahaha, I guess\nnot.\n\nThat white hand\non your shoulder, it's not real."
+   ],
+   "choices": [
+    {
+     "prompt_text": "Do you believe in\nGHOSTs?",
+     "yes_texts": [
+      "Really? So there\nare believers..."
+     ],
+     "no_texts": [
+      "Hahaha, I guess\nnot.\n\nThat white hand\non your shoulder, it's not real."
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "Do you believe in\nGHOSTs?",
+      "Really? So there\nare believers..."
+     ],
+     "no_played": [
+      "Do you believe in\nGHOSTs?",
+      "Hahaha, I guess\nnot.\n\nThat white hand\non your shoulder, it's not real."
+     ],
+     "no_source_sequence": [
+      "Do you believe in\nGHOSTs?",
+      "Hahaha, I guess\nnot.\n\nThat white hand\non your shoulder, it's not real."
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "MtMoonB2F|TEXT_MTMOONB2F_DOME_FOSSIL": {
+   "bridge_texts": [
+    "You want the\nDOME FOSSIL?"
+   ],
+   "assembled_texts": [
+    "You want the\nDOME FOSSIL?"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "You want the\nDOME FOSSIL?",
+     "yes_texts": [],
+     "no_texts": [],
+     "tail_texts": [],
+     "yes_played": [
+      "You want the\nDOME FOSSIL?"
+     ],
+     "no_played": [
+      "You want the\nDOME FOSSIL?"
+     ],
+     "no_source_sequence": [
+      "You want the\nDOME FOSSIL?"
+     ],
+     "no_exact": true,
+     "block_len": 2,
+     "branch_end_offset": 1,
+     "branch_goto_offset": 2,
+     "yes_target": 1,
+     "no_target": 1
+    }
+   ]
+  },
+  "MtMoonB2F|TEXT_MTMOONB2F_HELIX_FOSSIL": {
+   "bridge_texts": [
+    "You want the\nHELIX FOSSIL?"
+   ],
+   "assembled_texts": [
+    "You want the\nHELIX FOSSIL?"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "You want the\nHELIX FOSSIL?",
+     "yes_texts": [],
+     "no_texts": [],
+     "tail_texts": [],
+     "yes_played": [
+      "You want the\nHELIX FOSSIL?"
+     ],
+     "no_played": [
+      "You want the\nHELIX FOSSIL?"
+     ],
+     "no_source_sequence": [
+      "You want the\nHELIX FOSSIL?"
+     ],
+     "no_exact": true,
+     "block_len": 2,
+     "branch_end_offset": 1,
+     "branch_goto_offset": 2,
+     "yes_target": 1,
+     "no_target": 1
+    }
+   ]
+  },
+  "MtMoonPokecenter|TEXT_MTMOONPOKECENTER_MAGIKARP_SALESMAN": {
+   "bridge_texts": [
+    "MAN: Hello, there!\nHave I got a deal just for you!\n\nI'll let you have\na swell MAGIKARP for just \u00a5500! What do you say?",
+    "No? I'm only\ndoing this as a favor to you!",
+    "You'll need more\nmoney than that!",
+    "MAN: Well, I don't\ngive refunds!"
+   ],
+   "assembled_texts": [
+    "MAN: Hello, there!\nHave I got a deal just for you!\n\nI'll let you have\na swell MAGIKARP for just \u00a5500! What do you say?",
+    "No? I'm only\ndoing this as a favor to you!",
+    "You'll need more\nmoney than that!",
+    "MAN: Well, I don't\ngive refunds!"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "MAN: Hello, there!\nHave I got a deal just for you!\n\nI'll let you have\na swell MAGIKARP for just \u00a5500! What do you say?",
+     "yes_texts": [
+      "You'll need more\nmoney than that!"
+     ],
+     "no_texts": [
+      "No? I'm only\ndoing this as a favor to you!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "MAN: Hello, there!\nHave I got a deal just for you!\n\nI'll let you have\na swell MAGIKARP for just \u00a5500! What do you say?",
+      "You'll need more\nmoney than that!"
+     ],
+     "no_played": [
+      "MAN: Hello, there!\nHave I got a deal just for you!\n\nI'll let you have\na swell MAGIKARP for just \u00a5500! What do you say?",
+      "No? I'm only\ndoing this as a favor to you!"
+     ],
+     "no_source_sequence": [
+      "MAN: Hello, there!\nHave I got a deal just for you!\n\nI'll let you have\na swell MAGIKARP for just \u00a5500! What do you say?",
+      "No? I'm only\ndoing this as a favor to you!"
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "Museum1F|TEXT_MUSEUM1F_SCIENTIST1": {
+   "bridge_texts": [
+    "Please go to the\nother side!",
+    "Take plenty of\ntime to look!",
+    "It's \u00a550 for a\nchild's ticket.\n\nWould you like to\ncome in?",
+    "You don't have\nenough money.",
+    "Right, \u00a550!\nThank you!",
+    "Come again!",
+    "You can't sneak\nin the back way!\n\nOh, whatever!\nDo you know what AMBER is?",
+    "There's a lab\nsomewhere trying to resurrect ancient POK\u00e9MON from AMBER.",
+    "AMBER is fossil-\nized tree sap."
+   ],
+   "assembled_texts": [
+    "Please go to the\nother side!",
+    "Take plenty of\ntime to look!",
+    "It's \u00a550 for a\nchild's ticket.\n\nWould you like to\ncome in?",
+    "Come again!",
+    "You don't have\nenough money.",
+    "Right, \u00a550!\nThank you!",
+    "You can't sneak\nin the back way!\n\nOh, whatever!\nDo you know what AMBER is?",
+    "AMBER is fossil-\nized tree sap.",
+    "There's a lab\nsomewhere trying to resurrect ancient POK\u00e9MON from AMBER."
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "It's \u00a550 for a\nchild's ticket.\n\nWould you like to\ncome in?",
+     "yes_texts": [
+      "You don't have\nenough money.",
+      "Right, \u00a550!\nThank you!"
+     ],
+     "no_texts": [
+      "Come again!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "It's \u00a550 for a\nchild's ticket.\n\nWould you like to\ncome in?",
+      "You don't have\nenough money.",
+      "Right, \u00a550!\nThank you!"
+     ],
+     "no_played": [
+      "It's \u00a550 for a\nchild's ticket.\n\nWould you like to\ncome in?",
+      "Come again!"
+     ],
+     "no_source_sequence": [
+      "It's \u00a550 for a\nchild's ticket.\n\nWould you like to\ncome in?",
+      "Come again!"
+     ],
+     "no_exact": true,
+     "block_len": 5,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 5,
+     "yes_target": 3,
+     "no_target": 1
+    },
+    {
+     "prompt_text": "You can't sneak\nin the back way!\n\nOh, whatever!\nDo you know what AMBER is?",
+     "yes_texts": [
+      "There's a lab\nsomewhere trying to resurrect ancient POK\u00e9MON from AMBER."
+     ],
+     "no_texts": [
+      "AMBER is fossil-\nized tree sap."
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "You can't sneak\nin the back way!\n\nOh, whatever!\nDo you know what AMBER is?",
+      "There's a lab\nsomewhere trying to resurrect ancient POK\u00e9MON from AMBER."
+     ],
+     "no_played": [
+      "You can't sneak\nin the back way!\n\nOh, whatever!\nDo you know what AMBER is?",
+      "AMBER is fossil-\nized tree sap."
+     ],
+     "no_source_sequence": [
+      "You can't sneak\nin the back way!\n\nOh, whatever!\nDo you know what AMBER is?",
+      "AMBER is fossil-\nized tree sap."
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "PewterCity|TEXT_PEWTERCITY_SUPER_NERD1": {
+   "bridge_texts": [
+    "Did you check out\nthe MUSEUM?",
+    "Weren't those\nfossils from MT. MOON amazing?",
+    "Really?\nYou absolutely have to go!"
+   ],
+   "assembled_texts": [
+    "Did you check out\nthe MUSEUM?",
+    "Really?\nYou absolutely have to go!",
+    "Weren't those\nfossils from MT. MOON amazing?"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "Did you check out\nthe MUSEUM?",
+     "yes_texts": [
+      "Weren't those\nfossils from MT. MOON amazing?"
+     ],
+     "no_texts": [
+      "Really?\nYou absolutely have to go!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "Did you check out\nthe MUSEUM?",
+      "Weren't those\nfossils from MT. MOON amazing?"
+     ],
+     "no_played": [
+      "Did you check out\nthe MUSEUM?",
+      "Really?\nYou absolutely have to go!"
+     ],
+     "no_source_sequence": [
+      "Did you check out\nthe MUSEUM?",
+      "Really?\nYou absolutely have to go!"
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "PewterCity|TEXT_PEWTERCITY_SUPER_NERD2": {
+   "bridge_texts": [
+    "Psssst!\nDo you know what I'm doing?",
+    "That's right!\nIt's hard work!",
+    "I'm spraying REPEL\nto keep POK\u00e9MON out of my garden!"
+   ],
+   "assembled_texts": [
+    "Psssst!\nDo you know what I'm doing?",
+    "I'm spraying REPEL\nto keep POK\u00e9MON out of my garden!",
+    "That's right!\nIt's hard work!"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "Psssst!\nDo you know what I'm doing?",
+     "yes_texts": [
+      "That's right!\nIt's hard work!"
+     ],
+     "no_texts": [
+      "I'm spraying REPEL\nto keep POK\u00e9MON out of my garden!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "Psssst!\nDo you know what I'm doing?",
+      "That's right!\nIt's hard work!"
+     ],
+     "no_played": [
+      "Psssst!\nDo you know what I'm doing?",
+      "I'm spraying REPEL\nto keep POK\u00e9MON out of my garden!"
+     ],
+     "no_source_sequence": [
+      "Psssst!\nDo you know what I'm doing?",
+      "I'm spraying REPEL\nto keep POK\u00e9MON out of my garden!"
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "PewterGym|TEXT_PEWTERGYM_GYM_GUIDE": {
+   "bridge_texts": [
+    "Hiya! I can tell\nyou have what it takes to become a POK\u00e9MON champ!\n\nI'm no trainer,\nbut I can tell you how to win!\n\nLet me take you\nto the top!",
+    "All right! Let's\nget happening!",
+    "It's a free\nservice! Let's get happening!",
+    "The 1st POK\u00e9MON\nout in a match is at the top of the POK\u00e9MON LIST!\n\nBy changing the\norder of POK\u00e9MON, matches could be made easier!",
+    "Just as I thought!\nYou're POK\u00e9MON champ material!"
+   ],
+   "assembled_texts": [
+    "Hiya! I can tell\nyou have what it takes to become a POK\u00e9MON champ!\n\nI'm no trainer,\nbut I can tell you how to win!\n\nLet me take you\nto the top!",
+    "It's a free\nservice! Let's get happening!",
+    "All right! Let's\nget happening!",
+    "The 1st POK\u00e9MON\nout in a match is at the top of the POK\u00e9MON LIST!\n\nBy changing the\norder of POK\u00e9MON, matches could be made easier!",
+    "Just as I thought!\nYou're POK\u00e9MON champ material!"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "Hiya! I can tell\nyou have what it takes to become a POK\u00e9MON champ!\n\nI'm no trainer,\nbut I can tell you how to win!\n\nLet me take you\nto the top!",
+     "yes_texts": [
+      "All right! Let's\nget happening!"
+     ],
+     "no_texts": [
+      "It's a free\nservice! Let's get happening!"
+     ],
+     "tail_texts": [
+      "The 1st POK\u00e9MON\nout in a match is at the top of the POK\u00e9MON LIST!\n\nBy changing the\norder of POK\u00e9MON, matches could be made easier!"
+     ],
+     "yes_played": [
+      "Hiya! I can tell\nyou have what it takes to become a POK\u00e9MON champ!\n\nI'm no trainer,\nbut I can tell you how to win!\n\nLet me take you\nto the top!",
+      "All right! Let's\nget happening!",
+      "The 1st POK\u00e9MON\nout in a match is at the top of the POK\u00e9MON LIST!\n\nBy changing the\norder of POK\u00e9MON, matches could be made easier!"
+     ],
+     "no_played": [
+      "Hiya! I can tell\nyou have what it takes to become a POK\u00e9MON champ!\n\nI'm no trainer,\nbut I can tell you how to win!\n\nLet me take you\nto the top!",
+      "It's a free\nservice! Let's get happening!",
+      "The 1st POK\u00e9MON\nout in a match is at the top of the POK\u00e9MON LIST!\n\nBy changing the\norder of POK\u00e9MON, matches could be made easier!"
+     ],
+     "no_source_sequence": [
+      "Hiya! I can tell\nyou have what it takes to become a POK\u00e9MON champ!\n\nI'm no trainer,\nbut I can tell you how to win!\n\nLet me take you\nto the top!",
+      "It's a free\nservice! Let's get happening!",
+      "The 1st POK\u00e9MON\nout in a match is at the top of the POK\u00e9MON LIST!\n\nBy changing the\norder of POK\u00e9MON, matches could be made easier!"
+     ],
+     "no_exact": true,
+     "block_len": 5,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "PokemonFanClub|TEXT_POKEMONFANCLUB_CHAIRMAN": {
+   "bridge_texts": [
+    "I chair the\nPOK\u00e9MON Fan Club!\n\nI have collected\nover 100 POK\u00e9MON!\n\nI'm very fussy\nwhen it comes to POK\u00e9MON!\n\nSo...\n\nDid you come\nvisit to hear about my POK\u00e9MON?",
+    "Good!\nThen listen up!\n\nMy favorite\nRAPIDASH...\n\nIt...cute...\nlovely...smart... plus...amazing... you think so?... oh yes...it... stunning... kindly... love it!\n\nHug it...when... sleeping...warm and cuddly... spectacular... ravishing... ...Oops! Look at the time! I kept you too long!\n\nThanks for hearing\nme out! I want you to have this!",
+    "<PLAYER> received\na [wStringBuffer]!",
+    "Exchange that for\na BICYCLE!\n\nDon't worry, my\nFEAROW will FLY me anywhere!\n\nSo, I don't need a\nBICYCLE!\n\nI hope you like\ncycling!",
+    "Make room for\nthis!",
+    "Oh. Come back\nwhen you want to hear my story!",
+    "Hello, <PLAYER>!\n\nDid you come see\nme about my POK\u00e9MON again?\n\nNo? Too bad!"
+   ],
+   "assembled_texts": [
+    "I chair the\nPOK\u00e9MON Fan Club!\n\nI have collected\nover 100 POK\u00e9MON!\n\nI'm very fussy\nwhen it comes to POK\u00e9MON!\n\nSo...\n\nDid you come\nvisit to hear about my POK\u00e9MON?",
+    "Oh. Come back\nwhen you want to hear my story!",
+    "Good!\nThen listen up!\n\nMy favorite\nRAPIDASH...\n\nIt...cute...\nlovely...smart... plus...amazing... you think so?... oh yes...it... stunning... kindly... love it!\n\nHug it...when... sleeping...warm and cuddly... spectacular... ravishing... ...Oops! Look at the time! I kept you too long!\n\nThanks for hearing\nme out! I want you to have this!",
+    "<PLAYER> received\na [wStringBuffer]!",
+    "Exchange that for\na BICYCLE!\n\nDon't worry, my\nFEAROW will FLY me anywhere!\n\nSo, I don't need a\nBICYCLE!\n\nI hope you like\ncycling!",
+    "Make room for\nthis!",
+    "Hello, <PLAYER>!\n\nDid you come see\nme about my POK\u00e9MON again?\n\nNo? Too bad!"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "I chair the\nPOK\u00e9MON Fan Club!\n\nI have collected\nover 100 POK\u00e9MON!\n\nI'm very fussy\nwhen it comes to POK\u00e9MON!\n\nSo...\n\nDid you come\nvisit to hear about my POK\u00e9MON?",
+     "yes_texts": [
+      "Good!\nThen listen up!\n\nMy favorite\nRAPIDASH...\n\nIt...cute...\nlovely...smart... plus...amazing... you think so?... oh yes...it... stunning... kindly... love it!\n\nHug it...when... sleeping...warm and cuddly... spectacular... ravishing... ...Oops! Look at the time! I kept you too long!\n\nThanks for hearing\nme out! I want you to have this!",
+      "<PLAYER> received\na [wStringBuffer]!",
+      "Exchange that for\na BICYCLE!\n\nDon't worry, my\nFEAROW will FLY me anywhere!\n\nSo, I don't need a\nBICYCLE!\n\nI hope you like\ncycling!",
+      "Make room for\nthis!"
+     ],
+     "no_texts": [
+      "Oh. Come back\nwhen you want to hear my story!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "I chair the\nPOK\u00e9MON Fan Club!\n\nI have collected\nover 100 POK\u00e9MON!\n\nI'm very fussy\nwhen it comes to POK\u00e9MON!\n\nSo...\n\nDid you come\nvisit to hear about my POK\u00e9MON?",
+      "Good!\nThen listen up!\n\nMy favorite\nRAPIDASH...\n\nIt...cute...\nlovely...smart... plus...amazing... you think so?... oh yes...it... stunning... kindly... love it!\n\nHug it...when... sleeping...warm and cuddly... spectacular... ravishing... ...Oops! Look at the time! I kept you too long!\n\nThanks for hearing\nme out! I want you to have this!",
+      "<PLAYER> received\na [wStringBuffer]!",
+      "Exchange that for\na BICYCLE!\n\nDon't worry, my\nFEAROW will FLY me anywhere!\n\nSo, I don't need a\nBICYCLE!\n\nI hope you like\ncycling!",
+      "Make room for\nthis!"
+     ],
+     "no_played": [
+      "I chair the\nPOK\u00e9MON Fan Club!\n\nI have collected\nover 100 POK\u00e9MON!\n\nI'm very fussy\nwhen it comes to POK\u00e9MON!\n\nSo...\n\nDid you come\nvisit to hear about my POK\u00e9MON?",
+      "Oh. Come back\nwhen you want to hear my story!"
+     ],
+     "no_source_sequence": [
+      "I chair the\nPOK\u00e9MON Fan Club!\n\nI have collected\nover 100 POK\u00e9MON!\n\nI'm very fussy\nwhen it comes to POK\u00e9MON!\n\nSo...\n\nDid you come\nvisit to hear about my POK\u00e9MON?",
+      "Oh. Come back\nwhen you want to hear my story!"
+     ],
+     "no_exact": true,
+     "block_len": 7,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 7,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "PokemonMansion1F|TEXT_POKEMONMANSION1F_SWITCH": {
+   "bridge_texts": [
+    "A secret switch!\n\nPress it?",
+    "Who wouldn't?",
+    "Not quite yet!"
+   ],
+   "assembled_texts": [
+    "A secret switch!\n\nPress it?",
+    "Not quite yet!",
+    "Who wouldn't?"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "A secret switch!\n\nPress it?",
+     "yes_texts": [
+      "Who wouldn't?"
+     ],
+     "no_texts": [
+      "Not quite yet!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "A secret switch!\n\nPress it?",
+      "Who wouldn't?"
+     ],
+     "no_played": [
+      "A secret switch!\n\nPress it?",
+      "Not quite yet!"
+     ],
+     "no_source_sequence": [
+      "A secret switch!\n\nPress it?",
+      "Not quite yet!"
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "PokemonMansion2F|TEXT_POKEMONMANSION2F_SWITCH": {
+   "bridge_texts": [
+    "A secret switch!\n\nPress it?",
+    "Who wouldn't?",
+    "Not quite yet!"
+   ],
+   "assembled_texts": [
+    "A secret switch!\n\nPress it?",
+    "Not quite yet!",
+    "Who wouldn't?"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "A secret switch!\n\nPress it?",
+     "yes_texts": [
+      "Who wouldn't?"
+     ],
+     "no_texts": [
+      "Not quite yet!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "A secret switch!\n\nPress it?",
+      "Who wouldn't?"
+     ],
+     "no_played": [
+      "A secret switch!\n\nPress it?",
+      "Not quite yet!"
+     ],
+     "no_source_sequence": [
+      "A secret switch!\n\nPress it?",
+      "Not quite yet!"
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "PokemonMansion3F|TEXT_POKEMONMANSION3F_SWITCH": {
+   "bridge_texts": [
+    "A secret switch!\n\nPress it?",
+    "Who wouldn't?",
+    "Not quite yet!"
+   ],
+   "assembled_texts": [
+    "A secret switch!\n\nPress it?",
+    "Not quite yet!",
+    "Who wouldn't?"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "A secret switch!\n\nPress it?",
+     "yes_texts": [
+      "Who wouldn't?"
+     ],
+     "no_texts": [
+      "Not quite yet!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "A secret switch!\n\nPress it?",
+      "Who wouldn't?"
+     ],
+     "no_played": [
+      "A secret switch!\n\nPress it?",
+      "Not quite yet!"
+     ],
+     "no_source_sequence": [
+      "A secret switch!\n\nPress it?",
+      "Not quite yet!"
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "PokemonMansionB1F|TEXT_POKEMONMANSIONB1F_SWITCH": {
+   "bridge_texts": [
+    "A secret switch!\n\nPress it?",
+    "Who wouldn't?",
+    "Not quite yet!"
+   ],
+   "assembled_texts": [
+    "A secret switch!\n\nPress it?",
+    "Not quite yet!",
+    "Who wouldn't?"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "A secret switch!\n\nPress it?",
+     "yes_texts": [
+      "Who wouldn't?"
+     ],
+     "no_texts": [
+      "Not quite yet!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "A secret switch!\n\nPress it?",
+      "Who wouldn't?"
+     ],
+     "no_played": [
+      "A secret switch!\n\nPress it?",
+      "Not quite yet!"
+     ],
+     "no_source_sequence": [
+      "A secret switch!\n\nPress it?",
+      "Not quite yet!"
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "Route12SuperRodHouse|TEXT_ROUTE12SUPERRODHOUSE_FISHING_GURU": {
+   "bridge_texts": [
+    "I'm the FISHING\nGURU's brother!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+    "Hello there,\n<PLAYER>!\n\nUse the SUPER ROD\nin any water! You can catch different kinds of POK\u00e9MON.\n\nTry fishing\nwherever you can!"
+   ],
+   "assembled_texts": [
+    "I'm the FISHING\nGURU's brother!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+    "Oh... That's so\ndisappointing...",
+    "Grand! I like\nyour style!\n\nTake this and\nfish, young one!\n\n<PLAYER> received\na [wStringBuffer]!",
+    "Fishing is a way\nof life!\n\nFrom the seas to\nrivers, go out and land the big one!",
+    "Oh no!\n\nI had a gift for\nyou, but you have no room for it!",
+    "Hello there,\n<PLAYER>!\n\nUse the SUPER ROD\nin any water! You can catch different kinds of POK\u00e9MON.\n\nTry fishing\nwherever you can!"
+   ],
+   "restored_texts": [
+    "Grand! I like\nyour style!\n\nTake this and\nfish, young one!\n\n<PLAYER> received\na [wStringBuffer]!",
+    "Fishing is a way\nof life!\n\nFrom the seas to\nrivers, go out and land the big one!",
+    "Oh no!\n\nI had a gift for\nyou, but you have no room for it!",
+    "Oh... That's so\ndisappointing..."
+   ],
+   "choices": [
+    {
+     "prompt_text": "I'm the FISHING\nGURU's brother!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+     "yes_texts": [
+      "Grand! I like\nyour style!\n\nTake this and\nfish, young one!\n\n<PLAYER> received\na [wStringBuffer]!",
+      "Fishing is a way\nof life!\n\nFrom the seas to\nrivers, go out and land the big one!",
+      "Oh no!\n\nI had a gift for\nyou, but you have no room for it!"
+     ],
+     "no_texts": [
+      "Oh... That's so\ndisappointing..."
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "I'm the FISHING\nGURU's brother!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+      "Grand! I like\nyour style!\n\nTake this and\nfish, young one!\n\n<PLAYER> received\na [wStringBuffer]!",
+      "Fishing is a way\nof life!\n\nFrom the seas to\nrivers, go out and land the big one!",
+      "Oh no!\n\nI had a gift for\nyou, but you have no room for it!"
+     ],
+     "no_played": [
+      "I'm the FISHING\nGURU's brother!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+      "Oh... That's so\ndisappointing..."
+     ],
+     "no_source_sequence": [
+      "I'm the FISHING\nGURU's brother!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+      "Oh... That's so\ndisappointing..."
+     ],
+     "no_exact": true,
+     "block_len": 6,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 6,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "SafariZoneGate|TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER1_LEAVING_EARLY": {
+   "bridge_texts": [
+    "Leaving early?",
+    "Please return any\nSAFARI BALLs you have left.",
+    "Good Luck!"
+   ],
+   "assembled_texts": [
+    "Leaving early?",
+    "Good Luck!",
+    "Please return any\nSAFARI BALLs you have left."
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "Leaving early?",
+     "yes_texts": [
+      "Please return any\nSAFARI BALLs you have left."
+     ],
+     "no_texts": [
+      "Good Luck!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "Leaving early?",
+      "Please return any\nSAFARI BALLs you have left."
+     ],
+     "no_played": [
+      "Leaving early?",
+      "Good Luck!"
+     ],
+     "no_source_sequence": [
+      "Leaving early?",
+      "Good Luck!"
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "SafariZoneGate|TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER1_WOULD_YOU_LIKE_TO_JOIN": {
+   "bridge_texts": [
+    "For just \u00a5500,\nyou can catch all the POK\u00e9MON you want in the park!\n\nWould you like to\njoin the hunt?",
+    "That'll be \u00a5500\nplease!\n\nWe only use a\nspecial POK\u00e9 BALL here.\n\n<PLAYER> received\n30 SAFARI BALLs!",
+    "We'll call you on\nthe PA when you run out of time or SAFARI BALLs!",
+    "OK! Please come\nagain!",
+    "Oops! Not enough\nmoney!"
+   ],
+   "assembled_texts": [
+    "For just \u00a5500,\nyou can catch all the POK\u00e9MON you want in the park!\n\nWould you like to\njoin the hunt?",
+    "OK! Please come\nagain!",
+    "That'll be \u00a5500\nplease!\n\nWe only use a\nspecial POK\u00e9 BALL here.\n\n<PLAYER> received\n30 SAFARI BALLs!",
+    "We'll call you on\nthe PA when you run out of time or SAFARI BALLs!",
+    "Oops! Not enough\nmoney!"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "For just \u00a5500,\nyou can catch all the POK\u00e9MON you want in the park!\n\nWould you like to\njoin the hunt?",
+     "yes_texts": [
+      "That'll be \u00a5500\nplease!\n\nWe only use a\nspecial POK\u00e9 BALL here.\n\n<PLAYER> received\n30 SAFARI BALLs!",
+      "We'll call you on\nthe PA when you run out of time or SAFARI BALLs!",
+      "Oops! Not enough\nmoney!"
+     ],
+     "no_texts": [
+      "OK! Please come\nagain!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "For just \u00a5500,\nyou can catch all the POK\u00e9MON you want in the park!\n\nWould you like to\njoin the hunt?",
+      "That'll be \u00a5500\nplease!\n\nWe only use a\nspecial POK\u00e9 BALL here.\n\n<PLAYER> received\n30 SAFARI BALLs!",
+      "We'll call you on\nthe PA when you run out of time or SAFARI BALLs!",
+      "Oops! Not enough\nmoney!"
+     ],
+     "no_played": [
+      "For just \u00a5500,\nyou can catch all the POK\u00e9MON you want in the park!\n\nWould you like to\njoin the hunt?",
+      "OK! Please come\nagain!"
+     ],
+     "no_source_sequence": [
+      "For just \u00a5500,\nyou can catch all the POK\u00e9MON you want in the park!\n\nWould you like to\njoin the hunt?",
+      "OK! Please come\nagain!"
+     ],
+     "no_exact": true,
+     "block_len": 6,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 6,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "SafariZoneGate|TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER2": {
+   "bridge_texts": [
+    "Hi! Is it your\nfirst time here?",
+    "SAFARI ZONE has 4\nzones in it.\n\nEach zone has\ndifferent kinds of POK\u00e9MON. Use SAFARI BALLs to catch them!\n\nWhen you run out\nof time or SAFARI BALLs, it's game over for you!\n\nBefore you go,\nopen an unused POK\u00e9MON BOX so there's room for new POK\u00e9MON!",
+    "Sorry, you're a\nregular here!"
+   ],
+   "assembled_texts": [
+    "Hi! Is it your\nfirst time here?",
+    "Sorry, you're a\nregular here!",
+    "SAFARI ZONE has 4\nzones in it.\n\nEach zone has\ndifferent kinds of POK\u00e9MON. Use SAFARI BALLs to catch them!\n\nWhen you run out\nof time or SAFARI BALLs, it's game over for you!\n\nBefore you go,\nopen an unused POK\u00e9MON BOX so there's room for new POK\u00e9MON!"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "Hi! Is it your\nfirst time here?",
+     "yes_texts": [
+      "SAFARI ZONE has 4\nzones in it.\n\nEach zone has\ndifferent kinds of POK\u00e9MON. Use SAFARI BALLs to catch them!\n\nWhen you run out\nof time or SAFARI BALLs, it's game over for you!\n\nBefore you go,\nopen an unused POK\u00e9MON BOX so there's room for new POK\u00e9MON!"
+     ],
+     "no_texts": [
+      "Sorry, you're a\nregular here!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "Hi! Is it your\nfirst time here?",
+      "SAFARI ZONE has 4\nzones in it.\n\nEach zone has\ndifferent kinds of POK\u00e9MON. Use SAFARI BALLs to catch them!\n\nWhen you run out\nof time or SAFARI BALLs, it's game over for you!\n\nBefore you go,\nopen an unused POK\u00e9MON BOX so there's room for new POK\u00e9MON!"
+     ],
+     "no_played": [
+      "Hi! Is it your\nfirst time here?",
+      "Sorry, you're a\nregular here!"
+     ],
+     "no_source_sequence": [
+      "Hi! Is it your\nfirst time here?",
+      "Sorry, you're a\nregular here!"
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "VermilionOldRodHouse|TEXT_VERMILIONOLDRODHOUSE_FISHING_GURU": {
+   "bridge_texts": [
+    "I'm the FISHING\nGURU!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+    "Hello there,\n<PLAYER>!\n\nHow are the fish\nbiting?"
+   ],
+   "assembled_texts": [
+    "I'm the FISHING\nGURU!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+    "Oh... That's so\ndisappointing...",
+    "Grand! I like\nyour style!\n\nTake this and\nfish, young one!\n\n<PLAYER> received\nan [wStringBuffer]!",
+    "Fishing is a way\nof life!\n\nFrom the seas to\nrivers, go out and land the big one, young one!",
+    "Oh no!\n\nYou have no room\nfor my gift!",
+    "Hello there,\n<PLAYER>!\n\nHow are the fish\nbiting?"
+   ],
+   "restored_texts": [
+    "Grand! I like\nyour style!\n\nTake this and\nfish, young one!\n\n<PLAYER> received\nan [wStringBuffer]!",
+    "Fishing is a way\nof life!\n\nFrom the seas to\nrivers, go out and land the big one, young one!",
+    "Oh no!\n\nYou have no room\nfor my gift!",
+    "Oh... That's so\ndisappointing..."
+   ],
+   "choices": [
+    {
+     "prompt_text": "I'm the FISHING\nGURU!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+     "yes_texts": [
+      "Grand! I like\nyour style!\n\nTake this and\nfish, young one!\n\n<PLAYER> received\nan [wStringBuffer]!",
+      "Fishing is a way\nof life!\n\nFrom the seas to\nrivers, go out and land the big one, young one!",
+      "Oh no!\n\nYou have no room\nfor my gift!"
+     ],
+     "no_texts": [
+      "Oh... That's so\ndisappointing..."
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "I'm the FISHING\nGURU!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+      "Grand! I like\nyour style!\n\nTake this and\nfish, young one!\n\n<PLAYER> received\nan [wStringBuffer]!",
+      "Fishing is a way\nof life!\n\nFrom the seas to\nrivers, go out and land the big one, young one!",
+      "Oh no!\n\nYou have no room\nfor my gift!"
+     ],
+     "no_played": [
+      "I'm the FISHING\nGURU!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+      "Oh... That's so\ndisappointing..."
+     ],
+     "no_source_sequence": [
+      "I'm the FISHING\nGURU!\n\nI simply Looove\nfishing!\n\nDo you like to\nfish?",
+      "Oh... That's so\ndisappointing..."
+     ],
+     "no_exact": true,
+     "block_len": 6,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 6,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "ViridianCity|TEXT_VIRIDIANCITY_OLD_MAN": {
+   "bridge_texts": [
+    "Ahh, I've had my\ncoffee now and I feel great!\n\nSure you can go\nthrough!\n\nAre you in a\nhurry?",
+    "I see you're using\na POK\u00e9DEX.\n\nWhen you catch a\nPOK\u00e9MON, POK\u00e9DEX is automatically updated.\n\nWhat? Don't you\nknow how to catch POK\u00e9MON?\n\nI'll show you\nhow to then.",
+    "Time is money...\nGo along then."
+   ],
+   "assembled_texts": [
+    "Ahh, I've had my\ncoffee now and I feel great!\n\nSure you can go\nthrough!\n\nAre you in a\nhurry?",
+    "I see you're using\na POK\u00e9DEX.\n\nWhen you catch a\nPOK\u00e9MON, POK\u00e9DEX is automatically updated.\n\nWhat? Don't you\nknow how to catch POK\u00e9MON?\n\nI'll show you\nhow to then.",
+    "Time is money...\nGo along then."
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "Ahh, I've had my\ncoffee now and I feel great!\n\nSure you can go\nthrough!\n\nAre you in a\nhurry?",
+     "yes_texts": [
+      "Time is money...\nGo along then."
+     ],
+     "no_texts": [
+      "I see you're using\na POK\u00e9DEX.\n\nWhen you catch a\nPOK\u00e9MON, POK\u00e9DEX is automatically updated.\n\nWhat? Don't you\nknow how to catch POK\u00e9MON?\n\nI'll show you\nhow to then."
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "Ahh, I've had my\ncoffee now and I feel great!\n\nSure you can go\nthrough!\n\nAre you in a\nhurry?",
+      "Time is money...\nGo along then."
+     ],
+     "no_played": [
+      "Ahh, I've had my\ncoffee now and I feel great!\n\nSure you can go\nthrough!\n\nAre you in a\nhurry?",
+      "I see you're using\na POK\u00e9DEX.\n\nWhen you catch a\nPOK\u00e9MON, POK\u00e9DEX is automatically updated.\n\nWhat? Don't you\nknow how to catch POK\u00e9MON?\n\nI'll show you\nhow to then."
+     ],
+     "no_source_sequence": [
+      "Ahh, I've had my\ncoffee now and I feel great!\n\nSure you can go\nthrough!\n\nAre you in a\nhurry?",
+      "I see you're using\na POK\u00e9DEX.\n\nWhen you catch a\nPOK\u00e9MON, POK\u00e9DEX is automatically updated.\n\nWhat? Don't you\nknow how to catch POK\u00e9MON?\n\nI'll show you\nhow to then."
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "ViridianCity|TEXT_VIRIDIANCITY_YOUNGSTER2": {
+   "bridge_texts": [
+    "You want to know\nabout the 2 kinds of caterpillar POK\u00e9MON?",
+    "CATERPIE has no\npoison, but WEEDLE does.\n\nWatch out for its\nPOISON STING!",
+    "Oh, OK then!"
+   ],
+   "assembled_texts": [
+    "You want to know\nabout the 2 kinds of caterpillar POK\u00e9MON?",
+    "Oh, OK then!",
+    "CATERPIE has no\npoison, but WEEDLE does.\n\nWatch out for its\nPOISON STING!"
+   ],
+   "restored_texts": [],
+   "choices": [
+    {
+     "prompt_text": "You want to know\nabout the 2 kinds of caterpillar POK\u00e9MON?",
+     "yes_texts": [
+      "CATERPIE has no\npoison, but WEEDLE does.\n\nWatch out for its\nPOISON STING!"
+     ],
+     "no_texts": [
+      "Oh, OK then!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "You want to know\nabout the 2 kinds of caterpillar POK\u00e9MON?",
+      "CATERPIE has no\npoison, but WEEDLE does.\n\nWatch out for its\nPOISON STING!"
+     ],
+     "no_played": [
+      "You want to know\nabout the 2 kinds of caterpillar POK\u00e9MON?",
+      "Oh, OK then!"
+     ],
+     "no_source_sequence": [
+      "You want to know\nabout the 2 kinds of caterpillar POK\u00e9MON?",
+      "Oh, OK then!"
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  },
+  "WardensHouse|TEXT_WARDENSHOUSE_WARDEN": {
+   "bridge_texts": [
+    "WARDEN: Hif fuff\nhefifoo!\n\nHa lof ha feef ee\nhafahi ho. Heff hee fwee!",
+    "Ah howhee ho hoo!\nEef ee hafahi ho!",
+    "<PLAYER> gave the\nGOLD TEETH to the WARDEN!",
+    "WARDEN: Thanks,\nkid! No one could understand a word that I said.\n\nI couldn't work\nthat way. Let me give you something for your trouble.",
+    "<PLAYER> received\n[wStringBuffer]!",
+    "WARDEN: HM04\nteaches STRENGTH!\n\nIt lets POK\u00e9MON\nmove boulders when you're out- side of battle.\n\nOh yes, did you\nfind SECRET HOUSE in SAFARI ZONE?\n\nIf you do, you\nwin an HM!\n\nI hear it's the\nrare SURF HM.",
+    "Your pack is\nstuffed full!"
+   ],
+   "assembled_texts": [
+    "WARDEN: Hif fuff\nhefifoo!\n\nHa lof ha feef ee\nhafahi ho. Heff hee fwee!",
+    "Ha? He ohay heh\nha hoo ee haheh!",
+    "Ah howhee ho hoo!\nEef ee hafahi ho!",
+    "<PLAYER> gave the\nGOLD TEETH to the WARDEN!",
+    "WARDEN: Thanks,\nkid! No one could understand a word that I said.\n\nI couldn't work\nthat way. Let me give you something for your trouble.",
+    "<PLAYER> received\n[wStringBuffer]!",
+    "WARDEN: HM04\nteaches STRENGTH!\n\nIt lets POK\u00e9MON\nmove boulders when you're out- side of battle.\n\nOh yes, did you\nfind SECRET HOUSE in SAFARI ZONE?\n\nIf you do, you\nwin an HM!\n\nI hear it's the\nrare SURF HM.",
+    "Your pack is\nstuffed full!"
+   ],
+   "restored_texts": [
+    "Ha? He ohay heh\nha hoo ee haheh!"
+   ],
+   "choices": [
+    {
+     "prompt_text": "WARDEN: Hif fuff\nhefifoo!\n\nHa lof ha feef ee\nhafahi ho. Heff hee fwee!",
+     "yes_texts": [
+      "Ah howhee ho hoo!\nEef ee hafahi ho!"
+     ],
+     "no_texts": [
+      "Ha? He ohay heh\nha hoo ee haheh!"
+     ],
+     "tail_texts": [],
+     "yes_played": [
+      "WARDEN: Hif fuff\nhefifoo!\n\nHa lof ha feef ee\nhafahi ho. Heff hee fwee!",
+      "Ah howhee ho hoo!\nEef ee hafahi ho!"
+     ],
+     "no_played": [
+      "WARDEN: Hif fuff\nhefifoo!\n\nHa lof ha feef ee\nhafahi ho. Heff hee fwee!",
+      "Ha? He ohay heh\nha hoo ee haheh!"
+     ],
+     "no_source_sequence": [
+      "WARDEN: Hif fuff\nhefifoo!\n\nHa lof ha feef ee\nhafahi ho. Heff hee fwee!",
+      "Ha? He ohay heh\nha hoo ee haheh!"
+     ],
+     "no_exact": true,
+     "block_len": 4,
+     "branch_end_offset": 2,
+     "branch_goto_offset": 4,
+     "yes_target": 3,
+     "no_target": 1
+    }
+   ]
+  }
+ }
+}

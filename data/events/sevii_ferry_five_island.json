@@ -1,0 +1,202 @@
+{
+ "comment": "Seagallop ferry, FiveIsland_Harbor (pokefirered data/maps/FiveIsland_Harbor/scripts.inc FiveIsland_Harbor_EventScript_Sailor + data/scripts/seagallop.inc). The sailor asks Text_WhereDoYouWantToSail (restored Sevii bank), The greeting plays via the bridge ref -- the same ref the restored placement carries. the host's menu supplies the destination as exactly one ferry_dest_* transient flag (none = cancelled, the script ends), and the chosen sailing plays the source's departing line -- Text_AllAboardSeagallopNum (bank _common group; {STR_VAR_1} is GetSeagallopNumber's value for the route, supplied by the host as a runner substitution; table in sevii_ferry_wiring.json) -- then fades and warps to the destination harbor's sole warp (id 1). Scripted transfer only (reachability audit B-06): no warp-data edge is added. This harbor is only reachable with the Rainbow Pass, and its sailor offers the full Sevii destinations pages (source scene >= 5 branch). The sailor object already stands on the bound map at (8, 6).",
+ "id": "sevii_ferry_five_island",
+ "map": "FiveIsland_Harbor",
+ "steps": [
+  {
+   "dialogue": {
+    "map": "FiveIsland_Harbor",
+    "ref": "FiveIsland_Harbor_EventScript_Sailor"
+   },
+   "dialogue_label": "Text_WhereDoYouWantToSail",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "Text_AllAboardSeagallopNum"
+   },
+   "dialogue_label": "Text_AllAboardSeagallopNum",
+   "if_flag": "ferry_dest_vermilion",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_vermilion",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_vermilion",
+   "map": "VermilionDock",
+   "op": "warp",
+   "to": [
+    28,
+    0
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "Text_AllAboardSeagallopNum"
+   },
+   "dialogue_label": "Text_AllAboardSeagallopNum",
+   "if_flag": "ferry_dest_one_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_one_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_one_island",
+   "map": "OneIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "Text_AllAboardSeagallopNum"
+   },
+   "dialogue_label": "Text_AllAboardSeagallopNum",
+   "if_flag": "ferry_dest_two_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_two_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_two_island",
+   "map": "TwoIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "Text_AllAboardSeagallopNum"
+   },
+   "dialogue_label": "Text_AllAboardSeagallopNum",
+   "if_flag": "ferry_dest_three_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_three_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_three_island",
+   "map": "ThreeIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "Text_AllAboardSeagallopNum"
+   },
+   "dialogue_label": "Text_AllAboardSeagallopNum",
+   "if_flag": "ferry_dest_four_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_four_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_four_island",
+   "map": "FourIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "Text_AllAboardSeagallopNum"
+   },
+   "dialogue_label": "Text_AllAboardSeagallopNum",
+   "if_flag": "ferry_dest_six_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_six_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_six_island",
+   "map": "SixIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "dialogue": {
+    "map": "_common",
+    "ref": "Text_AllAboardSeagallopNum"
+   },
+   "dialogue_label": "Text_AllAboardSeagallopNum",
+   "if_flag": "ferry_dest_seven_island",
+   "op": "say",
+   "speaker": "sailor"
+  },
+  {
+   "if_flag": "ferry_dest_seven_island",
+   "op": "fade",
+   "seconds": 0.5,
+   "to": 1.0
+  },
+  {
+   "if_flag": "ferry_dest_seven_island",
+   "map": "SevenIsland_Harbor",
+   "op": "warp",
+   "to": [
+    8,
+    2
+   ],
+   "warp": 1
+  },
+  {
+   "id": "end",
+   "op": "label"
+  }
+ ]
+}

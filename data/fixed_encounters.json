@@ -1,0 +1,128 @@
+{
+ "comment": "FIXED (STATIC) ENCOUNTERS - one record per placed, one-off wild encounter that is not part of any map's wild table. Records are data in the house style of data/gym_requirements.json (record + source_basis per claim). Consumed by systems/overworld/fixed_encounters.gd (PUWFixedEncounters): access_gate is evaluated against the save state's story flags, the encounter is available until an outcome listed in once.consumed_by is recorded against it, and battle_identity is a PUWBattleEntry scripted-battle identity (species only - the difficulty layer builds the mon; the record's level is the SOURCE encounter's level, preserved as authored data for the bind decision, never silently dropped the way trainer identity levels are).",
+ "source": "held game sources read as ground truth (see each record's source_basis); bound map data maps/data/maps/<Map>.json for the placed object.",
+ "fixed_encounters": [
+  {
+   "id": "cerulean_cave_mewtwo",
+   "species": "MEWTWO",
+   "species_id": 150,
+   "level": 70,
+   "map": "CeruleanCaveB1F",
+   "object": {
+    "x": 54,
+    "y": 26,
+    "sprite": "SPRITE_MONSTER",
+    "direction": "DOWN",
+    "text_id": "TEXT_CERULEANCAVEB1F_MEWTWO",
+    "bound_object_trainer_block": {
+     "class": "MEWTWO",
+     "party": 70
+    },
+    "source_object_pokered": {
+     "x": 27,
+     "y": 13,
+     "script": "object_event 27, 13, SPRITE_MONSTER, STAY, DOWN, TEXT_CERULEANCAVEB1F_MEWTWO, MEWTWO, 70"
+    },
+    "source_object_frlg": {
+     "x": 7,
+     "y": 12,
+     "elevation": 3,
+     "graphics_id": "OBJ_EVENT_GFX_MEWTWO",
+     "flag": "FLAG_HIDE_MEWTWO",
+     "script": "CeruleanCave_B1F_EventScript_Mewtwo"
+    }
+   },
+   "cry_text": "Mew!",
+   "access_gate": {
+    "type": "story_flag",
+    "flag": "champion",
+    "source_basis": "PUW gate per the kanto story work list (build 6 item 5): cave entry is gated on the campaign's champion story flag (the stitch sets its champion state when the league falls - PUWCampaignStitch / record_champion_win(state, 'kanto')). FRLG provenance, recorded for the bind decision: the source is stricter - the Cerulean City cave guard is hidden only by FLAG_HIDE_CERULEAN_CAVE_GUARD, which pokefirered sets inside Celio's Sapphire delivery (SetPostgameFlags in OneIsland_PokemonCenter_1F_EventScript_GiveCelioSapphire), on top of the post-Champion timing; the PUW mirror of that second condition is the sevii_network_machine_complete flag set by data/events/sevii_celio_sapphire_delivery.json. Build 6 may AND the two flags; this record's gate is the champion flag the work list names."
+   },
+   "once": {
+    "resolved_flag": "mewtwo_resolved",
+    "consumed_by": [
+     "caught",
+     "defeated"
+    ],
+    "not_consumed_by": [
+     "ran",
+     "player_teleported"
+    ],
+    "source_basis": "pokefirered CeruleanCave_B1F/scripts.inc: FLAG_FOUGHT_MEWTWO is set when the battle is won (EventScript_DefeatedMewtwo) and on the caught fall-through of EventScript_Mewtwo; on B_OUTCOME_RAN / B_OUTCOME_PLAYER_TELEPORTED the script branches to EventScript_MonFlewAway (data/scripts/static_pokemon.inc), which removes the object for the visit WITHOUT setting FLAG_FOUGHT_MEWTWO - and CeruleanCave_B1F_OnTransition re-shows the object whenever the flag is unset (call_if_unset FLAG_FOUGHT_MEWTWO, EventScript_ShowMewtwo). So: catch or defeat resolves the encounter once per save; fleeing does not consume it and it can be re-attempted on re-entry."
+   },
+   "battle_identity": [
+    {
+     "species": "MEWTWO",
+     "dex_family": "PKDX"
+    }
+   ],
+   "source_basis": "pokefirered data/maps/CeruleanCave_B1F/scripts.inc, CeruleanCave_B1F_EventScript_Mewtwo: playmoncry SPECIES_MEWTWO, message CeruleanCave_B1F_Text_Mew ('Mew!'), setwildbattle SPECIES_MEWTWO, 70, special StartLegendaryBattle. Corroborated by pokered: object_event ..., MEWTWO, 70 in data/maps/objects/CeruleanCaveB1F.asm, and by the bound PUW map object itself, whose trainer block carries class MEWTWO with party 70 (the conversion stored the static level there). Species id 150 is MEWTWO's national dex number in both sources' species constants."
+  },
+  {
+   "access_gate": null,
+   "access_gate_basis": "No story-flag gate: the beat is live from the player's first climb to 6F (both sources trigger it unconditionally while unresolved). The Silph Scope is an ITEM gate, recorded under ghost_gate, not an access gate -- a scope-less player still triggers the beat and is repelled, exactly as in the source.",
+   "battle_identity": [
+    {
+     "dex_family": "PKDX",
+     "species": "MAROWAK"
+    }
+   ],
+   "blocks": {
+    "continuity": "the events lane's pokemon_tower_fuji_rescue plays on PokemonTower7F; the ghost beat is the gate in front of it. The block is behavioral in the source (the ghost stands on the only stair approach and forces the player back), so the host enforces it by refusing the stair trigger while PUWFixedEncounters.is_available(state, this record) is true and the player has not resolved the beat -- no map data changes.",
+    "source_basis": "pokefirered PokemonTower_6F coord triggers sit on the stair approach and the non-defeat branch physically moves the player away from the stairs; pokered's trigger tile guards the same approach.",
+    "until": "marowak_calmed is set",
+    "what": "the 6F -> 7F stair trigger (bound PokemonTower6F warp at (18,32), dest POKEMON_TOWER_7F)"
+   },
+   "cry": {
+    "played_at": "after the GhostWasCubonesMother line, before SoulWasCalmed",
+    "source_basis": "pokered PokemonTower6FMarowakDepartedText plays RESTLESS_SOUL's cry between the two texts; pokefirered's DefeatedMarowakGhost does the same with SPECIES_MAROWAK. Presentation is host work; the runner script (data/events/pokemon_tower_marowak_ghost.json) carries the two lines.",
+    "species": "MAROWAK"
+   },
+   "ghost_gate": {
+    "checked_via": "PUWItemGates.ghost_check(state, 'PokemonTower6F') (code_prep_kanto_item_fixes) -- possession read from the real state through PUWLiveBag under the canonical id; the runner script reads the host's transient ghost_unidentified flag derived from it",
+    "item": "silph-scope",
+    "item_gate": "silph_scope_ghost",
+    "with_item": {
+     "battle_type": "BATTLE_TYPE_GHOST | BATTLE_TYPE_GHOST_UNVEILED",
+     "can_be_caught": false,
+     "enemy": "MAROWAK, level 30, female, Serious nature, IV 31 in every stat (the engine's CreateMonWithGenderNatureLetter call), displayed name GHOST until the unveiling",
+     "source_basis": "pokefirered src/battle_setup.c StartMarowakBattle (the scope branch). Uncatchable even unveiled: src/battle_script_commands.c dodges every ball in a BATTLE_TYPE_GHOST battle (BALL_GHOST_DODGE; src/battle_message.c: 'It dodged the thrown BALL! This POKeMON can't be caught!'). Only defeating the Marowak resolves the beat."
+    },
+    "without_item": {
+     "battle_type": "BATTLE_TYPE_GHOST (unidentified)",
+     "can_be_caught": false,
+     "can_be_defeated": false,
+     "enemy_created": false,
+     "on_non_defeat": "the player is forced back one tile east of the trigger (pokered simulates PAD_RIGHT; pokefirered's PokemonTower_6F_Movement_ForcePlayerUp walks the player up in its own layout) and the encounter is NOT consumed",
+     "source_basis": "pokefirered src/battle_setup.c StartMarowakBattle: without ITEM_SILPH_SCOPE in the bag the flags are BATTLE_TYPE_GHOST only and no enemy mon is created (the unveiled branch creates the Marowak); include/constants/battle.h's IS_BATTLE_TYPE_GHOST_WITHOUT_SCOPE is the engine's own name for the state. The same CheckBagHasItem(SILPH_SCOPE) gates the tower's ordinary wild ghosts (battle_setup.c, the IsGhostBattle path)."
+    }
+   },
+   "id": "pokemon_tower_marowak_ghost",
+   "level": 30,
+   "map": "PokemonTower6F",
+   "object": null,
+   "object_basis": "There is no placed ghost object in either source (pokered's PokemonTower6F object list and pokefirered's object_events both lack one, and the bound map's five objects are the three Channelers and two item balls): the ghost is a coord-triggered presence, invisible until the battle.",
+   "once": {
+    "consumed_by": [
+     "defeated"
+    ],
+    "not_consumed_by": [
+     "ran",
+     "lost",
+     "caught"
+    ],
+    "resolved_flag": "marowak_calmed",
+    "source_basis": "pokefirered PokemonTower_6F_EventScript_MarowakGhost: the battle's VAR_RESULT is FALSE only on B_OUTCOME_WON (CB2_EndMarowakBattle in src/battle_setup.c), which plays EventScript_DefeatedMarowakGhost and sets VAR_MAP_SCENE_POKEMON_TOWER_6F to 1; every other outcome takes the force-back branch and the trigger (gated on the scene var being 0) stays live. 'caught' is listed under not_consumed_by for completeness: it cannot occur (ghost battles dodge balls, with or without the Scope). pokered sets EVENT_BEAT_GHOST_MAROWAK on the same defeat path."
+   },
+   "source_basis": "pokefirered data/maps/PokemonTower_6F/scripts.inc, PokemonTower_6F_EventScript_MarowakGhost: msgbox PokemonTower_6F_Text_BeGoneIntruders, setwildbattle SPECIES_MAROWAK, 30, special StartMarowakBattle; on defeat, PokemonTower_6F_Text_GhostWasCubonesMother and PokemonTower_6F_Text_MothersSpiritWasCalmed and the scene var advances. Corroborated by pokered (scripts/PokemonTower6F.asm: LoadOPP RESTLESS_SOUL, 30; PokemonTower6FMarowakDepartedText), whose text the bound Kanto bank carries as _PokemonTower6FBeGoneText / _PokemonTower6FGhostWasCubonesMotherText / _PokemonTower6FSoulWasCalmedText -- the lines the runner script plays. Species id 105 is MAROWAK's national dex number. The record's level 30 is the SOURCE encounter's level, preserved as authored data for the bind decision per the fixed-encounter house rule (the runner's battle step builds through the difficulty layer like every scripted battle; if build 6 wants the fixed level for this one-off, the record is where it lives).",
+   "species": "MAROWAK",
+   "species_id": 105,
+   "trigger": {
+    "source_basis": "pokered scripts/PokemonTower6F.asm: MarowakCoords dbmapcoord 10, 16, the coord event that runs MarowakTrigger when the player steps toward the 7F stairs; pokered map coordinates are half-tile units and the bound map is the pokered conversion at x2 (bound PokemonTower6F is 40x36; the 7F stair warp sits at (18,32)-(19,33), so the trigger tile (20,32) stands immediately east of the stairs, where the ghost bars the way). pokefirered places its two coord triggers at (11,15) and (12,16) in its own 20x18 layout, south of its 7F stairs at (11,16) -- the same guard position in the other geometry; the bound (pokered) coordinates govern here.",
+    "type": "coord",
+    "x": 20,
+    "y": 32
+   }
+  }
+ ]
+}

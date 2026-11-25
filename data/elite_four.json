@@ -1,0 +1,259 @@
+{
+  "sequence": [
+    "LORELEI",
+    "BRUNO",
+    "AGATHA",
+    "LANCE"
+  ],
+  "sequence_note": "Room order in the game: LoreleisRoom -> BrunosRoom -> AgathasRoom -> LancesRoom -> ChampionsRoom (warp events in data/maps/objects/LoreleisRoom.asm, BrunosRoom.asm, AgathasRoom.asm, LancesRoom.asm).",
+  "members": {
+    "LORELEI": {
+      "display_name": "LORELEI",
+      "parties": [
+        {
+          "party_index": 1,
+          "note": null,
+          "party": [
+            {
+              "level": 54,
+              "species": "DEWGONG"
+            },
+            {
+              "level": 53,
+              "species": "CLOYSTER"
+            },
+            {
+              "level": 54,
+              "species": "SLOWBRO"
+            },
+            {
+              "level": 56,
+              "species": "JYNX"
+            },
+            {
+              "level": 56,
+              "species": "LAPRAS"
+            }
+          ],
+          "extra_move": {
+            "pokemon_index": 4,
+            "move": "BLIZZARD",
+            "applies_to": "5th party member (engine writes to wEnemyMon5Moves + 2 in engine/battle/read_trainer_party.asm); TeamMoves in data/trainers/special_moves.asm lists this move for the whole class",
+            "source": "data/trainers/special_moves.asm TeamMoves"
+          }
+        }
+      ]
+    },
+    "BRUNO": {
+      "display_name": "BRUNO",
+      "parties": [
+        {
+          "party_index": 1,
+          "note": null,
+          "party": [
+            {
+              "level": 53,
+              "species": "ONIX"
+            },
+            {
+              "level": 55,
+              "species": "HITMONCHAN"
+            },
+            {
+              "level": 55,
+              "species": "HITMONLEE"
+            },
+            {
+              "level": 56,
+              "species": "ONIX"
+            },
+            {
+              "level": 58,
+              "species": "MACHAMP"
+            }
+          ],
+          "extra_move": {
+            "pokemon_index": 4,
+            "move": "FISSURE",
+            "applies_to": "5th party member (engine writes to wEnemyMon5Moves + 2 in engine/battle/read_trainer_party.asm); TeamMoves in data/trainers/special_moves.asm lists this move for the whole class",
+            "source": "data/trainers/special_moves.asm TeamMoves"
+          }
+        }
+      ]
+    },
+    "AGATHA": {
+      "display_name": "AGATHA",
+      "parties": [
+        {
+          "party_index": 1,
+          "note": null,
+          "party": [
+            {
+              "level": 56,
+              "species": "GENGAR"
+            },
+            {
+              "level": 56,
+              "species": "GOLBAT"
+            },
+            {
+              "level": 55,
+              "species": "HAUNTER"
+            },
+            {
+              "level": 58,
+              "species": "ARBOK"
+            },
+            {
+              "level": 60,
+              "species": "GENGAR"
+            }
+          ],
+          "extra_move": {
+            "pokemon_index": 4,
+            "move": "TOXIC",
+            "applies_to": "5th party member (engine writes to wEnemyMon5Moves + 2 in engine/battle/read_trainer_party.asm); TeamMoves in data/trainers/special_moves.asm lists this move for the whole class",
+            "source": "data/trainers/special_moves.asm TeamMoves"
+          }
+        }
+      ]
+    },
+    "LANCE": {
+      "display_name": "LANCE",
+      "parties": [
+        {
+          "party_index": 1,
+          "note": null,
+          "party": [
+            {
+              "level": 58,
+              "species": "GYARADOS"
+            },
+            {
+              "level": 56,
+              "species": "DRAGONAIR"
+            },
+            {
+              "level": 56,
+              "species": "DRAGONAIR"
+            },
+            {
+              "level": 60,
+              "species": "AERODACTYL"
+            },
+            {
+              "level": 62,
+              "species": "DRAGONITE"
+            }
+          ],
+          "extra_move": {
+            "pokemon_index": 4,
+            "move": "BARRIER",
+            "applies_to": "5th party member (engine writes to wEnemyMon5Moves + 2 in engine/battle/read_trainer_party.asm); TeamMoves in data/trainers/special_moves.asm lists this move for the whole class",
+            "source": "data/trainers/special_moves.asm TeamMoves"
+          }
+        }
+      ]
+    }
+  },
+  "champion": {
+    "class": "RIVAL3",
+    "display_name": "RIVAL3",
+    "note": "The Champion battle uses the RIVAL3 class in ChampionsRoom (scripted battle, not an object_event trainer in data/maps/objects/ChampionsRoom.asm). Which of the 3 parties is used depends on the rival's starter line, as the party species show.",
+    "parties": [
+      {
+        "party_index": 1,
+        "note": null,
+        "party": [
+          {
+            "level": 61,
+            "species": "PIDGEOT"
+          },
+          {
+            "level": 59,
+            "species": "ALAKAZAM"
+          },
+          {
+            "level": 61,
+            "species": "RHYDON"
+          },
+          {
+            "level": 61,
+            "species": "ARCANINE"
+          },
+          {
+            "level": 63,
+            "species": "EXEGGUTOR"
+          },
+          {
+            "level": 65,
+            "species": "BLASTOISE"
+          }
+        ],
+        "extra_move": null
+      },
+      {
+        "party_index": 2,
+        "note": null,
+        "party": [
+          {
+            "level": 61,
+            "species": "PIDGEOT"
+          },
+          {
+            "level": 59,
+            "species": "ALAKAZAM"
+          },
+          {
+            "level": 61,
+            "species": "RHYDON"
+          },
+          {
+            "level": 61,
+            "species": "GYARADOS"
+          },
+          {
+            "level": 63,
+            "species": "ARCANINE"
+          },
+          {
+            "level": 65,
+            "species": "VENUSAUR"
+          }
+        ],
+        "extra_move": null
+      },
+      {
+        "party_index": 3,
+        "note": null,
+        "party": [
+          {
+            "level": 61,
+            "species": "PIDGEOT"
+          },
+          {
+            "level": 59,
+            "species": "ALAKAZAM"
+          },
+          {
+            "level": 61,
+            "species": "RHYDON"
+          },
+          {
+            "level": 61,
+            "species": "EXEGGUTOR"
+          },
+          {
+            "level": 63,
+            "species": "GYARADOS"
+          },
+          {
+            "level": 65,
+            "species": "CHARIZARD"
+          }
+        ],
+        "extra_move": null
+      }
+    ]
+  }
+}

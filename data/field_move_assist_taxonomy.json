@@ -1,0 +1,332 @@
+{
+ "provenance": "Computed from this rotation's landed browser/*.json transcriptions (script-counted distinct values), cross-checked against RANGER_DEEP.md.",
+ "regions": {
+  "fiore": {
+   "rows": 168,
+   "field_moves": {
+    "Burn": [
+     1,
+     2,
+     3
+    ],
+    "Cross": [
+     1
+    ],
+    "Crush": [
+     1,
+     2,
+     3
+    ],
+    "Cut": [
+     1,
+     2,
+     3
+    ],
+    "Flash": [
+     1
+    ],
+    "Gust": [
+     1,
+     2,
+     3
+    ],
+    "None": [
+     null
+    ],
+    "Recharge": [
+     1,
+     2,
+     3
+    ],
+    "Soak": [
+     1,
+     2,
+     3
+    ],
+    "Tackle": [
+     1,
+     2,
+     3
+    ]
+   },
+   "poke_assists": [
+    "Bug",
+    "Dark",
+    "Electric",
+    "Fighting",
+    "Fire",
+    "Flying",
+    "Ghost",
+    "Grass",
+    "Ground",
+    "Ice",
+    "None",
+    "Poison",
+    "Psychic",
+    "Rock",
+    "Water"
+   ],
+   "groups": [
+    "Bug",
+    "Dark",
+    "Dragon",
+    "Electric",
+    "Fighting",
+    "Fire",
+    "Flying",
+    "Ghost",
+    "Grass",
+    "Ground",
+    "Ice",
+    "Normal",
+    "Poison",
+    "Psychic",
+    "Rock",
+    "Steel",
+    "Water"
+   ]
+  },
+  "almia": {
+   "rows": 270,
+   "field_moves": {
+    "Agility": [
+     null
+    ],
+    "Airlift": [
+     null
+    ],
+    "Burn": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Crush": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Cut": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Dark Power": [
+     null
+    ],
+    "Demist": [
+     null
+    ],
+    "Electrify": [
+     1,
+     2,
+     3
+    ],
+    "Elevate": [
+     null
+    ],
+    "Flash": [
+     null
+    ],
+    "Fly": [
+     null
+    ],
+    "Magma Flow": [
+     null
+    ],
+    "None": [
+     null
+    ],
+    "Psy Power": [
+     1,
+     2,
+     3
+    ],
+    "Rain Dance": [
+     null
+    ],
+    "Recharge": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "River Flow": [
+     1,
+     2
+    ],
+    "Sand Fill": [
+     null
+    ],
+    "Soak": [
+     1,
+     2,
+     3
+    ],
+    "Stink": [
+     null
+    ],
+    "Swim": [
+     null
+    ],
+    "Tackle": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Teleport": [
+     null
+    ],
+    "Tunnel": [
+     1
+    ]
+   },
+   "poke_assists": [
+    "Bug",
+    "Dark",
+    "Dragon",
+    "Electric",
+    "Fighting",
+    "Fire",
+    "Flying",
+    "Ghost",
+    "Grass",
+    "Ground",
+    "Ice",
+    "Normal",
+    "Poison",
+    "Psychic",
+    "Recharge",
+    "Rock",
+    "Steel",
+    "Water"
+   ],
+   "groups": [
+    "Bug",
+    "Dark",
+    "Dragon",
+    "Electric",
+    "Fighting",
+    "Fire",
+    "Flying",
+    "Ghost",
+    "Grass",
+    "Ground",
+    "Ice",
+    "Normal",
+    "Poison",
+    "Psychic",
+    "Rock",
+    "Steel",
+    "Water"
+   ]
+  },
+  "oblivia_present": {
+   "rows": 279,
+   "field_moves": {
+    "Burn": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Crush": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Cut": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Electrify": [
+     1,
+     2,
+     3
+    ],
+    "Fly": [
+     null
+    ],
+    "None": [
+     null
+    ],
+    "Psy Power": [
+     1,
+     2,
+     3
+    ],
+    "Recharge": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "Soak": [
+     1,
+     2,
+     3
+    ],
+    "Tackle": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Teleport": [
+     null
+    ]
+   },
+   "poke_assists": [
+    "Bug",
+    "Dark",
+    "Dragon",
+    "Electric",
+    "Fighting",
+    "Fire",
+    "Flying",
+    "Ghost",
+    "Grass",
+    "Ground",
+    "Ice",
+    "Normal",
+    "Poison",
+    "Psychic",
+    "Recharge",
+    "Rock",
+    "Steel",
+    "Water"
+   ],
+   "groups": [
+    "Bug",
+    "Dark",
+    "Dragon",
+    "Electric",
+    "Fighting",
+    "Fire",
+    "Flying",
+    "Ghost",
+    "Grass",
+    "Ground",
+    "Ice",
+    "Normal",
+    "Poison",
+    "Psychic",
+    "Rock",
+    "Steel",
+    "Water"
+   ]
+  }
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "comment": "Silph Co. 11F: Giovanni boss battle, the President's Master Ball, and Saffron's liberation - the script that sets the two story flags Sabrina's gym record consumes (data/gym_requirements.json kanto_gym_6_sabrina: saffron_access + silph_co_cleared; the gym record's own notes define silph_co_cleared as set 'when the occupation is lifted', and the kanto story audit groups both flags under this beat - PUW canon makes the Rocket occupation Saffron's story gate). Lines are exact bank labels (group SilphCo11F) in source order: Giovanni intro (bridge ref TEXT_SILPHCO11F_GIOVANNI), his end-battle line, his departure (bridge ref TEXT_SILPHCO11F_GIOVANNI_YOU_RUINED_OUR_PLANS), the President's thanks, the grant, his Master Ball description. The obtain-fanfare line (_SilphCo11FSilphPresidentReceivedMasterBallText) is not a say step - the give_item step IS the grant; the bag-full branch line (_SilphCo11FSilphPresidentNoRoomText) is host UI business, not played here. Battle identity = GIOVANNI party 2 (party_notes: 'Silph Co. 11F'). Losing sets nothing; the battle can be retried.",
+ "id": "silph_co_liberation",
+ "map": "SilphCo11F",
+ "requires": {
+  "forbidden_flags": [
+   "silph_co_cleared"
+  ]
+ },
+ "steps": [
+  {
+   "op": "say",
+   "speaker": "giovanni",
+   "dialogue": {
+    "map": "SilphCo11F",
+    "ref": "TEXT_SILPHCO11F_GIOVANNI"
+   }
+  },
+  {
+   "op": "battle",
+   "entry": "scripted",
+   "identity": [
+    "NIDORINO",
+    "KANGASKHAN",
+    "RHYHORN",
+    "NIDOQUEEN"
+   ],
+   "win_goto": "won",
+   "lose_goto": "lost"
+  },
+  {
+   "op": "goto",
+   "label": "end"
+  },
+  {
+   "op": "label",
+   "id": "won"
+  },
+  {
+   "op": "say",
+   "speaker": "giovanni",
+   "dialogue": {
+    "map": "SilphCo11F",
+    "ref": "_SilphCo11FGiovanniILostAgainText"
+   }
+  },
+  {
+   "op": "say",
+   "speaker": "giovanni",
+   "dialogue": {
+    "map": "SilphCo11F",
+    "ref": "TEXT_SILPHCO11F_GIOVANNI_YOU_RUINED_OUR_PLANS"
+   }
+  },
+  {
+   "op": "actor_visible",
+   "actor": "giovanni",
+   "visible": false
+  },
+  {
+   "op": "say",
+   "speaker": "president",
+   "dialogue": {
+    "map": "SilphCo11F",
+    "ref": "_SilphCo11FSilphPresidentText"
+   }
+  },
+  {
+   "op": "give_item",
+   "item": "master-ball",
+   "count": 1
+  },
+  {
+   "op": "say",
+   "speaker": "president",
+   "dialogue": {
+    "map": "SilphCo11F",
+    "ref": "_SilphCo11FSilphPresidentMasterBallDescriptionText"
+   }
+  },
+  {
+   "op": "set_flag",
+   "flag": "silph_co_cleared",
+   "value": true
+  },
+  {
+   "op": "set_flag",
+   "flag": "saffron_access",
+   "value": true
+  },
+  {
+   "op": "goto",
+   "label": "end"
+  },
+  {
+   "op": "label",
+   "id": "lost"
+  },
+  {
+   "op": "label",
+   "id": "end"
+  }
+ ]
+}

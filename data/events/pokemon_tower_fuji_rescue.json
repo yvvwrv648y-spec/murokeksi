@@ -1,0 +1,30 @@
+{
+ "comment": "Pokemon Tower 7F: Mr. Fuji rescue. The three Rocket placements on this floor (data/trainers.json parties 19-21) are sight trainers the host's trainer system runs; this script is the rescue talk itself, triggered at Fuji once the floor is reached. Its one line resolves through the bridge ref TEXT_POKEMONTOWER7F_MR_FUJI (bank label _PokemonTower7FMrFujiRescueText, the full sourced rescue speech). In the source the scene then relocates to Mr. Fuji's house in Lavender Town, where the PokE Flute grant plays (mr_fujis_house_flute.json, gated on this script's flag) - the relocation warp is host work, so this script fades out and sets fuji_rescued (authored here; no production code set any Fuji flag).",
+ "id": "pokemon_tower_fuji_rescue",
+ "map": "PokemonTower7F",
+ "requires": {
+  "forbidden_flags": [
+   "fuji_rescued"
+  ]
+ },
+ "steps": [
+  {
+   "op": "say",
+   "speaker": "mr_fuji",
+   "dialogue": {
+    "map": "PokemonTower7F",
+    "ref": "TEXT_POKEMONTOWER7F_MR_FUJI"
+   }
+  },
+  {
+   "op": "set_flag",
+   "flag": "fuji_rescued",
+   "value": true
+  },
+  {
+   "op": "fade",
+   "to": 1.0,
+   "seconds": 0.5
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "comment": "Sevii access, the Tri-Pass grant: Bill introduces the player to Celio on One Island (pokefirered OneIsland_PokemonCenter_1F/scripts.inc, OneIsland_PokemonCenter_1F_EventScript_MeetCelio -- an OnFrame scene that plays when the player first enters the Pokemon Center after Bill's boat trip; PUW trigger: the host runs this script on first entry to OneIsland_PokemonCenter_1F once sevii_bill_sailed is set, i.e. after sevii_bill_invitation's agreed sailing). Every line is an exact label decoded from the source text into patched/data/sevii_bank_additions.json (group OneIsland_PokemonCenter_1F) -- the restored Sevii bank never held them because the restoration only banked labels referenced by a restored placement's script, and this scene has no placement. Line order is the source's: Bill's greeting, Celio's disbelief, the research question, the introduction (the source branches on FLAG_SYS_GAME_CLEAR for the champion wording -- both lines are authored here and gated on the campaign's 'champion' story flag, so a pre-League player hears RisingPokemonChamp and the Champion hears ReigningPokemonChamp, exactly as the source splits it), the link problem, Bill's offer to help, the Meteorite favour, the Tri-Pass gift, the Town Map gift, and Bill's exit line. Grants, in source order: ITEM_METEORITE (giveitem in CanYouDeliverThisMeteoritePlayer's flow; bag slug 'meteorite'), ITEM_TRI_PASS x1 (bag slug 'tri-pass' -- THIS is where the player receives the Tri-Pass; the ferry scripts branch on it), ITEM_TOWN_MAP (bag slug 'town-map'; the source gives the map here unless the player already took it from Daisy, in which case it plays ReceivedExtraPageForTownMap instead -- that variant text is decoded into the additions bank too, but PUW has no Daisy map-gift script, so the plain branch is the only reachable one and the variant is recorded, not played). Sets sevii_map_123 (FLAG_SYS_SEVII_MAP_123's mirror: the Town Map gains the islands 1-3 page); sevii_met_celio (the scene var's mirror) is the script's once_flag, which the runner sets itself on completion. Movement choreography (Bill and the player walking to Celio) is host work, as in the events prep. The Meteorite's delivery on Two Island (the Game Corner owner's trade) is a separate source beat not authored by the events lane either; it stays a named remainder -- the ferry does not depend on it.",
+ "id": "sevii_meet_celio",
+ "map": "OneIsland_PokemonCenter_1F",
+ "once_flag": "sevii_met_celio",
+ "requires": {
+  "flags": [
+   "sevii_bill_sailed"
+  ]
+ },
+ "steps": [
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "BillHeyThereCelio"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_BillHeyThereCelio",
+   "op": "say",
+   "speaker": "bill"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "CelioCantBelieveYouCameOut"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_CelioCantBelieveYouCameOut",
+   "op": "say",
+   "speaker": "celio"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "BillHowsYourResearchComing"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_BillHowsYourResearchComing",
+   "op": "say",
+   "speaker": "bill"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "ThisIsMyBuddyCelio"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio",
+   "op": "say",
+   "speaker": "bill"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "PlayerIsRisingPokemonChamp"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp",
+   "if_not_flag": "champion",
+   "op": "say",
+   "speaker": "bill"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "PlayerIsReigningPokemonChamp"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_PlayerIsReigningPokemonChamp",
+   "if_flag": "champion",
+   "op": "say",
+   "speaker": "bill"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "CelioThatsReallyImpressive"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_CelioThatsReallyImpressive",
+   "op": "say",
+   "speaker": "celio"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "BillBringMeUpToSpeed"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_BillBringMeUpToSpeed",
+   "op": "say",
+   "speaker": "bill"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "CelioPCsCantLinkWithYours"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_CelioPCsCantLinkWithYours",
+   "op": "say",
+   "speaker": "celio"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "BillLetMeHelpYou"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_BillLetMeHelpYou",
+   "op": "say",
+   "speaker": "bill"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "CanYouDeliverThisMeteoritePlayer"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer",
+   "op": "say",
+   "speaker": "bill"
+  },
+  {
+   "count": 1,
+   "item": "meteorite",
+   "op": "give_item"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "AcceptedMeteoriteFromBill"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill",
+   "op": "say",
+   "speaker": ""
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "CelioPleaseTakeThis"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis",
+   "op": "say",
+   "speaker": "celio"
+  },
+  {
+   "count": 1,
+   "item": "tri-pass",
+   "op": "give_item"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "ObtainedTriPass"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_ObtainedTriPass",
+   "op": "say",
+   "speaker": ""
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "PassLetsYouTravelBetweenIslands"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_PassLetsYouTravelBetweenIslands",
+   "op": "say",
+   "speaker": "celio"
+  },
+  {
+   "count": 1,
+   "item": "town-map",
+   "op": "give_item"
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "ReceivedTownMap"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_ReceivedTownMap",
+   "op": "say",
+   "speaker": ""
+  },
+  {
+   "flag": "sevii_map_123",
+   "op": "set_flag",
+   "value": true
+  },
+  {
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "BillCatchYouLater"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_BillCatchYouLater",
+   "op": "say",
+   "speaker": "bill"
+  },
+  {
+   "flag": "sevii_met_celio",
+   "op": "set_flag",
+   "value": true
+  }
+ ]
+}

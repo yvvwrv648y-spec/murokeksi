@@ -1,0 +1,119 @@
+{
+ "comment": "Elevator floor tables for the floor-select UI (build6_remainders, remainder 5). door_warp_id = the 1-based index of that floor's elevator-door warp in the bound map JSON (the warp whose dest_map is the elevator constant); the game host passes it to change_map so the player spawns at the floor's elevator door (map_loader.spawn_tile_for is 1-based). Derived from the bound maps 2026-11-24. TrainerTower_1F is deliberately absent: it has no elevator-door warp in the bound tree (FRLG serves it from the Lobby stairs); every listed floor has a real door warp.",
+ "buildings": [
+  {
+   "id": "silph_co",
+   "label": "Silph Co.",
+   "elevator_map": "SilphCoElevator",
+   "floors": [
+    {
+     "label": "1F",
+     "map": "SilphCo1F",
+     "door_warp_id": 4
+    },
+    {
+     "label": "2F",
+     "map": "SilphCo2F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "3F",
+     "map": "SilphCo3F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "4F",
+     "map": "SilphCo4F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "5F",
+     "map": "SilphCo5F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "6F",
+     "map": "SilphCo6F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "7F",
+     "map": "SilphCo7F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "8F",
+     "map": "SilphCo8F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "9F",
+     "map": "SilphCo9F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "10F",
+     "map": "SilphCo10F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "11F",
+     "map": "SilphCo11F",
+     "door_warp_id": 2
+    }
+   ]
+  },
+  {
+   "id": "trainer_tower",
+   "label": "Trainer Tower",
+   "elevator_map": "TrainerTower_Elevator",
+   "floors": [
+    {
+     "label": "Lobby",
+     "map": "TrainerTower_Lobby",
+     "door_warp_id": 3
+    },
+    {
+     "label": "2F",
+     "map": "TrainerTower_2F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "3F",
+     "map": "TrainerTower_3F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "4F",
+     "map": "TrainerTower_4F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "5F",
+     "map": "TrainerTower_5F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "6F",
+     "map": "TrainerTower_6F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "7F",
+     "map": "TrainerTower_7F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "8F",
+     "map": "TrainerTower_8F",
+     "door_warp_id": 3
+    },
+    {
+     "label": "Roof",
+     "map": "TrainerTower_Roof",
+     "door_warp_id": 1
+    }
+   ]
+  }
+ ]
+}

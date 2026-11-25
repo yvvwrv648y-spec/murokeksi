@@ -1,0 +1,45 @@
+{
+ "comment": "Sevii quest chain, beat 1: Celio's request (pokefirered OneIsland_PokemonCenter_1F_EventScript_CelioRequestRuby). Played when the player first talks to Celio with the source's precondition met - in FRLG that is the National Pokedex, which Oak grants after the Elite Four; the PUW mapping of that precondition is the campaign's champion stage, hence requires.min_stage. Lines are exact labels from the restored Sevii bank (production/sevii_dialogue), all carried by the bridge ref OneIsland_PokemonCenter_1F_EventScript_Celio, in the source script's own order: he can be useful, the far-away trading pitch, the special gemstone he needs. Sets sevii_celio_quest_started (authored flag chain for this quest; the source's VAR_MAP_SCENE value 4, 'waiting for Ruby').",
+ "id": "sevii_celio_request",
+ "map": "OneIsland_PokemonCenter_1F",
+ "requires": {
+  "min_stage": "champion",
+  "forbidden_flags": [
+   "sevii_celio_quest_started"
+  ]
+ },
+ "steps": [
+  {
+   "op": "say",
+   "speaker": "celio",
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "CelioCaughtMoreMonMaybeICanBeUseful"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful"
+  },
+  {
+   "op": "say",
+   "speaker": "celio",
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "YoullBeTradingFromTrainersFarAway"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway"
+  },
+  {
+   "op": "say",
+   "speaker": "celio",
+   "dialogue": {
+    "map": "OneIsland_PokemonCenter_1F",
+    "ref": "NeedsSpecialGemstone"
+   },
+   "dialogue_label": "OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone"
+  },
+  {
+   "op": "set_flag",
+   "flag": "sevii_celio_quest_started",
+   "value": true
+  }
+ ]
+}

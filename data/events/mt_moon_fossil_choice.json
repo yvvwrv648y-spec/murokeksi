@@ -1,0 +1,110 @@
+{
+ "comment": "Mt. Moon B2F fossil choice (pokered MtMoonB2F Super Nerd script). Every say line is an exact entry label from data/dialogue_database.json group MtMoonB2F; the same labels are the bridge's TEXT_MTMOONB2F_SUPER_NERD / _THEN_THIS_IS_MINE / _DOME_FOSSIL / _HELIX_FOSSIL lists. Battle identity = data/trainers.json SUPER_NERD party 2 (the bound MtMoonB2F placement's own party_index), species only - the difficulty layer builds it. The fossil pick is host UI feeding step data, exactly like the Oak fixture's picks: the host sets ONE transient story flag, mt_moon_pick_dome or mt_moon_pick_helix, from the pick screen before running this script; the prompt line and the grant for the unpicked fossil are skipped by step modifiers. The source's obtain-fanfare line (_MtMoonB2FReceivedFossilText) is not a say step: the give_item step IS the grant (the fanfare text carries an engine-filled [wStringBuffer] name slot). Losing the battle ends the script with nothing granted and no completion flag, so the beat can be retried; the win path sets mt_moon_fossil_taken, which the requires block forbids on replay.",
+ "id": "mt_moon_fossil_choice",
+ "map": "MtMoonB2F",
+ "requires": {
+  "forbidden_flags": [
+   "mt_moon_fossil_taken"
+  ]
+ },
+ "steps": [
+  {
+   "op": "say",
+   "speaker": "super_nerd",
+   "dialogue": {
+    "map": "MtMoonB2F",
+    "ref": "_MtMoonB2FSuperNerdTheyreBothMineText"
+   }
+  },
+  {
+   "op": "battle",
+   "entry": "scripted",
+   "identity": [
+    "GRIMER",
+    "VOLTORB",
+    "KOFFING"
+   ],
+   "win_goto": "won",
+   "lose_goto": "lost"
+  },
+  {
+   "op": "goto",
+   "label": "end"
+  },
+  {
+   "op": "label",
+   "id": "won"
+  },
+  {
+   "op": "say",
+   "speaker": "super_nerd",
+   "dialogue": {
+    "map": "MtMoonB2F",
+    "ref": "_MtMoonB2FSuperNerdOkIllShareText"
+   }
+  },
+  {
+   "op": "say",
+   "speaker": "super_nerd",
+   "dialogue": {
+    "map": "MtMoonB2F",
+    "ref": "_MtMoonB2fSuperNerdEachTakeOneText"
+   }
+  },
+  {
+   "op": "say",
+   "speaker": "super_nerd",
+   "dialogue": {
+    "map": "MtMoonB2F",
+    "ref": "_MtMoonB2FDomeFossilYouWantText"
+   },
+   "if_flag": "mt_moon_pick_dome"
+  },
+  {
+   "op": "say",
+   "speaker": "super_nerd",
+   "dialogue": {
+    "map": "MtMoonB2F",
+    "ref": "_MtMoonB2FHelixFossilYouWantText"
+   },
+   "if_flag": "mt_moon_pick_helix"
+  },
+  {
+   "op": "give_item",
+   "item": "dome-fossil",
+   "count": 1,
+   "if_flag": "mt_moon_pick_dome"
+  },
+  {
+   "op": "give_item",
+   "item": "helix-fossil",
+   "count": 1,
+   "if_flag": "mt_moon_pick_helix"
+  },
+  {
+   "op": "say",
+   "speaker": "super_nerd",
+   "dialogue": {
+    "map": "MtMoonB2F",
+    "ref": "_MtMoonB2FSuperNerdThenThisIsMineText"
+   }
+  },
+  {
+   "op": "set_flag",
+   "flag": "mt_moon_fossil_taken",
+   "value": true
+  },
+  {
+   "op": "goto",
+   "label": "end"
+  },
+  {
+   "op": "label",
+   "id": "lost"
+  },
+  {
+   "op": "label",
+   "id": "end"
+  }
+ ]
+}

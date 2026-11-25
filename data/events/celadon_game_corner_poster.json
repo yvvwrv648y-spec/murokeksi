@@ -1,0 +1,84 @@
+{
+ "comment": "Celadon Game Corner poster guard (pokered GameCorner script): the Rocket guarding the poster is beaten, flees to warn the boss, and the player finds the switch behind the poster, revealing the Rocket Hideout entrance. Lines are exact bank labels (group GameCorner); the bridge refs are TEXT_GAMECORNER_ROCKET / TEXT_GAMECORNER_ROCKET_AFTER_BATTLE / TEXT_GAMECORNER_POSTER. Battle identity = data/trainers.json ROCKET party 7 (the bound GameCorner placement's own party_index). Completion flag rocket_hideout_revealed is authored here (no production code set any hideout-access flag); losing leaves it unset so the guard can be retried.",
+ "id": "celadon_game_corner_poster",
+ "map": "GameCorner",
+ "requires": {
+  "forbidden_flags": [
+   "rocket_hideout_revealed"
+  ]
+ },
+ "steps": [
+  {
+   "op": "say",
+   "speaker": "rocket",
+   "dialogue": {
+    "map": "GameCorner",
+    "ref": "_GameCornerRocketImGuardingThisPosterText"
+   }
+  },
+  {
+   "op": "battle",
+   "entry": "scripted",
+   "identity": [
+    "RATICATE",
+    "ZUBAT"
+   ],
+   "win_goto": "won",
+   "lose_goto": "lost"
+  },
+  {
+   "op": "goto",
+   "label": "end"
+  },
+  {
+   "op": "label",
+   "id": "won"
+  },
+  {
+   "op": "say",
+   "speaker": "rocket",
+   "dialogue": {
+    "map": "GameCorner",
+    "ref": "_GameCornerRocketBattleEndText"
+   }
+  },
+  {
+   "op": "say",
+   "speaker": "rocket",
+   "dialogue": {
+    "map": "GameCorner",
+    "ref": "_GameCornerRocketAfterBattleText"
+   }
+  },
+  {
+   "op": "actor_visible",
+   "actor": "rocket",
+   "visible": false
+  },
+  {
+   "op": "say",
+   "speaker": "poster",
+   "dialogue": {
+    "map": "GameCorner",
+    "ref": "_GameCornerPosterSwitchBehindPosterText"
+   }
+  },
+  {
+   "op": "set_flag",
+   "flag": "rocket_hideout_revealed",
+   "value": true
+  },
+  {
+   "op": "goto",
+   "label": "end"
+  },
+  {
+   "op": "label",
+   "id": "lost"
+  },
+  {
+   "op": "label",
+   "id": "end"
+  }
+ ]
+}

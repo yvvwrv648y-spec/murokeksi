@@ -1,0 +1,43 @@
+{
+ "comment": "Sevii quest chain, beat 4: the Sapphire theft, Dotted Hole Sapphire Room (pokefirered SixIsland_DottedHole_SapphireRoom_EventScript_Sapphire). The player reaches the Sapphire; the scientist (Gideon) drops in, gloats, takes the Sapphire off its pedestal - in the source the player NEVER holds the item here (removeobject on the pedestal object), so this script grants nothing - and leaves after revealing the Rocket Warehouse password (his second line). His two dialogue lines are exact restored-bank labels (bridge ref SixIsland_DottedHole_SapphireRoom_EventScript_Sapphire). The obtain-fanfare line (Text_FoundSapphire) is not a say step. Sets sevii_sapphire_stolen (authored; the source tracks this through the warehouse scene var and FLAG_LEARNED_YES_NAH_CHANSEY).",
+ "id": "sevii_sapphire_theft",
+ "map": "SixIsland_DottedHole_SapphireRoom",
+ "requires": {
+  "flags": [
+   "sevii_ruby_delivered"
+  ],
+  "forbidden_flags": [
+   "sevii_sapphire_stolen"
+  ]
+ },
+ "steps": [
+  {
+   "op": "say",
+   "speaker": "gideon",
+   "dialogue": {
+    "map": "SixIsland_DottedHole_SapphireRoom",
+    "ref": "IWasRightInTailingYou"
+   },
+   "dialogue_label": "SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou"
+  },
+  {
+   "op": "say",
+   "speaker": "gideon",
+   "dialogue": {
+    "map": "SixIsland_DottedHole_SapphireRoom",
+    "ref": "SellToTeamRocketTellPassword"
+   },
+   "dialogue_label": "SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword"
+  },
+  {
+   "op": "actor_visible",
+   "actor": "gideon",
+   "visible": false
+  },
+  {
+   "op": "set_flag",
+   "flag": "sevii_sapphire_stolen",
+   "value": true
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "comment": "Mr. Fuji's house, after the rescue: the PokE Flute grant, in the source's own order (pokered MrFujisHouse Fuji script): his quest line, the grant, the flute explanation. The source's obtain-fanfare line (_MrFujisHouseMrFujiReceivedPokeFluteText) is not a say step - the give_item step IS the grant. Gated on fuji_rescued (set by pokemon_tower_fuji_rescue.json) so the flute cannot be claimed before the rescue plays.",
+ "id": "mr_fujis_house_flute",
+ "map": "MrFujisHouse",
+ "requires": {
+  "flags": [
+   "fuji_rescued"
+  ],
+  "forbidden_flags": [
+   "poke_flute_received"
+  ]
+ },
+ "steps": [
+  {
+   "op": "say",
+   "speaker": "mr_fuji",
+   "dialogue": {
+    "map": "MrFujisHouse",
+    "ref": "_MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText"
+   }
+  },
+  {
+   "op": "give_item",
+   "item": "poke-flute",
+   "count": 1
+  },
+  {
+   "op": "say",
+   "speaker": "mr_fuji",
+   "dialogue": {
+    "map": "MrFujisHouse",
+    "ref": "_MrFujisHouseMrFujiPokeFluteExplanationText"
+   }
+  },
+  {
+   "op": "set_flag",
+   "flag": "poke_flute_received",
+   "value": true
+  }
+ ]
+}

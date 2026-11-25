@@ -1,0 +1,1145 @@
+{
+  "abilityshield": {
+    "name": "Ability Shield",
+    "base_power": 30
+  },
+  "absorbbulb": {
+    "name": "Absorb Bulb",
+    "base_power": 30
+  },
+  "adamantorb": {
+    "name": "Adamant Orb",
+    "base_power": 60
+  },
+  "adrenalineorb": {
+    "name": "Adrenaline Orb",
+    "base_power": 30
+  },
+  "airballoon": {
+    "name": "Air Balloon",
+    "base_power": 10
+  },
+  "armorfossil": {
+    "name": "Armor Fossil",
+    "base_power": 100
+  },
+  "assaultvest": {
+    "name": "Assault Vest",
+    "base_power": 80
+  },
+  "auspiciousarmor": {
+    "name": "Auspicious Armor",
+    "base_power": 30
+  },
+  "berryjuice": {
+    "name": "Berry Juice",
+    "base_power": 30
+  },
+  "berrysweet": {
+    "name": "Berry Sweet",
+    "base_power": 10
+  },
+  "bignugget": {
+    "name": "Big Nugget",
+    "base_power": 130
+  },
+  "bigroot": {
+    "name": "Big Root",
+    "base_power": 10
+  },
+  "bindingband": {
+    "name": "Binding Band",
+    "base_power": 30
+  },
+  "blackbelt": {
+    "name": "Black Belt",
+    "base_power": 30
+  },
+  "blackglasses": {
+    "name": "Black Glasses",
+    "base_power": 30
+  },
+  "blacksludge": {
+    "name": "Black Sludge",
+    "base_power": 30
+  },
+  "blunderpolicy": {
+    "name": "Blunder Policy",
+    "base_power": 80
+  },
+  "boosterenergy": {
+    "name": "Booster Energy",
+    "base_power": 30
+  },
+  "bottlecap": {
+    "name": "Bottle Cap",
+    "base_power": 30
+  },
+  "brightpowder": {
+    "name": "Bright Powder",
+    "base_power": 10
+  },
+  "cellbattery": {
+    "name": "Cell Battery",
+    "base_power": 30
+  },
+  "charcoal": {
+    "name": "Charcoal",
+    "base_power": 30
+  },
+  "chippedpot": {
+    "name": "Chipped Pot",
+    "base_power": 80
+  },
+  "choiceband": {
+    "name": "Choice Band",
+    "base_power": 10
+  },
+  "choicescarf": {
+    "name": "Choice Scarf",
+    "base_power": 10
+  },
+  "choicespecs": {
+    "name": "Choice Specs",
+    "base_power": 10
+  },
+  "clawfossil": {
+    "name": "Claw Fossil",
+    "base_power": 100
+  },
+  "clearamulet": {
+    "name": "Clear Amulet",
+    "base_power": 30
+  },
+  "cloversweet": {
+    "name": "Clover Sweet",
+    "base_power": 10
+  },
+  "cornerstonemask": {
+    "name": "Cornerstone Mask",
+    "base_power": 60
+  },
+  "coverfossil": {
+    "name": "Cover Fossil",
+    "base_power": 100
+  },
+  "covertcloak": {
+    "name": "Covert Cloak",
+    "base_power": 30
+  },
+  "crackedpot": {
+    "name": "Cracked Pot",
+    "base_power": 80
+  },
+  "damprock": {
+    "name": "Damp Rock",
+    "base_power": 60
+  },
+  "dawnstone": {
+    "name": "Dawn Stone",
+    "base_power": 80
+  },
+  "deepseascale": {
+    "name": "Deep Sea Scale",
+    "base_power": 30
+  },
+  "deepseatooth": {
+    "name": "Deep Sea Tooth",
+    "base_power": 90
+  },
+  "destinyknot": {
+    "name": "Destiny Knot",
+    "base_power": 10
+  },
+  "domefossil": {
+    "name": "Dome Fossil",
+    "base_power": 100
+  },
+  "dragonfang": {
+    "name": "Dragon Fang",
+    "base_power": 70
+  },
+  "dragonscale": {
+    "name": "Dragon Scale",
+    "base_power": 30
+  },
+  "dubiousdisc": {
+    "name": "Dubious Disc",
+    "base_power": 50
+  },
+  "duskstone": {
+    "name": "Dusk Stone",
+    "base_power": 80
+  },
+  "ejectbutton": {
+    "name": "Eject Button",
+    "base_power": 30
+  },
+  "ejectpack": {
+    "name": "Eject Pack",
+    "base_power": 50
+  },
+  "electirizer": {
+    "name": "Electirizer",
+    "base_power": 80
+  },
+  "electricseed": {
+    "name": "Electric Seed",
+    "base_power": 10
+  },
+  "eviolite": {
+    "name": "Eviolite",
+    "base_power": 40
+  },
+  "expertbelt": {
+    "name": "Expert Belt",
+    "base_power": 10
+  },
+  "fairyfeather": {
+    "name": "Fairy Feather",
+    "base_power": 10
+  },
+  "firestone": {
+    "name": "Fire Stone",
+    "base_power": 30
+  },
+  "flameorb": {
+    "name": "Flame Orb",
+    "base_power": 30,
+    "status": "brn"
+  },
+  "floatstone": {
+    "name": "Float Stone",
+    "base_power": 30
+  },
+  "flowersweet": {
+    "name": "Flower Sweet",
+    "base_power": 0
+  },
+  "focusband": {
+    "name": "Focus Band",
+    "base_power": 10
+  },
+  "focussash": {
+    "name": "Focus Sash",
+    "base_power": 10
+  },
+  "fossilizedbird": {
+    "name": "Fossilized Bird",
+    "base_power": 100
+  },
+  "fossilizeddino": {
+    "name": "Fossilized Dino",
+    "base_power": 100
+  },
+  "fossilizeddrake": {
+    "name": "Fossilized Drake",
+    "base_power": 100
+  },
+  "fossilizedfish": {
+    "name": "Fossilized Fish",
+    "base_power": 100
+  },
+  "fullincense": {
+    "name": "Full Incense",
+    "base_power": 10
+  },
+  "galaricacuff": {
+    "name": "Galarica Cuff",
+    "base_power": 30
+  },
+  "galaricawreath": {
+    "name": "Galarica Wreath",
+    "base_power": 30
+  },
+  "goldbottlecap": {
+    "name": "Gold Bottle Cap",
+    "base_power": 30
+  },
+  "grassyseed": {
+    "name": "Grassy Seed",
+    "base_power": 10
+  },
+  "gripclaw": {
+    "name": "Grip Claw",
+    "base_power": 90
+  },
+  "griseousorb": {
+    "name": "Griseous Orb",
+    "base_power": 60
+  },
+  "hardstone": {
+    "name": "Hard Stone",
+    "base_power": 100
+  },
+  "hearthflamemask": {
+    "name": "Hearthflame Mask",
+    "base_power": 60
+  },
+  "heatrock": {
+    "name": "Heat Rock",
+    "base_power": 60
+  },
+  "heavydutyboots": {
+    "name": "Heavy-Duty Boots",
+    "base_power": 80
+  },
+  "helixfossil": {
+    "name": "Helix Fossil",
+    "base_power": 100
+  },
+  "icestone": {
+    "name": "Ice Stone",
+    "base_power": 30
+  },
+  "icyrock": {
+    "name": "Icy Rock",
+    "base_power": 40
+  },
+  "ironball": {
+    "name": "Iron Ball",
+    "base_power": 130
+  },
+  "jawfossil": {
+    "name": "Jaw Fossil",
+    "base_power": 100
+  },
+  "kingsrock": {
+    "name": "King's Rock",
+    "base_power": 30,
+    "volatile_status": "flinch"
+  },
+  "laggingtail": {
+    "name": "Lagging Tail",
+    "base_power": 10
+  },
+  "laxincense": {
+    "name": "Lax Incense",
+    "base_power": 10
+  },
+  "leafstone": {
+    "name": "Leaf Stone",
+    "base_power": 30
+  },
+  "leek": {
+    "name": "Leek",
+    "base_power": 60
+  },
+  "leftovers": {
+    "name": "Leftovers",
+    "base_power": 10
+  },
+  "lifeorb": {
+    "name": "Life Orb",
+    "base_power": 30
+  },
+  "lightball": {
+    "name": "Light Ball",
+    "base_power": 30,
+    "status": "par"
+  },
+  "lightclay": {
+    "name": "Light Clay",
+    "base_power": 30
+  },
+  "loadeddice": {
+    "name": "Loaded Dice",
+    "base_power": 30
+  },
+  "lovesweet": {
+    "name": "Love Sweet",
+    "base_power": 10
+  },
+  "luckypunch": {
+    "name": "Lucky Punch",
+    "base_power": 40
+  },
+  "luminousmoss": {
+    "name": "Luminous Moss",
+    "base_power": 30
+  },
+  "lustrousorb": {
+    "name": "Lustrous Orb",
+    "base_power": 60
+  },
+  "machobrace": {
+    "name": "Macho Brace",
+    "base_power": 60
+  },
+  "magmarizer": {
+    "name": "Magmarizer",
+    "base_power": 80
+  },
+  "magnet": {
+    "name": "Magnet",
+    "base_power": 30
+  },
+  "maliciousarmor": {
+    "name": "Malicious Armor",
+    "base_power": 30
+  },
+  "masterpieceteacup": {
+    "name": "Masterpiece Teacup",
+    "base_power": 80
+  },
+  "mentalherb": {
+    "name": "Mental Herb",
+    "base_power": 10,
+    "clears_volatiles": [
+      "attract",
+      "taunt",
+      "encore",
+      "torment",
+      "disable",
+      "healblock"
+    ]
+  },
+  "metalcoat": {
+    "name": "Metal Coat",
+    "base_power": 30
+  },
+  "metalpowder": {
+    "name": "Metal Powder",
+    "base_power": 10
+  },
+  "metronome": {
+    "name": "Metronome",
+    "base_power": 30
+  },
+  "miracleseed": {
+    "name": "Miracle Seed",
+    "base_power": 30
+  },
+  "mirrorherb": {
+    "name": "Mirror Herb",
+    "base_power": 30
+  },
+  "mistyseed": {
+    "name": "Misty Seed",
+    "base_power": 10
+  },
+  "moonstone": {
+    "name": "Moon Stone",
+    "base_power": 30
+  },
+  "muscleband": {
+    "name": "Muscle Band",
+    "base_power": 10
+  },
+  "mysticwater": {
+    "name": "Mystic Water",
+    "base_power": 30
+  },
+  "nevermeltice": {
+    "name": "Never-Melt Ice",
+    "base_power": 30
+  },
+  "oddincense": {
+    "name": "Odd Incense",
+    "base_power": 10
+  },
+  "oldamber": {
+    "name": "Old Amber",
+    "base_power": 100
+  },
+  "ovalstone": {
+    "name": "Oval Stone",
+    "base_power": 80
+  },
+  "plumefossil": {
+    "name": "Plume Fossil",
+    "base_power": 100
+  },
+  "poisonbarb": {
+    "name": "Poison Barb",
+    "base_power": 70,
+    "status": "psn"
+  },
+  "poweranklet": {
+    "name": "Power Anklet",
+    "base_power": 70
+  },
+  "powerband": {
+    "name": "Power Band",
+    "base_power": 70
+  },
+  "powerbelt": {
+    "name": "Power Belt",
+    "base_power": 70
+  },
+  "powerbracer": {
+    "name": "Power Bracer",
+    "base_power": 70
+  },
+  "powerherb": {
+    "name": "Power Herb",
+    "base_power": 10
+  },
+  "powerlens": {
+    "name": "Power Lens",
+    "base_power": 70
+  },
+  "powerweight": {
+    "name": "Power Weight",
+    "base_power": 70
+  },
+  "prettyfeather": {
+    "name": "Pretty Feather",
+    "base_power": 20
+  },
+  "prismscale": {
+    "name": "Prism Scale",
+    "base_power": 30
+  },
+  "protectivepads": {
+    "name": "Protective Pads",
+    "base_power": 30
+  },
+  "protector": {
+    "name": "Protector",
+    "base_power": 80
+  },
+  "psychicseed": {
+    "name": "Psychic Seed",
+    "base_power": 10
+  },
+  "punchingglove": {
+    "name": "Punching Glove",
+    "base_power": 30
+  },
+  "quickclaw": {
+    "name": "Quick Claw",
+    "base_power": 80
+  },
+  "quickpowder": {
+    "name": "Quick Powder",
+    "base_power": 10
+  },
+  "rarebone": {
+    "name": "Rare Bone",
+    "base_power": 100
+  },
+  "razorclaw": {
+    "name": "Razor Claw",
+    "base_power": 80
+  },
+  "razorfang": {
+    "name": "Razor Fang",
+    "base_power": 30,
+    "volatile_status": "flinch"
+  },
+  "reapercloth": {
+    "name": "Reaper Cloth",
+    "base_power": 10
+  },
+  "redcard": {
+    "name": "Red Card",
+    "base_power": 10
+  },
+  "ribbonsweet": {
+    "name": "Ribbon Sweet",
+    "base_power": 10
+  },
+  "ringtarget": {
+    "name": "Ring Target",
+    "base_power": 10
+  },
+  "rockincense": {
+    "name": "Rock Incense",
+    "base_power": 10
+  },
+  "rockyhelmet": {
+    "name": "Rocky Helmet",
+    "base_power": 60
+  },
+  "roomservice": {
+    "name": "Room Service",
+    "base_power": 100
+  },
+  "rootfossil": {
+    "name": "Root Fossil",
+    "base_power": 100
+  },
+  "roseincense": {
+    "name": "Rose Incense",
+    "base_power": 10
+  },
+  "sachet": {
+    "name": "Sachet",
+    "base_power": 80
+  },
+  "safetygoggles": {
+    "name": "Safety Goggles",
+    "base_power": 80
+  },
+  "sailfossil": {
+    "name": "Sail Fossil",
+    "base_power": 100
+  },
+  "scopelens": {
+    "name": "Scope Lens",
+    "base_power": 30
+  },
+  "seaincense": {
+    "name": "Sea Incense",
+    "base_power": 10
+  },
+  "sharpbeak": {
+    "name": "Sharp Beak",
+    "base_power": 50
+  },
+  "shedshell": {
+    "name": "Shed Shell",
+    "base_power": 10
+  },
+  "shellbell": {
+    "name": "Shell Bell",
+    "base_power": 30
+  },
+  "shinystone": {
+    "name": "Shiny Stone",
+    "base_power": 80
+  },
+  "silkscarf": {
+    "name": "Silk Scarf",
+    "base_power": 10
+  },
+  "silverpowder": {
+    "name": "Silver Powder",
+    "base_power": 10
+  },
+  "skullfossil": {
+    "name": "Skull Fossil",
+    "base_power": 100
+  },
+  "smoothrock": {
+    "name": "Smooth Rock",
+    "base_power": 10
+  },
+  "snowball": {
+    "name": "Snowball",
+    "base_power": 30
+  },
+  "softsand": {
+    "name": "Soft Sand",
+    "base_power": 10
+  },
+  "souldew": {
+    "name": "Soul Dew",
+    "base_power": 30
+  },
+  "spelltag": {
+    "name": "Spell Tag",
+    "base_power": 30
+  },
+  "starsweet": {
+    "name": "Star Sweet",
+    "base_power": 10
+  },
+  "stick": {
+    "name": "Stick",
+    "base_power": 60
+  },
+  "stickybarb": {
+    "name": "Sticky Barb",
+    "base_power": 80
+  },
+  "strawberrysweet": {
+    "name": "Strawberry Sweet",
+    "base_power": 10
+  },
+  "sunstone": {
+    "name": "Sun Stone",
+    "base_power": 30
+  },
+  "sweetapple": {
+    "name": "Sweet Apple",
+    "base_power": 30
+  },
+  "syrupyapple": {
+    "name": "Syrupy Apple",
+    "base_power": 30
+  },
+  "tartapple": {
+    "name": "Tart Apple",
+    "base_power": 30
+  },
+  "terrainextender": {
+    "name": "Terrain Extender",
+    "base_power": 60
+  },
+  "thickclub": {
+    "name": "Thick Club",
+    "base_power": 90
+  },
+  "throatspray": {
+    "name": "Throat Spray",
+    "base_power": 30
+  },
+  "thunderstone": {
+    "name": "Thunder Stone",
+    "base_power": 30
+  },
+  "toxicorb": {
+    "name": "Toxic Orb",
+    "base_power": 30,
+    "status": "tox"
+  },
+  "tr00": {
+    "name": "TR00",
+    "base_power": 10
+  },
+  "tr01": {
+    "name": "TR01",
+    "base_power": 85
+  },
+  "tr02": {
+    "name": "TR02",
+    "base_power": 90
+  },
+  "tr03": {
+    "name": "TR03",
+    "base_power": 110
+  },
+  "tr04": {
+    "name": "TR04",
+    "base_power": 90
+  },
+  "tr05": {
+    "name": "TR05",
+    "base_power": 90
+  },
+  "tr06": {
+    "name": "TR06",
+    "base_power": 110
+  },
+  "tr07": {
+    "name": "TR07",
+    "base_power": 10
+  },
+  "tr08": {
+    "name": "TR08",
+    "base_power": 90
+  },
+  "tr09": {
+    "name": "TR09",
+    "base_power": 110
+  },
+  "tr10": {
+    "name": "TR10",
+    "base_power": 100
+  },
+  "tr11": {
+    "name": "TR11",
+    "base_power": 90
+  },
+  "tr12": {
+    "name": "TR12",
+    "base_power": 10
+  },
+  "tr13": {
+    "name": "TR13",
+    "base_power": 10
+  },
+  "tr14": {
+    "name": "TR14",
+    "base_power": 10
+  },
+  "tr15": {
+    "name": "TR15",
+    "base_power": 110
+  },
+  "tr16": {
+    "name": "TR16",
+    "base_power": 80
+  },
+  "tr17": {
+    "name": "TR17",
+    "base_power": 10
+  },
+  "tr18": {
+    "name": "TR18",
+    "base_power": 80
+  },
+  "tr19": {
+    "name": "TR19",
+    "base_power": 80
+  },
+  "tr20": {
+    "name": "TR20",
+    "base_power": 10
+  },
+  "tr21": {
+    "name": "TR21",
+    "base_power": 10
+  },
+  "tr22": {
+    "name": "TR22",
+    "base_power": 90
+  },
+  "tr23": {
+    "name": "TR23",
+    "base_power": 10
+  },
+  "tr24": {
+    "name": "TR24",
+    "base_power": 120
+  },
+  "tr25": {
+    "name": "TR25",
+    "base_power": 80
+  },
+  "tr26": {
+    "name": "TR26",
+    "base_power": 10
+  },
+  "tr27": {
+    "name": "TR27",
+    "base_power": 10
+  },
+  "tr28": {
+    "name": "TR28",
+    "base_power": 120
+  },
+  "tr29": {
+    "name": "TR29",
+    "base_power": 10
+  },
+  "tr30": {
+    "name": "TR30",
+    "base_power": 10
+  },
+  "tr31": {
+    "name": "TR31",
+    "base_power": 100
+  },
+  "tr32": {
+    "name": "TR32",
+    "base_power": 80
+  },
+  "tr33": {
+    "name": "TR33",
+    "base_power": 80
+  },
+  "tr34": {
+    "name": "TR34",
+    "base_power": 120
+  },
+  "tr35": {
+    "name": "TR35",
+    "base_power": 90
+  },
+  "tr36": {
+    "name": "TR36",
+    "base_power": 95
+  },
+  "tr37": {
+    "name": "TR37",
+    "base_power": 10
+  },
+  "tr38": {
+    "name": "TR38",
+    "base_power": 10
+  },
+  "tr39": {
+    "name": "TR39",
+    "base_power": 120
+  },
+  "tr40": {
+    "name": "TR40",
+    "base_power": 10
+  },
+  "tr41": {
+    "name": "TR41",
+    "base_power": 85
+  },
+  "tr42": {
+    "name": "TR42",
+    "base_power": 90
+  },
+  "tr43": {
+    "name": "TR43",
+    "base_power": 130
+  },
+  "tr44": {
+    "name": "TR44",
+    "base_power": 10
+  },
+  "tr45": {
+    "name": "TR45",
+    "base_power": 90
+  },
+  "tr46": {
+    "name": "TR46",
+    "base_power": 10
+  },
+  "tr47": {
+    "name": "TR47",
+    "base_power": 80
+  },
+  "tr48": {
+    "name": "TR48",
+    "base_power": 10
+  },
+  "tr49": {
+    "name": "TR49",
+    "base_power": 10
+  },
+  "tr50": {
+    "name": "TR50",
+    "base_power": 90
+  },
+  "tr51": {
+    "name": "TR51",
+    "base_power": 10
+  },
+  "tr52": {
+    "name": "TR52",
+    "base_power": 10
+  },
+  "tr53": {
+    "name": "TR53",
+    "base_power": 120
+  },
+  "tr54": {
+    "name": "TR54",
+    "base_power": 10
+  },
+  "tr55": {
+    "name": "TR55",
+    "base_power": 120
+  },
+  "tr56": {
+    "name": "TR56",
+    "base_power": 80
+  },
+  "tr57": {
+    "name": "TR57",
+    "base_power": 80
+  },
+  "tr58": {
+    "name": "TR58",
+    "base_power": 80
+  },
+  "tr59": {
+    "name": "TR59",
+    "base_power": 80
+  },
+  "tr60": {
+    "name": "TR60",
+    "base_power": 80
+  },
+  "tr61": {
+    "name": "TR61",
+    "base_power": 90
+  },
+  "tr62": {
+    "name": "TR62",
+    "base_power": 85
+  },
+  "tr63": {
+    "name": "TR63",
+    "base_power": 80
+  },
+  "tr64": {
+    "name": "TR64",
+    "base_power": 120
+  },
+  "tr65": {
+    "name": "TR65",
+    "base_power": 90
+  },
+  "tr66": {
+    "name": "TR66",
+    "base_power": 120
+  },
+  "tr67": {
+    "name": "TR67",
+    "base_power": 90
+  },
+  "tr68": {
+    "name": "TR68",
+    "base_power": 10
+  },
+  "tr69": {
+    "name": "TR69",
+    "base_power": 80
+  },
+  "tr70": {
+    "name": "TR70",
+    "base_power": 80
+  },
+  "tr71": {
+    "name": "TR71",
+    "base_power": 130
+  },
+  "tr72": {
+    "name": "TR72",
+    "base_power": 120
+  },
+  "tr73": {
+    "name": "TR73",
+    "base_power": 120
+  },
+  "tr74": {
+    "name": "TR74",
+    "base_power": 80
+  },
+  "tr75": {
+    "name": "TR75",
+    "base_power": 100
+  },
+  "tr76": {
+    "name": "TR76",
+    "base_power": 10
+  },
+  "tr77": {
+    "name": "TR77",
+    "base_power": 10
+  },
+  "tr78": {
+    "name": "TR78",
+    "base_power": 95
+  },
+  "tr79": {
+    "name": "TR79",
+    "base_power": 10
+  },
+  "tr80": {
+    "name": "TR80",
+    "base_power": 10
+  },
+  "tr81": {
+    "name": "TR81",
+    "base_power": 95
+  },
+  "tr82": {
+    "name": "TR82",
+    "base_power": 20
+  },
+  "tr83": {
+    "name": "TR83",
+    "base_power": 10
+  },
+  "tr84": {
+    "name": "TR84",
+    "base_power": 80
+  },
+  "tr85": {
+    "name": "TR85",
+    "base_power": 10
+  },
+  "tr86": {
+    "name": "TR86",
+    "base_power": 90
+  },
+  "tr87": {
+    "name": "TR87",
+    "base_power": 80
+  },
+  "tr88": {
+    "name": "TR88",
+    "base_power": 10
+  },
+  "tr89": {
+    "name": "TR89",
+    "base_power": 110
+  },
+  "tr90": {
+    "name": "TR90",
+    "base_power": 90
+  },
+  "tr91": {
+    "name": "TR91",
+    "base_power": 10
+  },
+  "tr92": {
+    "name": "TR92",
+    "base_power": 80
+  },
+  "tr93": {
+    "name": "TR93",
+    "base_power": 85
+  },
+  "tr94": {
+    "name": "TR94",
+    "base_power": 95
+  },
+  "tr95": {
+    "name": "TR95",
+    "base_power": 80
+  },
+  "tr96": {
+    "name": "TR96",
+    "base_power": 90
+  },
+  "tr97": {
+    "name": "TR97",
+    "base_power": 85
+  },
+  "tr98": {
+    "name": "TR98",
+    "base_power": 85
+  },
+  "tr99": {
+    "name": "TR99",
+    "base_power": 80
+  },
+  "twistedspoon": {
+    "name": "Twisted Spoon",
+    "base_power": 30
+  },
+  "unremarkableteacup": {
+    "name": "Unremarkable Teacup",
+    "base_power": 80
+  },
+  "upgrade": {
+    "name": "Up-Grade",
+    "base_power": 30
+  },
+  "utilityumbrella": {
+    "name": "Utility Umbrella",
+    "base_power": 60
+  },
+  "vilevial": {
+    "name": "Vile Vial",
+    "base_power": 60
+  },
+  "waterstone": {
+    "name": "Water Stone",
+    "base_power": 30
+  },
+  "waveincense": {
+    "name": "Wave Incense",
+    "base_power": 10
+  },
+  "weaknesspolicy": {
+    "name": "Weakness Policy",
+    "base_power": 80
+  },
+  "wellspringmask": {
+    "name": "Wellspring Mask",
+    "base_power": 60
+  },
+  "whippeddream": {
+    "name": "Whipped Dream",
+    "base_power": 80
+  },
+  "whiteherb": {
+    "name": "White Herb",
+    "base_power": 10,
+    "restores_negative_boosts": true
+  },
+  "widelens": {
+    "name": "Wide Lens",
+    "base_power": 10
+  },
+  "wiseglasses": {
+    "name": "Wise Glasses",
+    "base_power": 10
+  },
+  "zoomlens": {
+    "name": "Zoom Lens",
+    "base_power": 10
+  }
+}

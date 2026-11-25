@@ -1,0 +1,6156 @@
+{
+ "source": "PokeAPI",
+ "count": 1025,
+ "species": [
+  {
+   "id": 1,
+   "name": "bulbasaur",
+   "base_experience": 64,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 2,
+   "name": "ivysaur",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 3,
+   "name": "venusaur",
+   "base_experience": 236,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 4,
+   "name": "charmander",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 5,
+   "name": "charmeleon",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 6,
+   "name": "charizard",
+   "base_experience": 240,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 7,
+   "name": "squirtle",
+   "base_experience": 63,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 8,
+   "name": "wartortle",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 9,
+   "name": "blastoise",
+   "base_experience": 239,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 10,
+   "name": "caterpie",
+   "base_experience": 39,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 11,
+   "name": "metapod",
+   "base_experience": 72,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 12,
+   "name": "butterfree",
+   "base_experience": 178,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 13,
+   "name": "weedle",
+   "base_experience": 39,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 14,
+   "name": "kakuna",
+   "base_experience": 72,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 15,
+   "name": "beedrill",
+   "base_experience": 178,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 16,
+   "name": "pidgey",
+   "base_experience": 50,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 17,
+   "name": "pidgeotto",
+   "base_experience": 122,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 18,
+   "name": "pidgeot",
+   "base_experience": 216,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 19,
+   "name": "rattata",
+   "base_experience": 51,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 20,
+   "name": "raticate",
+   "base_experience": 145,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 21,
+   "name": "spearow",
+   "base_experience": 52,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 22,
+   "name": "fearow",
+   "base_experience": 155,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 23,
+   "name": "ekans",
+   "base_experience": 58,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 24,
+   "name": "arbok",
+   "base_experience": 157,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 25,
+   "name": "pikachu",
+   "base_experience": 112,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 26,
+   "name": "raichu",
+   "base_experience": 218,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 27,
+   "name": "sandshrew",
+   "base_experience": 60,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 28,
+   "name": "sandslash",
+   "base_experience": 158,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 29,
+   "name": "nidoran-f",
+   "base_experience": 55,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 30,
+   "name": "nidorina",
+   "base_experience": 128,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 31,
+   "name": "nidoqueen",
+   "base_experience": 227,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 32,
+   "name": "nidoran-m",
+   "base_experience": 55,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 33,
+   "name": "nidorino",
+   "base_experience": 128,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 34,
+   "name": "nidoking",
+   "base_experience": 227,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 35,
+   "name": "clefairy",
+   "base_experience": 113,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 36,
+   "name": "clefable",
+   "base_experience": 217,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 37,
+   "name": "vulpix",
+   "base_experience": 60,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 38,
+   "name": "ninetales",
+   "base_experience": 177,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 39,
+   "name": "jigglypuff",
+   "base_experience": 95,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 40,
+   "name": "wigglytuff",
+   "base_experience": 196,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 41,
+   "name": "zubat",
+   "base_experience": 49,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 42,
+   "name": "golbat",
+   "base_experience": 159,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 43,
+   "name": "oddish",
+   "base_experience": 64,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 44,
+   "name": "gloom",
+   "base_experience": 138,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 45,
+   "name": "vileplume",
+   "base_experience": 221,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 46,
+   "name": "paras",
+   "base_experience": 57,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 47,
+   "name": "parasect",
+   "base_experience": 142,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 48,
+   "name": "venonat",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 49,
+   "name": "venomoth",
+   "base_experience": 158,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 50,
+   "name": "diglett",
+   "base_experience": 53,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 51,
+   "name": "dugtrio",
+   "base_experience": 149,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 52,
+   "name": "meowth",
+   "base_experience": 58,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 53,
+   "name": "persian",
+   "base_experience": 154,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 54,
+   "name": "psyduck",
+   "base_experience": 64,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 55,
+   "name": "golduck",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 56,
+   "name": "mankey",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 57,
+   "name": "primeape",
+   "base_experience": 159,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 58,
+   "name": "growlithe",
+   "base_experience": 70,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 59,
+   "name": "arcanine",
+   "base_experience": 194,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 60,
+   "name": "poliwag",
+   "base_experience": 60,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 61,
+   "name": "poliwhirl",
+   "base_experience": 135,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 62,
+   "name": "poliwrath",
+   "base_experience": 230,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 63,
+   "name": "abra",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 64,
+   "name": "kadabra",
+   "base_experience": 140,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 65,
+   "name": "alakazam",
+   "base_experience": 225,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 66,
+   "name": "machop",
+   "base_experience": 61,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 67,
+   "name": "machoke",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 68,
+   "name": "machamp",
+   "base_experience": 227,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 69,
+   "name": "bellsprout",
+   "base_experience": 60,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 70,
+   "name": "weepinbell",
+   "base_experience": 137,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 71,
+   "name": "victreebel",
+   "base_experience": 221,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 72,
+   "name": "tentacool",
+   "base_experience": 67,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 73,
+   "name": "tentacruel",
+   "base_experience": 180,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 74,
+   "name": "geodude",
+   "base_experience": 60,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 75,
+   "name": "graveler",
+   "base_experience": 137,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 76,
+   "name": "golem",
+   "base_experience": 223,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 77,
+   "name": "ponyta",
+   "base_experience": 82,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 78,
+   "name": "rapidash",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 79,
+   "name": "slowpoke",
+   "base_experience": 63,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 80,
+   "name": "slowbro",
+   "base_experience": 172,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 81,
+   "name": "magnemite",
+   "base_experience": 65,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 82,
+   "name": "magneton",
+   "base_experience": 163,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 83,
+   "name": "farfetchd",
+   "base_experience": 132,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 84,
+   "name": "doduo",
+   "base_experience": 62,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 85,
+   "name": "dodrio",
+   "base_experience": 165,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 86,
+   "name": "seel",
+   "base_experience": 65,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 87,
+   "name": "dewgong",
+   "base_experience": 166,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 88,
+   "name": "grimer",
+   "base_experience": 65,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 89,
+   "name": "muk",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 90,
+   "name": "shellder",
+   "base_experience": 61,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 91,
+   "name": "cloyster",
+   "base_experience": 184,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 92,
+   "name": "gastly",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 93,
+   "name": "haunter",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 94,
+   "name": "gengar",
+   "base_experience": 225,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 95,
+   "name": "onix",
+   "base_experience": 77,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 96,
+   "name": "drowzee",
+   "base_experience": 66,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 97,
+   "name": "hypno",
+   "base_experience": 169,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 98,
+   "name": "krabby",
+   "base_experience": 65,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 99,
+   "name": "kingler",
+   "base_experience": 166,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 100,
+   "name": "voltorb",
+   "base_experience": 66,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 101,
+   "name": "electrode",
+   "base_experience": 172,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 102,
+   "name": "exeggcute",
+   "base_experience": 65,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 103,
+   "name": "exeggutor",
+   "base_experience": 186,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 104,
+   "name": "cubone",
+   "base_experience": 64,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 105,
+   "name": "marowak",
+   "base_experience": 149,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 106,
+   "name": "hitmonlee",
+   "base_experience": 159,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 107,
+   "name": "hitmonchan",
+   "base_experience": 159,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 108,
+   "name": "lickitung",
+   "base_experience": 77,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 109,
+   "name": "koffing",
+   "base_experience": 68,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 110,
+   "name": "weezing",
+   "base_experience": 172,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 111,
+   "name": "rhyhorn",
+   "base_experience": 69,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 112,
+   "name": "rhydon",
+   "base_experience": 170,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 113,
+   "name": "chansey",
+   "base_experience": 395,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 114,
+   "name": "tangela",
+   "base_experience": 87,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 115,
+   "name": "kangaskhan",
+   "base_experience": 172,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 116,
+   "name": "horsea",
+   "base_experience": 59,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 117,
+   "name": "seadra",
+   "base_experience": 154,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 118,
+   "name": "goldeen",
+   "base_experience": 64,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 119,
+   "name": "seaking",
+   "base_experience": 158,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 120,
+   "name": "staryu",
+   "base_experience": 68,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 121,
+   "name": "starmie",
+   "base_experience": 182,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 122,
+   "name": "mr-mime",
+   "base_experience": 161,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 123,
+   "name": "scyther",
+   "base_experience": 100,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 124,
+   "name": "jynx",
+   "base_experience": 159,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 125,
+   "name": "electabuzz",
+   "base_experience": 172,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 126,
+   "name": "magmar",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 127,
+   "name": "pinsir",
+   "base_experience": 175,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 128,
+   "name": "tauros",
+   "base_experience": 172,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 129,
+   "name": "magikarp",
+   "base_experience": 40,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 130,
+   "name": "gyarados",
+   "base_experience": 189,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 131,
+   "name": "lapras",
+   "base_experience": 187,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 132,
+   "name": "ditto",
+   "base_experience": 101,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 133,
+   "name": "eevee",
+   "base_experience": 65,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 134,
+   "name": "vaporeon",
+   "base_experience": 184,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 135,
+   "name": "jolteon",
+   "base_experience": 184,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 136,
+   "name": "flareon",
+   "base_experience": 184,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 137,
+   "name": "porygon",
+   "base_experience": 79,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 138,
+   "name": "omanyte",
+   "base_experience": 71,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 139,
+   "name": "omastar",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 140,
+   "name": "kabuto",
+   "base_experience": 71,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 141,
+   "name": "kabutops",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 142,
+   "name": "aerodactyl",
+   "base_experience": 180,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 143,
+   "name": "snorlax",
+   "base_experience": 189,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 144,
+   "name": "articuno",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 145,
+   "name": "zapdos",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 146,
+   "name": "moltres",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 147,
+   "name": "dratini",
+   "base_experience": 60,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 148,
+   "name": "dragonair",
+   "base_experience": 147,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 149,
+   "name": "dragonite",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 150,
+   "name": "mewtwo",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 151,
+   "name": "mew",
+   "base_experience": 270,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 152,
+   "name": "chikorita",
+   "base_experience": 64,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 153,
+   "name": "bayleef",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 154,
+   "name": "meganium",
+   "base_experience": 236,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 155,
+   "name": "cyndaquil",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 156,
+   "name": "quilava",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 157,
+   "name": "typhlosion",
+   "base_experience": 240,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 158,
+   "name": "totodile",
+   "base_experience": 63,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 159,
+   "name": "croconaw",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 160,
+   "name": "feraligatr",
+   "base_experience": 239,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 161,
+   "name": "sentret",
+   "base_experience": 43,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 162,
+   "name": "furret",
+   "base_experience": 145,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 163,
+   "name": "hoothoot",
+   "base_experience": 52,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 164,
+   "name": "noctowl",
+   "base_experience": 158,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 165,
+   "name": "ledyba",
+   "base_experience": 53,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 166,
+   "name": "ledian",
+   "base_experience": 137,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 167,
+   "name": "spinarak",
+   "base_experience": 50,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 168,
+   "name": "ariados",
+   "base_experience": 140,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 169,
+   "name": "crobat",
+   "base_experience": 241,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 170,
+   "name": "chinchou",
+   "base_experience": 66,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 171,
+   "name": "lanturn",
+   "base_experience": 161,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 172,
+   "name": "pichu",
+   "base_experience": 41,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 173,
+   "name": "cleffa",
+   "base_experience": 44,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 174,
+   "name": "igglybuff",
+   "base_experience": 42,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 175,
+   "name": "togepi",
+   "base_experience": 49,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 176,
+   "name": "togetic",
+   "base_experience": 142,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 177,
+   "name": "natu",
+   "base_experience": 64,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 178,
+   "name": "xatu",
+   "base_experience": 165,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 179,
+   "name": "mareep",
+   "base_experience": 56,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 180,
+   "name": "flaaffy",
+   "base_experience": 128,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 181,
+   "name": "ampharos",
+   "base_experience": 230,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 182,
+   "name": "bellossom",
+   "base_experience": 221,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 183,
+   "name": "marill",
+   "base_experience": 88,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 184,
+   "name": "azumarill",
+   "base_experience": 189,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 185,
+   "name": "sudowoodo",
+   "base_experience": 144,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 186,
+   "name": "politoed",
+   "base_experience": 225,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 187,
+   "name": "hoppip",
+   "base_experience": 50,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 188,
+   "name": "skiploom",
+   "base_experience": 119,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 189,
+   "name": "jumpluff",
+   "base_experience": 207,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 190,
+   "name": "aipom",
+   "base_experience": 72,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 191,
+   "name": "sunkern",
+   "base_experience": 36,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 192,
+   "name": "sunflora",
+   "base_experience": 149,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 193,
+   "name": "yanma",
+   "base_experience": 78,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 194,
+   "name": "wooper",
+   "base_experience": 42,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 195,
+   "name": "quagsire",
+   "base_experience": 151,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 196,
+   "name": "espeon",
+   "base_experience": 184,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 197,
+   "name": "umbreon",
+   "base_experience": 184,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 198,
+   "name": "murkrow",
+   "base_experience": 81,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 199,
+   "name": "slowking",
+   "base_experience": 172,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 200,
+   "name": "misdreavus",
+   "base_experience": 87,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 201,
+   "name": "unown",
+   "base_experience": 118,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 202,
+   "name": "wobbuffet",
+   "base_experience": 142,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 203,
+   "name": "girafarig",
+   "base_experience": 159,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 204,
+   "name": "pineco",
+   "base_experience": 58,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 205,
+   "name": "forretress",
+   "base_experience": 163,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 206,
+   "name": "dunsparce",
+   "base_experience": 145,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 207,
+   "name": "gligar",
+   "base_experience": 86,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 208,
+   "name": "steelix",
+   "base_experience": 179,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 209,
+   "name": "snubbull",
+   "base_experience": 60,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 210,
+   "name": "granbull",
+   "base_experience": 158,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 211,
+   "name": "qwilfish",
+   "base_experience": 88,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 212,
+   "name": "scizor",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 213,
+   "name": "shuckle",
+   "base_experience": 177,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 214,
+   "name": "heracross",
+   "base_experience": 175,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 215,
+   "name": "sneasel",
+   "base_experience": 86,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 216,
+   "name": "teddiursa",
+   "base_experience": 66,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 217,
+   "name": "ursaring",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 218,
+   "name": "slugma",
+   "base_experience": 50,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 219,
+   "name": "magcargo",
+   "base_experience": 151,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 220,
+   "name": "swinub",
+   "base_experience": 50,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 221,
+   "name": "piloswine",
+   "base_experience": 158,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 222,
+   "name": "corsola",
+   "base_experience": 144,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 223,
+   "name": "remoraid",
+   "base_experience": 60,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 224,
+   "name": "octillery",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 225,
+   "name": "delibird",
+   "base_experience": 116,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 226,
+   "name": "mantine",
+   "base_experience": 170,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 227,
+   "name": "skarmory",
+   "base_experience": 163,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 228,
+   "name": "houndour",
+   "base_experience": 66,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 229,
+   "name": "houndoom",
+   "base_experience": 175,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 230,
+   "name": "kingdra",
+   "base_experience": 243,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 231,
+   "name": "phanpy",
+   "base_experience": 66,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 232,
+   "name": "donphan",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 233,
+   "name": "porygon2",
+   "base_experience": 180,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 234,
+   "name": "stantler",
+   "base_experience": 163,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 235,
+   "name": "smeargle",
+   "base_experience": 88,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 236,
+   "name": "tyrogue",
+   "base_experience": 42,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 237,
+   "name": "hitmontop",
+   "base_experience": 159,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 238,
+   "name": "smoochum",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 239,
+   "name": "elekid",
+   "base_experience": 72,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 240,
+   "name": "magby",
+   "base_experience": 73,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 241,
+   "name": "miltank",
+   "base_experience": 172,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 242,
+   "name": "blissey",
+   "base_experience": 608,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 243,
+   "name": "raikou",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 244,
+   "name": "entei",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 245,
+   "name": "suicune",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 246,
+   "name": "larvitar",
+   "base_experience": 60,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 247,
+   "name": "pupitar",
+   "base_experience": 144,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 248,
+   "name": "tyranitar",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 249,
+   "name": "lugia",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 250,
+   "name": "ho-oh",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 251,
+   "name": "celebi",
+   "base_experience": 270,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 252,
+   "name": "treecko",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 253,
+   "name": "grovyle",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 254,
+   "name": "sceptile",
+   "base_experience": 239,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 255,
+   "name": "torchic",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 256,
+   "name": "combusken",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 257,
+   "name": "blaziken",
+   "base_experience": 239,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 258,
+   "name": "mudkip",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 259,
+   "name": "marshtomp",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 260,
+   "name": "swampert",
+   "base_experience": 241,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 261,
+   "name": "poochyena",
+   "base_experience": 56,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 262,
+   "name": "mightyena",
+   "base_experience": 147,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 263,
+   "name": "zigzagoon",
+   "base_experience": 56,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 264,
+   "name": "linoone",
+   "base_experience": 147,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 265,
+   "name": "wurmple",
+   "base_experience": 56,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 266,
+   "name": "silcoon",
+   "base_experience": 72,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 267,
+   "name": "beautifly",
+   "base_experience": 178,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 268,
+   "name": "cascoon",
+   "base_experience": 72,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 269,
+   "name": "dustox",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 270,
+   "name": "lotad",
+   "base_experience": 44,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 271,
+   "name": "lombre",
+   "base_experience": 119,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 272,
+   "name": "ludicolo",
+   "base_experience": 216,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 273,
+   "name": "seedot",
+   "base_experience": 44,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 274,
+   "name": "nuzleaf",
+   "base_experience": 119,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 275,
+   "name": "shiftry",
+   "base_experience": 216,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 276,
+   "name": "taillow",
+   "base_experience": 54,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 277,
+   "name": "swellow",
+   "base_experience": 159,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 278,
+   "name": "wingull",
+   "base_experience": 54,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 279,
+   "name": "pelipper",
+   "base_experience": 154,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 280,
+   "name": "ralts",
+   "base_experience": 40,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 281,
+   "name": "kirlia",
+   "base_experience": 97,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 282,
+   "name": "gardevoir",
+   "base_experience": 233,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 283,
+   "name": "surskit",
+   "base_experience": 54,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 284,
+   "name": "masquerain",
+   "base_experience": 159,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 285,
+   "name": "shroomish",
+   "base_experience": 59,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 286,
+   "name": "breloom",
+   "base_experience": 161,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 287,
+   "name": "slakoth",
+   "base_experience": 56,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 288,
+   "name": "vigoroth",
+   "base_experience": 154,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 289,
+   "name": "slaking",
+   "base_experience": 252,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 290,
+   "name": "nincada",
+   "base_experience": 53,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 291,
+   "name": "ninjask",
+   "base_experience": 160,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 292,
+   "name": "shedinja",
+   "base_experience": 83,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 293,
+   "name": "whismur",
+   "base_experience": 48,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 294,
+   "name": "loudred",
+   "base_experience": 126,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 295,
+   "name": "exploud",
+   "base_experience": 221,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 296,
+   "name": "makuhita",
+   "base_experience": 47,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 297,
+   "name": "hariyama",
+   "base_experience": 166,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 298,
+   "name": "azurill",
+   "base_experience": 38,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 299,
+   "name": "nosepass",
+   "base_experience": 75,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 300,
+   "name": "skitty",
+   "base_experience": 52,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 301,
+   "name": "delcatty",
+   "base_experience": 140,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 302,
+   "name": "sableye",
+   "base_experience": 133,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 303,
+   "name": "mawile",
+   "base_experience": 133,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 304,
+   "name": "aron",
+   "base_experience": 66,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 305,
+   "name": "lairon",
+   "base_experience": 151,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 306,
+   "name": "aggron",
+   "base_experience": 239,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 307,
+   "name": "meditite",
+   "base_experience": 56,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 308,
+   "name": "medicham",
+   "base_experience": 144,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 309,
+   "name": "electrike",
+   "base_experience": 59,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 310,
+   "name": "manectric",
+   "base_experience": 166,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 311,
+   "name": "plusle",
+   "base_experience": 142,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 312,
+   "name": "minun",
+   "base_experience": 142,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 313,
+   "name": "volbeat",
+   "base_experience": 151,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 314,
+   "name": "illumise",
+   "base_experience": 151,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 315,
+   "name": "roselia",
+   "base_experience": 140,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 316,
+   "name": "gulpin",
+   "base_experience": 60,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 317,
+   "name": "swalot",
+   "base_experience": 163,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 318,
+   "name": "carvanha",
+   "base_experience": 61,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 319,
+   "name": "sharpedo",
+   "base_experience": 161,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 320,
+   "name": "wailmer",
+   "base_experience": 80,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 321,
+   "name": "wailord",
+   "base_experience": 175,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 322,
+   "name": "numel",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 323,
+   "name": "camerupt",
+   "base_experience": 161,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 324,
+   "name": "torkoal",
+   "base_experience": 165,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 325,
+   "name": "spoink",
+   "base_experience": 66,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 326,
+   "name": "grumpig",
+   "base_experience": 165,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 327,
+   "name": "spinda",
+   "base_experience": 126,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 328,
+   "name": "trapinch",
+   "base_experience": 58,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 329,
+   "name": "vibrava",
+   "base_experience": 119,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 330,
+   "name": "flygon",
+   "base_experience": 234,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 331,
+   "name": "cacnea",
+   "base_experience": 67,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 332,
+   "name": "cacturne",
+   "base_experience": 166,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 333,
+   "name": "swablu",
+   "base_experience": 62,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 334,
+   "name": "altaria",
+   "base_experience": 172,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 335,
+   "name": "zangoose",
+   "base_experience": 160,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 336,
+   "name": "seviper",
+   "base_experience": 160,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 337,
+   "name": "lunatone",
+   "base_experience": 161,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 338,
+   "name": "solrock",
+   "base_experience": 161,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 339,
+   "name": "barboach",
+   "base_experience": 58,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 340,
+   "name": "whiscash",
+   "base_experience": 164,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 341,
+   "name": "corphish",
+   "base_experience": 62,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 342,
+   "name": "crawdaunt",
+   "base_experience": 164,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 343,
+   "name": "baltoy",
+   "base_experience": 60,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 344,
+   "name": "claydol",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 345,
+   "name": "lileep",
+   "base_experience": 71,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 346,
+   "name": "cradily",
+   "base_experience": 173,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 347,
+   "name": "anorith",
+   "base_experience": 71,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 348,
+   "name": "armaldo",
+   "base_experience": 173,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 349,
+   "name": "feebas",
+   "base_experience": 40,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 350,
+   "name": "milotic",
+   "base_experience": 189,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 351,
+   "name": "castform",
+   "base_experience": 147,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 352,
+   "name": "kecleon",
+   "base_experience": 154,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 353,
+   "name": "shuppet",
+   "base_experience": 59,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 354,
+   "name": "banette",
+   "base_experience": 159,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 355,
+   "name": "duskull",
+   "base_experience": 59,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 356,
+   "name": "dusclops",
+   "base_experience": 159,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 357,
+   "name": "tropius",
+   "base_experience": 161,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 358,
+   "name": "chimecho",
+   "base_experience": 159,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 359,
+   "name": "absol",
+   "base_experience": 163,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 360,
+   "name": "wynaut",
+   "base_experience": 52,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 361,
+   "name": "snorunt",
+   "base_experience": 60,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 362,
+   "name": "glalie",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 363,
+   "name": "spheal",
+   "base_experience": 58,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 364,
+   "name": "sealeo",
+   "base_experience": 144,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 365,
+   "name": "walrein",
+   "base_experience": 239,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 366,
+   "name": "clamperl",
+   "base_experience": 69,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 367,
+   "name": "huntail",
+   "base_experience": 170,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 368,
+   "name": "gorebyss",
+   "base_experience": 170,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 369,
+   "name": "relicanth",
+   "base_experience": 170,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 370,
+   "name": "luvdisc",
+   "base_experience": 116,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 371,
+   "name": "bagon",
+   "base_experience": 60,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 372,
+   "name": "shelgon",
+   "base_experience": 147,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 373,
+   "name": "salamence",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 374,
+   "name": "beldum",
+   "base_experience": 60,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 375,
+   "name": "metang",
+   "base_experience": 147,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 376,
+   "name": "metagross",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 377,
+   "name": "regirock",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 378,
+   "name": "regice",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 379,
+   "name": "registeel",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 380,
+   "name": "latias",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 381,
+   "name": "latios",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 382,
+   "name": "kyogre",
+   "base_experience": 302,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 383,
+   "name": "groudon",
+   "base_experience": 302,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 384,
+   "name": "rayquaza",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 385,
+   "name": "jirachi",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 386,
+   "name": "deoxys-normal",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 387,
+   "name": "turtwig",
+   "base_experience": 64,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 388,
+   "name": "grotle",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 389,
+   "name": "torterra",
+   "base_experience": 236,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 390,
+   "name": "chimchar",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 391,
+   "name": "monferno",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 392,
+   "name": "infernape",
+   "base_experience": 240,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 393,
+   "name": "piplup",
+   "base_experience": 63,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 394,
+   "name": "prinplup",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 395,
+   "name": "empoleon",
+   "base_experience": 239,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 396,
+   "name": "starly",
+   "base_experience": 49,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 397,
+   "name": "staravia",
+   "base_experience": 119,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 398,
+   "name": "staraptor",
+   "base_experience": 218,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 399,
+   "name": "bidoof",
+   "base_experience": 50,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 400,
+   "name": "bibarel",
+   "base_experience": 144,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 401,
+   "name": "kricketot",
+   "base_experience": 39,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 402,
+   "name": "kricketune",
+   "base_experience": 134,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 403,
+   "name": "shinx",
+   "base_experience": 53,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 404,
+   "name": "luxio",
+   "base_experience": 127,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 405,
+   "name": "luxray",
+   "base_experience": 235,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 406,
+   "name": "budew",
+   "base_experience": 56,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 407,
+   "name": "roserade",
+   "base_experience": 232,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 408,
+   "name": "cranidos",
+   "base_experience": 70,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 409,
+   "name": "rampardos",
+   "base_experience": 173,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 410,
+   "name": "shieldon",
+   "base_experience": 70,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 411,
+   "name": "bastiodon",
+   "base_experience": 173,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 412,
+   "name": "burmy",
+   "base_experience": 45,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 413,
+   "name": "wormadam-plant",
+   "base_experience": 148,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 414,
+   "name": "mothim",
+   "base_experience": 148,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 415,
+   "name": "combee",
+   "base_experience": 49,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 416,
+   "name": "vespiquen",
+   "base_experience": 166,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 417,
+   "name": "pachirisu",
+   "base_experience": 142,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 418,
+   "name": "buizel",
+   "base_experience": 66,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 419,
+   "name": "floatzel",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 420,
+   "name": "cherubi",
+   "base_experience": 55,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 421,
+   "name": "cherrim",
+   "base_experience": 158,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 422,
+   "name": "shellos",
+   "base_experience": 65,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 423,
+   "name": "gastrodon",
+   "base_experience": 166,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 424,
+   "name": "ambipom",
+   "base_experience": 169,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 425,
+   "name": "drifloon",
+   "base_experience": 70,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 426,
+   "name": "drifblim",
+   "base_experience": 174,
+   "growth_rate": "fast-then-very-slow"
+  },
+  {
+   "id": 427,
+   "name": "buneary",
+   "base_experience": 70,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 428,
+   "name": "lopunny",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 429,
+   "name": "mismagius",
+   "base_experience": 173,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 430,
+   "name": "honchkrow",
+   "base_experience": 177,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 431,
+   "name": "glameow",
+   "base_experience": 62,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 432,
+   "name": "purugly",
+   "base_experience": 158,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 433,
+   "name": "chingling",
+   "base_experience": 57,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 434,
+   "name": "stunky",
+   "base_experience": 66,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 435,
+   "name": "skuntank",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 436,
+   "name": "bronzor",
+   "base_experience": 60,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 437,
+   "name": "bronzong",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 438,
+   "name": "bonsly",
+   "base_experience": 58,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 439,
+   "name": "mime-jr",
+   "base_experience": 62,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 440,
+   "name": "happiny",
+   "base_experience": 110,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 441,
+   "name": "chatot",
+   "base_experience": 144,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 442,
+   "name": "spiritomb",
+   "base_experience": 170,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 443,
+   "name": "gible",
+   "base_experience": 60,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 444,
+   "name": "gabite",
+   "base_experience": 144,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 445,
+   "name": "garchomp",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 446,
+   "name": "munchlax",
+   "base_experience": 78,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 447,
+   "name": "riolu",
+   "base_experience": 57,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 448,
+   "name": "lucario",
+   "base_experience": 184,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 449,
+   "name": "hippopotas",
+   "base_experience": 66,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 450,
+   "name": "hippowdon",
+   "base_experience": 184,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 451,
+   "name": "skorupi",
+   "base_experience": 66,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 452,
+   "name": "drapion",
+   "base_experience": 175,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 453,
+   "name": "croagunk",
+   "base_experience": 60,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 454,
+   "name": "toxicroak",
+   "base_experience": 172,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 455,
+   "name": "carnivine",
+   "base_experience": 159,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 456,
+   "name": "finneon",
+   "base_experience": 66,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 457,
+   "name": "lumineon",
+   "base_experience": 161,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 458,
+   "name": "mantyke",
+   "base_experience": 69,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 459,
+   "name": "snover",
+   "base_experience": 67,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 460,
+   "name": "abomasnow",
+   "base_experience": 173,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 461,
+   "name": "weavile",
+   "base_experience": 179,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 462,
+   "name": "magnezone",
+   "base_experience": 241,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 463,
+   "name": "lickilicky",
+   "base_experience": 180,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 464,
+   "name": "rhyperior",
+   "base_experience": 241,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 465,
+   "name": "tangrowth",
+   "base_experience": 187,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 466,
+   "name": "electivire",
+   "base_experience": 243,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 467,
+   "name": "magmortar",
+   "base_experience": 243,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 468,
+   "name": "togekiss",
+   "base_experience": 245,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 469,
+   "name": "yanmega",
+   "base_experience": 180,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 470,
+   "name": "leafeon",
+   "base_experience": 184,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 471,
+   "name": "glaceon",
+   "base_experience": 184,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 472,
+   "name": "gliscor",
+   "base_experience": 179,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 473,
+   "name": "mamoswine",
+   "base_experience": 239,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 474,
+   "name": "porygon-z",
+   "base_experience": 241,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 475,
+   "name": "gallade",
+   "base_experience": 233,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 476,
+   "name": "probopass",
+   "base_experience": 184,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 477,
+   "name": "dusknoir",
+   "base_experience": 236,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 478,
+   "name": "froslass",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 479,
+   "name": "rotom",
+   "base_experience": 154,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 480,
+   "name": "uxie",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 481,
+   "name": "mesprit",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 482,
+   "name": "azelf",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 483,
+   "name": "dialga",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 484,
+   "name": "palkia",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 485,
+   "name": "heatran",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 486,
+   "name": "regigigas",
+   "base_experience": 302,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 487,
+   "name": "giratina-altered",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 488,
+   "name": "cresselia",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 489,
+   "name": "phione",
+   "base_experience": 216,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 490,
+   "name": "manaphy",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 491,
+   "name": "darkrai",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 492,
+   "name": "shaymin-land",
+   "base_experience": 270,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 493,
+   "name": "arceus",
+   "base_experience": 324,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 494,
+   "name": "victini",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 495,
+   "name": "snivy",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 496,
+   "name": "servine",
+   "base_experience": 145,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 497,
+   "name": "serperior",
+   "base_experience": 238,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 498,
+   "name": "tepig",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 499,
+   "name": "pignite",
+   "base_experience": 146,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 500,
+   "name": "emboar",
+   "base_experience": 238,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 501,
+   "name": "oshawott",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 502,
+   "name": "dewott",
+   "base_experience": 145,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 503,
+   "name": "samurott",
+   "base_experience": 238,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 504,
+   "name": "patrat",
+   "base_experience": 51,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 505,
+   "name": "watchog",
+   "base_experience": 147,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 506,
+   "name": "lillipup",
+   "base_experience": 55,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 507,
+   "name": "herdier",
+   "base_experience": 130,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 508,
+   "name": "stoutland",
+   "base_experience": 225,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 509,
+   "name": "purrloin",
+   "base_experience": 56,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 510,
+   "name": "liepard",
+   "base_experience": 156,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 511,
+   "name": "pansage",
+   "base_experience": 63,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 512,
+   "name": "simisage",
+   "base_experience": 174,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 513,
+   "name": "pansear",
+   "base_experience": 63,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 514,
+   "name": "simisear",
+   "base_experience": 174,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 515,
+   "name": "panpour",
+   "base_experience": 63,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 516,
+   "name": "simipour",
+   "base_experience": 174,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 517,
+   "name": "munna",
+   "base_experience": 58,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 518,
+   "name": "musharna",
+   "base_experience": 170,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 519,
+   "name": "pidove",
+   "base_experience": 53,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 520,
+   "name": "tranquill",
+   "base_experience": 125,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 521,
+   "name": "unfezant",
+   "base_experience": 220,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 522,
+   "name": "blitzle",
+   "base_experience": 59,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 523,
+   "name": "zebstrika",
+   "base_experience": 174,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 524,
+   "name": "roggenrola",
+   "base_experience": 56,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 525,
+   "name": "boldore",
+   "base_experience": 137,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 526,
+   "name": "gigalith",
+   "base_experience": 232,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 527,
+   "name": "woobat",
+   "base_experience": 65,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 528,
+   "name": "swoobat",
+   "base_experience": 149,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 529,
+   "name": "drilbur",
+   "base_experience": 66,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 530,
+   "name": "excadrill",
+   "base_experience": 178,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 531,
+   "name": "audino",
+   "base_experience": 390,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 532,
+   "name": "timburr",
+   "base_experience": 61,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 533,
+   "name": "gurdurr",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 534,
+   "name": "conkeldurr",
+   "base_experience": 227,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 535,
+   "name": "tympole",
+   "base_experience": 59,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 536,
+   "name": "palpitoad",
+   "base_experience": 134,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 537,
+   "name": "seismitoad",
+   "base_experience": 229,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 538,
+   "name": "throh",
+   "base_experience": 163,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 539,
+   "name": "sawk",
+   "base_experience": 163,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 540,
+   "name": "sewaddle",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 541,
+   "name": "swadloon",
+   "base_experience": 133,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 542,
+   "name": "leavanny",
+   "base_experience": 225,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 543,
+   "name": "venipede",
+   "base_experience": 52,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 544,
+   "name": "whirlipede",
+   "base_experience": 126,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 545,
+   "name": "scolipede",
+   "base_experience": 218,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 546,
+   "name": "cottonee",
+   "base_experience": 56,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 547,
+   "name": "whimsicott",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 548,
+   "name": "petilil",
+   "base_experience": 56,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 549,
+   "name": "lilligant",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 550,
+   "name": "basculin-red-striped",
+   "base_experience": 161,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 551,
+   "name": "sandile",
+   "base_experience": 58,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 552,
+   "name": "krokorok",
+   "base_experience": 123,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 553,
+   "name": "krookodile",
+   "base_experience": 234,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 554,
+   "name": "darumaka",
+   "base_experience": 63,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 555,
+   "name": "darmanitan-standard",
+   "base_experience": 168,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 556,
+   "name": "maractus",
+   "base_experience": 161,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 557,
+   "name": "dwebble",
+   "base_experience": 65,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 558,
+   "name": "crustle",
+   "base_experience": 170,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 559,
+   "name": "scraggy",
+   "base_experience": 70,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 560,
+   "name": "scrafty",
+   "base_experience": 171,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 561,
+   "name": "sigilyph",
+   "base_experience": 172,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 562,
+   "name": "yamask",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 563,
+   "name": "cofagrigus",
+   "base_experience": 169,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 564,
+   "name": "tirtouga",
+   "base_experience": 71,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 565,
+   "name": "carracosta",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 566,
+   "name": "archen",
+   "base_experience": 71,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 567,
+   "name": "archeops",
+   "base_experience": 177,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 568,
+   "name": "trubbish",
+   "base_experience": 66,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 569,
+   "name": "garbodor",
+   "base_experience": 166,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 570,
+   "name": "zorua",
+   "base_experience": 66,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 571,
+   "name": "zoroark",
+   "base_experience": 179,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 572,
+   "name": "minccino",
+   "base_experience": 60,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 573,
+   "name": "cinccino",
+   "base_experience": 165,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 574,
+   "name": "gothita",
+   "base_experience": 58,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 575,
+   "name": "gothorita",
+   "base_experience": 137,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 576,
+   "name": "gothitelle",
+   "base_experience": 221,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 577,
+   "name": "solosis",
+   "base_experience": 58,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 578,
+   "name": "duosion",
+   "base_experience": 130,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 579,
+   "name": "reuniclus",
+   "base_experience": 221,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 580,
+   "name": "ducklett",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 581,
+   "name": "swanna",
+   "base_experience": 166,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 582,
+   "name": "vanillite",
+   "base_experience": 61,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 583,
+   "name": "vanillish",
+   "base_experience": 138,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 584,
+   "name": "vanilluxe",
+   "base_experience": 241,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 585,
+   "name": "deerling",
+   "base_experience": 67,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 586,
+   "name": "sawsbuck",
+   "base_experience": 166,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 587,
+   "name": "emolga",
+   "base_experience": 150,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 588,
+   "name": "karrablast",
+   "base_experience": 63,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 589,
+   "name": "escavalier",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 590,
+   "name": "foongus",
+   "base_experience": 59,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 591,
+   "name": "amoonguss",
+   "base_experience": 162,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 592,
+   "name": "frillish-male",
+   "base_experience": 67,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 593,
+   "name": "jellicent-male",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 594,
+   "name": "alomomola",
+   "base_experience": 165,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 595,
+   "name": "joltik",
+   "base_experience": 64,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 596,
+   "name": "galvantula",
+   "base_experience": 165,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 597,
+   "name": "ferroseed",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 598,
+   "name": "ferrothorn",
+   "base_experience": 171,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 599,
+   "name": "klink",
+   "base_experience": 60,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 600,
+   "name": "klang",
+   "base_experience": 154,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 601,
+   "name": "klinklang",
+   "base_experience": 234,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 602,
+   "name": "tynamo",
+   "base_experience": 55,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 603,
+   "name": "eelektrik",
+   "base_experience": 142,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 604,
+   "name": "eelektross",
+   "base_experience": 232,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 605,
+   "name": "elgyem",
+   "base_experience": 67,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 606,
+   "name": "beheeyem",
+   "base_experience": 170,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 607,
+   "name": "litwick",
+   "base_experience": 55,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 608,
+   "name": "lampent",
+   "base_experience": 130,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 609,
+   "name": "chandelure",
+   "base_experience": 234,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 610,
+   "name": "axew",
+   "base_experience": 64,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 611,
+   "name": "fraxure",
+   "base_experience": 144,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 612,
+   "name": "haxorus",
+   "base_experience": 243,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 613,
+   "name": "cubchoo",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 614,
+   "name": "beartic",
+   "base_experience": 177,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 615,
+   "name": "cryogonal",
+   "base_experience": 180,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 616,
+   "name": "shelmet",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 617,
+   "name": "accelgor",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 618,
+   "name": "stunfisk",
+   "base_experience": 165,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 619,
+   "name": "mienfoo",
+   "base_experience": 70,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 620,
+   "name": "mienshao",
+   "base_experience": 179,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 621,
+   "name": "druddigon",
+   "base_experience": 170,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 622,
+   "name": "golett",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 623,
+   "name": "golurk",
+   "base_experience": 169,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 624,
+   "name": "pawniard",
+   "base_experience": 68,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 625,
+   "name": "bisharp",
+   "base_experience": 172,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 626,
+   "name": "bouffalant",
+   "base_experience": 172,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 627,
+   "name": "rufflet",
+   "base_experience": 70,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 628,
+   "name": "braviary",
+   "base_experience": 179,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 629,
+   "name": "vullaby",
+   "base_experience": 74,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 630,
+   "name": "mandibuzz",
+   "base_experience": 179,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 631,
+   "name": "heatmor",
+   "base_experience": 169,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 632,
+   "name": "durant",
+   "base_experience": 169,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 633,
+   "name": "deino",
+   "base_experience": 60,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 634,
+   "name": "zweilous",
+   "base_experience": 147,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 635,
+   "name": "hydreigon",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 636,
+   "name": "larvesta",
+   "base_experience": 72,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 637,
+   "name": "volcarona",
+   "base_experience": 248,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 638,
+   "name": "cobalion",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 639,
+   "name": "terrakion",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 640,
+   "name": "virizion",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 641,
+   "name": "tornadus-incarnate",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 642,
+   "name": "thundurus-incarnate",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 643,
+   "name": "reshiram",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 644,
+   "name": "zekrom",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 645,
+   "name": "landorus-incarnate",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 646,
+   "name": "kyurem",
+   "base_experience": 297,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 647,
+   "name": "keldeo-ordinary",
+   "base_experience": 261,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 648,
+   "name": "meloetta-aria",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 649,
+   "name": "genesect",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 650,
+   "name": "chespin",
+   "base_experience": 63,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 651,
+   "name": "quilladin",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 652,
+   "name": "chesnaught",
+   "base_experience": 239,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 653,
+   "name": "fennekin",
+   "base_experience": 61,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 654,
+   "name": "braixen",
+   "base_experience": 143,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 655,
+   "name": "delphox",
+   "base_experience": 240,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 656,
+   "name": "froakie",
+   "base_experience": 63,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 657,
+   "name": "frogadier",
+   "base_experience": 142,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 658,
+   "name": "greninja",
+   "base_experience": 239,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 659,
+   "name": "bunnelby",
+   "base_experience": 47,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 660,
+   "name": "diggersby",
+   "base_experience": 148,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 661,
+   "name": "fletchling",
+   "base_experience": 56,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 662,
+   "name": "fletchinder",
+   "base_experience": 134,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 663,
+   "name": "talonflame",
+   "base_experience": 175,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 664,
+   "name": "scatterbug",
+   "base_experience": 40,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 665,
+   "name": "spewpa",
+   "base_experience": 75,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 666,
+   "name": "vivillon",
+   "base_experience": 185,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 667,
+   "name": "litleo",
+   "base_experience": 74,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 668,
+   "name": "pyroar-male",
+   "base_experience": 177,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 669,
+   "name": "flabebe",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 670,
+   "name": "floette",
+   "base_experience": 130,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 671,
+   "name": "florges",
+   "base_experience": 248,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 672,
+   "name": "skiddo",
+   "base_experience": 70,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 673,
+   "name": "gogoat",
+   "base_experience": 186,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 674,
+   "name": "pancham",
+   "base_experience": 70,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 675,
+   "name": "pangoro",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 676,
+   "name": "furfrou",
+   "base_experience": 165,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 677,
+   "name": "espurr",
+   "base_experience": 71,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 678,
+   "name": "meowstic-male",
+   "base_experience": 163,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 679,
+   "name": "honedge",
+   "base_experience": 65,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 680,
+   "name": "doublade",
+   "base_experience": 157,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 681,
+   "name": "aegislash-shield",
+   "base_experience": 234,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 682,
+   "name": "spritzee",
+   "base_experience": 68,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 683,
+   "name": "aromatisse",
+   "base_experience": 162,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 684,
+   "name": "swirlix",
+   "base_experience": 68,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 685,
+   "name": "slurpuff",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 686,
+   "name": "inkay",
+   "base_experience": 58,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 687,
+   "name": "malamar",
+   "base_experience": 169,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 688,
+   "name": "binacle",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 689,
+   "name": "barbaracle",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 690,
+   "name": "skrelp",
+   "base_experience": 64,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 691,
+   "name": "dragalge",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 692,
+   "name": "clauncher",
+   "base_experience": 66,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 693,
+   "name": "clawitzer",
+   "base_experience": 100,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 694,
+   "name": "helioptile",
+   "base_experience": 58,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 695,
+   "name": "heliolisk",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 696,
+   "name": "tyrunt",
+   "base_experience": 72,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 697,
+   "name": "tyrantrum",
+   "base_experience": 182,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 698,
+   "name": "amaura",
+   "base_experience": 72,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 699,
+   "name": "aurorus",
+   "base_experience": 104,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 700,
+   "name": "sylveon",
+   "base_experience": 184,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 701,
+   "name": "hawlucha",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 702,
+   "name": "dedenne",
+   "base_experience": 151,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 703,
+   "name": "carbink",
+   "base_experience": 100,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 704,
+   "name": "goomy",
+   "base_experience": 60,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 705,
+   "name": "sliggoo",
+   "base_experience": 158,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 706,
+   "name": "goodra",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 707,
+   "name": "klefki",
+   "base_experience": 165,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 708,
+   "name": "phantump",
+   "base_experience": 62,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 709,
+   "name": "trevenant",
+   "base_experience": 166,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 710,
+   "name": "pumpkaboo-average",
+   "base_experience": 67,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 711,
+   "name": "gourgeist-average",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 712,
+   "name": "bergmite",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 713,
+   "name": "avalugg",
+   "base_experience": 180,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 714,
+   "name": "noibat",
+   "base_experience": 49,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 715,
+   "name": "noivern",
+   "base_experience": 187,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 716,
+   "name": "xerneas",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 717,
+   "name": "yveltal",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 718,
+   "name": "zygarde-50",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 719,
+   "name": "diancie",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 720,
+   "name": "hoopa",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 721,
+   "name": "volcanion",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 722,
+   "name": "rowlet",
+   "base_experience": 64,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 723,
+   "name": "dartrix",
+   "base_experience": 147,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 724,
+   "name": "decidueye",
+   "base_experience": 239,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 725,
+   "name": "litten",
+   "base_experience": 64,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 726,
+   "name": "torracat",
+   "base_experience": 147,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 727,
+   "name": "incineroar",
+   "base_experience": 239,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 728,
+   "name": "popplio",
+   "base_experience": 64,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 729,
+   "name": "brionne",
+   "base_experience": 147,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 730,
+   "name": "primarina",
+   "base_experience": 239,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 731,
+   "name": "pikipek",
+   "base_experience": 53,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 732,
+   "name": "trumbeak",
+   "base_experience": 124,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 733,
+   "name": "toucannon",
+   "base_experience": 218,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 734,
+   "name": "yungoos",
+   "base_experience": 51,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 735,
+   "name": "gumshoos",
+   "base_experience": 146,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 736,
+   "name": "grubbin",
+   "base_experience": 60,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 737,
+   "name": "charjabug",
+   "base_experience": 140,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 738,
+   "name": "vikavolt",
+   "base_experience": 225,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 739,
+   "name": "crabrawler",
+   "base_experience": 68,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 740,
+   "name": "crabominable",
+   "base_experience": 167,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 741,
+   "name": "oricorio-baile",
+   "base_experience": 167,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 742,
+   "name": "cutiefly",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 743,
+   "name": "ribombee",
+   "base_experience": 162,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 744,
+   "name": "rockruff",
+   "base_experience": 56,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 745,
+   "name": "lycanroc-midday",
+   "base_experience": 170,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 746,
+   "name": "wishiwashi-solo",
+   "base_experience": 61,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 747,
+   "name": "mareanie",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 748,
+   "name": "toxapex",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 749,
+   "name": "mudbray",
+   "base_experience": 77,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 750,
+   "name": "mudsdale",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 751,
+   "name": "dewpider",
+   "base_experience": 54,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 752,
+   "name": "araquanid",
+   "base_experience": 159,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 753,
+   "name": "fomantis",
+   "base_experience": 50,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 754,
+   "name": "lurantis",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 755,
+   "name": "morelull",
+   "base_experience": 57,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 756,
+   "name": "shiinotic",
+   "base_experience": 142,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 757,
+   "name": "salandit",
+   "base_experience": 64,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 758,
+   "name": "salazzle",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 759,
+   "name": "stufful",
+   "base_experience": 68,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 760,
+   "name": "bewear",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 761,
+   "name": "bounsweet",
+   "base_experience": 42,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 762,
+   "name": "steenee",
+   "base_experience": 102,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 763,
+   "name": "tsareena",
+   "base_experience": 230,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 764,
+   "name": "comfey",
+   "base_experience": 170,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 765,
+   "name": "oranguru",
+   "base_experience": 172,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 766,
+   "name": "passimian",
+   "base_experience": 172,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 767,
+   "name": "wimpod",
+   "base_experience": 46,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 768,
+   "name": "golisopod",
+   "base_experience": 186,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 769,
+   "name": "sandygast",
+   "base_experience": 64,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 770,
+   "name": "palossand",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 771,
+   "name": "pyukumuku",
+   "base_experience": 144,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 772,
+   "name": "type-null",
+   "base_experience": 107,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 773,
+   "name": "silvally",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 774,
+   "name": "minior-red-meteor",
+   "base_experience": 154,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 775,
+   "name": "komala",
+   "base_experience": 168,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 776,
+   "name": "turtonator",
+   "base_experience": 170,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 777,
+   "name": "togedemaru",
+   "base_experience": 152,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 778,
+   "name": "mimikyu-disguised",
+   "base_experience": 167,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 779,
+   "name": "bruxish",
+   "base_experience": 166,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 780,
+   "name": "drampa",
+   "base_experience": 170,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 781,
+   "name": "dhelmise",
+   "base_experience": 181,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 782,
+   "name": "jangmo-o",
+   "base_experience": 60,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 783,
+   "name": "hakamo-o",
+   "base_experience": 147,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 784,
+   "name": "kommo-o",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 785,
+   "name": "tapu-koko",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 786,
+   "name": "tapu-lele",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 787,
+   "name": "tapu-bulu",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 788,
+   "name": "tapu-fini",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 789,
+   "name": "cosmog",
+   "base_experience": 40,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 790,
+   "name": "cosmoem",
+   "base_experience": 140,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 791,
+   "name": "solgaleo",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 792,
+   "name": "lunala",
+   "base_experience": 306,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 793,
+   "name": "nihilego",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 794,
+   "name": "buzzwole",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 795,
+   "name": "pheromosa",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 796,
+   "name": "xurkitree",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 797,
+   "name": "celesteela",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 798,
+   "name": "kartana",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 799,
+   "name": "guzzlord",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 800,
+   "name": "necrozma",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 801,
+   "name": "magearna",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 802,
+   "name": "marshadow",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 803,
+   "name": "poipole",
+   "base_experience": 189,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 804,
+   "name": "naganadel",
+   "base_experience": 243,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 805,
+   "name": "stakataka",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 806,
+   "name": "blacephalon",
+   "base_experience": 257,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 807,
+   "name": "zeraora",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 808,
+   "name": "meltan",
+   "base_experience": 135,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 809,
+   "name": "melmetal",
+   "base_experience": 270,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 810,
+   "name": "grookey",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 811,
+   "name": "thwackey",
+   "base_experience": 147,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 812,
+   "name": "rillaboom",
+   "base_experience": 265,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 813,
+   "name": "scorbunny",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 814,
+   "name": "raboot",
+   "base_experience": 147,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 815,
+   "name": "cinderace",
+   "base_experience": 265,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 816,
+   "name": "sobble",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 817,
+   "name": "drizzile",
+   "base_experience": 147,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 818,
+   "name": "inteleon",
+   "base_experience": 265,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 819,
+   "name": "skwovet",
+   "base_experience": 55,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 820,
+   "name": "greedent",
+   "base_experience": 161,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 821,
+   "name": "rookidee",
+   "base_experience": 49,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 822,
+   "name": "corvisquire",
+   "base_experience": 128,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 823,
+   "name": "corviknight",
+   "base_experience": 248,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 824,
+   "name": "blipbug",
+   "base_experience": 36,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 825,
+   "name": "dottler",
+   "base_experience": 117,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 826,
+   "name": "orbeetle",
+   "base_experience": 253,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 827,
+   "name": "nickit",
+   "base_experience": 49,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 828,
+   "name": "thievul",
+   "base_experience": 159,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 829,
+   "name": "gossifleur",
+   "base_experience": 50,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 830,
+   "name": "eldegoss",
+   "base_experience": 161,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 831,
+   "name": "wooloo",
+   "base_experience": 122,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 832,
+   "name": "dubwool",
+   "base_experience": 172,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 833,
+   "name": "chewtle",
+   "base_experience": 57,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 834,
+   "name": "drednaw",
+   "base_experience": 170,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 835,
+   "name": "yamper",
+   "base_experience": 54,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 836,
+   "name": "boltund",
+   "base_experience": 172,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 837,
+   "name": "rolycoly",
+   "base_experience": 48,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 838,
+   "name": "carkol",
+   "base_experience": 144,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 839,
+   "name": "coalossal",
+   "base_experience": 255,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 840,
+   "name": "applin",
+   "base_experience": 52,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 841,
+   "name": "flapple",
+   "base_experience": 170,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 842,
+   "name": "appletun",
+   "base_experience": 170,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 843,
+   "name": "silicobra",
+   "base_experience": 63,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 844,
+   "name": "sandaconda",
+   "base_experience": 179,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 845,
+   "name": "cramorant",
+   "base_experience": 166,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 846,
+   "name": "arrokuda",
+   "base_experience": 56,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 847,
+   "name": "barraskewda",
+   "base_experience": 172,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 848,
+   "name": "toxel",
+   "base_experience": 48,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 849,
+   "name": "toxtricity-amped",
+   "base_experience": 176,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 850,
+   "name": "sizzlipede",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 851,
+   "name": "centiskorch",
+   "base_experience": 184,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 852,
+   "name": "clobbopus",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 853,
+   "name": "grapploct",
+   "base_experience": 168,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 854,
+   "name": "sinistea",
+   "base_experience": 62,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 855,
+   "name": "polteageist",
+   "base_experience": 178,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 856,
+   "name": "hatenna",
+   "base_experience": 53,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 857,
+   "name": "hattrem",
+   "base_experience": 130,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 858,
+   "name": "hatterene",
+   "base_experience": 255,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 859,
+   "name": "impidimp",
+   "base_experience": 53,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 860,
+   "name": "morgrem",
+   "base_experience": 130,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 861,
+   "name": "grimmsnarl",
+   "base_experience": 255,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 862,
+   "name": "obstagoon",
+   "base_experience": 260,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 863,
+   "name": "perrserker",
+   "base_experience": 154,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 864,
+   "name": "cursola",
+   "base_experience": 179,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 865,
+   "name": "sirfetchd",
+   "base_experience": 177,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 866,
+   "name": "mr-rime",
+   "base_experience": 182,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 867,
+   "name": "runerigus",
+   "base_experience": 169,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 868,
+   "name": "milcery",
+   "base_experience": 54,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 869,
+   "name": "alcremie",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 870,
+   "name": "falinks",
+   "base_experience": 165,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 871,
+   "name": "pincurchin",
+   "base_experience": 152,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 872,
+   "name": "snom",
+   "base_experience": 37,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 873,
+   "name": "frosmoth",
+   "base_experience": 166,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 874,
+   "name": "stonjourner",
+   "base_experience": 165,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 875,
+   "name": "eiscue-ice",
+   "base_experience": 165,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 876,
+   "name": "indeedee-male",
+   "base_experience": 166,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 877,
+   "name": "morpeko-full-belly",
+   "base_experience": 153,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 878,
+   "name": "cufant",
+   "base_experience": 66,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 879,
+   "name": "copperajah",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 880,
+   "name": "dracozolt",
+   "base_experience": 177,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 881,
+   "name": "arctozolt",
+   "base_experience": 177,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 882,
+   "name": "dracovish",
+   "base_experience": 177,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 883,
+   "name": "arctovish",
+   "base_experience": 177,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 884,
+   "name": "duraludon",
+   "base_experience": 187,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 885,
+   "name": "dreepy",
+   "base_experience": 54,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 886,
+   "name": "drakloak",
+   "base_experience": 144,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 887,
+   "name": "dragapult",
+   "base_experience": 300,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 888,
+   "name": "zacian",
+   "base_experience": 335,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 889,
+   "name": "zamazenta",
+   "base_experience": 335,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 890,
+   "name": "eternatus",
+   "base_experience": 345,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 891,
+   "name": "kubfu",
+   "base_experience": 77,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 892,
+   "name": "urshifu-single-strike",
+   "base_experience": 275,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 893,
+   "name": "zarude",
+   "base_experience": 300,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 894,
+   "name": "regieleki",
+   "base_experience": 290,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 895,
+   "name": "regidrago",
+   "base_experience": 290,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 896,
+   "name": "glastrier",
+   "base_experience": 290,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 897,
+   "name": "spectrier",
+   "base_experience": 290,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 898,
+   "name": "calyrex",
+   "base_experience": 250,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 899,
+   "name": "wyrdeer",
+   "base_experience": 263,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 900,
+   "name": "kleavor",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 901,
+   "name": "ursaluna",
+   "base_experience": 275,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 902,
+   "name": "basculegion-male",
+   "base_experience": 265,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 903,
+   "name": "sneasler",
+   "base_experience": 102,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 904,
+   "name": "overqwil",
+   "base_experience": 179,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 905,
+   "name": "enamorus-incarnate",
+   "base_experience": 116,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 906,
+   "name": "sprigatito",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 907,
+   "name": "floragato",
+   "base_experience": 144,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 908,
+   "name": "meowscarada",
+   "base_experience": 265,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 909,
+   "name": "fuecoco",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 910,
+   "name": "crocalor",
+   "base_experience": 144,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 911,
+   "name": "skeledirge",
+   "base_experience": 265,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 912,
+   "name": "quaxly",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 913,
+   "name": "quaxwell",
+   "base_experience": 144,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 914,
+   "name": "quaquaval",
+   "base_experience": 265,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 915,
+   "name": "lechonk",
+   "base_experience": 51,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 916,
+   "name": "oinkologne-male",
+   "base_experience": 171,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 917,
+   "name": "tarountula",
+   "base_experience": 42,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 918,
+   "name": "spidops",
+   "base_experience": 141,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 919,
+   "name": "nymble",
+   "base_experience": 42,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 920,
+   "name": "lokix",
+   "base_experience": 158,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 921,
+   "name": "pawmi",
+   "base_experience": 48,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 922,
+   "name": "pawmo",
+   "base_experience": 123,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 923,
+   "name": "pawmot",
+   "base_experience": 245,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 924,
+   "name": "tandemaus",
+   "base_experience": 61,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 925,
+   "name": "maushold-family-of-four",
+   "base_experience": 165,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 926,
+   "name": "fidough",
+   "base_experience": 62,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 927,
+   "name": "dachsbun",
+   "base_experience": 167,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 928,
+   "name": "smoliv",
+   "base_experience": 52,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 929,
+   "name": "dolliv",
+   "base_experience": 124,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 930,
+   "name": "arboliva",
+   "base_experience": 255,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 931,
+   "name": "squawkabilly-green-plumage",
+   "base_experience": 146,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 932,
+   "name": "nacli",
+   "base_experience": 56,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 933,
+   "name": "naclstack",
+   "base_experience": 124,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 934,
+   "name": "garganacl",
+   "base_experience": 250,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 935,
+   "name": "charcadet",
+   "base_experience": 51,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 936,
+   "name": "armarouge",
+   "base_experience": 263,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 937,
+   "name": "ceruledge",
+   "base_experience": 263,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 938,
+   "name": "tadbulb",
+   "base_experience": 54,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 939,
+   "name": "bellibolt",
+   "base_experience": 173,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 940,
+   "name": "wattrel",
+   "base_experience": 56,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 941,
+   "name": "kilowattrel",
+   "base_experience": 172,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 942,
+   "name": "maschiff",
+   "base_experience": 68,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 943,
+   "name": "mabosstiff",
+   "base_experience": 177,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 944,
+   "name": "shroodle",
+   "base_experience": 58,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 945,
+   "name": "grafaiai",
+   "base_experience": 170,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 946,
+   "name": "bramblin",
+   "base_experience": 55,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 947,
+   "name": "brambleghast",
+   "base_experience": 168,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 948,
+   "name": "toedscool",
+   "base_experience": 67,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 949,
+   "name": "toedscruel",
+   "base_experience": 180,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 950,
+   "name": "klawf",
+   "base_experience": 158,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 951,
+   "name": "capsakid",
+   "base_experience": 61,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 952,
+   "name": "scovillain",
+   "base_experience": 170,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 953,
+   "name": "rellor",
+   "base_experience": 54,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 954,
+   "name": "rabsca",
+   "base_experience": 165,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 955,
+   "name": "flittle",
+   "base_experience": 51,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 956,
+   "name": "espathra",
+   "base_experience": 168,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 957,
+   "name": "tinkatink",
+   "base_experience": 59,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 958,
+   "name": "tinkatuff",
+   "base_experience": 133,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 959,
+   "name": "tinkaton",
+   "base_experience": 253,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 960,
+   "name": "wiglett",
+   "base_experience": 49,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 961,
+   "name": "wugtrio",
+   "base_experience": 149,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 962,
+   "name": "bombirdier",
+   "base_experience": 243,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 963,
+   "name": "finizen",
+   "base_experience": 63,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 964,
+   "name": "palafin-zero",
+   "base_experience": 160,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 965,
+   "name": "varoom",
+   "base_experience": 60,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 966,
+   "name": "revavroom",
+   "base_experience": 175,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 967,
+   "name": "cyclizar",
+   "base_experience": 175,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 968,
+   "name": "orthworm",
+   "base_experience": 240,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 969,
+   "name": "glimmet",
+   "base_experience": 70,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 970,
+   "name": "glimmora",
+   "base_experience": 184,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 971,
+   "name": "greavard",
+   "base_experience": 58,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 972,
+   "name": "houndstone",
+   "base_experience": 171,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 973,
+   "name": "flamigo",
+   "base_experience": 175,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 974,
+   "name": "cetoddle",
+   "base_experience": 67,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 975,
+   "name": "cetitan",
+   "base_experience": 182,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 976,
+   "name": "veluza",
+   "base_experience": 167,
+   "growth_rate": "fast"
+  },
+  {
+   "id": 977,
+   "name": "dondozo",
+   "base_experience": 265,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 978,
+   "name": "tatsugiri-curly",
+   "base_experience": 166,
+   "growth_rate": "medium-slow"
+  },
+  {
+   "id": 979,
+   "name": "annihilape",
+   "base_experience": 268,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 980,
+   "name": "clodsire",
+   "base_experience": 151,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 981,
+   "name": "farigiraf",
+   "base_experience": 260,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 982,
+   "name": "dudunsparce-two-segment",
+   "base_experience": 182,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 983,
+   "name": "kingambit",
+   "base_experience": 275,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 984,
+   "name": "great-tusk",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 985,
+   "name": "scream-tail",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 986,
+   "name": "brute-bonnet",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 987,
+   "name": "flutter-mane",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 988,
+   "name": "slither-wing",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 989,
+   "name": "sandy-shocks",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 990,
+   "name": "iron-treads",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 991,
+   "name": "iron-bundle",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 992,
+   "name": "iron-hands",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 993,
+   "name": "iron-jugulis",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 994,
+   "name": "iron-moth",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 995,
+   "name": "iron-thorns",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 996,
+   "name": "frigibax",
+   "base_experience": 64,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 997,
+   "name": "arctibax",
+   "base_experience": 148,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 998,
+   "name": "baxcalibur",
+   "base_experience": 300,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 999,
+   "name": "gimmighoul",
+   "base_experience": 60,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1000,
+   "name": "gholdengo",
+   "base_experience": 275,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1001,
+   "name": "wo-chien",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1002,
+   "name": "chien-pao",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1003,
+   "name": "ting-lu",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1004,
+   "name": "chi-yu",
+   "base_experience": 285,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1005,
+   "name": "roaring-moon",
+   "base_experience": 295,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1006,
+   "name": "iron-valiant",
+   "base_experience": 295,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1007,
+   "name": "koraidon",
+   "base_experience": 335,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1008,
+   "name": "miraidon",
+   "base_experience": 335,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1009,
+   "name": "walking-wake",
+   "base_experience": 295,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1010,
+   "name": "iron-leaves",
+   "base_experience": 295,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1011,
+   "name": "dipplin",
+   "base_experience": 170,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1012,
+   "name": "poltchageist",
+   "base_experience": 62,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1013,
+   "name": "sinistcha",
+   "base_experience": 178,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1014,
+   "name": "okidogi",
+   "base_experience": 278,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1015,
+   "name": "munkidori",
+   "base_experience": 278,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1016,
+   "name": "fezandipiti",
+   "base_experience": 278,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1017,
+   "name": "ogerpon",
+   "base_experience": 275,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1018,
+   "name": "archaludon",
+   "base_experience": 300,
+   "growth_rate": "medium"
+  },
+  {
+   "id": 1019,
+   "name": "hydrapple",
+   "base_experience": 270,
+   "growth_rate": "slow-then-very-fast"
+  },
+  {
+   "id": 1020,
+   "name": "gouging-fire",
+   "base_experience": 295,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1021,
+   "name": "raging-bolt",
+   "base_experience": 295,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1022,
+   "name": "iron-boulder",
+   "base_experience": 295,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1023,
+   "name": "iron-crown",
+   "base_experience": 295,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1024,
+   "name": "terapagos",
+   "base_experience": 90,
+   "growth_rate": "slow"
+  },
+  {
+   "id": 1025,
+   "name": "pecharunt",
+   "base_experience": 300,
+   "growth_rate": "slow"
+  }
+ ]
+}

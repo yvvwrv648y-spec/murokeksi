@@ -1,0 +1,47 @@
+{
+ "comment": "S.S. Anne captain's room + departure: the captain's seasickness beat (pokered SSAnneCaptainsRoom script) - rub his back, he recovers and gives HM01 (Cut), and his closing line announces the ship setting sail; this script then sets ss_anne_cleared, the story flag Vermilion Gym's record consumes (data/gym_requirements.json kanto_gym_3_surge, whose source_basis names this chain and the captain's HM01). Lines are exact bank labels (group SSAnneCaptainsRoom) in source order; the bridge ref is TEXT_SSANNECAPTAINSROOM_CAPTAIN. The obtain-fanfare line (_SSAnneCaptainsRoomCaptainReceivedHM01Text) is not a say step - the give_item step IS the grant - and the bag-full branch line is host UI business. The ship's rival battle is a separate placement beat, not part of this script. Ends faded to black: the departure itself (the host removes the ship / returns the player to Vermilion dock).",
+ "id": "ss_anne_captain",
+ "map": "SSAnneCaptainsRoom",
+ "once_flag": "ss_anne_captain_done",
+ "steps": [
+  {
+   "op": "say",
+   "speaker": "captain",
+   "dialogue": {
+    "map": "SSAnneCaptainsRoom",
+    "ref": "_SSAnneCaptainsRoomRubCaptainsBackText"
+   }
+  },
+  {
+   "op": "say",
+   "speaker": "captain",
+   "dialogue": {
+    "map": "SSAnneCaptainsRoom",
+    "ref": "_SSAnneCaptainsRoomCaptainIFeelMuchBetterText"
+   }
+  },
+  {
+   "op": "give_item",
+   "item": "hm01",
+   "count": 1
+  },
+  {
+   "op": "say",
+   "speaker": "captain",
+   "dialogue": {
+    "map": "SSAnneCaptainsRoom",
+    "ref": "_SSAnneCaptainsRoomCaptainNotSickAnymoreText"
+   }
+  },
+  {
+   "op": "set_flag",
+   "flag": "ss_anne_cleared",
+   "value": true
+  },
+  {
+   "op": "fade",
+   "to": 1.0,
+   "seconds": 0.5
+  }
+ ]
+}

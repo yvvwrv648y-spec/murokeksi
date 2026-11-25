@@ -1,0 +1,1354 @@
+{
+ "provenance": "Documentation-derived transcription (rotation 6 precedent): Bulbapedia 'Friend Pokemon (Ranger)' and 'List of Pokemon by Almia Browser number', read as page text 2026-11-23/24, transcribed into in-house JSON. NOT game data / NOT ROM extraction. Gauge values are per-encounter-context: where the source lists several values separated by '/', all are preserved in order in gauge_points[] - they are NOT averaged or merged.",
+ "region": "fiore",
+ "model": "loop_count",
+ "browser_total_documented": "213 entries R-001..R-213 (RANGER_DEEP 1.1, flagged 210 vs 213 in sources)",
+ "friend_pokemon_rows_landed": 168,
+ "note": "Rows are the Friend Pokemon subset published on the source page; Browser numbers absent here are non-Friend entries (partners, legendaries captured in-mission, etc.). Assist 'None' is a real sourced value (Normal-group species in Fiore have no Poke Assist; cf. RANGER_DEEP: Normal/Dragon/Steel have no Fiore assist - but note Beldum/Metang/Metagross carry Psychic assist and Bagon/Shelgon carry None).",
+ "rows": [
+  {
+   "browser_no": "R-001",
+   "species": "Bulbasaur",
+   "group": "Grass",
+   "field_move": "Cross 1",
+   "poke_assist": "Grass",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-002",
+   "species": "Ivysaur",
+   "group": "Grass",
+   "field_move": "Cross 1",
+   "poke_assist": "Grass",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-003",
+   "species": "Venusaur",
+   "group": "Grass",
+   "field_move": "None",
+   "poke_assist": "Grass",
+   "loops_required": 10
+  },
+  {
+   "browser_no": "R-004",
+   "species": "Bellsprout",
+   "group": "Grass",
+   "field_move": "None",
+   "poke_assist": "Grass",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-005",
+   "species": "Weepinbell",
+   "group": "Grass",
+   "field_move": "None",
+   "poke_assist": "Poison",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-006",
+   "species": "Victreebel",
+   "group": "Grass",
+   "field_move": "None",
+   "poke_assist": "Poison",
+   "loops_required": 7
+  },
+  {
+   "browser_no": "R-007",
+   "species": "Chikorita",
+   "group": "Grass",
+   "field_move": "None",
+   "poke_assist": "Grass",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-008",
+   "species": "Bayleef",
+   "group": "Grass",
+   "field_move": "Cut 2",
+   "poke_assist": "Grass",
+   "loops_required": 11
+  },
+  {
+   "browser_no": "R-009",
+   "species": "Meganium",
+   "group": "Grass",
+   "field_move": "Crush 3",
+   "poke_assist": "Grass",
+   "loops_required": 25
+  },
+  {
+   "browser_no": "R-010",
+   "species": "Hoppip",
+   "group": "Grass",
+   "field_move": "None",
+   "poke_assist": "Grass",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-011",
+   "species": "Mudkip",
+   "group": "Water",
+   "field_move": "Soak 1",
+   "poke_assist": "Water",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-012",
+   "species": "Marshtomp",
+   "group": "Ground",
+   "field_move": "Soak 2",
+   "poke_assist": "Water",
+   "loops_required": 7
+  },
+  {
+   "browser_no": "R-013",
+   "species": "Swampert",
+   "group": "Ground",
+   "field_move": "Soak 3",
+   "poke_assist": "Water",
+   "loops_required": 10
+  },
+  {
+   "browser_no": "R-015",
+   "species": "Torchic",
+   "group": "Fire",
+   "field_move": "Burn 1",
+   "poke_assist": "Fire",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-016",
+   "species": "Combusken",
+   "group": "Fire",
+   "field_move": "Burn 2",
+   "poke_assist": "Fire",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-017",
+   "species": "Blaziken",
+   "group": "Fire",
+   "field_move": "Burn 3",
+   "poke_assist": "Fire",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-019",
+   "species": "Cyndaquil",
+   "group": "Fire",
+   "field_move": "Burn 1",
+   "poke_assist": "Fire",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-020",
+   "species": "Quilava",
+   "group": "Fire",
+   "field_move": "Burn 2",
+   "poke_assist": "Fire",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-021",
+   "species": "Typhlosion",
+   "group": "Fire",
+   "field_move": "Burn 3",
+   "poke_assist": "Fire",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-022",
+   "species": "Pichu",
+   "group": "Electric",
+   "field_move": "Recharge 1",
+   "poke_assist": "Electric",
+   "loops_required": 1
+  },
+  {
+   "browser_no": "R-023",
+   "species": "Pikachu",
+   "group": "Electric",
+   "field_move": "Recharge 2",
+   "poke_assist": "Electric",
+   "loops_required": 2
+  },
+  {
+   "browser_no": "R-024",
+   "species": "Raichu",
+   "group": "Electric",
+   "field_move": "Recharge 3",
+   "poke_assist": "Electric",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-025",
+   "species": "Beedrill",
+   "group": "Bug",
+   "field_move": "Crush 1",
+   "poke_assist": "Poison",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-026",
+   "species": "Ralts",
+   "group": "Psychic",
+   "field_move": "None",
+   "poke_assist": "Psychic",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-027",
+   "species": "Kirlia",
+   "group": "Psychic",
+   "field_move": "None",
+   "poke_assist": "Psychic",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-028",
+   "species": "Gardevoir",
+   "group": "Psychic",
+   "field_move": "None",
+   "poke_assist": "Psychic",
+   "loops_required": 9
+  },
+  {
+   "browser_no": "R-031",
+   "species": "Nincada",
+   "group": "Ground",
+   "field_move": "Cut 1",
+   "poke_assist": "Bug",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-032",
+   "species": "Ninjask",
+   "group": "Bug",
+   "field_move": "None",
+   "poke_assist": "Flying",
+   "loops_required": 1
+  },
+  {
+   "browser_no": "R-033",
+   "species": "Shedinja",
+   "group": "Bug",
+   "field_move": "None",
+   "poke_assist": "Ghost",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-034",
+   "species": "Phanpy",
+   "group": "Ground",
+   "field_move": "Tackle 1",
+   "poke_assist": "Ground",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-035",
+   "species": "Donphan",
+   "group": "Ground",
+   "field_move": "Tackle 2",
+   "poke_assist": "Ground",
+   "loops_required": 10
+  },
+  {
+   "browser_no": "R-036",
+   "species": "Taillow",
+   "group": "Flying",
+   "field_move": "Gust 1",
+   "poke_assist": "Flying",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-037",
+   "species": "Swellow",
+   "group": "Flying",
+   "field_move": "Gust 2",
+   "poke_assist": "Flying",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-043",
+   "species": "Scyther",
+   "group": "Bug",
+   "field_move": "Cut 3",
+   "poke_assist": "Flying",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-044",
+   "species": "Scizor",
+   "group": "Steel",
+   "field_move": "Cut 3",
+   "poke_assist": "Bug",
+   "loops_required": 12
+  },
+  {
+   "browser_no": "R-046",
+   "species": "Murkrow",
+   "group": "Dark",
+   "field_move": "None",
+   "poke_assist": "Dark",
+   "loops_required": 9
+  },
+  {
+   "browser_no": "R-047",
+   "species": "Zigzagoon",
+   "group": "Normal",
+   "field_move": "None",
+   "poke_assist": "None",
+   "loops_required": 2
+  },
+  {
+   "browser_no": "R-048",
+   "species": "Linoone",
+   "group": "Normal",
+   "field_move": "Tackle 2",
+   "poke_assist": "None",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-050",
+   "species": "Paras",
+   "group": "Bug",
+   "field_move": "Cut 1",
+   "poke_assist": "Grass",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-051",
+   "species": "Parasect",
+   "group": "Bug",
+   "field_move": "None",
+   "poke_assist": "Grass",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-052",
+   "species": "Poliwag",
+   "group": "Water",
+   "field_move": "Soak 1",
+   "poke_assist": "Water",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-053",
+   "species": "Poliwhirl",
+   "group": "Water",
+   "field_move": "Soak 2",
+   "poke_assist": "Water",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-054",
+   "species": "Poliwrath",
+   "group": "Water",
+   "field_move": "Soak 3",
+   "poke_assist": "Water",
+   "loops_required": 11
+  },
+  {
+   "browser_no": "R-056",
+   "species": "Magnemite",
+   "group": "Electric",
+   "field_move": "Recharge 1",
+   "poke_assist": "Electric",
+   "loops_required": 2
+  },
+  {
+   "browser_no": "R-057",
+   "species": "Magneton",
+   "group": "Electric",
+   "field_move": "Recharge 2",
+   "poke_assist": "Electric",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-058",
+   "species": "Zubat",
+   "group": "Poison",
+   "field_move": "None",
+   "poke_assist": "Poison",
+   "loops_required": 2
+  },
+  {
+   "browser_no": "R-059",
+   "species": "Golbat",
+   "group": "Poison",
+   "field_move": "Gust 2",
+   "poke_assist": "Poison",
+   "loops_required": 7
+  },
+  {
+   "browser_no": "R-060",
+   "species": "Crobat",
+   "group": "Poison",
+   "field_move": "None",
+   "poke_assist": "Poison",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-061",
+   "species": "Diglett",
+   "group": "Ground",
+   "field_move": "None",
+   "poke_assist": "Ground",
+   "loops_required": 2
+  },
+  {
+   "browser_no": "R-062",
+   "species": "Dugtrio",
+   "group": "Ground",
+   "field_move": "None",
+   "poke_assist": "Ground",
+   "loops_required": 9
+  },
+  {
+   "browser_no": "R-063",
+   "species": "Rhydon",
+   "group": "Ground",
+   "field_move": "Crush 3",
+   "poke_assist": "Ground",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-064",
+   "species": "Geodude",
+   "group": "Ground",
+   "field_move": "Crush 1",
+   "poke_assist": "Rock",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-065",
+   "species": "Graveler",
+   "group": "Ground",
+   "field_move": "Crush 2",
+   "poke_assist": "Rock",
+   "loops_required": 11
+  },
+  {
+   "browser_no": "R-066",
+   "species": "Golem",
+   "group": "Ground",
+   "field_move": "Crush 3",
+   "poke_assist": "Rock",
+   "loops_required": 15
+  },
+  {
+   "browser_no": "R-069",
+   "species": "Tangela",
+   "group": "Grass",
+   "field_move": "Cross 1",
+   "poke_assist": "Grass",
+   "loops_required": 2
+  },
+  {
+   "browser_no": "R-070",
+   "species": "Krabby",
+   "group": "Water",
+   "field_move": "Soak 1",
+   "poke_assist": "Water",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-071",
+   "species": "Corphish",
+   "group": "Water",
+   "field_move": "Soak 1",
+   "poke_assist": "Water",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-072",
+   "species": "Crawdaunt",
+   "group": "Dark",
+   "field_move": "Cut 3",
+   "poke_assist": "Water",
+   "loops_required": 10
+  },
+  {
+   "browser_no": "R-073",
+   "species": "Totodile",
+   "group": "Water",
+   "field_move": "Soak 1",
+   "poke_assist": "Water",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-074",
+   "species": "Croconaw",
+   "group": "Water",
+   "field_move": "Soak 2",
+   "poke_assist": "Water",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-075",
+   "species": "Feraligatr",
+   "group": "Water",
+   "field_move": "Crush 3",
+   "poke_assist": "Water",
+   "loops_required": 14
+  },
+  {
+   "browser_no": "R-076",
+   "species": "Squirtle",
+   "group": "Water",
+   "field_move": "Soak 1",
+   "poke_assist": "Water",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-077",
+   "species": "Wartortle",
+   "group": "Water",
+   "field_move": "Soak 2",
+   "poke_assist": "Water",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-078",
+   "species": "Blastoise",
+   "group": "Water",
+   "field_move": "Soak 3",
+   "poke_assist": "Water",
+   "loops_required": 17
+  },
+  {
+   "browser_no": "R-079",
+   "species": "Voltorb",
+   "group": "Electric",
+   "field_move": "Recharge 1",
+   "poke_assist": "Electric",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-080",
+   "species": "Machop",
+   "group": "Fighting",
+   "field_move": "Crush 1",
+   "poke_assist": "Fighting",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-081",
+   "species": "Machoke",
+   "group": "Fighting",
+   "field_move": "Crush 2",
+   "poke_assist": "Fighting",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-082",
+   "species": "Machamp",
+   "group": "Fighting",
+   "field_move": "Crush 3",
+   "poke_assist": "Fighting",
+   "loops_required": 10
+  },
+  {
+   "browser_no": "R-083",
+   "species": "Makuhita",
+   "group": "Fighting",
+   "field_move": "Tackle 2",
+   "poke_assist": "Fighting",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-084",
+   "species": "Hariyama",
+   "group": "Fighting",
+   "field_move": "Crush 3",
+   "poke_assist": "Fighting",
+   "loops_required": 12
+  },
+  {
+   "browser_no": "R-085",
+   "species": "Meditite",
+   "group": "Psychic",
+   "field_move": "Crush 1",
+   "poke_assist": "Fighting",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-086",
+   "species": "Medicham",
+   "group": "Psychic",
+   "field_move": "Crush 2",
+   "poke_assist": "Fighting",
+   "loops_required": 9
+  },
+  {
+   "browser_no": "R-087",
+   "species": "Grimer",
+   "group": "Poison",
+   "field_move": "None",
+   "poke_assist": "Poison",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-088",
+   "species": "Muk",
+   "group": "Poison",
+   "field_move": "None",
+   "poke_assist": "Poison",
+   "loops_required": 10
+  },
+  {
+   "browser_no": "R-089",
+   "species": "Koffing",
+   "group": "Poison",
+   "field_move": "None",
+   "poke_assist": "Poison",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-090",
+   "species": "Drowzee",
+   "group": "Psychic",
+   "field_move": "None",
+   "poke_assist": "Psychic",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-091",
+   "species": "Hypno",
+   "group": "Psychic",
+   "field_move": "None",
+   "poke_assist": "Psychic",
+   "loops_required": 9
+  },
+  {
+   "browser_no": "R-092",
+   "species": "Mr. Mime",
+   "group": "Psychic",
+   "field_move": "None",
+   "poke_assist": "Psychic",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-093",
+   "species": "Pinsir",
+   "group": "Bug",
+   "field_move": "Cut 2",
+   "poke_assist": "Bug",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-094",
+   "species": "Gastly",
+   "group": "Ghost",
+   "field_move": "None",
+   "poke_assist": "Ghost",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-095",
+   "species": "Haunter",
+   "group": "Ghost",
+   "field_move": "None",
+   "poke_assist": "Ghost",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-096",
+   "species": "Gengar",
+   "group": "Ghost",
+   "field_move": "None",
+   "poke_assist": "Ghost",
+   "loops_required": 7
+  },
+  {
+   "browser_no": "R-097",
+   "species": "Snubbull",
+   "group": "Normal",
+   "field_move": "Tackle 1",
+   "poke_assist": "None",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-098",
+   "species": "Skitty",
+   "group": "Normal",
+   "field_move": "None",
+   "poke_assist": "None",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-099",
+   "species": "Meowth",
+   "group": "Normal",
+   "field_move": "Cut 1",
+   "poke_assist": "None",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-100",
+   "species": "Jigglypuff",
+   "group": "Normal",
+   "field_move": "None",
+   "poke_assist": "None",
+   "loops_required": 7
+  },
+  {
+   "browser_no": "R-101",
+   "species": "Rattata",
+   "group": "Normal",
+   "field_move": "Tackle 1",
+   "poke_assist": "None",
+   "loops_required": 1
+  },
+  {
+   "browser_no": "R-102",
+   "species": "Raticate",
+   "group": "Normal",
+   "field_move": "Cut 2",
+   "poke_assist": "None",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-103",
+   "species": "Porygon",
+   "group": "Normal",
+   "field_move": "None",
+   "poke_assist": "None",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-104",
+   "species": "Kecleon",
+   "group": "Normal",
+   "field_move": "None",
+   "poke_assist": "None",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-105",
+   "species": "Snorlax",
+   "group": "Normal",
+   "field_move": "None",
+   "poke_assist": "None",
+   "loops_required": 21
+  },
+  {
+   "browser_no": "R-112",
+   "species": "Staryu",
+   "group": "Water",
+   "field_move": "Flash 1",
+   "poke_assist": "Water",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-122",
+   "species": "Wingull",
+   "group": "Water",
+   "field_move": "None",
+   "poke_assist": "Water",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-126",
+   "species": "Oddish",
+   "group": "Grass",
+   "field_move": "Cut 1",
+   "poke_assist": "Grass",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-127",
+   "species": "Gloom",
+   "group": "Grass",
+   "field_move": "None",
+   "poke_assist": "Grass",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-128",
+   "species": "Vileplume",
+   "group": "Grass",
+   "field_move": "None",
+   "poke_assist": "Grass",
+   "loops_required": 9
+  },
+  {
+   "browser_no": "R-129",
+   "species": "Treecko",
+   "group": "Grass",
+   "field_move": "Cut 1",
+   "poke_assist": "Grass",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-130",
+   "species": "Grovyle",
+   "group": "Grass",
+   "field_move": "Cut 2",
+   "poke_assist": "Grass",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-131",
+   "species": "Sceptile",
+   "group": "Grass",
+   "field_move": "Cut 3",
+   "poke_assist": "Grass",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-132",
+   "species": "Lotad",
+   "group": "Water",
+   "field_move": "Soak 1",
+   "poke_assist": "Water",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-133",
+   "species": "Lombre",
+   "group": "Water",
+   "field_move": "Soak 2",
+   "poke_assist": "Water",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-134",
+   "species": "Ludicolo",
+   "group": "Water",
+   "field_move": "None",
+   "poke_assist": "Water",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-135",
+   "species": "Numel",
+   "group": "Fire",
+   "field_move": "Burn 1",
+   "poke_assist": "Fire",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-136",
+   "species": "Camerupt",
+   "group": "Fire",
+   "field_move": "Burn 3",
+   "poke_assist": "Fire",
+   "loops_required": 10
+  },
+  {
+   "browser_no": "R-137",
+   "species": "Magmar",
+   "group": "Fire",
+   "field_move": "Burn 2",
+   "poke_assist": "Fire",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-138",
+   "species": "Slugma",
+   "group": "Fire",
+   "field_move": "Burn 1",
+   "poke_assist": "Fire",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-139",
+   "species": "Magcargo",
+   "group": "Fire",
+   "field_move": "Burn 2",
+   "poke_assist": "Fire",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-140",
+   "species": "Charmander",
+   "group": "Fire",
+   "field_move": "Burn 1",
+   "poke_assist": "Fire",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-141",
+   "species": "Charmeleon",
+   "group": "Fire",
+   "field_move": "Burn 2",
+   "poke_assist": "Fire",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-143",
+   "species": "Torkoal",
+   "group": "Fire",
+   "field_move": "Burn 2",
+   "poke_assist": "Fire",
+   "loops_required": 9
+  },
+  {
+   "browser_no": "R-144",
+   "species": "Growlithe",
+   "group": "Fire",
+   "field_move": "None",
+   "poke_assist": "Fire",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-145",
+   "species": "Arcanine",
+   "group": "Fire",
+   "field_move": "Burn 3",
+   "poke_assist": "Fire",
+   "loops_required": 7
+  },
+  {
+   "browser_no": "R-146",
+   "species": "Electrike",
+   "group": "Electric",
+   "field_move": "Recharge 1",
+   "poke_assist": "Electric",
+   "loops_required": 2
+  },
+  {
+   "browser_no": "R-147",
+   "species": "Manectric",
+   "group": "Electric",
+   "field_move": "Recharge 2",
+   "poke_assist": "Electric",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-148",
+   "species": "Heracross",
+   "group": "Bug",
+   "field_move": "Tackle 3",
+   "poke_assist": "Fighting",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-149",
+   "species": "Mankey",
+   "group": "Fighting",
+   "field_move": "Crush 1",
+   "poke_assist": "Fighting",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-150",
+   "species": "Primeape",
+   "group": "Fighting",
+   "field_move": "Crush 2",
+   "poke_assist": "Fighting",
+   "loops_required": 10
+  },
+  {
+   "browser_no": "R-151",
+   "species": "Ekans",
+   "group": "Poison",
+   "field_move": "None",
+   "poke_assist": "Poison",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-152",
+   "species": "Arbok",
+   "group": "Poison",
+   "field_move": "None",
+   "poke_assist": "Poison",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-153",
+   "species": "Venonat",
+   "group": "Bug",
+   "field_move": "None",
+   "poke_assist": "Poison",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-154",
+   "species": "Wurmple",
+   "group": "Bug",
+   "field_move": "None",
+   "poke_assist": "Bug",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-155",
+   "species": "Silcoon",
+   "group": "Bug",
+   "field_move": "None",
+   "poke_assist": "Bug",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-156",
+   "species": "Beautifly",
+   "group": "Bug",
+   "field_move": "None",
+   "poke_assist": "Flying",
+   "loops_required": 7
+  },
+  {
+   "browser_no": "R-157",
+   "species": "Spinarak",
+   "group": "Bug",
+   "field_move": "None",
+   "poke_assist": "Bug",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-158",
+   "species": "Ariados",
+   "group": "Bug",
+   "field_move": "None",
+   "poke_assist": "Bug",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-160",
+   "species": "Gligar",
+   "group": "Ground",
+   "field_move": "Cut 1",
+   "poke_assist": "Ground",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-161",
+   "species": "Houndoom",
+   "group": "Dark",
+   "field_move": "Burn 2",
+   "poke_assist": "Dark",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-162",
+   "species": "Slakoth",
+   "group": "Normal",
+   "field_move": "Cut 1",
+   "poke_assist": "None",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-163",
+   "species": "Vigoroth",
+   "group": "Normal",
+   "field_move": "Cut 2",
+   "poke_assist": "None",
+   "loops_required": 12
+  },
+  {
+   "browser_no": "R-164",
+   "species": "Slaking",
+   "group": "Normal",
+   "field_move": "Crush 3",
+   "poke_assist": "None",
+   "loops_required": 17
+  },
+  {
+   "browser_no": "R-165",
+   "species": "Bagon",
+   "group": "Dragon",
+   "field_move": "Tackle 1",
+   "poke_assist": "None",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-166",
+   "species": "Shelgon",
+   "group": "Dragon",
+   "field_move": "Tackle 2",
+   "poke_assist": "None",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-168",
+   "species": "Jynx",
+   "group": "Psychic",
+   "field_move": "None",
+   "poke_assist": "Psychic",
+   "loops_required": 9
+  },
+  {
+   "browser_no": "R-169",
+   "species": "Solrock",
+   "group": "Rock",
+   "field_move": "None",
+   "poke_assist": "Psychic",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-170",
+   "species": "Wobbuffet",
+   "group": "Psychic",
+   "field_move": "None",
+   "poke_assist": "Psychic",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-171",
+   "species": "Dusclops",
+   "group": "Ghost",
+   "field_move": "None",
+   "poke_assist": "Ghost",
+   "loops_required": 9
+  },
+  {
+   "browser_no": "R-172",
+   "species": "Swinub",
+   "group": "Ground",
+   "field_move": "Tackle 1",
+   "poke_assist": "Ice",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-173",
+   "species": "Piloswine",
+   "group": "Ground",
+   "field_move": "Tackle 3",
+   "poke_assist": "Ice",
+   "loops_required": 7
+  },
+  {
+   "browser_no": "R-174",
+   "species": "Snorunt",
+   "group": "Ice",
+   "field_move": "Crush 1",
+   "poke_assist": "Ice",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-175",
+   "species": "Glalie",
+   "group": "Ice",
+   "field_move": "None",
+   "poke_assist": "Ice",
+   "loops_required": 9
+  },
+  {
+   "browser_no": "R-176",
+   "species": "Whismur",
+   "group": "Normal",
+   "field_move": "None",
+   "poke_assist": "None",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-177",
+   "species": "Loudred",
+   "group": "Normal",
+   "field_move": "None",
+   "poke_assist": "None",
+   "loops_required": 7
+  },
+  {
+   "browser_no": "R-178",
+   "species": "Exploud",
+   "group": "Normal",
+   "field_move": "None",
+   "poke_assist": "None",
+   "loops_required": 14
+  },
+  {
+   "browser_no": "R-180",
+   "species": "Seedot",
+   "group": "Grass",
+   "field_move": "Tackle 1",
+   "poke_assist": "Grass",
+   "loops_required": 1
+  },
+  {
+   "browser_no": "R-181",
+   "species": "Nuzleaf",
+   "group": "Dark",
+   "field_move": "Gust 1",
+   "poke_assist": "Grass",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-182",
+   "species": "Shiftry",
+   "group": "Dark",
+   "field_move": "Gust 2",
+   "poke_assist": "Grass",
+   "loops_required": 4
+  },
+  {
+   "browser_no": "R-183",
+   "species": "Vaporeon",
+   "group": "Water",
+   "field_move": "Soak 2",
+   "poke_assist": "Water",
+   "loops_required": 15
+  },
+  {
+   "browser_no": "R-184",
+   "species": "Flareon",
+   "group": "Fire",
+   "field_move": "Burn 2",
+   "poke_assist": "Fire",
+   "loops_required": 13
+  },
+  {
+   "browser_no": "R-185",
+   "species": "Jolteon",
+   "group": "Electric",
+   "field_move": "Recharge 3",
+   "poke_assist": "Electric",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-186",
+   "species": "Espeon",
+   "group": "Psychic",
+   "field_move": "None",
+   "poke_assist": "Psychic",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-187",
+   "species": "Umbreon",
+   "group": "Dark",
+   "field_move": "None",
+   "poke_assist": "Dark",
+   "loops_required": 7
+  },
+  {
+   "browser_no": "R-188",
+   "species": "Electabuzz",
+   "group": "Electric",
+   "field_move": "Recharge 3",
+   "poke_assist": "Electric",
+   "loops_required": 6
+  },
+  {
+   "browser_no": "R-189",
+   "species": "Swalot",
+   "group": "Poison",
+   "field_move": "None",
+   "poke_assist": "Poison",
+   "loops_required": 11
+  },
+  {
+   "browser_no": "R-190",
+   "species": "Beldum",
+   "group": "Steel",
+   "field_move": "Tackle 1",
+   "poke_assist": "Psychic",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-191",
+   "species": "Metang",
+   "group": "Steel",
+   "field_move": "Tackle 2",
+   "poke_assist": "Psychic",
+   "loops_required": 8
+  },
+  {
+   "browser_no": "R-192",
+   "species": "Metagross",
+   "group": "Steel",
+   "field_move": "Crush 3",
+   "poke_assist": "Psychic",
+   "loops_required": 30
+  },
+  {
+   "browser_no": "R-193",
+   "species": "Larvitar",
+   "group": "Ground",
+   "field_move": "Cut 1",
+   "poke_assist": "Rock",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-194",
+   "species": "Pupitar",
+   "group": "Ground",
+   "field_move": "None",
+   "poke_assist": "Rock",
+   "loops_required": 13
+  },
+  {
+   "browser_no": "R-195",
+   "species": "Tyranitar",
+   "group": "Rock",
+   "field_move": "Crush 3",
+   "poke_assist": "Dark",
+   "loops_required": 11
+  },
+  {
+   "browser_no": "R-196",
+   "species": "Swablu",
+   "group": "Flying",
+   "field_move": "Gust 1",
+   "poke_assist": "Flying",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-197",
+   "species": "Altaria",
+   "group": "Dragon",
+   "field_move": "Gust 3",
+   "poke_assist": "Flying",
+   "loops_required": 10
+  },
+  {
+   "browser_no": "R-198",
+   "species": "Aerodactyl",
+   "group": "Rock",
+   "field_move": "None",
+   "poke_assist": "Flying",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-199",
+   "species": "Sneasel",
+   "group": "Dark",
+   "field_move": "Cut 2",
+   "poke_assist": "Dark",
+   "loops_required": 3
+  },
+  {
+   "browser_no": "R-200",
+   "species": "Absol",
+   "group": "Dark",
+   "field_move": "Cut 3",
+   "poke_assist": "Dark",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-201",
+   "species": "Kangaskhan",
+   "group": "Normal",
+   "field_move": "Crush 3",
+   "poke_assist": "None",
+   "loops_required": 5
+  },
+  {
+   "browser_no": "R-205",
+   "species": "Regirock",
+   "group": "Rock",
+   "field_move": "None",
+   "poke_assist": "Rock",
+   "loops_required": 20
+  },
+  {
+   "browser_no": "R-206",
+   "species": "Regice",
+   "group": "Ice",
+   "field_move": "None",
+   "poke_assist": "Ice",
+   "loops_required": 13
+  },
+  {
+   "browser_no": "R-207",
+   "species": "Registeel",
+   "group": "Steel",
+   "field_move": "Crush 3",
+   "poke_assist": "None",
+   "loops_required": 20
+  }
+ ]
+}
