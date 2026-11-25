@@ -4,7 +4,8 @@
   "provenance": "engine-rigged",
   "generated_by": "tools/build_rigging.py",
   "generated": "2026-11-23",
-  "note": "Every definition derives from its class template plus the species' real shape/domains/types/abilities/height/weight. Source art is the indexed PokeAPI still, copied verbatim; no URL is constructed."
+  "note": "Every definition derives from its class template plus the species' real shape/domains/types/abilities/height/weight. Source art is the indexed PokeAPI still, copied verbatim; no URL is constructed.",
+  "correction": "2026-11-25 rig shape fix: 38 entries carried a body_shape misjoined in species_shapes.json (38 species wrong there, Gen 4 block dex 451-492 plus dex 66 and 289). body_shape and derived_from.shape reset to the PokeAPI true shape; locomotion_class re-derived with tools/build_rigging.py's own derive() logic on each entry's stored inputs - 14 classes changed, parts/tracks rebuilt from the new class template with the builder's height scaling. See RIG_SHAPE_FIX.md (production/moemon_animation). The folded tree was not edited."
  },
  "templates": {
   "quadruped": {
@@ -902,9 +903,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "upright_biped",
-   "body_shape": "humanoid",
+   "body_shape": "upright",
    "derived_from": {
-    "shape": "humanoid",
+    "shape": "upright",
     "domains": [
      "land"
     ],
@@ -4275,9 +4276,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "hover_levitator",
-   "body_shape": "arms",
+   "body_shape": "upright",
    "derived_from": {
-    "shape": "arms",
+    "shape": "upright",
     "domains": [
      "land"
     ],
@@ -10046,9 +10047,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "hover_levitator",
-   "body_shape": "upright",
+   "body_shape": "tentacles",
    "derived_from": {
-    "shape": "upright",
+    "shape": "tentacles",
     "domains": [
      "land"
     ],
@@ -15128,10 +15129,10 @@
    "showdown_id": "cresselia",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "hover_levitator",
-   "body_shape": "tentacles",
+   "locomotion_class": "serpentine",
+   "body_shape": "squiggle",
    "derived_from": {
-    "shape": "tentacles",
+    "shape": "squiggle",
     "domains": [
      "land"
     ],
@@ -15149,58 +15150,130 @@
    "source_art_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/488.png",
    "source_art_kind": "pokeapi_still_png_indexed",
    "parts": {
-    "body": {
+    "seg_0": {
      "region": [
-      0.12,
-      0.12,
-      0.76,
-      0.76
+      0.0,
+      0.0,
+      1.0,
+      0.2
      ],
      "anchor": [
       0.5,
       0.5
      ]
     },
-    "head": {
+    "seg_1": {
      "region": [
-      0.3,
       0.0,
-      0.4,
-      0.36
+      0.2,
+      1.0,
+      0.2
      ],
      "anchor": [
       0.5,
-      0.95
+      0.5
+     ]
+    },
+    "seg_2": {
+     "region": [
+      0.0,
+      0.4,
+      1.0,
+      0.2
+     ],
+     "anchor": [
+      0.5,
+      0.5
+     ]
+    },
+    "seg_3": {
+     "region": [
+      0.0,
+      0.6,
+      1.0,
+      0.2
+     ],
+     "anchor": [
+      0.5,
+      0.5
+     ]
+    },
+    "seg_4": {
+     "region": [
+      0.0,
+      0.8,
+      1.0,
+      0.2
+     ],
+     "anchor": [
+      0.5,
+      0.5
      ]
     }
    },
    "tracks": {
     "idle": {
-     "body": {
-      "kind": "bob_y",
-      "freq_hz": 0.881,
-      "amp": 0.025,
+     "seg_0": {
+      "kind": "undulate_x",
+      "freq_hz": 0.771,
+      "amp": 0.006,
       "phase_deg": 0.0
      },
-     "head": {
-      "kind": "bob_y",
-      "freq_hz": 0.881,
-      "amp": 0.012,
-      "phase_deg": 25.0
+     "seg_1": {
+      "kind": "undulate_x",
+      "freq_hz": 0.771,
+      "amp": 0.01,
+      "phase_deg": 40.0
+     },
+     "seg_2": {
+      "kind": "undulate_x",
+      "freq_hz": 0.771,
+      "amp": 0.01,
+      "phase_deg": 80.0
+     },
+     "seg_3": {
+      "kind": "undulate_x",
+      "freq_hz": 0.771,
+      "amp": 0.008,
+      "phase_deg": 120.0
+     },
+     "seg_4": {
+      "kind": "undulate_x",
+      "freq_hz": 0.771,
+      "amp": 0.006,
+      "phase_deg": 160.0
      }
     },
     "movement": {
-     "body": {
-      "kind": "bob_y",
-      "freq_hz": 1.652,
-      "amp": 0.04,
+     "seg_0": {
+      "kind": "undulate_x",
+      "freq_hz": 1.762,
+      "amp": 0.016,
       "phase_deg": 0.0
      },
-     "head": {
-      "kind": "bob_y",
-      "freq_hz": 1.652,
-      "amp": 0.015,
-      "phase_deg": 25.0
+     "seg_1": {
+      "kind": "undulate_x",
+      "freq_hz": 1.762,
+      "amp": 0.028,
+      "phase_deg": 45.0
+     },
+     "seg_2": {
+      "kind": "undulate_x",
+      "freq_hz": 1.762,
+      "amp": 0.028,
+      "phase_deg": 90.0
+     },
+     "seg_3": {
+      "kind": "undulate_x",
+      "freq_hz": 1.762,
+      "amp": 0.022,
+      "phase_deg": 135.0
+     },
+     "seg_4": {
+      "kind": "undulate_x",
+      "freq_hz": 1.762,
+      "amp": 0.016,
+      "phase_deg": 180.0
      }
     }
    }
@@ -15210,9 +15283,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "upright_biped",
-   "body_shape": "wings",
+   "body_shape": "humanoid",
    "derived_from": {
-    "shape": "wings",
+    "shape": "humanoid",
     "domains": [
      "land"
     ],
@@ -17133,10 +17206,10 @@
    "showdown_id": "dialga",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "upright_biped",
-   "body_shape": "humanoid",
+   "locomotion_class": "quadruped",
+   "body_shape": "quadruped",
    "derived_from": {
-    "shape": "humanoid",
+    "shape": "quadruped",
     "domains": [
      "land"
     ],
@@ -17158,10 +17231,10 @@
    "parts": {
     "body": {
      "region": [
-      0.2,
-      0.2,
-      0.6,
-      0.55
+      0.15,
+      0.15,
+      0.7,
+      0.62
      ],
      "anchor": [
       0.5,
@@ -17170,10 +17243,10 @@
     },
     "head": {
      "region": [
-      0.3,
+      0.28,
       0.0,
-      0.4,
-      0.34
+      0.44,
+      0.36
      ],
      "anchor": [
       0.5,
@@ -17182,46 +17255,22 @@
     },
     "tail": {
      "region": [
-      0.7,
-      0.45,
-      0.3,
-      0.4
+      0.76,
+      0.22,
+      0.24,
+      0.42
      ],
      "anchor": [
       0.05,
-      0.3
-     ]
-    },
-    "arm_left": {
-     "region": [
-      0.02,
-      0.28,
-      0.22,
-      0.46
-     ],
-     "anchor": [
-      0.85,
-      0.08
-     ]
-    },
-    "arm_right": {
-     "region": [
-      0.76,
-      0.28,
-      0.22,
-      0.46
-     ],
-     "anchor": [
-      0.15,
-      0.08
+      0.4
      ]
     },
     "limb_front": {
      "region": [
+      0.18,
+      0.66,
       0.26,
-      0.7,
-      0.2,
-      0.3
+      0.34
      ],
      "anchor": [
       0.5,
@@ -17230,10 +17279,10 @@
     },
     "limb_back": {
      "region": [
-      0.54,
-      0.7,
-      0.2,
-      0.3
+      0.56,
+      0.66,
+      0.26,
+      0.34
      ],
      "anchor": [
       0.5,
@@ -17245,33 +17294,21 @@
     "idle": {
      "body": {
       "kind": "breath",
-      "freq_hz": 0.805,
+      "freq_hz": 0.853,
       "amp": 0.02,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 0.805,
+      "freq_hz": 0.853,
       "amp": 0.008,
       "phase_deg": 40.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 1.137,
-      "amp": 8.0,
+      "freq_hz": 1.232,
+      "amp": 10.0,
       "phase_deg": 0.0
-     },
-     "arm_left": {
-      "kind": "rot_sway",
-      "freq_hz": 0.805,
-      "amp": 3.0,
-      "phase_deg": 20.0
-     },
-     "arm_right": {
-      "kind": "rot_sway",
-      "freq_hz": 0.805,
-      "amp": 3.0,
-      "phase_deg": 200.0
      },
      "limb_front": {
       "kind": "none",
@@ -17289,44 +17326,32 @@
     "movement": {
      "body": {
       "kind": "bob_y",
-      "freq_hz": 1.99,
-      "amp": 0.018,
+      "freq_hz": 1.895,
+      "amp": 0.02,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 1.99,
-      "amp": 0.01,
+      "freq_hz": 1.895,
+      "amp": 0.012,
       "phase_deg": 30.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 2.274,
-      "amp": 10.0,
+      "freq_hz": 2.464,
+      "amp": 14.0,
       "phase_deg": 0.0
-     },
-     "arm_left": {
-      "kind": "rot_sway",
-      "freq_hz": 1.99,
-      "amp": 12.0,
-      "phase_deg": 0.0
-     },
-     "arm_right": {
-      "kind": "rot_sway",
-      "freq_hz": 1.99,
-      "amp": 12.0,
-      "phase_deg": 180.0
      },
      "limb_front": {
       "kind": "stride",
-      "freq_hz": 1.99,
-      "amp": 0.045,
+      "freq_hz": 1.895,
+      "amp": 0.05,
       "phase_deg": 0.0
      },
      "limb_back": {
       "kind": "stride",
-      "freq_hz": 1.99,
-      "amp": 0.045,
+      "freq_hz": 1.895,
+      "amp": 0.05,
       "phase_deg": 180.0
      }
     }
@@ -18148,9 +18173,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "sessile",
-   "body_shape": "fish",
+   "body_shape": "armor",
    "derived_from": {
-    "shape": "fish",
+    "shape": "armor",
     "domains": [
      "land"
     ],
@@ -19463,10 +19488,10 @@
    "showdown_id": "dusknoir",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "quadruped",
-   "body_shape": "quadruped",
+   "locomotion_class": "upright_biped",
+   "body_shape": "arms",
    "derived_from": {
-    "shape": "quadruped",
+    "shape": "arms",
     "domains": [
      "land"
     ],
@@ -19487,10 +19512,10 @@
    "parts": {
     "body": {
      "region": [
-      0.15,
-      0.15,
-      0.7,
-      0.62
+      0.2,
+      0.2,
+      0.6,
+      0.55
      ],
      "anchor": [
       0.5,
@@ -19499,10 +19524,10 @@
     },
     "head": {
      "region": [
-      0.28,
+      0.3,
       0.0,
-      0.44,
-      0.36
+      0.4,
+      0.34
      ],
      "anchor": [
       0.5,
@@ -19511,22 +19536,46 @@
     },
     "tail": {
      "region": [
-      0.76,
-      0.22,
-      0.24,
-      0.42
+      0.7,
+      0.45,
+      0.3,
+      0.4
      ],
      "anchor": [
       0.05,
-      0.4
+      0.3
+     ]
+    },
+    "arm_left": {
+     "region": [
+      0.02,
+      0.28,
+      0.22,
+      0.46
+     ],
+     "anchor": [
+      0.85,
+      0.08
+     ]
+    },
+    "arm_right": {
+     "region": [
+      0.76,
+      0.28,
+      0.22,
+      0.46
+     ],
+     "anchor": [
+      0.15,
+      0.08
      ]
     },
     "limb_front": {
      "region": [
-      0.18,
-      0.66,
       0.26,
-      0.34
+      0.7,
+      0.2,
+      0.3
      ],
      "anchor": [
       0.5,
@@ -19535,10 +19584,10 @@
     },
     "limb_back": {
      "region": [
-      0.56,
-      0.66,
-      0.26,
-      0.34
+      0.54,
+      0.7,
+      0.2,
+      0.3
      ],
      "anchor": [
       0.5,
@@ -19550,21 +19599,33 @@
     "idle": {
      "body": {
       "kind": "breath",
-      "freq_hz": 0.95,
+      "freq_hz": 0.897,
       "amp": 0.02,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 0.95,
+      "freq_hz": 0.897,
       "amp": 0.008,
       "phase_deg": 40.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 1.372,
-      "amp": 10.0,
+      "freq_hz": 1.266,
+      "amp": 8.0,
       "phase_deg": 0.0
+     },
+     "arm_left": {
+      "kind": "rot_sway",
+      "freq_hz": 0.897,
+      "amp": 3.0,
+      "phase_deg": 20.0
+     },
+     "arm_right": {
+      "kind": "rot_sway",
+      "freq_hz": 0.897,
+      "amp": 3.0,
+      "phase_deg": 200.0
      },
      "limb_front": {
       "kind": "none",
@@ -19582,32 +19643,44 @@
     "movement": {
      "body": {
       "kind": "bob_y",
-      "freq_hz": 2.111,
-      "amp": 0.02,
+      "freq_hz": 2.216,
+      "amp": 0.018,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 2.111,
-      "amp": 0.012,
+      "freq_hz": 2.216,
+      "amp": 0.01,
       "phase_deg": 30.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 2.744,
-      "amp": 14.0,
+      "freq_hz": 2.533,
+      "amp": 10.0,
       "phase_deg": 0.0
+     },
+     "arm_left": {
+      "kind": "rot_sway",
+      "freq_hz": 2.216,
+      "amp": 12.0,
+      "phase_deg": 0.0
+     },
+     "arm_right": {
+      "kind": "rot_sway",
+      "freq_hz": 2.216,
+      "amp": 12.0,
+      "phase_deg": 180.0
      },
      "limb_front": {
       "kind": "stride",
-      "freq_hz": 2.111,
-      "amp": 0.05,
+      "freq_hz": 2.216,
+      "amp": 0.045,
       "phase_deg": 0.0
      },
      "limb_back": {
       "kind": "stride",
-      "freq_hz": 2.111,
-      "amp": 0.05,
+      "freq_hz": 2.216,
+      "amp": 0.045,
       "phase_deg": 180.0
      }
     }
@@ -20414,10 +20487,10 @@
    "showdown_id": "electivire",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "quadruped",
-   "body_shape": "quadruped",
+   "locomotion_class": "upright_biped",
+   "body_shape": "upright",
    "derived_from": {
-    "shape": "quadruped",
+    "shape": "upright",
     "domains": [
      "land"
     ],
@@ -20438,10 +20511,10 @@
    "parts": {
     "body": {
      "region": [
-      0.15,
-      0.15,
-      0.7,
-      0.62
+      0.2,
+      0.2,
+      0.6,
+      0.55
      ],
      "anchor": [
       0.5,
@@ -20450,10 +20523,10 @@
     },
     "head": {
      "region": [
-      0.28,
+      0.3,
       0.0,
-      0.44,
-      0.36
+      0.4,
+      0.34
      ],
      "anchor": [
       0.5,
@@ -20462,22 +20535,46 @@
     },
     "tail": {
      "region": [
-      0.76,
-      0.22,
-      0.24,
-      0.42
+      0.7,
+      0.45,
+      0.3,
+      0.4
      ],
      "anchor": [
       0.05,
-      0.4
+      0.3
+     ]
+    },
+    "arm_left": {
+     "region": [
+      0.02,
+      0.28,
+      0.22,
+      0.46
+     ],
+     "anchor": [
+      0.85,
+      0.08
+     ]
+    },
+    "arm_right": {
+     "region": [
+      0.76,
+      0.28,
+      0.22,
+      0.46
+     ],
+     "anchor": [
+      0.15,
+      0.08
      ]
     },
     "limb_front": {
      "region": [
-      0.18,
-      0.66,
       0.26,
-      0.34
+      0.7,
+      0.2,
+      0.3
      ],
      "anchor": [
       0.5,
@@ -20486,10 +20583,10 @@
     },
     "limb_back": {
      "region": [
-      0.56,
-      0.66,
-      0.26,
-      0.34
+      0.54,
+      0.7,
+      0.2,
+      0.3
      ],
      "anchor": [
       0.5,
@@ -20501,21 +20598,33 @@
     "idle": {
      "body": {
       "kind": "breath",
-      "freq_hz": 0.972,
+      "freq_hz": 0.918,
       "amp": 0.02,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 0.972,
+      "freq_hz": 0.918,
       "amp": 0.008,
       "phase_deg": 40.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 1.403,
-      "amp": 10.0,
+      "freq_hz": 1.295,
+      "amp": 8.0,
       "phase_deg": 0.0
+     },
+     "arm_left": {
+      "kind": "rot_sway",
+      "freq_hz": 0.918,
+      "amp": 3.0,
+      "phase_deg": 20.0
+     },
+     "arm_right": {
+      "kind": "rot_sway",
+      "freq_hz": 0.918,
+      "amp": 3.0,
+      "phase_deg": 200.0
      },
      "limb_front": {
       "kind": "none",
@@ -20533,32 +20642,44 @@
     "movement": {
      "body": {
       "kind": "bob_y",
-      "freq_hz": 2.159,
-      "amp": 0.02,
+      "freq_hz": 2.267,
+      "amp": 0.018,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 2.159,
-      "amp": 0.012,
+      "freq_hz": 2.267,
+      "amp": 0.01,
       "phase_deg": 30.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 2.807,
-      "amp": 14.0,
+      "freq_hz": 2.591,
+      "amp": 10.0,
       "phase_deg": 0.0
+     },
+     "arm_left": {
+      "kind": "rot_sway",
+      "freq_hz": 2.267,
+      "amp": 12.0,
+      "phase_deg": 0.0
+     },
+     "arm_right": {
+      "kind": "rot_sway",
+      "freq_hz": 2.267,
+      "amp": 12.0,
+      "phase_deg": 180.0
      },
      "limb_front": {
       "kind": "stride",
-      "freq_hz": 2.159,
-      "amp": 0.05,
+      "freq_hz": 2.267,
+      "amp": 0.045,
       "phase_deg": 0.0
      },
      "limb_back": {
       "kind": "stride",
-      "freq_hz": 2.159,
-      "amp": 0.05,
+      "freq_hz": 2.267,
+      "amp": 0.045,
       "phase_deg": 180.0
      }
     }
@@ -24116,9 +24237,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "upright_biped",
-   "body_shape": "upright",
+   "body_shape": "arms",
    "derived_from": {
-    "shape": "upright",
+    "shape": "arms",
     "domains": [
      "land"
     ],
@@ -24678,9 +24799,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "upright_biped",
-   "body_shape": "upright",
+   "body_shape": "humanoid",
    "derived_from": {
-    "shape": "upright",
+    "shape": "humanoid",
     "domains": [
      "land"
     ],
@@ -26376,10 +26497,10 @@
    "showdown_id": "giratina",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "upright_biped",
-   "body_shape": "humanoid",
+   "locomotion_class": "sessile",
+   "body_shape": "tentacles",
    "derived_from": {
-    "shape": "humanoid",
+    "shape": "tentacles",
     "domains": [
      "land"
     ],
@@ -26401,10 +26522,10 @@
    "parts": {
     "body": {
      "region": [
-      0.2,
-      0.2,
-      0.6,
-      0.55
+      0.15,
+      0.25,
+      0.7,
+      0.65
      ],
      "anchor": [
       0.5,
@@ -26413,74 +26534,14 @@
     },
     "head": {
      "region": [
-      0.3,
+      0.28,
       0.0,
-      0.4,
-      0.34
+      0.44,
+      0.4
      ],
      "anchor": [
       0.5,
       0.95
-     ]
-    },
-    "tail": {
-     "region": [
-      0.7,
-      0.45,
-      0.3,
-      0.4
-     ],
-     "anchor": [
-      0.05,
-      0.3
-     ]
-    },
-    "arm_left": {
-     "region": [
-      0.02,
-      0.28,
-      0.22,
-      0.46
-     ],
-     "anchor": [
-      0.85,
-      0.08
-     ]
-    },
-    "arm_right": {
-     "region": [
-      0.76,
-      0.28,
-      0.22,
-      0.46
-     ],
-     "anchor": [
-      0.15,
-      0.08
-     ]
-    },
-    "limb_front": {
-     "region": [
-      0.26,
-      0.7,
-      0.2,
-      0.3
-     ],
-     "anchor": [
-      0.5,
-      0.05
-     ]
-    },
-    "limb_back": {
-     "region": [
-      0.54,
-      0.7,
-      0.2,
-      0.3
-     ],
-     "anchor": [
-      0.5,
-      0.05
      ]
     }
    },
@@ -26488,89 +26549,29 @@
     "idle": {
      "body": {
       "kind": "breath",
-      "freq_hz": 0.824,
-      "amp": 0.02,
+      "freq_hz": 0.776,
+      "amp": 0.022,
       "phase_deg": 0.0
      },
      "head": {
-      "kind": "bob_y",
-      "freq_hz": 0.824,
-      "amp": 0.008,
-      "phase_deg": 40.0
-     },
-     "tail": {
       "kind": "rot_sway",
-      "freq_hz": 1.163,
-      "amp": 8.0,
-      "phase_deg": 0.0
-     },
-     "arm_left": {
-      "kind": "rot_sway",
-      "freq_hz": 0.824,
-      "amp": 3.0,
-      "phase_deg": 20.0
-     },
-     "arm_right": {
-      "kind": "rot_sway",
-      "freq_hz": 0.824,
-      "amp": 3.0,
-      "phase_deg": 200.0
-     },
-     "limb_front": {
-      "kind": "none",
-      "freq_hz": 0.0,
-      "amp": 0,
-      "phase_deg": 0.0
-     },
-     "limb_back": {
-      "kind": "none",
-      "freq_hz": 0.0,
-      "amp": 0,
+      "freq_hz": 0.776,
+      "amp": 4.0,
       "phase_deg": 0.0
      }
     },
     "movement": {
      "body": {
-      "kind": "bob_y",
-      "freq_hz": 2.036,
-      "amp": 0.018,
+      "kind": "hop_y",
+      "freq_hz": 1.648,
+      "amp": 0.035,
       "phase_deg": 0.0
      },
      "head": {
-      "kind": "bob_y",
-      "freq_hz": 2.036,
-      "amp": 0.01,
+      "kind": "rot_sway",
+      "freq_hz": 1.648,
+      "amp": 5.0,
       "phase_deg": 30.0
-     },
-     "tail": {
-      "kind": "rot_sway",
-      "freq_hz": 2.327,
-      "amp": 10.0,
-      "phase_deg": 0.0
-     },
-     "arm_left": {
-      "kind": "rot_sway",
-      "freq_hz": 2.036,
-      "amp": 12.0,
-      "phase_deg": 0.0
-     },
-     "arm_right": {
-      "kind": "rot_sway",
-      "freq_hz": 2.036,
-      "amp": 12.0,
-      "phase_deg": 180.0
-     },
-     "limb_front": {
-      "kind": "stride",
-      "freq_hz": 2.036,
-      "amp": 0.045,
-      "phase_deg": 0.0
-     },
-     "limb_back": {
-      "kind": "stride",
-      "freq_hz": 2.036,
-      "amp": 0.045,
-      "phase_deg": 180.0
      }
     }
    }
@@ -26579,10 +26580,10 @@
    "showdown_id": "glaceon",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "upright_biped",
-   "body_shape": "arms",
+   "locomotion_class": "quadruped",
+   "body_shape": "quadruped",
    "derived_from": {
-    "shape": "arms",
+    "shape": "quadruped",
     "domains": [
      "land"
     ],
@@ -26603,10 +26604,10 @@
    "parts": {
     "body": {
      "region": [
-      0.2,
-      0.2,
-      0.6,
-      0.55
+      0.15,
+      0.15,
+      0.7,
+      0.62
      ],
      "anchor": [
       0.5,
@@ -26615,10 +26616,10 @@
     },
     "head": {
      "region": [
-      0.3,
+      0.28,
       0.0,
-      0.4,
-      0.34
+      0.44,
+      0.36
      ],
      "anchor": [
       0.5,
@@ -26627,46 +26628,22 @@
     },
     "tail": {
      "region": [
-      0.7,
-      0.45,
-      0.3,
-      0.4
+      0.76,
+      0.22,
+      0.24,
+      0.42
      ],
      "anchor": [
       0.05,
-      0.3
-     ]
-    },
-    "arm_left": {
-     "region": [
-      0.02,
-      0.28,
-      0.22,
-      0.46
-     ],
-     "anchor": [
-      0.85,
-      0.08
-     ]
-    },
-    "arm_right": {
-     "region": [
-      0.76,
-      0.28,
-      0.22,
-      0.46
-     ],
-     "anchor": [
-      0.15,
-      0.08
+      0.4
      ]
     },
     "limb_front": {
      "region": [
+      0.18,
+      0.66,
       0.26,
-      0.7,
-      0.2,
-      0.3
+      0.34
      ],
      "anchor": [
       0.5,
@@ -26675,10 +26652,10 @@
     },
     "limb_back": {
      "region": [
-      0.54,
-      0.7,
-      0.2,
-      0.3
+      0.56,
+      0.66,
+      0.26,
+      0.34
      ],
      "anchor": [
       0.5,
@@ -26690,33 +26667,21 @@
     "idle": {
      "body": {
       "kind": "breath",
-      "freq_hz": 1.0,
+      "freq_hz": 1.059,
       "amp": 0.02,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 1.0,
+      "freq_hz": 1.059,
       "amp": 0.008,
       "phase_deg": 40.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 1.412,
-      "amp": 8.0,
+      "freq_hz": 1.53,
+      "amp": 10.0,
       "phase_deg": 0.0
-     },
-     "arm_left": {
-      "kind": "rot_sway",
-      "freq_hz": 1.0,
-      "amp": 3.0,
-      "phase_deg": 20.0
-     },
-     "arm_right": {
-      "kind": "rot_sway",
-      "freq_hz": 1.0,
-      "amp": 3.0,
-      "phase_deg": 200.0
      },
      "limb_front": {
       "kind": "none",
@@ -26734,44 +26699,32 @@
     "movement": {
      "body": {
       "kind": "bob_y",
-      "freq_hz": 2.471,
-      "amp": 0.018,
+      "freq_hz": 2.354,
+      "amp": 0.02,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 2.471,
-      "amp": 0.01,
+      "freq_hz": 2.354,
+      "amp": 0.012,
       "phase_deg": 30.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 2.824,
-      "amp": 10.0,
+      "freq_hz": 3.06,
+      "amp": 14.0,
       "phase_deg": 0.0
-     },
-     "arm_left": {
-      "kind": "rot_sway",
-      "freq_hz": 2.471,
-      "amp": 12.0,
-      "phase_deg": 0.0
-     },
-     "arm_right": {
-      "kind": "rot_sway",
-      "freq_hz": 2.471,
-      "amp": 12.0,
-      "phase_deg": 180.0
      },
      "limb_front": {
       "kind": "stride",
-      "freq_hz": 2.471,
-      "amp": 0.045,
+      "freq_hz": 2.354,
+      "amp": 0.05,
       "phase_deg": 0.0
      },
      "limb_back": {
       "kind": "stride",
-      "freq_hz": 2.471,
-      "amp": 0.045,
+      "freq_hz": 2.354,
+      "amp": 0.05,
       "phase_deg": 180.0
      }
     }
@@ -27153,9 +27106,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "avian_winged",
-   "body_shape": "arms",
+   "body_shape": "wings",
    "derived_from": {
-    "shape": "arms",
+    "shape": "wings",
     "domains": [
      "land",
      "air"
@@ -39278,10 +39231,10 @@
    "showdown_id": "leafeon",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "upright_biped",
-   "body_shape": "heads",
+   "locomotion_class": "quadruped",
+   "body_shape": "quadruped",
    "derived_from": {
-    "shape": "heads",
+    "shape": "quadruped",
     "domains": [
      "land"
     ],
@@ -39302,10 +39255,10 @@
    "parts": {
     "body": {
      "region": [
-      0.2,
-      0.2,
-      0.6,
-      0.55
+      0.15,
+      0.15,
+      0.7,
+      0.62
      ],
      "anchor": [
       0.5,
@@ -39314,10 +39267,10 @@
     },
     "head": {
      "region": [
-      0.3,
+      0.28,
       0.0,
-      0.4,
-      0.34
+      0.44,
+      0.36
      ],
      "anchor": [
       0.5,
@@ -39326,46 +39279,22 @@
     },
     "tail": {
      "region": [
-      0.7,
-      0.45,
-      0.3,
-      0.4
+      0.76,
+      0.22,
+      0.24,
+      0.42
      ],
      "anchor": [
       0.05,
-      0.3
-     ]
-    },
-    "arm_left": {
-     "region": [
-      0.02,
-      0.28,
-      0.22,
-      0.46
-     ],
-     "anchor": [
-      0.85,
-      0.08
-     ]
-    },
-    "arm_right": {
-     "region": [
-      0.76,
-      0.28,
-      0.22,
-      0.46
-     ],
-     "anchor": [
-      0.15,
-      0.08
+      0.4
      ]
     },
     "limb_front": {
      "region": [
+      0.18,
+      0.66,
       0.26,
-      0.7,
-      0.2,
-      0.3
+      0.34
      ],
      "anchor": [
       0.5,
@@ -39374,10 +39303,10 @@
     },
     "limb_back": {
      "region": [
-      0.54,
-      0.7,
-      0.2,
-      0.3
+      0.56,
+      0.66,
+      0.26,
+      0.34
      ],
      "anchor": [
       0.5,
@@ -39389,33 +39318,21 @@
     "idle": {
      "body": {
       "kind": "breath",
-      "freq_hz": 0.977,
+      "freq_hz": 1.035,
       "amp": 0.02,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 0.977,
+      "freq_hz": 1.035,
       "amp": 0.008,
       "phase_deg": 40.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 1.38,
-      "amp": 8.0,
+      "freq_hz": 1.495,
+      "amp": 10.0,
       "phase_deg": 0.0
-     },
-     "arm_left": {
-      "kind": "rot_sway",
-      "freq_hz": 0.977,
-      "amp": 3.0,
-      "phase_deg": 20.0
-     },
-     "arm_right": {
-      "kind": "rot_sway",
-      "freq_hz": 0.977,
-      "amp": 3.0,
-      "phase_deg": 200.0
      },
      "limb_front": {
       "kind": "none",
@@ -39433,44 +39350,32 @@
     "movement": {
      "body": {
       "kind": "bob_y",
-      "freq_hz": 2.415,
-      "amp": 0.018,
+      "freq_hz": 2.3,
+      "amp": 0.02,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 2.415,
-      "amp": 0.01,
+      "freq_hz": 2.3,
+      "amp": 0.012,
       "phase_deg": 30.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 2.76,
-      "amp": 10.0,
+      "freq_hz": 2.99,
+      "amp": 14.0,
       "phase_deg": 0.0
-     },
-     "arm_left": {
-      "kind": "rot_sway",
-      "freq_hz": 2.415,
-      "amp": 12.0,
-      "phase_deg": 0.0
-     },
-     "arm_right": {
-      "kind": "rot_sway",
-      "freq_hz": 2.415,
-      "amp": 12.0,
-      "phase_deg": 180.0
      },
      "limb_front": {
       "kind": "stride",
-      "freq_hz": 2.415,
-      "amp": 0.045,
+      "freq_hz": 2.3,
+      "amp": 0.05,
       "phase_deg": 0.0
      },
      "limb_back": {
       "kind": "stride",
-      "freq_hz": 2.415,
-      "amp": 0.045,
+      "freq_hz": 2.3,
+      "amp": 0.05,
       "phase_deg": 180.0
      }
     }
@@ -42970,9 +42875,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "upright_biped",
-   "body_shape": "humanoid",
+   "body_shape": "upright",
    "derived_from": {
-    "shape": "humanoid",
+    "shape": "upright",
     "domains": [
      "land"
     ],
@@ -43815,10 +43720,10 @@
    "showdown_id": "magmortar",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "quadruped",
-   "body_shape": "quadruped",
+   "locomotion_class": "upright_biped",
+   "body_shape": "upright",
    "derived_from": {
-    "shape": "quadruped",
+    "shape": "upright",
     "domains": [
      "land"
     ],
@@ -43839,10 +43744,10 @@
    "parts": {
     "body": {
      "region": [
-      0.15,
-      0.15,
-      0.7,
-      0.62
+      0.2,
+      0.2,
+      0.6,
+      0.55
      ],
      "anchor": [
       0.5,
@@ -43851,10 +43756,10 @@
     },
     "head": {
      "region": [
-      0.28,
+      0.3,
       0.0,
-      0.44,
-      0.36
+      0.4,
+      0.34
      ],
      "anchor": [
       0.5,
@@ -43863,22 +43768,46 @@
     },
     "tail": {
      "region": [
-      0.76,
-      0.22,
-      0.24,
-      0.42
+      0.7,
+      0.45,
+      0.3,
+      0.4
      ],
      "anchor": [
       0.05,
-      0.4
+      0.3
+     ]
+    },
+    "arm_left": {
+     "region": [
+      0.02,
+      0.28,
+      0.22,
+      0.46
+     ],
+     "anchor": [
+      0.85,
+      0.08
+     ]
+    },
+    "arm_right": {
+     "region": [
+      0.76,
+      0.28,
+      0.22,
+      0.46
+     ],
+     "anchor": [
+      0.15,
+      0.08
      ]
     },
     "limb_front": {
      "region": [
-      0.18,
-      0.66,
       0.26,
-      0.34
+      0.7,
+      0.2,
+      0.3
      ],
      "anchor": [
       0.5,
@@ -43887,10 +43816,10 @@
     },
     "limb_back": {
      "region": [
-      0.56,
-      0.66,
-      0.26,
-      0.34
+      0.54,
+      0.7,
+      0.2,
+      0.3
      ],
      "anchor": [
       0.5,
@@ -43902,21 +43831,33 @@
     "idle": {
      "body": {
       "kind": "breath",
-      "freq_hz": 0.984,
+      "freq_hz": 0.93,
       "amp": 0.02,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 0.984,
+      "freq_hz": 0.93,
       "amp": 0.008,
       "phase_deg": 40.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 1.422,
-      "amp": 10.0,
+      "freq_hz": 1.312,
+      "amp": 8.0,
       "phase_deg": 0.0
+     },
+     "arm_left": {
+      "kind": "rot_sway",
+      "freq_hz": 0.93,
+      "amp": 3.0,
+      "phase_deg": 20.0
+     },
+     "arm_right": {
+      "kind": "rot_sway",
+      "freq_hz": 0.93,
+      "amp": 3.0,
+      "phase_deg": 200.0
      },
      "limb_front": {
       "kind": "none",
@@ -43934,32 +43875,44 @@
     "movement": {
      "body": {
       "kind": "bob_y",
-      "freq_hz": 2.187,
-      "amp": 0.02,
+      "freq_hz": 2.297,
+      "amp": 0.018,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 2.187,
-      "amp": 0.012,
+      "freq_hz": 2.297,
+      "amp": 0.01,
       "phase_deg": 30.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 2.843,
-      "amp": 14.0,
+      "freq_hz": 2.625,
+      "amp": 10.0,
       "phase_deg": 0.0
+     },
+     "arm_left": {
+      "kind": "rot_sway",
+      "freq_hz": 2.297,
+      "amp": 12.0,
+      "phase_deg": 0.0
+     },
+     "arm_right": {
+      "kind": "rot_sway",
+      "freq_hz": 2.297,
+      "amp": 12.0,
+      "phase_deg": 180.0
      },
      "limb_front": {
       "kind": "stride",
-      "freq_hz": 2.187,
-      "amp": 0.05,
+      "freq_hz": 2.297,
+      "amp": 0.045,
       "phase_deg": 0.0
      },
      "limb_back": {
       "kind": "stride",
-      "freq_hz": 2.187,
-      "amp": 0.05,
+      "freq_hz": 2.297,
+      "amp": 0.045,
       "phase_deg": 180.0
      }
     }
@@ -44377,10 +44330,10 @@
    "showdown_id": "magnezone",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "quadruped",
-   "body_shape": "quadruped",
+   "locomotion_class": "upright_biped",
+   "body_shape": "arms",
    "derived_from": {
-    "shape": "quadruped",
+    "shape": "arms",
     "domains": [
      "land"
     ],
@@ -44403,10 +44356,10 @@
    "parts": {
     "body": {
      "region": [
-      0.15,
-      0.15,
-      0.7,
-      0.62
+      0.2,
+      0.2,
+      0.6,
+      0.55
      ],
      "anchor": [
       0.5,
@@ -44415,10 +44368,10 @@
     },
     "head": {
      "region": [
-      0.28,
+      0.3,
       0.0,
-      0.44,
-      0.36
+      0.4,
+      0.34
      ],
      "anchor": [
       0.5,
@@ -44427,22 +44380,46 @@
     },
     "tail": {
      "region": [
-      0.76,
-      0.22,
-      0.24,
-      0.42
+      0.7,
+      0.45,
+      0.3,
+      0.4
      ],
      "anchor": [
       0.05,
-      0.4
+      0.3
+     ]
+    },
+    "arm_left": {
+     "region": [
+      0.02,
+      0.28,
+      0.22,
+      0.46
+     ],
+     "anchor": [
+      0.85,
+      0.08
+     ]
+    },
+    "arm_right": {
+     "region": [
+      0.76,
+      0.28,
+      0.22,
+      0.46
+     ],
+     "anchor": [
+      0.15,
+      0.08
      ]
     },
     "limb_front": {
      "region": [
-      0.18,
-      0.66,
       0.26,
-      0.34
+      0.7,
+      0.2,
+      0.3
      ],
      "anchor": [
       0.5,
@@ -44451,10 +44428,10 @@
     },
     "limb_back": {
      "region": [
-      0.56,
-      0.66,
-      0.26,
-      0.34
+      0.54,
+      0.7,
+      0.2,
+      0.3
      ],
      "anchor": [
       0.5,
@@ -44466,21 +44443,33 @@
     "idle": {
      "body": {
       "kind": "breath",
-      "freq_hz": 1.015,
+      "freq_hz": 0.959,
       "amp": 0.02,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 1.015,
+      "freq_hz": 0.959,
       "amp": 0.008,
       "phase_deg": 40.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 1.467,
-      "amp": 10.0,
+      "freq_hz": 1.354,
+      "amp": 8.0,
       "phase_deg": 0.0
+     },
+     "arm_left": {
+      "kind": "rot_sway",
+      "freq_hz": 0.959,
+      "amp": 3.0,
+      "phase_deg": 20.0
+     },
+     "arm_right": {
+      "kind": "rot_sway",
+      "freq_hz": 0.959,
+      "amp": 3.0,
+      "phase_deg": 200.0
      },
      "limb_front": {
       "kind": "none",
@@ -44498,32 +44487,44 @@
     "movement": {
      "body": {
       "kind": "bob_y",
-      "freq_hz": 2.256,
-      "amp": 0.02,
+      "freq_hz": 2.369,
+      "amp": 0.018,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 2.256,
-      "amp": 0.012,
+      "freq_hz": 2.369,
+      "amp": 0.01,
       "phase_deg": 30.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 2.933,
-      "amp": 14.0,
+      "freq_hz": 2.707,
+      "amp": 10.0,
       "phase_deg": 0.0
+     },
+     "arm_left": {
+      "kind": "rot_sway",
+      "freq_hz": 2.369,
+      "amp": 12.0,
+      "phase_deg": 0.0
+     },
+     "arm_right": {
+      "kind": "rot_sway",
+      "freq_hz": 2.369,
+      "amp": 12.0,
+      "phase_deg": 180.0
      },
      "limb_front": {
       "kind": "stride",
-      "freq_hz": 2.256,
-      "amp": 0.05,
+      "freq_hz": 2.369,
+      "amp": 0.045,
       "phase_deg": 0.0
      },
      "limb_back": {
       "kind": "stride",
-      "freq_hz": 2.256,
-      "amp": 0.05,
+      "freq_hz": 2.369,
+      "amp": 0.045,
       "phase_deg": 180.0
      }
     }
@@ -44737,10 +44738,10 @@
    "showdown_id": "mamoswine",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "wheeled_rolling",
-   "body_shape": "ball",
+   "locomotion_class": "quadruped",
+   "body_shape": "quadruped",
    "derived_from": {
-    "shape": "ball",
+    "shape": "quadruped",
     "domains": [
      "land"
     ],
@@ -44763,32 +44764,128 @@
    "parts": {
     "body": {
      "region": [
-      0.05,
-      0.05,
-      0.9,
-      0.9
+      0.15,
+      0.15,
+      0.7,
+      0.62
      ],
      "anchor": [
       0.5,
       0.5
+     ]
+    },
+    "head": {
+     "region": [
+      0.28,
+      0.0,
+      0.44,
+      0.36
+     ],
+     "anchor": [
+      0.5,
+      0.95
+     ]
+    },
+    "tail": {
+     "region": [
+      0.76,
+      0.22,
+      0.24,
+      0.42
+     ],
+     "anchor": [
+      0.05,
+      0.4
+     ]
+    },
+    "limb_front": {
+     "region": [
+      0.18,
+      0.66,
+      0.26,
+      0.34
+     ],
+     "anchor": [
+      0.5,
+      0.05
+     ]
+    },
+    "limb_back": {
+     "region": [
+      0.56,
+      0.66,
+      0.26,
+      0.34
+     ],
+     "anchor": [
+      0.5,
+      0.05
      ]
     }
    },
    "tracks": {
     "idle": {
      "body": {
-      "kind": "rot_sway",
+      "kind": "breath",
       "freq_hz": 0.936,
-      "amp": 4.0,
+      "amp": 0.02,
+      "phase_deg": 0.0
+     },
+     "head": {
+      "kind": "bob_y",
+      "freq_hz": 0.936,
+      "amp": 0.008,
+      "phase_deg": 40.0
+     },
+     "tail": {
+      "kind": "rot_sway",
+      "freq_hz": 1.352,
+      "amp": 10.0,
+      "phase_deg": 0.0
+     },
+     "limb_front": {
+      "kind": "none",
+      "freq_hz": 0.0,
+      "amp": 0,
+      "phase_deg": 0.0
+     },
+     "limb_back": {
+      "kind": "none",
+      "freq_hz": 0.0,
+      "amp": 0,
       "phase_deg": 0.0
      }
     },
     "movement": {
      "body": {
-      "kind": "roll",
-      "freq_hz": 1.456,
-      "amp": 140.0,
+      "kind": "bob_y",
+      "freq_hz": 2.08,
+      "amp": 0.02,
       "phase_deg": 0.0
+     },
+     "head": {
+      "kind": "bob_y",
+      "freq_hz": 2.08,
+      "amp": 0.012,
+      "phase_deg": 30.0
+     },
+     "tail": {
+      "kind": "rot_sway",
+      "freq_hz": 2.704,
+      "amp": 14.0,
+      "phase_deg": 0.0
+     },
+     "limb_front": {
+      "kind": "stride",
+      "freq_hz": 2.08,
+      "amp": 0.05,
+      "phase_deg": 0.0
+     },
+     "limb_back": {
+      "kind": "stride",
+      "freq_hz": 2.08,
+      "amp": 0.05,
+      "phase_deg": 180.0
      }
     }
    }
@@ -44798,9 +44895,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "aquatic_finned",
-   "body_shape": "arms",
+   "body_shape": "humanoid",
    "derived_from": {
-    "shape": "arms",
+    "shape": "humanoid",
     "domains": [
      "water_surface",
      "deep_dive"
@@ -45468,9 +45565,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "aquatic_finned",
-   "body_shape": "upright",
+   "body_shape": "wings",
    "derived_from": {
-    "shape": "upright",
+    "shape": "wings",
     "domains": [
      "water_surface",
      "deep_dive",
@@ -47624,10 +47721,10 @@
    "showdown_id": "mesprit",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "serpentine",
-   "body_shape": "squiggle",
+   "locomotion_class": "hover_levitator",
+   "body_shape": "upright",
    "derived_from": {
-    "shape": "squiggle",
+    "shape": "upright",
     "domains": [
      "land"
     ],
@@ -47645,130 +47742,58 @@
    "source_art_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png",
    "source_art_kind": "pokeapi_still_png_indexed",
    "parts": {
-    "seg_0": {
+    "body": {
      "region": [
-      0.0,
-      0.0,
-      1.0,
-      0.2
+      0.12,
+      0.12,
+      0.76,
+      0.76
      ],
      "anchor": [
       0.5,
       0.5
      ]
     },
-    "seg_1": {
+    "head": {
      "region": [
-      0.0,
-      0.2,
-      1.0,
-      0.2
-     ],
-     "anchor": [
-      0.5,
-      0.5
-     ]
-    },
-    "seg_2": {
-     "region": [
+      0.3,
       0.0,
       0.4,
-      1.0,
-      0.2
+      0.36
      ],
      "anchor": [
       0.5,
-      0.5
-     ]
-    },
-    "seg_3": {
-     "region": [
-      0.0,
-      0.6,
-      1.0,
-      0.2
-     ],
-     "anchor": [
-      0.5,
-      0.5
-     ]
-    },
-    "seg_4": {
-     "region": [
-      0.0,
-      0.8,
-      1.0,
-      0.2
-     ],
-     "anchor": [
-      0.5,
-      0.5
+      0.95
      ]
     }
    },
    "tracks": {
     "idle": {
-     "seg_0": {
-      "kind": "undulate_x",
-      "freq_hz": 0.906,
-      "amp": 0.006,
+     "body": {
+      "kind": "bob_y",
+      "freq_hz": 1.036,
+      "amp": 0.025,
       "phase_deg": 0.0
      },
-     "seg_1": {
-      "kind": "undulate_x",
-      "freq_hz": 0.906,
-      "amp": 0.01,
-      "phase_deg": 40.0
-     },
-     "seg_2": {
-      "kind": "undulate_x",
-      "freq_hz": 0.906,
-      "amp": 0.01,
-      "phase_deg": 80.0
-     },
-     "seg_3": {
-      "kind": "undulate_x",
-      "freq_hz": 0.906,
-      "amp": 0.008,
-      "phase_deg": 120.0
-     },
-     "seg_4": {
-      "kind": "undulate_x",
-      "freq_hz": 0.906,
-      "amp": 0.006,
-      "phase_deg": 160.0
+     "head": {
+      "kind": "bob_y",
+      "freq_hz": 1.036,
+      "amp": 0.012,
+      "phase_deg": 25.0
      }
     },
     "movement": {
-     "seg_0": {
-      "kind": "undulate_x",
-      "freq_hz": 2.071,
-      "amp": 0.016,
+     "body": {
+      "kind": "bob_y",
+      "freq_hz": 1.942,
+      "amp": 0.04,
       "phase_deg": 0.0
      },
-     "seg_1": {
-      "kind": "undulate_x",
-      "freq_hz": 2.071,
-      "amp": 0.028,
-      "phase_deg": 45.0
-     },
-     "seg_2": {
-      "kind": "undulate_x",
-      "freq_hz": 2.071,
-      "amp": 0.028,
-      "phase_deg": 90.0
-     },
-     "seg_3": {
-      "kind": "undulate_x",
-      "freq_hz": 2.071,
-      "amp": 0.022,
-      "phase_deg": 135.0
-     },
-     "seg_4": {
-      "kind": "undulate_x",
-      "freq_hz": 2.071,
-      "amp": 0.016,
-      "phase_deg": 180.0
+     "head": {
+      "kind": "bob_y",
+      "freq_hz": 1.942,
+      "amp": 0.015,
+      "phase_deg": 25.0
      }
     }
    }
@@ -55526,9 +55551,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "upright_biped",
-   "body_shape": "humanoid",
+   "body_shape": "upright",
    "derived_from": {
-    "shape": "humanoid",
+    "shape": "upright",
     "domains": [
      "land",
      "water_surface",
@@ -56364,10 +56389,10 @@
    "showdown_id": "phione",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "serpentine",
-   "body_shape": "squiggle",
+   "locomotion_class": "aquatic_finned",
+   "body_shape": "arms",
    "derived_from": {
-    "shape": "squiggle",
+    "shape": "arms",
     "domains": [
      "water_surface",
      "deep_dive"
@@ -56391,7 +56416,7 @@
       0.0,
       0.0,
       1.0,
-      0.2
+      0.25
      ],
      "anchor": [
       0.5,
@@ -56401,9 +56426,9 @@
     "seg_1": {
      "region": [
       0.0,
-      0.2,
+      0.25,
       1.0,
-      0.2
+      0.25
      ],
      "anchor": [
       0.5,
@@ -56413,9 +56438,9 @@
     "seg_2": {
      "region": [
       0.0,
-      0.4,
+      0.5,
       1.0,
-      0.2
+      0.25
      ],
      "anchor": [
       0.5,
@@ -56425,25 +56450,25 @@
     "seg_3": {
      "region": [
       0.0,
-      0.6,
+      0.75,
       1.0,
-      0.2
+      0.25
      ],
      "anchor": [
       0.5,
       0.5
      ]
     },
-    "seg_4": {
+    "fin_tail": {
      "region": [
-      0.0,
-      0.8,
-      1.0,
-      0.2
+      0.3,
+      0.7,
+      0.4,
+      0.3
      ],
      "anchor": [
       0.5,
-      0.5
+      0.1
      ]
     }
    },
@@ -56451,65 +56476,65 @@
     "idle": {
      "seg_0": {
       "kind": "undulate_x",
-      "freq_hz": 0.882,
-      "amp": 0.006,
+      "freq_hz": 1.134,
+      "amp": 0.008,
       "phase_deg": 0.0
      },
      "seg_1": {
       "kind": "undulate_x",
-      "freq_hz": 0.882,
-      "amp": 0.01,
-      "phase_deg": 40.0
+      "freq_hz": 1.134,
+      "amp": 0.012,
+      "phase_deg": 45.0
      },
      "seg_2": {
       "kind": "undulate_x",
-      "freq_hz": 0.882,
-      "amp": 0.01,
-      "phase_deg": 80.0
+      "freq_hz": 1.134,
+      "amp": 0.012,
+      "phase_deg": 90.0
      },
      "seg_3": {
       "kind": "undulate_x",
-      "freq_hz": 0.882,
+      "freq_hz": 1.134,
       "amp": 0.008,
-      "phase_deg": 120.0
+      "phase_deg": 135.0
      },
-     "seg_4": {
-      "kind": "undulate_x",
-      "freq_hz": 0.882,
-      "amp": 0.006,
-      "phase_deg": 160.0
+     "fin_tail": {
+      "kind": "rot_sway",
+      "freq_hz": 1.134,
+      "amp": 6.0,
+      "phase_deg": 0.0
      }
     },
     "movement": {
      "seg_0": {
       "kind": "undulate_x",
-      "freq_hz": 2.016,
-      "amp": 0.016,
+      "freq_hz": 2.394,
+      "amp": 0.02,
       "phase_deg": 0.0
      },
      "seg_1": {
       "kind": "undulate_x",
-      "freq_hz": 2.016,
-      "amp": 0.028,
-      "phase_deg": 45.0
+      "freq_hz": 2.394,
+      "amp": 0.032,
+      "phase_deg": 50.0
      },
      "seg_2": {
       "kind": "undulate_x",
-      "freq_hz": 2.016,
-      "amp": 0.028,
-      "phase_deg": 90.0
+      "freq_hz": 2.394,
+      "amp": 0.032,
+      "phase_deg": 100.0
      },
      "seg_3": {
       "kind": "undulate_x",
-      "freq_hz": 2.016,
-      "amp": 0.022,
-      "phase_deg": 135.0
+      "freq_hz": 2.394,
+      "amp": 0.02,
+      "phase_deg": 150.0
      },
-     "seg_4": {
-      "kind": "undulate_x",
-      "freq_hz": 2.016,
-      "amp": 0.016,
-      "phase_deg": 180.0
+     "fin_tail": {
+      "kind": "rot_sway",
+      "freq_hz": 2.394,
+      "amp": 13.0,
+      "phase_deg": 0.0
      }
     }
    }
@@ -59539,9 +59564,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "upright_biped",
-   "body_shape": "upright",
+   "body_shape": "arms",
    "derived_from": {
-    "shape": "upright",
+    "shape": "arms",
     "domains": [
      "land"
     ],
@@ -60100,9 +60125,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "upright_biped",
-   "body_shape": "upright",
+   "body_shape": "heads",
    "derived_from": {
-    "shape": "upright",
+    "shape": "heads",
     "domains": [
      "land"
     ],
@@ -63315,10 +63340,10 @@
    "showdown_id": "regigigas",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "quadruped",
-   "body_shape": "quadruped",
+   "locomotion_class": "upright_biped",
+   "body_shape": "humanoid",
    "derived_from": {
-    "shape": "quadruped",
+    "shape": "humanoid",
     "domains": [
      "land"
     ],
@@ -63338,10 +63363,10 @@
    "parts": {
     "body": {
      "region": [
-      0.15,
-      0.15,
-      0.7,
-      0.62
+      0.2,
+      0.2,
+      0.6,
+      0.55
      ],
      "anchor": [
       0.5,
@@ -63350,10 +63375,10 @@
     },
     "head": {
      "region": [
-      0.28,
+      0.3,
       0.0,
-      0.44,
-      0.36
+      0.4,
+      0.34
      ],
      "anchor": [
       0.5,
@@ -63362,22 +63387,46 @@
     },
     "tail": {
      "region": [
-      0.76,
-      0.22,
-      0.24,
-      0.42
+      0.7,
+      0.45,
+      0.3,
+      0.4
      ],
      "anchor": [
       0.05,
-      0.4
+      0.3
+     ]
+    },
+    "arm_left": {
+     "region": [
+      0.02,
+      0.28,
+      0.22,
+      0.46
+     ],
+     "anchor": [
+      0.85,
+      0.08
+     ]
+    },
+    "arm_right": {
+     "region": [
+      0.76,
+      0.28,
+      0.22,
+      0.46
+     ],
+     "anchor": [
+      0.15,
+      0.08
      ]
     },
     "limb_front": {
      "region": [
-      0.18,
-      0.66,
       0.26,
-      0.34
+      0.7,
+      0.2,
+      0.3
      ],
      "anchor": [
       0.5,
@@ -63386,10 +63435,10 @@
     },
     "limb_back": {
      "region": [
-      0.56,
-      0.66,
-      0.26,
-      0.34
+      0.54,
+      0.7,
+      0.2,
+      0.3
      ],
      "anchor": [
       0.5,
@@ -63401,21 +63450,33 @@
     "idle": {
      "body": {
       "kind": "breath",
-      "freq_hz": 0.894,
+      "freq_hz": 0.844,
       "amp": 0.02,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 0.894,
+      "freq_hz": 0.844,
       "amp": 0.008,
       "phase_deg": 40.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 1.291,
-      "amp": 10.0,
+      "freq_hz": 1.192,
+      "amp": 8.0,
       "phase_deg": 0.0
+     },
+     "arm_left": {
+      "kind": "rot_sway",
+      "freq_hz": 0.844,
+      "amp": 3.0,
+      "phase_deg": 20.0
+     },
+     "arm_right": {
+      "kind": "rot_sway",
+      "freq_hz": 0.844,
+      "amp": 3.0,
+      "phase_deg": 200.0
      },
      "limb_front": {
       "kind": "none",
@@ -63433,32 +63494,44 @@
     "movement": {
      "body": {
       "kind": "bob_y",
-      "freq_hz": 1.986,
-      "amp": 0.02,
+      "freq_hz": 2.085,
+      "amp": 0.018,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 1.986,
-      "amp": 0.012,
+      "freq_hz": 2.085,
+      "amp": 0.01,
       "phase_deg": 30.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 2.582,
-      "amp": 14.0,
+      "freq_hz": 2.383,
+      "amp": 10.0,
       "phase_deg": 0.0
+     },
+     "arm_left": {
+      "kind": "rot_sway",
+      "freq_hz": 2.085,
+      "amp": 12.0,
+      "phase_deg": 0.0
+     },
+     "arm_right": {
+      "kind": "rot_sway",
+      "freq_hz": 2.085,
+      "amp": 12.0,
+      "phase_deg": 180.0
      },
      "limb_front": {
       "kind": "stride",
-      "freq_hz": 1.986,
-      "amp": 0.05,
+      "freq_hz": 2.085,
+      "amp": 0.045,
       "phase_deg": 0.0
      },
      "limb_back": {
       "kind": "stride",
-      "freq_hz": 1.986,
-      "amp": 0.05,
+      "freq_hz": 2.085,
+      "amp": 0.045,
       "phase_deg": 180.0
      }
     }
@@ -64547,9 +64620,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "upright_biped",
-   "body_shape": "wings",
+   "body_shape": "upright",
    "derived_from": {
-    "shape": "wings",
+    "shape": "upright",
     "domains": [
      "land",
      "water_surface"
@@ -65243,9 +65316,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "hover_levitator",
-   "body_shape": "humanoid",
+   "body_shape": "ball",
    "derived_from": {
-    "shape": "humanoid",
+    "shape": "ball",
     "domains": [
      "land"
     ],
@@ -67875,9 +67948,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "small_body",
-   "body_shape": "humanoid",
+   "body_shape": "quadruped",
    "derived_from": {
-    "shape": "humanoid",
+    "shape": "quadruped",
     "domains": [
      "land"
     ],
@@ -70796,9 +70869,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "sessile",
-   "body_shape": "fish",
+   "body_shape": "armor",
    "derived_from": {
-    "shape": "fish",
+    "shape": "armor",
     "domains": [
      "land"
     ],
@@ -71035,10 +71108,10 @@
    "showdown_id": "slaking",
    "context": "follower",
    "provenance": "engine-rigged",
-   "locomotion_class": "quadruped",
-   "body_shape": "quadruped",
+   "locomotion_class": "upright_biped",
+   "body_shape": "humanoid",
    "derived_from": {
-    "shape": "quadruped",
+    "shape": "humanoid",
     "domains": [
      "land"
     ],
@@ -71058,10 +71131,10 @@
    "parts": {
     "body": {
      "region": [
-      0.15,
-      0.15,
-      0.7,
-      0.62
+      0.2,
+      0.2,
+      0.6,
+      0.55
      ],
      "anchor": [
       0.5,
@@ -71070,10 +71143,10 @@
     },
     "head": {
      "region": [
-      0.28,
+      0.3,
       0.0,
-      0.44,
-      0.36
+      0.4,
+      0.34
      ],
      "anchor": [
       0.5,
@@ -71082,22 +71155,46 @@
     },
     "tail": {
      "region": [
-      0.76,
-      0.22,
-      0.24,
-      0.42
+      0.7,
+      0.45,
+      0.3,
+      0.4
      ],
      "anchor": [
       0.05,
-      0.4
+      0.3
+     ]
+    },
+    "arm_left": {
+     "region": [
+      0.02,
+      0.28,
+      0.22,
+      0.46
+     ],
+     "anchor": [
+      0.85,
+      0.08
+     ]
+    },
+    "arm_right": {
+     "region": [
+      0.76,
+      0.28,
+      0.22,
+      0.46
+     ],
+     "anchor": [
+      0.15,
+      0.08
      ]
     },
     "limb_front": {
      "region": [
-      0.18,
-      0.66,
       0.26,
-      0.34
+      0.7,
+      0.2,
+      0.3
      ],
      "anchor": [
       0.5,
@@ -71106,10 +71203,10 @@
     },
     "limb_back": {
      "region": [
-      0.56,
-      0.66,
-      0.26,
-      0.34
+      0.54,
+      0.7,
+      0.2,
+      0.3
      ],
      "anchor": [
       0.5,
@@ -71121,21 +71218,33 @@
     "idle": {
      "body": {
       "kind": "breath",
-      "freq_hz": 0.96,
+      "freq_hz": 0.907,
       "amp": 0.02,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 0.96,
+      "freq_hz": 0.907,
       "amp": 0.008,
       "phase_deg": 40.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 1.387,
-      "amp": 10.0,
+      "freq_hz": 1.28,
+      "amp": 8.0,
       "phase_deg": 0.0
+     },
+     "arm_left": {
+      "kind": "rot_sway",
+      "freq_hz": 0.907,
+      "amp": 3.0,
+      "phase_deg": 20.0
+     },
+     "arm_right": {
+      "kind": "rot_sway",
+      "freq_hz": 0.907,
+      "amp": 3.0,
+      "phase_deg": 200.0
      },
      "limb_front": {
       "kind": "none",
@@ -71153,32 +71262,44 @@
     "movement": {
      "body": {
       "kind": "bob_y",
-      "freq_hz": 2.134,
-      "amp": 0.02,
+      "freq_hz": 2.24,
+      "amp": 0.018,
       "phase_deg": 0.0
      },
      "head": {
       "kind": "bob_y",
-      "freq_hz": 2.134,
-      "amp": 0.012,
+      "freq_hz": 2.24,
+      "amp": 0.01,
       "phase_deg": 30.0
      },
      "tail": {
       "kind": "rot_sway",
-      "freq_hz": 2.774,
-      "amp": 14.0,
+      "freq_hz": 2.56,
+      "amp": 10.0,
       "phase_deg": 0.0
+     },
+     "arm_left": {
+      "kind": "rot_sway",
+      "freq_hz": 2.24,
+      "amp": 12.0,
+      "phase_deg": 0.0
+     },
+     "arm_right": {
+      "kind": "rot_sway",
+      "freq_hz": 2.24,
+      "amp": 12.0,
+      "phase_deg": 180.0
      },
      "limb_front": {
       "kind": "stride",
-      "freq_hz": 2.134,
-      "amp": 0.05,
+      "freq_hz": 2.24,
+      "amp": 0.045,
       "phase_deg": 0.0
      },
      "limb_back": {
       "kind": "stride",
-      "freq_hz": 2.134,
-      "amp": 0.05,
+      "freq_hz": 2.24,
+      "amp": 0.045,
       "phase_deg": 180.0
      }
     }
@@ -73086,9 +73207,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "upright_biped",
-   "body_shape": "arms",
+   "body_shape": "upright",
    "derived_from": {
-    "shape": "arms",
+    "shape": "upright",
     "domains": [
      "land"
     ],
@@ -78295,9 +78416,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "upright_biped",
-   "body_shape": "bug-wings",
+   "body_shape": "humanoid",
    "derived_from": {
-    "shape": "bug-wings",
+    "shape": "humanoid",
     "domains": [
      "land"
     ],
@@ -80052,9 +80173,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "avian_winged",
-   "body_shape": "arms",
+   "body_shape": "wings",
    "derived_from": {
-    "shape": "arms",
+    "shape": "wings",
     "domains": [
      "land",
      "air"
@@ -81202,9 +81323,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "upright_biped",
-   "body_shape": "upright",
+   "body_shape": "humanoid",
    "derived_from": {
-    "shape": "upright",
+    "shape": "humanoid",
     "domains": [
      "land"
     ],
@@ -83315,9 +83436,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "hover_levitator",
-   "body_shape": "tentacles",
+   "body_shape": "upright",
    "derived_from": {
-    "shape": "tentacles",
+    "shape": "upright",
     "domains": [
      "land"
     ],
@@ -88226,9 +88347,9 @@
    "context": "follower",
    "provenance": "engine-rigged",
    "locomotion_class": "avian_winged",
-   "body_shape": "humanoid",
+   "body_shape": "bug-wings",
    "derived_from": {
-    "shape": "humanoid",
+    "shape": "bug-wings",
     "domains": [
      "land",
      "air"

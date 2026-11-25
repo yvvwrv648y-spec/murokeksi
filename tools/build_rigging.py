@@ -12,71 +12,63 @@ Shape data provenance: PokeAPI/pokeapi CSV dumps (the same source family
 the project already uses for data/species_habitats.json):
   data/v2/csv/pokemon_shapes.csv  (id -> identifier)
   data/v2/csv/pokemon_species.csv (id -> shape_id, column 7)
-fetched 2026-11-23. SHAPE_BY_DEX below is that column, transcribed in dex
-order 1..1025 and validated by spot checks (bulbasaur=quadruped,
-ekans=squiggle, pidgey=wings, metagross=heads, gyarados=squiggle,
-charizard=upright, pecharunt=ball) and evolution-family consistency.
+fetched 2026-11-23. SHAPE_NAMES and SHAPE_BY_DEX are LOADED from those
+CSVs at runtime (see _load_shape_data below) -- never hand-transcribe
+them: a hand transcription is what put 38 wrong shapes into the tree
+(Gen 4 block, dex 451-492, plus dex 66 and 289; fixed 2026-11-25, see
+RIG_SHAPE_FIX.md). The SPOT asserts below validate the loaded column.
 
 No species-specific data is invented anywhere in this builder: every
 rig parameter derives from the class template plus the species' real
 shape / domains / types / abilities / height / weight.
 """
-import json, math, os, sys, collections
+import csv, json, math, os, sys, collections
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 PACK = os.path.dirname(HERE)
 GOAL_FILES = os.path.dirname(PACK)  # files/pokemon-full
 TEST_DATA = os.path.expanduser("~/workspace/puw_ref/POKEMON_ULTIMATE_WORLD/data")
 
-SHAPE_NAMES = {1:"ball",2:"squiggle",3:"fish",4:"arms",5:"blob",6:"upright",
-               7:"legs",8:"quadruped",9:"wings",10:"tentacles",11:"heads",
-               12:"humanoid",13:"bug-wings",14:"armor"}
+def _pokeapi_csv_dir():
+    """Locate the held PokeAPI CSV dumps (the data/v2/csv folder)."""
+    candidates = []
+    env = os.environ.get("POKEAPI_CSV_DIR")
+    if env:
+        candidates.append(env)
+    candidates.append(os.path.join(PACK, "data", "v2", "csv"))
+    candidates.append(os.path.expanduser(
+        "~/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk"
+        "/hidden_files/data_registry/src/pokeapi/data/v2/csv"))
+    for cand in candidates:
+        if os.path.isfile(os.path.join(cand, "pokemon_species.csv")) and \
+           os.path.isfile(os.path.join(cand, "pokemon_shapes.csv")):
+            return cand
+    raise FileNotFoundError(
+        "PokeAPI CSV dumps not found; set POKEAPI_CSV_DIR to the folder "
+        "holding pokemon_species.csv and pokemon_shapes.csv")
 
-# shape_id per dex id, 1..1025, from pokemon_species.csv column 7.
-SHAPE_BY_DEX = [
- # 1-50
- 8,8,8,6,6,6,6,6,6,14,2,13,14,2,13,9,9,9,8,8,9,9,2,2,8,6,6,6,8,8,6,8,8,6,6,6,8,8,12,12,9,9,7,12,12,14,14,12,13,5,
- # 51-100
- 11,8,8,6,6,6,6,8,8,7,12,12,6,6,12,12,12,12,12,5,5,10,10,4,12,12,8,8,8,6,4,11,9,7,7,3,3,4,4,1,1,1,4,6,2,12,12,14,14,1,
- # 101-151
- 1,11,7,6,6,12,12,6,1,11,8,6,6,7,6,5,5,3,3,5,5,12,13,12,6,6,12,8,3,2,3,1,8,8,8,8,7,10,10,14,6,9,12,9,9,9,2,2,6,6,6,
- # 152-200
- 8,8,8,12,8,8,6,6,6,8,8,9,9,9,9,14,14,13,3,3,8,6,12,12,12,9,9,8,6,6,12,6,6,12,12,6,6,6,6,1,12,13,7,6,8,8,9,6,1,
- # 201-251
- 1,5,8,1,1,2,9,2,12,6,3,13,14,12,6,6,6,2,2,8,8,14,3,10,9,9,9,8,8,5,8,8,7,8,6,12,6,12,12,6,6,12,8,8,8,6,2,6,9,9,12,
- # 252-300
- 6,6,6,7,6,6,8,6,6,8,8,8,8,14,1,13,1,13,14,12,12,7,12,12,9,9,9,9,12,12,12,14,13,7,6,8,6,8,14,13,5,6,6,6,12,12,7,12,8,
- # 301-350
- 8,12,12,8,8,6,12,12,8,8,6,6,6,12,12,4,4,3,3,3,3,8,8,8,4,6,6,14,13,9,12,12,9,9,6,2,1,1,3,3,14,14,4,4,5,5,14,6,3,2,
- # 351-386
- 1,6,1,6,4,12,8,4,8,6,12,1,3,3,8,1,2,2,3,3,12,8,8,5,4,11,12,12,12,9,9,3,6,2,12,12,
- # 387-450
- 8,8,8,6,6,6,12,6,6,9,9,9,8,6,12,13,8,8,8,12,12,6,6,8,8,5,5,13,11,13,8,8,8,11,7,2,2,6,4,4,6,6,1,9,8,8,12,8,8,1,4,7,12,12,9,5,6,6,6,12,6,6,8,8,
- # 451-493
- 3,3,9,6,6,3,3,6,4,12,6,8,12,9,13,8,8,4,12,11,4,4,1,6,6,6,8,6,12,10,2,4,12,12,8,8,12,10,2,4,12,12,8,
- # 494-550
- 12,6,6,2,8,6,6,6,6,8,8,6,8,8,8,8,8,6,6,6,6,6,6,8,12,9,9,9,8,8,7,10,10,9,9,6,12,6,12,12,12,3,6,12,12,12,14,4,12,14,1,14,1,12,5,5,3,
- # 551-600
- 8,8,6,12,8,5,14,14,6,6,9,4,5,8,6,9,9,12,12,8,6,8,8,12,12,12,1,1,4,9,9,5,5,11,8,8,8,12,4,4,4,10,10,3,14,14,1,10,11,11,
- # 601-649
- 11,3,3,3,6,12,5,4,4,6,6,6,6,8,1,1,4,3,6,6,6,12,12,12,12,8,9,9,9,9,6,14,8,8,6,14,13,8,8,8,4,4,9,6,4,6,8,12,12,
- # 650-700
- 6,6,6,8,6,6,8,12,12,6,6,9,9,9,14,5,13,8,8,4,4,4,8,8,6,12,8,6,6,5,11,5,4,12,7,12,10,5,11,11,5,5,14,2,6,6,6,6,8,8,8,
- # 701-721
- 12,6,1,2,2,6,1,4,10,1,5,8,8,9,9,8,9,2,4,4,8,
- # 722-780
- 9,9,9,8,8,6,3,3,3,9,9,9,8,8,14,2,14,14,14,9,14,13,8,8,3,5,10,8,8,7,14,6,12,5,12,8,8,8,6,7,12,12,1,12,6,10,12,2,2,2,8,8,1,12,6,6,2,3,2,
- # 781-809
- 5,8,6,6,4,4,4,4,1,1,8,9,10,10,12,6,12,12,6,4,12,12,6,9,8,12,12,1,12,
- # 810-870
- 6,6,12,6,6,6,8,6,6,6,6,9,9,9,14,14,9,8,8,5,5,8,8,8,8,8,8,1,7,12,2,9,8,2,2,9,3,3,6,6,10,10,10,10,1,1,7,12,5,12,12,12,6,6,4,9,12,5,1,5,11,
- # 871-905
- 10,2,13,7,6,6,12,8,8,6,6,7,3,6,2,4,6,8,8,9,6,12,6,12,12,8,8,12,8,13,8,3,6,3,4,
- # 906-960
- 8,6,6,6,6,8,6,6,6,8,8,14,14,14,12,8,6,6,11,11,8,8,7,12,12,9,1,8,12,12,12,12,1,12,9,9,8,8,8,6,1,1,7,10,14,6,6,14,14,7,6,12,12,12,5,
- # 961-1025
- 5,9,3,3,7,7,8,2,1,1,8,8,9,6,6,3,3,3,12,8,8,2,12,8,6,8,9,8,8,8,6,12,6,13,6,6,6,6,5,12,2,8,8,3,8,12,6,8,6,8,11,1,1,6,12,9,12,6,11,8,8,8,8,8,1,
-]
+def _load_shape_data():
+    """Load (SHAPE_NAMES, SHAPE_BY_DEX) from the PokeAPI CSVs.
+
+    SHAPE_BY_DEX[dex-1] is pokemon_species.csv's shape_id column for
+    that dex; SHAPE_NAMES is pokemon_shapes.csv's id -> identifier.
+    Loaded, never hand-transcribed: the previous transcription held
+    38 wrong values (see RIG_SHAPE_FIX.md, 2026-11-25)."""
+    csv_dir = _pokeapi_csv_dir()
+    names = {}
+    with open(os.path.join(csv_dir, "pokemon_shapes.csv"),
+              newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            names[int(row["id"])] = row["identifier"]
+    by_id = {}
+    with open(os.path.join(csv_dir, "pokemon_species.csv"),
+              newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            by_id[int(row["id"])] = int(row["shape_id"])
+    assert sorted(by_id) == list(range(1, 1026)), "species CSV dex coverage"
+    return names, [by_id[dex] for dex in range(1, 1026)]
+
+SHAPE_NAMES, SHAPE_BY_DEX = _load_shape_data()
 assert len(SHAPE_BY_DEX) == 1025, len(SHAPE_BY_DEX)
 # Spot checks against the fetched CSV rows.
 SPOT = {1:8, 6:6, 23:2, 25:8, 95:2, 130:2, 144:9, 376:11, 384:2, 387:8,

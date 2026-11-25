@@ -6,7 +6,8 @@
    "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_species.csv"
   ],
   "fetched": "2026-11-23",
-  "note": "Same source family as data/species_habitats.json. Covers dex 1-1025 (base species only; PokeAPI assigns no shape to forms)."
+  "note": "Same source family as data/species_habitats.json. Covers dex 1-1025 (base species only; PokeAPI assigns no shape to forms).",
+  "correction": "2026-11-25 rig shape fix: 38 species had shape_id+shape misjoined from another species; both fields reset from PokeAPI pokemon_species.csv (held in data_registry). The 14-entry shapes table was verified correct and is unchanged. See RIG_SHAPE_FIX.md in production/moemon_animation."
  },
  "shapes": {
   "1": "ball",
@@ -418,8 +419,8 @@
   "machop": {
    "dex": 66,
    "name": "machop",
-   "shape_id": 12,
-   "shape": "humanoid"
+   "shape_id": 6,
+   "shape": "upright"
   },
   "machoke": {
    "dex": 67,
@@ -1756,8 +1757,8 @@
   "slaking": {
    "dex": 289,
    "name": "slaking",
-   "shape_id": 8,
-   "shape": "quadruped"
+   "shape_id": 12,
+   "shape": "humanoid"
   },
   "nincada": {
    "dex": 290,
@@ -2728,32 +2729,32 @@
   "skorupi": {
    "dex": 451,
    "name": "skorupi",
-   "shape_id": 3,
-   "shape": "fish"
+   "shape_id": 14,
+   "shape": "armor"
   },
   "drapion": {
    "dex": 452,
    "name": "drapion",
-   "shape_id": 3,
-   "shape": "fish"
+   "shape_id": 14,
+   "shape": "armor"
   },
   "croagunk": {
    "dex": 453,
    "name": "croagunk",
-   "shape_id": 9,
-   "shape": "wings"
+   "shape_id": 12,
+   "shape": "humanoid"
   },
   "toxicroak": {
    "dex": 454,
    "name": "toxicroak",
-   "shape_id": 6,
-   "shape": "upright"
+   "shape_id": 12,
+   "shape": "humanoid"
   },
   "carnivine": {
    "dex": 455,
    "name": "carnivine",
-   "shape_id": 6,
-   "shape": "upright"
+   "shape_id": 10,
+   "shape": "tentacles"
   },
   "finneon": {
    "dex": 456,
@@ -2770,20 +2771,20 @@
   "mantyke": {
    "dex": 458,
    "name": "mantyke",
-   "shape_id": 6,
-   "shape": "upright"
+   "shape_id": 9,
+   "shape": "wings"
   },
   "snover": {
    "dex": 459,
    "name": "snover",
-   "shape_id": 4,
-   "shape": "arms"
+   "shape_id": 6,
+   "shape": "upright"
   },
   "abomasnow": {
    "dex": 460,
    "name": "abomasnow",
-   "shape_id": 12,
-   "shape": "humanoid"
+   "shape_id": 6,
+   "shape": "upright"
   },
   "weavile": {
    "dex": 461,
@@ -2794,8 +2795,8 @@
   "magnezone": {
    "dex": 462,
    "name": "magnezone",
-   "shape_id": 8,
-   "shape": "quadruped"
+   "shape_id": 4,
+   "shape": "arms"
   },
   "lickilicky": {
    "dex": 463,
@@ -2806,128 +2807,128 @@
   "rhyperior": {
    "dex": 464,
    "name": "rhyperior",
-   "shape_id": 9,
-   "shape": "wings"
+   "shape_id": 6,
+   "shape": "upright"
   },
   "tangrowth": {
    "dex": 465,
    "name": "tangrowth",
-   "shape_id": 13,
-   "shape": "bug-wings"
+   "shape_id": 12,
+   "shape": "humanoid"
   },
   "electivire": {
    "dex": 466,
    "name": "electivire",
-   "shape_id": 8,
-   "shape": "quadruped"
+   "shape_id": 6,
+   "shape": "upright"
   },
   "magmortar": {
    "dex": 467,
    "name": "magmortar",
-   "shape_id": 8,
-   "shape": "quadruped"
+   "shape_id": 6,
+   "shape": "upright"
   },
   "togekiss": {
    "dex": 468,
    "name": "togekiss",
-   "shape_id": 4,
-   "shape": "arms"
+   "shape_id": 9,
+   "shape": "wings"
   },
   "yanmega": {
    "dex": 469,
    "name": "yanmega",
-   "shape_id": 12,
-   "shape": "humanoid"
+   "shape_id": 13,
+   "shape": "bug-wings"
   },
   "leafeon": {
    "dex": 470,
    "name": "leafeon",
-   "shape_id": 11,
-   "shape": "heads"
+   "shape_id": 8,
+   "shape": "quadruped"
   },
   "glaceon": {
    "dex": 471,
    "name": "glaceon",
-   "shape_id": 4,
-   "shape": "arms"
+   "shape_id": 8,
+   "shape": "quadruped"
   },
   "gliscor": {
    "dex": 472,
    "name": "gliscor",
-   "shape_id": 4,
-   "shape": "arms"
+   "shape_id": 9,
+   "shape": "wings"
   },
   "mamoswine": {
    "dex": 473,
    "name": "mamoswine",
-   "shape_id": 1,
-   "shape": "ball"
+   "shape_id": 8,
+   "shape": "quadruped"
   },
   "porygonz": {
    "dex": 474,
    "name": "porygon-z",
-   "shape_id": 6,
-   "shape": "upright"
+   "shape_id": 4,
+   "shape": "arms"
   },
   "gallade": {
    "dex": 475,
    "name": "gallade",
-   "shape_id": 6,
-   "shape": "upright"
+   "shape_id": 12,
+   "shape": "humanoid"
   },
   "probopass": {
    "dex": 476,
    "name": "probopass",
-   "shape_id": 6,
-   "shape": "upright"
+   "shape_id": 11,
+   "shape": "heads"
   },
   "dusknoir": {
    "dex": 477,
    "name": "dusknoir",
-   "shape_id": 8,
-   "shape": "quadruped"
+   "shape_id": 4,
+   "shape": "arms"
   },
   "froslass": {
    "dex": 478,
    "name": "froslass",
-   "shape_id": 6,
-   "shape": "upright"
+   "shape_id": 4,
+   "shape": "arms"
   },
   "rotom": {
    "dex": 479,
    "name": "rotom",
-   "shape_id": 12,
-   "shape": "humanoid"
+   "shape_id": 1,
+   "shape": "ball"
   },
   "uxie": {
    "dex": 480,
    "name": "uxie",
-   "shape_id": 10,
-   "shape": "tentacles"
+   "shape_id": 6,
+   "shape": "upright"
   },
   "mesprit": {
    "dex": 481,
    "name": "mesprit",
-   "shape_id": 2,
-   "shape": "squiggle"
+   "shape_id": 6,
+   "shape": "upright"
   },
   "azelf": {
    "dex": 482,
    "name": "azelf",
-   "shape_id": 4,
-   "shape": "arms"
+   "shape_id": 6,
+   "shape": "upright"
   },
   "dialga": {
    "dex": 483,
    "name": "dialga",
-   "shape_id": 12,
-   "shape": "humanoid"
+   "shape_id": 8,
+   "shape": "quadruped"
   },
   "palkia": {
    "dex": 484,
    "name": "palkia",
-   "shape_id": 12,
-   "shape": "humanoid"
+   "shape_id": 6,
+   "shape": "upright"
   },
   "heatran": {
    "dex": 485,
@@ -2938,32 +2939,32 @@
   "regigigas": {
    "dex": 486,
    "name": "regigigas",
-   "shape_id": 8,
-   "shape": "quadruped"
+   "shape_id": 12,
+   "shape": "humanoid"
   },
   "giratinaaltered": {
    "dex": 487,
    "name": "giratina-altered",
-   "shape_id": 12,
-   "shape": "humanoid"
+   "shape_id": 10,
+   "shape": "tentacles"
   },
   "cresselia": {
    "dex": 488,
    "name": "cresselia",
-   "shape_id": 10,
-   "shape": "tentacles"
+   "shape_id": 2,
+   "shape": "squiggle"
   },
   "phione": {
    "dex": 489,
    "name": "phione",
-   "shape_id": 2,
-   "shape": "squiggle"
+   "shape_id": 4,
+   "shape": "arms"
   },
   "manaphy": {
    "dex": 490,
    "name": "manaphy",
-   "shape_id": 4,
-   "shape": "arms"
+   "shape_id": 12,
+   "shape": "humanoid"
   },
   "darkrai": {
    "dex": 491,
@@ -2974,8 +2975,8 @@
   "shayminland": {
    "dex": 492,
    "name": "shaymin-land",
-   "shape_id": 12,
-   "shape": "humanoid"
+   "shape_id": 8,
+   "shape": "quadruped"
   },
   "arceus": {
    "dex": 493,
