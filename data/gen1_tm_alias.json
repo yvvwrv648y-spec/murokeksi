@@ -1,0 +1,506 @@
+{
+ "source": "pokered constants/item_constants.asm add_tm/add_hm order (= data/moves/tmhm_moves.asm TechnicalMachines table)",
+ "join_rule": "BY MOVE, never by TM number (Gen-1 and registry numbering differ; proven in code_prep_kanto_items audit)",
+ "entries": [
+  {
+   "source_const": "TM_MEGA_PUNCH",
+   "gen1_number": 1,
+   "move_const": "MEGA_PUNCH",
+   "move_slug": "mega-punch",
+   "target_canonical": "tm01",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Mega Punch",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_RAZOR_WIND",
+   "gen1_number": 2,
+   "move_const": "RAZOR_WIND",
+   "move_slug": "razor-wind",
+   "target_canonical": "tm02",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Razor Wind",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_SWORDS_DANCE",
+   "gen1_number": 3,
+   "move_const": "SWORDS_DANCE",
+   "move_slug": "swords-dance",
+   "target_canonical": "tm75_swords_dance",
+   "join_evidence": "registry suffixed-variant entry for the move (id carries the move slug)",
+   "alternate_canonical": "tm03"
+  },
+  {
+   "source_const": "TM_WHIRLWIND",
+   "gen1_number": 4,
+   "move_const": "WHIRLWIND",
+   "move_slug": "whirlwind",
+   "target_canonical": "tm04",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Whirlwind",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_MEGA_KICK",
+   "gen1_number": 5,
+   "move_const": "MEGA_KICK",
+   "move_slug": "mega-kick",
+   "target_canonical": "tm05",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Mega Kick",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_TOXIC",
+   "gen1_number": 6,
+   "move_const": "TOXIC",
+   "move_slug": "toxic",
+   "target_canonical": "tm06",
+   "join_evidence": "numbered registry entry whose primary taught move is Toxic and which carries no Gen I annotation (its Gen I teaching is the primary one)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_HORN_DRILL",
+   "gen1_number": 7,
+   "move_const": "HORN_DRILL",
+   "move_slug": "horn-drill",
+   "target_canonical": "tm07",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Horn Drill",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_BODY_SLAM",
+   "gen1_number": 8,
+   "move_const": "BODY_SLAM",
+   "move_slug": "body-slam",
+   "target_canonical": "tm08",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Body Slam",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_TAKE_DOWN",
+   "gen1_number": 9,
+   "move_const": "TAKE_DOWN",
+   "move_slug": "take-down",
+   "target_canonical": "tm09",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Take Down",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_DOUBLE_EDGE",
+   "gen1_number": 10,
+   "move_const": "DOUBLE_EDGE",
+   "move_slug": "double-edge",
+   "target_canonical": "tm10",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Double Edge",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_BUBBLEBEAM",
+   "gen1_number": 11,
+   "move_const": "BUBBLEBEAM",
+   "move_slug": "bubblebeam",
+   "target_canonical": "tm11",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Bubblebeam",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_WATER_GUN",
+   "gen1_number": 12,
+   "move_const": "WATER_GUN",
+   "move_slug": "water-gun",
+   "target_canonical": "tm12",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Water Gun",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_ICE_BEAM",
+   "gen1_number": 13,
+   "move_const": "ICE_BEAM",
+   "move_slug": "ice-beam",
+   "target_canonical": "tm13_ice_beam",
+   "join_evidence": "registry suffixed-variant entry for the move (id carries the move slug)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_BLIZZARD",
+   "gen1_number": 14,
+   "move_const": "BLIZZARD",
+   "move_slug": "blizzard",
+   "target_canonical": "tm14",
+   "join_evidence": "numbered registry entry whose primary taught move is Blizzard and which carries no Gen I annotation (its Gen I teaching is the primary one)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_HYPER_BEAM",
+   "gen1_number": 15,
+   "move_const": "HYPER_BEAM",
+   "move_slug": "hyper-beam",
+   "target_canonical": "tm15",
+   "join_evidence": "numbered registry entry whose primary taught move is Hyper Beam and which carries no Gen I annotation (its Gen I teaching is the primary one)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_PAY_DAY",
+   "gen1_number": 16,
+   "move_const": "PAY_DAY",
+   "move_slug": "pay-day",
+   "target_canonical": "tm16",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Pay Day",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_SUBMISSION",
+   "gen1_number": 17,
+   "move_const": "SUBMISSION",
+   "move_slug": "submission",
+   "target_canonical": "tm17",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Submission",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_COUNTER",
+   "gen1_number": 18,
+   "move_const": "COUNTER",
+   "move_slug": "counter",
+   "target_canonical": "tm18",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Counter",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_SEISMIC_TOSS",
+   "gen1_number": 19,
+   "move_const": "SEISMIC_TOSS",
+   "move_slug": "seismic-toss",
+   "target_canonical": "tm19",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Seismic Toss",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_RAGE",
+   "gen1_number": 20,
+   "move_const": "RAGE",
+   "move_slug": "rage",
+   "target_canonical": "tm20",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Rage",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_MEGA_DRAIN",
+   "gen1_number": 21,
+   "move_const": "MEGA_DRAIN",
+   "move_slug": "mega-drain",
+   "target_canonical": "tm21",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Mega Drain",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_SOLARBEAM",
+   "gen1_number": 22,
+   "move_const": "SOLARBEAM",
+   "move_slug": "solar-beam",
+   "target_canonical": "tm22",
+   "join_evidence": "numbered registry entry whose primary taught move is Solar Beam and which carries no Gen I annotation (its Gen I teaching is the primary one)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_DRAGON_RAGE",
+   "gen1_number": 23,
+   "move_const": "DRAGON_RAGE",
+   "move_slug": "dragon-rage",
+   "target_canonical": "tm23",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Dragon Rage",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_THUNDERBOLT",
+   "gen1_number": 24,
+   "move_const": "THUNDERBOLT",
+   "move_slug": "thunderbolt",
+   "target_canonical": "tm24_thunderbolt",
+   "join_evidence": "registry suffixed-variant entry for the move (id carries the move slug)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_THUNDER",
+   "gen1_number": 25,
+   "move_const": "THUNDER",
+   "move_slug": "thunder",
+   "target_canonical": "tm25",
+   "join_evidence": "numbered registry entry whose primary taught move is Thunder and which carries no Gen I annotation (its Gen I teaching is the primary one)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_EARTHQUAKE",
+   "gen1_number": 26,
+   "move_const": "EARTHQUAKE",
+   "move_slug": "earthquake",
+   "target_canonical": "tm26_earthquake",
+   "join_evidence": "registry suffixed-variant entry for the move (id carries the move slug)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_FISSURE",
+   "gen1_number": 27,
+   "move_const": "FISSURE",
+   "move_slug": "fissure",
+   "target_canonical": "tm27",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Fissure",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_DIG",
+   "gen1_number": 28,
+   "move_const": "DIG",
+   "move_slug": "dig",
+   "target_canonical": "tm28",
+   "join_evidence": "numbered registry entry whose primary taught move is Dig and which carries no Gen I annotation (its Gen I teaching is the primary one)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_PSYCHIC_M",
+   "gen1_number": 29,
+   "move_const": "PSYCHIC_M",
+   "move_slug": "psychic",
+   "target_canonical": "tm29",
+   "join_evidence": "numbered registry entry whose primary taught move is Psychic and which carries no Gen I annotation (its Gen I teaching is the primary one)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_TELEPORT",
+   "gen1_number": 30,
+   "move_const": "TELEPORT",
+   "move_slug": "teleport",
+   "target_canonical": "tm30",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Teleport",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_MIMIC",
+   "gen1_number": 31,
+   "move_const": "MIMIC",
+   "move_slug": "mimic",
+   "target_canonical": "tm31",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Mimic",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_DOUBLE_TEAM",
+   "gen1_number": 32,
+   "move_const": "DOUBLE_TEAM",
+   "move_slug": "double-team",
+   "target_canonical": "tm32",
+   "join_evidence": "numbered registry entry whose primary taught move is Double Team and which carries no Gen I annotation (its Gen I teaching is the primary one)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_REFLECT",
+   "gen1_number": 33,
+   "move_const": "REFLECT",
+   "move_slug": "reflect",
+   "target_canonical": "tm33",
+   "join_evidence": "numbered registry entry whose primary taught move is Reflect and which carries no Gen I annotation (its Gen I teaching is the primary one)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_BIDE",
+   "gen1_number": 34,
+   "move_const": "BIDE",
+   "move_slug": "bide",
+   "target_canonical": "tm34",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Bide",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_METRONOME",
+   "gen1_number": 35,
+   "move_const": "METRONOME",
+   "move_slug": "metronome",
+   "target_canonical": "tm35",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Metronome",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_SELFDESTRUCT",
+   "gen1_number": 36,
+   "move_const": "SELFDESTRUCT",
+   "move_slug": "self-destruct",
+   "target_canonical": "tm36",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Self Destruct",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_EGG_BOMB",
+   "gen1_number": 37,
+   "move_const": "EGG_BOMB",
+   "move_slug": "egg-bomb",
+   "target_canonical": "tm37",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Egg Bomb",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_FIRE_BLAST",
+   "gen1_number": 38,
+   "move_const": "FIRE_BLAST",
+   "move_slug": "fire-blast",
+   "target_canonical": "tm38",
+   "join_evidence": "numbered registry entry whose primary taught move is Fire Blast and which carries no Gen I annotation (its Gen I teaching is the primary one)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_SWIFT",
+   "gen1_number": 39,
+   "move_const": "SWIFT",
+   "move_slug": "swift",
+   "target_canonical": "tm39",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Swift",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_SKULL_BASH",
+   "gen1_number": 40,
+   "move_const": "SKULL_BASH",
+   "move_slug": "skull-bash",
+   "target_canonical": "tm40",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Skull Bash",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_SOFTBOILED",
+   "gen1_number": 41,
+   "move_const": "SOFTBOILED",
+   "move_slug": "soft-boiled",
+   "target_canonical": "tm41",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Soft Boiled",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_DREAM_EATER",
+   "gen1_number": 42,
+   "move_const": "DREAM_EATER",
+   "move_slug": "dream-eater",
+   "target_canonical": "tm42",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Dream Eater",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_SKY_ATTACK",
+   "gen1_number": 43,
+   "move_const": "SKY_ATTACK",
+   "move_slug": "sky-attack",
+   "target_canonical": "tm43",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Sky Attack",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_REST",
+   "gen1_number": 44,
+   "move_const": "REST",
+   "move_slug": "rest",
+   "target_canonical": "tm44",
+   "join_evidence": "numbered registry entry whose primary taught move is Rest and which carries no Gen I annotation (its Gen I teaching is the primary one)",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_THUNDER_WAVE",
+   "gen1_number": 45,
+   "move_const": "THUNDER_WAVE",
+   "move_slug": "thunder-wave",
+   "target_canonical": "tm45",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Thunder Wave",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_PSYWAVE",
+   "gen1_number": 46,
+   "move_const": "PSYWAVE",
+   "move_slug": "psywave",
+   "target_canonical": "tm46",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Psywave",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_EXPLOSION",
+   "gen1_number": 47,
+   "move_const": "EXPLOSION",
+   "move_slug": "explosion",
+   "target_canonical": "tm47",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Explosion",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_ROCK_SLIDE",
+   "gen1_number": 48,
+   "move_const": "ROCK_SLIDE",
+   "move_slug": "rock-slide",
+   "target_canonical": "tm48",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Rock Slide",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_TRI_ATTACK",
+   "gen1_number": 49,
+   "move_const": "TRI_ATTACK",
+   "move_slug": "tri-attack",
+   "target_canonical": "tm49",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Tri Attack",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "TM_SUBSTITUTE",
+   "gen1_number": 50,
+   "move_const": "SUBSTITUTE",
+   "move_slug": "substitute",
+   "target_canonical": "tm50",
+   "join_evidence": "numbered registry entry whose effect text annotates Gen I: Substitute",
+   "alternate_canonical": ""
+  },
+  {
+   "source_const": "HM_CUT",
+   "gen1_number": 1,
+   "move_const": "CUT",
+   "move_slug": "cut",
+   "target_canonical": "hm01_cut",
+   "join_evidence": "registry suffixed-variant entry for the move",
+   "alternate_canonical": "",
+   "kind": "hm"
+  },
+  {
+   "source_const": "HM_FLY",
+   "gen1_number": 2,
+   "move_const": "FLY",
+   "move_slug": "fly",
+   "target_canonical": "hm02_fly",
+   "join_evidence": "registry suffixed-variant entry for the move",
+   "alternate_canonical": "",
+   "kind": "hm"
+  },
+  {
+   "source_const": "HM_SURF",
+   "gen1_number": 3,
+   "move_const": "SURF",
+   "move_slug": "surf",
+   "target_canonical": "hm03_surf",
+   "join_evidence": "registry suffixed-variant entry for the move",
+   "alternate_canonical": "",
+   "kind": "hm"
+  },
+  {
+   "source_const": "HM_STRENGTH",
+   "gen1_number": 4,
+   "move_const": "STRENGTH",
+   "move_slug": "strength",
+   "target_canonical": "hm04_strength",
+   "join_evidence": "registry suffixed-variant entry for the move",
+   "alternate_canonical": "",
+   "kind": "hm"
+  },
+  {
+   "source_const": "HM_FLASH",
+   "gen1_number": 5,
+   "move_const": "FLASH",
+   "move_slug": "flash",
+   "target_canonical": "hm05_flash",
+   "join_evidence": "registry suffixed-variant entry for the move",
+   "alternate_canonical": "",
+   "kind": "hm"
+  }
+ ]
+}

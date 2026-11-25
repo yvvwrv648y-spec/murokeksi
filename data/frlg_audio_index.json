@@ -1,0 +1,3264 @@
+{
+ "title": "FRLG audio index - binding build 2",
+ "provenance": "Extracted from Riley's FRLG archive by the OST lane (hidden_files/world_build_ost/AUDIO_EXTRACTION.md); 900 files hash-verified against the archive.",
+ "ui_sounds": {
+  "ui_cursor": "audio/effects/GUI sel cursor.ogg",
+  "ui_confirm": "audio/effects/GUI sel decision.ogg",
+  "ui_cancel": "audio/effects/GUI sel cancel.ogg",
+  "ui_open": "audio/effects/GUI menu open.ogg",
+  "ui_close": "audio/effects/GUI menu close.ogg",
+  "ui_error": "audio/effects/GUI sel buzzer.ogg",
+  "ui_buy": "audio/effects/Mart buy item.ogg",
+  "ui_heal": "audio/effects/Pkmn healing.ogg",
+  "ui_save": "audio/effects/GUI save game.ogg"
+ },
+ "ui_buy_optional_layer": "audio/effects/Obtained an Item.ogg (ME)",
+ "ui_heal_party_item_use_se": "audio/effects/Use item in party.ogg",
+ "confirm_cancel_byte_identical": true,
+ "confirm_cancel_flag": "FLAGGED FOR BOSSY: FRLG's confirm (GUI sel decision.ogg) and cancel (GUI sel cancel.ogg) are BYTE-IDENTICAL in the archive (SHA-256 86861b37a428...). No source names a substitute, so both authentic files are bound as-is and the choice is flagged here rather than shipped silently.",
+ "cries": {
+  "460": {
+   "name": "abomasnow",
+   "file": "audio/cries/ABOMASNOW.ogg"
+  },
+  "63": {
+   "name": "abra",
+   "file": "audio/cries/ABRA.ogg"
+  },
+  "359": {
+   "name": "absol",
+   "file": "audio/cries/ABSOL.ogg"
+  },
+  "617": {
+   "name": "accelgor",
+   "file": "audio/cries/ACCELGOR.ogg"
+  },
+  "142": {
+   "name": "aerodactyl",
+   "file": "audio/cries/AERODACTYL.ogg"
+  },
+  "306": {
+   "name": "aggron",
+   "file": "audio/cries/AGGRON.ogg"
+  },
+  "190": {
+   "name": "aipom",
+   "file": "audio/cries/AIPOM.ogg"
+  },
+  "65": {
+   "name": "alakazam",
+   "file": "audio/cries/ALAKAZAM.ogg"
+  },
+  "594": {
+   "name": "alomomola",
+   "file": "audio/cries/ALOMOMOLA.ogg"
+  },
+  "334": {
+   "name": "altaria",
+   "file": "audio/cries/ALTARIA.ogg"
+  },
+  "424": {
+   "name": "ambipom",
+   "file": "audio/cries/AMBIPOM.ogg"
+  },
+  "591": {
+   "name": "amoonguss",
+   "file": "audio/cries/AMOONGUSS.ogg"
+  },
+  "181": {
+   "name": "ampharos",
+   "file": "audio/cries/AMPHAROS.ogg"
+  },
+  "347": {
+   "name": "anorith",
+   "file": "audio/cries/ANORITH.ogg"
+  },
+  "24": {
+   "name": "arbok",
+   "file": "audio/cries/ARBOK.ogg"
+  },
+  "59": {
+   "name": "arcanine",
+   "file": "audio/cries/ARCANINE.ogg"
+  },
+  "493": {
+   "name": "arceus",
+   "file": "audio/cries/ARCEUS.ogg"
+  },
+  "566": {
+   "name": "archen",
+   "file": "audio/cries/ARCHEN.ogg"
+  },
+  "567": {
+   "name": "archeops",
+   "file": "audio/cries/ARCHEOPS.ogg"
+  },
+  "168": {
+   "name": "ariados",
+   "file": "audio/cries/ARIADOS.ogg"
+  },
+  "348": {
+   "name": "armaldo",
+   "file": "audio/cries/ARMALDO.ogg"
+  },
+  "304": {
+   "name": "aron",
+   "file": "audio/cries/ARON.ogg"
+  },
+  "144": {
+   "name": "articuno",
+   "file": "audio/cries/ARTICUNO.ogg"
+  },
+  "531": {
+   "name": "audino",
+   "file": "audio/cries/AUDINO.ogg"
+  },
+  "610": {
+   "name": "axew",
+   "file": "audio/cries/AXEW.ogg"
+  },
+  "482": {
+   "name": "azelf",
+   "file": "audio/cries/AZELF.ogg"
+  },
+  "184": {
+   "name": "azumarill",
+   "file": "audio/cries/AZUMARILL.ogg"
+  },
+  "298": {
+   "name": "azurill",
+   "file": "audio/cries/AZURILL.ogg"
+  },
+  "371": {
+   "name": "bagon",
+   "file": "audio/cries/BAGON.ogg"
+  },
+  "343": {
+   "name": "baltoy",
+   "file": "audio/cries/BALTOY.ogg"
+  },
+  "354": {
+   "name": "banette",
+   "file": "audio/cries/BANETTE.ogg"
+  },
+  "339": {
+   "name": "barboach",
+   "file": "audio/cries/BARBOACH.ogg"
+  },
+  "411": {
+   "name": "bastiodon",
+   "file": "audio/cries/BASTIODON.ogg"
+  },
+  "153": {
+   "name": "bayleef",
+   "file": "audio/cries/BAYLEEF.ogg"
+  },
+  "614": {
+   "name": "beartic",
+   "file": "audio/cries/BEARTIC.ogg"
+  },
+  "267": {
+   "name": "beautifly",
+   "file": "audio/cries/BEAUTIFLY.ogg"
+  },
+  "15": {
+   "name": "beedrill",
+   "file": "audio/cries/BEEDRILL.ogg"
+  },
+  "606": {
+   "name": "beheeyem",
+   "file": "audio/cries/BEHEEYEM.ogg"
+  },
+  "374": {
+   "name": "beldum",
+   "file": "audio/cries/BELDUM.ogg"
+  },
+  "182": {
+   "name": "bellossom",
+   "file": "audio/cries/BELLOSSOM.ogg"
+  },
+  "69": {
+   "name": "bellsprout",
+   "file": "audio/cries/BELLSPROUT.ogg"
+  },
+  "400": {
+   "name": "bibarel",
+   "file": "audio/cries/BIBAREL.ogg"
+  },
+  "399": {
+   "name": "bidoof",
+   "file": "audio/cries/BIDOOF.ogg"
+  },
+  "625": {
+   "name": "bisharp",
+   "file": "audio/cries/BISHARP.ogg"
+  },
+  "9": {
+   "name": "blastoise",
+   "file": "audio/cries/BLASTOISE.ogg"
+  },
+  "257": {
+   "name": "blaziken",
+   "file": "audio/cries/BLAZIKEN.ogg"
+  },
+  "242": {
+   "name": "blissey",
+   "file": "audio/cries/BLISSEY.ogg"
+  },
+  "522": {
+   "name": "blitzle",
+   "file": "audio/cries/BLITZLE.ogg"
+  },
+  "525": {
+   "name": "boldore",
+   "file": "audio/cries/BOLDORE.ogg"
+  },
+  "438": {
+   "name": "bonsly",
+   "file": "audio/cries/BONSLY.ogg"
+  },
+  "626": {
+   "name": "bouffalant",
+   "file": "audio/cries/BOUFFALANT.ogg"
+  },
+  "628": {
+   "name": "braviary",
+   "file": "audio/cries/BRAVIARY.ogg"
+  },
+  "286": {
+   "name": "breloom",
+   "file": "audio/cries/BRELOOM.ogg"
+  },
+  "437": {
+   "name": "bronzong",
+   "file": "audio/cries/BRONZONG.ogg"
+  },
+  "436": {
+   "name": "bronzor",
+   "file": "audio/cries/BRONZOR.ogg"
+  },
+  "406": {
+   "name": "budew",
+   "file": "audio/cries/BUDEW.ogg"
+  },
+  "418": {
+   "name": "buizel",
+   "file": "audio/cries/BUIZEL.ogg"
+  },
+  "1": {
+   "name": "bulbasaur",
+   "file": "audio/cries/BULBASAUR.ogg"
+  },
+  "427": {
+   "name": "buneary",
+   "file": "audio/cries/BUNEARY.ogg"
+  },
+  "412": {
+   "name": "burmy",
+   "file": "audio/cries/BURMY.ogg"
+  },
+  "12": {
+   "name": "butterfree",
+   "file": "audio/cries/BUTTERFREE.ogg"
+  },
+  "331": {
+   "name": "cacnea",
+   "file": "audio/cries/CACNEA.ogg"
+  },
+  "332": {
+   "name": "cacturne",
+   "file": "audio/cries/CACTURNE.ogg"
+  },
+  "323": {
+   "name": "camerupt",
+   "file": "audio/cries/CAMERUPT.ogg"
+  },
+  "455": {
+   "name": "carnivine",
+   "file": "audio/cries/CARNIVINE.ogg"
+  },
+  "565": {
+   "name": "carracosta",
+   "file": "audio/cries/CARRACOSTA.ogg"
+  },
+  "318": {
+   "name": "carvanha",
+   "file": "audio/cries/CARVANHA.ogg"
+  },
+  "268": {
+   "name": "cascoon",
+   "file": "audio/cries/CASCOON.ogg"
+  },
+  "351": {
+   "name": "castform",
+   "file": "audio/cries/CASTFORM.ogg"
+  },
+  "10": {
+   "name": "caterpie",
+   "file": "audio/cries/CATERPIE.ogg"
+  },
+  "251": {
+   "name": "celebi",
+   "file": "audio/cries/CELEBI.ogg"
+  },
+  "609": {
+   "name": "chandelure",
+   "file": "audio/cries/CHANDELURE.ogg"
+  },
+  "113": {
+   "name": "chansey",
+   "file": "audio/cries/CHANSEY.ogg"
+  },
+  "6": {
+   "name": "charizard",
+   "file": "audio/cries/CHARIZARD.ogg"
+  },
+  "4": {
+   "name": "charmander",
+   "file": "audio/cries/CHARMANDER.ogg"
+  },
+  "5": {
+   "name": "charmeleon",
+   "file": "audio/cries/CHARMELEON.ogg"
+  },
+  "441": {
+   "name": "chatot",
+   "file": "audio/cries/CHATOT.ogg"
+  },
+  "421": {
+   "name": "cherrim",
+   "file": "audio/cries/CHERRIM.ogg"
+  },
+  "420": {
+   "name": "cherubi",
+   "file": "audio/cries/CHERUBI.ogg"
+  },
+  "152": {
+   "name": "chikorita",
+   "file": "audio/cries/CHIKORITA.ogg"
+  },
+  "390": {
+   "name": "chimchar",
+   "file": "audio/cries/CHIMCHAR.ogg"
+  },
+  "358": {
+   "name": "chimecho",
+   "file": "audio/cries/CHIMECHO.ogg"
+  },
+  "170": {
+   "name": "chinchou",
+   "file": "audio/cries/CHINCHOU.ogg"
+  },
+  "433": {
+   "name": "chingling",
+   "file": "audio/cries/CHINGLING.ogg"
+  },
+  "573": {
+   "name": "cinccino",
+   "file": "audio/cries/CINCCINO.ogg"
+  },
+  "366": {
+   "name": "clamperl",
+   "file": "audio/cries/CLAMPERL.ogg"
+  },
+  "344": {
+   "name": "claydol",
+   "file": "audio/cries/CLAYDOL.ogg"
+  },
+  "36": {
+   "name": "clefable",
+   "file": "audio/cries/CLEFABLE.ogg"
+  },
+  "35": {
+   "name": "clefairy",
+   "file": "audio/cries/CLEFAIRY.ogg"
+  },
+  "173": {
+   "name": "cleffa",
+   "file": "audio/cries/CLEFFA.ogg"
+  },
+  "91": {
+   "name": "cloyster",
+   "file": "audio/cries/CLOYSTER.ogg"
+  },
+  "638": {
+   "name": "cobalion",
+   "file": "audio/cries/COBALION.ogg"
+  },
+  "563": {
+   "name": "cofagrigus",
+   "file": "audio/cries/COFAGRIGUS.ogg"
+  },
+  "415": {
+   "name": "combee",
+   "file": "audio/cries/COMBEE.ogg"
+  },
+  "256": {
+   "name": "combusken",
+   "file": "audio/cries/COMBUSKEN.ogg"
+  },
+  "534": {
+   "name": "conkeldurr",
+   "file": "audio/cries/CONKELDURR.ogg"
+  },
+  "341": {
+   "name": "corphish",
+   "file": "audio/cries/CORPHISH.ogg"
+  },
+  "222": {
+   "name": "corsola",
+   "file": "audio/cries/CORSOLA.ogg"
+  },
+  "546": {
+   "name": "cottonee",
+   "file": "audio/cries/COTTONEE.ogg"
+  },
+  "346": {
+   "name": "cradily",
+   "file": "audio/cries/CRADILY.ogg"
+  },
+  "408": {
+   "name": "cranidos",
+   "file": "audio/cries/CRANIDOS.ogg"
+  },
+  "342": {
+   "name": "crawdaunt",
+   "file": "audio/cries/CRAWDAUNT.ogg"
+  },
+  "488": {
+   "name": "cresselia",
+   "file": "audio/cries/CRESSELIA.ogg"
+  },
+  "453": {
+   "name": "croagunk",
+   "file": "audio/cries/CROAGUNK.ogg"
+  },
+  "169": {
+   "name": "crobat",
+   "file": "audio/cries/CROBAT.ogg"
+  },
+  "159": {
+   "name": "croconaw",
+   "file": "audio/cries/CROCONAW.ogg"
+  },
+  "558": {
+   "name": "crustle",
+   "file": "audio/cries/CRUSTLE.ogg"
+  },
+  "615": {
+   "name": "cryogonal",
+   "file": "audio/cries/CRYOGONAL.ogg"
+  },
+  "613": {
+   "name": "cubchoo",
+   "file": "audio/cries/CUBCHOO.ogg"
+  },
+  "104": {
+   "name": "cubone",
+   "file": "audio/cries/CUBONE.ogg"
+  },
+  "155": {
+   "name": "cyndaquil",
+   "file": "audio/cries/CYNDAQUIL.ogg"
+  },
+  "491": {
+   "name": "darkrai",
+   "file": "audio/cries/DARKRAI.ogg"
+  },
+  "554": {
+   "name": "darumaka",
+   "file": "audio/cries/DARUMAKA.ogg"
+  },
+  "585": {
+   "name": "deerling",
+   "file": "audio/cries/DEERLING.ogg"
+  },
+  "633": {
+   "name": "deino",
+   "file": "audio/cries/DEINO.ogg"
+  },
+  "301": {
+   "name": "delcatty",
+   "file": "audio/cries/DELCATTY.ogg"
+  },
+  "225": {
+   "name": "delibird",
+   "file": "audio/cries/DELIBIRD.ogg"
+  },
+  "87": {
+   "name": "dewgong",
+   "file": "audio/cries/DEWGONG.ogg"
+  },
+  "502": {
+   "name": "dewott",
+   "file": "audio/cries/DEWOTT.ogg"
+  },
+  "483": {
+   "name": "dialga",
+   "file": "audio/cries/DIALGA.ogg"
+  },
+  "50": {
+   "name": "diglett",
+   "file": "audio/cries/DIGLETT.ogg"
+  },
+  "132": {
+   "name": "ditto",
+   "file": "audio/cries/DITTO.ogg"
+  },
+  "85": {
+   "name": "dodrio",
+   "file": "audio/cries/DODRIO.ogg"
+  },
+  "84": {
+   "name": "doduo",
+   "file": "audio/cries/DODUO.ogg"
+  },
+  "232": {
+   "name": "donphan",
+   "file": "audio/cries/DONPHAN.ogg"
+  },
+  "148": {
+   "name": "dragonair",
+   "file": "audio/cries/DRAGONAIR.ogg"
+  },
+  "149": {
+   "name": "dragonite",
+   "file": "audio/cries/DRAGONITE.ogg"
+  },
+  "452": {
+   "name": "drapion",
+   "file": "audio/cries/DRAPION.ogg"
+  },
+  "147": {
+   "name": "dratini",
+   "file": "audio/cries/DRATINI.ogg"
+  },
+  "426": {
+   "name": "drifblim",
+   "file": "audio/cries/DRIFBLIM.ogg"
+  },
+  "425": {
+   "name": "drifloon",
+   "file": "audio/cries/DRIFLOON.ogg"
+  },
+  "529": {
+   "name": "drilbur",
+   "file": "audio/cries/DRILBUR.ogg"
+  },
+  "96": {
+   "name": "drowzee",
+   "file": "audio/cries/DROWZEE.ogg"
+  },
+  "621": {
+   "name": "druddigon",
+   "file": "audio/cries/DRUDDIGON.ogg"
+  },
+  "580": {
+   "name": "ducklett",
+   "file": "audio/cries/DUCKLETT.ogg"
+  },
+  "51": {
+   "name": "dugtrio",
+   "file": "audio/cries/DUGTRIO.ogg"
+  },
+  "206": {
+   "name": "dunsparce",
+   "file": "audio/cries/DUNSPARCE.ogg"
+  },
+  "578": {
+   "name": "duosion",
+   "file": "audio/cries/DUOSION.ogg"
+  },
+  "632": {
+   "name": "durant",
+   "file": "audio/cries/DURANT.ogg"
+  },
+  "356": {
+   "name": "dusclops",
+   "file": "audio/cries/DUSCLOPS.ogg"
+  },
+  "477": {
+   "name": "dusknoir",
+   "file": "audio/cries/DUSKNOIR.ogg"
+  },
+  "355": {
+   "name": "duskull",
+   "file": "audio/cries/DUSKULL.ogg"
+  },
+  "269": {
+   "name": "dustox",
+   "file": "audio/cries/DUSTOX.ogg"
+  },
+  "557": {
+   "name": "dwebble",
+   "file": "audio/cries/DWEBBLE.ogg"
+  },
+  "603": {
+   "name": "eelektrik",
+   "file": "audio/cries/EELEKTRIK.ogg"
+  },
+  "604": {
+   "name": "eelektross",
+   "file": "audio/cries/EELEKTROSS.ogg"
+  },
+  "133": {
+   "name": "eevee",
+   "file": "audio/cries/EEVEE.ogg"
+  },
+  "23": {
+   "name": "ekans",
+   "file": "audio/cries/EKANS.ogg"
+  },
+  "125": {
+   "name": "electabuzz",
+   "file": "audio/cries/ELECTABUZZ.ogg"
+  },
+  "466": {
+   "name": "electivire",
+   "file": "audio/cries/ELECTIVIRE.ogg"
+  },
+  "309": {
+   "name": "electrike",
+   "file": "audio/cries/ELECTRIKE.ogg"
+  },
+  "101": {
+   "name": "electrode",
+   "file": "audio/cries/ELECTRODE.ogg"
+  },
+  "239": {
+   "name": "elekid",
+   "file": "audio/cries/ELEKID.ogg"
+  },
+  "605": {
+   "name": "elgyem",
+   "file": "audio/cries/ELGYEM.ogg"
+  },
+  "500": {
+   "name": "emboar",
+   "file": "audio/cries/EMBOAR.ogg"
+  },
+  "587": {
+   "name": "emolga",
+   "file": "audio/cries/EMOLGA.ogg"
+  },
+  "395": {
+   "name": "empoleon",
+   "file": "audio/cries/EMPOLEON.ogg"
+  },
+  "244": {
+   "name": "entei",
+   "file": "audio/cries/ENTEI.ogg"
+  },
+  "589": {
+   "name": "escavalier",
+   "file": "audio/cries/ESCAVALIER.ogg"
+  },
+  "196": {
+   "name": "espeon",
+   "file": "audio/cries/ESPEON.ogg"
+  },
+  "530": {
+   "name": "excadrill",
+   "file": "audio/cries/EXCADRILL.ogg"
+  },
+  "102": {
+   "name": "exeggcute",
+   "file": "audio/cries/EXEGGCUTE.ogg"
+  },
+  "103": {
+   "name": "exeggutor",
+   "file": "audio/cries/EXEGGUTOR.ogg"
+  },
+  "295": {
+   "name": "exploud",
+   "file": "audio/cries/EXPLOUD.ogg"
+  },
+  "83": {
+   "name": "farfetchd",
+   "file": "audio/cries/FARFETCHD.ogg"
+  },
+  "22": {
+   "name": "fearow",
+   "file": "audio/cries/FEAROW.ogg"
+  },
+  "349": {
+   "name": "feebas",
+   "file": "audio/cries/FEEBAS.ogg"
+  },
+  "160": {
+   "name": "feraligatr",
+   "file": "audio/cries/FERALIGATR.ogg"
+  },
+  "597": {
+   "name": "ferroseed",
+   "file": "audio/cries/FERROSEED.ogg"
+  },
+  "598": {
+   "name": "ferrothorn",
+   "file": "audio/cries/FERROTHORN.ogg"
+  },
+  "456": {
+   "name": "finneon",
+   "file": "audio/cries/FINNEON.ogg"
+  },
+  "180": {
+   "name": "flaaffy",
+   "file": "audio/cries/FLAAFFY.ogg"
+  },
+  "136": {
+   "name": "flareon",
+   "file": "audio/cries/FLAREON.ogg"
+  },
+  "419": {
+   "name": "floatzel",
+   "file": "audio/cries/FLOATZEL.ogg"
+  },
+  "330": {
+   "name": "flygon",
+   "file": "audio/cries/FLYGON.ogg"
+  },
+  "590": {
+   "name": "foongus",
+   "file": "audio/cries/FOONGUS.ogg"
+  },
+  "205": {
+   "name": "forretress",
+   "file": "audio/cries/FORRETRESS.ogg"
+  },
+  "611": {
+   "name": "fraxure",
+   "file": "audio/cries/FRAXURE.ogg"
+  },
+  "478": {
+   "name": "froslass",
+   "file": "audio/cries/FROSLASS.ogg"
+  },
+  "162": {
+   "name": "furret",
+   "file": "audio/cries/FURRET.ogg"
+  },
+  "444": {
+   "name": "gabite",
+   "file": "audio/cries/GABITE.ogg"
+  },
+  "475": {
+   "name": "gallade",
+   "file": "audio/cries/GALLADE.ogg"
+  },
+  "596": {
+   "name": "galvantula",
+   "file": "audio/cries/GALVANTULA.ogg"
+  },
+  "569": {
+   "name": "garbodor",
+   "file": "audio/cries/GARBODOR.ogg"
+  },
+  "445": {
+   "name": "garchomp",
+   "file": "audio/cries/GARCHOMP.ogg"
+  },
+  "282": {
+   "name": "gardevoir",
+   "file": "audio/cries/GARDEVOIR.ogg"
+  },
+  "92": {
+   "name": "gastly",
+   "file": "audio/cries/GASTLY.ogg"
+  },
+  "423": {
+   "name": "gastrodon",
+   "file": "audio/cries/GASTRODON.ogg"
+  },
+  "649": {
+   "name": "genesect",
+   "file": "audio/cries/GENESECT.ogg"
+  },
+  "94": {
+   "name": "gengar",
+   "file": "audio/cries/GENGAR.ogg"
+  },
+  "74": {
+   "name": "geodude",
+   "file": "audio/cries/GEODUDE.ogg"
+  },
+  "443": {
+   "name": "gible",
+   "file": "audio/cries/GIBLE.ogg"
+  },
+  "526": {
+   "name": "gigalith",
+   "file": "audio/cries/GIGALITH.ogg"
+  },
+  "203": {
+   "name": "girafarig",
+   "file": "audio/cries/GIRAFARIG.ogg"
+  },
+  "471": {
+   "name": "glaceon",
+   "file": "audio/cries/GLACEON.ogg"
+  },
+  "362": {
+   "name": "glalie",
+   "file": "audio/cries/GLALIE.ogg"
+  },
+  "431": {
+   "name": "glameow",
+   "file": "audio/cries/GLAMEOW.ogg"
+  },
+  "207": {
+   "name": "gligar",
+   "file": "audio/cries/GLIGAR.ogg"
+  },
+  "472": {
+   "name": "gliscor",
+   "file": "audio/cries/GLISCOR.ogg"
+  },
+  "44": {
+   "name": "gloom",
+   "file": "audio/cries/GLOOM.ogg"
+  },
+  "42": {
+   "name": "golbat",
+   "file": "audio/cries/GOLBAT.ogg"
+  },
+  "118": {
+   "name": "goldeen",
+   "file": "audio/cries/GOLDEEN.ogg"
+  },
+  "55": {
+   "name": "golduck",
+   "file": "audio/cries/GOLDUCK.ogg"
+  },
+  "76": {
+   "name": "golem",
+   "file": "audio/cries/GOLEM.ogg"
+  },
+  "622": {
+   "name": "golett",
+   "file": "audio/cries/GOLETT.ogg"
+  },
+  "623": {
+   "name": "golurk",
+   "file": "audio/cries/GOLURK.ogg"
+  },
+  "368": {
+   "name": "gorebyss",
+   "file": "audio/cries/GOREBYSS.ogg"
+  },
+  "574": {
+   "name": "gothita",
+   "file": "audio/cries/GOTHITA.ogg"
+  },
+  "576": {
+   "name": "gothitelle",
+   "file": "audio/cries/GOTHITELLE.ogg"
+  },
+  "575": {
+   "name": "gothorita",
+   "file": "audio/cries/GOTHORITA.ogg"
+  },
+  "210": {
+   "name": "granbull",
+   "file": "audio/cries/GRANBULL.ogg"
+  },
+  "75": {
+   "name": "graveler",
+   "file": "audio/cries/GRAVELER.ogg"
+  },
+  "88": {
+   "name": "grimer",
+   "file": "audio/cries/GRIMER.ogg"
+  },
+  "388": {
+   "name": "grotle",
+   "file": "audio/cries/GROTLE.ogg"
+  },
+  "383": {
+   "name": "groudon",
+   "file": "audio/cries/GROUDON.ogg"
+  },
+  "253": {
+   "name": "grovyle",
+   "file": "audio/cries/GROVYLE.ogg"
+  },
+  "58": {
+   "name": "growlithe",
+   "file": "audio/cries/GROWLITHE.ogg"
+  },
+  "326": {
+   "name": "grumpig",
+   "file": "audio/cries/GRUMPIG.ogg"
+  },
+  "316": {
+   "name": "gulpin",
+   "file": "audio/cries/GULPIN.ogg"
+  },
+  "533": {
+   "name": "gurdurr",
+   "file": "audio/cries/GURDURR.ogg"
+  },
+  "130": {
+   "name": "gyarados",
+   "file": "audio/cries/GYARADOS.ogg"
+  },
+  "440": {
+   "name": "happiny",
+   "file": "audio/cries/HAPPINY.ogg"
+  },
+  "297": {
+   "name": "hariyama",
+   "file": "audio/cries/HARIYAMA.ogg"
+  },
+  "93": {
+   "name": "haunter",
+   "file": "audio/cries/HAUNTER.ogg"
+  },
+  "612": {
+   "name": "haxorus",
+   "file": "audio/cries/HAXORUS.ogg"
+  },
+  "631": {
+   "name": "heatmor",
+   "file": "audio/cries/HEATMOR.ogg"
+  },
+  "485": {
+   "name": "heatran",
+   "file": "audio/cries/HEATRAN.ogg"
+  },
+  "214": {
+   "name": "heracross",
+   "file": "audio/cries/HERACROSS.ogg"
+  },
+  "507": {
+   "name": "herdier",
+   "file": "audio/cries/HERDIER.ogg"
+  },
+  "449": {
+   "name": "hippopotas",
+   "file": "audio/cries/HIPPOPOTAS.ogg"
+  },
+  "450": {
+   "name": "hippowdon",
+   "file": "audio/cries/HIPPOWDON.ogg"
+  },
+  "107": {
+   "name": "hitmonchan",
+   "file": "audio/cries/HITMONCHAN.ogg"
+  },
+  "106": {
+   "name": "hitmonlee",
+   "file": "audio/cries/HITMONLEE.ogg"
+  },
+  "237": {
+   "name": "hitmontop",
+   "file": "audio/cries/HITMONTOP.ogg"
+  },
+  "430": {
+   "name": "honchkrow",
+   "file": "audio/cries/HONCHKROW.ogg"
+  },
+  "163": {
+   "name": "hoothoot",
+   "file": "audio/cries/HOOTHOOT.ogg"
+  },
+  "187": {
+   "name": "hoppip",
+   "file": "audio/cries/HOPPIP.ogg"
+  },
+  "116": {
+   "name": "horsea",
+   "file": "audio/cries/HORSEA.ogg"
+  },
+  "229": {
+   "name": "houndoom",
+   "file": "audio/cries/HOUNDOOM.ogg"
+  },
+  "228": {
+   "name": "houndour",
+   "file": "audio/cries/HOUNDOUR.ogg"
+  },
+  "367": {
+   "name": "huntail",
+   "file": "audio/cries/HUNTAIL.ogg"
+  },
+  "635": {
+   "name": "hydreigon",
+   "file": "audio/cries/HYDREIGON.ogg"
+  },
+  "97": {
+   "name": "hypno",
+   "file": "audio/cries/HYPNO.ogg"
+  },
+  "174": {
+   "name": "igglybuff",
+   "file": "audio/cries/IGGLYBUFF.ogg"
+  },
+  "314": {
+   "name": "illumise",
+   "file": "audio/cries/ILLUMISE.ogg"
+  },
+  "392": {
+   "name": "infernape",
+   "file": "audio/cries/INFERNAPE.ogg"
+  },
+  "2": {
+   "name": "ivysaur",
+   "file": "audio/cries/IVYSAUR.ogg"
+  },
+  "39": {
+   "name": "jigglypuff",
+   "file": "audio/cries/JIGGLYPUFF.ogg"
+  },
+  "385": {
+   "name": "jirachi",
+   "file": "audio/cries/JIRACHI.ogg"
+  },
+  "135": {
+   "name": "jolteon",
+   "file": "audio/cries/JOLTEON.ogg"
+  },
+  "595": {
+   "name": "joltik",
+   "file": "audio/cries/JOLTIK.ogg"
+  },
+  "189": {
+   "name": "jumpluff",
+   "file": "audio/cries/JUMPLUFF.ogg"
+  },
+  "124": {
+   "name": "jynx",
+   "file": "audio/cries/JYNX.ogg"
+  },
+  "140": {
+   "name": "kabuto",
+   "file": "audio/cries/KABUTO.ogg"
+  },
+  "141": {
+   "name": "kabutops",
+   "file": "audio/cries/KABUTOPS.ogg"
+  },
+  "64": {
+   "name": "kadabra",
+   "file": "audio/cries/KADABRA.ogg"
+  },
+  "14": {
+   "name": "kakuna",
+   "file": "audio/cries/KAKUNA.ogg"
+  },
+  "115": {
+   "name": "kangaskhan",
+   "file": "audio/cries/KANGASKHAN.ogg"
+  },
+  "588": {
+   "name": "karrablast",
+   "file": "audio/cries/KARRABLAST.ogg"
+  },
+  "352": {
+   "name": "kecleon",
+   "file": "audio/cries/KECLEON.ogg"
+  },
+  "230": {
+   "name": "kingdra",
+   "file": "audio/cries/KINGDRA.ogg"
+  },
+  "99": {
+   "name": "kingler",
+   "file": "audio/cries/KINGLER.ogg"
+  },
+  "281": {
+   "name": "kirlia",
+   "file": "audio/cries/KIRLIA.ogg"
+  },
+  "600": {
+   "name": "klang",
+   "file": "audio/cries/KLANG.ogg"
+  },
+  "599": {
+   "name": "klink",
+   "file": "audio/cries/KLINK.ogg"
+  },
+  "601": {
+   "name": "klinklang",
+   "file": "audio/cries/KLINKLANG.ogg"
+  },
+  "109": {
+   "name": "koffing",
+   "file": "audio/cries/KOFFING.ogg"
+  },
+  "98": {
+   "name": "krabby",
+   "file": "audio/cries/KRABBY.ogg"
+  },
+  "401": {
+   "name": "kricketot",
+   "file": "audio/cries/KRICKETOT.ogg"
+  },
+  "402": {
+   "name": "kricketune",
+   "file": "audio/cries/KRICKETUNE.ogg"
+  },
+  "552": {
+   "name": "krokorok",
+   "file": "audio/cries/KROKOROK.ogg"
+  },
+  "553": {
+   "name": "krookodile",
+   "file": "audio/cries/KROOKODILE.ogg"
+  },
+  "382": {
+   "name": "kyogre",
+   "file": "audio/cries/KYOGRE.ogg"
+  },
+  "646": {
+   "name": "kyurem",
+   "file": "audio/cries/KYUREM.ogg"
+  },
+  "305": {
+   "name": "lairon",
+   "file": "audio/cries/LAIRON.ogg"
+  },
+  "608": {
+   "name": "lampent",
+   "file": "audio/cries/LAMPENT.ogg"
+  },
+  "landorus-therian": {
+   "name": "landorus-therian",
+   "dex": 645,
+   "file": "audio/cries/LANDORUS_1.ogg",
+   "form": true,
+   "note": "Form number 1 per the source archive's own PBS/pokemon_forms.txt ([LANDORUS,1] FormName 'Therian Forme'); dex added by the FRLG audio keying pass."
+  },
+  "171": {
+   "name": "lanturn",
+   "file": "audio/cries/LANTURN.ogg"
+  },
+  "131": {
+   "name": "lapras",
+   "file": "audio/cries/LAPRAS.ogg"
+  },
+  "636": {
+   "name": "larvesta",
+   "file": "audio/cries/LARVESTA.ogg"
+  },
+  "246": {
+   "name": "larvitar",
+   "file": "audio/cries/LARVITAR.ogg"
+  },
+  "380": {
+   "name": "latias",
+   "file": "audio/cries/LATIAS.ogg"
+  },
+  "381": {
+   "name": "latios",
+   "file": "audio/cries/LATIOS.ogg"
+  },
+  "470": {
+   "name": "leafeon",
+   "file": "audio/cries/LEAFEON.ogg"
+  },
+  "542": {
+   "name": "leavanny",
+   "file": "audio/cries/LEAVANNY.ogg"
+  },
+  "166": {
+   "name": "ledian",
+   "file": "audio/cries/LEDIAN.ogg"
+  },
+  "165": {
+   "name": "ledyba",
+   "file": "audio/cries/LEDYBA.ogg"
+  },
+  "463": {
+   "name": "lickilicky",
+   "file": "audio/cries/LICKILICKY.ogg"
+  },
+  "108": {
+   "name": "lickitung",
+   "file": "audio/cries/LICKITUNG.ogg"
+  },
+  "510": {
+   "name": "liepard",
+   "file": "audio/cries/LIEPARD.ogg"
+  },
+  "345": {
+   "name": "lileep",
+   "file": "audio/cries/LILEEP.ogg"
+  },
+  "549": {
+   "name": "lilligant",
+   "file": "audio/cries/LILLIGANT.ogg"
+  },
+  "506": {
+   "name": "lillipup",
+   "file": "audio/cries/LILLIPUP.ogg"
+  },
+  "264": {
+   "name": "linoone",
+   "file": "audio/cries/LINOONE.ogg"
+  },
+  "607": {
+   "name": "litwick",
+   "file": "audio/cries/LITWICK.ogg"
+  },
+  "271": {
+   "name": "lombre",
+   "file": "audio/cries/LOMBRE.ogg"
+  },
+  "428": {
+   "name": "lopunny",
+   "file": "audio/cries/LOPUNNY.ogg"
+  },
+  "270": {
+   "name": "lotad",
+   "file": "audio/cries/LOTAD.ogg"
+  },
+  "294": {
+   "name": "loudred",
+   "file": "audio/cries/LOUDRED.ogg"
+  },
+  "448": {
+   "name": "lucario",
+   "file": "audio/cries/LUCARIO.ogg"
+  },
+  "272": {
+   "name": "ludicolo",
+   "file": "audio/cries/LUDICOLO.ogg"
+  },
+  "249": {
+   "name": "lugia",
+   "file": "audio/cries/LUGIA.ogg"
+  },
+  "457": {
+   "name": "lumineon",
+   "file": "audio/cries/LUMINEON.ogg"
+  },
+  "337": {
+   "name": "lunatone",
+   "file": "audio/cries/LUNATONE.ogg"
+  },
+  "370": {
+   "name": "luvdisc",
+   "file": "audio/cries/LUVDISC.ogg"
+  },
+  "404": {
+   "name": "luxio",
+   "file": "audio/cries/LUXIO.ogg"
+  },
+  "405": {
+   "name": "luxray",
+   "file": "audio/cries/LUXRAY.ogg"
+  },
+  "68": {
+   "name": "machamp",
+   "file": "audio/cries/MACHAMP.ogg"
+  },
+  "67": {
+   "name": "machoke",
+   "file": "audio/cries/MACHOKE.ogg"
+  },
+  "66": {
+   "name": "machop",
+   "file": "audio/cries/MACHOP.ogg"
+  },
+  "240": {
+   "name": "magby",
+   "file": "audio/cries/MAGBY.ogg"
+  },
+  "219": {
+   "name": "magcargo",
+   "file": "audio/cries/MAGCARGO.ogg"
+  },
+  "129": {
+   "name": "magikarp",
+   "file": "audio/cries/MAGIKARP.ogg"
+  },
+  "126": {
+   "name": "magmar",
+   "file": "audio/cries/MAGMAR.ogg"
+  },
+  "467": {
+   "name": "magmortar",
+   "file": "audio/cries/MAGMORTAR.ogg"
+  },
+  "81": {
+   "name": "magnemite",
+   "file": "audio/cries/MAGNEMITE.ogg"
+  },
+  "82": {
+   "name": "magneton",
+   "file": "audio/cries/MAGNETON.ogg"
+  },
+  "462": {
+   "name": "magnezone",
+   "file": "audio/cries/MAGNEZONE.ogg"
+  },
+  "296": {
+   "name": "makuhita",
+   "file": "audio/cries/MAKUHITA.ogg"
+  },
+  "473": {
+   "name": "mamoswine",
+   "file": "audio/cries/MAMOSWINE.ogg"
+  },
+  "490": {
+   "name": "manaphy",
+   "file": "audio/cries/MANAPHY.ogg"
+  },
+  "630": {
+   "name": "mandibuzz",
+   "file": "audio/cries/MANDIBUZZ.ogg"
+  },
+  "310": {
+   "name": "manectric",
+   "file": "audio/cries/MANECTRIC.ogg"
+  },
+  "56": {
+   "name": "mankey",
+   "file": "audio/cries/MANKEY.ogg"
+  },
+  "226": {
+   "name": "mantine",
+   "file": "audio/cries/MANTINE.ogg"
+  },
+  "458": {
+   "name": "mantyke",
+   "file": "audio/cries/MANTYKE.ogg"
+  },
+  "556": {
+   "name": "maractus",
+   "file": "audio/cries/MARACTUS.ogg"
+  },
+  "179": {
+   "name": "mareep",
+   "file": "audio/cries/MAREEP.ogg"
+  },
+  "183": {
+   "name": "marill",
+   "file": "audio/cries/MARILL.ogg"
+  },
+  "105": {
+   "name": "marowak",
+   "file": "audio/cries/MAROWAK.ogg"
+  },
+  "259": {
+   "name": "marshtomp",
+   "file": "audio/cries/MARSHTOMP.ogg"
+  },
+  "284": {
+   "name": "masquerain",
+   "file": "audio/cries/MASQUERAIN.ogg"
+  },
+  "303": {
+   "name": "mawile",
+   "file": "audio/cries/MAWILE.ogg"
+  },
+  "308": {
+   "name": "medicham",
+   "file": "audio/cries/MEDICHAM.ogg"
+  },
+  "307": {
+   "name": "meditite",
+   "file": "audio/cries/MEDITITE.ogg"
+  },
+  "154": {
+   "name": "meganium",
+   "file": "audio/cries/MEGANIUM.ogg"
+  },
+  "52": {
+   "name": "meowth",
+   "file": "audio/cries/MEOWTH.ogg"
+  },
+  "481": {
+   "name": "mesprit",
+   "file": "audio/cries/MESPRIT.ogg"
+  },
+  "376": {
+   "name": "metagross",
+   "file": "audio/cries/METAGROSS.ogg"
+  },
+  "375": {
+   "name": "metang",
+   "file": "audio/cries/METANG.ogg"
+  },
+  "11": {
+   "name": "metapod",
+   "file": "audio/cries/METAPOD.ogg"
+  },
+  "151": {
+   "name": "mew",
+   "file": "audio/cries/MEW.ogg"
+  },
+  "150": {
+   "name": "mewtwo",
+   "file": "audio/cries/MEWTWO.ogg"
+  },
+  "619": {
+   "name": "mienfoo",
+   "file": "audio/cries/MIENFOO.ogg"
+  },
+  "620": {
+   "name": "mienshao",
+   "file": "audio/cries/MIENSHAO.ogg"
+  },
+  "262": {
+   "name": "mightyena",
+   "file": "audio/cries/MIGHTYENA.ogg"
+  },
+  "350": {
+   "name": "milotic",
+   "file": "audio/cries/MILOTIC.ogg"
+  },
+  "241": {
+   "name": "miltank",
+   "file": "audio/cries/MILTANK.ogg"
+  },
+  "572": {
+   "name": "minccino",
+   "file": "audio/cries/MINCCINO.ogg"
+  },
+  "312": {
+   "name": "minun",
+   "file": "audio/cries/MINUN.ogg"
+  },
+  "200": {
+   "name": "misdreavus",
+   "file": "audio/cries/MISDREAVUS.ogg"
+  },
+  "429": {
+   "name": "mismagius",
+   "file": "audio/cries/MISMAGIUS.ogg"
+  },
+  "146": {
+   "name": "moltres",
+   "file": "audio/cries/MOLTRES.ogg"
+  },
+  "391": {
+   "name": "monferno",
+   "file": "audio/cries/MONFERNO.ogg"
+  },
+  "414": {
+   "name": "mothim",
+   "file": "audio/cries/MOTHIM.ogg"
+  },
+  "258": {
+   "name": "mudkip",
+   "file": "audio/cries/MUDKIP.ogg"
+  },
+  "89": {
+   "name": "muk",
+   "file": "audio/cries/MUK.ogg"
+  },
+  "446": {
+   "name": "munchlax",
+   "file": "audio/cries/MUNCHLAX.ogg"
+  },
+  "517": {
+   "name": "munna",
+   "file": "audio/cries/MUNNA.ogg"
+  },
+  "198": {
+   "name": "murkrow",
+   "file": "audio/cries/MURKROW.ogg"
+  },
+  "518": {
+   "name": "musharna",
+   "file": "audio/cries/MUSHARNA.ogg"
+  },
+  "177": {
+   "name": "natu",
+   "file": "audio/cries/NATU.ogg"
+  },
+  "34": {
+   "name": "nidoking",
+   "file": "audio/cries/NIDOKING.ogg"
+  },
+  "31": {
+   "name": "nidoqueen",
+   "file": "audio/cries/NIDOQUEEN.ogg"
+  },
+  "29": {
+   "name": "nidoran-f",
+   "file": "audio/cries/NIDORANfE.ogg",
+   "note": "archive filename mangled; mapped by dex explicitly"
+  },
+  "32": {
+   "name": "nidoran-m",
+   "file": "audio/cries/NIDORANmA.ogg",
+   "note": "archive filename mangled; mapped by dex explicitly"
+  },
+  "30": {
+   "name": "nidorina",
+   "file": "audio/cries/NIDORINA.ogg"
+  },
+  "33": {
+   "name": "nidorino",
+   "file": "audio/cries/NIDORINO.ogg"
+  },
+  "290": {
+   "name": "nincada",
+   "file": "audio/cries/NINCADA.ogg"
+  },
+  "38": {
+   "name": "ninetales",
+   "file": "audio/cries/NINETALES.ogg"
+  },
+  "291": {
+   "name": "ninjask",
+   "file": "audio/cries/NINJASK.ogg"
+  },
+  "164": {
+   "name": "noctowl",
+   "file": "audio/cries/NOCTOWL.ogg"
+  },
+  "299": {
+   "name": "nosepass",
+   "file": "audio/cries/NOSEPASS.ogg"
+  },
+  "322": {
+   "name": "numel",
+   "file": "audio/cries/NUMEL.ogg"
+  },
+  "274": {
+   "name": "nuzleaf",
+   "file": "audio/cries/NUZLEAF.ogg"
+  },
+  "224": {
+   "name": "octillery",
+   "file": "audio/cries/OCTILLERY.ogg"
+  },
+  "43": {
+   "name": "oddish",
+   "file": "audio/cries/ODDISH.ogg"
+  },
+  "138": {
+   "name": "omanyte",
+   "file": "audio/cries/OMANYTE.ogg"
+  },
+  "139": {
+   "name": "omastar",
+   "file": "audio/cries/OMASTAR.ogg"
+  },
+  "95": {
+   "name": "onix",
+   "file": "audio/cries/ONIX.ogg"
+  },
+  "501": {
+   "name": "oshawott",
+   "file": "audio/cries/OSHAWOTT.ogg"
+  },
+  "417": {
+   "name": "pachirisu",
+   "file": "audio/cries/PACHIRISU.ogg"
+  },
+  "484": {
+   "name": "palkia",
+   "file": "audio/cries/PALKIA.ogg"
+  },
+  "536": {
+   "name": "palpitoad",
+   "file": "audio/cries/PALPITOAD.ogg"
+  },
+  "515": {
+   "name": "panpour",
+   "file": "audio/cries/PANPOUR.ogg"
+  },
+  "511": {
+   "name": "pansage",
+   "file": "audio/cries/PANSAGE.ogg"
+  },
+  "513": {
+   "name": "pansear",
+   "file": "audio/cries/PANSEAR.ogg"
+  },
+  "46": {
+   "name": "paras",
+   "file": "audio/cries/PARAS.ogg"
+  },
+  "47": {
+   "name": "parasect",
+   "file": "audio/cries/PARASECT.ogg"
+  },
+  "504": {
+   "name": "patrat",
+   "file": "audio/cries/PATRAT.ogg"
+  },
+  "624": {
+   "name": "pawniard",
+   "file": "audio/cries/PAWNIARD.ogg"
+  },
+  "279": {
+   "name": "pelipper",
+   "file": "audio/cries/PELIPPER.ogg"
+  },
+  "53": {
+   "name": "persian",
+   "file": "audio/cries/PERSIAN.ogg"
+  },
+  "548": {
+   "name": "petilil",
+   "file": "audio/cries/PETILIL.ogg"
+  },
+  "231": {
+   "name": "phanpy",
+   "file": "audio/cries/PHANPY.ogg"
+  },
+  "489": {
+   "name": "phione",
+   "file": "audio/cries/PHIONE.ogg"
+  },
+  "172": {
+   "name": "pichu",
+   "file": "audio/cries/PICHU.ogg"
+  },
+  "18": {
+   "name": "pidgeot",
+   "file": "audio/cries/PIDGEOT.ogg"
+  },
+  "17": {
+   "name": "pidgeotto",
+   "file": "audio/cries/PIDGEOTTO.ogg"
+  },
+  "16": {
+   "name": "pidgey",
+   "file": "audio/cries/PIDGEY.ogg"
+  },
+  "519": {
+   "name": "pidove",
+   "file": "audio/cries/PIDOVE.ogg"
+  },
+  "499": {
+   "name": "pignite",
+   "file": "audio/cries/PIGNITE.ogg"
+  },
+  "25": {
+   "name": "pikachu",
+   "file": "audio/cries/PIKACHU.ogg"
+  },
+  "221": {
+   "name": "piloswine",
+   "file": "audio/cries/PILOSWINE.ogg"
+  },
+  "204": {
+   "name": "pineco",
+   "file": "audio/cries/PINECO.ogg"
+  },
+  "127": {
+   "name": "pinsir",
+   "file": "audio/cries/PINSIR.ogg"
+  },
+  "393": {
+   "name": "piplup",
+   "file": "audio/cries/PIPLUP.ogg"
+  },
+  "311": {
+   "name": "plusle",
+   "file": "audio/cries/PLUSLE.ogg"
+  },
+  "186": {
+   "name": "politoed",
+   "file": "audio/cries/POLITOED.ogg"
+  },
+  "60": {
+   "name": "poliwag",
+   "file": "audio/cries/POLIWAG.ogg"
+  },
+  "61": {
+   "name": "poliwhirl",
+   "file": "audio/cries/POLIWHIRL.ogg"
+  },
+  "62": {
+   "name": "poliwrath",
+   "file": "audio/cries/POLIWRATH.ogg"
+  },
+  "77": {
+   "name": "ponyta",
+   "file": "audio/cries/PONYTA.ogg"
+  },
+  "261": {
+   "name": "poochyena",
+   "file": "audio/cries/POOCHYENA.ogg"
+  },
+  "137": {
+   "name": "porygon",
+   "file": "audio/cries/PORYGON.ogg"
+  },
+  "233": {
+   "name": "porygon2",
+   "file": "audio/cries/PORYGON2.ogg"
+  },
+  "57": {
+   "name": "primeape",
+   "file": "audio/cries/PRIMEAPE.ogg"
+  },
+  "394": {
+   "name": "prinplup",
+   "file": "audio/cries/PRINPLUP.ogg"
+  },
+  "476": {
+   "name": "probopass",
+   "file": "audio/cries/PROBOPASS.ogg"
+  },
+  "54": {
+   "name": "psyduck",
+   "file": "audio/cries/PSYDUCK.ogg"
+  },
+  "247": {
+   "name": "pupitar",
+   "file": "audio/cries/PUPITAR.ogg"
+  },
+  "509": {
+   "name": "purrloin",
+   "file": "audio/cries/PURRLOIN.ogg"
+  },
+  "432": {
+   "name": "purugly",
+   "file": "audio/cries/PURUGLY.ogg"
+  },
+  "195": {
+   "name": "quagsire",
+   "file": "audio/cries/QUAGSIRE.ogg"
+  },
+  "156": {
+   "name": "quilava",
+   "file": "audio/cries/QUILAVA.ogg"
+  },
+  "211": {
+   "name": "qwilfish",
+   "file": "audio/cries/QWILFISH.ogg"
+  },
+  "26": {
+   "name": "raichu",
+   "file": "audio/cries/RAICHU.ogg"
+  },
+  "243": {
+   "name": "raikou",
+   "file": "audio/cries/RAIKOU.ogg"
+  },
+  "280": {
+   "name": "ralts",
+   "file": "audio/cries/RALTS.ogg"
+  },
+  "409": {
+   "name": "rampardos",
+   "file": "audio/cries/RAMPARDOS.ogg"
+  },
+  "78": {
+   "name": "rapidash",
+   "file": "audio/cries/RAPIDASH.ogg"
+  },
+  "20": {
+   "name": "raticate",
+   "file": "audio/cries/RATICATE.ogg"
+  },
+  "19": {
+   "name": "rattata",
+   "file": "audio/cries/RATTATA.ogg"
+  },
+  "384": {
+   "name": "rayquaza",
+   "file": "audio/cries/RAYQUAZA.ogg"
+  },
+  "378": {
+   "name": "regice",
+   "file": "audio/cries/REGICE.ogg"
+  },
+  "486": {
+   "name": "regigigas",
+   "file": "audio/cries/REGIGIGAS.ogg"
+  },
+  "377": {
+   "name": "regirock",
+   "file": "audio/cries/REGIROCK.ogg"
+  },
+  "379": {
+   "name": "registeel",
+   "file": "audio/cries/REGISTEEL.ogg"
+  },
+  "369": {
+   "name": "relicanth",
+   "file": "audio/cries/RELICANTH.ogg"
+  },
+  "223": {
+   "name": "remoraid",
+   "file": "audio/cries/REMORAID.ogg"
+  },
+  "643": {
+   "name": "reshiram",
+   "file": "audio/cries/RESHIRAM.ogg"
+  },
+  "579": {
+   "name": "reuniclus",
+   "file": "audio/cries/REUNICLUS.ogg"
+  },
+  "112": {
+   "name": "rhydon",
+   "file": "audio/cries/RHYDON.ogg"
+  },
+  "111": {
+   "name": "rhyhorn",
+   "file": "audio/cries/RHYHORN.ogg"
+  },
+  "464": {
+   "name": "rhyperior",
+   "file": "audio/cries/RHYPERIOR.ogg"
+  },
+  "447": {
+   "name": "riolu",
+   "file": "audio/cries/RIOLU.ogg"
+  },
+  "524": {
+   "name": "roggenrola",
+   "file": "audio/cries/ROGGENROLA.ogg"
+  },
+  "315": {
+   "name": "roselia",
+   "file": "audio/cries/ROSELIA.ogg"
+  },
+  "407": {
+   "name": "roserade",
+   "file": "audio/cries/ROSERADE.ogg"
+  },
+  "479": {
+   "name": "rotom",
+   "file": "audio/cries/ROTOM.ogg"
+  },
+  "627": {
+   "name": "rufflet",
+   "file": "audio/cries/RUFFLET.ogg"
+  },
+  "302": {
+   "name": "sableye",
+   "file": "audio/cries/SABLEYE.ogg"
+  },
+  "373": {
+   "name": "salamence",
+   "file": "audio/cries/SALAMENCE.ogg"
+  },
+  "503": {
+   "name": "samurott",
+   "file": "audio/cries/SAMUROTT.ogg"
+  },
+  "551": {
+   "name": "sandile",
+   "file": "audio/cries/SANDILE.ogg"
+  },
+  "27": {
+   "name": "sandshrew",
+   "file": "audio/cries/SANDSHREW.ogg"
+  },
+  "28": {
+   "name": "sandslash",
+   "file": "audio/cries/SANDSLASH.ogg"
+  },
+  "539": {
+   "name": "sawk",
+   "file": "audio/cries/SAWK.ogg"
+  },
+  "586": {
+   "name": "sawsbuck",
+   "file": "audio/cries/SAWSBUCK.ogg"
+  },
+  "254": {
+   "name": "sceptile",
+   "file": "audio/cries/SCEPTILE.ogg"
+  },
+  "212": {
+   "name": "scizor",
+   "file": "audio/cries/SCIZOR.ogg"
+  },
+  "545": {
+   "name": "scolipede",
+   "file": "audio/cries/SCOLIPEDE.ogg"
+  },
+  "560": {
+   "name": "scrafty",
+   "file": "audio/cries/SCRAFTY.ogg"
+  },
+  "559": {
+   "name": "scraggy",
+   "file": "audio/cries/SCRAGGY.ogg"
+  },
+  "123": {
+   "name": "scyther",
+   "file": "audio/cries/SCYTHER.ogg"
+  },
+  "117": {
+   "name": "seadra",
+   "file": "audio/cries/SEADRA.ogg"
+  },
+  "119": {
+   "name": "seaking",
+   "file": "audio/cries/SEAKING.ogg"
+  },
+  "364": {
+   "name": "sealeo",
+   "file": "audio/cries/SEALEO.ogg"
+  },
+  "273": {
+   "name": "seedot",
+   "file": "audio/cries/SEEDOT.ogg"
+  },
+  "86": {
+   "name": "seel",
+   "file": "audio/cries/SEEL.ogg"
+  },
+  "537": {
+   "name": "seismitoad",
+   "file": "audio/cries/SEISMITOAD.ogg"
+  },
+  "161": {
+   "name": "sentret",
+   "file": "audio/cries/SENTRET.ogg"
+  },
+  "497": {
+   "name": "serperior",
+   "file": "audio/cries/SERPERIOR.ogg"
+  },
+  "496": {
+   "name": "servine",
+   "file": "audio/cries/SERVINE.ogg"
+  },
+  "336": {
+   "name": "seviper",
+   "file": "audio/cries/SEVIPER.ogg"
+  },
+  "540": {
+   "name": "sewaddle",
+   "file": "audio/cries/SEWADDLE.ogg"
+  },
+  "319": {
+   "name": "sharpedo",
+   "file": "audio/cries/SHARPEDO.ogg"
+  },
+  "shaymin-sky": {
+   "name": "shaymin-sky",
+   "dex": 492,
+   "file": "audio/cries/SHAYMIN_1.ogg",
+   "form": true,
+   "note": "Form number 1 per the source archive's own PBS/pokemon_forms.txt ([SHAYMIN,1] FormName 'Sky Forme'); dex added by the FRLG audio keying pass."
+  },
+  "292": {
+   "name": "shedinja",
+   "file": "audio/cries/SHEDINJA.ogg"
+  },
+  "372": {
+   "name": "shelgon",
+   "file": "audio/cries/SHELGON.ogg"
+  },
+  "90": {
+   "name": "shellder",
+   "file": "audio/cries/SHELLDER.ogg"
+  },
+  "422": {
+   "name": "shellos",
+   "file": "audio/cries/SHELLOS.ogg"
+  },
+  "616": {
+   "name": "shelmet",
+   "file": "audio/cries/SHELMET.ogg"
+  },
+  "410": {
+   "name": "shieldon",
+   "file": "audio/cries/SHIELDON.ogg"
+  },
+  "275": {
+   "name": "shiftry",
+   "file": "audio/cries/SHIFTRY.ogg"
+  },
+  "403": {
+   "name": "shinx",
+   "file": "audio/cries/SHINX.ogg"
+  },
+  "285": {
+   "name": "shroomish",
+   "file": "audio/cries/SHROOMISH.ogg"
+  },
+  "213": {
+   "name": "shuckle",
+   "file": "audio/cries/SHUCKLE.ogg"
+  },
+  "353": {
+   "name": "shuppet",
+   "file": "audio/cries/SHUPPET.ogg"
+  },
+  "561": {
+   "name": "sigilyph",
+   "file": "audio/cries/SIGILYPH.ogg"
+  },
+  "266": {
+   "name": "silcoon",
+   "file": "audio/cries/SILCOON.ogg"
+  },
+  "516": {
+   "name": "simipour",
+   "file": "audio/cries/SIMIPOUR.ogg"
+  },
+  "512": {
+   "name": "simisage",
+   "file": "audio/cries/SIMISAGE.ogg"
+  },
+  "514": {
+   "name": "simisear",
+   "file": "audio/cries/SIMISEAR.ogg"
+  },
+  "227": {
+   "name": "skarmory",
+   "file": "audio/cries/SKARMORY.ogg"
+  },
+  "188": {
+   "name": "skiploom",
+   "file": "audio/cries/SKIPLOOM.ogg"
+  },
+  "300": {
+   "name": "skitty",
+   "file": "audio/cries/SKITTY.ogg"
+  },
+  "451": {
+   "name": "skorupi",
+   "file": "audio/cries/SKORUPI.ogg"
+  },
+  "435": {
+   "name": "skuntank",
+   "file": "audio/cries/SKUNTANK.ogg"
+  },
+  "289": {
+   "name": "slaking",
+   "file": "audio/cries/SLAKING.ogg"
+  },
+  "287": {
+   "name": "slakoth",
+   "file": "audio/cries/SLAKOTH.ogg"
+  },
+  "80": {
+   "name": "slowbro",
+   "file": "audio/cries/SLOWBRO.ogg"
+  },
+  "199": {
+   "name": "slowking",
+   "file": "audio/cries/SLOWKING.ogg"
+  },
+  "79": {
+   "name": "slowpoke",
+   "file": "audio/cries/SLOWPOKE.ogg"
+  },
+  "218": {
+   "name": "slugma",
+   "file": "audio/cries/SLUGMA.ogg"
+  },
+  "235": {
+   "name": "smeargle",
+   "file": "audio/cries/SMEARGLE.ogg"
+  },
+  "238": {
+   "name": "smoochum",
+   "file": "audio/cries/SMOOCHUM.ogg"
+  },
+  "215": {
+   "name": "sneasel",
+   "file": "audio/cries/SNEASEL.ogg"
+  },
+  "495": {
+   "name": "snivy",
+   "file": "audio/cries/SNIVY.ogg"
+  },
+  "143": {
+   "name": "snorlax",
+   "file": "audio/cries/SNORLAX.ogg"
+  },
+  "361": {
+   "name": "snorunt",
+   "file": "audio/cries/SNORUNT.ogg"
+  },
+  "459": {
+   "name": "snover",
+   "file": "audio/cries/SNOVER.ogg"
+  },
+  "209": {
+   "name": "snubbull",
+   "file": "audio/cries/SNUBBULL.ogg"
+  },
+  "577": {
+   "name": "solosis",
+   "file": "audio/cries/SOLOSIS.ogg"
+  },
+  "338": {
+   "name": "solrock",
+   "file": "audio/cries/SOLROCK.ogg"
+  },
+  "21": {
+   "name": "spearow",
+   "file": "audio/cries/SPEAROW.ogg"
+  },
+  "363": {
+   "name": "spheal",
+   "file": "audio/cries/SPHEAL.ogg"
+  },
+  "167": {
+   "name": "spinarak",
+   "file": "audio/cries/SPINARAK.ogg"
+  },
+  "327": {
+   "name": "spinda",
+   "file": "audio/cries/SPINDA.ogg"
+  },
+  "442": {
+   "name": "spiritomb",
+   "file": "audio/cries/SPIRITOMB.ogg"
+  },
+  "325": {
+   "name": "spoink",
+   "file": "audio/cries/SPOINK.ogg"
+  },
+  "7": {
+   "name": "squirtle",
+   "file": "audio/cries/SQUIRTLE.ogg"
+  },
+  "234": {
+   "name": "stantler",
+   "file": "audio/cries/STANTLER.ogg"
+  },
+  "398": {
+   "name": "staraptor",
+   "file": "audio/cries/STARAPTOR.ogg"
+  },
+  "397": {
+   "name": "staravia",
+   "file": "audio/cries/STARAVIA.ogg"
+  },
+  "396": {
+   "name": "starly",
+   "file": "audio/cries/STARLY.ogg"
+  },
+  "121": {
+   "name": "starmie",
+   "file": "audio/cries/STARMIE.ogg"
+  },
+  "120": {
+   "name": "staryu",
+   "file": "audio/cries/STARYU.ogg"
+  },
+  "208": {
+   "name": "steelix",
+   "file": "audio/cries/STEELIX.ogg"
+  },
+  "508": {
+   "name": "stoutland",
+   "file": "audio/cries/STOUTLAND.ogg"
+  },
+  "618": {
+   "name": "stunfisk",
+   "file": "audio/cries/STUNFISK.ogg"
+  },
+  "434": {
+   "name": "stunky",
+   "file": "audio/cries/STUNKY.ogg"
+  },
+  "185": {
+   "name": "sudowoodo",
+   "file": "audio/cries/SUDOWOODO.ogg"
+  },
+  "245": {
+   "name": "suicune",
+   "file": "audio/cries/SUICUNE.ogg"
+  },
+  "192": {
+   "name": "sunflora",
+   "file": "audio/cries/SUNFLORA.ogg"
+  },
+  "191": {
+   "name": "sunkern",
+   "file": "audio/cries/SUNKERN.ogg"
+  },
+  "283": {
+   "name": "surskit",
+   "file": "audio/cries/SURSKIT.ogg"
+  },
+  "333": {
+   "name": "swablu",
+   "file": "audio/cries/SWABLU.ogg"
+  },
+  "541": {
+   "name": "swadloon",
+   "file": "audio/cries/SWADLOON.ogg"
+  },
+  "317": {
+   "name": "swalot",
+   "file": "audio/cries/SWALOT.ogg"
+  },
+  "260": {
+   "name": "swampert",
+   "file": "audio/cries/SWAMPERT.ogg"
+  },
+  "581": {
+   "name": "swanna",
+   "file": "audio/cries/SWANNA.ogg"
+  },
+  "277": {
+   "name": "swellow",
+   "file": "audio/cries/SWELLOW.ogg"
+  },
+  "220": {
+   "name": "swinub",
+   "file": "audio/cries/SWINUB.ogg"
+  },
+  "528": {
+   "name": "swoobat",
+   "file": "audio/cries/SWOOBAT.ogg"
+  },
+  "276": {
+   "name": "taillow",
+   "file": "audio/cries/TAILLOW.ogg"
+  },
+  "114": {
+   "name": "tangela",
+   "file": "audio/cries/TANGELA.ogg"
+  },
+  "465": {
+   "name": "tangrowth",
+   "file": "audio/cries/TANGROWTH.ogg"
+  },
+  "128": {
+   "name": "tauros",
+   "file": "audio/cries/TAUROS.ogg"
+  },
+  "216": {
+   "name": "teddiursa",
+   "file": "audio/cries/TEDDIURSA.ogg"
+  },
+  "72": {
+   "name": "tentacool",
+   "file": "audio/cries/TENTACOOL.ogg"
+  },
+  "73": {
+   "name": "tentacruel",
+   "file": "audio/cries/TENTACRUEL.ogg"
+  },
+  "498": {
+   "name": "tepig",
+   "file": "audio/cries/TEPIG.ogg"
+  },
+  "639": {
+   "name": "terrakion",
+   "file": "audio/cries/TERRAKION.ogg"
+  },
+  "538": {
+   "name": "throh",
+   "file": "audio/cries/THROH.ogg"
+  },
+  "thundurus-therian": {
+   "name": "thundurus-therian",
+   "dex": 642,
+   "file": "audio/cries/THUNDURUS_1.ogg",
+   "form": true,
+   "note": "Form number 1 per the source archive's own PBS/pokemon_forms.txt ([THUNDURUS,1] FormName 'Therian Forme'); dex added by the FRLG audio keying pass."
+  },
+  "532": {
+   "name": "timburr",
+   "file": "audio/cries/TIMBURR.ogg"
+  },
+  "564": {
+   "name": "tirtouga",
+   "file": "audio/cries/TIRTOUGA.ogg"
+  },
+  "468": {
+   "name": "togekiss",
+   "file": "audio/cries/TOGEKISS.ogg"
+  },
+  "175": {
+   "name": "togepi",
+   "file": "audio/cries/TOGEPI.ogg"
+  },
+  "176": {
+   "name": "togetic",
+   "file": "audio/cries/TOGETIC.ogg"
+  },
+  "255": {
+   "name": "torchic",
+   "file": "audio/cries/TORCHIC.ogg"
+  },
+  "324": {
+   "name": "torkoal",
+   "file": "audio/cries/TORKOAL.ogg"
+  },
+  "tornadus-therian": {
+   "name": "tornadus-therian",
+   "dex": 641,
+   "file": "audio/cries/TORNADUS_1.ogg",
+   "form": true,
+   "note": "Form number 1 per the source archive's own PBS/pokemon_forms.txt ([TORNADUS,1] FormName 'Therian Forme'); dex added by the FRLG audio keying pass."
+  },
+  "389": {
+   "name": "torterra",
+   "file": "audio/cries/TORTERRA.ogg"
+  },
+  "158": {
+   "name": "totodile",
+   "file": "audio/cries/TOTODILE.ogg"
+  },
+  "454": {
+   "name": "toxicroak",
+   "file": "audio/cries/TOXICROAK.ogg"
+  },
+  "520": {
+   "name": "tranquill",
+   "file": "audio/cries/TRANQUILL.ogg"
+  },
+  "328": {
+   "name": "trapinch",
+   "file": "audio/cries/TRAPINCH.ogg"
+  },
+  "252": {
+   "name": "treecko",
+   "file": "audio/cries/TREECKO.ogg"
+  },
+  "357": {
+   "name": "tropius",
+   "file": "audio/cries/TROPIUS.ogg"
+  },
+  "568": {
+   "name": "trubbish",
+   "file": "audio/cries/TRUBBISH.ogg"
+  },
+  "387": {
+   "name": "turtwig",
+   "file": "audio/cries/TURTWIG.ogg"
+  },
+  "535": {
+   "name": "tympole",
+   "file": "audio/cries/TYMPOLE.ogg"
+  },
+  "602": {
+   "name": "tynamo",
+   "file": "audio/cries/TYNAMO.ogg"
+  },
+  "157": {
+   "name": "typhlosion",
+   "file": "audio/cries/TYPHLOSION.ogg"
+  },
+  "248": {
+   "name": "tyranitar",
+   "file": "audio/cries/TYRANITAR.ogg"
+  },
+  "236": {
+   "name": "tyrogue",
+   "file": "audio/cries/TYROGUE.ogg"
+  },
+  "197": {
+   "name": "umbreon",
+   "file": "audio/cries/UMBREON.ogg"
+  },
+  "521": {
+   "name": "unfezant",
+   "file": "audio/cries/UNFEZANT.ogg"
+  },
+  "201": {
+   "name": "unown",
+   "file": "audio/cries/UNOWN.ogg"
+  },
+  "217": {
+   "name": "ursaring",
+   "file": "audio/cries/URSARING.ogg"
+  },
+  "480": {
+   "name": "uxie",
+   "file": "audio/cries/UXIE.ogg"
+  },
+  "583": {
+   "name": "vanillish",
+   "file": "audio/cries/VANILLISH.ogg"
+  },
+  "582": {
+   "name": "vanillite",
+   "file": "audio/cries/VANILLITE.ogg"
+  },
+  "584": {
+   "name": "vanilluxe",
+   "file": "audio/cries/VANILLUXE.ogg"
+  },
+  "134": {
+   "name": "vaporeon",
+   "file": "audio/cries/VAPOREON.ogg"
+  },
+  "543": {
+   "name": "venipede",
+   "file": "audio/cries/VENIPEDE.ogg"
+  },
+  "49": {
+   "name": "venomoth",
+   "file": "audio/cries/VENOMOTH.ogg"
+  },
+  "48": {
+   "name": "venonat",
+   "file": "audio/cries/VENONAT.ogg"
+  },
+  "3": {
+   "name": "venusaur",
+   "file": "audio/cries/VENUSAUR.ogg"
+  },
+  "416": {
+   "name": "vespiquen",
+   "file": "audio/cries/VESPIQUEN.ogg"
+  },
+  "329": {
+   "name": "vibrava",
+   "file": "audio/cries/VIBRAVA.ogg"
+  },
+  "494": {
+   "name": "victini",
+   "file": "audio/cries/VICTINI.ogg"
+  },
+  "71": {
+   "name": "victreebel",
+   "file": "audio/cries/VICTREEBEL.ogg"
+  },
+  "288": {
+   "name": "vigoroth",
+   "file": "audio/cries/VIGOROTH.ogg"
+  },
+  "45": {
+   "name": "vileplume",
+   "file": "audio/cries/VILEPLUME.ogg"
+  },
+  "640": {
+   "name": "virizion",
+   "file": "audio/cries/VIRIZION.ogg"
+  },
+  "313": {
+   "name": "volbeat",
+   "file": "audio/cries/VOLBEAT.ogg"
+  },
+  "637": {
+   "name": "volcarona",
+   "file": "audio/cries/VOLCARONA.ogg"
+  },
+  "100": {
+   "name": "voltorb",
+   "file": "audio/cries/VOLTORB.ogg"
+  },
+  "629": {
+   "name": "vullaby",
+   "file": "audio/cries/VULLABY.ogg"
+  },
+  "37": {
+   "name": "vulpix",
+   "file": "audio/cries/VULPIX.ogg"
+  },
+  "320": {
+   "name": "wailmer",
+   "file": "audio/cries/WAILMER.ogg"
+  },
+  "321": {
+   "name": "wailord",
+   "file": "audio/cries/WAILORD.ogg"
+  },
+  "365": {
+   "name": "walrein",
+   "file": "audio/cries/WALREIN.ogg"
+  },
+  "8": {
+   "name": "wartortle",
+   "file": "audio/cries/WARTORTLE.ogg"
+  },
+  "505": {
+   "name": "watchog",
+   "file": "audio/cries/WATCHOG.ogg"
+  },
+  "461": {
+   "name": "weavile",
+   "file": "audio/cries/WEAVILE.ogg"
+  },
+  "13": {
+   "name": "weedle",
+   "file": "audio/cries/WEEDLE.ogg"
+  },
+  "70": {
+   "name": "weepinbell",
+   "file": "audio/cries/WEEPINBELL.ogg"
+  },
+  "110": {
+   "name": "weezing",
+   "file": "audio/cries/WEEZING.ogg"
+  },
+  "547": {
+   "name": "whimsicott",
+   "file": "audio/cries/WHIMSICOTT.ogg"
+  },
+  "544": {
+   "name": "whirlipede",
+   "file": "audio/cries/WHIRLIPEDE.ogg"
+  },
+  "340": {
+   "name": "whiscash",
+   "file": "audio/cries/WHISCASH.ogg"
+  },
+  "293": {
+   "name": "whismur",
+   "file": "audio/cries/WHISMUR.ogg"
+  },
+  "40": {
+   "name": "wigglytuff",
+   "file": "audio/cries/WIGGLYTUFF.ogg"
+  },
+  "278": {
+   "name": "wingull",
+   "file": "audio/cries/WINGULL.ogg"
+  },
+  "202": {
+   "name": "wobbuffet",
+   "file": "audio/cries/WOBBUFFET.ogg"
+  },
+  "527": {
+   "name": "woobat",
+   "file": "audio/cries/WOOBAT.ogg"
+  },
+  "194": {
+   "name": "wooper",
+   "file": "audio/cries/WOOPER.ogg"
+  },
+  "265": {
+   "name": "wurmple",
+   "file": "audio/cries/WURMPLE.ogg"
+  },
+  "360": {
+   "name": "wynaut",
+   "file": "audio/cries/WYNAUT.ogg"
+  },
+  "178": {
+   "name": "xatu",
+   "file": "audio/cries/XATU.ogg"
+  },
+  "562": {
+   "name": "yamask",
+   "file": "audio/cries/YAMASK.ogg"
+  },
+  "193": {
+   "name": "yanma",
+   "file": "audio/cries/YANMA.ogg"
+  },
+  "469": {
+   "name": "yanmega",
+   "file": "audio/cries/YANMEGA.ogg"
+  },
+  "335": {
+   "name": "zangoose",
+   "file": "audio/cries/ZANGOOSE.ogg"
+  },
+  "145": {
+   "name": "zapdos",
+   "file": "audio/cries/ZAPDOS.ogg"
+  },
+  "523": {
+   "name": "zebstrika",
+   "file": "audio/cries/ZEBSTRIKA.ogg"
+  },
+  "644": {
+   "name": "zekrom",
+   "file": "audio/cries/ZEKROM.ogg"
+  },
+  "263": {
+   "name": "zigzagoon",
+   "file": "audio/cries/ZIGZAGOON.ogg"
+  },
+  "571": {
+   "name": "zoroark",
+   "file": "audio/cries/ZOROARK.ogg"
+  },
+  "570": {
+   "name": "zorua",
+   "file": "audio/cries/ZORUA.ogg"
+  },
+  "41": {
+   "name": "zubat",
+   "file": "audio/cries/ZUBAT.ogg"
+  },
+  "634": {
+   "name": "zweilous",
+   "file": "audio/cries/ZWEILOUS.ogg"
+  },
+  "122": {
+   "name": "mr-mime",
+   "file": "audio/cries/MRMIME.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "250": {
+   "name": "ho-oh",
+   "file": "audio/cries/HOOH.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "386": {
+   "name": "deoxys-normal",
+   "file": "audio/cries/DEOXYS.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "413": {
+   "name": "wormadam-plant",
+   "file": "audio/cries/WORMADAM.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "439": {
+   "name": "mime-jr",
+   "file": "audio/cries/MIMEJR.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "474": {
+   "name": "porygon-z",
+   "file": "audio/cries/PORYGONZ.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "487": {
+   "name": "giratina-altered",
+   "file": "audio/cries/GIRATINA.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "492": {
+   "name": "shaymin-land",
+   "file": "audio/cries/SHAYMIN.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "550": {
+   "name": "basculin-red-striped",
+   "file": "audio/cries/BASCULIN.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "555": {
+   "name": "darmanitan-standard",
+   "file": "audio/cries/DARMANITAN.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "592": {
+   "name": "frillish-male",
+   "file": "audio/cries/FRILLISH.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "593": {
+   "name": "jellicent-male",
+   "file": "audio/cries/JELLICENT.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "641": {
+   "name": "tornadus-incarnate",
+   "file": "audio/cries/TORNADUS.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "642": {
+   "name": "thundurus-incarnate",
+   "file": "audio/cries/THUNDURUS.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "645": {
+   "name": "landorus-incarnate",
+   "file": "audio/cries/LANDORUS.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "647": {
+   "name": "keldeo-ordinary",
+   "file": "audio/cries/KELDEO.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "648": {
+   "name": "meloetta-aria",
+   "file": "audio/cries/MELOETTA.ogg",
+   "note": "Archive filename is the plain species name; dex keyed by the FRLG audio keying pass (gap-set + cries-bank name match; see hidden_files/audio_keying/KEYING_REPORT.md)"
+  },
+  "kyurem-white": {
+   "name": "kyurem-white",
+   "dex": 646,
+   "file": "audio/cries/KYUREM_1.ogg",
+   "form": true,
+   "note": "Form number 1 = White Kyurem per the source archive's own PBS/pokemon_forms.txt ([KYUREM,1] FormName 'White Kyurem'); pack file CRC32 57e0a746 matches that archive entry. Keyed by the FRLG audio keying pass, superseding the literal 'kyurem-form-1' key."
+  },
+  "kyurem-black": {
+   "name": "kyurem-black",
+   "dex": 646,
+   "file": "audio/cries/KYUREM_2.ogg",
+   "form": true,
+   "note": "Form number 2 = Black Kyurem per the source archive's own PBS/pokemon_forms.txt ([KYUREM,2] FormName 'Black Kyurem'); pack file CRC32 c08bf031 matches that archive entry. Keyed by the FRLG audio keying pass, superseding the literal 'kyurem-form-2' key."
+  },
+  "raichumegax": {
+   "name": "raichumegax",
+   "dex": 26,
+   "file": "audio/cries/RAICHU_2.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Raichu X), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "raichumegay": {
+   "name": "raichumegay",
+   "dex": 26,
+   "file": "audio/cries/RAICHU_3.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Raichu Y), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "clefablemega": {
+   "name": "clefablemega",
+   "dex": 36,
+   "file": "audio/cries/CLEFABLE_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Clefable), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "victreebelmega": {
+   "name": "victreebelmega",
+   "dex": 71,
+   "file": "audio/cries/VICTREEBEL_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Victreebel), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "starmiemega": {
+   "name": "starmiemega",
+   "dex": 121,
+   "file": "audio/cries/STARMIE_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Starmie), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "dragonitemega": {
+   "name": "dragonitemega",
+   "dex": 149,
+   "file": "audio/cries/DRAGONITE_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Dragonite), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "meganiummega": {
+   "name": "meganiummega",
+   "dex": 154,
+   "file": "audio/cries/MEGANIUM_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Meganium), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "feraligatrmega": {
+   "name": "feraligatrmega",
+   "dex": 160,
+   "file": "audio/cries/FERALIGATR_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Feraligatr), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "skarmorymega": {
+   "name": "skarmorymega",
+   "dex": 227,
+   "file": "audio/cries/SKARMORY_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Skarmory), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "chimechomega": {
+   "name": "chimechomega",
+   "dex": 358,
+   "file": "audio/cries/CHIMECHO_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Chimecho), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "absolmegaz": {
+   "name": "absolmegaz",
+   "dex": 359,
+   "file": "audio/cries/ABSOL_2.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Absol Z), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "staraptormega": {
+   "name": "staraptormega",
+   "dex": 398,
+   "file": "audio/cries/STARAPTOR_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Staraptor), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "garchompmegaz": {
+   "name": "garchompmegaz",
+   "dex": 445,
+   "file": "audio/cries/GARCHOMP_2.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Garchomp Z), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "lucariomegaz": {
+   "name": "lucariomegaz",
+   "dex": 448,
+   "file": "audio/cries/LUCARIO_2.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Lucario Z), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "froslassmega": {
+   "name": "froslassmega",
+   "dex": 478,
+   "file": "audio/cries/FROSLASS_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Froslass), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "heatranmega": {
+   "name": "heatranmega",
+   "dex": 485,
+   "file": "audio/cries/HEATRAN_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Heatran), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "darkraimega": {
+   "name": "darkraimega",
+   "dex": 491,
+   "file": "audio/cries/DARKRAI_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Darkrai), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "emboarmega": {
+   "name": "emboarmega",
+   "dex": 500,
+   "file": "audio/cries/EMBOAR_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Emboar), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "excadrillmega": {
+   "name": "excadrillmega",
+   "dex": 530,
+   "file": "audio/cries/EXCADRILL_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Excadrill), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "scolipedemega": {
+   "name": "scolipedemega",
+   "dex": 545,
+   "file": "audio/cries/SCOLIPEDE_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Scolipede), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "scraftymega": {
+   "name": "scraftymega",
+   "dex": 560,
+   "file": "audio/cries/SCRAFTY_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Scrafty), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "eelektrossmega": {
+   "name": "eelektrossmega",
+   "dex": 604,
+   "file": "audio/cries/EELEKTROSS_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Eelektross), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "chandeluremega": {
+   "name": "chandeluremega",
+   "dex": 609,
+   "file": "audio/cries/CHANDELURE_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Chandelure), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "golurkmega": {
+   "name": "golurkmega",
+   "dex": 623,
+   "file": "audio/cries/GOLURK_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Golurk), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "chesnaughtmega": {
+   "name": "chesnaughtmega",
+   "dex": 652,
+   "file": "audio/cries/CHESNAUGHT_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Chesnaught), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "delphoxmega": {
+   "name": "delphoxmega",
+   "dex": 655,
+   "file": "audio/cries/DELPHOX_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Delphox), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "greninjamega": {
+   "name": "greninjamega",
+   "dex": 658,
+   "file": "audio/cries/GRENINJA_3.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Greninja), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "pyroarmega": {
+   "name": "pyroarmega",
+   "dex": 668,
+   "file": "audio/cries/PYROAR_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Pyroar), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "floettemega": {
+   "name": "floettemega",
+   "dex": 670,
+   "file": "audio/cries/FLOETTE_6.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Floette), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "meowsticmega": {
+   "name": "meowsticmega",
+   "dex": 678,
+   "file": "audio/cries/MEOWSTIC_2.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Meowstic), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "malamarmega": {
+   "name": "malamarmega",
+   "dex": 687,
+   "file": "audio/cries/MALAMAR_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Malamar), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "barbaraclemega": {
+   "name": "barbaraclemega",
+   "dex": 689,
+   "file": "audio/cries/BARBARACLE_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Barbaracle), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "dragalgemega": {
+   "name": "dragalgemega",
+   "dex": 691,
+   "file": "audio/cries/DRAGALGE_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Dragalge), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "hawluchamega": {
+   "name": "hawluchamega",
+   "dex": 701,
+   "file": "audio/cries/HAWLUCHA_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Hawlucha), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "zygardemega": {
+   "name": "zygardemega",
+   "dex": 718,
+   "file": "audio/cries/ZYGARDE_4.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Zygarde), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "crabominablemega": {
+   "name": "crabominablemega",
+   "dex": 740,
+   "file": "audio/cries/CRABOMINABLE_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Crabominable), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "golisopodmega": {
+   "name": "golisopodmega",
+   "dex": 768,
+   "file": "audio/cries/GOLISOPOD_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Golisopod), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "drampamega": {
+   "name": "drampamega",
+   "dex": 780,
+   "file": "audio/cries/DRAMPA_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Drampa), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "magearnamega": {
+   "name": "magearnamega",
+   "dex": 801,
+   "file": "audio/cries/MAGEARNA_2.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Magearna), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "magearnamega(originalcolor)": {
+   "name": "magearnamega(originalcolor)",
+   "dex": 801,
+   "file": "audio/cries/MAGEARNA_3.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Magearna (Original Color)), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "zeraoramega": {
+   "name": "zeraoramega",
+   "dex": 807,
+   "file": "audio/cries/ZERAORA_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Zeraora), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "falinksmega": {
+   "name": "falinksmega",
+   "dex": 870,
+   "file": "audio/cries/FALINKS_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Falinks), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "scovillainmega": {
+   "name": "scovillainmega",
+   "dex": 952,
+   "file": "audio/cries/SCOVILLAIN_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Scovillain), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "glimmoramega": {
+   "name": "glimmoramega",
+   "dex": 970,
+   "file": "audio/cries/GLIMMORA_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Glimmora), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "tatsugirimega(curlyform)": {
+   "name": "tatsugirimega(curlyform)",
+   "dex": 978,
+   "file": "audio/cries/TATSUGIRI_3.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Tatsugiri (Curly Form)), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "tatsugirimega(droopyform)": {
+   "name": "tatsugirimega(droopyform)",
+   "dex": 978,
+   "file": "audio/cries/TATSUGIRI_4.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Tatsugiri (Droopy Form)), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "tatsugirimega(stretchyform)": {
+   "name": "tatsugirimega(stretchyform)",
+   "dex": 978,
+   "file": "audio/cries/TATSUGIRI_5.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Tatsugiri (Stretchy Form)), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  },
+  "baxcaliburmega": {
+   "name": "baxcaliburmega",
+   "dex": 998,
+   "file": "audio/cries/BAXCALIBUR_1.ogg",
+   "form": true,
+   "note": "Pokemon Legends Z-A Mega cry (Mega Baxcalibur), extracted from the held Gen 9 Pack v3.3.8 copy and staged bind-ready by the gen9pack intake (distinct from the base cry: false); bound in binding build 3."
+  }
+ },
+ "se_files": [
+  "audio/effects/Battle ability.ogg",
+  "audio/effects/Battle ball drop.ogg",
+  "audio/effects/Battle ball hit.ogg",
+  "audio/effects/Battle ball shake.ogg",
+  "audio/effects/Battle catch click.ogg",
+  "audio/effects/Battle critical catch throw.ogg",
+  "audio/effects/Battle damage normal.ogg",
+  "audio/effects/Battle damage super.ogg",
+  "audio/effects/Battle damage weak.ogg",
+  "audio/effects/Battle flee.ogg",
+  "audio/effects/Battle jump to ball.ogg",
+  "audio/effects/Battle recall.ogg",
+  "audio/effects/Battle throw.ogg",
+  "audio/effects/Bicycle.ogg",
+  "audio/effects/Cut.ogg",
+  "audio/effects/Door enter.ogg",
+  "audio/effects/Door exit.ogg",
+  "audio/effects/Door slide.ogg",
+  "audio/effects/Elevator end.ogg",
+  "audio/effects/Elevator moving.ogg",
+  "audio/effects/Exclaim.ogg",
+  "audio/effects/Fly.ogg",
+  "audio/effects/GUI menu close.ogg",
+  "audio/effects/GUI menu open.ogg",
+  "audio/effects/GUI naming confirm.ogg",
+  "audio/effects/GUI naming tab swap end.ogg",
+  "audio/effects/GUI naming tab swap start.ogg",
+  "audio/effects/GUI party switch.ogg",
+  "audio/effects/GUI pokedex open.ogg",
+  "audio/effects/GUI save choice.ogg",
+  "audio/effects/GUI sel buzzer.ogg",
+  "audio/effects/GUI sel cancel.ogg",
+  "audio/effects/GUI sel cursor.ogg",
+  "audio/effects/GUI sel decision.ogg",
+  "audio/effects/GUI storage hide party panel.ogg",
+  "audio/effects/GUI storage pick up.ogg",
+  "audio/effects/GUI storage put down.ogg",
+  "audio/effects/GUI storage show party panel.ogg",
+  "audio/effects/GUI summary change page.ogg",
+  "audio/effects/GUI trainer card open.ogg",
+  "audio/effects/Headbutt.ogg",
+  "audio/effects/Itemfinder.ogg",
+  "audio/effects/Mart buy item.ogg",
+  "audio/effects/Mining collapse.ogg",
+  "audio/effects/Mining cursor.ogg",
+  "audio/effects/Mining found all.ogg",
+  "audio/effects/Mining hammer.ogg",
+  "audio/effects/Mining iron.ogg",
+  "audio/effects/Mining item get.ogg",
+  "audio/effects/Mining pick.ogg",
+  "audio/effects/Mining ping.ogg",
+  "audio/effects/Mining reveal full.ogg",
+  "audio/effects/Mining reveal.ogg",
+  "audio/effects/Mining tool change.ogg",
+  "audio/effects/PC access.ogg",
+  "audio/effects/PC close.ogg",
+  "audio/effects/PC open.ogg",
+  "audio/effects/Pkmn exp full.ogg",
+  "audio/effects/Pkmn exp gain.ogg",
+  "audio/effects/Pkmn faint.ogg",
+  "audio/effects/Pkmn level up.ogg",
+  "audio/effects/Pkmn move learnt.ogg",
+  "audio/effects/Player bump.ogg",
+  "audio/effects/Player fall.ogg",
+  "audio/effects/Player jump.ogg",
+  "audio/effects/Poison step.ogg",
+  "audio/effects/Repel.ogg",
+  "audio/effects/Rock Smash.ogg",
+  "audio/effects/Safari Zone end.ogg",
+  "audio/effects/Slots coin.ogg",
+  "audio/effects/Slots stop.ogg",
+  "audio/effects/Strength push.ogg",
+  "audio/effects/Sweet Scent.ogg",
+  "audio/effects/Tile Game cursor.ogg",
+  "audio/effects/Use item in party.ogg",
+  "audio/effects/Vending machine dispense.ogg",
+  "audio/effects/Voltorb Flip explosion.ogg",
+  "audio/effects/Voltorb Flip gain coins.ogg",
+  "audio/effects/Voltorb Flip level down.ogg",
+  "audio/effects/Voltorb Flip level up.ogg",
+  "audio/effects/Voltorb Flip mark.ogg",
+  "audio/effects/Voltorb Flip point.ogg",
+  "audio/effects/Voltorb Flip tile.ogg",
+  "audio/effects/Vs flash.ogg",
+  "audio/effects/Vs sword.ogg",
+  "audio/effects/Water berry plant.ogg",
+  "audio/effects/Absorb2.ogg",
+  "audio/effects/Ace.ogg",
+  "audio/effects/Acupressure.ogg",
+  "audio/effects/Applause.ogg",
+  "audio/effects/Battle1.ogg",
+  "audio/effects/Blow1.ogg",
+  "audio/effects/Blow3.ogg",
+  "audio/effects/Blow4.ogg",
+  "audio/effects/Blow5.ogg",
+  "audio/effects/Blow6.ogg",
+  "audio/effects/Blow7.ogg",
+  "audio/effects/Bow1.ogg",
+  "audio/effects/Collapse1.ogg",
+  "audio/effects/Comet Punch.ogg",
+  "audio/effects/Confuse.ogg",
+  "audio/effects/Crash.ogg",
+  "audio/effects/Damage1.ogg",
+  "audio/effects/Darkness2.ogg",
+  "audio/effects/Darkness6.ogg",
+  "audio/effects/Defense Curl.ogg",
+  "audio/effects/Dizzy Punch.ogg",
+  "audio/effects/Earth1.ogg",
+  "audio/effects/Earth3.ogg",
+  "audio/effects/Earth4.ogg",
+  "audio/effects/Earth5.ogg",
+  "audio/effects/Explosion.ogg",
+  "audio/effects/Explosion1.ogg",
+  "audio/effects/Explosion2.ogg",
+  "audio/effects/Explosion3.ogg",
+  "audio/effects/Explosion4.ogg",
+  "audio/effects/Explosion6.ogg",
+  "audio/effects/Explosion7.ogg",
+  "audio/effects/Fire1.ogg",
+  "audio/effects/Fire2.ogg",
+  "audio/effects/Fire3.ogg",
+  "audio/effects/Fire4.ogg",
+  "audio/effects/Fire5.ogg",
+  "audio/effects/Fire6.ogg",
+  "audio/effects/Flail.ogg",
+  "audio/effects/Flash2.ogg",
+  "audio/effects/Follow Me.ogg",
+  "audio/effects/Fury Swipes.ogg",
+  "audio/effects/Harden.ogg",
+  "audio/effects/Ice2.ogg",
+  "audio/effects/Ice5.ogg",
+  "audio/effects/Ice8.ogg",
+  "audio/effects/Knock.ogg",
+  "audio/effects/Lock On.ogg",
+  "audio/effects/Lovely Kiss.ogg",
+  "audio/effects/Lucky Chant.ogg",
+  "audio/effects/Mega Punch.ogg",
+  "audio/effects/Metronome.ogg",
+  "audio/effects/MiningCollapse.ogg",
+  "audio/effects/MiningPing.ogg",
+  "audio/effects/Natural Gift.ogg",
+  "audio/effects/Paralyze1.ogg",
+  "audio/effects/Paralyze3.ogg",
+  "audio/effects/Poison.ogg",
+  "audio/effects/Pollen.ogg",
+  "audio/effects/Present - Heal.ogg",
+  "audio/effects/Psych Up.ogg",
+  "audio/effects/Psycho Cut.ogg",
+  "audio/effects/Recovery.ogg",
+  "audio/effects/Refresh.ogg",
+  "audio/effects/Saint1.ogg",
+  "audio/effects/Saint3.ogg",
+  "audio/effects/Saint4.ogg",
+  "audio/effects/Saint6.ogg",
+  "audio/effects/Saint7.ogg",
+  "audio/effects/Saint8.ogg",
+  "audio/effects/Saint9.ogg",
+  "audio/effects/Sand.ogg",
+  "audio/effects/Scary Face.ogg",
+  "audio/effects/Select.ogg",
+  "audio/effects/Shell Smash.ogg",
+  "audio/effects/Shiny sparkle.ogg",
+  "audio/effects/Sing.ogg",
+  "audio/effects/Slam.ogg",
+  "audio/effects/Slash.ogg",
+  "audio/effects/Slash1.ogg",
+  "audio/effects/Slash10.ogg",
+  "audio/effects/Slash11.ogg",
+  "audio/effects/Slash2.ogg",
+  "audio/effects/Slash3.ogg",
+  "audio/effects/Slash6.ogg",
+  "audio/effects/Slash8.ogg",
+  "audio/effects/Slash9.ogg",
+  "audio/effects/Sleep.ogg",
+  "audio/effects/Smokescreen.ogg",
+  "audio/effects/Snore.ogg",
+  "audio/effects/Sound2.ogg",
+  "audio/effects/Stare.ogg",
+  "audio/effects/Substitute.ogg",
+  "audio/effects/Super Fang.ogg",
+  "audio/effects/Swagger.ogg",
+  "audio/effects/Sweet Scent.ogg",
+  "audio/effects/Sword1.ogg",
+  "audio/effects/Sword2.ogg",
+  "audio/effects/Swords Dance.ogg",
+  "audio/effects/Take Down.ogg",
+  "audio/effects/Teleport.ogg",
+  "audio/effects/Thunder1.ogg",
+  "audio/effects/Thunder3.ogg",
+  "audio/effects/Thunder4.ogg",
+  "audio/effects/Thunder9.ogg",
+  "audio/effects/Trump Card.ogg",
+  "audio/effects/Twine.ogg",
+  "audio/effects/Up.ogg",
+  "audio/effects/Uproar.ogg",
+  "audio/effects/Vice Grip.ogg",
+  "audio/effects/Voltorb Flip Explosion.ogg",
+  "audio/effects/Voltorb Flip Mark.ogg",
+  "audio/effects/Water1.ogg",
+  "audio/effects/Water2.ogg",
+  "audio/effects/Water3.ogg",
+  "audio/effects/Water5.ogg",
+  "audio/effects/Weatherball.ogg",
+  "audio/effects/Whirlwind.ogg",
+  "audio/effects/Wind1.ogg",
+  "audio/effects/Wind5.ogg",
+  "audio/effects/Wind7.ogg",
+  "audio/effects/Wind8.ogg",
+  "audio/effects/Work Up.ogg",
+  "audio/effects/Wring Out.ogg",
+  "audio/effects/Yawn.ogg",
+  "audio/effects/buzzer.ogg",
+  "audio/effects/decrease.ogg",
+  "audio/effects/fog2.ogg",
+  "audio/effects/gust.ogg",
+  "audio/effects/hit.ogg",
+  "audio/effects/increase.ogg",
+  "audio/effects/infatuated.ogg",
+  "audio/effects/metal.ogg",
+  "audio/effects/normaldamage.ogg",
+  "audio/effects/punch5.ogg",
+  "audio/effects/superdamage.ogg",
+  "audio/effects/throw.ogg"
+ ],
+ "me_files": [
+  "audio/effects/BP get.ogg",
+  "audio/effects/Battle capture success.ogg",
+  "audio/effects/Berry get.ogg",
+  "audio/effects/Bug catching 1st.ogg",
+  "audio/effects/Bug catching 2nd.ogg",
+  "audio/effects/Bug catching 3rd.ogg",
+  "audio/effects/Egg get.ogg",
+  "audio/effects/Evolution start.ogg",
+  "audio/effects/Evolution success.ogg",
+  "audio/effects/Forget move.ogg",
+  "audio/effects/GUI save game.ogg",
+  "audio/effects/Machine get.ogg",
+  "audio/effects/Obtained a Badge.ogg",
+  "audio/effects/Obtained a Key Item.ogg",
+  "audio/effects/Obtained an Item.ogg",
+  "audio/effects/Pkmn get.ogg",
+  "audio/effects/Pkmn healing.ogg",
+  "audio/effects/Register phone.ogg",
+  "audio/effects/Slots big win.ogg",
+  "audio/effects/Slots win.ogg",
+  "audio/effects/Voltorb Flip game over.ogg",
+  "audio/effects/Voltorb Flip win.ogg"
+ ],
+ "gen6_9_cries": "not in this archive; keep streaming from PokeAPI"
+}

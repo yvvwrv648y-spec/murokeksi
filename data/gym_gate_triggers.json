@@ -1,0 +1,85 @@
+{
+ "comment": "GYM-GATE TRIGGER WIRING (data level; the host applies it). The two Kanto gyms whose availability consumes story flags - gym 3 (ss_anne_cleared) and gym 6 (saffron_access + silph_co_cleared) - get a production trigger record each. The host's gym-leader interaction works like this: (1) evaluate gate.checker against the live state; if it refuses, present gate refusal descriptions (checker returns them as 'unmet') and DO NOT start the event script; (2) if it allows, load the event script, overwrite the battle step's badge_count with the live GLOBAL badge count (PUWGymProgression.badge_count(state)) - step data is host-supplied by the project's own convention (the Oak fixture's picks work the same way) - and run it; (3) on the script's win branch, call on_win.caller with on_win.args so the badge award goes through the stitch's own gate-checked path. The event scripts ALSO carry use_campaign_gate on their battle steps, so even a host that skips step (1) cannot start these battles early: PUWBattleEntry refuses and the runner halts with an error. Requirements below are copied from data/gym_requirements.json (the bound record file) - that file stays the single source of truth; this file only wires its consumers.",
+ "source": "data/gym_requirements.json (records kanto_gym_3_surge, kanto_gym_6_sabrina); checkers PUWGymRequirements.can_start_gym / PUWCampaignStitch.can_start_gym_battle (bound); battle door PUWBattleEntry.start_gym_battle (bound).",
+ "triggers": [
+  {
+   "gym_id": "kanto_gym_3_surge",
+   "region": "kanto",
+   "map": "VermilionGym",
+   "leader_actor": "lt_surge",
+   "event_script": "data/events/gym_gate_kanto_gym_3_surge.json",
+   "gate": {
+    "checker": "PUWCampaignStitch.can_start_gym_battle",
+    "requirements_source": "data/gym_requirements.json#kanto_gym_3_surge",
+    "requirements": [
+     {
+      "type": "story_flag",
+      "flag": "ss_anne_cleared",
+      "set_by": "data/events/ss_anne_captain.json"
+     },
+     {
+      "type": "item",
+      "item": "hm01",
+      "granted_by": "data/events/ss_anne_captain.json"
+     },
+     {
+      "type": "field_action",
+      "action": "cut",
+      "note": "met when the field-action system has written 'cut' into story_flags[field_actions] (PUWGymRequirements._has_field_action); teaching Cut from the granted hm01 is that system's beat, not this trigger's"
+     }
+    ]
+   },
+   "battle_step": {
+    "op": "battle",
+    "entry": "gym",
+    "gym_ref": "kanto_gym_3_surge",
+    "use_campaign_gate": true,
+    "badge_count": "HOST_SUPPLIES_LIVE_GLOBAL_BADGE_COUNT"
+   },
+   "on_win": {
+    "caller": "PUWCampaignStitch.record_gym_win",
+    "args": [
+     "kanto_gym_3_surge"
+    ]
+   },
+   "on_refusal": "present the checker's unmet requirement descriptions; do not start the event script"
+  },
+  {
+   "gym_id": "kanto_gym_6_sabrina",
+   "region": "kanto",
+   "map": "SaffronGym",
+   "leader_actor": "sabrina",
+   "event_script": "data/events/gym_gate_kanto_gym_6_sabrina.json",
+   "gate": {
+    "checker": "PUWCampaignStitch.can_start_gym_battle",
+    "requirements_source": "data/gym_requirements.json#kanto_gym_6_sabrina",
+    "requirements": [
+     {
+      "type": "story_flag",
+      "flag": "saffron_access",
+      "set_by": "data/events/silph_co_liberation.json"
+     },
+     {
+      "type": "story_flag",
+      "flag": "silph_co_cleared",
+      "set_by": "data/events/silph_co_liberation.json"
+     }
+    ]
+   },
+   "battle_step": {
+    "op": "battle",
+    "entry": "gym",
+    "gym_ref": "kanto_gym_6_sabrina",
+    "use_campaign_gate": true,
+    "badge_count": "HOST_SUPPLIES_LIVE_GLOBAL_BADGE_COUNT"
+   },
+   "on_win": {
+    "caller": "PUWCampaignStitch.record_gym_win",
+    "args": [
+     "kanto_gym_6_sabrina"
+    ]
+   },
+   "on_refusal": "present the checker's unmet requirement descriptions; do not start the event script"
+  }
+ ]
+}

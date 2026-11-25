@@ -1,0 +1,130 @@
+{
+ "source": "pokered engine/events/card_key.asm + data/events/card_key_maps.asm; scripts/RocketHideoutElevator.asm; scripts/CinnabarIsland.asm + data/maps/headers/CinnabarIsland.asm; engine/battle/core.asm IsGhostBattle; engine/items/item_effects.asm ItemUsePokeFlute",
+ "gates": {
+  "card_key_doors": {
+   "requires": "CARD_KEY",
+   "maps": [
+    "SilphCo2F",
+    "SilphCo3F",
+    "SilphCo4F",
+    "SilphCo5F",
+    "SilphCo6F",
+    "SilphCo7F",
+    "SilphCo8F",
+    "SilphCo9F",
+    "SilphCo10F",
+    "SilphCo11F"
+   ],
+   "door_tile_ids": [
+    24,
+    36
+   ],
+   "door_tile_ids_by_map": {
+    "SilphCo11F": [
+     94
+    ]
+   },
+   "rule": "on a listed map, facing a door tile of a listed id: opens iff CARD_KEY is in the bag (card_key.asm PrintCardKeyText)"
+  },
+  "lift_key_elevator": {
+   "requires": "LIFT_KEY",
+   "map": "RocketHideoutElevator",
+   "floors": [
+    "RocketHideoutB1F",
+    "RocketHideoutB2F",
+    "RocketHideoutB4F"
+   ],
+   "rule": "interacting with the elevator panel runs the floor menu iff LIFT_KEY is in the bag (RocketHideoutElevatorText)"
+  },
+  "secret_key_gym_door": {
+   "requires": "SECRET_KEY",
+   "map": "CinnabarIsland",
+   "door_warp": {
+    "x": 36,
+    "y": 6,
+    "w": 2,
+    "h": 2,
+    "dest_map": "CINNABAR_GYM"
+   },
+   "trigger_tile": {
+    "x": 36,
+    "y": 8
+   },
+   "trigger_facing": "up",
+   "rule": "without SECRET_KEY the player stepping to the tile south of the gym door, facing it, is turned back with the locked-door text (CinnabarIslandDefaultScript checks source coords (18,4) = bound (36,8)); with the key the warp proceeds"
+  },
+  "silph_scope_ghost": {
+   "requires": "SILPH_SCOPE",
+   "maps": [
+    "PokemonTower1F",
+    "PokemonTower2F",
+    "PokemonTower3F",
+    "PokemonTower4F",
+    "PokemonTower5F",
+    "PokemonTower6F",
+    "PokemonTower7F"
+   ],
+   "rule": "in battle on Pokemon Tower 1F-7F, the enemy is an unidentified GHOST unless SILPH_SCOPE is in the bag (IsGhostBattle)"
+  },
+  "poke_flute_snorlax": {
+   "requires": "POKE_FLUTE",
+   "sites": [
+    {
+     "map": "Route12",
+     "snorlax_tile": {
+      "x": 20,
+      "y": 124
+     },
+     "flute_tiles": [
+      {
+       "x": 18,
+       "y": 124
+      },
+      {
+       "x": 20,
+       "y": 122
+      },
+      {
+       "x": 20,
+       "y": 126
+      },
+      {
+       "x": 22,
+       "y": 124
+      }
+     ],
+     "battle": {
+      "species": "SNORLAX",
+      "level": 30
+     },
+     "beat_event": "EVENT_BEAT_ROUTE12_SNORLAX",
+     "fight_event": "EVENT_FIGHT_ROUTE12_SNORLAX"
+    },
+    {
+     "map": "Route16",
+     "snorlax_tile": {
+      "x": 52,
+      "y": 20
+     },
+     "flute_tiles": [
+      {
+       "x": 54,
+       "y": 20
+      },
+      {
+       "x": 50,
+       "y": 20
+      }
+     ],
+     "battle": {
+      "species": "SNORLAX",
+      "level": 30
+     },
+     "beat_event": "EVENT_BEAT_ROUTE16_SNORLAX",
+     "fight_event": "EVENT_FIGHT_ROUTE16_SNORLAX"
+    }
+   ],
+   "rule": "bag-using POKE_FLUTE (never consumed) while standing on a flute tile of an unbeaten site sets the fight event and the Snorlax battle starts (ItemUsePokeFlute + Route12/Route16 scripts; coords are source step units x2)"
+  }
+ }
+}

@@ -1,0 +1,217 @@
+{
+ "gyms": [
+  {
+   "badge": "Boulder Badge",
+   "city": "Pewter City",
+   "gym_id": "kanto_gym_1_brock",
+   "leader": "Brock",
+   "region": "kanto",
+   "requirements": [],
+   "requirements_note": "No requirements beyond arrival: the source game enforces none for Pewter Gym."
+  },
+  {
+   "badge": "Cascade Badge",
+   "city": "Cerulean City",
+   "gym_id": "kanto_gym_2_misty",
+   "leader": "Misty",
+   "region": "kanto",
+   "requirements": [],
+   "requirements_note": "No requirements beyond arrival: the source game enforces none for Cerulean Gym. Mt. Moon is geography on the way, not a gate."
+  },
+  {
+   "badge": "Thunder Badge",
+   "city": "Vermilion City",
+   "gym_id": "kanto_gym_3_surge",
+   "leader": "Lt. Surge",
+   "region": "kanto",
+   "requirements": [
+    {
+     "description": "Complete the S.S. Anne chain (story flag ss_anne_cleared)",
+     "flag": "ss_anne_cleared",
+     "source_basis": "Gen 1 chain: the player boards the S.S. Anne in Vermilion City and finishes that story chain before the gym path opens. The flag name ss_anne_cleared is defined here because the campaign stitch has no S.S. Anne flag yet; the story flow that plays the S.S. Anne chain is responsible for setting story_flags[ss_anne_cleared] = true when the chain is completed.",
+     "type": "story_flag"
+    },
+    {
+     "description": "Hold HM01 (Cut), received from the S.S. Anne captain",
+     "item": "hm01",
+     "source_basis": "In the Gen 1 games the S.S. Anne captain gives the player HM01 (Cut); that HM is what makes the gym reachable.",
+     "type": "item"
+    },
+    {
+     "action": "cut",
+     "description": "Be able to use the Cut field action",
+     "source_basis": "In the Gen 1 games a cuttable tree blocks the path to Vermilion Gym, so Cut must be usable (field action id 'cut').",
+     "type": "field_action"
+    }
+   ]
+  },
+  {
+   "badge": "Rainbow Badge",
+   "city": "Celadon City",
+   "gym_id": "kanto_gym_4_erika",
+   "leader": "Erika",
+   "region": "kanto",
+   "requirements": [
+    {
+     "action": "cut",
+     "description": "Be able to use the Cut field action",
+     "source_basis": "In the Gen 1 games a cuttable tree stands at the entrance to Celadon Gym, so Cut must be usable (field action id 'cut').",
+     "type": "field_action"
+    }
+   ]
+  },
+  {
+   "badge": "Soul Badge",
+   "city": "Fuchsia City",
+   "gym_id": "kanto_gym_5_koga",
+   "leader": "Koga",
+   "region": "kanto",
+   "requirements": [],
+   "requirements_note": "No requirements beyond arrival: the source game enforces none for Fuchsia Gym. Access is geography only (Cycling Road / sea routes)."
+  },
+  {
+   "badge": "Marsh Badge",
+   "city": "Saffron City",
+   "gym_id": "kanto_gym_6_sabrina",
+   "leader": "Sabrina",
+   "region": "kanto",
+   "requirements": [
+    {
+     "description": "Gain access to Saffron City (story flag saffron_access)",
+     "flag": "saffron_access",
+     "source_basis": "City access is the source game's hard gate: the Saffron City guards block entry until the player gives them a drink, after which the city (and its gym) can be entered. The story flow sets story_flags[saffron_access] = true at that point.",
+     "type": "story_flag"
+    },
+    {
+     "description": "Lift the Team Rocket occupation of Silph Co. (story flag silph_co_cleared)",
+     "flag": "silph_co_cleared",
+     "source_basis": "Honest note: city access (saffron_access) is the source game's hard gate. The Silph Co. requirement is Riley's canon (2026-11-22) that Saffron's story prerequisites gate the gym: Sabrina's gym is not available while Team Rocket occupies Silph Co. The story flow sets story_flags[silph_co_cleared] = true when the occupation is lifted.",
+     "type": "story_flag"
+    }
+   ]
+  },
+  {
+   "badge": "Volcano Badge",
+   "city": "Cinnabar Island",
+   "gym_id": "kanto_gym_7_blaine",
+   "leader": "Blaine",
+   "region": "kanto",
+   "requirements": [
+    {
+     "description": "Hold the Secret Key from the Pokemon Mansion",
+     "item": "secret_key",
+     "source_basis": "In the Gen 1 games the Cinnabar Gym door is locked and only the Secret Key found in the Pokemon Mansion opens it. Encoded as an item requirement (the player must hold item id 'secret_key') because the gate is possession of the key itself, not a story beat.",
+     "type": "item"
+    }
+   ]
+  },
+  {
+   "badge": "Earth Badge",
+   "city": "Viridian City",
+   "gym_id": "kanto_gym_8_giovanni",
+   "leader": "Giovanni",
+   "region": "kanto",
+   "requirements": [
+    {
+     "count": 7,
+     "description": "Hold the other 7 Kanto badges (badges from other regions do not count)",
+     "region": "kanto",
+     "source_basis": "The source game keeps Viridian Gym locked until the other seven Kanto badges are earned. This is a region_badges requirement: only badges whose gym belongs to Kanto count, and foreign badges NEVER satisfy it (Riley canon, 2026-11-22 14:56 CST).",
+     "type": "region_badges"
+    }
+   ]
+  },
+  {
+   "badge": "Zephyr Badge",
+   "city": "Violet City",
+   "gym_id": "johto_gym_1_falkner",
+   "leader": "Falkner",
+   "region": "johto",
+   "requirements": [],
+   "requirements_note": "No requirements beyond arrival: the source game enforces none for Violet Gym. Sprout Tower is training geography on the way, not a gate."
+  },
+  {
+   "badge": "Hive Badge",
+   "city": "Azalea Town",
+   "gym_id": "johto_gym_2_bugsy",
+   "leader": "Bugsy",
+   "region": "johto",
+   "requirements": [],
+   "requirements_note": "No requirements beyond arrival: the source game enforces none for Azalea Gym. The Slowpoke Well Rocket event is town story, not a gym gate."
+  },
+  {
+   "badge": "Plain Badge",
+   "city": "Goldenrod City",
+   "gym_id": "johto_gym_3_whitney",
+   "leader": "Whitney",
+   "region": "johto",
+   "requirements": [],
+   "requirements_note": "No requirements beyond arrival: the source game enforces none for Goldenrod Gym."
+  },
+  {
+   "badge": "Fog Badge",
+   "city": "Ecruteak City",
+   "gym_id": "johto_gym_4_morty",
+   "leader": "Morty",
+   "region": "johto",
+   "requirements": [
+    {
+     "description": "Visit the Burned Tower and witness the legendary beasts flee (story flag burned_tower_visited)",
+     "flag": "burned_tower_visited",
+     "source_basis": "GSC chain: Morty waits at the Burned Tower until the beasts are released; only then does he return to Ecruteak Gym. The flag name burned_tower_visited is defined here because the campaign stitch has no Burned Tower flag yet; the story flow that plays the Burned Tower scene is responsible for setting it."
+    }
+   ],
+   "requirements_note": "One story requirement: the Burned Tower visit (see requirements)."
+  },
+  {
+   "badge": "Storm Badge",
+   "city": "Cianwood City",
+   "gym_id": "johto_gym_5_chuck",
+   "leader": "Chuck",
+   "region": "johto",
+   "requirements": [],
+   "requirements_note": "No requirements beyond arrival: the source game enforces none for Cianwood Gym. Surfing to Cianwood is geography, not a gate."
+  },
+  {
+   "badge": "Mineral Badge",
+   "city": "Olivine City",
+   "gym_id": "johto_gym_6_jasmine",
+   "leader": "Jasmine",
+   "region": "johto",
+   "requirements": [
+    {
+     "description": "Deliver the SecretPotion to Amphy at the top of the Lighthouse (story flag ampharos_medicine_delivered)",
+     "flag": "ampharos_medicine_delivered",
+     "source_basis": "GSC chain: Jasmine tends the sick Ampharos in the Olivine Lighthouse and will not return to her gym until the medicine from Cianwood's pharmacy is delivered. The flag name is defined here because the campaign stitch has no medicine flag yet; the story flow that plays the delivery is responsible for setting it."
+    }
+   ],
+   "requirements_note": "One story requirement: the medicine delivery (see requirements)."
+  },
+  {
+   "badge": "Glacier Badge",
+   "city": "Mahogany Town",
+   "gym_id": "johto_gym_7_pryce",
+   "leader": "Pryce",
+   "region": "johto",
+   "requirements": [
+    {
+     "description": "Clear Team Rocket's hideout beneath the Mahogany souvenir shop with Lance (story flag rocket_hq_cleared)",
+     "flag": "rocket_hq_cleared",
+     "source_basis": "GSC chain: Mahogany Gym stays sealed while the Rocket hideout operates; it opens after the hideout is cleared. The flag name rocket_hq_cleared is defined here by analogy to the Kanto records' silph_co_cleared; the story flow that plays the hideout chain is responsible for setting it."
+    }
+   ],
+   "requirements_note": "One story requirement: the Rocket hideout chain (see requirements)."
+  },
+  {
+   "badge": "Rising Badge",
+   "city": "Blackthorn City",
+   "gym_id": "johto_gym_8_clair",
+   "leader": "Clair",
+   "region": "johto",
+   "requirements": [],
+   "requirements_note": "No requirements beyond arrival for the gym battle itself. Canon note: in the source game the Rising Badge is handed over only after the Dragon's Den elder's quiz \u2014 that gates the badge award, not gym access, and belongs to the story flow, not this availability record."
+  }
+ ],
+ "note": "Gym AVAILABILITY axis (Riley canon, 2026-11-22 14:56 CST): availability is regional and requirement-based, and is never waived by progress in other regions. This file is separate from the POWER axis (gym levels and obedience caps scale on the player's GLOBAL badge count; see EXPSystem.level_cap_for_badges). One record per gym, keyed by the same gym ids PUWCampaignStitch uses (from systems/progression/trainer_6mon_rosters.json). The schema is region-extensible: every record carries its own 'region', and the checker (systems/progression/gym_requirements.gd) hardcodes no region. Requirement types: story_flag (a campaign story flag id that must be true), item (an item id the player must hold), field_action (a field action id that must be usable), region_badges ({region, count} -- counts ONLY badges whose gym belongs to that region; foreign badges never satisfy it). Every requirement carries a human-readable 'description' and a 'source_basis' note.",
+ "schema": "puw_gym_requirements_v1"
+}

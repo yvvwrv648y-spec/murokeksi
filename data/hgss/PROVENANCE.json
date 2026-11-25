@@ -1,0 +1,28 @@
+{
+ "title": "HGSS data layer \u2014 PKHeX registry tables bound under their own version provenance",
+ "bound_by": "binding build 3 (Johto prep step 7)",
+ "source": "PKHeX registry staged at hidden_files/data_registry/src/pkhex (Riley-approved data-only parsing, 2026-11-23); per-version separation kept \u2014 these are HeartGold/SoulSilver tables, never blended with the Crystal base layer (data/johto/) or any other version.",
+ "note": "Binary registry resources in their native form (data only; PKHeX code is never built or run). personal_hgss = HGSS personal table; encounter_hg/encounter_ss = HGSS wild encounter tables kept as separate per-version files; encounter_walker4 = Pokewalker encounter data (exists only for HGSS; binds as data with no walker UI).",
+ "files": [
+  {
+   "file": "data/hgss/personal_hgss",
+   "bytes": 22352,
+   "sha256": "f7040b193e96869d8d7f15f66e25a854f27b184f828e4fdd093f387df2395f30"
+  },
+  {
+   "file": "data/hgss/encounter_hg.pkl",
+   "bytes": 80324,
+   "sha256": "1438e31625d87fd378b6656c44c30199a1386a571f0906c9ec2c91a269762a8b"
+  },
+  {
+   "file": "data/hgss/encounter_ss.pkl",
+   "bytes": 79932,
+   "sha256": "96b0ef501e40ae435bf65ee66ed77fda3b0de0cd6e890aa447a0b083c8939afa"
+  },
+  {
+   "file": "data/hgss/encounter_walker4.pkl",
+   "bytes": 1944,
+   "sha256": "efb98c2d1634aad5cc478c097daa890fad6bb2a6fa53218bdcb2639886f0c30a"
+  }
+ ]
+}

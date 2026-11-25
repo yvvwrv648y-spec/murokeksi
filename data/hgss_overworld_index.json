@@ -1,0 +1,515 @@
+{
+ "title": "HGSS overworld index (Veekun pack) - extraction integration build, 2026-11-23",
+ "source_id": "hgss-veekun",
+ "provenance": "Overworld sprites ripped from Pokemon HeartGold / SoulSilver (c) Nintendo / Game Freak / Creatures Inc.; archive by veekun (veekun.com).",
+ "counts": {
+  "rows": 7
+ },
+ "form_variants_inventoried_not_bound": "71 form-variant file sets exist in the pack (suffix-named, e.g. 201-a..201-z for Unown); suffix semantics are not documented in the pack, so no form row was bound from them - recorded honestly, not guessed.",
+ "rows": [
+  {
+   "showdown_id": "beedrill",
+   "name": "Beedrill",
+   "dex_id": 15,
+   "is_form": false,
+   "family": "PKDX",
+   "source_id": "hgss-veekun",
+   "source": "Veekun overworld pack - overworld sprites ripped from Pokemon HeartGold / SoulSilver (c) Nintendo / Game Freak / Creatures Inc.; archive by veekun (veekun.com). Used under the Solid Rule (Riley, 2026-11-23); provenance recorded.",
+   "format": "local files, 32x32, 4 directions x 2 frames (real walk cycle, pixel-difference verified)",
+   "frames": {
+    "down": {
+     "frames": [
+      "art/overworld_hgss/beedrill/down_1.png",
+      "art/overworld_hgss/beedrill/down_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/beedrill/down_shiny_1.png",
+      "art/overworld_hgss/beedrill/down_shiny_2.png"
+     ]
+    },
+    "left": {
+     "frames": [
+      "art/overworld_hgss/beedrill/left_1.png",
+      "art/overworld_hgss/beedrill/left_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/beedrill/left_shiny_1.png",
+      "art/overworld_hgss/beedrill/left_shiny_2.png"
+     ]
+    },
+    "right": {
+     "frames": [
+      "art/overworld_hgss/beedrill/right_1.png",
+      "art/overworld_hgss/beedrill/right_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/beedrill/right_shiny_1.png",
+      "art/overworld_hgss/beedrill/right_shiny_2.png"
+     ]
+    },
+    "up": {
+     "frames": [
+      "art/overworld_hgss/beedrill/up_1.png",
+      "art/overworld_hgss/beedrill/up_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/beedrill/up_shiny_1.png",
+      "art/overworld_hgss/beedrill/up_shiny_2.png"
+     ]
+    }
+   },
+   "sprite_slug": "beedrill",
+   "sprites": [
+    {
+     "source": "hgss-veekun",
+     "pattern": "follower_walk",
+     "context": "follower",
+     "usage": "follower",
+     "anim": "Walk",
+     "url": "res://art/overworld_hgss/beedrill/down_1.png",
+     "animated": true,
+     "verified_local_file": true,
+     "shiny": false,
+     "view": "overworld"
+    }
+   ],
+   "verified_anims": [
+    "Walk"
+   ],
+   "anim_data_url": "",
+   "partial": false
+  },
+  {
+   "showdown_id": "hitmonchan",
+   "name": "Hitmonchan",
+   "dex_id": 107,
+   "is_form": false,
+   "family": "PKDX",
+   "source_id": "hgss-veekun",
+   "source": "Veekun overworld pack - overworld sprites ripped from Pokemon HeartGold / SoulSilver (c) Nintendo / Game Freak / Creatures Inc.; archive by veekun (veekun.com). Used under the Solid Rule (Riley, 2026-11-23); provenance recorded.",
+   "format": "local files, 32x32, 4 directions x 2 frames (real walk cycle, pixel-difference verified)",
+   "frames": {
+    "down": {
+     "frames": [
+      "art/overworld_hgss/hitmonchan/down_1.png",
+      "art/overworld_hgss/hitmonchan/down_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/hitmonchan/down_shiny_1.png",
+      "art/overworld_hgss/hitmonchan/down_shiny_2.png"
+     ]
+    },
+    "left": {
+     "frames": [
+      "art/overworld_hgss/hitmonchan/left_1.png",
+      "art/overworld_hgss/hitmonchan/left_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/hitmonchan/left_shiny_1.png",
+      "art/overworld_hgss/hitmonchan/left_shiny_2.png"
+     ]
+    },
+    "right": {
+     "frames": [
+      "art/overworld_hgss/hitmonchan/right_1.png",
+      "art/overworld_hgss/hitmonchan/right_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/hitmonchan/right_shiny_1.png",
+      "art/overworld_hgss/hitmonchan/right_shiny_2.png"
+     ]
+    },
+    "up": {
+     "frames": [
+      "art/overworld_hgss/hitmonchan/up_1.png",
+      "art/overworld_hgss/hitmonchan/up_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/hitmonchan/up_shiny_1.png",
+      "art/overworld_hgss/hitmonchan/up_shiny_2.png"
+     ]
+    }
+   },
+   "sprite_slug": "hitmonchan",
+   "sprites": [
+    {
+     "source": "hgss-veekun",
+     "pattern": "follower_walk",
+     "context": "follower",
+     "usage": "follower",
+     "anim": "Walk",
+     "url": "res://art/overworld_hgss/hitmonchan/down_1.png",
+     "animated": true,
+     "verified_local_file": true,
+     "shiny": false,
+     "view": "overworld"
+    }
+   ],
+   "verified_anims": [
+    "Walk"
+   ],
+   "anim_data_url": "",
+   "partial": false
+  },
+  {
+   "showdown_id": "dragonair",
+   "name": "Dragonair",
+   "dex_id": 148,
+   "is_form": false,
+   "family": "PKDX",
+   "source_id": "hgss-veekun",
+   "source": "Veekun overworld pack - overworld sprites ripped from Pokemon HeartGold / SoulSilver (c) Nintendo / Game Freak / Creatures Inc.; archive by veekun (veekun.com). Used under the Solid Rule (Riley, 2026-11-23); provenance recorded.",
+   "format": "local files, 32x32, 4 directions x 2 frames (real walk cycle, pixel-difference verified)",
+   "frames": {
+    "down": {
+     "frames": [
+      "art/overworld_hgss/dragonair/down_1.png",
+      "art/overworld_hgss/dragonair/down_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/dragonair/down_shiny_1.png",
+      "art/overworld_hgss/dragonair/down_shiny_2.png"
+     ]
+    },
+    "left": {
+     "frames": [
+      "art/overworld_hgss/dragonair/left_1.png",
+      "art/overworld_hgss/dragonair/left_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/dragonair/left_shiny_1.png",
+      "art/overworld_hgss/dragonair/left_shiny_2.png"
+     ]
+    },
+    "right": {
+     "frames": [
+      "art/overworld_hgss/dragonair/right_1.png",
+      "art/overworld_hgss/dragonair/right_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/dragonair/right_shiny_1.png",
+      "art/overworld_hgss/dragonair/right_shiny_2.png"
+     ]
+    },
+    "up": {
+     "frames": [
+      "art/overworld_hgss/dragonair/up_1.png",
+      "art/overworld_hgss/dragonair/up_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/dragonair/up_shiny_1.png",
+      "art/overworld_hgss/dragonair/up_shiny_2.png"
+     ]
+    }
+   },
+   "sprite_slug": "dragonair",
+   "sprites": [
+    {
+     "source": "hgss-veekun",
+     "pattern": "follower_walk",
+     "context": "follower",
+     "usage": "follower",
+     "anim": "Walk",
+     "url": "res://art/overworld_hgss/dragonair/down_1.png",
+     "animated": true,
+     "verified_local_file": true,
+     "shiny": false,
+     "view": "overworld"
+    }
+   ],
+   "verified_anims": [
+    "Walk"
+   ],
+   "anim_data_url": "",
+   "partial": false
+  },
+  {
+   "showdown_id": "silcoon",
+   "name": "Silcoon",
+   "dex_id": 266,
+   "is_form": false,
+   "family": "PKDX",
+   "source_id": "hgss-veekun",
+   "source": "Veekun overworld pack - overworld sprites ripped from Pokemon HeartGold / SoulSilver (c) Nintendo / Game Freak / Creatures Inc.; archive by veekun (veekun.com). Used under the Solid Rule (Riley, 2026-11-23); provenance recorded.",
+   "format": "local files, 32x32, 4 directions x 2 frames (real walk cycle, pixel-difference verified)",
+   "frames": {
+    "down": {
+     "frames": [
+      "art/overworld_hgss/silcoon/down_1.png",
+      "art/overworld_hgss/silcoon/down_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/silcoon/down_shiny_1.png",
+      "art/overworld_hgss/silcoon/down_shiny_2.png"
+     ]
+    },
+    "left": {
+     "frames": [
+      "art/overworld_hgss/silcoon/left_1.png",
+      "art/overworld_hgss/silcoon/left_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/silcoon/left_shiny_1.png",
+      "art/overworld_hgss/silcoon/left_shiny_2.png"
+     ]
+    },
+    "right": {
+     "frames": [
+      "art/overworld_hgss/silcoon/right_1.png",
+      "art/overworld_hgss/silcoon/right_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/silcoon/right_shiny_1.png",
+      "art/overworld_hgss/silcoon/right_shiny_2.png"
+     ]
+    },
+    "up": {
+     "frames": [
+      "art/overworld_hgss/silcoon/up_1.png",
+      "art/overworld_hgss/silcoon/up_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/silcoon/up_shiny_1.png",
+      "art/overworld_hgss/silcoon/up_shiny_2.png"
+     ]
+    }
+   },
+   "sprite_slug": "silcoon",
+   "sprites": [
+    {
+     "source": "hgss-veekun",
+     "pattern": "follower_walk",
+     "context": "follower",
+     "usage": "follower",
+     "anim": "Walk",
+     "url": "res://art/overworld_hgss/silcoon/down_1.png",
+     "animated": true,
+     "verified_local_file": true,
+     "shiny": false,
+     "view": "overworld"
+    }
+   ],
+   "verified_anims": [
+    "Walk"
+   ],
+   "anim_data_url": "",
+   "partial": false
+  },
+  {
+   "showdown_id": "cascoon",
+   "name": "Cascoon",
+   "dex_id": 268,
+   "is_form": false,
+   "family": "PKDX",
+   "source_id": "hgss-veekun",
+   "source": "Veekun overworld pack - overworld sprites ripped from Pokemon HeartGold / SoulSilver (c) Nintendo / Game Freak / Creatures Inc.; archive by veekun (veekun.com). Used under the Solid Rule (Riley, 2026-11-23); provenance recorded.",
+   "format": "local files, 32x32, 4 directions x 2 frames (real walk cycle, pixel-difference verified)",
+   "frames": {
+    "down": {
+     "frames": [
+      "art/overworld_hgss/cascoon/down_1.png",
+      "art/overworld_hgss/cascoon/down_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/cascoon/down_shiny_1.png",
+      "art/overworld_hgss/cascoon/down_shiny_2.png"
+     ]
+    },
+    "left": {
+     "frames": [
+      "art/overworld_hgss/cascoon/left_1.png",
+      "art/overworld_hgss/cascoon/left_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/cascoon/left_shiny_1.png",
+      "art/overworld_hgss/cascoon/left_shiny_2.png"
+     ]
+    },
+    "right": {
+     "frames": [
+      "art/overworld_hgss/cascoon/right_1.png",
+      "art/overworld_hgss/cascoon/right_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/cascoon/right_shiny_1.png",
+      "art/overworld_hgss/cascoon/right_shiny_2.png"
+     ]
+    },
+    "up": {
+     "frames": [
+      "art/overworld_hgss/cascoon/up_1.png",
+      "art/overworld_hgss/cascoon/up_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/cascoon/up_shiny_1.png",
+      "art/overworld_hgss/cascoon/up_shiny_2.png"
+     ]
+    }
+   },
+   "sprite_slug": "cascoon",
+   "sprites": [
+    {
+     "source": "hgss-veekun",
+     "pattern": "follower_walk",
+     "context": "follower",
+     "usage": "follower",
+     "anim": "Walk",
+     "url": "res://art/overworld_hgss/cascoon/down_1.png",
+     "animated": true,
+     "verified_local_file": true,
+     "shiny": false,
+     "view": "overworld"
+    }
+   ],
+   "verified_anims": [
+    "Walk"
+   ],
+   "anim_data_url": "",
+   "partial": false
+  },
+  {
+   "showdown_id": "lileep",
+   "name": "Lileep",
+   "dex_id": 345,
+   "is_form": false,
+   "family": "PKDX",
+   "source_id": "hgss-veekun",
+   "source": "Veekun overworld pack - overworld sprites ripped from Pokemon HeartGold / SoulSilver (c) Nintendo / Game Freak / Creatures Inc.; archive by veekun (veekun.com). Used under the Solid Rule (Riley, 2026-11-23); provenance recorded.",
+   "format": "local files, 32x32, 4 directions x 2 frames (real walk cycle, pixel-difference verified)",
+   "frames": {
+    "down": {
+     "frames": [
+      "art/overworld_hgss/lileep/down_1.png",
+      "art/overworld_hgss/lileep/down_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/lileep/down_shiny_1.png",
+      "art/overworld_hgss/lileep/down_shiny_2.png"
+     ]
+    },
+    "left": {
+     "frames": [
+      "art/overworld_hgss/lileep/left_1.png",
+      "art/overworld_hgss/lileep/left_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/lileep/left_shiny_1.png",
+      "art/overworld_hgss/lileep/left_shiny_2.png"
+     ]
+    },
+    "right": {
+     "frames": [
+      "art/overworld_hgss/lileep/right_1.png",
+      "art/overworld_hgss/lileep/right_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/lileep/right_shiny_1.png",
+      "art/overworld_hgss/lileep/right_shiny_2.png"
+     ]
+    },
+    "up": {
+     "frames": [
+      "art/overworld_hgss/lileep/up_1.png",
+      "art/overworld_hgss/lileep/up_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/lileep/up_shiny_1.png",
+      "art/overworld_hgss/lileep/up_shiny_2.png"
+     ]
+    }
+   },
+   "sprite_slug": "lileep",
+   "sprites": [
+    {
+     "source": "hgss-veekun",
+     "pattern": "follower_walk",
+     "context": "follower",
+     "usage": "follower",
+     "anim": "Walk",
+     "url": "res://art/overworld_hgss/lileep/down_1.png",
+     "animated": true,
+     "verified_local_file": true,
+     "shiny": false,
+     "view": "overworld"
+    }
+   ],
+   "verified_anims": [
+    "Walk"
+   ],
+   "anim_data_url": "",
+   "partial": false
+  },
+  {
+   "showdown_id": "mothim",
+   "name": "Mothim",
+   "dex_id": 414,
+   "is_form": false,
+   "family": "PKDX",
+   "source_id": "hgss-veekun",
+   "source": "Veekun overworld pack - overworld sprites ripped from Pokemon HeartGold / SoulSilver (c) Nintendo / Game Freak / Creatures Inc.; archive by veekun (veekun.com). Used under the Solid Rule (Riley, 2026-11-23); provenance recorded.",
+   "format": "local files, 32x32, 4 directions x 2 frames (real walk cycle, pixel-difference verified)",
+   "frames": {
+    "down": {
+     "frames": [
+      "art/overworld_hgss/mothim/down_1.png",
+      "art/overworld_hgss/mothim/down_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/mothim/down_shiny_1.png",
+      "art/overworld_hgss/mothim/down_shiny_2.png"
+     ]
+    },
+    "left": {
+     "frames": [
+      "art/overworld_hgss/mothim/left_1.png",
+      "art/overworld_hgss/mothim/left_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/mothim/left_shiny_1.png",
+      "art/overworld_hgss/mothim/left_shiny_2.png"
+     ]
+    },
+    "right": {
+     "frames": [
+      "art/overworld_hgss/mothim/right_1.png",
+      "art/overworld_hgss/mothim/right_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/mothim/right_shiny_1.png",
+      "art/overworld_hgss/mothim/right_shiny_2.png"
+     ]
+    },
+    "up": {
+     "frames": [
+      "art/overworld_hgss/mothim/up_1.png",
+      "art/overworld_hgss/mothim/up_2.png"
+     ],
+     "shiny_frames": [
+      "art/overworld_hgss/mothim/up_shiny_1.png",
+      "art/overworld_hgss/mothim/up_shiny_2.png"
+     ]
+    }
+   },
+   "sprite_slug": "mothim",
+   "sprites": [
+    {
+     "source": "hgss-veekun",
+     "pattern": "follower_walk",
+     "context": "follower",
+     "usage": "follower",
+     "anim": "Walk",
+     "url": "res://art/overworld_hgss/mothim/down_1.png",
+     "animated": true,
+     "verified_local_file": true,
+     "shiny": false,
+     "view": "overworld"
+    }
+   ],
+   "verified_anims": [
+    "Walk"
+   ],
+   "anim_data_url": "",
+   "partial": false
+  }
+ ]
+}

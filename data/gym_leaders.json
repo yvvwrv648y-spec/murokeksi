@@ -1,0 +1,246 @@
+[
+  {
+    "class": "BROCK",
+    "name": "BROCK",
+    "badge": "BOULDERBADGE",
+    "badge_source": "data/maps/badge_maps.asm (MapBadgeFlags) and constants/item_constants.asm (BOULDERBADGE, CASCADEBADGE, THUNDERBADGE, RAINBOWBADGE, SOULBADGE, MARSHBADGE, VOLCANOBADGE, EARTHBADGE); display names in data/items/names.asm",
+    "map": "PewterGym",
+    "party_index": 1,
+    "note": null,
+    "party": [
+      {
+        "level": 12,
+        "species": "GEODUDE"
+      },
+      {
+        "level": 14,
+        "species": "ONIX"
+      }
+    ],
+    "extra_move": {
+      "pokemon_index": 1,
+      "move": "BIDE",
+      "lone_moves_index": 1,
+      "source": "data/trainers/special_moves.asm LoneMoves; index selected by wGymLeaderNo (=wLoneAttackNo, ram/wram.asm) in scripts for this gym"
+    }
+  },
+  {
+    "class": "MISTY",
+    "name": "MISTY",
+    "badge": "CASCADEBADGE",
+    "badge_source": "data/maps/badge_maps.asm (MapBadgeFlags) and constants/item_constants.asm (BOULDERBADGE, CASCADEBADGE, THUNDERBADGE, RAINBOWBADGE, SOULBADGE, MARSHBADGE, VOLCANOBADGE, EARTHBADGE); display names in data/items/names.asm",
+    "map": "CeruleanGym",
+    "party_index": 1,
+    "note": null,
+    "party": [
+      {
+        "level": 18,
+        "species": "STARYU"
+      },
+      {
+        "level": 21,
+        "species": "STARMIE"
+      }
+    ],
+    "extra_move": {
+      "pokemon_index": 1,
+      "move": "BUBBLEBEAM",
+      "lone_moves_index": 2,
+      "source": "data/trainers/special_moves.asm LoneMoves; index selected by wGymLeaderNo (=wLoneAttackNo, ram/wram.asm) in scripts for this gym"
+    }
+  },
+  {
+    "class": "LT_SURGE",
+    "name": "LT.SURGE",
+    "badge": "THUNDERBADGE",
+    "badge_source": "data/maps/badge_maps.asm (MapBadgeFlags) and constants/item_constants.asm (BOULDERBADGE, CASCADEBADGE, THUNDERBADGE, RAINBOWBADGE, SOULBADGE, MARSHBADGE, VOLCANOBADGE, EARTHBADGE); display names in data/items/names.asm",
+    "map": "VermilionGym",
+    "party_index": 1,
+    "note": null,
+    "party": [
+      {
+        "level": 21,
+        "species": "VOLTORB"
+      },
+      {
+        "level": 18,
+        "species": "PIKACHU"
+      },
+      {
+        "level": 24,
+        "species": "RAICHU"
+      }
+    ],
+    "extra_move": {
+      "pokemon_index": 2,
+      "move": "THUNDERBOLT",
+      "lone_moves_index": 3,
+      "source": "data/trainers/special_moves.asm LoneMoves; index selected by wGymLeaderNo (=wLoneAttackNo, ram/wram.asm) in scripts for this gym"
+    }
+  },
+  {
+    "class": "ERIKA",
+    "name": "ERIKA",
+    "badge": "RAINBOWBADGE",
+    "badge_source": "data/maps/badge_maps.asm (MapBadgeFlags) and constants/item_constants.asm (BOULDERBADGE, CASCADEBADGE, THUNDERBADGE, RAINBOWBADGE, SOULBADGE, MARSHBADGE, VOLCANOBADGE, EARTHBADGE); display names in data/items/names.asm",
+    "map": "CeladonGym",
+    "party_index": 1,
+    "note": null,
+    "party": [
+      {
+        "level": 29,
+        "species": "VICTREEBEL"
+      },
+      {
+        "level": 24,
+        "species": "TANGELA"
+      },
+      {
+        "level": 29,
+        "species": "VILEPLUME"
+      }
+    ],
+    "extra_move": {
+      "pokemon_index": 2,
+      "move": "MEGA_DRAIN",
+      "lone_moves_index": 4,
+      "source": "data/trainers/special_moves.asm LoneMoves; index selected by wGymLeaderNo (=wLoneAttackNo, ram/wram.asm) in scripts for this gym"
+    }
+  },
+  {
+    "class": "KOGA",
+    "name": "KOGA",
+    "badge": "SOULBADGE",
+    "badge_source": "data/maps/badge_maps.asm (MapBadgeFlags) and constants/item_constants.asm (BOULDERBADGE, CASCADEBADGE, THUNDERBADGE, RAINBOWBADGE, SOULBADGE, MARSHBADGE, VOLCANOBADGE, EARTHBADGE); display names in data/items/names.asm",
+    "map": "FuchsiaGym",
+    "party_index": 1,
+    "note": null,
+    "party": [
+      {
+        "level": 37,
+        "species": "KOFFING"
+      },
+      {
+        "level": 39,
+        "species": "MUK"
+      },
+      {
+        "level": 37,
+        "species": "KOFFING"
+      },
+      {
+        "level": 43,
+        "species": "WEEZING"
+      }
+    ],
+    "extra_move": {
+      "pokemon_index": 3,
+      "move": "TOXIC",
+      "lone_moves_index": 5,
+      "source": "data/trainers/special_moves.asm LoneMoves; index selected by wGymLeaderNo (=wLoneAttackNo, ram/wram.asm) in scripts for this gym"
+    }
+  },
+  {
+    "class": "SABRINA",
+    "name": "SABRINA",
+    "badge": "MARSHBADGE",
+    "badge_source": "data/maps/badge_maps.asm (MapBadgeFlags) and constants/item_constants.asm (BOULDERBADGE, CASCADEBADGE, THUNDERBADGE, RAINBOWBADGE, SOULBADGE, MARSHBADGE, VOLCANOBADGE, EARTHBADGE); display names in data/items/names.asm",
+    "map": "SaffronGym",
+    "party_index": 1,
+    "note": null,
+    "party": [
+      {
+        "level": 38,
+        "species": "KADABRA"
+      },
+      {
+        "level": 37,
+        "species": "MR_MIME"
+      },
+      {
+        "level": 38,
+        "species": "VENOMOTH"
+      },
+      {
+        "level": 43,
+        "species": "ALAKAZAM"
+      }
+    ],
+    "extra_move": {
+      "pokemon_index": 3,
+      "move": "PSYWAVE",
+      "lone_moves_index": 6,
+      "source": "data/trainers/special_moves.asm LoneMoves; index selected by wGymLeaderNo (=wLoneAttackNo, ram/wram.asm) in scripts for this gym"
+    }
+  },
+  {
+    "class": "BLAINE",
+    "name": "BLAINE",
+    "badge": "VOLCANOBADGE",
+    "badge_source": "data/maps/badge_maps.asm (MapBadgeFlags) and constants/item_constants.asm (BOULDERBADGE, CASCADEBADGE, THUNDERBADGE, RAINBOWBADGE, SOULBADGE, MARSHBADGE, VOLCANOBADGE, EARTHBADGE); display names in data/items/names.asm",
+    "map": "CinnabarGym",
+    "party_index": 1,
+    "note": null,
+    "party": [
+      {
+        "level": 42,
+        "species": "GROWLITHE"
+      },
+      {
+        "level": 40,
+        "species": "PONYTA"
+      },
+      {
+        "level": 42,
+        "species": "RAPIDASH"
+      },
+      {
+        "level": 47,
+        "species": "ARCANINE"
+      }
+    ],
+    "extra_move": {
+      "pokemon_index": 3,
+      "move": "FIRE_BLAST",
+      "lone_moves_index": 7,
+      "source": "data/trainers/special_moves.asm LoneMoves; index selected by wGymLeaderNo (=wLoneAttackNo, ram/wram.asm) in scripts for this gym"
+    }
+  },
+  {
+    "class": "GIOVANNI",
+    "name": "GIOVANNI",
+    "badge": "EARTHBADGE",
+    "badge_source": "data/maps/badge_maps.asm (MapBadgeFlags) and constants/item_constants.asm (BOULDERBADGE, CASCADEBADGE, THUNDERBADGE, RAINBOWBADGE, SOULBADGE, MARSHBADGE, VOLCANOBADGE, EARTHBADGE); display names in data/items/names.asm",
+    "map": "ViridianGym",
+    "party_index": 3,
+    "note": "Viridian Gym",
+    "party": [
+      {
+        "level": 45,
+        "species": "RHYHORN"
+      },
+      {
+        "level": 42,
+        "species": "DUGTRIO"
+      },
+      {
+        "level": 44,
+        "species": "NIDOQUEEN"
+      },
+      {
+        "level": 45,
+        "species": "NIDOKING"
+      },
+      {
+        "level": 50,
+        "species": "RHYDON"
+      }
+    ],
+    "extra_move": {
+      "pokemon_index": 4,
+      "move": "FISSURE",
+      "lone_moves_index": 8,
+      "source": "data/trainers/special_moves.asm LoneMoves; index selected by wGymLeaderNo (=wLoneAttackNo, ram/wram.asm) in scripts for this gym"
+    }
+  }
+]

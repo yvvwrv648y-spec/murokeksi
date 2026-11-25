@@ -1,0 +1,35 @@
+{
+ "source": "pokered constants/item_constants.asm (Gen-1 spellings) vs bound registry ids",
+ "entries": [
+  {
+   "source_const": "ELIXER",
+   "canonical": "elixir",
+   "registry_merge_key": "gen1:ELIXER",
+   "evidence": "pokered item_effects.asm: ItemUsePPRestore ; ELIXER"
+  },
+  {
+   "source_const": "MAX_ELIXER",
+   "canonical": "max-elixir",
+   "registry_merge_key": "gen1:MAX_ELIXER",
+   "evidence": "pokered item_effects.asm: ItemUsePPRestore ; MAX_ELIXER"
+  },
+  {
+   "source_const": "PARLYZ_HEAL",
+   "canonical": "paralyze-heal",
+   "registry_merge_key": "gen1:PARLYZ_HEAL",
+   "evidence": "pokered data/items/prices.asm: bcd3 200 ; PARLYZ_HEAL = registry paralyze-heal cost 200"
+  },
+  {
+   "source_const": "X_DEFEND",
+   "canonical": "x-defense",
+   "registry_merge_key": "gen1:X_DEFEND",
+   "evidence": "pokefirered src/data/items.json ITEM_X_DEFEND: name X DEFEND, price 550 = pokered X_DEFEND price, desc 'Raises the DEFENSE stat'"
+  },
+  {
+   "source_const": "X_SPECIAL",
+   "canonical": "x-sp-atk",
+   "registry_merge_key": "gen1:X_SPECIAL",
+   "evidence": "pokefirered src/data/items.json ITEM_X_SPECIAL: name X SPECIAL, price 350 = pokered X_SPECIAL price, desc 'Raises the SP. ATK stat'"
+  }
+ ]
+}
