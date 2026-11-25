@@ -1,0 +1,221 @@
+{
+ "provenance": "Documentation-derived transcription (rotation 7 precedent, cf. rotation 6): Bulbapedia pages read as page text 2026-11-23/24, transcribed into in-house JSON. NOT game data / NOT ROM extraction.",
+ "source_pages": [
+  "Bulbapedia 'Styler Status' (Styler Modification + Ranger Points tables)",
+  "Serebii Ranger 3 Capture Styler page (stat vocabulary cross-check)"
+ ],
+ "region": "oblivia",
+ "styler_stats_vocabulary": [
+  "Styler Energy",
+  "Styler Power",
+  "Line (level-denoted length)",
+  "Damage Reduction (percentage)",
+  "Charge Speed (seconds)",
+  "Recovery Energy",
+  "Latent Power (percentage at low energy)"
+ ],
+ "modifications": [
+  {
+   "modification": "Energy Plus",
+   "description": "Styler maximum energy increases",
+   "levels": [
+    {
+     "level": 1,
+     "ranger_points": 30
+    },
+    {
+     "level": 2,
+     "ranger_points": 30
+    },
+    {
+     "level": 3,
+     "ranger_points": 30
+    },
+    {
+     "level": 4,
+     "ranger_points": 30
+    },
+    {
+     "level": 5,
+     "ranger_points": 30
+    },
+    {
+     "level": 6,
+     "ranger_points": 30
+    },
+    {
+     "level": 7,
+     "ranger_points": 30
+    },
+    {
+     "level": 8,
+     "ranger_points": 40
+    },
+    {
+     "level": 9,
+     "ranger_points": 40
+    },
+    {
+     "level": 10,
+     "ranger_points": 50
+    }
+   ]
+  },
+  {
+   "modification": "Power Plus",
+   "description": "Styler power increases",
+   "levels": [
+    {
+     "level": 1,
+     "ranger_points": 30
+    },
+    {
+     "level": 2,
+     "ranger_points": 30
+    },
+    {
+     "level": 3,
+     "ranger_points": 30
+    },
+    {
+     "level": 4,
+     "ranger_points": 30
+    },
+    {
+     "level": 5,
+     "ranger_points": 30
+    },
+    {
+     "level": 6,
+     "ranger_points": 30
+    },
+    {
+     "level": 7,
+     "ranger_points": 30
+    },
+    {
+     "level": 8,
+     "ranger_points": 40
+    },
+    {
+     "level": 9,
+     "ranger_points": 40
+    },
+    {
+     "level": 10,
+     "ranger_points": 50
+    }
+   ]
+  },
+  {
+   "modification": "Line Plus",
+   "description": "Line becomes longer",
+   "levels": [
+    {
+     "level": 1,
+     "ranger_points": 50
+    },
+    {
+     "level": 2,
+     "ranger_points": 100
+    },
+    {
+     "level": 3,
+     "ranger_points": 150
+    },
+    {
+     "level": 4,
+     "ranger_points": 200
+    }
+   ]
+  },
+  {
+   "modification": "Defense Plus",
+   "description": "Damage is reduced",
+   "levels": [
+    {
+     "level": 1,
+     "ranger_points": 80
+    },
+    {
+     "level": 2,
+     "ranger_points": 160
+    },
+    {
+     "level": 3,
+     "ranger_points": 250
+    }
+   ]
+  },
+  {
+   "modification": "Charge Plus",
+   "description": "Power Charge becomes faster",
+   "levels": [
+    {
+     "level": 1,
+     "ranger_points": 80
+    },
+    {
+     "level": 2,
+     "ranger_points": 150
+    }
+   ]
+  },
+  {
+   "modification": "Recovery Plus",
+   "description": "Recovers energy with a capture",
+   "levels": [
+    {
+     "level": 1,
+     "ranger_points": 50
+    },
+    {
+     "level": 2,
+     "ranger_points": 50
+    }
+   ]
+  },
+  {
+   "modification": "Latent Power Plus",
+   "description": "Power increases when energy is low",
+   "levels": [
+    {
+     "level": 1,
+     "ranger_points": 50
+    },
+    {
+     "level": 2,
+     "ranger_points": 50
+    }
+   ]
+  }
+ ],
+ "total_ranger_points_to_max_all_modifications": 2100,
+ "ranger_points_economy": {
+  "sources": [
+   {
+    "event": "Mission Clear",
+    "frequency": 16,
+    "points_each": 50,
+    "total": 800,
+    "note": "Once only per mission"
+   },
+   {
+    "event": "Quest Clear",
+    "frequency": 52,
+    "points_each": "10-50",
+    "total": 1000,
+    "note": "Once only per quest"
+   },
+   {
+    "event": "S-Rank Capture",
+    "frequency": 301,
+    "points_each": 1,
+    "total": 301,
+    "note": "Only once for each Pokemon species; first S-Rank capture of that species"
+   }
+  ],
+  "total_available": 2101,
+  "note": "Total available (2,101) vs total modification cost computed from the landed table. S-Rank award is 1 point per species, NOT a large grade payout."
+ }
+}

@@ -1,0 +1,232 @@
+{
+ "title": "Pok\u00e9Mount ride art index - consolidation build, 2026-11-23",
+ "source_id": "pokemount-ulithium-dragon",
+ "provenance": "Pok\u00e9Mount Custom Sprite Sets by Ulithium_Dragon (PokeCommunity thread \"Pok\u00e9Mount Custom Sprite Sets\", 2017; author's terms: free to be used by anyone for anything). Sheets fetched by Riley from the thread on 2026-11-23 (the pack exists nowhere else) and cleaned by the Pok\u00e9Mount cleanup build: fitted-grid slice, /6 box downscale from the ~6x oversampled relay copies, palette snap; frames are faithful reconstructions, not bit-exact originals. Used under the Solid Rule (Riley, 2026-11-23); provenance recorded.",
+ "counts": {
+  "mounts": 10,
+  "sets": 14,
+  "frames": 448
+ },
+ "mounts_present": [
+  "kabutops",
+  "avalugg",
+  "gogoat",
+  "hippowdon",
+  "luxray",
+  "swampert",
+  "lanturn",
+  "torkoal",
+  "latios",
+  "latias"
+ ],
+ "mounts_missing": {
+  "list": [
+   "lapras",
+   "flygon",
+   "gyarados",
+   "araquanid",
+   "sharpedo",
+   "rhyhorn"
+  ],
+  "reason": "6 of the original 14 PokeMount species were not among Riley's 2026-11-23 fetch (the sheets exist only as images inside the same PokeCommunity thread) and stay on the FOR RILEY TO FETCH list; when they arrive they go through the same cleanup recipe and join this index. Torkoal, Latios and Latias joined in binding build 3 from the in-house surf production (produced sets, PARTIAL finish) \u2014 the fetched originals supersede them when they arrive."
+ },
+ "remaining_step": "Scene display hooks are NOT part of this binding: the frames and this registry are in the pack, but no overworld scene renders Pok\u00e9Mount art yet. Wiring a mount renderer into the ride scenes is the remaining step, flagged here and in the build report.",
+ "rows": [
+  {
+   "set": "kabutops_male_female",
+   "mount_species": "kabutops",
+   "kind": "land mount",
+   "frame_dir": "art/pokemount/kabutops_male_female",
+   "frame_count": 32,
+   "grid": {
+    "cols": 4,
+    "rows": 8,
+    "naming": "<set>_r<1-8>c<1-4>.png"
+   },
+   "row_layout": "rows 1-4 male, rows 5-8 female",
+   "provenance": "Pok\u00e9Mount Custom Sprite Sets by Ulithium_Dragon (PokeCommunity thread \"Pok\u00e9Mount Custom Sprite Sets\", 2017; author's terms: free to be used by anyone for anything). Sheets fetched by Riley from the thread on 2026-11-23 (the pack exists nowhere else) and cleaned by the Pok\u00e9Mount cleanup build: fitted-grid slice, /6 box downscale from the ~6x oversampled relay copies, palette snap; frames are faithful reconstructions, not bit-exact originals. Used under the Solid Rule (Riley, 2026-11-23); provenance recorded."
+  },
+  {
+   "set": "avalugg_male_female",
+   "mount_species": "avalugg",
+   "kind": "land mount",
+   "frame_dir": "art/pokemount/avalugg_male_female",
+   "frame_count": 32,
+   "grid": {
+    "cols": 4,
+    "rows": 8,
+    "naming": "<set>_r<1-8>c<1-4>.png"
+   },
+   "row_layout": "rows 1-4 male, rows 5-8 female",
+   "provenance": "Pok\u00e9Mount Custom Sprite Sets by Ulithium_Dragon (PokeCommunity thread \"Pok\u00e9Mount Custom Sprite Sets\", 2017; author's terms: free to be used by anyone for anything). Sheets fetched by Riley from the thread on 2026-11-23 (the pack exists nowhere else) and cleaned by the Pok\u00e9Mount cleanup build: fitted-grid slice, /6 box downscale from the ~6x oversampled relay copies, palette snap; frames are faithful reconstructions, not bit-exact originals. Used under the Solid Rule (Riley, 2026-11-23); provenance recorded."
+  },
+  {
+   "set": "gogoat_male_female",
+   "mount_species": "gogoat",
+   "kind": "land mount",
+   "frame_dir": "art/pokemount/gogoat_male_female",
+   "frame_count": 32,
+   "grid": {
+    "cols": 4,
+    "rows": 8,
+    "naming": "<set>_r<1-8>c<1-4>.png"
+   },
+   "row_layout": "rows 1-4 male, rows 5-8 female",
+   "provenance": "Pok\u00e9Mount Custom Sprite Sets by Ulithium_Dragon (PokeCommunity thread \"Pok\u00e9Mount Custom Sprite Sets\", 2017; author's terms: free to be used by anyone for anything). Sheets fetched by Riley from the thread on 2026-11-23 (the pack exists nowhere else) and cleaned by the Pok\u00e9Mount cleanup build: fitted-grid slice, /6 box downscale from the ~6x oversampled relay copies, palette snap; frames are faithful reconstructions, not bit-exact originals. Used under the Solid Rule (Riley, 2026-11-23); provenance recorded."
+  },
+  {
+   "set": "hippowdon_male_female",
+   "mount_species": "hippowdon",
+   "kind": "land mount",
+   "frame_dir": "art/pokemount/hippowdon_male_female",
+   "frame_count": 32,
+   "grid": {
+    "cols": 4,
+    "rows": 8,
+    "naming": "<set>_r<1-8>c<1-4>.png"
+   },
+   "row_layout": "rows 1-4 male, rows 5-8 female",
+   "provenance": "Pok\u00e9Mount Custom Sprite Sets by Ulithium_Dragon (PokeCommunity thread \"Pok\u00e9Mount Custom Sprite Sets\", 2017; author's terms: free to be used by anyone for anything). Sheets fetched by Riley from the thread on 2026-11-23 (the pack exists nowhere else) and cleaned by the Pok\u00e9Mount cleanup build: fitted-grid slice, /6 box downscale from the ~6x oversampled relay copies, palette snap; frames are faithful reconstructions, not bit-exact originals. Used under the Solid Rule (Riley, 2026-11-23); provenance recorded."
+  },
+  {
+   "set": "luxray_male",
+   "mount_species": "luxray",
+   "kind": "land mount (male)",
+   "frame_dir": "art/pokemount/luxray_male",
+   "frame_count": 32,
+   "grid": {
+    "cols": 4,
+    "rows": 8,
+    "naming": "<set>_r<1-8>c<1-4>.png"
+   },
+   "row_layout": "rows 1-4 plain, rows 5-8 Flash sparkle",
+   "provenance": "Pok\u00e9Mount Custom Sprite Sets by Ulithium_Dragon (PokeCommunity thread \"Pok\u00e9Mount Custom Sprite Sets\", 2017; author's terms: free to be used by anyone for anything). Sheets fetched by Riley from the thread on 2026-11-23 (the pack exists nowhere else) and cleaned by the Pok\u00e9Mount cleanup build: fitted-grid slice, /6 box downscale from the ~6x oversampled relay copies, palette snap; frames are faithful reconstructions, not bit-exact originals. Used under the Solid Rule (Riley, 2026-11-23); provenance recorded."
+  },
+  {
+   "set": "luxray_female",
+   "mount_species": "luxray",
+   "kind": "land mount (female)",
+   "frame_dir": "art/pokemount/luxray_female",
+   "frame_count": 32,
+   "grid": {
+    "cols": 4,
+    "rows": 8,
+    "naming": "<set>_r<1-8>c<1-4>.png"
+   },
+   "row_layout": "rows 1-4 plain, rows 5-8 Flash sparkle",
+   "provenance": "Pok\u00e9Mount Custom Sprite Sets by Ulithium_Dragon (PokeCommunity thread \"Pok\u00e9Mount Custom Sprite Sets\", 2017; author's terms: free to be used by anyone for anything). Sheets fetched by Riley from the thread on 2026-11-23 (the pack exists nowhere else) and cleaned by the Pok\u00e9Mount cleanup build: fitted-grid slice, /6 box downscale from the ~6x oversampled relay copies, palette snap; frames are faithful reconstructions, not bit-exact originals. Used under the Solid Rule (Riley, 2026-11-23); provenance recorded."
+  },
+  {
+   "set": "swampert_male_female",
+   "mount_species": "swampert",
+   "kind": "land/surf mount",
+   "frame_dir": "art/pokemount/swampert_male_female",
+   "frame_count": 32,
+   "grid": {
+    "cols": 4,
+    "rows": 8,
+    "naming": "<set>_r<1-8>c<1-4>.png"
+   },
+   "row_layout": "rows 1-4 male, rows 5-8 female",
+   "provenance": "Pok\u00e9Mount Custom Sprite Sets by Ulithium_Dragon (PokeCommunity thread \"Pok\u00e9Mount Custom Sprite Sets\", 2017; author's terms: free to be used by anyone for anything). Sheets fetched by Riley from the thread on 2026-11-23 (the pack exists nowhere else) and cleaned by the Pok\u00e9Mount cleanup build: fitted-grid slice, /6 box downscale from the ~6x oversampled relay copies, palette snap; frames are faithful reconstructions, not bit-exact originals. Used under the Solid Rule (Riley, 2026-11-23); provenance recorded."
+  },
+  {
+   "set": "lanturn_male_surf",
+   "mount_species": "lanturn",
+   "kind": "surf mount (male)",
+   "frame_dir": "art/pokemount/lanturn_male_surf",
+   "frame_count": 32,
+   "grid": {
+    "cols": 4,
+    "rows": 8,
+    "naming": "<set>_r<1-8>c<1-4>.png"
+   },
+   "row_layout": "rows 1-4 plain, rows 5-8 Flash sparkle",
+   "provenance": "Pok\u00e9Mount Custom Sprite Sets by Ulithium_Dragon (PokeCommunity thread \"Pok\u00e9Mount Custom Sprite Sets\", 2017; author's terms: free to be used by anyone for anything). Sheets fetched by Riley from the thread on 2026-11-23 (the pack exists nowhere else) and cleaned by the Pok\u00e9Mount cleanup build: fitted-grid slice, /6 box downscale from the ~6x oversampled relay copies, palette snap; frames are faithful reconstructions, not bit-exact originals. Used under the Solid Rule (Riley, 2026-11-23); provenance recorded."
+  },
+  {
+   "set": "lanturn_female_surf",
+   "mount_species": "lanturn",
+   "kind": "surf mount (female)",
+   "frame_dir": "art/pokemount/lanturn_female_surf",
+   "frame_count": 32,
+   "grid": {
+    "cols": 4,
+    "rows": 8,
+    "naming": "<set>_r<1-8>c<1-4>.png"
+   },
+   "row_layout": "rows 1-4 plain, rows 5-8 Flash sparkle",
+   "provenance": "Pok\u00e9Mount Custom Sprite Sets by Ulithium_Dragon (PokeCommunity thread \"Pok\u00e9Mount Custom Sprite Sets\", 2017; author's terms: free to be used by anyone for anything). Sheets fetched by Riley from the thread on 2026-11-23 (the pack exists nowhere else) and cleaned by the Pok\u00e9Mount cleanup build: fitted-grid slice, /6 box downscale from the ~6x oversampled relay copies, palette snap; frames are faithful reconstructions, not bit-exact originals. Used under the Solid Rule (Riley, 2026-11-23); provenance recorded."
+  },
+  {
+   "set": "lanturn_male_dive",
+   "mount_species": "lanturn",
+   "kind": "dive mount (male)",
+   "frame_dir": "art/pokemount/lanturn_male_dive",
+   "frame_count": 32,
+   "grid": {
+    "cols": 4,
+    "rows": 8,
+    "naming": "<set>_r<1-8>c<1-4>.png"
+   },
+   "row_layout": "rows 1-4 plain, rows 5-8 Flash sparkle; genuinely darker dive palette (intake-verified)",
+   "provenance": "Pok\u00e9Mount Custom Sprite Sets by Ulithium_Dragon (PokeCommunity thread \"Pok\u00e9Mount Custom Sprite Sets\", 2017; author's terms: free to be used by anyone for anything). Sheets fetched by Riley from the thread on 2026-11-23 (the pack exists nowhere else) and cleaned by the Pok\u00e9Mount cleanup build: fitted-grid slice, /6 box downscale from the ~6x oversampled relay copies, palette snap; frames are faithful reconstructions, not bit-exact originals. Used under the Solid Rule (Riley, 2026-11-23); provenance recorded."
+  },
+  {
+   "set": "lanturn_female_dive",
+   "mount_species": "lanturn",
+   "kind": "dive mount (female)",
+   "frame_dir": "art/pokemount/lanturn_female_dive",
+   "frame_count": 32,
+   "grid": {
+    "cols": 4,
+    "rows": 8,
+    "naming": "<set>_r<1-8>c<1-4>.png"
+   },
+   "row_layout": "rows 1-4 plain, rows 5-8 Flash sparkle; genuinely darker dive palette (intake-verified)",
+   "provenance": "Pok\u00e9Mount Custom Sprite Sets by Ulithium_Dragon (PokeCommunity thread \"Pok\u00e9Mount Custom Sprite Sets\", 2017; author's terms: free to be used by anyone for anything). Sheets fetched by Riley from the thread on 2026-11-23 (the pack exists nowhere else) and cleaned by the Pok\u00e9Mount cleanup build: fitted-grid slice, /6 box downscale from the ~6x oversampled relay copies, palette snap; frames are faithful reconstructions, not bit-exact originals. Used under the Solid Rule (Riley, 2026-11-23); provenance recorded."
+  },
+  {
+   "frame_count": 32,
+   "frame_dir": "art/pokemount/torkoal_male_female",
+   "grid": {
+    "cols": 4,
+    "naming": "<set>_r<1-8>c<1-4>.png",
+    "rows": 8
+   },
+   "kind": "lava surf mount",
+   "mount_species": "torkoal",
+   "provenance": "IN-HOUSE PRODUCED (surf production lane, 2026-11-23) under PRODUCTION_SCOPE.md tier 3: the Pok\u00e9Mount Torkoal sheet (tier 1) is still on Riley's fetch list and the Pok\u00e9mon Ranger lava-ride sprite (tier 2) needs a Ranger ROM that is not held, so the set was produced from Torkoal's held PMD SpriteCollab Walk art (CHUNSOFT game sprite, the pack's bound follower source) with the bound water-surf bob cycle as the motion template, an in-house generic rider in the bound sets' palette/scale, and lava-surface lighting (warm under-light at the waterline) as the one deliberate deviation the scope specifies. If the fetched Pok\u00e9Mount sheet later lands, it supersedes this set through the normal cleanup + QA route. NOTE for the binding build: the set name resolves to the loader's 'land' variant; Torkoal carries exactly one set, so the loader's single-set rule serves it for the surf context (the same reading swampert_male_female already ships under).",
+   "row_layout": "rows 1-4 male, rows 5-8 female",
+   "set": "torkoal_male_female"
+  },
+  {
+   "frame_count": 32,
+   "frame_dir": "art/pokemount/latios_male",
+   "grid": {
+    "cols": 4,
+    "naming": "<set>_r<1-8>c<1-4>.png",
+    "rows": 8
+   },
+   "kind": "air mount (soaring)",
+   "mount_species": "latios",
+   "provenance": "IN-HOUSE PRODUCED (surf production lane, 2026-11-23) under PRODUCTION_SCOPE.md: no 2D air/sky-surf pack exists in any community checked across two hunt rotations, and the scope's named analogue (the Pok\u00e9Mount Flygon set) is itself on the fetch list, not held \u2014 so the set was produced from Latios's held PMD SpriteCollab Walk art (CHUNSOFT game sprite; the Walk cycle is a genuine glide in all four facings) in the bound Pok\u00e9Mount format, with an in-house generic rider in the bound sets' palette/scale and the ground-shadow/altitude convention specced from the mount system's presentation (offset soft shadow ellipse, static while the body bobs). Latios is a male-only species; the set follows the luxray single-gender precedent with a Flash-sparkle second block. Air is not a loader ride context today: the set name resolves to the 'land' variant and the single-set rule serves it for any context until a soaring mode is wired.",
+   "row_layout": "rows 1-4 plain, rows 5-8 Flash sparkle",
+   "set": "latios_male"
+  },
+  {
+   "frame_count": 32,
+   "frame_dir": "art/pokemount/latias_female",
+   "grid": {
+    "cols": 4,
+    "naming": "<set>_r<1-8>c<1-4>.png",
+    "rows": 8
+   },
+   "kind": "air mount (soaring)",
+   "mount_species": "latias",
+   "provenance": "IN-HOUSE PRODUCED (surf production lane, 2026-11-23) under PRODUCTION_SCOPE.md: no 2D air/sky-surf pack exists in any community checked across two hunt rotations, and the scope's named analogue (the Pok\u00e9Mount Flygon set) is itself on the fetch list, not held \u2014 so the set was produced from Latias's held PMD SpriteCollab Walk art (CHUNSOFT game sprite; the Walk cycle is a genuine glide in all four facings) in the bound Pok\u00e9Mount format, with an in-house generic rider in the bound sets' palette/scale and the ground-shadow/altitude convention specced from the mount system's presentation (offset soft shadow ellipse, static while the body bobs). Latias is a female-only species; the set follows the luxray single-gender precedent with a Flash-sparkle second block. Air is not a loader ride context today: the set name resolves to the 'land' variant and the single-set rule serves it for any context until a soaring mode is wired.",
+   "row_layout": "rows 1-4 plain, rows 5-8 Flash sparkle",
+   "set": "latias_female"
+  }
+ ]
+}

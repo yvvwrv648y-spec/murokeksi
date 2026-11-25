@@ -1,0 +1,1025 @@
+{
+ "format": "PUW gsc_phone per-contact wants-battle chances \u2014 extracted from held pokecrystal caller scripts (staging prep; drop-in for the Johto bind).",
+ "profile_field": "wants_battle_chance",
+ "consumption": "Join on (name, map_slug) against phone_contact_tier_mapping.json contacts[] \u2014 the same join the gsc_phone bind adapter performs (code_prep_gsc_phone/tests/gsc_phone_tests.gd _contacts()). Copy wants_battle_chance onto each runtime contact dict, exactly as that adapter already does for JACK/JOEY/PARRY. Contacts with wants_battle_chance == null are the four unwired contacts: the field is not consumed for them (see fallback_if_field_required).",
+ "mechanism_summary": "Crystal has no per-contact chance table. The chance is computed from each contact's own caller script (engine/phone/scripts/<name>.asm, the <Name>PhoneCallerScript registered in data/phone/phone_contacts.asm): a sequence of uniform PhoneScript_RandomN draws (generic_callee.asm:1-21: random N, uniform 0..N-1) and flag checks on the path to the label that setflags ENGINE_<NAME>_READY_FOR_REMATCH. The extracted value is the exact probability that one connected caller-script execution reaches that label.",
+ "baseline_conditions": [
+  "ENGINE_<NAME>_READY_FOR_REMATCH clear (the profile only rolls content for a not-ready contact; an already-ready contact's call is generic content in the source too).",
+  "The contact's persistent blocker flags (weekday-flavor flags and has-item flags listed per contact) clear. While any is set, the source diverts the call before the battle draw and the chance for that call is 0. Weekday-flavor flags are set by the contact's callee script when the player calls them at the named weekday/time; has-item flags are set by the caller item branch itself and cleared when the player collects the item in person.",
+  "For the computed contacts, the story-progression inputs named in baseline_conditions are in the state that opens the battle branch (headline value); variant_values give the value in the other states."
+ ],
+ "rounding": "wants_battle_chance is the integer percent the profile compares a 0..99 content roll against (roll < chance). It is round-half-up(exact fraction x 100). The exact fraction is always recorded alongside; non-representable fractions lose at most 0.5pp (1/3 -> 33, 2/3 -> 67, 3/16 -> 19, 5/33 -> 15).",
+ "controls": {
+  "JACK": {
+   "expected": 25
+  },
+  "JOEY": {
+   "expected": 67
+  },
+  "PARRY": {
+   "expected": 100
+  }
+ },
+ "contacts": [
+  {
+   "name": "JACK",
+   "caller_id": "PHONE_SCHOOLBOY_JACK",
+   "map_slug": "national_park",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 25,
+   "chance_exact_fraction": "1/4",
+   "chance_percent_exact": 25.0,
+   "mechanism": "fixed",
+   "formula": "P = P(Random2 != 0) x P(Random2 == 0) = 1/2 x 1/2. First Random2 gate: outcome 0 diverts to JackBattleTrivia (call ends, no battle). Second Random2: outcome 0 jumps to JackWantsToBattle, which setflags ENGINE_JACK_READY_FOR_REMATCH.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_JACK_MONDAY_MORNING set => battle branch unreachable (diverts to .WaitingForBattle)"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/jack.asm",
+    "caller_script_line": 20,
+    "wants_battle_label_line": 40,
+    "setflag_ready_line": 42,
+    "random_gates_on_path": [
+     {
+      "line": 23,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 29,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 33,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   }
+  },
+  {
+   "name": "BEVERLY",
+   "caller_id": "PHONE_POKEFAN_BEVERLY",
+   "map_slug": "national_park",
+   "ladder_wired_in_crystal": false,
+   "wants_battle_chance": null,
+   "chance_exact_fraction": null,
+   "chance_percent_exact": null,
+   "mechanism": "none",
+   "formula": "Caller script has exactly one random branch: Random4 outcome 0 (1/4) sets ENGINE_BEVERLY_HAS_NUGGET and plays the found-item call; all other outcomes are generic calls. There is NO battle branch, NO *_READY_FOR_REMATCH flag for Beverly anywhere in constants/engine/maps (grep-verified), and wBeverlyFightCount is '; unreferenced' in ram/wram.asm:3233. Crystal therefore defines no readiness chance for Beverly at all.",
+   "fallback_if_field_required": {
+    "value": 25,
+    "reason": "No Crystal readiness chance exists for this contact (no battle branch / no READY flag in source). The gsc_phone profile does not consume wants_battle_chance for unwired contacts at all: readiness comes from the labeled PUW-side rule (via: puw_unwired_rule) established in code_prep_gsc_phone. If a bind tool insists on an integer, 25 is the profile default (PHONE_DEFAULT_WANTS_BATTLE_CHANCE) and must be recorded as a PUW default, never as a sourced Crystal value."
+   },
+   "source": {
+    "file": "engine/phone/scripts/beverly.asm",
+    "caller_script_line": 12,
+    "random_gates_on_path": [
+     {
+      "line": 17,
+      "draw": "Random4",
+      "text": "farscall PhoneScript_Random4"
+     }
+    ]
+   }
+  },
+  {
+   "name": "HUEY",
+   "caller_id": "PHONE_SAILOR_HUEY",
+   "map_slug": "olivine_lighthouse2f",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 67,
+   "chance_exact_fraction": "2/3",
+   "chance_percent_exact": 66.6667,
+   "mechanism": "fixed",
+   "formula": "P = P(Random3 in {0,1}) = 2/3. Single Random3 draw; outcomes 0 and 1 both jump to HueyWantsBattle.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_HUEY_WEDNESDAY_NIGHT set => .Flavor (MonFlavorText), no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/huey.asm",
+    "caller_script_line": 21,
+    "wants_battle_label_line": 38,
+    "setflag_ready_line": 40,
+    "random_gates_on_path": [
+     {
+      "line": 28,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   }
+  },
+  {
+   "name": "GAVEN",
+   "caller_id": "PHONE_COOLTRAINERM_GAVEN",
+   "map_slug": "route26",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 50,
+   "chance_exact_fraction": "1/2",
+   "chance_percent_exact": 50.0,
+   "mechanism": "fixed",
+   "formula": "P = P(Random2 == 0) = 1/2. Single Random2 draw; outcome 0 jumps to GavenWantsRematch (setflags ENGINE_GAVEN_READY_FOR_REMATCH).",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_GAVEN_THURSDAY_MORNING set => .WaitingForBattle, no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/gaven.asm",
+    "caller_script_line": 20,
+    "wants_battle_label_line": 38,
+    "setflag_ready_line": 40,
+    "random_gates_on_path": [
+     {
+      "line": 27,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 31,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   }
+  },
+  {
+   "name": "BETH",
+   "caller_id": "PHONE_COOLTRAINERF_BETH",
+   "map_slug": "route26",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 50,
+   "chance_exact_fraction": "1/2",
+   "chance_percent_exact": 50.0,
+   "mechanism": "fixed",
+   "formula": "P = P(Random2 == 0) = 1/2.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_BETH_FRIDAY_AFTERNOON set => .Generic, no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/beth.asm",
+    "caller_script_line": 20,
+    "wants_battle_label_line": 36,
+    "setflag_ready_line": 38,
+    "random_gates_on_path": [
+     {
+      "line": 27,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     }
+    ]
+   }
+  },
+  {
+   "name": "JOSE",
+   "caller_id": "PHONE_BIRDKEEPER_JOSE",
+   "map_slug": "route27",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 33,
+   "chance_exact_fraction": "1/3",
+   "chance_percent_exact": 33.3333,
+   "mechanism": "fixed",
+   "formula": "P = P(Random3 == 0) = 1/3. If the battle draw fails, a second Random3 decides the Star Piece item call instead; it cannot also reach the battle label.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_JOSE_SATURDAY_NIGHT set => .Generic",
+    "ENGINE_JOSE_HAS_STAR_PIECE set => .Generic (until the item is collected in person)"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/jose.asm",
+    "caller_script_line": 26,
+    "wants_battle_label_line": 48,
+    "setflag_ready_line": 50,
+    "random_gates_on_path": [
+     {
+      "line": 35,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     },
+     {
+      "line": 37,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     },
+     {
+      "line": 41,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   }
+  },
+  {
+   "name": "REENA",
+   "caller_id": "PHONE_COOLTRAINERF_REENA",
+   "map_slug": "route27",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 50,
+   "chance_exact_fraction": "1/2",
+   "chance_percent_exact": 50.0,
+   "mechanism": "fixed",
+   "formula": "P = P(Random2 == 0) = 1/2.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_REENA_SUNDAY_MORNING set => .Generic, no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/reena.asm",
+    "caller_script_line": 20,
+    "wants_battle_label_line": 36,
+    "setflag_ready_line": 38,
+    "random_gates_on_path": [
+     {
+      "line": 27,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     }
+    ]
+   }
+  },
+  {
+   "name": "JOEY",
+   "caller_id": "PHONE_YOUNGSTER_JOEY",
+   "map_slug": "route30",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 67,
+   "chance_exact_fraction": "2/3",
+   "chance_percent_exact": 66.6667,
+   "mechanism": "fixed",
+   "formula": "P = P(Random3 in {0,1}) = 2/3.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_JOEY_MONDAY_AFTERNOON set => .Generic, no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/joey.asm",
+    "caller_script_line": 21,
+    "wants_battle_label_line": 38,
+    "setflag_ready_line": 40,
+    "random_gates_on_path": [
+     {
+      "line": 28,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   }
+  },
+  {
+   "name": "WADE",
+   "caller_id": "PHONE_BUG_CATCHER_WADE",
+   "map_slug": "route31",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 25,
+   "chance_exact_fraction": "1/4",
+   "chance_percent_exact": 25.0,
+   "mechanism": "computed",
+   "formula": "Baseline P = P(Random2 != 0) [berry-item gate passed over] x P(Random2 == 0) [battle gate] = 1/2 x 1/2 = 1/4. Computed inputs: (a) ENGINE_FLYPOINT_GOLDENROD must be set, else the battle gate is never reached (chance 0); (b) on a Bug-Catching-Contest weekday (Tue/Thu/Sat) with ENGINE_DAILY_BUG_CONTEST clear, the call first passes an extra Random2 gate (outcome 0 falls into .NoContest; outcome != 0 with the contest checks passed ends the call as the contest announcement), halving the chance to 1/8.",
+   "baseline_conditions": [
+    "ENGINE_FLYPOINT_GOLDENROD set (story progression); baseline weekday = non-contest day, or ENGINE_DAILY_BUG_CONTEST already set"
+   ],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_WADE_TUESDAY_NIGHT set => .next (generic)",
+    "ENGINE_WADE_HAS_ITEM set => .next (generic) until the berry is collected in person"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/wade.asm",
+    "caller_script_line": 39,
+    "wants_battle_label_line": 76,
+    "setflag_ready_line": 78,
+    "random_gates_on_path": [
+     {
+      "line": 42,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 58,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 62,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 66,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   },
+   "variant_values": [
+    {
+     "condition": "Bug-Catching-Contest weekday (Tue/Thu/Sat) and ENGINE_DAILY_BUG_CONTEST clear, flypoint open",
+     "chance_exact_fraction": "1/8",
+     "wants_battle_chance": 13
+    },
+    {
+     "condition": "ENGINE_FLYPOINT_GOLDENROD unset",
+     "chance_exact_fraction": "0/1",
+     "wants_battle_chance": 0
+    }
+   ]
+  },
+  {
+   "name": "RALPH",
+   "caller_id": "PHONE_FISHER_RALPH",
+   "map_slug": "route32",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 50,
+   "chance_exact_fraction": "1/2",
+   "chance_percent_exact": 50.0,
+   "mechanism": "computed",
+   "formula": "P = P(Random2 == 0) = 1/2, but only reachable when ENGINE_FLYPOINT_GOLDENROD is set; without it the caller script goes straight to .CheckSwarm (Qwilfish swarm / generic) and the chance is 0. Computed input: ENGINE_FLYPOINT_GOLDENROD.",
+   "baseline_conditions": [
+    "ENGINE_FLYPOINT_GOLDENROD set (story progression)"
+   ],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_RALPH_WEDNESDAY_MORNING set => .CheckSwarm, no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/ralph.asm",
+    "caller_script_line": 25,
+    "wants_battle_label_line": 43,
+    "setflag_ready_line": 45,
+    "random_gates_on_path": [
+     {
+      "line": 34,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 37,
+      "draw": "Random5",
+      "text": "farscall PhoneScript_Random5"
+     }
+    ]
+   },
+   "variant_values": [
+    {
+     "condition": "ENGINE_FLYPOINT_GOLDENROD unset",
+     "chance_exact_fraction": "0/1",
+     "wants_battle_chance": 0
+    }
+   ]
+  },
+  {
+   "name": "LIZ",
+   "caller_id": "PHONE_PICNICKER_LIZ",
+   "map_slug": "route32",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 19,
+   "chance_exact_fraction": "3/16",
+   "chance_percent_exact": 18.75,
+   "mechanism": "computed",
+   "formula": "P = P(Random4 != 0) [wrong-number gate: outcome 0 ends the call as LizWrongNumber] x P(Random2 != 0) [gossip gate: outcome 0 diverts to LizGossip] x P(Random2 == 0) [battle gate] = 3/4 x 1/2 x 1/2 = 3/16, and the battle gate is only reached when ENGINE_FLYPOINT_GOLDENROD is set (else .Generic; chance 0). Source quirk, recorded verbatim: Liz's READY and ENGINE_LIZ_THURSDAY_AFTERNOON checks both jump to .next, which is the immediately following line, so neither flag actually blocks her battle branch (unlike every other contact).",
+   "baseline_conditions": [
+    "ENGINE_FLYPOINT_GOLDENROD set (story progression)"
+   ],
+   "blocker_flags_zero_the_chance": [],
+   "source": {
+    "file": "engine/phone/scripts/liz.asm",
+    "caller_script_line": 21,
+    "wants_battle_label_line": 45,
+    "setflag_ready_line": 47,
+    "random_gates_on_path": [
+     {
+      "line": 23,
+      "draw": "Random4",
+      "text": "farscall PhoneScript_Random4"
+     },
+     {
+      "line": 32,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 36,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     }
+    ]
+   },
+   "variant_values": [
+    {
+     "condition": "ENGINE_FLYPOINT_GOLDENROD unset",
+     "chance_exact_fraction": "0/1",
+     "wants_battle_chance": 0
+    }
+   ]
+  },
+  {
+   "name": "ANTHONY",
+   "caller_id": "PHONE_HIKER_ANTHONY",
+   "map_slug": "route33",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 50,
+   "chance_exact_fraction": "1/2",
+   "chance_percent_exact": 50.0,
+   "mechanism": "computed",
+   "formula": "P = P(Random2 == 0) = 1/2, reachable only when ENGINE_FLYPOINT_GOLDENROD is set; without it the script goes to .TriesSwarm (Dunsparce swarm / generic) and the chance is 0. Computed input: ENGINE_FLYPOINT_GOLDENROD.",
+   "baseline_conditions": [
+    "ENGINE_FLYPOINT_GOLDENROD set (story progression)"
+   ],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_ANTHONY_FRIDAY_NIGHT set => .TriesSwarm, no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/anthony.asm",
+    "caller_script_line": 26,
+    "wants_battle_label_line": 46,
+    "setflag_ready_line": 48,
+    "random_gates_on_path": [
+     {
+      "line": 35,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 39,
+      "draw": "Random5",
+      "text": "farscall PhoneScript_Random5"
+     }
+    ]
+   },
+   "variant_values": [
+    {
+     "condition": "ENGINE_FLYPOINT_GOLDENROD unset",
+     "chance_exact_fraction": "0/1",
+     "wants_battle_chance": 0
+    }
+   ]
+  },
+  {
+   "name": "TODD",
+   "caller_id": "PHONE_CAMPER_TODD",
+   "map_slug": "route34",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 50,
+   "chance_exact_fraction": "1/2",
+   "chance_percent_exact": 50.0,
+   "mechanism": "computed",
+   "formula": "P = P(Random2 == 0) = 1/2, reachable only when ENGINE_FLYPOINT_GOLDENROD is set; without it the script falls to .NoGoldenrod (rare/generic) and the chance is 0. Computed input: ENGINE_FLYPOINT_GOLDENROD.",
+   "baseline_conditions": [
+    "ENGINE_FLYPOINT_GOLDENROD set (story progression)"
+   ],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_TODD_SATURDAY_MORNING set => .TryForSale (dept-store sale / generic), no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/todd.asm",
+    "caller_script_line": 25,
+    "wants_battle_label_line": 49,
+    "setflag_ready_line": 51,
+    "random_gates_on_path": [
+     {
+      "line": 34,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 38,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 42,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   },
+   "variant_values": [
+    {
+     "condition": "ENGINE_FLYPOINT_GOLDENROD unset",
+     "chance_exact_fraction": "0/1",
+     "wants_battle_chance": 0
+    }
+   ]
+  },
+  {
+   "name": "GINA",
+   "caller_id": "PHONE_PICNICKER_GINA",
+   "map_slug": "route34",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 15,
+   "chance_exact_fraction": "5/33",
+   "chance_percent_exact": 15.1515,
+   "mechanism": "computed",
+   "formula": "Baseline (EVENT_GINA_GAVE_LEAF_STONE not yet set) P = P(Random2 != 0) [Leaf Stone gate passed over; outcome 0 makes this an item call] x P(Random11 != 0) [second Leaf Stone gate] x P(Random3 == 0) [battle gate] = 1/2 x 10/11 x 1/3 = 5/33. Computed inputs: (a) ENGINE_FLYPOINT_GOLDENROD must be set, else .Generic (chance 0); (b) once EVENT_GINA_GAVE_LEAF_STONE is set, the script enters at .GaveLeafStone and skips the first Random2, so the chance becomes 10/11 x 1/3 = 10/33 (integer 30); (c) while ENGINE_ROCKETS_IN_RADIO_TOWER is set, every call is the Rocket rumor and the chance is 0.",
+   "baseline_conditions": [
+    "ENGINE_FLYPOINT_GOLDENROD set (story progression); EVENT_GINA_GAVE_LEAF_STONE unset (baseline)"
+   ],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_GINA_SUNDAY_AFTERNOON set => .Generic",
+    "ENGINE_GINA_HAS_LEAF_STONE set => .Generic until the stone is collected in person",
+    "ENGINE_ROCKETS_IN_RADIO_TOWER set => rumor call only"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/gina.asm",
+    "caller_script_line": 31,
+    "wants_battle_label_line": 61,
+    "setflag_ready_line": 63,
+    "random_gates_on_path": [
+     {
+      "line": 44,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 48,
+      "draw": "Random11",
+      "text": "farscall PhoneScript_Random11"
+     },
+     {
+      "line": 52,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   },
+   "variant_values": [
+    {
+     "condition": "EVENT_GINA_GAVE_LEAF_STONE set (and flypoint open, rockets clear)",
+     "chance_exact_fraction": "10/33",
+     "wants_battle_chance": 30
+    },
+    {
+     "condition": "ENGINE_FLYPOINT_GOLDENROD unset, or ENGINE_ROCKETS_IN_RADIO_TOWER set",
+     "chance_exact_fraction": "0/1",
+     "wants_battle_chance": 0
+    }
+   ]
+  },
+  {
+   "name": "IRWIN",
+   "caller_id": "PHONE_JUGGLER_IRWIN",
+   "map_slug": "route35",
+   "ladder_wired_in_crystal": false,
+   "wants_battle_chance": null,
+   "chance_exact_fraction": null,
+   "chance_percent_exact": null,
+   "mechanism": "none",
+   "formula": "Caller script contains NO random draw at all: it checks ENGINE_ROCKETS_IN_RADIO_TOWER and jumps to the Rocket rumor script, otherwise to the plain rumor script. No battle branch, no ENGINE_IRWIN_READY_FOR_REMATCH flag (grep-verified), wIrwinFightCount '; unreferenced' in ram/wram.asm:3246. No readiness chance exists in Crystal.",
+   "fallback_if_field_required": {
+    "value": 25,
+    "reason": "No Crystal readiness chance exists for this contact (no battle branch / no READY flag in source). The gsc_phone profile does not consume wants_battle_chance for unwired contacts at all: readiness comes from the labeled PUW-side rule (via: puw_unwired_rule) established in code_prep_gsc_phone. If a bind tool insists on an integer, 25 is the profile default (PHONE_DEFAULT_WANTS_BATTLE_CHANCE) and must be recorded as a PUW default, never as a sourced Crystal value."
+   },
+   "source": {
+    "file": "engine/phone/scripts/irwin.asm",
+    "caller_script_line": 11,
+    "random_gates_on_path": []
+   }
+  },
+  {
+   "name": "ARNIE",
+   "caller_id": "PHONE_BUG_CATCHER_ARNIE",
+   "map_slug": "route35",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 50,
+   "chance_exact_fraction": "1/2",
+   "chance_percent_exact": 50.0,
+   "mechanism": "fixed",
+   "formula": "P = P(Random2 == 0) = 1/2. If the draw fails the call continues to the Yanma swarm / rare / generic branches, none of which can loop back to the battle label.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_ARNIE_TUESDAY_MORNING set => .Swarm, no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/arnie.asm",
+    "caller_script_line": 26,
+    "wants_battle_label_line": 46,
+    "setflag_ready_line": 48,
+    "random_gates_on_path": [
+     {
+      "line": 33,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 37,
+      "draw": "Random5",
+      "text": "farscall PhoneScript_Random5"
+     },
+     {
+      "line": 39,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   }
+  },
+  {
+   "name": "ALAN",
+   "caller_id": "PHONE_SCHOOLBOY_ALAN",
+   "map_slug": "route36",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 33,
+   "chance_exact_fraction": "1/3",
+   "chance_percent_exact": 33.3333,
+   "mechanism": "fixed",
+   "formula": "P = P(Random3 == 0) = 1/3. The battle gate is the first draw; the Fire Stone branches (Random2 / Random11 after EVENT_ALAN_GAVE_FIRE_STONE) are only reached when the battle draw fails, so the gave-event does not change the battle chance.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_ALAN_WEDNESDAY_AFTERNOON set => .Generic",
+    "ENGINE_ALAN_HAS_FIRE_STONE set => .Generic until the stone is collected in person"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/alan.asm",
+    "caller_script_line": 26,
+    "wants_battle_label_line": 52,
+    "setflag_ready_line": 54,
+    "random_gates_on_path": [
+     {
+      "line": 35,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     },
+     {
+      "line": 39,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 43,
+      "draw": "Random11",
+      "text": "farscall PhoneScript_Random11"
+     }
+    ]
+   }
+  },
+  {
+   "name": "DANA",
+   "caller_id": "PHONE_LASS_DANA",
+   "map_slug": "route38",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 33,
+   "chance_exact_fraction": "1/3",
+   "chance_percent_exact": 33.3333,
+   "mechanism": "fixed",
+   "formula": "P = P(Random3 == 0) = 1/3. Same structure as Alan: the Thunderstone branches sit behind the failed battle draw and do not change it.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_DANA_THURSDAY_NIGHT set => .Generic",
+    "ENGINE_DANA_HAS_THUNDERSTONE set => .Generic until the stone is collected in person"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/dana.asm",
+    "caller_script_line": 26,
+    "wants_battle_label_line": 54,
+    "setflag_ready_line": 56,
+    "random_gates_on_path": [
+     {
+      "line": 35,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     },
+     {
+      "line": 39,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 43,
+      "draw": "Random11",
+      "text": "farscall PhoneScript_Random11"
+     },
+     {
+      "line": 47,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   }
+  },
+  {
+   "name": "CHAD",
+   "caller_id": "PHONE_SCHOOLBOY_CHAD",
+   "map_slug": "route38",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 25,
+   "chance_exact_fraction": "1/4",
+   "chance_percent_exact": 25.0,
+   "mechanism": "fixed",
+   "formula": "P = P(Random2 != 0) x P(Random2 == 0) = 1/2 x 1/2. First Random2 gate: outcome 0 diverts to ChadOakGossip (call ends). Second Random2: outcome 0 jumps to ChadWantsBattle.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_CHAD_FRIDAY_MORNING set => .Generic, no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/chad.asm",
+    "caller_script_line": 20,
+    "wants_battle_label_line": 40,
+    "setflag_ready_line": 42,
+    "random_gates_on_path": [
+     {
+      "line": 23,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 29,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 33,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   }
+  },
+  {
+   "name": "DEREK",
+   "caller_id": "PHONE_POKEFANM_DEREK",
+   "map_slug": "route39",
+   "ladder_wired_in_crystal": false,
+   "wants_battle_chance": null,
+   "chance_exact_fraction": null,
+   "chance_percent_exact": null,
+   "mechanism": "none",
+   "formula": "Caller script: a Random2 + weekday gate can end the call as the Bug-Catching-Contest announcement (Tue/Thu/Sat); otherwise Random4 outcome 0 (1/4 of the remaining path) sets ENGINE_DEREK_HAS_NUGGET for a found-item call; the rest is generic. No battle branch, no ENGINE_DEREK_READY_FOR_REMATCH flag (grep-verified), wDerekFightCount '; unreferenced' in ram/wram.asm:3251. No readiness chance exists in Crystal.",
+   "fallback_if_field_required": {
+    "value": 25,
+    "reason": "No Crystal readiness chance exists for this contact (no battle branch / no READY flag in source). The gsc_phone profile does not consume wants_battle_chance for unwired contacts at all: readiness comes from the labeled PUW-side rule (via: puw_unwired_rule) established in code_prep_gsc_phone. If a bind tool insists on an integer, 25 is the profile default (PHONE_DEFAULT_WANTS_BATTLE_CHANCE) and must be recorded as a PUW default, never as a sourced Crystal value."
+   },
+   "source": {
+    "file": "engine/phone/scripts/derek.asm",
+    "caller_script_line": 25,
+    "random_gates_on_path": [
+     {
+      "line": 28,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 38,
+      "draw": "Random4",
+      "text": "farscall PhoneScript_Random4"
+     }
+    ]
+   }
+  },
+  {
+   "name": "TULLY",
+   "caller_id": "PHONE_FISHER_TULLY",
+   "map_slug": "route42",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 33,
+   "chance_exact_fraction": "1/3",
+   "chance_percent_exact": 33.3333,
+   "mechanism": "fixed",
+   "formula": "P = P(Random3 == 0) = 1/3. Same structure as Alan/Dana: the Water Stone branches sit behind the failed battle draw.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_TULLY_SUNDAY_NIGHT set => .Generic",
+    "ENGINE_TULLY_HAS_WATER_STONE set => .Generic until the stone is collected in person"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/tully.asm",
+    "caller_script_line": 26,
+    "wants_battle_label_line": 52,
+    "setflag_ready_line": 54,
+    "random_gates_on_path": [
+     {
+      "line": 35,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     },
+     {
+      "line": 39,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 43,
+      "draw": "Random11",
+      "text": "farscall PhoneScript_Random11"
+     }
+    ]
+   }
+  },
+  {
+   "name": "BRENT",
+   "caller_id": "PHONE_POKEMANIAC_BRENT",
+   "map_slug": "route43",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 25,
+   "chance_exact_fraction": "1/4",
+   "chance_percent_exact": 25.0,
+   "mechanism": "fixed",
+   "formula": "P = P(Random2 != 0) x P(Random2 == 0) = 1/2 x 1/2. First Random2 gate: outcome 0 diverts to BrentBillTrivia (call ends). Second Random2: outcome 0 jumps to BrentWantsBattle.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_BRENT_MONDAY_MORNING set => .Generic, no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/brent.asm",
+    "caller_script_line": 20,
+    "wants_battle_label_line": 38,
+    "setflag_ready_line": 40,
+    "random_gates_on_path": [
+     {
+      "line": 23,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 29,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     }
+    ]
+   }
+  },
+  {
+   "name": "TIFFANY",
+   "caller_id": "PHONE_PICNICKER_TIFFANY",
+   "map_slug": "route43",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 25,
+   "chance_exact_fraction": "1/4",
+   "chance_percent_exact": 25.0,
+   "mechanism": "fixed",
+   "formula": "P = P(Random4 != 0) x P(Random3 == 0) = 3/4 x 1/3 = 1/4. First Random4 gate: outcome 0 diverts to TiffanysFamilyMembers (call ends). The Pink Bow branches sit behind the failed battle draw and do not change it.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_TIFFANY_TUESDAY_AFTERNOON set => .Generic",
+    "ENGINE_TIFFANY_HAS_PINK_BOW set => .Generic until the bow is collected in person"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/tiffany.asm",
+    "caller_script_line": 26,
+    "wants_battle_label_line": 54,
+    "setflag_ready_line": 56,
+    "random_gates_on_path": [
+     {
+      "line": 28,
+      "draw": "Random4",
+      "text": "farscall PhoneScript_Random4"
+     },
+     {
+      "line": 37,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     },
+     {
+      "line": 41,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 45,
+      "draw": "Random11",
+      "text": "farscall PhoneScript_Random11"
+     }
+    ]
+   }
+  },
+  {
+   "name": "VANCE",
+   "caller_id": "PHONE_BIRDKEEPER_VANCE",
+   "map_slug": "route44",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 67,
+   "chance_exact_fraction": "2/3",
+   "chance_percent_exact": 66.6667,
+   "mechanism": "fixed",
+   "formula": "P = P(Random3 in {0,1}) = 2/3. (The .WantsBattle label in the source is misnamed: it is the generic-call exit taken when a blocker flag is set; the battle label is VanceWantsRematch.)",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_VANCE_WEDNESDAY_NIGHT set => generic call, no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/vance.asm",
+    "caller_script_line": 20,
+    "wants_battle_label_line": 37,
+    "setflag_ready_line": 39,
+    "random_gates_on_path": [
+     {
+      "line": 27,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   }
+  },
+  {
+   "name": "WILTON",
+   "caller_id": "PHONE_FISHER_WILTON",
+   "map_slug": "route44",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 50,
+   "chance_exact_fraction": "1/2",
+   "chance_percent_exact": 50.0,
+   "mechanism": "fixed",
+   "formula": "P = P(Random2 == 0) = 1/2. If the battle draw fails, a second Random2 decides the item call; it cannot also reach the battle label.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_WILTON_THURSDAY_MORNING set => .GenericCall",
+    "ENGINE_WILTON_HAS_ITEM set => .GenericCall until the item is collected in person"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/wilton.asm",
+    "caller_script_line": 26,
+    "wants_battle_label_line": 46,
+    "setflag_ready_line": 48,
+    "random_gates_on_path": [
+     {
+      "line": 35,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     },
+     {
+      "line": 37,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     }
+    ]
+   }
+  },
+  {
+   "name": "KENJI",
+   "caller_id": "PHONE_BLACKBELT_KENJI",
+   "map_slug": "route45",
+   "ladder_wired_in_crystal": false,
+   "wants_battle_chance": null,
+   "chance_exact_fraction": null,
+   "chance_percent_exact": null,
+   "mechanism": "none",
+   "formula": "Caller script unconditionally far-jumps to KenjiCallingPhoneScript (engine/phone/scripts/generic_caller.asm:958), a single fixed dedication text with no random draw and no branches. No battle branch, no ENGINE_KENJI_READY_FOR_REMATCH flag (grep-verified), wKenjiFightCount '; unreferenced' in ram/wram.asm:3257. No readiness chance exists in Crystal.",
+   "fallback_if_field_required": {
+    "value": 25,
+    "reason": "No Crystal readiness chance exists for this contact (no battle branch / no READY flag in source). The gsc_phone profile does not consume wants_battle_chance for unwired contacts at all: readiness comes from the labeled PUW-side rule (via: puw_unwired_rule) established in code_prep_gsc_phone. If a bind tool insists on an integer, 25 is the profile default (PHONE_DEFAULT_WANTS_BATTLE_CHANCE) and must be recorded as a PUW default, never as a sourced Crystal value."
+   },
+   "source": {
+    "file": "engine/phone/scripts/kenji.asm",
+    "caller_script_line": 6,
+    "random_gates_on_path": []
+   }
+  },
+  {
+   "name": "PARRY",
+   "caller_id": "PHONE_HIKER_PARRY",
+   "map_slug": "route45",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 100,
+   "chance_exact_fraction": "1/1",
+   "chance_percent_exact": 100.0,
+   "mechanism": "fixed",
+   "formula": "P = 1. Random2 is drawn and BOTH outcomes (0 and 1) jump to ParryWantsBattle.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_PARRY_FRIDAY_AFTERNOON set => .GenericCall, no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/parry.asm",
+    "caller_script_line": 20,
+    "wants_battle_label_line": 37,
+    "setflag_ready_line": 39,
+    "random_gates_on_path": [
+     {
+      "line": 27,
+      "draw": "Random2",
+      "text": "farscall PhoneScript_Random2"
+     }
+    ]
+   }
+  },
+  {
+   "name": "ERIN",
+   "caller_id": "PHONE_PICNICKER_ERIN",
+   "map_slug": "route46",
+   "ladder_wired_in_crystal": true,
+   "wants_battle_chance": 67,
+   "chance_exact_fraction": "2/3",
+   "chance_percent_exact": 66.6667,
+   "mechanism": "fixed",
+   "formula": "P = P(Random3 in {0,1}) = 2/3.",
+   "baseline_conditions": [],
+   "blocker_flags_zero_the_chance": [
+    "ENGINE_ERIN_SATURDAY_NIGHT set => .GenericCall, no battle roll"
+   ],
+   "source": {
+    "file": "engine/phone/scripts/erin.asm",
+    "caller_script_line": 20,
+    "wants_battle_label_line": 37,
+    "setflag_ready_line": 39,
+    "random_gates_on_path": [
+     {
+      "line": 27,
+      "draw": "Random3",
+      "text": "farscall PhoneScript_Random3"
+     }
+    ]
+   }
+  }
+ ]
+}

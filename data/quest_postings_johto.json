@@ -1,0 +1,2924 @@
+{
+ "metadata": {
+  "region_id": "johto",
+  "postings": 100,
+  "special_chains": 3
+ },
+ "postings": [
+  {
+   "board_id": "new_bark_town",
+   "id": "new_bark_town_catch_sentret",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Lab Aide Sora",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 450,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "sentret",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Sentret near New Bark Town",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 0,
+   "settlement": "New Bark Town"
+  },
+  {
+   "board_id": "new_bark_town",
+   "id": "new_bark_town_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Neighbor Elba",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 300,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around New Bark Town: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 0,
+   "settlement": "New Bark Town"
+  },
+  {
+   "board_id": "new_bark_town",
+   "id": "new_bark_town_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Bird Keeper Finn",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 220,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for New Bark Town",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 0,
+   "settlement": "New Bark Town"
+  },
+  {
+   "board_id": "new_bark_town",
+   "id": "new_bark_town_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Lab Aide Sora",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 220,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 0,
+   "settlement": "New Bark Town"
+  },
+  {
+   "board_id": "new_bark_town",
+   "id": "new_bark_town_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Neighbor Elba",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 280,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 800,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 800 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 0,
+   "settlement": "New Bark Town"
+  },
+  {
+   "board_id": "new_bark_town",
+   "id": "new_bark_town_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Bird Keeper Finn",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 1
+    },
+    "money": 450,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in New Bark Town: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 0,
+   "settlement": "New Bark Town"
+  },
+  {
+   "board_id": "new_bark_town",
+   "id": "new_bark_town_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Lab Aide Sora",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 2
+    },
+    "money": 380,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "oran-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Oran Berry to the New Bark Town board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 0,
+   "settlement": "New Bark Town"
+  },
+  {
+   "board_id": "new_bark_town",
+   "id": "new_bark_town_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Hoothoot",
+    "portrait": "0163",
+    "species": "hoothoot"
+   },
+   "reward": {
+    "items": {},
+    "money": 700,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "route_29_johto",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Hoothoot is lost — reach Route_29_Johto and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 0,
+   "settlement": "New Bark Town"
+  },
+  {
+   "board_id": "new_bark_town",
+   "id": "new_bark_town_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Neighbor Elba",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 400,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "grassland",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a grassland habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 0,
+   "settlement": "New Bark Town"
+  },
+  {
+   "board_id": "new_bark_town",
+   "id": "new_bark_town_field_cut",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Bird Keeper Finn",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 350,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "cut",
+    "count": 2,
+    "target": "cut",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Cut in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 0,
+   "settlement": "New Bark Town"
+  },
+  {
+   "board_id": "cherrygrove_city",
+   "id": "cherrygrove_city_catch_caterpie",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Guide Gent Odo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 450,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "caterpie",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Caterpie near Cherrygrove City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 0,
+   "settlement": "Cherrygrove City"
+  },
+  {
+   "board_id": "cherrygrove_city",
+   "id": "cherrygrove_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Angler Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 300,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Cherrygrove City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 0,
+   "settlement": "Cherrygrove City"
+  },
+  {
+   "board_id": "cherrygrove_city",
+   "id": "cherrygrove_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Clerk Tamsin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 220,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Cherrygrove City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 0,
+   "settlement": "Cherrygrove City"
+  },
+  {
+   "board_id": "cherrygrove_city",
+   "id": "cherrygrove_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Guide Gent Odo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 220,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 0,
+   "settlement": "Cherrygrove City"
+  },
+  {
+   "board_id": "cherrygrove_city",
+   "id": "cherrygrove_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Angler Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 280,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 800,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 800 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 0,
+   "settlement": "Cherrygrove City"
+  },
+  {
+   "board_id": "cherrygrove_city",
+   "id": "cherrygrove_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Clerk Tamsin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 2
+    },
+    "money": 450,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Cherrygrove City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 0,
+   "settlement": "Cherrygrove City"
+  },
+  {
+   "board_id": "cherrygrove_city",
+   "id": "cherrygrove_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Guide Gent Odo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 1
+    },
+    "money": 380,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "pecha-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Pecha Berry to the Cherrygrove City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 0,
+   "settlement": "Cherrygrove City"
+  },
+  {
+   "board_id": "cherrygrove_city",
+   "id": "cherrygrove_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Weedle",
+    "portrait": "0013",
+    "species": "weedle"
+   },
+   "reward": {
+    "items": {},
+    "money": 700,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "route_30_johto",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Weedle is lost — reach Route_30_Johto and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 0,
+   "settlement": "Cherrygrove City"
+  },
+  {
+   "board_id": "cherrygrove_city",
+   "id": "cherrygrove_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Angler Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 400,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "grassland",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a grassland habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 0,
+   "settlement": "Cherrygrove City"
+  },
+  {
+   "board_id": "cherrygrove_city",
+   "id": "cherrygrove_city_vexa",
+   "kind": "job",
+   "rank_min": 1,
+   "region_id": "johto",
+   "requester": {
+    "name": "Clerk Tamsin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 550,
+    "rank_points": 15
+   },
+   "task": {
+    "count": 1,
+    "target": "singles",
+    "type": "vexa_clear"
+   },
+   "title": "VEXA contract (Cherrygrove City): clear a singles simulation",
+   "window": {},
+   "source_label": "pattern: GO field research (battle task) on the VEXA sim",
+   "level_band": 0,
+   "settlement": "Cherrygrove City"
+  },
+  {
+   "board_id": "violet_city",
+   "id": "violet_city_catch_bellsprout",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Sage Nico",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 610,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "bellsprout",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Bellsprout near Violet City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 1,
+   "settlement": "Violet City"
+  },
+  {
+   "board_id": "violet_city",
+   "id": "violet_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "School Aide Rue",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 400,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Violet City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 1,
+   "settlement": "Violet City"
+  },
+  {
+   "board_id": "violet_city",
+   "id": "violet_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Falconer Bram",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 300,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Violet City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 1,
+   "settlement": "Violet City"
+  },
+  {
+   "board_id": "violet_city",
+   "id": "violet_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Sage Nico",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 300,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 1,
+   "settlement": "Violet City"
+  },
+  {
+   "board_id": "violet_city",
+   "id": "violet_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "School Aide Rue",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 370,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1000,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1000 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 1,
+   "settlement": "Violet City"
+  },
+  {
+   "board_id": "violet_city",
+   "id": "violet_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Falconer Bram",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 1
+    },
+    "money": 610,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Violet City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 1,
+   "settlement": "Violet City"
+  },
+  {
+   "board_id": "violet_city",
+   "id": "violet_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Sage Nico",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "poke-ball": 2
+    },
+    "money": 510,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "chesto-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Chesto Berry to the Violet City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 1,
+   "settlement": "Violet City"
+  },
+  {
+   "board_id": "violet_city",
+   "id": "violet_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Mareep",
+    "portrait": "0179",
+    "species": "mareep"
+   },
+   "reward": {
+    "items": {},
+    "money": 950,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "sprout_tower",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Mareep is lost — reach Sprout_Tower and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 1,
+   "settlement": "Violet City"
+  },
+  {
+   "board_id": "violet_city",
+   "id": "violet_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "School Aide Rue",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 540,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "grassland",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a grassland habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 1,
+   "settlement": "Violet City"
+  },
+  {
+   "board_id": "violet_city",
+   "id": "violet_city_rain_catch",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Sage Nico",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 710,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "wooper",
+    "type": "catch"
+   },
+   "title": "Rainy-day study: catch a Wooper in the rain",
+   "window": {
+    "kind": "weather",
+    "value": "rain"
+   },
+   "source_label": "pattern: GO weather-window field research",
+   "level_band": 1,
+   "settlement": "Violet City"
+  },
+  {
+   "board_id": "azalea_town",
+   "id": "azalea_town_catch_slowpoke",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Charcoal Maker Ilya",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 760,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "slowpoke",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Slowpoke near Azalea Town",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 2,
+   "settlement": "Azalea Town"
+  },
+  {
+   "board_id": "azalea_town",
+   "id": "azalea_town_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Bug Catcher Sef",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 510,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Azalea Town: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 2,
+   "settlement": "Azalea Town"
+  },
+  {
+   "board_id": "azalea_town",
+   "id": "azalea_town_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Well Keeper Ana",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 380,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Azalea Town",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 2,
+   "settlement": "Azalea Town"
+  },
+  {
+   "board_id": "azalea_town",
+   "id": "azalea_town_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Charcoal Maker Ilya",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 380,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 2,
+   "settlement": "Azalea Town"
+  },
+  {
+   "board_id": "azalea_town",
+   "id": "azalea_town_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Bug Catcher Sef",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 470,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1200,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1200 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 2,
+   "settlement": "Azalea Town"
+  },
+  {
+   "board_id": "azalea_town",
+   "id": "azalea_town_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Well Keeper Ana",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "great-ball": 2
+    },
+    "money": 760,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Azalea Town: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 2,
+   "settlement": "Azalea Town"
+  },
+  {
+   "board_id": "azalea_town",
+   "id": "azalea_town_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Charcoal Maker Ilya",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "super-potion": 1
+    },
+    "money": 640,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "aspear-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Aspear Berry to the Azalea Town board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 2,
+   "settlement": "Azalea Town"
+  },
+  {
+   "board_id": "azalea_town",
+   "id": "azalea_town_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Oddish",
+    "portrait": "0043",
+    "species": "oddish"
+   },
+   "reward": {
+    "items": {},
+    "money": 1190,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "ilex_forest",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: an Oddish is lost — reach Ilex_Forest and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 2,
+   "settlement": "Azalea Town"
+  },
+  {
+   "board_id": "azalea_town",
+   "id": "azalea_town_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Bug Catcher Sef",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 680,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "forest",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a forest habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 2,
+   "settlement": "Azalea Town"
+  },
+  {
+   "board_id": "azalea_town",
+   "id": "azalea_town_catch_heracross_b",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Bug Catcher Sef",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 760,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "heracross",
+    "type": "catch"
+   },
+   "title": "Local notes: catch 2 Heracross for the board",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 2,
+   "settlement": "Azalea Town"
+  },
+  {
+   "board_id": "goldenrod_city",
+   "id": "goldenrod_city_catch_drowzee",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Radio Producer Leda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 920,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "drowzee",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Drowzee near Goldenrod City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 3,
+   "settlement": "Goldenrod City"
+  },
+  {
+   "board_id": "goldenrod_city",
+   "id": "goldenrod_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Dept. Clerk Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 620,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Goldenrod City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 3,
+   "settlement": "Goldenrod City"
+  },
+  {
+   "board_id": "goldenrod_city",
+   "id": "goldenrod_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Bike Shop Owner Pem",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 460,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Goldenrod City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 3,
+   "settlement": "Goldenrod City"
+  },
+  {
+   "board_id": "goldenrod_city",
+   "id": "goldenrod_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Radio Producer Leda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 460,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 3,
+   "settlement": "Goldenrod City"
+  },
+  {
+   "board_id": "goldenrod_city",
+   "id": "goldenrod_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Dept. Clerk Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 560,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1400,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1400 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 3,
+   "settlement": "Goldenrod City"
+  },
+  {
+   "board_id": "goldenrod_city",
+   "id": "goldenrod_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Bike Shop Owner Pem",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "super-potion": 1
+    },
+    "money": 920,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Goldenrod City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 3,
+   "settlement": "Goldenrod City"
+  },
+  {
+   "board_id": "goldenrod_city",
+   "id": "goldenrod_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Radio Producer Leda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "antidote": 2
+    },
+    "money": 770,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "persim-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Persim Berry to the Goldenrod City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 3,
+   "settlement": "Goldenrod City"
+  },
+  {
+   "board_id": "goldenrod_city",
+   "id": "goldenrod_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Abra",
+    "portrait": "0063",
+    "species": "abra"
+   },
+   "reward": {
+    "items": {},
+    "money": 1430,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "national_park_johto",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: an Abra is lost — reach National_Park_Johto and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 3,
+   "settlement": "Goldenrod City"
+  },
+  {
+   "board_id": "goldenrod_city",
+   "id": "goldenrod_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Dept. Clerk Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 820,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "urban",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit an urban habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 3,
+   "settlement": "Goldenrod City"
+  },
+  {
+   "board_id": "goldenrod_city",
+   "id": "goldenrod_city_field_illuminate",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Bike Shop Owner Pem",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 720,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "illuminate",
+    "count": 2,
+    "target": "illuminate",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Illuminate in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 3,
+   "settlement": "Goldenrod City"
+  },
+  {
+   "board_id": "ecruteak_city",
+   "id": "ecruteak_city_catch_gastly",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Kimono Dancer Sanna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1080,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "gastly",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Gastly near Ecruteak City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 4,
+   "settlement": "Ecruteak City"
+  },
+  {
+   "board_id": "ecruteak_city",
+   "id": "ecruteak_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Sage Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 720,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Ecruteak City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 4,
+   "settlement": "Ecruteak City"
+  },
+  {
+   "board_id": "ecruteak_city",
+   "id": "ecruteak_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Theater Usher Mio",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 540,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Ecruteak City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 4,
+   "settlement": "Ecruteak City"
+  },
+  {
+   "board_id": "ecruteak_city",
+   "id": "ecruteak_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Kimono Dancer Sanna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 540,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 4,
+   "settlement": "Ecruteak City"
+  },
+  {
+   "board_id": "ecruteak_city",
+   "id": "ecruteak_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Sage Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 660,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1600,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1600 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 4,
+   "settlement": "Ecruteak City"
+  },
+  {
+   "board_id": "ecruteak_city",
+   "id": "ecruteak_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Theater Usher Mio",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "great-ball": 2
+    },
+    "money": 1080,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Ecruteak City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 4,
+   "settlement": "Ecruteak City"
+  },
+  {
+   "board_id": "ecruteak_city",
+   "id": "ecruteak_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Kimono Dancer Sanna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 900,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "lum-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Lum Berry to the Ecruteak City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 4,
+   "settlement": "Ecruteak City"
+  },
+  {
+   "board_id": "ecruteak_city",
+   "id": "ecruteak_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Staryu",
+    "portrait": "0120",
+    "species": "staryu"
+   },
+   "reward": {
+    "items": {},
+    "money": 1680,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "burned_tower",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Staryu is lost — reach Burned_Tower and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 4,
+   "settlement": "Ecruteak City"
+  },
+  {
+   "board_id": "ecruteak_city",
+   "id": "ecruteak_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Sage Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 960,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "urban",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit an urban habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 4,
+   "settlement": "Ecruteak City"
+  },
+  {
+   "board_id": "ecruteak_city",
+   "id": "ecruteak_city_vexa",
+   "kind": "job",
+   "rank_min": 1,
+   "region_id": "johto",
+   "requester": {
+    "name": "Theater Usher Mio",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1320,
+    "rank_points": 15
+   },
+   "task": {
+    "count": 1,
+    "target": "singles",
+    "type": "vexa_clear"
+   },
+   "title": "VEXA contract (Ecruteak City): clear a singles simulation",
+   "window": {},
+   "source_label": "pattern: GO field research (battle task) on the VEXA sim",
+   "level_band": 4,
+   "settlement": "Ecruteak City"
+  },
+  {
+   "board_id": "olivine_city",
+   "id": "olivine_city_catch_tentacool",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Lighthouse Keeper Uto",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1240,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "tentacool",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Tentacool near Olivine City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 5,
+   "settlement": "Olivine City"
+  },
+  {
+   "board_id": "olivine_city",
+   "id": "olivine_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Sailor Dario",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 820,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Olivine City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 5,
+   "settlement": "Olivine City"
+  },
+  {
+   "board_id": "olivine_city",
+   "id": "olivine_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Cafe Owner Bel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 620,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Olivine City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 5,
+   "settlement": "Olivine City"
+  },
+  {
+   "board_id": "olivine_city",
+   "id": "olivine_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Lighthouse Keeper Uto",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 620,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 5,
+   "settlement": "Olivine City"
+  },
+  {
+   "board_id": "olivine_city",
+   "id": "olivine_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Sailor Dario",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 760,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1800,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1800 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 5,
+   "settlement": "Olivine City"
+  },
+  {
+   "board_id": "olivine_city",
+   "id": "olivine_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Cafe Owner Bel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 1240,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Olivine City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 5,
+   "settlement": "Olivine City"
+  },
+  {
+   "board_id": "olivine_city",
+   "id": "olivine_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Lighthouse Keeper Uto",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "full-heal": 2
+    },
+    "money": 1030,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "pecha-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Pecha Berry to the Olivine City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 5,
+   "settlement": "Olivine City"
+  },
+  {
+   "board_id": "olivine_city",
+   "id": "olivine_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Krabby",
+    "portrait": "0098",
+    "species": "krabby"
+   },
+   "reward": {
+    "items": {},
+    "money": 1920,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "olivine_lighthouse",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Krabby is lost — reach Olivine_Lighthouse and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 5,
+   "settlement": "Olivine City"
+  },
+  {
+   "board_id": "olivine_city",
+   "id": "olivine_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Sailor Dario",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1100,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "sea",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a sea habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 5,
+   "settlement": "Olivine City"
+  },
+  {
+   "board_id": "olivine_city",
+   "id": "olivine_city_rain_catch",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Lighthouse Keeper Uto",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1440,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "staryu",
+    "type": "catch"
+   },
+   "title": "Rainy-day study: catch a Staryu in the rain",
+   "window": {
+    "kind": "weather",
+    "value": "rain"
+   },
+   "source_label": "pattern: GO weather-window field research",
+   "level_band": 5,
+   "settlement": "Olivine City"
+  },
+  {
+   "board_id": "cianwood_city",
+   "id": "cianwood_city_catch_tentacool",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Pharmacy Clerk Fos",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1390,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "tentacool",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Tentacool near Cianwood City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 6,
+   "settlement": "Cianwood City"
+  },
+  {
+   "board_id": "cianwood_city",
+   "id": "cianwood_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Fisher Maren",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 930,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Cianwood City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 6,
+   "settlement": "Cianwood City"
+  },
+  {
+   "board_id": "cianwood_city",
+   "id": "cianwood_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Photo Fan Kae",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 700,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Cianwood City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 6,
+   "settlement": "Cianwood City"
+  },
+  {
+   "board_id": "cianwood_city",
+   "id": "cianwood_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Pharmacy Clerk Fos",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 700,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 6,
+   "settlement": "Cianwood City"
+  },
+  {
+   "board_id": "cianwood_city",
+   "id": "cianwood_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Fisher Maren",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 850,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2000,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2000 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 6,
+   "settlement": "Cianwood City"
+  },
+  {
+   "board_id": "cianwood_city",
+   "id": "cianwood_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Photo Fan Kae",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1390,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Cianwood City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 6,
+   "settlement": "Cianwood City"
+  },
+  {
+   "board_id": "cianwood_city",
+   "id": "cianwood_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Pharmacy Clerk Fos",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 1160,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "chesto-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Chesto Berry to the Cianwood City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 6,
+   "settlement": "Cianwood City"
+  },
+  {
+   "board_id": "cianwood_city",
+   "id": "cianwood_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Krabby",
+    "portrait": "0098",
+    "species": "krabby"
+   },
+   "reward": {
+    "items": {},
+    "money": 2170,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "cliff_cave_johto",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Krabby is lost — reach Cliff_Cave_Johto and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 6,
+   "settlement": "Cianwood City"
+  },
+  {
+   "board_id": "cianwood_city",
+   "id": "cianwood_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Fisher Maren",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1240,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "sea",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a sea habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 6,
+   "settlement": "Cianwood City"
+  },
+  {
+   "board_id": "cianwood_city",
+   "id": "cianwood_city_catch_poliwag_b",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Fisher Maren",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1390,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "poliwag",
+    "type": "catch"
+   },
+   "title": "Local notes: catch 2 Poliwag for the board",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 6,
+   "settlement": "Cianwood City"
+  },
+  {
+   "board_id": "mahogany_town",
+   "id": "mahogany_town_catch_geodude",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Souvenir Seller Rurik",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "geodude",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Geodude near Mahogany Town",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 7,
+   "settlement": "Mahogany Town"
+  },
+  {
+   "board_id": "mahogany_town",
+   "id": "mahogany_town_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Angler Colm",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1040,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Mahogany Town: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 7,
+   "settlement": "Mahogany Town"
+  },
+  {
+   "board_id": "mahogany_town",
+   "id": "mahogany_town_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Medic Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 780,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Mahogany Town",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 7,
+   "settlement": "Mahogany Town"
+  },
+  {
+   "board_id": "mahogany_town",
+   "id": "mahogany_town_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Souvenir Seller Rurik",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 780,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 7,
+   "settlement": "Mahogany Town"
+  },
+  {
+   "board_id": "mahogany_town",
+   "id": "mahogany_town_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Angler Colm",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 950,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2200,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2200 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 7,
+   "settlement": "Mahogany Town"
+  },
+  {
+   "board_id": "mahogany_town",
+   "id": "mahogany_town_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Medic Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "max-potion": 1
+    },
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Mahogany Town: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 7,
+   "settlement": "Mahogany Town"
+  },
+  {
+   "board_id": "mahogany_town",
+   "id": "mahogany_town_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Souvenir Seller Rurik",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1290,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "aspear-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Aspear Berry to the Mahogany Town board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 7,
+   "settlement": "Mahogany Town"
+  },
+  {
+   "board_id": "mahogany_town",
+   "id": "mahogany_town_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Zubat",
+    "portrait": "0041",
+    "species": "zubat"
+   },
+   "reward": {
+    "items": {},
+    "money": 2420,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "lake_of_rage",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Zubat is lost — reach Lake_Of_Rage and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 7,
+   "settlement": "Mahogany Town"
+  },
+  {
+   "board_id": "mahogany_town",
+   "id": "mahogany_town_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Angler Colm",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1380,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "mountain",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a mountain habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 7,
+   "settlement": "Mahogany Town"
+  },
+  {
+   "board_id": "mahogany_town",
+   "id": "mahogany_town_field_rock_smash",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Medic Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1210,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "rock_smash",
+    "count": 2,
+    "target": "rock_smash",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Rock_Smash in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 7,
+   "settlement": "Mahogany Town"
+  },
+  {
+   "board_id": "blackthorn_city",
+   "id": "blackthorn_city_catch_graveler",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Dragon Tamer Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "graveler",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Graveler near Blackthorn City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 8,
+   "settlement": "Blackthorn City"
+  },
+  {
+   "board_id": "blackthorn_city",
+   "id": "blackthorn_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Elder's Aide Asha",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1140,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Blackthorn City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 8,
+   "settlement": "Blackthorn City"
+  },
+  {
+   "board_id": "blackthorn_city",
+   "id": "blackthorn_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Cave Guide Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 860,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Blackthorn City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 8,
+   "settlement": "Blackthorn City"
+  },
+  {
+   "board_id": "blackthorn_city",
+   "id": "blackthorn_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Dragon Tamer Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 860,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 8,
+   "settlement": "Blackthorn City"
+  },
+  {
+   "board_id": "blackthorn_city",
+   "id": "blackthorn_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Elder's Aide Asha",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1040,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2400,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2400 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 8,
+   "settlement": "Blackthorn City"
+  },
+  {
+   "board_id": "blackthorn_city",
+   "id": "blackthorn_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Cave Guide Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "full-restore": 2
+    },
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Blackthorn City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 8,
+   "settlement": "Blackthorn City"
+  },
+  {
+   "board_id": "blackthorn_city",
+   "id": "blackthorn_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Dragon Tamer Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 1
+    },
+    "money": 1420,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "persim-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Persim Berry to the Blackthorn City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 8,
+   "settlement": "Blackthorn City"
+  },
+  {
+   "board_id": "blackthorn_city",
+   "id": "blackthorn_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Donphan",
+    "portrait": "0232",
+    "species": "donphan"
+   },
+   "reward": {
+    "items": {},
+    "money": 2660,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "dragons_den",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Donphan is lost — reach Dragons_Den and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 8,
+   "settlement": "Blackthorn City"
+  },
+  {
+   "board_id": "blackthorn_city",
+   "id": "blackthorn_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "johto",
+   "requester": {
+    "name": "Elder's Aide Asha",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1520,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "mountain",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a mountain habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 8,
+   "settlement": "Blackthorn City"
+  },
+  {
+   "board_id": "blackthorn_city",
+   "id": "blackthorn_city_vexa",
+   "kind": "job",
+   "rank_min": 1,
+   "region_id": "johto",
+   "requester": {
+    "name": "Cave Guide Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 2090,
+    "rank_points": 15
+   },
+   "task": {
+    "count": 1,
+    "target": "singles",
+    "type": "vexa_clear"
+   },
+   "title": "VEXA contract (Blackthorn City): clear a singles simulation",
+   "window": {},
+   "source_label": "pattern: GO field research (battle task) on the VEXA sim",
+   "level_band": 8,
+   "settlement": "Blackthorn City"
+  }
+ ],
+ "special_chains": [
+  {
+   "board_id": "new_bark_town",
+   "id": "new_bark_town_chain_helper",
+   "posted_by": "Lab Aide Sora",
+   "region_id": "johto",
+   "reward": {
+    "items": {
+     "potion": 1
+    },
+    "money": 700,
+    "rank_points": 30
+   },
+   "steps": [
+    {
+     "count": 1,
+     "target": "sentret",
+     "title": "Step 1: catch a Sentret for a local study",
+     "type": "catch"
+    },
+    {
+     "count": 1,
+     "target": "",
+     "title": "Step 2: win a battle to check its condition",
+     "type": "battle_win"
+    },
+    {
+     "action": "groom",
+     "count": 1,
+     "target": "",
+     "title": "Step 3: groom your follower to finish the check-in",
+     "type": "care"
+    }
+   ],
+   "title": "New Bark Town helper",
+   "unlock": {
+    "flag": "",
+    "min_rank": 0
+   },
+   "source_label": "pattern: GO special research chain on a PMD board",
+   "level_band": 0,
+   "settlement": "New Bark Town"
+  },
+  {
+   "board_id": "ecruteak_city",
+   "id": "ecruteak_city_chain_rounds",
+   "posted_by": "Sage Haldor",
+   "region_id": "johto",
+   "reward": {
+    "items": {
+     "great-ball": 2
+    },
+    "money": 1680,
+    "rank_points": 30
+   },
+   "steps": [
+    {
+     "count": 500,
+     "target": "",
+     "title": "Step 1: walk 500 steps on patrol",
+     "type": "walk"
+    },
+    {
+     "count": 1,
+     "target": "urban",
+     "title": "Step 2: visit the local habitat",
+     "type": "habitat"
+    },
+    {
+     "count": 2,
+     "target": "",
+     "title": "Step 3: win 2 battles on the round",
+     "type": "battle_win"
+    }
+   ],
+   "title": "Rounds of Ecruteak City",
+   "unlock": {
+    "flag": "",
+    "min_rank": 1
+   },
+   "source_label": "pattern: GO special research chain on a PMD board",
+   "level_band": 4,
+   "settlement": "Ecruteak City"
+  },
+  {
+   "board_id": "blackthorn_city",
+   "id": "blackthorn_city_chain_lost_and_found",
+   "posted_by": "Cave Guide Osk",
+   "region_id": "johto",
+   "reward": {
+    "items": {
+     "ultra-ball": 1
+    },
+    "money": 2660,
+    "rank_points": 30
+   },
+   "steps": [
+    {
+     "count": 1,
+     "target": "cheri-berry",
+     "title": "Step 1: bring the board a berry",
+     "type": "deliver"
+    },
+    {
+     "count": 1,
+     "target": "skarmory",
+     "title": "Step 2: catch a Skarmory seen near the lost spot",
+     "type": "catch"
+    },
+    {
+     "count": 1,
+     "target": "",
+     "title": "Step 3: win a battle to clear the way home",
+     "type": "battle_win"
+    }
+   ],
+   "title": "Lost and found in Blackthorn City",
+   "unlock": {
+    "flag": "",
+    "min_rank": 2
+   },
+   "source_label": "pattern: GO special research chain on a PMD board",
+   "level_band": 8,
+   "settlement": "Blackthorn City"
+  }
+ ]
+}

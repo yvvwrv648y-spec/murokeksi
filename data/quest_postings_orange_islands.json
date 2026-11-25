@@ -1,0 +1,3762 @@
+{
+ "metadata": {
+  "region_id": "orange_islands",
+  "postings": 130,
+  "special_chains": 3
+ },
+ "postings": [
+  {
+   "board_id": "valencia_island",
+   "id": "valencia_island_catch_pidgey",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Lab Aide Sora",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 450,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "pidgey",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Pidgey near Valencia Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 0,
+   "settlement": "Valencia Island"
+  },
+  {
+   "board_id": "valencia_island",
+   "id": "valencia_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Port Clerk Ana",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 300,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Valencia Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 0,
+   "settlement": "Valencia Island"
+  },
+  {
+   "board_id": "valencia_island",
+   "id": "valencia_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Fisher Bram",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 220,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Valencia Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 0,
+   "settlement": "Valencia Island"
+  },
+  {
+   "board_id": "valencia_island",
+   "id": "valencia_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Lab Aide Sora",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 220,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 0,
+   "settlement": "Valencia Island"
+  },
+  {
+   "board_id": "valencia_island",
+   "id": "valencia_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Port Clerk Ana",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 280,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 800,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 800 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 0,
+   "settlement": "Valencia Island"
+  },
+  {
+   "board_id": "valencia_island",
+   "id": "valencia_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Fisher Bram",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 1
+    },
+    "money": 450,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Valencia Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 0,
+   "settlement": "Valencia Island"
+  },
+  {
+   "board_id": "valencia_island",
+   "id": "valencia_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Lab Aide Sora",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 2
+    },
+    "money": 380,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "oran-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Oran Berry to the Valencia Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 0,
+   "settlement": "Valencia Island"
+  },
+  {
+   "board_id": "valencia_island",
+   "id": "valencia_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Caterpie",
+    "portrait": "0010",
+    "species": "caterpie"
+   },
+   "reward": {
+    "items": {},
+    "money": 700,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "valencia_coast",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Caterpie is lost — reach Valencia_Coast and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 0,
+   "settlement": "Valencia Island"
+  },
+  {
+   "board_id": "valencia_island",
+   "id": "valencia_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Port Clerk Ana",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 400,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "waters-edge",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a waters-edge habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 0,
+   "settlement": "Valencia Island"
+  },
+  {
+   "board_id": "valencia_island",
+   "id": "valencia_island_field_cut",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Fisher Bram",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 350,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "cut",
+    "count": 2,
+    "target": "cut",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Cut in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 0,
+   "settlement": "Valencia Island"
+  },
+  {
+   "board_id": "tangelo_island",
+   "id": "tangelo_island_catch_meowth",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Center Clerk Pia",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 610,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "meowth",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Meowth near Tangelo Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 1,
+   "settlement": "Tangelo Island"
+  },
+  {
+   "board_id": "tangelo_island",
+   "id": "tangelo_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Jungle Guide Pem",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 400,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Tangelo Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 1,
+   "settlement": "Tangelo Island"
+  },
+  {
+   "board_id": "tangelo_island",
+   "id": "tangelo_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Vendor Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 300,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Tangelo Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 1,
+   "settlement": "Tangelo Island"
+  },
+  {
+   "board_id": "tangelo_island",
+   "id": "tangelo_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Center Clerk Pia",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 300,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 1,
+   "settlement": "Tangelo Island"
+  },
+  {
+   "board_id": "tangelo_island",
+   "id": "tangelo_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Jungle Guide Pem",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 370,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1000,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1000 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 1,
+   "settlement": "Tangelo Island"
+  },
+  {
+   "board_id": "tangelo_island",
+   "id": "tangelo_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Vendor Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "poke-ball": 2
+    },
+    "money": 610,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Tangelo Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 1,
+   "settlement": "Tangelo Island"
+  },
+  {
+   "board_id": "tangelo_island",
+   "id": "tangelo_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Center Clerk Pia",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 1
+    },
+    "money": 510,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "cheri-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Cheri Berry to the Tangelo Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 1,
+   "settlement": "Tangelo Island"
+  },
+  {
+   "board_id": "tangelo_island",
+   "id": "tangelo_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Psyduck",
+    "portrait": "0054",
+    "species": "psyduck"
+   },
+   "reward": {
+    "items": {},
+    "money": 950,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "tangelo_jungle",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Psyduck is lost — reach Tangelo_Jungle and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 1,
+   "settlement": "Tangelo Island"
+  },
+  {
+   "board_id": "tangelo_island",
+   "id": "tangelo_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Jungle Guide Pem",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 540,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "forest",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a forest habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 1,
+   "settlement": "Tangelo Island"
+  },
+  {
+   "board_id": "tangelo_island",
+   "id": "tangelo_island_vexa",
+   "kind": "job",
+   "rank_min": 1,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Vendor Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 740,
+    "rank_points": 15
+   },
+   "task": {
+    "count": 1,
+    "target": "singles",
+    "type": "vexa_clear"
+   },
+   "title": "VEXA contract (Tangelo Island): clear a singles simulation",
+   "window": {},
+   "source_label": "pattern: GO field research (battle task) on the VEXA sim",
+   "level_band": 1,
+   "settlement": "Tangelo Island"
+  },
+  {
+   "board_id": "mikan_island",
+   "id": "mikan_island_catch_pidgey",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Gym Aide Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 610,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "pidgey",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Pidgey near Mikan Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 1,
+   "settlement": "Mikan Island"
+  },
+  {
+   "board_id": "mikan_island",
+   "id": "mikan_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Sailor Dario",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 400,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Mikan Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 1,
+   "settlement": "Mikan Island"
+  },
+  {
+   "board_id": "mikan_island",
+   "id": "mikan_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Clerk Tamsin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 300,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Mikan Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 1,
+   "settlement": "Mikan Island"
+  },
+  {
+   "board_id": "mikan_island",
+   "id": "mikan_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Gym Aide Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 300,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 1,
+   "settlement": "Mikan Island"
+  },
+  {
+   "board_id": "mikan_island",
+   "id": "mikan_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Sailor Dario",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 370,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1000,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1000 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 1,
+   "settlement": "Mikan Island"
+  },
+  {
+   "board_id": "mikan_island",
+   "id": "mikan_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Clerk Tamsin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 1
+    },
+    "money": 610,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Mikan Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 1,
+   "settlement": "Mikan Island"
+  },
+  {
+   "board_id": "mikan_island",
+   "id": "mikan_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Gym Aide Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "poke-ball": 2
+    },
+    "money": 510,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "chesto-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Chesto Berry to the Mikan Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 1,
+   "settlement": "Mikan Island"
+  },
+  {
+   "board_id": "mikan_island",
+   "id": "mikan_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Spearow",
+    "portrait": "0021",
+    "species": "spearow"
+   },
+   "reward": {
+    "items": {},
+    "money": 950,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "mikan_coast",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Spearow is lost — reach Mikan_Coast and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 1,
+   "settlement": "Mikan Island"
+  },
+  {
+   "board_id": "mikan_island",
+   "id": "mikan_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Sailor Dario",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 540,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "sea",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a sea habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 1,
+   "settlement": "Mikan Island"
+  },
+  {
+   "board_id": "mikan_island",
+   "id": "mikan_island_rain_catch",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Gym Aide Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 710,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "tentacool",
+    "type": "catch"
+   },
+   "title": "Rainy-day study: catch a Tentacool in the rain",
+   "window": {
+    "kind": "weather",
+    "value": "rain"
+   },
+   "source_label": "pattern: GO weather-window field research",
+   "level_band": 1,
+   "settlement": "Mikan Island"
+  },
+  {
+   "board_id": "moro_island",
+   "id": "moro_island_catch_gastly",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Ruins Keeper Soma",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 760,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "gastly",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Gastly near Moro Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 2,
+   "settlement": "Moro Island"
+  },
+  {
+   "board_id": "moro_island",
+   "id": "moro_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Diver Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 510,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Moro Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 2,
+   "settlement": "Moro Island"
+  },
+  {
+   "board_id": "moro_island",
+   "id": "moro_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Historian Yara",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 380,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Moro Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 2,
+   "settlement": "Moro Island"
+  },
+  {
+   "board_id": "moro_island",
+   "id": "moro_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Ruins Keeper Soma",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 380,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 2,
+   "settlement": "Moro Island"
+  },
+  {
+   "board_id": "moro_island",
+   "id": "moro_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Diver Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 470,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1200,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1200 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 2,
+   "settlement": "Moro Island"
+  },
+  {
+   "board_id": "moro_island",
+   "id": "moro_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Historian Yara",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "great-ball": 2
+    },
+    "money": 760,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Moro Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 2,
+   "settlement": "Moro Island"
+  },
+  {
+   "board_id": "moro_island",
+   "id": "moro_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Ruins Keeper Soma",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "super-potion": 1
+    },
+    "money": 640,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "aspear-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Aspear Berry to the Moro Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 2,
+   "settlement": "Moro Island"
+  },
+  {
+   "board_id": "moro_island",
+   "id": "moro_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Zubat",
+    "portrait": "0041",
+    "species": "zubat"
+   },
+   "reward": {
+    "items": {},
+    "money": 1190,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "moro_ruins",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Zubat is lost — reach Moro_Ruins and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 2,
+   "settlement": "Moro Island"
+  },
+  {
+   "board_id": "moro_island",
+   "id": "moro_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Diver Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 680,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "urban",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit an urban habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 2,
+   "settlement": "Moro Island"
+  },
+  {
+   "board_id": "moro_island",
+   "id": "moro_island_catch_tentacool_b",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Diver Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 760,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "tentacool",
+    "type": "catch"
+   },
+   "title": "Local notes: catch 2 Tentacool for the board",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 2,
+   "settlement": "Moro Island"
+  },
+  {
+   "board_id": "murcott_island",
+   "id": "murcott_island_catch_scyther",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Bug Researcher Ilya",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 920,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "scyther",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Scyther near Murcott Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 3,
+   "settlement": "Murcott Island"
+  },
+  {
+   "board_id": "murcott_island",
+   "id": "murcott_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Guide Fern",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 620,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Murcott Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 3,
+   "settlement": "Murcott Island"
+  },
+  {
+   "board_id": "murcott_island",
+   "id": "murcott_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Herbalist Noa",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 460,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Murcott Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 3,
+   "settlement": "Murcott Island"
+  },
+  {
+   "board_id": "murcott_island",
+   "id": "murcott_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Bug Researcher Ilya",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 460,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 3,
+   "settlement": "Murcott Island"
+  },
+  {
+   "board_id": "murcott_island",
+   "id": "murcott_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Guide Fern",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 560,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1400,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1400 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 3,
+   "settlement": "Murcott Island"
+  },
+  {
+   "board_id": "murcott_island",
+   "id": "murcott_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Herbalist Noa",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "super-potion": 1
+    },
+    "money": 920,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Murcott Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 3,
+   "settlement": "Murcott Island"
+  },
+  {
+   "board_id": "murcott_island",
+   "id": "murcott_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Bug Researcher Ilya",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "antidote": 2
+    },
+    "money": 770,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "persim-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Persim Berry to the Murcott Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 3,
+   "settlement": "Murcott Island"
+  },
+  {
+   "board_id": "murcott_island",
+   "id": "murcott_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Pinsir",
+    "portrait": "0127",
+    "species": "pinsir"
+   },
+   "reward": {
+    "items": {},
+    "money": 1430,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "murcott_forest",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Pinsir is lost — reach Murcott_Forest and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 3,
+   "settlement": "Murcott Island"
+  },
+  {
+   "board_id": "murcott_island",
+   "id": "murcott_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Guide Fern",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 820,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "forest",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a forest habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 3,
+   "settlement": "Murcott Island"
+  },
+  {
+   "board_id": "murcott_island",
+   "id": "murcott_island_field_illuminate",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Herbalist Noa",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 720,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "illuminate",
+    "count": 2,
+    "target": "illuminate",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Illuminate in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 3,
+   "settlement": "Murcott Island"
+  },
+  {
+   "board_id": "kinnow_island",
+   "id": "kinnow_island_catch_shellder",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Fisher Maren",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 920,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "shellder",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Shellder near Kinnow Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 3,
+   "settlement": "Kinnow Island"
+  },
+  {
+   "board_id": "kinnow_island",
+   "id": "kinnow_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Clerk Ula",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 620,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Kinnow Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 3,
+   "settlement": "Kinnow Island"
+  },
+  {
+   "board_id": "kinnow_island",
+   "id": "kinnow_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Shell Fan Sel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 460,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Kinnow Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 3,
+   "settlement": "Kinnow Island"
+  },
+  {
+   "board_id": "kinnow_island",
+   "id": "kinnow_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Fisher Maren",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 460,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 3,
+   "settlement": "Kinnow Island"
+  },
+  {
+   "board_id": "kinnow_island",
+   "id": "kinnow_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Clerk Ula",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 560,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1400,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1400 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 3,
+   "settlement": "Kinnow Island"
+  },
+  {
+   "board_id": "kinnow_island",
+   "id": "kinnow_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Shell Fan Sel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "antidote": 2
+    },
+    "money": 920,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Kinnow Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 3,
+   "settlement": "Kinnow Island"
+  },
+  {
+   "board_id": "kinnow_island",
+   "id": "kinnow_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Fisher Maren",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "super-potion": 1
+    },
+    "money": 770,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "sitrus-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Sitrus Berry to the Kinnow Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 3,
+   "settlement": "Kinnow Island"
+  },
+  {
+   "board_id": "kinnow_island",
+   "id": "kinnow_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Slowpoke",
+    "portrait": "0079",
+    "species": "slowpoke"
+   },
+   "reward": {
+    "items": {},
+    "money": 1430,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "kinnow_shore",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Slowpoke is lost — reach Kinnow_Shore and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 3,
+   "settlement": "Kinnow Island"
+  },
+  {
+   "board_id": "kinnow_island",
+   "id": "kinnow_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Clerk Ula",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 820,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "sea",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a sea habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 3,
+   "settlement": "Kinnow Island"
+  },
+  {
+   "board_id": "kinnow_island",
+   "id": "kinnow_island_vexa",
+   "kind": "job",
+   "rank_min": 1,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Shell Fan Sel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1130,
+    "rank_points": 15
+   },
+   "task": {
+    "count": 1,
+    "target": "singles",
+    "type": "vexa_clear"
+   },
+   "title": "VEXA contract (Kinnow Island): clear a singles simulation",
+   "window": {},
+   "source_label": "pattern: GO field research (battle task) on the VEXA sim",
+   "level_band": 3,
+   "settlement": "Kinnow Island"
+  },
+  {
+   "board_id": "ascorbia_island",
+   "id": "ascorbia_island_catch_vileplume",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Meadow Keeper Dov",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1080,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "vileplume",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Vileplume near Ascorbia Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 4,
+   "settlement": "Ascorbia Island"
+  },
+  {
+   "board_id": "ascorbia_island",
+   "id": "ascorbia_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Clerk Edda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 720,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Ascorbia Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 4,
+   "settlement": "Ascorbia Island"
+  },
+  {
+   "board_id": "ascorbia_island",
+   "id": "ascorbia_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Botanist Rue",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 540,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Ascorbia Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 4,
+   "settlement": "Ascorbia Island"
+  },
+  {
+   "board_id": "ascorbia_island",
+   "id": "ascorbia_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Meadow Keeper Dov",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 540,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 4,
+   "settlement": "Ascorbia Island"
+  },
+  {
+   "board_id": "ascorbia_island",
+   "id": "ascorbia_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Clerk Edda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 660,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1600,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1600 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 4,
+   "settlement": "Ascorbia Island"
+  },
+  {
+   "board_id": "ascorbia_island",
+   "id": "ascorbia_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Botanist Rue",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 1080,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Ascorbia Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 4,
+   "settlement": "Ascorbia Island"
+  },
+  {
+   "board_id": "ascorbia_island",
+   "id": "ascorbia_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Meadow Keeper Dov",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "great-ball": 2
+    },
+    "money": 900,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "oran-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Oran Berry to the Ascorbia Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 4,
+   "settlement": "Ascorbia Island"
+  },
+  {
+   "board_id": "ascorbia_island",
+   "id": "ascorbia_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Gloom",
+    "portrait": "0044",
+    "species": "gloom"
+   },
+   "reward": {
+    "items": {},
+    "money": 1680,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "ascorbia_meadow",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Gloom is lost — reach Ascorbia_Meadow and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 4,
+   "settlement": "Ascorbia Island"
+  },
+  {
+   "board_id": "ascorbia_island",
+   "id": "ascorbia_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Clerk Edda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 960,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "grassland",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a grassland habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 4,
+   "settlement": "Ascorbia Island"
+  },
+  {
+   "board_id": "ascorbia_island",
+   "id": "ascorbia_island_rain_catch",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Meadow Keeper Dov",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1260,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "oddish",
+    "type": "catch"
+   },
+   "title": "Rainy-day study: catch an Oddish in the rain",
+   "window": {
+    "kind": "weather",
+    "value": "rain"
+   },
+   "source_label": "pattern: GO weather-window field research",
+   "level_band": 4,
+   "settlement": "Ascorbia Island"
+  },
+  {
+   "board_id": "mandarin_north",
+   "id": "mandarin_north_catch_electrode",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Dock Clerk Bel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1240,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "electrode",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Electrode near Mandarin North",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 5,
+   "settlement": "Mandarin North"
+  },
+  {
+   "board_id": "mandarin_north",
+   "id": "mandarin_north_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Engineer Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 820,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Mandarin North: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 5,
+   "settlement": "Mandarin North"
+  },
+  {
+   "board_id": "mandarin_north",
+   "id": "mandarin_north_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Vendor Fos",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 620,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Mandarin North",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 5,
+   "settlement": "Mandarin North"
+  },
+  {
+   "board_id": "mandarin_north",
+   "id": "mandarin_north_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Dock Clerk Bel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 620,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 5,
+   "settlement": "Mandarin North"
+  },
+  {
+   "board_id": "mandarin_north",
+   "id": "mandarin_north_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Engineer Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 760,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1800,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1800 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 5,
+   "settlement": "Mandarin North"
+  },
+  {
+   "board_id": "mandarin_north",
+   "id": "mandarin_north_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Vendor Fos",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "full-heal": 2
+    },
+    "money": 1240,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Mandarin North: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 5,
+   "settlement": "Mandarin North"
+  },
+  {
+   "board_id": "mandarin_north",
+   "id": "mandarin_north_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Dock Clerk Bel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 1030,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "cheri-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Cheri Berry to the Mandarin North board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 5,
+   "settlement": "Mandarin North"
+  },
+  {
+   "board_id": "mandarin_north",
+   "id": "mandarin_north_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Voltorb",
+    "portrait": "0100",
+    "species": "voltorb"
+   },
+   "reward": {
+    "items": {},
+    "money": 1920,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "mandarin_city_docks",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Voltorb is lost — reach Mandarin_City_Docks and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 5,
+   "settlement": "Mandarin North"
+  },
+  {
+   "board_id": "mandarin_north",
+   "id": "mandarin_north_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Engineer Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1100,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "urban",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit an urban habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 5,
+   "settlement": "Mandarin North"
+  },
+  {
+   "board_id": "mandarin_north",
+   "id": "mandarin_north_catch_meowth_b",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Engineer Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1240,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "meowth",
+    "type": "catch"
+   },
+   "title": "Local notes: catch 2 Meowth for the board",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 5,
+   "settlement": "Mandarin North"
+  },
+  {
+   "board_id": "sunburst_island",
+   "id": "sunburst_island_catch_onix",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Glass Artist Sera",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1240,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "onix",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Onix near Sunburst Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 5,
+   "settlement": "Sunburst Island"
+  },
+  {
+   "board_id": "sunburst_island",
+   "id": "sunburst_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Miner Ansel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 820,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Sunburst Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 5,
+   "settlement": "Sunburst Island"
+  },
+  {
+   "board_id": "sunburst_island",
+   "id": "sunburst_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Guide Kae",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 620,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Sunburst Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 5,
+   "settlement": "Sunburst Island"
+  },
+  {
+   "board_id": "sunburst_island",
+   "id": "sunburst_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Glass Artist Sera",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 620,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 5,
+   "settlement": "Sunburst Island"
+  },
+  {
+   "board_id": "sunburst_island",
+   "id": "sunburst_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Miner Ansel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 760,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1800,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1800 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 5,
+   "settlement": "Sunburst Island"
+  },
+  {
+   "board_id": "sunburst_island",
+   "id": "sunburst_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Guide Kae",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 1240,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Sunburst Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 5,
+   "settlement": "Sunburst Island"
+  },
+  {
+   "board_id": "sunburst_island",
+   "id": "sunburst_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Glass Artist Sera",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "full-heal": 2
+    },
+    "money": 1030,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "chesto-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Chesto Berry to the Sunburst Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 5,
+   "settlement": "Sunburst Island"
+  },
+  {
+   "board_id": "sunburst_island",
+   "id": "sunburst_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Geodude",
+    "portrait": "0074",
+    "species": "geodude"
+   },
+   "reward": {
+    "items": {},
+    "money": 1920,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "sunburst_crystal_cave",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Geodude is lost — reach Sunburst_Crystal_Cave and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 5,
+   "settlement": "Sunburst Island"
+  },
+  {
+   "board_id": "sunburst_island",
+   "id": "sunburst_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Miner Ansel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1100,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "cave",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a cave habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 5,
+   "settlement": "Sunburst Island"
+  },
+  {
+   "board_id": "sunburst_island",
+   "id": "sunburst_island_field_rock_smash",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Guide Kae",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 960,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "rock_smash",
+    "count": 2,
+    "target": "rock_smash",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Rock_Smash in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 5,
+   "settlement": "Sunburst Island"
+  },
+  {
+   "board_id": "shamouti_island",
+   "id": "shamouti_island_catch_slowpoke",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Shrine Maiden Yuna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1390,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "slowpoke",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Slowpoke near Shamouti Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 6,
+   "settlement": "Shamouti Island"
+  },
+  {
+   "board_id": "shamouti_island",
+   "id": "shamouti_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Fisher Colm",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 930,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Shamouti Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 6,
+   "settlement": "Shamouti Island"
+  },
+  {
+   "board_id": "shamouti_island",
+   "id": "shamouti_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Elder's Aide Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 700,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Shamouti Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 6,
+   "settlement": "Shamouti Island"
+  },
+  {
+   "board_id": "shamouti_island",
+   "id": "shamouti_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Shrine Maiden Yuna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 700,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 6,
+   "settlement": "Shamouti Island"
+  },
+  {
+   "board_id": "shamouti_island",
+   "id": "shamouti_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Fisher Colm",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 850,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2000,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2000 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 6,
+   "settlement": "Shamouti Island"
+  },
+  {
+   "board_id": "shamouti_island",
+   "id": "shamouti_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Elder's Aide Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1390,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Shamouti Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 6,
+   "settlement": "Shamouti Island"
+  },
+  {
+   "board_id": "shamouti_island",
+   "id": "shamouti_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Shrine Maiden Yuna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 1160,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "aspear-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Aspear Berry to the Shamouti Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 6,
+   "settlement": "Shamouti Island"
+  },
+  {
+   "board_id": "shamouti_island",
+   "id": "shamouti_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Shellder",
+    "portrait": "0090",
+    "species": "shellder"
+   },
+   "reward": {
+    "items": {},
+    "money": 2170,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "shamouti_shrine_isle",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Shellder is lost — reach Shamouti_Shrine_Isle and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 6,
+   "settlement": "Shamouti Island"
+  },
+  {
+   "board_id": "shamouti_island",
+   "id": "shamouti_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Fisher Colm",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1240,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "sea",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a sea habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 6,
+   "settlement": "Shamouti Island"
+  },
+  {
+   "board_id": "shamouti_island",
+   "id": "shamouti_island_vexa",
+   "kind": "job",
+   "rank_min": 1,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Elder's Aide Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1700,
+    "rank_points": 15
+   },
+   "task": {
+    "count": 1,
+    "target": "singles",
+    "type": "vexa_clear"
+   },
+   "title": "VEXA contract (Shamouti Island): clear a singles simulation",
+   "window": {},
+   "source_label": "pattern: GO field research (battle task) on the VEXA sim",
+   "level_band": 6,
+   "settlement": "Shamouti Island"
+  },
+  {
+   "board_id": "kumquat_island",
+   "id": "kumquat_island_catch_staryu",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Resort Clerk Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "staryu",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Staryu near Kumquat Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 7,
+   "settlement": "Kumquat Island"
+  },
+  {
+   "board_id": "kumquat_island",
+   "id": "kumquat_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Gym Aide Asha",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1040,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Kumquat Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 7,
+   "settlement": "Kumquat Island"
+  },
+  {
+   "board_id": "kumquat_island",
+   "id": "kumquat_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Diver Leda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 780,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Kumquat Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 7,
+   "settlement": "Kumquat Island"
+  },
+  {
+   "board_id": "kumquat_island",
+   "id": "kumquat_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Resort Clerk Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 780,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 7,
+   "settlement": "Kumquat Island"
+  },
+  {
+   "board_id": "kumquat_island",
+   "id": "kumquat_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Gym Aide Asha",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 950,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2200,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2200 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 7,
+   "settlement": "Kumquat Island"
+  },
+  {
+   "board_id": "kumquat_island",
+   "id": "kumquat_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Diver Leda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "max-potion": 1
+    },
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Kumquat Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 7,
+   "settlement": "Kumquat Island"
+  },
+  {
+   "board_id": "kumquat_island",
+   "id": "kumquat_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Resort Clerk Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1290,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "persim-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Persim Berry to the Kumquat Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 7,
+   "settlement": "Kumquat Island"
+  },
+  {
+   "board_id": "kumquat_island",
+   "id": "kumquat_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Tentacool",
+    "portrait": "0072",
+    "species": "tentacool"
+   },
+   "reward": {
+    "items": {},
+    "money": 2420,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "kumquat_coast",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Tentacool is lost — reach Kumquat_Coast and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 7,
+   "settlement": "Kumquat Island"
+  },
+  {
+   "board_id": "kumquat_island",
+   "id": "kumquat_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Gym Aide Asha",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1380,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "sea",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a sea habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 7,
+   "settlement": "Kumquat Island"
+  },
+  {
+   "board_id": "kumquat_island",
+   "id": "kumquat_island_rain_catch",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Resort Clerk Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1810,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "krabby",
+    "type": "catch"
+   },
+   "title": "Rainy-day study: catch a Krabby in the rain",
+   "window": {
+    "kind": "weather",
+    "value": "rain"
+   },
+   "source_label": "pattern: GO weather-window field research",
+   "level_band": 7,
+   "settlement": "Kumquat Island"
+  },
+  {
+   "board_id": "trovitopolis",
+   "id": "trovitopolis_catch_abra",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "City Clerk Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "abra",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Abra near Trovitopolis",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 7,
+   "settlement": "Trovitopolis"
+  },
+  {
+   "board_id": "trovitopolis",
+   "id": "trovitopolis_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Engineer Ivo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1040,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Trovitopolis: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 7,
+   "settlement": "Trovitopolis"
+  },
+  {
+   "board_id": "trovitopolis",
+   "id": "trovitopolis_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Medic Sanna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 780,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Trovitopolis",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 7,
+   "settlement": "Trovitopolis"
+  },
+  {
+   "board_id": "trovitopolis",
+   "id": "trovitopolis_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "City Clerk Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 780,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 7,
+   "settlement": "Trovitopolis"
+  },
+  {
+   "board_id": "trovitopolis",
+   "id": "trovitopolis_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Engineer Ivo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 950,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2200,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2200 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 7,
+   "settlement": "Trovitopolis"
+  },
+  {
+   "board_id": "trovitopolis",
+   "id": "trovitopolis_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Medic Sanna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Trovitopolis: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 7,
+   "settlement": "Trovitopolis"
+  },
+  {
+   "board_id": "trovitopolis",
+   "id": "trovitopolis_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "City Clerk Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "max-potion": 1
+    },
+    "money": 1290,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "sitrus-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Sitrus Berry to the Trovitopolis board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 7,
+   "settlement": "Trovitopolis"
+  },
+  {
+   "board_id": "trovitopolis",
+   "id": "trovitopolis_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Drowzee",
+    "portrait": "0096",
+    "species": "drowzee"
+   },
+   "reward": {
+    "items": {},
+    "money": 2420,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "trovitopolis_sewers",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Drowzee is lost — reach Trovitopolis_Sewers and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 7,
+   "settlement": "Trovitopolis"
+  },
+  {
+   "board_id": "trovitopolis",
+   "id": "trovitopolis_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Engineer Ivo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1380,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "urban",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit an urban habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 7,
+   "settlement": "Trovitopolis"
+  },
+  {
+   "board_id": "trovitopolis",
+   "id": "trovitopolis_catch_growlithe_b",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Engineer Ivo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "growlithe",
+    "type": "catch"
+   },
+   "title": "Local notes: catch 2 Growlithe for the board",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 7,
+   "settlement": "Trovitopolis"
+  },
+  {
+   "board_id": "pummelo_island",
+   "id": "pummelo_island_catch_fearow",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "League Clerk Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "fearow",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Fearow near Pummelo Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 8,
+   "settlement": "Pummelo Island"
+  },
+  {
+   "board_id": "pummelo_island",
+   "id": "pummelo_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Veteran Odo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1140,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Pummelo Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 8,
+   "settlement": "Pummelo Island"
+  },
+  {
+   "board_id": "pummelo_island",
+   "id": "pummelo_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Medic Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 860,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Pummelo Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 8,
+   "settlement": "Pummelo Island"
+  },
+  {
+   "board_id": "pummelo_island",
+   "id": "pummelo_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "League Clerk Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 860,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 8,
+   "settlement": "Pummelo Island"
+  },
+  {
+   "board_id": "pummelo_island",
+   "id": "pummelo_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Veteran Odo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1040,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2400,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2400 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 8,
+   "settlement": "Pummelo Island"
+  },
+  {
+   "board_id": "pummelo_island",
+   "id": "pummelo_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Medic Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "full-restore": 1
+    },
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Pummelo Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 8,
+   "settlement": "Pummelo Island"
+  },
+  {
+   "board_id": "pummelo_island",
+   "id": "pummelo_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "League Clerk Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1420,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "oran-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Oran Berry to the Pummelo Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 8,
+   "settlement": "Pummelo Island"
+  },
+  {
+   "board_id": "pummelo_island",
+   "id": "pummelo_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Tentacruel",
+    "portrait": "0073",
+    "species": "tentacruel"
+   },
+   "reward": {
+    "items": {},
+    "money": 2660,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "pummelo_stadium_grounds",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Tentacruel is lost — reach Pummelo_Stadium_Grounds and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 8,
+   "settlement": "Pummelo Island"
+  },
+  {
+   "board_id": "pummelo_island",
+   "id": "pummelo_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Veteran Odo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1520,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "sea",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a sea habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 8,
+   "settlement": "Pummelo Island"
+  },
+  {
+   "board_id": "pummelo_island",
+   "id": "pummelo_island_field_strength",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "orange_islands",
+   "requester": {
+    "name": "Medic Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1330,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "strength",
+    "count": 2,
+    "target": "strength",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Strength in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 8,
+   "settlement": "Pummelo Island"
+  }
+ ],
+ "special_chains": [
+  {
+   "board_id": "valencia_island",
+   "id": "valencia_island_chain_helper",
+   "posted_by": "Lab Aide Sora",
+   "region_id": "orange_islands",
+   "reward": {
+    "items": {
+     "potion": 1
+    },
+    "money": 700,
+    "rank_points": 30
+   },
+   "steps": [
+    {
+     "count": 1,
+     "target": "pidgey",
+     "title": "Step 1: catch a Pidgey for a local study",
+     "type": "catch"
+    },
+    {
+     "count": 1,
+     "target": "",
+     "title": "Step 2: win a battle to check its condition",
+     "type": "battle_win"
+    },
+    {
+     "action": "groom",
+     "count": 1,
+     "target": "",
+     "title": "Step 3: groom your follower to finish the check-in",
+     "type": "care"
+    }
+   ],
+   "title": "Valencia Island helper",
+   "unlock": {
+    "flag": "",
+    "min_rank": 0
+   },
+   "source_label": "pattern: GO special research chain on a PMD board",
+   "level_band": 0,
+   "settlement": "Valencia Island"
+  },
+  {
+   "board_id": "ascorbia_island",
+   "id": "ascorbia_island_chain_rounds",
+   "posted_by": "Clerk Edda",
+   "region_id": "orange_islands",
+   "reward": {
+    "items": {
+     "great-ball": 2
+    },
+    "money": 1680,
+    "rank_points": 30
+   },
+   "steps": [
+    {
+     "count": 500,
+     "target": "",
+     "title": "Step 1: walk 500 steps on patrol",
+     "type": "walk"
+    },
+    {
+     "count": 1,
+     "target": "grassland",
+     "title": "Step 2: visit the local habitat",
+     "type": "habitat"
+    },
+    {
+     "count": 2,
+     "target": "",
+     "title": "Step 3: win 2 battles on the round",
+     "type": "battle_win"
+    }
+   ],
+   "title": "Rounds of Ascorbia Island",
+   "unlock": {
+    "flag": "",
+    "min_rank": 1
+   },
+   "source_label": "pattern: GO special research chain on a PMD board",
+   "level_band": 4,
+   "settlement": "Ascorbia Island"
+  },
+  {
+   "board_id": "pummelo_island",
+   "id": "pummelo_island_chain_lost_and_found",
+   "posted_by": "Medic Ines",
+   "region_id": "orange_islands",
+   "reward": {
+    "items": {
+     "ultra-ball": 1
+    },
+    "money": 2660,
+    "rank_points": 30
+   },
+   "steps": [
+    {
+     "count": 1,
+     "target": "cheri-berry",
+     "title": "Step 1: bring the board a berry",
+     "type": "deliver"
+    },
+    {
+     "count": 1,
+     "target": "starmie",
+     "title": "Step 2: catch a Starmie seen near the lost spot",
+     "type": "catch"
+    },
+    {
+     "count": 1,
+     "target": "",
+     "title": "Step 3: win a battle to clear the way home",
+     "type": "battle_win"
+    }
+   ],
+   "title": "Lost and found in Pummelo Island",
+   "unlock": {
+    "flag": "",
+    "min_rank": 2
+   },
+   "source_label": "pattern: GO special research chain on a PMD board",
+   "level_band": 8,
+   "settlement": "Pummelo Island"
+  }
+ ]
+}

@@ -1,0 +1,1318 @@
+{
+ "format": "PUW Johto phone-contact -> rematch-tier mapping — companion to rematch_tables_johto.json (staging prep).",
+ "provenance": "Ladder mechanics proven from held pokecrystal map scripts: each wired contact's trainer script keeps a w<Name>FightCount counter; Fight0 loads the contact party, Fight1.. load the remaining same-name parties in ascending const order, each behind a checkevent/checkflag story gate in the same script. Gates below are extracted verbatim from those cascades. Caller ids are the PHONE_* constants the scripts load into VAR_CALLERID.",
+ "input_sha256": {
+  "audit_identities": "653a3e07c6a42cc926520a373a97d9f46e1b38db73a0349ac9dde799e022160c",
+  "audit_results": "b556530313ab3f3dc7cfa76e95dda73ffae606371f2da624ee7d476a922dc596",
+  "encounter_census": "dd9864a64e97fca713f6d4b52e8dc2ea5c379e2c144a596ee99f3ef5f22551c3",
+  "bound_johto_trainers": "c608f8f191c0cff8ed80a6578ad650f4bb29fcc403f052dd9ad09fe0af9a53a2",
+  "bound_combined_trainers": "f8a06598c79c7087ab9376688230e7d383a859ffb466dc3774272ddf59154ad8",
+  "bound_johto_wild_encounters": "9503d1bff20b6c6158d81c3b34e46d554e2e7763284587f67b7561d0e9b20f81",
+  "pokecrystal_parties_asm": "934e5a781c64c000c82423ea3bde5ef947549112d4129f5e075a084f343d7eba",
+  "pokecrystal_attributes_asm": "05f50c24fb25244de2e4ccef093b1967cff9e45f8f8fc71401f9dbeaff9253d2",
+  "pokecrystal_phone_contacts_asm": "283457613bb879d5790321aafb6ed332a8e11de623dff64170708f0adc73a14e",
+  "pokecrystal_fish_asm": "bf2065530445073258bd04a49f612551cbf79c223052db058a1f512cd61dfc40"
+ },
+ "contacts": [
+  {
+   "name": "JACK",
+   "class": "SCHOOLBOY",
+   "combined_class": "SCHOOLBOY",
+   "contact_const": "JACK1",
+   "first_battle_const": "JACK1",
+   "caller_id": "PHONE_SCHOOLBOY_JACK",
+   "map": "NationalPark",
+   "map_slug": "national_park",
+   "home_script": "TrainerSchoolboyJack1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "JACK1",
+     "party_index": 1,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "JACK2",
+     "party_index": 13,
+     "fight": 1,
+     "gate_event": "ENGINE_FLYPOINT_OLIVINE",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 3,
+     "id_const": "JACK3",
+     "party_index": 14,
+     "fight": 2,
+     "gate_event": "EVENT_CLEARED_RADIO_TOWER",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 4,
+     "id_const": "JACK4",
+     "party_index": 19,
+     "fight": 3,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 5,
+     "id_const": "JACK5",
+     "party_index": 20,
+     "fight": 4,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "BEVERLY",
+   "class": "POKEFANF",
+   "combined_class": "POKEFANF",
+   "contact_const": "BEVERLY1",
+   "first_battle_const": "BEVERLY1",
+   "caller_id": "PHONE_POKEFAN_BEVERLY",
+   "map": "NationalPark",
+   "map_slug": "national_park",
+   "home_script": "TrainerPokefanfBeverly1",
+   "ladder_wired_in_crystal": false,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "BEVERLY1",
+     "party_index": 1,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "BEVERLY2",
+     "party_index": 3,
+     "fight": 1,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 3,
+     "id_const": "BEVERLY3",
+     "party_index": 4,
+     "fight": 2,
+     "gate_event": null,
+     "gate_kind": null
+    }
+   ],
+   "note": "UNWIRED IN CRYSTAL: no loadtrainer branches, no *_READY_FOR_REMATCH flag; wBeverlyFightCount is marked '; unreferenced' in pokecrystal ram/wram.asm. The extra same-name parties exist in parties.asm but no script ever loads them. Ladder order here is derived (first-battle party, then remaining same-name parties in ascending const order), the same rule the wired scripts follow."
+  },
+  {
+   "name": "HUEY",
+   "class": "SAILOR",
+   "combined_class": "JOHTO_SAILOR",
+   "contact_const": "HUEY1",
+   "first_battle_const": "HUEY1",
+   "caller_id": "PHONE_SAILOR_HUEY",
+   "map": "OlivineLighthouse2F",
+   "map_slug": "olivine_lighthouse2f",
+   "home_script": "TrainerSailorHuey",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "HUEY1",
+     "party_index": 2,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "HUEY2",
+     "party_index": 11,
+     "fight": 1,
+     "gate_event": "EVENT_CLEARED_RADIO_TOWER",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 3,
+     "id_const": "HUEY3",
+     "party_index": 12,
+     "fight": 2,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 4,
+     "id_const": "HUEY4",
+     "party_index": 13,
+     "fight": 3,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "GAVEN",
+   "class": "COOLTRAINERM",
+   "combined_class": "COOLTRAINERM",
+   "contact_const": "GAVEN3",
+   "first_battle_const": "GAVEN3",
+   "caller_id": "PHONE_COOLTRAINERM_GAVEN",
+   "map": "Route26",
+   "map_slug": "route26",
+   "home_script": "TrainerCooltrainermGaven3",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "GAVEN3",
+     "party_index": 10,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "GAVEN1",
+     "party_index": 6,
+     "fight": 1,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 3,
+     "id_const": "GAVEN2",
+     "party_index": 7,
+     "fight": 2,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "BETH",
+   "class": "COOLTRAINERF",
+   "combined_class": "COOLTRAINERF",
+   "contact_const": "BETH1",
+   "first_battle_const": "BETH1",
+   "caller_id": "PHONE_COOLTRAINERF_BETH",
+   "map": "Route26",
+   "map_slug": "route26",
+   "home_script": "TrainerCooltrainerfBeth1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "BETH1",
+     "party_index": 9,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "BETH2",
+     "party_index": 12,
+     "fight": 1,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 3,
+     "id_const": "BETH3",
+     "party_index": 18,
+     "fight": 2,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "JOSE",
+   "class": "BIRD_KEEPER",
+   "combined_class": "JOHTO_BIRD_KEEPER",
+   "contact_const": "JOSE2",
+   "first_battle_const": "JOSE2",
+   "caller_id": "PHONE_BIRDKEEPER_JOSE",
+   "map": "Route27",
+   "map_slug": "route27",
+   "home_script": "TrainerBirdKeeperJose2",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "JOSE2",
+     "party_index": 14,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "JOSE1",
+     "party_index": 12,
+     "fight": 1,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 3,
+     "id_const": "JOSE3",
+     "party_index": 17,
+     "fight": 2,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "REENA",
+   "class": "COOLTRAINERF",
+   "combined_class": "COOLTRAINERF",
+   "contact_const": "REENA1",
+   "first_battle_const": "REENA1",
+   "caller_id": "PHONE_COOLTRAINERF_REENA",
+   "map": "Route27",
+   "map_slug": "route27",
+   "home_script": "TrainerCooltrainerfReena",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "REENA1",
+     "party_index": 10,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "REENA2",
+     "party_index": 19,
+     "fight": 1,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 3,
+     "id_const": "REENA3",
+     "party_index": 20,
+     "fight": 2,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "JOEY",
+   "class": "YOUNGSTER",
+   "combined_class": "JOHTO_YOUNGSTER",
+   "contact_const": "JOEY1",
+   "first_battle_const": "JOEY1",
+   "caller_id": "PHONE_YOUNGSTER_JOEY",
+   "map": "Route30",
+   "map_slug": "route30",
+   "home_script": "TrainerYoungsterJoey",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "JOEY1",
+     "party_index": 1,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "JOEY2",
+     "party_index": 7,
+     "fight": 1,
+     "gate_event": "ENGINE_FLYPOINT_GOLDENROD",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 3,
+     "id_const": "JOEY3",
+     "party_index": 8,
+     "fight": 2,
+     "gate_event": "ENGINE_FLYPOINT_OLIVINE",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 4,
+     "id_const": "JOEY4",
+     "party_index": 13,
+     "fight": 3,
+     "gate_event": "EVENT_CLEARED_RADIO_TOWER",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 5,
+     "id_const": "JOEY5",
+     "party_index": 14,
+     "fight": 4,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "WADE",
+   "class": "BUG_CATCHER",
+   "combined_class": "JOHTO_BUG_CATCHER",
+   "contact_const": "WADE1",
+   "first_battle_const": "WADE1",
+   "caller_id": "PHONE_BUG_CATCHER_WADE",
+   "map": "Route31",
+   "map_slug": "route31",
+   "home_script": "TrainerBugCatcherWade1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "WADE1",
+     "party_index": 4,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "WADE2",
+     "party_index": 10,
+     "fight": 1,
+     "gate_event": "ENGINE_FLYPOINT_GOLDENROD",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 3,
+     "id_const": "WADE3",
+     "party_index": 11,
+     "fight": 2,
+     "gate_event": "ENGINE_FLYPOINT_MAHOGANY",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 4,
+     "id_const": "WADE4",
+     "party_index": 15,
+     "fight": 3,
+     "gate_event": "EVENT_CLEARED_RADIO_TOWER",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 5,
+     "id_const": "WADE5",
+     "party_index": 16,
+     "fight": 4,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "RALPH",
+   "class": "FISHER",
+   "combined_class": "JOHTO_FISHER",
+   "contact_const": "RALPH1",
+   "first_battle_const": "RALPH1",
+   "caller_id": "PHONE_FISHER_RALPH",
+   "map": "Route32",
+   "map_slug": "route32",
+   "home_script": "TrainerFisherRalph1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "RALPH1",
+     "party_index": 2,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "RALPH2",
+     "party_index": 16,
+     "fight": 1,
+     "gate_event": "ENGINE_FLYPOINT_ECRUTEAK",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 3,
+     "id_const": "RALPH3",
+     "party_index": 17,
+     "fight": 2,
+     "gate_event": "ENGINE_FLYPOINT_LAKE_OF_RAGE",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 4,
+     "id_const": "RALPH4",
+     "party_index": 23,
+     "fight": 3,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 5,
+     "id_const": "RALPH5",
+     "party_index": 24,
+     "fight": 4,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "LIZ",
+   "class": "PICNICKER",
+   "combined_class": "PICNICKER",
+   "contact_const": "LIZ1",
+   "first_battle_const": "LIZ1",
+   "caller_id": "PHONE_PICNICKER_LIZ",
+   "map": "Route32",
+   "map_slug": "route32",
+   "home_script": "TrainerPicnickerLiz1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "LIZ1",
+     "party_index": 1,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "LIZ2",
+     "party_index": 11,
+     "fight": 1,
+     "gate_event": "ENGINE_FLYPOINT_ECRUTEAK",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 3,
+     "id_const": "LIZ3",
+     "party_index": 12,
+     "fight": 2,
+     "gate_event": "EVENT_CLEARED_ROCKET_HIDEOUT",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 4,
+     "id_const": "LIZ4",
+     "party_index": 22,
+     "fight": 3,
+     "gate_event": "EVENT_CLEARED_RADIO_TOWER",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 5,
+     "id_const": "LIZ5",
+     "party_index": 23,
+     "fight": 4,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "ANTHONY",
+   "class": "HIKER",
+   "combined_class": "JOHTO_HIKER",
+   "contact_const": "ANTHONY2",
+   "first_battle_const": "ANTHONY2",
+   "caller_id": "PHONE_HIKER_ANTHONY",
+   "map": "Route33",
+   "map_slug": "route33",
+   "home_script": "TrainerHikerAnthony",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "ANTHONY2",
+     "party_index": 5,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "ANTHONY1",
+     "party_index": 1,
+     "fight": 1,
+     "gate_event": "ENGINE_FLYPOINT_OLIVINE",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 3,
+     "id_const": "ANTHONY3",
+     "party_index": 12,
+     "fight": 2,
+     "gate_event": "EVENT_CLEARED_RADIO_TOWER",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 4,
+     "id_const": "ANTHONY4",
+     "party_index": 21,
+     "fight": 3,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 5,
+     "id_const": "ANTHONY5",
+     "party_index": 22,
+     "fight": 4,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "TODD",
+   "class": "CAMPER",
+   "combined_class": "CAMPER",
+   "contact_const": "TODD1",
+   "first_battle_const": "TODD1",
+   "caller_id": "PHONE_CAMPER_TODD",
+   "map": "Route34",
+   "map_slug": "route34",
+   "home_script": "TrainerCamperTodd1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "TODD1",
+     "party_index": 2,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "TODD2",
+     "party_index": 12,
+     "fight": 1,
+     "gate_event": "ENGINE_FLYPOINT_CIANWOOD",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 3,
+     "id_const": "TODD3",
+     "party_index": 13,
+     "fight": 2,
+     "gate_event": "ENGINE_FLYPOINT_BLACKTHORN",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 4,
+     "id_const": "TODD4",
+     "party_index": 20,
+     "fight": 3,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 5,
+     "id_const": "TODD5",
+     "party_index": 21,
+     "fight": 4,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "GINA",
+   "class": "PICNICKER",
+   "combined_class": "PICNICKER",
+   "contact_const": "GINA1",
+   "first_battle_const": "GINA1",
+   "caller_id": "PHONE_PICNICKER_GINA",
+   "map": "Route34",
+   "map_slug": "route34",
+   "home_script": "TrainerPicnickerGina1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "GINA1",
+     "party_index": 2,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "GINA2",
+     "party_index": 9,
+     "fight": 1,
+     "gate_event": "ENGINE_FLYPOINT_MAHOGANY",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 3,
+     "id_const": "GINA3",
+     "party_index": 15,
+     "fight": 2,
+     "gate_event": "EVENT_CLEARED_RADIO_TOWER",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 4,
+     "id_const": "GINA4",
+     "party_index": 24,
+     "fight": 3,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 5,
+     "id_const": "GINA5",
+     "party_index": 25,
+     "fight": 4,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "IRWIN",
+   "class": "JUGGLER",
+   "combined_class": "JOHTO_JUGGLER",
+   "contact_const": "IRWIN1",
+   "first_battle_const": "IRWIN1",
+   "caller_id": "PHONE_JUGGLER_IRWIN",
+   "map": "Route35",
+   "map_slug": "route35",
+   "home_script": "TrainerJugglerIrwin",
+   "ladder_wired_in_crystal": false,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "IRWIN1",
+     "party_index": 1,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "IRWIN2",
+     "party_index": 4,
+     "fight": 1,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 3,
+     "id_const": "IRWIN3",
+     "party_index": 5,
+     "fight": 2,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 4,
+     "id_const": "IRWIN4",
+     "party_index": 6,
+     "fight": 3,
+     "gate_event": null,
+     "gate_kind": null
+    }
+   ],
+   "note": "UNWIRED IN CRYSTAL: no loadtrainer branches, no *_READY_FOR_REMATCH flag; wIrwinFightCount is marked '; unreferenced' in pokecrystal ram/wram.asm. The extra same-name parties exist in parties.asm but no script ever loads them. Ladder order here is derived (first-battle party, then remaining same-name parties in ascending const order), the same rule the wired scripts follow."
+  },
+  {
+   "name": "ARNIE",
+   "class": "BUG_CATCHER",
+   "combined_class": "JOHTO_BUG_CATCHER",
+   "contact_const": "ARNIE1",
+   "first_battle_const": "ARNIE1",
+   "caller_id": "PHONE_BUG_CATCHER_ARNIE",
+   "map": "Route35",
+   "map_slug": "route35",
+   "home_script": "TrainerBugCatcherArnie",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "ARNIE1",
+     "party_index": 8,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "ARNIE2",
+     "party_index": 13,
+     "fight": 1,
+     "gate_event": "ENGINE_FLYPOINT_LAKE_OF_RAGE",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 3,
+     "id_const": "ARNIE3",
+     "party_index": 14,
+     "fight": 2,
+     "gate_event": "ENGINE_FLYPOINT_BLACKTHORN",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 4,
+     "id_const": "ARNIE4",
+     "party_index": 17,
+     "fight": 3,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 5,
+     "id_const": "ARNIE5",
+     "party_index": 18,
+     "fight": 4,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "ALAN",
+   "class": "SCHOOLBOY",
+   "combined_class": "SCHOOLBOY",
+   "contact_const": "ALAN1",
+   "first_battle_const": "ALAN1",
+   "caller_id": "PHONE_SCHOOLBOY_ALAN",
+   "map": "Route36",
+   "map_slug": "route36",
+   "home_script": "TrainerSchoolboyAlan1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "ALAN1",
+     "party_index": 3,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "ALAN2",
+     "party_index": 15,
+     "fight": 1,
+     "gate_event": "ENGINE_FLYPOINT_OLIVINE",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 3,
+     "id_const": "ALAN3",
+     "party_index": 16,
+     "fight": 2,
+     "gate_event": "ENGINE_FLYPOINT_BLACKTHORN",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 4,
+     "id_const": "ALAN4",
+     "party_index": 21,
+     "fight": 3,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 5,
+     "id_const": "ALAN5",
+     "party_index": 22,
+     "fight": 4,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "DANA",
+   "class": "LASS",
+   "combined_class": "JOHTO_LASS",
+   "contact_const": "DANA1",
+   "first_battle_const": "DANA1",
+   "caller_id": "PHONE_LASS_DANA",
+   "map": "Route38",
+   "map_slug": "route38",
+   "home_script": "TrainerLassDana1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "DANA1",
+     "party_index": 10,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "DANA2",
+     "party_index": 14,
+     "fight": 1,
+     "gate_event": "ENGINE_FLYPOINT_CIANWOOD",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 3,
+     "id_const": "DANA3",
+     "party_index": 15,
+     "fight": 2,
+     "gate_event": "EVENT_CLEARED_RADIO_TOWER",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 4,
+     "id_const": "DANA4",
+     "party_index": 16,
+     "fight": 3,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 5,
+     "id_const": "DANA5",
+     "party_index": 17,
+     "fight": 4,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "CHAD",
+   "class": "SCHOOLBOY",
+   "combined_class": "SCHOOLBOY",
+   "contact_const": "CHAD1",
+   "first_battle_const": "CHAD1",
+   "caller_id": "PHONE_SCHOOLBOY_CHAD",
+   "map": "Route38",
+   "map_slug": "route38",
+   "home_script": "TrainerSchoolboyChad1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "CHAD1",
+     "party_index": 10,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "CHAD2",
+     "party_index": 17,
+     "fight": 1,
+     "gate_event": "ENGINE_FLYPOINT_MAHOGANY",
+     "gate_kind": "checkflag"
+    },
+    {
+     "tier": 3,
+     "id_const": "CHAD3",
+     "party_index": 18,
+     "fight": 2,
+     "gate_event": "EVENT_CLEARED_RADIO_TOWER",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 4,
+     "id_const": "CHAD4",
+     "party_index": 23,
+     "fight": 3,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 5,
+     "id_const": "CHAD5",
+     "party_index": 24,
+     "fight": 4,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "DEREK",
+   "class": "POKEFANM",
+   "combined_class": "POKEFANM",
+   "contact_const": "DEREK1",
+   "first_battle_const": "DEREK1",
+   "caller_id": "PHONE_POKEFANM_DEREK",
+   "map": "Route39",
+   "map_slug": "route39",
+   "home_script": "TrainerPokefanmDerek",
+   "ladder_wired_in_crystal": false,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "DEREK1",
+     "party_index": 2,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "DEREK2",
+     "party_index": 10,
+     "fight": 1,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 3,
+     "id_const": "DEREK3",
+     "party_index": 11,
+     "fight": 2,
+     "gate_event": null,
+     "gate_kind": null
+    }
+   ],
+   "note": "UNWIRED IN CRYSTAL: no loadtrainer branches, no *_READY_FOR_REMATCH flag; wDerekFightCount is marked '; unreferenced' in pokecrystal ram/wram.asm. The extra same-name parties exist in parties.asm but no script ever loads them. Ladder order here is derived (first-battle party, then remaining same-name parties in ascending const order), the same rule the wired scripts follow."
+  },
+  {
+   "name": "TULLY",
+   "class": "FISHER",
+   "combined_class": "JOHTO_FISHER",
+   "contact_const": "TULLY1",
+   "first_battle_const": "TULLY1",
+   "caller_id": "PHONE_FISHER_TULLY",
+   "map": "Route42",
+   "map_slug": "route42",
+   "home_script": "TrainerFisherTully",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "TULLY1",
+     "party_index": 7,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "TULLY2",
+     "party_index": 18,
+     "fight": 1,
+     "gate_event": "EVENT_CLEARED_ROCKET_HIDEOUT",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 3,
+     "id_const": "TULLY3",
+     "party_index": 19,
+     "fight": 2,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 4,
+     "id_const": "TULLY4",
+     "party_index": 25,
+     "fight": 3,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "BRENT",
+   "class": "POKEMANIAC",
+   "combined_class": "JOHTO_POKEMANIAC",
+   "contact_const": "BRENT1",
+   "first_battle_const": "BRENT1",
+   "caller_id": "PHONE_POKEMANIAC_BRENT",
+   "map": "Route43",
+   "map_slug": "route43",
+   "home_script": "TrainerPokemaniacBrent",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "BRENT1",
+     "party_index": 6,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "BRENT2",
+     "party_index": 9,
+     "fight": 1,
+     "gate_event": "EVENT_CLEARED_ROCKET_HIDEOUT",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 3,
+     "id_const": "BRENT3",
+     "party_index": 10,
+     "fight": 2,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 4,
+     "id_const": "BRENT4",
+     "party_index": 14,
+     "fight": 3,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "TIFFANY",
+   "class": "PICNICKER",
+   "combined_class": "PICNICKER",
+   "contact_const": "TIFFANY3",
+   "first_battle_const": "TIFFANY3",
+   "caller_id": "PHONE_PICNICKER_TIFFANY",
+   "map": "Route43",
+   "map_slug": "route43",
+   "home_script": "TrainerPicnickerTiffany",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "TIFFANY3",
+     "party_index": 20,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "TIFFANY1",
+     "party_index": 16,
+     "fight": 1,
+     "gate_event": "EVENT_CLEARED_RADIO_TOWER",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 3,
+     "id_const": "TIFFANY2",
+     "party_index": 17,
+     "fight": 2,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 4,
+     "id_const": "TIFFANY4",
+     "party_index": 26,
+     "fight": 3,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "VANCE",
+   "class": "BIRD_KEEPER",
+   "combined_class": "JOHTO_BIRD_KEEPER",
+   "contact_const": "VANCE1",
+   "first_battle_const": "VANCE1",
+   "caller_id": "PHONE_BIRDKEEPER_VANCE",
+   "map": "Route44",
+   "map_slug": "route44",
+   "home_script": "TrainerBirdKeeperVance1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "VANCE1",
+     "party_index": 7,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "VANCE2",
+     "party_index": 18,
+     "fight": 1,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 3,
+     "id_const": "VANCE3",
+     "party_index": 19,
+     "fight": 2,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "WILTON",
+   "class": "FISHER",
+   "combined_class": "JOHTO_FISHER",
+   "contact_const": "WILTON1",
+   "first_battle_const": "WILTON1",
+   "caller_id": "PHONE_FISHER_WILTON",
+   "map": "Route44",
+   "map_slug": "route44",
+   "home_script": "TrainerFisherWilton1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "WILTON1",
+     "party_index": 10,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "WILTON2",
+     "party_index": 20,
+     "fight": 1,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 3,
+     "id_const": "WILTON3",
+     "party_index": 22,
+     "fight": 2,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "KENJI",
+   "class": "BLACKBELT_T",
+   "combined_class": "BLACKBELT_T",
+   "contact_const": "KENJI3",
+   "first_battle_const": "KENJI3",
+   "caller_id": "PHONE_BLACKBELT_KENJI",
+   "map": "Route45",
+   "map_slug": "route45",
+   "home_script": "TrainerBlackbeltKenji",
+   "ladder_wired_in_crystal": false,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "KENJI3",
+     "party_index": 8,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "KENJI1",
+     "party_index": 1,
+     "fight": 1,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 3,
+     "id_const": "KENJI2",
+     "party_index": 3,
+     "fight": 2,
+     "gate_event": null,
+     "gate_kind": null
+    }
+   ],
+   "note": "UNWIRED IN CRYSTAL: no loadtrainer branches, no *_READY_FOR_REMATCH flag; wKenjiFightCount is marked '; unreferenced' in pokecrystal ram/wram.asm. The extra same-name parties exist in parties.asm but no script ever loads them. Ladder order here is derived (first-battle party, then remaining same-name parties in ascending const order), the same rule the wired scripts follow."
+  },
+  {
+   "name": "PARRY",
+   "class": "HIKER",
+   "combined_class": "JOHTO_HIKER",
+   "contact_const": "PARRY1",
+   "first_battle_const": "PARRY3",
+   "caller_id": "PHONE_HIKER_PARRY",
+   "map": "Route45",
+   "map_slug": "route45",
+   "home_script": "TrainerHikerParry",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "PARRY3",
+     "party_index": 20,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "PARRY1",
+     "party_index": 9,
+     "fight": 1,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 3,
+     "id_const": "PARRY2",
+     "party_index": 19,
+     "fight": 2,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  },
+  {
+   "name": "ERIN",
+   "class": "PICNICKER",
+   "combined_class": "PICNICKER",
+   "contact_const": "ERIN1",
+   "first_battle_const": "ERIN1",
+   "caller_id": "PHONE_PICNICKER_ERIN",
+   "map": "Route46",
+   "map_slug": "route46",
+   "home_script": "TrainerPicnickerErin1",
+   "ladder_wired_in_crystal": true,
+   "tiers": [
+    {
+     "tier": 1,
+     "id_const": "ERIN1",
+     "party_index": 10,
+     "fight": 0,
+     "gate_event": null,
+     "gate_kind": null
+    },
+    {
+     "tier": 2,
+     "id_const": "ERIN2",
+     "party_index": 18,
+     "fight": 1,
+     "gate_event": "EVENT_BEAT_ELITE_FOUR",
+     "gate_kind": "checkevent"
+    },
+    {
+     "tier": 3,
+     "id_const": "ERIN3",
+     "party_index": 21,
+     "fight": 2,
+     "gate_event": "EVENT_RESTORED_POWER_TO_KANTO",
+     "gate_kind": "checkevent"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "provenance": "Documentation-derived transcription (rotation 6 precedent): Bulbapedia/Serebii/GameFAQs pages read as page text 2026-11-23/24 + RANGER_DEEP.md register (already held). NOT game data / NOT ROM extraction.",
+ "fiore": {
+  "quest_system": "No Quests in Ranger 1 (register, RANGER_DEEP 1.1).",
+  "missions": {
+   "count_numbered_story": 10,
+   "structure": "10 numbered story missions + Ranger Net special missions (Manaphy Egg code mission; Mew/Celebi/Deoxys download-era missions) + postgame capture challenges (Capture Arena high-score; Drowzee man dream sequence). Rank ladder: Ranger Rank 1-10 gates Friend capacity and Partner Gauge (both landed as tables in code prep from the register; unchanged by this rotation)."
+  }
+ },
+ "almia": {
+  "quests": {
+   "count_total": 61,
+   "count_completable": 60,
+   "rule": "Exactly ONE quest at a time (register).",
+   "why_60_of_61": "Three quests each offer one of the three starter Partner Pokemon (Pachirisu/Starly/Munchlax); the player picks one starter, so only two of the three starter quests are ever offered.",
+   "reward_classes": [
+    "Power-Up Data (Capture Cards) - full mapping landed in styler/almia_power_up_data.json",
+    "Partner Pokemon - partner quests grant: the two unchosen starters, plus Cranidos, Shieldon, Chimchar, Turtwig, Piplup, Sneasel, Misdreavus, Gible, Hippopotas, Snover, Machop (register list)"
+   ],
+   "numbering_note": "Quest numbering differs between sources in places: Serebii's quest list order vs Bulbapedia's Power-Up Data quest numbers (e.g. the first defense cards). This rotation lands Bulbapedia's Styler Status mapping as primary because it is tied to the reward table; the divergence is recorded, not smoothed."
+  },
+  "missions": {
+   "structure": "Story missions advance Ranger Rank (10 ranks); Rank gates Friend capacity {R1:3 base pre-Rank-3 (register flag), R3:4, R5:5, R7:6, R9:7} and Styler Power Charge (Charge Lv1 from start, Lv2 at Rank 8; faster charge-ready at Rank 6 - prep design constants, NOT re-sourced this rotation)."
+  }
+ },
+ "oblivia": {
+  "quests": {
+   "count_total": 52,
+   "rule": "Any number of quests may be accepted simultaneously (contrast Almia's one-at-a-time).",
+   "reward": "Ranger Points, 10-50 per quest (GameFAQs quest guide shows most at 10, some at 15; Bulbapedia's economy table totals quest income at 1,000 RP across 52 quests)."
+  },
+  "missions": {
+   "count_conflict": "RANGER_DEEP register says 14 main missions; Bulbapedia's Ranger Points table counts 16 Mission Clears at 50 RP. Both figures landed as-is; the 14-vs-16 divergence is an open finding (likely postgame/special missions counted in the economy table), NOT resolved by this rotation.",
+   "structure": "Present-day missions + past temple missions (4 temples, multiplayer) with the separate past Styler level track landed in styler/styler_levels.json and past-Partner upgrade axes Assist/Healing/Power (max 5) from the register."
+  },
+  "ranger_points": "Full economy + Styler Modification price table landed in styler/oblivia_styler_modification.json: 2,101 RP total available vs 2,100 RP total modification cost (computed) - the economy is sized to buy out the entire modification catalog with exactly 1 RP to spare."
+ }
+}

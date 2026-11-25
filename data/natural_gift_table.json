@@ -1,0 +1,387 @@
+{
+  "aguavberry": {
+    "base_power": 80,
+    "name": "Aguav Berry",
+    "type": "Dragon"
+  },
+  "apicotberry": {
+    "base_power": 100,
+    "name": "Apicot Berry",
+    "type": "Ground"
+  },
+  "aspearberry": {
+    "base_power": 80,
+    "name": "Aspear Berry",
+    "type": "Ice"
+  },
+  "babiriberry": {
+    "base_power": 80,
+    "name": "Babiri Berry",
+    "type": "Steel"
+  },
+  "belueberry": {
+    "base_power": 100,
+    "name": "Belue Berry",
+    "type": "Electric"
+  },
+  "berry": {
+    "base_power": 80,
+    "name": "Berry",
+    "type": "Poison"
+  },
+  "bitterberry": {
+    "base_power": 80,
+    "name": "Bitter Berry",
+    "type": "Ground"
+  },
+  "blukberry": {
+    "base_power": 90,
+    "name": "Bluk Berry",
+    "type": "Fire"
+  },
+  "burntberry": {
+    "base_power": 80,
+    "name": "Burnt Berry",
+    "type": "Ice"
+  },
+  "chartiberry": {
+    "base_power": 80,
+    "name": "Charti Berry",
+    "type": "Rock"
+  },
+  "cheriberry": {
+    "base_power": 80,
+    "name": "Cheri Berry",
+    "type": "Fire"
+  },
+  "chestoberry": {
+    "base_power": 80,
+    "name": "Chesto Berry",
+    "type": "Water"
+  },
+  "chilanberry": {
+    "base_power": 80,
+    "name": "Chilan Berry",
+    "type": "Normal"
+  },
+  "chopleberry": {
+    "base_power": 80,
+    "name": "Chople Berry",
+    "type": "Fighting"
+  },
+  "cobaberry": {
+    "base_power": 80,
+    "name": "Coba Berry",
+    "type": "Flying"
+  },
+  "colburberry": {
+    "base_power": 80,
+    "name": "Colbur Berry",
+    "type": "Dark"
+  },
+  "cornnberry": {
+    "base_power": 90,
+    "name": "Cornn Berry",
+    "type": "Bug"
+  },
+  "custapberry": {
+    "base_power": 100,
+    "name": "Custap Berry",
+    "type": "Ghost"
+  },
+  "durinberry": {
+    "base_power": 100,
+    "name": "Durin Berry",
+    "type": "Water"
+  },
+  "enigmaberry": {
+    "base_power": 100,
+    "name": "Enigma Berry",
+    "type": "Bug"
+  },
+  "figyberry": {
+    "base_power": 80,
+    "name": "Figy Berry",
+    "type": "Bug"
+  },
+  "ganlonberry": {
+    "base_power": 100,
+    "name": "Ganlon Berry",
+    "type": "Ice"
+  },
+  "goldberry": {
+    "base_power": 80,
+    "name": "Gold Berry",
+    "type": "Psychic"
+  },
+  "grepaberry": {
+    "base_power": 90,
+    "name": "Grepa Berry",
+    "type": "Flying"
+  },
+  "habanberry": {
+    "base_power": 80,
+    "name": "Haban Berry",
+    "type": "Dragon"
+  },
+  "hondewberry": {
+    "base_power": 90,
+    "name": "Hondew Berry",
+    "type": "Ground"
+  },
+  "iapapaberry": {
+    "base_power": 80,
+    "name": "Iapapa Berry",
+    "type": "Dark"
+  },
+  "iceberry": {
+    "base_power": 80,
+    "name": "Ice Berry",
+    "type": "Grass"
+  },
+  "jabocaberry": {
+    "base_power": 100,
+    "name": "Jaboca Berry",
+    "type": "Dragon"
+  },
+  "kasibberry": {
+    "base_power": 80,
+    "name": "Kasib Berry",
+    "type": "Ghost"
+  },
+  "kebiaberry": {
+    "base_power": 80,
+    "name": "Kebia Berry",
+    "type": "Poison"
+  },
+  "keeberry": {
+    "base_power": 100,
+    "name": "Kee Berry",
+    "type": "Fairy"
+  },
+  "kelpsyberry": {
+    "base_power": 90,
+    "name": "Kelpsy Berry",
+    "type": "Fighting"
+  },
+  "lansatberry": {
+    "base_power": 100,
+    "name": "Lansat Berry",
+    "type": "Flying"
+  },
+  "leppaberry": {
+    "base_power": 80,
+    "name": "Leppa Berry",
+    "type": "Fighting"
+  },
+  "liechiberry": {
+    "base_power": 100,
+    "name": "Liechi Berry",
+    "type": "Grass"
+  },
+  "lumberry": {
+    "base_power": 80,
+    "name": "Lum Berry",
+    "type": "Flying"
+  },
+  "magoberry": {
+    "base_power": 80,
+    "name": "Mago Berry",
+    "type": "Ghost"
+  },
+  "magostberry": {
+    "base_power": 90,
+    "name": "Magost Berry",
+    "type": "Rock"
+  },
+  "marangaberry": {
+    "base_power": 100,
+    "name": "Maranga Berry",
+    "type": "Dark"
+  },
+  "micleberry": {
+    "base_power": 100,
+    "name": "Micle Berry",
+    "type": "Rock"
+  },
+  "mintberry": {
+    "base_power": 80,
+    "name": "Mint Berry",
+    "type": "Water"
+  },
+  "miracleberry": {
+    "base_power": 80,
+    "name": "Miracle Berry",
+    "type": "Flying"
+  },
+  "mysteryberry": {
+    "base_power": 80,
+    "name": "Mystery Berry",
+    "type": "Fighting"
+  },
+  "nanabberry": {
+    "base_power": 90,
+    "name": "Nanab Berry",
+    "type": "Water"
+  },
+  "nomelberry": {
+    "base_power": 90,
+    "name": "Nomel Berry",
+    "type": "Dragon"
+  },
+  "occaberry": {
+    "base_power": 80,
+    "name": "Occa Berry",
+    "type": "Fire"
+  },
+  "oranberry": {
+    "base_power": 80,
+    "name": "Oran Berry",
+    "type": "Poison"
+  },
+  "pamtreberry": {
+    "base_power": 90,
+    "name": "Pamtre Berry",
+    "type": "Steel"
+  },
+  "passhoberry": {
+    "base_power": 80,
+    "name": "Passho Berry",
+    "type": "Water"
+  },
+  "payapaberry": {
+    "base_power": 80,
+    "name": "Payapa Berry",
+    "type": "Psychic"
+  },
+  "pechaberry": {
+    "base_power": 80,
+    "name": "Pecha Berry",
+    "type": "Electric"
+  },
+  "persimberry": {
+    "base_power": 80,
+    "name": "Persim Berry",
+    "type": "Ground"
+  },
+  "petayaberry": {
+    "base_power": 100,
+    "name": "Petaya Berry",
+    "type": "Poison"
+  },
+  "pinapberry": {
+    "base_power": 90,
+    "name": "Pinap Berry",
+    "type": "Grass"
+  },
+  "pomegberry": {
+    "base_power": 90,
+    "name": "Pomeg Berry",
+    "type": "Ice"
+  },
+  "przcureberry": {
+    "base_power": 80,
+    "name": "PRZ Cure Berry",
+    "type": "Fire"
+  },
+  "psncureberry": {
+    "base_power": 80,
+    "name": "PSN Cure Berry",
+    "type": "Electric"
+  },
+  "qualotberry": {
+    "base_power": 90,
+    "name": "Qualot Berry",
+    "type": "Poison"
+  },
+  "rabutaberry": {
+    "base_power": 90,
+    "name": "Rabuta Berry",
+    "type": "Ghost"
+  },
+  "rawstberry": {
+    "base_power": 80,
+    "name": "Rawst Berry",
+    "type": "Grass"
+  },
+  "razzberry": {
+    "base_power": 80,
+    "name": "Razz Berry",
+    "type": "Steel"
+  },
+  "rindoberry": {
+    "base_power": 80,
+    "name": "Rindo Berry",
+    "type": "Grass"
+  },
+  "roseliberry": {
+    "base_power": 80,
+    "name": "Roseli Berry",
+    "type": "Fairy"
+  },
+  "rowapberry": {
+    "base_power": 100,
+    "name": "Rowap Berry",
+    "type": "Dark"
+  },
+  "salacberry": {
+    "base_power": 100,
+    "name": "Salac Berry",
+    "type": "Fighting"
+  },
+  "shucaberry": {
+    "base_power": 80,
+    "name": "Shuca Berry",
+    "type": "Ground"
+  },
+  "sitrusberry": {
+    "base_power": 80,
+    "name": "Sitrus Berry",
+    "type": "Psychic"
+  },
+  "spelonberry": {
+    "base_power": 90,
+    "name": "Spelon Berry",
+    "type": "Dark"
+  },
+  "starfberry": {
+    "base_power": 100,
+    "name": "Starf Berry",
+    "type": "Psychic"
+  },
+  "tamatoberry": {
+    "base_power": 90,
+    "name": "Tamato Berry",
+    "type": "Psychic"
+  },
+  "tangaberry": {
+    "base_power": 80,
+    "name": "Tanga Berry",
+    "type": "Bug"
+  },
+  "wacanberry": {
+    "base_power": 80,
+    "name": "Wacan Berry",
+    "type": "Electric"
+  },
+  "watmelberry": {
+    "base_power": 100,
+    "name": "Watmel Berry",
+    "type": "Fire"
+  },
+  "wepearberry": {
+    "base_power": 90,
+    "name": "Wepear Berry",
+    "type": "Electric"
+  },
+  "wikiberry": {
+    "base_power": 80,
+    "name": "Wiki Berry",
+    "type": "Rock"
+  },
+  "yacheberry": {
+    "base_power": 80,
+    "name": "Yache Berry",
+    "type": "Ice"
+  }
+}

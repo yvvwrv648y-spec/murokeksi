@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0.0",
+  "policy": "Unique cry per species; distinct male and female name-pronouncing Moemon voices (never pitch-shifted copies).",
+  "entries": [
+    {
+      "audio_id": "cry_pkdx_0001_bulbasaur",
+      "species_id": 1,
+      "family": "PKDX",
+      "sex": "species_cry",
+      "timbre": "warm_reed_growl",
+      "status": "ASSET_CANDIDATE"
+    },
+    {
+      "audio_id": "cry_pkdx_0004_charmander",
+      "species_id": 4,
+      "family": "PKDX",
+      "sex": "species_cry",
+      "timbre": "bright_crackle_chirp",
+      "status": "ASSET_CANDIDATE"
+    },
+    {
+      "audio_id": "cry_pkdx_0007_squirtle",
+      "species_id": 7,
+      "family": "PKDX",
+      "sex": "species_cry",
+      "timbre": "bubble_trill",
+      "status": "ASSET_CANDIDATE"
+    },
+    {
+      "audio_id": "cry_pkdx_0016_pidgey",
+      "species_id": 16,
+      "family": "PKDX",
+      "sex": "species_cry",
+      "timbre": "high_avian_whistle",
+      "status": "ASSET_CANDIDATE"
+    },
+    {
+      "audio_id": "cry_pkdx_0025_pikachu",
+      "species_id": 25,
+      "family": "PKDX",
+      "sex": "species_cry",
+      "timbre": "spark_dual_chirp",
+      "status": "ASSET_CANDIDATE"
+    },
+    {
+      "audio_id": "voice_mdx_0025_pikachu_f",
+      "species_id": 25,
+      "family": "MDX",
+      "sex": "female",
+      "pronunciation": "Pee-kah-choo!",
+      "timbre": "energetic_soprano",
+      "status": "SPECIFIED"
+    },
+    {
+      "audio_id": "voice_mdx_0025_pikachu_m",
+      "species_id": 25,
+      "family": "MDX",
+      "sex": "male",
+      "pronunciation": "Pee-kah-choo!",
+      "timbre": "upbeat_tenor",
+      "status": "SPECIFIED"
+    },
+    {
+      "audio_id": "voice_mdx_0016_pidgey_f",
+      "species_id": 16,
+      "family": "MDX",
+      "sex": "female",
+      "pronunciation": "Pih-jee!",
+      "timbre": "breezy_alto",
+      "status": "SPECIFIED"
+    },
+    {
+      "audio_id": "voice_mdx_0016_pidgey_m",
+      "species_id": 16,
+      "family": "MDX",
+      "sex": "male",
+      "pronunciation": "Pih-jee!",
+      "timbre": "crisp_baritone",
+      "status": "SPECIFIED"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+ "source": "bound map objects (sprite SPRITE_POKE_BALL, item null) + pokered scripts for gift parameters",
+ "balls": [
+  {
+   "map": "CeladonMansionRoofHouse",
+   "x": 8,
+   "y": 6,
+   "text_id": "TEXT_CELADONMANSION_ROOF_HOUSE_EEVEE_POKEBALL",
+   "route": "gift",
+   "species": "EEVEE",
+   "level": 25,
+   "evidence": "scripts/CeladonMansionRoofHouse.asm lb bc, EEVEE, 25 / GivePokemon"
+  },
+  {
+   "map": "FightingDojo",
+   "x": 8,
+   "y": 2,
+   "text_id": "TEXT_FIGHTINGDOJO_HITMONLEE_POKE_BALL",
+   "route": "gift_choice",
+   "species": "HITMONLEE",
+   "level": 30,
+   "choice_group": "fighting_dojo",
+   "evidence": "scripts/FightingDojo.asm GivePokemon, ld c, 30"
+  },
+  {
+   "map": "FightingDojo",
+   "x": 10,
+   "y": 2,
+   "text_id": "TEXT_FIGHTINGDOJO_HITMONCHAN_POKE_BALL",
+   "route": "gift_choice",
+   "species": "HITMONCHAN",
+   "level": 30,
+   "choice_group": "fighting_dojo",
+   "evidence": "scripts/FightingDojo.asm GivePokemon, ld c, 30"
+  },
+  {
+   "map": "FuchsiaCity",
+   "x": 50,
+   "y": 12,
+   "text_id": "TEXT_FUCHSIACITY_VOLTORB",
+   "route": "dialogue",
+   "species": "VOLTORB",
+   "evidence": "zoo display object in source; interaction is its text only"
+  },
+  {
+   "map": "OaksLab",
+   "x": 12,
+   "y": 6,
+   "text_id": "TEXT_OAKSLAB_CHARMANDER_POKE_BALL",
+   "route": "oak_flow",
+   "species": "CHARMANDER",
+   "level": 5,
+   "owner": "story/oak lane (code_prep_kanto_events + Oak grant) \u2014 routed, not granted here"
+  },
+  {
+   "map": "OaksLab",
+   "x": 14,
+   "y": 6,
+   "text_id": "TEXT_OAKSLAB_SQUIRTLE_POKE_BALL",
+   "route": "oak_flow",
+   "species": "SQUIRTLE",
+   "level": 5,
+   "owner": "story/oak lane (code_prep_kanto_events + Oak grant) \u2014 routed, not granted here"
+  },
+  {
+   "map": "OaksLab",
+   "x": 16,
+   "y": 6,
+   "text_id": "TEXT_OAKSLAB_BULBASAUR_POKE_BALL",
+   "route": "oak_flow",
+   "species": "BULBASAUR",
+   "level": 5,
+   "owner": "story/oak lane (code_prep_kanto_events + Oak grant) \u2014 routed, not granted here"
+  },
+  {
+   "map": "PowerPlant",
+   "x": 18,
+   "y": 40,
+   "text_id": "TEXT_POWERPLANT_VOLTORB1",
+   "route": "battle",
+   "species": "VOLTORB",
+   "level": 40
+  },
+  {
+   "map": "PowerPlant",
+   "x": 64,
+   "y": 36,
+   "text_id": "TEXT_POWERPLANT_VOLTORB2",
+   "route": "battle",
+   "species": "VOLTORB",
+   "level": 40
+  },
+  {
+   "map": "PowerPlant",
+   "x": 42,
+   "y": 50,
+   "text_id": "TEXT_POWERPLANT_VOLTORB3",
+   "route": "battle",
+   "species": "VOLTORB",
+   "level": 40
+  },
+  {
+   "map": "PowerPlant",
+   "x": 50,
+   "y": 36,
+   "text_id": "TEXT_POWERPLANT_ELECTRODE1",
+   "route": "battle",
+   "species": "ELECTRODE",
+   "level": 43
+  },
+  {
+   "map": "PowerPlant",
+   "x": 46,
+   "y": 68,
+   "text_id": "TEXT_POWERPLANT_VOLTORB4",
+   "route": "battle",
+   "species": "VOLTORB",
+   "level": 40
+  },
+  {
+   "map": "PowerPlant",
+   "x": 52,
+   "y": 56,
+   "text_id": "TEXT_POWERPLANT_VOLTORB5",
+   "route": "battle",
+   "species": "VOLTORB",
+   "level": 40
+  },
+  {
+   "map": "PowerPlant",
+   "x": 42,
+   "y": 28,
+   "text_id": "TEXT_POWERPLANT_ELECTRODE2",
+   "route": "battle",
+   "species": "ELECTRODE",
+   "level": 43
+  },
+  {
+   "map": "PowerPlant",
+   "x": 74,
+   "y": 64,
+   "text_id": "TEXT_POWERPLANT_VOLTORB6",
+   "route": "battle",
+   "species": "VOLTORB",
+   "level": 40
+  }
+ ]
+}
