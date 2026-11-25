@@ -1,0 +1,50 @@
+{
+  "default": {
+    "locomotion": "ground_follow",
+    "note": "Placeholder default for species with no register entry. This default is NOT sourced data."
+  },
+  "pallet_and_route1_seed": [
+    {
+      "family": "PKDX",
+      "habitat": [
+        "kanto_pallet_town",
+        "kanto_route_01"
+      ],
+      "locomotion": "flying_avian",
+      "slug": "pidgey",
+      "species_id": 16,
+      "status": "ASSET_CANDIDATE"
+    },
+    {
+      "family": "PKDX",
+      "habitat": [
+        "kanto_pallet_town",
+        "kanto_viridian_forest"
+      ],
+      "locomotion": "ground_agile",
+      "slug": "pikachu",
+      "species_id": 25,
+      "status": "ASSET_CANDIDATE"
+    },
+    {
+      "family": "PKDX",
+      "habitat": [
+        "kanto_route_01"
+      ],
+      "locomotion": "ground_scurry",
+      "slug": "rattata",
+      "species_id": 19,
+      "status": "ASSET_CANDIDATE"
+    },
+    {
+      "family": "MDX",
+      "habitat": [
+        "kanto_route_01"
+      ],
+      "locomotion": "ground_biped_moemon",
+      "slug": "pikachu",
+      "species_id": 25,
+      "status": "ASSET_CANDIDATE"
+    }
+  ]
+}

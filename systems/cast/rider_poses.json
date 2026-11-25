@@ -1,0 +1,884 @@
+{
+ "schema": "puw_rider_poses_v2",
+ "default_art_status": "art_pending",
+ "notes": "Rider pose taxonomy for rideable Pokemon (Phase 3, item B), decided 2026-11-22, refined 2026-11-22 14:59 CST into THREE pose sets: riley (custom, expressive) and tasha (custom, composed) with one signature extra state each, and generic (neutral) shared by the four Custom presets. QA INTEGRATION 2026-11-22: Neon's ride sheets (v1 + v2) were visually graded (qa/qa_ride_riley.md, qa/qa_ride_tasha.md, qa/qa_ride_generic_a.md, qa/qa_ride_generic_b.md) and ONLY the accepted primary figures were sliced into systems/cast/rider_frame_data.json. Bound today: riley 13 poses complete + mount_wave partial (wave frame only, idle missing); tasha 12 poses complete + hover_descend partial (1 of 2 frames), fly_carried still art_pending (rejected in both versions); each Custom preset 11-12 of 13 poses bound -- the generic set's per-cast truth lives in art_status_by_cast / frames_bound_by_cast because the four presets do not share one status (climb_cling is bound only for custom_femboy; climb_stand is missing for custom_femboy and custom_futanari). Rejected figures were never sliced and nothing was substituted. QA ROUND 4 (2026-11-22): layered ride delivery graded (hidden_files/qa_round4/verdicts/rides_custom.md, rides_riley_tasha.md) and the accepted stacks sliced by tools/slice_qa_art_round4.py into rider_frame_data.json's \"layered\" section. For the four Custom presets the layered trainer_canon stacks supersede the round-1 flat bindings pose by pose (poses not bound in layered canon keep their flat entries: custom_femboy fly_carried and climb_cling). Two climb_cling gaps closed this round: custom_female and custom_futanari are now bound (1 frame each, layered canon); custom_male climb_cling stays art_pending (its only cling figure holds a drawn rock). Riley and Tasha layered outfits are alternates bound in the layered section (Riley lounge 14 frames incl. the dive_hold pass-with-fault slab, Riley bikini 11, Tasha gothic_glam 11); their canon ride look stays on the round-1 flat bindings -- no canon ride layers were delivered. Named gaps still open: tasha fly_carried, tasha hover_descend (still 1 of 2), riley mount_wave idle frame, custom_male climb_cling, custom_femboy + custom_futanari climb_stand (and climb_stand for custom_female / custom_male, still unbound in layered canon). Tasha's gothic_glam gallop calm (R1F2) and surf_kneel (R1F5) figures are accepted but unsliceable inside un-keyable purple patches on her off-spec magenta sheets. QA ROUND 5 (2026-11-23): ride singles graded (hidden_files/qa_round5/verdicts/rides_tandem.md) and sliced by tools/slice_qa_art_round5.py. Closed this round: riley mount_wave (idle frame bound, 2/2 complete), tasha fly_carried (bound -- her custom set is now fully bound), tasha hover_descend (frame 2 bound, 2/2, feet-anchored against the 224 vs 251 px height fault), generic climb_cling for custom_male (pose now bound for all four Custom presets), and generic climb_stand for custom_femboy and custom_futanari. Generic climb_stand is now bound for all four Custom presets (custom_female and custom_male were already bound in round 1), so the generic set's climb pair is fully closed. Riley/Tasha climb_stand were already bound in round 1 and are unaffected. Passing climb_cling singles for custom_female and custom_futanari are spares in rider_frame_data.json, not bindings. QA ROUND 6 (2026-11-23): rides graded (hidden_files/qa_round6/verdicts_rides.md) and sliced by tools/slice_qa_art_round6.py. Riley and Tasha canon ride bindings are now the layered canon stacks (Riley 12 poses / 14 frames, Tasha 11 poses / 13 frames), superseding the round-1 flat frames pose by pose. Singles bound: riley ride_land_gallop calm (her gallop pair is complete), riley climb_stand, tasha climb_stand, tasha hover_stand wind (her hover_stand pair is complete). climb_stand is now bound for ALL SIX cast members (the four Custom presets closed in rounds 1/5; Riley and Tasha are covered by the round-6 singles rather than layered stacks -- see their art_notes). custom_male climb_cling was replaced by the round-6 v2 single (true back-view cling); the round-5 frame is a spare in rider_frame_data.json. Tasha gothic_glam layered set reached 13 stacks after the rekey freed gallop calm and surf_kneel; Tasha obsidian_bikini v2 bound 9 poses / 11 frames and Custom Femboy swimwear v2 bound 10 poses / 12 frames in the layered section (alternate outfits; the generic set's statuses here are unchanged).",
+ "sets": {
+  "riley": {
+   "id": "riley",
+   "personality": "expressive, confident, playful; she is enjoying every second",
+   "cast_ids": [
+    "riley"
+   ],
+   "poses": [
+    {
+     "id": "ride_land_seated",
+     "description": "seated tall, chin up, confident grin.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "ride_land_gallop",
+     "description": "leaning forward laughing, one fist pumped.",
+     "frames_expected": 2,
+     "frame_roles": [
+      "calm",
+      "wind"
+     ],
+     "art_status": "bound",
+     "frames_bound": 2,
+     "art_note": "COMPLETE (QA round 6): the wind frame is the new layered canon stack; the calm slot -- which had no layered base figure -- is covered by the round-6 single (front three-quarter gallop crouch, one fist pumped; the same pose as her round-1 flat calm, redrawn in the canon outfit). Covered by a single rather than a layered stack, recorded here."
+    },
+    {
+     "id": "surf_stand",
+     "description": "arms wide, showing off, big grin.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "surf_kneel",
+     "description": "kneeling, waving at someone on shore.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "ferry_seated",
+     "description": "cross-legged, waving.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "fly_seated",
+     "description": "leaning into the wind, hair wild, thrilled.",
+     "frames_expected": 2,
+     "frame_roles": [
+      "calm",
+      "wind"
+     ],
+     "art_status": "bound",
+     "frames_bound": 2
+    },
+    {
+     "id": "fly_carried",
+     "description": "laughing, legs kicking playfully.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "dive_hold",
+     "description": "streamlined, one hand giving a thumbs-up.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "climb_cling",
+     "description": "clinging on with a determined grin.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "climb_stand",
+     "description": "standing tall on the climber's back, hands on hips, surveying.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1,
+     "art_note": "BOUND via the round-6 single (QA round 6): standing tall, hands on hips, no drawn props. There is still no layered base figure for this pose; the single is the binding, recorded here."
+    },
+    {
+     "id": "hover_stand",
+     "description": "standing casual on the hovering Pokemon, one hand on hip, smirk.",
+     "frames_expected": 2,
+     "frame_roles": [
+      "calm",
+      "wind"
+     ],
+     "art_status": "bound",
+     "frames_bound": 2
+    },
+    {
+     "id": "carry_held",
+     "description": "seated sideways in big arms, waving like royalty.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "burrow_crouch",
+     "description": "crouched behind the digger, grinning through the dust.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "mount_wave",
+     "description": "mounted idle, turned in the saddle to wave.",
+     "frames_expected": 2,
+     "frame_roles": [
+      "idle",
+      "wave"
+     ],
+     "art_status": "bound",
+     "extra": true,
+     "tied_mode": "land_riding",
+     "frames_bound": 2,
+     "art_note": "COMPLETE 2/2 (QA round 5): the mounted idle frame was delivered and bound alongside the wave frame; mount_wave is closed."
+    }
+   ]
+  },
+  "tasha": {
+   "id": "tasha",
+   "personality": "composed, cool, unbothered; the hover_stand is her signature",
+   "cast_ids": [
+    "tasha"
+   ],
+   "poses": [
+    {
+     "id": "ride_land_seated",
+     "description": "upright and composed, cool gaze.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "ride_land_gallop",
+     "description": "low and serious, hair streaming, Klefki charm flying behind her.",
+     "frames_expected": 2,
+     "frame_roles": [
+      "calm",
+      "wind"
+     ],
+     "art_status": "bound",
+     "frames_bound": 2
+    },
+    {
+     "id": "surf_stand",
+     "description": "one foot forward, arms loose, balance effortless.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "surf_kneel",
+     "description": "kneeling gracefully, brushing her hair back.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "ferry_seated",
+     "description": "legs stretched out, leaning back on her hands, at ease.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "fly_seated",
+     "description": "gripping calmly, looking out over the view, slight smile.",
+     "frames_expected": 2,
+     "frame_roles": [
+      "calm",
+      "wind"
+     ],
+     "art_status": "bound",
+     "frames_bound": 2
+    },
+    {
+     "id": "fly_carried",
+     "description": "arms crossed even while dangling. Unimpressed.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "art_note": "BOUND (QA round 5): redrawn as specified -- dangling mid-air, arms crossed, unimpressed, nothing drawn to hang from. The twice-rejected pose is closed.",
+     "frames_bound": 1
+    },
+    {
+     "id": "dive_hold",
+     "description": "perfectly streamlined, elegant, almost balletic.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "climb_cling",
+     "description": "clinging with a sigh, one eyebrow up.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "climb_stand",
+     "description": "standing with arms folded, surveying like a queen.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1,
+     "art_note": "BOUND via the round-6 single (QA round 6): standing tall like a queen, arms folded, chin up, no drawn props. The layered sheets only ever had back-view climb steps for her; the single is the binding, recorded here."
+    },
+    {
+     "id": "hover_stand",
+     "description": "THE pose: arms folded, chin high, hair moving in the hover wind. This is her Metagross moment; make it the best frame on the sheet.",
+     "frames_expected": 2,
+     "frame_roles": [
+      "calm",
+      "wind"
+     ],
+     "art_status": "bound",
+     "frames_bound": 2,
+     "art_note": "PAIR COMPLETE (QA round 6): calm is the new layered canon stack frame; wind is the round-6 single (arms folded, chin high, hair streaming sideways -- a true wind partner to the calm frame). The wind frame is a single rather than a layered stack, recorded here."
+    },
+    {
+     "id": "carry_held",
+     "description": "seated sideways like she ordered this service, legs crossed.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "burrow_crouch",
+     "description": "crouched, brushing dust off her sweater, annoyed but enduring.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "frames_bound": 1
+    },
+    {
+     "id": "hover_descend",
+     "description": "standing tall, arms still folded, while the hovering Pokemon lowers her to the ground. The arrival shot.",
+     "frames_expected": 2,
+     "frame_roles": [
+      "high",
+      "touching_down"
+     ],
+     "art_status": "bound",
+     "extra": true,
+     "tied_mode": "hover_carrying",
+     "frames_bound": 2,
+     "art_note": "COMPLETE 2/2 (QA round 5) with the verdict's fault recorded: frame 2's figure is 224 px tall vs frame 1's 251 px. Both frames are feet-anchored on the shared 285x266 canvas in rider_frame_data.json, so she does not drop between frames; the difference reads as the touchdown crouch."
+    }
+   ]
+  },
+  "generic": {
+   "id": "generic",
+   "personality": "clean, neutral, functional; same choreography on all four Custom sheets",
+   "cast_ids": [
+    "custom_female",
+    "custom_male",
+    "custom_femboy",
+    "custom_futanari"
+   ],
+   "poses": [
+    {
+     "id": "ride_land_seated",
+     "description": "astride, hands forward holding on, knees bent.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 1,
+      "custom_male": 1,
+      "custom_femboy": 1,
+      "custom_futanari": 1
+     },
+     "frames_bound": 1
+    },
+    {
+     "id": "ride_land_gallop",
+     "description": "leaning forward, hair and clothes streaming.",
+     "frames_expected": 2,
+     "frame_roles": [
+      "calm",
+      "wind"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 2,
+      "custom_male": 2,
+      "custom_femboy": 2,
+      "custom_futanari": 2
+     },
+     "frames_bound": 2
+    },
+    {
+     "id": "surf_stand",
+     "description": "standing balanced, knees soft, arms slightly out.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 1,
+      "custom_male": 1,
+      "custom_femboy": 1,
+      "custom_futanari": 1
+     },
+     "frames_bound": 1
+    },
+    {
+     "id": "surf_kneel",
+     "description": "kneeling on one knee.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 1,
+      "custom_male": 1,
+      "custom_femboy": 1,
+      "custom_futanari": 1
+     },
+     "frames_bound": 1
+    },
+    {
+     "id": "ferry_seated",
+     "description": "cross-legged, hands on knees.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 1,
+      "custom_male": 1,
+      "custom_femboy": 1,
+      "custom_futanari": 1
+     },
+     "frames_bound": 1
+    },
+    {
+     "id": "fly_seated",
+     "description": "seated, leaning forward, gripping, legs tucked.",
+     "frames_expected": 2,
+     "frame_roles": [
+      "calm",
+      "wind"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 2,
+      "custom_male": 2,
+      "custom_femboy": 2,
+      "custom_futanari": 2
+     },
+     "frames_bound": 2
+    },
+    {
+     "id": "fly_carried",
+     "description": "arms up gripping, legs dangling.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 1,
+      "custom_male": 1,
+      "custom_femboy": 1,
+      "custom_futanari": 1
+     },
+     "frames_bound": 1
+    },
+    {
+     "id": "dive_hold",
+     "description": "horizontal, arms forward gripping a fin, legs trailing together.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 1,
+      "custom_male": 1,
+      "custom_femboy": 1,
+      "custom_futanari": 1
+     },
+     "frames_bound": 1
+    },
+    {
+     "id": "climb_cling",
+     "description": "clinging flat, arms and legs wrapped.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 1,
+      "custom_male": 1,
+      "custom_femboy": 1,
+      "custom_futanari": 1
+     },
+     "frames_bound": 1
+    },
+    {
+     "id": "climb_stand",
+     "description": "standing on a broad back, one hand holding a horn or spike.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 1,
+      "custom_male": 1,
+      "custom_femboy": 1,
+      "custom_futanari": 1
+     },
+     "frames_bound": 1
+    },
+    {
+     "id": "hover_stand",
+     "description": "standing upright, arms at sides ready, hair and clothes wind-blown.",
+     "frames_expected": 2,
+     "frame_roles": [
+      "calm",
+      "wind"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 2,
+      "custom_male": 2,
+      "custom_femboy": 2,
+      "custom_futanari": 2
+     },
+     "frames_bound": 2
+    },
+    {
+     "id": "carry_held",
+     "description": "seated sideways, one hand holding on.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 1,
+      "custom_male": 1,
+      "custom_femboy": 1,
+      "custom_futanari": 1
+     },
+     "frames_bound": 1
+    },
+    {
+     "id": "burrow_crouch",
+     "description": "crouched low, head down, holding on.",
+     "frames_expected": 1,
+     "frame_roles": [
+      "hold"
+     ],
+     "art_status": "bound",
+     "art_status_by_cast": {
+      "custom_female": "bound",
+      "custom_male": "bound",
+      "custom_femboy": "bound",
+      "custom_futanari": "bound"
+     },
+     "frames_bound_by_cast": {
+      "custom_female": 1,
+      "custom_male": 1,
+      "custom_femboy": 1,
+      "custom_futanari": 1
+     },
+     "frames_bound": 1
+    }
+   ]
+  }
+ },
+ "extra_states": [
+  {
+   "id": "mount_wave",
+   "set": "riley",
+   "kind": "signature_extra",
+   "tied_mode": "land_riding",
+   "note": "Set-scoped variant state of the riley set (mounted idle). NOT a ride-mode primary; pose_for_mode primaries are unchanged."
+  },
+  {
+   "id": "hover_descend",
+   "set": "tasha",
+   "kind": "signature_extra",
+   "tied_mode": "hover_carrying",
+   "note": "Set-scoped variant state of the tasha set (hover arrival). NOT a ride-mode primary; pose_for_mode primaries are unchanged."
+  }
+ ],
+ "ride_modes": [
+  {
+   "id": "land_riding",
+   "label": "land riding",
+   "poses": [
+    {
+     "pose_id": "ride_land_seated",
+     "role": "primary",
+     "condition": "primary"
+    },
+    {
+     "pose_id": "ride_land_gallop",
+     "role": "variant",
+     "condition": "fast variant"
+    }
+   ],
+   "anchor_rule": {
+    "rider_anchor": "seat",
+    "pokemon_anchor": "back_center",
+    "offset": [
+     0.0,
+     -0.1
+    ],
+    "facing": "sync",
+    "z_order": "rider_above"
+   }
+  },
+  {
+   "id": "surfing",
+   "label": "surfing",
+   "poses": [
+    {
+     "pose_id": "surf_stand",
+     "role": "primary",
+     "condition": "primary"
+    },
+    {
+     "pose_id": "surf_kneel",
+     "role": "variant",
+     "condition": "small mount / rough water variant"
+    }
+   ],
+   "anchor_rule": {
+    "rider_anchor": "feet",
+    "pokemon_anchor": "top_center",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "facing": "sync",
+    "z_order": "rider_above"
+   }
+  },
+  {
+   "id": "ferrying",
+   "label": "ferrying",
+   "poses": [
+    {
+     "pose_id": "ferry_seated",
+     "role": "primary",
+     "condition": "primary"
+    }
+   ],
+   "anchor_rule": {
+    "rider_anchor": "seat",
+    "pokemon_anchor": "top_center",
+    "offset": [
+     0.0,
+     -0.05
+    ],
+    "facing": "sync",
+    "z_order": "rider_above"
+   }
+  },
+  {
+   "id": "mounted_flight",
+   "label": "mounted flight",
+   "poses": [
+    {
+     "pose_id": "fly_seated",
+     "role": "primary",
+     "condition": "primary"
+    }
+   ],
+   "anchor_rule": {
+    "rider_anchor": "seat",
+    "pokemon_anchor": "back_center",
+    "offset": [
+     0.0,
+     -0.1
+    ],
+    "facing": "sync",
+    "z_order": "rider_above"
+   }
+  },
+  {
+   "id": "carried_flight",
+   "label": "carried flight",
+   "poses": [
+    {
+     "pose_id": "fly_carried",
+     "role": "primary",
+     "condition": "primary"
+    }
+   ],
+   "anchor_rule": {
+    "rider_anchor": "grip_hands",
+    "pokemon_anchor": "underside_grip",
+    "offset": [
+     0.0,
+     0.05
+    ],
+    "facing": "sync",
+    "z_order": "rider_below"
+   }
+  },
+  {
+   "id": "diving",
+   "label": "diving",
+   "poses": [
+    {
+     "pose_id": "dive_hold",
+     "role": "primary",
+     "condition": "primary"
+    }
+   ],
+   "anchor_rule": {
+    "rider_anchor": "grip_hands",
+    "pokemon_anchor": "dorsal_fin",
+    "offset": [
+     0.0,
+     -0.05
+    ],
+    "facing": "sync",
+    "z_order": "rider_above"
+   }
+  },
+  {
+   "id": "climbing_cliff",
+   "label": "climbing, cliff",
+   "poses": [
+    {
+     "pose_id": "climb_cling",
+     "role": "primary",
+     "condition": "primary"
+    }
+   ],
+   "anchor_rule": {
+    "rider_anchor": "body_center",
+    "pokemon_anchor": "back_center",
+    "offset": [
+     0.0,
+     -0.05
+    ],
+    "facing": "sync",
+    "z_order": "rider_above"
+   }
+  },
+  {
+   "id": "climbing_waterfall",
+   "label": "climbing, waterfall",
+   "poses": [
+    {
+     "pose_id": "climb_stand",
+     "role": "primary",
+     "condition": "primary"
+    }
+   ],
+   "anchor_rule": {
+    "rider_anchor": "feet",
+    "pokemon_anchor": "back_center",
+    "offset": [
+     0.0,
+     -0.1
+    ],
+    "facing": "sync",
+    "z_order": "rider_above"
+   }
+  },
+  {
+   "id": "hover_carrying",
+   "label": "hover-carrying",
+   "poses": [
+    {
+     "pose_id": "hover_stand",
+     "role": "primary",
+     "condition": "primary"
+    }
+   ],
+   "anchor_rule": {
+    "rider_anchor": "feet",
+    "pokemon_anchor": "top_center",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "facing": "sync",
+    "z_order": "rider_above"
+   }
+  },
+  {
+   "id": "held_carrying",
+   "label": "held-carrying",
+   "poses": [
+    {
+     "pose_id": "carry_held",
+     "role": "primary",
+     "condition": "primary"
+    }
+   ],
+   "anchor_rule": {
+    "rider_anchor": "seat",
+    "pokemon_anchor": "front_arms",
+    "offset": [
+     0.0,
+     0.0
+    ],
+    "facing": "sync",
+    "z_order": "rider_above"
+   }
+  },
+  {
+   "id": "burrowing",
+   "label": "burrowing",
+   "poses": [
+    {
+     "pose_id": "burrow_crouch",
+     "role": "primary",
+     "condition": "primary"
+    }
+   ],
+   "anchor_rule": {
+    "rider_anchor": "seat",
+    "pokemon_anchor": "back_rear",
+    "offset": [
+     -0.3,
+     -0.05
+    ],
+    "facing": "sync",
+    "z_order": "rider_above"
+   }
+  }
+ ]
+}

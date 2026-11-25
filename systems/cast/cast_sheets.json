@@ -1,0 +1,357 @@
+{
+ "note": "Neon repo-relative sheet paths per the custom work register manifest. The art files live in Neon's repo / the forwarded art zips; this registry ships NO art. Every resolver answer carries status waits_on_neon_art_merge until the sheets are merged. Riley has no swim-specific sheet in the manifest, so swim resolves to the 8-frame animation sheet (documented fallback, not a separate sheet). Custom x Custom tandem pairings have no named sheet in the manifest (only tandem_custom_<variant>_sheet.jpg single-token files exist); tandem_driver/passenger lists cover exactly the pairings with named two-token sheets. F1 (QA round 8 phase 3, 2026-11-23): the locomotion, ride and bike sheets bound through this registry and the frame-data registries were replaced by pixel-perfect PNG masters -- see the f1_masters field for the bound set and the 3 sheets still owed.",
+ "art_status": "waits_on_neon_art_merge",
+ "f1_masters": {
+  "status": "closed",
+  "bound": "QA round 8 phase 3 (2026-11-23): 14 locomotion masters + 95 legacy ride/bike masters are bound as the canonical PNG masters (pack: art/sheets/<repo-relative path>; project: <repo-relative path>), replacing the bound JPG-era sheets. Figures are pixel-identical to the bound JPGs (round-8 + round-8b grading: mask XOR 0.000% and centroid diff 0.0 px on every sheet); every already-sliced frame PNG is unchanged. All transportation sheet paths in this registry now end .png.",
+  "still_owed": [],
+  "futanari_v1_v2_note": "Custom Futanari's v1 JPG is byte-identical to its v2 JPG (same SHA-256), so the single bound master characters/rides/ride_custom_futanari_sheet.png covers both versions; rider_frame_data.json holds no .jpg reference to it (its frames bind through the layered stacks).",
+  "historical_records_note": "systems/transportation/bike_qa_report.md (both trees) and the project-only systems/transportation/bike_slicer_stats.json are dated JPG-era QA records and keep their original .jpg mentions; they are historical records, not live references.",
+  "post_milestone_note": "CLOSED 2026-11-23 (post-milestone integration): Tasha ride unique base body re-key bound (QA round 9 wave 1); v1 masters for ride_custom_femboy_sheet and ride_tasha_sheet bound at full 1376x768 (QA round 10 F1 closure). Source-sheet references in rider_frame_data.json switched from .jpg to the .png masters; live frames keep their existing slices."
+ },
+ "states": [
+  "idle",
+  "walk",
+  "run",
+  "bike_solo",
+  "swim",
+  "battle",
+  "tandem_driver",
+  "tandem_passenger"
+ ],
+ "cast": {
+  "riley": {
+   "token": "riley",
+   "sheets": {
+    "idle": [
+     "characters/animations/anim_riley_8frame_sheet.jpg"
+    ],
+    "walk": [
+     "characters/animations/anim_riley_8frame_sheet.jpg"
+    ],
+    "run": [
+     "characters/animations/anim_riley_8frame_sheet.jpg"
+    ],
+    "bike_solo": [
+     "systems/transportation/bike_riley_sheet.png"
+    ],
+    "swim": [
+     "characters/animations/anim_riley_8frame_sheet.jpg"
+    ],
+    "battle": [
+     "characters/animations/anim_riley_8frame_sheet.jpg"
+    ],
+    "tandem_driver": [
+     "systems/transportation/tandem_riley_tasha_sheet.png",
+     "systems/transportation/tandem_riley_female_sheet.png",
+     "systems/transportation/tandem_riley_male_sheet.png",
+     "systems/transportation/tandem_riley_femboy_sheet.png",
+     "systems/transportation/tandem_riley_futanari_sheet.png"
+    ],
+    "tandem_passenger": [
+     "systems/transportation/tandem_tasha_riley_sheet.png",
+     "systems/transportation/tandem_female_riley_sheet.png",
+     "systems/transportation/tandem_male_riley_sheet.png",
+     "systems/transportation/tandem_femboy_riley_sheet.png",
+     "systems/transportation/tandem_futanari_riley_sheet.png"
+    ]
+   },
+   "frame_data": {
+    "characters/animations/anim_riley_8frame_sheet.jpg": {
+     "frame_count": 8,
+     "layout": "strip",
+     "note": "8-frame animation sheet; CastRigLoader slices equal-width frames when the sheet file is present."
+    }
+   },
+   "extra_sheets": {
+    "master": [
+     "characters/protagonists/riley/riley_6ball_meowth_master_sheet.jpg"
+    ]
+   }
+  },
+  "tasha": {
+   "token": "tasha",
+   "sheets": {
+    "idle": [
+     "characters/animations/anim_tasha_8frame_sheet.jpg"
+    ],
+    "walk": [
+     "characters/animations/anim_tasha_8frame_sheet.jpg"
+    ],
+    "run": [
+     "characters/animations/anim_tasha_8frame_sheet.jpg"
+    ],
+    "bike_solo": [
+     "systems/transportation/bike_tasha_sheet.png"
+    ],
+    "swim": [
+     "characters/protagonists/tasha/tasha_swim_exclusive_sheet.jpg"
+    ],
+    "battle": [
+     "characters/animations/anim_tasha_8frame_sheet.jpg"
+    ],
+    "tandem_driver": [
+     "systems/transportation/tandem_tasha_riley_sheet.png",
+     "systems/transportation/tandem_tasha_female_sheet.png",
+     "systems/transportation/tandem_tasha_male_sheet.png",
+     "systems/transportation/tandem_tasha_femboy_sheet.png",
+     "systems/transportation/tandem_tasha_futanari_sheet.png"
+    ],
+    "tandem_passenger": [
+     "systems/transportation/tandem_riley_tasha_sheet.png",
+     "systems/transportation/tandem_female_tasha_sheet.png",
+     "systems/transportation/tandem_male_tasha_sheet.png",
+     "systems/transportation/tandem_femboy_tasha_sheet.png",
+     "systems/transportation/tandem_futanari_tasha_sheet.png"
+    ]
+   },
+   "frame_data": {
+    "characters/animations/anim_tasha_8frame_sheet.jpg": {
+     "frame_count": 8,
+     "layout": "strip",
+     "note": "8-frame animation sheet; CastRigLoader slices equal-width frames when the sheet file is present."
+    }
+   },
+   "extra_sheets": {
+    "casual": [
+     "characters/protagonists/tasha/tasha_casual_exclusive_sheet.jpg"
+    ],
+    "swim": [
+     "characters/protagonists/tasha/tasha_swim_exclusive_sheet.jpg"
+    ]
+   }
+  },
+  "custom_female": {
+   "token": "female",
+   "sheets": {
+    "idle": [
+     "characters/animations/anim_custom_female_8frame_sheet.jpg"
+    ],
+    "walk": [
+     "characters/animations/anim_custom_female_8frame_sheet.jpg"
+    ],
+    "run": [
+     "characters/animations/anim_custom_female_8frame_sheet.jpg"
+    ],
+    "bike_solo": [
+     "systems/transportation/solo_female_sheet.png"
+    ],
+    "swim": [
+     "characters/protagonists/custom/custom_female_swim_sheet.jpg"
+    ],
+    "battle": [
+     "characters/protagonists/custom/custom_female_battle.png"
+    ],
+    "tandem_driver": [
+     "systems/transportation/tandem_female_riley_sheet.png",
+     "systems/transportation/tandem_female_tasha_sheet.png"
+    ],
+    "tandem_passenger": [
+     "systems/transportation/tandem_riley_female_sheet.png",
+     "systems/transportation/tandem_tasha_female_sheet.png"
+    ]
+   },
+   "frame_data": {
+    "characters/animations/anim_custom_female_8frame_sheet.jpg": {
+     "frame_count": 8,
+     "layout": "strip",
+     "note": "8-frame animation sheet; CastRigLoader slices equal-width frames when the sheet file is present."
+    }
+   },
+   "extra_sheets": {
+    "master": [
+     "characters/protagonists/custom/custom_female_master_sheet.jpg"
+    ],
+    "casual": [
+     "characters/protagonists/custom/custom_female_casual_sheet.jpg"
+    ],
+    "swim": [
+     "characters/protagonists/custom/custom_female_swim_sheet.jpg"
+    ],
+    "battle": [
+     "characters/protagonists/custom/custom_female_battle.png"
+    ],
+    "overworld_frames": [
+     "characters/protagonists/custom/custom_female_ow_00.png",
+     "characters/protagonists/custom/custom_female_ow_01.png",
+     "characters/protagonists/custom/custom_female_ow_02.png",
+     "characters/protagonists/custom/custom_female_ow_03.png"
+    ]
+   }
+  },
+  "custom_male": {
+   "token": "male",
+   "sheets": {
+    "idle": [
+     "characters/animations/anim_custom_male_8frame_sheet.jpg"
+    ],
+    "walk": [
+     "characters/animations/anim_custom_male_8frame_sheet.jpg"
+    ],
+    "run": [
+     "characters/animations/anim_custom_male_8frame_sheet.jpg"
+    ],
+    "bike_solo": [
+     "systems/transportation/solo_male_sheet.png"
+    ],
+    "swim": [
+     "characters/protagonists/custom/custom_male_swim_sheet.jpg"
+    ],
+    "battle": [
+     "characters/protagonists/custom/custom_male_battle.png"
+    ],
+    "tandem_driver": [
+     "systems/transportation/tandem_male_riley_sheet.png",
+     "systems/transportation/tandem_male_tasha_sheet.png"
+    ],
+    "tandem_passenger": [
+     "systems/transportation/tandem_riley_male_sheet.png",
+     "systems/transportation/tandem_tasha_male_sheet.png"
+    ]
+   },
+   "frame_data": {
+    "characters/animations/anim_custom_male_8frame_sheet.jpg": {
+     "frame_count": 8,
+     "layout": "strip",
+     "note": "8-frame animation sheet; CastRigLoader slices equal-width frames when the sheet file is present."
+    }
+   },
+   "extra_sheets": {
+    "master": [
+     "characters/protagonists/custom/custom_male_master_sheet.jpg"
+    ],
+    "casual": [
+     "characters/protagonists/custom/custom_male_casual_sheet.jpg"
+    ],
+    "swim": [
+     "characters/protagonists/custom/custom_male_swim_sheet.jpg"
+    ],
+    "battle": [
+     "characters/protagonists/custom/custom_male_battle.png"
+    ],
+    "overworld_frames": [
+     "characters/protagonists/custom/custom_male_ow_00.png",
+     "characters/protagonists/custom/custom_male_ow_01.png",
+     "characters/protagonists/custom/custom_male_ow_02.png",
+     "characters/protagonists/custom/custom_male_ow_03.png"
+    ]
+   }
+  },
+  "custom_femboy": {
+   "token": "femboy",
+   "sheets": {
+    "idle": [
+     "characters/animations/anim_custom_femboy_8frame_sheet.jpg"
+    ],
+    "walk": [
+     "characters/animations/anim_custom_femboy_8frame_sheet.jpg"
+    ],
+    "run": [
+     "characters/animations/anim_custom_femboy_8frame_sheet.jpg"
+    ],
+    "bike_solo": [
+     "systems/transportation/solo_femboy_sheet.png"
+    ],
+    "swim": [
+     "characters/protagonists/custom/custom_femboy_swim_sheet.jpg"
+    ],
+    "battle": [
+     "characters/protagonists/custom/custom_femboy_battle.png"
+    ],
+    "tandem_driver": [
+     "systems/transportation/tandem_femboy_riley_sheet.png",
+     "systems/transportation/tandem_femboy_tasha_sheet.png"
+    ],
+    "tandem_passenger": [
+     "systems/transportation/tandem_riley_femboy_sheet.png",
+     "systems/transportation/tandem_tasha_femboy_sheet.png"
+    ]
+   },
+   "frame_data": {
+    "characters/animations/anim_custom_femboy_8frame_sheet.jpg": {
+     "frame_count": 8,
+     "layout": "strip",
+     "note": "8-frame animation sheet; CastRigLoader slices equal-width frames when the sheet file is present."
+    }
+   },
+   "extra_sheets": {
+    "master": [
+     "characters/protagonists/custom/custom_femboy_master_sheet.jpg"
+    ],
+    "casual": [
+     "characters/protagonists/custom/custom_femboy_casual_sheet.jpg"
+    ],
+    "swim": [
+     "characters/protagonists/custom/custom_femboy_swim_sheet.jpg"
+    ],
+    "battle": [
+     "characters/protagonists/custom/custom_femboy_battle.png"
+    ],
+    "overworld_frames": [
+     "characters/protagonists/custom/custom_femboy_ow_00.png",
+     "characters/protagonists/custom/custom_femboy_ow_01.png",
+     "characters/protagonists/custom/custom_femboy_ow_02.png",
+     "characters/protagonists/custom/custom_femboy_ow_03.png"
+    ]
+   }
+  },
+  "custom_futanari": {
+   "token": "futanari",
+   "sheets": {
+    "idle": [
+     "characters/animations/anim_custom_futanari_8frame_sheet.jpg"
+    ],
+    "walk": [
+     "characters/animations/anim_custom_futanari_8frame_sheet.jpg"
+    ],
+    "run": [
+     "characters/animations/anim_custom_futanari_8frame_sheet.jpg"
+    ],
+    "bike_solo": [
+     "systems/transportation/solo_futanari_sheet.png"
+    ],
+    "swim": [
+     "characters/protagonists/custom/custom_futanari_swim_sheet.jpg"
+    ],
+    "battle": [
+     "characters/protagonists/custom/custom_futanari_battle.png"
+    ],
+    "tandem_driver": [
+     "systems/transportation/tandem_futanari_riley_sheet.png",
+     "systems/transportation/tandem_futanari_tasha_sheet.png"
+    ],
+    "tandem_passenger": [
+     "systems/transportation/tandem_riley_futanari_sheet.png",
+     "systems/transportation/tandem_tasha_futanari_sheet.png"
+    ]
+   },
+   "frame_data": {
+    "characters/animations/anim_custom_futanari_8frame_sheet.jpg": {
+     "frame_count": 8,
+     "layout": "strip",
+     "note": "8-frame animation sheet; CastRigLoader slices equal-width frames when the sheet file is present."
+    }
+   },
+   "extra_sheets": {
+    "master": [
+     "characters/protagonists/custom/custom_futanari_master_sheet.jpg"
+    ],
+    "casual": [
+     "characters/protagonists/custom/custom_futanari_casual_sheet.jpg"
+    ],
+    "swim": [
+     "characters/protagonists/custom/custom_futanari_swim_sheet.jpg"
+    ],
+    "battle": [
+     "characters/protagonists/custom/custom_futanari_battle.png"
+    ],
+    "overworld_frames": [
+     "characters/protagonists/custom/custom_futanari_ow_00.png",
+     "characters/protagonists/custom/custom_futanari_ow_01.png",
+     "characters/protagonists/custom/custom_futanari_ow_02.png",
+     "characters/protagonists/custom/custom_futanari_ow_03.png"
+    ]
+   }
+  }
+ }
+}

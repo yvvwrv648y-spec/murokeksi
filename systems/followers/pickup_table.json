@@ -1,0 +1,502 @@
+{
+  "source": "Classic mainline Pickup item table (level-banded, 10 bands) as published at polisheddex.app/guides/pickup-table, transcribed 2026-11-23; percentages are weights out of 100 per band (98% common + 2% rare rows merged). NOTE: no Pickup item table existed anywhere in the project or data pack before this file (searched 2026-11-23); this file is that table, added as data. Item slugs use the hyphen form of systems/inventory/mart_shop.gd's bag keys.",
+  "chance_note": "Mainline convention: 10% check after battle (veekun.com/dex/abilities/Pickup). The overworld exploration-tick reuse of 10% is a PUW design parameter, labeled in puw_follower_controller.gd.",
+  "bands": [
+    {
+      "min_level": 1,
+      "max_level": 10,
+      "items": [
+        {
+          "slug": "potion",
+          "weight": 30
+        },
+        {
+          "slug": "antidote",
+          "weight": 10
+        },
+        {
+          "slug": "super-potion",
+          "weight": 10
+        },
+        {
+          "slug": "great-ball",
+          "weight": 10
+        },
+        {
+          "slug": "repel",
+          "weight": 10
+        },
+        {
+          "slug": "escape-rope",
+          "weight": 10
+        },
+        {
+          "slug": "full-heal",
+          "weight": 10
+        },
+        {
+          "slug": "hyper-potion",
+          "weight": 5
+        },
+        {
+          "slug": "ultra-ball",
+          "weight": 4
+        },
+        {
+          "slug": "nugget",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "min_level": 11,
+      "max_level": 20,
+      "items": [
+        {
+          "slug": "antidote",
+          "weight": 30
+        },
+        {
+          "slug": "super-potion",
+          "weight": 10
+        },
+        {
+          "slug": "great-ball",
+          "weight": 10
+        },
+        {
+          "slug": "repel",
+          "weight": 10
+        },
+        {
+          "slug": "escape-rope",
+          "weight": 10
+        },
+        {
+          "slug": "full-heal",
+          "weight": 10
+        },
+        {
+          "slug": "hyper-potion",
+          "weight": 10
+        },
+        {
+          "slug": "ultra-ball",
+          "weight": 4
+        },
+        {
+          "slug": "revive",
+          "weight": 4
+        },
+        {
+          "slug": "nugget",
+          "weight": 1
+        },
+        {
+          "slug": "kings-rock",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "min_level": 21,
+      "max_level": 30,
+      "items": [
+        {
+          "slug": "super-potion",
+          "weight": 30
+        },
+        {
+          "slug": "great-ball",
+          "weight": 10
+        },
+        {
+          "slug": "repel",
+          "weight": 10
+        },
+        {
+          "slug": "escape-rope",
+          "weight": 10
+        },
+        {
+          "slug": "full-heal",
+          "weight": 10
+        },
+        {
+          "slug": "hyper-potion",
+          "weight": 10
+        },
+        {
+          "slug": "ultra-ball",
+          "weight": 10
+        },
+        {
+          "slug": "revive",
+          "weight": 4
+        },
+        {
+          "slug": "rare-candy",
+          "weight": 4
+        },
+        {
+          "slug": "full-restore",
+          "weight": 1
+        },
+        {
+          "slug": "kings-rock",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "min_level": 31,
+      "max_level": 40,
+      "items": [
+        {
+          "slug": "great-ball",
+          "weight": 30
+        },
+        {
+          "slug": "repel",
+          "weight": 10
+        },
+        {
+          "slug": "escape-rope",
+          "weight": 10
+        },
+        {
+          "slug": "full-heal",
+          "weight": 10
+        },
+        {
+          "slug": "hyper-potion",
+          "weight": 10
+        },
+        {
+          "slug": "ultra-ball",
+          "weight": 10
+        },
+        {
+          "slug": "revive",
+          "weight": 10
+        },
+        {
+          "slug": "rare-candy",
+          "weight": 4
+        },
+        {
+          "slug": "dusk-stone",
+          "weight": 4
+        },
+        {
+          "slug": "full-restore",
+          "weight": 1
+        },
+        {
+          "slug": "ether",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "min_level": 41,
+      "max_level": 50,
+      "items": [
+        {
+          "slug": "repel",
+          "weight": 30
+        },
+        {
+          "slug": "escape-rope",
+          "weight": 10
+        },
+        {
+          "slug": "full-heal",
+          "weight": 10
+        },
+        {
+          "slug": "hyper-potion",
+          "weight": 10
+        },
+        {
+          "slug": "ultra-ball",
+          "weight": 10
+        },
+        {
+          "slug": "revive",
+          "weight": 10
+        },
+        {
+          "slug": "rare-candy",
+          "weight": 10
+        },
+        {
+          "slug": "dusk-stone",
+          "weight": 4
+        },
+        {
+          "slug": "shiny-stone",
+          "weight": 4
+        },
+        {
+          "slug": "ether",
+          "weight": 1
+        },
+        {
+          "slug": "lucky-egg",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "min_level": 51,
+      "max_level": 60,
+      "items": [
+        {
+          "slug": "escape-rope",
+          "weight": 30
+        },
+        {
+          "slug": "full-heal",
+          "weight": 10
+        },
+        {
+          "slug": "hyper-potion",
+          "weight": 10
+        },
+        {
+          "slug": "ultra-ball",
+          "weight": 10
+        },
+        {
+          "slug": "revive",
+          "weight": 10
+        },
+        {
+          "slug": "rare-candy",
+          "weight": 10
+        },
+        {
+          "slug": "dusk-stone",
+          "weight": 10
+        },
+        {
+          "slug": "shiny-stone",
+          "weight": 4
+        },
+        {
+          "slug": "max-ether",
+          "weight": 4
+        },
+        {
+          "slug": "lucky-egg",
+          "weight": 1
+        },
+        {
+          "slug": "destiny-knot",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "min_level": 61,
+      "max_level": 70,
+      "items": [
+        {
+          "slug": "full-heal",
+          "weight": 30
+        },
+        {
+          "slug": "hyper-potion",
+          "weight": 10
+        },
+        {
+          "slug": "ultra-ball",
+          "weight": 10
+        },
+        {
+          "slug": "revive",
+          "weight": 10
+        },
+        {
+          "slug": "rare-candy",
+          "weight": 10
+        },
+        {
+          "slug": "dusk-stone",
+          "weight": 10
+        },
+        {
+          "slug": "shiny-stone",
+          "weight": 10
+        },
+        {
+          "slug": "max-ether",
+          "weight": 4
+        },
+        {
+          "slug": "full-restore",
+          "weight": 4
+        },
+        {
+          "slug": "destiny-knot",
+          "weight": 1
+        },
+        {
+          "slug": "elixir",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "min_level": 71,
+      "max_level": 80,
+      "items": [
+        {
+          "slug": "hyper-potion",
+          "weight": 30
+        },
+        {
+          "slug": "ultra-ball",
+          "weight": 10
+        },
+        {
+          "slug": "revive",
+          "weight": 10
+        },
+        {
+          "slug": "rare-candy",
+          "weight": 10
+        },
+        {
+          "slug": "dusk-stone",
+          "weight": 10
+        },
+        {
+          "slug": "shiny-stone",
+          "weight": 10
+        },
+        {
+          "slug": "max-ether",
+          "weight": 10
+        },
+        {
+          "slug": "full-restore",
+          "weight": 4
+        },
+        {
+          "slug": "max-revive",
+          "weight": 4
+        },
+        {
+          "slug": "elixir",
+          "weight": 1
+        },
+        {
+          "slug": "big-nugget",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "min_level": 81,
+      "max_level": 90,
+      "items": [
+        {
+          "slug": "ultra-ball",
+          "weight": 30
+        },
+        {
+          "slug": "revive",
+          "weight": 10
+        },
+        {
+          "slug": "rare-candy",
+          "weight": 10
+        },
+        {
+          "slug": "dusk-stone",
+          "weight": 10
+        },
+        {
+          "slug": "shiny-stone",
+          "weight": 10
+        },
+        {
+          "slug": "max-ether",
+          "weight": 10
+        },
+        {
+          "slug": "full-restore",
+          "weight": 10
+        },
+        {
+          "slug": "max-revive",
+          "weight": 4
+        },
+        {
+          "slug": "pp-up",
+          "weight": 4
+        },
+        {
+          "slug": "big-nugget",
+          "weight": 1
+        },
+        {
+          "slug": "leftovers",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "min_level": 91,
+      "max_level": 100,
+      "items": [
+        {
+          "slug": "revive",
+          "weight": 30
+        },
+        {
+          "slug": "rare-candy",
+          "weight": 10
+        },
+        {
+          "slug": "dusk-stone",
+          "weight": 10
+        },
+        {
+          "slug": "shiny-stone",
+          "weight": 10
+        },
+        {
+          "slug": "max-ether",
+          "weight": 10
+        },
+        {
+          "slug": "full-restore",
+          "weight": 10
+        },
+        {
+          "slug": "max-revive",
+          "weight": 10
+        },
+        {
+          "slug": "pp-up",
+          "weight": 4
+        },
+        {
+          "slug": "max-elixir",
+          "weight": 4
+        },
+        {
+          "slug": "leftovers",
+          "weight": 1
+        },
+        {
+          "slug": "bottle-cap",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
