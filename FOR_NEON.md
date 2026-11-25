@@ -401,3 +401,29 @@ mdx_follower_tranche27/PRODUCTION_REPORT.md (Vivillon names named there).
 - **Your next art task is unchanged:** Wave 3B — the 107-slot redraw list
   in the section above — after your reset.
 
+## PLATFORM BUILD-OUT — WHAT IT MEANS FOR DESIGN WORK (2026-11-25)
+
+Riley set the platform plan today. In plain words:
+
+- The game will ship on PlayStation 5, Xbox Series X|S, Nintendo Switch
+  and Switch 2, Steam Deck, PC, Mac, phones, and emulator builds in the
+  Black 2 / White 2 style.
+- The graphics scale to each machine, with an auto mode that picks the
+  settings for the player. The quality floor is the best Black 2 / White
+  2 can do — peak BW2 — and nothing ever goes below that floor. From the
+  floor, the quality climbs as high as each machine can honestly go.
+- The controls cover every kind of pad, and two-player Tandem co-op sits
+  at the center of the game.
+
+What this means for your design work:
+
+- **Design for both ends of the scale.** Every design must read clean at
+  the small BW2 floor size AND hold up when it is scaled up big. Fine
+  detail that only works huge fails. Detail that vanishes when it is
+  small fails.
+- **Keep designs mainstream.** Riley's direct word: no liberties, no
+  added extras, no inventions past the brief. The feature rule stands
+  exactly as written — tails, ears, wings, horns, and fins are kept,
+  never dropped and never shrunk.
+- **Your scope is unchanged.** Designs only. All animation stays
+  in-house. Bossy grades every batch, and work that fails is redone.
