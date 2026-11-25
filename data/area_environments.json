@@ -1,0 +1,943 @@
+{
+ "metadata": {
+  "file": "area_environments.json",
+  "source": "Derived from data/wild_encounters.json (the environment record) by tools/build_area_environments.py",
+  "generated": "2026-11-24",
+  "area_count": 126,
+  "areas_with_tags": 124,
+  "areas_without_tags": [
+   "POKEMON_TOWER_1F",
+   "POKEMON_TOWER_2F"
+  ],
+  "rules": "Method tags come from the map's own rate>0 encounter blocks across its full merged record (top-level blocks plus both version sub-tables; grass/land->grassland, water/fishing->water, rock_smash->rough-terrain). Name tags (forest, cave, mountain, cold, urban, coastal) are added only to maps that already have a method tag; Victory Road gains cave/mountain/rough-terrain, cities gain urban, and settlements and water+fishing routes on water gain coastal. A map with no live block gets no tags and therefore no habitat pool. Derivation repaired 2026-11-24 (Kanto encounter fixes): the previous derivation predated the pokefirered layer fills in wild_encounters.json and read only one sub-table, so merged water/rock_smash blocks never fed it."
+ },
+ "areas": {
+  "ROUTE_1": {
+   "name": "Route1",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "ROUTE_2": {
+   "name": "Route2",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "ROUTE_3": {
+   "name": "Route3",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "ROUTE_4": {
+   "name": "Route4",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "ROUTE_5": {
+   "name": "Route5",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "ROUTE_6": {
+   "name": "Route6",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "ROUTE_7": {
+   "name": "Route7",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "ROUTE_8": {
+   "name": "Route8",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "ROUTE_9": {
+   "name": "Route9",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "ROUTE_10": {
+   "name": "Route10",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "ROUTE_11": {
+   "name": "Route11",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "ROUTE_12": {
+   "name": "Route12",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "ROUTE_13": {
+   "name": "Route13",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "ROUTE_14": {
+   "name": "Route14",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "ROUTE_15": {
+   "name": "Route15",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "ROUTE_16": {
+   "name": "Route16",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "ROUTE_17": {
+   "name": "Route17",
+   "environments": [
+    "grassland",
+    "water"
+   ]
+  },
+  "ROUTE_18": {
+   "name": "Route18",
+   "environments": [
+    "grassland",
+    "water"
+   ]
+  },
+  "ROUTE_19": {
+   "name": "Route19",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "ROUTE_20": {
+   "name": "Route20",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "ROUTE_21": {
+   "name": "Route21",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "ROUTE_22": {
+   "name": "Route22",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "ROUTE_23": {
+   "name": "Route23",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "ROUTE_24": {
+   "name": "Route24",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "ROUTE_25": {
+   "name": "Route25",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "VIRIDIAN_FOREST": {
+   "name": "ViridianForest",
+   "environments": [
+    "grassland",
+    "forest"
+   ]
+  },
+  "MT_MOON_1F": {
+   "name": "MtMoon1F",
+   "environments": [
+    "grassland",
+    "mountain",
+    "rough-terrain"
+   ]
+  },
+  "MT_MOON_B1F": {
+   "name": "MtMoonB1F",
+   "environments": [
+    "grassland",
+    "mountain",
+    "rough-terrain"
+   ]
+  },
+  "MT_MOON_B2F": {
+   "name": "MtMoonB2F",
+   "environments": [
+    "grassland",
+    "mountain",
+    "rough-terrain"
+   ]
+  },
+  "ROCK_TUNNEL_1F": {
+   "name": "RockTunnel1F",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "POWER_PLANT": {
+   "name": "PowerPlant",
+   "environments": [
+    "grassland",
+    "urban"
+   ]
+  },
+  "VICTORY_ROAD_1F": {
+   "name": "VictoryRoad1F",
+   "environments": [
+    "grassland",
+    "cave",
+    "mountain",
+    "rough-terrain"
+   ]
+  },
+  "POKEMON_TOWER_1F": {
+   "name": "PokemonTower1F",
+   "environments": []
+  },
+  "POKEMON_TOWER_2F": {
+   "name": "PokemonTower2F",
+   "environments": []
+  },
+  "POKEMON_TOWER_3F": {
+   "name": "PokemonTower3F",
+   "environments": [
+    "grassland",
+    "urban"
+   ]
+  },
+  "POKEMON_TOWER_4F": {
+   "name": "PokemonTower4F",
+   "environments": [
+    "grassland",
+    "urban"
+   ]
+  },
+  "POKEMON_TOWER_5F": {
+   "name": "PokemonTower5F",
+   "environments": [
+    "grassland",
+    "urban"
+   ]
+  },
+  "POKEMON_TOWER_6F": {
+   "name": "PokemonTower6F",
+   "environments": [
+    "grassland",
+    "urban"
+   ]
+  },
+  "POKEMON_TOWER_7F": {
+   "name": "PokemonTower7F",
+   "environments": [
+    "grassland",
+    "urban"
+   ]
+  },
+  "SEAFOAM_ISLANDS_B1F": {
+   "name": "SeafoamIslandsB1F",
+   "environments": [
+    "grassland",
+    "cold"
+   ]
+  },
+  "SEAFOAM_ISLANDS_B2F": {
+   "name": "SeafoamIslandsB2F",
+   "environments": [
+    "grassland",
+    "cold"
+   ]
+  },
+  "SEAFOAM_ISLANDS_B3F": {
+   "name": "SeafoamIslandsB3F",
+   "environments": [
+    "grassland",
+    "water",
+    "cold",
+    "coastal"
+   ]
+  },
+  "SEAFOAM_ISLANDS_B4F": {
+   "name": "SeafoamIslandsB4F",
+   "environments": [
+    "grassland",
+    "water",
+    "cold",
+    "coastal"
+   ]
+  },
+  "POKEMON_MANSION_1F": {
+   "name": "PokemonMansion1F",
+   "environments": [
+    "grassland",
+    "urban"
+   ]
+  },
+  "SEAFOAM_ISLANDS_1F": {
+   "name": "SeafoamIslands1F",
+   "environments": [
+    "grassland",
+    "cold"
+   ]
+  },
+  "VICTORY_ROAD_2F": {
+   "name": "VictoryRoad2F",
+   "environments": [
+    "grassland",
+    "cave",
+    "mountain",
+    "rough-terrain"
+   ]
+  },
+  "DIGLETTS_CAVE": {
+   "name": "DiglettsCave",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "VICTORY_ROAD_3F": {
+   "name": "VictoryRoad3F",
+   "environments": [
+    "grassland",
+    "cave",
+    "mountain",
+    "rough-terrain"
+   ]
+  },
+  "POKEMON_MANSION_2F": {
+   "name": "PokemonMansion2F",
+   "environments": [
+    "grassland",
+    "urban"
+   ]
+  },
+  "POKEMON_MANSION_3F": {
+   "name": "PokemonMansion3F",
+   "environments": [
+    "grassland",
+    "urban"
+   ]
+  },
+  "POKEMON_MANSION_B1F": {
+   "name": "PokemonMansionB1F",
+   "environments": [
+    "grassland",
+    "urban"
+   ]
+  },
+  "SAFARI_ZONE_EAST": {
+   "name": "SafariZoneEast",
+   "environments": [
+    "grassland",
+    "water"
+   ]
+  },
+  "SAFARI_ZONE_NORTH": {
+   "name": "SafariZoneNorth",
+   "environments": [
+    "grassland",
+    "water"
+   ]
+  },
+  "SAFARI_ZONE_WEST": {
+   "name": "SafariZoneWest",
+   "environments": [
+    "grassland",
+    "water"
+   ]
+  },
+  "SAFARI_ZONE_CENTER": {
+   "name": "SafariZoneCenter",
+   "environments": [
+    "grassland",
+    "water"
+   ]
+  },
+  "CERULEAN_CAVE_2F": {
+   "name": "CeruleanCave2F",
+   "environments": [
+    "grassland",
+    "water",
+    "rough-terrain",
+    "cave"
+   ]
+  },
+  "CERULEAN_CAVE_B1F": {
+   "name": "CeruleanCaveB1F",
+   "environments": [
+    "grassland",
+    "water",
+    "rough-terrain",
+    "cave"
+   ]
+  },
+  "CERULEAN_CAVE_1F": {
+   "name": "CeruleanCave1F",
+   "environments": [
+    "grassland",
+    "water",
+    "rough-terrain",
+    "cave"
+   ]
+  },
+  "ROCK_TUNNEL_B1F": {
+   "name": "RockTunnelB1F",
+   "environments": [
+    "grassland",
+    "rough-terrain",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND": {
+   "name": "FiveIsland",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1": {
+   "name": "FiveIsland_LostCave_Room1",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM10": {
+   "name": "FiveIsland_LostCave_Room10",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM11": {
+   "name": "FiveIsland_LostCave_Room11",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM12": {
+   "name": "FiveIsland_LostCave_Room12",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM13": {
+   "name": "FiveIsland_LostCave_Room13",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM14": {
+   "name": "FiveIsland_LostCave_Room14",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM2": {
+   "name": "FiveIsland_LostCave_Room2",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM3": {
+   "name": "FiveIsland_LostCave_Room3",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM4": {
+   "name": "FiveIsland_LostCave_Room4",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM5": {
+   "name": "FiveIsland_LostCave_Room5",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM6": {
+   "name": "FiveIsland_LostCave_Room6",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM7": {
+   "name": "FiveIsland_LostCave_Room7",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM8": {
+   "name": "FiveIsland_LostCave_Room8",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_LOST_CAVE_ROOM9": {
+   "name": "FiveIsland_LostCave_Room9",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_FIVE_ISLAND_MEADOW": {
+   "name": "FiveIsland_Meadow",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_FIVE_ISLAND_MEMORIAL_PILLAR": {
+   "name": "FiveIsland_MemorialPillar",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_FIVE_ISLAND_RESORT_GORGEOUS": {
+   "name": "FiveIsland_ResortGorgeous",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_FIVE_ISLAND_WATER_LABYRINTH": {
+   "name": "FiveIsland_WaterLabyrinth",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_FOUR_ISLAND": {
+   "name": "FourIsland",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_FOUR_ISLAND_ICEFALL_CAVE_1F": {
+   "name": "FourIsland_IcefallCave_1F",
+   "environments": [
+    "grassland",
+    "cave",
+    "cold"
+   ]
+  },
+  "MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F": {
+   "name": "FourIsland_IcefallCave_B1F",
+   "environments": [
+    "grassland",
+    "cave",
+    "cold"
+   ]
+  },
+  "MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK": {
+   "name": "FourIsland_IcefallCave_Back",
+   "environments": [
+    "grassland",
+    "water",
+    "cave",
+    "cold",
+    "coastal"
+   ]
+  },
+  "MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE": {
+   "name": "FourIsland_IcefallCave_Entrance",
+   "environments": [
+    "grassland",
+    "water",
+    "cave",
+    "cold",
+    "coastal"
+   ]
+  },
+  "MAP_MT_EMBER_EXTERIOR": {
+   "name": "MtEmber_Exterior",
+   "environments": [
+    "grassland",
+    "rough-terrain",
+    "mountain"
+   ]
+  },
+  "MAP_MT_EMBER_RUBY_PATH_1F": {
+   "name": "MtEmber_RubyPath_1F",
+   "environments": [
+    "grassland",
+    "rough-terrain",
+    "mountain"
+   ]
+  },
+  "MAP_MT_EMBER_RUBY_PATH_B1F": {
+   "name": "MtEmber_RubyPath_B1F",
+   "environments": [
+    "grassland",
+    "rough-terrain",
+    "mountain"
+   ]
+  },
+  "MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS": {
+   "name": "MtEmber_RubyPath_B1F_Stairs",
+   "environments": [
+    "grassland",
+    "rough-terrain",
+    "mountain"
+   ]
+  },
+  "MAP_MT_EMBER_RUBY_PATH_B2F": {
+   "name": "MtEmber_RubyPath_B2F",
+   "environments": [
+    "grassland",
+    "rough-terrain",
+    "mountain"
+   ]
+  },
+  "MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS": {
+   "name": "MtEmber_RubyPath_B2F_Stairs",
+   "environments": [
+    "grassland",
+    "rough-terrain",
+    "mountain"
+   ]
+  },
+  "MAP_MT_EMBER_RUBY_PATH_B3F": {
+   "name": "MtEmber_RubyPath_B3F",
+   "environments": [
+    "grassland",
+    "rough-terrain",
+    "mountain"
+   ]
+  },
+  "MAP_MT_EMBER_SUMMIT_PATH_1F": {
+   "name": "MtEmber_SummitPath_1F",
+   "environments": [
+    "grassland",
+    "mountain",
+    "rough-terrain"
+   ]
+  },
+  "MAP_MT_EMBER_SUMMIT_PATH_2F": {
+   "name": "MtEmber_SummitPath_2F",
+   "environments": [
+    "grassland",
+    "rough-terrain",
+    "mountain"
+   ]
+  },
+  "MAP_MT_EMBER_SUMMIT_PATH_3F": {
+   "name": "MtEmber_SummitPath_3F",
+   "environments": [
+    "grassland",
+    "mountain",
+    "rough-terrain"
+   ]
+  },
+  "MAP_ONE_ISLAND": {
+   "name": "OneIsland",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_ONE_ISLAND_KINDLE_ROAD": {
+   "name": "OneIsland_KindleRoad",
+   "environments": [
+    "grassland",
+    "water",
+    "rough-terrain",
+    "coastal"
+   ]
+  },
+  "MAP_ONE_ISLAND_TREASURE_BEACH": {
+   "name": "OneIsland_TreasureBeach",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_SEVEN_ISLAND_SEVAULT_CANYON": {
+   "name": "SevenIsland_SevaultCanyon",
+   "environments": [
+    "grassland",
+    "rough-terrain",
+    "mountain"
+   ]
+  },
+  "MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE": {
+   "name": "SevenIsland_SevaultCanyon_Entrance",
+   "environments": [
+    "grassland",
+    "mountain",
+    "rough-terrain"
+   ]
+  },
+  "MAP_SEVEN_ISLAND_TANOBY_RUINS": {
+   "name": "SevenIsland_TanobyRuins",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_SEVEN_ISLAND_TANOBY_RUINS_DILFORD_CHAMBER": {
+   "name": "SevenIsland_TanobyRuins_DilfordChamber",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "MAP_SEVEN_ISLAND_TANOBY_RUINS_LIPTOO_CHAMBER": {
+   "name": "SevenIsland_TanobyRuins_LiptooChamber",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER": {
+   "name": "SevenIsland_TanobyRuins_MoneanChamber",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "MAP_SEVEN_ISLAND_TANOBY_RUINS_RIXY_CHAMBER": {
+   "name": "SevenIsland_TanobyRuins_RixyChamber",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "MAP_SEVEN_ISLAND_TANOBY_RUINS_SCUFIB_CHAMBER": {
+   "name": "SevenIsland_TanobyRuins_ScufibChamber",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "MAP_SEVEN_ISLAND_TANOBY_RUINS_VIAPOIS_CHAMBER": {
+   "name": "SevenIsland_TanobyRuins_ViapoisChamber",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "MAP_SEVEN_ISLAND_TANOBY_RUINS_WEEPTH_CHAMBER": {
+   "name": "SevenIsland_TanobyRuins_WeepthChamber",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "MAP_SEVEN_ISLAND_TRAINER_TOWER": {
+   "name": "SevenIsland_TrainerTower",
+   "environments": [
+    "water",
+    "urban",
+    "coastal"
+   ]
+  },
+  "MAP_SIX_ISLAND_ALTERING_CAVE": {
+   "name": "SixIsland_AlteringCave",
+   "environments": [
+    "grassland",
+    "cave"
+   ]
+  },
+  "MAP_SIX_ISLAND_GREEN_PATH": {
+   "name": "SixIsland_GreenPath",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_SIX_ISLAND_OUTCAST_ISLAND": {
+   "name": "SixIsland_OutcastIsland",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_SIX_ISLAND_PATTERN_BUSH": {
+   "name": "SixIsland_PatternBush",
+   "environments": [
+    "grassland",
+    "forest"
+   ]
+  },
+  "MAP_SIX_ISLAND_RUIN_VALLEY": {
+   "name": "SixIsland_RuinValley",
+   "environments": [
+    "grassland",
+    "water",
+    "mountain",
+    "rough-terrain",
+    "coastal"
+   ]
+  },
+  "MAP_SIX_ISLAND_WATER_PATH": {
+   "name": "SixIsland_WaterPath",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_THREE_ISLAND_BERRY_FOREST": {
+   "name": "ThreeIsland_BerryForest",
+   "environments": [
+    "grassland",
+    "water",
+    "forest",
+    "coastal"
+   ]
+  },
+  "MAP_THREE_ISLAND_BOND_BRIDGE": {
+   "name": "ThreeIsland_BondBridge",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "MAP_THREE_ISLAND_PORT": {
+   "name": "ThreeIsland_Port",
+   "environments": [
+    "grassland"
+   ]
+  },
+  "MAP_TWO_ISLAND_CAPE_BRINK": {
+   "name": "TwoIsland_CapeBrink",
+   "environments": [
+    "grassland",
+    "water",
+    "coastal"
+   ]
+  },
+  "PALLET_TOWN": {
+   "name": "PalletTown",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "VIRIDIAN_CITY": {
+   "name": "ViridianCity",
+   "environments": [
+    "water",
+    "urban",
+    "coastal"
+   ]
+  },
+  "CERULEAN_CITY": {
+   "name": "CeruleanCity",
+   "environments": [
+    "water",
+    "urban",
+    "coastal"
+   ]
+  },
+  "VERMILION_CITY": {
+   "name": "VermilionCity",
+   "environments": [
+    "water",
+    "urban",
+    "coastal"
+   ]
+  },
+  "CELADON_CITY": {
+   "name": "CeladonCity",
+   "environments": [
+    "water",
+    "urban",
+    "coastal"
+   ]
+  },
+  "FUCHSIA_CITY": {
+   "name": "FuchsiaCity",
+   "environments": [
+    "water",
+    "urban",
+    "coastal"
+   ]
+  },
+  "CINNABAR_ISLAND": {
+   "name": "CinnabarIsland",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "VERMILION_DOCK": {
+   "name": "VermilionDock",
+   "environments": [
+    "water",
+    "coastal"
+   ]
+  },
+  "CERULEAN_GYM": {
+   "name": "CeruleanGym",
+   "environments": [
+    "water"
+   ]
+  }
+ }
+}

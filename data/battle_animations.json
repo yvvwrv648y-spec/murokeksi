@@ -1,0 +1,6753 @@
+{
+ "source_move_anims": "https://raw.githubusercontent.com/smogon/pokemon-showdown-client/master/play.pokemonshowdown.com/src/battle-animations-moves.ts",
+ "source_other_anims": "https://raw.githubusercontent.com/smogon/pokemon-showdown-client/master/play.pokemonshowdown.com/src/battle-animations.ts",
+ "source_repo": "smogon/pokemon-showdown-client (master branch)",
+ "fetch_date_utc": "2026-11-22T02:08:51Z",
+ "branch": "official",
+ "canon": true,
+ "count_move_anims": 608,
+ "count_other_anims": 55,
+ "note": "Structured index only: move id -> effect names used by its animation. Animation function bodies are client JS code and are not copied; no values invented.",
+ "move_anims": {
+  "taunt": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "angry",
+    "pointer"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "instruct": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "pointer",
+    "purplewisp",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "quash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rightchop"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "swagger": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "angry"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "swordsdance": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "sword"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "quiverdance": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "victorydance": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dragondance": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "agility": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "doubleteam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "metronome": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "pointer"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "teeterdance": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "splash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "encore": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "attract": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "heart"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "raindance": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sunnyday": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "hail": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "snowscape": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "chillyreception": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sandstorm": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "gravity": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "trickroom": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "magicroom": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "wonderroom": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "afteryou": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "allyswitch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "babydolleyes": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "faketears": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "tearfullook": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "featherdance": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "feather"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "followme": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "pointer"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "foresight": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "mimic": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sketch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "doodle": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "odorsleuth": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "celebrate": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "playnice": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "tailwhip": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "leer": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "kinesis": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "electricterrain": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "grassyterrain": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "mistyterrain": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "lifedew": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "junglehealing": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leaf1",
+    "leaf2"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "topsyturvy": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "embargo": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "healblock": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "flash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "tailwind": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "aerialace": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leftslash",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bravebird": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "acrobatics": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "flyingpress": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "steelwing": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "wingattack": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dualwingbeat": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dragonbreath": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "orderup": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dragonpulse": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "shadowball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "focusblast": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "aurasphere": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "technoblast": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "painsplit": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "flail": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "uturn": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "flipturn": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "rapidspin": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "gyroball": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "mortalspin": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "icespinner": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "voltswitch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "thunderwave": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "shockwave": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "discharge": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bugbuzz": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "explosion": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "populationbomb": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "leftslash",
+    "rightslash"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "auroraveil": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "reflect": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "safeguard": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "lightscreen": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "mist": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "waterwisp",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "transform": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bellydrum": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "impact",
+    "leftchop",
+    "rightchop"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "aromatherapy": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "healbell": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "magiccoat": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "protect": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "detect": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "kingsshield": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "spikyshield": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "burningbulwark": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball",
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "banefulbunker": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "craftyshield": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "matblock": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "quickguard": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "wideguard": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "endure": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bide": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "focusenergy": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "rockpolish": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leftslash",
+    "rightslash",
+    "shine"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "harden": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "defensecurl": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "irondefense": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "rest": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "howl": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "acupressure": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "lightning",
+    "pointer"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "curse": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "autotomize": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "shiftgear": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "gear",
+    "shine"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bulkup": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "shellsmash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "impact",
+    "shell"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "stockpile": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "swallow": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ingrain": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "aquaring": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "coil": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "conversion": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "powertrick": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ragepowder": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "refresh": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "rainbow"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "recycle": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "doomdesire": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "teleport": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "cottonguard": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "defendorder": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "meditate": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sharpen": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "withdraw": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shell"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "roost": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "feather"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "softboiled": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "milkdrink": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "happyhour": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "snatch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "acidarmor": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "barrier": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "morningsun": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "moonlight": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "moon",
+    "shine",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "lunarblessing": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "mistball",
+    "moon",
+    "purplewisp",
+    "shine"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "cosmicpower": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "charge": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "luckychant": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "geomancy": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "energyball",
+    "mistball",
+    "rainbow"
+   ],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "magnetrise": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "substitute": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "batonpass": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "calmmind": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "nastyplot": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "minimize": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "growth": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "tailglow": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "takeheart": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball",
+    "rainbow"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "trick": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "pokeball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "switcheroo": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "pokeball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "skillswap": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "recover": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "shadowforce": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "shadowball"
+   ],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "bounce": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "dig": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "dive": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "waterwisp"
+   ],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "fly": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "skydrop": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "skullbash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "skyattack": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "hiddenpower": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "storedpower": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "haze": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "blackwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "seedflare": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "powerwhip": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "leaf1",
+    "leaf2"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "woodhammer": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "leaf1",
+    "leaf2"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ivycudgel": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "leaf1",
+    "leaf2"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ivycudgelwater": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ivycudgelfire": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ivycudgelrock": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mudwisp",
+    "rock1",
+    "rock2",
+    "rock3"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "crushclaw": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "falseswipe": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "direclaw": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dragonclaw": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "metalclaw": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "furycutter": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "scratch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "cut": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "slash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "nightslash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rightslash"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "shadowclaw": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "multiattack": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball",
+    "rightslash"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "holdback": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "knockdown": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "seismictoss": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "peck": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "drillpeck": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "irontail": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bite": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "superfang": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bugbite": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "crunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "bottombite",
+    "topbite"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "pursuit": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "blazekick": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "lowkick": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "foot"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "stomp": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "foot",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "thunderouskick": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "lightning"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "tropkick": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "petal"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "jumpkick": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "highjumpkick": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "foot",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ironhead": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "heartstamp": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "heart"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "slam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dragontail": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "reversal": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "punishment": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "forcepalm": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rightchop"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "circlethrow": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rightchop",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "knockoff": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "assurance": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "chipaway": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bodyslam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bloodmoon": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball",
+    "moon"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "gigatonhammer": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "heavyslam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "steamroller": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "pound": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "clamp": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "wakeupslap": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leftchop",
+    "rightchop"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "smellingsalts": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rightchop",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "karatechop": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rightchop"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "crosschop": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leftchop",
+    "leftslash",
+    "rightchop",
+    "rightslash"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "lick": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "visegrip": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "headbutt": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "block": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leftslash",
+    "rightslash"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "xscissor": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leftslash",
+    "rightslash"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "crosspoison": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leftslash",
+    "purplewisp",
+    "rightslash"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "facade": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "guillotine": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "return": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist",
+    "foot",
+    "heart"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "leafblade": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "leaf1",
+    "leaf2",
+    "leftslash",
+    "rightslash"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "thrash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "angry",
+    "fist",
+    "foot"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "pluck": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bind": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dualchop": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "doublehit": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "doubleslap": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "closecombat": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist",
+    "impact"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "doublekick": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "foot"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "endeavor": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "playrough": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist",
+    "foot",
+    "heart",
+    "mistball",
+    "mudwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "strength": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "hammerarm": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist1",
+    "shadowball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "icehammer": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist1",
+    "iceball",
+    "icicle",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "skyuppercut": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist1",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "meteormash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "shadowpunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ragefist": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "angry",
+    "fist",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "focuspunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist",
+    "impact"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "drainpunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dynamicpunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "cometpunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "megapunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "poweruppunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dizzypunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "needlearm": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "rocksmash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "hornleech": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "absorb": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "megadrain": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "gigadrain": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bitterblade": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "bluefireball",
+    "leftslash"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "leechlife": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "extremespeed": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "impact",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "quickattack": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "suckerpunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "impact"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "astonish": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "rollout": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "accelerock": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "impact",
+    "rock3"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bulletpunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist",
+    "impact"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "machpunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "wickedblow": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "vacuumwave": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "jetpunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "assist": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "mirrormove": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "naturepower": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "copycat": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sleeptalk": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "megahorn": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "firepunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "fist"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "icepunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist",
+    "icicle"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "thunderpunch": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "fist",
+    "lightning"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "poisonfang": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "psychicfangs": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "icefang": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "icicle"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "firefang": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "thunderfang": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "lightning"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "wildcharge": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "lightning"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "spark": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "zapcannon": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "lightning",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "armorcannon": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "torchsong": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "chloroblast": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "hyperbeam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "gigaimpact": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "impact"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "shelltrap": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "flareball"
+   ],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "spinout": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "gear",
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "matchagotcha": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "flamecharge": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "flareblitz": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "burnup": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "flareball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "beakblast": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "vcreate": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "outrage": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "angry",
+    "flareball",
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ragingfury": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "angry",
+    "blackwisp",
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "boltstrike": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "fusionflare": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "fusionbolt": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "zenheadbutt": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "fakeout": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leftchop",
+    "rightchop"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "covet": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "heart",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "feint": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "thief": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "shadowsneak": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "feintattack": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "struggle": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "earthquake": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rock3"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bulldoze": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "tickle": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "earthpower": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "rock3"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "drillrun": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball",
+    "impact",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "poisongas": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "smog": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "clearsmog": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bonemerang": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "bone"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "boneclub": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "bone",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "shadowbone": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "bone",
+    "shadowball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "whirlwind": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "hurricane": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "springtidestorm": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "wildboltstorm": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sandsearstorm": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mudwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ominouswind": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "magmastorm": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "firespin": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "leaftornado": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leaf1",
+    "leaf2"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "roar": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "round": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "yawn": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sing": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "perishsong": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "partingshot": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "nobleroar": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "disarmingvoice": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "growl": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "screech": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "snore": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "synchronoise": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sonicboom": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "eerieimpulse": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "metalsound": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "supersonic": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "confide": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "defog": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "grasswhistle": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "hypervoice": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "boomburst": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "heatwave": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "snarl": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "thunder": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "lightning"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "thunderbolt": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "lightning"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "thundercage": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "lightning"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "psychic": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "meanlook": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "stare"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "nightshade": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "fairylock": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "rockblast": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rock3"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "geargrind": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "gear",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "iciclespear": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "icicle"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "tailslap": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "furyswipes": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leftslash",
+    "rightslash"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "furyattack": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bulletseed": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "spikecannon": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "twineedle": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "razorshell": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "leftslash",
+    "shell"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "aquastep": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "foot",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "aquacutter": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "leftslash",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "wavecrash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "crabhammer": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "aquajet": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "iceshard": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "icicle"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "watershuriken": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "icicle",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "icebeam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "icicle",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "freezingglare": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball",
+    "pinkicicle",
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "freezedry": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "icicle",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "icywind": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "icicle",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ancientpower": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rock3"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "powergem": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "shine"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "chargebeam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "psybeam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball",
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "twinbeam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball",
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "flamethrower": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "toxic": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "spicyextract": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sludge": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sludgewave": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "smokescreen": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "blackwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sludgebomb": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "syrupbomb": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "mudbomb": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mudwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "magnetbomb": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "seedbomb": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "willowisp": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "bluefireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "confuseray": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "lovelykiss": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "heart"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "rockwrecker": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rock3"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "stoneedge": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rock3"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "rockslide": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mudwisp",
+    "rock1",
+    "rock2"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "avalanche": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "triplearrows": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "thousandarrows": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "thousandwaves": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "iciclecrash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "icicle"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "spore": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "fireblast": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "judgment": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "psystrike": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "shadowball": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "hex": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "bluefireball",
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "infernalparade": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "bluefireball",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "darkpulse": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "fierywrath": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball",
+    "purplewisp",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "terrainpulse": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "naturesmadness": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "mistball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ruination": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "energyball": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "electroball": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "moonblast": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "mistball",
+    "moon",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "mistball": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "present": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "iceball": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "weatherball": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "flowertrick": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "wish": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim",
+    "residualAnim"
+   ]
+  },
+  "healingwish": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim",
+    "residualAnim"
+   ]
+  },
+  "stealthrock": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rock1",
+    "rock2"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "gmaxsteelsurge": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "greenmetal1",
+    "greenmetal2",
+    "iceball",
+    "impact"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "spikes": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "caltrop"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "toxicspikes": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "poisoncaltrop"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "stickyweb": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "web"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "leechseed": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "mysticalpower": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "psyshock": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "barbbarrage": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "esperwing": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "feather"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sandtomb": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mudwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "saltcure": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "flashcannon": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "waterwisp",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "lusterpurge": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "impact",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "grassknot": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "leaf1",
+    "leaf2"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "aeroblast": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "airslash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "aircutter": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dracometeor": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball",
+    "rock3",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "makeitrain": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "shine"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "brine": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "octazooka": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "blackwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "waterpledge": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "soak": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "watersport": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "scald": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "steameruption": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "waterpulse": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bubblebeam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "surf": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "hydropump": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "muddywater": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mudwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "mudshot": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mudwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "lavaplume": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dragonenergy": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "shadowball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "eruption": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "flareball",
+    "rock3"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "waterspout": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "solarbeam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "energyball",
+    "flareball",
+    "wisp"
+   ],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "electroshot": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "wisp"
+   ],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "solarblade": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "flareball",
+    "leftslash",
+    "sword",
+    "wisp"
+   ],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "lightofruin": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball",
+    "rainbow",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "meteorbeam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "flareball",
+    "mudwisp",
+    "wisp"
+   ],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "blizzard": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "icicle"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sheercold": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "icicle"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "glaciallance": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "icicle",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "freezeshock": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "iceball"
+   ],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "iceburn": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball",
+    "iceball"
+   ],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "razorwind": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim",
+    "prepareAnim"
+   ]
+  },
+  "overheat": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "blastburn": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sacredfire": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "bluefireball",
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "blueflare": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "bluefireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "electroweb": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "web"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "fling": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "worryseed": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "rockthrow": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rock1"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "paraboliccharge": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "drainingkiss": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "oblivionwing": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "blackwisp",
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "signalbeam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "energyball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "simplebeam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "triattack": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "fireball",
+    "flareball",
+    "iceball",
+    "icicle",
+    "lightning"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "tripleaxel": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "foot",
+    "icicle"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "hypnosis": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "darkvoid": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "roaroftime": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "purplewisp",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "spacialrend": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leftslash",
+    "mistball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sacredsword": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "leftslash",
+    "sword"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "secretsword": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball",
+    "leftslash",
+    "sword"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "psychocut": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "precipiceblades": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "flareball",
+    "rock1",
+    "rock2"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "originpulse": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dragonascent": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "energyball",
+    "iceball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "diamondstorm": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dazzlinggleam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "mistyexplosion": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "payday": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "swift": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "leafstorm": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "leaf1",
+    "leaf2"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "petaldance": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball",
+    "petal"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "petalblizzard": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "petal"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "magicalleaf": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leaf1",
+    "leaf2"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "leafage": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball",
+    "feather"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "gunkshot": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "hyperspacehole": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "hyperspacefury": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "poisonjab": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "psychoboost": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball",
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "bestow": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "pokeball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "finalgambit": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "forestscurse": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "trickortreat": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "healpulse": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "spite": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "lockon": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "leftslash",
+    "rightslash"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "mindreader": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "memento": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "spiritshackle": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "brutalswing": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "revelationdance": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "prismaticlaser": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "energyball",
+    "flareball",
+    "iceball",
+    "mistball",
+    "purplewisp",
+    "shadowball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "firstimpression": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "impact"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "shoreup": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "firelash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "powertrip": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "smartstrike": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "leftslash",
+    "rightslash",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "spotlight": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "pointer"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "anchorshot": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "energyball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "clangingscales": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "spectralthief": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "impact",
+    "purplewisp",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "plasmafists": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "fist1",
+    "iceball",
+    "lightning"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "collisioncourse": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "electrodrift": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "lightning",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sunsteelstrike": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "moongeistbeam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "bluefireball",
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "astralbarrage": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "bluefireball",
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "photongeyser": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "energyball",
+    "flareball",
+    "shadowball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "coreenforcer": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "flareball",
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "gigavolthavoc": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "lightning",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "infernooverdrive": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "fireball",
+    "flareball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "alloutpummeling": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist",
+    "flareball",
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "supersonicskystrike": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "aciddownpour": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "blackholeeclipse": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball",
+    "iceball",
+    "purplewisp",
+    "shadowball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "continentalcrush": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "rock1",
+    "rock2",
+    "rocks",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "neverendingnightmare": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "corkscrewcrash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "impact"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "twinkletackle": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "impact",
+    "shine"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "pulverizingpancake": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "stokedsparksurfer": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "lightning",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "catastropika": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "lightning",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "sinisterarrowraid": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "shadowball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "oceanicoperetta": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "extremeevoboost": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "energyball",
+    "flareball",
+    "iceball",
+    "mistball",
+    "purplewisp",
+    "rainbow",
+    "shadowball",
+    "waterwisp",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "guardianofalola": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "fist1",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "splinteredstormshards": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball",
+    "mudwisp",
+    "rock3",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "letssnuggleforever": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "impact",
+    "mudwisp",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "clangoroussoulblaze": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "mistball",
+    "shadowball",
+    "shine"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "soulstealing7starstrike": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fist",
+    "iceball",
+    "purplewisp",
+    "shadowball",
+    "shine",
+    "zsymbol"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "searingsunrazesmash": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "fireball",
+    "flareball",
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "supercellslam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "psychicnoise": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball",
+    "purplewisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "fishiousrend": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "stompingtantrum": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "flareball",
+    "rock1",
+    "rock2",
+    "rock3"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "temperflare": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "blackwisp",
+    "fireball",
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "terastarstorm": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "iceball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "thunderclap": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "lightning"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "mightycleave": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "rightslash",
+    "sword"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "spiritbreak": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "impact",
+    "mistball",
+    "shine"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "stoneaxe": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "rock1",
+    "rock2",
+    "rock3"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "malignantchain": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "shadowball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "hardpress": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "mistball",
+    "mudwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "dragoncheer": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "purplewisp",
+    "shadowball",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "upperhand": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "revivalblessing": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "iceball",
+    "shine",
+    "wisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "blazingtorque": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "combattorque": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "magicaltorque": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "noxioustorque": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "wickedtorque": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [],
+   "fields": [
+    "anim"
+   ]
+  },
+  "tachyoncutter": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "leftslash",
+    "rightslash",
+    "sword",
+    "waterwisp"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ficklebeam": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  },
+  "ficklebeamallout": {
+   "branch": "official",
+   "canon": true,
+   "has_anim": true,
+   "effects": [
+    "electroball",
+    "flareball"
+   ],
+   "fields": [
+    "anim"
+   ]
+  }
+ },
+ "other_anim_tables": [
+  {
+   "table": "BattleOtherAnims",
+   "branch": "official",
+   "canon": true,
+   "anim_names": [
+    "anger",
+    "attack",
+    "bidecharge",
+    "bideunleash",
+    "bite",
+    "bound",
+    "chargestatus",
+    "clawattack",
+    "consume",
+    "contactattack",
+    "dance",
+    "doomdesirehit",
+    "drain",
+    "fastanimattack",
+    "fastanimself",
+    "fastanimspecial",
+    "fastattack",
+    "flight",
+    "futuresighthit",
+    "gravity",
+    "heal",
+    "hitmark",
+    "hydroshot",
+    "itemoff",
+    "kick",
+    "leech",
+    "lightstatus",
+    "megaevo",
+    "powerconstruct",
+    "primalalpha",
+    "primalomega",
+    "punchattack",
+    "schoolingin",
+    "schoolingout",
+    "selfstatus",
+    "shake",
+    "shiny",
+    "slashattack",
+    "sneakattack",
+    "sound",
+    "spectralthiefboost",
+    "spinattack",
+    "ultraburst",
+    "xattack",
+    "zpower"
+   ]
+  },
+  {
+   "table": "BattleStatusAnims",
+   "branch": "official",
+   "canon": true,
+   "anim_names": [
+    "attracted",
+    "brn",
+    "confused",
+    "confusedselfhit",
+    "cursed",
+    "flinch",
+    "frz",
+    "par",
+    "psn",
+    "slp"
+   ]
+  }
+ ]
+}

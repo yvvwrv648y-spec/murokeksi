@@ -1,0 +1,3410 @@
+{
+ "format": "puw_pbanim_v1",
+ "source": "Pokemon H build (Essentials v20.1 + Gen 8 Pack): Data/PkmnAnimations.rxdata + Data/move2anim.dat + Custom Moves/*.anm; converted data-only by tools/convert_animations.py",
+ "fps": 20,
+ "cell_size": 192,
+ "cell_columns": 5,
+ "canvas": {
+  "user": [
+   128,
+   224
+  ],
+  "target": [
+   384,
+   96
+  ]
+ },
+ "cell_fields": [
+  "pattern",
+  "x",
+  "y",
+  "zoomx",
+  "zoomy",
+  "angle",
+  "mirror",
+  "opacity",
+  "blend",
+  "visible",
+  "focus",
+  "priority"
+ ],
+ "moves": {
+  "ABSORB": {
+   "user": 36,
+   "opp": 37
+  },
+  "ACCELEROCK": {
+   "user": 1092
+  },
+  "ACID": {
+   "user": 38,
+   "opp": 39
+  },
+  "ACIDARMOR": {
+   "user": 40
+  },
+  "ACIDSPRAY": {
+   "user": 41,
+   "opp": 42
+  },
+  "ACROBATICS": {
+   "user": 43,
+   "opp": 44
+  },
+  "ACUPRESSURE": {
+   "user": 45
+  },
+  "AERIALACE": {
+   "user": 46
+  },
+  "AEROBLAST": {
+   "user": 1027,
+   "opp": 1028
+  },
+  "AFTERYOU": {
+   "user": 935,
+   "opp": 936
+  },
+  "AGILITY": {
+   "user": 47
+  },
+  "AIRCUTTER": {
+   "user": 608
+  },
+  "AIRSLASH": {
+   "user": 487
+  },
+  "ALLYSWITCH": {
+   "user": 48
+  },
+  "AMNESIA": {
+   "user": 49
+  },
+  "ANCHORSHOT": {
+   "user": 1122
+  },
+  "ANCIENTPOWER": {
+   "user": 50,
+   "opp": 51
+  },
+  "APPLEACID": {
+   "user": 1241,
+   "opp": 1242
+  },
+  "AQUAJET": {
+   "user": 621,
+   "opp": 622
+  },
+  "AQUARING": {
+   "user": 52
+  },
+  "AQUATAIL": {
+   "user": 481
+  },
+  "ARMTHRUST": {
+   "user": 549,
+   "opp": 554
+  },
+  "AROMATHERAPY": {
+   "user": 53
+  },
+  "AROMATICMIST": {
+   "user": 949
+  },
+  "ASSIST": {
+   "user": 544
+  },
+  "ASSURANCE": {
+   "user": 644
+  },
+  "ASTONISH": {
+   "user": 664
+  },
+  "ASTRALBARRAGE": {
+   "user": 1343
+  },
+  "ATTACKORDER": {
+   "user": 815
+  },
+  "ATTRACT": {
+   "user": 511,
+   "opp": 512
+  },
+  "AURASPHERE": {
+   "user": 535,
+   "opp": 536
+  },
+  "AURAWHEEL": {
+   "user": 1243,
+   "opp": 1244
+  },
+  "AURORABEAM": {
+   "user": 54
+  },
+  "AURORAVEIL": {
+   "user": 1107,
+   "opp": 1108
+  },
+  "AUTOTOMIZE": {
+   "user": 901
+  },
+  "AVALANCHE": {
+   "user": 459
+  },
+  "BABYDOLLEYES": {
+   "user": 971
+  },
+  "BANEFULBUNKER": {
+   "user": 1095
+  },
+  "BARRAGE": {
+   "user": 763,
+   "opp": 768
+  },
+  "BARRIER": {
+   "user": 55,
+   "opp": 56
+  },
+  "BATONPASS": {
+   "user": 845,
+   "opp": 846
+  },
+  "BEAKBLAST": {
+   "user": 1097,
+   "opp": 1099
+  },
+  "BEATUP": {
+   "user": 57
+  },
+  "BEHEMOTHBASH": {
+   "user": 1245
+  },
+  "BEHEMOTHBLADE": {
+   "user": 1246,
+   "opp": 1247
+  },
+  "BELCH": {
+   "user": 1029
+  },
+  "BELLYDRUM": {
+   "user": 761,
+   "opp": 762
+  },
+  "BESTOW": {
+   "user": 773,
+   "opp": 774
+  },
+  "BIDE": {
+   "user": 720
+  },
+  "BIND": {
+   "user": 63
+  },
+  "BITE": {
+   "user": 65
+  },
+  "BLASTBURN": {
+   "user": 66,
+   "opp": 67
+  },
+  "BLAZEKICK": {
+   "user": 423
+  },
+  "BLIZZARD": {
+   "user": 629
+  },
+  "BLOCK": {
+   "user": 68
+  },
+  "BLUEFLARE": {
+   "user": 69,
+   "opp": 70
+  },
+  "BODYPRESS": {
+   "user": 1248,
+   "opp": 1249
+  },
+  "BODYSLAM": {
+   "user": 71
+  },
+  "BOLTBEAK": {
+   "user": 1250,
+   "opp": 1251
+  },
+  "BOLTSTRIKE": {
+   "user": 856
+  },
+  "BONECLUB": {
+   "user": 992
+  },
+  "BONEMERANG": {
+   "user": 881,
+   "opp": 883
+  },
+  "BONERUSH": {
+   "user": 993
+  },
+  "BOOMBURST": {
+   "user": 461,
+   "opp": 462
+  },
+  "BOUNCE": {
+   "user": 559,
+   "opp": 561
+  },
+  "BRANCHPOKE": {
+   "user": 1252
+  },
+  "BRAVEBIRD": {
+   "user": 632
+  },
+  "BREAKINGSWIPE": {
+   "user": 1253,
+   "opp": 1254
+  },
+  "BRICKBREAK": {
+   "user": 72
+  },
+  "BRINE": {
+   "user": 637
+  },
+  "BRUTALSWING": {
+   "user": 1142,
+   "opp": 1143
+  },
+  "BUBBLE": {
+   "user": 73
+  },
+  "BUBBLEBEAM": {
+   "user": 76
+  },
+  "BUGBITE": {
+   "user": 546
+  },
+  "BUGBUZZ": {
+   "user": 638
+  },
+  "BULKUP": {
+   "user": 77,
+   "opp": 78
+  },
+  "BULLDOZE": {
+   "user": 712,
+   "opp": 713
+  },
+  "BULLETPUNCH": {
+   "user": 79
+  },
+  "BULLETSEED": {
+   "user": 80,
+   "opp": 85
+  },
+  "BURNINGJEALOUSY": {
+   "user": 1300
+  },
+  "BURNUP": {
+   "user": 1110
+  },
+  "CALMMIND": {
+   "user": 424
+  },
+  "CAMOUFLAGE": {
+   "user": 925
+  },
+  "CAPTIVATE": {
+   "user": 919
+  },
+  "CAUSTICBREATH": {
+   "user": 1453
+  },
+  "CAUSTICCLAW": {
+   "user": 1454
+  },
+  "CELEBRATE": {
+   "user": 1240
+  },
+  "CHARGE": {
+   "user": 90
+  },
+  "CHARGEBEAM": {
+   "user": 595,
+   "opp": 596
+  },
+  "CHARM": {
+   "user": 91
+  },
+  "CHATTER": {
+   "user": 889,
+   "opp": 890
+  },
+  "CHIPAWAY": {
+   "user": 645
+  },
+  "CIRCLETHROW": {
+   "user": 646
+  },
+  "CLAMP": {
+   "user": 1054
+  },
+  "CLANGINGSCALES": {
+   "user": 1354
+  },
+  "CLANGOROUSSOUL": {
+   "user": 1255
+  },
+  "CLEANSINGBUBBLE": {
+   "user": 1422
+  },
+  "CLEARSMOG": {
+   "user": 92
+  },
+  "CLOSECOMBAT": {
+   "user": 93,
+   "opp": 94
+  },
+  "COACHING": {
+   "user": 1301
+  },
+  "COIL": {
+   "user": 918
+  },
+  "COMA": {
+   "user": 1439
+  },
+  "COMETPUNCH": {
+   "user": 366
+  },
+  "CONFIDE": {
+   "user": 834
+  },
+  "CONFUSERAY": {
+   "user": 224
+  },
+  "CONFUSION": {
+   "user": 528
+  },
+  "CONSTRICT": {
+   "user": 618
+  },
+  "CONVERSION": {
+   "user": 789
+  },
+  "CONVERSION2": {
+   "user": 790,
+   "opp": 791
+  },
+  "COPYCAT": {
+   "user": 1355
+  },
+  "COREENFORCER": {
+   "user": 1356
+  },
+  "CORROSIVEGAS": {
+   "user": 1302
+  },
+  "COSMICPOWER": {
+   "user": 475
+  },
+  "COTTONGUARD": {
+   "user": 303
+  },
+  "COTTONSPORE": {
+   "user": 340
+  },
+  "COUNTER": {
+   "user": 137
+  },
+  "COURTCHANGE": {
+   "user": 1256
+  },
+  "COVET": {
+   "user": 524
+  },
+  "CRABHAMMER": {
+   "user": 1030,
+   "opp": 1031
+  },
+  "CRAFTYSHIELD": {
+   "user": 943,
+   "opp": 944
+  },
+  "CROSSCHOP": {
+   "user": 499
+  },
+  "CROSSPOISON": {
+   "user": 759,
+   "opp": 760
+  },
+  "CRUNCH": {
+   "user": 298
+  },
+  "CRUSHCLAW": {
+   "user": 153,
+   "opp": 154
+  },
+  "CRUSHGRIP": {
+   "user": 999,
+   "opp": 1000
+  },
+  "CURSE": {
+   "user": 248
+  },
+  "CUT": {
+   "user": 74
+  },
+  "DARKESTLARIAT": {
+   "user": 1070
+  },
+  "DARKPULSE": {
+   "user": 665,
+   "opp": 666
+  },
+  "DARKVOID": {
+   "user": 821
+  },
+  "DAZZLINGGLEAM": {
+   "user": 594
+  },
+  "DEATHSDANCE": {
+   "user": 1427
+  },
+  "DECORATE": {
+   "user": 1257
+  },
+  "DEFENDORDER": {
+   "user": 758
+  },
+  "DEFENSECURL": {
+   "user": 183
+  },
+  "DEFOG": {
+   "user": 912
+  },
+  "DESTINYBOND": {
+   "user": 515,
+   "opp": 516
+  },
+  "DETECT": {
+   "user": 407,
+   "opp": 408
+  },
+  "DIAMONDSTORM": {
+   "user": 1357
+  },
+  "DIG": {
+   "user": 563
+  },
+  "DISABLE": {
+   "user": 373,
+   "opp": 374
+  },
+  "DISARMINGVOICE": {
+   "user": 685,
+   "opp": 686
+  },
+  "DISCHARGE": {
+   "user": 710
+  },
+  "DIVE": {
+   "user": 654
+  },
+  "DIZZYPUNCH": {
+   "user": 124
+  },
+  "DOOMDESIRE": {
+   "user": 1358
+  },
+  "DOUBLEEDGE": {
+   "user": 171
+  },
+  "DOUBLEHIT": {
+   "user": 799,
+   "opp": 801
+  },
+  "DOUBLEIRONBASH": {
+   "user": 1360
+  },
+  "DOUBLEKICK": {
+   "user": 335
+  },
+  "DOUBLESLAP": {
+   "user": 356
+  },
+  "DOUBLETEAM": {
+   "user": 297
+  },
+  "DRACOMETEOR": {
+   "user": 572
+  },
+  "DRAGONASCENT": {
+   "user": 902
+  },
+  "DRAGONBREATH": {
+   "user": 256,
+   "opp": 257
+  },
+  "DRAGONCLAW": {
+   "user": 138,
+   "opp": 139
+  },
+  "DRAGONDANCE": {
+   "user": 330
+  },
+  "DRAGONDARTS": {
+   "user": 1258,
+   "opp": 1260
+  },
+  "DRAGONENERGY": {
+   "user": 1344
+  },
+  "DRAGONHAMMER": {
+   "user": 1362
+  },
+  "DRAGONPULSE": {
+   "user": 565,
+   "opp": 566
+  },
+  "DRAGONRAGE": {
+   "user": 98
+  },
+  "DRAGONRUSH": {
+   "user": 510
+  },
+  "DRAGONSDESCENT": {
+   "user": 1446
+  },
+  "DRAGONTAIL": {
+   "user": 937,
+   "opp": 938
+  },
+  "DRAININGKISS": {
+   "user": 633
+  },
+  "DRAINPUNCH": {
+   "user": 573,
+   "opp": 574
+  },
+  "DREAMEATER": {
+   "user": 891,
+   "opp": 892
+  },
+  "DRILLPECK": {
+   "user": 656
+  },
+  "DRILLRUN": {
+   "user": 950,
+   "opp": 951
+  },
+  "DRUMBEATING": {
+   "user": 1266,
+   "opp": 1267
+  },
+  "DUALCHOP": {
+   "user": 895,
+   "opp": 897
+  },
+  "DUALWINGBEAT": {
+   "user": 1303,
+   "opp": 1305
+  },
+  "DYNAMAXCANNON": {
+   "user": 1268
+  },
+  "DYNAMICPUNCH": {
+   "user": 203
+  },
+  "EARTHPOWER": {
+   "user": 518
+  },
+  "EARTHQUAKE": {
+   "user": 662
+  },
+  "ECHOEDVOICE": {
+   "user": 1001
+  },
+  "EERIEIMPULSE": {
+   "user": 1363,
+   "opp": 1364
+  },
+  "EERIESPELL": {
+   "user": 1345
+  },
+  "EGGBOMB": {
+   "user": 803,
+   "opp": 804
+  },
+  "ELECTRICTERRAIN": {
+   "user": 441
+  },
+  "ELECTRIFY": {
+   "user": 775,
+   "opp": 776
+  },
+  "ELECTROBALL": {
+   "user": 647,
+   "opp": 648
+  },
+  "ELECTROWEB": {
+   "user": 866
+  },
+  "EMBARGO": {
+   "user": 777
+  },
+  "EMBER": {
+   "user": 118
+  },
+  "ENCORE": {
+   "user": 194,
+   "opp": 195
+  },
+  "ENDEAVOR": {
+   "user": 683
+  },
+  "ENDURE": {
+   "user": 817
+  },
+  "ENERGYBALL": {
+   "user": 214,
+   "opp": 215
+  },
+  "ENTRAINMENT": {
+   "user": 835
+  },
+  "ERUPTION": {
+   "user": 285,
+   "opp": 286
+  },
+  "ETERNABEAM": {
+   "user": 1269
+  },
+  "EXPANDINGFORCE": {
+   "user": 1307
+  },
+  "EXPLOSION": {
+   "user": 96
+  },
+  "EXTRASENSORY": {
+   "user": 651
+  },
+  "EXTREMESPEED": {
+   "user": 463,
+   "opp": 464
+  },
+  "FACADE": {
+   "user": 722
+  },
+  "FAIRYLOCK": {
+   "user": 844
+  },
+  "FAIRYWIND": {
+   "user": 667
+  },
+  "FAKEOUT": {
+   "user": 221
+  },
+  "FAKETEARS": {
+   "user": 250
+  },
+  "FALSESURRENDER": {
+   "user": 1270,
+   "opp": 1271
+  },
+  "FALSESWIPE": {
+   "user": 867
+  },
+  "FEATHERDANCE": {
+   "user": 958
+  },
+  "FEINT": {
+   "user": 859,
+   "opp": 860
+  },
+  "FEINTATTACK": {
+   "user": 668
+  },
+  "FELLSTINGER": {
+   "user": 1024,
+   "opp": 1025
+  },
+  "FIERYDANCE": {
+   "user": 216,
+   "opp": 217
+  },
+  "FIERYWRATH": {
+   "user": 1346
+  },
+  "FINALGAMBIT": {
+   "user": 328
+  },
+  "FIREBLAST": {
+   "user": 279,
+   "opp": 280
+  },
+  "FIREFANG": {
+   "user": 244
+  },
+  "FIRELASH": {
+   "user": 1084
+  },
+  "FIREPLEDGE": {
+   "user": 132,
+   "opp": 133
+  },
+  "FIREPUNCH": {
+   "user": 120
+  },
+  "FIRESPIN": {
+   "user": 321
+  },
+  "FIRSTIMPRESSION": {
+   "user": 1365
+  },
+  "FISHIOUSREND": {
+   "user": 1272
+  },
+  "FISSURE": {
+   "user": 1072
+  },
+  "FLAIL": {
+   "user": 287
+  },
+  "FLAMEBURST": {
+   "user": 386,
+   "opp": 387
+  },
+  "FLAMECHARGE": {
+   "user": 155,
+   "opp": 156
+  },
+  "FLAMETHROWER": {
+   "user": 181,
+   "opp": 182
+  },
+  "FLAMEWHEEL": {
+   "user": 179,
+   "opp": 180
+  },
+  "FLAREBLITZ": {
+   "user": 1056
+  },
+  "FLASH": {
+   "user": 178
+  },
+  "FLASHCANNON": {
+   "user": 420
+  },
+  "FLATTER": {
+   "user": 734
+  },
+  "FLEURCANNON": {
+   "user": 1366
+  },
+  "FLING": {
+   "user": 740,
+   "opp": 741
+  },
+  "FLIPTURN": {
+   "user": 1308,
+   "opp": 1309
+  },
+  "FLORALHEALING": {
+   "user": 1093
+  },
+  "FLOWERSHIELD": {
+   "user": 781
+  },
+  "FLY": {
+   "user": 309,
+   "opp": 311
+  },
+  "FLYINGPRESS": {
+   "user": 742,
+   "opp": 743
+  },
+  "FOCUSBLAST": {
+   "user": 517
+  },
+  "FOCUSENERGY": {
+   "user": 119
+  },
+  "FOCUSPUNCH": {
+   "user": 589,
+   "opp": 590
+  },
+  "FOLLOWME": {
+   "user": 233,
+   "opp": 234
+  },
+  "FORCEPALM": {
+   "user": 537,
+   "opp": 538
+  },
+  "FORESIGHT": {
+   "user": 281
+  },
+  "FORESTSCURSE": {
+   "user": 816
+  },
+  "FOULPLAY": {
+   "user": 873
+  },
+  "FREEZEDRY": {
+   "user": 1032
+  },
+  "FREEZESHOCK": {
+   "user": 852
+  },
+  "FREEZINGGLARE": {
+   "user": 1347
+  },
+  "FRENZYPLANT": {
+   "user": 101,
+   "opp": 102
+  },
+  "FROSTBREATH": {
+   "user": 567,
+   "opp": 568
+  },
+  "FROSTFLAMEBLADE": {
+   "user": 1452
+  },
+  "FRUSTRATION": {
+   "user": 875
+  },
+  "FURYATTACK": {
+   "user": 375,
+   "opp": 380
+  },
+  "FURYCUTTER": {
+   "user": 299
+  },
+  "FURYSWIPES": {
+   "user": 361
+  },
+  "FUSIONBOLT": {
+   "user": 1367,
+   "opp": 1368
+  },
+  "FUSIONFLARE": {
+   "user": 1046,
+   "opp": 1047
+  },
+  "FUTURESIGHT": {
+   "user": 313
+  },
+  "GASTROACID": {
+   "user": 388
+  },
+  "GEARGRIND": {
+   "user": 1033,
+   "opp": 1035
+  },
+  "GEARUP": {
+   "user": 1103,
+   "opp": 1104
+  },
+  "GEOMANCY": {
+   "user": 1124
+  },
+  "GIGADRAIN": {
+   "user": 235,
+   "opp": 236
+  },
+  "GIGAIMPACT": {
+   "user": 1048,
+   "opp": 1049
+  },
+  "GLACIALLANCE": {
+   "user": 1348,
+   "opp": 1349
+  },
+  "GLACIATE": {
+   "user": 1064
+  },
+  "GLARE": {
+   "user": 251,
+   "opp": 252
+  },
+  "GOOPBLAST": {
+   "user": 1435
+  },
+  "GRANDEJETE": {
+   "user": 1437
+  },
+  "GRASSKNOT": {
+   "user": 519
+  },
+  "GRASSPLEDGE": {
+   "user": 476
+  },
+  "GRASSWHISTLE": {
+   "user": 258,
+   "opp": 259
+  },
+  "GRASSYGLIDE": {
+   "user": 1310
+  },
+  "GRASSYTERRAIN": {
+   "user": 443
+  },
+  "GRAVAPPLE": {
+   "user": 1273,
+   "opp": 1274
+  },
+  "GRAVITY": {
+   "user": 946
+  },
+  "GROWL": {
+   "user": 319,
+   "opp": 320
+  },
+  "GROWTH": {
+   "user": 428
+  },
+  "GRUDGE": {
+   "user": 229
+  },
+  "GUARDSPLIT": {
+   "user": 1060,
+   "opp": 1061
+  },
+  "GUARDSWAP": {
+   "user": 822
+  },
+  "GUILLOTINE": {
+   "user": 952
+  },
+  "GUNKSHOT": {
+   "user": 669,
+   "opp": 670
+  },
+  "GUST": {
+   "user": 242
+  },
+  "GYROBALL": {
+   "user": 634
+  },
+  "HAIL": {
+   "user": 290
+  },
+  "HAMMERARM": {
+   "user": 488
+  },
+  "HARDEN": {
+   "user": 126
+  },
+  "HAZE": {
+   "user": 529
+  },
+  "HEADBUTT": {
+   "user": 395,
+   "opp": 396
+  },
+  "HEADCHARGE": {
+   "user": 805
+  },
+  "HEADSMASH": {
+   "user": 792
+  },
+  "HEALBELL": {
+   "user": 434,
+   "opp": 435
+  },
+  "HEALBLOCK": {
+   "user": 744
+  },
+  "HEALINGWISH": {
+   "user": 868
+  },
+  "HEALORDER": {
+   "user": 757
+  },
+  "HEALPULSE": {
+   "user": 963
+  },
+  "HEARTSTAMP": {
+   "user": 465,
+   "opp": 466
+  },
+  "HEARTSWAP": {
+   "user": 824
+  },
+  "HEATCRASH": {
+   "user": 778
+  },
+  "HEATWAVE": {
+   "user": 134,
+   "opp": 135
+  },
+  "HEAVYSLAM": {
+   "user": 584
+  },
+  "HELLFIRE": {
+   "user": 1430
+  },
+  "HELPINGHAND": {
+   "user": 643
+  },
+  "HEX": {
+   "user": 500
+  },
+  "HIDDENPOWER": {
+   "user": 688
+  },
+  "HIGHHORSEPOWER": {
+   "user": 1126,
+   "opp": 1127
+  },
+  "HIGHJUMPKICK": {
+   "user": 1371,
+   "opp": 1372
+  },
+  "HOLDBACK": {
+   "user": 1373,
+   "opp": 1374
+  },
+  "HOLDHANDS": {
+   "user": 1375
+  },
+  "HONECLAWS": {
+   "user": 494
+  },
+  "HORNATTACK": {
+   "user": 315,
+   "opp": 316
+  },
+  "HORNDRILL": {
+   "user": 1002,
+   "opp": 1003
+  },
+  "HORNLEECH": {
+   "user": 926,
+   "opp": 927
+  },
+  "HOWL": {
+   "user": 585,
+   "opp": 586
+  },
+  "HURRICANE": {
+   "user": 1004,
+   "opp": 1005
+  },
+  "HYDROCANNON": {
+   "user": 1062,
+   "opp": 1063
+  },
+  "HYDROPUMP": {
+   "user": 288,
+   "opp": 289
+  },
+  "HYPERBEAM": {
+   "user": 928,
+   "opp": 929
+  },
+  "HYPERFANG": {
+   "user": 140,
+   "opp": 141
+  },
+  "HYPERSPACEFURY": {
+   "user": 1131
+  },
+  "HYPERSPACEHOLE": {
+   "user": 920
+  },
+  "HYPERVOICE": {
+   "user": 678,
+   "opp": 679
+  },
+  "HYPNOSIS": {
+   "user": 575,
+   "opp": 576
+  },
+  "ICEBALL": {
+   "user": 75
+  },
+  "ICEBEAM": {
+   "user": 421,
+   "opp": 422
+  },
+  "ICEBURN": {
+   "user": 1128
+  },
+  "ICEFANG": {
+   "user": 170
+  },
+  "ICEHAMMER": {
+   "user": 1086
+  },
+  "ICEPUNCH": {
+   "user": 121
+  },
+  "ICESHARD": {
+   "user": 609,
+   "opp": 610
+  },
+  "ICICLECRASH": {
+   "user": 876
+  },
+  "ICICLESPEAR": {
+   "user": 346,
+   "opp": 351
+  },
+  "ICYWIND": {
+   "user": 266
+  },
+  "IMPRISON": {
+   "user": 836
+  },
+  "INCINERATE": {
+   "user": 458
+  },
+  "INFERNO": {
+   "user": 97
+  },
+  "INFESTATION": {
+   "user": 726
+  },
+  "INGRAIN": {
+   "user": 436
+  },
+  "INSTRUCT": {
+   "user": 1137
+  },
+  "IONDELUGE": {
+   "user": 953
+  },
+  "IRONDEFENSE": {
+   "user": 484
+  },
+  "IRONHEAD": {
+   "user": 261,
+   "opp": 262
+  },
+  "IRONTAIL": {
+   "user": 588
+  },
+  "JAWLOCK": {
+   "user": 1275
+  },
+  "JUDGMENT": {
+   "user": 870
+  },
+  "JUMPKICK": {
+   "user": 157,
+   "opp": 158
+  },
+  "JUNGLEHEALING": {
+   "user": 1311
+  },
+  "KARATECHOP": {
+   "user": 185
+  },
+  "KINESIS": {
+   "user": 273,
+   "opp": 274
+  },
+  "KINGSSHIELD": {
+   "user": 467,
+   "opp": 468
+  },
+  "KNOCKOFF": {
+   "user": 501
+  },
+  "LANDSWRATH": {
+   "user": 1376
+  },
+  "LASERFOCUS": {
+   "user": 1081
+  },
+  "LASHOUT": {
+   "user": 1312,
+   "opp": 1313
+  },
+  "LASTRESORT": {
+   "user": 1050,
+   "opp": 1051
+  },
+  "LAVAPLUME": {
+   "user": 489
+  },
+  "LEAFAGE": {
+   "user": 1082,
+   "opp": 1083
+  },
+  "LEAFBLADE": {
+   "user": 393,
+   "opp": 394
+  },
+  "LEAFSTORM": {
+   "user": 728,
+   "opp": 729
+  },
+  "LEAFTORNADO": {
+   "user": 1065
+  },
+  "LEECHLIFE": {
+   "user": 282
+  },
+  "LEECHSEED": {
+   "user": 270,
+   "opp": 271
+  },
+  "LEER": {
+   "user": 344,
+   "opp": 345
+  },
+  "LICK": {
+   "user": 142,
+   "opp": 143
+  },
+  "LIFEDEW": {
+   "user": 1276
+  },
+  "LIGHTOFRUIN": {
+   "user": 1377
+  },
+  "LIGHTSCREEN": {
+   "user": 106,
+   "opp": 107
+  },
+  "LILYBASH": {
+   "user": 1421
+  },
+  "LIQUIDATION": {
+   "user": 1109
+  },
+  "LOCKON": {
+   "user": 159,
+   "opp": 160
+  },
+  "LOVELYKISS": {
+   "user": 161
+  },
+  "LOWKICK": {
+   "user": 207,
+   "opp": 208
+  },
+  "LOWSWEEP": {
+   "user": 583
+  },
+  "LUCKYCHANT": {
+   "user": 269
+  },
+  "LUNARDANCE": {
+   "user": 755
+  },
+  "LUNGE": {
+   "user": 1378,
+   "opp": 1379
+  },
+  "LUSTERPURGE": {
+   "user": 1066
+  },
+  "MACHPUNCH": {
+   "user": 243
+  },
+  "MAGICALLEAF": {
+   "user": 437,
+   "opp": 438
+  },
+  "MAGICCOAT": {
+   "user": 199,
+   "opp": 200
+  },
+  "MAGICPOWDER": {
+   "user": 1277
+  },
+  "MAGICROOM": {
+   "user": 129
+  },
+  "MAGMASTORM": {
+   "user": 1006
+  },
+  "MAGNETBOMB": {
+   "user": 611
+  },
+  "MAGNETICFLUX": {
+   "user": 954,
+   "opp": 955
+  },
+  "MAGNETRISE": {
+   "user": 779
+  },
+  "MAGNITUDE": {
+   "user": 671
+  },
+  "MATBLOCK": {
+   "user": 854,
+   "opp": 855
+  },
+  "MEANLOOK": {
+   "user": 230
+  },
+  "MEDITATE": {
+   "user": 635
+  },
+  "MEFIRST": {
+   "user": 991
+  },
+  "MEGADRAIN": {
+   "user": 172,
+   "opp": 173
+  },
+  "MEGAHORN": {
+   "user": 338,
+   "opp": 339
+  },
+  "MEGAKICK": {
+   "user": 293,
+   "opp": 294
+  },
+  "MEGAPUNCH": {
+   "user": 204
+  },
+  "MEMENTO": {
+   "user": 921
+  },
+  "METALBURST": {
+   "user": 959,
+   "opp": 960
+  },
+  "METALCLAW": {
+   "user": 162
+  },
+  "METALSOUND": {
+   "user": 649,
+   "opp": 650
+  },
+  "METEORASSAULT": {
+   "user": 1278,
+   "opp": 1279
+  },
+  "METEORBEAM": {
+   "user": 1314
+  },
+  "METEORMASH": {
+   "user": 95
+  },
+  "METRONOME": {
+   "user": 295,
+   "opp": 296
+  },
+  "MILKDRINK": {
+   "user": 1433
+  },
+  "MIMIC": {
+   "user": 806
+  },
+  "MINDBLOWN": {
+   "user": 1114,
+   "opp": 1115
+  },
+  "MINDREADER": {
+   "user": 1037
+  },
+  "MINIMIZE": {
+   "user": 485
+  },
+  "MIRACLEEYE": {
+   "user": 502
+  },
+  "MIRRORCOAT": {
+   "user": 930,
+   "opp": 931
+  },
+  "MIRRORMOVE": {
+   "user": 1380,
+   "opp": 1381
+  },
+  "MIRRORSHOT": {
+   "user": 597,
+   "opp": 598
+  },
+  "MIST": {
+   "user": 245
+  },
+  "MISTBALL": {
+   "user": 103
+  },
+  "MISTYEXPLOSION": {
+   "user": 1315
+  },
+  "MISTYTERRAIN": {
+   "user": 439
+  },
+  "MOONBLAST": {
+   "user": 425,
+   "opp": 426
+  },
+  "MOONGEISTBEAM": {
+   "user": 1382,
+   "opp": 1383
+  },
+  "MOONLIGHT": {
+   "user": 174
+  },
+  "MORNINGSUN": {
+   "user": 164
+  },
+  "MUDBOMB": {
+   "user": 672,
+   "opp": 673
+  },
+  "MUDDYWATER": {
+   "user": 793,
+   "opp": 794
+  },
+  "MUDSHOT": {
+   "user": 714,
+   "opp": 715
+  },
+  "MUDSLAP": {
+   "user": 735
+  },
+  "MUDSPORT": {
+   "user": 682
+  },
+  "MULTIATTACK": {
+   "user": 1133,
+   "opp": 1134
+  },
+  "MYSTICALFIRE": {
+   "user": 478,
+   "opp": 479
+  },
+  "NAGASHOCKBLAST": {
+   "user": 1447
+  },
+  "NASTYPLOT": {
+   "user": 547
+  },
+  "NATURALGIFT": {
+   "user": 956
+  },
+  "NATUREPOWER": {
+   "user": 460
+  },
+  "NATURESMADNESS": {
+   "user": 964
+  },
+  "NEEDLEARM": {
+   "user": 1026
+  },
+  "NETTLESPEAR": {
+   "user": 1441
+  },
+  "NIGHTDAZE": {
+   "user": 899,
+   "opp": 900
+  },
+  "NIGHTMARE": {
+   "user": 246
+  },
+  "NIGHTSHADE": {
+   "user": 495
+  },
+  "NIGHTSLASH": {
+   "user": 599
+  },
+  "NOBLEROAR": {
+   "user": 1008,
+   "opp": 1009
+  },
+  "NORETREAT": {
+   "user": 1280
+  },
+  "NOXIOUSINFUSION": {
+   "user": 1455
+  },
+  "NUZZLE": {
+   "user": 429,
+   "opp": 430
+  },
+  "OBLIVIONWING": {
+   "user": 1384,
+   "opp": 1385
+  },
+  "OBSTRUCT": {
+   "user": 1281,
+   "opp": 1282
+  },
+  "OCTAZOOKA": {
+   "user": 932,
+   "opp": 933
+  },
+  "OCTOLOCK": {
+   "user": 1284
+  },
+  "ODORSLEUTH": {
+   "user": 934
+  },
+  "OMINOUSWIND": {
+   "user": 736
+  },
+  "ORIGINPULSE": {
+   "user": 1073,
+   "opp": 1074
+  },
+  "OSMOTICDANCE": {
+   "user": 1420
+  },
+  "OUTRAGE": {
+   "user": 291,
+   "opp": 292
+  },
+  "OVERDRIVE": {
+   "user": 1286
+  },
+  "OVERHEAT": {
+   "user": 341,
+   "opp": 342
+  },
+  "PAINSPLIT": {
+   "user": 874
+  },
+  "PARABOLICCHARGE": {
+   "user": 1386
+  },
+  "PARTINGSHOT": {
+   "user": 1038,
+   "opp": 1039
+  },
+  "PAYBACK": {
+   "user": 636
+  },
+  "PAYDAY": {
+   "user": 333,
+   "opp": 334
+  },
+  "PECK": {
+   "user": 623
+  },
+  "PERISHSONG": {
+   "user": 837
+  },
+  "PETALBLIZZARD": {
+   "user": 1052,
+   "opp": 1053
+  },
+  "PETALDANCE": {
+   "user": 144,
+   "opp": 145
+  },
+  "PHANTOMFORCE": {
+   "user": 539
+  },
+  "PHOTONGEYSER": {
+   "user": 1116,
+   "opp": 1117
+  },
+  "PINMISSILE": {
+   "user": 410,
+   "opp": 415
+  },
+  "PLASMAFISTS": {
+   "user": 1118
+  },
+  "PLAYNICE": {
+   "user": 520
+  },
+  "PLAYROUGH": {
+   "user": 470
+  },
+  "PLUCK": {
+   "user": 838,
+   "opp": 839
+  },
+  "POISONFANG": {
+   "user": 263
+  },
+  "POISONGAS": {
+   "user": 163
+  },
+  "POISONJAB": {
+   "user": 913,
+   "opp": 914
+  },
+  "POISONPOWDER": {
+   "user": 275
+  },
+  "POISONSTING": {
+   "user": 240,
+   "opp": 241
+  },
+  "POISONTAIL": {
+   "user": 165,
+   "opp": 166
+  },
+  "POLLENPUFF": {
+   "user": 1101,
+   "opp": 1102
+  },
+  "POLTERGEIST": {
+   "user": 1316
+  },
+  "POUND": {
+   "user": 283
+  },
+  "POWDER": {
+   "user": 972
+  },
+  "POWDERSNOW": {
+   "user": 624
+  },
+  "POWERGEM": {
+   "user": 503
+  },
+  "POWERSPLIT": {
+   "user": 818
+  },
+  "POWERSWAP": {
+   "user": 826
+  },
+  "POWERTRICK": {
+   "user": 808
+  },
+  "POWERTRIP": {
+   "user": 1139
+  },
+  "POWERUPPUNCH": {
+   "user": 625
+  },
+  "POWERWHIP": {
+   "user": 730
+  },
+  "PRECIPICEBLADES": {
+   "user": 1388
+  },
+  "PRESENT": {
+   "user": 908,
+   "opp": 909
+  },
+  "PRISMATICLASER": {
+   "user": 1119
+  },
+  "PROTECT": {
+   "user": 490,
+   "opp": 491
+  },
+  "PSYBEAM": {
+   "user": 627,
+   "opp": 628
+  },
+  "PSYCHIC": {
+   "user": 175
+  },
+  "PSYCHICFANGS": {
+   "user": 1387
+  },
+  "PSYCHICTERRAIN": {
+   "user": 1135
+  },
+  "PSYCHOBOOST": {
+   "user": 1075,
+   "opp": 1076
+  },
+  "PSYCHOCUT": {
+   "user": 323,
+   "opp": 324
+  },
+  "PSYCHOSHIFT": {
+   "user": 1058
+  },
+  "PSYCHUP": {
+   "user": 657
+  },
+  "PSYSHOCK": {
+   "user": 706
+  },
+  "PSYSTRIKE": {
+   "user": 1130
+  },
+  "PSYWAVE": {
+   "user": 716,
+   "opp": 717
+  },
+  "PUNISHMENT": {
+   "user": 910
+  },
+  "PURIFY": {
+   "user": 983,
+   "opp": 984
+  },
+  "PURSUIT": {
+   "user": 577,
+   "opp": 578
+  },
+  "PYROBALL": {
+   "user": 1287,
+   "opp": 1288
+  },
+  "QUASH": {
+   "user": 922
+  },
+  "QUICKATTACK": {
+   "user": 219,
+   "opp": 220
+  },
+  "QUICKGUARD": {
+   "user": 809,
+   "opp": 810
+  },
+  "QUIVERDANCE": {
+   "user": 579
+  },
+  "RAGE": {
+   "user": 658
+  },
+  "RAGEPOWDER": {
+   "user": 848
+  },
+  "RAINDANCE": {
+   "user": 337
+  },
+  "RAPIDSPIN": {
+   "user": 493
+  },
+  "RAZORLEAF": {
+   "user": 389,
+   "opp": 390
+  },
+  "RAZORSHELL": {
+   "user": 663
+  },
+  "RAZORWIND": {
+   "user": 1389
+  },
+  "RECOVER": {
+   "user": 541
+  },
+  "RECYCLE": {
+   "user": 754
+  },
+  "REFLECT": {
+   "user": 108,
+   "opp": 109
+  },
+  "REFLECTTYPE": {
+   "user": 1040,
+   "opp": 1041
+  },
+  "REFRESH": {
+   "user": 812
+  },
+  "RELICSONG": {
+   "user": 877
+  },
+  "REST": {
+   "user": 198
+  },
+  "RETALIATE": {
+   "user": 127,
+   "opp": 128
+  },
+  "RETURN": {
+   "user": 472
+  },
+  "REVELATIONDANCE": {
+   "user": 1391
+  },
+  "REVENGE": {
+   "user": 530,
+   "opp": 531
+  },
+  "REVERSAL": {
+   "user": 674,
+   "opp": 675
+  },
+  "RISINGVOLTAGE": {
+   "user": 1317
+  },
+  "ROAR": {
+   "user": 371,
+   "opp": 372
+  },
+  "ROAROFTIME": {
+   "user": 1392
+  },
+  "ROCKBLAST": {
+   "user": 445,
+   "opp": 450
+  },
+  "ROCKCLIMB": {
+   "user": 542,
+   "opp": 543
+  },
+  "ROCKPOLISH": {
+   "user": 521
+  },
+  "ROCKSLIDE": {
+   "user": 508
+  },
+  "ROCKSMASH": {
+   "user": 304,
+   "opp": 305
+  },
+  "ROCKTHROW": {
+   "user": 205,
+   "opp": 206
+  },
+  "ROCKTOMB": {
+   "user": 532
+  },
+  "ROCKWRECKER": {
+   "user": 752,
+   "opp": 753
+  },
+  "ROLEPLAY": {
+   "user": 849,
+   "opp": 850
+  },
+  "ROLLINGKICK": {
+   "user": 301,
+   "opp": 302
+  },
+  "ROLLOUT": {
+   "user": 569,
+   "opp": 570
+  },
+  "ROOST": {
+   "user": 431
+  },
+  "ROTOTILLER": {
+   "user": 1010
+  },
+  "ROUND": {
+   "user": 533,
+   "opp": 534
+  },
+  "SACREDFIRE": {
+   "user": 861,
+   "opp": 862
+  },
+  "SACREDSWORD": {
+   "user": 456,
+   "opp": 457
+  },
+  "SAFEGUARD": {
+   "user": 1011
+  },
+  "SAKURASTORM": {
+   "user": 1423
+  },
+  "SANDATTACK": {
+   "user": 391,
+   "opp": 392
+  },
+  "SANDSTORM": {
+   "user": 998
+  },
+  "SANDTOMB": {
+   "user": 738
+  },
+  "SCALD": {
+   "user": 612,
+   "opp": 613
+  },
+  "SCALESHOT": {
+   "user": 1318
+  },
+  "SCARYFACE": {
+   "user": 225,
+   "opp": 226
+  },
+  "SCORCHINGSANDS": {
+   "user": 1323
+  },
+  "SCRATCH": {
+   "user": 325
+  },
+  "SCREECH": {
+   "user": 331,
+   "opp": 332
+  },
+  "SEARINGSHOT": {
+   "user": 1077
+  },
+  "SECRETPOWER": {
+   "user": 659
+  },
+  "SECRETSWORD": {
+   "user": 1042,
+   "opp": 1043
+  },
+  "SEEDBOMB": {
+   "user": 482,
+   "opp": 483
+  },
+  "SEEDFLARE": {
+   "user": 878
+  },
+  "SEISMICTOSS": {
+   "user": 619,
+   "opp": 620
+  },
+  "SELFDESTRUCT": {
+   "user": 306
+  },
+  "SHADOWBALL": {
+   "user": 104,
+   "opp": 105
+  },
+  "SHADOWBONE": {
+   "user": 1079,
+   "opp": 1080
+  },
+  "SHADOWCLAW": {
+   "user": 455
+  },
+  "SHADOWFORCE": {
+   "user": 819
+  },
+  "SHADOWPUNCH": {
+   "user": 477
+  },
+  "SHADOWSNEAK": {
+   "user": 506,
+   "opp": 507
+  },
+  "SHARPEN": {
+   "user": 957
+  },
+  "SHEERCOLD": {
+   "user": 871
+  },
+  "SHELLSIDEARM": {
+   "user": 1324
+  },
+  "SHELLSMASH": {
+   "user": 915
+  },
+  "SHELLTRAP": {
+   "user": 1087,
+   "opp": 1088
+  },
+  "SHIFTGEAR": {
+   "user": 923
+  },
+  "SHOCKWAVE": {
+   "user": 522,
+   "opp": 523
+  },
+  "SHOREUP": {
+   "user": 990
+  },
+  "SIGNALBEAM": {
+   "user": 146,
+   "opp": 147
+  },
+  "SILVERWIND": {
+   "user": 260
+  },
+  "SIMPLEBEAM": {
+   "user": 795,
+   "opp": 796
+  },
+  "SING": {
+   "user": 176,
+   "opp": 177
+  },
+  "SKETCH": {
+   "user": 148,
+   "opp": 149
+  },
+  "SKILLSWAP": {
+   "user": 828
+  },
+  "SKITTERSMACK": {
+   "user": 1326,
+   "opp": 1327
+  },
+  "SKULLBASH": {
+   "user": 813
+  },
+  "SKYATTACK": {
+   "user": 965,
+   "opp": 967
+  },
+  "SKYDROP": {
+   "user": 939
+  },
+  "SKYUPPERCUT": {
+   "user": 723
+  },
+  "SLACKOFF": {
+   "user": 680,
+   "opp": 681
+  },
+  "SLAM": {
+   "user": 267,
+   "opp": 268
+  },
+  "SLASH": {
+   "user": 300
+  },
+  "SLEEPPOWDER": {
+   "user": 277
+  },
+  "SLEEPTALK": {
+   "user": 969
+  },
+  "SLUDGE": {
+   "user": 307,
+   "opp": 308
+  },
+  "SLUDGEBOMB": {
+   "user": 192,
+   "opp": 193
+  },
+  "SLUDGEWAVE": {
+   "user": 707,
+   "opp": 708
+  },
+  "SMACKDOWN": {
+   "user": 526,
+   "opp": 527
+  },
+  "SMARTSTRIKE": {
+   "user": 985,
+   "opp": 986
+  },
+  "SMELLINGSALTS": {
+   "user": 857
+  },
+  "SMOG": {
+   "user": 385
+  },
+  "SMOKESCREEN": {
+   "user": 222
+  },
+  "SNAPTRAP": {
+   "user": 1289
+  },
+  "SNARL": {
+   "user": 941,
+   "opp": 942
+  },
+  "SNATCH": {
+   "user": 807
+  },
+  "SNIPESHOT": {
+   "user": 1291
+  },
+  "SNORE": {
+   "user": 1059
+  },
+  "SOAK": {
+   "user": 924
+  },
+  "SOFTBOILED": {
+   "user": 851
+  },
+  "SOLARBEAM": {
+   "user": 732
+  },
+  "SOLARBLADE": {
+   "user": 1393,
+   "opp": 1395
+  },
+  "SOLARFLARE": {
+   "user": 1418
+  },
+  "SONICBOOM": {
+   "user": 987,
+   "opp": 988
+  },
+  "SOULBURST": {
+   "user": 1432
+  },
+  "SOULREAPER": {
+   "user": 1426
+  },
+  "SPACIALREND": {
+   "user": 893,
+   "opp": 894
+  },
+  "SPARK": {
+   "user": 496
+  },
+  "SPARKLINGARIA": {
+   "user": 1140
+  },
+  "SPECTRALTHIEF": {
+   "user": 1111,
+   "opp": 1112
+  },
+  "SPEEDSWAP": {
+   "user": 830
+  },
+  "SPIDERWEB": {
+   "user": 196
+  },
+  "SPIKECANNON": {
+   "user": 397,
+   "opp": 402
+  },
+  "SPIKES": {
+   "user": 112,
+   "opp": 113
+  },
+  "SPIKYSHIELD": {
+   "user": 906
+  },
+  "SPINKICK": {
+   "user": 1443
+  },
+  "SPIRITBREAK": {
+   "user": 1292
+  },
+  "SPIRITSHACKLE": {
+   "user": 1090,
+   "opp": 1091
+  },
+  "SPITE": {
+   "user": 639
+  },
+  "SPITUP": {
+   "user": 879,
+   "opp": 880
+  },
+  "SPLASH": {
+   "user": 114
+  },
+  "SPORE": {
+   "user": 278
+  },
+  "SPOTLIGHT": {
+   "user": 1105,
+   "opp": 1106
+  },
+  "STEALTHROCK": {
+   "user": 317,
+   "opp": 318
+  },
+  "STEAMERUPTION": {
+   "user": 947,
+   "opp": 948
+  },
+  "STEAMROLLER": {
+   "user": 780
+  },
+  "STEELBEAM": {
+   "user": 1293
+  },
+  "STEELROLLER": {
+   "user": 1328
+  },
+  "STEELWING": {
+   "user": 640,
+   "opp": 641
+  },
+  "STICKYWEB": {
+   "user": 974,
+   "opp": 975
+  },
+  "STOCKPILE": {
+   "user": 872
+  },
+  "STOMP": {
+   "user": 189
+  },
+  "STOMPINGTANTRUM": {
+   "user": 989
+  },
+  "STONEEDGE": {
+   "user": 718
+  },
+  "STOREDPOWER": {
+   "user": 571
+  },
+  "STORMTHROW": {
+   "user": 782
+  },
+  "STRANGESTEAM": {
+   "user": 1294
+  },
+  "STRENGTH": {
+   "user": 676
+  },
+  "STRENGTHSAP": {
+   "user": 904,
+   "opp": 905
+  },
+  "STRINGSHOT": {
+   "user": 329
+  },
+  "STRUGGLE": {
+   "user": 247
+  },
+  "STRUGGLEBUG": {
+   "user": 709
+  },
+  "STUFFCHEEKS": {
+   "user": 1295,
+   "opp": 1296
+  },
+  "STUNSPORE": {
+   "user": 276
+  },
+  "SUBMISSION": {
+   "user": 601
+  },
+  "SUBSTITUTE": {
+   "user": 497,
+   "opp": 498
+  },
+  "SUCKERPUNCH": {
+   "user": 684
+  },
+  "SUNNYDAY": {
+   "user": 343
+  },
+  "SUNSTEELSTRIKE": {
+   "user": 1397
+  },
+  "SUPERFANG": {
+   "user": 863
+  },
+  "SUPERPOWER": {
+   "user": 587
+  },
+  "SUPERSONIC": {
+   "user": 253,
+   "opp": 254
+  },
+  "SURF": {
+   "user": 473,
+   "opp": 474
+  },
+  "SURGINGSTRIKES": {
+   "user": 1329
+  },
+  "SWAGGER": {
+   "user": 150,
+   "opp": 151
+  },
+  "SWALLOW": {
+   "user": 961,
+   "opp": 962
+  },
+  "SWEETKISS": {
+   "user": 409
+  },
+  "SWEETSCENT": {
+   "user": 887
+  },
+  "SWERVINGSTRIKE": {
+   "user": 1449
+  },
+  "SWIFT": {
+   "user": 326,
+   "opp": 327
+  },
+  "SWITCHEROO": {
+   "user": 864,
+   "opp": 865
+  },
+  "SWORDSDANCE": {
+   "user": 186
+  },
+  "SYNCHRONOISE": {
+   "user": 1012
+  },
+  "SYNTHESIS": {
+   "user": 687
+  },
+  "TACKLE": {
+   "user": 136
+  },
+  "TAILGLOW": {
+   "user": 201,
+   "opp": 202
+  },
+  "TAILSLAP": {
+   "user": 783
+  },
+  "TAILWHIP": {
+   "user": 255
+  },
+  "TAILWIND": {
+   "user": 724,
+   "opp": 725
+  },
+  "TAKEDOWN": {
+   "user": 602,
+   "opp": 603
+  },
+  "TARSHOT": {
+   "user": 1298,
+   "opp": 1299
+  },
+  "TAUNT": {
+   "user": 513,
+   "opp": 514
+  },
+  "TEARFULLOOK": {
+   "user": 1068,
+   "opp": 1069
+  },
+  "TEATIME": {
+   "user": 1297
+  },
+  "TECHNOBLAST": {
+   "user": 976,
+   "opp": 977
+  },
+  "TEETERDANCE": {
+   "user": 751
+  },
+  "TELEKINESIS": {
+   "user": 858
+  },
+  "TELEPORT": {
+   "user": 152
+  },
+  "TERRAINPULSE": {
+   "user": 1332
+  },
+  "THOUSANDARROWS": {
+   "user": 1120
+  },
+  "THOUSANDWAVES": {
+   "user": 1132
+  },
+  "THRASH": {
+   "user": 604
+  },
+  "THROATCHOP": {
+   "user": 916,
+   "opp": 917
+  },
+  "THUNDER": {
+   "user": 125
+  },
+  "THUNDERBOLT": {
+   "user": 100
+  },
+  "THUNDERCAGE": {
+   "user": 1350
+  },
+  "THUNDERFANG": {
+   "user": 237
+  },
+  "THUNDEROUSKICK": {
+   "user": 1352
+  },
+  "THUNDERPUNCH": {
+   "user": 99
+  },
+  "THUNDERSHOCK": {
+   "user": 238
+  },
+  "THUNDERWAVE": {
+   "user": 115
+  },
+  "TICKLE": {
+   "user": 1013
+  },
+  "TOPSYTURVY": {
+   "user": 843
+  },
+  "TORMENT": {
+   "user": 719
+  },
+  "TOXIC": {
+   "user": 209
+  },
+  "TOXICSPIKES": {
+   "user": 116,
+   "opp": 117
+  },
+  "TOXICTHREAD": {
+   "user": 1067
+  },
+  "TRANSFORM": {
+   "user": 788
+  },
+  "TRIATTACK": {
+   "user": 432,
+   "opp": 433
+  },
+  "TRICK": {
+   "user": 750
+  },
+  "TRICKORTREAT": {
+   "user": 832,
+   "opp": 833
+  },
+  "TRICKROOM": {
+   "user": 131
+  },
+  "TRIPLEAXEL": {
+   "user": 1339
+  },
+  "TRIPLEKICK": {
+   "user": 747
+  },
+  "TROPKICK": {
+   "user": 1121
+  },
+  "TRUMPCARD": {
+   "user": 797
+  },
+  "TWINEEDLE": {
+   "user": 210,
+   "opp": 212
+  },
+  "TWISTER": {
+   "user": 223
+  },
+  "UPROAR": {
+   "user": 605
+  },
+  "UTURN": {
+   "user": 606
+  },
+  "VACUUMWAVE": {
+   "user": 614,
+   "opp": 615
+  },
+  "VCREATE": {
+   "user": 746
+  },
+  "VENOMDRENCH": {
+   "user": 888
+  },
+  "VENOSHOCK": {
+   "user": 505
+  },
+  "VINEWHIP": {
+   "user": 184
+  },
+  "VISEGRIP": {
+   "user": 970
+  },
+  "VITALTHROW": {
+   "user": 677
+  },
+  "VOLTSWITCH": {
+   "user": 616,
+   "opp": 617
+  },
+  "VOLTTACKLE": {
+   "user": 745
+  },
+  "WAKEUPSLAP": {
+   "user": 509
+  },
+  "WATERFALL": {
+   "user": 582
+  },
+  "WATERGUN": {
+   "user": 227,
+   "opp": 228
+  },
+  "WATERPLEDGE": {
+   "user": 480
+  },
+  "WATERPULSE": {
+   "user": 168,
+   "opp": 169
+  },
+  "WATERSHURIKEN": {
+   "user": 1014
+  },
+  "WATERSPORT": {
+   "user": 600
+  },
+  "WATERSPOUT": {
+   "user": 580,
+   "opp": 581
+  },
+  "WEATHERBALL": {
+   "user": 978
+  },
+  "WHIRLPOOL": {
+   "user": 652
+  },
+  "WHIRLWIND": {
+   "user": 284
+  },
+  "WICKEDBLOW": {
+   "user": 1342
+  },
+  "WIDEGUARD": {
+   "user": 840,
+   "opp": 841
+  },
+  "WILDCHARGE": {
+   "user": 427
+  },
+  "WILLOWISP": {
+   "user": 167
+  },
+  "WINGATTACK": {
+   "user": 264,
+   "opp": 265
+  },
+  "WISH": {
+   "user": 486
+  },
+  "WITHDRAW": {
+   "user": 607
+  },
+  "WONDERROOM": {
+   "user": 130
+  },
+  "WOODHAMMER": {
+   "user": 711
+  },
+  "WORKUP": {
+   "user": 548
+  },
+  "WORRYSEED": {
+   "user": 885,
+   "opp": 886
+  },
+  "WRAP": {
+   "user": 110
+  },
+  "WRINGOUT": {
+   "user": 239
+  },
+  "XSCISSOR": {
+   "user": 231,
+   "opp": 232
+  },
+  "YAWN": {
+   "user": 592,
+   "opp": 593
+  },
+  "ZAPCANNON": {
+   "user": 187,
+   "opp": 188
+  },
+  "ZENHEADBUTT": {
+   "user": 1398,
+   "opp": 1399
+  },
+  "ZINGZAP": {
+   "user": 1094
+  },
+  "MAXAIRSTREAM": {
+   "user": 1456
+  },
+  "MAXDARKNESS": {
+   "user": 1457
+  },
+  "MAXFLARE": {
+   "user": 1458
+  },
+  "MAXFLUTTERBY": {
+   "user": 1459
+  },
+  "MAXGEYSER": {
+   "user": 1460
+  },
+  "MAXGUARD": {
+   "user": 1461
+  },
+  "MAXHAILSTORM": {
+   "user": 1462
+  },
+  "MAXKNUCKLE": {
+   "user": 1463
+  },
+  "MAXLIGHTNING": {
+   "user": 1464
+  },
+  "MAXMINDSTORM": {
+   "user": 1465
+  },
+  "MAXOOZE": {
+   "user": 1466
+  },
+  "MAXOVERGROWTH": {
+   "user": 1467
+  },
+  "MAXPHANTASM": {
+   "user": 1468
+  },
+  "MAXQUAKE": {
+   "user": 1469
+  },
+  "MAXROCKFALL": {
+   "user": 1470
+  },
+  "MAXSTARFALL": {
+   "user": 1471
+  },
+  "MAXSTEELSPIKE": {
+   "user": 1472
+  },
+  "MAXSTRIKE": {
+   "user": 1473
+  },
+  "MAXWYRMWIND": {
+   "user": 1474
+  },
+  "GMAXBEFUDDLE": {
+   "user": 1475
+  },
+  "GMAXCANNONADE": {
+   "user": 1476
+  },
+  "GMAXCENTIFERNO": {
+   "user": 1477
+  },
+  "GMAXCHISTRIKE": {
+   "user": 1478
+  },
+  "GMAXCUDDLE": {
+   "user": 1479
+  },
+  "GMAXDEPLETION": {
+   "user": 1480
+  },
+  "GMAXDRUMSOLO": {
+   "user": 1481
+  },
+  "GMAXFINALE": {
+   "user": 1482
+  },
+  "GMAXFIREBALL": {
+   "user": 1483
+  },
+  "GMAXFOAMBURST": {
+   "user": 1484
+  },
+  "GMAXGOLDRUSH": {
+   "user": 1485
+  },
+  "GMAXGRAVITAS": {
+   "user": 1486
+  },
+  "GMAXHYDROSNIPE": {
+   "user": 1487
+  },
+  "GMAXMALODOR": {
+   "user": 1488
+  },
+  "GMAXMELTDOWN": {
+   "user": 1489
+  },
+  "GMAXONEBLOW": {
+   "user": 1490
+  },
+  "GMAXRAPIDFLOW": {
+   "user": 1491
+  },
+  "GMAXREPLENISH": {
+   "user": 1492
+  },
+  "GMAXRESONANCE": {
+   "user": 1493
+  },
+  "GMAXSANDBLAST": {
+   "user": 1494
+  },
+  "GMAXSMITE": {
+   "user": 1495
+  },
+  "GMAXSNOOZE": {
+   "user": 1496
+  },
+  "GMAXSTONESURGE": {
+   "user": 1497
+  },
+  "GMAXSTUNSHOCK": {
+   "user": 1498
+  },
+  "GMAXSWEETNESS": {
+   "user": 1499
+  },
+  "GMAXTARTNESS": {
+   "user": 1500
+  },
+  "GMAXTERROR": {
+   "user": 1501
+  },
+  "GMAXVINELASH": {
+   "user": 1502
+  },
+  "GMAXVOLCALITH": {
+   "user": 1503
+  },
+  "GMAXVOLTCRASH": {
+   "user": 1504
+  },
+  "GMAXWILDFIRE": {
+   "user": 1505
+  },
+  "GMAXWINDRAGE": {
+   "user": 1506
+  },
+  "10,000,000VOLTTHUNDERBOLT": {
+   "user": 1507
+  },
+  "ALLURINGVOICE": {
+   "user": 1527
+  },
+  "AXEKICK": {
+   "user": 1528
+  },
+  "BADDYBAD": {
+   "user": 1514
+  },
+  "BITTERMALICE": {
+   "user": 1529
+  },
+  "BLEAKWINDSTORM": {
+   "user": 1530
+  },
+  "BOUNCYBUBBLE": {
+   "user": 1515
+  },
+  "BUZZYBUZZ": {
+   "user": 1516
+  },
+  "CEASELESSEDGE": {
+   "user": 1531
+  },
+  "CHILLINGWATER": {
+   "user": 1532
+  },
+  "COMEUPPANCE": {
+   "user": 1533
+  },
+  "DOUBLESHOCK": {
+   "user": 1534
+  },
+  "FILLETAWAY": {
+   "user": 1554
+  },
+  "FLOATYFALL": {
+   "user": 1517
+  },
+  "FREEZYFROST": {
+   "user": 1518
+  },
+  "GENESISSUPERNOVA": {
+   "user": 1508
+  },
+  "GLAIVERUSH": {
+   "user": 1535
+  },
+  "GLITZYGLOW": {
+   "user": 1519
+  },
+  "HEADLONGRUSH": {
+   "user": 1536
+  },
+  "HYDROSTEAM": {
+   "user": 1537
+  },
+  "HYPERDRILL": {
+   "user": 1538
+  },
+  "KOWTOWCLEAVE": {
+   "user": 1539
+  },
+  "LASTRESPECTS": {
+   "user": 1540
+  },
+  "LIGHTTHATBURNSTHESKY": {
+   "user": 1509
+  },
+  "LUMINACRASH": {
+   "user": 1541
+  },
+  "MALICIOUSMOONSAULT": {
+   "user": 1510
+  },
+  "MENACINGMOONRAZEMAELSTROM": {
+   "user": 1511
+  },
+  "MOUNTAINGALE": {
+   "user": 1542
+  },
+  "NIHILLIGHT": {
+   "user": 1543
+  },
+  "PALEOWAVE": {
+   "user": 1544
+  },
+  "PIKAPAPOW": {
+   "user": 1520
+  },
+  "POLARFLARE": {
+   "user": 1545
+  },
+  "POUNCE": {
+   "user": 1546
+  },
+  "POWERSHIFT": {
+   "user": 1555
+  },
+  "PSYBLADE": {
+   "user": 1547
+  },
+  "PSYSHIELDBASH": {
+   "user": 1548
+  },
+  "RAGINGBULL": {
+   "user": 1549
+  },
+  "SAPPYSEED": {
+   "user": 1521
+  },
+  "SAVAGESPINOUT": {
+   "user": 1512
+  },
+  "SHADOWSTRIKE": {
+   "user": 1550
+  },
+  "SHEDTAIL": {
+   "user": 1556
+  },
+  "SHELTER": {
+   "user": 1557
+  },
+  "SILKTRAP": {
+   "user": 1558
+  },
+  "SIZZLYSLIDE": {
+   "user": 1522
+  },
+  "SPARKLYSWIRL": {
+   "user": 1523
+  },
+  "SPLISHYSPLASH": {
+   "user": 1524
+  },
+  "TECTONICRAGE": {
+   "user": 1513
+  },
+  "TERABLAST": {
+   "user": 1551
+  },
+  "TIDYUP": {
+   "user": 1559
+  },
+  "TRAILBLAZE": {
+   "user": 1552
+  },
+  "TRIPLEDIVE": {
+   "user": 1553
+  },
+  "VEEVEEVOLLEY": {
+   "user": 1525
+  },
+  "ZIPPYZAP": {
+   "user": 1526
+  },
+  "ACIDDOWNPOUR": {
+   "user": 1560
+  },
+  "AQUACUTTER": {
+   "user": 1561
+  },
+  "AQUASTEP": {
+   "user": 1562
+  },
+  "ARMORCANNON": {
+   "user": 1563
+  },
+  "BARBBARRAGE": {
+   "user": 1564
+  },
+  "BITTERBLADE": {
+   "user": 1565
+  },
+  "BLAZINGTORQUE": {
+   "user": 1566
+  },
+  "BLOODMOON": {
+   "user": 1567
+  },
+  "BURNINGBULWARK": {
+   "user": 1568
+  },
+  "CHILLYRECEPTION": {
+   "user": 1569
+  },
+  "CHLOROBLAST": {
+   "user": 1570
+  },
+  "CLANGOROUSSOULBLAZE": {
+   "user": 1571
+  },
+  "COLLISIONCOURSE": {
+   "user": 1572
+  },
+  "COMBATTORQUE": {
+   "user": 1573
+  },
+  "CONTINENTALCRUSH": {
+   "user": 1574
+  },
+  "CORKSCREWCRASH": {
+   "user": 1575
+  },
+  "DIRECLAW": {
+   "user": 1576
+  },
+  "DOODLE": {
+   "user": 1577
+  },
+  "DRAGONCHEER": {
+   "user": 1578
+  },
+  "ELECTRODRIFT": {
+   "user": 1579
+  },
+  "ELECTROSHOT": {
+   "user": 1580
+  },
+  "ESPERWING": {
+   "user": 1581
+  },
+  "FICKLEBEAM": {
+   "user": 1582
+  },
+  "FLOWERTRICK": {
+   "user": 1583
+  },
+  "GIGATONHAMMER": {
+   "user": 1584
+  },
+  "GMAXSTEELSURGE": {
+   "user": 1585
+  },
+  "GUARDIANOFALOLA": {
+   "user": 1586
+  },
+  "HAPPYHOUR": {
+   "user": 1587
+  },
+  "HARDPRESS": {
+   "user": 1588
+  },
+  "ICESPINNER": {
+   "user": 1589
+  },
+  "INFERNALPARADE": {
+   "user": 1590
+  },
+  "IVYCUDGEL": {
+   "user": 1591
+  },
+  "JETPUNCH": {
+   "user": 1592
+  },
+  "LET'SSNUGGLEFOREVER": {
+   "user": 1593
+  },
+  "LUNARBLESSING": {
+   "user": 1594
+  },
+  "MAGICALTORQUE": {
+   "user": 1595
+  },
+  "MAKEITRAIN": {
+   "user": 1596
+  },
+  "MALIGNANTCHAIN": {
+   "user": 1597
+  },
+  "MATCHAGOTCHA": {
+   "user": 1598
+  },
+  "MIGHTYCLEAVE": {
+   "user": 1599
+  },
+  "MORTALSPIN": {
+   "user": 1600
+  },
+  "MYSTICALPOWER": {
+   "user": 1601
+  },
+  "NOXIOUSTORQUE": {
+   "user": 1602
+  },
+  "OCEANICOPERETTA": {
+   "user": 1603
+  },
+  "ORDERUP": {
+   "user": 1604
+  },
+  "POPULATIONBOMB": {
+   "user": 1605
+  },
+  "PSYCHICNOISE": {
+   "user": 1606
+  },
+  "RAGEFIST": {
+   "user": 1607
+  },
+  "RAGINGFURY": {
+   "user": 1608
+  },
+  "REVIVALBLESSING": {
+   "user": 1609
+  },
+  "RUINATION": {
+   "user": 1610
+  },
+  "SALTCURE": {
+   "user": 1611
+  },
+  "SANDSEARSTORM": {
+   "user": 1612
+  },
+  "SEARINGSUNRAZESMASH": {
+   "user": 1613
+  },
+  "SNOWSCAPE": {
+   "user": 1614
+  },
+  "SOULSTEALING7STARSTRIKE": {
+   "user": 1615
+  },
+  "SPICYEXTRACT": {
+   "user": 1616
+  },
+  "SPINOUT": {
+   "user": 1617
+  },
+  "SPLINTEREDSTORMSHARDS": {
+   "user": 1618
+  },
+  "SPRINGTIDESTORM": {
+   "user": 1619
+  },
+  "STOKEDSPARKSURFER": {
+   "user": 1620
+  },
+  "STONEAXE": {
+   "user": 1621
+  },
+  "SUPERCELLSLAM": {
+   "user": 1622
+  },
+  "SYRUPBOMB": {
+   "user": 1623
+  },
+  "TACHYONCUTTER": {
+   "user": 1624
+  },
+  "TAKEHEART": {
+   "user": 1625
+  },
+  "TEMPERFLARE": {
+   "user": 1626
+  },
+  "TERASTARSTORM": {
+   "user": 1627
+  },
+  "THIEF": {
+   "user": 1628
+  },
+  "THUNDERCLAP": {
+   "user": 1629
+  },
+  "TORCHSONG": {
+   "user": 1630
+  },
+  "TRIPLEARROWS": {
+   "user": 1631
+  },
+  "TWINBEAM": {
+   "user": 1632
+  },
+  "UPPERHAND": {
+   "user": 1633
+  },
+  "VICTORYDANCE": {
+   "user": 1634
+  },
+  "WAVECRASH": {
+   "user": 1635
+  },
+  "WICKEDTORQUE": {
+   "user": 1636
+  },
+  "WILDBOLTSTORM": {
+   "user": 1637
+  },
+  "FOREST'SCURSE": {
+   "user": 816
+  },
+  "KING'SSHIELD": {
+   "user": 467,
+   "opp": 468
+  },
+  "LAND'SWRATH": {
+   "user": 1376
+  },
+  "NATURE'SMADNESS": {
+   "user": 964
+  }
+ },
+ "extra_named": {
+  "HIJUMPKICK": {
+   "user": 190,
+   "opp": 191
+  },
+  "PINMISSILEWRONG": {
+   "user": 218
+  },
+  "FUTUREDUMMY": {
+   "user": 314
+  },
+  "HIDDENPOWERFIRE": {
+   "user": 689
+  },
+  "HIDDENPOWERWATER": {
+   "user": 690
+  },
+  "HIDDENPOWERGRASS": {
+   "user": 691
+  },
+  "HIDDENPOWERELECTRIC": {
+   "user": 692
+  },
+  "HIDDENPOWERICE": {
+   "user": 693
+  },
+  "HIDDENPOWERFIGHTING": {
+   "user": 694
+  },
+  "HIDDENPOWERPOISON": {
+   "user": 695
+  },
+  "HIDDENPOWERGROUND": {
+   "user": 696
+  },
+  "HIDDENPOWERROCK": {
+   "user": 697
+  },
+  "HIDDENPOWERBUG": {
+   "user": 698
+  },
+  "HIDDENPOWERFLYING": {
+   "user": 699
+  },
+  "HIDDENPOWERPSYCHIC": {
+   "user": 700
+  },
+  "HIDDENPOWERGHOST": {
+   "user": 701
+  },
+  "HIDDENPOWERDRAGON": {
+   "user": 702
+  },
+  "HIDDENPOWERDARK": {
+   "user": 703
+  },
+  "HIDDENPOWERSTEEL": {
+   "user": 704
+  },
+  "HIDDENPOWERFAIRY": {
+   "user": 705
+  },
+  "WEATHERBALLRAIN": {
+   "user": 979
+  },
+  "WEATHERBALLSUN": {
+   "user": 980
+  },
+  "WEATHERBALLSAND": {
+   "user": 981
+  },
+  "WEATHERBALLHAIL": {
+   "user": 982
+  },
+  "DOOMDUMMY": {
+   "user": 1044,
+   "opp": 1045
+  },
+  "BREAKNECKBLITZ": {
+   "user": 1172
+  },
+  "ALLOUTPUMMELING": {
+   "user": 1174,
+   "opp": 1175
+  },
+  "NEVERENDINGNIGHTMARE": {
+   "user": 1184
+  },
+  "INFERNOOVERDRIVE": {
+   "user": 1188,
+   "opp": 1189
+  },
+  "HYDROVORTEX": {
+   "user": 1190,
+   "opp": 1191
+  },
+  "BLOOMDOOM": {
+   "user": 1192,
+   "opp": 1193
+  },
+  "GIGAVOLTHAVOC": {
+   "user": 1194,
+   "opp": 1195
+  },
+  "SHATTEREDPSYCHE": {
+   "user": 1196
+  },
+  "SUBZEROSLAMMER": {
+   "user": 1198
+  },
+  "DEVASTATINGDRAKE": {
+   "user": 1200,
+   "opp": 1201
+  },
+  "BLACKHOLEECLIPSE": {
+   "user": 1202,
+   "opp": 1203
+  },
+  "TWINKLETACKLE": {
+   "user": 1204,
+   "opp": 1205
+  },
+  "CATASTROPIKA": {
+   "user": 1206
+  },
+  "EXTREMEEVOBOOST": {
+   "user": 1210
+  },
+  "PULVERIZINGPANCAKE": {
+   "user": 1212
+  },
+  "SINISTERARROWRAID": {
+   "user": 1218,
+   "opp": 1219
+  },
+  "SUPERSONICSKYSTRIKE": {
+   "user": 1400
+  },
+  "RAJINBREATH": {
+   "user": 1448
+  }
+ },
+ "common": {
+  "HealthUp": 0,
+  "HealthDown": 1,
+  "StatUp": 2,
+  "StatDown": 3,
+  "Sleep": 4,
+  "Poison": 5,
+  "Toxic": 6,
+  "Burn": 7,
+  "Paralysis": 8,
+  "Frozen": 9,
+  "Confusion": 10,
+  "Attract": 11,
+  "Shiny": 12,
+  "MegaEvolution": 13,
+  "MegaEvolution2": 14,
+  "PulseEvolution": 15,
+  "PrimalKyogre": 16,
+  "PrimalKyogre2": 17,
+  "PrimalGroudon": 18,
+  "PrimalGroudon2": 19,
+  "UltraBurst": 20,
+  "UltraBurst2": 21,
+  "Sunny": 22,
+  "Rain": 23,
+  "Sandstorm": 24,
+  "Hail": 25,
+  "Wind": 26,
+  "HeavyRain": 27,
+  "HarshSun": 28,
+  "StrongWinds": 29,
+  "UseItem": 32,
+  "EatBerry": 33,
+  "ParentalBound": 34,
+  "LevelUp": 35,
+  "Bind": 64,
+  "Wrap": 111,
+  "CurseNoGhost": 249,
+  "LeechSeed": 272,
+  "FireSpin": 322,
+  "MistyTerrain": 440,
+  "ElectricTerrain": 442,
+  "GrassyTerrain": 444,
+  "KingsShield": 469,
+  "Protect": 492,
+  "Covet": 525,
+  "Dig charging": 564,
+  "FocusPunch": 591,
+  "Fade in": 642,
+  "Whirlpool": 653,
+  "Dive charging": 655,
+  "Bide": 721,
+  "Infestation": 727,
+  "Fade out": 737,
+  "SandTomb": 739,
+  "LunarDance": 756,
+  "QuickGuard": 811,
+  "WideGuard": 842,
+  "HealingWish": 869,
+  "SpikyShield": 907,
+  "Curse": 911,
+  "Sky Drop charging": 940,
+  "CraftyShield": 945,
+  "Powder": 973,
+  "MagmaStorm": 1007,
+  "Clamp": 1055,
+  "ShellTrap": 1089,
+  "BanefulBunker": 1096,
+  "PsychicTerrain": 1136,
+  "ZPower": 1171,
+  "RainbowT": 1238,
+  "GlitchT": 1239,
+  "Obstruct": 1283,
+  "Octolock": 1285,
+  "SnapTrap": 1290,
+  "ThunderCage": 1351,
+  "Hellfire": 1431
+ },
+ "custom_moves": [
+  "BANEFULBUNKER",
+  "BEAKBLAST",
+  "CAUSTICBREATH",
+  "CAUSTICCLAW",
+  "CLEANSINGBUBBLE",
+  "COMA",
+  "DEATHSDANCE",
+  "DEATHSDANCEHIT2",
+  "DEATHSDANCEHIT3",
+  "DRAGONASCENT",
+  "DRAGONSDESCENT",
+  "ELECTROBALL",
+  "FIRESPIN",
+  "FRIGIDVEIL",
+  "FROSTFLAMEBLADE",
+  "GOOPBLAST",
+  "GRANDEJETE",
+  "HIGHHORSEPOWER",
+  "INFERNOOVERDRIVE",
+  "LILYBASH",
+  "MILKDRINK",
+  "MINDREADER",
+  "NAGASHOCKBLAST",
+  "NETTLESPEAR",
+  "NOXIOUSINFUSION",
+  "OSMOTICDANCE",
+  "RAJINBREATH",
+  "SAKURASTORM",
+  "SIGNALBEAM",
+  "SOLARFLARE",
+  "SOLARFLARECHARGE",
+  "SOULBURST",
+  "SOULREAPER",
+  "SPINKICK",
+  "SWERVINGSTRIKE",
+  "VIRUARKMOVE1"
+ ]
+}

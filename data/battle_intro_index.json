@@ -1,0 +1,3059 @@
+{
+ "about": "Battle intro index for PUWBattleIntro. fronts: PUW trainer class -> held front sprite (build 6 copies source_file to file). strips: player back throw strips with real frame data. protagonist_backs: null = NO strip held for that protagonist (gap G-VS2) -- the sequencer runs ball-only release instead of showing a wrong character's back.",
+ "fronts": {
+  "AGATHA": {
+   "file": "art/battle_intro/fronts/agatha.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 1,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/ELITEFOUR_Agatha.png"
+  },
+  "BEAUTY": {
+   "file": "art/battle_intro/fronts/beauty.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 20,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/BEAUTY.png"
+  },
+  "BIKER": {
+   "file": "art/battle_intro/fronts/biker.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 22,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/BIKER.png"
+  },
+  "BIRD_KEEPER": {
+   "file": "art/battle_intro/fronts/bird_keeper.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 30,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/BIRDKEEPER.png"
+  },
+  "BLACKBELT": {
+   "file": "art/battle_intro/fronts/blackbelt.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 9,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/BLACKBELT.png"
+  },
+  "BLACKBELT_T": {
+   "file": "art/battle_intro/fronts/blackbelt_t.png",
+   "native": [
+    160,
+    160
+   ],
+   "note": "class variant: Johto-source id for the Blackbelt class (Cianwood Gym placements)",
+   "placed_count": 11,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/BLACKBELT.png"
+  },
+  "BLAINE": {
+   "file": "art/battle_intro/fronts/blaine.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 1,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Blaine.png"
+  },
+  "BLUE": {
+   "file": "art/battle_intro/fronts/blue.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/champion_rival_front_pic.png"
+  },
+  "BROCK": {
+   "file": "art/battle_intro/fronts/brock.png",
+   "native": [
+    160,
+    160
+   ],
+   "note": "named character",
+   "placed_count": 1,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Brock.png"
+  },
+  "BRUNO": {
+   "file": "art/battle_intro/fronts/bruno.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 1,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/ELITEFOUR_Bruno.png"
+  },
+  "BUG_CATCHER": {
+   "file": "art/battle_intro/fronts/bug_catcher.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 24,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/BUGCATCHER.png"
+  },
+  "BURGLAR": {
+   "file": "art/battle_intro/fronts/burglar.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 9,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/BURGLAR.png"
+  },
+  "CAMPER": {
+   "file": "art/battle_intro/fronts/camper.png",
+   "native": [
+    64,
+    64
+   ],
+   "placed_count": 16,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/camper_front_pic.png"
+  },
+  "CHAMPION": {
+   "file": "art/battle_intro/fronts/champion.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/CHAMPION.png"
+  },
+  "CHANNELER": {
+   "file": "art/battle_intro/fronts/channeler.png",
+   "native": [
+    64,
+    64
+   ],
+   "placed_count": 16,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/channeler_front_pic.png"
+  },
+  "COOLTRAINERF": {
+   "file": "art/battle_intro/fronts/cooltrainerf.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 28,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/COOLTRAINER_F.png"
+  },
+  "COOLTRAINERM": {
+   "file": "art/battle_intro/fronts/cooltrainerm.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 21,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/COOLTRAINER_M.png"
+  },
+  "COOLTRAINER_F": {
+   "file": "art/battle_intro/fronts/cooltrainer_f.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 4,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/COOLTRAINER_F.png"
+  },
+  "COOLTRAINER_M": {
+   "file": "art/battle_intro/fronts/cooltrainer_m.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 6,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/COOLTRAINER_M.png"
+  },
+  "CUE_BALL": {
+   "file": "art/battle_intro/fronts/cue_ball.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 9,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/CUEBALL.png"
+  },
+  "ENGINEER": {
+   "file": "art/battle_intro/fronts/engineer.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 2,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/ENGINEER.png"
+  },
+  "ERIKA": {
+   "file": "art/battle_intro/fronts/erika.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 1,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Erika.png"
+  },
+  "FISHER": {
+   "file": "art/battle_intro/fronts/fisher.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 27,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/FISHERMAN.png"
+  },
+  "GAMBLER": {
+   "file": "art/battle_intro/fronts/gambler.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 6,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/GAMBLER.png"
+  },
+  "GENTLEMAN": {
+   "file": "art/battle_intro/fronts/gentleman.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 9,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/GENTLEMAN.png"
+  },
+  "GIOVANNI": {
+   "file": "art/battle_intro/fronts/giovanni.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 3,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Giovanni.png"
+  },
+  "GRUNTF": {
+   "file": "art/battle_intro/fronts/gruntf.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 10,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/TEAMROCKET_F.png"
+  },
+  "GRUNTM": {
+   "file": "art/battle_intro/fronts/gruntm.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 44,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/TEAMROCKET_M.png"
+  },
+  "GUITARIST": {
+   "file": "art/battle_intro/fronts/guitarist.png",
+   "native": [
+    64,
+    64
+   ],
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/guitarist_front_pic.png"
+  },
+  "HIKER": {
+   "file": "art/battle_intro/fronts/hiker.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 31,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/HIKER.png"
+  },
+  "JOHTO_BEAUTY": {
+   "file": "art/battle_intro/fronts/beauty.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 4,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/BEAUTY.png"
+  },
+  "JOHTO_BIKER": {
+   "file": "art/battle_intro/fronts/biker.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/BIKER.png"
+  },
+  "JOHTO_BIRD_KEEPER": {
+   "file": "art/battle_intro/fronts/bird_keeper.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 8,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/BIRDKEEPER.png"
+  },
+  "JOHTO_BLAINE": {
+   "file": "art/battle_intro/fronts/blaine.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Blaine.png"
+  },
+  "JOHTO_BROCK": {
+   "file": "art/battle_intro/fronts/brock.png",
+   "native": [
+    160,
+    160
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Brock.png"
+  },
+  "JOHTO_BRUNO": {
+   "file": "art/battle_intro/fronts/bruno.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/ELITEFOUR_Bruno.png"
+  },
+  "JOHTO_BUG_CATCHER": {
+   "file": "art/battle_intro/fronts/bug_catcher.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 7,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/BUGCATCHER.png"
+  },
+  "JOHTO_BURGLAR": {
+   "file": "art/battle_intro/fronts/burglar.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 2,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/BURGLAR.png"
+  },
+  "JOHTO_ERIKA": {
+   "file": "art/battle_intro/fronts/erika.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Erika.png"
+  },
+  "JOHTO_FISHER": {
+   "file": "art/battle_intro/fronts/fisher.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 9,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/FISHERMAN.png"
+  },
+  "JOHTO_GENTLEMAN": {
+   "file": "art/battle_intro/fronts/gentleman.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 2,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/GENTLEMAN.png"
+  },
+  "JOHTO_HIKER": {
+   "file": "art/battle_intro/fronts/hiker.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 11,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/HIKER.png"
+  },
+  "JOHTO_JUGGLER": {
+   "file": "art/battle_intro/fronts/juggler.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 1,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/JUGGLER.png"
+  },
+  "JOHTO_KOGA": {
+   "file": "art/battle_intro/fronts/koga.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Koga.png"
+  },
+  "JOHTO_LASS": {
+   "file": "art/battle_intro/fronts/lass.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 5,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LASS.png"
+  },
+  "JOHTO_LT_SURGE": {
+   "file": "art/battle_intro/fronts/lt_surge.png",
+   "native": [
+    160,
+    160
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Surge.png"
+  },
+  "JOHTO_MISTY": {
+   "file": "art/battle_intro/fronts/misty.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Misty.png"
+  },
+  "JOHTO_POKEMANIAC": {
+   "file": "art/battle_intro/fronts/pokemaniac.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 11,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/POKEMANIAC.png"
+  },
+  "JOHTO_RIVAL1": {
+   "file": "art/battle_intro/fronts/rival1.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/RIVAL1.png"
+  },
+  "JOHTO_RIVAL2": {
+   "file": "art/battle_intro/fronts/rival2.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/RIVAL2.png"
+  },
+  "JOHTO_SABRINA": {
+   "file": "art/battle_intro/fronts/sabrina.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Sabrina.png"
+  },
+  "JOHTO_SAILOR": {
+   "file": "art/battle_intro/fronts/sailor.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 6,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/SAILOR.png"
+  },
+  "JOHTO_SCIENTIST": {
+   "file": "art/battle_intro/fronts/scientist.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 5,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/SCIENTIST.png"
+  },
+  "JOHTO_SUPER_NERD": {
+   "file": "art/battle_intro/fronts/super_nerd.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 4,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/SUPERNERD.png"
+  },
+  "JOHTO_YOUNGSTER": {
+   "file": "art/battle_intro/fronts/youngster.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 6,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/YOUNGSTER.png"
+  },
+  "JUGGLER": {
+   "file": "art/battle_intro/fronts/juggler.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 10,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/JUGGLER.png"
+  },
+  "KOGA": {
+   "file": "art/battle_intro/fronts/koga.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 1,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Koga.png"
+  },
+  "LANCE": {
+   "file": "art/battle_intro/fronts/lance.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 1,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/ELITEFOUR_Lance.png"
+  },
+  "LASS": {
+   "file": "art/battle_intro/fronts/lass.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 27,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LASS.png"
+  },
+  "LORELEI": {
+   "file": "art/battle_intro/fronts/lorelei.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 1,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/ELITEFOUR_Lorelei.png"
+  },
+  "LT_SURGE": {
+   "file": "art/battle_intro/fronts/lt_surge.png",
+   "native": [
+    160,
+    160
+   ],
+   "note": "named character",
+   "placed_count": 1,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Surge.png"
+  },
+  "MISTY": {
+   "file": "art/battle_intro/fronts/misty.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 1,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Misty.png"
+  },
+  "OFFICER": {
+   "file": "art/battle_intro/fronts/officer.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/OFFICER.png"
+  },
+  "PICNICKER": {
+   "file": "art/battle_intro/fronts/picnicker.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 18,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/PICNICKER.png"
+  },
+  "POKEFANF": {
+   "file": "art/battle_intro/fronts/pokefanf.png",
+   "native": [
+    64,
+    64
+   ],
+   "placed_count": 5,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/pokefan_f_front_pic.png"
+  },
+  "POKEFANM": {
+   "file": "art/battle_intro/fronts/pokefanm.png",
+   "native": [
+    64,
+    64
+   ],
+   "placed_count": 15,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/pokefan_m_front_pic.png"
+  },
+  "POKEMANIAC": {
+   "file": "art/battle_intro/fronts/pokemaniac.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 19,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/POKEMANIAC.png"
+  },
+  "POKEMON_PROF": {
+   "file": "art/battle_intro/fronts/pokemon_prof.png",
+   "native": [
+    160,
+    160
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/PROFESSOR.png"
+  },
+  "PROF_OAK": {
+   "file": "art/battle_intro/fronts/prof_oak.png",
+   "native": [
+    160,
+    160
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/PROFESSOR.png"
+  },
+  "PSYCHIC_T": {
+   "file": "art/battle_intro/fronts/psychic_t.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "class variant: Johto-source id for the Psychic class; in the source games the class uses the male design",
+   "placed_count": 17,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/PSYCHIC_M.png"
+  },
+  "PSYCHIC_TR": {
+   "file": "art/battle_intro/fronts/psychic_tr.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "class variant: display name in data is literally PSYCHIC; same class, male design in source games",
+   "placed_count": 4,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/PSYCHIC_M.png"
+  },
+  "RED": {
+   "file": "art/battle_intro/fronts/red.png",
+   "native": [
+    64,
+    64
+   ],
+   "placed_count": 0,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/red_front_pic.png"
+  },
+  "RIVAL1": {
+   "file": "art/battle_intro/fronts/rival1.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 2,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/RIVAL1.png"
+  },
+  "RIVAL2": {
+   "file": "art/battle_intro/fronts/rival2.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/RIVAL2.png"
+  },
+  "RIVAL3": {
+   "file": "art/battle_intro/fronts/rival3.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "named character",
+   "placed_count": 0,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/rival_late_front_pic.png"
+  },
+  "ROCKER": {
+   "file": "art/battle_intro/fronts/rocker.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 2,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/ROCKER.png"
+  },
+  "ROCKET": {
+   "file": "art/battle_intro/fronts/rocket.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 40,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/TEAMROCKET_M.png"
+  },
+  "SABRINA": {
+   "file": "art/battle_intro/fronts/sabrina.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "named character",
+   "placed_count": 1,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/LEADER_Sabrina.png"
+  },
+  "SAILOR": {
+   "file": "art/battle_intro/fronts/sailor.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 17,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/SAILOR.png"
+  },
+  "SCHOOLBOY": {
+   "file": "art/battle_intro/fronts/schoolboy.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 15,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/SCHOOLBOY.png"
+  },
+  "SCIENTIST": {
+   "file": "art/battle_intro/fronts/scientist.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 18,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/SCIENTIST.png"
+  },
+  "SUPER_NERD": {
+   "file": "art/battle_intro/fronts/super_nerd.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 17,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/SUPERNERD.png"
+  },
+  "SWIMMER": {
+   "file": "art/battle_intro/fronts/swimmer.png",
+   "native": [
+    128,
+    128
+   ],
+   "note": "class variant: Gen 1 source class with no gender split; the Gen 1 design is the male swimmer",
+   "placed_count": 15,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/SWIMMER_M.png"
+  },
+  "SWIMMERF": {
+   "file": "art/battle_intro/fronts/swimmerf.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 20,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/SWIMMER_F.png"
+  },
+  "SWIMMERM": {
+   "file": "art/battle_intro/fronts/swimmerm.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 20,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/SWIMMER_M.png"
+  },
+  "TAMER": {
+   "file": "art/battle_intro/fronts/tamer.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 5,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/TAMER.png"
+  },
+  "TEACHER": {
+   "file": "art/battle_intro/fronts/teacher.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 3,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/trainerTEACHER.png"
+  },
+  "TWINS": {
+   "file": "art/battle_intro/fronts/twins.png",
+   "native": [
+    128,
+    128
+   ],
+   "placed_count": 16,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/TWINS.png"
+  },
+  "YOUNGSTER": {
+   "file": "art/battle_intro/fronts/youngster.png",
+   "native": [
+    160,
+    160
+   ],
+   "placed_count": 22,
+   "source": "h",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/YOUNGSTER.png"
+  },
+  "BOARDER": {
+   "file": "art/battle_intro/fronts/boarder.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_BOARDER (trainer class 115), NARC a/0/5/8 group 115, cell 0 of 1",
+   "placed_count": 6,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "BUGSY": {
+   "file": "art/battle_intro/fronts/bugsy.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_LEADER_BUGSY (trainer class 67), NARC a/0/5/8 group 67, cell 0 of 3",
+   "placed_count": 0,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "CHUCK": {
+   "file": "art/battle_intro/fronts/chuck.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_LEADER_CHUCK (trainer class 75), NARC a/0/5/8 group 75, cell 0 of 3",
+   "placed_count": 0,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "CLAIR": {
+   "file": "art/battle_intro/fronts/clair.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_LEADER_CLAIR (trainer class 76), NARC a/0/5/8 group 76, cell 0 of 3",
+   "placed_count": 0,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "EXECUTIVEF": {
+   "file": "art/battle_intro/fronts/executivef.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_EXECUTIVE_ARIANA (trainer class 114), NARC a/0/5/8 group 114, cell 0 of 1; PUW EXECUTIVEF maps to the named female executive, Ariana",
+   "placed_count": 2,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "EXECUTIVEM": {
+   "file": "art/battle_intro/fronts/executivem.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_EXECUTIVE_ARCHER (trainer class 116), NARC a/0/5/8 group 116, cell 0 of 1; PUW EXECUTIVEM maps to Archer, the senior male executive (other male executives: Proton 117, Petrel 118)",
+   "placed_count": 2,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "FALKNER": {
+   "file": "art/battle_intro/fronts/falkner.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_LEADER_FALKNER (trainer class 66), NARC a/0/5/8 group 66, cell 0 of 3",
+   "placed_count": 0,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "FIREBREATHER": {
+   "file": "art/battle_intro/fronts/firebreather.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_FIREBREATHER (trainer class 64), NARC a/0/5/8 group 64, cell 0 of 1",
+   "placed_count": 9,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "JANINE": {
+   "file": "art/battle_intro/fronts/janine.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_LEADER_JANINE (trainer class 106), NARC a/0/5/8 group 106, cell 0 of 3",
+   "placed_count": 0,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "JASMINE": {
+   "file": "art/battle_intro/fronts/jasmine.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_LEADER_JASMINE (trainer class 74), NARC a/0/5/8 group 74, cell 0 of 3",
+   "placed_count": 0,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "JR_TRAINER_F": {
+   "file": "art/battle_intro/fronts/jr_trainer_f.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_PICNICKER (trainer class 5), NARC a/0/5/8 group 5, cell 0 of 1; GSC Jr. Trainer (female) was renamed Picnicker in HGSS; extracted as the documented rename-successor",
+   "placed_count": 23,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "JR_TRAINER_M": {
+   "file": "art/battle_intro/fronts/jr_trainer_m.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_CAMPER (trainer class 4), NARC a/0/5/8 group 4, cell 0 of 1; GSC Jr. Trainer (male) was renamed Camper in HGSS; extracted as the documented rename-successor",
+   "placed_count": 9,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "KAREN": {
+   "file": "art/battle_intro/fronts/karen.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_ELITE_FOUR_KAREN (trainer class 88), NARC a/0/5/8 group 88, cell 0 of 3",
+   "placed_count": 0,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "KIMONO_GIRL": {
+   "file": "art/battle_intro/fronts/kimono_girl.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_KIMONO_GIRL (trainer class 47), NARC a/0/5/8 group 47, cell 0 of 1",
+   "placed_count": 10,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "MEDIUM": {
+   "file": "art/battle_intro/fronts/medium.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_MEDIUM (trainer class 82), NARC a/0/5/8 group 82, cell 0 of 1",
+   "placed_count": 6,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "MORTY": {
+   "file": "art/battle_intro/fronts/morty.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_LEADER_MORTY (trainer class 72), NARC a/0/5/8 group 72, cell 0 of 3",
+   "placed_count": 0,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "MYSTICALMAN": {
+   "file": "art/battle_intro/fronts/mysticalman.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_MYSTERY_MAN (trainer class 120), NARC a/0/5/8 group 120, cell 0 of 1; PUW MYSTICALMAN is Eusine, HGSS TRAINERCLASS_MYSTERY_MAN",
+   "placed_count": 0,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "PRYCE": {
+   "file": "art/battle_intro/fronts/pryce.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_LEADER_PRYCE (trainer class 73), NARC a/0/5/8 group 73, cell 0 of 3",
+   "placed_count": 0,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "SAGE": {
+   "file": "art/battle_intro/fronts/sage.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_SAGE (trainer class 79), NARC a/0/5/8 group 79, cell 0 of 1",
+   "placed_count": 22,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "SKIER": {
+   "file": "art/battle_intro/fronts/skier.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_SKIER (trainer class 56), NARC a/0/5/8 group 56, cell 0 of 1",
+   "placed_count": 4,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "WHITNEY": {
+   "file": "art/battle_intro/fronts/whitney.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_LEADER_WHITNEY (trainer class 70), NARC a/0/5/8 group 70, cell 0 of 3",
+   "placed_count": 0,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "WILL": {
+   "file": "art/battle_intro/fronts/will.png",
+   "native": [
+    80,
+    80
+   ],
+   "note": "HGSS TRAINERCLASS_ELITE_FOUR_WILL (trainer class 87), NARC a/0/5/8 group 87, cell 0 of 3",
+   "placed_count": 0,
+   "source": "hgss",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/code_vault/src/pokeheartgold/files/a/0/5/8"
+  },
+  "SEVII_AROMA_LADY": {
+   "file": "art/battle_intro/fronts/sevii_aroma_lady.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_AROMA_LADY (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/aroma_lady_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 4,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/aroma_lady_front_pic.png"
+  },
+  "SEVII_BIRD_KEEPER": {
+   "file": "art/battle_intro/fronts/sevii_bird_keeper.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_BIRD_KEEPER (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/bird_keeper_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 3,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/bird_keeper_front_pic.png"
+  },
+  "SEVII_BLACK_BELT": {
+   "file": "art/battle_intro/fronts/sevii_black_belt.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_BLACK_BELT (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/black_belt_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/black_belt_front_pic.png"
+  },
+  "SEVII_BUG_CATCHER": {
+   "file": "art/battle_intro/fronts/sevii_bug_catcher.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_BUG_CATCHER (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/bug_catcher_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 3,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/bug_catcher_front_pic.png"
+  },
+  "SEVII_CAMPER": {
+   "file": "art/battle_intro/fronts/sevii_camper.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_CAMPER (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/camper_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/camper_front_pic.png"
+  },
+  "SEVII_COOLTRAINER_F": {
+   "file": "art/battle_intro/fronts/sevii_cooltrainer_f.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_COOLTRAINER_F (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/cool_trainer_f_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent; gender-split class SEVII_COOLTRAINER: select per placement via sevii_trainer_identities.json trainer_pic",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/cool_trainer_f_front_pic.png"
+  },
+  "SEVII_COOLTRAINER_M": {
+   "file": "art/battle_intro/fronts/sevii_cooltrainer_m.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_COOLTRAINER_M (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/cool_trainer_m_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent; gender-split class SEVII_COOLTRAINER: select per placement via sevii_trainer_identities.json trainer_pic",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/cool_trainer_m_front_pic.png"
+  },
+  "SEVII_COOL_COUPLE": {
+   "file": "art/battle_intro/fronts/sevii_cool_couple.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_COOL_COUPLE (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/cool_couple_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/cool_couple_front_pic.png"
+  },
+  "SEVII_CRUSH_GIRL": {
+   "file": "art/battle_intro/fronts/sevii_crush_girl.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_CRUSH_GIRL (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/crush_girl_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 4,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/crush_girl_front_pic.png"
+  },
+  "SEVII_CRUSH_KIN": {
+   "file": "art/battle_intro/fronts/sevii_crush_kin.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_CRUSH_KIN (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/crush_kin_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/crush_kin_front_pic.png"
+  },
+  "SEVII_FISHERMAN": {
+   "file": "art/battle_intro/fronts/sevii_fisherman.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_FISHERMAN (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/fisherman_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/fisherman_front_pic.png"
+  },
+  "SEVII_GENTLEMAN": {
+   "file": "art/battle_intro/fronts/sevii_gentleman.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_GENTLEMAN (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/gentleman_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 1,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/gentleman_front_pic.png"
+  },
+  "SEVII_HIKER": {
+   "file": "art/battle_intro/fronts/sevii_hiker.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_HIKER (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/hiker_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/hiker_front_pic.png"
+  },
+  "SEVII_JUGGLER": {
+   "file": "art/battle_intro/fronts/sevii_juggler.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_JUGGLER (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/juggler_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/juggler_front_pic.png"
+  },
+  "SEVII_LADY": {
+   "file": "art/battle_intro/fronts/sevii_lady.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_LADY (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/lady_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/lady_front_pic.png"
+  },
+  "SEVII_LASS": {
+   "file": "art/battle_intro/fronts/sevii_lass.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_LASS (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/lass_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/lass_front_pic.png"
+  },
+  "SEVII_PAINTER": {
+   "file": "art/battle_intro/fronts/sevii_painter.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_PAINTER (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/painter_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 4,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/painter_front_pic.png"
+  },
+  "SEVII_PICNICKER": {
+   "file": "art/battle_intro/fronts/sevii_picnicker.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_PICNICKER (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/picnicker_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/picnicker_front_pic.png"
+  },
+  "SEVII_PKMN_BREEDER": {
+   "file": "art/battle_intro/fronts/sevii_pkmn_breeder.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_POKEMON_BREEDER (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/pokemon_breeder_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 3,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/pokemon_breeder_front_pic.png"
+  },
+  "SEVII_PKMN_RANGER_F": {
+   "file": "art/battle_intro/fronts/sevii_pkmn_ranger_f.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_POKEMON_RANGER_F (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/pokemon_ranger_f_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent; gender-split class SEVII_PKMN_RANGER: select per placement via sevii_trainer_identities.json trainer_pic",
+   "placed_count": 6,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/pokemon_ranger_f_front_pic.png"
+  },
+  "SEVII_PKMN_RANGER_M": {
+   "file": "art/battle_intro/fronts/sevii_pkmn_ranger_m.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_POKEMON_RANGER_M (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/pokemon_ranger_m_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent; gender-split class SEVII_PKMN_RANGER: select per placement via sevii_trainer_identities.json trainer_pic",
+   "placed_count": 6,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/pokemon_ranger_m_front_pic.png"
+  },
+  "SEVII_POKEMANIAC": {
+   "file": "art/battle_intro/fronts/sevii_pokemaniac.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_POKEMANIAC (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/pokemaniac_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 1,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/pokemaniac_front_pic.png"
+  },
+  "SEVII_PSYCHIC_F": {
+   "file": "art/battle_intro/fronts/sevii_psychic_f.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_PSYCHIC_F (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/psychic_f_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent; gender-split class SEVII_PSYCHIC: select per placement via sevii_trainer_identities.json trainer_pic",
+   "placed_count": 4,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/psychic_f_front_pic.png"
+  },
+  "SEVII_PSYCHIC_M": {
+   "file": "art/battle_intro/fronts/sevii_psychic_m.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_PSYCHIC_M (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/psychic_m_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent; gender-split class SEVII_PSYCHIC: select per placement via sevii_trainer_identities.json trainer_pic",
+   "placed_count": 4,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/psychic_m_front_pic.png"
+  },
+  "SEVII_RUIN_MANIAC": {
+   "file": "art/battle_intro/fronts/sevii_ruin_maniac.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_RUIN_MANIAC (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/ruin_maniac_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 7,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/ruin_maniac_front_pic.png"
+  },
+  "SEVII_SCIENTIST": {
+   "file": "art/battle_intro/fronts/sevii_scientist.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_SCIENTIST (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/scientist_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 1,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/scientist_front_pic.png"
+  },
+  "SEVII_SIS_AND_BRO": {
+   "file": "art/battle_intro/fronts/sevii_sis_and_bro.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_SIS_AND_BRO (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/sis_and_bro_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/sis_and_bro_front_pic.png"
+  },
+  "SEVII_SWIMMER_F": {
+   "file": "art/battle_intro/fronts/sevii_swimmer_f.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_SWIMMER_F (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/swimmer_f_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 6,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/swimmer_f_front_pic.png"
+  },
+  "SEVII_SWIMMER_M": {
+   "file": "art/battle_intro/fronts/sevii_swimmer_m.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_SWIMMER_M (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/swimmer_m_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 5,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/swimmer_m_front_pic.png"
+  },
+  "SEVII_TAMER": {
+   "file": "art/battle_intro/fronts/sevii_tamer.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_TAMER (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/tamer_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 1,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/tamer_front_pic.png"
+  },
+  "SEVII_TEAM_ROCKET_F": {
+   "file": "art/battle_intro/fronts/sevii_team_rocket_f.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_ROCKET_GRUNT_F (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/rocket_grunt_f_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent; gender-split class SEVII_TEAM_ROCKET: select per placement via sevii_trainer_identities.json trainer_pic",
+   "placed_count": 11,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/rocket_grunt_f_front_pic.png"
+  },
+  "SEVII_TEAM_ROCKET_M": {
+   "file": "art/battle_intro/fronts/sevii_team_rocket_m.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_ROCKET_GRUNT_M (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/rocket_grunt_m_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent; gender-split class SEVII_TEAM_ROCKET: select per placement via sevii_trainer_identities.json trainer_pic",
+   "placed_count": 11,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/rocket_grunt_m_front_pic.png"
+  },
+  "SEVII_TUBER": {
+   "file": "art/battle_intro/fronts/sevii_tuber.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_TUBER_F (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/tuber_f_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/tuber_f_front_pic.png"
+  },
+  "SEVII_TWINS": {
+   "file": "art/battle_intro/fronts/sevii_twins.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_TWINS (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/twins_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 4,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/twins_front_pic.png"
+  },
+  "SEVII_YOUNGSTER": {
+   "file": "art/battle_intro/fronts/sevii_youngster.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_YOUNGSTER (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/youngster_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 3,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/youngster_front_pic.png"
+  },
+  "SEVII_YOUNG_COUPLE": {
+   "file": "art/battle_intro/fronts/sevii_young_couple.png",
+   "native": [
+    64,
+    64
+   ],
+   "note": "FRLG TRAINER_PIC_YOUNG_COUPLE (pokefirered gTrainerFrontPic table -> graphics/trainers/front_pics/young_couple_front_pic.png), native 64x64 indexed converted to RGBA, palette index 0 transparent",
+   "placed_count": 2,
+   "source": "frlg",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/front_pics/young_couple_front_pic.png"
+  }
+ },
+ "protagonist_backs": {
+  "custom_female": "custom_female",
+  "custom_femboy": "custom_femboy",
+  "custom_futanari": "custom_futanari",
+  "custom_male": "custom_male",
+  "riley": "riley",
+  "tasha": "tasha"
+ },
+ "protagonist_fronts": {
+  "custom_female": "characters/protagonists/custom/custom_female_battle.png",
+  "custom_femboy": "characters/protagonists/custom/custom_femboy_battle.png",
+  "custom_futanari": "characters/protagonists/custom/custom_futanari_battle.png",
+  "custom_male": "characters/protagonists/custom/custom_male_battle.png",
+  "riley": "characters/protagonists/riley/riley_v2_battle.png",
+  "tasha": "characters/protagonists/riley/tasha_v2_battle.png"
+ },
+ "strips": {
+  "brendan": {
+   "file": "art/battle_intro/backs/brendan.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "release_frame": 2,
+   "source": "Pokemon H staged CLEAN-KEEP, Essentials throw strip",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/POKEMONTRAINER_Brendan_back.png"
+  },
+  "brendan_frlg": {
+   "file": "art/battle_intro/backs/brendan_frlg.png",
+   "fps": 10,
+   "frame_h": 64,
+   "frame_w": 64,
+   "frames": 4,
+   "native": [
+    64,
+    256
+   ],
+   "orientation": "vertical",
+   "release_frame": 2,
+   "source": "pret/pokefirered back_pics (palette PNG, 64x64 frames)",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/back_pics/ruby_sapphire_brendan_back_pic.png"
+  },
+  "leaf": {
+   "file": "art/battle_intro/backs/leaf.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "release_frame": 2,
+   "source": "Pokemon H staged CLEAN-KEEP, Essentials throw strip",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/POKEMONTRAINER_Leaf_back.png"
+  },
+  "leaf_frlg": {
+   "file": "art/battle_intro/backs/leaf_frlg.png",
+   "fps": 10,
+   "frame_h": 64,
+   "frame_w": 64,
+   "frames": 5,
+   "native": [
+    64,
+    320
+   ],
+   "orientation": "vertical",
+   "release_frame": 2,
+   "source": "pret/pokefirered back_pics (palette PNG, 64x64 frames)",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/back_pics/leaf_back_pic.png"
+  },
+  "may": {
+   "file": "art/battle_intro/backs/may.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "release_frame": 2,
+   "source": "Pokemon H staged CLEAN-KEEP, Essentials throw strip",
+   "source_file": "/home/hatch/workspace/goals/pok-mon-ultimate-world-sprint-006-emberfox-walk/hidden_files/dropbox_riptor_intake/pokemon_h/staged/CLEAN-KEEP/Graphics/Trainers/POKEMONTRAINER_May_back.png"
+  },
+  "may_frlg": {
+   "file": "art/battle_intro/backs/may_frlg.png",
+   "fps": 10,
+   "frame_h": 64,
+   "frame_w": 64,
+   "frames": 4,
+   "native": [
+    64,
+    256
+   ],
+   "orientation": "vertical",
+   "release_frame": 2,
+   "source": "pret/pokefirered back_pics (palette PNG, 64x64 frames)",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/back_pics/ruby_sapphire_may_back_pic.png"
+  },
+  "red": {
+   "file": "art/battle_intro/enemy/red.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/red.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "red_frlg": {
+   "file": "art/battle_intro/backs/red_frlg.png",
+   "fps": 10,
+   "frame_h": 64,
+   "frame_w": 64,
+   "frames": 5,
+   "native": [
+    64,
+    320
+   ],
+   "orientation": "vertical",
+   "release_frame": 2,
+   "source": "pret/pokefirered back_pics (palette PNG, 64x64 frames)",
+   "source_file": "/home/hatch/workspace/puw_world/src/pokefirered/graphics/trainers/back_pics/red_back_pic.png"
+  },
+  "custom_female": {
+   "file": "art/battle_intro/backs/custom_female.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "release_frame": 2,
+   "source": "PUW in-house production from bound creator preset master sheet back view (Neon art), protagonist_throw_strips production"
+  },
+  "custom_femboy": {
+   "file": "art/battle_intro/backs/custom_femboy.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "release_frame": 2,
+   "source": "PUW in-house production from bound creator preset master sheet back view (Neon art), protagonist_throw_strips production"
+  },
+  "custom_futanari": {
+   "file": "art/battle_intro/backs/custom_futanari.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "release_frame": 2,
+   "source": "PUW in-house production from bound creator preset master sheet back view (Neon art), protagonist_throw_strips production"
+  },
+  "custom_male": {
+   "file": "art/battle_intro/backs/custom_male.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "release_frame": 2,
+   "source": "PUW in-house production from bound creator preset master sheet back view (Neon art), protagonist_throw_strips production"
+  },
+  "riley": {
+   "file": "art/battle_intro/backs/riley.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "release_frame": 2,
+   "source": "PUW in-house production from bound protagonist master sheet back view (Neon art), protagonist_throw_strips production"
+  },
+  "tasha": {
+   "file": "art/battle_intro/backs/tasha.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "release_frame": 2,
+   "source": "PUW in-house production from bound protagonist master sheet back view (Neon art), protagonist_throw_strips production"
+  },
+  "agatha": {
+   "file": "art/battle_intro/enemy/agatha.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/agatha.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "beauty": {
+   "file": "art/battle_intro/enemy/beauty.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/beauty.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "biker": {
+   "file": "art/battle_intro/enemy/biker.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/biker.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "blackbelt": {
+   "file": "art/battle_intro/enemy/blackbelt.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/blackbelt.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "blackbelt_t": {
+   "file": "art/battle_intro/enemy/blackbelt_t.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/blackbelt_t.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "blaine": {
+   "file": "art/battle_intro/enemy/blaine.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/blaine.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "blue": {
+   "file": "art/battle_intro/enemy/blue.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/blue.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "boarder": {
+   "file": "art/battle_intro/enemy/boarder.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/boarder.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "brock": {
+   "file": "art/battle_intro/enemy/brock.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/brock.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "burglar": {
+   "file": "art/battle_intro/enemy/burglar.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/burglar.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "camper": {
+   "file": "art/battle_intro/enemy/camper.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/camper.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "champion": {
+   "file": "art/battle_intro/enemy/champion.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/champion.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "chuck": {
+   "file": "art/battle_intro/enemy/chuck.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/chuck.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "clair": {
+   "file": "art/battle_intro/enemy/clair.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/clair.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "cooltrainer_f": {
+   "file": "art/battle_intro/enemy/cooltrainer_f.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/cooltrainer_f.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "cooltrainerf": {
+   "file": "art/battle_intro/enemy/cooltrainerf.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/cooltrainerf.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "engineer": {
+   "file": "art/battle_intro/enemy/engineer.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/engineer.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "executivef": {
+   "file": "art/battle_intro/enemy/executivef.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/executivef.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "executivem": {
+   "file": "art/battle_intro/enemy/executivem.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/executivem.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "falkner": {
+   "file": "art/battle_intro/enemy/falkner.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/falkner.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "firebreather": {
+   "file": "art/battle_intro/enemy/firebreather.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/firebreather.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "gentleman": {
+   "file": "art/battle_intro/enemy/gentleman.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/gentleman.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "giovanni": {
+   "file": "art/battle_intro/enemy/giovanni.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/giovanni.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "gruntf": {
+   "file": "art/battle_intro/enemy/gruntf.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/gruntf.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "gruntm": {
+   "file": "art/battle_intro/enemy/gruntm.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/gruntm.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "janine": {
+   "file": "art/battle_intro/enemy/janine.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/janine.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_beauty": {
+   "file": "art/battle_intro/enemy/johto_beauty.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/beauty.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_biker": {
+   "file": "art/battle_intro/enemy/johto_biker.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/biker.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_blaine": {
+   "file": "art/battle_intro/enemy/johto_blaine.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/blaine.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_brock": {
+   "file": "art/battle_intro/enemy/johto_brock.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/brock.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_burglar": {
+   "file": "art/battle_intro/enemy/johto_burglar.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/burglar.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_gentleman": {
+   "file": "art/battle_intro/enemy/johto_gentleman.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/gentleman.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_juggler": {
+   "file": "art/battle_intro/enemy/johto_juggler.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/juggler.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_koga": {
+   "file": "art/battle_intro/enemy/johto_koga.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/koga.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_lass": {
+   "file": "art/battle_intro/enemy/johto_lass.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/lass.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_lt_surge": {
+   "file": "art/battle_intro/enemy/johto_lt_surge.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/lt_surge.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_misty": {
+   "file": "art/battle_intro/enemy/johto_misty.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/misty.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_pokemaniac": {
+   "file": "art/battle_intro/enemy/johto_pokemaniac.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/pokemaniac.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_rival1": {
+   "file": "art/battle_intro/enemy/johto_rival1.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/rival1.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_rival2": {
+   "file": "art/battle_intro/enemy/johto_rival2.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/rival2.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_sailor": {
+   "file": "art/battle_intro/enemy/johto_sailor.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/sailor.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_scientist": {
+   "file": "art/battle_intro/enemy/johto_scientist.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/scientist.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_super_nerd": {
+   "file": "art/battle_intro/enemy/johto_super_nerd.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/super_nerd.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "johto_youngster": {
+   "file": "art/battle_intro/enemy/johto_youngster.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/youngster.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "jr_trainer_f": {
+   "file": "art/battle_intro/enemy/jr_trainer_f.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/jr_trainer_f.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "jr_trainer_m": {
+   "file": "art/battle_intro/enemy/jr_trainer_m.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/jr_trainer_m.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "juggler": {
+   "file": "art/battle_intro/enemy/juggler.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/juggler.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "karen": {
+   "file": "art/battle_intro/enemy/karen.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/karen.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "kimono_girl": {
+   "file": "art/battle_intro/enemy/kimono_girl.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/kimono_girl.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "koga": {
+   "file": "art/battle_intro/enemy/koga.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/koga.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "lance": {
+   "file": "art/battle_intro/enemy/lance.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/lance.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "lass": {
+   "file": "art/battle_intro/enemy/lass.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/lass.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "lorelei": {
+   "file": "art/battle_intro/enemy/lorelei.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/lorelei.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "lt_surge": {
+   "file": "art/battle_intro/enemy/lt_surge.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/lt_surge.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "misty": {
+   "file": "art/battle_intro/enemy/misty.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/misty.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "morty": {
+   "file": "art/battle_intro/enemy/morty.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/morty.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "mysticalman": {
+   "file": "art/battle_intro/enemy/mysticalman.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/mysticalman.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "picnicker": {
+   "file": "art/battle_intro/enemy/picnicker.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/picnicker.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "pokefanf": {
+   "file": "art/battle_intro/enemy/pokefanf.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/pokefanf.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "pokemaniac": {
+   "file": "art/battle_intro/enemy/pokemaniac.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/pokemaniac.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "pokemon_prof": {
+   "file": "art/battle_intro/enemy/pokemon_prof.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/pokemon_prof.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "prof_oak": {
+   "file": "art/battle_intro/enemy/prof_oak.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/prof_oak.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "pryce": {
+   "file": "art/battle_intro/enemy/pryce.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/pryce.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "rival1": {
+   "file": "art/battle_intro/enemy/rival1.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/rival1.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "rival2": {
+   "file": "art/battle_intro/enemy/rival2.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/rival2.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "rival3": {
+   "file": "art/battle_intro/enemy/rival3.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/rival3.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "rocket": {
+   "file": "art/battle_intro/enemy/rocket.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/rocket.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "sage": {
+   "file": "art/battle_intro/enemy/sage.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/sage.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "sailor": {
+   "file": "art/battle_intro/enemy/sailor.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/sailor.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "schoolboy": {
+   "file": "art/battle_intro/enemy/schoolboy.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/schoolboy.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "scientist": {
+   "file": "art/battle_intro/enemy/scientist.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/scientist.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "super_nerd": {
+   "file": "art/battle_intro/enemy/super_nerd.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/super_nerd.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "swimmer": {
+   "file": "art/battle_intro/enemy/swimmer.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/swimmer.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "swimmerm": {
+   "file": "art/battle_intro/enemy/swimmerm.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/swimmerm.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "teacher": {
+   "file": "art/battle_intro/enemy/teacher.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/teacher.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "whitney": {
+   "file": "art/battle_intro/enemy/whitney.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/whitney.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "will": {
+   "file": "art/battle_intro/enemy/will.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/will.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  },
+  "youngster": {
+   "file": "art/battle_intro/enemy/youngster.png",
+   "fps": 10,
+   "frame_h": 160,
+   "frame_w": 160,
+   "frames": 5,
+   "native": [
+    800,
+    160
+   ],
+   "orientation": "horizontal",
+   "produced_from": "art/battle_intro/fronts/youngster.png",
+   "release_frame": 2,
+   "source": "PUW in-house production from the class's own bound front (enemy_throw production); no held source contains an enemy throw animation (gap G-VS1)"
+  }
+ },
+ "unresolved_fronts": {
+  "CAL": {
+   "placed_count": 0,
+   "reason": "no held front for this class"
+  },
+  "CHIEF": {
+   "placed_count": 0,
+   "reason": "no held front for this class"
+  },
+  "UNUSED_JUGGLER": {
+   "placed_count": 0,
+   "reason": "no held front for this class"
+  }
+ },
+ "version": 1,
+ "vs_eligible_kinds": [
+  "gym",
+  "elite_four",
+  "rival",
+  "champion"
+ ],
+ "enemy_fronts_set": {
+  "AGATHA": "agatha",
+  "BEAUTY": "beauty",
+  "BIKER": "biker",
+  "BLACKBELT": "blackbelt",
+  "BLACKBELT_T": "blackbelt_t",
+  "BLAINE": "blaine",
+  "BLUE": "blue",
+  "BOARDER": "boarder",
+  "BROCK": "brock",
+  "BURGLAR": "burglar",
+  "CAMPER": "camper",
+  "CHAMPION": "champion",
+  "CHUCK": "chuck",
+  "CLAIR": "clair",
+  "COOLTRAINERF": "cooltrainerf",
+  "COOLTRAINER_F": "cooltrainer_f",
+  "ENGINEER": "engineer",
+  "EXECUTIVEF": "executivef",
+  "EXECUTIVEM": "executivem",
+  "FALKNER": "falkner",
+  "FIREBREATHER": "firebreather",
+  "GENTLEMAN": "gentleman",
+  "GIOVANNI": "giovanni",
+  "GRUNTF": "gruntf",
+  "GRUNTM": "gruntm",
+  "JANINE": "janine",
+  "JOHTO_BEAUTY": "johto_beauty",
+  "JOHTO_BIKER": "johto_biker",
+  "JOHTO_BLAINE": "johto_blaine",
+  "JOHTO_BROCK": "johto_brock",
+  "JOHTO_BURGLAR": "johto_burglar",
+  "JOHTO_GENTLEMAN": "johto_gentleman",
+  "JOHTO_JUGGLER": "johto_juggler",
+  "JOHTO_KOGA": "johto_koga",
+  "JOHTO_LASS": "johto_lass",
+  "JOHTO_LT_SURGE": "johto_lt_surge",
+  "JOHTO_MISTY": "johto_misty",
+  "JOHTO_POKEMANIAC": "johto_pokemaniac",
+  "JOHTO_RIVAL1": "johto_rival1",
+  "JOHTO_RIVAL2": "johto_rival2",
+  "JOHTO_SAILOR": "johto_sailor",
+  "JOHTO_SCIENTIST": "johto_scientist",
+  "JOHTO_SUPER_NERD": "johto_super_nerd",
+  "JOHTO_YOUNGSTER": "johto_youngster",
+  "JR_TRAINER_F": "jr_trainer_f",
+  "JR_TRAINER_M": "jr_trainer_m",
+  "JUGGLER": "juggler",
+  "KAREN": "karen",
+  "KIMONO_GIRL": "kimono_girl",
+  "KOGA": "koga",
+  "LANCE": "lance",
+  "LASS": "lass",
+  "LORELEI": "lorelei",
+  "LT_SURGE": "lt_surge",
+  "MISTY": "misty",
+  "MORTY": "morty",
+  "MYSTICALMAN": "mysticalman",
+  "PICNICKER": "picnicker",
+  "POKEFANF": "pokefanf",
+  "POKEMANIAC": "pokemaniac",
+  "POKEMON_PROF": "pokemon_prof",
+  "PROF_OAK": "prof_oak",
+  "PRYCE": "pryce",
+  "RED": "red",
+  "RIVAL1": "rival1",
+  "RIVAL2": "rival2",
+  "RIVAL3": "rival3",
+  "ROCKET": "rocket",
+  "SAGE": "sage",
+  "SAILOR": "sailor",
+  "SCHOOLBOY": "schoolboy",
+  "SCIENTIST": "scientist",
+  "SUPER_NERD": "super_nerd",
+  "SWIMMER": "swimmer",
+  "SWIMMERM": "swimmerm",
+  "TEACHER": "teacher",
+  "WHITNEY": "whitney",
+  "WILL": "will",
+  "YOUNGSTER": "youngster"
+ }
+}

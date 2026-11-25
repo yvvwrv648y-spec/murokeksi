@@ -1,0 +1,208 @@
+{
+ "provenance": "Documentation-derived transcription (rotation 7 precedent, cf. rotation 6): Bulbapedia pages read as page text 2026-11-23/24, transcribed into in-house JSON. NOT game data / NOT ROM extraction.",
+ "source_pages": [
+  "Bulbapedia 'Styler Status' (Power-Up Data table)",
+  "Serebii Ranger 2 Capture Cards page (cross-check: 47 Capture Cards total = 17 types x2 defense + Supreme + 12 styler-enhancement cards)"
+ ],
+ "region": "almia",
+ "count_entries": 25,
+ "power_ups": [
+  {
+   "power_up": "Normal Defense",
+   "effect": "Reduces damage from Normal attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    5,
+    31
+   ]
+  },
+  {
+   "power_up": "Fire Defense",
+   "effect": "Reduces damage from Fire attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    13,
+    30
+   ]
+  },
+  {
+   "power_up": "Water Defense",
+   "effect": "Reduces damage from Water attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    2,
+    27
+   ]
+  },
+  {
+   "power_up": "Electric Defense",
+   "effect": "Reduces damage from Electric attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    3,
+    43
+   ]
+  },
+  {
+   "power_up": "Grass Defense",
+   "effect": "Reduces damage from Grass attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    1,
+    33
+   ]
+  },
+  {
+   "power_up": "Ice Defense",
+   "effect": "Reduces damage from Ice attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    22,
+    56
+   ]
+  },
+  {
+   "power_up": "Fighting Defense",
+   "effect": "Reduces damage from Fighting attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    26,
+    45
+   ]
+  },
+  {
+   "power_up": "Poison Defense",
+   "effect": "Reduces damage from Poison attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    17,
+    46
+   ]
+  },
+  {
+   "power_up": "Ground Defense",
+   "effect": "Reduces damage from Ground attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    12,
+    57
+   ]
+  },
+  {
+   "power_up": "Flying Defense",
+   "effect": "Reduces damage from Flying attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    10,
+    44
+   ]
+  },
+  {
+   "power_up": "Psychic Defense",
+   "effect": "Reduces damage from Psychic attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    20,
+    39
+   ]
+  },
+  {
+   "power_up": "Bug Defense",
+   "effect": "Reduces damage from Bug attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    6,
+    42
+   ]
+  },
+  {
+   "power_up": "Rock Defense",
+   "effect": "Reduces damage from Rock attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    11,
+    61
+   ]
+  },
+  {
+   "power_up": "Ghost Defense",
+   "effect": "Reduces damage from Ghost attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    16,
+    38
+   ]
+  },
+  {
+   "power_up": "Dragon Defense",
+   "effect": "Reduces damage from Dragon attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    25,
+    55
+   ]
+  },
+  {
+   "power_up": "Dark Defense",
+   "effect": "Reduces damage from Dark attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    7,
+    37
+   ]
+  },
+  {
+   "power_up": "Steel Defense",
+   "effect": "Reduces damage from Steel attacks by 3 points (each of the two copies; stacked total -6, plus Supreme Defense -1 = -7 documented maximum)",
+   "quest_numbers": [
+    9,
+    58
+   ]
+  },
+  {
+   "power_up": "Supreme Defense",
+   "effect": "Reduces all damage by 1 point",
+   "quest_numbers": [
+    54
+   ]
+  },
+  {
+   "power_up": "Time Assist",
+   "effect": "Lengthens the duration of Poke Assists (two copies, quests 18 and 41)",
+   "quest_numbers": [
+    18,
+    41
+   ]
+  },
+  {
+   "power_up": "Latent Power",
+   "effect": "Raises Power when Energy is orange (quest 34); raises Power when Energy is yellow (quest 59)",
+   "quest_numbers": [
+    34,
+    59
+   ]
+  },
+  {
+   "power_up": "Recovery",
+   "effect": "Raises 1 point of Energy after a successful capture (quest 19); raises 3 points after a successful capture (quest 53)",
+   "quest_numbers": [
+    19,
+    53
+   ]
+  },
+  {
+   "power_up": "Combo Bonus",
+   "effect": "Raises power when you make six loops at once (Bulbapedia wording; Serebii Capture Cards page says after 5 successful consecutive circles - wording divergence recorded)",
+   "quest_numbers": [
+    40
+   ]
+  },
+  {
+   "power_up": "Long Line",
+   "effect": "Lengthens the Capture Line (quest 4); lengthens it even more (quest 60). Serebii: each of the two cards boosts line length by half the original length",
+   "quest_numbers": [
+    4,
+    60
+   ]
+  },
+  {
+   "power_up": "Power Plus",
+   "effect": "Raises Styler power by 3 points (quest 14); raises Styler power by 2 points (quest 29). Total +5 documented in Max Power Stats as 205+3+2=210",
+   "quest_numbers": [
+    14,
+    29
+   ]
+  },
+  {
+   "power_up": "Energy Plus",
+   "effect": "Raises max Energy by 5 points",
+   "quest_numbers": [
+    23
+   ]
+  }
+ ]
+}

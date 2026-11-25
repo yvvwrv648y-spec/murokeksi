@@ -1,0 +1,475 @@
+{
+ "crossfade_ms": 850,
+ "schema": "puw_music_index_v1",
+ "source": "audio/original_soundtrack_manifest.json (30 slots) x hidden_files/world_build_ost/selected_v2 (OST_MAPPING_V2 winners)",
+ "tracks": {
+  "ost_battle_defeat": {
+   "file": "",
+   "filled": false,
+   "title": "Battle Defeat"
+  },
+  "ost_battle_victory": {
+   "file": "audio/music/ost_battle_victory.ogg",
+   "filled": true,
+   "title": "Battle Victory"
+  },
+  "ost_celadon_city": {
+   "file": "audio/music/ost_celadon_city.ogg",
+   "filled": true,
+   "title": "Celadon City"
+  },
+  "ost_cerulean_city": {
+   "file": "audio/music/ost_cerulean_city.ogg",
+   "filled": true,
+   "title": "Cerulean City"
+  },
+  "ost_cinnabar_island": {
+   "file": "audio/music/ost_cinnabar_island.ogg",
+   "filled": true,
+   "title": "Cinnabar Island"
+  },
+  "ost_end_credits": {
+   "file": "audio/music/ost_end_credits.ogg",
+   "filled": true,
+   "title": "End Credits"
+  },
+  "ost_fuchsia_city": {
+   "file": "audio/music/ost_fuchsia_city.ogg",
+   "filled": true,
+   "title": "Fuchsia City"
+  },
+  "ost_gym_leader_battle": {
+   "file": "audio/music/ost_gym_leader_battle.ogg",
+   "filled": true,
+   "title": "Gym Leader Battle"
+  },
+  "ost_indigo_plateau": {
+   "file": "audio/music/ost_indigo_plateau.ogg",
+   "filled": true,
+   "title": "Indigo Plateau"
+  },
+  "ost_kanto_gym": {
+   "file": "audio/music/ost_kanto_gym.ogg",
+   "filled": true,
+   "title": "Kanto Gym"
+  },
+  "ost_kanto_routes": {
+   "file": "audio/music/ost_kanto_routes.ogg",
+   "filled": true,
+   "title": "Kanto Routes"
+  },
+  "ost_lavender_town": {
+   "file": "audio/music/ost_lavender_town.ogg",
+   "filled": true,
+   "title": "Lavender Town"
+  },
+  "ost_main_title": {
+   "file": "audio/music/ost_main_title.ogg",
+   "filled": true,
+   "title": "Main Title"
+  },
+  "ost_mt_moon_caves": {
+   "file": "audio/music/ost_mt_moon_caves.ogg",
+   "filled": true,
+   "title": "Mt Moon Caves"
+  },
+  "ost_ocean_routes": {
+   "file": "audio/music/ost_ocean_routes.ogg",
+   "filled": true,
+   "title": "Ocean Routes"
+  },
+  "ost_opening_cinematic": {
+   "file": "audio/music/ost_opening_cinematic.ogg",
+   "filled": true,
+   "title": "Opening Cinematic"
+  },
+  "ost_pallet_town": {
+   "file": "audio/music/ost_pallet_town.ogg",
+   "filled": true,
+   "title": "Pallet Town"
+  },
+  "ost_pewter_city": {
+   "file": "audio/music/ost_pewter_city.ogg",
+   "filled": true,
+   "title": "Pewter City"
+  },
+  "ost_poke_mart": {
+   "file": "",
+   "filled": false,
+   "title": "Poke Mart"
+  },
+  "ost_pokemon_center": {
+   "file": "audio/music/ost_pokemon_center.ogg",
+   "filled": true,
+   "title": "Pokemon Center"
+  },
+  "ost_rival_encounter": {
+   "file": "audio/music/ost_rival_encounter.ogg",
+   "filled": true,
+   "title": "Rival Encounter"
+  },
+  "ost_saffron_city": {
+   "file": "audio/music/ost_saffron_city.ogg",
+   "filled": true,
+   "title": "Saffron City"
+  },
+  "ost_story_boss_battle": {
+   "file": "audio/music/ost_story_boss_battle.ogg",
+   "filled": true,
+   "title": "Story Boss Battle"
+  },
+  "ost_studio_menus": {
+   "file": "audio/music/ost_studio_menus.ogg",
+   "filled": true,
+   "title": "Studio Menus"
+  },
+  "ost_team_rocket": {
+   "file": "audio/music/ost_team_rocket.ogg",
+   "filled": true,
+   "title": "Team Rocket"
+  },
+  "ost_trainer_battle": {
+   "file": "audio/music/ost_trainer_battle.ogg",
+   "filled": true,
+   "title": "Trainer Battle"
+  },
+  "ost_vermilion_city": {
+   "file": "audio/music/ost_vermilion_city.ogg",
+   "filled": true,
+   "title": "Vermilion City"
+  },
+  "ost_viridian_city": {
+   "file": "audio/music/ost_viridian_city.ogg",
+   "filled": true,
+   "title": "Viridian City"
+  },
+  "ost_viridian_forest": {
+   "file": "audio/music/ost_viridian_forest.ogg",
+   "filled": true,
+   "title": "Viridian Forest"
+  },
+  "ost_wild_battle": {
+   "file": "audio/music/ost_wild_battle.ogg",
+   "filled": true,
+   "title": "Wild Battle"
+  },
+  "ost_kanto_cinnabar_mansion": {
+   "file": "audio/music/ost_kanto_cinnabar_mansion.ogg",
+   "filled": true,
+   "title": "MUSIC_CINNABAR_MANSION",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_kanto_cities1": {
+   "file": "audio/music/ost_kanto_cities1.ogg",
+   "filled": true,
+   "title": "MUSIC_CITIES1",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_kanto_cities2": {
+   "file": "audio/music/ost_kanto_cities2.ogg",
+   "filled": true,
+   "title": "MUSIC_CITIES2",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_kanto_dungeon1": {
+   "file": "audio/music/ost_kanto_dungeon1.ogg",
+   "filled": true,
+   "title": "MUSIC_DUNGEON1",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_kanto_dungeon2": {
+   "file": "audio/music/ost_kanto_dungeon2.ogg",
+   "filled": true,
+   "title": "MUSIC_DUNGEON2",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_kanto_safari_zone": {
+   "file": "audio/music/ost_kanto_safari_zone.ogg",
+   "filled": true,
+   "title": "MUSIC_SAFARI_ZONE",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_kanto_game_corner": {
+   "file": "audio/music/ost_kanto_game_corner.ogg",
+   "filled": true,
+   "title": "MUSIC_GAME_CORNER",
+   "basis": "held FRLG-set stream (A-10 fill, basis recorded)"
+  },
+  "ost_kanto_oaks_lab": {
+   "file": "audio/music/ost_kanto_oaks_lab.ogg",
+   "filled": true,
+   "title": "MUSIC_OAKS_LAB",
+   "basis": "held FRLG-set stream (A-10 fill, basis recorded)"
+  },
+  "ost_kanto_pokemon_tower": {
+   "file": "audio/music/ost_kanto_pokemon_tower.ogg",
+   "filled": true,
+   "title": "MUSIC_POKEMON_TOWER",
+   "basis": "held FRLG-set stream (A-10 fill, basis recorded)"
+  },
+  "ost_kanto_routes1": {
+   "file": "audio/music/ost_kanto_routes1.ogg",
+   "filled": true,
+   "title": "MUSIC_ROUTES1",
+   "basis": "held FRLG-set stream (A-10 fill, basis recorded)"
+  },
+  "ost_kanto_silph_co": {
+   "file": "audio/music/ost_kanto_silph_co.ogg",
+   "filled": true,
+   "title": "MUSIC_SILPH_CO",
+   "basis": "held FRLG-set stream (A-10 fill, basis recorded)"
+  },
+  "ost_kanto_ss_anne": {
+   "file": "audio/music/ost_kanto_ss_anne.ogg",
+   "filled": true,
+   "title": "MUSIC_SS_ANNE",
+   "basis": "held FRLG-set stream (A-10 fill, basis recorded)"
+  },
+  "ost_sevii_sevii_123": {
+   "file": "audio/music/ost_sevii_sevii_123.ogg",
+   "filled": true,
+   "title": "MUS_SEVII_123",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_sevii_sevii_45": {
+   "file": "audio/music/ost_sevii_sevii_45.ogg",
+   "filled": true,
+   "title": "MUS_SEVII_45",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_sevii_sevii_67": {
+   "file": "audio/music/ost_sevii_sevii_67.ogg",
+   "filled": true,
+   "title": "MUS_SEVII_67",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_sevii_sevii_cave": {
+   "file": "audio/music/ost_sevii_sevii_cave.ogg",
+   "filled": true,
+   "title": "MUS_SEVII_CAVE",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_sevii_sevii_dungeon": {
+   "file": "audio/music/ost_sevii_sevii_dungeon.ogg",
+   "filled": true,
+   "title": "MUS_SEVII_DUNGEON",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_sevii_sevii_route": {
+   "file": "audio/music/ost_sevii_sevii_route.ogg",
+   "filled": true,
+   "title": "MUS_SEVII_ROUTE",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_sevii_trainer_tower": {
+   "file": "audio/music/ost_sevii_trainer_tower.ogg",
+   "filled": true,
+   "title": "MUS_TRAINER_TOWER",
+   "basis": "rendered track (kanto_missing_tracks_fix, PM ruling 2026-11-24: adopt the fixed copies)"
+  },
+  "ost_sevii_game_corner": {
+   "file": "audio/music/ost_sevii_game_corner.ogg",
+   "filled": true,
+   "title": "MUS_GAME_CORNER",
+   "basis": "held FRLG-set stream (A-10 fill, basis recorded)"
+  },
+  "ost_sevii_rocket_hideout": {
+   "file": "audio/music/ost_sevii_rocket_hideout.ogg",
+   "filled": true,
+   "title": "MUS_ROCKET_HIDEOUT",
+   "basis": "held FRLG-set stream (A-10 fill, basis recorded)"
+  },
+  "ost_sevii_route3": {
+   "file": "audio/music/ost_sevii_route3.ogg",
+   "filled": true,
+   "title": "MUS_ROUTE3",
+   "basis": "held FRLG-set stream (A-10 fill, basis recorded)"
+  },
+  "ost_johto_azalea_town": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_AZALEA_TOWN",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_battle_tower_lobby": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_BATTLE_TOWER_LOBBY",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_battle_tower_theme": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_BATTLE_TOWER_THEME",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_bug_catching_contest": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_BUG_CATCHING_CONTEST",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_burned_tower": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_BURNED_TOWER",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_cherrygrove_city": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_CHERRYGROVE_CITY",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_dancing_hall": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_DANCING_HALL",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_dark_cave": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_DARK_CAVE",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_dragons_den": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_DRAGONS_DEN",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_ecruteak_city": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_ECRUTEAK_CITY",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_game_corner": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_GAME_CORNER",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_goldenrod_city": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_GOLDENROD_CITY",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_gym": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_GYM",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_indigo_plateau": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_INDIGO_PLATEAU",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_lake_of_rage": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_LAKE_OF_RAGE",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_lighthouse": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_LIGHTHOUSE",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_national_park": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_NATIONAL_PARK",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_new_bark_town": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_NEW_BARK_TOWN",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_pokemon_center": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_POKEMON_CENTER",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_prof_elm": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_PROF_ELM",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_rocket_hideout": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_ROCKET_HIDEOUT",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_route_29": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_ROUTE_29",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_route_30": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_ROUTE_30",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_route_36": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_ROUTE_36",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_route_37": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_ROUTE_37",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_ruins_of_alph_interior": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_RUINS_OF_ALPH_INTERIOR",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_sprout_tower": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_SPROUT_TOWER",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_suicune_battle": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_MAHOGANY_MART",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_tin_tower": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_TIN_TOWER",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_union_cave": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_UNION_CAVE",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  },
+  "ost_johto_violet_city": {
+   "file": "",
+   "filled": false,
+   "title": "MUSIC_VIOLET_CITY",
+   "basis": "Johto OST mapping - no verified playable stream held (lane census); slot registered unfilled, director stops cleanly"
+  }
+ }
+}
