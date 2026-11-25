@@ -1,0 +1,332 @@
+{
+ "source": "pokered data/items/marts.asm + data/items/vending_prices.asm; pokefirered data/maps/<SeviiMart>/scripts.inc *_Mart_Items lists",
+ "price_rule": "prices stay the bound registry / items_full_compact costs (audit-verified); this file selects WHICH items each mart sells, never a price",
+ "maps": {
+  "ViridianMart": {
+   "clerks": [
+    {
+     "clerk": "ViridianMartClerkText",
+     "items_const": [
+      "POKE_BALL",
+      "ANTIDOTE",
+      "PARLYZ_HEAL",
+      "BURN_HEAL"
+     ]
+    }
+   ],
+   "source": "pokered data/items/marts.asm"
+  },
+  "PewterMart": {
+   "clerks": [
+    {
+     "clerk": "PewterMartClerkText",
+     "items_const": [
+      "POKE_BALL",
+      "POTION",
+      "ESCAPE_ROPE",
+      "ANTIDOTE",
+      "BURN_HEAL",
+      "AWAKENING",
+      "PARLYZ_HEAL"
+     ]
+    }
+   ],
+   "source": "pokered data/items/marts.asm"
+  },
+  "CeruleanMart": {
+   "clerks": [
+    {
+     "clerk": "CeruleanMartClerkText",
+     "items_const": [
+      "POKE_BALL",
+      "POTION",
+      "REPEL",
+      "ANTIDOTE",
+      "BURN_HEAL",
+      "AWAKENING",
+      "PARLYZ_HEAL"
+     ]
+    }
+   ],
+   "source": "pokered data/items/marts.asm"
+  },
+  "VermilionMart": {
+   "clerks": [
+    {
+     "clerk": "VermilionMartClerkText",
+     "items_const": [
+      "POKE_BALL",
+      "SUPER_POTION",
+      "ICE_HEAL",
+      "AWAKENING",
+      "PARLYZ_HEAL",
+      "REPEL"
+     ]
+    }
+   ],
+   "source": "pokered data/items/marts.asm"
+  },
+  "LavenderMart": {
+   "clerks": [
+    {
+     "clerk": "LavenderMartClerkText",
+     "items_const": [
+      "GREAT_BALL",
+      "SUPER_POTION",
+      "REVIVE",
+      "ESCAPE_ROPE",
+      "SUPER_REPEL",
+      "ANTIDOTE",
+      "BURN_HEAL",
+      "ICE_HEAL",
+      "PARLYZ_HEAL"
+     ]
+    }
+   ],
+   "source": "pokered data/items/marts.asm"
+  },
+  "CeladonMart2F": {
+   "clerks": [
+    {
+     "clerk": "CeladonMart2FClerk1Text",
+     "items_const": [
+      "GREAT_BALL",
+      "SUPER_POTION",
+      "REVIVE",
+      "SUPER_REPEL",
+      "ANTIDOTE",
+      "BURN_HEAL",
+      "ICE_HEAL",
+      "AWAKENING",
+      "PARLYZ_HEAL"
+     ]
+    },
+    {
+     "clerk": "CeladonMart2FClerk2Text",
+     "items_const": [
+      "TM_DOUBLE_TEAM",
+      "TM_REFLECT",
+      "TM_RAZOR_WIND",
+      "TM_HORN_DRILL",
+      "TM_EGG_BOMB",
+      "TM_MEGA_PUNCH",
+      "TM_MEGA_KICK",
+      "TM_TAKE_DOWN",
+      "TM_SUBMISSION"
+     ]
+    }
+   ],
+   "source": "pokered data/items/marts.asm"
+  },
+  "CeladonMart4F": {
+   "clerks": [
+    {
+     "clerk": "CeladonMart4FClerkText",
+     "items_const": [
+      "POKE_DOLL",
+      "FIRE_STONE",
+      "THUNDER_STONE",
+      "WATER_STONE",
+      "LEAF_STONE"
+     ]
+    }
+   ],
+   "source": "pokered data/items/marts.asm"
+  },
+  "CeladonMart5F": {
+   "clerks": [
+    {
+     "clerk": "CeladonMart5FClerk1Text",
+     "items_const": [
+      "X_ACCURACY",
+      "GUARD_SPEC",
+      "DIRE_HIT",
+      "X_ATTACK",
+      "X_DEFEND",
+      "X_SPEED",
+      "X_SPECIAL"
+     ]
+    },
+    {
+     "clerk": "CeladonMart5FClerk2Text",
+     "items_const": [
+      "HP_UP",
+      "PROTEIN",
+      "IRON",
+      "CARBOS",
+      "CALCIUM"
+     ]
+    }
+   ],
+   "source": "pokered data/items/marts.asm"
+  },
+  "FuchsiaMart": {
+   "clerks": [
+    {
+     "clerk": "FuchsiaMartClerkText",
+     "items_const": [
+      "ULTRA_BALL",
+      "GREAT_BALL",
+      "SUPER_POTION",
+      "REVIVE",
+      "FULL_HEAL",
+      "SUPER_REPEL"
+     ]
+    }
+   ],
+   "source": "pokered data/items/marts.asm"
+  },
+  "CinnabarMart": {
+   "clerks": [
+    {
+     "clerk": "CinnabarMartClerkText",
+     "items_const": [
+      "ULTRA_BALL",
+      "GREAT_BALL",
+      "HYPER_POTION",
+      "MAX_REPEL",
+      "ESCAPE_ROPE",
+      "FULL_HEAL",
+      "REVIVE"
+     ]
+    }
+   ],
+   "source": "pokered data/items/marts.asm"
+  },
+  "SaffronMart": {
+   "clerks": [
+    {
+     "clerk": "SaffronMartClerkText",
+     "items_const": [
+      "GREAT_BALL",
+      "HYPER_POTION",
+      "MAX_REPEL",
+      "ESCAPE_ROPE",
+      "FULL_HEAL",
+      "REVIVE"
+     ]
+    }
+   ],
+   "source": "pokered data/items/marts.asm"
+  },
+  "IndigoPlateauLobby": {
+   "clerks": [
+    {
+     "clerk": "IndigoPlateauLobbyClerkText",
+     "items_const": [
+      "ULTRA_BALL",
+      "GREAT_BALL",
+      "FULL_RESTORE",
+      "MAX_POTION",
+      "FULL_HEAL",
+      "REVIVE",
+      "MAX_REPEL"
+     ]
+    }
+   ],
+   "source": "pokered data/items/marts.asm",
+   "extra_beyond_audit_19": true
+  },
+  "CeladonMart1F": {
+   "clerks": [],
+   "source": "pokered",
+   "note": "no script_mart in source: the 1F clerk is a receptionist (scripts/CeladonMart1F.asm)"
+  },
+  "CeladonMart3F": {
+   "clerks": [],
+   "source": "pokered",
+   "note": "no script_mart in source: the 3F clerk is a one-time TM18 (Counter) script-give (scripts/CeladonMart3F.asm, EVENT_GOT_TM18) \u2014 grant conversion is fix F7 scope, not stock"
+  },
+  "CeladonMartElevator": {
+   "clerks": [],
+   "source": "pokered",
+   "note": "elevator car: no clerk in source"
+  },
+  "CeladonMartRoof": {
+   "clerks": [],
+   "source": "pokered data/items/vending_prices.asm",
+   "vending_const": [
+    "FRESH_WATER",
+    "SODA_POP",
+    "LEMONADE"
+   ],
+   "vending_source_prices": {
+    "FRESH_WATER": 200,
+    "SODA_POP": 300,
+    "LEMONADE": 350
+   },
+   "note": "roof sells only through vending machines in source; source vending prices recorded as source data"
+  },
+  "ThreeIsland_Mart": {
+   "clerks": [
+    {
+     "clerk": "ThreeIsland_Mart_Items",
+     "items_const": [
+      "ITEM_ULTRA_BALL",
+      "ITEM_HYPER_POTION",
+      "ITEM_REVIVE",
+      "ITEM_FULL_HEAL",
+      "ITEM_ESCAPE_ROPE",
+      "ITEM_MAX_REPEL"
+     ]
+    }
+   ],
+   "source": "pokefirered data/maps/ThreeIsland_Mart/scripts.inc"
+  },
+  "FourIsland_Mart": {
+   "clerks": [
+    {
+     "clerk": "FourIsland_Mart_Items",
+     "items_const": [
+      "ITEM_ULTRA_BALL",
+      "ITEM_FULL_RESTORE",
+      "ITEM_MAX_POTION",
+      "ITEM_REVIVE",
+      "ITEM_ICE_HEAL",
+      "ITEM_FULL_HEAL",
+      "ITEM_ESCAPE_ROPE",
+      "ITEM_MAX_REPEL"
+     ]
+    }
+   ],
+   "source": "pokefirered data/maps/FourIsland_Mart/scripts.inc"
+  },
+  "SixIsland_Mart": {
+   "clerks": [
+    {
+     "clerk": "SixIsland_Mart_Items",
+     "items_const": [
+      "ITEM_ULTRA_BALL",
+      "ITEM_FULL_RESTORE",
+      "ITEM_MAX_POTION",
+      "ITEM_REVIVE",
+      "ITEM_FULL_HEAL",
+      "ITEM_ESCAPE_ROPE",
+      "ITEM_MAX_REPEL",
+      "ITEM_DREAM_MAIL"
+     ]
+    }
+   ],
+   "source": "pokefirered data/maps/SixIsland_Mart/scripts.inc"
+  },
+  "SevenIsland_Mart": {
+   "clerks": [
+    {
+     "clerk": "SevenIsland_Mart_Items",
+     "items_const": [
+      "ITEM_ULTRA_BALL",
+      "ITEM_GREAT_BALL",
+      "ITEM_FULL_RESTORE",
+      "ITEM_MAX_POTION",
+      "ITEM_HYPER_POTION",
+      "ITEM_REVIVE",
+      "ITEM_FULL_HEAL",
+      "ITEM_ESCAPE_ROPE",
+      "ITEM_MAX_REPEL"
+     ]
+    }
+   ],
+   "source": "pokefirered data/maps/SevenIsland_Mart/scripts.inc"
+  }
+ }
+}
