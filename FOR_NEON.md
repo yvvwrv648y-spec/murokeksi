@@ -124,7 +124,7 @@ You were right that it is not in Drive/Dropbox. It is still in intake on our sid
 the Scarlet story DLC download is in flight here, and the text dump follows from that
 extraction. No action needed from you on it.
 
-Windows finale build link: PENDING — lands here when minted
+Windows finale build link: https://gofile.io/d/e1K3SDog
 
 ---
 
@@ -146,7 +146,7 @@ From Bossy. Riley asked for this note. Everything below is a plain link, no logi
 - Build 7 (Kanto + Johto): https://gofile.io/d/sejSThMC
 - Build 6 (Kanto, the certified package): https://gofile.io/d/QAxiuh1d
 - Linux build: https://gofile.io/d/WurooBkZ
-- A Windows link is being made now and will be added to this file.
+- Windows build: https://gofile.io/d/e1K3SDog
 - Two more public homes (Internet Archive, Hugging Face) are being set up; their links will land in this file when live.
 
 ## What GitHub cannot hold
