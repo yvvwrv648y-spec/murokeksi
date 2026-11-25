@@ -1,0 +1,595 @@
+{
+ "comment": "SEVII FERRY WIRING -- the ten harbors of the Seagallop network (reachability audit B-06). Transfers are PUWEventRunner warp steps inside data/events/sevii_ferry_<origin>.json; NO warp-data edges are added to any map (the audit's ruling: a warp edge would strand the player on a pass-less return and cannot express the pass branches). Arrival/departure points below are read from the bound maps themselves.",
+ "destination_matrix": {
+  "birth_island": {
+   "rainbow_pass": [
+    "vermilion"
+   ],
+   "tri_pass": []
+  },
+  "five_island": {
+   "rainbow_pass": [
+    "vermilion",
+    "one_island",
+    "two_island",
+    "three_island",
+    "four_island",
+    "six_island",
+    "seven_island"
+   ],
+   "tri_pass": []
+  },
+  "four_island": {
+   "rainbow_pass": [
+    "vermilion",
+    "one_island",
+    "two_island",
+    "three_island",
+    "five_island",
+    "six_island",
+    "seven_island"
+   ],
+   "tri_pass": []
+  },
+  "navel_rock": {
+   "rainbow_pass": [
+    "vermilion"
+   ],
+   "tri_pass": []
+  },
+  "one_island": {
+   "rainbow_pass": [
+    "vermilion",
+    "two_island",
+    "three_island",
+    "four_island",
+    "five_island",
+    "six_island",
+    "seven_island"
+   ],
+   "tri_pass": [
+    "vermilion",
+    "two_island",
+    "three_island"
+   ]
+  },
+  "seven_island": {
+   "rainbow_pass": [
+    "vermilion",
+    "one_island",
+    "two_island",
+    "three_island",
+    "four_island",
+    "five_island",
+    "six_island"
+   ],
+   "tri_pass": []
+  },
+  "six_island": {
+   "rainbow_pass": [
+    "vermilion",
+    "one_island",
+    "two_island",
+    "three_island",
+    "four_island",
+    "five_island",
+    "seven_island"
+   ],
+   "tri_pass": []
+  },
+  "three_island": {
+   "rainbow_pass": [
+    "vermilion",
+    "one_island",
+    "two_island",
+    "four_island",
+    "five_island",
+    "six_island",
+    "seven_island"
+   ],
+   "tri_pass": [
+    "vermilion",
+    "one_island",
+    "two_island"
+   ]
+  },
+  "two_island": {
+   "rainbow_pass": [
+    "vermilion",
+    "one_island",
+    "three_island",
+    "four_island",
+    "five_island",
+    "six_island",
+    "seven_island"
+   ],
+   "tri_pass": [
+    "vermilion",
+    "one_island",
+    "three_island"
+   ]
+  },
+  "vermilion": {
+   "rainbow_pass": [
+    "one_island",
+    "two_island",
+    "three_island",
+    "four_island",
+    "five_island",
+    "six_island",
+    "seven_island",
+    "navel_rock",
+    "birth_island"
+   ],
+   "tri_pass": [
+    "one_island",
+    "two_island",
+    "three_island"
+   ]
+  }
+ },
+ "harbors": [
+  {
+   "arrival": {
+    "basis": "the destination harbor's sole warp (its door); VermilionDock: warp 1 is the dock's city-side entrance -- warp 2 is the S.S. Anne boarding pad, a departure trigger, not an arrival point",
+    "tile": [
+     28,
+     0
+    ],
+    "warp_id": 1
+   },
+   "bound_map_facts": {
+    "map": "VermilionDock",
+    "object_count": 0,
+    "sailor_object": null,
+    "size": [
+     56,
+     24
+    ],
+    "warps": [
+     {
+      "dest_map": "LAST_MAP",
+      "id": 1,
+      "x": 28,
+      "y": 0
+     },
+     {
+      "dest_map": "SS_ANNE_1F",
+      "id": 2,
+      "x": 28,
+      "y": 4
+     }
+    ]
+   },
+   "map": "VermilionDock",
+   "origin": "vermilion",
+   "sailor_placement": {
+    "basis": "the bound VermilionDock has no objects; the placement stands the sailor beside the boarding warp (28, 4) on the dock, mirroring FRLG, where the ferry sailor stands at the Seagallop berth on Vermilion City's pier (24, 33). The tile is a bind placement choice, not source data.",
+    "script_ref": "sevii_ferry_vermilion",
+    "status": "NEW interactable, placed at build 6",
+    "tile": [
+     28,
+     5
+    ]
+   },
+   "script": "sevii_ferry_vermilion"
+  },
+  {
+   "arrival": {
+    "basis": "the destination harbor's sole warp (its door); VermilionDock: warp 1 is the dock's city-side entrance -- warp 2 is the S.S. Anne boarding pad, a departure trigger, not an arrival point",
+    "tile": [
+     8,
+     2
+    ],
+    "warp_id": 1
+   },
+   "bound_map_facts": {
+    "map": "OneIsland_Harbor",
+    "object_count": 2,
+    "sailor_object": {
+     "x": 8,
+     "y": 6
+    },
+    "size": [
+     17,
+     13
+    ],
+    "warps": [
+     {
+      "dest_map": "MAP_ONE_ISLAND",
+      "id": 1,
+      "x": 8,
+      "y": 2
+     }
+    ]
+   },
+   "map": "OneIsland_Harbor",
+   "origin": "one_island",
+   "sailor_placement": {
+    "basis": "the bound map's own sailor object (the Sevii dialogue restoration re-attached its script ref; build 6 points that interactable at this prep's runner script).",
+    "runner_script": "sevii_ferry_one_island",
+    "script_ref": "OneIsland_Harbor_EventScript_Sailor",
+    "status": "bound object already present",
+    "tile": [
+     8,
+     6
+    ]
+   },
+   "script": "sevii_ferry_one_island"
+  },
+  {
+   "arrival": {
+    "basis": "the destination harbor's sole warp (its door); VermilionDock: warp 1 is the dock's city-side entrance -- warp 2 is the S.S. Anne boarding pad, a departure trigger, not an arrival point",
+    "tile": [
+     8,
+     2
+    ],
+    "warp_id": 1
+   },
+   "bound_map_facts": {
+    "map": "TwoIsland_Harbor",
+    "object_count": 2,
+    "sailor_object": {
+     "x": 8,
+     "y": 6
+    },
+    "size": [
+     17,
+     13
+    ],
+    "warps": [
+     {
+      "dest_map": "MAP_TWO_ISLAND",
+      "id": 1,
+      "x": 8,
+      "y": 2
+     }
+    ]
+   },
+   "map": "TwoIsland_Harbor",
+   "origin": "two_island",
+   "sailor_placement": {
+    "basis": "the bound map's own sailor object (the Sevii dialogue restoration re-attached its script ref; build 6 points that interactable at this prep's runner script).",
+    "runner_script": "sevii_ferry_two_island",
+    "script_ref": "TwoIsland_Harbor_EventScript_Sailor",
+    "status": "bound object already present",
+    "tile": [
+     8,
+     6
+    ]
+   },
+   "script": "sevii_ferry_two_island"
+  },
+  {
+   "arrival": {
+    "basis": "the destination harbor's sole warp (its door); VermilionDock: warp 1 is the dock's city-side entrance -- warp 2 is the S.S. Anne boarding pad, a departure trigger, not an arrival point",
+    "tile": [
+     8,
+     2
+    ],
+    "warp_id": 1
+   },
+   "bound_map_facts": {
+    "map": "ThreeIsland_Harbor",
+    "object_count": 2,
+    "sailor_object": {
+     "x": 8,
+     "y": 6
+    },
+    "size": [
+     17,
+     13
+    ],
+    "warps": [
+     {
+      "dest_map": "MAP_THREE_ISLAND_PORT",
+      "id": 1,
+      "x": 8,
+      "y": 2
+     }
+    ]
+   },
+   "map": "ThreeIsland_Harbor",
+   "origin": "three_island",
+   "sailor_placement": {
+    "basis": "the bound map's own sailor object (the Sevii dialogue restoration re-attached its script ref; build 6 points that interactable at this prep's runner script).",
+    "runner_script": "sevii_ferry_three_island",
+    "script_ref": "ThreeIsland_Harbor_EventScript_Sailor",
+    "status": "bound object already present",
+    "tile": [
+     8,
+     6
+    ]
+   },
+   "script": "sevii_ferry_three_island"
+  },
+  {
+   "arrival": {
+    "basis": "the destination harbor's sole warp (its door); VermilionDock: warp 1 is the dock's city-side entrance -- warp 2 is the S.S. Anne boarding pad, a departure trigger, not an arrival point",
+    "tile": [
+     8,
+     2
+    ],
+    "warp_id": 1
+   },
+   "bound_map_facts": {
+    "map": "FourIsland_Harbor",
+    "object_count": 2,
+    "sailor_object": {
+     "x": 8,
+     "y": 6
+    },
+    "size": [
+     17,
+     13
+    ],
+    "warps": [
+     {
+      "dest_map": "MAP_FOUR_ISLAND",
+      "id": 1,
+      "x": 8,
+      "y": 2
+     }
+    ]
+   },
+   "map": "FourIsland_Harbor",
+   "origin": "four_island",
+   "sailor_placement": {
+    "basis": "the bound map's own sailor object (the Sevii dialogue restoration re-attached its script ref; build 6 points that interactable at this prep's runner script).",
+    "runner_script": "sevii_ferry_four_island",
+    "script_ref": "FourIsland_Harbor_EventScript_Sailor",
+    "status": "bound object already present",
+    "tile": [
+     8,
+     6
+    ]
+   },
+   "script": "sevii_ferry_four_island"
+  },
+  {
+   "arrival": {
+    "basis": "the destination harbor's sole warp (its door); VermilionDock: warp 1 is the dock's city-side entrance -- warp 2 is the S.S. Anne boarding pad, a departure trigger, not an arrival point",
+    "tile": [
+     8,
+     2
+    ],
+    "warp_id": 1
+   },
+   "bound_map_facts": {
+    "map": "FiveIsland_Harbor",
+    "object_count": 2,
+    "sailor_object": {
+     "x": 8,
+     "y": 6
+    },
+    "size": [
+     17,
+     13
+    ],
+    "warps": [
+     {
+      "dest_map": "MAP_FIVE_ISLAND",
+      "id": 1,
+      "x": 8,
+      "y": 2
+     }
+    ]
+   },
+   "map": "FiveIsland_Harbor",
+   "origin": "five_island",
+   "sailor_placement": {
+    "basis": "the bound map's own sailor object (the Sevii dialogue restoration re-attached its script ref; build 6 points that interactable at this prep's runner script).",
+    "runner_script": "sevii_ferry_five_island",
+    "script_ref": "FiveIsland_Harbor_EventScript_Sailor",
+    "status": "bound object already present",
+    "tile": [
+     8,
+     6
+    ]
+   },
+   "script": "sevii_ferry_five_island"
+  },
+  {
+   "arrival": {
+    "basis": "the destination harbor's sole warp (its door); VermilionDock: warp 1 is the dock's city-side entrance -- warp 2 is the S.S. Anne boarding pad, a departure trigger, not an arrival point",
+    "tile": [
+     8,
+     2
+    ],
+    "warp_id": 1
+   },
+   "bound_map_facts": {
+    "map": "SixIsland_Harbor",
+    "object_count": 2,
+    "sailor_object": {
+     "x": 8,
+     "y": 6
+    },
+    "size": [
+     17,
+     13
+    ],
+    "warps": [
+     {
+      "dest_map": "MAP_SIX_ISLAND",
+      "id": 1,
+      "x": 8,
+      "y": 2
+     }
+    ]
+   },
+   "map": "SixIsland_Harbor",
+   "origin": "six_island",
+   "sailor_placement": {
+    "basis": "the bound map's own sailor object (the Sevii dialogue restoration re-attached its script ref; build 6 points that interactable at this prep's runner script).",
+    "runner_script": "sevii_ferry_six_island",
+    "script_ref": "SixIsland_Harbor_EventScript_Sailor",
+    "status": "bound object already present",
+    "tile": [
+     8,
+     6
+    ]
+   },
+   "script": "sevii_ferry_six_island"
+  },
+  {
+   "arrival": {
+    "basis": "the destination harbor's sole warp (its door); VermilionDock: warp 1 is the dock's city-side entrance -- warp 2 is the S.S. Anne boarding pad, a departure trigger, not an arrival point",
+    "tile": [
+     8,
+     2
+    ],
+    "warp_id": 1
+   },
+   "bound_map_facts": {
+    "map": "SevenIsland_Harbor",
+    "object_count": 2,
+    "sailor_object": {
+     "x": 8,
+     "y": 6
+    },
+    "size": [
+     17,
+     13
+    ],
+    "warps": [
+     {
+      "dest_map": "MAP_SEVEN_ISLAND",
+      "id": 1,
+      "x": 8,
+      "y": 2
+     }
+    ]
+   },
+   "map": "SevenIsland_Harbor",
+   "origin": "seven_island",
+   "sailor_placement": {
+    "basis": "the bound map's own sailor object (the Sevii dialogue restoration re-attached its script ref; build 6 points that interactable at this prep's runner script).",
+    "runner_script": "sevii_ferry_seven_island",
+    "script_ref": "SevenIsland_Harbor_EventScript_Sailor",
+    "status": "bound object already present",
+    "tile": [
+     8,
+     6
+    ]
+   },
+   "script": "sevii_ferry_seven_island"
+  },
+  {
+   "arrival": {
+    "basis": "the destination harbor's sole warp (its door); VermilionDock: warp 1 is the dock's city-side entrance -- warp 2 is the S.S. Anne boarding pad, a departure trigger, not an arrival point",
+    "tile": [
+     8,
+     2
+    ],
+    "warp_id": 1
+   },
+   "bound_map_facts": {
+    "map": "NavelRock_Harbor",
+    "object_count": 2,
+    "sailor_object": {
+     "x": 8,
+     "y": 6
+    },
+    "size": [
+     17,
+     13
+    ],
+    "warps": [
+     {
+      "dest_map": "MAP_NAVEL_ROCK_EXTERIOR",
+      "id": 1,
+      "x": 8,
+      "y": 2
+     }
+    ]
+   },
+   "map": "NavelRock_Harbor",
+   "origin": "navel_rock",
+   "sailor_placement": {
+    "basis": "the bound map's own sailor object (the Sevii dialogue restoration re-attached its script ref; build 6 points that interactable at this prep's runner script).",
+    "runner_script": "sevii_ferry_navel_rock",
+    "script_ref": "NavelRock_Harbor_EventScript_Sailor",
+    "status": "bound object already present",
+    "tile": [
+     8,
+     6
+    ]
+   },
+   "script": "sevii_ferry_navel_rock"
+  },
+  {
+   "arrival": {
+    "basis": "the destination harbor's sole warp (its door); VermilionDock: warp 1 is the dock's city-side entrance -- warp 2 is the S.S. Anne boarding pad, a departure trigger, not an arrival point",
+    "tile": [
+     8,
+     2
+    ],
+    "warp_id": 1
+   },
+   "bound_map_facts": {
+    "map": "BirthIsland_Harbor",
+    "object_count": 2,
+    "sailor_object": {
+     "x": 8,
+     "y": 6
+    },
+    "size": [
+     17,
+     13
+    ],
+    "warps": [
+     {
+      "dest_map": "MAP_BIRTH_ISLAND_EXTERIOR",
+      "id": 1,
+      "x": 8,
+      "y": 2
+     }
+    ]
+   },
+   "map": "BirthIsland_Harbor",
+   "origin": "birth_island",
+   "sailor_placement": {
+    "basis": "the bound map's own sailor object (the Sevii dialogue restoration re-attached its script ref; build 6 points that interactable at this prep's runner script).",
+    "runner_script": "sevii_ferry_birth_island",
+    "script_ref": "BirthIsland_Harbor_EventScript_Sailor",
+    "status": "bound object already present",
+    "tile": [
+     8,
+     6
+    ]
+   },
+   "script": "sevii_ferry_birth_island"
+  }
+ ],
+ "host_contract": {
+  "menu_duty": "the host presents the destination menu for the tier the flags select (the scripts' tier sections hold exactly the source's destination sets, so an out-of-tier destination flag is inert: its warp step lives in the other tier's section and is never reached)",
+  "silph_scope_note": "unrelated to the ferry: the Marowak beat's ghost gate reads the bag through the item-fixes prep's PUWItemGates.ghost_check (canonical id 'silph-scope'); see fixed_encounters_additions.json.",
+  "str_var_1_substitution": "Text_AllAboardSeagallopNum's {STR_VAR_1} is the Seagallop number for the route, from pokefirered src/seagallop.c GetSeagallopNumber: Cinnabar involved = 1; Vermilion involved = 7; Navel Rock involved = 10; Birth Island involved = 12; among One/Two/Three Island = 2; Four<->Five = 3; Six<->Seven = 5; all other pairs = 6 (the function's default). The host passes it as a runner substitution when it sets the destination flag.",
+  "transient_flags_set_by_host_at_interact_time": {
+   "ferry_any_ticket": "PUWLiveBag holds 'mysticticket' or 'auroraticket' (regardless of the shown flags): selects the source's generic boarding line (BoardSeagallopFerry, played whenever a ticket holder boards) over the Rainbow Pass line, and puts the ticket island(s) in the menu",
+   "ferry_aurora_ticket": "PUWLiveBag holds 'auroraticket' AND shown_aurora_ticket is unset (same first-showing rule)",
+   "ferry_dest_<origin>": "exactly one, naming the menu-chosen destination; none set = the player cancelled and the script ends after the boarding line",
+   "ferry_mystic_ticket": "PUWLiveBag holds 'mysticticket' AND the story flag shown_mystic_ticket is unset (the source plays the recognition line only until FLAG_SHOWN_MYSTIC_TICKET is set; the script sets the PUW mirror flag itself right after the line)",
+   "ferry_rainbow_pass": "PUWLiveBag holds 'rainbow-pass'",
+   "ferry_tri_pass": "PUWLiveBag holds canonical id 'tri-pass' (count >= 1)"
+  }
+ },
+ "pass_grants": [
+  {
+   "granted_by": "sevii_meet_celio (this prep)",
+   "item": "tri-pass",
+   "source": "pokefirered OneIsland_PokemonCenter_1F/scripts.inc, OneIsland_PokemonCenter_1F_EventScript_MeetCelio: giveitem ITEM_TRI_PASS after Bill's Meteorite hand-off"
+  },
+  {
+   "granted_by": "sevii_celio_ruby_delivery (code_prep_kanto_events, already authored) -- the pass EXCHANGE: Celio takes the Ruby and the Tri-Pass and gives the Rainbow Pass",
+   "item": "rainbow-pass",
+   "source": "pokefirered OneIsland_PokemonCenter_1F/scripts.inc, EventScript_GiveCelioRuby -> EventScript_GiveRainbowPass: removeitem ITEM_RUBY, removeitem ITEM_TRI_PASS, additem ITEM_RAINBOW_PASS. The caller side is the events lane's chain (MeetCelio's Tri-Pass from this prep -> request -> Ruby pickup -> the exchange -> Sapphire theft -> Gideon -> Sapphire delivery, which completes the Network Machine and grants no pass); this prep wires the ferry branches that consume both passes"
+  },
+  {
+   "granted_by": "no in-game grant exists in the source (event-distribution items); the ferry honours them from the bag when held",
+   "item": "mysticticket / auroraticket",
+   "source": "pokefirered VermilionCity_EventScript_FerrySailor CheckHasMysticTicket / CheckHasAuroraTicket"
+  }
+ ]
+}

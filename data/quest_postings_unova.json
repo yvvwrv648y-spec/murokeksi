@@ -1,0 +1,3762 @@
+{
+ "metadata": {
+  "region_id": "unova",
+  "postings": 130,
+  "special_chains": 3
+ },
+ "postings": [
+  {
+   "board_id": "nuvema_town",
+   "id": "nuvema_town_catch_patrat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Lab Aide Sora",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 450,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "patrat",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Patrat near Nuvema Town",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 0,
+   "settlement": "Nuvema Town"
+  },
+  {
+   "board_id": "nuvema_town",
+   "id": "nuvema_town_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Neighbor Elba",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 300,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Nuvema Town: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 0,
+   "settlement": "Nuvema Town"
+  },
+  {
+   "board_id": "nuvema_town",
+   "id": "nuvema_town_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Scout Bram",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 220,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Nuvema Town",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 0,
+   "settlement": "Nuvema Town"
+  },
+  {
+   "board_id": "nuvema_town",
+   "id": "nuvema_town_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Lab Aide Sora",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 220,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 0,
+   "settlement": "Nuvema Town"
+  },
+  {
+   "board_id": "nuvema_town",
+   "id": "nuvema_town_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Neighbor Elba",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 280,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 800,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 800 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 0,
+   "settlement": "Nuvema Town"
+  },
+  {
+   "board_id": "nuvema_town",
+   "id": "nuvema_town_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Scout Bram",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 1
+    },
+    "money": 450,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Nuvema Town: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 0,
+   "settlement": "Nuvema Town"
+  },
+  {
+   "board_id": "nuvema_town",
+   "id": "nuvema_town_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Lab Aide Sora",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 2
+    },
+    "money": 380,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "oran-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Oran Berry to the Nuvema Town board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 0,
+   "settlement": "Nuvema Town"
+  },
+  {
+   "board_id": "nuvema_town",
+   "id": "nuvema_town_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Lillipup",
+    "portrait": "0506",
+    "species": "lillipup"
+   },
+   "reward": {
+    "items": {},
+    "money": 700,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "route_1_unova",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Lillipup is lost — reach Route_1_Unova and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 0,
+   "settlement": "Nuvema Town"
+  },
+  {
+   "board_id": "nuvema_town",
+   "id": "nuvema_town_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Neighbor Elba",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 400,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "grassland",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a grassland habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 0,
+   "settlement": "Nuvema Town"
+  },
+  {
+   "board_id": "nuvema_town",
+   "id": "nuvema_town_field_cut",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Scout Bram",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 350,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "cut",
+    "count": 2,
+    "target": "cut",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Cut in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 0,
+   "settlement": "Nuvema Town"
+  },
+  {
+   "board_id": "accumula_town",
+   "id": "accumula_town_catch_patrat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Clerk Tamsin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 450,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "patrat",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Patrat near Accumula Town",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 0,
+   "settlement": "Accumula Town"
+  },
+  {
+   "board_id": "accumula_town",
+   "id": "accumula_town_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Musician Mio",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 300,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Accumula Town: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 0,
+   "settlement": "Accumula Town"
+  },
+  {
+   "board_id": "accumula_town",
+   "id": "accumula_town_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Angler Colm",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 220,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Accumula Town",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 0,
+   "settlement": "Accumula Town"
+  },
+  {
+   "board_id": "accumula_town",
+   "id": "accumula_town_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Clerk Tamsin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 220,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 0,
+   "settlement": "Accumula Town"
+  },
+  {
+   "board_id": "accumula_town",
+   "id": "accumula_town_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Musician Mio",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 280,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 800,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 800 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 0,
+   "settlement": "Accumula Town"
+  },
+  {
+   "board_id": "accumula_town",
+   "id": "accumula_town_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Angler Colm",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 2
+    },
+    "money": 450,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Accumula Town: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 0,
+   "settlement": "Accumula Town"
+  },
+  {
+   "board_id": "accumula_town",
+   "id": "accumula_town_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Clerk Tamsin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 1
+    },
+    "money": 380,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "pecha-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Pecha Berry to the Accumula Town board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 0,
+   "settlement": "Accumula Town"
+  },
+  {
+   "board_id": "accumula_town",
+   "id": "accumula_town_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Lillipup",
+    "portrait": "0506",
+    "species": "lillipup"
+   },
+   "reward": {
+    "items": {},
+    "money": 700,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "route_2_unova",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Lillipup is lost — reach Route_2_Unova and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 0,
+   "settlement": "Accumula Town"
+  },
+  {
+   "board_id": "accumula_town",
+   "id": "accumula_town_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Musician Mio",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 400,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "grassland",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a grassland habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 0,
+   "settlement": "Accumula Town"
+  },
+  {
+   "board_id": "accumula_town",
+   "id": "accumula_town_vexa",
+   "kind": "job",
+   "rank_min": 1,
+   "region_id": "unova",
+   "requester": {
+    "name": "Angler Colm",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 550,
+    "rank_points": 15
+   },
+   "task": {
+    "count": 1,
+    "target": "singles",
+    "type": "vexa_clear"
+   },
+   "title": "VEXA contract (Accumula Town): clear a singles simulation",
+   "window": {},
+   "source_label": "pattern: GO field research (battle task) on the VEXA sim",
+   "level_band": 0,
+   "settlement": "Accumula Town"
+  },
+  {
+   "board_id": "striaton_city",
+   "id": "striaton_city_catch_patrat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Restaurant Aide Bel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 610,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "patrat",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Patrat near Striaton City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 1,
+   "settlement": "Striaton City"
+  },
+  {
+   "board_id": "striaton_city",
+   "id": "striaton_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Dream Researcher Rue",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 400,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Striaton City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 1,
+   "settlement": "Striaton City"
+  },
+  {
+   "board_id": "striaton_city",
+   "id": "striaton_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Clerk Ana",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 300,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Striaton City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 1,
+   "settlement": "Striaton City"
+  },
+  {
+   "board_id": "striaton_city",
+   "id": "striaton_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Restaurant Aide Bel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 300,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 1,
+   "settlement": "Striaton City"
+  },
+  {
+   "board_id": "striaton_city",
+   "id": "striaton_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Dream Researcher Rue",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 370,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1000,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1000 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 1,
+   "settlement": "Striaton City"
+  },
+  {
+   "board_id": "striaton_city",
+   "id": "striaton_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Clerk Ana",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "potion": 1
+    },
+    "money": 610,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Striaton City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 1,
+   "settlement": "Striaton City"
+  },
+  {
+   "board_id": "striaton_city",
+   "id": "striaton_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Restaurant Aide Bel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "poke-ball": 2
+    },
+    "money": 510,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "chesto-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Chesto Berry to the Striaton City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 1,
+   "settlement": "Striaton City"
+  },
+  {
+   "board_id": "striaton_city",
+   "id": "striaton_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Lillipup",
+    "portrait": "0506",
+    "species": "lillipup"
+   },
+   "reward": {
+    "items": {},
+    "money": 950,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "dreamyard",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Lillipup is lost — reach Dreamyard and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 1,
+   "settlement": "Striaton City"
+  },
+  {
+   "board_id": "striaton_city",
+   "id": "striaton_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Dream Researcher Rue",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 540,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "urban",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit an urban habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 1,
+   "settlement": "Striaton City"
+  },
+  {
+   "board_id": "striaton_city",
+   "id": "striaton_city_rain_catch",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Restaurant Aide Bel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 710,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "pansage",
+    "type": "catch"
+   },
+   "title": "Rainy-day study: catch a Pansage in the rain",
+   "window": {
+    "kind": "weather",
+    "value": "rain"
+   },
+   "source_label": "pattern: GO weather-window field research",
+   "level_band": 1,
+   "settlement": "Striaton City"
+  },
+  {
+   "board_id": "nacrene_city",
+   "id": "nacrene_city_catch_roggenrola",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Museum Aide Pia",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 760,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "roggenrola",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Roggenrola near Nacrene City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 2,
+   "settlement": "Nacrene City"
+  },
+  {
+   "board_id": "nacrene_city",
+   "id": "nacrene_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Artist Fern",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 510,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Nacrene City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 2,
+   "settlement": "Nacrene City"
+  },
+  {
+   "board_id": "nacrene_city",
+   "id": "nacrene_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Warehouse Clerk Dov",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 380,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Nacrene City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 2,
+   "settlement": "Nacrene City"
+  },
+  {
+   "board_id": "nacrene_city",
+   "id": "nacrene_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Museum Aide Pia",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 380,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 2,
+   "settlement": "Nacrene City"
+  },
+  {
+   "board_id": "nacrene_city",
+   "id": "nacrene_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Artist Fern",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 470,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1200,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1200 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 2,
+   "settlement": "Nacrene City"
+  },
+  {
+   "board_id": "nacrene_city",
+   "id": "nacrene_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Warehouse Clerk Dov",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "great-ball": 2
+    },
+    "money": 760,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Nacrene City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 2,
+   "settlement": "Nacrene City"
+  },
+  {
+   "board_id": "nacrene_city",
+   "id": "nacrene_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Museum Aide Pia",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "super-potion": 1
+    },
+    "money": 640,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "aspear-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Aspear Berry to the Nacrene City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 2,
+   "settlement": "Nacrene City"
+  },
+  {
+   "board_id": "nacrene_city",
+   "id": "nacrene_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Woobat",
+    "portrait": "0527",
+    "species": "woobat"
+   },
+   "reward": {
+    "items": {},
+    "money": 1190,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "pinwheel_forest",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Woobat is lost — reach Pinwheel_Forest and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 2,
+   "settlement": "Nacrene City"
+  },
+  {
+   "board_id": "nacrene_city",
+   "id": "nacrene_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Artist Fern",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 680,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "urban",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit an urban habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 2,
+   "settlement": "Nacrene City"
+  },
+  {
+   "board_id": "nacrene_city",
+   "id": "nacrene_city_catch_pidove_b",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Artist Fern",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 760,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "pidove",
+    "type": "catch"
+   },
+   "title": "Local notes: catch 2 Pidove for the board",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 2,
+   "settlement": "Nacrene City"
+  },
+  {
+   "board_id": "castelia_city",
+   "id": "castelia_city_catch_pidove",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Harbor Clerk Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 920,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "pidove",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Pidove near Castelia City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 3,
+   "settlement": "Castelia City"
+  },
+  {
+   "board_id": "castelia_city",
+   "id": "castelia_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Cafe Owner Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 620,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Castelia City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 3,
+   "settlement": "Castelia City"
+  },
+  {
+   "board_id": "castelia_city",
+   "id": "castelia_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Office Aide Tomo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 460,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Castelia City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 3,
+   "settlement": "Castelia City"
+  },
+  {
+   "board_id": "castelia_city",
+   "id": "castelia_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Harbor Clerk Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 460,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 3,
+   "settlement": "Castelia City"
+  },
+  {
+   "board_id": "castelia_city",
+   "id": "castelia_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Cafe Owner Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 560,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1400,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1400 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 3,
+   "settlement": "Castelia City"
+  },
+  {
+   "board_id": "castelia_city",
+   "id": "castelia_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Office Aide Tomo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "super-potion": 1
+    },
+    "money": 920,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Castelia City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 3,
+   "settlement": "Castelia City"
+  },
+  {
+   "board_id": "castelia_city",
+   "id": "castelia_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Harbor Clerk Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "antidote": 2
+    },
+    "money": 770,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "persim-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Persim Berry to the Castelia City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 3,
+   "settlement": "Castelia City"
+  },
+  {
+   "board_id": "castelia_city",
+   "id": "castelia_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Sewaddle",
+    "portrait": "0540",
+    "species": "sewaddle"
+   },
+   "reward": {
+    "items": {},
+    "money": 1430,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "castelia_sewers",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Sewaddle is lost — reach Castelia_Sewers and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 3,
+   "settlement": "Castelia City"
+  },
+  {
+   "board_id": "castelia_city",
+   "id": "castelia_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Cafe Owner Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 820,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "urban",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit an urban habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 3,
+   "settlement": "Castelia City"
+  },
+  {
+   "board_id": "castelia_city",
+   "id": "castelia_city_field_illuminate",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Office Aide Tomo",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 720,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "illuminate",
+    "count": 2,
+    "target": "illuminate",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Illuminate in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 3,
+   "settlement": "Castelia City"
+  },
+  {
+   "board_id": "nimbasa_city",
+   "id": "nimbasa_city_catch_blitzle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Stadium Clerk Fos",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1080,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "blitzle",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Blitzle near Nimbasa City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 4,
+   "settlement": "Nimbasa City"
+  },
+  {
+   "board_id": "nimbasa_city",
+   "id": "nimbasa_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Model Scout Kae",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 720,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Nimbasa City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 4,
+   "settlement": "Nimbasa City"
+  },
+  {
+   "board_id": "nimbasa_city",
+   "id": "nimbasa_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Engineer Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 540,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Nimbasa City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 4,
+   "settlement": "Nimbasa City"
+  },
+  {
+   "board_id": "nimbasa_city",
+   "id": "nimbasa_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Stadium Clerk Fos",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 540,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 4,
+   "settlement": "Nimbasa City"
+  },
+  {
+   "board_id": "nimbasa_city",
+   "id": "nimbasa_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Model Scout Kae",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 660,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1600,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1600 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 4,
+   "settlement": "Nimbasa City"
+  },
+  {
+   "board_id": "nimbasa_city",
+   "id": "nimbasa_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Engineer Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "great-ball": 2
+    },
+    "money": 1080,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Nimbasa City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 4,
+   "settlement": "Nimbasa City"
+  },
+  {
+   "board_id": "nimbasa_city",
+   "id": "nimbasa_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Stadium Clerk Fos",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 900,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "lum-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Lum Berry to the Nimbasa City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 4,
+   "settlement": "Nimbasa City"
+  },
+  {
+   "board_id": "nimbasa_city",
+   "id": "nimbasa_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Emolga",
+    "portrait": "0587",
+    "species": "emolga"
+   },
+   "reward": {
+    "items": {},
+    "money": 1680,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "desert_resort",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: an Emolga is lost — reach Desert_Resort and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 4,
+   "settlement": "Nimbasa City"
+  },
+  {
+   "board_id": "nimbasa_city",
+   "id": "nimbasa_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Model Scout Kae",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 960,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "urban",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit an urban habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 4,
+   "settlement": "Nimbasa City"
+  },
+  {
+   "board_id": "nimbasa_city",
+   "id": "nimbasa_city_vexa",
+   "kind": "job",
+   "rank_min": 1,
+   "region_id": "unova",
+   "requester": {
+    "name": "Engineer Haldor",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1320,
+    "rank_points": 15
+   },
+   "task": {
+    "count": 1,
+    "target": "singles",
+    "type": "vexa_clear"
+   },
+   "title": "VEXA contract (Nimbasa City): clear a singles simulation",
+   "window": {},
+   "source_label": "pattern: GO field research (battle task) on the VEXA sim",
+   "level_band": 4,
+   "settlement": "Nimbasa City"
+  },
+  {
+   "board_id": "driftveil_city",
+   "id": "driftveil_city_catch_drilbur",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Market Seller Edda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1240,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "drilbur",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Drilbur near Driftveil City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 5,
+   "settlement": "Driftveil City"
+  },
+  {
+   "board_id": "driftveil_city",
+   "id": "driftveil_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Dock Hand Rurik",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 820,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Driftveil City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 5,
+   "settlement": "Driftveil City"
+  },
+  {
+   "board_id": "driftveil_city",
+   "id": "driftveil_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Bridge Clerk Sef",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 620,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Driftveil City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 5,
+   "settlement": "Driftveil City"
+  },
+  {
+   "board_id": "driftveil_city",
+   "id": "driftveil_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Market Seller Edda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 620,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 5,
+   "settlement": "Driftveil City"
+  },
+  {
+   "board_id": "driftveil_city",
+   "id": "driftveil_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Dock Hand Rurik",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 760,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1800,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1800 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 5,
+   "settlement": "Driftveil City"
+  },
+  {
+   "board_id": "driftveil_city",
+   "id": "driftveil_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Bridge Clerk Sef",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 1240,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Driftveil City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 5,
+   "settlement": "Driftveil City"
+  },
+  {
+   "board_id": "driftveil_city",
+   "id": "driftveil_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Market Seller Edda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "full-heal": 2
+    },
+    "money": 1030,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "pecha-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Pecha Berry to the Driftveil City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 5,
+   "settlement": "Driftveil City"
+  },
+  {
+   "board_id": "driftveil_city",
+   "id": "driftveil_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Timburr",
+    "portrait": "0532",
+    "species": "timburr"
+   },
+   "reward": {
+    "items": {},
+    "money": 1920,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "cold_storage_unova",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Timburr is lost — reach Cold_Storage_Unova and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 5,
+   "settlement": "Driftveil City"
+  },
+  {
+   "board_id": "driftveil_city",
+   "id": "driftveil_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Dock Hand Rurik",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1100,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "urban",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit an urban habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 5,
+   "settlement": "Driftveil City"
+  },
+  {
+   "board_id": "driftveil_city",
+   "id": "driftveil_city_rain_catch",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Market Seller Edda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1440,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "minccino",
+    "type": "catch"
+   },
+   "title": "Rainy-day study: catch a Minccino in the rain",
+   "window": {
+    "kind": "weather",
+    "value": "rain"
+   },
+   "source_label": "pattern: GO weather-window field research",
+   "level_band": 5,
+   "settlement": "Driftveil City"
+  },
+  {
+   "board_id": "mistralton_city",
+   "id": "mistralton_city_catch_ducklett",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Pilot Aide Ula",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1390,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "ducklett",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Ducklett near Mistralton City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 6,
+   "settlement": "Mistralton City"
+  },
+  {
+   "board_id": "mistralton_city",
+   "id": "mistralton_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Tower Keeper Soma",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 930,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Mistralton City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 6,
+   "settlement": "Mistralton City"
+  },
+  {
+   "board_id": "mistralton_city",
+   "id": "mistralton_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Cargo Clerk Lio",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 700,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Mistralton City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 6,
+   "settlement": "Mistralton City"
+  },
+  {
+   "board_id": "mistralton_city",
+   "id": "mistralton_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Pilot Aide Ula",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 700,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 6,
+   "settlement": "Mistralton City"
+  },
+  {
+   "board_id": "mistralton_city",
+   "id": "mistralton_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Tower Keeper Soma",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 850,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2000,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2000 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 6,
+   "settlement": "Mistralton City"
+  },
+  {
+   "board_id": "mistralton_city",
+   "id": "mistralton_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Cargo Clerk Lio",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1390,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Mistralton City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 6,
+   "settlement": "Mistralton City"
+  },
+  {
+   "board_id": "mistralton_city",
+   "id": "mistralton_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Pilot Aide Ula",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 1160,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "chesto-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Chesto Berry to the Mistralton City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 6,
+   "settlement": "Mistralton City"
+  },
+  {
+   "board_id": "mistralton_city",
+   "id": "mistralton_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Swanna",
+    "portrait": "0581",
+    "species": "swanna"
+   },
+   "reward": {
+    "items": {},
+    "money": 2170,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "celestial_tower",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Swanna is lost — reach Celestial_Tower and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 6,
+   "settlement": "Mistralton City"
+  },
+  {
+   "board_id": "mistralton_city",
+   "id": "mistralton_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Tower Keeper Soma",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1240,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "grassland",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a grassland habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 6,
+   "settlement": "Mistralton City"
+  },
+  {
+   "board_id": "mistralton_city",
+   "id": "mistralton_city_catch_emolga_b",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Tower Keeper Soma",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1390,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "emolga",
+    "type": "catch"
+   },
+   "title": "Local notes: catch 2 Emolga for the board",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 6,
+   "settlement": "Mistralton City"
+  },
+  {
+   "board_id": "icirrus_city",
+   "id": "icirrus_city_catch_vanillite",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Fan Club Chair Pem",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "vanillite",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Vanillite near Icirrus City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 7,
+   "settlement": "Icirrus City"
+  },
+  {
+   "board_id": "icirrus_city",
+   "id": "icirrus_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Angler Dario",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1040,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Icirrus City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 7,
+   "settlement": "Icirrus City"
+  },
+  {
+   "board_id": "icirrus_city",
+   "id": "icirrus_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Historian Yara",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 780,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Icirrus City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 7,
+   "settlement": "Icirrus City"
+  },
+  {
+   "board_id": "icirrus_city",
+   "id": "icirrus_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Fan Club Chair Pem",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 780,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 7,
+   "settlement": "Icirrus City"
+  },
+  {
+   "board_id": "icirrus_city",
+   "id": "icirrus_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Angler Dario",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 950,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2200,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2200 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 7,
+   "settlement": "Icirrus City"
+  },
+  {
+   "board_id": "icirrus_city",
+   "id": "icirrus_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Historian Yara",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "max-potion": 1
+    },
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Icirrus City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 7,
+   "settlement": "Icirrus City"
+  },
+  {
+   "board_id": "icirrus_city",
+   "id": "icirrus_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Fan Club Chair Pem",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1290,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "aspear-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Aspear Berry to the Icirrus City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 7,
+   "settlement": "Icirrus City"
+  },
+  {
+   "board_id": "icirrus_city",
+   "id": "icirrus_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Cubchoo",
+    "portrait": "0613",
+    "species": "cubchoo"
+   },
+   "reward": {
+    "items": {},
+    "money": 2420,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "dragonspiral_tower",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Cubchoo is lost — reach Dragonspiral_Tower and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 7,
+   "settlement": "Icirrus City"
+  },
+  {
+   "board_id": "icirrus_city",
+   "id": "icirrus_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Angler Dario",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1380,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "waters-edge",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a waters-edge habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 7,
+   "settlement": "Icirrus City"
+  },
+  {
+   "board_id": "icirrus_city",
+   "id": "icirrus_city_field_rock_smash",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Historian Yara",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1210,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "rock_smash",
+    "count": 2,
+    "target": "rock_smash",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Rock_Smash in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 7,
+   "settlement": "Icirrus City"
+  },
+  {
+   "board_id": "opelucid_city",
+   "id": "opelucid_city_catch_axew",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Elder's Aide Asha",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "axew",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Axew near Opelucid City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 7,
+   "settlement": "Opelucid City"
+  },
+  {
+   "board_id": "opelucid_city",
+   "id": "opelucid_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Mall Clerk Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1040,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Opelucid City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 7,
+   "settlement": "Opelucid City"
+  },
+  {
+   "board_id": "opelucid_city",
+   "id": "opelucid_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Guide Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 780,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Opelucid City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 7,
+   "settlement": "Opelucid City"
+  },
+  {
+   "board_id": "opelucid_city",
+   "id": "opelucid_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Elder's Aide Asha",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 780,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 7,
+   "settlement": "Opelucid City"
+  },
+  {
+   "board_id": "opelucid_city",
+   "id": "opelucid_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Mall Clerk Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 950,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2200,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2200 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 7,
+   "settlement": "Opelucid City"
+  },
+  {
+   "board_id": "opelucid_city",
+   "id": "opelucid_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Guide Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Opelucid City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 7,
+   "settlement": "Opelucid City"
+  },
+  {
+   "board_id": "opelucid_city",
+   "id": "opelucid_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Elder's Aide Asha",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "max-potion": 1
+    },
+    "money": 1290,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "leppa-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Leppa Berry to the Opelucid City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 7,
+   "settlement": "Opelucid City"
+  },
+  {
+   "board_id": "opelucid_city",
+   "id": "opelucid_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Deino",
+    "portrait": "0633",
+    "species": "deino"
+   },
+   "reward": {
+    "items": {},
+    "money": 2420,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "route_9_unova",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Deino is lost — reach Route_9_Unova and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 7,
+   "settlement": "Opelucid City"
+  },
+  {
+   "board_id": "opelucid_city",
+   "id": "opelucid_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Mall Clerk Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1380,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "urban",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit an urban habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 7,
+   "settlement": "Opelucid City"
+  },
+  {
+   "board_id": "opelucid_city",
+   "id": "opelucid_city_vexa",
+   "kind": "job",
+   "rank_min": 1,
+   "region_id": "unova",
+   "requester": {
+    "name": "Guide Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1900,
+    "rank_points": 15
+   },
+   "task": {
+    "count": 1,
+    "target": "singles",
+    "type": "vexa_clear"
+   },
+   "title": "VEXA contract (Opelucid City): clear a singles simulation",
+   "window": {},
+   "source_label": "pattern: GO field research (battle task) on the VEXA sim",
+   "level_band": 7,
+   "settlement": "Opelucid City"
+  },
+  {
+   "board_id": "lacunosa_town",
+   "id": "lacunosa_town_catch_solosis",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Storyteller Sanna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "solosis",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Solosis near Lacunosa Town",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 8,
+   "settlement": "Lacunosa Town"
+  },
+  {
+   "board_id": "lacunosa_town",
+   "id": "lacunosa_town_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Night Watch Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1140,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Lacunosa Town: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 8,
+   "settlement": "Lacunosa Town"
+  },
+  {
+   "board_id": "lacunosa_town",
+   "id": "lacunosa_town_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Clerk Bel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 860,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Lacunosa Town",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 8,
+   "settlement": "Lacunosa Town"
+  },
+  {
+   "board_id": "lacunosa_town",
+   "id": "lacunosa_town_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Storyteller Sanna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 860,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 8,
+   "settlement": "Lacunosa Town"
+  },
+  {
+   "board_id": "lacunosa_town",
+   "id": "lacunosa_town_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Night Watch Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1040,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2400,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2400 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 8,
+   "settlement": "Lacunosa Town"
+  },
+  {
+   "board_id": "lacunosa_town",
+   "id": "lacunosa_town_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Clerk Bel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 1
+    },
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Lacunosa Town: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 8,
+   "settlement": "Lacunosa Town"
+  },
+  {
+   "board_id": "lacunosa_town",
+   "id": "lacunosa_town_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Storyteller Sanna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "revive": 2
+    },
+    "money": 1420,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "sitrus-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Sitrus Berry to the Lacunosa Town board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 8,
+   "settlement": "Lacunosa Town"
+  },
+  {
+   "board_id": "lacunosa_town",
+   "id": "lacunosa_town_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Gothita",
+    "portrait": "0574",
+    "species": "gothita"
+   },
+   "reward": {
+    "items": {},
+    "money": 2660,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "giant_chasm",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Gothita is lost — reach Giant_Chasm and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 8,
+   "settlement": "Lacunosa Town"
+  },
+  {
+   "board_id": "lacunosa_town",
+   "id": "lacunosa_town_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Night Watch Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1520,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "urban",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit an urban habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 8,
+   "settlement": "Lacunosa Town"
+  },
+  {
+   "board_id": "lacunosa_town",
+   "id": "lacunosa_town_rain_catch",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Storyteller Sanna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 2000,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "litwick",
+    "type": "catch"
+   },
+   "title": "Rainy-day study: catch a Litwick in the rain",
+   "window": {
+    "kind": "weather",
+    "value": "rain"
+   },
+   "source_label": "pattern: GO weather-window field research",
+   "level_band": 8,
+   "settlement": "Lacunosa Town"
+  },
+  {
+   "board_id": "undella_town",
+   "id": "undella_town_catch_frillish",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Diver Leda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "frillish",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Frillish near Undella Town",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 8,
+   "settlement": "Undella Town"
+  },
+  {
+   "board_id": "undella_town",
+   "id": "undella_town_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Resort Clerk Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1140,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Undella Town: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 8,
+   "settlement": "Undella Town"
+  },
+  {
+   "board_id": "undella_town",
+   "id": "undella_town_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Fisher Maren",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 860,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Undella Town",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 8,
+   "settlement": "Undella Town"
+  },
+  {
+   "board_id": "undella_town",
+   "id": "undella_town_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Diver Leda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 860,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 8,
+   "settlement": "Undella Town"
+  },
+  {
+   "board_id": "undella_town",
+   "id": "undella_town_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Resort Clerk Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1040,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2400,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2400 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 8,
+   "settlement": "Undella Town"
+  },
+  {
+   "board_id": "undella_town",
+   "id": "undella_town_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Fisher Maren",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "revive": 2
+    },
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Undella Town: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 8,
+   "settlement": "Undella Town"
+  },
+  {
+   "board_id": "undella_town",
+   "id": "undella_town_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Diver Leda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "full-restore": 1
+    },
+    "money": 1420,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "lum-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Lum Berry to the Undella Town board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 8,
+   "settlement": "Undella Town"
+  },
+  {
+   "board_id": "undella_town",
+   "id": "undella_town_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Alomomola",
+    "portrait": "0594",
+    "species": "alomomola"
+   },
+   "reward": {
+    "items": {},
+    "money": 2660,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "undella_bay",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: an Alomomola is lost — reach Undella_Bay and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 8,
+   "settlement": "Undella Town"
+  },
+  {
+   "board_id": "undella_town",
+   "id": "undella_town_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Resort Clerk Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1520,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "sea",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a sea habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 8,
+   "settlement": "Undella Town"
+  },
+  {
+   "board_id": "undella_town",
+   "id": "undella_town_catch_corsola_b",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Resort Clerk Mira",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "corsola",
+    "type": "catch"
+   },
+   "title": "Local notes: catch 2 Corsola for the board",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 8,
+   "settlement": "Undella Town"
+  },
+  {
+   "board_id": "humilau_city",
+   "id": "humilau_city_catch_frillish",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Gym Aide Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "frillish",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Frillish near Humilau City",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 8,
+   "settlement": "Humilau City"
+  },
+  {
+   "board_id": "humilau_city",
+   "id": "humilau_city_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Diver Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1140,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Humilau City: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 8,
+   "settlement": "Humilau City"
+  },
+  {
+   "board_id": "humilau_city",
+   "id": "humilau_city_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Ferry Clerk Ana",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 860,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Humilau City",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 8,
+   "settlement": "Humilau City"
+  },
+  {
+   "board_id": "humilau_city",
+   "id": "humilau_city_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Gym Aide Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 860,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 8,
+   "settlement": "Humilau City"
+  },
+  {
+   "board_id": "humilau_city",
+   "id": "humilau_city_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Diver Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1040,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2400,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2400 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 8,
+   "settlement": "Humilau City"
+  },
+  {
+   "board_id": "humilau_city",
+   "id": "humilau_city_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Ferry Clerk Ana",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "full-restore": 1
+    },
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Humilau City: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 8,
+   "settlement": "Humilau City"
+  },
+  {
+   "board_id": "humilau_city",
+   "id": "humilau_city_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Gym Aide Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1420,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "oran-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Oran Berry to the Humilau City board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 8,
+   "settlement": "Humilau City"
+  },
+  {
+   "board_id": "humilau_city",
+   "id": "humilau_city_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Mantyke",
+    "portrait": "0458",
+    "species": "mantyke"
+   },
+   "reward": {
+    "items": {},
+    "money": 2660,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "route_22_unova",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Mantyke is lost — reach Route_22_Unova and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 8,
+   "settlement": "Humilau City"
+  },
+  {
+   "board_id": "humilau_city",
+   "id": "humilau_city_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Diver Osk",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1520,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "sea",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a sea habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 8,
+   "settlement": "Humilau City"
+  },
+  {
+   "board_id": "humilau_city",
+   "id": "humilau_city_field_strength",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "unova",
+   "requester": {
+    "name": "Ferry Clerk Ana",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1330,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "strength",
+    "count": 2,
+    "target": "strength",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Strength in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 8,
+   "settlement": "Humilau City"
+  }
+ ],
+ "special_chains": [
+  {
+   "board_id": "nuvema_town",
+   "id": "nuvema_town_chain_helper",
+   "posted_by": "Lab Aide Sora",
+   "region_id": "unova",
+   "reward": {
+    "items": {
+     "potion": 1
+    },
+    "money": 700,
+    "rank_points": 30
+   },
+   "steps": [
+    {
+     "count": 1,
+     "target": "patrat",
+     "title": "Step 1: catch a Patrat for a local study",
+     "type": "catch"
+    },
+    {
+     "count": 1,
+     "target": "",
+     "title": "Step 2: win a battle to check its condition",
+     "type": "battle_win"
+    },
+    {
+     "action": "groom",
+     "count": 1,
+     "target": "",
+     "title": "Step 3: groom your follower to finish the check-in",
+     "type": "care"
+    }
+   ],
+   "title": "Nuvema Town helper",
+   "unlock": {
+    "flag": "",
+    "min_rank": 0
+   },
+   "source_label": "pattern: GO special research chain on a PMD board",
+   "level_band": 0,
+   "settlement": "Nuvema Town"
+  },
+  {
+   "board_id": "driftveil_city",
+   "id": "driftveil_city_chain_rounds",
+   "posted_by": "Dock Hand Rurik",
+   "region_id": "unova",
+   "reward": {
+    "items": {
+     "full-heal": 2
+    },
+    "money": 1920,
+    "rank_points": 30
+   },
+   "steps": [
+    {
+     "count": 500,
+     "target": "",
+     "title": "Step 1: walk 500 steps on patrol",
+     "type": "walk"
+    },
+    {
+     "count": 1,
+     "target": "urban",
+     "title": "Step 2: visit the local habitat",
+     "type": "habitat"
+    },
+    {
+     "count": 2,
+     "target": "",
+     "title": "Step 3: win 2 battles on the round",
+     "type": "battle_win"
+    }
+   ],
+   "title": "Rounds of Driftveil City",
+   "unlock": {
+    "flag": "",
+    "min_rank": 1
+   },
+   "source_label": "pattern: GO special research chain on a PMD board",
+   "level_band": 5,
+   "settlement": "Driftveil City"
+  },
+  {
+   "board_id": "humilau_city",
+   "id": "humilau_city_chain_lost_and_found",
+   "posted_by": "Ferry Clerk Ana",
+   "region_id": "unova",
+   "reward": {
+    "items": {
+     "ultra-ball": 1
+    },
+    "money": 2660,
+    "rank_points": 30
+   },
+   "steps": [
+    {
+     "count": 1,
+     "target": "cheri-berry",
+     "title": "Step 1: bring the board a berry",
+     "type": "deliver"
+    },
+    {
+     "count": 1,
+     "target": "wailmer",
+     "title": "Step 2: catch a Wailmer seen near the lost spot",
+     "type": "catch"
+    },
+    {
+     "count": 1,
+     "target": "",
+     "title": "Step 3: win a battle to clear the way home",
+     "type": "battle_win"
+    }
+   ],
+   "title": "Lost and found in Humilau City",
+   "unlock": {
+    "flag": "",
+    "min_rank": 2
+   },
+   "source_label": "pattern: GO special research chain on a PMD board",
+   "level_band": 8,
+   "settlement": "Humilau City"
+  }
+ ]
+}

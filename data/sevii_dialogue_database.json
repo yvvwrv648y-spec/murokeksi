@@ -1,0 +1,1139 @@
+{
+ "groups": {
+  "FiveIsland": {
+   "entries": {
+    "FiveIsland_Text_BeenGettingBusierAroundHere": "It's been getting busier around\nthese parts lately.\n\nI haven't been catching many good\nfish lately, either.",
+    "FiveIsland_Text_IslandSign": "FIVE ISLAND\nChrono Island: Where Time Goes",
+    "FiveIsland_Text_WeirdBuildingInMeadow": "Oh, this stinks. I wanted to play in\nthe MEADOW.\n\nBut they put up a weird building\non it, so I can't play there."
+   },
+   "source_file": "data/maps/FiveIsland/text.inc"
+  },
+  "FiveIsland_House1": {
+   "entries": {
+    "FiveIsland_House1_Text_HusbandWentOffFishing": "Don't worry about buying anything\nfor dinner tonight!\n\n…That's what my husband said when\nhe went off fishing today.\n\nI'm not sure if I can count on him\nto live up to that promise."
+   },
+   "source_file": "data/maps/FiveIsland_House1/text.inc"
+  },
+  "FiveIsland_House2": {
+   "entries": {
+    "FiveIsland_House2_Text_MeadowBelongedToFamily": "That MEADOW has belonged to our\nfamily for generations.\n\nI should have had a giant mansion\nbuilt on it.\n\nIt would be preferable to having\nthose thugs run wild on it!"
+   },
+   "source_file": "data/maps/FiveIsland_House2/text.inc"
+  },
+  "FiveIsland_LostCave_Room1": {
+   "entries": {
+    "FiveIsland_LostCave_Room1_Text_LawsonDefeat": "Aiyeeeeeh!\nMercy!",
+    "FiveIsland_LostCave_Room1_Text_LawsonIntro": "Aiyeeeeeh!\n\nI thought this was an ancient ruin.\nBut it's teeming with ghosts!",
+    "FiveIsland_LostCave_Room1_Text_LawsonPostBattle": "I'm trying to get out of here, but\nI always end up at the same spot.\n\nMaybe the number of boulders is\na hint…"
+   },
+   "source_file": "data/maps/FiveIsland_LostCave_Room1/text.inc"
+  },
+  "FiveIsland_LostCave_Room4": {
+   "entries": {
+    "FiveIsland_LostCave_Room4_Text_LauraDefeat": "If you don't go into the right\ntunnel, you won't get ahead.",
+    "FiveIsland_LostCave_Room4_Text_LauraIntro": "I think there is a mysterious power\nat work in this cave.",
+    "FiveIsland_LostCave_Room4_Text_LauraPostBattle": "Earlier, a lady went into the caves\nahead."
+   },
+   "source_file": "data/maps/FiveIsland_LostCave_Room4/text.inc"
+  },
+  "FiveIsland_Meadow": {
+   "entries": {
+    "FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded": "{PLAYER} entered a password.\n\n“GOLDEEN need log.”\n\n… …  … …  … …\n\nAnother password is needed to\nopen the door…",
+    "FiveIsland_Meadow_Text_EnteredPasswordDoorOpened": "{PLAYER} entered two passwords.\n\n“GOLDEEN need log.”\n“Yes, nah, CHANSEY.”\n\n… …  … …  … …\n\nThe WAREHOUSE's door opened!",
+    "FiveIsland_Meadow_Text_Rocket1Defeat": "Is this for real?",
+    "FiveIsland_Meadow_Text_Rocket1Intro": "This area's strictly off-limits!\nOut, out!",
+    "FiveIsland_Meadow_Text_Rocket1PostBattle": "You don't have any business here!\nGo home!",
+    "FiveIsland_Meadow_Text_Rocket2Defeat": "That wasn't supposed to happen…",
+    "FiveIsland_Meadow_Text_Rocket2Intro": "There's nothing past here except\nour WAREHOUSE.\n\nSo what brings you here?",
+    "FiveIsland_Meadow_Text_Rocket2PostBattle": "You're wanting to know what's inside\nthis WAREHOUSE?\n\nIt's better you didn't know.\nFor your own sake, I mean.",
+    "FiveIsland_Meadow_Text_Rocket3Defeat": "Oh, that makes me furious!",
+    "FiveIsland_Meadow_Text_Rocket3Intro": "You'd be wasting time even if you\nwere to get by me.",
+    "FiveIsland_Meadow_Text_Rocket3PostBattle": "You won't be able to get in without\nthe passwords anyway.",
+    "FiveIsland_Meadow_Text_WarehouseDoorAlreadyOpen": "The WAREHOUSE's door is already\nopen."
+   },
+   "source_file": "data/maps/FiveIsland_Meadow/text.inc"
+  },
+  "FiveIsland_MemorialPillar": {
+   "entries": {
+    "FiveIsland_MemorialPillar_Text_BeGoodToYourMonsToo": "Please be good to your POKéMON,\ntoo.",
+    "FiveIsland_MemorialPillar_Text_ChazDefeat": "Flap, flap!",
+    "FiveIsland_MemorialPillar_Text_ChazIntro": "I'm the middle kid of the BIRD\nBROTHERS.\n\nThe best thing about birds…\nIt has to be the wings.",
+    "FiveIsland_MemorialPillar_Text_ChazPostBattle": "There was a really somber guy\nover that way.",
+    "FiveIsland_MemorialPillar_Text_DontHaveRoomForIt": "If you don't have room for it,\nI'll hold it for you till next time.",
+    "FiveIsland_MemorialPillar_Text_HaroldDefeat": "Down is so comfy…\nIt makes me drowsy…",
+    "FiveIsland_MemorialPillar_Text_HaroldIntro": "I'm the youngest of the BIRD\nBROTHERS.\n\nThe best thing about birds…\nIt has to be the down.",
+    "FiveIsland_MemorialPillar_Text_HaroldPostBattle": "It fills me with happiness when\nbird POKéMON beg playfully…",
+    "FiveIsland_MemorialPillar_Text_HereLiesTectonix": "Boulders and rocks are neatly piled\nup as a cairn.\n\n“Here lies TECTONIX” is engraved\non a boulder.",
+    "FiveIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering": "“Here lies TECTONIX” is engraved\non a boulder.\n\nThere is a LEMONADE placed as an\noffering in front of the grave.",
+    "FiveIsland_MemorialPillar_Text_LeaveAnotherLemonadeOffering": "Would you like to leave another\nLEMONADE as an offering?",
+    "FiveIsland_MemorialPillar_Text_MiloDefeat": "Oh, so sharp!",
+    "FiveIsland_MemorialPillar_Text_MiloIntro": "I'm the eldest of the BIRD\nBROTHERS.\n\nThe best thing about birds…\nIt has to be the beak.",
+    "FiveIsland_MemorialPillar_Text_MiloPostBattle": "You can fly to FOUR ISLAND from\nhere.",
+    "FiveIsland_MemorialPillar_Text_PlacedCanOfLemonade": "{PLAYER} placed a can of LEMONADE\nin front of the grave.",
+    "FiveIsland_MemorialPillar_Text_ScrubScrub": "Scrub, scrub…",
+    "FiveIsland_MemorialPillar_Text_ScrubScrubTectonix": "Scrub, scrub…\n\n… … …\nTECTONIX…",
+    "FiveIsland_MemorialPillar_Text_StillHaveThingAsMyThanks": "Oh, it's you from that time…\n\nI still have that thing I wanted\nyou to have as my thanks.",
+    "FiveIsland_MemorialPillar_Text_ThankYouPleaseTakeThis": "Th-thank you…\n\nThat was my TECTONIX's favorite\ndrink…\n\nI don't even know you, but your\nact of kindness…\n\nIt's uplifted me a little.\n\nCan you please take this as my\nthanks?",
+    "FiveIsland_MemorialPillar_Text_ThisIsWhereIBuriedMyOnix": "This is where I buried my ONIX…\nIt was named TECTONIX…",
+    "FiveIsland_MemorialPillar_Text_YourMonsLookHealthy": "Hello…\nYour POKéMON look healthy…"
+   },
+   "source_file": "data/maps/FiveIsland_MemorialPillar/text.inc"
+  },
+  "FiveIsland_PokemonCenter_1F": {
+   "entries": {
+    "FiveIsland_PokemonCenter_1F_Text_OnMyWayToPrepareMeal": "I'm on my way to prepare a meal\nfor a certain high-society person.",
+    "FiveIsland_PokemonCenter_1F_Text_YoureOnQuestToCatchEveryMon": "You're on a quest to catch every\nsingle kind of POKéMON?\n\n…How incredible. Please tell me if\nyou catch a strong one!"
+   },
+   "source_file": "data/maps/FiveIsland_PokemonCenter_1F/text.inc"
+  },
+  "FiveIsland_ResortGorgeous": {
+   "entries": {
+    "FiveIsland_ResortGorgeous_Text_CelinaDefeat": "This loss…\nI feel like I'm whiting out…",
+    "FiveIsland_ResortGorgeous_Text_CelinaIntro": "Excuse me!\nI'm trying to paint.\nPlease keep out of my sight!",
+    "FiveIsland_ResortGorgeous_Text_CelinaPostBattle": "GILLIAN?\nPlease tilt your head slightly…\nThere! That's the look I want!",
+    "FiveIsland_ResortGorgeous_Text_DaisyDefeat": "The shame of this…\nI'm red-faced…",
+    "FiveIsland_ResortGorgeous_Text_DaisyIntro": "With these hands, I will create\nmy victory!",
+    "FiveIsland_ResortGorgeous_Text_DaisyPostBattle": "Uh-oh, my paint tubes have\nscattered everywhere!",
+    "FiveIsland_ResortGorgeous_Text_DestinDefeat": "Oops!\nI rushed things!",
+    "FiveIsland_ResortGorgeous_Text_DestinIntro": "I'm a good runner.\nI'm really fast!",
+    "FiveIsland_ResortGorgeous_Text_DestinPostBattle": "When I run with the wind, it feels\nlike I could fly!",
+    "FiveIsland_ResortGorgeous_Text_GillianDefeat": "Oh, my goodness gracious!",
+    "FiveIsland_ResortGorgeous_Text_GillianIntro": "I'm thinking of having a pool\nmade specially for POKéMON.",
+    "FiveIsland_ResortGorgeous_Text_GillianPostBattle": "A pool would be nice, but I must\nsay, a sun-room may be sublime.",
+    "FiveIsland_ResortGorgeous_Text_JackiDefeat": "Oh, my, so strong.",
+    "FiveIsland_ResortGorgeous_Text_JackiIntro": "I am visiting my friend's retreat,\nif you must know.",
+    "FiveIsland_ResortGorgeous_Text_JackiPostBattle": "I find it pleasurable to leisurely\nbattle in the gentle sea breeze.",
+    "FiveIsland_ResortGorgeous_Text_RaynaDefeat": "Oh…\nMy feelings, they are blue…",
+    "FiveIsland_ResortGorgeous_Text_RaynaIntro": "Hmm…\nThe angle, it is not quite there…",
+    "FiveIsland_ResortGorgeous_Text_RaynaPostBattle": "The sky and the sea…\nThey are so fickle.\n\nTheir changing expressions make\nthem difficult to capture.",
+    "FiveIsland_ResortGorgeous_Text_SelphysHouse": "SELPHY'S HOUSE",
+    "FiveIsland_ResortGorgeous_Text_TobyDefeat": "That's a shocker!\nYou must be joking.",
+    "FiveIsland_ResortGorgeous_Text_TobyIntro": "I say, this marine life here at\nthis resort agrees with me.",
+    "FiveIsland_ResortGorgeous_Text_TobyPostBattle": "Getting so serious over this…\nHow nonsensical."
+   },
+   "source_file": "data/maps/FiveIsland_ResortGorgeous/text.inc"
+  },
+  "FiveIsland_ResortGorgeous_House": {
+   "entries": {
+    "FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull": "Butler: Your BAG appears to be\nunfortunately full.",
+    "FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid": "Butler: I shall do as you bid,\nmy lady.",
+    "FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks": "Butler: I sincerely thank you for\npleasing Lady SELPHY.\n\nPlease accept this as her thanks…",
+    "FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady": "Butler: Yes, my lady.",
+    "FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun": "Butler: The smile of Lady SELPHY\nhas the brilliance of the sun.\n\nPlease, I beg you to bring joy\nto Lady SELPHY.",
+    "FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou": "SELPHY: Oh, hello, there.\n\nOh, my gracious. That must be the\n{STR_VAR_1} you caught for me.\n\nGiggle…\nI see a resemblance to you.\n\nThank you so kindly.\n\n… …  … …  … …\nIs something the matter?\n\nYou may leave.\n\n… …  … …  … …\nOh, fine. I understand now.\n\nSEBASTIAN!\nI need you here this instant!",
+    "FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing": "Oh…\nHow disappointing.",
+    "FiveIsland_ResortGorgeous_House_Text_OhImTiredOfWaiting": "SELPHY: Oh, I'm tired of this.\nI'm tired of waiting for you.\n\nI'll forgive you this time, but\nplease don't fail me next time.",
+    "FiveIsland_ResortGorgeous_House_Text_PleaseHearMyWish": "SELPHY: Oh?\nDo I know you from somewhere?\n\nOh, but that doesn't matter.\n\nI am exquisitely bored.\nPlease, hear my wish.",
+    "FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation": "SELPHY: See to it that this person\nis given a token of appreciation.",
+    "FiveIsland_ResortGorgeous_House_Text_SelphyWishYouBestOfLuck": "SELPHY: I wish you the best of\nluck.",
+    "FiveIsland_ResortGorgeous_House_Text_WishToSeeMonPlease": "I wish to see a POKéMON.\nA darling {STR_VAR_1}.\n\nI want to see one right away.\nPlease, make my wish come true."
+   },
+   "source_file": "data/maps/FiveIsland_ResortGorgeous_House/text.inc"
+  },
+  "FiveIsland_RocketWarehouse": {
+   "entries": {
+    "FiveIsland_RocketWarehouse_Text_Admin1Defeat": "I…\nI'm shattered…",
+    "FiveIsland_RocketWarehouse_Text_Admin1Intro": "I don't know or care if what I'm\ndoing is right or wrong…\n\nI just put my faith in GIOVANNI\nand do as I am told.",
+    "FiveIsland_RocketWarehouse_Text_Admin2Defeat": "Urgh…\nYou were too strong…\n\n…\nTh-that's GIOVANNI's BADGE!\n\nSo it's true?\nTEAM ROCKET really has disbanded?",
+    "FiveIsland_RocketWarehouse_Text_Admin2Intro": "That's quite enough of you \nplaying the hero, kid.\n\nSpreading lies about how TEAM\nROCKET has disbanded…\n\nIt's such an obvious attempt to\ncause confusion in our ranks.\n\nFortunately, we're not so ignorant\nto fall for the lies of a child!\n\nAnd now, I'll show you how scary\nan angry adult can be!",
+    "FiveIsland_RocketWarehouse_Text_Admin2PostBattle": "We will abandon this WAREHOUSE…\n\nBut don't think this is over.\nI won't let this be the end.\n\nI will find GIOVANNI.\nAnd I will resurrect TEAM ROCKET!\nI will…\n\nUntil then, farewell!",
+    "FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe": "What do you want now?\nGo on, get lost, leave me be.",
+    "FiveIsland_RocketWarehouse_Text_GideonDefeat": "Gah! Darn!\nDarn! Darn!",
+    "FiveIsland_RocketWarehouse_Text_GideonIntro": "I almost managed to sell the\nSAPPHIRE for huge money…\n\nThen, you just had to come along\nand blow the whole deal apart!\n\nFufu… Fufufufu…\nThere's no forgiveness for you!",
+    "FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair": "What, you again?\n\nYou… You're not GIOVANNI's kid,\nare you?\n\nNo, that can't be right!\nGIOVANNI's kid has red hair.\n\nYou don't have any reasons for\nbugging me. Leave me alone!",
+    "FiveIsland_RocketWarehouse_Text_Grunt1Defeat": "Oh, but…\nToo much!",
+    "FiveIsland_RocketWarehouse_Text_Grunt1Intro": "Oh, now your POKéMON look strong.\nYou're willing to sell them?\n\nOh?\nYou wanted to battle?",
+    "FiveIsland_RocketWarehouse_Text_Grunt1PostBattle": "We can give you a great price.\nSell us your POKéMON!",
+    "FiveIsland_RocketWarehouse_Text_Grunt2Defeat": "What do you think you're doing?!",
+    "FiveIsland_RocketWarehouse_Text_Grunt2Intro": "Did you come here knowing it's\nTEAM ROCKET's WAREHOUSE?",
+    "FiveIsland_RocketWarehouse_Text_Grunt2PostBattle": "TEAM ROCKET broke up?\nWhat planet are you from?",
+    "FiveIsland_RocketWarehouse_Text_Grunt3Defeat": "Don't…you…dare…laugh…",
+    "FiveIsland_RocketWarehouse_Text_Grunt3Intro": "I got word about you from the\nothers.\n\nBut there's no way a kid like you'd\nknow our BOSS GIOVANNI!",
+    "FiveIsland_RocketWarehouse_Text_Grunt3PostBattle": "Don't mess in the doings of adults,\nyou jumped-up pip-squeak!",
+    "FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough": "I've made it so you can come back\nin through there.\n\nWhy don't you go get rested and\nrefreshed for what lies ahead?\n\nThe ADMIN after me outranks me\nthoroughly as a TRAINER.\n\nYou'd better steel yourself for one\nharsh challenge.",
+    "FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen": "There are many POKéMON locked\naway in the pen…",
+    "FiveIsland_RocketWarehouse_Text_PenUnlockedMonsFled": "The pen door is unlocked.\nThe POKéMON appear to have fled.",
+    "FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText": "A report with graphs and text is on\nthe PC monitor.\n\n“The Influence of Magnetic Waves\non POKéMON Evolution”…\n\n… … … … … …\n\nIt's too difficult to understand…",
+    "FiveIsland_RocketWarehouse_Text_GideonPostBattle": "If I can't sell it, it's worthless!\nGo ahead, take it!"
+   },
+   "source_file": "data/maps/FiveIsland_RocketWarehouse/text.inc"
+  },
+  "FiveIsland_WaterLabyrinth": {
+   "entries": {
+    "FiveIsland_WaterLabyrinth_Text_AlizeDefeat": "Your POKéMON are growing up\nadmirably well!",
+    "FiveIsland_WaterLabyrinth_Text_AlizeIntro": "This is an excellent environment\nfor raising POKéMON.",
+    "FiveIsland_WaterLabyrinth_Text_AlizePostBattle": "You know, I think you have the\ntalent to be a good BREEDER.",
+    "FiveIsland_WaterLabyrinth_Text_CuteMonRemindsMeOfDaisy": "Oh, hello.\nThat's a cute {STR_VAR_2}.\n\nSeeing it reminds me of a sweet \nlittle girl I met while traveling.\n\nShe was gently grooming POKéMON…\nShe was a little angel.\n\nThat little girl's name…\nI think it was DAISY.",
+    "FiveIsland_WaterLabyrinth_Text_DontHaveSpaceInYourParty": "…Unfortunately, you don't have\nspace for this in your party.\n\nYou'd better come back for it\nanother time.",
+    "FiveIsland_WaterLabyrinth_Text_GladIMetSomeoneLikeYou": "I received that EGG while I was\ntraveling.\n\nI'm glad I met someone like you.",
+    "FiveIsland_WaterLabyrinth_Text_HmmISeeIsee": "Ah, hmm…\nI see, I see…",
+    "FiveIsland_WaterLabyrinth_Text_LetMeTakeLookAtMons": "You travel all over the place,\ndon't you?\n\nYou're not driving your POKéMON\ntoo harshly, are you?\n\nLet me take a look.\n… … …   … … …",
+    "FiveIsland_WaterLabyrinth_Text_ReceivedEggFromMan": "{PLAYER} received an EGG\nfrom the man!",
+    "FiveIsland_WaterLabyrinth_Text_TreatMonRightHaveThis": "Oh, impressive.\nYou treat your POKéMON right.\n\nI think you can be entrusted with\nthis.\n\nPlease, I'd like you to have this."
+   },
+   "source_file": "data/maps/FiveIsland_WaterLabyrinth/text.inc"
+  },
+  "FourIsland": {
+   "entries": {
+    "FourIsland_Text_IslandSign": "FOUR ISLAND\nThe Warm, Blue, Floe Island",
+    "FourIsland_Text_LoreleiHasLotsOfStuffedDolls": "Oh, you found me!\nPlease don't tell LORELEI.\n\nDid you know that LORELEI has lots\nand lots of stuffed dolls?\n\nEvery time she comes back to\nFOUR ISLAND, her collection grows!",
+    "FourIsland_Text_LoreleiHasReturned": "LORELEI has returned.\n\nDid she find the city life too\nstressful, I wonder?",
+    "FourIsland_Text_LoreleiMetLaprasAsChild": "LORELEI has gone back.\n\nThe LAPRAS she has, I imagine it\nto be the one she met as a child.\n\nI believe it was in ICEFALL CAVE\nthat she caught it.\n\nPerhaps that POKéMON has been with\nher ever since.",
+    "FourIsland_Text_LoreleisHouse": "LORELEI'S HOUSE",
+    "FourIsland_Text_MadeSlushieUsingIcefallCaveIce": "Ooh, chilly!\n\nI made a slushie using ice I\nshaved inside ICEFALL CAVE.\n\nIt's chilly and tasty!"
+   },
+   "source_file": "data/maps/FourIsland/text.inc"
+  },
+  "FourIsland_House1": {
+   "entries": {
+    "FourIsland_House1_Text_YoureAwfullyHeavy": "There! Boing!\nYou're awfully heavy!"
+   },
+   "source_file": "data/maps/FourIsland_House1/text.inc"
+  },
+  "FourIsland_IcefallCave_Back": {
+   "entries": {
+    "FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful": "{PLAYER}, thank you.\nBut this is awful…\n\nI was born and raised here on\nthese islands.\n\nI had no idea that those horrible\ncriminals were loose here…"
+   },
+   "source_file": "data/maps/FourIsland_IcefallCave_Back/text.inc"
+  },
+  "FourIsland_LoreleisHouse": {
+   "entries": {
+    "FourIsland_LoreleisHouse_Text_IfAnythingWereToHappenToIsland": "LORELEI: There's something weighing\nheavily on my mind.\n\nIf anything were to happen on\nthe island where I was born…\n\nI wouldn't know about it if I were\nin the POKéMON LEAGUE.\n\nI wonder if that would make me\nirresponsible to my home…",
+    "FourIsland_LoreleisHouse_Text_IllReturnToLeagueInShortWhile": "LORELEI: So, you managed to solve\nall the problems here?\n\nThat's wonderful.\n\nThat means there isn't any reason\nfor me to be here all the time.\n\nThank you…\n\nI'll return to the POKéMON LEAGUE\nin a short while.",
+    "FourIsland_LoreleisHouse_Text_StuffedMonDollsGalore": "Stuffed POKéMON dolls galore!",
+    "FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow": "I don't know what will happen in\nthe future, but…\n\nI will do what I can here and now.\nThat's all I can do."
+   },
+   "source_file": "data/maps/FourIsland_LoreleisHouse/text.inc"
+  },
+  "FourIsland_Mart": {
+   "entries": {
+    "FourIsland_Mart_Text_IcefallCaveIsFrigid": "The SEVII ISLANDS are in a warm\nregion overall.\n\nBut there is one exception you\nneed to know about.\n\nThe ICEFALL CAVE is frigid because\nof the POKéMON that live in it.",
+    "FourIsland_Mart_Text_LoreleiGrewUpOnThisIsland": "We've had a great and powerful\nTRAINER grow up on this island.\n\nI bet even you'd know her.\nIt's LORELEI of the ELITE FOUR!\n\nWhen LORELEI was just a tyke,\nI taught her about POKéMON."
+   },
+   "source_file": "data/maps/FourIsland_Mart/text.inc"
+  },
+  "FourIsland_PokemonCenter_1F": {
+   "entries": {
+    "FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore": "Oh? A POKéMON EGG?\n…I have no idea.\n\n…Oh, wait. The DAY-CARE people\nin town were saying something.\n\nThey said that they'd found EGGS\nbefore on their property.",
+    "FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived": "What's this?\n\nThe new POKéMON JOURNAL hasn't\narrived on this island?",
+    "FourIsland_PokemonCenter_1F_Text_RareIceMonsInCave": "There's a rare kind of ICE POKéMON\nthat lives in the cave.\n\nWe get a lot of visitors hoping to\nsee that POKéMON.",
+    "Text_BodySlamDeclined": "Come again!\nBoing!",
+    "Text_BodySlamTaught": "Boioing!",
+    "Text_BodySlamTeach": "Ready?\nBoing!\n\nWe're having a BODY SLAM match\nto see who wimps out first.\n\nIf you were to join us, you'd be\nsquashed like a bug, though…\n\nHow about I teach BODY SLAM to\na POKéMON of yours instead?",
+    "Text_BodySlamWhichMon": "Which POKéMON wants to learn how\nto BODY SLAM?"
+   },
+   "source_file": "data/maps/FourIsland_PokemonCenter_1F/text.inc"
+  },
+  "MtEmber_Exterior": {
+   "entries": {
+    "MtEmber_Exterior_Text_BethDefeat": "Atchah!\nYou're shockingly good!",
+    "MtEmber_Exterior_Text_BethIntro": "Do you know how caves form inside\nvolcanoes?",
+    "MtEmber_Exterior_Text_BethPostBattle": "When lava at the surface of magma\nhardens, and the magma inside flows\nout, caverns are left behind.",
+    "MtEmber_Exterior_Text_Grunt1Defeat": "Huh, what?",
+    "MtEmber_Exterior_Text_Grunt1Intro": "You've been eavesdropping on us,\nhaven't you?",
+    "MtEmber_Exterior_Text_Grunt1PostBattle": "Why'd you have to win?",
+    "MtEmber_Exterior_Text_Grunt2Defeat": "Wait!\nBut how?",
+    "MtEmber_Exterior_Text_Grunt2Intro": "Trying to horn in on our treasure?\nDon't bet on it!",
+    "MtEmber_Exterior_Text_Grunt2PostBattle": "Develop amnesia conveniently and\nforget everything you heard!",
+    "MtEmber_Exterior_Text_JocelynDefeat": "I think I tried to overdo it…",
+    "MtEmber_Exterior_Text_JocelynIntro": "I've been in training so I can mend\nmy broken heart…\n\nIt toughened me up physically at\nleast! Hi-yah!",
+    "MtEmber_Exterior_Text_JocelynPostBattle": "The way you battle, it reminds me\nof the guy who dumped me…",
+    "MtEmber_Exterior_Text_LoganDefeat": "Whew… That was hot!\nSweat's erupting from me!",
+    "MtEmber_Exterior_Text_LoganIntro": "An active volcano is one that's\nerupting, or about to.",
+    "MtEmber_Exterior_Text_LoganPostBattle": "They say there're over 1,500\nactive volcanoes in the world.\n\nJust thinking about them makes me\nfeel all hot and gooey inside!",
+    "MtEmber_Exterior_Text_WellRegroupDontStepInsideThere": "What a setback…\nWe'll have to regroup.\n\nYou! Don't even think about taking\na step inside here!\n\nIf you know what's good for you,\ndon't even think about this!",
+    "MtEmber_Exterior_Text_WellTryDiggingHere": "Over here.\nWe'll try digging here.\n\nThat treasure the ADMINS've been\ntalking about should be here.",
+    "MtEmber_Exterior_Text_YoureInTheWayGetLost": "What the…?\nYou're in the way. Get lost.",
+    "Text_ExplosionDeclined": "Yeah, you're right.\nIt is too terrifying.",
+    "Text_ExplosionTaught": "Using EXPLOSION while on this\nvolcano…\n\nWhat a terrifying thrill!",
+    "Text_ExplosionTeach": "Can you imagine?\nIf this volcano were to erupt?\n\nThe explosion would be the end of\nus. How terrifying is that?\n\nWhile we're terrified, would you\nlike me to teach EXPLOSION?",
+    "Text_ExplosionWhichMon": "You're terribly brave!\n\nWhich POKéMON should I teach\nEXPLOSION?"
+   },
+   "source_file": "data/maps/MtEmber_Exterior/text.inc"
+  },
+  "OneIsland": {
+   "entries": {
+    "OneIsland_Text_HavePCLinkageWithHoenn": "My granddaughter was in a tizzy\nover a new breakthrough.\n\nShe said we finally have PC linkage\nwith people in HOENN.\n\nI'm not sure what that means, but\nCELIO is quite the man.\n\nHe would make a fine husband for\nmy granddaughter!",
+    "OneIsland_Text_HavePCLinkageWithKanto": "My granddaughter was in a tizzy\nover a new breakthrough.\n\nShe said we now have PC linkage\nwith people in KANTO.\n\nI'm not sure what that means, but\nCELIO is quite the man!",
+    "OneIsland_Text_IslandSign": "ONE ISLAND\nFriends Gather at Knot Island",
+    "OneIsland_Text_IsntWarmClimateHereGreat": "Hi, sight-seeing, are you?\nIsn't the warm climate here great?",
+    "OneIsland_Text_LuckyToHaveCelioHere": "Here we are on an island smack in\nthe middle of nowhere.\n\nWe're lucky to have an upstanding\nyoung man like CELIO here.\n\nMy granddaughter was in a tizzy\nover CELIO's friend.\n\nSomething about a famous\nPOKéMANIAC?\n\nI'm not sure what that means, but\nCELIO is quite the man!",
+    "OneIsland_Text_PokemonNetCenterSign": "Expanding the POKéMON World!\nPOKéMON NET CENTER",
+    "Text_WhereDoYouWantToSail": "Ahoy, there!\nWhere do you want to sail?"
+   },
+   "source_file": "data/maps/OneIsland/text.inc"
+  },
+  "OneIsland_House1": {
+   "entries": {
+    "OneIsland_House1_Text_GazeUponVolcanoOnSunnyDays": "On sunny days, I step out and gaze\nupon the volcano.\n\nThat's my daily routine.",
+    "OneIsland_House1_Text_LastTimeMtEmberErupted": "Let me think… When was the last\ntime MT. EMBER erupted?"
+   },
+   "source_file": "data/maps/OneIsland_House1/text.inc"
+  },
+  "OneIsland_House2": {
+   "entries": {
+    "OneIsland_House2_Text_IWantToStayHereForever": "Young people all want to go off to\nbig cities.\n\nBut I want to stay here forever!"
+   },
+   "source_file": "data/maps/OneIsland_House2/text.inc"
+  },
+  "OneIsland_KindleRoad": {
+   "entries": {
+    "OneIsland_KindleRoad_Text_AbigailDefeat": "Oh, you're so awful.",
+    "OneIsland_KindleRoad_Text_AbigailIntro": "I'm beginning to get a sunburn…",
+    "OneIsland_KindleRoad_Text_AbigailPostBattle": "I like that cap you have.\nMaybe I should wear one, too…",
+    "OneIsland_KindleRoad_Text_BryceDefeat": "Awww, blown!",
+    "OneIsland_KindleRoad_Text_BryceIntro": "You know, everything tastes great\nwhen you're out in the wild.",
+    "OneIsland_KindleRoad_Text_BrycePostBattle": "The water in volcanic regions is\ndelicious.",
+    "OneIsland_KindleRoad_Text_ClaireDefeat": "That made me all sweaty.",
+    "OneIsland_KindleRoad_Text_ClaireIntro": "My lunch filled us up, so will you\nbattle us for some exercise?",
+    "OneIsland_KindleRoad_Text_ClairePostBattle": "What should I do?\nI feel famished again.",
+    "OneIsland_KindleRoad_Text_EmberSpaSign": "Light the Fire in Your Heart!\nEMBER SPA",
+    "OneIsland_KindleRoad_Text_FinnDefeat": "Well, aren't you tough?",
+    "OneIsland_KindleRoad_Text_FinnIntro": "Seen from here, MT. EMBER towers\ninto the sky.",
+    "OneIsland_KindleRoad_Text_FinnPostBattle": "The sky is immense around these\nparts.",
+    "OneIsland_KindleRoad_Text_GarrettDefeat": "Hey, what the…\nYou're good, you!",
+    "OneIsland_KindleRoad_Text_GarrettIntro": "I took a break from swimming,\nonly to have you challenge me?",
+    "OneIsland_KindleRoad_Text_GarrettPostBattle": "Instead of using SURF all the time,\nyou should swim some.",
+    "OneIsland_KindleRoad_Text_HughDefeat": "Why me?!",
+    "OneIsland_KindleRoad_Text_HughIntro": "Dress appropriately for battle!\nLose that frivolous outfit!",
+    "OneIsland_KindleRoad_Text_HughPostBattle": "Even martial artists are becoming\nfashion conscious these days…",
+    "OneIsland_KindleRoad_Text_KiaDefeat": "KIA: Huh?!\nI can't believe it!",
+    "OneIsland_KindleRoad_Text_KiaIntro": "KIA: My big brother and I make\nan awesome combination!",
+    "OneIsland_KindleRoad_Text_KiaNotEnoughMons": "KIA: If you want to battle with\nus, you have to bring at least two\nPOKéMON with you.",
+    "OneIsland_KindleRoad_Text_KiaPostBattle": "KIA: How could there be anyone\nbetter than my big brother?",
+    "OneIsland_KindleRoad_Text_MariaDefeat": "Aiyeeeeh!",
+    "OneIsland_KindleRoad_Text_MariaIntro": "The weather's gorgeous!\nPerfect for a battle!",
+    "OneIsland_KindleRoad_Text_MariaPostBattle": "Please don't splash my face!\nYou'll ruin the makeup.",
+    "OneIsland_KindleRoad_Text_MikDefeat": "MIK: Whoa!\nThat's too much!",
+    "OneIsland_KindleRoad_Text_MikIntro": "MIK: Together with KIA, I'm afraid\nof nothing!",
+    "OneIsland_KindleRoad_Text_MikNotEnoughMons": "MIK: Hey, do you want to battle\nwith us two?\n\nBring two or more POKéMON with\nyou, then.",
+    "OneIsland_KindleRoad_Text_MikPostBattle": "MIK: How could my combination\nwith KIA fail?",
+    "OneIsland_KindleRoad_Text_RouteSign": "This is KINDLE ROAD.\n\nGo straight for MT. EMBER.",
+    "OneIsland_KindleRoad_Text_SharonDefeat": "You were a cut above me.",
+    "OneIsland_KindleRoad_Text_SharonIntro": "Could you help me out with my\ntraining?",
+    "OneIsland_KindleRoad_Text_SharonPostBattle": "It's clear that you're skilled.\nI like you!",
+    "OneIsland_KindleRoad_Text_SheaDefeat": "Gasp…\nGasp…",
+    "OneIsland_KindleRoad_Text_SheaIntro": "Every morning, before breakfast,\nI swim around this island.",
+    "OneIsland_KindleRoad_Text_SheaPostBattle": "I lost because I'm pooped from all\nthe running I did…",
+    "OneIsland_KindleRoad_Text_TanyaDefeat": "I'm such a fool!",
+    "OneIsland_KindleRoad_Text_TanyaIntro": "There isn't a day in which we don't\ntrain!",
+    "OneIsland_KindleRoad_Text_TanyaPostBattle": "I'll train even harder from now on!",
+    "OneIsland_KindleRoad_Text_TommyDefeat": "I've lost it all again…",
+    "OneIsland_KindleRoad_Text_TommyIntro": "Wait! Wait a second!\nI think I've hooked a big one!",
+    "OneIsland_KindleRoad_Text_TommyPostBattle": "Not only did I lose, the big one\ngot away from me, too!"
+   },
+   "source_file": "data/maps/OneIsland_KindleRoad/text.inc"
+  },
+  "OneIsland_KindleRoad_EmberSpa": {
+   "entries": {
+    "OneIsland_KindleRoad_EmberSpa_Text_BrunoVisitsSpaOnOccasion": "After an honest day of training,\nnothing beats a relaxing soak in\nthe hot spring pool.\n\nBRUNO, who's a senior ahead of me,\nvisits the SPA on occasion.\n\nHe comes to rehab injuries, both\nhis own and his POKéMON's.",
+    "OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder": "My favorite part of bathing comes\nup right after this.\n\nI enjoy a bowl of chowder to\nwarm me from the inside, too!",
+    "OneIsland_KindleRoad_EmberSpa_Text_ExplainHM06": "That shatters boulders as if they\nwere made of crackers.",
+    "OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic": "Soaking in a hot spring pool is\ntherapeutic, people say.",
+    "OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs": "Have a look at my face.\nSee how smooth my skin is?\n\nThe hot spring's water keeps my\nskin younger than my age.",
+    "OneIsland_KindleRoad_EmberSpa_Text_UsedThisToMakeEmberSpa": "Hot springs go hand-in-hand with\nvolcanoes.\n\nThe EMBER SPA here, well,\nI made it years ago.\n\nI hewed the pool right out of a\ngigantic boulder by hand.\n\nI was using this at the time.\nI suppose I can part with it.",
+    "OneIsland_KindleRoad_EmberSpa_Text_WaterWarmsMeToCore": "Hm!\nHaaaaaaaaaaah!\n\nAaaah! This is heavenly!\nThe water warms me to my core!\n\nYou should jump in, too.\n\nGo to the middle, relax, and get\ngood and warm!"
+   },
+   "source_file": "data/maps/OneIsland_KindleRoad_EmberSpa/text.inc"
+  },
+  "OneIsland_PokemonCenter_1F": {
+   "entries": {
+    "OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands": "While I was studying gemstones,\nI discovered something important.\n\nThere is another gem that forms\na pair with this RUBY.\n\nThat other gemstone is supposed to\nbe in the SEVII ISLANDS.\n\n{PLAYER}, please, I need you to go\nfind the other gem.\n\n{PLAYER}, may I have your ferry\nPASS and the TOWN MAP?",
+    "OneIsland_PokemonCenter_1F_Text_BillCantStomachMilk": "{PLAYER}, is there anything that\nyou can't stand?\n\nApparently, BILL simply can't\nstomach milk at all.",
+    "OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra": "{PLAYER}, what's your favorite kind\nof POKéMON?\n\nBILL is a POKéMANIAC, so he loves\nevery kind.\n\nApparently, the first one he caught\nwas an ABRA.",
+    "OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod": "By the way, {PLAYER}, you're from\nPALLET TOWN, aren't you?\n\nI've heard that it's a quiet and\npleasant place.\n\nBILL's hometown is GOLDENROD CITY,\nwhere his folks still live.\n\nI've heard that it's quite the\nfestive, bustling city.\n\nI'd like to go there one day.",
+    "OneIsland_PokemonCenter_1F_Text_CameFromPalletDontKnowIt": "Oh, you're a stranger here!\nHi! Where did you come from?\n\n…PALLET TOWN?\nI don't know it!",
+    "OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful": "CELIO: {PLAYER}, how have things\nbeen for you?\n\nOh, is that right?\nYou've caught more POKéMON.\n\nDo you know what?\nMaybe I can be useful to you.",
+    "OneIsland_PokemonCenter_1F_Text_CelioHearingRumorsAboutYou": "CELIO: Hello!\n\n{PLAYER}, I've been hearing rumors\nabout you.",
+    "OneIsland_PokemonCenter_1F_Text_CelioImModifyingMyNetworkMachine": "CELIO: Hello!\nYou look awfully busy as always.\n\nHow am I doing?\n\nWell, I'm modifying my Network\nMachine.\n\nWhen I get done with the machine,\nI hope you'll be first to use it,\n{PLAYER}.",
+    "OneIsland_PokemonCenter_1F_Text_EnormousVolcanoOnIsland": "On this island, there's an enormous\nvolcano.\n\nIt hasn't erupted lately, so why\nnot enjoy a hike?",
+    "OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore": "Oh, hey, {PLAYER}!\n\nDid you see?\nWe got the PC working!\n\nI've got a few things to show\nCELIO here.\n\nCan you go out on a stroll or\nsomething for a while more?",
+    "OneIsland_PokemonCenter_1F_Text_HandedRubyToCelio": "{PLAYER} handed the RUBY\nto CELIO.",
+    "OneIsland_PokemonCenter_1F_Text_HandedSapphireToCelio": "{PLAYER} handed the SAPPHIRE\nto CELIO.",
+    "OneIsland_PokemonCenter_1F_Text_HmmHowAboutLikeThis": "Hmm…\n\nHow about we try this like this…",
+    "OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette": "I did it!\nI linked up with LANETTE!",
+    "OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKanto": "Network Machine\nLink Level 1\n\nLink established with the KANTO\nregion.",
+    "OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn": "Network Machine\nLink Level 2\n\nLink established with the KANTO\nand HOENN regions.",
+    "OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment": "Network Machine\nLink Level 0\n\n…POKéMON Storage System under\nadjustment…",
+    "OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou": "{PLAYER}…\n{PLAYER}, I did it!\n\nI've managed to link up with\nTRAINERS in the HOENN region!\n\nFinally, the Network Machine is\nfully operational!\n\n{PLAYER}, I owe it all to you!\n\nThanks to you, my dream came\ntrue…",
+    "OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor": "Thank you!\n{PLAYER}, you're simply amazing.\n\n… … …  … … …\n\nUm… May I ask one more giant favor\nof you?",
+    "OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone": "But, there is a slight catch.\n\nFor the link to work, the Machine\nneeds a special gemstone.\n\nIt's supposed to be on ONE ISLAND,\nbut I haven't found one yet.\n\nWho knows where it could be.",
+    "OneIsland_PokemonCenter_1F_Text_ObtainedExtraMapPage": "Obtained an extra page for the\nTOWN MAP!",
+    "OneIsland_PokemonCenter_1F_Text_OhThats": "Oh!\nTh-that's…",
+    "OneIsland_PokemonCenter_1F_Text_OkayThisIsGood": "Okay, this is good…",
+    "OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands": "This is my own ferry PASS.\n\nIt will let you get to all the\nSEVII ISLANDS.\n\n{PLAYER}, please, I can't do\nit without your help.",
+    "OneIsland_PokemonCenter_1F_Text_PleaseINeedYourHelp": "It… It's not anything weird.\nPlease, I need your help.",
+    "OneIsland_PokemonCenter_1F_Text_ReturnedTriPassForRainbowPass": "{PLAYER} returned the TRI-PASS and\nreceived the RAINBOW PASS.",
+    "OneIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost": "I'm sorry for taking up so much of\nBILL's time.\n\nI'm also sorry for being such a \npoor host on your visit here.",
+    "OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime": "CELIO: So this is the gem that\nforms a pair with the RUBY…\n\n{PLAYER}, you've gone through a lot\nto get this, didn't you?\n\nYou don't have to tell me. I know\nit wasn't easy.\n\nThank you so much!\n\nNow it's my turn to work for you!\nPlease give me a little time.",
+    "OneIsland_PokemonCenter_1F_Text_TradedWithFarAwayBoyfriend": "I traded POKéMON with my boyfriend\nfar away!\n\nEveryone's saying that we can\nthank you and CELIO.\n\nSo, thank you!",
+    "OneIsland_PokemonCenter_1F_Text_TryingToFindGem": "I was trying to find the gem\neven while I was studying.\n\nAs a result, I've made no headway\nin both my search and studies…\n\nIf I relied on BILL, I'm sure my\nresearch would progress.\n\nBut this time, I want to try to do\nthings by myself.",
+    "OneIsland_PokemonCenter_1F_Text_WishICouldTradeWithBoyfriend": "I wish I could trade POKéMON with\nmy boyfriend who lives far away…",
+    "OneIsland_PokemonCenter_1F_Text_WishYouBestOfLuck": "I…\nI'm not crying.\n\nThat's enough about me!\n\n{PLAYER}, you're going to keep\nlooking for exotic POKéMON, right?\n\nI wish you the best of luck!",
+    "OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway": "I'm modifying the Network Machine\nright now.\n\nI'm changing it so it can handle\ntrades over long distances.\n\nWhen I get finished, you'll be\ntrading for exotic POKéMON from\nTRAINERS far away.",
+    "OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill": "{PLAYER} accepted the METEORITE\nfrom BILL.",
+    "OneIsland_PokemonCenter_1F_Text_BillBringMeUpToSpeed": "BILL: So, bring me up to speed.\nHow's your machine running?",
+    "OneIsland_PokemonCenter_1F_Text_BillCatchYouLater": "BILL: I'll catch you later!\nSay hi to the guy for me!",
+    "OneIsland_PokemonCenter_1F_Text_BillHeyThereCelio": "BILL: Hey, there!\nCELIO!",
+    "OneIsland_PokemonCenter_1F_Text_BillHowsYourResearchComing": "BILL: Well, absolutely!\nHow's your research coming along?\n\n…Oh, wait a sec.",
+    "OneIsland_PokemonCenter_1F_Text_BillLetMeHelpYou": "BILL: Oh, yeah?\nOkay, let me take a look-see.\n\n…Hang on here…\nI think we can make it work.\nLet me help you, okay?",
+    "OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer": "{PLAYER}, can I get you to wait for\nme just a bit?\n\n…Actually, can I get you to do\nme a favor?\n\nThe island next to this one's\ncalled TWO ISLAND.\n\nThere's a guy there that runs\na GAME CORNER.\n\nHe has this thing for rare rocks\nand gems.\n\nWe keep in touch, being fellow\nmaniacs.\n\nSo, can I get you to deliver this\nMETEORITE to him?",
+    "OneIsland_PokemonCenter_1F_Text_CelioCantBelieveYouCameOut": "CELIO: BILL!\nI can't believe you came out here.",
+    "OneIsland_PokemonCenter_1F_Text_CelioPCsCantLinkWithYours": "CELIO: It's running fine, but we're\ntoo remote out here.\n\nThe PCs on this island just can't\nlink with your PC, BILL.",
+    "OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis": "CELIO: {PLAYER}, if you are going\nto TWO ISLAND, please take this.",
+    "OneIsland_PokemonCenter_1F_Text_CelioThatsReallyImpressive": "CELIO: That's really impressive.\n\nI hate to say it, but I have zero\naptitude for battling.\n\nAnyways, I'm glad to meet you.",
+    "OneIsland_PokemonCenter_1F_Text_ObtainedTriPass": "Obtained the TRI-PASS!",
+    "OneIsland_PokemonCenter_1F_Text_PassLetsYouTravelBetweenIslands": "It's a PASS for the ferry service\nserving the local islands.\n\nIt will let you travel between the\nISLANDS ONE, TWO, and THREE.\n\nOh, you should have this, too.",
+    "OneIsland_PokemonCenter_1F_Text_PlayerIsReigningPokemonChamp": "CELIO, this is {PLAYER}, the\nreigning POKéMON CHAMP!",
+    "OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp": "CELIO, this is {PLAYER}, a rising\ncontender as the POKéMON CHAMP!",
+    "OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap": "{PLAYER} received an extra page\nfor the TOWN MAP!",
+    "OneIsland_PokemonCenter_1F_Text_ReceivedTownMap": "{PLAYER} received\na TOWN MAP!",
+    "OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio": "{PLAYER}, this is my buddy CELIO.\nHe's one dedicated PC MANIAC!"
+   },
+   "source_file": "data/maps/OneIsland_PokemonCenter_1F/text.inc"
+  },
+  "OneIsland_TreasureBeach": {
+   "entries": {
+    "OneIsland_TreasureBeach_Text_AmaraDefeat": "I lost…\nIt feels awful.",
+    "OneIsland_TreasureBeach_Text_AmaraIntro": "Lying back, rocked by the waves…\nIt's exquisite.",
+    "OneIsland_TreasureBeach_Text_AmaraPostBattle": "The sea is pleasantly warm in these\nparts.",
+    "OneIsland_TreasureBeach_Text_GoodThingsWashUpOnBeach": "Good things get washed up by the\nocean current onto this beach.\n\nThat's why I often come here for\nsome beachcombing."
+   },
+   "source_file": "data/maps/OneIsland_TreasureBeach/text.inc"
+  },
+  "SevenIsland": {
+   "entries": {
+    "SevenIsland_Text_IslandSign": "SEVEN ISLAND\nQuest Island of Infinity",
+    "SevenIsland_Text_IslandVirtuallyUntouched": "This island has been left virtually\nuntouched in its natural state.\n\nIt could be a little difficult to\nhike around because of that.",
+    "SevenIsland_Text_IslandsMadeInSevenDays": "These islands are called the SEVII\nISLANDS because there are seven.\n\n…Or at least that's what the young\npeople believe.\n\nThe truth is, these islands are so\nnamed because they are said to\nhave been made in seven days.",
+    "Text_SwordsDanceDeclined": "Well, that's fine, too.",
+    "Text_SwordsDanceTaught": "If only we could keep getting\nstronger and stronger, eh?",
+    "Text_SwordsDanceTeach": "Not many people come out here.\n\nIf I train here, I'm convinced that\nI'll get stronger and stronger.\n\nYep, stronger and stronger…\n\nHow would you like to learn a move\nlike that? It's SWORDS DANCE.",
+    "Text_SwordsDanceWhichMon": "All right, pick which POKéMON\nI should teach it to."
+   },
+   "source_file": "data/maps/SevenIsland/text.inc"
+  },
+  "SevenIsland_House_Room1": {
+   "entries": {
+    "SevenIsland_House_Room1_Text_ChallengeVisitingTrainer": "Ah!\nWelcome, my friend!\n\nLet me tell you something. There's\na hidden room in the basement.\n\nA TRAINER named {STR_VAR_1} is\nwaiting there now.\n\nTell me, you did come to challenge\n{STR_VAR_1}, am I right?",
+    "SevenIsland_House_Room1_Text_DontHoldAnythingBack": "All right.\nDon't hold anything back!",
+    "SevenIsland_House_Room1_Text_LimitThreeMonsPerSide": "Ah!\nYou will battle for me?\n\nIt was worth my time moving the\nbox aside, then.\n\n… …\nBut there is one slight problem.\n\nThis hidden room is not built very\nsturdy.\n\nCan I get you to limit it to\nbattles of three POKéMON per side?",
+    "SevenIsland_House_Room1_Text_OhYouWontBattle": "Oh…\nYou won't battle…\n\nI see, I see.\n… …\n\nWell, perhaps if you change your\nmind, do come back.",
+    "SevenIsland_House_Room1_Text_OnlyEnjoymentWatchingBattles": "I may not look like much now,\nbut when I was younger…\n\nI flew everywhere, challenging\nTRAINERS wherever I found them.\n\nNow, my only source of enjoyment\nis reminiscing about the past while\nwatching battles.",
+    "SevenIsland_House_Room1_Text_SaveProgressBeforeBattle": "Fine! Before your battle, would\nyou like to save your game?",
+    "SevenIsland_House_Room1_Text_SlightBreezeAroundBox": "There is a slight breeze blowing\naround the box."
+   },
+   "source_file": "data/maps/SevenIsland_House_Room1/text.inc"
+  },
+  "SevenIsland_Mart": {
+   "entries": {
+    "SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn": "POKéMON have personalities of their\nown, just like people.\n\nMy PIKACHU has a HASTY nature,\nso it grew to be a speedy POKéMON.",
+    "SevenIsland_Mart_Text_NeedToFishOnSevenIsland": "I need to fish on SEVEN ISLAND.\n\nThat will complete my fishing tour\nof the SEVII ISLANDS.\n\nI'd better stock up on some\nPOKé BALLS first, though.",
+    "SevenIsland_Mart_Text_PreparationsCompleteForRuins": "Okay, preparations are complete\nfor me to explore the RUINS."
+   },
+   "source_file": "data/maps/SevenIsland_Mart/text.inc"
+  },
+  "SevenIsland_PokemonCenter_1F": {
+   "entries": {
+    "SevenIsland_PokemonCenter_1F_Text_CheckOutTrainerTower": "If you're confident, you should\ncheck out TRAINER TOWER.",
+    "SevenIsland_PokemonCenter_1F_Text_DidYouRideSeagallopHere": "Did you ride a SEAGALLOP ferry\nto get here?\n\nThere are at least ten of those\nhigh-speed ships.\n\nI don't know where they all go,\nthough.",
+    "SevenIsland_PokemonCenter_1F_Text_EventsDependingOnConnections": "On this island, different events\noccur depending on connections.\n\nWhat are those connections?\n\nThey are for you to discover on\nyour own."
+   },
+   "source_file": "data/maps/SevenIsland_PokemonCenter_1F/text.inc"
+  },
+  "SevenIsland_SevaultCanyon": {
+   "entries": {
+    "SevenIsland_SevaultCanyon_Text_BrunoTrainedWithBrawly": "Training by oneself is certainly\nnot a bad thing.\n\nBut it's also not bad to aim for\nthe top with a partner.\n\nEven BRUNO…\nHe trained with a fellow by the\nname of BRAWLY before.",
+    "SevenIsland_SevaultCanyon_Text_CyndyDefeat": "Huh?\nSomething's not right…",
+    "SevenIsland_SevaultCanyon_Text_CyndyIntro": "My conditioning's in top form!",
+    "SevenIsland_SevaultCanyon_Text_CyndyPostBattle": "The way I am now, I may have to\nhold off on TRAINER TOWER…",
+    "SevenIsland_SevaultCanyon_Text_EvanDefeat": "You're a master at this.",
+    "SevenIsland_SevaultCanyon_Text_EvanIntro": "It doesn't matter if you happen to\nhave the strongest POKéMON…\n\nIt doesn't mean a thing if you don't\nknow how to use them properly!",
+    "SevenIsland_SevaultCanyon_Text_EvanPostBattle": "You see them every so often,\nTRAINERS with awesome POKéMON\nwho have no idea what to do.\n\nBefore training POKéMON, TRAINERS\nthemselves need to grow up.",
+    "SevenIsland_SevaultCanyon_Text_JacksonDefeat": "Whoa! You're tough!\nHow about protecting me?",
+    "SevenIsland_SevaultCanyon_Text_JacksonIntro": "I work to protect the environment.\nIn turn, nature protects me!",
+    "SevenIsland_SevaultCanyon_Text_JacksonPostBattle": "From far out among the stars, our\nplanet is just a drop of water.\n\nBut we want to protect that drop\nof water for everyone.",
+    "SevenIsland_SevaultCanyon_Text_KatelynDefeat": "You're hot stuff in spite of your\ncute looks.",
+    "SevenIsland_SevaultCanyon_Text_KatelynIntro": "Those shoes you have are pretty\nsnazzy.",
+    "SevenIsland_SevaultCanyon_Text_KatelynPostBattle": "Your mom bought those snazzy\nRUNNING SHOES for you?\n\nShe must adore you.",
+    "SevenIsland_SevaultCanyon_Text_LeroyDefeat": "I knew it!\nYou're as tough as I thought!",
+    "SevenIsland_SevaultCanyon_Text_LeroyIntro": "You look strong.\nLet me battle you, please!",
+    "SevenIsland_SevaultCanyon_Text_LeroyPostBattle": "The way you battle has given me\na lot of useful data.\n\nThanks so much!",
+    "SevenIsland_SevaultCanyon_Text_LexDefeat": "LEX: I seem to have been too\ncareless…",
+    "SevenIsland_SevaultCanyon_Text_LexIntro": "LEX: My darling NYA, together\nwe could win!",
+    "SevenIsland_SevaultCanyon_Text_LexNotEnoughMons": "LEX: May I ask you to battle the\nboth of us at the same time?",
+    "SevenIsland_SevaultCanyon_Text_LexPostBattle": "LEX: I think it was a good\nexperience for NYA.\n\nYou have my gratitude.",
+    "SevenIsland_SevaultCanyon_Text_MichelleDefeat": "Thank you. I feel like I've been\nset free by losing to you.",
+    "SevenIsland_SevaultCanyon_Text_MichelleIntro": "I was given the best possible\neducation to become this strong.\n\nI don't want to lose to anyone!",
+    "SevenIsland_SevaultCanyon_Text_MichellePostBattle": "For some reason, I get furious\nover the slightest thing.\n\nI'll calm myself by breathing\ndeeply.",
+    "SevenIsland_SevaultCanyon_Text_NyaDefeat": "NYA: Oh, no…\nI'm so sorry, I…",
+    "SevenIsland_SevaultCanyon_Text_NyaIntro": "NYA: I'll do my best so I won't\ndrag down my mentor, LEX!",
+    "SevenIsland_SevaultCanyon_Text_NyaNotEnoughMons": "NYA: I'm sorry, but may we battle\nin two-on-two style?",
+    "SevenIsland_SevaultCanyon_Text_NyaPostBattle": "NYA: I think I'm going to need\nmuch more seasoning and tutoring\nunder LEX…\n\n…So, LEX, please, may I stay with\nyou like this?",
+    "SevenIsland_SevaultCanyon_Text_RouteSign": "SEVAULT CANYON\nTANOBY RUINS AHEAD"
+   },
+   "source_file": "data/maps/SevenIsland_SevaultCanyon/text.inc"
+  },
+  "SevenIsland_SevaultCanyon_Entrance": {
+   "entries": {
+    "SevenIsland_SevaultCanyon_Entrance_Text_EveDefeat": "EVE: Me and JON, we lost.\nEhehe.",
+    "SevenIsland_SevaultCanyon_Entrance_Text_EveIntro": "EVE: I'll team up with JON and\nbattle together.",
+    "SevenIsland_SevaultCanyon_Entrance_Text_EveNotEnoughMons": "EVE: I want to team up with JON\nwhen I battle you.\n\nCome back with two POKéMON, okay?",
+    "SevenIsland_SevaultCanyon_Entrance_Text_EvePostBattle": "EVE: I'm going to work harder with\nJON.",
+    "SevenIsland_SevaultCanyon_Entrance_Text_JonDefeat": "JON: When I'm with EVE,\nit doesn't feel like I've lost!",
+    "SevenIsland_SevaultCanyon_Entrance_Text_JonIntro": "JON: When I'm with EVE, it feels\nlike we could never lose.",
+    "SevenIsland_SevaultCanyon_Entrance_Text_JonNotEnoughMons": "JON: If it's with EVE, I'll be\nhappy to battle with you.\n\nSo, I'd like to make it a\ntwo-on-two battle, if I may.",
+    "SevenIsland_SevaultCanyon_Entrance_Text_JonPostBattle": "JON: When I'm with EVE, I feel\ngiddy whether I win or lose.\n\nIt's magical!",
+    "SevenIsland_SevaultCanyon_Entrance_Text_MadelineDefeat": "You don't seem to be a problem\nTRAINER.",
+    "SevenIsland_SevaultCanyon_Entrance_Text_MadelineIntro": "I punish people who abuse\nPOKéMON!",
+    "SevenIsland_SevaultCanyon_Entrance_Text_MadelinePostBattle": "If you treat your POKéMON with\nkindness, they'll understand.",
+    "SevenIsland_SevaultCanyon_Entrance_Text_MasonDefeat": "Oh, so you're not a fan…\n\nWell, I can change that.\nLet me sing for you!",
+    "SevenIsland_SevaultCanyon_Entrance_Text_MasonIntro": "Howdy!\nAre you a member of my fan club?",
+    "SevenIsland_SevaultCanyon_Entrance_Text_MasonPostBattle": "Lalalah…\nMy POKéMON, I send them out,\nall the girls scream and shout!",
+    "SevenIsland_SevaultCanyon_Entrance_Text_MiahDefeat": "Tch!\nToo strong for me!",
+    "SevenIsland_SevaultCanyon_Entrance_Text_MiahIntro": "Kyahaha!\nI'll flick you away effortlessly!",
+    "SevenIsland_SevaultCanyon_Entrance_Text_MiahPostBattle": "What's that?\nI don't act the way I look?\n\nHeh, that's a part of my strategy!",
+    "SevenIsland_SevaultCanyon_Entrance_Text_NicolasDefeat": "Uh-huh…",
+    "SevenIsland_SevaultCanyon_Entrance_Text_NicolasIntro": "This island is too spread out…\nIt's not easy patrolling the place.",
+    "SevenIsland_SevaultCanyon_Entrance_Text_NicolasPostBattle": "TRAINERS like you from cities,\nthey sure are tough.\n\nYou'll be headed for the TOWER,\nwon't you?",
+    "SevenIsland_SevaultCanyon_Entrance_Text_RouteSign": "SEVAULT CANYON ENTRANCE\n\nTRAINERS are asked to refrain from\ndamaging plants in the CANYON."
+   },
+   "source_file": "data/maps/SevenIsland_SevaultCanyon_Entrance/text.inc"
+  },
+  "SevenIsland_SevaultCanyon_House": {
+   "entries": {
+    "SevenIsland_SevaultCanyon_House_Text_Chansey": "CHANSEY: Chansi! Chansi!",
+    "SevenIsland_SevaultCanyon_House_Text_ChanseyDanceJoinIn": "Dance, dance!\nCHANSEY Dance!\n\nYou join in, too!\nDance, dance!",
+    "SevenIsland_SevaultCanyon_House_Text_ComeOnDance": "Come on, dance!",
+    "SevenIsland_SevaultCanyon_House_Text_DancedChanseyDance": "{PLAYER} danced the CHANSEY Dance!",
+    "SevenIsland_SevaultCanyon_House_Text_WouldYouLikeToDance": "Would you like to dance?",
+    "SevenIsland_SevaultCanyon_House_Text_YoureAllChipperNow": "Ahahahaha!\n\nThere, you're all chipper now!\nLucky!"
+   },
+   "source_file": "data/maps/SevenIsland_SevaultCanyon_House/text.inc"
+  },
+  "SevenIsland_TanobyRuins": {
+   "entries": {
+    "SevenIsland_TanobyRuins_Text_BenjaminDefeat": "I'm not much good in battle.",
+    "SevenIsland_TanobyRuins_Text_BenjaminIntro": "A mystic POKéMON is said to sleep\ninside here.",
+    "SevenIsland_TanobyRuins_Text_BenjaminPostBattle": "I hear there are other ruins like\nthe one here.\n\nMight they be the resting places\nof other mystic POKéMON?",
+    "SevenIsland_TanobyRuins_Text_BrandonDefeat": "That was uncalled for.\nYou didn't have to be so rough.",
+    "SevenIsland_TanobyRuins_Text_BrandonIntro": "Do you know anything about this\nstone chamber?",
+    "SevenIsland_TanobyRuins_Text_BrandonPostBattle": "The TANOBY RUINS date back at\nleast 1,500 years.\n\nBut it's a baffling mystery as to\nwhy it was built in the first place.",
+    "SevenIsland_TanobyRuins_Text_CliffordDefeat": "My, how extraordinary.",
+    "SevenIsland_TanobyRuins_Text_CliffordIntro": "Today, in addition to our lesson,\nwe came to see the chamber.",
+    "SevenIsland_TanobyRuins_Text_CliffordPostBattle": "Ah, so you are studying POKéMON\non your own…\n\nYes, you certainly are quite the\nextraordinary person, indeed.",
+    "SevenIsland_TanobyRuins_Text_EdnaDefeat": "We might get in trouble for being\nnoisy here.",
+    "SevenIsland_TanobyRuins_Text_EdnaIntro": "CLIFFORD is teaching me how to\npaint.",
+    "SevenIsland_TanobyRuins_Text_EdnaPostBattle": "I said that I wanted to paint an\nold building.\n\nSo CLIFFORD brought me here."
+   },
+   "source_file": "data/maps/SevenIsland_TanobyRuins/text.inc"
+  },
+  "SevenIsland_TrainerTower": {
+   "entries": {
+    "SevenIsland_TrainerTower_Text_DarioDefeat": "Give up…",
+    "SevenIsland_TrainerTower_Text_DarioIntro": "I sensed your approach.",
+    "SevenIsland_TrainerTower_Text_DarioPostBattle": "In your future, I sense that you\nwill meet many others.\n\nI think you will be linked to each\nother by a strange power.",
+    "SevenIsland_TrainerTower_Text_RodetteDefeat": "What an amazing TRAINER!",
+    "SevenIsland_TrainerTower_Text_RodetteIntro": "Somewhere on this island, peculiar\nPOKéMON are sleeping.",
+    "SevenIsland_TrainerTower_Text_RodettePostBattle": "Somewhere on this island, peculiar\nPOKéMON are sleeping.\n\nCould it be that they're waiting\nfor you?",
+    "SevenIsland_TrainerTower_Text_TrainerTowerAhead": "TRAINER TOWER AHEAD",
+    "SevenIsland_TrainerTower_Text_TrainerTowerSign": "TRAINER TOWER ENTRANCE\nRise to the Challenge, TRAINERS!"
+   },
+   "source_file": "data/maps/SevenIsland_TrainerTower/text.inc"
+  },
+  "SixIsland": {
+   "entries": {
+    "SixIsland_Text_IslandSign": "SIX ISLAND\nFortune Island of Aged Wisdom",
+    "SixIsland_Text_SkyAtNightIsFantastic": "When you're this far away from the\ncity, the sky at night is fantastic.",
+    "SixIsland_Text_ThatWayToWaterPathRuinValley": "Keep going this way and you'll get\nto the WATER PATH.\n\nStay on that and you'll get to\nthe RUIN VALLEY."
+   },
+   "source_file": "data/maps/SixIsland/text.inc"
+  },
+  "SixIsland_DottedHole_SapphireRoom": {
+   "entries": {
+    "SixIsland_DottedHole_SapphireRoom_Text_FoundSapphire": "{PLAYER} found a SAPPHIRE!",
+    "SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou": "Fufu… Fufufufu…\nI guessed right.\n\nI was right in tailing you!",
+    "SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword": "I knew that there was a SAPPHIRE\nhere, so it belongs to me!\n\nI'll sell it to TEAM ROCKET for\nserious money.\n\n…D-don't glare at me like that!\n\nIf you want it back, why don't you\ngo get it after I sell it?\n\nI'll even tell you one of the\npasswords to TEAM ROCKET's\nWAREHOUSE.\n\nThe WAREHOUSE password I know is\n“Yes, nah, CHANSEY.”\n\nI'm done.\nDon't think badly of me!"
+   },
+   "source_file": "data/maps/SixIsland_DottedHole_SapphireRoom/text.inc"
+  },
+  "SixIsland_GreenPath": {
+   "entries": {
+    "SixIsland_GreenPath_Text_JaclynDefeat": "Big boo-boo!",
+    "SixIsland_GreenPath_Text_JaclynIntro": "…Huh?\n\nI was envisioning my house, but\nthis is where I TELEPORT?",
+    "SixIsland_GreenPath_Text_JaclynPostBattle": "I am so scatterbrained!\n\nI need to focus so I can TELEPORT\nproperly to my house!",
+    "SixIsland_GreenPath_Text_LeftRouteSign": "GREEN PATH\nPATTERN BUSH AHEAD",
+    "SixIsland_GreenPath_Text_RightRouteSign": "GREEN PATH\nThink Green, Keep Nature Clean!"
+   },
+   "source_file": "data/maps/SixIsland_GreenPath/text.inc"
+  },
+  "SixIsland_House": {
+   "entries": {
+    "SixIsland_House_Text_GoodPlaceForNatureAndHistory": "There's nothing that young people'd\nfind exciting here on this island.\n\nBut, this is a good place in terms\nof nature and history.\n\nRelax and enjoy your stay."
+   },
+   "source_file": "data/maps/SixIsland_House/text.inc"
+  },
+  "SixIsland_Mart": {
+   "entries": {
+    "SixIsland_Mart_Text_AgathaOldestEverEliteFourMember": "Play with POKéMON lots and live\na long life!\n\nTake AGATHA, for example.\n\nShe set a record for being the\noldest-ever ELITE FOUR member.\n\nShe spurs me to do bigger things.",
+    "SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter": "I should buy some MAIL and write\nhim a letter…"
+   },
+   "source_file": "data/maps/SixIsland_Mart/text.inc"
+  },
+  "SixIsland_OutcastIsland": {
+   "entries": {
+    "SixIsland_OutcastIsland_Text_AvaDefeat": "AVA: Oh, you're amazing!\nEven better, you're on your own!",
+    "SixIsland_OutcastIsland_Text_AvaIntro": "AVA: Let's have a two-on-two\nmarine battle!",
+    "SixIsland_OutcastIsland_Text_AvaNotEnoughMons": "AVA: You're challenging us to\na battle?\n\nYou'll need at least two POKéMON\nif you want to do that.",
+    "SixIsland_OutcastIsland_Text_AvaPostBattle": "AVA: You know, I do prefer the\nsea over any pool.",
+    "SixIsland_OutcastIsland_Text_GebDefeat": "GEB: Wow, Big Sister, this person's\nreally good!",
+    "SixIsland_OutcastIsland_Text_GebIntro": "GEB: Big Sister, help!\nPlease battle with me!",
+    "SixIsland_OutcastIsland_Text_GebNotEnoughMons": "GEB: Please battle against me and\nmy sister!\n\n…Oh, you don't have two POKéMON?",
+    "SixIsland_OutcastIsland_Text_GebPostBattle": "GEB: I'm hanging onto my sister\nbecause I can't touch the bottom.",
+    "SixIsland_OutcastIsland_Text_MymoDefeat": "Gasp…\nGasp…",
+    "SixIsland_OutcastIsland_Text_MymoIntro": "Gasp… Gasp…\n\nI swam here from SIX ISLE PORT\nin one go.",
+    "SixIsland_OutcastIsland_Text_MymoPostBattle": "I'm only at the halfway point…\nI'm beat…",
+    "SixIsland_OutcastIsland_Text_NicoleDefeat": "I didn't lose to you at swimming.\nThis doesn't bother me.",
+    "SixIsland_OutcastIsland_Text_NicoleIntro": "It's not so easy sending POKéMON\nout while swimming, you know?",
+    "SixIsland_OutcastIsland_Text_NicolePostBattle": "Are you headed for the island up\npast here?\n\nI didn't see anything interesting\nthere.",
+    "SixIsland_OutcastIsland_Text_RocketDefeat": "…Huh?",
+    "SixIsland_OutcastIsland_Text_RocketIntro": "There're no rare POKéMON around\nthese parts! Not a one!\n\nThat burns me up, man.\nI'll take it out on you!",
+    "SixIsland_OutcastIsland_Text_RocketPostBattle": "So listen, you haven't seen any\nrare POKéMON, have you?",
+    "SixIsland_OutcastIsland_Text_TylorDefeat": "Nope, no luck at all…",
+    "SixIsland_OutcastIsland_Text_TylorIntro": "I'm having no luck at all.\nA battle'd be a change of pace!",
+    "SixIsland_OutcastIsland_Text_TylorPostBattle": "I can't very well go home without\ncatching something, though."
+   },
+   "source_file": "data/maps/SixIsland_OutcastIsland/text.inc"
+  },
+  "SixIsland_PatternBush": {
+   "entries": {
+    "SixIsland_PatternBush_Text_AllisonDefeat": "Oh, for someone so young, you are\ntremendous!",
+    "SixIsland_PatternBush_Text_AllisonIntro": "I'm working to preserve the natural\necology of POKéMON here.",
+    "SixIsland_PatternBush_Text_AllisonPostBattle": "I'm not saying that you shouldn't\ncatch POKéMON.\n\nI just want people to raise their\nPOKéMON responsibly.",
+    "SixIsland_PatternBush_Text_BethanyDefeat": "You raise your POKéMON with a\nwhole lot of love!",
+    "SixIsland_PatternBush_Text_BethanyIntro": "I'm curious, how do you raise your\nPOKéMON?",
+    "SixIsland_PatternBush_Text_BethanyPostBattle": "In the same way your mother raised\nyou full of love, you should raise\nyour POKéMON.",
+    "SixIsland_PatternBush_Text_CordellDefeat": "I bet you think I'm weak,\ndon't you, eh?",
+    "SixIsland_PatternBush_Text_CordellIntro": "I bet you think I'm just some guy,\ndon't you, eh?",
+    "SixIsland_PatternBush_Text_CordellPostBattle": "Ayup, you townies come around all\nso dandy with a hat that flashy…\n\nHow about giving me that?",
+    "SixIsland_PatternBush_Text_DaliaDefeat": "If you'd like, I can teach you how\nto breathe properly.",
+    "SixIsland_PatternBush_Text_DaliaIntro": "Take a deep breath.\nIsn't the air delicious?",
+    "SixIsland_PatternBush_Text_DaliaPostBattle": "First, exhale.\nBlow everything out.\n\nWhen you can't exhale anymore,\ninhale the clean air!\n\nIsn't it refreshing?",
+    "SixIsland_PatternBush_Text_GarretDefeat": "Heheh…\nIsn't my POKéMON awesome?",
+    "SixIsland_PatternBush_Text_GarretIntro": "I caught a BUG POKéMON that lives\nonly around here!",
+    "SixIsland_PatternBush_Text_GarretPostBattle": "There's a girl near the BUSH who\nmeasures HERACROSS for TRAINERS.",
+    "SixIsland_PatternBush_Text_JoanaDefeat": "I lost, but I'm still laughing.\nAm I the only girl like that?",
+    "SixIsland_PatternBush_Text_JoanaIntro": "I love BUG POKéMON.\nThat's why I'm here all the time.\n\nAm I the only girl like that?",
+    "SixIsland_PatternBush_Text_JoanaPostBattle": "I'm going to keep on collecting\nBUG POKéMON.\n\nAm I the only girl like that?",
+    "SixIsland_PatternBush_Text_JonahDefeat": "It's okay, losing is a fun part of\nPOKéMON's appeal, too.",
+    "SixIsland_PatternBush_Text_JonahIntro": "You know, it just doesn't feel right\nif I don't use BUG POKéMON.",
+    "SixIsland_PatternBush_Text_JonahPostBattle": "By the way, “appeal” is a weird\nword, if you think about it.\n\nLike, is it like an orange peel?\nOr like a ringing bell?",
+    "SixIsland_PatternBush_Text_LaytonDefeat": "Have you taken a good look around\nyour feet?",
+    "SixIsland_PatternBush_Text_LaytonIntro": "Have you noticed something odd\nabout these parts?",
+    "SixIsland_PatternBush_Text_LaytonPostBattle": "There are places here in PATTERN\nBUSH where grass won't grow.\n\nWhat could be the cause of such\na phenomenon?",
+    "SixIsland_PatternBush_Text_MarcyDefeat": "It wasn't a bug.\nI cut my shin on some grass.",
+    "SixIsland_PatternBush_Text_MarcyIntro": "Oh, yuck!\nI think a bug stung me!",
+    "SixIsland_PatternBush_Text_MarcyPostBattle": "A little cut like that…\nA little spit's enough to cure it!",
+    "SixIsland_PatternBush_Text_NashDefeat": "Super awesome!",
+    "SixIsland_PatternBush_Text_NashIntro": "Look, look! There are funny\npatterns on the ground.",
+    "SixIsland_PatternBush_Text_NashPostBattle": "The funny patterns on the ground…\n\nThey look like the patterns on my\ngrandpa's clothes.",
+    "SixIsland_PatternBush_Text_RileyDefeat": "Wimped out…",
+    "SixIsland_PatternBush_Text_RileyIntro": "This is a good spot.\nI'll pitch my tent here.",
+    "SixIsland_PatternBush_Text_RileyPostBattle": "I'm going to observe the night sky\nhere.",
+    "SixIsland_PatternBush_Text_VanceDefeat": "I got beat while I was still busy\ncelebrating!",
+    "SixIsland_PatternBush_Text_VanceIntro": "Yeah, yeah, yeah!\nLook at all the BUG POKéMON!",
+    "SixIsland_PatternBush_Text_VancePostBattle": "I'm going to bring my little brother\nhere next time."
+   },
+   "source_file": "data/maps/SixIsland_PatternBush/text.inc"
+  },
+  "SixIsland_PokemonCenter_1F": {
+   "entries": {
+    "SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem": "You know of POKéMON that evolve\nonly upon trading, yes?\n\nBut did you know that there are\nstill others?\n\nSome POKéMON evolve only when\ntraded while holding specific items.",
+    "SixIsland_PokemonCenter_1F_Text_SomethingHiddenOnThisIsland": "For ten years, I've searched for\nRUINS.\n\nNo, make that twenty years.\n\nI get this feeling that there's\nsomething hidden on this island."
+   },
+   "source_file": "data/maps/SixIsland_PokemonCenter_1F/text.inc"
+  },
+  "SixIsland_RuinValley": {
+   "entries": {
+    "SixIsland_RuinValley_Text_CantFigureOutHowToGetInside": "I can't figure out how I'm supposed\nto get inside.",
+    "SixIsland_RuinValley_Text_CheckDoorMoreThoroughly": "The door doesn't budge at all.\nCheck it more thoroughly?",
+    "SixIsland_RuinValley_Text_DarylDefeat": "Oh, the heartbreak of losing so\neasily to you!",
+    "SixIsland_RuinValley_Text_DarylIntro": "A battle with you, so high up!",
+    "SixIsland_RuinValley_Text_DarylPostBattle": "Experience the joy of climbing!",
+    "SixIsland_RuinValley_Text_DoorIsOpen": "The door is open.",
+    "SixIsland_RuinValley_Text_FosterDefeat": "It's been so long since I battled,\nmy instincts are off.",
+    "SixIsland_RuinValley_Text_FosterIntro": "I'm curious, what compelled you to\ncome here?",
+    "SixIsland_RuinValley_Text_FosterPostBattle": "There are several ruins on the\nSEVII ISLANDS.\n\nThe majority of them date back\na long way.",
+    "SixIsland_RuinValley_Text_HectorDefeat": "You don't need to be so pushy.\nI'll be happy to tell you.",
+    "SixIsland_RuinValley_Text_HectorIntro": "I'm pretty familiar with the land\naround these parts.",
+    "SixIsland_RuinValley_Text_HectorPostBattle": "The door to the ruins…\nIt has these strange patterns\nengraved on the outside.\n\nI don't know what they mean,\nthough.",
+    "SixIsland_RuinValley_Text_IFoundThisPlace": "Let me tell you, I found this\nplace.\n\nDon't look so envious, will you?",
+    "SixIsland_RuinValley_Text_LarryDefeat": "Oh, interesting.",
+    "SixIsland_RuinValley_Text_LarryIntro": "It's been said that there are\nmysterious stones on this island.\n\nI suspect it has something to do\nwith the ruins here.",
+    "SixIsland_RuinValley_Text_LarryPostBattle": "Those ruins over there…\n\nI haven't had any luck in finding\nhow I can get inside.",
+    "SixIsland_RuinValley_Text_LeftDoorAlone": "{PLAYER} left the door alone.",
+    "SixIsland_RuinValley_Text_SeveralDotsOnTheDoor": "On closer inspection, there are\nseveral dots on the door…",
+    "SixIsland_RuinValley_Text_StanlyDefeat": "Hmm…",
+    "SixIsland_RuinValley_Text_StanlyIntro": "There appear to be many secrets\nstill unsolved in this world.",
+    "SixIsland_RuinValley_Text_StanlyPostBattle": "I suggest to you that you, too,\ngive a thought to the secrets and\nmysteries of our world once a day."
+   },
+   "source_file": "data/maps/SixIsland_RuinValley/text.inc"
+  },
+  "SixIsland_WaterPath": {
+   "entries": {
+    "SixIsland_WaterPath_Text_DeniseDefeat": "Awww, I knew this would happen!",
+    "SixIsland_WaterPath_Text_DeniseIntro": "My boyfriend's always busy, so I\ncome swimming by myself.",
+    "SixIsland_WaterPath_Text_DenisePostBattle": "When I can't be with my boyfriend,\nI spend time with the POKéMON he\ngave me.",
+    "SixIsland_WaterPath_Text_EarlDefeat": "I lost my way while I was busy\nbattling!",
+    "SixIsland_WaterPath_Text_EarlIntro": "Tell me, where are the mountains\naround these parts?",
+    "SixIsland_WaterPath_Text_EarlPostBattle": "Aren't there any mountains around\nthese parts?",
+    "SixIsland_WaterPath_Text_EdwardDefeat": "Nobody saw me losing, right?",
+    "SixIsland_WaterPath_Text_EdwardIntro": "I'm practicing in secret so no one\ncan see me.",
+    "SixIsland_WaterPath_Text_EdwardPostBattle": "As a performer, I don't want people\nto know about the effort I put in.",
+    "SixIsland_WaterPath_Text_MiaDefeat": "MIA: You're mean!\nYou're bad for winning!",
+    "SixIsland_WaterPath_Text_MiaIntro": "MIA: Hello, POKéMON!\nIt's time to battle!",
+    "SixIsland_WaterPath_Text_MiaNotEnoughMons": "MIA: Oh, you only have one\nPOKéMON?\n\nDon't you feel lonesome?",
+    "SixIsland_WaterPath_Text_MiaPostBattle": "MIA: Ohh…\nI'm sorry, my POKéMON…",
+    "SixIsland_WaterPath_Text_MiuDefeat": "MIU: Oh, no!\nMommy!",
+    "SixIsland_WaterPath_Text_MiuIntro": "MIU: Hello, POKéMON!\nIt's time to play!",
+    "SixIsland_WaterPath_Text_MiuNotEnoughMons": "MIU: MIA and I are TWINS.\nWe want to battle together.",
+    "SixIsland_WaterPath_Text_MiuPostBattle": "MIU: It makes me all sad inside\nwhen we lose…",
+    "SixIsland_WaterPath_Text_RoseDefeat": "Giggle… You're so cute when you're\ndetermined.",
+    "SixIsland_WaterPath_Text_RoseIntro": "I let a pleasant breeze lead me\nall the way here.",
+    "SixIsland_WaterPath_Text_RosePostBattle": "I want to go to the woods over\nthere, but…\n\nThere are lots of BUG POKéMON.\nThey scare me a little.",
+    "SixIsland_WaterPath_Text_RouteSign": "WATER PATH\nLeads to RUIN VALLEY",
+    "SixIsland_WaterPath_Text_SamirDefeat": "Oh, no, no, no.",
+    "SixIsland_WaterPath_Text_SamirIntro": "What, you're suggesting that you're\nsick of seeing SWIMMERS like me?\n\nAww, don't be hatin'!",
+    "SixIsland_WaterPath_Text_SamirPostBattle": "I couldn't lift the stigma of being\na SWIMMER…",
+    "SixIsland_WaterPath_Text_WantedUltimateHorn": "Wanted!\nThe Ultimate Horn!"
+   },
+   "source_file": "data/maps/SixIsland_WaterPath/text.inc"
+  },
+  "SixIsland_WaterPath_House1": {
+   "entries": {
+    "SixIsland_WaterPath_House1_Text_BiggestHeracrossIsXInches": "The biggest HERACROSS that I have\never seen measured so far is:\n\n{STR_VAR_3} inches!",
+    "SixIsland_WaterPath_House1_Text_BlankChartOfSomeSort": "It's a blank chart of some sort.\n\nIt has spaces for writing in\nrecords of some kind.",
+    "SixIsland_WaterPath_House1_Text_ItsXInchesDeserveReward": "Eeeek, it's {STR_VAR_2} inches!\nI've never seen anything like this!\nYou deserve a reward!",
+    "SixIsland_WaterPath_House1_Text_ItsXInchesSameAsBefore": "Huh? This {STR_VAR_2}-inch measurement…\nOh, boo! It's the same as before.",
+    "SixIsland_WaterPath_House1_Text_ItsXInchesYInchesWasBiggest": "Oh, it's just {STR_VAR_2} inches.\nThe HERACROSS before was bigger.\n\nIt was {STR_VAR_3} inches, the biggest\nHERACROSS you've brought me.",
+    "SixIsland_WaterPath_House1_Text_LoveItNeedItHeracross": "Hera, hera, HERACROSS!\nBig and shiny, it's the bug boss!\nLove it, need it, HERACROSS!",
+    "SixIsland_WaterPath_House1_Text_MayIMeasureHeracross": "Eeeeek!\nThat's a HERACROSS!\n\nPlease, please, may I measure how\nbig it is?",
+    "SixIsland_WaterPath_House1_Text_ThisWontDo": "Oh, no! This won't do!\n\nHERACROSS looks much more macho\nand cool, and has a lovely horn!",
+    "SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne": "I want to see a much, much bigger\nHERACROSS than that one.\n\nOh, how I adore them, big\nHERACROSS!",
+    "SixIsland_WaterPath_House1_Text_YourBagIsFull": "Your BAG is full.\nMy reward won't fit."
+   },
+   "source_file": "data/maps/SixIsland_WaterPath_House1/text.inc"
+  },
+  "SixIsland_WaterPath_House2": {
+   "entries": {
+    "SixIsland_WaterPath_House2_Text_MyNeighborMeasuredMe": "My height is 67.0 inches on the\nbutton.\n\nI know it is this precisely because\nmy neighbor measured me."
+   },
+   "source_file": "data/maps/SixIsland_WaterPath_House2/text.inc"
+  },
+  "ThreeIsland": {
+   "entries": {
+    "ThreeIsland_Text_BossIsOnHisWay": "Hey, go cry somewhere else.\nOur boss is on his way.\n\nWhen he gets here, we'll give you\na k-rad motorbike show you won't\nsoon forget!",
+    "ThreeIsland_Text_Doduo": "DODUO: Gigiih!",
+    "ThreeIsland_Text_GetOffIslandNow": "W-what!? Not on your life!\nGet off the island now!",
+    "ThreeIsland_Text_GoBackToKanto": "We don't need you people bringing\nyour noise and trouble here!\n\nWe're asking you to go back to\nKANTO!",
+    "ThreeIsland_Text_IslandBelongsToUs": "Hyahoo!\n\nFrom this day on, this island\nbelongs to us!",
+    "ThreeIsland_Text_IslandSign": "THREE ISLAND\nKin Island of Family Bonding",
+    "ThreeIsland_Text_LostelleWentOffTowardsBondBridge": "It'd be fantastic if someone as\nstrong as you lived here.\n\nI hope you'll at least stay here\na while.\n\n…I beg your pardon?\nYou're looking for LOSTELLE?\n\nLOSTELLE went off towards BOND\nBRIDGE a while ago.",
+    "ThreeIsland_Text_OhYourBagIsFull": "Oh?\nYour BAG is full.",
+    "ThreeIsland_Text_ThankYouOhYourMonGotHurt": "Thank you! Those goons were\nnothing but bad trouble.\n\nOh, look, your POKéMON got hurt\non my account.",
+    "ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame": "I'm going to train my DODUO in the\nBERRY FOREST.\n\nWhen it evolves, I'm going to play\na game on TWO ISLAND.",
+    "ThreeIsland_Text_WhosGonnaMakeMe": "Who's gonna make me?",
+    "ThreeIsland_Text_WouldntWantToSeeBikersHereAgain": "THREE ISLAND is actually the most\npopulous of the islands here.\n\nStill, it could be less sleepy.\n\nBut I wouldn't want to see goons\nlike those BIKERS here again.",
+    "ThreeIsland_Text_YouveGotImpressiveMons": "You've got seriously impressive\nPOKéMON with you."
+   },
+   "source_file": "data/maps/ThreeIsland/text.inc"
+  },
+  "ThreeIsland_BerryForest": {
+   "entries": {
+    "ThreeIsland_BerryForest_Text_BerryPouchIsFull": "Your BERRY POUCH is full.\nI guess you don't want this.",
+    "ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons": "Beware of wild, BERRY-loving\nPOKéMON!",
+    "ThreeIsland_BerryForest_Text_HelpScaryPokemon": "LOSTELLE: Whimper… Sniff…\nOh! Please, help!\n\nA scary POKéMON appeared there\na little while ago.\n\nIt kept scaring.\nIt made LOSTELLE scared.\n\nI'm too scared to move!\nBut I want to go home…",
+    "ThreeIsland_BerryForest_Text_HereItComesAgain": "Oh! Here it comes again!\nNo! Go away! It's scaring me!\n\nWaaaaaaah!\nI want my daddy!",
+    "ThreeIsland_BerryForest_Text_LetsGoHome": "What's your name?\n\nLOSTELLE's scared, so can I go\nwith you to my daddy's house?\n\nOkay!\nLet's go home!",
+    "ThreeIsland_BerryForest_Text_ThankYouHaveThis": "Ohh! That was so scary!\nThank you!\n\nLOSTELLE came to pick some\nBERRIES.\n\nYou can have this!",
+    "ThreeIsland_BerryForest_Text_WelcomeToBerryForest": "Welcome to the BERRY FOREST\n\nBe friendly and share BERRIES with\nothers and POKéMON."
+   },
+   "source_file": "data/maps/ThreeIsland_BerryForest/text.inc"
+  },
+  "ThreeIsland_BondBridge": {
+   "entries": {
+    "ThreeIsland_BondBridge_Text_AlexisDefeat": "What happens now?",
+    "ThreeIsland_BondBridge_Text_AlexisIntro": "Yay, yay!\nPOKéMON!",
+    "ThreeIsland_BondBridge_Text_AlexisPostBattle": "Did I just win?\nOr did I lose?",
+    "ThreeIsland_BondBridge_Text_AmiraDefeat": "Waaah!\nWaaah!",
+    "ThreeIsland_BondBridge_Text_AmiraIntro": "My mommy said that I can't swim\nwithout my float ring.",
+    "ThreeIsland_BondBridge_Text_AmiraPostBattle": "This year, I'm going to finally\nlearn how to swim!",
+    "ThreeIsland_BondBridge_Text_BerryForestAhead": "BERRY FOREST AHEAD",
+    "ThreeIsland_BondBridge_Text_BondBridgeSign": "BOND BRIDGE\nPlease be quiet when crossing.\n\nBERRY FOREST AHEAD",
+    "ThreeIsland_BondBridge_Text_JoyDefeat": "JOY: Ohh…\nMEG!",
+    "ThreeIsland_BondBridge_Text_JoyIntro": "JOY: We'll teach you what our\nfavorite POKéMON is!",
+    "ThreeIsland_BondBridge_Text_JoyNotEnoughMons": "JOY: I really want to battle with\nMEG.\n\nOne POKéMON isn't enough.",
+    "ThreeIsland_BondBridge_Text_JoyPostBattle": "JOY: Wasn't that fun?\nI hope we can battle again!",
+    "ThreeIsland_BondBridge_Text_MegDefeat": "MEG: Ohh…\nJOY!",
+    "ThreeIsland_BondBridge_Text_MegIntro": "MEG: We'll show you our favorite\nPOKéMON.",
+    "ThreeIsland_BondBridge_Text_MegNotEnoughMons": "MEG: I want to battle together\nwith JOY.\n\nOne POKéMON isn't enough.",
+    "ThreeIsland_BondBridge_Text_MegPostBattle": "MEG: JOY, wasn't that fun?",
+    "ThreeIsland_BondBridge_Text_NikkiDefeat": "…Sniff, sniff…\nSomething smells unpleasant…",
+    "ThreeIsland_BondBridge_Text_NikkiIntro": "The salty tang of the sea…\nIt tickles my heart.",
+    "ThreeIsland_BondBridge_Text_NikkiPostBattle": "Perhaps that reek is your sweaty\nPOKéMON's body odor…",
+    "ThreeIsland_BondBridge_Text_TishaDefeat": "Okay, you've won!\nNow will you please go away?",
+    "ThreeIsland_BondBridge_Text_TishaIntro": "Oh, no, don't come here!\nPlease, stay away from me!",
+    "ThreeIsland_BondBridge_Text_TishaPostBattle": "A POKéMON bit through my \nswimsuit.\n\nI can't get out of the water!",
+    "ThreeIsland_BondBridge_Text_VioletDefeat": "You're raising some wonderful\nPOKéMON.",
+    "ThreeIsland_BondBridge_Text_VioletIntro": "Where are you off to in such\na hurry?",
+    "ThreeIsland_BondBridge_Text_VioletPostBattle": "If you keep going this way, you'll\neventually reach BERRY FOREST."
+   },
+   "source_file": "data/maps/ThreeIsland_BondBridge/text.inc"
+  },
+  "ThreeIsland_DunsparceTunnel": {
+   "entries": {
+    "ThreeIsland_DunsparceTunnel_Text_ProspectingForGold": "Hey, there!\nHow's it going?\n\nWhat am I doing here, you ask?\nWhy, I'm prospecting for gold!\n\nWhen I strike it rich, I'm buying\na house in KANTO.",
+    "ThreeIsland_DunsparceTunnel_Text_StruckGoldThisIsForYou": "Hey, there! How's it going?\nDid you hear? I've struck gold!\n\nYou remembered that I was\nprospecting, didn't you?\n\nYou can't begin to imagine just\nhow happy I am.\n\nSo, I'll show you!\nThis is for you!",
+    "ThreeIsland_DunsparceTunnel_Text_ThatsANugget": "That's a NUGGET!\n\nI can't give you any nuggets of\nwisdom, so that'll have to do!",
+    "ThreeIsland_DunsparceTunnel_Text_WhoopsBagCrammedFull": "Whoops, your BAG is crammed full!\nI'll give this to you later."
+   },
+   "source_file": "data/maps/ThreeIsland_DunsparceTunnel/text.inc"
+  },
+  "ThreeIsland_House1": {
+   "entries": {
+    "ThreeIsland_House1_Text_RareRocksGemsDisplayed": "Rare rocks and gems are displayed.",
+    "ThreeIsland_House1_Text_YoureAlwaysSoCool": "LOSTELLE: Hi, {PLAYER}!\nYou're always so cool!\n\nI'll make lunch for you, too, one\nday, {PLAYER}."
+   },
+   "source_file": "data/maps/ThreeIsland_House1/text.inc"
+  },
+  "ThreeIsland_House2": {
+   "entries": {
+    "ThreeIsland_House2_Text_CantMakeThisSpoonBend": "Urrrrrrrrgggghhhh…\nKwaaaaah!\n\n…It's useless! I can't make this\nspoon bend with my mind.\n\nMaybe I really don't have any\npsychic powers.",
+    "ThreeIsland_House2_Text_IAdmireSabrina": "You know about a girl GYM LEADER\nin SAFFRON CITY?\n\nShe uses PSYCHIC-type POKéMON,\nright?\n\nI admire her, I really do.\n\nI've heard that she's one cool\ncustomer and beautiful, too."
+   },
+   "source_file": "data/maps/ThreeIsland_House2/text.inc"
+  },
+  "ThreeIsland_House3": {
+   "entries": {
+    "ThreeIsland_House3_Text_WantedToLiveSomewhereQuiet": "I bought this house because I\nwanted to live somewhere quiet.\n\nToday, I think I'll go out fishing."
+   },
+   "source_file": "data/maps/ThreeIsland_House3/text.inc"
+  },
+  "ThreeIsland_House4": {
+   "entries": {
+    "ThreeIsland_House4_Text_GhostsInBerryForest": "You must never, ever go out to\nthe BERRY FOREST alone.\n\nWhy?\nThere are ghosts there.",
+    "ThreeIsland_House4_Text_PapaKeepsLyingToMe": "Papa keeps lying to me, and won't\nlet me go out and play!"
+   },
+   "source_file": "data/maps/ThreeIsland_House4/text.inc"
+  },
+  "ThreeIsland_House5": {
+   "entries": {
+    "ThreeIsland_House5_Text_IllGoPlayWithLostelle": "I think I'll go play with LOSTELLE\ntoday.",
+    "ThreeIsland_House5_Text_ImNotLostelle": "Me?\nI'm not LOSTELLE.\n\nShe's probably gone to the\nBERRY FOREST, I think.\n\nShe picks BERRIES there for making\nlunch."
+   },
+   "source_file": "data/maps/ThreeIsland_House5/text.inc"
+  },
+  "ThreeIsland_Mart": {
+   "entries": {
+    "ThreeIsland_Mart_Text_BikersWereAboutToTrashMart": "Those BIKERS were about to trash\nthis POKéMON MART.\n\nAm I glad they decided to leave!",
+    "ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest": "I sometimes buy medicine here.\n\nBut a lot of people heal POKéMON\nwith BERRIES from BERRY FOREST.\n\nAfter all, BERRIES are free and\nthey never run out.",
+    "ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger": "Is it true?\n\nCELADON DEPT. STORE is several\ntimes bigger than this shop?"
+   },
+   "source_file": "data/maps/ThreeIsland_Mart/text.inc"
+  },
+  "ThreeIsland_PokemonCenter_1F": {
+   "entries": {
+    "ThreeIsland_PokemonCenter_1F_Text_AlwaysBerriesInBerryForest": "Let's crush BERRIES!\n…That'd be wasting BERRIES?\n\nYou can always find some BERRIES\non the ground in BERRY FOREST.",
+    "ThreeIsland_PokemonCenter_1F_Text_ImpossibleToSurfBetweenIslands": "It's impossible to SURF between the\nislands around these parts.\n\nThe tides are too fast and\ntreacherous.",
+    "ThreeIsland_PokemonCenter_1F_Text_PCNetworkCanLinkWithKanto": "Hey, did you hear the news?\n\nThe PC network here can now link\nwith PCs in KANTO.\n\nI don't know how that came about,\nbut it's fantastic!"
+   },
+   "source_file": "data/maps/ThreeIsland_PokemonCenter_1F/text.inc"
+  },
+  "ThreeIsland_Port": {
+   "entries": {
+    "ThreeIsland_Port_Text_EverythingTurnedOutForBest": "Those BIKERS ran off, and\nLOSTELLE was found safe.\n\nEverything turned out for the best!",
+    "ThreeIsland_Port_Text_ForkOverMoney": "Hey, hey, lady!\nFork over some spending money!",
+    "ThreeIsland_Port_Text_IllCallThePolice": "Aiyeeh!\n\nWh-who are you?!\nI… I'll call the police!",
+    "ThreeIsland_Port_Text_ThankGoodnessBikersGone": "Those BIKERS…\nAre they gone?\n\nOh, thank goodness!\nThey certainly had me terrified!",
+    "ThreeIsland_Port_Text_WereKantoRiderFederation": "We're the KANTO RIDER FEDERATION!\nVroom! Vavavavooom! Vroom!\n\nMy bike's wimpy, so I have to\nmake exhaust noises myself!"
+   },
+   "source_file": "data/maps/ThreeIsland_Port/text.inc"
+  },
+  "TrainerTower_Lobby": {
+   "entries": {
+    "TrainerTower_Lobby_Text_GiveItYourBest": "I hope you give it your best.",
+    "TrainerTower_Lobby_Text_StairsTougherThanAnyBattle": "Gasp, gasp…\nGasp…\n\nNever mind battling! These stairs…\nThey're tougher than any battle…",
+    "TrainerTower_Lobby_Text_ThanksForCompeting": "Thank you for competing!",
+    "TrainerTower_Lobby_Text_WonderWhatKindsOfTrainers": "I'm here to see how good I am.\n\nI wonder what kinds of TRAINERS\nare waiting for me?\n\nIt's nerve-racking!",
+    "TrainerTower_Roof_Text_IdLikeToSeeBetterTime": "What I would like to see is a\nbetter time out of you…\n\nI'm counting on you.\n\nUntil then, farewell…",
+    "TrainerTower_Roof_Text_ImOwnerBattledPerfectly": "Hello…\n\nI am the owner of this TOWER…\n\nHow the sky soars above this\nrooftop…\n\nThe caress of the winds up here…\n\nIt's all so perfect…\n\nThe way you battled…\nIt, too, was perfection…",
+    "TrainerTower_Roof_Text_ThisIsForYou": "This is for you…"
+   },
+   "source_file": "data/maps/TrainerTower_Lobby/text.inc"
+  },
+  "TwoIsland": {
+   "entries": {
+    "TwoIsland_Text_AddedMerchandiseForLostelle": "I can't tell you how grateful I am\nfor your rescue of LOSTELLE.\n\nThanks to your feat, the people of\nTHREE ISLAND have changed their\nattitudes about KANTO people.\n\nAnd, I'm from KANTO, you see.\n\nThe people of THREE ISLAND\nhelped me add to my merchandise.",
+    "TwoIsland_Text_BringingItemsFromDistantLands": "Oh, hello, {PLAYER}!\nWelcome!\n\nI've started bringing in items from\ndistant lands.\n\nI've got some rare items in, too.\nPlease have a look!",
+    "TwoIsland_Text_BrunoCameToIslandWhileBack": "Listen, listen.\nDid you know?\n\nA famous TRAINER came to the\nISLAND a little while back.\n\nHe's one of the ELITE FOUR.\nHis name is BRUNO.\n\nHe went away disappointed when he\nfound out that they were all sold\nout of Rage Candybars.",
+    "TwoIsland_Text_BuyRareItemsHere": "The discerning TRAINER knows to\nbuy rare items here!",
+    "TwoIsland_Text_DangerFastCurrent": "DANGER! FAST CURRENT!\nFishing and surfing prohibited!",
+    "TwoIsland_Text_FellowMovedFromCeladonCity": "That fellow there, he moved here\nfrom CELADON CITY.\n\nHe started up a shop with his\nyounger brother.\n\nYou have to wonder if he knew what\nhe was getting into.",
+    "TwoIsland_Text_HaveYouTriedJumpingGame": "Boing! Boing!\nHave you tried the jumping game?\n\nThe POKéMON you can enter…\nBoing!\n\nSome go boing!\n\nAnd some go boooooooing!\n\nDid you know that?\nBoing!",
+    "TwoIsland_Text_HopeYouGiveItYourBest": "Hi! I'm giving it my best here.\nI hope you do too, {PLAYER}.",
+    "TwoIsland_Text_IslandSign": "TWO ISLAND\nBoon Island for Two",
+    "TwoIsland_Text_JoyfulGameCornerSign": "Skip & Chomp!\nJoyful GAME CORNER",
+    "TwoIsland_Text_OldWomanLivesOutOnCape": "There's an old woman who lives in\na cottage out on the cape.\n\nShe gives the eye to POKéMON.\nIt's a bit unnerving.",
+    "TwoIsland_Text_ShopkeepersBrotherWorksGameCorner": "The shopkeeper's brother took\na job at the GAME CORNER.\n\nHe's trying to pull together money\nso they can buy more merchandise.",
+    "TwoIsland_Text_WelcomeToShopMerchandiseLimited": "Oh!\nHello, welcome to my shop!\n\nWe've only opened up recently.\n\nOur merchandise is limited, but I\nhope we can serve your needs."
+   },
+   "source_file": "data/maps/TwoIsland/text.inc"
+  },
+  "TwoIsland_CapeBrink_House": {
+   "entries": {
+    "Text_AllowMeToTeachMonUltimateMove": "Oh! This is the one!\nThis is the POKéMON!\n\nThis {STR_VAR_1} is worthy of\nlearning my ultimate move!\n\nWill you allow it?\n\nWill you allow your {STR_VAR_1} to\nlearn my {STR_VAR_2}?",
+    "Text_FeelRejuvenated": "After I passed on my knowledge to\nyou, I felt so much relief.\n\nIn fact, I feel rejuvenated,\nas if I were younger again!",
+    "Text_JustMistaken": "…No…\nI was just mistaken.",
+    "Text_LetMeConferUltimateMove": "You will allow it?\n\nThen, let me confer my ultimate\n{STR_VAR_2} on your {STR_VAR_1}.\n\nGgggrah-awooo!",
+    "Text_MakeBestUseOfMove": "I implore you to make the best\nuse of that move and gain power!",
+    "Text_PassedOnEverythingIKnow": "Gasp, gasp, gasp…\n\nI have no regrets now.\nI've passed on everything I know.\n\nNow I can live out my life knowing\nmy work is done.",
+    "Text_TaughtMove": "Gasp, gasp, gasp…\n\nI didn't think I could teach that\nmove while I still lived…",
+    "Text_UltimateMoveThatMon": "I perfected the ultimate move of\nits type…\n\nBut will no one take it for\nfuture use?\n\n…Hm? Hmmm!\n\nY-you…\nTh-that {STR_VAR_1}…",
+    "Text_YouRejectIt": "Gaah! You reject it?\nNo, I won't be dissuaded!"
+   },
+   "source_file": "data/maps/TwoIsland_CapeBrink_House/text.inc"
+  },
+  "TwoIsland_House": {
+   "entries": {
+    "TwoIsland_House_Text_NeedMushroomOrTwoToLearnMove": "If your POKéMON need to learn a\nmove, I need a MUSHROOM or two.",
+    "TwoIsland_House_Text_TeachMonMoveForMushroom": "I'm the POKéMON MOVE MANIAC.\n\nI know every single move that\nPOKéMON learn growing up.\n\nI'm also a mushroom maniac.\n\nBring me two TINYMUSHROOMS,\nor one BIG MUSHROOM.\n\nIf you do that for me, I'll teach\na move to one POKéMON.",
+    "TwoIsland_House_Text_WantMeToTeachMove": "Sniff, sniff…\nHm! You smell of MUSHROOMS!\n\nDo you want me to teach a move\nto a POKéMON of yours?"
+   },
+   "source_file": "data/maps/TwoIsland_House/text.inc"
+  },
+  "TwoIsland_JoyfulGameCorner": {
+   "entries": {
+    "TwoIsland_JoyfulGameCorner_Text_GetGamesGoingSoon": "We'll get the games going soon\nfor you!",
+    "TwoIsland_JoyfulGameCorner_Text_HandedMeteoriteToLostellesDaddy": "{PLAYER} handed the METEORITE\nto LOSTELLE's daddy.",
+    "TwoIsland_JoyfulGameCorner_Text_IllGetGameCornerRunning": "All right, I'll get the GAME CORNER\nrunning right away.\n\nYou have to come visit with a\nfriend.",
+    "TwoIsland_JoyfulGameCorner_Text_NotGoingToFitInBag": "Your BAG's not going to fit another\nthing…",
+    "TwoIsland_JoyfulGameCorner_Text_NotRunningAnyGamesToday": "I'm sorry.\nWe're not running any games today.",
+    "TwoIsland_JoyfulGameCorner_Text_OhThisIsFromBill": "Oh, I see, this is from BILL!\nYou have to thank him for me!\n\nYou know, you've been fantastic.\nI want you to have this.",
+    "TwoIsland_JoyfulGameCorner_Text_PleaseGoToThreeIsland": "Hey, but listen! I'm begging you,\nyou have to go to THREE ISLAND.\n\nIf anything were to happen to my\nLOSTELLE…\n\nMy place is the house with the red\nroof on THREE ISLAND.\n\nShe may just show up late here,\nso I can't run off anywhere.\n\nThat's why I have to get you to do\nme this big favor.",
+    "TwoIsland_JoyfulGameCorner_Text_PleaseShowMeYouBeingCool": "Listen, listen!\n\nPlease show me you being cool\nagain!",
+    "TwoIsland_JoyfulGameCorner_Text_ThisIsForMe": "Oh, what's that?\nYou're saying that this is for me?\n\nHow did you know that I love rare\nrocks and gems?\n\nYou sure know how to make a guy\nhappy."
+   },
+   "source_file": "data/maps/TwoIsland_JoyfulGameCorner/text.inc"
+  },
+  "TwoIsland_PokemonCenter_1F": {
+   "entries": {
+    "TwoIsland_PokemonCenter_1F_Text_HaveYouVisitedGameCorner": "Have you visited the GAME CORNER\nalready?\n\nIt's no good to go alone.\nYou have to take a friend along.",
+    "TwoIsland_PokemonCenter_1F_Text_OldLadyLivesOutOnCape": "Not many people live on\nTWO ISLAND.\n\nThere is this old lady who lives\nout on the cape.\n\nShe's been there since I don't know\nwhen."
+   },
+   "source_file": "data/maps/TwoIsland_PokemonCenter_1F/text.inc"
+  },
+  "_common": {
+   "entries": {
+    "Braille_Text_ABC": "ABC",
+    "Braille_Text_Comma": ",",
+    "Braille_Text_Cut": "CUT",
+    "Braille_Text_DEF": "DEF",
+    "Braille_Text_Down": "DOWN",
+    "Braille_Text_ForYou": "FOR YOU.",
+    "Braille_Text_GHI": "GHI",
+    "Braille_Text_JKL": "JKL",
+    "Braille_Text_Left": "LEFT",
+    "Braille_Text_MNO": "MNO",
+    "Braille_Text_PQRS": "PQRS",
+    "Braille_Text_Period": ".",
+    "Braille_Text_Right": "RIGHT",
+    "Braille_Text_TUV": "TUV",
+    "Braille_Text_Up": "UP",
+    "Braille_Text_UsePower": "USE POWER.",
+    "Braille_Text_WXYZ": "WXYZ",
+    "CableClub_Text_AskAboutLinking": "Hello, {PLAYER}!\n\nIt's me, TEALA, the POKéMON\nCENTER 2F attendant.\n\nIs there something you needed to\nask me about linking?",
+    "CableClub_Text_ChooseGroupLeader": "Please decide which of you will\nbecome the GROUP LEADER.\n\nThe other players must then choose\n“JOIN GROUP.”",
+    "CableClub_Text_ComeAgain": "All right, come again!",
+    "CableClub_Text_EnjoyUnionRoom": "I hope you enjoy your time in\nthe UNION ROOM.",
+    "CableClub_Text_ExplainWirelessClub": "Let me explain how the POKéMON\nWIRELESS CLUB works.\n\nOn this, the top floor, there are\ntwo rooms.\n\nFirst, the room on the left.\nIt's the UNION ROOM.\n\nYou may link up with TRAINERS\naround you who have also entered\nthe UNION ROOM.\n\nWith them, you may do things like\nchat, battle, and trade.\n\nSecond, the room on the right is\nthe DIRECT CORNER.\n\nYou may trade or battle POKéMON\nwith your friends in this room.\n\nSometimes, you may not be able to\nfind your friends in the UNION ROOM\nor the DIRECT CORNER.\n\nIn that case, please move closer\nto your friends.\n\nIf the Wireless Adapter isn't\nconnected, you may still link up\nusing a GBA Game Link cable.\n\nIf that is the case, you must go\nto the DIRECT CORNER.\n\nI hope you enjoy the Wireless \nCommunication System.",
+    "CableClub_Text_HopeYouEnjoyWirelessSystem": "I hope you enjoy the Wireless\nCommunication System.",
+    "CableClub_Text_PlayWhichBattleMode": "Which Battle Mode would you like\nto play?",
+    "CableClub_Text_PleaseVisitAgain": "Please do visit again.",
+    "CableClub_Text_TradePokemon": "Would you like to trade POKéMON?",
+    "CableClub_Text_UnionRoomAdapterNotConnected": "This is the POKéMON WIRELESS CLUB\nUNION ROOM.\n\nUnfortunately, your Wireless\nAdapter is not connected properly.\n\nPlease do come again.",
+    "CableClub_Text_UnionRoomInfo": "The TRAINERS in the UNION ROOM\nwill be those players around you\nwho have also entered the ROOM.\n\nYou may do all sorts of things\nhere, such as exchanging greetings.\n\nYou may enter two POKéMON up to\nLv. 30 for a one-on-one battle.\n\nYou may take part in a chat with\ntwo to five people.\n\nOr, you may register a POKéMON for\ntrade.\n\nWould you like to enter the ROOM?",
+    "CableClub_Text_UseBerryCrush": "Would you like to use the\nBERRY CRUSH System?",
+    "CableClub_Text_WelcomeUnionRoomEnter": "Welcome to the POKéMON WIRELESS\nCLUB UNION ROOM.\n\nYou may interact directly with\nother TRAINERS here, some of\nwhom you may not even know.\n\nWould you like to enter the ROOM?",
+    "CableClub_Text_WelcomeWhichCableClubService": "Welcome to the POKéMON CABLE\nCLUB.\n\nWhich of our services do you wish\nto use?",
+    "CableClub_Text_WelcomeWhichDirectCornerRoom": "Welcome to the POKéMON WIRELESS\nCLUB DIRECT CORNER.\n\nYou may interact directly with\nyour friends here.\n\nWhich room would you like to\nenter?",
+    "CableClub_Text_YouHaveAMonThatCantBeTaken": "You have at least one POKéMON\nthat can't be taken.",
+    "DayCare_Text_ComeAgain": "Fine.\nCome again.",
+    "DayCare_Text_DoYouWantEgg": "Ah, it's you!\n\nWe were raising your POKéMON, and\nmy goodness, were we surprised!\n\nYour POKéMON had an EGG!\n\nWe don't know how it got there,\nbut your POKéMON had it.\n\nYou do want it, yes?",
+    "DayCare_Text_FineThenComeAgain": "Oh, fine, then.\nCome again.",
+    "DayCare_Text_GoodToSeeYou": "Ah, it's you!\nGood to see you.\n\nYour POKéMON can only be doing\ngood!",
+    "DayCare_Text_HusbandWasLookingForYou": "My husband was looking for you.",
+    "DayCare_Text_IWillKeepDoYouWantIt": "I really will keep it.\nYou do want this, yes?",
+    "DayCare_Text_IllKeepIt": "Well then, I'll keep it.\nThanks!",
+    "DayCare_Text_ImDaycareManSpeakToMyWife": "I'm the DAY-CARE MAN.\n\nI help take care of the precious\nPOKéMON of TRAINERS.\n\nIf you'd like me to raise your\nPOKéMON, have a word with my wife.",
+    "DayCare_Text_ItWillCostX": "If you want your {STR_VAR_1} back,\nit will cost ¥{STR_VAR_2}.",
+    "DayCare_Text_ReceivedEgg": "{PLAYER} received the EGG from\nthe DAY-CARE MAN.",
+    "DayCare_Text_TakeGoodCareOfIt": "Take good care of it.",
+    "DayCare_Text_TakeYourMonBack": "Will you take your POKéMON back?",
+    "DayCare_Text_WeCanRaiseOneMore": "We can raise two of your POKéMON.\n\nWould you like us to raise one\nmore POKéMON for you?",
+    "DayCare_Text_WellRaiseYourMon": "Fine, we'll raise your {STR_VAR_1}\nfor a while.\n\nCome back for it later.",
+    "DayCare_Text_WhatWillYouBattleWith": "If you leave me that POKéMON,\nwhat will you battle with?\n\nCome back another time.",
+    "DayCare_Text_WhichMonShouldWeRaise": "Which POKéMON should we raise for\nyou?",
+    "DayCare_Text_WouldYouLikeUsToRaiseMon": "I'm the DAY-CARE LADY.\n\nWe can raise POKéMON for you.\n\nWould you like us to raise one?",
+    "DayCare_Text_YouHaveJustOneMon": "Oh? But you have just one\nPOKéMON.\n\nCome back another time.",
+    "DayCare_Text_YouHaveNoRoomForIt": "You have no room for it…\nCome back when you've made room.",
+    "DayCare_Text_YourMonHasGrownXLevels": "By level, your {STR_VAR_1} has\ngrown by {STR_VAR_2}.",
+    "DayCare_Text_YourMonIsDoingFine": "Ah, it's you! Good to see you.\nYour {STR_VAR_1}'s doing fine.",
+    "DayCare_Text_YourMonsAreDoingFine": "Ah, it's you! Your {STR_VAR_1} and\n{STR_VAR_2} are doing fine.",
+    "DayCare_Text_YourPartyIsFull": "Your POKéMON party is full.\nMake room, then come see me.",
+    "EventScript_ExplainPokemonJumpRequirements": "It doesn't look like you have any\nPOKéMON that you can enter…\n\nWould you like me to explain what\nkinds of POKéMON can enter?",
+    "FiveIsland_MemorialPillar_Text_ChazRematchIntro": "I'm the middle kid of the BIRD\nBROTHERS.\n\nI'm the one that loves wings.\nLet's battle again!",
+    "FiveIsland_MemorialPillar_Text_HaroldRematchIntro": "I'm the youngest of the BIRD\nBROTHERS.\n\nI love birds for their down.\nI didn't think I'd see you again!",
+    "FiveIsland_MemorialPillar_Text_MiloRematchIntro": "I'm the eldest of the BIRD\nBROTHERS. Remember me?\n\nThat's right, I'm the one who loves\nbirds for their beaks!",
+    "FiveIsland_ResortGorgeous_Text_CelinaRematchIntro": "Must I repeat myself?\nI'm trying to paint.\nPlease keep out of my sight!",
+    "FiveIsland_ResortGorgeous_Text_DaisyRematchIntro": "With these hands, I will create\nmy victory today.",
+    "FiveIsland_ResortGorgeous_Text_DestinRematchIntro": "I'm a good runner.\nI've gotten even faster!",
+    "FiveIsland_ResortGorgeous_Text_GillianRematchIntro": "They're almost finished making the\npool for my POKéMON.\n\nYou must drop in for a visit.",
+    "FiveIsland_ResortGorgeous_Text_JackiRematchIntro": "Oh, you will give me another\nopportunity to match wits with you?",
+    "FiveIsland_ResortGorgeous_Text_RaynaRematchIntro": "I haven't made any progress…\nI still can't get the right angle…",
+    "FiveIsland_ResortGorgeous_Text_TobyRematchIntro": "I say, friend!\nLet us enjoy our time together!",
+    "FiveIsland_WaterLabyrinth_Text_AlizeRematchIntro": "Oh, hello!\n\nAre you raising your POKéMON in a\ngood environment?",
+    "FourIsland_House2_Text_BragAboutSomethingForMe": "Brag about something for me.\nI'll give you a STICKER.",
+    "FourIsland_House2_Text_BragAboutWhatToday": "Oh, hi!\nHere comes the braggart.\n\nWhat are you going to brag about\ntoday?",
+    "FourIsland_House2_Text_GiveYouStickerIfYouBrag": "Oh, excellent!\nYou've come to the right place!\n\nLook, look! See? See?\nThese are my STICKERS!\nLook how many I got!\n\nI bet you want some.\nI bet you do!\n\nI'll give a STICKER if you can tell\nme something awesome about\nyourself.\n\nWhat will you brag about?",
+    "FourIsland_House2_Text_WishICouldShowOffStickers": "Giggle…\nI collected a ton of STICKERS.\nI wish I could show them off…",
+    "OneIsland_KindleRoad_Text_AbigailRematchIntro": "My sunburn is starting to hurt…",
+    "OneIsland_KindleRoad_Text_BryceRematchIntro": "You know, everything tastes great\nwhen you're out in the wild.",
+    "OneIsland_KindleRoad_Text_ClaireRematchIntro": "I ate too much again, so will you\nbattle us for some exercise?",
+    "OneIsland_KindleRoad_Text_FinnRematchIntro": "The fire bird's mountain casts\na huge shadow…",
+    "OneIsland_KindleRoad_Text_GarrettRematchIntro": "I have this strong feeling that\nI can win this time!",
+    "OneIsland_KindleRoad_Text_HughRematchIntro": "Dress appropriately for battle!\nLose that frivolous outfit, I said!",
+    "OneIsland_KindleRoad_Text_KiaRematchIntro": "KIA: My big brother and I make\nan awesome combination!\n\nWe won't lose this time!",
+    "OneIsland_KindleRoad_Text_MariaRematchIntro": "The weather's gorgeous!\nI'll try not to spoil it.",
+    "OneIsland_KindleRoad_Text_MikRematchIntro": "MIK: Together with KIA, we're\nafraid of nothing!\n\nWe'll prove it to you this time!",
+    "OneIsland_KindleRoad_Text_SharonRematchIntro": "You'll help me out with my\ntraining again?",
+    "OneIsland_KindleRoad_Text_SheaRematchIntro": "Every morning, before breakfast,\nI swim around this island…\nThree times!",
+    "OneIsland_KindleRoad_Text_TanyaRematchIntro": "We haven't missed a single day of\ntraining yet!",
+    "OneIsland_KindleRoad_Text_TommyRematchIntro": "Wait! Wait a second!\nI'm sure I've hooked a big one!",
+    "OneIsland_TreasureBeach_Text_AmaraRematchIntro": "Lying back, rocked by the waves…\nI don't notice time slipping by…",
+    "PokemonJournal_Text_SpecialFeatureAgatha": "POKéMON JOURNAL\n\nSpecial Feature:\nELITE FOUR's AGATHA!\n\nIn her youth, AGATHA and PROF.\nOAK were rivals who vied for\nsupremacy as TRAINERS.",
+    "PokemonJournal_Text_SpecialFeatureBlaine": "POKéMON JOURNAL\n\nSpecial Feature: CINNABAR GYM\nLEADER BLAINE!\n\nBLAINE is said to remove his dark\nshades only when he is thinking up\nnew quiz questions.",
+    "PokemonJournal_Text_SpecialFeatureDaisyOak": "This is a POKéMON JOURNAL from\nyears ago…\n\nPOKéMON JOURNAL\nCONTEST Special!\n\nThe Spring POKéMON CONTEST's\nGrand Champion is DAISY OAK of\nPALLET TOWN!",
+    "PokemonJournal_Text_SpecialFeatureLorelei": "POKéMON JOURNAL\n\nSpecial Feature:\nELITE FOUR's LORELEI!\n\nKnown for her logical, calculated,\nand cool battling style, LORELEI\nhas a surprising secret!",
+    "SevenIsland_SevaultCanyon_Entrance_Text_EveRematchIntro": "EVE: I'll team up with JON and\nbattle together again.",
+    "SevenIsland_SevaultCanyon_Entrance_Text_JonRematchIntro": "JON: When I'm with EVE, it feels\nlike we could never lose, not ever.",
+    "SevenIsland_SevaultCanyon_Entrance_Text_MadelineRematchIntro": "I don't forgive people who abuse\nPOKéMON!",
+    "SevenIsland_SevaultCanyon_Entrance_Text_MasonRematchIntro": "Howdy! You're a member of my\nfan club, isn't that right?",
+    "SevenIsland_SevaultCanyon_Entrance_Text_MiahRematchIntro": "Kyahaha!\n\nComing back won't change a thing.\nI'll flick you away effortlessly!",
+    "SevenIsland_SevaultCanyon_Entrance_Text_NicolasRematchIntro": "This island is too spread out…\nPatrolling the place is a drag…",
+    "SevenIsland_SevaultCanyon_Text_CyndyRematchIntro": "Let's have another battle.\nMy conditioning's in top form!",
+    "SevenIsland_SevaultCanyon_Text_EvanRematchIntro": "It doesn't matter if you happen to\nhave the strongest POKéMON…\n\nIt doesn't mean a thing if you don't\nknow how to use them properly!",
+    "SevenIsland_SevaultCanyon_Text_JacksonRematchIntro": "I work to protect the environment.\nIn turn, nature protects me!",
+    "SevenIsland_SevaultCanyon_Text_KatelynRematchIntro": "Every time we meet, you have those\nsnazzy shoes on.",
+    "SevenIsland_SevaultCanyon_Text_LeroyRematchIntro": "You must have gotten tougher.\nLet me battle you, please!",
+    "SevenIsland_SevaultCanyon_Text_LexRematchIntro": "LEX: My darling NYA, together\nwe will win for certain!",
+    "SevenIsland_SevaultCanyon_Text_MichelleRematchIntro": "I was given the best possible\neducation to become this strong.\n\nI won't lose this time.\nAbsolutely not!",
+    "SevenIsland_SevaultCanyon_Text_NyaRematchIntro": "NYA: I won't drag down my mentor\nLEX! We're going to win!",
+    "SevenIsland_TanobyRuins_Text_BenjaminRematchIntro": "A mystic POKéMON is said to sleep\ninside here.",
+    "SevenIsland_TanobyRuins_Text_BrandonRematchIntro": "Have you discovered anything about\nthis stone chamber?",
+    "SevenIsland_TanobyRuins_Text_CliffordRematchIntro": "Today, in addition to our lesson,\nwe came to see the chamber again.",
+    "SevenIsland_TanobyRuins_Text_EdnaRematchIntro": "My teacher is showing me how to\npaint some more.",
+    "SevenIsland_TrainerTower_Text_DarioRematchIntro": "I sensed your approach.",
+    "SevenIsland_TrainerTower_Text_RodetteRematchIntro": "Somewhere on this island, peculiar\nPOKéMON are sleeping.",
+    "SixIsland_GreenPath_Text_JaclynRematchIntro": "…Huh?\n\nI envision my house, but TELEPORT\nalways brings me here!",
+    "SixIsland_OutcastIsland_Text_AvaRematchIntro": "AVA: Let's have another\ntwo-on-two marine battle today!",
+    "SixIsland_OutcastIsland_Text_GebRematchIntro": "GEB: My big sister and I are way\ntougher than before!",
+    "SixIsland_OutcastIsland_Text_MymoRematchIntro": "Gasp… Gasp…\n\nI swam here from SIX ISLAND's port\nin one go again.",
+    "SixIsland_OutcastIsland_Text_NicoleRematchIntro": "You always come along while I'm\nswimming.",
+    "SixIsland_OutcastIsland_Text_TylorRematchIntro": "I'm still having no luck at all.\nA battle'd be a change of pace!",
+    "SixIsland_RuinValley_Text_DarylRematchIntro": "A rematch with you, so high up!",
+    "SixIsland_RuinValley_Text_FosterRematchIntro": "Hi, didn't we meet before?\nWhat compelled you to come back?",
+    "SixIsland_RuinValley_Text_HectorRematchIntro": "I'm pretty familiar with the land\naround these parts.",
+    "SixIsland_RuinValley_Text_LarryRematchIntro": "It's been said that there are\nmysterious stones on this island.\n\nHave you discovered anything since\nwe last met?",
+    "SixIsland_RuinValley_Text_StanlyRematchIntro": "There appear to be many secrets\nstill unsolved in this world.",
+    "SixIsland_WaterPath_Text_DeniseRematchIntro": "Sigh…\nMy boyfriend's busy again…",
+    "SixIsland_WaterPath_Text_EarlRematchIntro": "Come on, tell me, where are the\nmountains around these parts?",
+    "SixIsland_WaterPath_Text_EdwardRematchIntro": "Hehehe, I'm practicing in secret\nagain.",
+    "SixIsland_WaterPath_Text_MiaRematchIntro": "MIA: Hello, POKéMON!\nIt's time to battle again!",
+    "SixIsland_WaterPath_Text_MiuRematchIntro": "MIU: Hello, POKéMON!\nIt's time to play again!",
+    "SixIsland_WaterPath_Text_RoseRematchIntro": "Oh, hello.\nA pleasant breeze is blowing again.",
+    "SixIsland_WaterPath_Text_SamirRematchIntro": "What, you're sick of seeing\nSWIMMERS like me?\n\nAww, don't be hatin'!\nBattle with me again.",
+    "Text_AdapterNotConnectedMinigame": "The Wireless Adapter isn't\nconnected.\n\nCome back when it's hooked up!",
+    "Text_AllAboardSeagallopNum": "All right!\nAll aboard SEAGALLOP HI-SPEED {STR_VAR_1}!",
+    "Text_BagIsFull": "The BAG is full…",
+    "Text_CutTreeDown": "This tree looks like it can be CUT\ndown!\n\nWould you like to CUT it?",
+    "Text_DescribeWhichGame": "I can explain game rules to you,\nif you'd like.\n\nWhich game should I describe?",
+    "Text_DodrioBerryPickingInfo": "“DODRIO BERRY-PICKING”\n\nCommand DODRIO's three heads to\ncatch falling BERRIES.\n\nPress right, up, or left on the\n{PLUS} Control Pad to move the heads.\n\nTo play this game, you must have\na DODRIO.",
+    "Text_EnterWhichPokemon": "Which POKéMON would you like to\nenter?",
+    "Text_Gyaoo": "Gyaoo!",
+    "Text_MayIHelpYou": "Hi, there!\nMay I help you?",
+    "Text_MonFlewAway": "The {STR_VAR_1} flew away!",
+    "Text_MonMayPushBoulder": "It's a big boulder, but a POKéMON\nmay be able to push it aside.",
+    "Text_MonMaySmashRock": "It's a rugged rock, but a POKéMON\nmay be able to smash it.",
+    "Text_MonUsedMove": "{STR_VAR_1} used {STR_VAR_2}!",
+    "Text_MonUsedStrengthCanMoveBoulders": "{STR_VAR_1} used STRENGTH!\n\n{STR_VAR_1}'s STRENGTH made it\npossible to move boulders around!",
+    "Text_MoveCanOnlyBeLearnedOnce": "This move can be learned only\nonce. Is that okay?",
+    "Text_ObtainedTheX": "Obtained the {STR_VAR_2}!",
+    "Text_PlayWhichGame": "All right, which game did you want\nto play?",
+    "Text_PleaseComeAgain": "Please come again!",
+    "Text_PokemonJumpInfo": "“POKéMON JUMP”\n\nMake your POKéMON skip the\nVINE WHIP rope with the A Button.\n\nOnly mini POKéMON around 28 inches\nor less may participate.\n\nPOKéMON that only swim, burrow, or\nfly are not good at jumping.\n\nAs a result, those POKéMON may not\nparticipate.\n\nGood things happen if everyone\njumps in time.",
+    "Text_PutItemAway": "{PLAYER} put the {STR_VAR_2}\nin the {STR_VAR_3}.",
+    "Text_StrengthMadeMovingBouldersPossible": "STRENGTH made it possible to move\nboulders around.",
+    "Text_TakeYourPkmnForFewSeconds": "Okay, I'll take your POKéMON for a\nfew seconds.",
+    "Text_TalkToManToPlay": "If you want to play a game,\nplease tell the man beside me.",
+    "Text_TreeCanBeCutDown": "This tree looks like it can be CUT\ndown!",
+    "Text_UseRockSmash": "This rock appears to be breakable.\nWould you like to use ROCK SMASH?",
+    "Text_UseStrength": "It's a big boulder, but a POKéMON\nmay be able to push it aside.\n\nWould you like to use STRENGTH?",
+    "Text_WantWhichFloor": "Which floor do you want?",
+    "Text_WeHopeToSeeYouAgain": "We hope to see you again!",
+    "Text_WelcomeCanYouWait": "Hi, welcome!\nYou can play games over the\nWireless Communication System.\n\nCan you wait just a little bit?",
+    "Text_WelcomeWantToHealPkmn": "Welcome to our POKéMON CENTER!\n\nWould you like me to heal your\nPOKéMON back to perfect health?",
+    "Text_WirelessClubUndergoingAdjustments": "I'm terribly sorry.\nThe POKéMON WIRELESS CLUB is\nundergoing adjustments now.",
+    "ThreeIsland_BondBridge_Text_AlexisRematchIntro": "Yay, yay!\nPOKéMON!",
+    "ThreeIsland_BondBridge_Text_AmiraRematchIntro": "I want to swim without my float\nring soon.",
+    "ThreeIsland_BondBridge_Text_JoyRematchIntro": "JOY: We've gotten stronger!\nLots and lots!",
+    "ThreeIsland_BondBridge_Text_MegRematchIntro": "MEG: You can't beat us today!",
+    "ThreeIsland_BondBridge_Text_NikkiRematchIntro": "Are we to battle again?",
+    "ThreeIsland_BondBridge_Text_TishaRematchIntro": "Oh, no, didn't I tell you already?\nPlease, stay away from me!",
+    "ThreeIsland_BondBridge_Text_VioletRematchIntro": "From where have you come, and\nwhere are you bound?",
+    "VermilionCity_Text_Seagallop7Departing": "Okay, everything's in order.\n\nSEAGALLOP HI-SPEED 7 will be\ndeparting immediately."
+   },
+   "source_file": "data/text/braille.inc"
+  },
+  "CinnabarIsland": {
+   "entries": {
+    "CinnabarIsland_Text_AllRightLetsGo": "All right, then.\nLet's go!",
+    "CinnabarIsland_Text_ComeWithMeToOneIsland": "Look, it's me, BILL.\nLong time no see!\n\nI hope you're still using my\nPC system.\n\nWell, listen, since we met up here,\nhow about spending time with me?\n\nThere's this little island in the far\nsouth called ONE ISLAND.\n\nA friend invited me, so I'm on my\nway out there.\n\nHow about it?\nDo you feel like coming with me?",
+    "CinnabarIsland_Text_HeyIfItIsntPlayer": "Huh?\nHey, if it isn't {PLAYER}!",
+    "CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain": "Hey, wasn't that a long cruise?\n\nMy buddy CELIO seemed to enjoy\nyour company.\n\nI'm sure he'd welcome you if you\nwere to visit him again.\n\nIf you have a TRI-PASS, you can\nalways take a ferry there from\nVERMILION PORT.\n\nAll right, thanks for your company!",
+    "CinnabarIsland_Text_IllBeWaitingInPokeCenter": "What, are you too busy?\n\nWell, all right.\nThe boat hasn't arrived yet anyway.\n\nI'll be waiting at the POKéMON\nCENTER over there.\n\nCome see me when you're done with\nyour business here."
+   },
+   "source_file": "data/maps/CinnabarIsland/text.inc"
+  },
+  "MtEmber_RubyPath_B3F": {
+   "entries": {
+    "MtEmber_RubyPath_B3F_Text_FoundARuby": "{PLAYER} found a RUBY!"
+   },
+   "source_file": "data/maps/MtEmber_RubyPath_B3F/text.inc"
+  },
+  "VermilionCity": {
+   "entries": {
+    "VermilionCity_Text_BoardSeagallopFerry": "Would you like to board\na SEAGALLOP ferry?",
+    "VermilionCity_Text_BoardSeagallopRainbowPass": "Ah, you have a RAINBOW PASS.\n\nWould you like to board\na SEAGALLOP ferry?",
+    "VermilionCity_Text_BoardSeagallopTriPass": "Ah, you have a TRI-PASS.\n\nWould you like to board\na SEAGALLOP ferry?",
+    "VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland": "Oh! That's an AURORATICKET!\nNow that is rare.\n\nWe'll be happy to take you to\nBIRTH ISLAND anytime.",
+    "VermilionCity_Text_OhMysticTicketTakeYouToNavelRock": "Oh! That's a MYSTICTICKET!\nNow that is rare.\n\nWe'll be happy to take you to\nNAVEL ROCK anytime.",
+    "VermilionCity_Text_Seagallop10Departing": "Okay, everything's in order for you\nto board a special ferry.\n\nSEAGALLOP HI-SPEED 10 will be\ndeparting immediately.",
+    "VermilionCity_Text_Seagallop12Departing": "Okay, everything's in order for you\nto board a special ferry.\n\nSEAGALLOP HI-SPEED 12 will be\ndeparting immediately.",
+    "VermilionCity_Text_TheShipSetSail": "The ship set sail."
+   },
+   "source_file": "data/maps/VermilionCity/text.inc"
+  }
+ },
+ "source": "pret/pokefirered held source: data/maps/*/text.inc, data/event_scripts.s, data/text/*.inc (Sevii maps)",
+ "total_entries": 788
+}

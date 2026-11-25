@@ -1,0 +1,2609 @@
+{
+ "meta": {
+  "source": "hidden_files/scratch_regions_prep/orre/orre_register.json",
+  "generated_by": "code_prep_shadow/work/build_shadow_index.py",
+  "record_count": 131,
+  "counts_by_game": {
+   "colosseum": 48,
+   "xd": 83
+  },
+  "heart_gauge_max_note": "null per record: per-individual Heart Gauge values are NOT staged (Orre prep SS3.4.2, gap D7). shadow_system.gd applies its labeled design-constant default until a sourced pass fills these."
+ },
+ "records": [
+  {
+   "origin_key": "orre:colosseum:outskirt_stand:togetic:Cipher Peon Fein",
+   "game": "colosseum",
+   "location_id": "outskirt_stand",
+   "species": "Togetic",
+   "species_slug": "togetic",
+   "trainer": "Cipher Peon Fein",
+   "level": 20,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:outskirt_stand:togepi:Hordel (gift Shadow Pokemon)",
+   "game": "xd",
+   "location_id": "outskirt_stand",
+   "species": "Togepi",
+   "species_slug": "togepi",
+   "trainer": "Hordel (gift Shadow Pokemon)",
+   "level": 25,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:phenac_city:makuhita:Miror B. Peon Trudly",
+   "game": "colosseum",
+   "location_id": "phenac_city",
+   "species": "Makuhita",
+   "species_slug": "makuhita",
+   "trainer": "Miror B. Peon Trudly",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:phenac_city:bayleef:Cipher Peon Verde (Mystery Troop)",
+   "game": "colosseum",
+   "location_id": "phenac_city",
+   "species": "Bayleef",
+   "species_slug": "bayleef",
+   "trainer": "Cipher Peon Verde (Mystery Troop)",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:phenac_city:quilava:Cipher Peon Rosso (Mystery Troop)",
+   "game": "colosseum",
+   "location_id": "phenac_city",
+   "species": "Quilava",
+   "species_slug": "quilava",
+   "trainer": "Cipher Peon Rosso (Mystery Troop)",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:phenac_city:croconaw:Cipher Peon Bluno (Mystery Troop)",
+   "game": "colosseum",
+   "location_id": "phenac_city",
+   "species": "Croconaw",
+   "species_slug": "croconaw",
+   "trainer": "Cipher Peon Bluno (Mystery Troop)",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:phenac_city:snorunt:Cipher Peon Exinn",
+   "game": "xd",
+   "location_id": "phenac_city",
+   "species": "Snorunt",
+   "species_slug": "snorunt",
+   "trainer": "Cipher Peon Exinn",
+   "level": 20,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:phenac_city:pineco:Cipher Peon Gonrag",
+   "game": "xd",
+   "location_id": "phenac_city",
+   "species": "Pineco",
+   "species_slug": "pineco",
+   "trainer": "Cipher Peon Gonrag",
+   "level": 20,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:phenac_pre_gym:natu:Cipher Peon Eloin",
+   "game": "xd",
+   "location_id": "phenac_pre_gym",
+   "species": "Natu",
+   "species_slug": "natu",
+   "trainer": "Cipher Peon Eloin",
+   "level": 22,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:phenac_pre_gym:roselia:Cipher Peon Fasin",
+   "game": "xd",
+   "location_id": "phenac_pre_gym",
+   "species": "Roselia",
+   "species_slug": "roselia",
+   "trainer": "Cipher Peon Fasin",
+   "level": 22,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:phenac_pre_gym:meowth:Cipher Peon Fostin",
+   "game": "xd",
+   "location_id": "phenac_pre_gym",
+   "species": "Meowth",
+   "species_slug": "meowth",
+   "trainer": "Cipher Peon Fostin",
+   "level": 22,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:phenac_stadium:swinub:Cipher Peon Greck",
+   "game": "xd",
+   "location_id": "phenac_stadium",
+   "species": "Swinub",
+   "species_slug": "swinub",
+   "trainer": "Cipher Peon Greck",
+   "level": 22,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:phenac_stadium:spearow:Cipher Peon Ezin",
+   "game": "xd",
+   "location_id": "phenac_stadium",
+   "species": "Spearow",
+   "species_slug": "spearow",
+   "trainer": "Cipher Peon Ezin",
+   "level": 22,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:phenac_stadium:grimer:Cipher Peon Faltly",
+   "game": "xd",
+   "location_id": "phenac_stadium",
+   "species": "Grimer",
+   "species_slug": "grimer",
+   "trainer": "Cipher Peon Faltly",
+   "level": 23,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:phenac_stadium:seel:Cipher Peon Egrog",
+   "game": "xd",
+   "location_id": "phenac_stadium",
+   "species": "Seel",
+   "species_slug": "seel",
+   "trainer": "Cipher Peon Egrog",
+   "level": 23,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:phenac_stadium:lunatone:Cipher Admin Snattle",
+   "game": "xd",
+   "location_id": "phenac_stadium",
+   "species": "Lunatone",
+   "species_slug": "lunatone",
+   "trainer": "Cipher Admin Snattle",
+   "level": 25,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:phenac_stadium:nosepass:Wanderer Miror B.",
+   "game": "xd",
+   "location_id": "phenac_stadium",
+   "species": "Nosepass",
+   "species_slug": "nosepass",
+   "trainer": "Wanderer Miror B.",
+   "level": 26,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_town:misdreavus:Rider Vant",
+   "game": "colosseum",
+   "location_id": "pyrite_town",
+   "species": "Misdreavus",
+   "species_slug": "misdreavus",
+   "trainer": "Rider Vant",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_town:slugma:Roller Boy Lon (St. Performer Lon in Bulbapedia list)",
+   "game": "colosseum",
+   "location_id": "pyrite_town",
+   "species": "Slugma",
+   "species_slug": "slugma",
+   "trainer": "Roller Boy Lon (St. Performer Lon in Bulbapedia list)",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_town:noctowl:Rider Nover",
+   "game": "colosseum",
+   "location_id": "pyrite_town",
+   "species": "Noctowl",
+   "species_slug": "noctowl",
+   "trainer": "Rider Nover",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_town:flaaffy:St. Performer Diogo",
+   "game": "colosseum",
+   "location_id": "pyrite_town",
+   "species": "Flaaffy",
+   "species_slug": "flaaffy",
+   "trainer": "St. Performer Diogo",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_town:skiploom:Rider Leba",
+   "game": "colosseum",
+   "location_id": "pyrite_town",
+   "species": "Skiploom",
+   "species_slug": "skiploom",
+   "trainer": "Rider Leba",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_town:quagsire:Bandana Guy Divel",
+   "game": "colosseum",
+   "location_id": "pyrite_town",
+   "species": "Quagsire",
+   "species_slug": "quagsire",
+   "trainer": "Bandana Guy Divel",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_town:furret:Rogue Cail",
+   "game": "colosseum",
+   "location_id": "pyrite_town",
+   "species": "Furret",
+   "species_slug": "furret",
+   "trainer": "Rogue Cail",
+   "level": 33,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_building:yanma:Cipher Peon Nore",
+   "game": "colosseum",
+   "location_id": "pyrite_building",
+   "species": "Yanma",
+   "species_slug": "yanma",
+   "trainer": "Cipher Peon Nore",
+   "level": 33,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_building:remoraid:Miror B. Peon Reath",
+   "game": "colosseum",
+   "location_id": "pyrite_building",
+   "species": "Remoraid",
+   "species_slug": "remoraid",
+   "trainer": "Miror B. Peon Reath",
+   "level": 20,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_building:mantine:Miror B. Peon Ferma",
+   "game": "colosseum",
+   "location_id": "pyrite_building",
+   "species": "Mantine",
+   "species_slug": "mantine",
+   "trainer": "Miror B. Peon Ferma",
+   "level": 33,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_building:qwilfish:Hunter Doken",
+   "game": "colosseum",
+   "location_id": "pyrite_building",
+   "species": "Qwilfish",
+   "species_slug": "qwilfish",
+   "trainer": "Hunter Doken",
+   "level": 33,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_building:sudowoodo:Cipher Admin Miror B.",
+   "game": "colosseum",
+   "location_id": "pyrite_building",
+   "species": "Sudowoodo",
+   "species_slug": "sudowoodo",
+   "trainer": "Cipher Admin Miror B.",
+   "level": 35,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:onbs:makuhita:Cipher Peon Torkin",
+   "game": "xd",
+   "location_id": "onbs",
+   "species": "Makuhita",
+   "species_slug": "makuhita",
+   "trainer": "Cipher Peon Torkin",
+   "level": 18,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:onbs:vulpix:Cipher Peon Mesin",
+   "game": "xd",
+   "location_id": "onbs",
+   "species": "Vulpix",
+   "species_slug": "vulpix",
+   "trainer": "Cipher Peon Mesin",
+   "level": 18,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:onbs:duskull:Cipher Peon Lobar (Serebii: Labor)",
+   "game": "xd",
+   "location_id": "onbs",
+   "species": "Duskull",
+   "species_slug": "duskull",
+   "trainer": "Cipher Peon Lobar (Serebii: Labor)",
+   "level": 19,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:onbs:ralts:Cipher Peon Feldas",
+   "game": "xd",
+   "location_id": "onbs",
+   "species": "Ralts",
+   "species_slug": "ralts",
+   "trainer": "Cipher Peon Feldas",
+   "level": 20,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:onbs:mawile:Cipher Cmdr. Exol",
+   "game": "xd",
+   "location_id": "onbs",
+   "species": "Mawile",
+   "species_slug": "mawile",
+   "trainer": "Cipher Cmdr. Exol",
+   "level": 22,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_cave:dunsparce:Rider Sosh",
+   "game": "colosseum",
+   "location_id": "pyrite_cave",
+   "species": "Dunsparce",
+   "species_slug": "dunsparce",
+   "trainer": "Rider Sosh",
+   "level": 33,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_cave:meditite:Rider Twan",
+   "game": "colosseum",
+   "location_id": "pyrite_cave",
+   "species": "Meditite",
+   "species_slug": "meditite",
+   "trainer": "Rider Twan",
+   "level": 33,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:pyrite_cave:swablu:Hunter Zalo",
+   "game": "colosseum",
+   "location_id": "pyrite_cave",
+   "species": "Swablu",
+   "species_slug": "swablu",
+   "trainer": "Hunter Zalo",
+   "level": 33,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:the_under:ledian:Cipher Peon Kloak",
+   "game": "colosseum",
+   "location_id": "the_under",
+   "species": "Ledian",
+   "species_slug": "ledian",
+   "trainer": "Cipher Peon Kloak",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:the_under:suicune:Cipher Admin Venus",
+   "game": "colosseum",
+   "location_id": "the_under",
+   "species": "Suicune",
+   "species_slug": "suicune",
+   "trainer": "Cipher Admin Venus",
+   "level": 40,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:the_under:gligar:Hunter Frena",
+   "game": "colosseum",
+   "location_id": "the_under",
+   "species": "Gligar",
+   "species_slug": "gligar",
+   "trainer": "Hunter Frena",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:the_under:sneasel:Rider Nelis",
+   "game": "colosseum",
+   "location_id": "the_under",
+   "species": "Sneasel",
+   "species_slug": "sneasel",
+   "trainer": "Rider Nelis",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:the_under:piloswine:Bodybuilder Lonia",
+   "game": "colosseum",
+   "location_id": "the_under",
+   "species": "Piloswine",
+   "species_slug": "piloswine",
+   "trainer": "Bodybuilder Lonia",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:the_under:stantler:Chaser Liaks",
+   "game": "colosseum",
+   "location_id": "the_under",
+   "species": "Stantler",
+   "species_slug": "stantler",
+   "trainer": "Chaser Liaks",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:deep_colosseum:shuckle:Deep King Agnol",
+   "game": "colosseum",
+   "location_id": "deep_colosseum",
+   "species": "Shuckle",
+   "species_slug": "shuckle",
+   "trainer": "Deep King Agnol",
+   "level": 45,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:agate_village:hitmontop:Cipher Peon Skrub",
+   "game": "colosseum",
+   "location_id": "agate_village",
+   "species": "Hitmontop",
+   "species_slug": "hitmontop",
+   "trainer": "Cipher Peon Skrub",
+   "level": 38,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:mt_battle:entei:Cipher Admin Dakim",
+   "game": "colosseum",
+   "location_id": "mt_battle",
+   "species": "Entei",
+   "species_slug": "entei",
+   "trainer": "Cipher Admin Dakim",
+   "level": 40,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:snagem_hideout:smeargle:Team Snagem Biden",
+   "game": "colosseum",
+   "location_id": "snagem_hideout",
+   "species": "Smeargle",
+   "species_slug": "smeargle",
+   "trainer": "Team Snagem Biden",
+   "level": 45,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:snagem_hideout:ursaring:Team Snagem Agrev",
+   "game": "colosseum",
+   "location_id": "snagem_hideout",
+   "species": "Ursaring",
+   "species_slug": "ursaring",
+   "trainer": "Team Snagem Agrev",
+   "level": 45,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:shadow_pokemon_lab:aipom:Cipher Peon Cole",
+   "game": "colosseum",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Aipom",
+   "species_slug": "aipom",
+   "trainer": "Cipher Peon Cole",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:shadow_pokemon_lab:murkrow:Cipher Peon Lare",
+   "game": "colosseum",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Murkrow",
+   "species_slug": "murkrow",
+   "trainer": "Cipher Peon Lare",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:shadow_pokemon_lab:forretress:Cipher Peon Vana",
+   "game": "colosseum",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Forretress",
+   "species_slug": "forretress",
+   "trainer": "Cipher Peon Vana",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:shadow_pokemon_lab:ariados:Cipher Peon Lesar",
+   "game": "colosseum",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Ariados",
+   "species_slug": "ariados",
+   "trainer": "Cipher Peon Lesar",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:shadow_pokemon_lab:granbull:Cipher Peon Tanie",
+   "game": "colosseum",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Granbull",
+   "species_slug": "granbull",
+   "trainer": "Cipher Peon Tanie",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:shadow_pokemon_lab:vibrava:Cipher Peon Remil",
+   "game": "colosseum",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Vibrava",
+   "species_slug": "vibrava",
+   "trainer": "Cipher Peon Remil",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:shadow_pokemon_lab:raikou:Cipher Admin Ein",
+   "game": "colosseum",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Raikou",
+   "species_slug": "raikou",
+   "trainer": "Cipher Admin Ein",
+   "level": 40,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:shadow_pokemon_lab:houndour:Cipher Peon Resix",
+   "game": "xd",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Houndour",
+   "species_slug": "houndour",
+   "trainer": "Cipher Peon Resix",
+   "level": 17,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:shadow_pokemon_lab:baltoy:Cipher Peon Browsix",
+   "game": "xd",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Baltoy",
+   "species_slug": "baltoy",
+   "trainer": "Cipher Peon Browsix",
+   "level": 17,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:shadow_pokemon_lab:spheal:Cipher Peon Blusix",
+   "game": "xd",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Spheal",
+   "species_slug": "spheal",
+   "trainer": "Cipher Peon Blusix",
+   "level": 17,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:shadow_pokemon_lab:mareep:Cipher Peon Yellosix",
+   "game": "xd",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Mareep",
+   "species_slug": "mareep",
+   "trainer": "Cipher Peon Yellosix",
+   "level": 17,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:shadow_pokemon_lab:gulpin:Cipher Peon Purpsix",
+   "game": "xd",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Gulpin",
+   "species_slug": "gulpin",
+   "trainer": "Cipher Peon Purpsix",
+   "level": 17,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:shadow_pokemon_lab:seedot:Cipher Peon Greesix",
+   "game": "xd",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Seedot",
+   "species_slug": "seedot",
+   "trainer": "Cipher Peon Greesix",
+   "level": 17,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:shadow_pokemon_lab:spinarak:Cipher Peon Nexir",
+   "game": "xd",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Spinarak",
+   "species_slug": "spinarak",
+   "trainer": "Cipher Peon Nexir",
+   "level": 14,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:shadow_pokemon_lab:numel:Cipher Peon Solox",
+   "game": "xd",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Numel",
+   "species_slug": "numel",
+   "trainer": "Cipher Peon Solox",
+   "level": 14,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:shadow_pokemon_lab:shroomish:Cipher R&D Klots",
+   "game": "xd",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Shroomish",
+   "species_slug": "shroomish",
+   "trainer": "Cipher R&D Klots",
+   "level": 15,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:shadow_pokemon_lab:carvanha:Cipher Peon Cabol",
+   "game": "xd",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Carvanha",
+   "species_slug": "carvanha",
+   "trainer": "Cipher Peon Cabol",
+   "level": 15,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:shadow_pokemon_lab:delcatty:Cipher Admin Lovrina",
+   "game": "xd",
+   "location_id": "shadow_pokemon_lab",
+   "species": "Delcatty",
+   "species_slug": "delcatty",
+   "trainer": "Cipher Admin Lovrina",
+   "level": 18,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:realgam_tower:sunflora:Cipher Peon Baila",
+   "game": "colosseum",
+   "location_id": "realgam_tower",
+   "species": "Sunflora",
+   "species_slug": "sunflora",
+   "trainer": "Cipher Peon Baila",
+   "level": 45,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:realgam_tower:delibird:Cipher Peon Arton",
+   "game": "colosseum",
+   "location_id": "realgam_tower",
+   "species": "Delibird",
+   "species_slug": "delibird",
+   "trainer": "Cipher Peon Arton",
+   "level": 45,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:realgam_tower:heracross:Cipher Peon Dioge",
+   "game": "colosseum",
+   "location_id": "realgam_tower",
+   "species": "Heracross",
+   "species_slug": "heracross",
+   "trainer": "Cipher Peon Dioge",
+   "level": 45,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:realgam_tower:skarmory:Snagem Head Gonzap",
+   "game": "colosseum",
+   "location_id": "realgam_tower",
+   "species": "Skarmory",
+   "species_slug": "skarmory",
+   "trainer": "Snagem Head Gonzap",
+   "level": 47,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:realgam_colosseum:miltank:Bodybuilder Jomas (Serebii: Jonas)",
+   "game": "colosseum",
+   "location_id": "realgam_colosseum",
+   "species": "Miltank",
+   "species_slug": "miltank",
+   "trainer": "Bodybuilder Jomas (Serebii: Jonas)",
+   "level": 48,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:realgam_colosseum:absol:Rider Delan",
+   "game": "colosseum",
+   "location_id": "realgam_colosseum",
+   "species": "Absol",
+   "species_slug": "absol",
+   "trainer": "Rider Delan",
+   "level": 48,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:realgam_colosseum:houndoom:Cipher Peon Nella",
+   "game": "colosseum",
+   "location_id": "realgam_colosseum",
+   "species": "Houndoom",
+   "species_slug": "houndoom",
+   "trainer": "Cipher Peon Nella",
+   "level": 48,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:realgam_colosseum:tropius:Cipher Peon Ston",
+   "game": "colosseum",
+   "location_id": "realgam_colosseum",
+   "species": "Tropius",
+   "species_slug": "tropius",
+   "trainer": "Cipher Peon Ston",
+   "level": 49,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:realgam_colosseum:metagross:Cipher Nascour",
+   "game": "colosseum",
+   "location_id": "realgam_colosseum",
+   "species": "Metagross",
+   "species_slug": "metagross",
+   "trainer": "Cipher Nascour",
+   "level": 50,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:colosseum:realgam_colosseum:tyranitar:Cipher Head Evice",
+   "game": "colosseum",
+   "location_id": "realgam_colosseum",
+   "species": "Tyranitar",
+   "species_slug": "tyranitar",
+   "trainer": "Cipher Head Evice",
+   "level": 55,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "lab_hideout",
+   "recovery_venues": [
+    "shadow_pokemon_lab",
+    "snagem_hideout"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:pokemon_hq_lab:teddiursa:Cipher Peon Naps (Spy Naps)",
+   "game": "xd",
+   "location_id": "pokemon_hq_lab",
+   "species": "Teddiursa",
+   "species_slug": "teddiursa",
+   "trainer": "Cipher Peon Naps (Spy Naps)",
+   "level": 11,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:gateon_port:ledyba:Casual Guy Cyle",
+   "game": "xd",
+   "location_id": "gateon_port",
+   "species": "Ledyba",
+   "species_slug": "ledyba",
+   "trainer": "Casual Guy Cyle",
+   "level": 10,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:gateon_port:poochyena:Bodybuilder Kilen",
+   "game": "xd",
+   "location_id": "gateon_port",
+   "species": "Poochyena",
+   "species_slug": "poochyena",
+   "trainer": "Bodybuilder Kilen",
+   "level": 10,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:gateon_port:dragonite:Wanderer Miror B.",
+   "game": "xd",
+   "location_id": "gateon_port",
+   "species": "Dragonite",
+   "species_slug": "dragonite",
+   "trainer": "Wanderer Miror B.",
+   "level": 55,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:zangoose:Thug Zook",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Zangoose",
+   "species_slug": "zangoose",
+   "trainer": "Thug Zook",
+   "level": 28,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:paras:Cipher Peon Humah",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Paras",
+   "species_slug": "paras",
+   "trainer": "Cipher Peon Humah",
+   "level": 28,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:growlithe:Cipher Peon Humah",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Growlithe",
+   "species_slug": "growlithe",
+   "trainer": "Cipher Peon Humah",
+   "level": 28,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:shellder:Cipher Peon Gorog",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Shellder",
+   "species_slug": "shellder",
+   "trainer": "Cipher Peon Gorog",
+   "level": 29,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:beedrill:Cipher Peon Lok",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Beedrill",
+   "species_slug": "beedrill",
+   "trainer": "Cipher Peon Lok",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:pidgeotto:Cipher Peon Lok",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Pidgeotto",
+   "species_slug": "pidgeotto",
+   "trainer": "Cipher Peon Lok",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:tangela:Cipher Peon Targ",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Tangela",
+   "species_slug": "tangela",
+   "trainer": "Cipher Peon Targ",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:butterfree:Cipher Peon Targ",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Butterfree",
+   "species_slug": "butterfree",
+   "trainer": "Cipher Peon Targ",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:magneton:Cipher Peon Snidle",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Magneton",
+   "species_slug": "magneton",
+   "trainer": "Cipher Peon Snidle",
+   "level": 30,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:venomoth:Cipher Peon Angic",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Venomoth",
+   "species_slug": "venomoth",
+   "trainer": "Cipher Peon Angic",
+   "level": 32,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:weepinbell:Cipher Peon Angic",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Weepinbell",
+   "species_slug": "weepinbell",
+   "trainer": "Cipher Peon Angic",
+   "level": 32,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:arbok:Cipher Peon Smarton",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Arbok",
+   "species_slug": "arbok",
+   "trainer": "Cipher Peon Smarton",
+   "level": 33,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:primeape:Cipher Admin Gorigan",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Primeape",
+   "species_slug": "primeape",
+   "trainer": "Cipher Admin Gorigan",
+   "level": 34,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cipher_key_lair:hypno:Cipher Admin Gorigan",
+   "game": "xd",
+   "location_id": "cipher_key_lair",
+   "species": "Hypno",
+   "species_slug": "hypno",
+   "trainer": "Cipher Admin Gorigan",
+   "level": 34,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:golduck:Navigator Abson",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Golduck",
+   "species_slug": "golduck",
+   "trainer": "Navigator Abson",
+   "level": 33,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:sableye:Navigator Abson",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Sableye",
+   "species_slug": "sableye",
+   "trainer": "Navigator Abson",
+   "level": 33,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:raticate:Chaser Furgy",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Raticate",
+   "species_slug": "raticate",
+   "trainer": "Chaser Furgy",
+   "level": 34,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:dodrio:Chaser Furgy",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Dodrio",
+   "species_slug": "dodrio",
+   "trainer": "Chaser Furgy",
+   "level": 34,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:farfetch-d:Cipher Admin Lovrina",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Farfetch'd",
+   "species_slug": "farfetch-d",
+   "trainer": "Cipher Admin Lovrina",
+   "level": 36,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:altaria:Cipher Admin Lovrina",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Altaria",
+   "species_slug": "altaria",
+   "trainer": "Cipher Admin Lovrina",
+   "level": 36,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:kangaskhan:Cipher Peon Litnar",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Kangaskhan",
+   "species_slug": "kangaskhan",
+   "trainer": "Cipher Peon Litnar",
+   "level": 36,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:banette:Cipher Peon Litnar",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Banette",
+   "species_slug": "banette",
+   "trainer": "Cipher Peon Litnar",
+   "level": 37,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:magmar:Cipher Peon Grupel",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Magmar",
+   "species_slug": "magmar",
+   "trainer": "Cipher Peon Grupel",
+   "level": 36,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:pinsir:Cipher Peon Grupel",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Pinsir",
+   "species_slug": "pinsir",
+   "trainer": "Cipher Peon Grupel",
+   "level": 35,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:magcargo:Cipher Peon Kolest",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Magcargo",
+   "species_slug": "magcargo",
+   "trainer": "Cipher Peon Kolest",
+   "level": 38,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:rapidash:Cipher Peon Kolest",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Rapidash",
+   "species_slug": "rapidash",
+   "trainer": "Cipher Peon Kolest",
+   "level": 40,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:hitmonlee:Cipher Peon Petro",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Hitmonlee",
+   "species_slug": "hitmonlee",
+   "trainer": "Cipher Peon Petro",
+   "level": 38,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:hitmonchan:Cipher Peon Karbon",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Hitmonchan",
+   "species_slug": "hitmonchan",
+   "trainer": "Cipher Peon Karbon",
+   "level": 38,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:lickitung:Cipher Peon Gefta (Bulbapedia list: Geftal)",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Lickitung",
+   "species_slug": "lickitung",
+   "trainer": "Cipher Peon Gefta (Bulbapedia list: Geftal)",
+   "level": 38,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:scyther:Cipher Peon Leden",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Scyther",
+   "species_slug": "scyther",
+   "trainer": "Cipher Peon Leden",
+   "level": 40,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:chansey:Cipher Peon Leden",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Chansey",
+   "species_slug": "chansey",
+   "trainer": "Cipher Peon Leden",
+   "level": 39,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:solrock:Cipher Admin Snattle",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Solrock",
+   "species_slug": "solrock",
+   "trainer": "Cipher Admin Snattle",
+   "level": 41,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:starmie:Cipher Admin Snattle",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Starmie",
+   "species_slug": "starmie",
+   "trainer": "Cipher Admin Snattle",
+   "level": 41,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:electabuzz:Cipher Admin Ardos",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Electabuzz",
+   "species_slug": "electabuzz",
+   "trainer": "Cipher Admin Ardos",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:swellow:Cipher Admin Ardos",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Swellow",
+   "species_slug": "swellow",
+   "trainer": "Cipher Admin Ardos",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:snorlax:Cipher Admin Ardos",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Snorlax",
+   "species_slug": "snorlax",
+   "trainer": "Cipher Admin Ardos",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:poliwrath:Cipher Admin Gorigan",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Poliwrath",
+   "species_slug": "poliwrath",
+   "trainer": "Cipher Admin Gorigan",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:mr-mime:Cipher Admin Gorigan",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Mr. Mime",
+   "species_slug": "mr-mime",
+   "trainer": "Cipher Admin Gorigan",
+   "level": 43,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:dugtrio:Cipher Peon Stron (Bulbapedia list: Kolax)",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Dugtrio",
+   "species_slug": "dugtrio",
+   "trainer": "Cipher Peon Stron (Bulbapedia list: Kolax)",
+   "level": 40,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:manectric:Cipher Admin Eldes",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Manectric",
+   "species_slug": "manectric",
+   "trainer": "Cipher Admin Eldes",
+   "level": 44,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:salamence:Cipher Admin Eldes",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Salamence",
+   "species_slug": "salamence",
+   "trainer": "Cipher Admin Eldes",
+   "level": 50,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:marowak:Cipher Admin Eldes",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Marowak",
+   "species_slug": "marowak",
+   "trainer": "Cipher Admin Eldes",
+   "level": 44,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:lapras:Cipher Admin Eldes",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Lapras",
+   "species_slug": "lapras",
+   "trainer": "Cipher Admin Eldes",
+   "level": 44,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:lugia:Grand Master Greevil (Cipher Boss Greevil)",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Lugia (Shadow Lugia / XD001)",
+   "species_slug": "lugia",
+   "trainer": "Grand Master Greevil (Cipher Boss Greevil)",
+   "level": 50,
+   "register_class": "SHADOW_UNIQUE",
+   "form_code": "SHADOW_LUGIA_XD001",
+   "is_xd001": true,
+   "recovery": "none",
+   "recovery_venues": [],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:articuno:Grand Master Greevil",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Articuno",
+   "species_slug": "articuno",
+   "trainer": "Grand Master Greevil",
+   "level": 50,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:zapdos:Grand Master Greevil",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Zapdos",
+   "species_slug": "zapdos",
+   "trainer": "Grand Master Greevil",
+   "level": 50,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:moltres:Grand Master Greevil",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Moltres",
+   "species_slug": "moltres",
+   "trainer": "Grand Master Greevil",
+   "level": 50,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:tauros:Grand Master Greevil",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Tauros",
+   "species_slug": "tauros",
+   "trainer": "Grand Master Greevil",
+   "level": 46,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:rhydon:Grand Master Greevil",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Rhydon",
+   "species_slug": "rhydon",
+   "trainer": "Grand Master Greevil",
+   "level": 46,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:citadark_isle:exeggutor:Grand Master Greevil",
+   "game": "xd",
+   "location_id": "citadark_isle",
+   "species": "Exeggutor",
+   "species_slug": "exeggutor",
+   "trainer": "Grand Master Greevil",
+   "level": 46,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "miror_b",
+   "recovery_venues": [
+    "pyrite_colosseum",
+    "realgam_colosseum",
+    "rock_poke_spot",
+    "oasis_poke_spot",
+    "cave_poke_spot"
+   ],
+   "heart_gauge_max": null
+  },
+  {
+   "origin_key": "orre:xd:cave_poke_spot:voltorb:Wanderer Miror B.",
+   "game": "xd",
+   "location_id": "cave_poke_spot",
+   "species": "Voltorb",
+   "species_slug": "voltorb",
+   "trainer": "Wanderer Miror B.",
+   "level": 19,
+   "register_class": "SHADOW_TREATMENT",
+   "form_code": "SHADOW_TREATMENT_CLASS",
+   "is_xd001": false,
+   "recovery": "none",
+   "recovery_venues": [],
+   "heart_gauge_max": null
+  }
+ ]
+}

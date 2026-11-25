@@ -1,0 +1,2970 @@
+{
+ "field_semantics": {
+  "build_rule": "D4 (Riley canon, restated 2026-11-23): rematch tier tables supply SPECIES/IDENTITY ONLY. The difficulty layer builds every rematch party at battle time: 6 Pokemon, IV 31, EV <= 510 best sourced competitive set, level scaled to the player, evolving as appropriate. Identical for Pokemon and Moemon parties. A tier whose trainer_id equals tier 0's trainer_id is the source games' 'no unique rematch' row and is never a distinct battle.",
+  "party[].iv": "ABSENT IN SOURCE — pokecrystal parties.asm records no per-mon IV for trainer parties (trainer DVs are class-level data in data/trainers/dvs.asm, not per-party values). null in this file; never a build value (build IV is 31 unconditionally, D4).",
+  "party[].level": "IDENTITY-HISTORY ONLY — the source party's recorded level. Never a build value: battle-time level comes from the difficulty layer (opponent level = player max).",
+  "party[].species": "IDENTITY — the only battle-facing field (D4). The species the rematch fields."
+ },
+ "prize_money": {
+  "class_prize_values": {
+   "beauty": 22,
+   "biker": 8,
+   "bird_keeper": 6,
+   "blackbelt_t": 6,
+   "blaine": 25,
+   "blue": 25,
+   "boarder": 18,
+   "brock": 25,
+   "bruno": 25,
+   "bug_catcher": 4,
+   "bugsy": 25,
+   "burglar": 22,
+   "cal": 25,
+   "camper": 5,
+   "champion": 25,
+   "chuck": 25,
+   "clair": 25,
+   "cooltrainerf": 12,
+   "cooltrainerm": 12,
+   "erika": 25,
+   "executivef": 18,
+   "executivem": 18,
+   "falkner": 25,
+   "firebreather": 12,
+   "fisher": 10,
+   "gentleman": 18,
+   "gruntf": 10,
+   "gruntm": 10,
+   "guitarist": 8,
+   "hiker": 8,
+   "janine": 25,
+   "jasmine": 25,
+   "juggler": 10,
+   "karen": 25,
+   "kimono_girl": 18,
+   "koga": 25,
+   "lass": 6,
+   "lt_surge": 25,
+   "medium": 10,
+   "misty": 25,
+   "morty": 25,
+   "mysticalman": 25,
+   "officer": 10,
+   "picnicker": 5,
+   "pokefanf": 20,
+   "pokefanm": 20,
+   "pokemaniac": 15,
+   "pokemon_prof": 25,
+   "pryce": 25,
+   "psychic_t": 8,
+   "red": 25,
+   "rival1": 15,
+   "rival2": 25,
+   "sabrina": 25,
+   "sage": 8,
+   "sailor": 10,
+   "schoolboy": 8,
+   "scientist": 25,
+   "skier": 18,
+   "super_nerd": 8,
+   "swimmerf": 5,
+   "swimmerm": 2,
+   "teacher": 18,
+   "twins": 5,
+   "whitney": 25,
+   "will": 25,
+   "youngster": 4
+  },
+  "formula": "prize_base = (level of last party member) * class_base_reward",
+  "source": "pokecrystal data/trainers/attributes.asm (TrainerClassAttributes 'base reward' byte per class, constants order) + engine/battle/read_trainer_party.asm ComputeTrainerReward: wBattleReward = wEnemyTrainerBaseReward * wCurPartyLevel (level of the last party member read). Amulet Coin doubling (engine/battle/core.asm .DoubleReward) is applied on top at payout and is NOT folded into prize_base. Crystal has no double battles, so no double factor exists.",
+  "unlisted_class_value": 0
+ },
+ "profile": "gsc_phone",
+ "provenance": "Transcribed from held pokecrystal source: data/phone/phone_contacts.asm (28 registered phone contacts), data/trainers/parties.asm (party records), constants/trainer_constants.asm (trainer consts), maps/*.asm (each contact's FightCount rematch ladder scripts), data/trainers/attributes.asm (prize base rewards). Ladder order per contact, proven from the map scripts: the script's Fight0 loads the first-battle party (the home-map placement party, which Crystal also serves as the first rematch); Fight1, Fight2, ... load the remaining same-name parties in ascending const order, each gated by a per-contact story event (full per-contact gates in phone_contact_tier_mapping.json). For 27 contacts the first-battle party is the phone const itself; HIKER Parry is the exception — his phone const is PARRY1 but his map battle and ladder head are PARRY3 (maps/Route45.asm). This table lists each distinct party once, in ladder order: tier 1 = the contact / first-battle party, tiers 2..N = the upgraded parties (113 tiers total = 28 first battles + 85 rematch parties). The Fight0 repeat of tier 1 as the first rematch is the source behaviour; it is recorded here and in tier_gates, not entered as a duplicate tier (the bound Kanto/Platinum tables likewise carry each distinct party once, with repeats expressed as same-trainer_id rows only where the source tables themselves repeat a party). FOUR CONTACTS ARE UNWIRED IN CRYSTAL: BEVERLY, IRWIN, DEREK and KENJI have no loadtrainer ladder in any script, no *_READY_FOR_REMATCH flag, and their w<Name>FightCount wram bytes are marked '; unreferenced' in ram/wram.asm — their upgraded parties exist in parties.asm but the game never loads them. They are included with derived ladder order and flagged in the mapping file: PUW's rematch layer consumes identity tables, and Crystal's unwiring is provenance, not a data gap. Identity cross-checked party-for-party against the bound Johto regional + combined trainer data. Data extraction only, under Riley's standing mechanics authorization; no downloaded code built or run.",
+ "region": "johto",
+ "tier_gates": {
+  "1": {
+   "puw_flag": "none",
+   "source_flag": "none",
+   "unlock": "Tier 1 is the first battle itself, fought on the contact's home map; winning it and exchanging phone numbers registers the contact (data/phone/phone_contacts.asm)."
+  },
+  "2": {
+   "puw_flag": "per_contact_story_gate",
+   "source_flag": "maps/<Map>.asm .Fight1 checkevent/checkflag branch",
+   "unlock": "Rematch ladder step 1: the contact's script advances its FightCount only past a per-contact story event; exact event per contact in phone_contact_tier_mapping.json. Events seen at this step: ENGINE_FLYPOINT_CIANWOOD, ENGINE_FLYPOINT_ECRUTEAK, ENGINE_FLYPOINT_GOLDENROD, ENGINE_FLYPOINT_LAKE_OF_RAGE, ENGINE_FLYPOINT_MAHOGANY, ENGINE_FLYPOINT_OLIVINE, EVENT_BEAT_ELITE_FOUR, EVENT_CLEARED_RADIO_TOWER, EVENT_CLEARED_ROCKET_HIDEOUT"
+  },
+  "3": {
+   "puw_flag": "per_contact_story_gate",
+   "source_flag": "maps/<Map>.asm .Fight2 checkevent/checkflag branch",
+   "unlock": "Rematch ladder step 2: the contact's script advances its FightCount only past a per-contact story event; exact event per contact in phone_contact_tier_mapping.json. Events seen at this step: ENGINE_FLYPOINT_BLACKTHORN, ENGINE_FLYPOINT_LAKE_OF_RAGE, ENGINE_FLYPOINT_MAHOGANY, ENGINE_FLYPOINT_OLIVINE, EVENT_BEAT_ELITE_FOUR, EVENT_CLEARED_RADIO_TOWER, EVENT_CLEARED_ROCKET_HIDEOUT, EVENT_RESTORED_POWER_TO_KANTO"
+  },
+  "4": {
+   "puw_flag": "per_contact_story_gate",
+   "source_flag": "maps/<Map>.asm .Fight3 checkevent/checkflag branch",
+   "unlock": "Rematch ladder step 3: the contact's script advances its FightCount only past a per-contact story event; exact event per contact in phone_contact_tier_mapping.json. Events seen at this step: EVENT_BEAT_ELITE_FOUR, EVENT_CLEARED_RADIO_TOWER, EVENT_RESTORED_POWER_TO_KANTO"
+  },
+  "5": {
+   "puw_flag": "per_contact_story_gate",
+   "source_flag": "maps/<Map>.asm .Fight4 checkevent/checkflag branch",
+   "unlock": "Rematch ladder step 4: the contact's script advances its FightCount only past a per-contact story event; exact event per contact in phone_contact_tier_mapping.json. Events seen at this step: EVENT_BEAT_ELITE_FOUR, EVENT_RESTORED_POWER_TO_KANTO"
+  }
+ },
+ "trainers": {
+  "bird_keeper_jose_route27": {
+   "map": "route27",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 34,
+       "species": "farfetch_d"
+      }
+     ],
+     "prize_base": 204,
+     "trainer_class": "bird_keeper",
+     "trainer_id": "bird_keeper_jose2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 36,
+       "species": "farfetch_d"
+      }
+     ],
+     "prize_base": 216,
+     "trainer_class": "bird_keeper",
+     "trainer_id": "bird_keeper_jose1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 40,
+       "moves": [
+        "fury_attack",
+        "detect",
+        "fly",
+        "slash"
+       ],
+       "species": "farfetch_d"
+      }
+     ],
+     "prize_base": 240,
+     "trainer_class": "bird_keeper",
+     "trainer_id": "bird_keeper_jose3"
+    }
+   ]
+  },
+  "bird_keeper_vance_route44": {
+   "map": "route44",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 25,
+       "species": "pidgeotto"
+      },
+      {
+       "iv": null,
+       "level": 25,
+       "species": "pidgeotto"
+      }
+     ],
+     "prize_base": 150,
+     "trainer_class": "bird_keeper",
+     "trainer_id": "bird_keeper_vance1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 32,
+       "species": "pidgeotto"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "species": "pidgeotto"
+      }
+     ],
+     "prize_base": 192,
+     "trainer_class": "bird_keeper",
+     "trainer_id": "bird_keeper_vance2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 38,
+       "moves": [
+        "toxic",
+        "quick_attack",
+        "whirlwind",
+        "fly"
+       ],
+       "species": "pidgeot"
+      },
+      {
+       "iv": null,
+       "level": 38,
+       "moves": [
+        "swift",
+        "detect",
+        "steel_wing",
+        "fly"
+       ],
+       "species": "pidgeot"
+      }
+     ],
+     "prize_base": 228,
+     "trainer_class": "bird_keeper",
+     "trainer_id": "bird_keeper_vance3"
+    }
+   ]
+  },
+  "blackbelt_t_kenji_route45": {
+   "map": "route45",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 28,
+       "species": "machoke"
+      }
+     ],
+     "prize_base": 168,
+     "trainer_class": "blackbelt_t",
+     "trainer_id": "blackbelt_t_kenji3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 27,
+       "species": "onix"
+      },
+      {
+       "iv": null,
+       "level": 30,
+       "species": "hitmonlee"
+      },
+      {
+       "iv": null,
+       "level": 27,
+       "species": "onix"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "species": "machoke"
+      }
+     ],
+     "prize_base": 192,
+     "trainer_class": "blackbelt_t",
+     "trainer_id": "blackbelt_t_kenji1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 33,
+       "moves": [
+        "bind",
+        "rock_throw",
+        "toxic",
+        "dig"
+       ],
+       "species": "onix"
+      },
+      {
+       "iv": null,
+       "level": 38,
+       "moves": [
+        "headbutt",
+        "swagger",
+        "thunderpunch",
+        "vital_throw"
+       ],
+       "species": "machamp"
+      },
+      {
+       "iv": null,
+       "level": 33,
+       "moves": [
+        "earthquake",
+        "rock_throw",
+        "iron_tail",
+        "sandstorm"
+       ],
+       "species": "steelix"
+      },
+      {
+       "iv": null,
+       "level": 36,
+       "moves": [
+        "double_team",
+        "hi_jump_kick",
+        "mud_slap",
+        "swift"
+       ],
+       "species": "hitmonlee"
+      }
+     ],
+     "prize_base": 216,
+     "trainer_class": "blackbelt_t",
+     "trainer_id": "blackbelt_t_kenji2"
+    }
+   ]
+  },
+  "bug_catcher_arnie_route35": {
+   "map": "route35",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 15,
+       "species": "venonat"
+      }
+     ],
+     "prize_base": 60,
+     "trainer_class": "bug_catcher",
+     "trainer_id": "bug_catcher_arnie1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 19,
+       "species": "venonat"
+      }
+     ],
+     "prize_base": 76,
+     "trainer_class": "bug_catcher",
+     "trainer_id": "bug_catcher_arnie2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 28,
+       "moves": [
+        "disable",
+        "supersonic",
+        "confusion",
+        "leech_life"
+       ],
+       "species": "venomoth"
+      }
+     ],
+     "prize_base": 112,
+     "trainer_class": "bug_catcher",
+     "trainer_id": "bug_catcher_arnie3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 36,
+       "moves": [
+        "gust",
+        "supersonic",
+        "psybeam",
+        "leech_life"
+       ],
+       "species": "venomoth"
+      }
+     ],
+     "prize_base": 144,
+     "trainer_class": "bug_catcher",
+     "trainer_id": "bug_catcher_arnie4"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 40,
+       "moves": [
+        "gust",
+        "supersonic",
+        "psychic_m",
+        "toxic"
+       ],
+       "species": "venomoth"
+      }
+     ],
+     "prize_base": 160,
+     "trainer_class": "bug_catcher",
+     "trainer_id": "bug_catcher_arnie5"
+    }
+   ]
+  },
+  "bug_catcher_wade_route31": {
+   "map": "route31",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 2,
+       "species": "caterpie"
+      },
+      {
+       "iv": null,
+       "level": 2,
+       "species": "caterpie"
+      },
+      {
+       "iv": null,
+       "level": 3,
+       "species": "weedle"
+      },
+      {
+       "iv": null,
+       "level": 2,
+       "species": "caterpie"
+      }
+     ],
+     "prize_base": 8,
+     "trainer_class": "bug_catcher",
+     "trainer_id": "bug_catcher_wade1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 9,
+       "species": "metapod"
+      },
+      {
+       "iv": null,
+       "level": 9,
+       "species": "metapod"
+      },
+      {
+       "iv": null,
+       "level": 10,
+       "species": "kakuna"
+      },
+      {
+       "iv": null,
+       "level": 9,
+       "species": "metapod"
+      }
+     ],
+     "prize_base": 36,
+     "trainer_class": "bug_catcher",
+     "trainer_id": "bug_catcher_wade2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 14,
+       "species": "butterfree"
+      },
+      {
+       "iv": null,
+       "level": 14,
+       "species": "butterfree"
+      },
+      {
+       "iv": null,
+       "level": 15,
+       "species": "beedrill"
+      },
+      {
+       "iv": null,
+       "level": 14,
+       "species": "butterfree"
+      }
+     ],
+     "prize_base": 56,
+     "trainer_class": "bug_catcher",
+     "trainer_id": "bug_catcher_wade3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 24,
+       "moves": [
+        "confusion",
+        "poisonpowder",
+        "supersonic",
+        "whirlwind"
+       ],
+       "species": "butterfree"
+      },
+      {
+       "iv": null,
+       "level": 24,
+       "moves": [
+        "confusion",
+        "stun_spore",
+        "supersonic",
+        "whirlwind"
+       ],
+       "species": "butterfree"
+      },
+      {
+       "iv": null,
+       "level": 25,
+       "moves": [
+        "fury_attack",
+        "focus_energy",
+        "twineedle",
+        "rage"
+       ],
+       "species": "beedrill"
+      },
+      {
+       "iv": null,
+       "level": 24,
+       "moves": [
+        "confusion",
+        "sleep_powder",
+        "supersonic",
+        "whirlwind"
+       ],
+       "species": "butterfree"
+      }
+     ],
+     "prize_base": 96,
+     "trainer_class": "bug_catcher",
+     "trainer_id": "bug_catcher_wade4"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 30,
+       "moves": [
+        "confusion",
+        "poisonpowder",
+        "supersonic",
+        "gust"
+       ],
+       "species": "butterfree"
+      },
+      {
+       "iv": null,
+       "level": 30,
+       "moves": [
+        "confusion",
+        "stun_spore",
+        "supersonic",
+        "gust"
+       ],
+       "species": "butterfree"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "moves": [
+        "fury_attack",
+        "pursuit",
+        "twineedle",
+        "double_team"
+       ],
+       "species": "beedrill"
+      },
+      {
+       "iv": null,
+       "level": 34,
+       "moves": [
+        "psybeam",
+        "sleep_powder",
+        "gust",
+        "whirlwind"
+       ],
+       "species": "butterfree"
+      }
+     ],
+     "prize_base": 136,
+     "trainer_class": "bug_catcher",
+     "trainer_id": "bug_catcher_wade5"
+    }
+   ]
+  },
+  "camper_todd_route34": {
+   "map": "route34",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 14,
+       "species": "psyduck"
+      }
+     ],
+     "prize_base": 70,
+     "trainer_class": "camper",
+     "trainer_id": "camper_todd1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 17,
+       "species": "geodude"
+      },
+      {
+       "iv": null,
+       "level": 17,
+       "species": "geodude"
+      },
+      {
+       "iv": null,
+       "level": 23,
+       "species": "psyduck"
+      }
+     ],
+     "prize_base": 115,
+     "trainer_class": "camper",
+     "trainer_id": "camper_todd2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 23,
+       "species": "geodude"
+      },
+      {
+       "iv": null,
+       "level": 23,
+       "species": "geodude"
+      },
+      {
+       "iv": null,
+       "level": 26,
+       "species": "psyduck"
+      }
+     ],
+     "prize_base": 130,
+     "trainer_class": "camper",
+     "trainer_id": "camper_todd3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 30,
+       "species": "graveler"
+      },
+      {
+       "iv": null,
+       "level": 30,
+       "species": "graveler"
+      },
+      {
+       "iv": null,
+       "level": 30,
+       "species": "slugma"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "species": "psyduck"
+      }
+     ],
+     "prize_base": 160,
+     "trainer_class": "camper",
+     "trainer_id": "camper_todd4"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 33,
+       "moves": [
+        "selfdestruct",
+        "rock_throw",
+        "harden",
+        "magnitude"
+       ],
+       "species": "graveler"
+      },
+      {
+       "iv": null,
+       "level": 33,
+       "moves": [
+        "selfdestruct",
+        "rock_throw",
+        "harden",
+        "magnitude"
+       ],
+       "species": "graveler"
+      },
+      {
+       "iv": null,
+       "level": 36,
+       "moves": [
+        "rock_throw",
+        "harden",
+        "amnesia",
+        "flamethrower"
+       ],
+       "species": "magcargo"
+      },
+      {
+       "iv": null,
+       "level": 34,
+       "moves": [
+        "disable",
+        "psychic_m",
+        "surf",
+        "psych_up"
+       ],
+       "species": "golduck"
+      }
+     ],
+     "prize_base": 170,
+     "trainer_class": "camper",
+     "trainer_id": "camper_todd5"
+    }
+   ]
+  },
+  "cooltrainerf_beth_route26": {
+   "map": "route26",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 36,
+       "moves": [
+        "stomp",
+        "fire_spin",
+        "fury_attack",
+        "agility"
+       ],
+       "species": "rapidash"
+      }
+     ],
+     "prize_base": 432,
+     "trainer_class": "cooltrainerf",
+     "trainer_id": "cooltrainerf_beth1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 39,
+       "moves": [
+        "stomp",
+        "fire_spin",
+        "fury_attack",
+        "agility"
+       ],
+       "species": "rapidash"
+      }
+     ],
+     "prize_base": 468,
+     "trainer_class": "cooltrainerf",
+     "trainer_id": "cooltrainerf_beth2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "held_item": "focus_band",
+       "iv": null,
+       "level": 43,
+       "moves": [
+        "stomp",
+        "fire_spin",
+        "fury_attack",
+        "fire_blast"
+       ],
+       "species": "rapidash"
+      }
+     ],
+     "prize_base": 516,
+     "trainer_class": "cooltrainerf",
+     "trainer_id": "cooltrainerf_beth3"
+    }
+   ]
+  },
+  "cooltrainerf_reena_route27": {
+   "map": "route27",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 31,
+       "species": "starmie"
+      },
+      {
+       "iv": null,
+       "level": 33,
+       "species": "nidoqueen"
+      },
+      {
+       "iv": null,
+       "level": 31,
+       "species": "starmie"
+      }
+     ],
+     "prize_base": 372,
+     "trainer_class": "cooltrainerf",
+     "trainer_id": "cooltrainerf_reena1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 34,
+       "species": "starmie"
+      },
+      {
+       "iv": null,
+       "level": 36,
+       "species": "nidoqueen"
+      },
+      {
+       "iv": null,
+       "level": 34,
+       "species": "starmie"
+      }
+     ],
+     "prize_base": 408,
+     "trainer_class": "cooltrainerf",
+     "trainer_id": "cooltrainerf_reena2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "held_item": "no_item",
+       "iv": null,
+       "level": 38,
+       "moves": [
+        "double_team",
+        "psychic_m",
+        "waterfall",
+        "confuse_ray"
+       ],
+       "species": "starmie"
+      },
+      {
+       "held_item": "pink_bow",
+       "iv": null,
+       "level": 40,
+       "moves": [
+        "earthquake",
+        "double_kick",
+        "toxic",
+        "body_slam"
+       ],
+       "species": "nidoqueen"
+      },
+      {
+       "held_item": "no_item",
+       "iv": null,
+       "level": 38,
+       "moves": [
+        "blizzard",
+        "psychic_m",
+        "waterfall",
+        "recover"
+       ],
+       "species": "starmie"
+      }
+     ],
+     "prize_base": 456,
+     "trainer_class": "cooltrainerf",
+     "trainer_id": "cooltrainerf_reena3"
+    }
+   ]
+  },
+  "cooltrainerm_gaven_route26": {
+   "map": "route26",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 32,
+       "moves": [
+        "wrap",
+        "toxic",
+        "acid",
+        "razor_leaf"
+       ],
+       "species": "victreebel"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "moves": [
+        "bubblebeam",
+        "stomp",
+        "guillotine",
+        "protect"
+       ],
+       "species": "kingler"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "moves": [
+        "sand_attack",
+        "quick_attack",
+        "bite",
+        "fire_spin"
+       ],
+       "species": "flareon"
+      }
+     ],
+     "prize_base": 384,
+     "trainer_class": "cooltrainerm",
+     "trainer_id": "cooltrainerm_gaven3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 35,
+       "moves": [
+        "wrap",
+        "toxic",
+        "acid",
+        "razor_leaf"
+       ],
+       "species": "victreebel"
+      },
+      {
+       "iv": null,
+       "level": 35,
+       "moves": [
+        "bubblebeam",
+        "stomp",
+        "guillotine",
+        "protect"
+       ],
+       "species": "kingler"
+      },
+      {
+       "iv": null,
+       "level": 35,
+       "moves": [
+        "sand_attack",
+        "quick_attack",
+        "bite",
+        "fire_spin"
+       ],
+       "species": "flareon"
+      }
+     ],
+     "prize_base": 420,
+     "trainer_class": "cooltrainerm",
+     "trainer_id": "cooltrainerm_gaven1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "held_item": "no_item",
+       "iv": null,
+       "level": 39,
+       "moves": [
+        "giga_drain",
+        "toxic",
+        "sludge_bomb",
+        "razor_leaf"
+       ],
+       "species": "victreebel"
+      },
+      {
+       "held_item": "kings_rock",
+       "iv": null,
+       "level": 39,
+       "moves": [
+        "surf",
+        "stomp",
+        "guillotine",
+        "blizzard"
+       ],
+       "species": "kingler"
+      },
+      {
+       "held_item": "no_item",
+       "iv": null,
+       "level": 39,
+       "moves": [
+        "flamethrower",
+        "quick_attack",
+        "bite",
+        "fire_spin"
+       ],
+       "species": "flareon"
+      }
+     ],
+     "prize_base": 468,
+     "trainer_class": "cooltrainerm",
+     "trainer_id": "cooltrainerm_gaven2"
+    }
+   ]
+  },
+  "fisher_ralph_route32": {
+   "map": "route32",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 10,
+       "species": "goldeen"
+      }
+     ],
+     "prize_base": 100,
+     "trainer_class": "fisher",
+     "trainer_id": "fisher_ralph1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 17,
+       "species": "goldeen"
+      }
+     ],
+     "prize_base": 170,
+     "trainer_class": "fisher",
+     "trainer_id": "fisher_ralph2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 17,
+       "species": "qwilfish"
+      },
+      {
+       "iv": null,
+       "level": 19,
+       "species": "goldeen"
+      }
+     ],
+     "prize_base": 190,
+     "trainer_class": "fisher",
+     "trainer_id": "fisher_ralph3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 30,
+       "species": "qwilfish"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "species": "goldeen"
+      }
+     ],
+     "prize_base": 320,
+     "trainer_class": "fisher",
+     "trainer_id": "fisher_ralph4"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 35,
+       "moves": [
+        "toxic",
+        "minimize",
+        "surf",
+        "pin_missile"
+       ],
+       "species": "qwilfish"
+      },
+      {
+       "iv": null,
+       "level": 39,
+       "moves": [
+        "endure",
+        "flail",
+        "fury_attack",
+        "waterfall"
+       ],
+       "species": "seaking"
+      }
+     ],
+     "prize_base": 390,
+     "trainer_class": "fisher",
+     "trainer_id": "fisher_ralph5"
+    }
+   ]
+  },
+  "fisher_tully_route42": {
+   "map": "route42",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 18,
+       "species": "qwilfish"
+      }
+     ],
+     "prize_base": 180,
+     "trainer_class": "fisher",
+     "trainer_id": "fisher_tully1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 23,
+       "species": "qwilfish"
+      }
+     ],
+     "prize_base": 230,
+     "trainer_class": "fisher",
+     "trainer_id": "fisher_tully2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 32,
+       "species": "goldeen"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "species": "goldeen"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "species": "qwilfish"
+      }
+     ],
+     "prize_base": 320,
+     "trainer_class": "fisher",
+     "trainer_id": "fisher_tully3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 34,
+       "moves": [
+        "supersonic",
+        "rain_dance",
+        "waterfall",
+        "fury_attack"
+       ],
+       "species": "seaking"
+      },
+      {
+       "iv": null,
+       "level": 34,
+       "moves": [
+        "supersonic",
+        "rain_dance",
+        "waterfall",
+        "fury_attack"
+       ],
+       "species": "seaking"
+      },
+      {
+       "iv": null,
+       "level": 37,
+       "moves": [
+        "rollout",
+        "surf",
+        "pin_missile",
+        "take_down"
+       ],
+       "species": "qwilfish"
+      }
+     ],
+     "prize_base": 370,
+     "trainer_class": "fisher",
+     "trainer_id": "fisher_tully4"
+    }
+   ]
+  },
+  "fisher_wilton_route44": {
+   "map": "route44",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 23,
+       "species": "goldeen"
+      },
+      {
+       "iv": null,
+       "level": 23,
+       "species": "goldeen"
+      },
+      {
+       "iv": null,
+       "level": 25,
+       "species": "seaking"
+      }
+     ],
+     "prize_base": 250,
+     "trainer_class": "fisher",
+     "trainer_id": "fisher_wilton1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 29,
+       "species": "goldeen"
+      },
+      {
+       "iv": null,
+       "level": 29,
+       "species": "goldeen"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "species": "seaking"
+      }
+     ],
+     "prize_base": 320,
+     "trainer_class": "fisher",
+     "trainer_id": "fisher_wilton2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 34,
+       "moves": [
+        "supersonic",
+        "waterfall",
+        "flail",
+        "fury_attack"
+       ],
+       "species": "seaking"
+      },
+      {
+       "iv": null,
+       "level": 34,
+       "moves": [
+        "supersonic",
+        "waterfall",
+        "flail",
+        "fury_attack"
+       ],
+       "species": "seaking"
+      },
+      {
+       "iv": null,
+       "level": 38,
+       "moves": [
+        "psybeam",
+        "aurora_beam",
+        "bubblebeam",
+        "hyper_beam"
+       ],
+       "species": "remoraid"
+      }
+     ],
+     "prize_base": 380,
+     "trainer_class": "fisher",
+     "trainer_id": "fisher_wilton3"
+    }
+   ]
+  },
+  "hiker_anthony_route33": {
+   "map": "route33",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 11,
+       "species": "geodude"
+      },
+      {
+       "iv": null,
+       "level": 11,
+       "species": "machop"
+      }
+     ],
+     "prize_base": 88,
+     "trainer_class": "hiker",
+     "trainer_id": "hiker_anthony2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 16,
+       "species": "geodude"
+      },
+      {
+       "iv": null,
+       "level": 18,
+       "species": "machamp"
+      }
+     ],
+     "prize_base": 144,
+     "trainer_class": "hiker",
+     "trainer_id": "hiker_anthony1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 25,
+       "species": "graveler"
+      },
+      {
+       "iv": null,
+       "level": 27,
+       "species": "graveler"
+      },
+      {
+       "iv": null,
+       "level": 29,
+       "species": "machoke"
+      }
+     ],
+     "prize_base": 232,
+     "trainer_class": "hiker",
+     "trainer_id": "hiker_anthony3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 30,
+       "species": "graveler"
+      },
+      {
+       "iv": null,
+       "level": 30,
+       "species": "graveler"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "species": "machoke"
+      }
+     ],
+     "prize_base": 256,
+     "trainer_class": "hiker",
+     "trainer_id": "hiker_anthony4"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 34,
+       "moves": [
+        "magnitude",
+        "selfdestruct",
+        "defense_curl",
+        "rollout"
+       ],
+       "species": "graveler"
+      },
+      {
+       "iv": null,
+       "level": 36,
+       "moves": [
+        "magnitude",
+        "selfdestruct",
+        "defense_curl",
+        "rollout"
+       ],
+       "species": "golem"
+      },
+      {
+       "iv": null,
+       "level": 34,
+       "moves": [
+        "karate_chop",
+        "vital_throw",
+        "headbutt",
+        "dig"
+       ],
+       "species": "machoke"
+      }
+     ],
+     "prize_base": 272,
+     "trainer_class": "hiker",
+     "trainer_id": "hiker_anthony5"
+    }
+   ]
+  },
+  "hiker_parry_route45": {
+   "map": "route45",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 29,
+       "species": "onix"
+      }
+     ],
+     "prize_base": 232,
+     "trainer_class": "hiker",
+     "trainer_id": "hiker_parry3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 35,
+       "species": "onix"
+      },
+      {
+       "iv": null,
+       "level": 33,
+       "species": "swinub"
+      }
+     ],
+     "prize_base": 264,
+     "trainer_class": "hiker",
+     "trainer_id": "hiker_parry1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 35,
+       "moves": [
+        "earthquake",
+        "blizzard",
+        "rest",
+        "take_down"
+       ],
+       "species": "piloswine"
+      },
+      {
+       "iv": null,
+       "level": 35,
+       "moves": [
+        "magnitude",
+        "dig",
+        "mud_slap",
+        "slash"
+       ],
+       "species": "dugtrio"
+      },
+      {
+       "iv": null,
+       "level": 38,
+       "moves": [
+        "dig",
+        "iron_tail",
+        "sandstorm",
+        "slam"
+       ],
+       "species": "steelix"
+      }
+     ],
+     "prize_base": 304,
+     "trainer_class": "hiker",
+     "trainer_id": "hiker_parry2"
+    }
+   ]
+  },
+  "juggler_irwin_route35": {
+   "map": "route35",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 2,
+       "species": "voltorb"
+      },
+      {
+       "iv": null,
+       "level": 6,
+       "species": "voltorb"
+      },
+      {
+       "iv": null,
+       "level": 10,
+       "species": "voltorb"
+      },
+      {
+       "iv": null,
+       "level": 14,
+       "species": "voltorb"
+      }
+     ],
+     "prize_base": 140,
+     "trainer_class": "juggler",
+     "trainer_id": "juggler_irwin1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 6,
+       "species": "voltorb"
+      },
+      {
+       "iv": null,
+       "level": 10,
+       "species": "voltorb"
+      },
+      {
+       "iv": null,
+       "level": 14,
+       "species": "voltorb"
+      },
+      {
+       "iv": null,
+       "level": 18,
+       "species": "voltorb"
+      }
+     ],
+     "prize_base": 180,
+     "trainer_class": "juggler",
+     "trainer_id": "juggler_irwin2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 18,
+       "species": "voltorb"
+      },
+      {
+       "iv": null,
+       "level": 22,
+       "species": "voltorb"
+      },
+      {
+       "iv": null,
+       "level": 26,
+       "species": "voltorb"
+      },
+      {
+       "iv": null,
+       "level": 30,
+       "species": "electrode"
+      }
+     ],
+     "prize_base": 300,
+     "trainer_class": "juggler",
+     "trainer_id": "juggler_irwin3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 18,
+       "species": "voltorb"
+      },
+      {
+       "iv": null,
+       "level": 22,
+       "species": "voltorb"
+      },
+      {
+       "iv": null,
+       "level": 26,
+       "species": "voltorb"
+      },
+      {
+       "iv": null,
+       "level": 30,
+       "species": "electrode"
+      }
+     ],
+     "prize_base": 300,
+     "trainer_class": "juggler",
+     "trainer_id": "juggler_irwin4"
+    }
+   ]
+  },
+  "lass_dana_route38": {
+   "map": "route38",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 18,
+       "moves": [
+        "tackle",
+        "growl",
+        "thundershock",
+        "thunder_wave"
+       ],
+       "species": "flaaffy"
+      },
+      {
+       "iv": null,
+       "level": 18,
+       "moves": [
+        "scratch",
+        "tail_whip",
+        "disable",
+        "confusion"
+       ],
+       "species": "psyduck"
+      }
+     ],
+     "prize_base": 108,
+     "trainer_class": "lass",
+     "trainer_id": "lass_dana1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 21,
+       "moves": [
+        "tackle",
+        "growl",
+        "thundershock",
+        "thunder_wave"
+       ],
+       "species": "flaaffy"
+      },
+      {
+       "iv": null,
+       "level": 21,
+       "moves": [
+        "scratch",
+        "tail_whip",
+        "disable",
+        "confusion"
+       ],
+       "species": "psyduck"
+      }
+     ],
+     "prize_base": 126,
+     "trainer_class": "lass",
+     "trainer_id": "lass_dana2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 29,
+       "moves": [
+        "scratch",
+        "disable",
+        "confusion",
+        "screech"
+       ],
+       "species": "psyduck"
+      },
+      {
+       "iv": null,
+       "level": 29,
+       "moves": [
+        "tackle",
+        "thundershock",
+        "thunder_wave",
+        "cotton_spore"
+       ],
+       "species": "ampharos"
+      }
+     ],
+     "prize_base": 174,
+     "trainer_class": "lass",
+     "trainer_id": "lass_dana3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 32,
+       "moves": [
+        "scratch",
+        "disable",
+        "confusion",
+        "screech"
+       ],
+       "species": "psyduck"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "moves": [
+        "tackle",
+        "thunderpunch",
+        "thunder_wave",
+        "cotton_spore"
+       ],
+       "species": "ampharos"
+      }
+     ],
+     "prize_base": 192,
+     "trainer_class": "lass",
+     "trainer_id": "lass_dana4"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 36,
+       "moves": [
+        "swift",
+        "thunderpunch",
+        "thunder_wave",
+        "cotton_spore"
+       ],
+       "species": "ampharos"
+      },
+      {
+       "iv": null,
+       "level": 36,
+       "moves": [
+        "disable",
+        "surf",
+        "psychic_m",
+        "screech"
+       ],
+       "species": "golduck"
+      }
+     ],
+     "prize_base": 216,
+     "trainer_class": "lass",
+     "trainer_id": "lass_dana5"
+    }
+   ]
+  },
+  "picnicker_erin_route46": {
+   "map": "route46",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 16,
+       "species": "ponyta"
+      },
+      {
+       "iv": null,
+       "level": 16,
+       "species": "ponyta"
+      }
+     ],
+     "prize_base": 80,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_erin1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 32,
+       "species": "ponyta"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "species": "ponyta"
+      }
+     ],
+     "prize_base": 160,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_erin2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 36,
+       "moves": [
+        "double_team",
+        "stomp",
+        "fire_spin",
+        "sunny_day"
+       ],
+       "species": "ponyta"
+      },
+      {
+       "iv": null,
+       "level": 34,
+       "moves": [
+        "swift",
+        "mud_slap",
+        "quick_attack",
+        "thunderbolt"
+       ],
+       "species": "raichu"
+      },
+      {
+       "iv": null,
+       "level": 36,
+       "moves": [
+        "double_team",
+        "stomp",
+        "fire_spin",
+        "sunny_day"
+       ],
+       "species": "ponyta"
+      }
+     ],
+     "prize_base": 180,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_erin3"
+    }
+   ]
+  },
+  "picnicker_gina_route34": {
+   "map": "route34",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 9,
+       "species": "hoppip"
+      },
+      {
+       "iv": null,
+       "level": 9,
+       "species": "hoppip"
+      },
+      {
+       "iv": null,
+       "level": 12,
+       "species": "bulbasaur"
+      }
+     ],
+     "prize_base": 60,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_gina1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 14,
+       "species": "hoppip"
+      },
+      {
+       "iv": null,
+       "level": 14,
+       "species": "hoppip"
+      },
+      {
+       "iv": null,
+       "level": 17,
+       "species": "ivysaur"
+      }
+     ],
+     "prize_base": 85,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_gina2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 26,
+       "species": "skiploom"
+      },
+      {
+       "iv": null,
+       "level": 26,
+       "species": "skiploom"
+      },
+      {
+       "iv": null,
+       "level": 29,
+       "species": "ivysaur"
+      }
+     ],
+     "prize_base": 145,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_gina3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 30,
+       "species": "skiploom"
+      },
+      {
+       "iv": null,
+       "level": 30,
+       "species": "skiploom"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "species": "ivysaur"
+      }
+     ],
+     "prize_base": 160,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_gina4"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 33,
+       "moves": [
+        "stun_spore",
+        "sunny_day",
+        "leech_seed",
+        "cotton_spore"
+       ],
+       "species": "jumpluff"
+      },
+      {
+       "iv": null,
+       "level": 33,
+       "moves": [
+        "sunny_day",
+        "sleep_powder",
+        "leech_seed",
+        "cotton_spore"
+       ],
+       "species": "jumpluff"
+      },
+      {
+       "iv": null,
+       "level": 38,
+       "moves": [
+        "solarbeam",
+        "razor_leaf",
+        "headbutt",
+        "mud_slap"
+       ],
+       "species": "venusaur"
+      }
+     ],
+     "prize_base": 190,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_gina5"
+    }
+   ]
+  },
+  "picnicker_liz_route32": {
+   "map": "route32",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 9,
+       "species": "nidoran_f"
+      }
+     ],
+     "prize_base": 45,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_liz1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 15,
+       "species": "weepinbell"
+      },
+      {
+       "iv": null,
+       "level": 15,
+       "species": "nidorina"
+      }
+     ],
+     "prize_base": 75,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_liz2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 19,
+       "species": "weepinbell"
+      },
+      {
+       "iv": null,
+       "level": 19,
+       "species": "nidorino"
+      },
+      {
+       "iv": null,
+       "level": 21,
+       "species": "nidoqueen"
+      }
+     ],
+     "prize_base": 105,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_liz3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 24,
+       "species": "weepinbell"
+      },
+      {
+       "iv": null,
+       "level": 26,
+       "species": "nidorino"
+      },
+      {
+       "iv": null,
+       "level": 26,
+       "species": "nidoqueen"
+      }
+     ],
+     "prize_base": 130,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_liz4"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 30,
+       "moves": [
+        "sleep_powder",
+        "poisonpowder",
+        "stun_spore",
+        "sludge_bomb"
+       ],
+       "species": "weepinbell"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "moves": [
+        "earthquake",
+        "double_kick",
+        "poison_sting",
+        "iron_tail"
+       ],
+       "species": "nidoking"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "moves": [
+        "earthquake",
+        "double_kick",
+        "tail_whip",
+        "body_slam"
+       ],
+       "species": "nidoqueen"
+      }
+     ],
+     "prize_base": 160,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_liz5"
+    }
+   ]
+  },
+  "picnicker_tiffany_route43": {
+   "map": "route43",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 20,
+       "moves": [
+        "encore",
+        "sing",
+        "doubleslap",
+        "minimize"
+       ],
+       "species": "clefairy"
+      }
+     ],
+     "prize_base": 100,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_tiffany3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 31,
+       "moves": [
+        "encore",
+        "sing",
+        "doubleslap",
+        "minimize"
+       ],
+       "species": "clefairy"
+      }
+     ],
+     "prize_base": 155,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_tiffany1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 37,
+       "moves": [
+        "encore",
+        "doubleslap",
+        "minimize",
+        "metronome"
+       ],
+       "species": "clefairy"
+      }
+     ],
+     "prize_base": 185,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_tiffany2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 43,
+       "moves": [
+        "metronome",
+        "encore",
+        "moonlight",
+        "minimize"
+       ],
+       "species": "clefairy"
+      }
+     ],
+     "prize_base": 215,
+     "trainer_class": "picnicker",
+     "trainer_id": "picnicker_tiffany4"
+    }
+   ]
+  },
+  "pokefanf_beverly_national_park": {
+   "map": "national_park",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "held_item": "berry",
+       "iv": null,
+       "level": 14,
+       "species": "snubbull"
+      }
+     ],
+     "prize_base": 280,
+     "trainer_class": "pokefanf",
+     "trainer_id": "pokefanf_beverly1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "held_item": "berry",
+       "iv": null,
+       "level": 18,
+       "species": "snubbull"
+      }
+     ],
+     "prize_base": 360,
+     "trainer_class": "pokefanf",
+     "trainer_id": "pokefanf_beverly2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "held_item": "berry",
+       "iv": null,
+       "level": 30,
+       "species": "granbull"
+      }
+     ],
+     "prize_base": 600,
+     "trainer_class": "pokefanf",
+     "trainer_id": "pokefanf_beverly3"
+    }
+   ]
+  },
+  "pokefanm_derek_route39": {
+   "map": "route39",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "held_item": "berry",
+       "iv": null,
+       "level": 17,
+       "species": "pikachu"
+      }
+     ],
+     "prize_base": 340,
+     "trainer_class": "pokefanm",
+     "trainer_id": "pokefanm_derek1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "held_item": "berry",
+       "iv": null,
+       "level": 19,
+       "species": "pikachu"
+      }
+     ],
+     "prize_base": 380,
+     "trainer_class": "pokefanm",
+     "trainer_id": "pokefanm_derek2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "held_item": "berry",
+       "iv": null,
+       "level": 36,
+       "species": "pikachu"
+      }
+     ],
+     "prize_base": 720,
+     "trainer_class": "pokefanm",
+     "trainer_id": "pokefanm_derek3"
+    }
+   ]
+  },
+  "pokemaniac_brent_route43": {
+   "map": "route43",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 19,
+       "species": "lickitung"
+      }
+     ],
+     "prize_base": 285,
+     "trainer_class": "pokemaniac",
+     "trainer_id": "pokemaniac_brent1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 25,
+       "species": "kangaskhan"
+      }
+     ],
+     "prize_base": 375,
+     "trainer_class": "pokemaniac",
+     "trainer_id": "pokemaniac_brent2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 36,
+       "moves": [
+        "recover",
+        "psychic_m",
+        "conversion2",
+        "tri_attack"
+       ],
+       "species": "porygon"
+      }
+     ],
+     "prize_base": 540,
+     "trainer_class": "pokemaniac",
+     "trainer_id": "pokemaniac_brent3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 41,
+       "moves": [
+        "rollout",
+        "attract",
+        "egg_bomb",
+        "softboiled"
+       ],
+       "species": "chansey"
+      }
+     ],
+     "prize_base": 615,
+     "trainer_class": "pokemaniac",
+     "trainer_id": "pokemaniac_brent4"
+    }
+   ]
+  },
+  "sailor_huey_olivine_lighthouse2f": {
+   "map": "olivine_lighthouse2f",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 18,
+       "species": "poliwag"
+      },
+      {
+       "iv": null,
+       "level": 18,
+       "species": "poliwhirl"
+      }
+     ],
+     "prize_base": 180,
+     "trainer_class": "sailor",
+     "trainer_id": "sailor_huey1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 28,
+       "species": "poliwhirl"
+      },
+      {
+       "iv": null,
+       "level": 28,
+       "species": "poliwhirl"
+      }
+     ],
+     "prize_base": 280,
+     "trainer_class": "sailor",
+     "trainer_id": "sailor_huey2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 34,
+       "species": "poliwhirl"
+      },
+      {
+       "iv": null,
+       "level": 34,
+       "species": "poliwrath"
+      }
+     ],
+     "prize_base": 340,
+     "trainer_class": "sailor",
+     "trainer_id": "sailor_huey3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 38,
+       "moves": [
+        "whirlpool",
+        "rain_dance",
+        "body_slam",
+        "perish_song"
+       ],
+       "species": "politoed"
+      },
+      {
+       "iv": null,
+       "level": 38,
+       "moves": [
+        "surf",
+        "strength",
+        "ice_punch",
+        "submission"
+       ],
+       "species": "poliwrath"
+      }
+     ],
+     "prize_base": 380,
+     "trainer_class": "sailor",
+     "trainer_id": "sailor_huey4"
+    }
+   ]
+  },
+  "schoolboy_alan_route36": {
+   "map": "route36",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 16,
+       "species": "tangela"
+      }
+     ],
+     "prize_base": 128,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_alan1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 17,
+       "species": "tangela"
+      },
+      {
+       "iv": null,
+       "level": 17,
+       "species": "yanma"
+      }
+     ],
+     "prize_base": 136,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_alan2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 20,
+       "species": "natu"
+      },
+      {
+       "iv": null,
+       "level": 22,
+       "species": "tangela"
+      },
+      {
+       "iv": null,
+       "level": 20,
+       "species": "quagsire"
+      },
+      {
+       "iv": null,
+       "level": 25,
+       "species": "yanma"
+      }
+     ],
+     "prize_base": 200,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_alan3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 27,
+       "species": "natu"
+      },
+      {
+       "iv": null,
+       "level": 27,
+       "species": "tangela"
+      },
+      {
+       "iv": null,
+       "level": 30,
+       "species": "quagsire"
+      },
+      {
+       "iv": null,
+       "level": 30,
+       "species": "yanma"
+      }
+     ],
+     "prize_base": 240,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_alan4"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 35,
+       "moves": [
+        "peck",
+        "night_shade",
+        "swift",
+        "future_sight"
+       ],
+       "species": "xatu"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "moves": [
+        "poisonpowder",
+        "vine_whip",
+        "bind",
+        "mega_drain"
+       ],
+       "species": "tangela"
+      },
+      {
+       "iv": null,
+       "level": 32,
+       "moves": [
+        "quick_attack",
+        "double_team",
+        "sonicboom",
+        "supersonic"
+       ],
+       "species": "yanma"
+      },
+      {
+       "iv": null,
+       "level": 35,
+       "moves": [
+        "tail_whip",
+        "slam",
+        "amnesia",
+        "earthquake"
+       ],
+       "species": "quagsire"
+      }
+     ],
+     "prize_base": 280,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_alan5"
+    }
+   ]
+  },
+  "schoolboy_chad_route38": {
+   "map": "route38",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 19,
+       "species": "mr__mime"
+      }
+     ],
+     "prize_base": 152,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_chad1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 19,
+       "species": "mr__mime"
+      },
+      {
+       "iv": null,
+       "level": 19,
+       "species": "magnemite"
+      }
+     ],
+     "prize_base": 152,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_chad2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 27,
+       "species": "mr__mime"
+      },
+      {
+       "iv": null,
+       "level": 31,
+       "species": "magneton"
+      }
+     ],
+     "prize_base": 248,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_chad3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 30,
+       "species": "mr__mime"
+      },
+      {
+       "iv": null,
+       "level": 34,
+       "species": "magneton"
+      }
+     ],
+     "prize_base": 272,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_chad4"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 34,
+       "moves": [
+        "psychic_m",
+        "light_screen",
+        "reflect",
+        "encore"
+       ],
+       "species": "mr__mime"
+      },
+      {
+       "iv": null,
+       "level": 38,
+       "moves": [
+        "zap_cannon",
+        "thunder_wave",
+        "lock_on",
+        "swift"
+       ],
+       "species": "magneton"
+      }
+     ],
+     "prize_base": 304,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_chad5"
+    }
+   ]
+  },
+  "schoolboy_jack_national_park": {
+   "map": "national_park",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 12,
+       "species": "oddish"
+      },
+      {
+       "iv": null,
+       "level": 15,
+       "species": "voltorb"
+      }
+     ],
+     "prize_base": 120,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_jack1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 14,
+       "species": "oddish"
+      },
+      {
+       "iv": null,
+       "level": 17,
+       "species": "voltorb"
+      }
+     ],
+     "prize_base": 136,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_jack2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 28,
+       "species": "gloom"
+      },
+      {
+       "iv": null,
+       "level": 31,
+       "species": "electrode"
+      }
+     ],
+     "prize_base": 248,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_jack3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 30,
+       "species": "gloom"
+      },
+      {
+       "iv": null,
+       "level": 33,
+       "species": "growlithe"
+      },
+      {
+       "iv": null,
+       "level": 33,
+       "species": "electrode"
+      }
+     ],
+     "prize_base": 264,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_jack4"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 35,
+       "moves": [
+        "screech",
+        "sonicboom",
+        "rollout",
+        "light_screen"
+       ],
+       "species": "electrode"
+      },
+      {
+       "iv": null,
+       "level": 35,
+       "moves": [
+        "sunny_day",
+        "leer",
+        "take_down",
+        "flame_wheel"
+       ],
+       "species": "growlithe"
+      },
+      {
+       "iv": null,
+       "level": 37,
+       "moves": [
+        "solarbeam",
+        "sleep_powder",
+        "acid",
+        "moonlight"
+       ],
+       "species": "vileplume"
+      }
+     ],
+     "prize_base": 296,
+     "trainer_class": "schoolboy",
+     "trainer_id": "schoolboy_jack5"
+    }
+   ]
+  },
+  "youngster_joey_route30": {
+   "map": "route30",
+   "region": "johto",
+   "tiers": [
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 4,
+       "species": "rattata"
+      }
+     ],
+     "prize_base": 16,
+     "trainer_class": "youngster",
+     "trainer_id": "youngster_joey1"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 15,
+       "species": "rattata"
+      }
+     ],
+     "prize_base": 60,
+     "trainer_class": "youngster",
+     "trainer_id": "youngster_joey2"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 21,
+       "moves": [
+        "tail_whip",
+        "quick_attack",
+        "hyper_fang",
+        "scary_face"
+       ],
+       "species": "raticate"
+      }
+     ],
+     "prize_base": 84,
+     "trainer_class": "youngster",
+     "trainer_id": "youngster_joey3"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 30,
+       "moves": [
+        "tail_whip",
+        "quick_attack",
+        "hyper_fang",
+        "pursuit"
+       ],
+       "species": "raticate"
+      }
+     ],
+     "prize_base": 120,
+     "trainer_class": "youngster",
+     "trainer_id": "youngster_joey4"
+    },
+    {
+     "double_battle": false,
+     "party": [
+      {
+       "iv": null,
+       "level": 37,
+       "moves": [
+        "hyper_beam",
+        "quick_attack",
+        "hyper_fang",
+        "pursuit"
+       ],
+       "species": "raticate"
+      }
+     ],
+     "prize_base": 148,
+     "trainer_class": "youngster",
+     "trainer_id": "youngster_joey5"
+    }
+   ]
+  }
+ },
+ "version": "crystal"
+}

@@ -1,0 +1,586 @@
+{
+  "source": "pret/pokered data/trainers/parties.asm (Rival1Data, Rival2Data, Rival3Data)",
+  "note": "Parties are in file order. The note on each party is the location comment from parties.asm. Within most locations the parties come in groups that differ only in the rival starter line (for example SQUIRTLE / BULBASAUR / CHARMANDER in Rival1, and their evolutions later). No starter choice text is written in parties.asm itself, so no choice wording has been added - the difference is shown by the species in the data. Rival1's first three parties have no location comment in the file (they come before the Route 22 comment) and their note is null.",
+  "engine_special_moves_note": "Separate from special_moves.asm: engine/battle/read_trainer_party.asm gives the Champion (RIVAL3) party Pidgeot SKY_ATTACK as its 3rd move, and gives the 6th party member (the starter) FIRE_BLAST, BLIZZARD or MEGA_DRAIN depending on wRivalStarter. These are not recorded as extra_moves above because which starter move applies depends on the game state, not on the party data alone.",
+  "stages": {
+    "RIVAL1": {
+      "display_name": "RIVAL1",
+      "parties": [
+        {
+          "party_index": 1,
+          "note": null,
+          "party": [
+            {
+              "level": 5,
+              "species": "SQUIRTLE"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 2,
+          "note": null,
+          "party": [
+            {
+              "level": 5,
+              "species": "BULBASAUR"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 3,
+          "note": null,
+          "party": [
+            {
+              "level": 5,
+              "species": "CHARMANDER"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 4,
+          "note": "Route 22",
+          "party": [
+            {
+              "level": 9,
+              "species": "PIDGEY"
+            },
+            {
+              "level": 8,
+              "species": "SQUIRTLE"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 5,
+          "note": "Route 22",
+          "party": [
+            {
+              "level": 9,
+              "species": "PIDGEY"
+            },
+            {
+              "level": 8,
+              "species": "BULBASAUR"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 6,
+          "note": "Route 22",
+          "party": [
+            {
+              "level": 9,
+              "species": "PIDGEY"
+            },
+            {
+              "level": 8,
+              "species": "CHARMANDER"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 7,
+          "note": "Cerulean City",
+          "party": [
+            {
+              "level": 18,
+              "species": "PIDGEOTTO"
+            },
+            {
+              "level": 15,
+              "species": "ABRA"
+            },
+            {
+              "level": 15,
+              "species": "RATTATA"
+            },
+            {
+              "level": 17,
+              "species": "SQUIRTLE"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 8,
+          "note": "Cerulean City",
+          "party": [
+            {
+              "level": 18,
+              "species": "PIDGEOTTO"
+            },
+            {
+              "level": 15,
+              "species": "ABRA"
+            },
+            {
+              "level": 15,
+              "species": "RATTATA"
+            },
+            {
+              "level": 17,
+              "species": "BULBASAUR"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 9,
+          "note": "Cerulean City",
+          "party": [
+            {
+              "level": 18,
+              "species": "PIDGEOTTO"
+            },
+            {
+              "level": 15,
+              "species": "ABRA"
+            },
+            {
+              "level": 15,
+              "species": "RATTATA"
+            },
+            {
+              "level": 17,
+              "species": "CHARMANDER"
+            }
+          ],
+          "extra_move": null
+        }
+      ]
+    },
+    "RIVAL2": {
+      "display_name": "RIVAL2",
+      "parties": [
+        {
+          "party_index": 1,
+          "note": "SS Anne 2F",
+          "party": [
+            {
+              "level": 19,
+              "species": "PIDGEOTTO"
+            },
+            {
+              "level": 16,
+              "species": "RATICATE"
+            },
+            {
+              "level": 18,
+              "species": "KADABRA"
+            },
+            {
+              "level": 20,
+              "species": "WARTORTLE"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 2,
+          "note": "SS Anne 2F",
+          "party": [
+            {
+              "level": 19,
+              "species": "PIDGEOTTO"
+            },
+            {
+              "level": 16,
+              "species": "RATICATE"
+            },
+            {
+              "level": 18,
+              "species": "KADABRA"
+            },
+            {
+              "level": 20,
+              "species": "IVYSAUR"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 3,
+          "note": "SS Anne 2F",
+          "party": [
+            {
+              "level": 19,
+              "species": "PIDGEOTTO"
+            },
+            {
+              "level": 16,
+              "species": "RATICATE"
+            },
+            {
+              "level": 18,
+              "species": "KADABRA"
+            },
+            {
+              "level": 20,
+              "species": "CHARMELEON"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 4,
+          "note": "Pokémon Tower 2F",
+          "party": [
+            {
+              "level": 25,
+              "species": "PIDGEOTTO"
+            },
+            {
+              "level": 23,
+              "species": "GROWLITHE"
+            },
+            {
+              "level": 22,
+              "species": "EXEGGCUTE"
+            },
+            {
+              "level": 20,
+              "species": "KADABRA"
+            },
+            {
+              "level": 25,
+              "species": "WARTORTLE"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 5,
+          "note": "Pokémon Tower 2F",
+          "party": [
+            {
+              "level": 25,
+              "species": "PIDGEOTTO"
+            },
+            {
+              "level": 23,
+              "species": "GYARADOS"
+            },
+            {
+              "level": 22,
+              "species": "GROWLITHE"
+            },
+            {
+              "level": 20,
+              "species": "KADABRA"
+            },
+            {
+              "level": 25,
+              "species": "IVYSAUR"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 6,
+          "note": "Pokémon Tower 2F",
+          "party": [
+            {
+              "level": 25,
+              "species": "PIDGEOTTO"
+            },
+            {
+              "level": 23,
+              "species": "EXEGGCUTE"
+            },
+            {
+              "level": 22,
+              "species": "GYARADOS"
+            },
+            {
+              "level": 20,
+              "species": "KADABRA"
+            },
+            {
+              "level": 25,
+              "species": "CHARMELEON"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 7,
+          "note": "Silph Co. 7F",
+          "party": [
+            {
+              "level": 37,
+              "species": "PIDGEOT"
+            },
+            {
+              "level": 38,
+              "species": "GROWLITHE"
+            },
+            {
+              "level": 35,
+              "species": "EXEGGCUTE"
+            },
+            {
+              "level": 35,
+              "species": "ALAKAZAM"
+            },
+            {
+              "level": 40,
+              "species": "BLASTOISE"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 8,
+          "note": "Silph Co. 7F",
+          "party": [
+            {
+              "level": 37,
+              "species": "PIDGEOT"
+            },
+            {
+              "level": 38,
+              "species": "GYARADOS"
+            },
+            {
+              "level": 35,
+              "species": "GROWLITHE"
+            },
+            {
+              "level": 35,
+              "species": "ALAKAZAM"
+            },
+            {
+              "level": 40,
+              "species": "VENUSAUR"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 9,
+          "note": "Silph Co. 7F",
+          "party": [
+            {
+              "level": 37,
+              "species": "PIDGEOT"
+            },
+            {
+              "level": 38,
+              "species": "EXEGGCUTE"
+            },
+            {
+              "level": 35,
+              "species": "GYARADOS"
+            },
+            {
+              "level": 35,
+              "species": "ALAKAZAM"
+            },
+            {
+              "level": 40,
+              "species": "CHARIZARD"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 10,
+          "note": "Route 22",
+          "party": [
+            {
+              "level": 47,
+              "species": "PIDGEOT"
+            },
+            {
+              "level": 45,
+              "species": "RHYHORN"
+            },
+            {
+              "level": 45,
+              "species": "GROWLITHE"
+            },
+            {
+              "level": 47,
+              "species": "EXEGGCUTE"
+            },
+            {
+              "level": 50,
+              "species": "ALAKAZAM"
+            },
+            {
+              "level": 53,
+              "species": "BLASTOISE"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 11,
+          "note": "Route 22",
+          "party": [
+            {
+              "level": 47,
+              "species": "PIDGEOT"
+            },
+            {
+              "level": 45,
+              "species": "RHYHORN"
+            },
+            {
+              "level": 45,
+              "species": "GYARADOS"
+            },
+            {
+              "level": 47,
+              "species": "GROWLITHE"
+            },
+            {
+              "level": 50,
+              "species": "ALAKAZAM"
+            },
+            {
+              "level": 53,
+              "species": "VENUSAUR"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 12,
+          "note": "Route 22",
+          "party": [
+            {
+              "level": 47,
+              "species": "PIDGEOT"
+            },
+            {
+              "level": 45,
+              "species": "RHYHORN"
+            },
+            {
+              "level": 45,
+              "species": "EXEGGCUTE"
+            },
+            {
+              "level": 47,
+              "species": "GYARADOS"
+            },
+            {
+              "level": 50,
+              "species": "ALAKAZAM"
+            },
+            {
+              "level": 53,
+              "species": "CHARIZARD"
+            }
+          ],
+          "extra_move": null
+        }
+      ]
+    },
+    "RIVAL3": {
+      "display_name": "RIVAL3",
+      "parties": [
+        {
+          "party_index": 1,
+          "note": null,
+          "party": [
+            {
+              "level": 61,
+              "species": "PIDGEOT"
+            },
+            {
+              "level": 59,
+              "species": "ALAKAZAM"
+            },
+            {
+              "level": 61,
+              "species": "RHYDON"
+            },
+            {
+              "level": 61,
+              "species": "ARCANINE"
+            },
+            {
+              "level": 63,
+              "species": "EXEGGUTOR"
+            },
+            {
+              "level": 65,
+              "species": "BLASTOISE"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 2,
+          "note": null,
+          "party": [
+            {
+              "level": 61,
+              "species": "PIDGEOT"
+            },
+            {
+              "level": 59,
+              "species": "ALAKAZAM"
+            },
+            {
+              "level": 61,
+              "species": "RHYDON"
+            },
+            {
+              "level": 61,
+              "species": "GYARADOS"
+            },
+            {
+              "level": 63,
+              "species": "ARCANINE"
+            },
+            {
+              "level": 65,
+              "species": "VENUSAUR"
+            }
+          ],
+          "extra_move": null
+        },
+        {
+          "party_index": 3,
+          "note": null,
+          "party": [
+            {
+              "level": 61,
+              "species": "PIDGEOT"
+            },
+            {
+              "level": 59,
+              "species": "ALAKAZAM"
+            },
+            {
+              "level": 61,
+              "species": "RHYDON"
+            },
+            {
+              "level": 61,
+              "species": "EXEGGUTOR"
+            },
+            {
+              "level": 63,
+              "species": "GYARADOS"
+            },
+            {
+              "level": 65,
+              "species": "CHARIZARD"
+            }
+          ],
+          "extra_move": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+ "groups": {
+  "CinnabarIsland": {
+   "entries": {
+    "CinnabarIsland_Text_AllRightLetsGo": "All right, then.\nLet's go!",
+    "CinnabarIsland_Text_ComeWithMeToOneIsland": "Look, it's me, BILL.\nLong time no see!\n\nI hope you're still using my\nPC system.\n\nWell, listen, since we met up here,\nhow about spending time with me?\n\nThere's this little island in the far\nsouth called ONE ISLAND.\n\nA friend invited me, so I'm on my\nway out there.\n\nHow about it?\nDo you feel like coming with me?",
+    "CinnabarIsland_Text_HeyIfItIsntPlayer": "Huh?\nHey, if it isn't {PLAYER}!",
+    "CinnabarIsland_Text_IfYouHaveTriPassYouCanGoAgain": "Hey, wasn't that a long cruise?\n\nMy buddy CELIO seemed to enjoy\nyour company.\n\nI'm sure he'd welcome you if you\nwere to visit him again.\n\nIf you have a TRI-PASS, you can\nalways take a ferry there from\nVERMILION PORT.\n\nAll right, thanks for your company!",
+    "CinnabarIsland_Text_IllBeWaitingInPokeCenter": "What, are you too busy?\n\nWell, all right.\nThe boat hasn't arrived yet anyway.\n\nI'll be waiting at the POK\u00e9MON\nCENTER over there.\n\nCome see me when you're done with\nyour business here."
+   },
+   "source_file": "data/maps/CinnabarIsland/text.inc"
+  },
+  "FiveIsland_RocketWarehouse": {
+   "entries": {
+    "FiveIsland_RocketWarehouse_Text_GideonPostBattle": "If I can't sell it, it's worthless!\nGo ahead, take it!",
+    "FiveIsland_RocketWarehouse_Text_GideonIntro": "I almost managed to sell the\nSAPPHIRE for huge money\u2026\n\nThen, you just had to come along\nand blow the whole deal apart!\n\nFufu\u2026 Fufufufu\u2026\nThere's no forgiveness for you!",
+    "FiveIsland_RocketWarehouse_Text_GideonDefeat": "Gah! Darn!\nDarn! Darn!"
+   },
+   "source_file": "data/maps/FiveIsland_RocketWarehouse/text.inc"
+  },
+  "MtEmber_RubyPath_B3F": {
+   "entries": {
+    "MtEmber_RubyPath_B3F_Text_FoundARuby": "{PLAYER} found a RUBY!"
+   },
+   "source_file": "data/maps/MtEmber_RubyPath_B3F/text.inc"
+  },
+  "OneIsland_PokemonCenter_1F": {
+   "entries": {
+    "OneIsland_PokemonCenter_1F_Text_AcceptedMeteoriteFromBill": "{PLAYER} accepted the METEORITE\nfrom BILL.",
+    "OneIsland_PokemonCenter_1F_Text_BillBringMeUpToSpeed": "BILL: So, bring me up to speed.\nHow's your machine running?",
+    "OneIsland_PokemonCenter_1F_Text_BillCatchYouLater": "BILL: I'll catch you later!\nSay hi to the guy for me!",
+    "OneIsland_PokemonCenter_1F_Text_BillHeyThereCelio": "BILL: Hey, there!\nCELIO!",
+    "OneIsland_PokemonCenter_1F_Text_BillHowsYourResearchComing": "BILL: Well, absolutely!\nHow's your research coming along?\n\n\u2026Oh, wait a sec.",
+    "OneIsland_PokemonCenter_1F_Text_BillLetMeHelpYou": "BILL: Oh, yeah?\nOkay, let me take a look-see.\n\n\u2026Hang on here\u2026\nI think we can make it work.\nLet me help you, okay?",
+    "OneIsland_PokemonCenter_1F_Text_CanYouDeliverThisMeteoritePlayer": "{PLAYER}, can I get you to wait for\nme just a bit?\n\n\u2026Actually, can I get you to do\nme a favor?\n\nThe island next to this one's\ncalled TWO ISLAND.\n\nThere's a guy there that runs\na GAME CORNER.\n\nHe has this thing for rare rocks\nand gems.\n\nWe keep in touch, being fellow\nmaniacs.\n\nSo, can I get you to deliver this\nMETEORITE to him?",
+    "OneIsland_PokemonCenter_1F_Text_CelioCantBelieveYouCameOut": "CELIO: BILL!\nI can't believe you came out here.",
+    "OneIsland_PokemonCenter_1F_Text_CelioPCsCantLinkWithYours": "CELIO: It's running fine, but we're\ntoo remote out here.\n\nThe PCs on this island just can't\nlink with your PC, BILL.",
+    "OneIsland_PokemonCenter_1F_Text_CelioPleaseTakeThis": "CELIO: {PLAYER}, if you are going\nto TWO ISLAND, please take this.",
+    "OneIsland_PokemonCenter_1F_Text_CelioThatsReallyImpressive": "CELIO: That's really impressive.\n\nI hate to say it, but I have zero\naptitude for battling.\n\nAnyways, I'm glad to meet you.",
+    "OneIsland_PokemonCenter_1F_Text_ObtainedTriPass": "Obtained the TRI-PASS!",
+    "OneIsland_PokemonCenter_1F_Text_PassLetsYouTravelBetweenIslands": "It's a PASS for the ferry service\nserving the local islands.\n\nIt will let you travel between the\nISLANDS ONE, TWO, and THREE.\n\nOh, you should have this, too.",
+    "OneIsland_PokemonCenter_1F_Text_PlayerIsReigningPokemonChamp": "CELIO, this is {PLAYER}, the\nreigning POK\u00e9MON CHAMP!",
+    "OneIsland_PokemonCenter_1F_Text_PlayerIsRisingPokemonChamp": "CELIO, this is {PLAYER}, a rising\ncontender as the POK\u00e9MON CHAMP!",
+    "OneIsland_PokemonCenter_1F_Text_ReceivedExtraPageForTownMap": "{PLAYER} received an extra page\nfor the TOWN MAP!",
+    "OneIsland_PokemonCenter_1F_Text_ReceivedTownMap": "{PLAYER} received\na TOWN MAP!",
+    "OneIsland_PokemonCenter_1F_Text_ThisIsMyBuddyCelio": "{PLAYER}, this is my buddy CELIO.\nHe's one dedicated PC MANIAC!",
+    "OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands": "While I was studying gemstones,\nI discovered something important.\n\nThere is another gem that forms\na pair with this RUBY.\n\nThat other gemstone is supposed to\nbe in the SEVII ISLANDS.\n\n{PLAYER}, please, I need you to go\nfind the other gem.\n\n{PLAYER}, may I have your ferry\nPASS and the TOWN MAP?",
+    "OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor": "Thank you!\n{PLAYER}, you're simply amazing.\n\n\u2026 \u2026 \u2026  \u2026 \u2026 \u2026\n\nUm\u2026 May I ask one more giant favor\nof you?",
+    "OneIsland_PokemonCenter_1F_Text_OhThats": "Oh!\nTh-that's\u2026",
+    "OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands": "This is my own ferry PASS.\n\nIt will let you get to all the\nSEVII ISLANDS.\n\n{PLAYER}, please, I can't do\nit without your help.",
+    "OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette": "I did it!\nI linked up with LANETTE!",
+    "OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou": "{PLAYER}\u2026\n{PLAYER}, I did it!\n\nI've managed to link up with\nTRAINERS in the HOENN region!\n\nFinally, the Network Machine is\nfully operational!\n\n{PLAYER}, I owe it all to you!\n\nThanks to you, my dream came\ntrue\u2026",
+    "OneIsland_PokemonCenter_1F_Text_OkayThisIsGood": "Okay, this is good\u2026",
+    "OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime": "CELIO: So this is the gem that\nforms a pair with the RUBY\u2026\n\n{PLAYER}, you've gone through a lot\nto get this, didn't you?\n\nYou don't have to tell me. I know\nit wasn't easy.\n\nThank you so much!\n\nNow it's my turn to work for you!\nPlease give me a little time.",
+    "OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful": "CELIO: {PLAYER}, how have things\nbeen for you?\n\nOh, is that right?\nYou've caught more POK\u00e9MON.\n\nDo you know what?\nMaybe I can be useful to you.",
+    "OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone": "But, there is a slight catch.\n\nFor the link to work, the Machine\nneeds a special gemstone.\n\nIt's supposed to be on ONE ISLAND,\nbut I haven't found one yet.\n\nWho knows where it could be.",
+    "OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway": "I'm modifying the Network Machine\nright now.\n\nI'm changing it so it can handle\ntrades over long distances.\n\nWhen I get finished, you'll be\ntrading for exotic POK\u00e9MON from\nTRAINERS far away."
+   },
+   "source_file": "data/maps/OneIsland_PokemonCenter_1F/text.inc"
+  },
+  "VermilionCity": {
+   "entries": {
+    "VermilionCity_Text_BoardSeagallopFerry": "Would you like to board\na SEAGALLOP ferry?",
+    "VermilionCity_Text_BoardSeagallopRainbowPass": "Ah, you have a RAINBOW PASS.\n\nWould you like to board\na SEAGALLOP ferry?",
+    "VermilionCity_Text_BoardSeagallopTriPass": "Ah, you have a TRI-PASS.\n\nWould you like to board\na SEAGALLOP ferry?",
+    "VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland": "Oh! That's an AURORATICKET!\nNow that is rare.\n\nWe'll be happy to take you to\nBIRTH ISLAND anytime.",
+    "VermilionCity_Text_OhMysticTicketTakeYouToNavelRock": "Oh! That's a MYSTICTICKET!\nNow that is rare.\n\nWe'll be happy to take you to\nNAVEL ROCK anytime.",
+    "VermilionCity_Text_Seagallop10Departing": "Okay, everything's in order for you\nto board a special ferry.\n\nSEAGALLOP HI-SPEED 10 will be\ndeparting immediately.",
+    "VermilionCity_Text_Seagallop12Departing": "Okay, everything's in order for you\nto board a special ferry.\n\nSEAGALLOP HI-SPEED 12 will be\ndeparting immediately.",
+    "VermilionCity_Text_TheShipSetSail": "The ship set sail.",
+    "VermilionCity_Text_Seagallop7Departing": "Okay, everything's in order.\n\nSEAGALLOP HI-SPEED 7 will be\ndeparting immediately."
+   },
+   "source_file": "data/maps/VermilionCity/text.inc"
+  },
+  "SixIsland_DottedHole_SapphireRoom": {
+   "entries": {
+    "SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword": "I knew that there was a SAPPHIRE\nhere, so it belongs to me!\n\nI'll sell it to TEAM ROCKET for\nserious money.\n\n\u2026D-don't glare at me like that!\n\nIf you want it back, why don't you\ngo get it after I sell it?\n\nI'll even tell you one of the\npasswords to TEAM ROCKET's\nWAREHOUSE.\n\nThe WAREHOUSE password I know is\n\u201cYes, nah, CHANSEY.\u201d\n\nI'm done.\nDon't think badly of me!",
+    "SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou": "Fufu\u2026 Fufufufu\u2026\nI guessed right.\n\nI was right in tailing you!"
+   }
+  }
+ },
+ "source": "held pret/pokefirered data/maps/<Map>/text.inc, decoded with production/sevii_dialogue's decoder and verified label-by-label against an independent second parser (tools/build_sevii_access.py)",
+ "total_entries": 49
+}

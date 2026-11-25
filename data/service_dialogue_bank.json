@@ -1,0 +1,4669 @@
+{
+ "correction_pass": "service_bank_fix_log.json \u2014 four special kinds re-scoped from held source after the first pass over-collected",
+ "flat_entries": {
+  "HappinessText1": "You haven't tamed\nyour #MON.\n\nIf you aren't\nnice, it'll pout.",
+  "HappinessText2": "#MON get more\nfriendly if you\n\nspend time with\nthem.",
+  "HappinessText3": "Wow! You and your\n#MON are really\nclose!",
+  "MartSignText": "For All Your\n#MON Needs\n\n#MON MART",
+  "NurseAskHealText": "We can heal your\n#MON to perfect\nhealth.\n\nShall we heal your\n#MON?",
+  "NurseDayText": "Hello!\nWelcome to our\n#MON CENTER.",
+  "NurseGoodbyeText": "We hope to see you\nagain.\nWe hope to see you\nagain.",
+  "NurseMornText": "Good morning!\nWelcome to our\n#MON CENTER.",
+  "NurseNiteText": "Good evening!\nYou're out late.\n\nWelcome to our\n#MON CENTER.",
+  "NursePokerusText": "Your #MON\nappear to be\n\ninfected by tiny\nlife forms.\n\nYour #MON are\nhealthy and seem\nto be fine.\n\nBut we can't tell\nyou anything more\n\nat a #MON\nCENTER.",
+  "NurseReturnPokemonText": "Thank you for\nwaiting.\n\nYour #MON are\nfully healed.",
+  "NurseTakePokemonText": "OK, may I see your\n#MON?",
+  "PokeComNurseDayText": "Hello!\n\nThis is the #-\nMON COMMUNICATION\n\nCENTER--or the\n#COM CENTER.",
+  "PokeComNurseMornText": "Good morning!\n\nThis is the #-\nMON COMMUNICATION\n\nCENTER--or the\n#COM CENTER.",
+  "PokeComNurseNiteText": "Good to see you\nworking so late.\n\nThis is the #-\nMON COMMUNICATION\n\nCENTER--or the\n#COM CENTER.",
+  "PokeComNursePokerusText": "Your #MON\nappear to be\n\ninfected by tiny\nlife forms.\n\nYour #MON are\nhealthy and seem\nto be fine.\n\nBut we can't tell\nyou anything more.",
+  "PokecenterSignText": "Heal Your #MON!\n#MON CENTER",
+  "Text_NPCTraded": "<PLAYER> traded\n@\n for\n@\n.@",
+  "_AreWeGeniusesText": "Are we geniuses or\nwhat? Want to see\nyour @\n?",
+  "_AskDeleteMoveText": "Oh, make it forget\n@\n?",
+  "_BackAlreadyText": "Huh? Back already?\nYour @\n\nneeds a little\nmore time with us.\n\nIf you want your\n#MON back, it\nwill cost \u00a5100.",
+  "_BenFernText1": "Today's @\n,",
+  "_BenFernText2A": "so let us jam to",
+  "_BenFernText2B": "so chill out to",
+  "_BenFernText3A": "#MON March!",
+  "_BenFernText3B": "#MON Lullaby!",
+  "_BenIntroText1": "BEN: #MON MUSIC",
+  "_BenIntroText2": "CHANNEL!",
+  "_BenIntroText3": "It's me, DJ BEN!",
+  "_BuenaOffTheAirText": "",
+  "_BuenaRadioMidnightText1": "BUENA: Oh my\u2026",
+  "_BuenaRadioMidnightText10": "\u2026",
+  "_BuenaRadioMidnightText2": "It's midnight! I",
+  "_BuenaRadioMidnightText3": "have to shut down!",
+  "_BuenaRadioMidnightText4": "Thanks for tuning",
+  "_BuenaRadioMidnightText5": "in to the end! But",
+  "_BuenaRadioMidnightText6": "don't stay up too",
+  "_BuenaRadioMidnightText7": "late! Presented to",
+  "_BuenaRadioMidnightText8": "you by DJ BUENA!",
+  "_BuenaRadioMidnightText9": "I'm outta here!",
+  "_BuenaRadioText1": "BUENA: BUENA here!",
+  "_BuenaRadioText2": "Today's password!",
+  "_BuenaRadioText3": "Let me think\u2026 It's",
+  "_BuenaRadioText4": "@\n!",
+  "_BuenaRadioText5": "Don't forget it!",
+  "_BuenaRadioText6": "I'm in GOLDENROD's",
+  "_BuenaRadioText7": "RADIO TOWER!",
+  "_CantAcceptEggText": "Sorry, but I can't\naccept an EGG.",
+  "_CantCarryItemText": "But <PLAYER> can't\ncarry any more\nitems.",
+  "_CardFlipChooseACardText": "Choose a card.",
+  "_CardFlipDarnText": "Darn\u2026",
+  "_CardFlipNotEnoughCoinsText": "Not enough coins\u2026",
+  "_CardFlipPlaceYourBetText": "Place your bet.",
+  "_CardFlipPlayAgainText": "Want to play\nagain?",
+  "_CardFlipPlayWithThreeCoinsText": "Play with three\ncoins?",
+  "_CardFlipShuffledText": "The cards have\nbeen shuffled.",
+  "_CardFlipYeahText": "Yeah!",
+  "_ComeAgainText": "Come again.",
+  "_ComeBackLaterText": "Come back for it\nlater.",
+  "_DayCareLadyIntroEggText": "I'm the DAY-CARE\nLADY. Do you know\nabout EGGS?\n\nMy husband and I\nwere raising some\n#MON, you see.\n\nWe were shocked to\nfind an EGG!\n\nHow incredible\ncould that be?\n\nShould I raise a\n#MON for you?",
+  "_DayCareLadyIntroText": "I'm the DAY-CARE\nLADY.\n\nShould I raise a\n#MON for you?",
+  "_DayCareManIntroEggText": "I'm the DAY-CARE\nMAN. Do you know\nabout EGGS?\n\nI was raising\n#MON with my\nwife, you see.\n\nWe were shocked to\nfind an EGG!\n\nHow incredible is\nthat?\n\nSo, want me to\nraise a #MON?",
+  "_DayCareManIntroText": "I'm the DAY-CARE\nMAN. Want me to\nraise a #MON?",
+  "_DeleterAskWhichMonText": "Which #MON?",
+  "_DeleterAskWhichMoveText": "Which move should\nit forget, then?",
+  "_DeleterEggText": "An EGG doesn't\nknow any moves!",
+  "_DeleterForgotMoveText": "Done! Your #MON\nforgot the move.",
+  "_DeleterIntroText": "Um\u2026 Oh, yes, I'm\nthe MOVE DELETER.\n\nI can make #MON\nforget moves.\n\nShall I make a\n#MON forget?",
+  "_DeleterNoComeAgainText": "No? Come visit me\nagain.",
+  "_FernIntroText1": "FERN: #MUSIC!",
+  "_FernIntroText2": "With DJ FERN!",
+  "_FoundAnEggText": "Ah, it's you!\n\nWe were raising\nyour #MON, and\n\nmy goodness, were\nwe surprised!\n\nYour #MON had\nan EGG!\n\nWe don't know how\nit got there, but\n\nyour #MON had\nit. You want it?",
+  "_FoundItemText": "<PLAYER> found\n@\n!",
+  "_GotBackMonText": "<PLAYER> got back\n@\n.",
+  "_HaveNoRoomText": "You have no room\nfor it.",
+  "_IllKeepItThanksText": "Well then, I'll\nkeep it. Thanks!",
+  "_IllRaiseYourMonText": "OK. I'll raise\nyour @\n.",
+  "_LC_DragText1": "\u2026Repeating myself",
+  "_LC_DragText2": "gets to be a drag\u2026",
+  "_LC_Text1": "REED: Yeehaw! How",
+  "_LC_Text10": "Match it and go to",
+  "_LC_Text11": "the RADIO TOWER!",
+  "_LC_Text2": "y'all doin' now?",
+  "_LC_Text3": "Whether you're up",
+  "_LC_Text4": "or way down low,",
+  "_LC_Text5": "don't you miss the",
+  "_LC_Text6": "LUCKY NUMBER SHOW!",
+  "_LC_Text7": "This week's Lucky",
+  "_LC_Text8": "Number is @\n!",
+  "_LC_Text9": "I'll repeat that!",
+  "_LastHealthyMonText": "If you give me\nthat, what will\nyou battle with?",
+  "_LinkAbnormalMonText": "Your friend's\n@\n appears\nto be abnormal!",
+  "_LinkAskTradeForText": "Trade @\nfor @\n?",
+  "_LinkTimeoutText": "Too much time has\nelapsed. Please\ntry again.",
+  "_LinkTradeCantBattleText": "If you trade that\n#MON, you won't\nbe able to battle.",
+  "_MartAskMoreText": "Can I do anything\nelse for you?",
+  "_MartBoughtText": "Got \u00a5@\n for\n@\n(S).",
+  "_MartCantBuyText": "Sorry, I can't buy\nthat from you.",
+  "_MartComeAgainText": "Please come again!",
+  "_MartFinalPriceText": " @\n(S)\nwill be \u00a5@\n.",
+  "_MartHowManyText": "How many?",
+  "_MartNoMoneyText": "You don't have\nenough money.",
+  "_MartPackFullText": "You can't carry\nany more items.",
+  "_MartSellHowManyText": "How many?",
+  "_MartSellPriceText": "I can pay you\n\u00a5@\n.\n\nIs that OK?",
+  "_MartThanksText": "Here you are.\nThank you!",
+  "_MartWelcomeText": "Welcome! How may I\nhelp you?",
+  "_MoveKnowsOneText": "That #MON knows\nonly one move.",
+  "_NPCTradeAfterText1": "Hi, how's my old\n@\n doing?",
+  "_NPCTradeAfterText2": "Hi! The @\nyou traded me is\ndoing great!",
+  "_NPCTradeAfterText3": "How is that\n@\n I\ntraded you doing?\n\nYour @\n's\nso cute!",
+  "_NPCTradeAfterText4": "Trading is so odd\u2026\n\nI still have a lot\nto learn about it.",
+  "_NPCTradeCableText": "OK, connect the\nGame Link Cable.",
+  "_NPCTradeCancelText1": "You don't want to\ntrade? Aww\u2026",
+  "_NPCTradeCancelText2": "You don't have\none either?\n\nGee, that's really\ndisappointing\u2026",
+  "_NPCTradeCancelText3": "You don't want to\ntrade? Oh, darn\u2026",
+  "_NPCTradeCompleteText1": "Yay! I got myself\n@\n!\nThanks!",
+  "_NPCTradeCompleteText2": "Great! Thank you!\n\nI finally got\n@\n.",
+  "_NPCTradeCompleteText3": "Wow! Thank you!\nI always wanted\n@\n!",
+  "_NPCTradeCompleteText4": "Uh? What happened?",
+  "_NPCTradeFanfareText": "",
+  "_NPCTradeIntroText1": "I collect #MON.\nDo you have\n@\n?\n\nWant to trade it\nfor my @\n?",
+  "_NPCTradeIntroText2": "Hi, I'm looking\nfor this #MON.\n\nIf you have\n@\n, would\n\nyou trade it for\nmy @\n?",
+  "_NPCTradeIntroText3": "'s cute,\nbut I don't have\n\nit. Do you have\n@\n?\n\nWant to trade it\nfor my @\n?",
+  "_NPCTradeWrongText1": "Huh? That's not\n@\n. \nWhat a letdown\u2026",
+  "_NPCTradeWrongText2": "You don't have\n@\n? That's\ntoo bad, then.",
+  "_NPCTradeWrongText3": "That's not\n@\n.\n\nPlease trade with\nme if you get one.",
+  "_NameRaterBetterNameText": "Hm\u2026 @\n\u2026\nThat's a fairly\ndecent name.\n\nBut, how about a\nslightly better\nnickname?\n\nWant me to give it\na better name?",
+  "_NameRaterComeAgainText": "OK, then. Come\nagain sometime.",
+  "_NameRaterEggText": "Whoa\u2026 That's just\nan EGG.",
+  "_NameRaterFinishedText": "That's a better\nname than before!\n\nWell done!",
+  "_NameRaterHelloText": "Hello, hello! I'm\nthe NAME RATER.\n\nI rate the names\nof #MON.\n\nWould you like me\nto rate names?",
+  "_NameRaterNamedText": "All right. This\n#MON is now\nnamed @\n.",
+  "_NameRaterPerfectNameText": "Hm\u2026 @\n?\nWhat a great name!\nIt's perfect.\n\nTreat @\nwith loving care.",
+  "_NameRaterSameNameText": "It might look the\nsame as before,\n\nbut this new name\nis much better!\n\nWell done!",
+  "_NameRaterWhatNameText": "All right. What\nname should we\ngive it, then?",
+  "_NameRaterWhichMonText": "Which #MON's\nnickname should I\nrate for you?",
+  "_NoRoomForEggText": "You have no room\nin your party.\nCome back later.",
+  "_NotEnoughMoneyText": "You don't have\nenough money.",
+  "_NotYetText": "Not yet\u2026",
+  "_OPT_AddictivelyText": "sure addictively",
+  "_OPT_AlmostPoisonouslyText": "almost poisonously",
+  "_OPT_AptlyNamedText": "aptly named and",
+  "_OPT_BoldSortOfText": "bold, sort of.",
+  "_OPT_CuteText": "cute.",
+  "_OPT_EvolutionMustBeText": "evolution must be",
+  "_OPT_ExcitingText": "exciting.",
+  "_OPT_FlippedOutText": "so flipped out and",
+  "_OPT_FriendlyText": "friendly.",
+  "_OPT_FrighteningText": "frightening.",
+  "_OPT_GroovyText": "groovy!",
+  "_OPT_GuardedText": "guarded.",
+  "_OPT_HeartMeltinglyText": "heart-meltingly",
+  "_OPT_HotHotHotText": "hot, hot, hot!",
+  "_OPT_InspiringText": "inspiring.",
+  "_OPT_IntroText1": "MARY: PROF.OAK'S",
+  "_OPT_IntroText2": "#MON TALK!",
+  "_OPT_IntroText3": "With me, MARY!",
+  "_OPT_LooksInWaterText": "looks in water is",
+  "_OPT_LovelyText": "lovely.",
+  "_OPT_MaryText1": "MARY: @\n's",
+  "_OPT_MischievouslyText": "so mischievously",
+  "_OPT_OakText1": "OAK: @",
+  "_OPT_OakText2": "may be seen around",
+  "_OPT_OakText3": "@\n.",
+  "_OPT_PleasantText": "pleasant.",
+  "_OPT_PokemonChannelText": "#MON",
+  "_OPT_PowerfulText": "powerful.",
+  "_OPT_ProvocativelyText": "provocatively",
+  "_OPT_SensuallyText": "ooh, so sensually",
+  "_OPT_SpeedyText": "speedy.",
+  "_OPT_StimulatingText": "stimulating.",
+  "_OPT_SuaveDebonairText": "suave & debonair!",
+  "_OPT_SweetAdorablyText": "sweet and adorably",
+  "_OPT_TopicallyText": "so very topically",
+  "_OPT_UnbearablyText": "so, so unbearably",
+  "_OPT_UndeniablyKindOfText": "undeniably kind of",
+  "_OPT_WeirdText": "weird.",
+  "_OPT_WigglySlicklyText": "wiggly and slickly",
+  "_OPT_WowImpressivelyText": "wow, impressively",
+  "_ObjectEventText": "Object event",
+  "_OhFineThenText": "Oh, fine then.",
+  "_OnlyOneMonText": "Oh? But you have\njust one #MON.",
+  "_PerfectHeresYourMonText": "Perfect! Here's\nyour #MON.",
+  "_PlayersPCAskWhatDoText": "What do you want\nto do?",
+  "_PlayersPCDepositItemsText": "Deposited @\n@\n(S).",
+  "_PlayersPCHowManyDepositText": "How many do you\nwant to deposit?",
+  "_PlayersPCHowManyWithdrawText": "How many do you\nwant to withdraw?",
+  "_PlayersPCNoItemsText": "No items here!",
+  "_PlayersPCNoRoomDepositText": "There's no room to\nstore items.",
+  "_PlayersPCNoRoomWithdrawText": "There's no room\nfor more items.",
+  "_PlayersPCTurnOnText": "<PLAYER> turned on\nthe PC.",
+  "_PlayersPCWithdrewItemsText": "Withdrew @\n@\n(S).",
+  "_PnP_BoldText": "is somewhat bold.",
+  "_PnP_CoolText": "is so cool, no?",
+  "_PnP_CuteText": "is cute.",
+  "_PnP_GreatText": "is actually great.",
+  "_PnP_HappyText": "is always happy.",
+  "_PnP_InspiringText": "is inspiring!",
+  "_PnP_LazyText": "is sort of lazy.",
+  "_PnP_MyTypeText": "is just my type.",
+  "_PnP_NoisyText": "is quite noisy.",
+  "_PnP_OddText": "is definitely odd!",
+  "_PnP_PickyText": "is too picky!",
+  "_PnP_PrecociousText": "is precocious.",
+  "_PnP_RightForMeText": "is right for me?",
+  "_PnP_SoSoText": "is just so-so.",
+  "_PnP_SortOfOKText": "is sort of OK.",
+  "_PnP_Text1": "PLACES AND PEOPLE!",
+  "_PnP_Text2": "Brought to you by",
+  "_PnP_Text3": "me, DJ LILY!",
+  "_PnP_Text4": "@\n @",
+  "_PnP_Text5": "@",
+  "_PnP_WeirdText": "is kind of weird.",
+  "_PokecenterBillsPCText": "BILL's PC\naccessed.\n\n#MON Storage\nSystem opened.",
+  "_PokecenterOaksPCText": "PROF.OAK's PC\naccessed.\n\n#DEX Rating\nSystem opened.",
+  "_PokecenterPCCantUseText": "Bzzzzt! You must\nhave a #MON to\nuse this!",
+  "_PokecenterPCOaksClosedText": "\u2026\nLink closed\u2026",
+  "_PokecenterPCTurnOnText": "<PLAYER> turned on\nthe PC.",
+  "_PokecenterPCWhoseText": "Access whose PC?",
+  "_PokecenterPlayersPCText": "Accessed own PC.\n\nItem Storage\nSystem opened.",
+  "_PokedexShowText": "@",
+  "_PokemartAnythingElseText": "Is there anything\nelse I can do?",
+  "_PokemartBoughtItemText": "Here you are!\nThank you!",
+  "_PokemartBuyingGreetingText": "Take your time.",
+  "_PokemartGreetingText": "Hi there!",
+  "_PokemartItemBagEmptyText": "You don't have\nanything to sell.",
+  "_PokemartItemBagFullText": "You can't carry\nany more items.",
+  "_PokemartNotEnoughMoneyText": "You don't have\nenough money.",
+  "_PokemartTellBuyPriceText": "?\nThat will be\n\u00a5@\n. OK?",
+  "_PokemartTellSellPriceText": "I can pay you\n\u00a5@\n for that.",
+  "_PokemartThankYouText": "Thank you!",
+  "_PokemartUnsellableItemText": "I can't put a\nprice on that.",
+  "_PokemonCenterFarewellText": "We hope to see\nyou again!",
+  "_PokemonCenterWelcomeText": "Welcome to our\nPOK\u00e9MON CENTER!\n\nWe heal your\nPOK\u00e9MON back to\nperfect health!",
+  "_ReceivedEggText": "<PLAYER> received\nthe EGG!",
+  "_RemoveMailText": "Remove MAIL before\nyou come see me.",
+  "_RocketRadioText1": "\u2026 \u2026Ahem, we are",
+  "_RocketRadioText10": "@\nIs he listening?",
+  "_RocketRadioText2": "TEAM ROCKET!",
+  "_RocketRadioText3": "After three years",
+  "_RocketRadioText4": "of preparation, we",
+  "_RocketRadioText5": "have risen again",
+  "_RocketRadioText6": "from the ashes!",
+  "_RocketRadioText7": "GIOVANNI! @\nCan you",
+  "_RocketRadioText8": "hear?@\n We did it!",
+  "_RocketRadioText9": "@\nWhere is our boss?",
+  "_SeerCantTellAThingText": "Whaaaat? I can't\ntell a thing!\n\nHow could I not\nknow of this?",
+  "_SeerDoNothingText": "Fufufu! I saw that\nyou'd do nothing!",
+  "_SeerEggText": "Hey!\n\nThat's an EGG!\n\nYou can't say that\nyou've met it yet\u2026",
+  "_SeerImpressedText": "Incidentally\u2026\n\nI'm impressed by\nyour dedication.\n\nIt's been a long\ntime since I've\n\nseen a #MON as\nmighty as this\n@\n.\n\nI'm sure that\nseeing @\n\nin battle would\nexcite anyone.",
+  "_SeerMightyText": "Incidentally\u2026\n\nIt certainly has\ngrown mighty!\n\nThis @\nmust have come\n\nthrough numerous\n#MON battles.\n\nIt looks brimming\nwith confidence.",
+  "_SeerMoreCareText": "Incidentally\u2026\n\nIt would be wise\nto raise your\n\n#MON with a\nlittle more care.",
+  "_SeerMoreConfidentText": "Incidentally\u2026\n\nIt seems to have\ngrown a little.\n\n@\n seems\nto be becoming\nmore confident.",
+  "_SeerMuchStrengthText": "Incidentally\u2026\n\n@\n has\ngrown. It's gained\nmuch strength.",
+  "_SeerNameLocationText": "Hm\u2026 I see you met\n@\n here:\n@\n!",
+  "_SeerNoLocationText": "What!? Incredible!\n\nI don't understand\nhow, but it is\n\nincredible!\nYou are special.\n\nI can't tell where\nyou met it, but it\nwas at level @\n.\n\nAm I good or what?",
+  "_SeerSeeAllText": "I see all.\nI know all\u2026\n\nCertainly, I know\nof your #MON!",
+  "_SeerTimeLevelText": "The time was\n@\n!\n\nIts level was @\n!\n\nAm I good or what?",
+  "_SeerTradeText": "Hm\u2026 @\ncame from @\nin a trade?\n\n@\nwas where @\nmet @\n!",
+  "_SlotsBetHowManyCoinsText": "Bet how many\ncoins?",
+  "_SlotsDarnText": "Darn!",
+  "_SlotsLinedUpText": "lined up!\nWon @\n coins!",
+  "_SlotsNotEnoughCoinsText": "Not enough\ncoins.",
+  "_SlotsPlayAgainText": "Play again?",
+  "_SlotsRanOutOfCoinsText": "Darn\u2026 Ran out of\ncoins\u2026",
+  "_SlotsStartText": "Start!",
+  "_TakeGoodCareOfEggText": "Take good care of\nit.",
+  "_WhatShouldIRaiseText": "What should I\nraise for you?",
+  "_YourMonHasGrownText": "Your @\nhas grown a lot.\n\nBy level, it's\ngrown by @\n.\n\nIf you want your\n#MON back, it\nwill cost \u00a5@\n."
+ },
+ "kinds": {
+  "crystal_mart": {
+   "engine_source": "engine/items/pokemart.asm (pokemart engine; texts in data/text/common_3.asm)",
+   "kind": "crystal_mart",
+   "labels": [
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 481,
+     "label": "_MartHowManyText",
+     "sha256": "78160b71e5567ce945c39bd083070418a97a7b873f9b256fbe7f66fab434aaad",
+     "start_line": 478,
+     "text": "How many?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_decimal wItemQuantityChange, 1, 2",
+      "text_ram wStringBuffer2",
+      "text_decimal hMoneyTemp, 3, 6"
+     ],
+     "end_line": 491,
+     "label": "_MartFinalPriceText",
+     "sha256": "6edb3bbeb9994cec7c33d4db3d0d85ea4184cd8203721594fac0bf53165d28d5",
+     "start_line": 482,
+     "text": " @\n(S)\nwill be \u00a5@\n."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 631,
+     "label": "_MartSellHowManyText",
+     "sha256": "4f0527cb7ca27052907b0c3c1ae44bfcba70cee74c920d041ae61417ca29f82f",
+     "start_line": 628,
+     "text": "How many?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_decimal hMoneyTemp, 3, 6"
+     ],
+     "end_line": 640,
+     "label": "_MartSellPriceText",
+     "sha256": "587fb246fa70643a5f7a60bc19706939f5ad8c7bff7c97e614ef2d28c9a2d994",
+     "start_line": 632,
+     "text": "I can pay you\n\u00a5@\n.\n\nIs that OK?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 645,
+     "label": "_MartWelcomeText",
+     "sha256": "2cdfd2d054b1714197faa1aa61a43d3d13b1b07af0eed6a361c45f80112e7edf",
+     "start_line": 641,
+     "text": "Welcome! How may I\nhelp you?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 650,
+     "label": "_MartThanksText",
+     "sha256": "7015df778de31ecdc7954b7aa626f6deff1ae39211378924c64cabdf4151648e",
+     "start_line": 646,
+     "text": "Here you are.\nThank you!"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 655,
+     "label": "_MartNoMoneyText",
+     "sha256": "e127d04d29720f9c570aad5927cdb83ace3a4065a1f09f21427a6fc5d48b235f",
+     "start_line": 651,
+     "text": "You don't have\nenough money."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 660,
+     "label": "_MartPackFullText",
+     "sha256": "7cc9dffa7b6ef47702721e6dafedb6a24f8de31586ad1fde94642f42af93b0b0",
+     "start_line": 656,
+     "text": "You can't carry\nany more items."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 665,
+     "label": "_MartCantBuyText",
+     "sha256": "8369bd0be6dc83bbea323e674a38b5b891591681a5d842550ac6fcfe0c9ec943",
+     "start_line": 661,
+     "text": "Sorry, I can't buy\nthat from you."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 669,
+     "label": "_MartComeAgainText",
+     "sha256": "4785e8d32cff2720f6b64f1e86ff25bccef8cfda8d70f21b6b5fea1a974f5abf",
+     "start_line": 666,
+     "text": "Please come again!"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 674,
+     "label": "_MartAskMoreText",
+     "sha256": "c3a0e0a292edaa07b379eed10d5416bd74c86066ab4503cef01776a47f2ae518",
+     "start_line": 670,
+     "text": "Can I do anything\nelse for you?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_decimal hMoneyTemp, 3, 6",
+      "text_ram wStringBuffer2"
+     ],
+     "end_line": 683,
+     "label": "_MartBoughtText",
+     "sha256": "219f6d6833015c56bb74613b623e7efcf5fc685c8b6570c7364ba4df73dc7df7",
+     "start_line": 675,
+     "text": "Got \u00a5@\n for\n@\n(S)."
+    }
+   ],
+   "note": "Clerk speech is printed by the shared pokemart engine; the map script only names the mart inventory.",
+   "placements": [
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "AzaleaMart",
+     "ref": "AzaleaMartClerkScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "BlackthornMart",
+     "ref": "BlackthornMartClerkScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "CherrygroveMart",
+     "ref": "CherrygroveMartClerkScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "EcruteakMart",
+     "ref": "EcruteakMartClerkScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "GoldenrodDeptStore2F",
+     "ref": "GoldenrodDeptStore2FClerk1Script"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "GoldenrodDeptStore2F",
+     "ref": "GoldenrodDeptStore2FClerk2Script"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "GoldenrodDeptStore3F",
+     "ref": "GoldenrodDeptStore3FClerkScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "GoldenrodDeptStore4F",
+     "ref": "GoldenrodDeptStore4FClerkScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "GoldenrodDeptStore5F",
+     "ref": "GoldenrodDeptStore5FClerkScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "GoldenrodDeptStoreRoof",
+     "ref": "GoldenrodDeptStoreRoofClerkScript"
+    },
+    {
+     "index": 4,
+     "kind": "object",
+     "map": "MahoganyMart1F",
+     "ref": "MahoganyMart1FGrannyScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "OlivineMart",
+     "ref": "OlivineMartClerkScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "VioletMart",
+     "ref": "VioletMartClerkScript"
+    }
+   ],
+   "region": "johto",
+   "script_pattern": "map script block contains `pokemart MARTTYPE_*, MART_*` and no writetext of its own"
+  },
+  "crystal_nurse": {
+   "engine_source": "engine/events/std_scripts.asm PokecenterNurseScript (farwritetext targets in data/text/std_text.asm)",
+   "kind": "crystal_nurse",
+   "labels": [
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 6,
+     "label": "NurseMornText",
+     "sha256": "03c3768a734c56a3c5d14459aca74d48b8a7a84ea1bfa9e1f007251b604edc68",
+     "start_line": 1,
+     "text": "Good morning!\nWelcome to our\n#MON CENTER."
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 12,
+     "label": "NurseDayText",
+     "sha256": "dbc015a2c626b8b0868f05b2dfdec571dfc81e2e179a79ee35dc68973e3ca229",
+     "start_line": 7,
+     "text": "Hello!\nWelcome to our\n#MON CENTER."
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 20,
+     "label": "NurseNiteText",
+     "sha256": "121b9402d12f098e52e04601bed78a0218854bb683ad56c6060fa52ee9171673",
+     "start_line": 13,
+     "text": "Good evening!\nYou're out late.\n\nWelcome to our\n#MON CENTER."
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 30,
+     "label": "PokeComNurseMornText",
+     "sha256": "7167f9bf1cada4f5d9720ede7b738ca39d3444b61042d9d7b79b49747d77f74a",
+     "start_line": 21,
+     "text": "Good morning!\n\nThis is the #-\nMON COMMUNICATION\n\nCENTER--or the\n#COM CENTER."
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 40,
+     "label": "PokeComNurseDayText",
+     "sha256": "f89c1a1819fe62e64279bb6792afca912582473b18106cedcd9c4c457cdbb0a3",
+     "start_line": 31,
+     "text": "Hello!\n\nThis is the #-\nMON COMMUNICATION\n\nCENTER--or the\n#COM CENTER."
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 51,
+     "label": "PokeComNurseNiteText",
+     "sha256": "fcef1f54c7179cf5abde34bfb88a1a50d676b2863c606c135bce73fa59d2b794",
+     "start_line": 41,
+     "text": "Good to see you\nworking so late.\n\nThis is the #-\nMON COMMUNICATION\n\nCENTER--or the\n#COM CENTER."
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 60,
+     "label": "NurseAskHealText",
+     "sha256": "fc1fcd6902d970cb1ae06956ce1ba4964d18a65a0a9805b1c30ec773f808b33e",
+     "start_line": 52,
+     "text": "We can heal your\n#MON to perfect\nhealth.\n\nShall we heal your\n#MON?"
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 65,
+     "label": "NurseTakePokemonText",
+     "sha256": "83d60e15be5b5e821521d45a28d660673140f2f71e162aa093fb27af41ee9b3e",
+     "start_line": 61,
+     "text": "OK, may I see your\n#MON?"
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 73,
+     "label": "NurseReturnPokemonText",
+     "sha256": "57fa0a5d8558ef51eaa8b4ae460b038089ad299b6768cbb36eebc4ad16912ff6",
+     "start_line": 66,
+     "text": "Thank you for\nwaiting.\n\nYour #MON are\nfully healed."
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 83,
+     "label": "NurseGoodbyeText",
+     "sha256": "9c69048532bef7ae24bb58701de2d690516b8270a8446bc81cbc8efdcd5188d1",
+     "start_line": 74,
+     "text": "We hope to see you\nagain.\nWe hope to see you\nagain."
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 101,
+     "label": "NursePokerusText",
+     "sha256": "f243078e009652814c0eb58722822546935d6a15b1f5be597d0e5832f925b65e",
+     "start_line": 84,
+     "text": "Your #MON\nappear to be\n\ninfected by tiny\nlife forms.\n\nYour #MON are\nhealthy and seem\nto be fine.\n\nBut we can't tell\nyou anything more\n\nat a #MON\nCENTER."
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 116,
+     "label": "PokeComNursePokerusText",
+     "sha256": "1b8e49ec9c903c48a72d6fbc5d0f2134c9cb3404334726a6858625953ef01cce",
+     "start_line": 102,
+     "text": "Your #MON\nappear to be\n\ninfected by tiny\nlife forms.\n\nYour #MON are\nhealthy and seem\nto be fine.\n\nBut we can't tell\nyou anything more."
+    }
+   ],
+   "note": "One shared nurse script for every Pokecenter; greeting varies only by time of day / PokeCom Center, exactly as the source branches it.",
+   "placements": [
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "AzaleaPokecenter1F",
+     "ref": "AzaleaPokecenter1FNurseScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "BlackthornPokecenter1F",
+     "ref": "BlackthornPokecenter1FNurseScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "CherrygrovePokecenter1F",
+     "ref": "CherrygrovePokecenter1FNurseScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "CianwoodPokecenter1F",
+     "ref": "CianwoodPokecenter1FNurseScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "EcruteakPokecenter1F",
+     "ref": "EcruteakPokecenter1FNurseScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "GoldenrodPokecenter1F",
+     "ref": "GoldenrodPokecenter1FNurseScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "MahoganyPokecenter1F",
+     "ref": "MahoganyPokecenter1FNurseScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "OlivinePokecenter1F",
+     "ref": "OlivinePokecenter1FNurseScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "Route32Pokecenter1F",
+     "ref": "Route32Pokecenter1FNurseScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "SilverCavePokecenter1F",
+     "ref": "SilverCavePokecenter1FNurseScript"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "VioletPokecenter1F",
+     "ref": "VioletPokecenterNurse"
+    }
+   ],
+   "region": "johto",
+   "script_pattern": "map script is `jumpstd PokecenterNurseScript`"
+  },
+  "crystal_object_event": {
+   "engine_source": "home/map.asm ObjectEvent:: jumptextfaceplayer ObjectEventText -> text_far _ObjectEventText",
+   "kind": "crystal_object_event",
+   "labels": [
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 248,
+     "label": "_ObjectEventText",
+     "sha256": "e83f24999602592bd2583b9ed6e3b0f49e6de177269a563c3abb5a78107cf4f9",
+     "start_line": 245,
+     "text": "Object event"
+    }
+   ],
+   "note": "pokecrystal's own placeholder script for scene-driven actors; its only text is the source's debug string.",
+   "placements": [
+    {
+     "index": 9,
+     "kind": "object",
+     "map": "AzaleaTown",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "BattleTowerBattleRoom",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "BattleTowerBattleRoom",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 3,
+     "kind": "object",
+     "map": "BattleTowerOutside",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 2,
+     "kind": "object",
+     "map": "BurnedTower1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "BurnedTowerB1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 2,
+     "kind": "object",
+     "map": "BurnedTowerB1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 3,
+     "kind": "object",
+     "map": "BurnedTowerB1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 4,
+     "kind": "object",
+     "map": "BurnedTowerB1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 5,
+     "kind": "object",
+     "map": "BurnedTowerB1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 6,
+     "kind": "object",
+     "map": "BurnedTowerB1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "CherrygroveCity",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 10,
+     "kind": "object",
+     "map": "CianwoodCity",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 11,
+     "kind": "object",
+     "map": "CianwoodCity",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 3,
+     "kind": "object",
+     "map": "DragonShrine",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "DragonsDenB1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 6,
+     "kind": "object",
+     "map": "EcruteakGym",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 4,
+     "kind": "object",
+     "map": "EcruteakPokecenter1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "GoldenrodPokecenter1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 10,
+     "kind": "object",
+     "map": "GoldenrodUndergroundSwitchRoomEntrances",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 5,
+     "kind": "object",
+     "map": "IlexForest",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 2,
+     "kind": "object",
+     "map": "MahoganyMart1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 3,
+     "kind": "object",
+     "map": "MahoganyMart1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "MrPokemonsHouse",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 3,
+     "kind": "object",
+     "map": "OlivineCity",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "RadioTower5F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 5,
+     "kind": "object",
+     "map": "Route30",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 6,
+     "kind": "object",
+     "map": "Route30",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 8,
+     "kind": "object",
+     "map": "Route36",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 8,
+     "kind": "object",
+     "map": "Route42",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 6,
+     "kind": "object",
+     "map": "SproutTower3F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "TeamRocketBaseB1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "TeamRocketBaseB2F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "TeamRocketBaseB2F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 2,
+     "kind": "object",
+     "map": "TeamRocketBaseB2F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 3,
+     "kind": "object",
+     "map": "TeamRocketBaseB2F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 7,
+     "kind": "object",
+     "map": "TeamRocketBaseB2F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 8,
+     "kind": "object",
+     "map": "TeamRocketBaseB2F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 9,
+     "kind": "object",
+     "map": "TeamRocketBaseB2F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "TeamRocketBaseB3F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 8,
+     "kind": "object",
+     "map": "TeamRocketBaseB3F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "TinTower1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "TinTower1F",
+     "ref": "ObjectEvent"
+    },
+    {
+     "index": 2,
+     "kind": "object",
+     "map": "TinTower1F",
+     "ref": "ObjectEvent"
+    }
+   ],
+   "region": "johto",
+   "script_pattern": "object_event script field is literally `ObjectEvent` in the source map file"
+  },
+  "crystal_special_CardFlip": {
+   "engine_source": "engine/games/card_flip.asm",
+   "kind": "crystal_special_CardFlip",
+   "labels": [
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1029,
+     "label": "_CardFlipChooseACardText",
+     "sha256": "47049fb825259084d256ea1e306e943b765a80552984570ca23e636809b59c44",
+     "start_line": 1026,
+     "text": "Choose a card."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1051,
+     "label": "_CardFlipDarnText",
+     "sha256": "34239f93c03268c25cd517fb5b2aa17176821e34eac6886703f78f10478c5c19",
+     "start_line": 1048,
+     "text": "Darn\u2026"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1025,
+     "label": "_CardFlipNotEnoughCoinsText",
+     "sha256": "b46bbd173fec834850361e07563f911d8012cffd0484cb15abb038f23a65de36",
+     "start_line": 1022,
+     "text": "Not enough coins\u2026"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1033,
+     "label": "_CardFlipPlaceYourBetText",
+     "sha256": "822e464442f9a3fe34f387d321032df8b8b0a64b11fc70671c5cdcc243dbfbfc",
+     "start_line": 1030,
+     "text": "Place your bet."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1038,
+     "label": "_CardFlipPlayAgainText",
+     "sha256": "fa7bebbc457bebb890cf18388c451bbcf6d82ff91a3fbae9e0179abbdfca2487",
+     "start_line": 1034,
+     "text": "Want to play\nagain?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1021,
+     "label": "_CardFlipPlayWithThreeCoinsText",
+     "sha256": "825f70fd783a2990345837409ecd5f485ff899b3f45f1ecad0ef5993779f2d96",
+     "start_line": 1017,
+     "text": "Play with three\ncoins?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1043,
+     "label": "_CardFlipShuffledText",
+     "sha256": "f3d16656cc295c1c27d34a4b16d8562c31cce9e2d6dae31f7abc38bc4228554d",
+     "start_line": 1039,
+     "text": "The cards have\nbeen shuffled."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1047,
+     "label": "_CardFlipYeahText",
+     "sha256": "6d27d69f65c3e804ddd02e00403a1fcda91d9afc8d22f73d78be858156925193",
+     "start_line": 1044,
+     "text": "Yeah!"
+    }
+   ],
+   "note": "Shared engine texts referenced by the special's own engine code; extracted verbatim.",
+   "placements": [
+    {
+     "index": 18,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerCardFlipMachineScript"
+    },
+    {
+     "index": 19,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerCardFlipMachineScript"
+    },
+    {
+     "index": 20,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerCardFlipMachineScript"
+    },
+    {
+     "index": 21,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerCardFlipMachineScript"
+    },
+    {
+     "index": 22,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerCardFlipMachineScript"
+    },
+    {
+     "index": 23,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerCardFlipMachineScript"
+    },
+    {
+     "index": 24,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerCardFlipMachineScript"
+    },
+    {
+     "index": 25,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerCardFlipMachineScript"
+    },
+    {
+     "index": 26,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerCardFlipMachineScript"
+    },
+    {
+     "index": 27,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerCardFlipMachineScript"
+    },
+    {
+     "index": 28,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerCardFlipMachineScript"
+    },
+    {
+     "index": 29,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerCardFlipMachineScript"
+    }
+   ],
+   "region": "johto",
+   "routine_label": "CardFlip",
+   "script_pattern": "map script calls `special CardFlip`"
+  },
+  "crystal_special_DayCareManOutside": {
+   "engine_source": "maps/Route34.asm DayCareManScript_Outside + engine/events/daycare.asm DayCareManOutside + PrintDayCareText",
+   "kind": "crystal_special_DayCareManOutside",
+   "labels": [
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1823,
+     "label": "_NotYetText",
+     "sha256": "4e46949b26887c97fdb3622f54698ea98a317dce356985e035f92a556307ecf3",
+     "start_line": 1820,
+     "text": "Not yet\u2026"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1842,
+     "label": "_FoundAnEggText",
+     "sha256": "420e2d4e095ab80e88bd4b29ccae1c7710299c240b31374c1dfd09ca12625814",
+     "start_line": 1824,
+     "text": "Ah, it's you!\n\nWe were raising\nyour #MON, and\n\nmy goodness, were\nwe surprised!\n\nYour #MON had\nan EGG!\n\nWe don't know how\nit got there, but\n\nyour #MON had\nit. You want it?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1847,
+     "label": "_ReceivedEggText",
+     "sha256": "210db1d08b913e8252f28bc856c7e264b077e91b994492f6d4a15b434c6c5b42",
+     "start_line": 1843,
+     "text": "<PLAYER> received\nthe EGG!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1852,
+     "label": "_TakeGoodCareOfEggText",
+     "sha256": "54fa53d8d74c9ea51b18a769be008777e302b548728685c0195ed5f888c63a96",
+     "start_line": 1848,
+     "text": "Take good care of\nit."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1857,
+     "label": "_IllKeepItThanksText",
+     "sha256": "0e88b543d1907b67dc605650d9d952ce16ac96be240bb0a43c222b572c804031",
+     "start_line": 1853,
+     "text": "Well then, I'll\nkeep it. Thanks!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1863,
+     "label": "_NoRoomForEggText",
+     "sha256": "e2994ad8b8ca5dff62e014c02a57df8094937526edfa6bc5421c38c678760ae4",
+     "start_line": 1858,
+     "text": "You have no room\nin your party.\nCome back later."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1666,
+     "label": "_DayCareManIntroText",
+     "sha256": "c529717e694c2ad964a074b3f52772af6a5b8f206522c539b8b662204b68b5f7",
+     "start_line": 1661,
+     "text": "I'm the DAY-CARE\nMAN. Want me to\nraise a #MON?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1685,
+     "label": "_DayCareManIntroEggText",
+     "sha256": "f6868fe4cd105834505256f2c2ae09b7154a2055efd088177402351c6018e81b",
+     "start_line": 1667,
+     "text": "I'm the DAY-CARE\nMAN. Do you know\nabout EGGS?\n\nI was raising\n#MON with my\nwife, you see.\n\nWe were shocked to\nfind an EGG!\n\nHow incredible is\nthat?\n\nSo, want me to\nraise a #MON?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1693,
+     "label": "_DayCareLadyIntroText",
+     "sha256": "b4d0a9a8d262433322ab17aa2b4e16c3486987be738fbd35fd03baa391f227fd",
+     "start_line": 1686,
+     "text": "I'm the DAY-CARE\nLADY.\n\nShould I raise a\n#MON for you?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1712,
+     "label": "_DayCareLadyIntroEggText",
+     "sha256": "a455dcea1c9f5fc4c6652f28a22279074eb3a64e44b217876ccf1ed4a300a034",
+     "start_line": 1694,
+     "text": "I'm the DAY-CARE\nLADY. Do you know\nabout EGGS?\n\nMy husband and I\nwere raising some\n#MON, you see.\n\nWe were shocked to\nfind an EGG!\n\nHow incredible\ncould that be?\n\nShould I raise a\n#MON for you?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1717,
+     "label": "_WhatShouldIRaiseText",
+     "sha256": "60f6150b63bb171e6e06767138200af1d6d7b35904ad90e71edb5cd8e4e3b011",
+     "start_line": 1713,
+     "text": "What should I\nraise for you?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1722,
+     "label": "_OnlyOneMonText",
+     "sha256": "b1ae8243f1aecce17a79a64444bb7aaecf2c988d29fc0fd348ce1c10a68c9240",
+     "start_line": 1718,
+     "text": "Oh? But you have\njust one #MON."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1727,
+     "label": "_CantAcceptEggText",
+     "sha256": "896872269ea2966d37e6aa2b98e1b7b87838ff2ba7bacf85553a3b793f4b2259",
+     "start_line": 1723,
+     "text": "Sorry, but I can't\naccept an EGG."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1732,
+     "label": "_RemoveMailText",
+     "sha256": "6cfbf7b8fad824680aa66ba8b5229eb23e976f6478c0fc43c6092d1b2d6fda85",
+     "start_line": 1728,
+     "text": "Remove MAIL before\nyou come see me."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1738,
+     "label": "_LastHealthyMonText",
+     "sha256": "b3302913624142831882bdd222e41c6c6b486de0d2b184397633287f02644452",
+     "start_line": 1733,
+     "text": "If you give me\nthat, what will\nyou battle with?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1745,
+     "label": "_IllRaiseYourMonText",
+     "sha256": "1df97e094b0cb49ee7c63fe2f96fc6d70fefe611f8b493dfd95cf9bb1f22f5e3",
+     "start_line": 1739,
+     "text": "OK. I'll raise\nyour @\n."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1750,
+     "label": "_ComeBackLaterText",
+     "sha256": "28653e9a288f6803b0eee8ca3595cf54cb9346db49c7448d45bbb0f2f8431aed",
+     "start_line": 1746,
+     "text": "Come back for it\nlater."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1758,
+     "label": "_AreWeGeniusesText",
+     "sha256": "d28adeea89b97b4786966052400732fa9048e6d6426e8eb37b704f24c5a151fc",
+     "start_line": 1751,
+     "text": "Are we geniuses or\nwhat? Want to see\nyour @\n?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1",
+      "text_start",
+      "text_decimal wStringBuffer2 + 1, 1, 3",
+      "text_decimal wStringBuffer2 + 2, 3, 4"
+     ],
+     "end_line": 1776,
+     "label": "_YourMonHasGrownText",
+     "sha256": "c25bc8e3eb56bb61e9e91ef71322be80531051581752df2a5208f5e55f6ceba6",
+     "start_line": 1759,
+     "text": "Your @\nhas grown a lot.\n\nBy level, it's\ngrown by @\n.\n\nIf you want your\n#MON back, it\nwill cost \u00a5@\n."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1781,
+     "label": "_PerfectHeresYourMonText",
+     "sha256": "bad312cfcfa228646d7ecb9e8d03cd9a3638380053f9f2c8b6a8dc1bd40ad94d",
+     "start_line": 1777,
+     "text": "Perfect! Here's\nyour #MON."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1788,
+     "label": "_GotBackMonText",
+     "sha256": "853cdf9c0668f204d1d56a11d0ccf3034174f7050571bb8728bf5dca2ddf1fe0",
+     "start_line": 1782,
+     "text": "<PLAYER> got back\n@\n."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1",
+      "text_start"
+     ],
+     "end_line": 1801,
+     "label": "_BackAlreadyText",
+     "sha256": "89d67b5f81bc138c91852a5089986a4fdc25a45c6fad2114ff94c05a425e4ce3",
+     "start_line": 1789,
+     "text": "Huh? Back already?\nYour @\n\nneeds a little\nmore time with us.\n\nIf you want your\n#MON back, it\nwill cost \u00a5100."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1806,
+     "label": "_HaveNoRoomText",
+     "sha256": "66311b92d03fae93b0b501ec7ace061a9e8fa906cbfcca98326b7af8a560b307",
+     "start_line": 1802,
+     "text": "You have no room\nfor it."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1811,
+     "label": "_NotEnoughMoneyText",
+     "sha256": "8479c35edfd7a3117aac61f459fd8c38f4805f0c00a2cde6bf2f3add8b4c7055",
+     "start_line": 1807,
+     "text": "You don't have\nenough money."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1815,
+     "label": "_OhFineThenText",
+     "sha256": "20d9575f25f318528e67b83c57b94d6e36976d94c57566481935d8c65790a1ca",
+     "start_line": 1812,
+     "text": "Oh, fine then."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1819,
+     "label": "_ComeAgainText",
+     "sha256": "566a0b076e0eb8c87d0176b52fbcc3645a7de3407e4d5693149ae6aa49fddd9b",
+     "start_line": 1816,
+     "text": "Come again."
+    }
+   ],
+   "note": "Scoped to the placement's own script block and the special's engine routine (was: identical 27-label whole-file sweep shared by all three day-care kinds).",
+   "placements": [
+    {
+     "index": 6,
+     "kind": "object",
+     "map": "Route34",
+     "ref": "DayCareManScript_Outside"
+    }
+   ],
+   "region": "johto",
+   "script_pattern": "map script calls `special DayCareManOutside`"
+  },
+  "crystal_special_DayCareMon1": {
+   "engine_source": "maps/Route34.asm DayCareMon1Script + engine/pokemon/breeding.asm DayCareMon1 + engine/events/daycare.asm PrintDayCareText",
+   "kind": "crystal_special_DayCareMon1",
+   "labels": [
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1666,
+     "label": "_DayCareManIntroText",
+     "sha256": "c529717e694c2ad964a074b3f52772af6a5b8f206522c539b8b662204b68b5f7",
+     "start_line": 1661,
+     "text": "I'm the DAY-CARE\nMAN. Want me to\nraise a #MON?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1685,
+     "label": "_DayCareManIntroEggText",
+     "sha256": "f6868fe4cd105834505256f2c2ae09b7154a2055efd088177402351c6018e81b",
+     "start_line": 1667,
+     "text": "I'm the DAY-CARE\nMAN. Do you know\nabout EGGS?\n\nI was raising\n#MON with my\nwife, you see.\n\nWe were shocked to\nfind an EGG!\n\nHow incredible is\nthat?\n\nSo, want me to\nraise a #MON?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1693,
+     "label": "_DayCareLadyIntroText",
+     "sha256": "b4d0a9a8d262433322ab17aa2b4e16c3486987be738fbd35fd03baa391f227fd",
+     "start_line": 1686,
+     "text": "I'm the DAY-CARE\nLADY.\n\nShould I raise a\n#MON for you?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1712,
+     "label": "_DayCareLadyIntroEggText",
+     "sha256": "a455dcea1c9f5fc4c6652f28a22279074eb3a64e44b217876ccf1ed4a300a034",
+     "start_line": 1694,
+     "text": "I'm the DAY-CARE\nLADY. Do you know\nabout EGGS?\n\nMy husband and I\nwere raising some\n#MON, you see.\n\nWe were shocked to\nfind an EGG!\n\nHow incredible\ncould that be?\n\nShould I raise a\n#MON for you?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1717,
+     "label": "_WhatShouldIRaiseText",
+     "sha256": "60f6150b63bb171e6e06767138200af1d6d7b35904ad90e71edb5cd8e4e3b011",
+     "start_line": 1713,
+     "text": "What should I\nraise for you?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1722,
+     "label": "_OnlyOneMonText",
+     "sha256": "b1ae8243f1aecce17a79a64444bb7aaecf2c988d29fc0fd348ce1c10a68c9240",
+     "start_line": 1718,
+     "text": "Oh? But you have\njust one #MON."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1727,
+     "label": "_CantAcceptEggText",
+     "sha256": "896872269ea2966d37e6aa2b98e1b7b87838ff2ba7bacf85553a3b793f4b2259",
+     "start_line": 1723,
+     "text": "Sorry, but I can't\naccept an EGG."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1732,
+     "label": "_RemoveMailText",
+     "sha256": "6cfbf7b8fad824680aa66ba8b5229eb23e976f6478c0fc43c6092d1b2d6fda85",
+     "start_line": 1728,
+     "text": "Remove MAIL before\nyou come see me."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1738,
+     "label": "_LastHealthyMonText",
+     "sha256": "b3302913624142831882bdd222e41c6c6b486de0d2b184397633287f02644452",
+     "start_line": 1733,
+     "text": "If you give me\nthat, what will\nyou battle with?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1745,
+     "label": "_IllRaiseYourMonText",
+     "sha256": "1df97e094b0cb49ee7c63fe2f96fc6d70fefe611f8b493dfd95cf9bb1f22f5e3",
+     "start_line": 1739,
+     "text": "OK. I'll raise\nyour @\n."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1750,
+     "label": "_ComeBackLaterText",
+     "sha256": "28653e9a288f6803b0eee8ca3595cf54cb9346db49c7448d45bbb0f2f8431aed",
+     "start_line": 1746,
+     "text": "Come back for it\nlater."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1758,
+     "label": "_AreWeGeniusesText",
+     "sha256": "d28adeea89b97b4786966052400732fa9048e6d6426e8eb37b704f24c5a151fc",
+     "start_line": 1751,
+     "text": "Are we geniuses or\nwhat? Want to see\nyour @\n?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1",
+      "text_start",
+      "text_decimal wStringBuffer2 + 1, 1, 3",
+      "text_decimal wStringBuffer2 + 2, 3, 4"
+     ],
+     "end_line": 1776,
+     "label": "_YourMonHasGrownText",
+     "sha256": "c25bc8e3eb56bb61e9e91ef71322be80531051581752df2a5208f5e55f6ceba6",
+     "start_line": 1759,
+     "text": "Your @\nhas grown a lot.\n\nBy level, it's\ngrown by @\n.\n\nIf you want your\n#MON back, it\nwill cost \u00a5@\n."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1781,
+     "label": "_PerfectHeresYourMonText",
+     "sha256": "bad312cfcfa228646d7ecb9e8d03cd9a3638380053f9f2c8b6a8dc1bd40ad94d",
+     "start_line": 1777,
+     "text": "Perfect! Here's\nyour #MON."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1788,
+     "label": "_GotBackMonText",
+     "sha256": "853cdf9c0668f204d1d56a11d0ccf3034174f7050571bb8728bf5dca2ddf1fe0",
+     "start_line": 1782,
+     "text": "<PLAYER> got back\n@\n."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1",
+      "text_start"
+     ],
+     "end_line": 1801,
+     "label": "_BackAlreadyText",
+     "sha256": "89d67b5f81bc138c91852a5089986a4fdc25a45c6fad2114ff94c05a425e4ce3",
+     "start_line": 1789,
+     "text": "Huh? Back already?\nYour @\n\nneeds a little\nmore time with us.\n\nIf you want your\n#MON back, it\nwill cost \u00a5100."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1806,
+     "label": "_HaveNoRoomText",
+     "sha256": "66311b92d03fae93b0b501ec7ace061a9e8fa906cbfcca98326b7af8a560b307",
+     "start_line": 1802,
+     "text": "You have no room\nfor it."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1811,
+     "label": "_NotEnoughMoneyText",
+     "sha256": "8479c35edfd7a3117aac61f459fd8c38f4805f0c00a2cde6bf2f3add8b4c7055",
+     "start_line": 1807,
+     "text": "You don't have\nenough money."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1815,
+     "label": "_OhFineThenText",
+     "sha256": "20d9575f25f318528e67b83c57b94d6e36976d94c57566481935d8c65790a1ca",
+     "start_line": 1812,
+     "text": "Oh, fine then."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1819,
+     "label": "_ComeAgainText",
+     "sha256": "566a0b076e0eb8c87d0176b52fbcc3645a7de3407e4d5693149ae6aa49fddd9b",
+     "start_line": 1816,
+     "text": "Come again."
+    }
+   ],
+   "note": "Scoped to the placement's own script block, the special's routine block, and the shared day-care print block (was: identical 27-label whole-file sweep shared by all three day-care kinds).",
+   "placements": [
+    {
+     "index": 7,
+     "kind": "object",
+     "map": "Route34",
+     "ref": "DayCareMon1Script"
+    }
+   ],
+   "region": "johto",
+   "script_pattern": "map script calls `special DayCareMon1`"
+  },
+  "crystal_special_DayCareMon2": {
+   "engine_source": "maps/Route34.asm DayCareMon2Script + engine/pokemon/breeding.asm DayCareMon2 + engine/events/daycare.asm PrintDayCareText",
+   "kind": "crystal_special_DayCareMon2",
+   "labels": [
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1666,
+     "label": "_DayCareManIntroText",
+     "sha256": "c529717e694c2ad964a074b3f52772af6a5b8f206522c539b8b662204b68b5f7",
+     "start_line": 1661,
+     "text": "I'm the DAY-CARE\nMAN. Want me to\nraise a #MON?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1685,
+     "label": "_DayCareManIntroEggText",
+     "sha256": "f6868fe4cd105834505256f2c2ae09b7154a2055efd088177402351c6018e81b",
+     "start_line": 1667,
+     "text": "I'm the DAY-CARE\nMAN. Do you know\nabout EGGS?\n\nI was raising\n#MON with my\nwife, you see.\n\nWe were shocked to\nfind an EGG!\n\nHow incredible is\nthat?\n\nSo, want me to\nraise a #MON?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1693,
+     "label": "_DayCareLadyIntroText",
+     "sha256": "b4d0a9a8d262433322ab17aa2b4e16c3486987be738fbd35fd03baa391f227fd",
+     "start_line": 1686,
+     "text": "I'm the DAY-CARE\nLADY.\n\nShould I raise a\n#MON for you?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1712,
+     "label": "_DayCareLadyIntroEggText",
+     "sha256": "a455dcea1c9f5fc4c6652f28a22279074eb3a64e44b217876ccf1ed4a300a034",
+     "start_line": 1694,
+     "text": "I'm the DAY-CARE\nLADY. Do you know\nabout EGGS?\n\nMy husband and I\nwere raising some\n#MON, you see.\n\nWe were shocked to\nfind an EGG!\n\nHow incredible\ncould that be?\n\nShould I raise a\n#MON for you?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1717,
+     "label": "_WhatShouldIRaiseText",
+     "sha256": "60f6150b63bb171e6e06767138200af1d6d7b35904ad90e71edb5cd8e4e3b011",
+     "start_line": 1713,
+     "text": "What should I\nraise for you?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1722,
+     "label": "_OnlyOneMonText",
+     "sha256": "b1ae8243f1aecce17a79a64444bb7aaecf2c988d29fc0fd348ce1c10a68c9240",
+     "start_line": 1718,
+     "text": "Oh? But you have\njust one #MON."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1727,
+     "label": "_CantAcceptEggText",
+     "sha256": "896872269ea2966d37e6aa2b98e1b7b87838ff2ba7bacf85553a3b793f4b2259",
+     "start_line": 1723,
+     "text": "Sorry, but I can't\naccept an EGG."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1732,
+     "label": "_RemoveMailText",
+     "sha256": "6cfbf7b8fad824680aa66ba8b5229eb23e976f6478c0fc43c6092d1b2d6fda85",
+     "start_line": 1728,
+     "text": "Remove MAIL before\nyou come see me."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1738,
+     "label": "_LastHealthyMonText",
+     "sha256": "b3302913624142831882bdd222e41c6c6b486de0d2b184397633287f02644452",
+     "start_line": 1733,
+     "text": "If you give me\nthat, what will\nyou battle with?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1745,
+     "label": "_IllRaiseYourMonText",
+     "sha256": "1df97e094b0cb49ee7c63fe2f96fc6d70fefe611f8b493dfd95cf9bb1f22f5e3",
+     "start_line": 1739,
+     "text": "OK. I'll raise\nyour @\n."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1750,
+     "label": "_ComeBackLaterText",
+     "sha256": "28653e9a288f6803b0eee8ca3595cf54cb9346db49c7448d45bbb0f2f8431aed",
+     "start_line": 1746,
+     "text": "Come back for it\nlater."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1758,
+     "label": "_AreWeGeniusesText",
+     "sha256": "d28adeea89b97b4786966052400732fa9048e6d6426e8eb37b704f24c5a151fc",
+     "start_line": 1751,
+     "text": "Are we geniuses or\nwhat? Want to see\nyour @\n?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1",
+      "text_start",
+      "text_decimal wStringBuffer2 + 1, 1, 3",
+      "text_decimal wStringBuffer2 + 2, 3, 4"
+     ],
+     "end_line": 1776,
+     "label": "_YourMonHasGrownText",
+     "sha256": "c25bc8e3eb56bb61e9e91ef71322be80531051581752df2a5208f5e55f6ceba6",
+     "start_line": 1759,
+     "text": "Your @\nhas grown a lot.\n\nBy level, it's\ngrown by @\n.\n\nIf you want your\n#MON back, it\nwill cost \u00a5@\n."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1781,
+     "label": "_PerfectHeresYourMonText",
+     "sha256": "bad312cfcfa228646d7ecb9e8d03cd9a3638380053f9f2c8b6a8dc1bd40ad94d",
+     "start_line": 1777,
+     "text": "Perfect! Here's\nyour #MON."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1788,
+     "label": "_GotBackMonText",
+     "sha256": "853cdf9c0668f204d1d56a11d0ccf3034174f7050571bb8728bf5dca2ddf1fe0",
+     "start_line": 1782,
+     "text": "<PLAYER> got back\n@\n."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1",
+      "text_start"
+     ],
+     "end_line": 1801,
+     "label": "_BackAlreadyText",
+     "sha256": "89d67b5f81bc138c91852a5089986a4fdc25a45c6fad2114ff94c05a425e4ce3",
+     "start_line": 1789,
+     "text": "Huh? Back already?\nYour @\n\nneeds a little\nmore time with us.\n\nIf you want your\n#MON back, it\nwill cost \u00a5100."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1806,
+     "label": "_HaveNoRoomText",
+     "sha256": "66311b92d03fae93b0b501ec7ace061a9e8fa906cbfcca98326b7af8a560b307",
+     "start_line": 1802,
+     "text": "You have no room\nfor it."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1811,
+     "label": "_NotEnoughMoneyText",
+     "sha256": "8479c35edfd7a3117aac61f459fd8c38f4805f0c00a2cde6bf2f3add8b4c7055",
+     "start_line": 1807,
+     "text": "You don't have\nenough money."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1815,
+     "label": "_OhFineThenText",
+     "sha256": "20d9575f25f318528e67b83c57b94d6e36976d94c57566481935d8c65790a1ca",
+     "start_line": 1812,
+     "text": "Oh, fine then."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1819,
+     "label": "_ComeAgainText",
+     "sha256": "566a0b076e0eb8c87d0176b52fbcc3645a7de3407e4d5693149ae6aa49fddd9b",
+     "start_line": 1816,
+     "text": "Come again."
+    }
+   ],
+   "note": "Scoped to the placement's own script block, the special's routine block, and the shared day-care print block (was: identical 27-label whole-file sweep shared by all three day-care kinds).",
+   "placements": [
+    {
+     "index": 8,
+     "kind": "object",
+     "map": "Route34",
+     "ref": "DayCareMon2Script"
+    }
+   ],
+   "region": "johto",
+   "script_pattern": "map script calls `special DayCareMon2`"
+  },
+  "crystal_special_DisplayLinkRecord": {
+   "engine_source": "engine/link/link.asm; engine/events/misc_scripts.asm",
+   "kind": "crystal_special_DisplayLinkRecord",
+   "labels": [
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 540,
+     "label": "_CantCarryItemText",
+     "sha256": "8718ec7cfd74899f33a9e8a3c59f6b88e6194846bc8e9baba2e5ef5e48e80d61",
+     "start_line": 535,
+     "text": "But <PLAYER> can't\ncarry any more\nitems."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer3"
+     ],
+     "end_line": 534,
+     "label": "_FoundItemText",
+     "sha256": "c6e7c2113df53fa33a17b57d47e15ecc3a6c2424a5d171171b388fe2844e717e",
+     "start_line": 528,
+     "text": "<PLAYER> found\n@\n!"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 72,
+     "label": "_LinkAbnormalMonText",
+     "sha256": "bd11cf47746eaa7372cef46f5d1e6909d0e8a481d65f0effa5a11baf049c9116",
+     "start_line": 65,
+     "text": "Your friend's\n@\n appears\nto be abnormal!"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wBufferTrademonNickname",
+      "text_start",
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 81,
+     "label": "_LinkAskTradeForText",
+     "sha256": "597f9ef643eea7d2d9f276f6fc96b03310571195acb8328c666761059b92ca2e",
+     "start_line": 73,
+     "text": "Trade @\nfor @\n?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 58,
+     "label": "_LinkTimeoutText",
+     "sha256": "d7deb83e8b6804ff7b4d1ef9f170e3980b63482a69eeb7d2a5425be0d0567121",
+     "start_line": 53,
+     "text": "Too much time has\nelapsed. Please\ntry again."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 64,
+     "label": "_LinkTradeCantBattleText",
+     "sha256": "c8f95e19aa5b65eb63399a0031ba92b731c6e16720f31a428ec78d6e357fdebb",
+     "start_line": 59,
+     "text": "If you trade that\n#MON, you won't\nbe able to battle."
+    }
+   ],
+   "note": "Shared engine texts referenced by the special's own engine code; extracted verbatim.",
+   "placements": [
+    {
+     "index": 0,
+     "kind": "sign",
+     "map": "Pokecenter2F",
+     "ref": "Pokecenter2FLinkRecordSign"
+    }
+   ],
+   "region": "johto",
+   "routine_label": "DisplayLinkRecord",
+   "script_pattern": "map script calls `special DisplayLinkRecord`"
+  },
+  "crystal_special_GetFirstPokemonHappiness": {
+   "engine_source": "engine/events/std_scripts.asm HappinessCheckScript (the std script both NPC scripts jumpstd to) + engine/events/happiness_egg.asm GetFirstPokemonHappiness (value-only routine, no text)",
+   "kind": "crystal_special_GetFirstPokemonHappiness",
+   "labels": [
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 359,
+     "label": "HappinessText3",
+     "sha256": "19e94d4c2fcc578a7a1dc4f2ce5f54c4aa02c2531714b5e50dfc3f47faddb4cf",
+     "start_line": 354,
+     "text": "Wow! You and your\n#MON are really\nclose!"
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 367,
+     "label": "HappinessText2",
+     "sha256": "0505c4bce9a24c1c4531fcdcbcbbc71349d32cb42532dbd14462d977f2da83f4",
+     "start_line": 360,
+     "text": "#MON get more\nfriendly if you\n\nspend time with\nthem."
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 375,
+     "label": "HappinessText1",
+     "sha256": "d618ddcb00347b1c1c802ac2ecbf4c6518a0414d4a32918ffc3948d8cba28eb7",
+     "start_line": 368,
+     "text": "You haven't tamed\nyour #MON.\n\nIf you aren't\nnice, it'll pout."
+    }
+   ],
+   "note": "Both placements are `jumpstd HappinessCheckScript`; the special only supplies the happiness value the std script branches on. Banked: the std block's own text refs.",
+   "placements": [
+    {
+     "index": 3,
+     "kind": "object",
+     "map": "BlackthornPokecenter1F",
+     "ref": "BlackthornPokecenter1FCooltrainerMScript"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "OlivinePokecenter1F",
+     "ref": "OlivinePokecenter1FFishingGuruScript"
+    }
+   ],
+   "region": "johto",
+   "script_pattern": "map script calls `special GetFirstPokemonHappiness`"
+  },
+  "crystal_special_MapRadio": {
+   "empty_text_labels": [
+    "_BuenaOffTheAirText"
+   ],
+   "engine_source": "engine/pokegear/radio.asm (radio program texts)",
+   "kind": "crystal_special_MapRadio",
+   "labels": [
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 751,
+     "label": "_BenFernText1",
+     "sha256": "83a6eacc6dda0f1086f96bcc59477cd56883c2993101dab69935b2295d17afb3",
+     "start_line": 745,
+     "text": "Today's @\n,"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 756,
+     "label": "_BenFernText2A",
+     "sha256": "3e21e82f8b7dc91c6841771a905ba12a0f554026485faf2c166c6d983ab512ef",
+     "start_line": 752,
+     "text": "so let us jam to"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 761,
+     "label": "_BenFernText2B",
+     "sha256": "1ced0d566950108c30ea428a87d25d58e382bce4206221d033cfe0efacc6f97a",
+     "start_line": 757,
+     "text": "so chill out to"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 766,
+     "label": "_BenFernText3A",
+     "sha256": "ad6f67b043846d4b0ab5047bbe8dd719f4bb64c0dfbd8b830a1f9ca47799ca2b",
+     "start_line": 762,
+     "text": "#MON March!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 773,
+     "label": "_BenFernText3B",
+     "sha256": "628579694c5536ae79efaab54b8b03fffea04d8757090aca8c04864cb2b12dbe",
+     "start_line": 767,
+     "text": "#MON Lullaby!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 724,
+     "label": "_BenIntroText1",
+     "sha256": "86d78037906bd0761baf7745e033e7b0e6b33d74620f91c22d6221c975ebf382",
+     "start_line": 720,
+     "text": "BEN: #MON MUSIC"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 729,
+     "label": "_BenIntroText2",
+     "sha256": "3b5f230bf456d89369a38c164474fcf6abf2929c4d5a0c9fc94e17cffd9ad266",
+     "start_line": 725,
+     "text": "CHANNEL!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 734,
+     "label": "_BenIntroText3",
+     "sha256": "7f6af36b23da98a686ec741560dae637ebe5a02b23bb588fb23cc074f3935ec4",
+     "start_line": 730,
+     "text": "It's me, DJ BEN!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1104,
+     "label": "_BuenaOffTheAirText",
+     "sha256": "4f16b5dfd7e7e254be0aa0ba98f22a44ccc814ea37c28a445fdc11f9c600e717",
+     "start_line": 1100,
+     "text": ""
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1056,
+     "label": "_BuenaRadioMidnightText1",
+     "sha256": "f7f6b5f3ee925a8cbdabd92c9de928c89788478826bf4f8a905ae8b77afc2b2b",
+     "start_line": 1052,
+     "text": "BUENA: Oh my\u2026"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1099,
+     "label": "_BuenaRadioMidnightText10",
+     "sha256": "68ec699fbc45ff22eb1cc86a1182b61e58bb5c3d1e7ac5f6540f2b4b3bb399d5",
+     "start_line": 1096,
+     "text": "\u2026"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1061,
+     "label": "_BuenaRadioMidnightText2",
+     "sha256": "cdbee83ee217396a525002df72b28e00446a75c3ab8261c1099e319214e53b3f",
+     "start_line": 1057,
+     "text": "It's midnight! I"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1066,
+     "label": "_BuenaRadioMidnightText3",
+     "sha256": "a558c525b3bca184165c282687afe0899c07f3fcd6b2e01603b2a010a0ab6091",
+     "start_line": 1062,
+     "text": "have to shut down!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1071,
+     "label": "_BuenaRadioMidnightText4",
+     "sha256": "0ca3b3fed4a9164437ad5f393b0a5ad237846a39e956052343609a59660b7cef",
+     "start_line": 1067,
+     "text": "Thanks for tuning"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1076,
+     "label": "_BuenaRadioMidnightText5",
+     "sha256": "80be0ee41d3b4c8cf1ea4067058ff06d6b0d24a9f0f91a663e0e16becbb5f7ce",
+     "start_line": 1072,
+     "text": "in to the end! But"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1081,
+     "label": "_BuenaRadioMidnightText6",
+     "sha256": "283318f4e068cb487044a77f68e3b1c42d8dcf2c34c9884e87dac936b7cf0824",
+     "start_line": 1077,
+     "text": "don't stay up too"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1086,
+     "label": "_BuenaRadioMidnightText7",
+     "sha256": "0c78b8abdc88c744c6c67b809b0725e6eaff6ec81a9bc3442b301c34a9b766f5",
+     "start_line": 1082,
+     "text": "late! Presented to"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1091,
+     "label": "_BuenaRadioMidnightText8",
+     "sha256": "4951982c5e93966aac3463770d0dc09161dd0bec5f499d5e101399a6f9a49fcd",
+     "start_line": 1087,
+     "text": "you by DJ BUENA!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1095,
+     "label": "_BuenaRadioMidnightText9",
+     "sha256": "3af12d36dbd9187b9857bbd7ad2cfb9e0a3eb08ea03d0233af36b040adaea6d3",
+     "start_line": 1092,
+     "text": "I'm outta here!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1019,
+     "label": "_BuenaRadioText1",
+     "sha256": "c9f9a00c227f5ffbedddc151f1939270550b7f504ec5942061abe6918fd69d83",
+     "start_line": 1015,
+     "text": "BUENA: BUENA here!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1024,
+     "label": "_BuenaRadioText2",
+     "sha256": "79096914c2bb562051892a3cc38c65eed3e832a00b409c4f3737367391e485c5",
+     "start_line": 1020,
+     "text": "Today's password!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1029,
+     "label": "_BuenaRadioText3",
+     "sha256": "3fab62530a1bad23a16c9b4987a446d1541b6945a0f0dd5d22b37f785aaf48d0",
+     "start_line": 1025,
+     "text": "Let me think\u2026 It's"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start",
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1036,
+     "label": "_BuenaRadioText4",
+     "sha256": "59c8e8210c1e156be4cc8d60693d49995b18d4c404bc8a25fe42fc353207952e",
+     "start_line": 1030,
+     "text": "@\n!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1041,
+     "label": "_BuenaRadioText5",
+     "sha256": "e982a39c5c9d1c7fd6760802b78f2eb7deb2f6ac4e1809c088f387e9b1a2179f",
+     "start_line": 1037,
+     "text": "Don't forget it!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1046,
+     "label": "_BuenaRadioText6",
+     "sha256": "cf41e65f90b0414462ba2f0502c8a3b9fc3fc90b74b5c9226fcf5d4925cba2c8",
+     "start_line": 1042,
+     "text": "I'm in GOLDENROD's"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1051,
+     "label": "_BuenaRadioText7",
+     "sha256": "bd74d3db2a07c69a3361195825e4ff56b2709dce761fcd01120b5fd5237aa649",
+     "start_line": 1047,
+     "text": "RADIO TOWER!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 739,
+     "label": "_FernIntroText1",
+     "sha256": "164eda343ccf7f8846f58daefba55d926544489a1bd3ad41a24a9b6bb3d937a7",
+     "start_line": 735,
+     "text": "FERN: #MUSIC!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 744,
+     "label": "_FernIntroText2",
+     "sha256": "f2ca639a0632038d1eb7b468d3b9a8a99dac1c0c6d46a7116dd862226434fe3e",
+     "start_line": 740,
+     "text": "With DJ FERN!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 836,
+     "label": "_LC_DragText1",
+     "sha256": "ae10ff4d4675d98f0b0361d30f22e39293a32617e8958476df28b29a84756a90",
+     "start_line": 832,
+     "text": "\u2026Repeating myself"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 843,
+     "label": "_LC_DragText2",
+     "sha256": "be492c02447f0097dba748b4c752e15f704e9994054fb308ec245755f7d230eb",
+     "start_line": 837,
+     "text": "gets to be a drag\u2026"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 778,
+     "label": "_LC_Text1",
+     "sha256": "71df68a598cc420661c77b75de39850781a7218e7c5de950aff56338e4d17863",
+     "start_line": 774,
+     "text": "REED: Yeehaw! How"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 826,
+     "label": "_LC_Text10",
+     "sha256": "fff790e3dd0490b3b8863e1a1a2d046512d9c34a86cccae361b5159b51e10c96",
+     "start_line": 822,
+     "text": "Match it and go to"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 831,
+     "label": "_LC_Text11",
+     "sha256": "1e0793aaca692f558ccee9c0fc41e37d2213c885bd90400916a46d9b3c5d1a95",
+     "start_line": 827,
+     "text": "the RADIO TOWER!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 783,
+     "label": "_LC_Text2",
+     "sha256": "82856b03f8336aba606efab7260565dea01d03d5f9d116f2ee5b7615b9fcfc73",
+     "start_line": 779,
+     "text": "y'all doin' now?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 788,
+     "label": "_LC_Text3",
+     "sha256": "cecec8505a61325827d72654810a8b4aa263838b1788f2d91197e60467935713",
+     "start_line": 784,
+     "text": "Whether you're up"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 793,
+     "label": "_LC_Text4",
+     "sha256": "c164df98f2afbbafa1e21b1c2113f235451034d1d75b2c8e936ad6e55b4e966f",
+     "start_line": 789,
+     "text": "or way down low,"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 798,
+     "label": "_LC_Text5",
+     "sha256": "43d6d832281f1b49693d104ec7f329bb29ac87d66319c33d50a7466245dd3fa2",
+     "start_line": 794,
+     "text": "don't you miss the"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 803,
+     "label": "_LC_Text6",
+     "sha256": "2d8967cc65fa925ca691e1e3081031e81a295fb4c7945546c9829d9bc998d7da",
+     "start_line": 799,
+     "text": "LUCKY NUMBER SHOW!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 808,
+     "label": "_LC_Text7",
+     "sha256": "a51dd5aeaf37c1d248ebd4f24146b4d478894ef126a95af3520dde59b0735789",
+     "start_line": 804,
+     "text": "This week's Lucky"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start",
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 816,
+     "label": "_LC_Text8",
+     "sha256": "86518ab075c185275a2d28123375e68cd09d3d5e03ed7f4b698c0f4daf9ef0c5",
+     "start_line": 809,
+     "text": "Number is @\n!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 821,
+     "label": "_LC_Text9",
+     "sha256": "79c8f8c1af1f7e0cf596d2a82b187e3f2549baa9c2e969a418689dba1af7707b",
+     "start_line": 817,
+     "text": "I'll repeat that!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 600,
+     "label": "_OPT_AddictivelyText",
+     "sha256": "a18a45ac245bf4f2dc979de828a8474d5babe30f6f965adca798f913bee8de57",
+     "start_line": 596,
+     "text": "sure addictively"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 580,
+     "label": "_OPT_AlmostPoisonouslyText",
+     "sha256": "4e7388f2e477cee0ccb46822ac035e0fb3637f6d78951f9d51535378a068842b",
+     "start_line": 576,
+     "text": "almost poisonously"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 560,
+     "label": "_OPT_AptlyNamedText",
+     "sha256": "e9b02bc49f47e10db55e42a026f9c62f6fb9d72ab5a58c098e97e8fdaf187562",
+     "start_line": 556,
+     "text": "aptly named and"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 645,
+     "label": "_OPT_BoldSortOfText",
+     "sha256": "83240d52e1007a9d30d503e84dbbfee62577ae2dc6b081ee32f982f9c27da290",
+     "start_line": 641,
+     "text": "bold, sort of."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 630,
+     "label": "_OPT_CuteText",
+     "sha256": "8ce4a61c11b0ffb710a7065da1ac349f5c5a12a6c40944a2f732cf2758f9c27e",
+     "start_line": 626,
+     "text": "cute."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 610,
+     "label": "_OPT_EvolutionMustBeText",
+     "sha256": "ead8ada179dea780fc1e754c885a3fab6eb4d1187ee3d0cc36d85b0099ab8639",
+     "start_line": 606,
+     "text": "evolution must be"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 665,
+     "label": "_OPT_ExcitingText",
+     "sha256": "8bae6c3cd792631b45b51f992c613e7b0cf0abee28146ede916269ae44675877",
+     "start_line": 661,
+     "text": "exciting."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 620,
+     "label": "_OPT_FlippedOutText",
+     "sha256": "edb821da3d0f912ef125d5d801a6a9146cc2a922643923027207c58916065305",
+     "start_line": 616,
+     "text": "so flipped out and"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 680,
+     "label": "_OPT_FriendlyText",
+     "sha256": "a44743adb09dc351a228bb75e115608d2ae407abeab0c7763a0c2d710027862f",
+     "start_line": 676,
+     "text": "friendly."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 650,
+     "label": "_OPT_FrighteningText",
+     "sha256": "cdfb0ad1c395874371936c1bb7940a0cbedea15851f1b5280b25e4983cf6876b",
+     "start_line": 646,
+     "text": "frightening."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 670,
+     "label": "_OPT_GroovyText",
+     "sha256": "e820e739ae52cf5820b4152c52b7ed572c3cf8fb86aa2c95fa98eb2f4e1e03d4",
+     "start_line": 666,
+     "text": "groovy!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 695,
+     "label": "_OPT_GuardedText",
+     "sha256": "38edf3fcd0857294fe40f01d934c90458f8373bd68b1d919effe8174cbd7dce3",
+     "start_line": 691,
+     "text": "guarded."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 625,
+     "label": "_OPT_HeartMeltinglyText",
+     "sha256": "f6794b7cbbf0d3da668343b2c117ef9de05acbd237ea6c00d02e531c3df74853",
+     "start_line": 621,
+     "text": "heart-meltingly"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 685,
+     "label": "_OPT_HotHotHotText",
+     "sha256": "a710a71f7b7923a035c8687e5e08a5a53da1dc7cead28dece72a3c14d5dc6097",
+     "start_line": 681,
+     "text": "hot, hot, hot!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 675,
+     "label": "_OPT_InspiringText",
+     "sha256": "1b705e554cadfb916afe92d9295bafcebaa6892dce7c431fc50e4818c2a39ffe",
+     "start_line": 671,
+     "text": "inspiring."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 508,
+     "label": "_OPT_IntroText1",
+     "sha256": "5f3b7afb8fc2cb31f64f41695136ff5e18347b6084c7a96e0fa50baaef7008eb",
+     "start_line": 504,
+     "text": "MARY: PROF.OAK'S"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 513,
+     "label": "_OPT_IntroText2",
+     "sha256": "27ce6861f00b0c046304639160c58ede3bda9344b10738fd6ae523d3798aa0e7",
+     "start_line": 509,
+     "text": "#MON TALK!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 518,
+     "label": "_OPT_IntroText3",
+     "sha256": "ba8f2290c6e98ea41d285509748a42a982637ecabc85806bda046fdab312b604",
+     "start_line": 514,
+     "text": "With me, MARY!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 605,
+     "label": "_OPT_LooksInWaterText",
+     "sha256": "bfd057b510b38f9a13d05562a3499caa80c22ddf7ed377f8c0330eb183804abc",
+     "start_line": 601,
+     "text": "looks in water is"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 700,
+     "label": "_OPT_LovelyText",
+     "sha256": "39afc5a99d235036d24913c7352062d2cd6dba1dfa8e25b0a1bc8190eed6334e",
+     "start_line": 696,
+     "text": "lovely."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start",
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 545,
+     "label": "_OPT_MaryText1",
+     "sha256": "a2f9ac1cee3175121426a94a1347f63c0683e5dd6f792538ce627241c78f22f2",
+     "start_line": 539,
+     "text": "MARY: @\n's"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 590,
+     "label": "_OPT_MischievouslyText",
+     "sha256": "c0b7f5521894cb6b558043738d7412d67bb75293ba48c8ea85469ca60b2fba5e",
+     "start_line": 586,
+     "text": "so mischievously"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start",
+      "text_ram wMonOrItemNameBuffer",
+      "text_end",
+      "text_end"
+     ],
+     "end_line": 526,
+     "label": "_OPT_OakText1",
+     "sha256": "1344fd8ff2335fed7a86d0cde734de24de67464c0698199992a20933aef300d0",
+     "start_line": 519,
+     "text": "OAK: @"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 531,
+     "label": "_OPT_OakText2",
+     "sha256": "3786b763d3d84d64df89b9dd846ac7d24bd4f82fd9f7689dc99d50ae60718b78",
+     "start_line": 527,
+     "text": "may be seen around"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start",
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 538,
+     "label": "_OPT_OakText3",
+     "sha256": "e12b8096e51c244cef471d01a7c7ad7a2eae86d5c5d39fe219953741aa370853",
+     "start_line": 532,
+     "text": "@\n."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 640,
+     "label": "_OPT_PleasantText",
+     "sha256": "f872a3b84e2efba82b7e21a79390075055fe029c9d240748c307fa2716bca6fe",
+     "start_line": 636,
+     "text": "pleasant."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 709,
+     "label": "_OPT_PokemonChannelText",
+     "sha256": "12bcd85f2b3502f1448ac7f528e517858be3b6b80441a8c90d1de006f21a3b2e",
+     "start_line": 706,
+     "text": "#MON"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 660,
+     "label": "_OPT_PowerfulText",
+     "sha256": "45780d66f3f3abd5578253394f9a1dd73f627ac5dc2fe61f7bb327ac853a3a05",
+     "start_line": 656,
+     "text": "powerful."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 615,
+     "label": "_OPT_ProvocativelyText",
+     "sha256": "161153f5c9981dbb65ce3a2423e6be6708e5cdb73d9d7b0215e9e95eddf1e9f7",
+     "start_line": 611,
+     "text": "provocatively"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 585,
+     "label": "_OPT_SensuallyText",
+     "sha256": "2f85cc3f385c0bdb3e3ab72aea1d4fa1c7818ec3f0bd12f3901bd03d7874dcbe",
+     "start_line": 581,
+     "text": "ooh, so sensually"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 705,
+     "label": "_OPT_SpeedyText",
+     "sha256": "60466d4556f5c94595635614e6b44880d6efc3929295c21672006b85c547b8ef",
+     "start_line": 701,
+     "text": "speedy."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 690,
+     "label": "_OPT_StimulatingText",
+     "sha256": "bdd291b41192ad8c986ba129f96f1d689986415511c6c3e6bf1a049e72543e79",
+     "start_line": 686,
+     "text": "stimulating."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 655,
+     "label": "_OPT_SuaveDebonairText",
+     "sha256": "a528a1f470b57df2aef0624fe455b6fc108bf01fb8f723889420bfde637bc5e3",
+     "start_line": 651,
+     "text": "suave & debonair!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 550,
+     "label": "_OPT_SweetAdorablyText",
+     "sha256": "2b154f529797e22990f871e971da240d9ad0381b60595cb4cb05bf0eea6df1be",
+     "start_line": 546,
+     "text": "sweet and adorably"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 595,
+     "label": "_OPT_TopicallyText",
+     "sha256": "3780ae2f51d8fb81ad20d832cc71318824bdaf51b81bf275eadf6734bf6347d8",
+     "start_line": 591,
+     "text": "so very topically"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 570,
+     "label": "_OPT_UnbearablyText",
+     "sha256": "05dbad2d9c4112c8f6671ff4f1f0167ac79c85f0409135aafc458bfdc9bc0307",
+     "start_line": 566,
+     "text": "so, so unbearably"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 565,
+     "label": "_OPT_UndeniablyKindOfText",
+     "sha256": "3b3a9a3cbee5bb2857ba37090f7cdbe6f49a2b0db851a0346706bba95bcd0aaf",
+     "start_line": 561,
+     "text": "undeniably kind of"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 635,
+     "label": "_OPT_WeirdText",
+     "sha256": "3daa2fa0464998a42e4298419ab98c74e16b6e79c23e86b98cf2be765c2a9068",
+     "start_line": 631,
+     "text": "weird."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 555,
+     "label": "_OPT_WigglySlicklyText",
+     "sha256": "d5076aa4dd0b2c64ddbd3c4a662fdfbae7703b5a8de374b9ab07f780ed3efed2",
+     "start_line": 551,
+     "text": "wiggly and slickly"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 575,
+     "label": "_OPT_WowImpressivelyText",
+     "sha256": "bffade74441f6390f5978206740a2ee3ca98783357a6fdf1ba1f3d58921ec315",
+     "start_line": 571,
+     "text": "wow, impressively"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 898,
+     "label": "_PnP_BoldText",
+     "sha256": "2900e3b0695248c2dbfc8df356033d06d2847e34299e36d1b5288fe9a9ce1add",
+     "start_line": 894,
+     "text": "is somewhat bold."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 928,
+     "label": "_PnP_CoolText",
+     "sha256": "2318f4efd1901a7ff33084dd4b0899d5fa2f590f7f100b3ba878288877296102",
+     "start_line": 924,
+     "text": "is so cool, no?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 873,
+     "label": "_PnP_CuteText",
+     "sha256": "e8e5f5e07a81c8dcb0e0302c1ef5635c39f67f5440a763f2e8c36cb0e8056f8b",
+     "start_line": 869,
+     "text": "is cute."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 918,
+     "label": "_PnP_GreatText",
+     "sha256": "fc13f0c43cacd7fa1cc7506bf6d1986f861a0ce485c01bbf10ff8fb05bef567b",
+     "start_line": 914,
+     "text": "is actually great."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 883,
+     "label": "_PnP_HappyText",
+     "sha256": "c6003a24a30ed0799abcbbfc1a34876897659142854263e5d5336d71833949bf",
+     "start_line": 879,
+     "text": "is always happy."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 933,
+     "label": "_PnP_InspiringText",
+     "sha256": "d38fabddad5992bcc9372c779d76d4cc9726f72d6312022567d1d63a0d938b61",
+     "start_line": 929,
+     "text": "is inspiring!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 878,
+     "label": "_PnP_LazyText",
+     "sha256": "858835ceb3e35161171ba7e8237e7a08e2f43fa7cb93fc2b1b3b307edcc87285",
+     "start_line": 874,
+     "text": "is sort of lazy."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 923,
+     "label": "_PnP_MyTypeText",
+     "sha256": "e356dc0cd632c1a69f42b01d56949cc87ffa506de934cb2093c6740654c4cb42",
+     "start_line": 919,
+     "text": "is just my type."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 888,
+     "label": "_PnP_NoisyText",
+     "sha256": "611e28e8b53832225fff2d898ffe6a5bec4e4d09a7c02d0d6e7cdf3adb3ae76b",
+     "start_line": 884,
+     "text": "is quite noisy."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 948,
+     "label": "_PnP_OddText",
+     "sha256": "73b98ec40e706d7c2ad027a887df09dc04af2a638a0afa4a6a2b4aa7ffed218d",
+     "start_line": 944,
+     "text": "is definitely odd!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 903,
+     "label": "_PnP_PickyText",
+     "sha256": "8f30a861cab4cd8be49a81dea71ff55a099a3bb2dcbad64ac131a961c4c4799d",
+     "start_line": 899,
+     "text": "is too picky!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 893,
+     "label": "_PnP_PrecociousText",
+     "sha256": "c2b97103cf2d4d03392a85d676a3dd2344797cbf3b48696c23b7e722ff41d4d7",
+     "start_line": 889,
+     "text": "is precocious."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 943,
+     "label": "_PnP_RightForMeText",
+     "sha256": "9c0d5b14d045c50b95b2f62df0d01d027263025094d103c4f6de155400a5e492",
+     "start_line": 939,
+     "text": "is right for me?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 913,
+     "label": "_PnP_SoSoText",
+     "sha256": "62b954debc1017c34aba3b413c67c5351eb990c374156d457bf8d2a5e3792bc9",
+     "start_line": 909,
+     "text": "is just so-so."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 908,
+     "label": "_PnP_SortOfOKText",
+     "sha256": "4988022a2d6700c986ebb7d0eaaa5e0a0ad2d14df9d41e9fef6bbbec679beb01",
+     "start_line": 904,
+     "text": "is sort of OK."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 848,
+     "label": "_PnP_Text1",
+     "sha256": "d7b6cfecfe1ffeeb95e8ee6bccc79333b1de7501aa26accb59ea26c78976cb09",
+     "start_line": 844,
+     "text": "PLACES AND PEOPLE!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 853,
+     "label": "_PnP_Text2",
+     "sha256": "7db7f268d46b4a8cc00c116e48134b111cf0ccb0ff4d57f07aeb7d5cfe74d708",
+     "start_line": 849,
+     "text": "Brought to you by"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 858,
+     "label": "_PnP_Text3",
+     "sha256": "724e3506bdddd020f72f2d4e30152eefb0ecd68934975bc9bc7b444f0520b396",
+     "start_line": 854,
+     "text": "me, DJ LILY!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start",
+      "text_ram wStringBuffer2",
+      "text_ram wStringBuffer1",
+      "text_end",
+      "text_end"
+     ],
+     "end_line": 868,
+     "label": "_PnP_Text4",
+     "sha256": "e4a04e212238109e1e7bcba31aaec337631c454f42734ca01acb41d877efe723",
+     "start_line": 859,
+     "text": "@\n @"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start",
+      "text_ram wStringBuffer1",
+      "text_end",
+      "text_end"
+     ],
+     "end_line": 956,
+     "label": "_PnP_Text5",
+     "sha256": "637b8a5efca344e0aefa8e2e032740da894b58fd60adf587f103ae9472bc6441",
+     "start_line": 949,
+     "text": "@"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 938,
+     "label": "_PnP_WeirdText",
+     "sha256": "dbd66859b07abca37e72a9bb283f59acad1f91db863c789756906c699dc72733",
+     "start_line": 934,
+     "text": "is kind of weird."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start",
+      "text_ram wStringBuffer1",
+      "text_end",
+      "text_end"
+     ],
+     "end_line": 719,
+     "label": "_PokedexShowText",
+     "sha256": "e7ab137d72f71f6174c68d76ac72051aa442dbea73fb1f9c8e5510c0094a7130",
+     "start_line": 710,
+     "text": "@"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 961,
+     "label": "_RocketRadioText1",
+     "sha256": "1fe1d7c1e56ad919a45135e88fb38acc34df891c59be2980901b6a3f20a54510",
+     "start_line": 957,
+     "text": "\u2026 \u2026Ahem, we are"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1014,
+     "label": "_RocketRadioText10",
+     "sha256": "20834533a71c81af8ee9dd82f60dca561ed456aff799f4bab86fa9036c16f546",
+     "start_line": 1008,
+     "text": "@\nIs he listening?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 966,
+     "label": "_RocketRadioText2",
+     "sha256": "3801a522e41e52d505b93eee0b0a3f366171ae364ebae89a61d5bd6e7d3e6efe",
+     "start_line": 962,
+     "text": "TEAM ROCKET!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 971,
+     "label": "_RocketRadioText3",
+     "sha256": "dbc73a78a7fdff4e2b3d0f67a49147f8485d6ff8cebc055cc64b17dad77c458d",
+     "start_line": 967,
+     "text": "After three years"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 976,
+     "label": "_RocketRadioText4",
+     "sha256": "6d2acdec45dfb30dc02556b228ab5766dfab1a3d2d0f6e5614ab6f5a5a425c2c",
+     "start_line": 972,
+     "text": "of preparation, we"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 981,
+     "label": "_RocketRadioText5",
+     "sha256": "eb31d6856db9f548b90b9cb2463ad80798906514cdfd0b2ff015cfe0b80eba36",
+     "start_line": 977,
+     "text": "have risen again"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 986,
+     "label": "_RocketRadioText6",
+     "sha256": "9633aa3fec4e215447094490d08b98f8f0854569720e13cc51ce38ce963c90cf",
+     "start_line": 982,
+     "text": "from the ashes!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 993,
+     "label": "_RocketRadioText7",
+     "sha256": "c21801b8b8a70a2805c99b10c63b8a8c2f2cd6bc92ffe8be95f86baaaebd0558",
+     "start_line": 987,
+     "text": "GIOVANNI! @\nCan you"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1000,
+     "label": "_RocketRadioText8",
+     "sha256": "9b230e4cd8c97bfe270e0139100e800ec84ac793d6a0f2b945f4417356070841",
+     "start_line": 994,
+     "text": "hear?@\n We did it!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_start"
+     ],
+     "end_line": 1007,
+     "label": "_RocketRadioText9",
+     "sha256": "54380f1b4812bfc1896cab4d71a1c7a380d46fb6565a1f15a91a358e016bd08f",
+     "start_line": 1001,
+     "text": "@\nWhere is our boss?"
+    }
+   ],
+   "note": "House radios tune the Pokegear radio; its spoken content is the program text set of radio.asm. The 6 pokegear.asm UI refs from the first pass are dropped (interface strings, not dialogue).",
+   "placements": [
+    {
+     "index": 2,
+     "kind": "sign",
+     "map": "BillsFamilysHouse",
+     "ref": "BillsHouseRadio"
+    },
+    {
+     "index": 2,
+     "kind": "sign",
+     "map": "CharcoalKiln",
+     "ref": "CharcoalKilnRadio"
+    },
+    {
+     "index": 0,
+     "kind": "sign",
+     "map": "EcruteakItemfinderHouse",
+     "ref": "ItemFinderHouseRadio"
+    },
+    {
+     "index": 0,
+     "kind": "sign",
+     "map": "EcruteakLugiaSpeechHouse",
+     "ref": "LugiaSpeechHouseRadio"
+    },
+    {
+     "index": 2,
+     "kind": "sign",
+     "map": "GoldenrodHappinessRater",
+     "ref": "HappinessRatersHouseRadio"
+    },
+    {
+     "index": 2,
+     "kind": "sign",
+     "map": "GoldenrodNameRater",
+     "ref": "GoldenrodNameRaterRadio"
+    },
+    {
+     "index": 2,
+     "kind": "sign",
+     "map": "GoldenrodPPSpeechHouse",
+     "ref": "GoldenrodPPSpeechHouseRadio"
+    },
+    {
+     "index": 0,
+     "kind": "sign",
+     "map": "KurtsHouse",
+     "ref": "KurtsHouseRadio"
+    }
+   ],
+   "region": "johto",
+   "script_pattern": "map script calls `special MapRadio`"
+  },
+  "crystal_special_MoveDeletion": {
+   "engine_source": "engine/events/move_deleter.asm",
+   "kind": "crystal_special_MoveDeletion",
+   "labels": [
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1443,
+     "label": "_AskDeleteMoveText",
+     "sha256": "2bf800fc480b94e08f61ee388d44119f50649e10a2639d925ae21b07780fd6cd",
+     "start_line": 1437,
+     "text": "Oh, make it forget\n@\n?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1478,
+     "label": "_DeleterAskWhichMonText",
+     "sha256": "a31617b5f504ae451397a41a0937806d6391a4bc9a74cb694fe839479365e544",
+     "start_line": 1475,
+     "text": "Which #MON?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1463,
+     "label": "_DeleterAskWhichMoveText",
+     "sha256": "c626850ea9bd568aa9e082b2fe3b94f2f6c29cae4903a3c51ac4b53d96a91158",
+     "start_line": 1459,
+     "text": "Which move should\nit forget, then?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1453,
+     "label": "_DeleterEggText",
+     "sha256": "0a411d0d7fcdff92e7e25ad0cfa4fde2576543372f7d0023bf72fa327a6a204f",
+     "start_line": 1449,
+     "text": "An EGG doesn't\nknow any moves!"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1448,
+     "label": "_DeleterForgotMoveText",
+     "sha256": "af8c164055f04e4fd77a5bf5133e5d2919db993079338daa3bd499e9876e005a",
+     "start_line": 1444,
+     "text": "Done! Your #MON\nforgot the move."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1474,
+     "label": "_DeleterIntroText",
+     "sha256": "25da46491a29d062eb75bd3e07c238ccaa4859969ca3bb9d81443a0796ce4194",
+     "start_line": 1464,
+     "text": "Um\u2026 Oh, yes, I'm\nthe MOVE DELETER.\n\nI can make #MON\nforget moves.\n\nShall I make a\n#MON forget?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1458,
+     "label": "_DeleterNoComeAgainText",
+     "sha256": "bd0e08e312c2ee469748be071b4da9c703361822e3290d01818ce0b8f1b5d3b6",
+     "start_line": 1454,
+     "text": "No? Come visit me\nagain."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 1436,
+     "label": "_MoveKnowsOneText",
+     "sha256": "04ab6d7796a3001b5da9f7f9add3e764e9e57d9d841d43dfea722cc02877a3c4",
+     "start_line": 1432,
+     "text": "That #MON knows\nonly one move."
+    }
+   ],
+   "note": "Shared engine texts referenced by the special's own engine code; extracted verbatim.",
+   "placements": [
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "MoveDeletersHouse",
+     "ref": "MoveDeleter"
+    }
+   ],
+   "region": "johto",
+   "routine_label": "MoveDeleter",
+   "script_pattern": "map script calls `special MoveDeletion`"
+  },
+  "crystal_special_NameRater": {
+   "engine_source": "engine/events/name_rater.asm",
+   "kind": "crystal_special_NameRater",
+   "labels": [
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 42,
+     "label": "_NameRaterBetterNameText",
+     "sha256": "d34a5e9f867fb1fc2760cf442c4e4efb66166f44c68775391492380e7d01b501",
+     "start_line": 28,
+     "text": "Hm\u2026 @\n\u2026\nThat's a fairly\ndecent name.\n\nBut, how about a\nslightly better\nnickname?\n\nWant me to give it\na better name?"
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 60,
+     "label": "_NameRaterComeAgainText",
+     "sha256": "71add226a2aa7467e9165bbddd7ca3c56308ddb00e2bcfc6c6dd059f3cb93496",
+     "start_line": 56,
+     "text": "OK, then. Come\nagain sometime."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 78,
+     "label": "_NameRaterEggText",
+     "sha256": "eba9dd698f28f68451f703d9113a7fde4069cdcdf7783f19990314ff5d26640c",
+     "start_line": 74,
+     "text": "Whoa\u2026 That's just\nan EGG."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 55,
+     "label": "_NameRaterFinishedText",
+     "sha256": "03695aa38e8014a54e8784e45b49baaf8891b55e0dfaca394e594c47894c6f82",
+     "start_line": 49,
+     "text": "That's a better\nname than before!\n\nWell done!"
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 21,
+     "label": "_NameRaterHelloText",
+     "sha256": "edea09d8a33468cacf8f00dd33a3e159499e6432c6566d66f013fe31dc8ef677",
+     "start_line": 11,
+     "text": "Hello, hello! I'm\nthe NAME RATER.\n\nI rate the names\nof #MON.\n\nWould you like me\nto rate names?"
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 96,
+     "label": "_NameRaterNamedText",
+     "sha256": "51f486299fa41d82e395de621b9ed93380609f72552ebd39e7f9075f09441cc7",
+     "start_line": 89,
+     "text": "All right. This\n#MON is now\nnamed @\n."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1",
+      "text_ram wStringBuffer1",
+      "text_start"
+     ],
+     "end_line": 73,
+     "label": "_NameRaterPerfectNameText",
+     "sha256": "6c09beef594d37170c29396fec48d153906cd4b972ce652cd9ba2c74521c0685",
+     "start_line": 61,
+     "text": "Hm\u2026 @\n?\nWhat a great name!\nIt's perfect.\n\nTreat @\nwith loving care."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 88,
+     "label": "_NameRaterSameNameText",
+     "sha256": "a9491e9044f1389a470dcfb2d32c15ec90d36a32bf1c424861c985bc6747da4e",
+     "start_line": 79,
+     "text": "It might look the\nsame as before,\n\nbut this new name\nis much better!\n\nWell done!"
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 48,
+     "label": "_NameRaterWhatNameText",
+     "sha256": "24d7938cfd3863eca054a15c77db94285f2a1303e0fff7862395d85a5668a2f9",
+     "start_line": 43,
+     "text": "All right. What\nname should we\ngive it, then?"
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 27,
+     "label": "_NameRaterWhichMonText",
+     "sha256": "f036975e18b6494351427ae390f0892c8f261b9a0beaf7160bceeb5adf2fbd97",
+     "start_line": 22,
+     "text": "Which #MON's\nnickname should I\nrate for you?"
+    }
+   ],
+   "note": "Shared engine texts referenced by the special's own engine code; extracted verbatim.",
+   "placements": [
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "GoldenrodNameRater",
+     "ref": "GoldenrodNameRater"
+    }
+   ],
+   "region": "johto",
+   "routine_label": "NameRater",
+   "script_pattern": "map script calls `special NameRater`"
+  },
+  "crystal_special_PlayersHousePC": {
+   "engine_source": "engine/events/pokecenter_pc.asm",
+   "kind": "crystal_special_PlayersHousePC",
+   "labels": [
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1107,
+     "label": "_PlayersPCAskWhatDoText",
+     "sha256": "4faf93b15c3117c09629e2e025568078dbbc41c8da2ca9286a41ea9db6e217bd",
+     "start_line": 1103,
+     "text": "What do you want\nto do?"
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [
+      "text_decimal wItemQuantityChange, 1, 2",
+      "text_start",
+      "text_ram wStringBuffer2"
+     ],
+     "end_line": 1144,
+     "label": "_PlayersPCDepositItemsText",
+     "sha256": "c515ced22c139257275d915eb5ed3030cf5df56aa023603f8f9c8be6a1f76cec",
+     "start_line": 1136,
+     "text": "Deposited @\n@\n(S)."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1135,
+     "label": "_PlayersPCHowManyDepositText",
+     "sha256": "c1b6eb33af295fd7c7c7a6613720e627b731abbc1f0df7334e858aa935270cd4",
+     "start_line": 1131,
+     "text": "How many do you\nwant to deposit?"
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1112,
+     "label": "_PlayersPCHowManyWithdrawText",
+     "sha256": "63b005ba4ff6931f87264a751a599c94c75c311100a579e539e1ce8d75082621",
+     "start_line": 1108,
+     "text": "How many do you\nwant to withdraw?"
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1130,
+     "label": "_PlayersPCNoItemsText",
+     "sha256": "dc5c950d284304e170b27c7e8d6339f79a0b3616a41045ebba7408b558eb3590",
+     "start_line": 1127,
+     "text": "No items here!"
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1149,
+     "label": "_PlayersPCNoRoomDepositText",
+     "sha256": "13cdeff581ac7980c4c5f24293967083695f2561e31701d2443bc4ebb6af03dd",
+     "start_line": 1145,
+     "text": "There's no room to\nstore items."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1126,
+     "label": "_PlayersPCNoRoomWithdrawText",
+     "sha256": "3184abc58380896dd85ff55e5b24e3055c71a053473cd2f4a452df71b977a113",
+     "start_line": 1122,
+     "text": "There's no room\nfor more items."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1102,
+     "label": "_PlayersPCTurnOnText",
+     "sha256": "a61d18d7d6fdecdce570d45b684c61134859777fe334e75acc527e99e5419359",
+     "start_line": 1098,
+     "text": "<PLAYER> turned on\nthe PC."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [
+      "text_decimal wItemQuantityChange, 1, 2",
+      "text_start",
+      "text_ram wStringBuffer2"
+     ],
+     "end_line": 1121,
+     "label": "_PlayersPCWithdrewItemsText",
+     "sha256": "70605e0609b939c89bd7e2ba2306ad6165e4f70fd3ffca7987cd88bed4c07dd8",
+     "start_line": 1113,
+     "text": "Withdrew @\n@\n(S)."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1166,
+     "label": "_PokecenterBillsPCText",
+     "sha256": "1aaea051c1970d37c26f4f315020c707eae6a88d33e7e0d18cc94438c74042fd",
+     "start_line": 1159,
+     "text": "BILL's PC\naccessed.\n\n#MON Storage\nSystem opened."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1181,
+     "label": "_PokecenterOaksPCText",
+     "sha256": "7c2fed5c66661b72f45af59a69b28d5dca624af30f706e6bf682ecb3ec548f17",
+     "start_line": 1174,
+     "text": "PROF.OAK's PC\naccessed.\n\n#DEX Rating\nSystem opened."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1097,
+     "label": "_PokecenterPCCantUseText",
+     "sha256": "9f0c2b46dc490b71b1bd13fbc1be2acde95d8d4c17db98c1e0f4e403cc77717f",
+     "start_line": 1092,
+     "text": "Bzzzzt! You must\nhave a #MON to\nuse this!"
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1186,
+     "label": "_PokecenterPCOaksClosedText",
+     "sha256": "8ece9d8c755a6c04e5d41a129e8b786e28d92e05786ceb5bc574d157a8c6b1a9",
+     "start_line": 1182,
+     "text": "\u2026\nLink closed\u2026"
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1154,
+     "label": "_PokecenterPCTurnOnText",
+     "sha256": "03e845567566aa91d0510bc2e8b3d307484b9afd8fee475e5ffc0f1a52da98e4",
+     "start_line": 1150,
+     "text": "<PLAYER> turned on\nthe PC."
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1158,
+     "label": "_PokecenterPCWhoseText",
+     "sha256": "ab89def59af87d577c09c2a1f2ed155f8b655802e9d63bc817f85dd35469db83",
+     "start_line": 1155,
+     "text": "Access whose PC?"
+    },
+    {
+     "defined_in": "data/text/common_2.asm",
+     "dynamic_commands": [],
+     "end_line": 1173,
+     "label": "_PokecenterPlayersPCText",
+     "sha256": "47082fa77f80454fffdc6664cd65b382a088af6ad1ec3afaca6e3b4382755ad5",
+     "start_line": 1167,
+     "text": "Accessed own PC.\n\nItem Storage\nSystem opened."
+    }
+   ],
+   "note": "Shared engine texts referenced by the special's own engine code; extracted verbatim.",
+   "placements": [
+    {
+     "index": 0,
+     "kind": "sign",
+     "map": "PlayersHouse2F",
+     "ref": "PlayersHousePCScript"
+    }
+   ],
+   "region": "johto",
+   "routine_label": "PokemonCenterPC",
+   "script_pattern": "map script calls `special PlayersHousePC`"
+  },
+  "crystal_special_PokeSeer": {
+   "engine_source": "engine/events/poke_seer.asm",
+   "kind": "crystal_special_PokeSeer",
+   "labels": [
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 296,
+     "label": "_SeerCantTellAThingText",
+     "sha256": "c6c51be5b414c5b322da2fa7f555058a4d75ba129d780460c5f54ae7ef728a14",
+     "start_line": 289,
+     "text": "Whaaaat? I can't\ntell a thing!\n\nHow could I not\nknow of this?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 371,
+     "label": "_SeerDoNothingText",
+     "sha256": "2d10ef7b704739fdcca9b938d2a038d88065ecc6f06409c8572bea6060862709",
+     "start_line": 367,
+     "text": "Fufufu! I saw that\nyou'd do nothing!"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 366,
+     "label": "_SeerEggText",
+     "sha256": "583b0999f65979b56a962217fce070a915318d14e0af926691538e602002e9c0",
+     "start_line": 358,
+     "text": "Hey!\n\nThat's an EGG!\n\nYou can't say that\nyou've met it yet\u2026"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wSeerNickname",
+      "text_ram wSeerNickname",
+      "text_start"
+     ],
+     "end_line": 446,
+     "label": "_SeerImpressedText",
+     "sha256": "27954952bfd08f33bb4a3beccc7d3f6c8b5b3b55789414df57cf701810984450",
+     "start_line": 423,
+     "text": "Incidentally\u2026\n\nI'm impressed by\nyour dedication.\n\nIt's been a long\ntime since I've\n\nseen a #MON as\nmighty as this\n@\n.\n\nI'm sure that\nseeing @\n\nin battle would\nexcite anyone."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wSeerNickname",
+      "text_start"
+     ],
+     "end_line": 422,
+     "label": "_SeerMightyText",
+     "sha256": "36ae5e07a5ed3769a675a79c2e35caee4179b5500baddbb96fa6657aa8111686",
+     "start_line": 405,
+     "text": "Incidentally\u2026\n\nIt certainly has\ngrown mighty!\n\nThis @\nmust have come\n\nthrough numerous\n#MON battles.\n\nIt looks brimming\nwith confidence."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 381,
+     "label": "_SeerMoreCareText",
+     "sha256": "275ff0cd75d039286371a18c8898354417dee406537acd5c5fdb0ecc364704b6",
+     "start_line": 372,
+     "text": "Incidentally\u2026\n\nIt would be wise\nto raise your\n\n#MON with a\nlittle more care."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wSeerNickname"
+     ],
+     "end_line": 394,
+     "label": "_SeerMoreConfidentText",
+     "sha256": "d5cacd2d0fdbb6a5ac044cb94ecb5bb9b2eee1422e433be27a62cf9def8f6e39",
+     "start_line": 382,
+     "text": "Incidentally\u2026\n\nIt seems to have\ngrown a little.\n\n@\n seems\nto be becoming\nmore confident."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wSeerNickname"
+     ],
+     "end_line": 404,
+     "label": "_SeerMuchStrengthText",
+     "sha256": "cf83ca158e05cecaa7464c068f0a6f0b9b7506f7c1311bc7055618ef8a3238f2",
+     "start_line": 395,
+     "text": "Incidentally\u2026\n\n@\n has\ngrown. It's gained\nmuch strength."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wSeerNickname",
+      "text_ram wSeerCaughtLocation"
+     ],
+     "end_line": 306,
+     "label": "_SeerNameLocationText",
+     "sha256": "f06bcf6e151af0956ba70b922d6b3ceb4014cc7603abcaa8105717d3e4f4495c",
+     "start_line": 297,
+     "text": "Hm\u2026 I see you met\n@\n here:\n@\n!"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wSeerCaughtLevelString"
+     ],
+     "end_line": 357,
+     "label": "_SeerNoLocationText",
+     "sha256": "7a4bd0d4f999c4fd469511c8c6800734bda23e0c2da1c2b92c284543e254914c",
+     "start_line": 340,
+     "text": "What!? Incredible!\n\nI don't understand\nhow, but it is\n\nincredible!\nYou are special.\n\nI can't tell where\nyou met it, but it\nwas at level @\n.\n\nAm I good or what?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 288,
+     "label": "_SeerSeeAllText",
+     "sha256": "b14cd630b657b282efa4e34ed0a14fd6649499d5e7c36a7a5801bd4e39339a3a",
+     "start_line": 281,
+     "text": "I see all.\nI know all\u2026\n\nCertainly, I know\nof your #MON!"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wSeerTimeOfDay",
+      "text_ram wSeerCaughtLevelString"
+     ],
+     "end_line": 319,
+     "label": "_SeerTimeLevelText",
+     "sha256": "fbddb650396cc322ee42310b68937f5981c9f6c569498f9320b7cc329116b375",
+     "start_line": 307,
+     "text": "The time was\n@\n!\n\nIts level was @\n!\n\nAm I good or what?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wSeerNickname",
+      "text_start",
+      "text_ram wSeerOT",
+      "text_start",
+      "text_ram wSeerCaughtLocation",
+      "text_start",
+      "text_ram wSeerOT",
+      "text_start",
+      "text_ram wSeerNickname"
+     ],
+     "end_line": 339,
+     "label": "_SeerTradeText",
+     "sha256": "f9057d0c93e00f51e29e899b8c0be4da43e4f8bcd854a896e23c5307ef82068b",
+     "start_line": 320,
+     "text": "Hm\u2026 @\ncame from @\nin a trade?\n\n@\nwas where @\nmet @\n!"
+    }
+   ],
+   "note": "Shared engine texts referenced by the special's own engine code; extracted verbatim.",
+   "placements": [
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "PokeSeersHouse",
+     "ref": "SeerScript"
+    }
+   ],
+   "region": "johto",
+   "routine_label": "PokeSeer",
+   "script_pattern": "map script calls `special PokeSeer`"
+  },
+  "crystal_special_SlotMachine": {
+   "engine_source": "engine/games/slot_machine.asm",
+   "kind": "crystal_special_SlotMachine",
+   "labels": [
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 688,
+     "label": "_SlotsBetHowManyCoinsText",
+     "sha256": "b5ed53600a74612ca1bdf32d7c89f986261d3f6c6c65788822ffc3dee54f4f4f",
+     "start_line": 684,
+     "text": "Bet how many\ncoins?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 717,
+     "label": "_SlotsDarnText",
+     "sha256": "aebc36e43f543e90c269f36e3302fb4987a86601a56cab65081164ad616a2509",
+     "start_line": 714,
+     "text": "Darn!"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer2"
+     ],
+     "end_line": 713,
+     "label": "_SlotsLinedUpText",
+     "sha256": "13d3f1fdb0bf719827049457deeda052056ee4ea1b64be7125d42cfa3b7802cf",
+     "start_line": 707,
+     "text": "lined up!\nWon @\n coins!"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 697,
+     "label": "_SlotsNotEnoughCoinsText",
+     "sha256": "4b52e230f71948f77aa5cfd1fd008e29f99520a4ad7a8e07a645cffe1b3332a8",
+     "start_line": 693,
+     "text": "Not enough\ncoins."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 706,
+     "label": "_SlotsPlayAgainText",
+     "sha256": "bac30d5fa09da72d63410f98a52f0b7b7be57130da82146d0c402ec658b8031f",
+     "start_line": 703,
+     "text": "Play again?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 702,
+     "label": "_SlotsRanOutOfCoinsText",
+     "sha256": "d31923bd77fcdf01d307bc5a02513106027d5541a1f020b7a18fdfdecfc13ae5",
+     "start_line": 698,
+     "text": "Darn\u2026 Ran out of\ncoins\u2026"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 692,
+     "label": "_SlotsStartText",
+     "sha256": "01d3477a64c0696f61d71b667840d8171a44816c4c4c5411e8c372d4012b3b91",
+     "start_line": 689,
+     "text": "Start!"
+    }
+   ],
+   "note": "Shared engine texts referenced by the special's own engine code; extracted verbatim.",
+   "placements": [
+    {
+     "index": 0,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 1,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 2,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 3,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 4,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 5,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 6,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 7,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerLuckySlotsMachineScript"
+    },
+    {
+     "index": 8,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 9,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 10,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 11,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 12,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 13,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 14,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 15,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 16,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    },
+    {
+     "index": 17,
+     "kind": "sign",
+     "map": "GoldenrodGameCorner",
+     "ref": "GoldenrodGameCornerSlotsMachineScript"
+    }
+   ],
+   "region": "johto",
+   "routine_label": "SlotMachine",
+   "script_pattern": "map script calls `special SlotMachine`"
+  },
+  "crystal_special_TimeCapsule": {
+   "engine_source": "engine/link/time_capsule.asm; engine/link/link.asm",
+   "kind": "crystal_special_TimeCapsule",
+   "labels": [
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 72,
+     "label": "_LinkAbnormalMonText",
+     "sha256": "bd11cf47746eaa7372cef46f5d1e6909d0e8a481d65f0effa5a11baf049c9116",
+     "start_line": 65,
+     "text": "Your friend's\n@\n appears\nto be abnormal!"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [
+      "text_ram wBufferTrademonNickname",
+      "text_start",
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 81,
+     "label": "_LinkAskTradeForText",
+     "sha256": "597f9ef643eea7d2d9f276f6fc96b03310571195acb8328c666761059b92ca2e",
+     "start_line": 73,
+     "text": "Trade @\nfor @\n?"
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 58,
+     "label": "_LinkTimeoutText",
+     "sha256": "d7deb83e8b6804ff7b4d1ef9f170e3980b63482a69eeb7d2a5425be0d0567121",
+     "start_line": 53,
+     "text": "Too much time has\nelapsed. Please\ntry again."
+    },
+    {
+     "defined_in": "data/text/common_3.asm",
+     "dynamic_commands": [],
+     "end_line": 64,
+     "label": "_LinkTradeCantBattleText",
+     "sha256": "c8f95e19aa5b65eb63399a0031ba92b731c6e16720f31a428ec78d6e357fdebb",
+     "start_line": 59,
+     "text": "If you trade that\n#MON, you won't\nbe able to battle."
+    }
+   ],
+   "note": "Shared engine texts referenced by the special's own engine code; extracted verbatim.",
+   "placements": [
+    {
+     "index": 0,
+     "kind": "sign",
+     "map": "TimeCapsule",
+     "ref": "TimeCapsuleConsoleScript"
+    },
+    {
+     "index": 1,
+     "kind": "sign",
+     "map": "TimeCapsule",
+     "ref": "TimeCapsuleConsoleScript"
+    }
+   ],
+   "region": "johto",
+   "routine_label": "TimeCapsule",
+   "script_pattern": "map script calls `special TimeCapsule`"
+  },
+  "crystal_special_UnownPuzzle": {
+   "engine_source": "engine/games/unown_puzzle.asm (835 lines, 0 text references \u2014 grep-verified)",
+   "kind": "crystal_special_UnownPuzzle",
+   "labels": [],
+   "note": "The puzzle engine file references no dialogue text at all: the special is a pure sliding-puzzle UI. Nothing to bank; do not invent lines for it. (First pass had looked for the file at a wrong path; the verdict is now evidenced.)",
+   "placements": [
+    {
+     "index": 2,
+     "kind": "sign",
+     "map": "RuinsOfAlphAerodactylChamber",
+     "ref": "RuinsOfAlphAerodactylChamberPuzzle"
+    },
+    {
+     "index": 2,
+     "kind": "sign",
+     "map": "RuinsOfAlphHoOhChamber",
+     "ref": "RuinsOfAlphHoOhChamberPuzzle"
+    },
+    {
+     "index": 2,
+     "kind": "sign",
+     "map": "RuinsOfAlphKabutoChamber",
+     "ref": "RuinsOfAlphKabutoChamberPuzzle"
+    },
+    {
+     "index": 2,
+     "kind": "sign",
+     "map": "RuinsOfAlphOmanyteChamber",
+     "ref": "RuinsOfAlphOmanyteChamberPuzzle"
+    }
+   ],
+   "region": "johto",
+   "routine_label": "UnownPuzzle",
+   "script_pattern": "map script calls `special UnownPuzzle`"
+  },
+  "crystal_std_signs": {
+   "engine_source": "engine/events/std_scripts.asm PokecenterSignScript / MartSignScript",
+   "kind": "crystal_std_signs",
+   "labels": [
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 209,
+     "label": "PokecenterSignText",
+     "sha256": "c160e8eb070a6aa971c8d4ae016ced0fc33afd25368deefa21f23fca0f267db6",
+     "start_line": 205,
+     "text": "Heal Your #MON!\n#MON CENTER"
+    },
+    {
+     "defined_in": "data/text/std_text.asm",
+     "dynamic_commands": [],
+     "end_line": 216,
+     "label": "MartSignText",
+     "sha256": "46bf60d70cfc1287d90645c31bf4c25f169e79d96bf900a3703fcc6bb1310726",
+     "start_line": 210,
+     "text": "For All Your\n#MON Needs\n\n#MON MART"
+    }
+   ],
+   "note": "Shared sign texts the std scripts farjumptext to.",
+   "placements": [],
+   "region": "johto",
+   "script_pattern": "`jumpstd PokecenterSignScript` / `jumpstd MartSignScript`"
+  },
+  "crystal_trade": {
+   "empty_text_labels": [
+    "_NPCTradeFanfareText"
+   ],
+   "engine_source": "engine/events/npc_trade.asm (TradeTexts table selects by the trade's dialog set)",
+   "kind": "crystal_trade",
+   "labels": [
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wMonOrItemNameBuffer",
+      "text_ram wStringBuffer2",
+      "text_end"
+     ],
+     "end_line": 1377,
+     "label": "Text_NPCTraded",
+     "sha256": "7ae6d48559a205813b31aeac4c8533f9422e00468f606806bbb679b8da7646e6",
+     "start_line": 1368,
+     "text": "<PLAYER> traded\n@\n for\n@\n.@"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer2"
+     ],
+     "end_line": 1425,
+     "label": "_NPCTradeAfterText1",
+     "sha256": "df5a02ae9006587a13a3726d60adbaa87e5bba6825459b71e2004fdb7950f9c0",
+     "start_line": 1419,
+     "text": "Hi, how's my old\n@\n doing?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wMonOrItemNameBuffer",
+      "text_start"
+     ],
+     "end_line": 1473,
+     "label": "_NPCTradeAfterText2",
+     "sha256": "26e501877bcbb5be695baa5b2e32d37f9fa813fd11f89fbeea40ae60a23f841b",
+     "start_line": 1466,
+     "text": "Hi! The @\nyou traded me is\ndoing great!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer2",
+      "text_ram wMonOrItemNameBuffer"
+     ],
+     "end_line": 1525,
+     "label": "_NPCTradeAfterText3",
+     "sha256": "5d6c5313a099d06291c6f2a334d4aba7fd4730db9f881773fe9a6d9155d94a92",
+     "start_line": 1513,
+     "text": "How is that\n@\n I\ntraded you doing?\n\nYour @\n's\nso cute!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1536,
+     "label": "_NPCTradeAfterText4",
+     "sha256": "9ecb77bc37654bc09a85ee87da7532d04ef25b0e197a8930aefa301ff248218f",
+     "start_line": 1530,
+     "text": "Trading is so odd\u2026\n\nI still have a lot\nto learn about it."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1367,
+     "label": "_NPCTradeCableText",
+     "sha256": "7b65cbe995b74a73f5c654bb2b5190e55f72b0b311d87da26dc7d87499eb832f",
+     "start_line": 1363,
+     "text": "OK, connect the\nGame Link Cable."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1402,
+     "label": "_NPCTradeCancelText1",
+     "sha256": "6e9b715883e9947a631b3b83f2fb35a883b1f066f2c8b96193c3c4517864c5d7",
+     "start_line": 1398,
+     "text": "You don't want to\ntrade? Aww\u2026"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1448,
+     "label": "_NPCTradeCancelText2",
+     "sha256": "ebacdd4abb514d9cafd2af723fc7cf529c6a9818974d493503d1a33da9a33665",
+     "start_line": 1441,
+     "text": "You don't have\none either?\n\nGee, that's really\ndisappointing\u2026"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1494,
+     "label": "_NPCTradeCancelText3",
+     "sha256": "89399eb67be2e21e60b07de48581d3ff7debce4b120ed194f94ed037bd92397b",
+     "start_line": 1490,
+     "text": "You don't want to\ntrade? Oh, darn\u2026"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1418,
+     "label": "_NPCTradeCompleteText1",
+     "sha256": "59683b50061e7fa75eef92be4271a0b7b1d9ea84f44fa9c4d2bf2890dc844b02",
+     "start_line": 1411,
+     "text": "Yay! I got myself\n@\n!\nThanks!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1465,
+     "label": "_NPCTradeCompleteText2",
+     "sha256": "566502d40464fcfb74dbb069ed76fff8586e84f426153a4b6dce70e796642deb",
+     "start_line": 1457,
+     "text": "Great! Thank you!\n\nI finally got\n@\n."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wMonOrItemNameBuffer"
+     ],
+     "end_line": 1512,
+     "label": "_NPCTradeCompleteText3",
+     "sha256": "5e57c7394b809ab52c64ade156117f220db312247296ef88e510e13aac140df9",
+     "start_line": 1505,
+     "text": "Wow! Thank you!\nI always wanted\n@\n!"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [],
+     "end_line": 1529,
+     "label": "_NPCTradeCompleteText4",
+     "sha256": "d00aaf5573aafc0d76e4c6702c7bf30376f571b3b508c43f74c98da00a106f44",
+     "start_line": 1526,
+     "text": "Uh? What happened?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_end",
+      "text_end"
+     ],
+     "end_line": 1384,
+     "label": "_NPCTradeFanfareText",
+     "sha256": "72a6a301739e2022c6c8744366ccfed94e75d51ce1d1b6226852f550c61550ec",
+     "start_line": 1378,
+     "text": ""
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1",
+      "text_ram wStringBuffer2"
+     ],
+     "end_line": 1397,
+     "label": "_NPCTradeIntroText1",
+     "sha256": "bb1c08b0c7a056eeb0af497a5ff1df77e74f61aca9893a0fccc30c65e58aa6db",
+     "start_line": 1385,
+     "text": "I collect #MON.\nDo you have\n@\n?\n\nWant to trade it\nfor my @\n?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1",
+      "text_ram wStringBuffer2"
+     ],
+     "end_line": 1440,
+     "label": "_NPCTradeIntroText2",
+     "sha256": "b09367683c9a347b826ecef23f753baba126eeb0e073bc1572b12be3e83bf816",
+     "start_line": 1426,
+     "text": "Hi, I'm looking\nfor this #MON.\n\nIf you have\n@\n, would\n\nyou trade it for\nmy @\n?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wMonOrItemNameBuffer",
+      "text_ram wStringBuffer1",
+      "text_ram wStringBuffer2"
+     ],
+     "end_line": 1489,
+     "label": "_NPCTradeIntroText3",
+     "sha256": "4d6480eee1b39272b20dcd65a6d6a1a34d6fcc71cf5ee138c95e0bf6b194f69a",
+     "start_line": 1474,
+     "text": "'s cute,\nbut I don't have\n\nit. Do you have\n@\n?\n\nWant to trade it\nfor my @\n?"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1410,
+     "label": "_NPCTradeWrongText1",
+     "sha256": "d39b8e79e9e029c1f4c3ef239c800077695163d05af7de71eb660531a23f8b49",
+     "start_line": 1403,
+     "text": "Huh? That's not\n@\n. \nWhat a letdown\u2026"
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1456,
+     "label": "_NPCTradeWrongText2",
+     "sha256": "3a486fc69708a128b6242eac0e932ef37a5edf80b5e586b79e6276642bb3aaaa",
+     "start_line": 1449,
+     "text": "You don't have\n@\n? That's\ntoo bad, then."
+    },
+    {
+     "defined_in": "data/text/common_1.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer1"
+     ],
+     "end_line": 1504,
+     "label": "_NPCTradeWrongText3",
+     "sha256": "365e7712f17c209f04cc3c7862da66c2e1db1978d82437a6fb96e9a3468e74a6",
+     "start_line": 1495,
+     "text": "That's not\n@\n.\n\nPlease trade with\nme if you get one."
+    }
+   ],
+   "note": "NPC traders speak only the shared trade-engine texts; the set (1/2/3) is a property of the trade record, not the NPC.",
+   "placements": [
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "BlackthornEmysHouse",
+     "ref": "Emy"
+    },
+    {
+     "index": 2,
+     "kind": "object",
+     "map": "GoldenrodDeptStore5F",
+     "ref": "Mike"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "OlivineTimsHouse",
+     "ref": "Tim"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "VioletKylesHouse",
+     "ref": "Kyle"
+    }
+   ],
+   "region": "johto",
+   "script_pattern": "map script block is `trade NPC_TRADE_*` with no writetext of its own"
+  },
+  "kanto_mart": {
+   "engine_source": "home/text_script.asm DisplayPokemartDialogue (TX_SCRIPT_MART); texts in data/text/text_4.asm",
+   "kind": "kanto_mart",
+   "labels": [
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [],
+     "end_line": 5,
+     "label": "_PokemartGreetingText",
+     "sha256": "486c915723f1333368ab09e1e8838b882ce89b1c114e43d2ee23ef16e9c2ecc7",
+     "start_line": 1,
+     "text": "Hi there!"
+    },
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [],
+     "end_line": 28,
+     "label": "_PokemartBuyingGreetingText",
+     "sha256": "8a15126179d8c4b1dfe99ffdb2899b46322671b7248376fa33ff1158bcb10765",
+     "start_line": 25,
+     "text": "Take your time."
+    },
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [
+      "text_ram wStringBuffer"
+     ],
+     "end_line": 37,
+     "label": "_PokemartTellBuyPriceText",
+     "sha256": "35b5ed1cd1d0ee386a9175db4efe3a7e62c68124e3ba6aa8bb5924b7dbd7d662",
+     "start_line": 29,
+     "text": "?\nThat will be\n\u00a5@\n. OK?"
+    },
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [],
+     "end_line": 42,
+     "label": "_PokemartBoughtItemText",
+     "sha256": "bda17c348c46bb86238337eb6f0b6b388d8b8e2be44ba878490bc100b2c9e2d3",
+     "start_line": 38,
+     "text": "Here you are!\nThank you!"
+    },
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [],
+     "end_line": 47,
+     "label": "_PokemartNotEnoughMoneyText",
+     "sha256": "ae97563f535df672568fc749cb291ed4cf213dff39bc2875c02c04be9be59890",
+     "start_line": 43,
+     "text": "You don't have\nenough money."
+    },
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [],
+     "end_line": 52,
+     "label": "_PokemartItemBagFullText",
+     "sha256": "42611941a430a4d977780b29fff6e822c7b77bb3f6f85575e74d53d5545075e0",
+     "start_line": 48,
+     "text": "You can't carry\nany more items."
+    },
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [],
+     "end_line": 64,
+     "label": "_PokemartTellSellPriceText",
+     "sha256": "caf020d1b4d808d7a05fd42bde6f15a6ea1ea8724c840adec33eebbdd1e7c769",
+     "start_line": 58,
+     "text": "I can pay you\n\u00a5@\n for that."
+    },
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [],
+     "end_line": 69,
+     "label": "_PokemartItemBagEmptyText",
+     "sha256": "bd7bc5d54eaf8185dec7afd41c87ee443989683dce9f429608fef9341f8a9478",
+     "start_line": 65,
+     "text": "You don't have\nanything to sell."
+    },
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [],
+     "end_line": 74,
+     "label": "_PokemartUnsellableItemText",
+     "sha256": "2740f8493cd008bc2d504a6fc426f65274984ce0dfc4084a465da8d6781f18f0",
+     "start_line": 70,
+     "text": "I can't put a\nprice on that."
+    },
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [],
+     "end_line": 78,
+     "label": "_PokemartThankYouText",
+     "sha256": "60005327fbb53ab45993cb0295b937a9a88aa0304f2fa3829f2bb0542b92db01",
+     "start_line": 75,
+     "text": "Thank you!"
+    },
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [],
+     "end_line": 83,
+     "label": "_PokemartAnythingElseText",
+     "sha256": "9b4433fe441764521b8739baba30f28abd2627bd4a7e1ac60d0a6a0aded63a7f",
+     "start_line": 79,
+     "text": "Is there anything\nelse I can do?"
+    }
+   ],
+   "note": "Gen 1 mart clerks are an engine text script; the per-mart block carries only the inventory list.",
+   "placements": [
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "CeladonMart2F",
+     "ref": "TEXT_CELADONMART2F_CLERK1",
+     "root": "CeladonMart2FClerk1Text"
+    },
+    {
+     "index": 1,
+     "kind": "object",
+     "map": "CeladonMart2F",
+     "ref": "TEXT_CELADONMART2F_CLERK2",
+     "root": "CeladonMart2FClerk2Text"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "CeladonMart4F",
+     "ref": "TEXT_CELADONMART4F_CLERK",
+     "root": "CeladonMart4FClerkText"
+    },
+    {
+     "index": 2,
+     "kind": "object",
+     "map": "CeladonMart5F",
+     "ref": "TEXT_CELADONMART5F_CLERK1",
+     "root": "CeladonMart5FClerk1Text"
+    },
+    {
+     "index": 3,
+     "kind": "object",
+     "map": "CeladonMart5F",
+     "ref": "TEXT_CELADONMART5F_CLERK2",
+     "root": "CeladonMart5FClerk2Text"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "CeruleanMart",
+     "ref": "TEXT_CERULEANMART_CLERK",
+     "root": "CeruleanMartClerkText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "CinnabarMart",
+     "ref": "TEXT_CINNABARMART_CLERK",
+     "root": "CinnabarMartClerkText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "FuchsiaMart",
+     "ref": "TEXT_FUCHSIAMART_CLERK",
+     "root": "FuchsiaMartClerkText"
+    },
+    {
+     "index": 3,
+     "kind": "object",
+     "map": "IndigoPlateauLobby",
+     "ref": "TEXT_INDIGOPLATEAULOBBY_CLERK",
+     "root": "IndigoPlateauLobbyClerkText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "LavenderMart",
+     "ref": "TEXT_LAVENDERMART_CLERK",
+     "root": "LavenderMartClerkText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "PewterMart",
+     "ref": "TEXT_PEWTERMART_CLERK",
+     "root": "PewterMartClerkText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "SaffronMart",
+     "ref": "TEXT_SAFFRONMART_CLERK",
+     "root": "SaffronMartClerkText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "VermilionMart",
+     "ref": "TEXT_VERMILIONMART_CLERK",
+     "root": "VermilionMartClerkText"
+    }
+   ],
+   "region": "kanto",
+   "script_pattern": "text root block is `script_mart <items...>` (data/items/marts.asm)"
+  },
+  "kanto_nurse": {
+   "engine_source": "home/text_script.asm DisplayPokemonCenterDialogue (TX_SCRIPT_POKECENTER_NURSE); texts in data/text/text_4.asm",
+   "kind": "kanto_nurse",
+   "labels": [
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [],
+     "end_line": 168,
+     "label": "_PokemonCenterWelcomeText",
+     "sha256": "ead3ec2d1a833d2dced00c3d75faa9c1a91013d4297f8aef43d260f8203f0324",
+     "start_line": 160,
+     "text": "Welcome to our\nPOK\u00e9MON CENTER!\n\nWe heal your\nPOK\u00e9MON back to\nperfect health!"
+    },
+    {
+     "defined_in": "data/text/text_4.asm",
+     "dynamic_commands": [],
+     "end_line": 189,
+     "label": "_PokemonCenterFarewellText",
+     "sha256": "d15c59f676440c48df705965a26d147d4a402277d76b8ba9de7e4c88c36c7b49",
+     "start_line": 185,
+     "text": "We hope to see\nyou again!"
+    }
+   ],
+   "note": "Gen 1 nurse is an engine text script shared by every Pokecenter.",
+   "placements": [
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "CeladonPokecenter",
+     "ref": "TEXT_CELADONPOKECENTER_NURSE",
+     "root": "CeladonPokecenterNurseText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "CeruleanPokecenter",
+     "ref": "TEXT_CERULEANPOKECENTER_NURSE",
+     "root": "CeruleanPokecenterNurseText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "CinnabarPokecenter",
+     "ref": "TEXT_CINNABARPOKECENTER_NURSE",
+     "root": "CinnabarPokecenterNurseText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "FuchsiaPokecenter",
+     "ref": "TEXT_FUCHSIAPOKECENTER_NURSE",
+     "root": "FuchsiaPokecenterNurseText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "IndigoPlateauLobby",
+     "ref": "TEXT_INDIGOPLATEAULOBBY_NURSE",
+     "root": "IndigoPlateauLobbyNurseText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "LavenderPokecenter",
+     "ref": "TEXT_LAVENDERPOKECENTER_NURSE",
+     "root": "LavenderPokecenterNurseText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "MtMoonPokecenter",
+     "ref": "TEXT_MTMOONPOKECENTER_NURSE",
+     "root": "MtMoonPokecenterNurseText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "PewterPokecenter",
+     "ref": "TEXT_PEWTERPOKECENTER_NURSE",
+     "root": "PewterPokecenterNurseText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "RockTunnelPokecenter",
+     "ref": "TEXT_ROCKTUNNELPOKECENTER_NURSE",
+     "root": "RockTunnelPokecenterNurseText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "SaffronPokecenter",
+     "ref": "TEXT_SAFFRONPOKECENTER_NURSE",
+     "root": "SaffronPokecenterNurseText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "VermilionPokecenter",
+     "ref": "TEXT_VERMILIONPOKECENTER_NURSE",
+     "root": "VermilionPokecenterNurseText"
+    },
+    {
+     "index": 0,
+     "kind": "object",
+     "map": "ViridianPokecenter",
+     "ref": "TEXT_VIRIDIANPOKECENTER_NURSE",
+     "root": "ViridianPokecenterNurseText"
+    }
+   ],
+   "region": "kanto",
+   "script_pattern": "text root block is `script_pokecenter_nurse`"
+  }
+ },
+ "source": "service dialogue standard bank \u2014 every text extracted from held pret/pokered / pret/pokecrystal source; see per-label defined_in + sha256 (of raw asm block)"
+}

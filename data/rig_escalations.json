@@ -1,0 +1,503 @@
+{
+ "metadata": {
+  "system": "PUW engine-rigging escalations (route 3 failures -> Neon)",
+  "generated": "2026-11-23",
+  "rule": "Every rigging candidate is either in rig_definitions.json or in this list; no silent drops."
+ },
+ "escalations": [
+  {
+   "showdown_id": "dodrio",
+   "context": "follower",
+   "scope": "species",
+   "reason": "flightless_body_plan_no_usable_wings: Flying type with a legs body shape (flightless-bird plan); the front still shows no wings a flap track could honestly move",
+   "derived_from": {
+    "shape": "legs",
+    "domains": [
+     "land",
+     "air"
+    ],
+    "types": [
+     "Normal",
+     "Flying"
+    ],
+    "domains_key": "dodrio",
+    "learns_fly": true,
+    "abilities": [
+     "run-away",
+     "early-bird",
+     "tangled-feet"
+    ],
+    "height_m": 1.8,
+    "weight_kg": 85.2
+   }
+  },
+  {
+   "showdown_id": "doduo",
+   "context": "follower",
+   "scope": "species",
+   "reason": "flightless_body_plan_no_usable_wings: Flying type with a legs body shape (flightless-bird plan); the front still shows no wings a flap track could honestly move",
+   "derived_from": {
+    "shape": "legs",
+    "domains": [
+     "land",
+     "air"
+    ],
+    "types": [
+     "Normal",
+     "Flying"
+    ],
+    "domains_key": "doduo",
+    "learns_fly": true,
+    "abilities": [
+     "run-away",
+     "early-bird",
+     "tangled-feet"
+    ],
+    "height_m": 1.4,
+    "weight_kg": 39.2
+   }
+  },
+  {
+   "showdown_id": "barbaraclemega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "chandeluremega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "chesnaughtmega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "chimechomega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "crabominablemega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "delphoxmega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "dragalgemega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "drampamega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "eelektrossmega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "eeveestarter",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "excadrillmega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "falinksmega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "floettemega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "glimmoramega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "golurkmega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "greninjamega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "hawluchamega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "inteleongmax",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "malamarmega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "meowsticfmega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "meowsticmmega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "pikachualola",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "pikachuhoenn",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "pikachukalos",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "pikachulibre",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "pikachuoriginal",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "pikachupopstar",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "pikachusinnoh",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "pikachustarter",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "pikachuunova",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "pokestarufo2",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "pyroarmega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "raichumegax",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "raichumegay",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "scolipedemega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "scovillainmega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "scraftymega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  },
+  {
+   "showdown_id": "staraptormega",
+   "context": "battle",
+   "scope": "slot",
+   "reason": "form_has_no_still_art_to_rig: form rows carry no PokeAPI stills; the verified front stays source-animated and the missing views cannot be derived from front art",
+   "missing_animated_slots": [
+    "back_normal",
+    "front_shiny",
+    "back_shiny"
+   ],
+   "derived_from": {}
+  }
+ ],
+ "counts": {
+  "follower_rigged": 550,
+  "battle_rigged": 14,
+  "escalated_total": 40
+ }
+}

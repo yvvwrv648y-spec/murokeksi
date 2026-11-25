@@ -1,0 +1,1943 @@
+{
+ "BirthIsland_Exterior": {
+  "BirthIsland_Exterior_EventScript_Triangle": [
+   "Text_MonFlewAway"
+  ]
+ },
+ "BirthIsland_Harbor": {
+  "BirthIsland_Harbor_EventScript_Sailor": [
+   "Text_WhereDoYouWantToSail",
+   "VermilionCity_Text_Seagallop7Departing",
+   "Text_AllAboardSeagallopNum"
+  ]
+ },
+ "FiveIsland": {
+  "FiveIsland_EventScript_BugCatcher": [
+   "FiveIsland_Text_WeirdBuildingInMeadow"
+  ],
+  "FiveIsland_EventScript_Fisher": [
+   "FiveIsland_Text_BeenGettingBusierAroundHere"
+  ],
+  "FiveIsland_EventScript_IslandSign": [
+   "FiveIsland_Text_IslandSign"
+  ]
+ },
+ "FiveIsland_Harbor": {
+  "FiveIsland_Harbor_EventScript_Sailor": [
+   "Text_WhereDoYouWantToSail"
+  ]
+ },
+ "FiveIsland_House1": {
+  "FiveIsland_House1_EventScript_Woman": [
+   "FiveIsland_House1_Text_HusbandWentOffFishing"
+  ]
+ },
+ "FiveIsland_House2": {
+  "FiveIsland_House2_EventScript_OldMan": [
+   "FiveIsland_House2_Text_MeadowBelongedToFamily"
+  ]
+ },
+ "FiveIsland_LostCave_Room1": {
+  "FiveIsland_LostCave_Room1_EventScript_Lawson": [
+   "FiveIsland_LostCave_Room1_Text_LawsonIntro",
+   "FiveIsland_LostCave_Room1_Text_LawsonDefeat",
+   "FiveIsland_LostCave_Room1_Text_LawsonPostBattle"
+  ]
+ },
+ "FiveIsland_LostCave_Room4": {
+  "FiveIsland_LostCave_Room4_EventScript_Laura": [
+   "FiveIsland_LostCave_Room4_Text_LauraIntro",
+   "FiveIsland_LostCave_Room4_Text_LauraDefeat",
+   "FiveIsland_LostCave_Room4_Text_LauraPostBattle"
+  ]
+ },
+ "FiveIsland_Meadow": {
+  "EventScript_CutTree": [
+   "Text_TreeCanBeCutDown",
+   "Text_CutTreeDown",
+   "Text_MonUsedMove"
+  ],
+  "FiveIsland_Meadow_EventScript_Rocket1": [
+   "FiveIsland_Meadow_Text_Rocket1Intro",
+   "FiveIsland_Meadow_Text_Rocket1Defeat",
+   "FiveIsland_Meadow_Text_Rocket1PostBattle"
+  ],
+  "FiveIsland_Meadow_EventScript_Rocket2": [
+   "FiveIsland_Meadow_Text_Rocket2Intro",
+   "FiveIsland_Meadow_Text_Rocket2Defeat",
+   "FiveIsland_Meadow_Text_Rocket2PostBattle"
+  ],
+  "FiveIsland_Meadow_EventScript_Rocket3": [
+   "FiveIsland_Meadow_Text_Rocket3Intro",
+   "FiveIsland_Meadow_Text_Rocket3Defeat",
+   "FiveIsland_Meadow_Text_Rocket3PostBattle"
+  ],
+  "FiveIsland_Meadow_EventScript_WarehouseDoor": [
+   "FiveIsland_Meadow_Text_WarehouseDoorAlreadyOpen",
+   "FiveIsland_Meadow_Text_EnteredPasswordDoorOpened",
+   "FiveIsland_Meadow_Text_EnteredPasswordAnotherNeeded"
+  ]
+ },
+ "FiveIsland_MemorialPillar": {
+  "FiveIsland_MemorialPillar_EventScript_Chaz": [
+   "FiveIsland_MemorialPillar_Text_ChazIntro",
+   "FiveIsland_MemorialPillar_Text_ChazDefeat",
+   "FiveIsland_MemorialPillar_Text_ChazRematchIntro",
+   "FiveIsland_MemorialPillar_Text_ChazPostBattle"
+  ],
+  "FiveIsland_MemorialPillar_EventScript_Harold": [
+   "FiveIsland_MemorialPillar_Text_HaroldIntro",
+   "FiveIsland_MemorialPillar_Text_HaroldDefeat",
+   "FiveIsland_MemorialPillar_Text_HaroldRematchIntro",
+   "FiveIsland_MemorialPillar_Text_HaroldPostBattle"
+  ],
+  "FiveIsland_MemorialPillar_EventScript_Memorial": [
+   "FiveIsland_MemorialPillar_Text_HereLiesTectonix",
+   "FiveIsland_MemorialPillar_Text_HereLiesTectonixLemonadeOffering",
+   "FiveIsland_MemorialPillar_Text_LeaveAnotherLemonadeOffering",
+   "FiveIsland_MemorialPillar_Text_PlacedCanOfLemonade",
+   "FiveIsland_MemorialPillar_Text_ThankYouPleaseTakeThis",
+   "FiveIsland_MemorialPillar_Text_DontHaveRoomForIt",
+   "FiveIsland_MemorialPillar_Text_BeGoodToYourMonsToo"
+  ],
+  "FiveIsland_MemorialPillar_EventScript_MemorialMan": [
+   "FiveIsland_MemorialPillar_Text_ScrubScrubTectonix",
+   "FiveIsland_MemorialPillar_Text_StillHaveThingAsMyThanks",
+   "FiveIsland_MemorialPillar_Text_DontHaveRoomForIt",
+   "FiveIsland_MemorialPillar_Text_BeGoodToYourMonsToo",
+   "FiveIsland_MemorialPillar_Text_ScrubScrub",
+   "FiveIsland_MemorialPillar_Text_YourMonsLookHealthy",
+   "FiveIsland_MemorialPillar_Text_ThisIsWhereIBuriedMyOnix"
+  ],
+  "FiveIsland_MemorialPillar_EventScript_Milo": [
+   "FiveIsland_MemorialPillar_Text_MiloIntro",
+   "FiveIsland_MemorialPillar_Text_MiloDefeat",
+   "FiveIsland_MemorialPillar_Text_MiloRematchIntro",
+   "FiveIsland_MemorialPillar_Text_MiloPostBattle"
+  ]
+ },
+ "FiveIsland_PokemonCenter_1F": {
+  "FiveIsland_PokemonCenter_1F_EventScript_Chef": [
+   "FiveIsland_PokemonCenter_1F_Text_OnMyWayToPrepareMeal"
+  ],
+  "FiveIsland_PokemonCenter_1F_EventScript_CooltrainerF": [
+   "FiveIsland_PokemonCenter_1F_Text_YoureOnQuestToCatchEveryMon"
+  ],
+  "FiveIsland_PokemonCenter_1F_EventScript_Nurse": [
+   "Text_WelcomeWantToHealPkmn",
+   "Text_TakeYourPkmnForFewSeconds",
+   "Text_WeHopeToSeeYouAgain"
+  ],
+  "FiveIsland_PokemonCenter_1F_EventScript_PokemonJournal": [
+   "PokemonJournal_Text_SpecialFeatureLorelei"
+  ]
+ },
+ "FiveIsland_PokemonCenter_2F": {
+  "Common_EventScript_DirectCornerAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_WelcomeWhichCableClubService",
+   "CableClub_Text_WelcomeWhichDirectCornerRoom",
+   "CableClub_Text_TradePokemon",
+   "CableClub_Text_PlayWhichBattleMode",
+   "CableClub_Text_UseBerryCrush",
+   "CableClub_Text_PleaseVisitAgain"
+  ],
+  "Common_EventScript_UnionRoomAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_UnionRoomAdapterNotConnected",
+   "CableClub_Text_WelcomeUnionRoomEnter",
+   "CableClub_Text_EnjoyUnionRoom",
+   "CableClub_Text_PleaseVisitAgain",
+   "CableClub_Text_UnionRoomInfo"
+  ],
+  "Common_EventScript_WirelessClubAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_AskAboutLinking",
+   "CableClub_Text_HopeYouEnjoyWirelessSystem",
+   "CableClub_Text_ExplainWirelessClub"
+  ]
+ },
+ "FiveIsland_ResortGorgeous": {
+  "FiveIsland_ResortGorgeous_EventScript_Celina": [
+   "FiveIsland_ResortGorgeous_Text_CelinaIntro",
+   "FiveIsland_ResortGorgeous_Text_CelinaDefeat",
+   "FiveIsland_ResortGorgeous_Text_CelinaRematchIntro",
+   "FiveIsland_ResortGorgeous_Text_CelinaPostBattle"
+  ],
+  "FiveIsland_ResortGorgeous_EventScript_Daisy": [
+   "FiveIsland_ResortGorgeous_Text_DaisyIntro",
+   "FiveIsland_ResortGorgeous_Text_DaisyDefeat",
+   "FiveIsland_ResortGorgeous_Text_DaisyRematchIntro",
+   "FiveIsland_ResortGorgeous_Text_DaisyPostBattle"
+  ],
+  "FiveIsland_ResortGorgeous_EventScript_Destin": [
+   "FiveIsland_ResortGorgeous_Text_DestinIntro",
+   "FiveIsland_ResortGorgeous_Text_DestinDefeat",
+   "FiveIsland_ResortGorgeous_Text_DestinRematchIntro",
+   "FiveIsland_ResortGorgeous_Text_DestinPostBattle"
+  ],
+  "FiveIsland_ResortGorgeous_EventScript_Gillian": [
+   "FiveIsland_ResortGorgeous_Text_GillianIntro",
+   "FiveIsland_ResortGorgeous_Text_GillianDefeat",
+   "FiveIsland_ResortGorgeous_Text_GillianRematchIntro",
+   "FiveIsland_ResortGorgeous_Text_GillianPostBattle"
+  ],
+  "FiveIsland_ResortGorgeous_EventScript_Jacki": [
+   "FiveIsland_ResortGorgeous_Text_JackiIntro",
+   "FiveIsland_ResortGorgeous_Text_JackiDefeat",
+   "FiveIsland_ResortGorgeous_Text_JackiRematchIntro",
+   "FiveIsland_ResortGorgeous_Text_JackiPostBattle"
+  ],
+  "FiveIsland_ResortGorgeous_EventScript_Rayna": [
+   "FiveIsland_ResortGorgeous_Text_RaynaIntro",
+   "FiveIsland_ResortGorgeous_Text_RaynaDefeat",
+   "FiveIsland_ResortGorgeous_Text_RaynaRematchIntro",
+   "FiveIsland_ResortGorgeous_Text_RaynaPostBattle"
+  ],
+  "FiveIsland_ResortGorgeous_EventScript_SelphysHouseSign": [
+   "FiveIsland_ResortGorgeous_Text_SelphysHouse"
+  ],
+  "FiveIsland_ResortGorgeous_EventScript_Toby": [
+   "FiveIsland_ResortGorgeous_Text_TobyIntro",
+   "FiveIsland_ResortGorgeous_Text_TobyDefeat",
+   "FiveIsland_ResortGorgeous_Text_TobyRematchIntro",
+   "FiveIsland_ResortGorgeous_Text_TobyPostBattle"
+  ]
+ },
+ "FiveIsland_ResortGorgeous_House": {
+  "FiveIsland_ResortGorgeous_House_EventScript_Butler": [
+   "FiveIsland_ResortGorgeous_House_Text_LadySelphySmileHasBrillianceOfSun"
+  ],
+  "FiveIsland_ResortGorgeous_House_EventScript_PokemonJournal": [
+   "PokemonJournal_Text_SpecialFeatureBlaine"
+  ],
+  "FiveIsland_ResortGorgeous_House_EventScript_Selphy": [
+   "FiveIsland_ResortGorgeous_House_Text_SelphyWishYouBestOfLuck",
+   "FiveIsland_ResortGorgeous_House_Text_OhImTiredOfWaiting",
+   "FiveIsland_ResortGorgeous_House_Text_WishToSeeMonPlease",
+   "FiveIsland_ResortGorgeous_House_Text_MonYouCaughtForMeThankYou",
+   "FiveIsland_ResortGorgeous_House_Text_ButlerYesMyLady",
+   "FiveIsland_ResortGorgeous_House_Text_SelphyGiveTokenOfAppreciation",
+   "FiveIsland_ResortGorgeous_House_Text_ButlerIShallDoAsYouBid",
+   "FiveIsland_ResortGorgeous_House_Text_ButlerPleaseAcceptThisAsHerThanks",
+   "FiveIsland_ResortGorgeous_House_Text_ButlerBagAppearsToBeFull",
+   "FiveIsland_ResortGorgeous_House_Text_OhHowDisappointing",
+   "FiveIsland_ResortGorgeous_House_Text_PleaseHearMyWish"
+  ]
+ },
+ "FiveIsland_RocketWarehouse": {
+  "FiveIsland_RocketWarehouse_EventScript_Admin1": [
+   "FiveIsland_RocketWarehouse_Text_Admin1Intro",
+   "FiveIsland_RocketWarehouse_Text_Admin1Defeat",
+   "FiveIsland_RocketWarehouse_Text_MadeItSoYouCanComeBackThrough"
+  ],
+  "FiveIsland_RocketWarehouse_EventScript_Admin2": [
+   "FiveIsland_RocketWarehouse_Text_Admin2Intro",
+   "FiveIsland_RocketWarehouse_Text_Admin2Defeat",
+   "FiveIsland_RocketWarehouse_Text_Admin2PostBattle"
+  ],
+  "FiveIsland_RocketWarehouse_EventScript_Cage": [
+   "FiveIsland_RocketWarehouse_Text_PenUnlockedMonsFled",
+   "FiveIsland_RocketWarehouse_Text_ManyMonsLockedInPen"
+  ],
+  "FiveIsland_RocketWarehouse_EventScript_Computer": [
+   "FiveIsland_RocketWarehouse_Text_ReportWithGraphsAndText"
+  ],
+  "FiveIsland_RocketWarehouse_EventScript_Gideon": [
+   "FiveIsland_RocketWarehouse_Text_GideonIntro",
+   "FiveIsland_RocketWarehouse_Text_GideonDefeat",
+   "FiveIsland_RocketWarehouse_Text_GiovannisKidHasRedHair",
+   "FiveIsland_RocketWarehouse_Text_GetLostLeaveMeBe"
+  ],
+  "FiveIsland_RocketWarehouse_EventScript_Grunt1": [
+   "FiveIsland_RocketWarehouse_Text_Grunt1Intro",
+   "FiveIsland_RocketWarehouse_Text_Grunt1Defeat",
+   "FiveIsland_RocketWarehouse_Text_Grunt1PostBattle"
+  ],
+  "FiveIsland_RocketWarehouse_EventScript_Grunt2": [
+   "FiveIsland_RocketWarehouse_Text_Grunt2Intro",
+   "FiveIsland_RocketWarehouse_Text_Grunt2Defeat",
+   "FiveIsland_RocketWarehouse_Text_Grunt2PostBattle"
+  ],
+  "FiveIsland_RocketWarehouse_EventScript_Grunt3": [
+   "FiveIsland_RocketWarehouse_Text_Grunt3Intro",
+   "FiveIsland_RocketWarehouse_Text_Grunt3Defeat",
+   "FiveIsland_RocketWarehouse_Text_Grunt3PostBattle"
+  ]
+ },
+ "FiveIsland_WaterLabyrinth": {
+  "FiveIsland_WaterLabyrinth_EventScript_Alize": [
+   "FiveIsland_WaterLabyrinth_Text_AlizeIntro",
+   "FiveIsland_WaterLabyrinth_Text_AlizeDefeat",
+   "FiveIsland_WaterLabyrinth_Text_AlizeRematchIntro",
+   "FiveIsland_WaterLabyrinth_Text_AlizePostBattle"
+  ],
+  "FiveIsland_WaterLabyrinth_EventScript_EggGentleman": [
+   "FiveIsland_WaterLabyrinth_Text_CuteMonRemindsMeOfDaisy",
+   "FiveIsland_WaterLabyrinth_Text_GladIMetSomeoneLikeYou",
+   "FiveIsland_WaterLabyrinth_Text_DontHaveSpaceInYourParty",
+   "FiveIsland_WaterLabyrinth_Text_ReceivedEggFromMan",
+   "FiveIsland_WaterLabyrinth_Text_LetMeTakeLookAtMons",
+   "FiveIsland_WaterLabyrinth_Text_TreatMonRightHaveThis",
+   "FiveIsland_WaterLabyrinth_Text_HmmISeeIsee"
+  ]
+ },
+ "FourIsland": {
+  "EventScript_RockSmash": [
+   "Text_MonMaySmashRock",
+   "Text_UseRockSmash",
+   "Text_MonUsedMove"
+  ],
+  "FourIsland_EventScript_DaycareMan": [
+   "DayCare_Text_DoYouWantEgg",
+   "DayCare_Text_ReceivedEgg",
+   "DayCare_Text_TakeGoodCareOfIt",
+   "DayCare_Text_YouHaveNoRoomForIt",
+   "DayCare_Text_IWillKeepDoYouWantIt",
+   "DayCare_Text_IllKeepIt",
+   "DayCare_Text_YourMonIsDoingFine",
+   "DayCare_Text_YourMonsAreDoingFine",
+   "DayCare_Text_ImDaycareManSpeakToMyWife"
+  ],
+  "FourIsland_EventScript_FatMan": [
+   "FourIsland_Text_MadeSlushieUsingIcefallCaveIce"
+  ],
+  "FourIsland_EventScript_IslandSign": [
+   "FourIsland_Text_IslandSign"
+  ],
+  "FourIsland_EventScript_LittleGirl": [
+   "FourIsland_Text_LoreleiHasLotsOfStuffedDolls"
+  ],
+  "FourIsland_EventScript_LoreleisHouseSign": [
+   "FourIsland_Text_LoreleisHouse"
+  ],
+  "FourIsland_EventScript_OldWoman": [
+   "FourIsland_Text_LoreleiMetLaprasAsChild",
+   "FourIsland_Text_LoreleiHasReturned"
+  ]
+ },
+ "FourIsland_Harbor": {
+  "FourIsland_Harbor_EventScript_Sailor": [
+   "Text_WhereDoYouWantToSail"
+  ]
+ },
+ "FourIsland_House1": {
+  "FourIsland_House1_EventScript_BodySlamTutor": [
+   "Text_BodySlamTaught",
+   "Text_BodySlamTeach",
+   "Text_BodySlamDeclined",
+   "Text_MoveCanOnlyBeLearnedOnce",
+   "Text_BodySlamWhichMon"
+  ],
+  "FourIsland_House1_EventScript_FatMan": [
+   "FourIsland_House1_Text_YoureAwfullyHeavy"
+  ]
+ },
+ "FourIsland_House2": {
+  "FourIsland_House2_EventScript_StickerMan": [
+   "FourIsland_House2_Text_WishICouldShowOffStickers",
+   "FourIsland_House2_Text_GiveYouStickerIfYouBrag",
+   "FourIsland_House2_Text_BragAboutSomethingForMe",
+   "FourIsland_House2_Text_BragAboutWhatToday"
+  ]
+ },
+ "FourIsland_IcefallCave_Back": {
+  "FourIsland_IcefallCave_Back_EventScript_Lorelei": [
+   "FourIsland_IcefallCave_Back_Text_ThankYouThisIsAwful"
+  ]
+ },
+ "FourIsland_LoreleisHouse": {
+  "FourIsland_LoreleisHouse_EventScript_Doll": [
+   "FourIsland_LoreleisHouse_Text_StuffedMonDollsGalore"
+  ],
+  "FourIsland_LoreleisHouse_EventScript_Lorelei": [
+   "FourIsland_LoreleisHouse_Text_WillDoWhatICanHereAndNow",
+   "FourIsland_LoreleisHouse_Text_IllReturnToLeagueInShortWhile",
+   "FourIsland_LoreleisHouse_Text_IfAnythingWereToHappenToIsland"
+  ]
+ },
+ "FourIsland_Mart": {
+  "FourIsland_Mart_EventScript_Camper": [
+   "FourIsland_Mart_Text_IcefallCaveIsFrigid"
+  ],
+  "FourIsland_Mart_EventScript_Clerk": [
+   "Text_MayIHelpYou",
+   "Text_PleaseComeAgain"
+  ],
+  "FourIsland_Mart_EventScript_OldMan": [
+   "FourIsland_Mart_Text_LoreleiGrewUpOnThisIsland"
+  ]
+ },
+ "FourIsland_PokemonCenter_1F": {
+  "FourIsland_PokemonCenter_1F_EventScript_Gentleman": [
+   "FourIsland_PokemonCenter_1F_Text_NewPokemonJournalHasntArrived"
+  ],
+  "FourIsland_PokemonCenter_1F_EventScript_Man": [
+   "FourIsland_PokemonCenter_1F_Text_RareIceMonsInCave"
+  ],
+  "FourIsland_PokemonCenter_1F_EventScript_Nurse": [
+   "Text_WelcomeWantToHealPkmn",
+   "Text_TakeYourPkmnForFewSeconds",
+   "Text_WeHopeToSeeYouAgain"
+  ],
+  "FourIsland_PokemonCenter_1F_EventScript_PokemonJournal": [
+   "PokemonJournal_Text_SpecialFeatureDaisyOak"
+  ],
+  "FourIsland_PokemonCenter_1F_EventScript_Woman": [
+   "FourIsland_PokemonCenter_1F_Text_DayCarePeopleFoundEggBefore"
+  ]
+ },
+ "FourIsland_PokemonCenter_2F": {
+  "Common_EventScript_DirectCornerAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_WelcomeWhichCableClubService",
+   "CableClub_Text_WelcomeWhichDirectCornerRoom",
+   "CableClub_Text_TradePokemon",
+   "CableClub_Text_PlayWhichBattleMode",
+   "CableClub_Text_UseBerryCrush",
+   "CableClub_Text_PleaseVisitAgain"
+  ],
+  "Common_EventScript_UnionRoomAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_UnionRoomAdapterNotConnected",
+   "CableClub_Text_WelcomeUnionRoomEnter",
+   "CableClub_Text_EnjoyUnionRoom",
+   "CableClub_Text_PleaseVisitAgain",
+   "CableClub_Text_UnionRoomInfo"
+  ],
+  "Common_EventScript_WirelessClubAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_AskAboutLinking",
+   "CableClub_Text_HopeYouEnjoyWirelessSystem",
+   "CableClub_Text_ExplainWirelessClub"
+  ]
+ },
+ "FourIsland_PokemonDayCare": {
+  "FourIsland_PokemonDayCare_EventScript_DaycareWoman": [
+   "DayCare_Text_HusbandWasLookingForYou",
+   "DayCare_Text_GoodToSeeYou",
+   "DayCare_Text_YourMonHasGrownXLevels",
+   "DayCare_Text_WeCanRaiseOneMore",
+   "DayCare_Text_YouHaveJustOneMon",
+   "DayCare_Text_WhichMonShouldWeRaise",
+   "DayCare_Text_ComeAgain",
+   "DayCare_Text_WhatWillYouBattleWith",
+   "DayCare_Text_WellRaiseYourMon",
+   "DayCare_Text_TakeYourMonBack",
+   "DayCare_Text_YourPartyIsFull",
+   "DayCare_Text_ItWillCostX",
+   "DayCare_Text_WouldYouLikeUsToRaiseMon",
+   "DayCare_Text_FineThenComeAgain"
+  ]
+ },
+ "MtEmber_Exterior": {
+  "EventScript_RockSmash": [
+   "Text_MonMaySmashRock",
+   "Text_UseRockSmash",
+   "Text_MonUsedMove"
+  ],
+  "EventScript_StrengthBoulder": [
+   "Text_MonMayPushBoulder",
+   "Text_StrengthMadeMovingBouldersPossible",
+   "Text_UseStrength",
+   "Text_MonUsedStrengthCanMoveBoulders"
+  ],
+  "MtEmber_Exterior_EventScript_Beth": [
+   "MtEmber_Exterior_Text_BethIntro",
+   "MtEmber_Exterior_Text_BethDefeat",
+   "MtEmber_Exterior_Text_BethPostBattle"
+  ],
+  "MtEmber_Exterior_EventScript_ExplosionTutor": [
+   "Text_ExplosionTaught",
+   "Text_ExplosionTeach",
+   "Text_ExplosionDeclined",
+   "Text_MoveCanOnlyBeLearnedOnce",
+   "Text_ExplosionWhichMon"
+  ],
+  "MtEmber_Exterior_EventScript_Grunt1": [
+   "MtEmber_Exterior_Text_Grunt1PostBattle",
+   "MtEmber_Exterior_Text_Grunt1Intro",
+   "MtEmber_Exterior_Text_Grunt1Defeat",
+   "MtEmber_Exterior_Text_WellRegroupDontStepInsideThere",
+   "MtEmber_Exterior_Text_WellTryDiggingHere"
+  ],
+  "MtEmber_Exterior_EventScript_Grunt2": [
+   "MtEmber_Exterior_Text_Grunt2PostBattle",
+   "MtEmber_Exterior_Text_Grunt2Intro",
+   "MtEmber_Exterior_Text_Grunt2Defeat",
+   "MtEmber_Exterior_Text_WellRegroupDontStepInsideThere",
+   "MtEmber_Exterior_Text_YoureInTheWayGetLost"
+  ],
+  "MtEmber_Exterior_EventScript_Jocelyn": [
+   "MtEmber_Exterior_Text_JocelynIntro",
+   "MtEmber_Exterior_Text_JocelynDefeat",
+   "MtEmber_Exterior_Text_JocelynPostBattle"
+  ],
+  "MtEmber_Exterior_EventScript_Logan": [
+   "MtEmber_Exterior_Text_LoganIntro",
+   "MtEmber_Exterior_Text_LoganDefeat",
+   "MtEmber_Exterior_Text_LoganPostBattle"
+  ]
+ },
+ "MtEmber_RubyPath_1F": {
+  "EventScript_RockSmash": [
+   "Text_MonMaySmashRock",
+   "Text_UseRockSmash",
+   "Text_MonUsedMove"
+  ]
+ },
+ "MtEmber_RubyPath_B1F": {
+  "EventScript_RockSmash": [
+   "Text_MonMaySmashRock",
+   "Text_UseRockSmash",
+   "Text_MonUsedMove"
+  ]
+ },
+ "MtEmber_RubyPath_B1F_Stairs": {
+  "EventScript_RockSmash": [
+   "Text_MonMaySmashRock",
+   "Text_UseRockSmash",
+   "Text_MonUsedMove"
+  ]
+ },
+ "MtEmber_RubyPath_B2F": {
+  "EventScript_RockSmash": [
+   "Text_MonMaySmashRock",
+   "Text_UseRockSmash",
+   "Text_MonUsedMove"
+  ],
+  "EventScript_StrengthBoulder": [
+   "Text_MonMayPushBoulder",
+   "Text_StrengthMadeMovingBouldersPossible",
+   "Text_UseStrength",
+   "Text_MonUsedStrengthCanMoveBoulders"
+  ]
+ },
+ "MtEmber_RubyPath_B2F_Stairs": {
+  "EventScript_RockSmash": [
+   "Text_MonMaySmashRock",
+   "Text_UseRockSmash",
+   "Text_MonUsedMove"
+  ]
+ },
+ "MtEmber_RubyPath_B3F": {
+  "EventScript_RockSmash": [
+   "Text_MonMaySmashRock",
+   "Text_UseRockSmash",
+   "Text_MonUsedMove"
+  ],
+  "EventScript_StrengthBoulder": [
+   "Text_MonMayPushBoulder",
+   "Text_StrengthMadeMovingBouldersPossible",
+   "Text_UseStrength",
+   "Text_MonUsedStrengthCanMoveBoulders"
+  ]
+ },
+ "MtEmber_RubyPath_B4F": {
+  "MtEmber_RubyPath_B4F_EventScript_BrailleABC": [
+   "Braille_Text_ABC"
+  ],
+  "MtEmber_RubyPath_B4F_EventScript_BrailleComma": [
+   "Braille_Text_Comma"
+  ],
+  "MtEmber_RubyPath_B4F_EventScript_BrailleDEF": [
+   "Braille_Text_DEF"
+  ],
+  "MtEmber_RubyPath_B4F_EventScript_BrailleGHI": [
+   "Braille_Text_GHI"
+  ],
+  "MtEmber_RubyPath_B4F_EventScript_BrailleJKL": [
+   "Braille_Text_JKL"
+  ],
+  "MtEmber_RubyPath_B4F_EventScript_BrailleMNO": [
+   "Braille_Text_MNO"
+  ],
+  "MtEmber_RubyPath_B4F_EventScript_BraillePQRS": [
+   "Braille_Text_PQRS"
+  ],
+  "MtEmber_RubyPath_B4F_EventScript_BraillePeriod": [
+   "Braille_Text_Period"
+  ],
+  "MtEmber_RubyPath_B4F_EventScript_BrailleTUV": [
+   "Braille_Text_TUV"
+  ],
+  "MtEmber_RubyPath_B4F_EventScript_BrailleWXYZ": [
+   "Braille_Text_WXYZ"
+  ]
+ },
+ "MtEmber_RubyPath_B5F": {
+  "MtEmber_RubyPath_B5F_EventScript_BrailleMessage": [
+   "Braille_Text_UsePower"
+  ]
+ },
+ "MtEmber_Summit": {
+  "EventScript_StrengthBoulder": [
+   "Text_MonMayPushBoulder",
+   "Text_StrengthMadeMovingBouldersPossible",
+   "Text_UseStrength",
+   "Text_MonUsedStrengthCanMoveBoulders"
+  ],
+  "MtEmber_Summit_EventScript_Moltres": [
+   "Text_Gyaoo",
+   "Text_MonFlewAway"
+  ]
+ },
+ "MtEmber_SummitPath_2F": {
+  "EventScript_RockSmash": [
+   "Text_MonMaySmashRock",
+   "Text_UseRockSmash",
+   "Text_MonUsedMove"
+  ]
+ },
+ "NavelRock_Base": {
+  "NavelRock_Base_EventScript_Lugia": [
+   "Text_MonFlewAway"
+  ]
+ },
+ "NavelRock_Harbor": {
+  "NavelRock_Harbor_EventScript_Sailor": [
+   "Text_WhereDoYouWantToSail",
+   "VermilionCity_Text_Seagallop7Departing",
+   "Text_AllAboardSeagallopNum"
+  ]
+ },
+ "OneIsland": {
+  "OneIsland_EventScript_BaldingMan": [
+   "OneIsland_Text_IsntWarmClimateHereGreat"
+  ],
+  "OneIsland_EventScript_IslandSign": [
+   "OneIsland_Text_IslandSign"
+  ],
+  "OneIsland_EventScript_OldMan": [
+   "OneIsland_Text_HavePCLinkageWithHoenn",
+   "OneIsland_Text_HavePCLinkageWithKanto",
+   "OneIsland_Text_LuckyToHaveCelioHere"
+  ],
+  "OneIsland_EventScript_PokemonNetCenterSign": [
+   "OneIsland_Text_PokemonNetCenterSign"
+  ]
+ },
+ "OneIsland_Harbor": {
+  "OneIsland_Harbor_EventScript_Sailor": [
+   "Text_WhereDoYouWantToSail"
+  ]
+ },
+ "OneIsland_House1": {
+  "OneIsland_House1_EventScript_OldMan": [
+   "OneIsland_House1_Text_GazeUponVolcanoOnSunnyDays"
+  ],
+  "OneIsland_House1_EventScript_OldWoman": [
+   "OneIsland_House1_Text_LastTimeMtEmberErupted"
+  ]
+ },
+ "OneIsland_House2": {
+  "OneIsland_House2_EventScript_Lass": [
+   "OneIsland_House2_Text_IWantToStayHereForever"
+  ]
+ },
+ "OneIsland_KindleRoad": {
+  "EventScript_RockSmash": [
+   "Text_MonMaySmashRock",
+   "Text_UseRockSmash",
+   "Text_MonUsedMove"
+  ],
+  "OneIsland_KindleRoad_EventScript_Abigail": [
+   "OneIsland_KindleRoad_Text_AbigailIntro",
+   "OneIsland_KindleRoad_Text_AbigailDefeat",
+   "OneIsland_KindleRoad_Text_AbigailRematchIntro",
+   "OneIsland_KindleRoad_Text_AbigailPostBattle"
+  ],
+  "OneIsland_KindleRoad_EventScript_Bryce": [
+   "OneIsland_KindleRoad_Text_BryceIntro",
+   "OneIsland_KindleRoad_Text_BryceDefeat",
+   "OneIsland_KindleRoad_Text_BryceRematchIntro",
+   "OneIsland_KindleRoad_Text_BrycePostBattle"
+  ],
+  "OneIsland_KindleRoad_EventScript_Claire": [
+   "OneIsland_KindleRoad_Text_ClaireIntro",
+   "OneIsland_KindleRoad_Text_ClaireDefeat",
+   "OneIsland_KindleRoad_Text_ClaireRematchIntro",
+   "OneIsland_KindleRoad_Text_ClairePostBattle"
+  ],
+  "OneIsland_KindleRoad_EventScript_EmberSpaSign": [
+   "OneIsland_KindleRoad_Text_EmberSpaSign"
+  ],
+  "OneIsland_KindleRoad_EventScript_Finn": [
+   "OneIsland_KindleRoad_Text_FinnIntro",
+   "OneIsland_KindleRoad_Text_FinnDefeat",
+   "OneIsland_KindleRoad_Text_FinnRematchIntro",
+   "OneIsland_KindleRoad_Text_FinnPostBattle"
+  ],
+  "OneIsland_KindleRoad_EventScript_Garrett": [
+   "OneIsland_KindleRoad_Text_GarrettIntro",
+   "OneIsland_KindleRoad_Text_GarrettDefeat",
+   "OneIsland_KindleRoad_Text_GarrettRematchIntro",
+   "OneIsland_KindleRoad_Text_GarrettPostBattle"
+  ],
+  "OneIsland_KindleRoad_EventScript_Hugh": [
+   "OneIsland_KindleRoad_Text_HughIntro",
+   "OneIsland_KindleRoad_Text_HughDefeat",
+   "OneIsland_KindleRoad_Text_HughRematchIntro",
+   "OneIsland_KindleRoad_Text_HughPostBattle"
+  ],
+  "OneIsland_KindleRoad_EventScript_Kia": [
+   "OneIsland_KindleRoad_Text_KiaIntro",
+   "OneIsland_KindleRoad_Text_KiaDefeat",
+   "OneIsland_KindleRoad_Text_KiaNotEnoughMons",
+   "OneIsland_KindleRoad_Text_KiaRematchIntro",
+   "OneIsland_KindleRoad_Text_KiaPostBattle"
+  ],
+  "OneIsland_KindleRoad_EventScript_Maria": [
+   "OneIsland_KindleRoad_Text_MariaIntro",
+   "OneIsland_KindleRoad_Text_MariaDefeat",
+   "OneIsland_KindleRoad_Text_MariaRematchIntro",
+   "OneIsland_KindleRoad_Text_MariaPostBattle"
+  ],
+  "OneIsland_KindleRoad_EventScript_Mik": [
+   "OneIsland_KindleRoad_Text_MikIntro",
+   "OneIsland_KindleRoad_Text_MikDefeat",
+   "OneIsland_KindleRoad_Text_MikNotEnoughMons",
+   "OneIsland_KindleRoad_Text_MikRematchIntro",
+   "OneIsland_KindleRoad_Text_MikPostBattle"
+  ],
+  "OneIsland_KindleRoad_EventScript_RouteSign": [
+   "OneIsland_KindleRoad_Text_RouteSign"
+  ],
+  "OneIsland_KindleRoad_EventScript_Sharon": [
+   "OneIsland_KindleRoad_Text_SharonIntro",
+   "OneIsland_KindleRoad_Text_SharonDefeat",
+   "OneIsland_KindleRoad_Text_SharonRematchIntro",
+   "OneIsland_KindleRoad_Text_SharonPostBattle"
+  ],
+  "OneIsland_KindleRoad_EventScript_Shea": [
+   "OneIsland_KindleRoad_Text_SheaIntro",
+   "OneIsland_KindleRoad_Text_SheaDefeat",
+   "OneIsland_KindleRoad_Text_SheaRematchIntro",
+   "OneIsland_KindleRoad_Text_SheaPostBattle"
+  ],
+  "OneIsland_KindleRoad_EventScript_Tanya": [
+   "OneIsland_KindleRoad_Text_TanyaIntro",
+   "OneIsland_KindleRoad_Text_TanyaDefeat",
+   "OneIsland_KindleRoad_Text_TanyaRematchIntro",
+   "OneIsland_KindleRoad_Text_TanyaPostBattle"
+  ],
+  "OneIsland_KindleRoad_EventScript_Tommy": [
+   "OneIsland_KindleRoad_Text_TommyIntro",
+   "OneIsland_KindleRoad_Text_TommyDefeat",
+   "OneIsland_KindleRoad_Text_TommyRematchIntro",
+   "OneIsland_KindleRoad_Text_TommyPostBattle"
+  ]
+ },
+ "OneIsland_KindleRoad_EmberSpa": {
+  "OneIsland_KindleRoad_EmberSpa_EventScript_BaldingMan1": [
+   "OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder"
+  ],
+  "OneIsland_KindleRoad_EmberSpa_EventScript_BaldingMan2": [
+   "OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic"
+  ],
+  "OneIsland_KindleRoad_EmberSpa_EventScript_BlackBelt": [
+   "OneIsland_KindleRoad_EmberSpa_Text_BrunoVisitsSpaOnOccasion"
+  ],
+  "OneIsland_KindleRoad_EmberSpa_EventScript_OldMan": [
+   "OneIsland_KindleRoad_EmberSpa_Text_WaterWarmsMeToCore"
+  ],
+  "OneIsland_KindleRoad_EmberSpa_EventScript_OldWoman": [
+   "OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs"
+  ],
+  "OneIsland_KindleRoad_EmberSpa_EventScript_RockSmashMan": [
+   "OneIsland_KindleRoad_EmberSpa_Text_ExplainHM06",
+   "OneIsland_KindleRoad_EmberSpa_Text_UsedThisToMakeEmberSpa"
+  ]
+ },
+ "OneIsland_PokemonCenter_1F": {
+  "OneIsland_PokemonCenter_1F_EventScript_Bill": [
+   "OneIsland_PokemonCenter_1F_Text_GotPCWorkingStrollAWhileMore",
+   "OneIsland_PokemonCenter_1F_Text_HmmHowAboutLikeThis"
+  ],
+  "OneIsland_PokemonCenter_1F_EventScript_Celio": [
+   "OneIsland_PokemonCenter_1F_Text_CelioHearingRumorsAboutYou",
+   "OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra",
+   "OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod",
+   "OneIsland_PokemonCenter_1F_Text_BillCantStomachMilk",
+   "OneIsland_PokemonCenter_1F_Text_WishYouBestOfLuck",
+   "OneIsland_PokemonCenter_1F_Text_HandedSapphireToCelio",
+   "OneIsland_PokemonCenter_1F_Text_ThankYouGiveMeTime",
+   "OneIsland_PokemonCenter_1F_Text_OkayThisIsGood",
+   "OneIsland_PokemonCenter_1F_Text_LinkedUpWithLanette",
+   "OneIsland_PokemonCenter_1F_Text_ManagedToLinkWithHoennThankYou",
+   "OneIsland_PokemonCenter_1F_Text_PassLetYouGetToAllIslands",
+   "OneIsland_PokemonCenter_1F_Text_OhThats",
+   "OneIsland_PokemonCenter_1F_Text_HandedRubyToCelio",
+   "OneIsland_PokemonCenter_1F_Text_MayIAskOneMoreFavor",
+   "OneIsland_PokemonCenter_1F_Text_PleaseINeedYourHelp",
+   "OneIsland_PokemonCenter_1F_Text_AnotherGemstoneInSeviiIslands",
+   "OneIsland_PokemonCenter_1F_Text_ReturnedTriPassForRainbowPass",
+   "OneIsland_PokemonCenter_1F_Text_ObtainedExtraMapPage",
+   "OneIsland_PokemonCenter_1F_Text_TryingToFindGem",
+   "OneIsland_PokemonCenter_1F_Text_CelioCaughtMoreMonMaybeICanBeUseful",
+   "OneIsland_PokemonCenter_1F_Text_YoullBeTradingFromTrainersFarAway",
+   "OneIsland_PokemonCenter_1F_Text_NeedsSpecialGemstone",
+   "OneIsland_PokemonCenter_1F_Text_CelioImModifyingMyNetworkMachine",
+   "OneIsland_PokemonCenter_1F_Text_SorryForBeingPoorHost"
+  ],
+  "OneIsland_PokemonCenter_1F_EventScript_CrushGirl": [
+   "OneIsland_PokemonCenter_1F_Text_TradedWithFarAwayBoyfriend",
+   "OneIsland_PokemonCenter_1F_Text_WishICouldTradeWithBoyfriend"
+  ],
+  "OneIsland_PokemonCenter_1F_EventScript_Hiker": [
+   "OneIsland_PokemonCenter_1F_Text_EnormousVolcanoOnIsland"
+  ],
+  "OneIsland_PokemonCenter_1F_EventScript_LittleBoy": [
+   "OneIsland_PokemonCenter_1F_Text_CameFromPalletDontKnowIt"
+  ],
+  "OneIsland_PokemonCenter_1F_EventScript_NetworkMachine": [
+   "OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKantoAndHoenn",
+   "OneIsland_PokemonCenter_1F_Text_MachineLinkedWithKanto",
+   "OneIsland_PokemonCenter_1F_Text_MachineUnderAdjustment"
+  ],
+  "OneIsland_PokemonCenter_1F_EventScript_Nurse": [
+   "Text_WelcomeWantToHealPkmn",
+   "Text_TakeYourPkmnForFewSeconds",
+   "Text_WeHopeToSeeYouAgain"
+  ]
+ },
+ "OneIsland_PokemonCenter_2F": {
+  "Common_EventScript_DirectCornerAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_WelcomeWhichCableClubService",
+   "CableClub_Text_WelcomeWhichDirectCornerRoom",
+   "CableClub_Text_TradePokemon",
+   "CableClub_Text_PlayWhichBattleMode",
+   "CableClub_Text_UseBerryCrush",
+   "CableClub_Text_PleaseVisitAgain"
+  ],
+  "Common_EventScript_UnionRoomAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_UnionRoomAdapterNotConnected",
+   "CableClub_Text_WelcomeUnionRoomEnter",
+   "CableClub_Text_EnjoyUnionRoom",
+   "CableClub_Text_PleaseVisitAgain",
+   "CableClub_Text_UnionRoomInfo"
+  ],
+  "Common_EventScript_WirelessClubAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_AskAboutLinking",
+   "CableClub_Text_HopeYouEnjoyWirelessSystem",
+   "CableClub_Text_ExplainWirelessClub"
+  ]
+ },
+ "OneIsland_TreasureBeach": {
+  "OneIsland_TreasureBeach_EventScript_Amara": [
+   "OneIsland_TreasureBeach_Text_AmaraIntro",
+   "OneIsland_TreasureBeach_Text_AmaraDefeat",
+   "OneIsland_TreasureBeach_Text_AmaraRematchIntro",
+   "OneIsland_TreasureBeach_Text_AmaraPostBattle"
+  ],
+  "OneIsland_TreasureBeach_EventScript_Boy": [
+   "OneIsland_TreasureBeach_Text_GoodThingsWashUpOnBeach"
+  ]
+ },
+ "SevenIsland": {
+  "SevenIsland_EventScript_IslandSign": [
+   "SevenIsland_Text_IslandSign"
+  ],
+  "SevenIsland_EventScript_OldWoman": [
+   "SevenIsland_Text_IslandsMadeInSevenDays"
+  ],
+  "SevenIsland_EventScript_Scientist": [
+   "SevenIsland_Text_IslandVirtuallyUntouched"
+  ],
+  "SevenIsland_EventScript_SwordsDanceTutor": [
+   "Text_SwordsDanceTaught",
+   "Text_SwordsDanceTeach",
+   "Text_SwordsDanceDeclined",
+   "Text_MoveCanOnlyBeLearnedOnce",
+   "Text_SwordsDanceWhichMon"
+  ]
+ },
+ "SevenIsland_Harbor": {
+  "SevenIsland_Harbor_EventScript_Sailor": [
+   "Text_WhereDoYouWantToSail"
+  ]
+ },
+ "SevenIsland_House_Room1": {
+  "SevenIsland_House_Room1_EventScript_Box": [
+   "SevenIsland_House_Room1_Text_SlightBreezeAroundBox"
+  ],
+  "SevenIsland_House_Room1_EventScript_OldWoman": [
+   "SevenIsland_House_Room1_Text_OnlyEnjoymentWatchingBattles",
+   "SevenIsland_House_Room1_Text_ChallengeVisitingTrainer",
+   "SevenIsland_House_Room1_Text_OhYouWontBattle",
+   "SevenIsland_House_Room1_Text_LimitThreeMonsPerSide",
+   "SevenIsland_House_Room1_Text_SaveProgressBeforeBattle",
+   "SevenIsland_House_Room1_Text_DontHoldAnythingBack"
+  ]
+ },
+ "SevenIsland_Mart": {
+  "SevenIsland_Mart_EventScript_Clerk": [
+   "Text_MayIHelpYou",
+   "Text_PleaseComeAgain"
+  ],
+  "SevenIsland_Mart_EventScript_Fisher": [
+   "SevenIsland_Mart_Text_NeedToFishOnSevenIsland"
+  ],
+  "SevenIsland_Mart_EventScript_Hiker": [
+   "SevenIsland_Mart_Text_PreparationsCompleteForRuins"
+  ],
+  "SevenIsland_Mart_EventScript_Lass": [
+   "SevenIsland_Mart_Text_MonHavePersonalitiesOfTheirOwn"
+  ]
+ },
+ "SevenIsland_PokemonCenter_1F": {
+  "SevenIsland_PokemonCenter_1F_EventScript_Beauty": [
+   "SevenIsland_PokemonCenter_1F_Text_CheckOutTrainerTower"
+  ],
+  "SevenIsland_PokemonCenter_1F_EventScript_Nurse": [
+   "Text_WelcomeWantToHealPkmn",
+   "Text_TakeYourPkmnForFewSeconds",
+   "Text_WeHopeToSeeYouAgain"
+  ],
+  "SevenIsland_PokemonCenter_1F_EventScript_OldMan": [
+   "SevenIsland_PokemonCenter_1F_Text_EventsDependingOnConnections"
+  ],
+  "SevenIsland_PokemonCenter_1F_EventScript_PokemonJournal": [
+   "PokemonJournal_Text_SpecialFeatureAgatha"
+  ],
+  "SevenIsland_PokemonCenter_1F_EventScript_Sailor": [
+   "SevenIsland_PokemonCenter_1F_Text_DidYouRideSeagallopHere"
+  ]
+ },
+ "SevenIsland_PokemonCenter_2F": {
+  "Common_EventScript_DirectCornerAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_WelcomeWhichCableClubService",
+   "CableClub_Text_WelcomeWhichDirectCornerRoom",
+   "CableClub_Text_TradePokemon",
+   "CableClub_Text_PlayWhichBattleMode",
+   "CableClub_Text_UseBerryCrush",
+   "CableClub_Text_PleaseVisitAgain"
+  ],
+  "Common_EventScript_UnionRoomAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_UnionRoomAdapterNotConnected",
+   "CableClub_Text_WelcomeUnionRoomEnter",
+   "CableClub_Text_EnjoyUnionRoom",
+   "CableClub_Text_PleaseVisitAgain",
+   "CableClub_Text_UnionRoomInfo"
+  ],
+  "Common_EventScript_WirelessClubAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_AskAboutLinking",
+   "CableClub_Text_HopeYouEnjoyWirelessSystem",
+   "CableClub_Text_ExplainWirelessClub"
+  ]
+ },
+ "SevenIsland_SevaultCanyon": {
+  "EventScript_RockSmash": [
+   "Text_MonMaySmashRock",
+   "Text_UseRockSmash",
+   "Text_MonUsedMove"
+  ],
+  "EventScript_StrengthBoulder": [
+   "Text_MonMayPushBoulder",
+   "Text_StrengthMadeMovingBouldersPossible",
+   "Text_UseStrength",
+   "Text_MonUsedStrengthCanMoveBoulders"
+  ],
+  "SevenIsland_SevaultCanyon_EventScript_BlackBelt": [
+   "SevenIsland_SevaultCanyon_Text_BrunoTrainedWithBrawly"
+  ],
+  "SevenIsland_SevaultCanyon_EventScript_Cyndy": [
+   "SevenIsland_SevaultCanyon_Text_CyndyIntro",
+   "SevenIsland_SevaultCanyon_Text_CyndyDefeat",
+   "SevenIsland_SevaultCanyon_Text_CyndyRematchIntro",
+   "SevenIsland_SevaultCanyon_Text_CyndyPostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_EventScript_Evan": [
+   "SevenIsland_SevaultCanyon_Text_EvanIntro",
+   "SevenIsland_SevaultCanyon_Text_EvanDefeat",
+   "SevenIsland_SevaultCanyon_Text_EvanRematchIntro",
+   "SevenIsland_SevaultCanyon_Text_EvanPostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_EventScript_Jackson": [
+   "SevenIsland_SevaultCanyon_Text_JacksonIntro",
+   "SevenIsland_SevaultCanyon_Text_JacksonDefeat",
+   "SevenIsland_SevaultCanyon_Text_JacksonRematchIntro",
+   "SevenIsland_SevaultCanyon_Text_JacksonPostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_EventScript_Katelyn": [
+   "SevenIsland_SevaultCanyon_Text_KatelynIntro",
+   "SevenIsland_SevaultCanyon_Text_KatelynDefeat",
+   "SevenIsland_SevaultCanyon_Text_KatelynRematchIntro",
+   "SevenIsland_SevaultCanyon_Text_KatelynPostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_EventScript_Leroy": [
+   "SevenIsland_SevaultCanyon_Text_LeroyIntro",
+   "SevenIsland_SevaultCanyon_Text_LeroyDefeat",
+   "SevenIsland_SevaultCanyon_Text_LeroyRematchIntro",
+   "SevenIsland_SevaultCanyon_Text_LeroyPostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_EventScript_Lex": [
+   "SevenIsland_SevaultCanyon_Text_LexIntro",
+   "SevenIsland_SevaultCanyon_Text_LexDefeat",
+   "SevenIsland_SevaultCanyon_Text_LexNotEnoughMons",
+   "SevenIsland_SevaultCanyon_Text_LexRematchIntro",
+   "SevenIsland_SevaultCanyon_Text_LexPostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_EventScript_Michelle": [
+   "SevenIsland_SevaultCanyon_Text_MichelleIntro",
+   "SevenIsland_SevaultCanyon_Text_MichelleDefeat",
+   "SevenIsland_SevaultCanyon_Text_MichelleRematchIntro",
+   "SevenIsland_SevaultCanyon_Text_MichellePostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_EventScript_Nya": [
+   "SevenIsland_SevaultCanyon_Text_NyaIntro",
+   "SevenIsland_SevaultCanyon_Text_NyaDefeat",
+   "SevenIsland_SevaultCanyon_Text_NyaNotEnoughMons",
+   "SevenIsland_SevaultCanyon_Text_NyaRematchIntro",
+   "SevenIsland_SevaultCanyon_Text_NyaPostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_EventScript_RouteSign": [
+   "SevenIsland_SevaultCanyon_Text_RouteSign"
+  ]
+ },
+ "SevenIsland_SevaultCanyon_Entrance": {
+  "SevenIsland_SevaultCanyon_Entrance_EventScript_Eve": [
+   "SevenIsland_SevaultCanyon_Entrance_Text_EveIntro",
+   "SevenIsland_SevaultCanyon_Entrance_Text_EveDefeat",
+   "SevenIsland_SevaultCanyon_Entrance_Text_EveNotEnoughMons",
+   "SevenIsland_SevaultCanyon_Entrance_Text_EveRematchIntro",
+   "SevenIsland_SevaultCanyon_Entrance_Text_EvePostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_Entrance_EventScript_Jon": [
+   "SevenIsland_SevaultCanyon_Entrance_Text_JonIntro",
+   "SevenIsland_SevaultCanyon_Entrance_Text_JonDefeat",
+   "SevenIsland_SevaultCanyon_Entrance_Text_JonNotEnoughMons",
+   "SevenIsland_SevaultCanyon_Entrance_Text_JonRematchIntro",
+   "SevenIsland_SevaultCanyon_Entrance_Text_JonPostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_Entrance_EventScript_Madeline": [
+   "SevenIsland_SevaultCanyon_Entrance_Text_MadelineIntro",
+   "SevenIsland_SevaultCanyon_Entrance_Text_MadelineDefeat",
+   "SevenIsland_SevaultCanyon_Entrance_Text_MadelineRematchIntro",
+   "SevenIsland_SevaultCanyon_Entrance_Text_MadelinePostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_Entrance_EventScript_Mason": [
+   "SevenIsland_SevaultCanyon_Entrance_Text_MasonIntro",
+   "SevenIsland_SevaultCanyon_Entrance_Text_MasonDefeat",
+   "SevenIsland_SevaultCanyon_Entrance_Text_MasonRematchIntro",
+   "SevenIsland_SevaultCanyon_Entrance_Text_MasonPostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_Entrance_EventScript_Miah": [
+   "SevenIsland_SevaultCanyon_Entrance_Text_MiahIntro",
+   "SevenIsland_SevaultCanyon_Entrance_Text_MiahDefeat",
+   "SevenIsland_SevaultCanyon_Entrance_Text_MiahRematchIntro",
+   "SevenIsland_SevaultCanyon_Entrance_Text_MiahPostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_Entrance_EventScript_Nicolas": [
+   "SevenIsland_SevaultCanyon_Entrance_Text_NicolasIntro",
+   "SevenIsland_SevaultCanyon_Entrance_Text_NicolasDefeat",
+   "SevenIsland_SevaultCanyon_Entrance_Text_NicolasRematchIntro",
+   "SevenIsland_SevaultCanyon_Entrance_Text_NicolasPostBattle"
+  ],
+  "SevenIsland_SevaultCanyon_Entrance_EventScript_RouteSign": [
+   "SevenIsland_SevaultCanyon_Entrance_Text_RouteSign"
+  ]
+ },
+ "SevenIsland_SevaultCanyon_House": {
+  "SevenIsland_SevaultCanyon_House_EventScript_Chansey": [
+   "SevenIsland_SevaultCanyon_House_Text_Chansey"
+  ],
+  "SevenIsland_SevaultCanyon_House_EventScript_ChanseyDanceMan": [
+   "SevenIsland_SevaultCanyon_House_Text_ChanseyDanceJoinIn",
+   "SevenIsland_SevaultCanyon_House_Text_WouldYouLikeToDance",
+   "SevenIsland_SevaultCanyon_House_Text_ComeOnDance",
+   "SevenIsland_SevaultCanyon_House_Text_DancedChanseyDance",
+   "SevenIsland_SevaultCanyon_House_Text_YoureAllChipperNow"
+  ]
+ },
+ "SevenIsland_SevaultCanyon_TanobyKey": {
+  "EventScript_StrengthBoulder": [
+   "Text_MonMayPushBoulder",
+   "Text_StrengthMadeMovingBouldersPossible",
+   "Text_UseStrength",
+   "Text_MonUsedStrengthCanMoveBoulders"
+  ]
+ },
+ "SevenIsland_TanobyRuins": {
+  "SevenIsland_TanobyRuins_EventScript_Benjamin": [
+   "SevenIsland_TanobyRuins_Text_BenjaminIntro",
+   "SevenIsland_TanobyRuins_Text_BenjaminDefeat",
+   "SevenIsland_TanobyRuins_Text_BenjaminRematchIntro",
+   "SevenIsland_TanobyRuins_Text_BenjaminPostBattle"
+  ],
+  "SevenIsland_TanobyRuins_EventScript_Brandon": [
+   "SevenIsland_TanobyRuins_Text_BrandonIntro",
+   "SevenIsland_TanobyRuins_Text_BrandonDefeat",
+   "SevenIsland_TanobyRuins_Text_BrandonRematchIntro",
+   "SevenIsland_TanobyRuins_Text_BrandonPostBattle"
+  ],
+  "SevenIsland_TanobyRuins_EventScript_Clifford": [
+   "SevenIsland_TanobyRuins_Text_CliffordIntro",
+   "SevenIsland_TanobyRuins_Text_CliffordDefeat",
+   "SevenIsland_TanobyRuins_Text_CliffordRematchIntro",
+   "SevenIsland_TanobyRuins_Text_CliffordPostBattle"
+  ],
+  "SevenIsland_TanobyRuins_EventScript_Edna": [
+   "SevenIsland_TanobyRuins_Text_EdnaIntro",
+   "SevenIsland_TanobyRuins_Text_EdnaDefeat",
+   "SevenIsland_TanobyRuins_Text_EdnaRematchIntro",
+   "SevenIsland_TanobyRuins_Text_EdnaPostBattle"
+  ]
+ },
+ "SevenIsland_TrainerTower": {
+  "SevenIsland_TrainerTower_EventScript_Dario": [
+   "SevenIsland_TrainerTower_Text_DarioIntro",
+   "SevenIsland_TrainerTower_Text_DarioDefeat",
+   "SevenIsland_TrainerTower_Text_DarioRematchIntro",
+   "SevenIsland_TrainerTower_Text_DarioPostBattle"
+  ],
+  "SevenIsland_TrainerTower_EventScript_Rodette": [
+   "SevenIsland_TrainerTower_Text_RodetteIntro",
+   "SevenIsland_TrainerTower_Text_RodetteDefeat",
+   "SevenIsland_TrainerTower_Text_RodetteRematchIntro",
+   "SevenIsland_TrainerTower_Text_RodettePostBattle"
+  ],
+  "SevenIsland_TrainerTower_EventScript_TrainerTowerAheadSign": [
+   "SevenIsland_TrainerTower_Text_TrainerTowerAhead"
+  ],
+  "SevenIsland_TrainerTower_EventScript_TrainerTowerSign": [
+   "SevenIsland_TrainerTower_Text_TrainerTowerSign"
+  ]
+ },
+ "SixIsland": {
+  "SixIsland_EventScript_Boy": [
+   "SixIsland_Text_SkyAtNightIsFantastic"
+  ],
+  "SixIsland_EventScript_Hiker": [
+   "SixIsland_Text_ThatWayToWaterPathRuinValley"
+  ],
+  "SixIsland_EventScript_IslandSign": [
+   "SixIsland_Text_IslandSign"
+  ]
+ },
+ "SixIsland_DottedHole_B1F": {
+  "SixIsland_DottedHole_B1F_EventScript_BrailleUp": [
+   "Braille_Text_Up"
+  ]
+ },
+ "SixIsland_DottedHole_B2F": {
+  "SixIsland_DottedHole_B2F_EventScript_BrailleLeft": [
+   "Braille_Text_Left"
+  ]
+ },
+ "SixIsland_DottedHole_B3F": {
+  "SixIsland_DottedHole_B3F_EventScript_BrailleRight": [
+   "Braille_Text_Right"
+  ]
+ },
+ "SixIsland_DottedHole_B4F": {
+  "SixIsland_DottedHole_B4F_EventScript_BrailleDown": [
+   "Braille_Text_Down"
+  ]
+ },
+ "SixIsland_DottedHole_SapphireRoom": {
+  "SixIsland_DottedHole_SapphireRoom_EventScript_BrailleMessage": [
+   "Braille_Text_ForYou"
+  ],
+  "SixIsland_DottedHole_SapphireRoom_EventScript_Sapphire": [
+   "SixIsland_DottedHole_SapphireRoom_Text_FoundSapphire",
+   "SixIsland_DottedHole_SapphireRoom_Text_IWasRightInTailingYou",
+   "SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword"
+  ]
+ },
+ "SixIsland_GreenPath": {
+  "SixIsland_GreenPath_EventScript_Jaclyn": [
+   "SixIsland_GreenPath_Text_JaclynIntro",
+   "SixIsland_GreenPath_Text_JaclynDefeat",
+   "SixIsland_GreenPath_Text_JaclynRematchIntro",
+   "SixIsland_GreenPath_Text_JaclynPostBattle"
+  ],
+  "SixIsland_GreenPath_EventScript_LeftRouteSign": [
+   "SixIsland_GreenPath_Text_RightRouteSign"
+  ],
+  "SixIsland_GreenPath_EventScript_RightRouteSign": [
+   "SixIsland_GreenPath_Text_LeftRouteSign"
+  ]
+ },
+ "SixIsland_Harbor": {
+  "SixIsland_Harbor_EventScript_Sailor": [
+   "Text_WhereDoYouWantToSail"
+  ]
+ },
+ "SixIsland_House": {
+  "SixIsland_House_EventScript_OldMan": [
+   "SixIsland_House_Text_GoodPlaceForNatureAndHistory"
+  ]
+ },
+ "SixIsland_Mart": {
+  "SixIsland_Mart_EventScript_Clerk": [
+   "Text_MayIHelpYou",
+   "Text_PleaseComeAgain"
+  ],
+  "SixIsland_Mart_EventScript_OldWoman": [
+   "SixIsland_Mart_Text_AgathaOldestEverEliteFourMember"
+  ],
+  "SixIsland_Mart_EventScript_Picnicker": [
+   "SixIsland_Mart_Text_ShouldBuyMailAndWriteLetter"
+  ]
+ },
+ "SixIsland_OutcastIsland": {
+  "SixIsland_OutcastIsland_EventScript_Ava": [
+   "SixIsland_OutcastIsland_Text_AvaIntro",
+   "SixIsland_OutcastIsland_Text_AvaDefeat",
+   "SixIsland_OutcastIsland_Text_AvaNotEnoughMons",
+   "SixIsland_OutcastIsland_Text_AvaRematchIntro",
+   "SixIsland_OutcastIsland_Text_AvaPostBattle"
+  ],
+  "SixIsland_OutcastIsland_EventScript_Geb": [
+   "SixIsland_OutcastIsland_Text_GebIntro",
+   "SixIsland_OutcastIsland_Text_GebDefeat",
+   "SixIsland_OutcastIsland_Text_GebNotEnoughMons",
+   "SixIsland_OutcastIsland_Text_GebRematchIntro",
+   "SixIsland_OutcastIsland_Text_GebPostBattle"
+  ],
+  "SixIsland_OutcastIsland_EventScript_Mymo": [
+   "SixIsland_OutcastIsland_Text_MymoIntro",
+   "SixIsland_OutcastIsland_Text_MymoDefeat",
+   "SixIsland_OutcastIsland_Text_MymoRematchIntro",
+   "SixIsland_OutcastIsland_Text_MymoPostBattle"
+  ],
+  "SixIsland_OutcastIsland_EventScript_Nicole": [
+   "SixIsland_OutcastIsland_Text_NicoleIntro",
+   "SixIsland_OutcastIsland_Text_NicoleDefeat",
+   "SixIsland_OutcastIsland_Text_NicoleRematchIntro",
+   "SixIsland_OutcastIsland_Text_NicolePostBattle"
+  ],
+  "SixIsland_OutcastIsland_EventScript_Rocket": [
+   "SixIsland_OutcastIsland_Text_RocketIntro",
+   "SixIsland_OutcastIsland_Text_RocketDefeat",
+   "SixIsland_OutcastIsland_Text_RocketPostBattle"
+  ],
+  "SixIsland_OutcastIsland_EventScript_Tylor": [
+   "SixIsland_OutcastIsland_Text_TylorIntro",
+   "SixIsland_OutcastIsland_Text_TylorDefeat",
+   "SixIsland_OutcastIsland_Text_TylorRematchIntro",
+   "SixIsland_OutcastIsland_Text_TylorPostBattle"
+  ]
+ },
+ "SixIsland_PatternBush": {
+  "SixIsland_PatternBush_EventScript_Allison": [
+   "SixIsland_PatternBush_Text_AllisonIntro",
+   "SixIsland_PatternBush_Text_AllisonDefeat",
+   "SixIsland_PatternBush_Text_AllisonPostBattle"
+  ],
+  "SixIsland_PatternBush_EventScript_Bethany": [
+   "SixIsland_PatternBush_Text_BethanyIntro",
+   "SixIsland_PatternBush_Text_BethanyDefeat",
+   "SixIsland_PatternBush_Text_BethanyPostBattle"
+  ],
+  "SixIsland_PatternBush_EventScript_Cordell": [
+   "SixIsland_PatternBush_Text_CordellIntro",
+   "SixIsland_PatternBush_Text_CordellDefeat",
+   "SixIsland_PatternBush_Text_CordellPostBattle"
+  ],
+  "SixIsland_PatternBush_EventScript_Dalia": [
+   "SixIsland_PatternBush_Text_DaliaIntro",
+   "SixIsland_PatternBush_Text_DaliaDefeat",
+   "SixIsland_PatternBush_Text_DaliaPostBattle"
+  ],
+  "SixIsland_PatternBush_EventScript_Garret": [
+   "SixIsland_PatternBush_Text_GarretIntro",
+   "SixIsland_PatternBush_Text_GarretDefeat",
+   "SixIsland_PatternBush_Text_GarretPostBattle"
+  ],
+  "SixIsland_PatternBush_EventScript_Joana": [
+   "SixIsland_PatternBush_Text_JoanaIntro",
+   "SixIsland_PatternBush_Text_JoanaDefeat",
+   "SixIsland_PatternBush_Text_JoanaPostBattle"
+  ],
+  "SixIsland_PatternBush_EventScript_Jonah": [
+   "SixIsland_PatternBush_Text_JonahIntro",
+   "SixIsland_PatternBush_Text_JonahDefeat",
+   "SixIsland_PatternBush_Text_JonahPostBattle"
+  ],
+  "SixIsland_PatternBush_EventScript_Layton": [
+   "SixIsland_PatternBush_Text_LaytonIntro",
+   "SixIsland_PatternBush_Text_LaytonDefeat",
+   "SixIsland_PatternBush_Text_LaytonPostBattle"
+  ],
+  "SixIsland_PatternBush_EventScript_Marcy": [
+   "SixIsland_PatternBush_Text_MarcyIntro",
+   "SixIsland_PatternBush_Text_MarcyDefeat",
+   "SixIsland_PatternBush_Text_MarcyPostBattle"
+  ],
+  "SixIsland_PatternBush_EventScript_Nash": [
+   "SixIsland_PatternBush_Text_NashIntro",
+   "SixIsland_PatternBush_Text_NashDefeat",
+   "SixIsland_PatternBush_Text_NashPostBattle"
+  ],
+  "SixIsland_PatternBush_EventScript_Riley": [
+   "SixIsland_PatternBush_Text_RileyIntro",
+   "SixIsland_PatternBush_Text_RileyDefeat",
+   "SixIsland_PatternBush_Text_RileyPostBattle"
+  ],
+  "SixIsland_PatternBush_EventScript_Vance": [
+   "SixIsland_PatternBush_Text_VanceIntro",
+   "SixIsland_PatternBush_Text_VanceDefeat",
+   "SixIsland_PatternBush_Text_VancePostBattle"
+  ]
+ },
+ "SixIsland_PokemonCenter_1F": {
+  "SixIsland_PokemonCenter_1F_EventScript_Hiker": [
+   "SixIsland_PokemonCenter_1F_Text_SomethingHiddenOnThisIsland"
+  ],
+  "SixIsland_PokemonCenter_1F_EventScript_Nurse": [
+   "Text_WelcomeWantToHealPkmn",
+   "Text_TakeYourPkmnForFewSeconds",
+   "Text_WeHopeToSeeYouAgain"
+  ],
+  "SixIsland_PokemonCenter_1F_EventScript_OldMan": [
+   "SixIsland_PokemonCenter_1F_Text_SomeMonsEvolveByTradingWithHeldItem"
+  ]
+ },
+ "SixIsland_PokemonCenter_2F": {
+  "Common_EventScript_DirectCornerAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_WelcomeWhichCableClubService",
+   "CableClub_Text_WelcomeWhichDirectCornerRoom",
+   "CableClub_Text_TradePokemon",
+   "CableClub_Text_PlayWhichBattleMode",
+   "CableClub_Text_UseBerryCrush",
+   "CableClub_Text_PleaseVisitAgain"
+  ],
+  "Common_EventScript_UnionRoomAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_UnionRoomAdapterNotConnected",
+   "CableClub_Text_WelcomeUnionRoomEnter",
+   "CableClub_Text_EnjoyUnionRoom",
+   "CableClub_Text_PleaseVisitAgain",
+   "CableClub_Text_UnionRoomInfo"
+  ],
+  "Common_EventScript_WirelessClubAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_AskAboutLinking",
+   "CableClub_Text_HopeYouEnjoyWirelessSystem",
+   "CableClub_Text_ExplainWirelessClub"
+  ]
+ },
+ "SixIsland_RuinValley": {
+  "EventScript_StrengthBoulder": [
+   "Text_MonMayPushBoulder",
+   "Text_StrengthMadeMovingBouldersPossible",
+   "Text_UseStrength",
+   "Text_MonUsedStrengthCanMoveBoulders"
+  ],
+  "SixIsland_RuinValley_EventScript_Daryl": [
+   "SixIsland_RuinValley_Text_DarylIntro",
+   "SixIsland_RuinValley_Text_DarylDefeat",
+   "SixIsland_RuinValley_Text_DarylRematchIntro",
+   "SixIsland_RuinValley_Text_DarylPostBattle"
+  ],
+  "SixIsland_RuinValley_EventScript_DottedHoleDoor": [
+   "SixIsland_RuinValley_Text_DoorIsOpen",
+   "SixIsland_RuinValley_Text_CheckDoorMoreThoroughly",
+   "SixIsland_RuinValley_Text_LeftDoorAlone",
+   "SixIsland_RuinValley_Text_SeveralDotsOnTheDoor",
+   "Braille_Text_Cut"
+  ],
+  "SixIsland_RuinValley_EventScript_Foster": [
+   "SixIsland_RuinValley_Text_FosterIntro",
+   "SixIsland_RuinValley_Text_FosterDefeat",
+   "SixIsland_RuinValley_Text_FosterRematchIntro",
+   "SixIsland_RuinValley_Text_FosterPostBattle"
+  ],
+  "SixIsland_RuinValley_EventScript_Hector": [
+   "SixIsland_RuinValley_Text_HectorIntro",
+   "SixIsland_RuinValley_Text_HectorDefeat",
+   "SixIsland_RuinValley_Text_HectorRematchIntro",
+   "SixIsland_RuinValley_Text_HectorPostBattle"
+  ],
+  "SixIsland_RuinValley_EventScript_Larry": [
+   "SixIsland_RuinValley_Text_LarryIntro",
+   "SixIsland_RuinValley_Text_LarryDefeat",
+   "SixIsland_RuinValley_Text_LarryRematchIntro",
+   "SixIsland_RuinValley_Text_LarryPostBattle"
+  ],
+  "SixIsland_RuinValley_EventScript_Scientist": [
+   "SixIsland_RuinValley_Text_CantFigureOutHowToGetInside",
+   "SixIsland_RuinValley_Text_IFoundThisPlace"
+  ],
+  "SixIsland_RuinValley_EventScript_Stanly": [
+   "SixIsland_RuinValley_Text_StanlyIntro",
+   "SixIsland_RuinValley_Text_StanlyDefeat",
+   "SixIsland_RuinValley_Text_StanlyRematchIntro",
+   "SixIsland_RuinValley_Text_StanlyPostBattle"
+  ]
+ },
+ "SixIsland_WaterPath": {
+  "SixIsland_WaterPath_EventScript_Denise": [
+   "SixIsland_WaterPath_Text_DeniseIntro",
+   "SixIsland_WaterPath_Text_DeniseDefeat",
+   "SixIsland_WaterPath_Text_DeniseRematchIntro",
+   "SixIsland_WaterPath_Text_DenisePostBattle"
+  ],
+  "SixIsland_WaterPath_EventScript_Earl": [
+   "SixIsland_WaterPath_Text_EarlIntro",
+   "SixIsland_WaterPath_Text_EarlDefeat",
+   "SixIsland_WaterPath_Text_EarlRematchIntro",
+   "SixIsland_WaterPath_Text_EarlPostBattle"
+  ],
+  "SixIsland_WaterPath_EventScript_Edward": [
+   "SixIsland_WaterPath_Text_EdwardIntro",
+   "SixIsland_WaterPath_Text_EdwardDefeat",
+   "SixIsland_WaterPath_Text_EdwardRematchIntro",
+   "SixIsland_WaterPath_Text_EdwardPostBattle"
+  ],
+  "SixIsland_WaterPath_EventScript_HornWantedSign": [
+   "SixIsland_WaterPath_Text_WantedUltimateHorn"
+  ],
+  "SixIsland_WaterPath_EventScript_Mia": [
+   "SixIsland_WaterPath_Text_MiaIntro",
+   "SixIsland_WaterPath_Text_MiaDefeat",
+   "SixIsland_WaterPath_Text_MiaNotEnoughMons",
+   "SixIsland_WaterPath_Text_MiaRematchIntro",
+   "SixIsland_WaterPath_Text_MiaPostBattle"
+  ],
+  "SixIsland_WaterPath_EventScript_Miu": [
+   "SixIsland_WaterPath_Text_MiuIntro",
+   "SixIsland_WaterPath_Text_MiuDefeat",
+   "SixIsland_WaterPath_Text_MiuNotEnoughMons",
+   "SixIsland_WaterPath_Text_MiuRematchIntro",
+   "SixIsland_WaterPath_Text_MiuPostBattle"
+  ],
+  "SixIsland_WaterPath_EventScript_Rose": [
+   "SixIsland_WaterPath_Text_RoseIntro",
+   "SixIsland_WaterPath_Text_RoseDefeat",
+   "SixIsland_WaterPath_Text_RoseRematchIntro",
+   "SixIsland_WaterPath_Text_RosePostBattle"
+  ],
+  "SixIsland_WaterPath_EventScript_RouteSign": [
+   "SixIsland_WaterPath_Text_RouteSign"
+  ],
+  "SixIsland_WaterPath_EventScript_Samir": [
+   "SixIsland_WaterPath_Text_SamirIntro",
+   "SixIsland_WaterPath_Text_SamirDefeat",
+   "SixIsland_WaterPath_Text_SamirRematchIntro",
+   "SixIsland_WaterPath_Text_SamirPostBattle"
+  ]
+ },
+ "SixIsland_WaterPath_House1": {
+  "SixIsland_WaterPath_House1_EventScript_Beauty": [
+   "SixIsland_WaterPath_House1_Text_LoveItNeedItHeracross",
+   "SixIsland_WaterPath_House1_Text_MayIMeasureHeracross",
+   "SixIsland_WaterPath_House1_Text_ThisWontDo",
+   "SixIsland_WaterPath_House1_Text_ItsXInchesDeserveReward",
+   "SixIsland_WaterPath_House1_Text_YourBagIsFull",
+   "SixIsland_WaterPath_House1_Text_WantToSeeBiggerOne",
+   "SixIsland_WaterPath_House1_Text_ItsXInchesYInchesWasBiggest",
+   "SixIsland_WaterPath_House1_Text_ItsXInchesSameAsBefore"
+  ],
+  "SixIsland_WaterPath_House1_EventScript_SizeRecord": [
+   "SixIsland_WaterPath_House1_Text_BiggestHeracrossIsXInches",
+   "SixIsland_WaterPath_House1_Text_BlankChartOfSomeSort"
+  ]
+ },
+ "SixIsland_WaterPath_House2": {
+  "SixIsland_WaterPath_House2_EventScript_Man": [
+   "SixIsland_WaterPath_House2_Text_MyNeighborMeasuredMe"
+  ]
+ },
+ "ThreeIsland": {
+  "EventScript_CutTree": [
+   "Text_TreeCanBeCutDown",
+   "Text_CutTreeDown",
+   "Text_MonUsedMove"
+  ],
+  "ThreeIsland_EventScript_AntiBiker1": [
+   "ThreeIsland_Text_YouveGotImpressiveMons",
+   "ThreeIsland_Text_ThankYouOhYourMonGotHurt",
+   "ThreeIsland_Text_OhYourBagIsFull",
+   "ThreeIsland_Text_GoBackToKanto",
+   "ThreeIsland_Text_BossIsOnHisWay",
+   "ThreeIsland_Text_GetOffIslandNow",
+   "ThreeIsland_Text_WhosGonnaMakeMe"
+  ],
+  "ThreeIsland_EventScript_AntiBiker2": [
+   "ThreeIsland_Text_LostelleWentOffTowardsBondBridge",
+   "ThreeIsland_Text_GoBackToKanto",
+   "ThreeIsland_Text_BossIsOnHisWay",
+   "ThreeIsland_Text_GetOffIslandNow",
+   "ThreeIsland_Text_WhosGonnaMakeMe"
+  ],
+  "ThreeIsland_EventScript_Biker": [
+   "ThreeIsland_Text_GoBackToKanto",
+   "ThreeIsland_Text_BossIsOnHisWay",
+   "ThreeIsland_Text_GetOffIslandNow",
+   "ThreeIsland_Text_WhosGonnaMakeMe"
+  ],
+  "ThreeIsland_EventScript_Biker6": [
+   "ThreeIsland_Text_IslandBelongsToUs"
+  ],
+  "ThreeIsland_EventScript_Doduo": [
+   "ThreeIsland_Text_Doduo"
+  ],
+  "ThreeIsland_EventScript_IslandSign": [
+   "ThreeIsland_Text_IslandSign"
+  ],
+  "ThreeIsland_EventScript_LittleBoy": [
+   "ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame"
+  ],
+  "ThreeIsland_EventScript_Woman": [
+   "ThreeIsland_Text_WouldntWantToSeeBikersHereAgain"
+  ]
+ },
+ "ThreeIsland_BerryForest": {
+  "EventScript_CutTree": [
+   "Text_TreeCanBeCutDown",
+   "Text_CutTreeDown",
+   "Text_MonUsedMove"
+  ],
+  "ThreeIsland_BerryForest_EventScript_BewareSign": [
+   "ThreeIsland_BerryForest_Text_BewareWildBerryLovingMons"
+  ],
+  "ThreeIsland_BerryForest_EventScript_Lostelle": [
+   "ThreeIsland_BerryForest_Text_HelpScaryPokemon",
+   "ThreeIsland_BerryForest_Text_HereItComesAgain",
+   "ThreeIsland_BerryForest_Text_ThankYouHaveThis",
+   "ThreeIsland_BerryForest_Text_BerryPouchIsFull",
+   "ThreeIsland_BerryForest_Text_LetsGoHome"
+  ],
+  "ThreeIsland_BerryForest_EventScript_WelcomeSign": [
+   "ThreeIsland_BerryForest_Text_WelcomeToBerryForest"
+  ]
+ },
+ "ThreeIsland_BondBridge": {
+  "EventScript_CutTree": [
+   "Text_TreeCanBeCutDown",
+   "Text_CutTreeDown",
+   "Text_MonUsedMove"
+  ],
+  "ThreeIsland_BondBridge_EventScript_Alexis": [
+   "ThreeIsland_BondBridge_Text_AlexisIntro",
+   "ThreeIsland_BondBridge_Text_AlexisDefeat",
+   "ThreeIsland_BondBridge_Text_AlexisRematchIntro",
+   "ThreeIsland_BondBridge_Text_AlexisPostBattle"
+  ],
+  "ThreeIsland_BondBridge_EventScript_Amira": [
+   "ThreeIsland_BondBridge_Text_AmiraIntro",
+   "ThreeIsland_BondBridge_Text_AmiraDefeat",
+   "ThreeIsland_BondBridge_Text_AmiraRematchIntro",
+   "ThreeIsland_BondBridge_Text_AmiraPostBattle"
+  ],
+  "ThreeIsland_BondBridge_EventScript_BerryForestSign": [
+   "ThreeIsland_BondBridge_Text_BerryForestAhead"
+  ],
+  "ThreeIsland_BondBridge_EventScript_BondBridgeSign": [
+   "ThreeIsland_BondBridge_Text_BondBridgeSign"
+  ],
+  "ThreeIsland_BondBridge_EventScript_Joy": [
+   "ThreeIsland_BondBridge_Text_JoyIntro",
+   "ThreeIsland_BondBridge_Text_JoyDefeat",
+   "ThreeIsland_BondBridge_Text_JoyNotEnoughMons",
+   "ThreeIsland_BondBridge_Text_JoyRematchIntro",
+   "ThreeIsland_BondBridge_Text_JoyPostBattle"
+  ],
+  "ThreeIsland_BondBridge_EventScript_Meg": [
+   "ThreeIsland_BondBridge_Text_MegIntro",
+   "ThreeIsland_BondBridge_Text_MegDefeat",
+   "ThreeIsland_BondBridge_Text_MegNotEnoughMons",
+   "ThreeIsland_BondBridge_Text_MegRematchIntro",
+   "ThreeIsland_BondBridge_Text_MegPostBattle"
+  ],
+  "ThreeIsland_BondBridge_EventScript_Nikki": [
+   "ThreeIsland_BondBridge_Text_NikkiIntro",
+   "ThreeIsland_BondBridge_Text_NikkiDefeat",
+   "ThreeIsland_BondBridge_Text_NikkiRematchIntro",
+   "ThreeIsland_BondBridge_Text_NikkiPostBattle"
+  ],
+  "ThreeIsland_BondBridge_EventScript_Tisha": [
+   "ThreeIsland_BondBridge_Text_TishaIntro",
+   "ThreeIsland_BondBridge_Text_TishaDefeat",
+   "ThreeIsland_BondBridge_Text_TishaRematchIntro",
+   "ThreeIsland_BondBridge_Text_TishaPostBattle"
+  ],
+  "ThreeIsland_BondBridge_EventScript_Violet": [
+   "ThreeIsland_BondBridge_Text_VioletIntro",
+   "ThreeIsland_BondBridge_Text_VioletDefeat",
+   "ThreeIsland_BondBridge_Text_VioletRematchIntro",
+   "ThreeIsland_BondBridge_Text_VioletPostBattle"
+  ]
+ },
+ "ThreeIsland_DunsparceTunnel": {
+  "ThreeIsland_DunsparceTunnel_EventScript_Prospector": [
+   "ThreeIsland_DunsparceTunnel_Text_ThatsANugget",
+   "ThreeIsland_DunsparceTunnel_Text_StruckGoldThisIsForYou",
+   "ThreeIsland_DunsparceTunnel_Text_WhoopsBagCrammedFull",
+   "ThreeIsland_DunsparceTunnel_Text_ProspectingForGold"
+  ]
+ },
+ "ThreeIsland_Harbor": {
+  "ThreeIsland_Harbor_EventScript_Sailor": [
+   "Text_WhereDoYouWantToSail"
+  ]
+ },
+ "ThreeIsland_House1": {
+  "ThreeIsland_House1_EventScript_DisplayCase": [
+   "ThreeIsland_House1_Text_RareRocksGemsDisplayed"
+  ],
+  "ThreeIsland_House1_EventScript_Lostelle": [
+   "ThreeIsland_House1_Text_YoureAlwaysSoCool"
+  ]
+ },
+ "ThreeIsland_House2": {
+  "ThreeIsland_House2_EventScript_Man": [
+   "ThreeIsland_House2_Text_IAdmireSabrina"
+  ],
+  "ThreeIsland_House2_EventScript_Rocker": [
+   "ThreeIsland_House2_Text_CantMakeThisSpoonBend"
+  ]
+ },
+ "ThreeIsland_House3": {
+  "ThreeIsland_House3_EventScript_Beauty": [
+   "ThreeIsland_House3_Text_WantedToLiveSomewhereQuiet"
+  ]
+ },
+ "ThreeIsland_House4": {
+  "ThreeIsland_House4_EventScript_BaldingMan": [
+   "ThreeIsland_House4_Text_GhostsInBerryForest"
+  ],
+  "ThreeIsland_House4_EventScript_LittleBoy": [
+   "ThreeIsland_House4_Text_PapaKeepsLyingToMe"
+  ]
+ },
+ "ThreeIsland_House5": {
+  "ThreeIsland_House5_EventScript_LittleGirl": [
+   "ThreeIsland_House5_Text_IllGoPlayWithLostelle",
+   "ThreeIsland_House5_Text_ImNotLostelle"
+  ]
+ },
+ "ThreeIsland_Mart": {
+  "ThreeIsland_Mart_EventScript_BugCatcher": [
+   "ThreeIsland_Mart_Text_PeopleHealWithBerriesFromForest"
+  ],
+  "ThreeIsland_Mart_EventScript_Clerk": [
+   "Text_MayIHelpYou",
+   "Text_PleaseComeAgain"
+  ],
+  "ThreeIsland_Mart_EventScript_Picnicker": [
+   "ThreeIsland_Mart_Text_TrueThatCeldadonDeptStoreBigger"
+  ],
+  "ThreeIsland_Mart_EventScript_Youngster": [
+   "ThreeIsland_Mart_Text_BikersWereAboutToTrashMart"
+  ]
+ },
+ "ThreeIsland_PokemonCenter_1F": {
+  "ThreeIsland_PokemonCenter_1F_EventScript_Lass": [
+   "ThreeIsland_PokemonCenter_1F_Text_AlwaysBerriesInBerryForest"
+  ],
+  "ThreeIsland_PokemonCenter_1F_EventScript_Nurse": [
+   "Text_WelcomeWantToHealPkmn",
+   "Text_TakeYourPkmnForFewSeconds",
+   "Text_WeHopeToSeeYouAgain"
+  ],
+  "ThreeIsland_PokemonCenter_1F_EventScript_Rocker": [
+   "ThreeIsland_PokemonCenter_1F_Text_PCNetworkCanLinkWithKanto"
+  ],
+  "ThreeIsland_PokemonCenter_1F_EventScript_Sailor": [
+   "ThreeIsland_PokemonCenter_1F_Text_ImpossibleToSurfBetweenIslands"
+  ]
+ },
+ "ThreeIsland_PokemonCenter_2F": {
+  "Common_EventScript_DirectCornerAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_WelcomeWhichCableClubService",
+   "CableClub_Text_WelcomeWhichDirectCornerRoom",
+   "CableClub_Text_TradePokemon",
+   "CableClub_Text_PlayWhichBattleMode",
+   "CableClub_Text_UseBerryCrush",
+   "CableClub_Text_PleaseVisitAgain"
+  ],
+  "Common_EventScript_UnionRoomAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_UnionRoomAdapterNotConnected",
+   "CableClub_Text_WelcomeUnionRoomEnter",
+   "CableClub_Text_EnjoyUnionRoom",
+   "CableClub_Text_PleaseVisitAgain",
+   "CableClub_Text_UnionRoomInfo"
+  ],
+  "Common_EventScript_WirelessClubAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_AskAboutLinking",
+   "CableClub_Text_HopeYouEnjoyWirelessSystem",
+   "CableClub_Text_ExplainWirelessClub"
+  ]
+ },
+ "ThreeIsland_Port": {
+  "ThreeIsland_Port_EventScript_Biker1": [
+   "ThreeIsland_Port_Text_WereKantoRiderFederation"
+  ],
+  "ThreeIsland_Port_EventScript_Biker2": [
+   "ThreeIsland_Port_Text_ForkOverMoney"
+  ],
+  "ThreeIsland_Port_EventScript_Woman": [
+   "ThreeIsland_Port_Text_EverythingTurnedOutForBest",
+   "ThreeIsland_Port_Text_ThankGoodnessBikersGone",
+   "ThreeIsland_Port_Text_IllCallThePolice"
+  ]
+ },
+ "TrainerTower_2F": {
+  "TrainerTower_EventScript_Owner": [
+   "TrainerTower_Roof_Text_ImOwnerBattledPerfectly",
+   "TrainerTower_Roof_Text_ThisIsForYou",
+   "Text_ObtainedTheX",
+   "Text_PutItemAway",
+   "Text_BagIsFull",
+   "TrainerTower_Roof_Text_IdLikeToSeeBetterTime"
+  ]
+ },
+ "TrainerTower_3F": {
+  "TrainerTower_EventScript_Owner": [
+   "TrainerTower_Roof_Text_ImOwnerBattledPerfectly",
+   "TrainerTower_Roof_Text_ThisIsForYou",
+   "Text_ObtainedTheX",
+   "Text_PutItemAway",
+   "Text_BagIsFull",
+   "TrainerTower_Roof_Text_IdLikeToSeeBetterTime"
+  ]
+ },
+ "TrainerTower_4F": {
+  "TrainerTower_EventScript_Owner": [
+   "TrainerTower_Roof_Text_ImOwnerBattledPerfectly",
+   "TrainerTower_Roof_Text_ThisIsForYou",
+   "Text_ObtainedTheX",
+   "Text_PutItemAway",
+   "Text_BagIsFull",
+   "TrainerTower_Roof_Text_IdLikeToSeeBetterTime"
+  ]
+ },
+ "TrainerTower_5F": {
+  "TrainerTower_EventScript_Owner": [
+   "TrainerTower_Roof_Text_ImOwnerBattledPerfectly",
+   "TrainerTower_Roof_Text_ThisIsForYou",
+   "Text_ObtainedTheX",
+   "Text_PutItemAway",
+   "Text_BagIsFull",
+   "TrainerTower_Roof_Text_IdLikeToSeeBetterTime"
+  ]
+ },
+ "TrainerTower_6F": {
+  "TrainerTower_EventScript_Owner": [
+   "TrainerTower_Roof_Text_ImOwnerBattledPerfectly",
+   "TrainerTower_Roof_Text_ThisIsForYou",
+   "Text_ObtainedTheX",
+   "Text_PutItemAway",
+   "Text_BagIsFull",
+   "TrainerTower_Roof_Text_IdLikeToSeeBetterTime"
+  ]
+ },
+ "TrainerTower_7F": {
+  "TrainerTower_EventScript_Owner": [
+   "TrainerTower_Roof_Text_ImOwnerBattledPerfectly",
+   "TrainerTower_Roof_Text_ThisIsForYou",
+   "Text_ObtainedTheX",
+   "Text_PutItemAway",
+   "Text_BagIsFull",
+   "TrainerTower_Roof_Text_IdLikeToSeeBetterTime"
+  ]
+ },
+ "TrainerTower_8F": {
+  "TrainerTower_EventScript_Owner": [
+   "TrainerTower_Roof_Text_ImOwnerBattledPerfectly",
+   "TrainerTower_Roof_Text_ThisIsForYou",
+   "Text_ObtainedTheX",
+   "Text_PutItemAway",
+   "Text_BagIsFull",
+   "TrainerTower_Roof_Text_IdLikeToSeeBetterTime"
+  ]
+ },
+ "TrainerTower_Elevator": {
+  "TrainerTower_Elevator_EventScript_FloorSelect": [
+   "Text_WantWhichFloor"
+  ]
+ },
+ "TrainerTower_Lobby": {
+  "TrainerTower_Lobby_EventScript_BaldingMan": [
+   "TrainerTower_Lobby_Text_StairsTougherThanAnyBattle"
+  ],
+  "TrainerTower_Lobby_EventScript_CooltrainerF": [
+   "TrainerTower_Lobby_Text_WonderWhatKindsOfTrainers"
+  ],
+  "TrainerTower_Lobby_EventScript_MartClerk": [
+   "Text_MayIHelpYou",
+   "Text_PleaseComeAgain"
+  ],
+  "TrainerTower_Lobby_EventScript_Nurse": [
+   "Text_WelcomeWantToHealPkmn",
+   "Text_TakeYourPkmnForFewSeconds",
+   "Text_WeHopeToSeeYouAgain"
+  ],
+  "TrainerTower_Lobby_EventScript_Receptionist": [
+   "TrainerTower_Lobby_Text_ThanksForCompeting",
+   "TrainerTower_Lobby_Text_GiveItYourBest"
+  ]
+ },
+ "TrainerTower_Roof": {
+  "TrainerTower_EventScript_Owner": [
+   "TrainerTower_Roof_Text_ImOwnerBattledPerfectly",
+   "TrainerTower_Roof_Text_ThisIsForYou",
+   "Text_ObtainedTheX",
+   "Text_PutItemAway",
+   "Text_BagIsFull",
+   "TrainerTower_Roof_Text_IdLikeToSeeBetterTime"
+  ]
+ },
+ "TwoIsland": {
+  "EventScript_CutTree": [
+   "Text_TreeCanBeCutDown",
+   "Text_CutTreeDown",
+   "Text_MonUsedMove"
+  ],
+  "TwoIsland_EventScript_Beauty": [
+   "TwoIsland_Text_BrunoCameToIslandWhileBack"
+  ],
+  "TwoIsland_EventScript_Boy": [
+   "TwoIsland_Text_OldWomanLivesOutOnCape"
+  ],
+  "TwoIsland_EventScript_Clerk": [
+   "Text_MayIHelpYou",
+   "Text_PleaseComeAgain",
+   "TwoIsland_Text_BringingItemsFromDistantLands",
+   "TwoIsland_Text_HopeYouGiveItYourBest",
+   "TwoIsland_Text_AddedMerchandiseForLostelle",
+   "TwoIsland_Text_WelcomeToShopMerchandiseLimited"
+  ],
+  "TwoIsland_EventScript_FastCurrentSign": [
+   "TwoIsland_Text_DangerFastCurrent"
+  ],
+  "TwoIsland_EventScript_IslandSign": [
+   "TwoIsland_Text_IslandSign"
+  ],
+  "TwoIsland_EventScript_JoyfulGameCornerSign": [
+   "TwoIsland_Text_JoyfulGameCornerSign"
+  ],
+  "TwoIsland_EventScript_LittleBoy": [
+   "TwoIsland_Text_HaveYouTriedJumpingGame"
+  ],
+  "TwoIsland_EventScript_PokeManiac": [
+   "TwoIsland_Text_BuyRareItemsHere"
+  ],
+  "TwoIsland_EventScript_Sailor": [
+   "TwoIsland_Text_FellowMovedFromCeladonCity"
+  ],
+  "TwoIsland_EventScript_Woman": [
+   "TwoIsland_Text_ShopkeepersBrotherWorksGameCorner"
+  ]
+ },
+ "TwoIsland_CapeBrink_House": {
+  "TwoIsland_CapeBrink_House_EventScript_StarterTutor": [
+   "Text_FeelRejuvenated",
+   "Text_MakeBestUseOfMove",
+   "Text_UltimateMoveThatMon",
+   "Text_JustMistaken",
+   "Text_AllowMeToTeachMonUltimateMove",
+   "Text_YouRejectIt",
+   "Text_MoveCanOnlyBeLearnedOnce",
+   "Text_LetMeConferUltimateMove",
+   "Text_PassedOnEverythingIKnow",
+   "Text_TaughtMove"
+  ]
+ },
+ "TwoIsland_Harbor": {
+  "TwoIsland_Harbor_EventScript_Sailor": [
+   "Text_WhereDoYouWantToSail"
+  ]
+ },
+ "TwoIsland_House": {
+  "TwoIsland_House_EventScript_MoveManiac": [
+   "TwoIsland_House_Text_WantMeToTeachMove",
+   "TwoIsland_House_Text_NeedMushroomOrTwoToLearnMove",
+   "TwoIsland_House_Text_TeachMonMoveForMushroom"
+  ]
+ },
+ "TwoIsland_JoyfulGameCorner": {
+  "TwoIsland_JoyfulGameCorner_EventScript_InfoMan": [
+   "Text_DescribeWhichGame",
+   "Text_PokemonJumpInfo",
+   "Text_DodrioBerryPickingInfo",
+   "Text_TalkToManToPlay",
+   "TwoIsland_JoyfulGameCorner_Text_GetGamesGoingSoon",
+   "TwoIsland_JoyfulGameCorner_Text_NotRunningAnyGamesToday"
+  ],
+  "TwoIsland_JoyfulGameCorner_EventScript_Lostelle": [
+   "TwoIsland_JoyfulGameCorner_Text_PleaseShowMeYouBeingCool"
+  ],
+  "TwoIsland_JoyfulGameCorner_EventScript_LostellesDaddy": [
+   "Text_WelcomeCanYouWait",
+   "Text_AdapterNotConnectedMinigame",
+   "Text_PlayWhichGame",
+   "EventScript_ExplainPokemonJumpRequirements",
+   "Text_EnterWhichPokemon",
+   "CableClub_Text_ComeAgain",
+   "CableClub_Text_ChooseGroupLeader",
+   "TwoIsland_JoyfulGameCorner_Text_IllGetGameCornerRunning",
+   "TwoIsland_JoyfulGameCorner_Text_NotGoingToFitInBag",
+   "TwoIsland_JoyfulGameCorner_Text_ThisIsForMe",
+   "TwoIsland_JoyfulGameCorner_Text_HandedMeteoriteToLostellesDaddy",
+   "TwoIsland_JoyfulGameCorner_Text_OhThisIsFromBill",
+   "TwoIsland_JoyfulGameCorner_Text_PleaseGoToThreeIsland"
+  ]
+ },
+ "TwoIsland_PokemonCenter_1F": {
+  "TwoIsland_PokemonCenter_1F_EventScript_BugCatcher": [
+   "TwoIsland_PokemonCenter_1F_Text_OldLadyLivesOutOnCape"
+  ],
+  "TwoIsland_PokemonCenter_1F_EventScript_GBAKid": [
+   "TwoIsland_PokemonCenter_1F_Text_HaveYouVisitedGameCorner"
+  ],
+  "TwoIsland_PokemonCenter_1F_EventScript_Nurse": [
+   "Text_WelcomeWantToHealPkmn",
+   "Text_TakeYourPkmnForFewSeconds",
+   "Text_WeHopeToSeeYouAgain"
+  ]
+ },
+ "TwoIsland_PokemonCenter_2F": {
+  "Common_EventScript_DirectCornerAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_WelcomeWhichCableClubService",
+   "CableClub_Text_WelcomeWhichDirectCornerRoom",
+   "CableClub_Text_TradePokemon",
+   "CableClub_Text_PlayWhichBattleMode",
+   "CableClub_Text_UseBerryCrush",
+   "CableClub_Text_PleaseVisitAgain"
+  ],
+  "Common_EventScript_UnionRoomAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_YouHaveAMonThatCantBeTaken",
+   "CableClub_Text_UnionRoomAdapterNotConnected",
+   "CableClub_Text_WelcomeUnionRoomEnter",
+   "CableClub_Text_EnjoyUnionRoom",
+   "CableClub_Text_PleaseVisitAgain",
+   "CableClub_Text_UnionRoomInfo"
+  ],
+  "Common_EventScript_WirelessClubAttendant": [
+   "Text_WirelessClubUndergoingAdjustments",
+   "CableClub_Text_AskAboutLinking",
+   "CableClub_Text_HopeYouEnjoyWirelessSystem",
+   "CableClub_Text_ExplainWirelessClub"
+  ]
+ }
+}

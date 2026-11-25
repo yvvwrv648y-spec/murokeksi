@@ -1,0 +1,2089 @@
+{
+ "metadata": {
+  "region_id": "sevii",
+  "postings": 70,
+  "special_chains": 3
+ },
+ "postings": [
+  {
+   "board_id": "one_island",
+   "id": "one_island_catch_tentacool",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Net Center Tech Lio",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 920,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "tentacool",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Tentacool near One Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 3,
+   "settlement": "One Island"
+  },
+  {
+   "board_id": "one_island",
+   "id": "one_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Sailor Maren",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 620,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around One Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 3,
+   "settlement": "One Island"
+  },
+  {
+   "board_id": "one_island",
+   "id": "one_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Hot Spring Keeper Uto",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 460,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for One Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 3,
+   "settlement": "One Island"
+  },
+  {
+   "board_id": "one_island",
+   "id": "one_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Net Center Tech Lio",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 460,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 3,
+   "settlement": "One Island"
+  },
+  {
+   "board_id": "one_island",
+   "id": "one_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Sailor Maren",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 560,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1400,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1400 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 3,
+   "settlement": "One Island"
+  },
+  {
+   "board_id": "one_island",
+   "id": "one_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Hot Spring Keeper Uto",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "super-potion": 1
+    },
+    "money": 920,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in One Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 3,
+   "settlement": "One Island"
+  },
+  {
+   "board_id": "one_island",
+   "id": "one_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Net Center Tech Lio",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "antidote": 2
+    },
+    "money": 770,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "chesto-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Chesto Berry to the One Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 3,
+   "settlement": "One Island"
+  },
+  {
+   "board_id": "one_island",
+   "id": "one_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Wingull",
+    "portrait": "0278",
+    "species": "wingull"
+   },
+   "reward": {
+    "items": {},
+    "money": 1430,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "mt_ember",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Wingull is lost — reach Mt_Ember and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 3,
+   "settlement": "One Island"
+  },
+  {
+   "board_id": "one_island",
+   "id": "one_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Sailor Maren",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 820,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "sea",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a sea habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 3,
+   "settlement": "One Island"
+  },
+  {
+   "board_id": "one_island",
+   "id": "one_island_field_cut",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Hot Spring Keeper Uto",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 720,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "cut",
+    "count": 2,
+    "target": "cut",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Cut in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 3,
+   "settlement": "One Island"
+  },
+  {
+   "board_id": "two_island",
+   "id": "two_island_catch_slowpoke",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Game Corner Clerk Pia",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 920,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "slowpoke",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Slowpoke near Two Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 3,
+   "settlement": "Two Island"
+  },
+  {
+   "board_id": "two_island",
+   "id": "two_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Herb Seller Dov",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 620,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Two Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 3,
+   "settlement": "Two Island"
+  },
+  {
+   "board_id": "two_island",
+   "id": "two_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Fisher Anselm",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 460,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Two Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 3,
+   "settlement": "Two Island"
+  },
+  {
+   "board_id": "two_island",
+   "id": "two_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Game Corner Clerk Pia",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 460,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 3,
+   "settlement": "Two Island"
+  },
+  {
+   "board_id": "two_island",
+   "id": "two_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Herb Seller Dov",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 560,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1400,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1400 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 3,
+   "settlement": "Two Island"
+  },
+  {
+   "board_id": "two_island",
+   "id": "two_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Fisher Anselm",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "antidote": 2
+    },
+    "money": 920,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Two Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 3,
+   "settlement": "Two Island"
+  },
+  {
+   "board_id": "two_island",
+   "id": "two_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Game Corner Clerk Pia",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "super-potion": 1
+    },
+    "money": 770,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "rawst-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Rawst Berry to the Two Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 3,
+   "settlement": "Two Island"
+  },
+  {
+   "board_id": "two_island",
+   "id": "two_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Psyduck",
+    "portrait": "0054",
+    "species": "psyduck"
+   },
+   "reward": {
+    "items": {},
+    "money": 1430,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "cape_brink",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Psyduck is lost — reach Cape_Brink and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 3,
+   "settlement": "Two Island"
+  },
+  {
+   "board_id": "two_island",
+   "id": "two_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Herb Seller Dov",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 820,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "waters-edge",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a waters-edge habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 3,
+   "settlement": "Two Island"
+  },
+  {
+   "board_id": "two_island",
+   "id": "two_island_vexa",
+   "kind": "job",
+   "rank_min": 1,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Fisher Anselm",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1130,
+    "rank_points": 15
+   },
+   "task": {
+    "count": 1,
+    "target": "singles",
+    "type": "vexa_clear"
+   },
+   "title": "VEXA contract (Two Island): clear a singles simulation",
+   "window": {},
+   "source_label": "pattern: GO field research (battle task) on the VEXA sim",
+   "level_band": 3,
+   "settlement": "Two Island"
+  },
+  {
+   "board_id": "three_island",
+   "id": "three_island_catch_dunsparce",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Berry Picker Luma",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1080,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "dunsparce",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Dunsparce near Three Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 4,
+   "settlement": "Three Island"
+  },
+  {
+   "board_id": "three_island",
+   "id": "three_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Biker Chief Rurik",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 720,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Three Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 4,
+   "settlement": "Three Island"
+  },
+  {
+   "board_id": "three_island",
+   "id": "three_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Port Hand Sef",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 540,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Three Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 4,
+   "settlement": "Three Island"
+  },
+  {
+   "board_id": "three_island",
+   "id": "three_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Berry Picker Luma",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 540,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 4,
+   "settlement": "Three Island"
+  },
+  {
+   "board_id": "three_island",
+   "id": "three_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Biker Chief Rurik",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 660,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1600,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1600 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 4,
+   "settlement": "Three Island"
+  },
+  {
+   "board_id": "three_island",
+   "id": "three_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Port Hand Sef",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 1080,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Three Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 4,
+   "settlement": "Three Island"
+  },
+  {
+   "board_id": "three_island",
+   "id": "three_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Berry Picker Luma",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "great-ball": 2
+    },
+    "money": 900,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "leppa-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Leppa Berry to the Three Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 4,
+   "settlement": "Three Island"
+  },
+  {
+   "board_id": "three_island",
+   "id": "three_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Aipom",
+    "portrait": "0190",
+    "species": "aipom"
+   },
+   "reward": {
+    "items": {},
+    "money": 1680,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "berry_forest",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: an Aipom is lost — reach Berry_Forest and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 4,
+   "settlement": "Three Island"
+  },
+  {
+   "board_id": "three_island",
+   "id": "three_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Biker Chief Rurik",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 960,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "forest",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a forest habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 4,
+   "settlement": "Three Island"
+  },
+  {
+   "board_id": "three_island",
+   "id": "three_island_rain_catch",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Berry Picker Luma",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1260,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "heracross",
+    "type": "catch"
+   },
+   "title": "Rainy-day study: catch a Heracross in the rain",
+   "window": {
+    "kind": "weather",
+    "value": "rain"
+   },
+   "source_label": "pattern: GO weather-window field research",
+   "level_band": 4,
+   "settlement": "Three Island"
+  },
+  {
+   "board_id": "four_island",
+   "id": "four_island_catch_swinub",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Daycare Helper Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1240,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "swinub",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Swinub near Four Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 5,
+   "settlement": "Four Island"
+  },
+  {
+   "board_id": "four_island",
+   "id": "four_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Ice Fisher Bram",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 820,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Four Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 5,
+   "settlement": "Four Island"
+  },
+  {
+   "board_id": "four_island",
+   "id": "four_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Breeder Olin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 620,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Four Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 5,
+   "settlement": "Four Island"
+  },
+  {
+   "board_id": "four_island",
+   "id": "four_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Daycare Helper Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 620,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 5,
+   "settlement": "Four Island"
+  },
+  {
+   "board_id": "four_island",
+   "id": "four_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Ice Fisher Bram",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 760,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 1800,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 1800 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 5,
+   "settlement": "Four Island"
+  },
+  {
+   "board_id": "four_island",
+   "id": "four_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Breeder Olin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "full-heal": 2
+    },
+    "money": 1240,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Four Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 5,
+   "settlement": "Four Island"
+  },
+  {
+   "board_id": "four_island",
+   "id": "four_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Daycare Helper Ines",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 1030,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "sitrus-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Sitrus Berry to the Four Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 5,
+   "settlement": "Four Island"
+  },
+  {
+   "board_id": "four_island",
+   "id": "four_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Sneasel",
+    "portrait": "0215",
+    "species": "sneasel"
+   },
+   "reward": {
+    "items": {},
+    "money": 1920,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "icefall_cave",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Sneasel is lost — reach Icefall_Cave and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 5,
+   "settlement": "Four Island"
+  },
+  {
+   "board_id": "four_island",
+   "id": "four_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Ice Fisher Bram",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1100,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "cave",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a cave habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 5,
+   "settlement": "Four Island"
+  },
+  {
+   "board_id": "four_island",
+   "id": "four_island_catch_shellder_b",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Ice Fisher Bram",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1240,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "shellder",
+    "type": "catch"
+   },
+   "title": "Local notes: catch 2 Shellder for the board",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 5,
+   "settlement": "Four Island"
+  },
+  {
+   "board_id": "five_island",
+   "id": "five_island_catch_sentret",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Rocket Watch Volunteer Kae",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1390,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "sentret",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Sentret near Five Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 6,
+   "settlement": "Five Island"
+  },
+  {
+   "board_id": "five_island",
+   "id": "five_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Angler Dario",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 930,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Five Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 6,
+   "settlement": "Five Island"
+  },
+  {
+   "board_id": "five_island",
+   "id": "five_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Ruins Fan Sel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 700,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Five Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 6,
+   "settlement": "Five Island"
+  },
+  {
+   "board_id": "five_island",
+   "id": "five_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Rocket Watch Volunteer Kae",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 700,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 6,
+   "settlement": "Five Island"
+  },
+  {
+   "board_id": "five_island",
+   "id": "five_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Angler Dario",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 850,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2000,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2000 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 6,
+   "settlement": "Five Island"
+  },
+  {
+   "board_id": "five_island",
+   "id": "five_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Ruins Fan Sel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "hyper-potion": 1
+    },
+    "money": 1390,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Five Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 6,
+   "settlement": "Five Island"
+  },
+  {
+   "board_id": "five_island",
+   "id": "five_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Rocket Watch Volunteer Kae",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1160,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "oran-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Oran Berry to the Five Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 6,
+   "settlement": "Five Island"
+  },
+  {
+   "board_id": "five_island",
+   "id": "five_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Hoppip",
+    "portrait": "0187",
+    "species": "hoppip"
+   },
+   "reward": {
+    "items": {},
+    "money": 2170,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "memorial_pillar",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Hoppip is lost — reach Memorial_Pillar and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 6,
+   "settlement": "Five Island"
+  },
+  {
+   "board_id": "five_island",
+   "id": "five_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Angler Dario",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1240,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "grassland",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a grassland habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 6,
+   "settlement": "Five Island"
+  },
+  {
+   "board_id": "five_island",
+   "id": "five_island_field_illuminate",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Ruins Fan Sel",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1080,
+    "rank_points": 10
+   },
+   "task": {
+    "action": "illuminate",
+    "count": 2,
+    "target": "illuminate",
+    "type": "field_action"
+   },
+   "title": "Trail work: use Illuminate in the field 2 times",
+   "window": {},
+   "source_label": "pattern: GO field research (field-action task)",
+   "level_band": 6,
+   "settlement": "Five Island"
+  },
+  {
+   "board_id": "six_island",
+   "id": "six_island_catch_spinarak",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Pattern Seeker Yuna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "spinarak",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Spinarak near Six Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 7,
+   "settlement": "Six Island"
+  },
+  {
+   "board_id": "six_island",
+   "id": "six_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Hiker Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1040,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Six Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 7,
+   "settlement": "Six Island"
+  },
+  {
+   "board_id": "six_island",
+   "id": "six_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Fisher Leda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 780,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Six Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 7,
+   "settlement": "Six Island"
+  },
+  {
+   "board_id": "six_island",
+   "id": "six_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Pattern Seeker Yuna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 780,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 7,
+   "settlement": "Six Island"
+  },
+  {
+   "board_id": "six_island",
+   "id": "six_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Hiker Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 950,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2200,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2200 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 7,
+   "settlement": "Six Island"
+  },
+  {
+   "board_id": "six_island",
+   "id": "six_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Fisher Leda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1550,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Six Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 7,
+   "settlement": "Six Island"
+  },
+  {
+   "board_id": "six_island",
+   "id": "six_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Pattern Seeker Yuna",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "max-potion": 1
+    },
+    "money": 1290,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "cheri-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Cheri Berry to the Six Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 7,
+   "settlement": "Six Island"
+  },
+  {
+   "board_id": "six_island",
+   "id": "six_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Ledyba",
+    "portrait": "0165",
+    "species": "ledyba"
+   },
+   "reward": {
+    "items": {},
+    "money": 2420,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "altering_cave",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Ledyba is lost — reach Altering_Cave and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 7,
+   "settlement": "Six Island"
+  },
+  {
+   "board_id": "six_island",
+   "id": "six_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Hiker Corin",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1380,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "forest",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a forest habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 7,
+   "settlement": "Six Island"
+  },
+  {
+   "board_id": "six_island",
+   "id": "six_island_vexa",
+   "kind": "job",
+   "rank_min": 1,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Fisher Leda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1900,
+    "rank_points": 15
+   },
+   "task": {
+    "count": 1,
+    "target": "singles",
+    "type": "vexa_clear"
+   },
+   "title": "VEXA contract (Six Island): clear a singles simulation",
+   "window": {},
+   "source_label": "pattern: GO field research (battle task) on the VEXA sim",
+   "level_band": 7,
+   "settlement": "Six Island"
+  },
+  {
+   "board_id": "seven_island",
+   "id": "seven_island_catch_skarmory",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Ruins Scholar Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "skarmory",
+    "type": "catch"
+   },
+   "title": "Field study: catch 2 Skarmory near Seven Island",
+   "window": {},
+   "source_label": "pattern: GO field research (catch X of a species)",
+   "level_band": 8,
+   "settlement": "Seven Island"
+  },
+  {
+   "board_id": "seven_island",
+   "id": "seven_island_catch_any",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Trainer Tower Clerk Asha",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1140,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 4,
+    "target": "",
+    "type": "catch"
+   },
+   "title": "Survey the routes around Seven Island: catch any 4 wild Pokémon",
+   "window": {},
+   "source_label": "pattern: GO field research (catch any)",
+   "level_band": 8,
+   "settlement": "Seven Island"
+  },
+  {
+   "board_id": "seven_island",
+   "id": "seven_island_groom",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Diver Pem",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 860,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "groom",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "A well-groomed partner for Seven Island",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 8,
+   "settlement": "Seven Island"
+  },
+  {
+   "board_id": "seven_island",
+   "id": "seven_island_treat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Ruins Scholar Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "oran-berry": 1
+    },
+    "money": 860,
+    "rank_points": 6
+   },
+   "task": {
+    "action": "treat",
+    "count": 2,
+    "target": "",
+    "type": "care"
+   },
+   "title": "Treat time: share a snack with your follower",
+   "window": {},
+   "source_label": "pattern: GO buddy-care task, PMD board posting",
+   "level_band": 8,
+   "settlement": "Seven Island"
+  },
+  {
+   "board_id": "seven_island",
+   "id": "seven_island_walk",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Trainer Tower Clerk Asha",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1040,
+    "rank_points": 8
+   },
+   "task": {
+    "count": 2400,
+    "target": "",
+    "type": "walk"
+   },
+   "title": "Walk 2400 steps with a follower out",
+   "window": {},
+   "source_label": "pattern: GO field research (walk with buddy)",
+   "level_band": 8,
+   "settlement": "Seven Island"
+  },
+  {
+   "board_id": "seven_island",
+   "id": "seven_island_battle",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Diver Pem",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "full-restore": 1
+    },
+    "money": 1710,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "",
+    "type": "battle_win"
+   },
+   "title": "Training day in Seven Island: win 2 battles",
+   "window": {},
+   "source_label": "pattern: GO field research (win battles), PMD job",
+   "level_band": 8,
+   "settlement": "Seven Island"
+  },
+  {
+   "board_id": "seven_island",
+   "id": "seven_island_deliver",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Ruins Scholar Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {
+     "ultra-ball": 2
+    },
+    "money": 1420,
+    "rank_points": 10
+   },
+   "task": {
+    "count": 2,
+    "target": "rawst-berry",
+    "type": "deliver"
+   },
+   "title": "Deliver 2 x Rawst Berry to the Seven Island board",
+   "window": {},
+   "source_label": "pattern: PMD delivery job",
+   "level_band": 8,
+   "settlement": "Seven Island"
+  },
+  {
+   "board_id": "seven_island",
+   "id": "seven_island_rescue",
+   "kind": "rescue",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Phanpy",
+    "portrait": "0231",
+    "species": "phanpy"
+   },
+   "reward": {
+    "items": {},
+    "money": 2660,
+    "rank_points": 20
+   },
+   "task": {
+    "count": 1,
+    "target": "tanoby_ruins",
+    "type": "rescue_reach"
+   },
+   "title": "Rescue: a Phanpy is lost — reach Tanoby_Ruins and escort it home",
+   "window": {},
+   "source_label": "pattern: PMD rescue letter",
+   "level_band": 8,
+   "settlement": "Seven Island"
+  },
+  {
+   "board_id": "seven_island",
+   "id": "seven_island_habitat",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Trainer Tower Clerk Asha",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 1520,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "rough-terrain",
+    "type": "habitat"
+   },
+   "title": "Habitat check: visit a rough-terrain habitat",
+   "window": {},
+   "source_label": "pattern: GO field research (habitat visit)",
+   "level_band": 8,
+   "settlement": "Seven Island"
+  },
+  {
+   "board_id": "seven_island",
+   "id": "seven_island_rain_catch",
+   "kind": "job",
+   "rank_min": 0,
+   "region_id": "sevii",
+   "requester": {
+    "name": "Ruins Scholar Veda",
+    "portrait": "",
+    "species": ""
+   },
+   "reward": {
+    "items": {},
+    "money": 2000,
+    "rank_points": 12
+   },
+   "task": {
+    "count": 1,
+    "target": "larvitar",
+    "type": "catch"
+   },
+   "title": "Rainy-day study: catch a Larvitar in the rain",
+   "window": {
+    "kind": "weather",
+    "value": "rain"
+   },
+   "source_label": "pattern: GO weather-window field research",
+   "level_band": 8,
+   "settlement": "Seven Island"
+  }
+ ],
+ "special_chains": [
+  {
+   "board_id": "one_island",
+   "id": "one_island_chain_helper",
+   "posted_by": "Net Center Tech Lio",
+   "region_id": "sevii",
+   "reward": {
+    "items": {
+     "super-potion": 1
+    },
+    "money": 1430,
+    "rank_points": 30
+   },
+   "steps": [
+    {
+     "count": 1,
+     "target": "tentacool",
+     "title": "Step 1: catch a Tentacool for a local study",
+     "type": "catch"
+    },
+    {
+     "count": 1,
+     "target": "",
+     "title": "Step 2: win a battle to check its condition",
+     "type": "battle_win"
+    },
+    {
+     "action": "groom",
+     "count": 1,
+     "target": "",
+     "title": "Step 3: groom your follower to finish the check-in",
+     "type": "care"
+    }
+   ],
+   "title": "One Island helper",
+   "unlock": {
+    "flag": "",
+    "min_rank": 0
+   },
+   "source_label": "pattern: GO special research chain on a PMD board",
+   "level_band": 3,
+   "settlement": "One Island"
+  },
+  {
+   "board_id": "four_island",
+   "id": "four_island_chain_rounds",
+   "posted_by": "Ice Fisher Bram",
+   "region_id": "sevii",
+   "reward": {
+    "items": {
+     "full-heal": 2
+    },
+    "money": 1920,
+    "rank_points": 30
+   },
+   "steps": [
+    {
+     "count": 500,
+     "target": "",
+     "title": "Step 1: walk 500 steps on patrol",
+     "type": "walk"
+    },
+    {
+     "count": 1,
+     "target": "cave",
+     "title": "Step 2: visit the local habitat",
+     "type": "habitat"
+    },
+    {
+     "count": 2,
+     "target": "",
+     "title": "Step 3: win 2 battles on the round",
+     "type": "battle_win"
+    }
+   ],
+   "title": "Rounds of Four Island",
+   "unlock": {
+    "flag": "",
+    "min_rank": 1
+   },
+   "source_label": "pattern: GO special research chain on a PMD board",
+   "level_band": 5,
+   "settlement": "Four Island"
+  },
+  {
+   "board_id": "seven_island",
+   "id": "seven_island_chain_lost_and_found",
+   "posted_by": "Diver Pem",
+   "region_id": "sevii",
+   "reward": {
+    "items": {
+     "ultra-ball": 1
+    },
+    "money": 2660,
+    "rank_points": 30
+   },
+   "steps": [
+    {
+     "count": 1,
+     "target": "cheri-berry",
+     "title": "Step 1: bring the board a berry",
+     "type": "deliver"
+    },
+    {
+     "count": 1,
+     "target": "larvitar",
+     "title": "Step 2: catch a Larvitar seen near the lost spot",
+     "type": "catch"
+    },
+    {
+     "count": 1,
+     "target": "",
+     "title": "Step 3: win a battle to clear the way home",
+     "type": "battle_win"
+    }
+   ],
+   "title": "Lost and found in Seven Island",
+   "unlock": {
+    "flag": "",
+    "min_rank": 2
+   },
+   "source_label": "pattern: GO special research chain on a PMD board",
+   "level_band": 8,
+   "settlement": "Seven Island"
+  }
+ ]
+}
