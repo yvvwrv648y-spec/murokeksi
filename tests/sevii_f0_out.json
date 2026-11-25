@@ -1,0 +1,3474 @@
+{
+	"build_problems": 0,
+	"dialogue_ok": 99,
+	"fronts_ok": 76,
+	"handoff_failures": 0,
+	"records": [
+		{
+			"class": "SEVII_RUIN_MANIAC",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "FiveIsland_LostCave_Room1",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PSYCHIC",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 3,
+			"map": "FiveIsland_LostCave_Room4",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TEAM_ROCKET",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 3,
+			"map": "FiveIsland_Meadow",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TEAM_ROCKET",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 3,
+			"map": "FiveIsland_Meadow",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TEAM_ROCKET",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 2,
+			"map": "FiveIsland_Meadow",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_BIRD_KEEPER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "FiveIsland_MemorialPillar",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_BIRD_KEEPER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "FiveIsland_MemorialPillar",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_BIRD_KEEPER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "FiveIsland_MemorialPillar",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PAINTER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "FiveIsland_ResortGorgeous",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PAINTER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "FiveIsland_ResortGorgeous",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PAINTER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "FiveIsland_ResortGorgeous",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_LADY",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "FiveIsland_ResortGorgeous",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_LADY",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "FiveIsland_ResortGorgeous",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_YOUNGSTER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "FiveIsland_ResortGorgeous",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SWIMMER_M",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "FiveIsland_ResortGorgeous",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TEAM_ROCKET",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 3,
+			"map": "FiveIsland_RocketWarehouse",
+			"party_index": 4,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TEAM_ROCKET",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 2,
+			"map": "FiveIsland_RocketWarehouse",
+			"party_index": 5,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TEAM_ROCKET",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 3,
+			"map": "FiveIsland_RocketWarehouse",
+			"party_index": 6,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TEAM_ROCKET",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 3,
+			"map": "FiveIsland_RocketWarehouse",
+			"party_index": 7,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TEAM_ROCKET",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 2,
+			"map": "FiveIsland_RocketWarehouse",
+			"party_index": 8,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SCIENTIST",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 5,
+			"map": "FiveIsland_RocketWarehouse",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PKMN_BREEDER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "FiveIsland_WaterLabyrinth",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TEAM_ROCKET",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 2,
+			"map": "MtEmber_Exterior",
+			"party_index": 9,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TEAM_ROCKET",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 4,
+			"map": "MtEmber_Exterior",
+			"party_index": 10,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_CRUSH_GIRL",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "MtEmber_Exterior",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PKMN_RANGER",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 2,
+			"map": "MtEmber_Exterior",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PKMN_RANGER",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 3,
+			"map": "MtEmber_Exterior",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SWIMMER_F",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SWIMMER_F",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SWIMMER_M",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SWIMMER_M",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_FISHERMAN",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 5,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_CRUSH_GIRL",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_CRUSH_GIRL",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_BLACK_BELT",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_BLACK_BELT",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_CAMPER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PICNICKER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 4,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_CRUSH_KIN",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_CRUSH_KIN",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "OneIsland_KindleRoad",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SWIMMER_F",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "OneIsland_TreasureBeach",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_CRUSH_GIRL",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "SevenIsland_SevaultCanyon",
+			"party_index": 4,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TAMER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "SevenIsland_SevaultCanyon",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PKMN_RANGER",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 3,
+			"map": "SevenIsland_SevaultCanyon",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PKMN_RANGER",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 1,
+			"map": "SevenIsland_SevaultCanyon",
+			"party_index": 4,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_COOLTRAINER",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 5,
+			"map": "SevenIsland_SevaultCanyon",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_COOLTRAINER",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 5,
+			"map": "SevenIsland_SevaultCanyon",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_COOL_COUPLE",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SevenIsland_SevaultCanyon",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_COOL_COUPLE",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SevenIsland_SevaultCanyon",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_AROMA_LADY",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SevenIsland_SevaultCanyon_Entrance",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_YOUNG_COUPLE",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SevenIsland_SevaultCanyon_Entrance",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_YOUNG_COUPLE",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SevenIsland_SevaultCanyon_Entrance",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PKMN_RANGER",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 2,
+			"map": "SevenIsland_SevaultCanyon_Entrance",
+			"party_index": 5,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PKMN_RANGER",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 2,
+			"map": "SevenIsland_SevaultCanyon_Entrance",
+			"party_index": 6,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_JUGGLER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 4,
+			"map": "SevenIsland_SevaultCanyon_Entrance",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_RUIN_MANIAC",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "SevenIsland_TanobyRuins",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_RUIN_MANIAC",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "SevenIsland_TanobyRuins",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PAINTER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "SevenIsland_TanobyRuins",
+			"party_index": 4,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_GENTLEMAN",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SevenIsland_TanobyRuins",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PSYCHIC",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 1,
+			"map": "SevenIsland_TrainerTower",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PSYCHIC",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 3,
+			"map": "SevenIsland_TrainerTower",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PSYCHIC",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 3,
+			"map": "SixIsland_GreenPath",
+			"party_index": 4,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TEAM_ROCKET",
+			"dialogue_ok": true,
+			"front_ok": false,
+			"identity_size": 3,
+			"map": "SixIsland_OutcastIsland",
+			"party_index": 11,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_FISHERMAN",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_OutcastIsland",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SWIMMER_M",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_OutcastIsland",
+			"party_index": 4,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SWIMMER_F",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "SixIsland_OutcastIsland",
+			"party_index": 4,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SIS_AND_BRO",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_OutcastIsland",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SIS_AND_BRO",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_OutcastIsland",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PKMN_BREEDER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "SixIsland_PatternBush",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PKMN_BREEDER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "SixIsland_PatternBush",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_BUG_CATCHER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "SixIsland_PatternBush",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_BUG_CATCHER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 4,
+			"map": "SixIsland_PatternBush",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_BUG_CATCHER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_PatternBush",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_YOUNGSTER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "SixIsland_PatternBush",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_YOUNGSTER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_PatternBush",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_LASS",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 4,
+			"map": "SixIsland_PatternBush",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_LASS",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "SixIsland_PatternBush",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_CAMPER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_PatternBush",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_PICNICKER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "SixIsland_PatternBush",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_RUIN_MANIAC",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "SixIsland_PatternBush",
+			"party_index": 4,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_RUIN_MANIAC",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "SixIsland_RuinValley",
+			"party_index": 5,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_RUIN_MANIAC",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "SixIsland_RuinValley",
+			"party_index": 6,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_RUIN_MANIAC",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_RuinValley",
+			"party_index": 7,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_HIKER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "SixIsland_RuinValley",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_POKEMANIAC",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_RuinValley",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_AROMA_LADY",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_WaterPath",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_JUGGLER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 4,
+			"map": "SixIsland_WaterPath",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SWIMMER_M",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "SixIsland_WaterPath",
+			"party_index": 5,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SWIMMER_F",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_WaterPath",
+			"party_index": 5,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TWINS",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_WaterPath",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TWINS",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_WaterPath",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_HIKER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "SixIsland_WaterPath",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_AROMA_LADY",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "ThreeIsland_BondBridge",
+			"party_index": 3,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_AROMA_LADY",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "ThreeIsland_BondBridge",
+			"party_index": 4,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TUBER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 3,
+			"map": "ThreeIsland_BondBridge",
+			"party_index": 1,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TUBER",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 4,
+			"map": "ThreeIsland_BondBridge",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_SWIMMER_F",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 1,
+			"map": "ThreeIsland_BondBridge",
+			"party_index": 6,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TWINS",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "ThreeIsland_BondBridge",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		},
+		{
+			"class": "SEVII_TWINS",
+			"dialogue_ok": true,
+			"front_ok": true,
+			"identity_size": 2,
+			"map": "ThreeIsland_BondBridge",
+			"party_index": 2,
+			"per_level": {
+				"100": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"35": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"5": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"50": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				},
+				"75": {
+					"handoff_ok": true,
+					"problems": [],
+					"size": 6
+				}
+			}
+		}
+	],
+	"sevii_placements": 99
+}

@@ -1,0 +1,83 @@
+{
+ "ability": "clear-body",
+ "ability_note": "Spec's ability labels are all correct in held data (Showdown pokedex; PKHeX SV personal abilities [Clear Body, Liquid Ooze, Rain Dish]): Clear Body regular slot-0, Liquid Ooze regular slot-1 alternative, Rain Dish hidden. Recorded as specified.",
+ "ability_slot": "regular",
+ "base_stats": {
+  "atk": 40,
+  "def": 35,
+  "hp": 40,
+  "spa": 50,
+  "spd": 100,
+  "spe": 70
+ },
+ "ev_total": 508,
+ "evolution": {
+  "final_types": [
+   "water",
+   "poison"
+  ],
+  "level": 30,
+  "method": "level_up",
+  "retains_tera_type": "flying",
+  "to": "tentacruel"
+ },
+ "evs": {
+  "atk": 0,
+  "def": 0,
+  "hp": 252,
+  "spa": 0,
+  "spd": 4,
+  "spe": 252
+ },
+ "gimmick_assignment": {
+  "kind": "terastallization",
+  "status": "assigned_but_gated - Tentacool's designated Tera Type is Flying, stored on this record and retained through evolution into Tentacruel (spec's implementation note + gimmick table). Terastallization unlocks per progression under locked canon; NOT available in Kanto.",
+  "target": "tentacruel",
+  "tera_type": "flying"
+ },
+ "held_item": "eviolite",
+ "hidden_ability": "rain-dish",
+ "hp": 23,
+ "ivs": {
+  "atk": 0,
+  "def": 31,
+  "hp": 31,
+  "spa": 31,
+  "spd": 31,
+  "spe": 31
+ },
+ "level": 5,
+ "max_hp": 23,
+ "moves": [
+  {
+   "max_pp": 35,
+   "name": "poisonsting",
+   "pp": 35
+  },
+  {
+   "max_pp": 25,
+   "name": "watergun",
+   "pp": 25
+  }
+ ],
+ "moves_verified": "Gen 9 level-up: Poison Sting L1, Water Gun L1 - both known at Level 5 (PKHeX SV learnset and Showdown Gen 9 agree move-for-move). The spec's upcoming list matches Gen 9 levels exactly (Wrap L8, Supersonic L12, Water Pulse L16) with one listing note: Acid is L4, i.e. already learnable by the Level 5 start, not strictly 'upcoming' - same class of note as Tasha's Corphish Leer. See DISCREPANCIES.md D3.",
+ "name": "tentacool",
+ "nature": "Timid",
+ "role": "Special Defense / Speed / Poison Coverage / Tera Support",
+ "slot": 5,
+ "species_id": 72,
+ "stats_at_level_5": {
+  "atk": 8,
+  "def": 10,
+  "hp": 23,
+  "spa": 11,
+  "spd": 16,
+  "spe": 17
+ },
+ "stats_note": "Computed with the standard stat formula from the spec's IVs/EVs/Timid. Riley's stated line (23/8/10/11/16/17) matches the formula on ALL SIX stats.",
+ "status": "",
+ "types": [
+  "water",
+  "poison"
+ ]
+}
