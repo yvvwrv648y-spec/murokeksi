@@ -1,0 +1,33 @@
+{
+  "generated_utc": "2026-11-21T17:43:17Z",
+  "master_binary_archive": {
+    "filename": "PUW_MASTER_BINARY_ASSETS_FOR_DROPBOX_20261121.zip",
+    "size_bytes": 38512063,
+    "sha256": "1768174c187fd5067164b128e5341416480cbcae776aa99f67bad9bf1a2342ba",
+    "verified_in_sandbox": true,
+    "dropbox_upload_status": "BLOCKED_BY_TEXT_ONLY_MCP_API_5MB_LIMIT"
+  },
+  "assets": [
+    {
+      "id": "bw2_recovered_env",
+      "count": 13111,
+      "source": "Owner Black 2 / White 2 ROMs (immutable, never redistributed)",
+      "status": "ASSET_CANDIDATE",
+      "public_redistribution_allowed": false
+    },
+    {
+      "id": "quetzal_moemon_8v4",
+      "count": 11060,
+      "source": "Owner MoemonQuetzalEnglishAlpha8v4.gba",
+      "status": "ASSET_CANDIDATE",
+      "public_redistribution_allowed": false
+    },
+    {
+      "id": "neon_custom_riley_tasha_oak_intro",
+      "count": 44,
+      "source": "Neon original generated BW2-style pixel sheets & HD-2D intro paintings",
+      "status": "ASSET_CANDIDATE",
+      "public_redistribution_allowed": true
+    }
+  ]
+}

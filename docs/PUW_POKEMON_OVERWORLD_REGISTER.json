@@ -1,0 +1,52 @@
+{
+  "status": "SPECIFIED",
+  "families": [
+    "PKDX",
+    "MDX"
+  ],
+  "uniqueness_rule": "Unique world_id per spawned individual; species-specific locomotion profiles; atomic legendary/mythical singleton ledger.",
+  "pallet_and_route1_seed": [
+    {
+      "species_id": 16,
+      "slug": "pidgey",
+      "family": "PKDX",
+      "locomotion": "flying_avian",
+      "habitat": [
+        "kanto_pallet_town",
+        "kanto_route_01"
+      ],
+      "status": "ASSET_CANDIDATE"
+    },
+    {
+      "species_id": 25,
+      "slug": "pikachu",
+      "family": "PKDX",
+      "locomotion": "ground_agile",
+      "habitat": [
+        "kanto_pallet_town",
+        "kanto_viridian_forest"
+      ],
+      "status": "ASSET_CANDIDATE"
+    },
+    {
+      "species_id": 19,
+      "slug": "rattata",
+      "family": "PKDX",
+      "locomotion": "ground_scurry",
+      "habitat": [
+        "kanto_route_01"
+      ],
+      "status": "ASSET_CANDIDATE"
+    },
+    {
+      "species_id": 25,
+      "slug": "pikachu",
+      "family": "MDX",
+      "locomotion": "ground_biped_moemon",
+      "habitat": [
+        "kanto_route_01"
+      ],
+      "status": "ASSET_CANDIDATE"
+    }
+  ]
+}

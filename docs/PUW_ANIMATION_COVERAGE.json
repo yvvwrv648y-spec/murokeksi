@@ -1,0 +1,89 @@
+{
+  "status": "SPECIFIED",
+  "target_renderer_fps": 60,
+  "actors": {
+    "riley": {
+      "implemented_states": [
+        "idle_down",
+        "walk_4dir"
+      ],
+      "required_states": [
+        "idle",
+        "idle_var",
+        "walk",
+        "run",
+        "start",
+        "stop",
+        "turn",
+        "look",
+        "talk",
+        "interact",
+        "inspect",
+        "throw_ball",
+        "capture_react",
+        "victory",
+        "defeat",
+        "damage",
+        "climb",
+        "swim",
+        "surf",
+        "ride",
+        "sit"
+      ],
+      "status": "ASSET_CANDIDATE"
+    },
+    "tasha": {
+      "implemented_states": [
+        "idle_down",
+        "walk_4dir"
+      ],
+      "required_states": [
+        "idle",
+        "idle_var",
+        "walk",
+        "run",
+        "start",
+        "stop",
+        "turn",
+        "look",
+        "talk",
+        "interact",
+        "inspect",
+        "throw_ball",
+        "capture_react",
+        "victory",
+        "defeat",
+        "damage",
+        "climb",
+        "swim",
+        "surf",
+        "ride",
+        "sit"
+      ],
+      "status": "ASSET_CANDIDATE"
+    },
+    "npcs": {
+      "profiles_planned": [
+        "researcher",
+        "gardener",
+        "fisherman",
+        "shopkeeper",
+        "nurse",
+        "sailor",
+        "gym_trainer"
+      ],
+      "status": "SPECIFIED"
+    },
+    "pokemon": {
+      "locomotion_classes": [
+        "ground_biped",
+        "ground_quadruped",
+        "flying_avian",
+        "swimming_aquatic",
+        "serpentine",
+        "heavy_large"
+      ],
+      "status": "SPECIFIED"
+    }
+  }
+}

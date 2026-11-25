@@ -1,0 +1,41 @@
+{
+  "status": "SPECIFIED",
+  "uniqueness_rule": "Zero duplicate visible NPC identities per screen; every actor has stable world_id, schedule, and navigation route.",
+  "pallet_town_seed": [
+    {
+      "world_id": "npc_pallet_oak",
+      "name": "Professor Samuel Oak",
+      "role": "researcher",
+      "location": "kanto_pallet_oaks_lab",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "world_id": "npc_pallet_aide_01",
+      "name": "Research Aide Kenji",
+      "role": "scientist",
+      "location": "kanto_pallet_oaks_lab",
+      "status": "SPECIFIED"
+    },
+    {
+      "world_id": "npc_pallet_gardener_01",
+      "name": "Botanist Clara",
+      "role": "resident",
+      "location": "kanto_pallet_town",
+      "status": "SPECIFIED"
+    },
+    {
+      "world_id": "npc_pallet_dockhand_01",
+      "name": "Harbor Hand Marco",
+      "role": "sailor",
+      "location": "kanto_pallet_town",
+      "status": "SPECIFIED"
+    },
+    {
+      "world_id": "npc_pallet_scout_01",
+      "name": "Route 1 Scout Leo",
+      "role": "trainer",
+      "location": "kanto_route_01",
+      "status": "SPECIFIED"
+    }
+  ]
+}

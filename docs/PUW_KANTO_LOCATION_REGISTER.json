@@ -1,0 +1,924 @@
+{
+  "schema_version": "1.0.0",
+  "region": "kanto",
+  "continuity_sources_tracked": [
+    "gen1",
+    "frlg",
+    "hgss",
+    "lgpe",
+    "anime",
+    "manga",
+    "film_special",
+    "pokopia",
+    "puw_original"
+  ],
+  "mainland_cities": [
+    {
+      "id": "kanto_pallet_town",
+      "name": "Pallet Town",
+      "category": "settlement",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe",
+        "anime",
+        "manga"
+      ],
+      "connections": [
+        "kanto_route_01",
+        "kanto_route_21"
+      ],
+      "status": "IMPLEMENTED"
+    },
+    {
+      "id": "kanto_viridian_city",
+      "name": "Viridian City",
+      "category": "city",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe",
+        "anime",
+        "manga"
+      ],
+      "connections": [
+        "kanto_route_01",
+        "kanto_route_02",
+        "kanto_route_22"
+      ],
+      "status": "IMPLEMENTED"
+    },
+    {
+      "id": "kanto_pewter_city",
+      "name": "Pewter City",
+      "category": "city",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe",
+        "anime",
+        "manga"
+      ],
+      "connections": [
+        "kanto_route_02",
+        "kanto_route_03"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_cerulean_city",
+      "name": "Cerulean City",
+      "category": "city",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe",
+        "anime",
+        "manga"
+      ],
+      "connections": [
+        "kanto_route_04",
+        "kanto_route_05",
+        "kanto_route_09",
+        "kanto_route_24",
+        "kanto_cerulean_cave"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_vermilion_city",
+      "name": "Vermilion City",
+      "category": "city",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe",
+        "anime",
+        "manga"
+      ],
+      "connections": [
+        "kanto_route_06",
+        "kanto_route_11",
+        "kanto_ss_anne",
+        "sevii_one_island"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_lavender_town",
+      "name": "Lavender Town",
+      "category": "town",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe",
+        "anime",
+        "manga"
+      ],
+      "connections": [
+        "kanto_route_08",
+        "kanto_route_10",
+        "kanto_route_12",
+        "kanto_pokemon_tower"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_celadon_city",
+      "name": "Celadon City",
+      "category": "city",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe",
+        "anime",
+        "manga"
+      ],
+      "connections": [
+        "kanto_route_07",
+        "kanto_route_16"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_saffron_city",
+      "name": "Saffron City",
+      "category": "city",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe",
+        "anime",
+        "manga"
+      ],
+      "connections": [
+        "kanto_route_05",
+        "kanto_route_06",
+        "kanto_route_07",
+        "kanto_route_08",
+        "kanto_silph_co"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_fuchsia_city",
+      "name": "Fuchsia City",
+      "category": "city",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe",
+        "anime",
+        "manga"
+      ],
+      "connections": [
+        "kanto_route_15",
+        "kanto_route_18",
+        "kanto_route_19",
+        "kanto_safari_zone"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_cinnabar_island",
+      "name": "Cinnabar Island",
+      "category": "island_city",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe",
+        "anime",
+        "manga"
+      ],
+      "connections": [
+        "kanto_route_20",
+        "kanto_route_21",
+        "kanto_pokemon_mansion"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_indigo_plateau",
+      "name": "Indigo Plateau",
+      "category": "league",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe",
+        "anime",
+        "manga"
+      ],
+      "connections": [
+        "kanto_victory_road"
+      ],
+      "status": "SPECIFIED"
+    }
+  ],
+  "routes": [
+    {
+      "id": "kanto_route_01",
+      "name": "Route 1",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "IMPLEMENTED"
+    },
+    {
+      "id": "kanto_route_02",
+      "name": "Route 2",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_03",
+      "name": "Route 3",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_04",
+      "name": "Route 4",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_05",
+      "name": "Route 5",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_06",
+      "name": "Route 6",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_07",
+      "name": "Route 7",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_08",
+      "name": "Route 8",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_09",
+      "name": "Route 9",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_10",
+      "name": "Route 10",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_11",
+      "name": "Route 11",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_12",
+      "name": "Route 12",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_13",
+      "name": "Route 13",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_14",
+      "name": "Route 14",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_15",
+      "name": "Route 15",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_16",
+      "name": "Route 16",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_17",
+      "name": "Route 17",
+      "category": "cycling_road",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_18",
+      "name": "Route 18",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_19",
+      "name": "Route 19",
+      "category": "sea_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_20",
+      "name": "Route 20",
+      "category": "sea_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_21",
+      "name": "Route 21",
+      "category": "sea_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_22",
+      "name": "Route 22",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_23",
+      "name": "Route 23",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_24",
+      "name": "Route 24",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_route_25",
+      "name": "Route 25",
+      "category": "land_route",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    }
+  ],
+  "landmarks_and_dungeons": [
+    {
+      "id": "kanto_pallet_riley_house",
+      "name": "Riley's House (Top-Left)",
+      "category": "interior",
+      "continuities": [
+        "puw_original"
+      ],
+      "status": "IMPLEMENTED"
+    },
+    {
+      "id": "kanto_pallet_tasha_house",
+      "name": "Tasha's House (Top-Right)",
+      "category": "interior",
+      "continuities": [
+        "puw_original"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_pallet_custom_house",
+      "name": "Custom Trainer's House (Bottom-Right)",
+      "category": "interior",
+      "continuities": [
+        "puw_original"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_pallet_oaks_lab",
+      "name": "Professor Oak's Laboratory",
+      "category": "facility",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "IMPLEMENTED"
+    },
+    {
+      "id": "kanto_viridian_forest",
+      "name": "Viridian Forest",
+      "category": "dungeon",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_mt_moon",
+      "name": "Mt. Moon",
+      "category": "dungeon",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_digletts_cave",
+      "name": "Diglett's Cave",
+      "category": "dungeon",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_rock_tunnel",
+      "name": "Rock Tunnel",
+      "category": "dungeon",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_underground_ns",
+      "name": "Underground Path (Routes 5-6)",
+      "category": "transit",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_underground_ew",
+      "name": "Underground Path (Routes 7-8)",
+      "category": "transit",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_pokemon_tower",
+      "name": "Pokémon Tower",
+      "category": "dungeon",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_silph_co",
+      "name": "Silph Co. HQ",
+      "category": "dungeon",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_pokemon_mansion",
+      "name": "Pokémon Mansion",
+      "category": "dungeon",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_power_plant",
+      "name": "Kanto Power Plant",
+      "category": "dungeon",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_seafoam_islands",
+      "name": "Seafoam Islands",
+      "category": "dungeon",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_safari_zone",
+      "name": "Kanto Safari Zone",
+      "category": "facility",
+      "continuities": [
+        "gen1",
+        "frlg"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_cerulean_cave",
+      "name": "Cerulean Cave",
+      "category": "dungeon",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_victory_road",
+      "name": "Victory Road (Kanto)",
+      "category": "dungeon",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_pewter_museum",
+      "name": "Pewter Museum of Science",
+      "category": "facility",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_celadon_dept_store",
+      "name": "Celadon Department Store",
+      "category": "facility",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_celadon_game_corner",
+      "name": "Celadon Game Corner & Rocket Hideout",
+      "category": "facility",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "hgss",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "kanto_ss_anne",
+      "name": "S.S. Anne",
+      "category": "ship_dungeon",
+      "continuities": [
+        "gen1",
+        "frlg",
+        "lgpe"
+      ],
+      "status": "SPECIFIED"
+    }
+  ],
+  "sevii_islands": [
+    {
+      "id": "sevii_one_island",
+      "name": "One Island",
+      "category": "island",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": false,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_two_island",
+      "name": "Two Island",
+      "category": "island",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": false,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_three_island",
+      "name": "Three Island",
+      "category": "island",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": false,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_four_island",
+      "name": "Four Island",
+      "category": "island",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": false,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_five_island",
+      "name": "Five Island",
+      "category": "island",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": false,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_six_island",
+      "name": "Six Island",
+      "category": "island",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": false,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_seven_island",
+      "name": "Seven Island",
+      "category": "island",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": false,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_treasure_beach",
+      "name": "Treasure Beach",
+      "category": "landmark",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": false,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_mt_ember",
+      "name": "Mt. Ember",
+      "category": "dungeon",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": false,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_icefall_cave",
+      "name": "Icefall Cave",
+      "category": "dungeon",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": false,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_lost_cave",
+      "name": "Lost Cave",
+      "category": "dungeon",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": false,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_tanoby_ruins",
+      "name": "Tanoby Ruins",
+      "category": "dungeon",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": false,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_navel_rock",
+      "name": "Navel Rock (Event-Dependent)",
+      "category": "event_island",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": true,
+      "status": "SPECIFIED"
+    },
+    {
+      "id": "sevii_birth_island",
+      "name": "Birth Island (Event-Dependent)",
+      "category": "event_island",
+      "continuities": [
+        "frlg"
+      ],
+      "event_dependent": true,
+      "status": "SPECIFIED"
+    }
+  ]
+}

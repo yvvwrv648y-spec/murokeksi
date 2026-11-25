@@ -1,0 +1,147 @@
+{
+  "hard_badge_level_caps_zero_disobedience": [
+    {
+      "badges": 0,
+      "hard_cap": 10,
+      "reason": "Strict hard stop before Lv.11 disobedience threshold (pre-Boulder Badge)."
+    },
+    {
+      "badges": 1,
+      "hard_cap": 20,
+      "reason": "Boulder Badge earned; capped cleanly before Misty (Lv.21) & disobedience."
+    },
+    {
+      "badges": 2,
+      "hard_cap": 24,
+      "reason": "Cascade Badge earned; capped at Lt. Surge (Lv.24)."
+    },
+    {
+      "badges": 3,
+      "hard_cap": 29,
+      "reason": "Thunder Badge earned; capped at Erika (Lv.29)."
+    },
+    {
+      "badges": 4,
+      "hard_cap": 40,
+      "reason": "Rainbow Badge earned; hard stop before Lv.41 disobedience."
+    },
+    {
+      "badges": 5,
+      "hard_cap": 43,
+      "reason": "Soul Badge earned; capped at Sabrina (Lv.43)."
+    },
+    {
+      "badges": 6,
+      "hard_cap": 47,
+      "reason": "Marsh Badge earned; capped at Blaine (Lv.47)."
+    },
+    {
+      "badges": 7,
+      "hard_cap": 50,
+      "reason": "Volcano Badge earned; capped at Giovanni (Lv.50)."
+    },
+    {
+      "badges": 8,
+      "hard_cap": 100,
+      "reason": "All 8 Kanto Badges earned; full Lv.100 obedience unlocked."
+    }
+  ],
+  "official_battle_formats": [
+    {
+      "id": "singles",
+      "name": "Standard Singles (6v6 Max Difficulty)",
+      "lockout": null
+    },
+    {
+      "id": "doubles",
+      "name": "Double Battle (2v2 Active)",
+      "lockout": null
+    },
+    {
+      "id": "vgc_worlds",
+      "name": "Pok\u00e9mon World Championships (VGC Official)",
+      "rules": "Lv.50 Flat, Bring-6-Pick-4 Doubles, Species Clause, Item Clause, Open Team Sheet"
+    },
+    {
+      "id": "sky_battle",
+      "name": "Sky Battle (Gen VI)",
+      "lockout": "ONLY Flying-type or Levitate Pok\u00e9mon allowed; ground-bound Pok\u00e9mon strictly locked out."
+    },
+    {
+      "id": "inverse_battle",
+      "name": "Inverse Battle (Gen VI)",
+      "rules": "Type effectiveness inverted: 2x -> 0.5x, 0.5x -> 2x, 0x -> 2x."
+    },
+    {
+      "id": "triple_battle",
+      "name": "Triple Battle (Gen V)",
+      "rules": "3v3 active with position-based adjacency targeting."
+    },
+    {
+      "id": "rotation_battle",
+      "name": "Rotation Battle (Gen V)",
+      "rules": "3 active slots; free rotation before attacking."
+    },
+    {
+      "id": "tera_raid",
+      "name": "Tera Raid / Dynamax Boss",
+      "rules": "Multi-turn boss shield, Stellar Tera boost persists every turn."
+    }
+  ],
+  "official_gimmicks": {
+    "mega_evolution": {
+      "eligible_examples": [
+        "venusaur",
+        "charizard",
+        "blastoise",
+        "alakazam",
+        "gengar",
+        "gyarados",
+        "gardevoir",
+        "aggron"
+      ],
+      "requires": "Mega Stone"
+    },
+    "z_moves": {
+      "exclusive_moves": {
+        "pikachu": "10,000,000 Volt Thunderbolt (195 BP Electric)",
+        "eevee": "Extreme Evoboost (+2 All Stats)",
+        "raichu_alola": "Stoked Sparksurfer (175 BP)"
+      }
+    },
+    "dynamax_gigantamax": {
+      "turns": 3,
+      "hp_mult": "1.5x to 2.0x",
+      "gmax_eligible": {
+        "pikachu": "G-Max Volt Crash",
+        "charizard": "G-Max Wildfire",
+        "venusaur": "G-Max Vine Lash",
+        "blastoise": "G-Max Cannonade",
+        "eevee": "G-Max Cuddle",
+        "gengar": "G-Max Terror"
+      }
+    },
+    "terastallization": {
+      "shards_to_change": 50,
+      "types": 19,
+      "stellar_rule": "Retains original defensive typing; 2.0x STAB once per original type (1.2x non-STAB once per type); persistent in Tera Raids."
+    }
+  },
+  "static_town_supply_trainers": [
+    {
+      "name": "Quartermaster Kira",
+      "role": "Infinite Free Pok\u00e9 Balls & Evolution Items",
+      "static": true
+    },
+    {
+      "name": "Medic Haruka",
+      "role": "Infinite Free Healing & Status Medicine",
+      "static": true
+    },
+    {
+      "name": "Tactician Vance",
+      "role": "Infinite Free Battle/Held Items, 50x Tera Shards, Mega Stones, Z-Crystals, HMs/TMs, Exp. Share & Unique Bicycles",
+      "static": true
+    }
+  ]
+}

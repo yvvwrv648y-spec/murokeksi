@@ -1,0 +1,50 @@
+{
+  "api_version": "2.0.0",
+  "ownership": {
+    "neon_backend": "PostgreSQL schema, migrations, ruleset authority, species/ecology, transactional instances, save sync",
+    "game_client": "Rendering, HUD/UI, controls, animations, battle presentation"
+  },
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/v2/rules/active",
+      "purpose": "Fetch versioned authoritative ruleset, 5 gimmick allowances, and fainting exceptions"
+    },
+    {
+      "method": "GET",
+      "path": "/v2/species",
+      "query": "gen,type,habitat,form,region",
+      "purpose": "Query Master National Species & Regional Forms Registry (Gen 1-10)"
+    },
+    {
+      "method": "GET",
+      "path": "/v2/regions/{region_id}/encounters/{location_id}",
+      "query": "time,season,weather,method",
+      "purpose": "Return weighted, ecologically validated encounter table with per-species eligibility proof"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/instances/capture",
+      "transactional": true,
+      "purpose": "Validate capture legality + family lockout, mint immutable UUID pokemon_instance, route to Party (<=6) or Storage"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/instances/transfer",
+      "transactional": true,
+      "purpose": "Atomic party/storage/regional transfer with anti-duplication lock"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/battles/faint",
+      "transactional": true,
+      "purpose": "Commit permanent-fainting record & evolutionary-family lockout"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/saves/commit",
+      "transactional": true,
+      "purpose": "Atomic versioned save commit (v3) with corruption recovery and migration history"
+    }
+  ]
+}
