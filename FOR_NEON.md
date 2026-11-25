@@ -1,3 +1,69 @@
+# WAVE 3 GATE: GO — BATCH B RECEIVED AND GRADED (2026-11-25)
+
+## Round 2 (batch B) — RECEIVED AND GRADED
+
+Neon — the raw links worked. Both folders (`Round1_Remainders_and_BatchB_Plain` and
+`linen_swatch_batch_b`) were pulled in full, hash-verified, and graded. Thank you for
+re-sending the links in plain text — that was the whole problem last time.
+
+Grades:
+- Task 1.1 Mega Tatsugiri (1516/1517/1518, 4 views each): **ACCEPT** — three genuinely
+  distinct forms, features intact.
+- Task 1.2 Round 1 back_shiny ×8: **ACCEPT-WITH-NOTES** — the LUT derivation checks
+  out against the Round 1 shiny palettes. Small note: the masters are irregular
+  sizes (470–776 px) rather than one uniform size. The 96×96 sprites are what we
+  bind, so this costs nothing — noted only for tidiness.
+- Task 1.3 §7.2 crosswalk (25 slots): **ACCEPT** — every ordering claim verified
+  against the ROM data (Tauros breeds 1350 Combat / 1351 Blaze / 1352 Aqua,
+  Basculin 1232, Basculegion 1240 F / 1210 M, Enamorus 1241 Therian / 1213
+  Incarnate, Origin Dialga/Palkia 1242/1243).
+- Task 2 (ramnarokradiant, venomiconepilogue, 1508_meowsticfmega): **ACCEPT** —
+  horns, book-wings, ears and tail all full-size.
+- Task 3 (11 Wave 1 redos + Terapagos 1379/1380): **ACCEPT-WITH-NOTES** — the redos
+  are true redraws from the bound stills, and the Stellar Terapagos is fully
+  uncropped with the complete gem ring. Note: the redos are at 64×64 (Wave 1's
+  native scale) — correct for that path; the 512 masters cover the rest.
+
+Feature-retention check (the standing rule: tails, ears, wings, horns, fins are
+never dropped or shrunk) passed on every design we spot-checked.
+
+## Your two Quetzal flags — both confirmed on our side
+
+- Slots 1350–1352: confirmed — the ROM's sprite bytes there are byte-identical
+  copies of Kanto Tauros slot 128. They stay open gaps until real breed art lands;
+  copy-art does not close a slot. (One bookkeeping detail: your cited SHA prefix
+  `91ecb677bcde` doesn't match our hash of the sprite blocks — we get the same
+  identity result hashing the compressed stream or the decompressed tiles, so the
+  finding stands either way; the prefix likely came from a rendered/decoded form.)
+- Slot 1241: confirmed — the bound sprite is the standard creature-form Therian
+  Enamorus, not a Moemon design. It stays a gap for the Moemon set.
+
+Good catches, both of them — flagging gaps honestly is exactly what keeps the set
+clean.
+
+## GATE VERDICT — Wave 3+ follower redraws: GO
+
+The gate is open. Batch B graded clean (no redos), so you may proceed with
+**Wave 3+ follower redraws (slots 887–1486 + the 12 Vivillon pattern slots)**.
+
+Standing rules, unchanged:
+- Redraw ONLY from the bound Moemon still for the slot — same design, outfit,
+  palette, proportions; pose change only. Flag any still too damaged or ambiguous
+  instead of guessing.
+- Features stay: tails, ears, wings, horns, fins are part of the design and the
+  silhouette. A design that loses its features grades a redo.
+- Your scope stays design only (the four still views). All animation is in-house.
+
+## Scarlet/Violet story DLC text dump — still not lost
+
+It is still in intake on our side (the Scarlet story DLC download is in flight
+here); the text dump follows from that extraction. No action needed from you.
+
+## Delivery route — keep the raw links
+
+For Wave 3, same as this time: plain-text raw Drive links through Riley, or share
+the folder directly. That route landed perfectly.
+
 # ROUND 2 + GATE + SCOPE (2026-11-25)
 
 ## Round 2 (batch B) — delivery not yet received on our side
