@@ -1,0 +1,4181 @@
+{
+ "AgathasRoom": {
+  "TEXT_AGATHASROOM_AGATHA": [
+   "_AgathaBeforeBattleText",
+   "_AgathaEndBattleText",
+   "_AgathaAfterBattleText"
+  ],
+  "TEXT_AGATHASROOM_AGATHA_DONT_RUN_AWAY": [
+   "_AgathasRoomAgathaDontRunAwayText"
+  ]
+ },
+ "BikeShop": {
+  "TEXT_BIKESHOP_CLERK": [
+   "_BikeShopClerkHowDoYouLikeYourBicycleText",
+   "_BikeShopClerkOhThatsAVoucherText",
+   "_BikeShopExchangedVoucherText",
+   "_BikeShopBagFullText",
+   "_BikeShopClerkWelcomeText",
+   "_BikeShopClerkDoYouLikeItText",
+   "_BikeShopCantAffordText",
+   "_BikeShopComeAgainText"
+  ],
+  "TEXT_BIKESHOP_MIDDLE_AGED_WOMAN": [
+   "_BikeShopMiddleAgedWomanText"
+  ],
+  "TEXT_BIKESHOP_YOUNGSTER": [
+   "_BikeShopYoungsterTheseBikesAreExpensiveText"
+  ]
+ },
+ "BillsHouse": {
+  "TEXT_BILLSHOUSE_BILL_CHECK_OUT_MY_RARE_POKEMON": [
+   "_BillsHouseBillCheckOutMyRarePokemonText"
+  ],
+  "TEXT_BILLSHOUSE_BILL_POKEMON": [
+   "_BillsHouseBillImNotAPokemonText",
+   "_BillsHouseBillUseSeparationSystemText",
+   "_BillsHouseBillNoYouGottaHelpText"
+  ],
+  "TEXT_BILLSHOUSE_BILL_SS_TICKET": [
+   "_BillsHouseBillThankYouText",
+   "_SSTicketReceivedText",
+   "_BillsHouseBillWhyDontYouGoInsteadOfMeText",
+   "_SSTicketNoRoomText"
+  ]
+ },
+ "BluesHouse": {
+  "TEXT_BLUESHOUSE_DAISY_SITTING": [
+   "_BluesHouseDaisyRivalAtLabText",
+   "_BluesHouseDaisyOfferMapText",
+   "_GotMapText",
+   "_BluesHouseDaisyUseMapText",
+   "_BluesHouseDaisyBagFullText"
+  ],
+  "TEXT_BLUESHOUSE_DAISY_WALKING": [
+   "_BluesHouseDaisyWalkingText"
+  ],
+  "TEXT_BLUESHOUSE_TOWN_MAP": [
+   "_BluesHouseTownMapText"
+  ]
+ },
+ "BrunosRoom": {
+  "TEXT_BRUNOSROOM_BRUNO": [
+   "_BrunoBeforeBattleText",
+   "_BrunoEndBattleText",
+   "_BrunoAfterBattleText"
+  ],
+  "TEXT_BRUNOSROOM_BRUNO_DONT_RUN_AWAY": [
+   "_BrunosRoomBrunoDontRunAwayText"
+  ]
+ },
+ "CeladonChiefHouse": {
+  "TEXT_CELADONCHIEFHOUSE_CHIEF": [
+   "_CeladonChiefHouseChiefText"
+  ],
+  "TEXT_CELADONCHIEFHOUSE_ROCKET": [
+   "_CeladonChiefHouseRocketText"
+  ],
+  "TEXT_CELADONCHIEFHOUSE_SAILOR": [
+   "_CeladonChiefHouseSailorText"
+  ]
+ },
+ "CeladonCity": {
+  "TEXT_CELADONCITY_DEPTSTORE_SIGN": [
+   "_CeladonCityDeptStoreSignText"
+  ],
+  "TEXT_CELADONCITY_FISHER": [
+   "_CeladonCityFisherText"
+  ],
+  "TEXT_CELADONCITY_GAMECORNER_SIGN": [
+   "_CeladonCityGameCornerSignText"
+  ],
+  "TEXT_CELADONCITY_GIRL": [
+   "_CeladonCityGirlText"
+  ],
+  "TEXT_CELADONCITY_GRAMPS1": [
+   "_CeladonCityGramps1Text"
+  ],
+  "TEXT_CELADONCITY_GRAMPS2": [
+   "_CeladonCityGramps2Text"
+  ],
+  "TEXT_CELADONCITY_GRAMPS3": [
+   "_CeladonCityGramps3Text",
+   "_CeladonCityGramps3TM41NoRoomText",
+   "_CeladonCityGramps3ReceivedTM41Text",
+   "_CeladonCityGramps3TM41ExplanationText"
+  ],
+  "TEXT_CELADONCITY_GYM_SIGN": [
+   "_CeladonCityGymSignText"
+  ],
+  "TEXT_CELADONCITY_LITTLE_GIRL": [
+   "_CeladonCityLittleGirlText"
+  ],
+  "TEXT_CELADONCITY_MANSION_SIGN": [
+   "_CeladonCityMansionSignText"
+  ],
+  "TEXT_CELADONCITY_POLIWRATH": [
+   "_CeladonCityPoliwrathText"
+  ],
+  "TEXT_CELADONCITY_PRIZEEXCHANGE_SIGN": [
+   "_CeladonCityPrizeExchangeSignText"
+  ],
+  "TEXT_CELADONCITY_ROCKET1": [
+   "_CeladonCityRocket1Text"
+  ],
+  "TEXT_CELADONCITY_ROCKET2": [
+   "_CeladonCityRocket2Text"
+  ],
+  "TEXT_CELADONCITY_SIGN": [
+   "_CeladonCitySignText"
+  ],
+  "TEXT_CELADONCITY_TRAINER_TIPS1": [
+   "_CeladonCityTrainerTips1Text"
+  ],
+  "TEXT_CELADONCITY_TRAINER_TIPS2": [
+   "_CeladonCityTrainerTips2Text"
+  ],
+  "TEXT_CELADONCITY_POKECENTER_SIGN": [
+   "_PokeCenterSignText"
+  ]
+ },
+ "CeladonDiner": {
+  "TEXT_CELADONDINER_COOK": [
+   "_CeladonDinerCookText"
+  ],
+  "TEXT_CELADONDINER_FISHER": [
+   "_CeladonDinerFisherText"
+  ],
+  "TEXT_CELADONDINER_GYM_GUIDE": [
+   "_CeladonDinerGymGuideImFlatOutBustedText",
+   "_CeladonDinerGymGuideReceivedCoinCaseText",
+   "_CeladonDinerGymGuideCoinCaseNoRoomText",
+   "_CeladonDinerGymGuideWinItBackText"
+  ],
+  "TEXT_CELADONDINER_MIDDLE_AGED_MAN": [
+   "_CeladonDinerMiddleAgedManText"
+  ],
+  "TEXT_CELADONDINER_MIDDLE_AGED_WOMAN": [
+   "_CeladonDinerMiddleAgedWomanText"
+  ]
+ },
+ "CeladonGym": {
+  "TEXT_CELADONGYM_BEAUTY1": [
+   "_CeladonGymBattleText3",
+   "_CeladonGymEndBattleText3",
+   "_CeladonGymAfterBattleText3"
+  ],
+  "TEXT_CELADONGYM_BEAUTY2": [
+   "_CeladonGymBattleText5",
+   "_CeladonGymEndBattleText5",
+   "_CeladonGymAfterBattleText5"
+  ],
+  "TEXT_CELADONGYM_BEAUTY3": [
+   "_CeladonGymBattleText7",
+   "_CeladonGymEndBattleText7",
+   "_CeladonGymAfterBattleText7"
+  ],
+  "TEXT_CELADONGYM_COOLTRAINER_F1": [
+   "_CeladonGymBattleText2",
+   "_CeladonGymEndBattleText2",
+   "_CeladonGymAfterBattleText2"
+  ],
+  "TEXT_CELADONGYM_COOLTRAINER_F2": [
+   "_CeladonGymBattleText4",
+   "_CeladonGymEndBattleText4",
+   "_CeladonGymAfterBattleText4"
+  ],
+  "TEXT_CELADONGYM_COOLTRAINER_F3": [
+   "_CeladonGymBattleText6",
+   "_CeladonGymEndBattleText6",
+   "_CeladonGymAfterBattleText6"
+  ],
+  "TEXT_CELADONGYM_COOLTRAINER_F4": [
+   "_CeladonGymBattleText8",
+   "_CeladonGymEndBattleText8",
+   "_CeladonGymAfterBattleText8"
+  ],
+  "TEXT_CELADONGYM_ERIKA": [
+   "_CeladonGymErikaPostBattleAdviceText",
+   "_CeladonGymErikaPreBattleText"
+  ],
+  "TEXT_CELADONGYM_RAINBOWBADGE_INFO": [
+   "_CeladonGymRainbowBadgeInfoText"
+  ],
+  "TEXT_CELADONGYM_RECEIVED_TM21": [
+   "_CeladonGymReceivedTM21Text",
+   "_TM21ExplanationText"
+  ],
+  "TEXT_CELADONGYM_TM21_NO_ROOM": [
+   "_CeladonGymTM21NoRoomText"
+  ]
+ },
+ "CeladonHotel": {
+  "TEXT_CELADONHOTEL_BEAUTY": [
+   "_CeladonHotelBeautyText"
+  ],
+  "TEXT_CELADONHOTEL_GRANNY": [
+   "_CeladonHotelGrannyText"
+  ],
+  "TEXT_CELADONHOTEL_SUPER_NERD": [
+   "_CeladonHotelSuperNerdText"
+  ]
+ },
+ "CeladonMansion1F": {
+  "TEXT_CELADONMANSION1F_CLEFAIRY": [
+   "_CeladonMansion1FClefairyText"
+  ],
+  "TEXT_CELADONMANSION1F_GRANNY": [
+   "_CeladonMansion1FGrannyText"
+  ],
+  "TEXT_CELADONMANSION1F_MANAGERS_SUITE_SIGN": [
+   "_CeladonMansion1FManagersSuiteSignText"
+  ],
+  "TEXT_CELADONMANSION1F_MEOWTH": [
+   "_CeladonMansion1FMeowthText"
+  ],
+  "TEXT_CELADONMANSION1F_NIDORANF": [
+   "_CeladonMansion1FNidoranFText"
+  ]
+ },
+ "CeladonMansion2F": {
+  "TEXT_CELADONMANSION2F_MEETING_ROOM_SIGN": [
+   "_CeladonMansion2FMeetingRoomSignText"
+  ]
+ },
+ "CeladonMansion3F": {
+  "TEXT_CELADONMANSION3F_DEV_ROOM_SIGN": [
+   "_CeladonMansion3FDevRoomSignText"
+  ],
+  "TEXT_CELADONMANSION3F_GAME_DESIGNER": [
+   "_CeladonMansion3FGameDesignerCompletedDexText"
+  ],
+  "TEXT_CELADONMANSION3F_GAME_PROGRAM_PC": [
+   "_CeladonMansion3FGameProgramPCText"
+  ],
+  "TEXT_CELADONMANSION3F_GAME_SCRIPT_PC": [
+   "_CeladonMansion3FGameScriptPCText"
+  ],
+  "TEXT_CELADONMANSION3F_GRAPHIC_ARTIST": [
+   "_CeladonMansion3FGraphicArtistText"
+  ],
+  "TEXT_CELADONMANSION3F_PLAYING_GAME_PC": [
+   "_CeladonMansion3FPlayingGamePCText"
+  ],
+  "TEXT_CELADONMANSION3F_PROGRAMMER": [
+   "_CeladonMansion3FProgrammerText"
+  ],
+  "TEXT_CELADONMANSION3F_WRITER": [
+   "_CeladonMansion3FWriterText"
+  ]
+ },
+ "CeladonMansionRoof": {
+  "TEXT_CELADONMANSIONROOF_HOUSE_SIGN": [
+   "_CeladonMansionRoofHouseSignText"
+  ]
+ },
+ "CeladonMansionRoofHouse": {
+  "TEXT_CELADONMANSION_ROOF_HOUSE_HIKER": [
+   "_CeladonMansionRoofHouseHikerText"
+  ]
+ },
+ "CeladonMart1F": {
+  "TEXT_CELADONMART1F_CURRENT_FLOOR_SIGN": [
+   "_CeladonMart1FCurrentFloorSignText"
+  ],
+  "TEXT_CELADONMART1F_DIRECTORY_SIGN": [
+   "_CeladonMart1FDirectorySignText"
+  ],
+  "TEXT_CELADONMART1F_RECEPTIONIST": [
+   "_CeladonMart1FReceptionistText"
+  ]
+ },
+ "CeladonMart2F": {
+  "TEXT_CELADONMART2F_CURRENT_FLOOR_SIGN": [
+   "_CeladonMart2FCurrentFloorSignText"
+  ],
+  "TEXT_CELADONMART2F_GIRL": [
+   "_CeladonMart2FGirlText"
+  ],
+  "TEXT_CELADONMART2F_MIDDLE_AGED_MAN": [
+   "_CeladonMart2FMiddleAgedManText"
+  ]
+ },
+ "CeladonMart3F": {
+  "TEXT_CELADONMART3F_CLERK": [
+   "_CeladonMart3FClerkTM18PreReceiveText",
+   "_CeladonMart3FClerkTM18ExplanationText"
+  ],
+  "TEXT_CELADONMART3F_CURRENT_FLOOR_SIGN": [
+   "_CeladonMart3FCurrentFloorSignText"
+  ],
+  "TEXT_CELADONMART3F_FIGHTING_GAME": [
+   "_CeladonMart3FFightingGameText"
+  ],
+  "TEXT_CELADONMART3F_GAMEBOY_KID1": [
+   "_CeladonMart3FGameBoyKid1Text"
+  ],
+  "TEXT_CELADONMART3F_GAMEBOY_KID2": [
+   "_CeladonMart3FGameBoyKid2Text"
+  ],
+  "TEXT_CELADONMART3F_GAMEBOY_KID3": [
+   "_CeladonMart3FGameBoyKid3Text"
+  ],
+  "TEXT_CELADONMART3F_LITTLE_BOY": [
+   "_CeladonMart3FLittleBoyText"
+  ],
+  "TEXT_CELADONMART3F_POKEMON_POSTER1": [
+   "_CeladonMart3FPokemonPosterText"
+  ],
+  "TEXT_CELADONMART3F_POKEMON_POSTER2": [
+   "_CeladonMart3FPokemonPosterText"
+  ],
+  "TEXT_CELADONMART3F_POKEMON_POSTER3": [
+   "_CeladonMart3FPokemonPosterText"
+  ],
+  "TEXT_CELADONMART3F_PUZZLE_GAME": [
+   "_CeladonMart3FPuzzleGameText"
+  ],
+  "TEXT_CELADONMART3F_RPG": [
+   "_CeladonMart3FRPGText"
+  ],
+  "TEXT_CELADONMART3F_SNES1": [
+   "_CeladonMart3FSNESText"
+  ],
+  "TEXT_CELADONMART3F_SNES2": [
+   "_CeladonMart3FSNESText"
+  ],
+  "TEXT_CELADONMART3F_SNES3": [
+   "_CeladonMart3FSNESText"
+  ],
+  "TEXT_CELADONMART3F_SNES4": [
+   "_CeladonMart3FSNESText"
+  ],
+  "TEXT_CELADONMART3F_SPORTS_GAME": [
+   "_CeladonMart3FSportsGameText"
+  ]
+ },
+ "CeladonMart4F": {
+  "TEXT_CELADONMART4F_CURRENT_FLOOR_SIGN": [
+   "_CeladonMart4FCurrentFloorSignText"
+  ],
+  "TEXT_CELADONMART4F_SUPER_NERD": [
+   "_CeladonMart4FSuperNerdText"
+  ],
+  "TEXT_CELADONMART4F_YOUNGSTER": [
+   "_CeladonMart4FYoungsterText"
+  ]
+ },
+ "CeladonMart5F": {
+  "TEXT_CELADONMART5F_CURRENT_FLOOR_SIGN": [
+   "_CeladonMart5FCurrentFloorSignText"
+  ],
+  "TEXT_CELADONMART5F_GENTLEMAN": [
+   "_CeladonMart5FGentlemanText"
+  ],
+  "TEXT_CELADONMART5F_SAILOR": [
+   "_CeladonMart5FSailorText"
+  ]
+ },
+ "CeladonMartElevator": {},
+ "CeladonMartRoof": {
+  "TEXT_CELADONMARTROOF_CURRENT_FLOOR_SIGN": [
+   "_CeladonMartRoofCurrentFloorSignText"
+  ],
+  "TEXT_CELADONMARTROOF_LITTLE_GIRL": [
+   "_CeladonMartRoofLittleGirlGiveHerADrinkText",
+   "_CeladonMartRoofLittleGirlImThirstyText"
+  ],
+  "TEXT_CELADONMARTROOF_SUPER_NERD": [
+   "_CeladonMartRoofSuperNerdText"
+  ]
+ },
+ "CeladonPokecenter": {
+  "TEXT_CELADONPOKECENTER_BEAUTY": [
+   "_CeladonPokecenterBeautyText"
+  ],
+  "TEXT_CELADONPOKECENTER_GENTLEMAN": [
+   "_CeladonPokecenterGentlemanText"
+  ]
+ },
+ "CeruleanBadgeHouse": {
+  "TEXT_CERULEANBADGEHOUSE_MIDDLE_AGED_MAN": [
+   "_CeruleanBadgeHouseMiddleAgedManText",
+   "_CeruleanBadgeHouseMiddleAgedManWhichBadgeText",
+   "_CeruleanBadgeHouseMiddleAgedManVisitAnyTimeText"
+  ]
+ },
+ "CeruleanCave1F": {},
+ "CeruleanCave2F": {},
+ "CeruleanCaveB1F": {
+  "TEXT_CERULEANCAVEB1F_MEWTWO": [
+   "_MewtwoBattleText"
+  ]
+ },
+ "CeruleanCity": {
+  "TEXT_CERULEANCITY_BIKESHOP_SIGN": [
+   "_CeruleanCityBikeShopSign"
+  ],
+  "TEXT_CERULEANCITY_COOLTRAINER_F1": [
+   "_CeruleanCityCooltrainerF1SlowbroUseSonicboomText",
+   "_CeruleanCityCooltrainerF1SlowbroPunchText",
+   "_CeruleanCityCooltrainerF1SlowbroWithdrawText"
+  ],
+  "TEXT_CERULEANCITY_COOLTRAINER_F2": [
+   "_CeruleanCityCooltrainerF2Text"
+  ],
+  "TEXT_CERULEANCITY_COOLTRAINER_M": [
+   "_CeruleanCityCooltrainerMText"
+  ],
+  "TEXT_CERULEANCITY_GUARD1": [
+   "_CeruleanCityGuardText"
+  ],
+  "TEXT_CERULEANCITY_GUARD2": [
+   "_CeruleanCityGuardText"
+  ],
+  "TEXT_CERULEANCITY_GYM_SIGN": [
+   "_CeruleanCityGymSign"
+  ],
+  "TEXT_CERULEANCITY_RIVAL": [
+   "_CeruleanCityRivalIWentToBillsText",
+   "_CeruleanCityRivalPreBattleText"
+  ],
+  "TEXT_CERULEANCITY_ROCKET": [
+   "_CeruleanCityRocketText",
+   "_CeruleanCityRocketIllReturnTheTMText",
+   "_CeruleanCityRocketTM28NoRoomText",
+   "_CeruleanCityRocketReceivedTM28Text",
+   "_CeruleanCityRocketIBetterGetMovingText"
+  ],
+  "TEXT_CERULEANCITY_SIGN": [
+   "_CeruleanCitySignText"
+  ],
+  "TEXT_CERULEANCITY_SLOWBRO": [
+   "_CeruleanCitySlowbroTookASnoozeText",
+   "_CeruleanCitySlowbroIsLoafingAroundText",
+   "_CeruleanCitySlowbroTurnedAwayText",
+   "_CeruleanCitySlowbroIgnoredOrdersText"
+  ],
+  "TEXT_CERULEANCITY_SUPER_NERD1": [
+   "_CeruleanCitySuperNerd1Text"
+  ],
+  "TEXT_CERULEANCITY_SUPER_NERD2": [
+   "_CeruleanCitySuperNerd2Text"
+  ],
+  "TEXT_CERULEANCITY_SUPER_NERD3": [
+   "_CeruleanCitySuperNerd3Text"
+  ],
+  "TEXT_CERULEANCITY_TRAINER_TIPS": [
+   "_CeruleanCityTrainerTipsText"
+  ],
+  "TEXT_CERULEANCITY_MART_SIGN": [
+   "_MartSignText"
+  ],
+  "TEXT_CERULEANCITY_POKECENTER_SIGN": [
+   "_PokeCenterSignText"
+  ]
+ },
+ "CeruleanGym": {
+  "TEXT_CERULEANGYM_COOLTRAINER_F": [
+   "_CeruleanGymBattleText1",
+   "_CeruleanGymEndBattleText1",
+   "_CeruleanGymAfterBattleText1"
+  ],
+  "TEXT_CERULEANGYM_GYM_GUIDE": [
+   "_CeruleanGymGymGuideChampInMakingText",
+   "_CeruleanGymGymGuideBeatMistyText"
+  ],
+  "TEXT_CERULEANGYM_MISTY": [
+   "_CeruleanGymMistyTM11ExplanationText",
+   "_CeruleanGymMistyPreBattleText"
+  ],
+  "TEXT_CERULEANGYM_MISTY_CASCADE_BADGE_INFO": [
+   "_CeruleanGymMistyCascadeBadgeInfoText"
+  ],
+  "TEXT_CERULEANGYM_MISTY_RECEIVED_TM11": [
+   "_CeruleanGymMistyReceivedTM11Text"
+  ],
+  "TEXT_CERULEANGYM_MISTY_TM11_NO_ROOM": [
+   "_CeruleanGymMistyTM11NoRoomText"
+  ],
+  "TEXT_CERULEANGYM_SWIMMER": [
+   "_CeruleanGymBattleText2",
+   "_CeruleanGymEndBattleText2",
+   "_CeruleanGymAfterBattleText2"
+  ]
+ },
+ "CeruleanMart": {
+  "TEXT_CERULEANMART_COOLTRAINER_F": [
+   "_CeruleanMartCooltrainerFText"
+  ],
+  "TEXT_CERULEANMART_COOLTRAINER_M": [
+   "_CeruleanMartCooltrainerMText"
+  ]
+ },
+ "CeruleanPokecenter": {
+  "TEXT_CERULEANPOKECENTER_GENTLEMAN": [
+   "_CeruleanPokecenterGentlemanText"
+  ],
+  "TEXT_CERULEANPOKECENTER_SUPER_NERD": [
+   "_CeruleanPokecenterSuperNerdText"
+  ]
+ },
+ "CeruleanTradeHouse": {
+  "TEXT_CERULEANTRADEHOUSE_GRANNY": [
+   "_CeruleanTradeHouseGrannyText"
+  ]
+ },
+ "CeruleanTrashedHouse": {
+  "TEXT_CERULEANTRASHEDHOUSE_FISHING_GURU": [
+   "_CeruleanTrashedHouseFishingGuruWhatsLostIsLostText",
+   "_CeruleanTrashedHouseFishingGuruTheyStoleATMText"
+  ],
+  "TEXT_CERULEANTRASHEDHOUSE_GIRL": [
+   "_CeruleanTrashedHouseGirlText"
+  ],
+  "TEXT_CERULEANTRASHEDHOUSE_WALL_HOLE": [
+   "_CeruleanTrashedHouseWallHoleText"
+  ]
+ },
+ "ChampionsRoom": {
+  "TEXT_CHAMPIONSROOM_OAK": [
+   "_ChampionsRoomOakText"
+  ],
+  "TEXT_CHAMPIONSROOM_OAK_COME_WITH_ME": [
+   "_ChampionsRoomOakComeWithMeText"
+  ],
+  "TEXT_CHAMPIONSROOM_OAK_CONGRATULATES_PLAYER": [
+   "_ChampionsRoomOakCongratulatesPlayerText"
+  ],
+  "TEXT_CHAMPIONSROOM_OAK_DISAPPOINTED_WITH_RIVAL": [
+   "_ChampionsRoomOakDisappointedWithRivalText"
+  ],
+  "TEXT_CHAMPIONSROOM_RIVAL": [
+   "_ChampionsRoomRivalAfterBattleText"
+  ]
+ },
+ "CinnabarGym": {
+  "TEXT_CINNABARGYM_BLAINE": [
+   "_CinnabarGymBlainePostBattleAdviceText",
+   "_CinnabarGymBlainePreBattleText"
+  ],
+  "TEXT_CINNABARGYM_BLAINE_RECEIVED_TM38": [
+   "_CinnabarGymBlaineReceivedTM38Text",
+   "_CinnabarGymBlaineTM38ExplanationText"
+  ],
+  "TEXT_CINNABARGYM_BLAINE_TM38_NO_ROOM": [
+   "_CinnabarGymBlaineTM38NoRoomText"
+  ],
+  "TEXT_CINNABARGYM_BLAINE_VOLCANO_BADGE_INFO": [
+   "_CinnabarGymBlaineVolcanoBadgeInfoText"
+  ],
+  "TEXT_CINNABARGYM_GYM_GUIDE": [
+   "_CinnabarGymGymGuideBeatBlaineText"
+  ],
+  "TEXT_CINNABARGYM_SUPER_NERD1": [
+   "_CinnabarGymSuperNerd1BattleText",
+   "_CinnabarGymSuperNerd1AfterBattleText"
+  ],
+  "TEXT_CINNABARGYM_SUPER_NERD2": [
+   "_CinnabarGymSuperNerd2BattleText",
+   "_CinnabarGymSuperNerd2AfterBattleText"
+  ],
+  "TEXT_CINNABARGYM_SUPER_NERD3": [
+   "_CinnabarGymSuperNerd3BattleText",
+   "_CinnabarGymSuperNerd3AfterBattleText"
+  ],
+  "TEXT_CINNABARGYM_SUPER_NERD4": [
+   "_CinnabarGymSuperNerd4BattleText",
+   "_CinnabarGymSuperNerd4AfterBattleText"
+  ],
+  "TEXT_CINNABARGYM_SUPER_NERD5": [
+   "_CinnabarGymSuperNerd5BattleText",
+   "_CinnabarGymSuperNerd5AfterBattleText"
+  ],
+  "TEXT_CINNABARGYM_SUPER_NERD6": [
+   "_CinnabarGymSuperNerd6BattleText",
+   "_CinnabarGymSuperNerd6AfterBattleText"
+  ],
+  "TEXT_CINNABARGYM_SUPER_NERD7": [
+   "_CinnabarGymSuperNerd7BattleText",
+   "_CinnabarGymSuperNerd7AfterBattleText"
+  ]
+ },
+ "CinnabarIsland": {
+  "TEXT_CINNABARISLAND_DOOR_IS_LOCKED": [
+   "_CinnabarIslandDoorIsLockedText"
+  ],
+  "TEXT_CINNABARISLAND_GAMBLER": [
+   "_CinnabarIslandGamblerText"
+  ],
+  "TEXT_CINNABARISLAND_GIRL": [
+   "_CinnabarIslandGirlText"
+  ],
+  "TEXT_CINNABARISLAND_GYM_SIGN": [
+   "_CinnabarIslandGymSignText"
+  ],
+  "TEXT_CINNABARISLAND_POKEMONLAB_SIGN": [
+   "_CinnabarIslandPokemonLabSignText"
+  ],
+  "TEXT_CINNABARISLAND_SIGN": [
+   "_CinnabarIslandSignText"
+  ],
+  "TEXT_CINNABARISLAND_MART_SIGN": [
+   "_MartSignText"
+  ],
+  "TEXT_CINNABARISLAND_POKECENTER_SIGN": [
+   "_PokeCenterSignText"
+  ]
+ },
+ "CinnabarLab": {
+  "TEXT_CINNABARLAB_FISHING_GURU": [
+   "_CinnabarLabFishingGuruText"
+  ],
+  "TEXT_CINNABARLAB_MEETING_ROOM_SIGN": [
+   "_CinnabarLabMeetingRoomSignText"
+  ],
+  "TEXT_CINNABARLAB_PHOTO": [
+   "_CinnabarLabPhotoText"
+  ],
+  "TEXT_CINNABARLAB_R_AND_D_SIGN": [
+   "_CinnabarLabRAndDSignText"
+  ],
+  "TEXT_CINNABARLAB_TESTING_ROOM_SIGN": [
+   "_CinnabarLabTestingRoomSignText"
+  ]
+ },
+ "CinnabarLabFossilRoom": {
+  "TEXT_CINNABARLABFOSSILROOM_SCIENTIST1": [
+   "_CinnabarLabFossilRoomScientist1Text",
+   "_CinnabarLabFossilRoomScientist1NoFossilsText",
+   "_CinnabarLabFossilRoomScientist1GoForAWalkText",
+   "_CinnabarLabFossilRoomScientist1FossilIsBackToLifeText"
+  ]
+ },
+ "CinnabarLabMetronomeRoom": {
+  "TEXT_CINNABARLABMETRONOMEROOM_AMBER_PIPE": [
+   "_CinnabarLabMetronomeRoomAmberPipeText"
+  ],
+  "TEXT_CINNABARLABMETRONOMEROOM_PC_KEYBOARD": [
+   "_CinnabarLabMetronomeRoomPCText"
+  ],
+  "TEXT_CINNABARLABMETRONOMEROOM_PC_MONITOR": [
+   "_CinnabarLabMetronomeRoomPCText"
+  ],
+  "TEXT_CINNABARLABMETRONOMEROOM_SCIENTIST1": [
+   "_CinnabarLabMetronomeRoomScientist1Text",
+   "_CinnabarLabMetronomeRoomScientist1ReceivedTM35Text",
+   "_CinnabarLabMetronomeRoomScientist1TM35NoRoomText",
+   "_CinnabarLabMetronomeRoomScientist1TM35ExplanationText"
+  ],
+  "TEXT_CINNABARLABMETRONOMEROOM_SCIENTIST2": [
+   "_CinnabarLabMetronomeRoomScientist2Text"
+  ]
+ },
+ "CinnabarLabTradeRoom": {
+  "TEXT_CINNABARLABTRADEROOM_SUPER_NERD": [
+   "_CinnabarLabTradeRoomSuperNerdText"
+  ]
+ },
+ "CinnabarMart": {
+  "TEXT_CINNABARMART_SCIENTIST": [
+   "_CinnabarMartScientistText"
+  ],
+  "TEXT_CINNABARMART_SILPH_WORKER_F": [
+   "_CinnabarMartSilphWorkerFText"
+  ]
+ },
+ "CinnabarPokecenter": {
+  "TEXT_CINNABARPOKECENTER_COOLTRAINER_F": [
+   "_CinnabarPokecenterCooltrainerFText"
+  ],
+  "TEXT_CINNABARPOKECENTER_GENTLEMAN": [
+   "_CinnabarPokecenterGentlemanText"
+  ]
+ },
+ "Colosseum": {
+  "TEXT_COLOSSEUM_OPPONENT": [
+   "_ColosseumOpponentText"
+  ]
+ },
+ "CopycatsHouse1F": {
+  "TEXT_COPYCATSHOUSE1F_CHANSEY": [
+   "_CopycatsHouse1FChanseyText"
+  ],
+  "TEXT_COPYCATSHOUSE1F_MIDDLE_AGED_MAN": [
+   "_CopycatsHouse1FMiddleAgedManText"
+  ],
+  "TEXT_COPYCATSHOUSE1F_MIDDLE_AGED_WOMAN": [
+   "_CopycatsHouse1FMiddleAgedWomanText"
+  ]
+ },
+ "CopycatsHouse2F": {
+  "TEXT_COPYCATSHOUSE2F_BIRD": [
+   "_CopycatsHouse2FRareDollText"
+  ],
+  "TEXT_COPYCATSHOUSE2F_COPYCAT": [
+   "_CopycatsHouse2FCopycatDoYouLikePokemonText",
+   "_CopycatsHouse2FCopycatTM31PreReceiveText",
+   "_CopycatsHouse2FCopycatReceivedTM31Text",
+   "_CopycatsHouse2FCopycatTM31NoRoomText",
+   "_CopycatsHouse2FCopycatTM31Explanation2Text"
+  ],
+  "TEXT_COPYCATSHOUSE2F_DODUO": [
+   "_CopycatsHouse2FDoduoText"
+  ],
+  "TEXT_COPYCATSHOUSE2F_FAIRY": [
+   "_CopycatsHouse2FRareDollText"
+  ],
+  "TEXT_COPYCATSHOUSE2F_MONSTER": [
+   "_CopycatsHouse2FRareDollText"
+  ],
+  "TEXT_COPYCATSHOUSE2F_PC": [
+   "_CopycatsHouse2FPCMySecretsText"
+  ],
+  "TEXT_COPYCATSHOUSE2F_SNES": [
+   "_CopycatsHouse2FSNESText"
+  ]
+ },
+ "Daycare": {
+  "TEXT_DAYCARE_GENTLEMAN": [
+   "_DaycareGentlemanIntroText",
+   "_DaycareGentlemanWhichMonText",
+   "_DaycareGentlemanWillLookAfterMonText",
+   "_DaycareGentlemanMonHasGrownText",
+   "_DaycareGentlemanOweMoneyText",
+   "_DaycareGentlemanHeresYourMonText",
+   "_DaycareGentlemanGotMonBackText"
+  ]
+ },
+ "DiglettsCaveRoute11": {
+  "TEXT_DIGLETTSCAVEROUTE11_GAMBLER": [
+   "_DiglettsCaveRoute11GamblerText"
+  ]
+ },
+ "DiglettsCaveRoute2": {
+  "TEXT_DIGLETTSCAVEROUTE2_FISHING_GURU": [
+   "_DiglettsCaveRoute2FishingGuruText"
+  ]
+ },
+ "FightingDojo": {
+  "TEXT_FIGHTINGDOJO_BLACKBELT1": [
+   "_FightingDojoBlackbelt1BattleText",
+   "_FightingDojoBlackbelt1EndBattleText",
+   "_FightingDojoBlackbelt1AfterBattleText"
+  ],
+  "TEXT_FIGHTINGDOJO_BLACKBELT2": [
+   "_FightingDojoBlackbelt2BattleText",
+   "_FightingDojoBlackbelt2EndBattleText",
+   "_FightingDojoBlackbelt2AfterBattleText"
+  ],
+  "TEXT_FIGHTINGDOJO_BLACKBELT3": [
+   "_FightingDojoBlackbelt3BattleText",
+   "_FightingDojoBlackbelt3EndBattleText",
+   "_FightingDojoBlackbelt3AfterBattleText"
+  ],
+  "TEXT_FIGHTINGDOJO_BLACKBELT4": [
+   "_FightingDojoBlackbelt4BattleText",
+   "_FightingDojoBlackbelt4EndBattleText",
+   "_FightingDojoBlackbelt4AfterBattleText"
+  ],
+  "TEXT_FIGHTINGDOJO_HITMONCHAN_POKE_BALL": [
+   "_FightingDojoBetterNotGetGreedyText",
+   "_FightingDojoHitmonchanPokeBallText"
+  ],
+  "TEXT_FIGHTINGDOJO_HITMONLEE_POKE_BALL": [
+   "_FightingDojoBetterNotGetGreedyText",
+   "_FightingDojoHitmonleePokeBallText"
+  ],
+  "TEXT_FIGHTINGDOJO_KARATE_MASTER": [
+   "_FightingDojoKarateMasterText",
+   "_FightingDojoKarateMasterStayAndTrainWithUsText",
+   "_FightingDojoKarateMasterIWillGiveYouAPokemonText"
+  ]
+ },
+ "FuchsiaBillsGrandpasHouse": {
+  "TEXT_FUCHSIABILLSGRANDPASHOUSE_BILLS_GRANDPA": [
+   "_FuchsiaBillsGrandpasHouseBillsGrandpaText"
+  ],
+  "TEXT_FUCHSIABILLSGRANDPASHOUSE_MIDDLE_AGED_WOMAN": [
+   "_FuchsiaBillsGrandpasHouseMiddleAgedWomanText"
+  ],
+  "TEXT_FUCHSIABILLSGRANDPASHOUSE_YOUNGSTER": [
+   "_FuchsiaBillsGrandpasHouseYoungsterText"
+  ]
+ },
+ "FuchsiaCity": {
+  "TEXT_FUCHSIACITY_CHANSEY": [
+   "_FuchsiaCityPokemonText"
+  ],
+  "TEXT_FUCHSIACITY_CHANSEY_SIGN": [
+   "_FuchsiaCityChanseySignText"
+  ],
+  "TEXT_FUCHSIACITY_ERIK": [
+   "_FuchsiaCityErikText"
+  ],
+  "TEXT_FUCHSIACITY_FOSSIL": [
+   "_FuchsiaCityPokemonText"
+  ],
+  "TEXT_FUCHSIACITY_FOSSIL_SIGN": [
+   "_FuchsiaCityFossilSignUndeterminedText",
+   "_FuchsiaCityFossilSignOmanyteText",
+   "_FuchsiaCityFossilSignKabutoText"
+  ],
+  "TEXT_FUCHSIACITY_GAMBLER": [
+   "_FuchsiaCityGamblerText"
+  ],
+  "TEXT_FUCHSIACITY_GYM_SIGN": [
+   "_FuchsiaCityGymSignText"
+  ],
+  "TEXT_FUCHSIACITY_KANGASKHAN": [
+   "_FuchsiaCityPokemonText"
+  ],
+  "TEXT_FUCHSIACITY_KANGASKHAN_SIGN": [
+   "_FuchsiaCityKangaskhanSignText"
+  ],
+  "TEXT_FUCHSIACITY_LAPRAS": [
+   "_FuchsiaCityPokemonText"
+  ],
+  "TEXT_FUCHSIACITY_LAPRAS_SIGN": [
+   "_FuchsiaCityLaprasSignText"
+  ],
+  "TEXT_FUCHSIACITY_SAFARI_GAME_SIGN": [
+   "_FuchsiaCitySafariGameSignText"
+  ],
+  "TEXT_FUCHSIACITY_SAFARI_ZONE_SIGN": [
+   "_FuchsiaCitySafariZoneSignText"
+  ],
+  "TEXT_FUCHSIACITY_SIGN1": [
+   "_FuchsiaCitySignText"
+  ],
+  "TEXT_FUCHSIACITY_SIGN2": [
+   "_FuchsiaCitySignText"
+  ],
+  "TEXT_FUCHSIACITY_SLOWPOKE": [
+   "_FuchsiaCityPokemonText"
+  ],
+  "TEXT_FUCHSIACITY_SLOWPOKE_SIGN": [
+   "_FuchsiaCitySlowpokeSignText"
+  ],
+  "TEXT_FUCHSIACITY_VOLTORB": [
+   "_FuchsiaCityPokemonText"
+  ],
+  "TEXT_FUCHSIACITY_VOLTORB_SIGN": [
+   "_FuchsiaCityVoltorbSignText"
+  ],
+  "TEXT_FUCHSIACITY_WARDENS_HOME_SIGN": [
+   "_FuchsiaCityWardensHomeSignText"
+  ],
+  "TEXT_FUCHSIACITY_YOUNGSTER1": [
+   "_FuchsiaCityYoungster1Text"
+  ],
+  "TEXT_FUCHSIACITY_YOUNGSTER2": [
+   "_FuchsiaCityYoungster2Text"
+  ],
+  "TEXT_FUCHSIACITY_MART_SIGN": [
+   "_MartSignText"
+  ],
+  "TEXT_FUCHSIACITY_POKECENTER_SIGN": [
+   "_PokeCenterSignText"
+  ]
+ },
+ "FuchsiaGoodRodHouse": {
+  "TEXT_FUCHSIAGOODRODHOUSE_FISHING_GURU": [
+   "_FuchsiaGoodRodHouseFishingGuruText",
+   "_FuchsiaGoodRodHouseFishingGuruHowAreTheFishText"
+  ]
+ },
+ "FuchsiaGym": {
+  "TEXT_FUCHSIAGYM_GYM_GUIDE": [
+   "_FuchsiaGymGymGuideChampInMakingText"
+  ],
+  "TEXT_FUCHSIAGYM_KOGA": [
+   "_FuchsiaGymKogaPostBattleAdviceText",
+   "_FuchsiaGymKogaBeforeBattleText"
+  ],
+  "TEXT_FUCHSIAGYM_KOGA_RECEIVED_TM06": [
+   "_FuchsiaGymKogaReceivedTM06Text",
+   "_FuchsiaGymKogaTM06ExplanationText"
+  ],
+  "TEXT_FUCHSIAGYM_KOGA_SOUL_BADGE_INFO": [
+   "_FuchsiaGymKogaSoulBadgeInfoText"
+  ],
+  "TEXT_FUCHSIAGYM_KOGA_TM06_NO_ROOM": [
+   "_FuchsiaGymKogaTM06NoRoomText"
+  ],
+  "TEXT_FUCHSIAGYM_ROCKER1": [
+   "_FuchsiaGymRocker1BattleText",
+   "_FuchsiaGymRocker1EndBattleText",
+   "_FuchsiaGymRocker1AfterBattleText"
+  ],
+  "TEXT_FUCHSIAGYM_ROCKER2": [
+   "_FuchsiaGymRocker2BattleText",
+   "_FuchsiaGymRocker2EndBattleText",
+   "_FuchsiaGymRocker2AfterBattleText"
+  ],
+  "TEXT_FUCHSIAGYM_ROCKER3": [
+   "_FuchsiaGymRocker3BattleText",
+   "_FuchsiaGymRocker3EndBattleText",
+   "_FuchsiaGymRocker3AfterBattleText"
+  ],
+  "TEXT_FUCHSIAGYM_ROCKER4": [
+   "_FuchsiaGymRocker4BattleText",
+   "_FuchsiaGymRocker4EndBattleText",
+   "_FuchsiaGymRocker4AfterBattleText"
+  ],
+  "TEXT_FUCHSIAGYM_ROCKER5": [
+   "_FuchsiaGymRocker5BattleText",
+   "_FuchsiaGymRocker5EndBattleText",
+   "_FuchsiaGymRocker5AfterBattleText"
+  ],
+  "TEXT_FUCHSIAGYM_ROCKER6": [
+   "_FuchsiaGymRocker6BattleText",
+   "_FuchsiaGymRocker6EndBattleText",
+   "_FuchsiaGymRocker6AfterBattleText"
+  ]
+ },
+ "FuchsiaMart": {
+  "TEXT_FUCHSIAMART_COOLTRAINER_F": [
+   "_FuchsiaMartCooltrainerFText"
+  ],
+  "TEXT_FUCHSIAMART_MIDDLE_AGED_MAN": [
+   "_FuchsiaMartMiddleAgedManText"
+  ]
+ },
+ "FuchsiaMeetingRoom": {
+  "TEXT_FUCHSIAMEETINGROOM_SAFARI_ZONE_WORKER1": [
+   "_FuchsiaMeetingRoomSafariZoneWorker1"
+  ],
+  "TEXT_FUCHSIAMEETINGROOM_SAFARI_ZONE_WORKER2": [
+   "_FuchsiaMeetingRoomSafariZoneWorker2"
+  ],
+  "TEXT_FUCHSIAMEETINGROOM_SAFARI_ZONE_WORKER3": [
+   "_FuchsiaMeetingRoomSafariZoneWorker3"
+  ]
+ },
+ "FuchsiaPokecenter": {
+  "TEXT_FUCHSIAPOKECENTER_COOLTRAINER_F": [
+   "_FuchsiaPokecenterCooltrainerFText"
+  ],
+  "TEXT_FUCHSIAPOKECENTER_ROCKER": [
+   "_FuchsiaPokecenterRockerText"
+  ]
+ },
+ "GameCorner": {
+  "TEXT_GAMECORNER_BEAUTY1": [
+   "_GameCornerBeauty1Text"
+  ],
+  "TEXT_GAMECORNER_BEAUTY2": [
+   "_GameCornerBeauty2Text"
+  ],
+  "TEXT_GAMECORNER_CLERK1": [
+   "_GameCornerClerk1DoYouNeedSomeGameCoinsText",
+   "_GameCornerClerk1DontHaveCoinCaseText"
+  ],
+  "TEXT_GAMECORNER_CLERK2": [
+   "_GameCornerClerk2WantSomeCoinsText",
+   "_GameCornerOopsForgotCoinCaseText"
+  ],
+  "TEXT_GAMECORNER_FISHING_GURU": [
+   "_GameCornerFishingGuruWantToPlayText",
+   "_GameCornerOopsForgotCoinCaseText"
+  ],
+  "TEXT_GAMECORNER_GAMBLER": [
+   "_GameCornerGamblerText"
+  ],
+  "TEXT_GAMECORNER_GENTLEMAN": [
+   "_GameCornerGentlemanThrowingMeOffText",
+   "_GameCornerOopsForgotCoinCaseText"
+  ],
+  "TEXT_GAMECORNER_GYM_GUIDE": [
+   "_GameCornerGymGuideTheyOfferRarePokemonText"
+  ],
+  "TEXT_GAMECORNER_MIDDLE_AGED_MAN1": [
+   "_GameCornerMiddleAgedMan1Text"
+  ],
+  "TEXT_GAMECORNER_MIDDLE_AGED_WOMAN": [
+   "_GameCornerMiddleAgedWomanText"
+  ],
+  "TEXT_GAMECORNER_POSTER": [
+   "_GameCornerPosterSwitchBehindPosterText"
+  ],
+  "TEXT_GAMECORNER_ROCKET": [
+   "_GameCornerRocketImGuardingThisPosterText"
+  ],
+  "TEXT_GAMECORNER_ROCKET_AFTER_BATTLE": [
+   "_GameCornerRocketAfterBattleText"
+  ]
+ },
+ "GameCornerPrizeRoom": {
+  "TEXT_GAMECORNERPRIZEROOM_BALDING_GUY": [
+   "_GameCornerPrizeRoomBaldingGuyText"
+  ],
+  "TEXT_GAMECORNERPRIZEROOM_GAMBLER": [
+   "_GameCornerPrizeRoomGamblerText"
+  ]
+ },
+ "HallOfFame": {
+  "TEXT_HALLOFFAME_OAK": [
+   "_HallOfFameOakText"
+  ]
+ },
+ "IndigoPlateauLobby": {
+  "TEXT_INDIGOPLATEAULOBBY_COOLTRAINER_F": [
+   "_IndigoPlateauLobbyCooltrainerFText"
+  ],
+  "TEXT_INDIGOPLATEAULOBBY_GYM_GUIDE": [
+   "_IndigoPlateauLobbyGymGuideText"
+  ]
+ },
+ "LancesRoom": {
+  "TEXT_LANCESROOM_LANCE": [
+   "_LancesRoomLanceBeforeBattleText",
+   "_LancesRoomLanceEndBattleText",
+   "_LancesRoomLanceAfterBattleText"
+  ]
+ },
+ "LavenderCuboneHouse": {
+  "TEXT_LAVENDERCUBONEHOUSE_BRUNETTE_GIRL": [
+   "_LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText",
+   "_LavenderCuboneHouseBrunetteGirlGhostIsGoneText"
+  ],
+  "TEXT_LAVENDERCUBONEHOUSE_CUBONE": [
+   "_LavenderCuboneHouseCuboneText"
+  ]
+ },
+ "LavenderMart": {
+  "TEXT_LAVENDERMART_BALDING_GUY": [
+   "_LavenderMartBaldingGuyText"
+  ],
+  "TEXT_LAVENDERMART_COOLTRAINER_M": [
+   "_LavenderMartCooltrainerMReviveText",
+   "_LavenderMartCooltrainerMNuggetText"
+  ]
+ },
+ "LavenderPokecenter": {
+  "TEXT_LAVENDERPOKECENTER_GENTLEMAN": [
+   "_LavenderPokecenterGentlemanText"
+  ],
+  "TEXT_LAVENDERPOKECENTER_LITTLE_GIRL": [
+   "_LavenderPokecenterLittleGirlText"
+  ]
+ },
+ "LavenderTown": {
+  "TEXT_LAVENDERTOWN_COOLTRAINER_M": [
+   "_LavenderTownCooltrainerMText"
+  ],
+  "TEXT_LAVENDERTOWN_LITTLE_GIRL": [
+   "_LavenderTownLittleGirlDoYouBelieveInGhostsText",
+   "_LavenderTownLittleGirlSoThereAreBelieversText"
+  ],
+  "TEXT_LAVENDERTOWN_POKEMON_HOUSE_SIGN": [
+   "_LavenderTownPokemonHouseSignText"
+  ],
+  "TEXT_LAVENDERTOWN_POKEMON_TOWER_SIGN": [
+   "_LavenderTownPokemonTowerSignText"
+  ],
+  "TEXT_LAVENDERTOWN_SIGN": [
+   "_LavenderTownSignText"
+  ],
+  "TEXT_LAVENDERTOWN_SILPH_SCOPE_SIGN": [
+   "_LavenderTownSilphScopeSignText"
+  ],
+  "TEXT_LAVENDERTOWN_SUPER_NERD": [
+   "_LavenderTownSuperNerdText"
+  ],
+  "TEXT_LAVENDERTOWN_MART_SIGN": [
+   "_MartSignText"
+  ],
+  "TEXT_LAVENDERTOWN_POKECENTER_SIGN": [
+   "_PokeCenterSignText"
+  ]
+ },
+ "LoreleisRoom": {
+  "TEXT_LORELEISROOM_DONT_RUN_AWAY": [
+   "_LoreleisRoomLoreleiDontRunAwayText"
+  ],
+  "TEXT_LORELEISROOM_LORELEI": [
+   "_LoreleisRoomLoreleiBeforeBattleText",
+   "_LoreleisRoomLoreleiEndBattleText",
+   "_LoreleisRoomLoreleiAfterBattleText"
+  ]
+ },
+ "MrFujisHouse": {
+  "TEXT_MRFUJISHOUSE_LITTLE_GIRL": [
+   "_MrFujisHouseLittleGirlThisIsMrFujisHouseText",
+   "_MrFujisHouseLittleGirlPokemonAreNiceToHugText"
+  ],
+  "TEXT_MRFUJISHOUSE_MR_FUJI": [
+   "_MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText",
+   "_MrFujisHouseMrFujiReceivedPokeFluteText",
+   "_MrFujisHouseMrFujiPokeFluteExplanationText",
+   "_MrFujisHouseMrFujiPokeFluteNoRoomText",
+   "_MrFujisHouseMrFujiHasMyFluteHelpedYouText"
+  ],
+  "TEXT_MRFUJISHOUSE_NIDORINO": [
+   "_MrFujisHouseNidorinoText"
+  ],
+  "TEXT_MRFUJISHOUSE_POKEDEX": [
+   "_MrFujisHouseMrFujiPokedexText"
+  ],
+  "TEXT_MRFUJISHOUSE_PSYDUCK": [
+   "_MrFujisHousePsyduckText"
+  ],
+  "TEXT_MRFUJISHOUSE_SUPER_NERD": [
+   "_MrFujisHouseSuperNerdMrFujiIsntHereText",
+   "_MrFujisHouseSuperNerdMrFujiHadBeenPrayingText"
+  ]
+ },
+ "MrPsychicsHouse": {
+  "TEXT_MRPSYCHICSHOUSE_MR_PSYCHIC": [
+   "_MrPsychicsHouseMrPsychicYouWantedThisText",
+   "_MrPsychicsHouseMrPsychicReceivedTM29Text",
+   "_MrPsychicsHouseMrPsychicTM29NoRoomText",
+   "_MrPsychicsHouseMrPsychicTM29ExplanationText"
+  ]
+ },
+ "MtMoon1F": {
+  "TEXT_MTMOON1F_BEWARE_ZUBAT_SIGN": [
+   "_MtMoon1FBewareZubatSign"
+  ],
+  "TEXT_MTMOON1F_COOLTRAINER_F1": [
+   "_MtMoon1FCooltrainerF1BattleText",
+   "_MtMoon1FCooltrainerF1EndBattleText",
+   "_MtMoon1FCooltrainerF1AfterBattleText"
+  ],
+  "TEXT_MTMOON1F_COOLTRAINER_F2": [
+   "_MtMoon1FCooltrainerF2BattleText",
+   "_MtMoon1FCooltrainerF2EndBattleText",
+   "_MtMoon1FCooltrainerF2AfterBattleText"
+  ],
+  "TEXT_MTMOON1F_HIKER": [
+   "_MtMoon1FHikerBattleText",
+   "_MtMoon1FHikerEndBattleText",
+   "_MtMoon1FHikerAfterBattleText"
+  ],
+  "TEXT_MTMOON1F_SUPER_NERD": [
+   "_MtMoon1FSuperNerdBattleText",
+   "_MtMoon1FSuperNerdEndBattleText",
+   "_MtMoon1FSuperNerdAfterBattleText"
+  ],
+  "TEXT_MTMOON1F_YOUNGSTER1": [
+   "_MtMoon1FYoungster1BattleText",
+   "_MtMoon1FYoungster1EndBattleText",
+   "_MtMoon1FYoungster1AfterBattleText"
+  ],
+  "TEXT_MTMOON1F_YOUNGSTER2": [
+   "_MtMoon1FYoungster2BattleText",
+   "_MtMoon1FYoungster2EndBattleText",
+   "_MtMoon1FYoungster2AfterBattleText"
+  ],
+  "TEXT_MTMOON1F_YOUNGSTER3": [
+   "_MtMoon1FYoungster3BattleText",
+   "_MtMoon1FYoungster3EndBattleText",
+   "_MtMoon1FYoungster3AfterBattleText"
+  ]
+ },
+ "MtMoonB1F": {},
+ "MtMoonB2F": {
+  "TEXT_MTMOONB2F_DOME_FOSSIL": [
+   "_MtMoonB2FDomeFossilYouWantText"
+  ],
+  "TEXT_MTMOONB2F_HELIX_FOSSIL": [
+   "_MtMoonB2FHelixFossilYouWantText"
+  ],
+  "TEXT_MTMOONB2F_ROCKET1": [
+   "_MtMoonB2FRocket1BattleText",
+   "_MtMoonB2FRocket1EndBattleText",
+   "_MtMoonB2FRocket1AfterBattleText"
+  ],
+  "TEXT_MTMOONB2F_ROCKET2": [
+   "_MtMoonB2FRocket2BattleText",
+   "_MtMoonB2FRocket2EndBattleText",
+   "_MtMoonB2FRocket2AfterBattleText"
+  ],
+  "TEXT_MTMOONB2F_ROCKET3": [
+   "_MtMoonB2FRocket3BattleText",
+   "_MtMoonB2FRocket3EndBattleText",
+   "_MtMoonB2FRocket3AfterBattleText"
+  ],
+  "TEXT_MTMOONB2F_ROCKET4": [
+   "_MtMoonB2FRocket4BattleText",
+   "_MtMoonB2FRocket4EndBattleText",
+   "_MtMoonB2FRocket4AfterBattleText"
+  ],
+  "TEXT_MTMOONB2F_SUPER_NERD": [
+   "_MtMoonB2fSuperNerdEachTakeOneText",
+   "_MtMoonB2FSuperNerdTheyreBothMineText",
+   "_MtMoonB2FSuperNerdTheresAPokemonLabText"
+  ],
+  "TEXT_MTMOONB2F_SUPER_NERD_THEN_THIS_IS_MINE": [
+   "_MtMoonB2FSuperNerdThenThisIsMineText"
+  ]
+ },
+ "MtMoonPokecenter": {
+  "TEXT_MTMOONPOKECENTER_GENTLEMAN": [
+   "_MtMoonPokecenterGentlemanText"
+  ],
+  "TEXT_MTMOONPOKECENTER_MAGIKARP_SALESMAN": [
+   "_MtMoonPokecenterMagikarpSalesmanIGotADealText",
+   "_MtMoonPokecenterMagikarpSalesmanNoText",
+   "_MtMoonPokecenterMagikarpSalesmanNoMoneyText",
+   "_MtMoonPokecenterMagikarpSalesmanNoRefundsText"
+  ],
+  "TEXT_MTMOONPOKECENTER_YOUNGSTER": [
+   "_MtMoonPokecenterYoungsterText"
+  ]
+ },
+ "Museum1F": {
+  "TEXT_MUSEUM1F_GAMBLER": [
+   "_Museum1FGamblerText"
+  ],
+  "TEXT_MUSEUM1F_OLD_AMBER": [
+   "_Museum1FOldAmberText"
+  ],
+  "TEXT_MUSEUM1F_SCIENTIST1": [
+   "_Museum1FScientist1GoToOtherSideText",
+   "_Museum1FScientist1TakePlentyOfTimeText",
+   "_Museum1FScientist1WouldYouLikeToComeInText",
+   "_Museum1FScientist1DontHaveEnoughMoneyText",
+   "_Museum1FScientist1ThankYouText",
+   "_Museum1FScientist1ComeAgainText",
+   "_Museum1FScientist1DoYouKnowWhatAmberIsText",
+   "_Museum1FScientist1TheresALabSomewhereText",
+   "_Museum1FScientist1AmberIsFossilizedTreeSapText"
+  ],
+  "TEXT_MUSEUM1F_SCIENTIST2": [
+   "_Museum1FScientist2TakeThisToAPokemonLabText",
+   "_Museum1FScientist2GetTheOldAmberCheckText"
+  ],
+  "TEXT_MUSEUM1F_SCIENTIST3": [
+   "_Museum1FScientist3Text"
+  ]
+ },
+ "Museum2F": {
+  "TEXT_MUSEUM2F_BRUNETTE_GIRL": [
+   "_Museum2FBrunetteGirlText"
+  ],
+  "TEXT_MUSEUM2F_GRAMPS": [
+   "_Museum2FGrampsText"
+  ],
+  "TEXT_MUSEUM2F_HIKER": [
+   "_Museum2FHikerText"
+  ],
+  "TEXT_MUSEUM2F_MOON_STONE_SIGN": [
+   "_Museum2FMoonStoneSignText"
+  ],
+  "TEXT_MUSEUM2F_SCIENTIST": [
+   "_Museum2FScientistText"
+  ],
+  "TEXT_MUSEUM2F_SPACE_SHUTTLE_SIGN": [
+   "_Museum2FSpaceShuttleSignText"
+  ],
+  "TEXT_MUSEUM2F_YOUNGSTER": [
+   "_Museum2FYoungsterText"
+  ]
+ },
+ "NameRatersHouse": {
+  "TEXT_NAMERATERSHOUSE_NAME_RATER": [
+   "_NameRatersHouseNameRaterWhichPokemonText",
+   "_NameRatersHouseNameRaterWhatShouldWeNameItText",
+   "_NameRatersHouseNameRaterPokemonHasBeenRenamedText"
+  ]
+ },
+ "OaksLab": {
+  "TEXT_OAKSLAB_GIRL": [
+   "_OaksLabGirlText"
+  ],
+  "TEXT_OAKSLAB_OAK1": [
+   "_OaksLabOak1HowIsYourPokedexComingText",
+   "_OaksLabOak1WhichPokemonDoYouWantText",
+   "_OaksLabOak1YourPokemonCanFightText",
+   "_OaksLabOak1RaiseYourYoungPokemonText",
+   "_OaksLabOak1DeliverParcelText",
+   "_OaksLabOak1ParcelThanksText",
+   "_OaksLabOak1PokemonAroundTheWorldText",
+   "_OaksLabOak1ReceivedPokeballsText",
+   "_OaksLabGivePokeballsExplanationText",
+   "_OaksLabOak1ComeSeeMeSometimesText"
+  ],
+  "TEXT_OAKSLAB_OAK2": [
+   "_OaksLabOak2Text"
+  ],
+  "TEXT_OAKSLAB_OAK_BE_PATIENT": [
+   "_OaksLabOakBePatientText"
+  ],
+  "TEXT_OAKSLAB_OAK_CHOOSE_MON": [
+   "_OaksLabOakChooseMonText"
+  ],
+  "TEXT_OAKSLAB_OAK_DONT_GO_AWAY_YET": [
+   "_OaksLabOakDontGoAwayYetText"
+  ],
+  "TEXT_OAKSLAB_OAK_GOT_POKEDEX": [
+   "_OaksLabOakGotPokedexText"
+  ],
+  "TEXT_OAKSLAB_OAK_I_HAVE_A_REQUEST": [
+   "_OaksLabOakIHaveARequestText"
+  ],
+  "TEXT_OAKSLAB_OAK_MY_INVENTION_POKEDEX": [
+   "_OaksLabOakMyInventionPokedexText"
+  ],
+  "TEXT_OAKSLAB_OAK_THAT_WAS_MY_DREAM": [
+   "_OaksLabOakThatWasMyDreamText"
+  ],
+  "TEXT_OAKSLAB_POKEDEX1": [
+   "_OaksLabPokedexText"
+  ],
+  "TEXT_OAKSLAB_POKEDEX2": [
+   "_OaksLabPokedexText"
+  ],
+  "TEXT_OAKSLAB_RIVAL": [
+   "_OaksLabRivalGrampsIsntAroundText",
+   "_OaksLabRivalGoAheadAndChooseText",
+   "_OaksLabRivalMyPokemonLooksStrongerText"
+  ],
+  "TEXT_OAKSLAB_RIVAL_FED_UP_WITH_WAITING": [
+   "_OaksLabRivalFedUpWithWaitingText"
+  ],
+  "TEXT_OAKSLAB_RIVAL_GRAMPS": [
+   "_OaksLabRivalGrampsText"
+  ],
+  "TEXT_OAKSLAB_RIVAL_ILL_TAKE_THIS_ONE": [
+   "_OaksLabRivalIllTakeThisOneText"
+  ],
+  "TEXT_OAKSLAB_RIVAL_ILL_TAKE_YOU_ON": [
+   "_OaksLabRivalIllTakeYouOnText"
+  ],
+  "TEXT_OAKSLAB_RIVAL_LEAVE_IT_ALL_TO_ME": [
+   "_OaksLabRivalLeaveItAllToMeText"
+  ],
+  "TEXT_OAKSLAB_RIVAL_RECEIVED_MON": [
+   "_OaksLabRivalReceivedMonText"
+  ],
+  "TEXT_OAKSLAB_RIVAL_SMELL_YOU_LATER": [
+   "_OaksLabRivalSmellYouLaterText"
+  ],
+  "TEXT_OAKSLAB_RIVAL_WHAT_ABOUT_ME": [
+   "_OaksLabRivalWhatAboutMeText"
+  ],
+  "TEXT_OAKSLAB_RIVAL_WHAT_DID_YOU_CALL_ME_FOR": [
+   "_OaksLabRivalWhatDidYouCallMeForText"
+  ],
+  "TEXT_OAKSLAB_SCIENTIST1": [
+   "_OaksLabScientistText"
+  ],
+  "TEXT_OAKSLAB_SCIENTIST2": [
+   "_OaksLabScientistText"
+  ]
+ },
+ "PalletTown": {
+  "TEXT_PALLETTOWN_FISHER": [
+   "_PalletTownFisherText"
+  ],
+  "TEXT_PALLETTOWN_GIRL": [
+   "_PalletTownGirlText"
+  ],
+  "TEXT_PALLETTOWN_OAK": [
+   "_PalletTownOakItsUnsafeText"
+  ],
+  "TEXT_PALLETTOWN_OAKSLAB_SIGN": [
+   "_PalletTownOaksLabSignText"
+  ],
+  "TEXT_PALLETTOWN_PLAYERSHOUSE_SIGN": [
+   "_PalletTownPlayersHouseSignText"
+  ],
+  "TEXT_PALLETTOWN_RIVALSHOUSE_SIGN": [
+   "_PalletTownRivalsHouseSignText"
+  ],
+  "TEXT_PALLETTOWN_SIGN": [
+   "_PalletTownSignText"
+  ]
+ },
+ "PewterCity": {
+  "TEXT_PEWTERCITY_COOLTRAINER_F": [
+   "_PewterCityCooltrainerFText"
+  ],
+  "TEXT_PEWTERCITY_COOLTRAINER_M": [
+   "_PewterCityCooltrainerMText"
+  ],
+  "TEXT_PEWTERCITY_GYM_SIGN": [
+   "_PewterCityGymSignText"
+  ],
+  "TEXT_PEWTERCITY_MUSEUM_SIGN": [
+   "_PewterCityMuseumSignText"
+  ],
+  "TEXT_PEWTERCITY_POLICE_NOTICE_SIGN": [
+   "_PewterCityPoliceNoticeSignText"
+  ],
+  "TEXT_PEWTERCITY_SIGN": [
+   "_PewterCitySignText"
+  ],
+  "TEXT_PEWTERCITY_SUPER_NERD1": [
+   "_PewterCitySuperNerd1DidYouCheckOutMuseumText",
+   "_PewterCitySuperNerd1WerentThoseFossilsAmazingText",
+   "_PewterCitySuperNerd1YouHaveToGoText"
+  ],
+  "TEXT_PEWTERCITY_SUPER_NERD1_ITS_RIGHT_HERE": [
+   "_PewterCitySuperNerd1ItsRightHereText"
+  ],
+  "TEXT_PEWTERCITY_SUPER_NERD2": [
+   "_PewterCitySuperNerd2DoYouKnowWhatImDoingText",
+   "_PewterCitySuperNerd2ThatsRightText",
+   "_PewterCitySuperNerd2ImSprayingRepelText"
+  ],
+  "TEXT_PEWTERCITY_TRAINER_TIPS": [
+   "_PewterCityTrainerTipsText"
+  ],
+  "TEXT_PEWTERCITY_YOUNGSTER": [
+   "_PewterCityYoungsterYoureATrainerFollowMeText"
+  ],
+  "TEXT_PEWTERCITY_YOUNGSTER_GO_TAKE_ON_BROCK": [
+   "_PewterCityYoungsterGoTakeOnBrockText"
+  ],
+  "TEXT_PEWTERCITY_MART_SIGN": [
+   "_MartSignText"
+  ],
+  "TEXT_PEWTERCITY_POKECENTER_SIGN": [
+   "_PokeCenterSignText"
+  ]
+ },
+ "PewterGym": {
+  "TEXT_PEWTERGYM_BROCK": [
+   "_PewterGymBrockPostBattleAdviceText",
+   "_PewterGymBrockPreBattleText"
+  ],
+  "TEXT_PEWTERGYM_BROCK_WAIT_TAKE_THIS": [
+   "_PewterGymBrockWaitTakeThisText"
+  ],
+  "TEXT_PEWTERGYM_COOLTRAINER_M": [
+   "_PewterGymCooltrainerMBattleText",
+   "_PewterGymCooltrainerMEndBattleText",
+   "_PewterGymCooltrainerMAfterBattleText"
+  ],
+  "TEXT_PEWTERGYM_GYM_GUIDE": [
+   "_PewterGymGuidePreAdviceText",
+   "_PewterGymGuideBeginAdviceText",
+   "_PewterGymGuideFreeServiceText",
+   "_PewterGymGuideAdviceText",
+   "_PewterGymGuidePostBattleText"
+  ],
+  "TEXT_PEWTERGYM_RECEIVED_TM34": [
+   "_PewterGymReceivedTM34Text",
+   "_TM34ExplanationText"
+  ],
+  "TEXT_PEWTERGYM_TM34_NO_ROOM": [
+   "_PewterGymTM34NoRoomText"
+  ]
+ },
+ "PewterMart": {
+  "TEXT_PEWTERMART_SUPER_NERD": [
+   "_PewterMartSuperNerdText"
+  ],
+  "TEXT_PEWTERMART_YOUNGSTER": [
+   "_PewterMartYoungsterText"
+  ]
+ },
+ "PewterNidoranHouse": {
+  "TEXT_PEWTERNIDORANHOUSE_LITTLE_BOY": [
+   "_PewterNidoranHouseLittleBoyText"
+  ],
+  "TEXT_PEWTERNIDORANHOUSE_MIDDLE_AGED_MAN": [
+   "_PewterNidoranHouseMiddleAgedManText"
+  ],
+  "TEXT_PEWTERNIDORANHOUSE_NIDORAN": [
+   "_PewterNidoranHouseNidoranText"
+  ]
+ },
+ "PewterPokecenter": {
+  "TEXT_PEWTERPOKECENTER_GENTLEMAN": [
+   "_PewterPokecenterGentlemanText"
+  ],
+  "TEXT_PEWTERPOKECENTER_JIGGLYPUFF": [
+   "_PewterPokecenterJigglypuffText"
+  ]
+ },
+ "PewterSpeechHouse": {
+  "TEXT_PEWTERSPEECHHOUSE_GAMBLER": [
+   "_PewterSpeechHouseGamblerText"
+  ],
+  "TEXT_PEWTERSPEECHHOUSE_YOUNGSTER": [
+   "_PewterSpeechHouseYoungsterText"
+  ]
+ },
+ "PokemonFanClub": {
+  "TEXT_POKEMONFANCLUB_CHAIRMAN": [
+   "_PokemonFanClubChairmanIntroText",
+   "_PokemonFanClubChairmanStoryText",
+   "_PokemonFanClubReceivedBikeVoucherText",
+   "_PokemonFanClubExplainBikeVoucherText",
+   "_PokemonFanClubBagFullText",
+   "_PokemonFanClubNoStoryText",
+   "_PokemonFanClubChairFinalText"
+  ],
+  "TEXT_POKEMONFANCLUB_PIKACHU": [
+   "_PokemonFanClubPikachuText"
+  ],
+  "TEXT_POKEMONFANCLUB_PIKACHU_FAN": [
+   "_PokemonFanClubPikachuFanNormalText",
+   "_PokemonFanClubPikachuFanBetterText"
+  ],
+  "TEXT_POKEMONFANCLUB_RECEPTIONIST": [
+   "_PokemonFanClubReceptionistText"
+  ],
+  "TEXT_POKEMONFANCLUB_SEEL": [
+   "_PokemonFanClubSeelText"
+  ],
+  "TEXT_POKEMONFANCLUB_SEEL_FAN": [
+   "_PokemonFanClubSeelFanNormalText",
+   "_PokemonFanClubSeelFanBetterText"
+  ],
+  "TEXT_POKEMONFANCLUB_SIGN_1": [
+   "_PokemonFanClubSign1Text"
+  ],
+  "TEXT_POKEMONFANCLUB_SIGN_2": [
+   "_PokemonFanClubSign2Text"
+  ]
+ },
+ "PokemonMansion1F": {
+  "TEXT_POKEMONMANSION1F_SCIENTIST": [
+   "_PokemonMansion1FScientistBattleText",
+   "_PokemonMansion1FScientistEndBattleText",
+   "_PokemonMansion1FScientistAfterBattleText"
+  ],
+  "TEXT_POKEMONMANSION1F_SWITCH": [
+   "_PokemonMansion1FSwitchText",
+   "_PokemonMansion1FSwitchPressedText",
+   "_PokemonMansion1FSwitchNotPressedText"
+  ]
+ },
+ "PokemonMansion2F": {
+  "TEXT_POKEMONMANSION2F_DIARY1": [
+   "_PokemonMansion2FDiary1Text"
+  ],
+  "TEXT_POKEMONMANSION2F_DIARY2": [
+   "_PokemonMansion2FDiary2Text"
+  ],
+  "TEXT_POKEMONMANSION2F_SUPER_NERD": [
+   "_PokemonMansion2FSuperNerdBattleText",
+   "_PokemonMansion2FSuperNerdEndBattleText",
+   "_PokemonMansion2FSuperNerdAfterBattleText"
+  ],
+  "TEXT_POKEMONMANSION2F_SWITCH": [
+   "_PokemonMansion2FSwitchText",
+   "_PokemonMansion2FSwitchPressedText",
+   "_PokemonMansion2FSwitchNotPressedText"
+  ]
+ },
+ "PokemonMansion3F": {
+  "TEXT_POKEMONMANSION3F_DIARY": [
+   "_PokemonMansion3FDiaryText"
+  ],
+  "TEXT_POKEMONMANSION3F_SCIENTIST": [
+   "_PokemonMansion3FScientistBattleText",
+   "_PokemonMansion3FScientistEndBattleText",
+   "_PokemonMansion3FScientistAfterBattleText"
+  ],
+  "TEXT_POKEMONMANSION3F_SUPER_NERD": [
+   "_PokemonMansion3FSuperNerdBattleText",
+   "_PokemonMansion3FSuperNerdEndBattleText",
+   "_PokemonMansion3FSuperNerdAfterBattleText"
+  ],
+  "TEXT_POKEMONMANSION3F_SWITCH": [
+   "_PokemonMansion2FSwitchText",
+   "_PokemonMansion2FSwitchPressedText",
+   "_PokemonMansion2FSwitchNotPressedText"
+  ]
+ },
+ "PokemonMansionB1F": {
+  "TEXT_POKEMONMANSIONB1F_BURGLAR": [
+   "_PokemonMansionB1FBurglarBattleText",
+   "_PokemonMansionB1FBurglarEndBattleText",
+   "_PokemonMansionB1FBurglarAfterBattleText"
+  ],
+  "TEXT_POKEMONMANSIONB1F_DIARY": [
+   "_PokemonMansionB1FDiaryText"
+  ],
+  "TEXT_POKEMONMANSIONB1F_SCIENTIST": [
+   "_PokemonMansionB1FScientistBattleText",
+   "_PokemonMansionB1FScientistEndBattleText",
+   "_PokemonMansionB1FScientistAfterBattleText"
+  ],
+  "TEXT_POKEMONMANSIONB1F_SWITCH": [
+   "_PokemonMansion2FSwitchText",
+   "_PokemonMansion2FSwitchPressedText",
+   "_PokemonMansion2FSwitchNotPressedText"
+  ]
+ },
+ "PokemonTower1F": {
+  "TEXT_POKEMONTOWER1F_BALDING_GUY": [
+   "_PokemonTower1FBaldingGuyText"
+  ],
+  "TEXT_POKEMONTOWER1F_CHANNELER": [
+   "_PokemonTower1FChannelerText"
+  ],
+  "TEXT_POKEMONTOWER1F_GIRL": [
+   "_PokemonTower1FGirlText"
+  ],
+  "TEXT_POKEMONTOWER1F_MIDDLE_AGED_WOMAN": [
+   "_PokemonTower1FMiddleAgedWomanText"
+  ],
+  "TEXT_POKEMONTOWER1F_RECEPTIONIST": [
+   "_PokemonTower1FReceptionistText"
+  ]
+ },
+ "PokemonTower2F": {
+  "TEXT_POKEMONTOWER2F_CHANNELER": [
+   "_PokemonTower2FChannelerText"
+  ],
+  "TEXT_POKEMONTOWER2F_RIVAL": [
+   "_PokemonTower2FRivalHowsYourDexText",
+   "_PokemonTower2FRivalWhatBringsYouHereText"
+  ]
+ },
+ "PokemonTower3F": {
+  "TEXT_POKEMONTOWER3F_CHANNELER1": [
+   "_PokemonTower3FChanneler1BattleText",
+   "_PokemonTower3FChanneler1EndBattleText",
+   "_PokemonTower3FChanneler1AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER3F_CHANNELER2": [
+   "_PokemonTower3FChanneler2BattleText",
+   "_PokemonTower3FChanneler2EndBattleText",
+   "_PokemonTower3FChanneler2AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER3F_CHANNELER3": [
+   "_PokemonTower3FChanneler3BattleText",
+   "_PokemonTower3FChanneler3EndBattleText",
+   "_PokemonTower3FChanneler3AfterBattleText"
+  ]
+ },
+ "PokemonTower4F": {
+  "TEXT_POKEMONTOWER4F_CHANNELER1": [
+   "_PokemonTower4FChanneler1BattleText",
+   "_PokemonTower4FChanneler1EndBattleText",
+   "_PokemonTower4FChanneler1AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER4F_CHANNELER2": [
+   "_PokemonTower4FChanneler2BattleText",
+   "_PokemonTower4FChanneler2EndBattleText",
+   "_PokemonTower4FChanneler2AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER4F_CHANNELER3": [
+   "_PokemonTower4FChanneler3BattleText",
+   "_PokemonTower4FChanneler3EndBattleText",
+   "_PokemonTower4FChanneler3AfterBattleText"
+  ]
+ },
+ "PokemonTower5F": {
+  "TEXT_POKEMONTOWER5F_CHANNELER1": [
+   "_PokemonTower5FChanneler1Text"
+  ],
+  "TEXT_POKEMONTOWER5F_CHANNELER2": [
+   "_PokemonTower5FChanneler2BattleText",
+   "_PokemonTower5FChanneler2EndBattleText",
+   "_PokemonTower5FChanneler2AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER5F_CHANNELER3": [
+   "_PokemonTower5FChanneler3BattleText",
+   "_PokemonTower5FChanneler3EndBattleText",
+   "_PokemonTower5FChanneler3AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER5F_CHANNELER4": [
+   "_PokemonTower5FChanneler4BattleText",
+   "_PokemonTower5FChanneler4EndBattleText",
+   "_PokemonTower5FChanneler4AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER5F_CHANNELER5": [
+   "_PokemonTower5FChanneler5BattleText",
+   "_PokemonTower5FChanneler5EndBattleText",
+   "_PokemonTower5FChanneler5AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER5F_PURIFIEDZONE": [
+   "_PokemonTower5FPurifiedZoneText"
+  ]
+ },
+ "PokemonTower6F": {
+  "TEXT_POKEMONTOWER6F_BEGONE": [
+   "_PokemonTower6FBeGoneText"
+  ],
+  "TEXT_POKEMONTOWER6F_CHANNELER1": [
+   "_PokemonTower6FChanneler1BattleText",
+   "_PokemonTower6FChanneler1EndBattleText",
+   "_PokemonTower6FChanneler1AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER6F_CHANNELER2": [
+   "_PokemonTower6FChanneler2BattleText",
+   "_PokemonTower6FChanneler2EndBattleText",
+   "_PokemonTower6FChanneler2AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER6F_CHANNELER3": [
+   "_PokemonTower6FChanneler3BattleText",
+   "_PokemonTower6FChanneler3EndBattleText",
+   "_PokemonTower6FChanneler3AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER6F_MAROWAK_DEPARTED": [
+   "_PokemonTower6FGhostWasCubonesMotherText",
+   "_PokemonTower6FSoulWasCalmedText"
+  ]
+ },
+ "PokemonTower7F": {
+  "TEXT_POKEMONTOWER7F_MR_FUJI": [
+   "_PokemonTower7FMrFujiRescueText"
+  ],
+  "TEXT_POKEMONTOWER7F_ROCKET1": [
+   "_PokemonTower7FRocket1BattleText",
+   "_PokemonTower7FRocket1EndBattleText",
+   "_PokemonTower7FRocket1AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER7F_ROCKET2": [
+   "_PokemonTower7FRocket2BattleText",
+   "_PokemonTower7FRocket2EndBattleText",
+   "_PokemonTower7FRocket2AfterBattleText"
+  ],
+  "TEXT_POKEMONTOWER7F_ROCKET3": [
+   "_PokemonTower7FRocket3BattleText",
+   "_PokemonTower7FRocket3EndBattleText",
+   "_PokemonTower7FRocket3AfterBattleText"
+  ]
+ },
+ "PowerPlant": {},
+ "RedsHouse1F": {
+  "TEXT_REDSHOUSE1F_MOM": [
+   "_RedsHouse1FMomWakeUpText"
+  ],
+  "TEXT_REDSHOUSE1F_TV": [
+   "_RedsHouse1FTVStandByMeMovieText"
+  ]
+ },
+ "RockTunnel1F": {
+  "TEXT_ROCKTUNNEL1F_SIGN": [
+   "_RockTunnel1FSignText"
+  ]
+ },
+ "RockTunnelB1F": {
+  "TEXT_ROCKTUNNELB1F_COOLTRAINER_F1": [
+   "_RockTunnelB1FCooltrainerF1BattleText",
+   "_RockTunnelB1FCooltrainerF1EndBattleText",
+   "_RockTunnelB1FCooltrainerF1AfterBattleText"
+  ],
+  "TEXT_ROCKTUNNELB1F_COOLTRAINER_F2": [
+   "_RockTunnelB1FCooltrainerF2BattleText",
+   "_RockTunnelB1FCooltrainerF2EndBattleText",
+   "_RockTunnelB1FCooltrainerF2AfterBattleText"
+  ],
+  "TEXT_ROCKTUNNELB1F_HIKER1": [
+   "_RockTunnelB1FHiker1BattleText",
+   "_RockTunnelB1FHiker1EndBattleText",
+   "_RockTunnelB1FHiker1AfterBattleText"
+  ],
+  "TEXT_ROCKTUNNELB1F_HIKER2": [
+   "_RockTunnelB1FHiker2BattleText",
+   "_RockTunnelB1FHiker2EndBattleText",
+   "_RockTunnelB1FHiker2AfterBattleText"
+  ],
+  "TEXT_ROCKTUNNELB1F_HIKER3": [
+   "_RockTunnelB1FHiker3BattleText",
+   "_RockTunnelB1FHiker3EndBattleText",
+   "_RockTunnelB1FHiker3AfterBattleText"
+  ],
+  "TEXT_ROCKTUNNELB1F_SUPER_NERD1": [
+   "_RockTunnelB1FSuperNerd1BattleText",
+   "_RockTunnelB1FSuperNerd1EndBattleText",
+   "_RockTunnelB1FSuperNerd1AfterBattleText"
+  ],
+  "TEXT_ROCKTUNNELB1F_SUPER_NERD2": [
+   "_RockTunnelB1FSuperNerd2BattleText",
+   "_RockTunnelB1FSuperNerd2EndBattleText",
+   "_RockTunnelB1FSuperNerd2AfterBattleText"
+  ],
+  "TEXT_ROCKTUNNELB1F_SUPER_NERD3": [
+   "_RockTunnelB1FSuperNerd3BattleText",
+   "_RockTunnelB1FSuperNerd3EndBattleText",
+   "_RockTunnelB1FSuperNerd3AfterBattleText"
+  ]
+ },
+ "RockTunnelPokecenter": {
+  "TEXT_ROCKTUNNELPOKECENTER_FISHER": [
+   "_RockTunnelPokecenterFisherText"
+  ],
+  "TEXT_ROCKTUNNELPOKECENTER_GENTLEMAN": [
+   "_RockTunnelPokecenterGentlemanText"
+  ]
+ },
+ "RocketHideoutB1F": {
+  "TEXT_ROCKETHIDEOUTB1F_ROCKET1": [
+   "_RocketHideoutB1FRocket1BattleText",
+   "_RocketHideoutB1FRocket1EndBattleText",
+   "_RocketHideoutB1FRocket1AfterBattleText"
+  ],
+  "TEXT_ROCKETHIDEOUTB1F_ROCKET2": [
+   "_RocketHideoutB1FRocket2BattleText",
+   "_RocketHideoutB1FRocket2EndBattleText",
+   "_RocketHideoutB1FRocket2AfterBattleText"
+  ],
+  "TEXT_ROCKETHIDEOUTB1F_ROCKET3": [
+   "_RocketHideoutB1FRocket3BattleText",
+   "_RocketHideoutB1FRocket3EndBattleText",
+   "_RocketHideoutB1FRocket3AfterBattleText"
+  ],
+  "TEXT_ROCKETHIDEOUTB1F_ROCKET4": [
+   "_RocketHideoutB1FRocket4BattleText",
+   "_RocketHideoutB1FRocket4EndBattleText",
+   "_RocketHideoutB1FRocket4AfterBattleText"
+  ],
+  "TEXT_ROCKETHIDEOUTB1F_ROCKET5": [
+   "_RocketHideoutB1FRocket5BattleText",
+   "_RocketHideoutB1FRocket5EndBattleText",
+   "_RocketHideoutB1FRocket5AfterBattleText"
+  ]
+ },
+ "RocketHideoutB2F": {
+  "TEXT_ROCKETHIDEOUTB2F_ROCKET": [
+   "_RocketHideoutB2FRocketBattleText",
+   "_RocketHideoutB2FRocketEndBattleText",
+   "_RocketHideoutB2FRocketAfterBattleText"
+  ]
+ },
+ "RocketHideoutB3F": {
+  "TEXT_ROCKETHIDEOUTB3F_ROCKET1": [
+   "_RocketHideoutB3FRocket1BattleText",
+   "_RocketHideoutB3FRocket1EndBattleText",
+   "_RocketHideoutB3FRocket1AfterBattleText"
+  ],
+  "TEXT_ROCKETHIDEOUTB3F_ROCKET2": [
+   "_RocketHideout3BattleText",
+   "_RocketHideout3EndBattleText3",
+   "_RocketHide3AfterBattleText3"
+  ]
+ },
+ "RocketHideoutB4F": {
+  "TEXT_ROCKETHIDEOUTB4F_GIOVANNI": [
+   "_RocketHideoutB4FGiovanniImpressedYouGotHereText",
+   "_RocketHideoutB4FGiovanniHopeWeMeetAgainText"
+  ],
+  "TEXT_ROCKETHIDEOUTB4F_GIOVANNI_HOPE_WE_MEET_AGAIN": [
+   "_RocketHideoutB4FGiovanniHopeWeMeetAgainText"
+  ],
+  "TEXT_ROCKETHIDEOUTB4F_ROCKET1": [
+   "_RocketHideoutB4FRocket1BattleText",
+   "_RocketHideoutB4FRocket1EndBattleText",
+   "_RocketHideoutB4FRocket1AfterBattleText"
+  ],
+  "TEXT_ROCKETHIDEOUTB4F_ROCKET2": [
+   "_RocketHideoutB4FRocket2BattleText",
+   "_RocketHideoutB4FRocket2EndBattleText",
+   "_RocketHideoutB4FRocket2AfterBattleText"
+  ],
+  "TEXT_ROCKETHIDEOUTB4F_ROCKET3": [
+   "_RocketHideoutB4FRocket3BattleText",
+   "_RocketHideoutB4FRocket3EndBattleText",
+   "_RocketHideoutB4FRocket3AfterBattleText"
+  ]
+ },
+ "RocketHideoutElevator": {
+  "TEXT_ROCKETHIDEOUTELEVATOR": [
+   "_RocketHideoutElevatorAppearsToNeedKeyText"
+  ]
+ },
+ "Route1": {
+  "TEXT_ROUTE1_SIGN": [
+   "_Route1SignText"
+  ],
+  "TEXT_ROUTE1_YOUNGSTER1": [
+   "_Route1Youngster1MartSampleText",
+   "_Route1Youngster1AlsoGotPokeballsText"
+  ],
+  "TEXT_ROUTE1_YOUNGSTER2": [
+   "_Route1Youngster2Text"
+  ]
+ },
+ "Route10": {
+  "TEXT_ROUTE10_COOLTRAINER_F1": [
+   "_Route10CooltrainerF1BattleText",
+   "_Route10CooltrainerF1EndBattleText",
+   "_Route10CooltrainerF1AfterBattleText"
+  ],
+  "TEXT_ROUTE10_COOLTRAINER_F2": [
+   "_Route10CooltrainerF2BattleText",
+   "_Route10CooltrainerF2EndBattleText",
+   "_Route10CooltrainerF2AfterBattleText"
+  ],
+  "TEXT_ROUTE10_HIKER1": [
+   "_Route10Hiker1BattleText",
+   "_Route10Hiker1EndBattleText",
+   "_Route10Hiker1AfterBattleText"
+  ],
+  "TEXT_ROUTE10_HIKER2": [
+   "_Route10Hiker2BattleText",
+   "_Route10Hiker2EndBattleText",
+   "_Route10Hiker2AfterBattleText"
+  ],
+  "TEXT_ROUTE10_POWERPLANT_SIGN": [
+   "_Route10PowerPlantSignText"
+  ],
+  "TEXT_ROUTE10_ROCKTUNNEL_NORTH_SIGN": [
+   "_Route10RockTunnelSignText"
+  ],
+  "TEXT_ROUTE10_ROCKTUNNEL_SOUTH_SIGN": [
+   "_Route10RockTunnelSignText"
+  ],
+  "TEXT_ROUTE10_SUPER_NERD1": [
+   "_Route10SuperNerd1BattleText",
+   "_Route10SuperNerd1EndBattleText",
+   "_Route10SuperNerd1AfterBattleText"
+  ],
+  "TEXT_ROUTE10_SUPER_NERD2": [
+   "_Route10SuperNerd2BattleText",
+   "_Route10SuperNerd2EndBattleText",
+   "_Route10SuperNerd2AfterBattleText"
+  ],
+  "TEXT_ROUTE10_POKECENTER_SIGN": [
+   "_PokeCenterSignText"
+  ]
+ },
+ "Route11": {
+  "TEXT_ROUTE11_DIGLETTSCAVE_SIGN": [
+   "_Route11DiglettsCaveSignText"
+  ],
+  "TEXT_ROUTE11_GAMBLER1": [
+   "_Route11Gambler1BattleText",
+   "_Route11Gambler1EndBattleText",
+   "_Route11Gambler1AfterBattleText"
+  ],
+  "TEXT_ROUTE11_GAMBLER2": [
+   "_Route11Gambler2BattleText",
+   "_Route11Gambler2EndBattleText",
+   "_Route11Gambler2AfterBattleText"
+  ],
+  "TEXT_ROUTE11_GAMBLER3": [
+   "_Route11Gambler3BattleText",
+   "_Route11Gambler3EndBattleText",
+   "_Route11Gambler3AfterBattleText"
+  ],
+  "TEXT_ROUTE11_GAMBLER4": [
+   "_Route11Gambler4BattleText",
+   "_Route11Gambler4EndBattleText",
+   "_Route11Gambler4AfterBattleText"
+  ],
+  "TEXT_ROUTE11_SUPER_NERD1": [
+   "_Route11SuperNerd1BattleText",
+   "_Route11SuperNerd1EndBattleText",
+   "_Route11SuperNerd1AfterBattleText"
+  ],
+  "TEXT_ROUTE11_SUPER_NERD2": [
+   "_Route11SuperNerd2BattleText",
+   "_Route11SuperNerd2EndBattleText",
+   "_Route11SuperNerd2AfterBattleText"
+  ],
+  "TEXT_ROUTE11_YOUNGSTER1": [
+   "_Route11Youngster1BattleText",
+   "_Route11Youngster1EndBattleText",
+   "_Route11Youngster1AfterBattleText"
+  ],
+  "TEXT_ROUTE11_YOUNGSTER2": [
+   "_Route11Youngster2BattleText",
+   "_Route11Youngster2EndBattleText",
+   "_Route11Youngster2AfterBattleText5"
+  ],
+  "TEXT_ROUTE11_YOUNGSTER3": [
+   "_Route11Youngster3BattleText",
+   "_Route11Youngster3EndBattleText",
+   "_Route11Youngster3AfterBattleText"
+  ],
+  "TEXT_ROUTE11_YOUNGSTER4": [
+   "_Route11Youngster4BattleText",
+   "_Route11Youngster4EndBattleText",
+   "_Route11Youngster4AfterBattleText"
+  ]
+ },
+ "Route11Gate1F": {
+  "TEXT_ROUTE11GATE1F_GUARD": [
+   "_Route11Gate1FGuardText"
+  ]
+ },
+ "Route11Gate2F": {
+  "TEXT_ROUTE11GATE2F_LEFT_BINOCULARS": [
+   "_Route11Gate2FLeftBinocularsNoSnorlaxText"
+  ],
+  "TEXT_ROUTE11GATE2F_OAKS_AIDE": [
+   "_Route11Gate2FOaksAideItemfinderDescriptionText"
+  ]
+ },
+ "Route12": {
+  "TEXT_ROUTE12_COOLTRAINER_M": [
+   "_Route12CooltrainerMBattleText",
+   "_Route12CooltrainerMEndBattleText",
+   "_Route12CooltrainerMAfterBattleText"
+  ],
+  "TEXT_ROUTE12_FISHER1": [
+   "_Route12Fisher1BattleText",
+   "_Route12Fisher1EndBattleText",
+   "_Route12Fisher1AfterBattleText"
+  ],
+  "TEXT_ROUTE12_FISHER2": [
+   "_Route12Fisher2BattleText",
+   "_Route12Fisher2EndBattleText",
+   "_Route12Fisher2AfterBattleText"
+  ],
+  "TEXT_ROUTE12_FISHER3": [
+   "_Route12Fisher3BattleText",
+   "_Route12Fisher3EndBattleText",
+   "_Route12Fisher3AfterBattleText"
+  ],
+  "TEXT_ROUTE12_FISHER4": [
+   "_Route12Fisher4BattleText",
+   "_Route12Fisher4EndBattleText",
+   "_Route12Fisher4AfterBattleText"
+  ],
+  "TEXT_ROUTE12_FISHER5": [
+   "_Route12Fisher5BattleText",
+   "_Route12Fisher5EndBattleText",
+   "_Route12Fisher5AfterBattleText"
+  ],
+  "TEXT_ROUTE12_SIGN": [
+   "_Route12SignText"
+  ],
+  "TEXT_ROUTE12_SNORLAX": [
+   "_Route12SnorlaxText"
+  ],
+  "TEXT_ROUTE12_SNORLAX_CALMED_DOWN": [
+   "_Route12SnorlaxCalmedDownText"
+  ],
+  "TEXT_ROUTE12_SNORLAX_WOKE_UP": [
+   "_Route12SnorlaxWokeUpText"
+  ],
+  "TEXT_ROUTE12_SPORT_FISHING_SIGN": [
+   "_Route12SportFishingSignText"
+  ],
+  "TEXT_ROUTE12_SUPER_NERD": [
+   "_Route12SuperNerdBattleText",
+   "_Route12SuperNerdEndBattleText",
+   "_Route12SuperNerdAfterBattleText"
+  ]
+ },
+ "Route12Gate1F": {
+  "TEXT_ROUTE12GATE1F_GUARD": [
+   "_Route12Gate1FGuardText"
+  ]
+ },
+ "Route12Gate2F": {
+  "TEXT_ROUTE12GATE2F_BRUNETTE_GIRL": [
+   "_Route12Gate2FBrunetteGirlYouCanHaveThisText",
+   "_Route12Gate2FBrunetteGirlReceivedTM39Text",
+   "_Route12Gate2FBrunetteGirlTM39NoRoomText",
+   "_Route12Gate2FBrunetteGirlTM39ExplanationText"
+  ]
+ },
+ "Route12SuperRodHouse": {
+  "TEXT_ROUTE12SUPERRODHOUSE_FISHING_GURU": [
+   "_Route12SuperRodHouseFishingGuruDoYouLikeToFishText",
+   "_Route12SuperRodHouseFishingGuruTryFishingText"
+  ]
+ },
+ "Route13": {
+  "TEXT_ROUTE13_BEAUTY1": [
+   "_Route13Beauty1BattleText",
+   "_Route13Beauty1EndBattleText",
+   "_Route13Beauty1AfterBattleText"
+  ],
+  "TEXT_ROUTE13_BEAUTY2": [
+   "_Route13Beauty2BattleText",
+   "_Route13Beauty2EndBattleText",
+   "_Route13Beauty2AfterBattleText"
+  ],
+  "TEXT_ROUTE13_BIKER": [
+   "_Route13BikerBattleText",
+   "_Route13BikerEndBattleText",
+   "_Route13BikerAfterBattleText"
+  ],
+  "TEXT_ROUTE13_COOLTRAINER_F1": [
+   "_Route13CooltrainerF1BattleText",
+   "_Route13CooltrainerF1EndBattleText",
+   "_Route13CooltrainerF1AfterBattleText"
+  ],
+  "TEXT_ROUTE13_COOLTRAINER_F2": [
+   "_Route13CooltrainerF2BattleText",
+   "_Route13CooltrainerF2EndBattleText",
+   "_Route13CooltrainerF2AfterBattleText"
+  ],
+  "TEXT_ROUTE13_COOLTRAINER_F3": [
+   "_Route13CooltrainerF3BattleText",
+   "_Route13CooltrainerF3EndBattleText",
+   "_Route13CooltrainerF3AfterBattleText"
+  ],
+  "TEXT_ROUTE13_COOLTRAINER_F4": [
+   "_Route13CooltrainerF4BattleText",
+   "_Route13CooltrainerF4EndBattleText",
+   "_Route13CooltrainerF4AfterBattleText"
+  ],
+  "TEXT_ROUTE13_COOLTRAINER_M1": [
+   "_Route13CooltrainerM1BattleText",
+   "_Route13CooltrainerM1EndBattleText",
+   "_Route13CooltrainerM1AfterBattleText"
+  ],
+  "TEXT_ROUTE13_COOLTRAINER_M2": [
+   "_Route13CooltrainerM2BattleText",
+   "_Route13CooltrainerM2EndBattleText",
+   "_Route13CooltrainerM2AfterBattleText"
+  ],
+  "TEXT_ROUTE13_COOLTRAINER_M3": [
+   "_Route13CooltrainerM3BattleText",
+   "_Route13CooltrainerM3EndBattleText",
+   "_Route13CooltrainerM3AfterBattleText"
+  ],
+  "TEXT_ROUTE13_SIGN": [
+   "_Route13SignText"
+  ],
+  "TEXT_ROUTE13_TRAINER_TIPS1": [
+   "_Route13TrainerTips1Text"
+  ],
+  "TEXT_ROUTE13_TRAINER_TIPS2": [
+   "_Route13TrainerTips2Text"
+  ]
+ },
+ "Route14": {
+  "TEXT_ROUTE14_BIKER1": [
+   "_Route14Biker1BattleText",
+   "_Route14Biker1EndBattleText",
+   "_Route14Biker1AfterBattleText"
+  ],
+  "TEXT_ROUTE14_BIKER2": [
+   "_Route14Biker2BattleText",
+   "_Route14Biker2EndBattleText",
+   "_Route14Biker2AfterBattleText"
+  ],
+  "TEXT_ROUTE14_BIKER3": [
+   "_Route14Biker3BattleText",
+   "_Route14Biker3EndBattleText",
+   "_Route14Biker3AfterBattleText"
+  ],
+  "TEXT_ROUTE14_BIKER4": [
+   "_Route14Biker4BattleText",
+   "_Route14Biker4EndBattleText",
+   "_Route14Biker4AfterBattleText"
+  ],
+  "TEXT_ROUTE14_COOLTRAINER_M1": [
+   "_Route14CooltrainerM1BattleText",
+   "_Route14CooltrainerM1EndBattleText",
+   "_Route14CooltrainerM1AfterBattleText"
+  ],
+  "TEXT_ROUTE14_COOLTRAINER_M2": [
+   "_Route14CooltrainerM2BattleText",
+   "_Route14CooltrainerM2EndBattleText",
+   "_Route14CooltrainerM2AfterBattleText"
+  ],
+  "TEXT_ROUTE14_COOLTRAINER_M3": [
+   "_Route14CooltrainerM3BattleText",
+   "_Route14CooltrainerM3EndBattleText",
+   "_Route14CooltrainerM3AfterBattleText"
+  ],
+  "TEXT_ROUTE14_COOLTRAINER_M4": [
+   "_Route14CooltrainerM4BattleText",
+   "_Route14CooltrainerM4EndBattleText",
+   "_Route14CooltrainerM4AfterBattleText"
+  ],
+  "TEXT_ROUTE14_COOLTRAINER_M5": [
+   "_Route14CooltrainerM5BattleText",
+   "_Route14CooltrainerM5EndBattleText",
+   "_Route14CooltrainerM5AfterBattleText"
+  ],
+  "TEXT_ROUTE14_COOLTRAINER_M6": [
+   "_Route14CooltrainerM6BattleText",
+   "_Route14CooltrainerM6EndBattleText",
+   "_Route14CooltrainerM6AfterBattleText"
+  ],
+  "TEXT_ROUTE14_SIGN": [
+   "_Route14SignText"
+  ]
+ },
+ "Route15": {
+  "TEXT_ROUTE15_SIGN": [
+   "_Route15SignText"
+  ]
+ },
+ "Route15Gate1F": {
+  "TEXT_ROUTE15GATE1F_GUARD": [
+   "_Route15Gate1FGuardText"
+  ]
+ },
+ "Route15Gate2F": {
+  "TEXT_ROUTE15GATE2F_OAKS_AIDE": [
+   "_Route15Gate2FOaksAideExpAllText"
+  ]
+ },
+ "Route16": {
+  "TEXT_ROUTE16_BIKER1": [
+   "_Route16Biker1BattleText",
+   "_Route16Biker1EndBattleText",
+   "_Route16Biker1AfterBattleText"
+  ],
+  "TEXT_ROUTE16_BIKER2": [
+   "_Route16Biker2BattleText",
+   "_Route16Biker2EndBattleText",
+   "_Route16Biker2AfterBattleText"
+  ],
+  "TEXT_ROUTE16_BIKER3": [
+   "_Route16Biker3BattleText",
+   "_Route16Biker3EndBattleText",
+   "_Route16Biker3AfterBattleText"
+  ],
+  "TEXT_ROUTE16_BIKER4": [
+   "_Route16biker4BattleText",
+   "_Route16Biker4EndBattleText",
+   "_Route16Biker4AfterBattleText"
+  ],
+  "TEXT_ROUTE16_BIKER5": [
+   "_Route16Biker5BattleText",
+   "_Route16Biker5EndBattleText",
+   "_Route16Biker5AfterBattleText"
+  ],
+  "TEXT_ROUTE16_BIKER6": [
+   "_Route16Biker6BattleText",
+   "_Route16Biker6EndBattleText",
+   "_Route16Biker6AfterBattleText"
+  ],
+  "TEXT_ROUTE16_CYCLING_ROAD_SIGN": [
+   "_Route16CyclingRoadSignText"
+  ],
+  "TEXT_ROUTE16_SIGN": [
+   "_Route16SignText"
+  ],
+  "TEXT_ROUTE16_SNORLAX": [
+   "_Route16Text7"
+  ],
+  "TEXT_ROUTE16_SNORLAX_RETURNED_TO_MOUNTAINS": [
+   "_Route16SnorlaxReturnedToMountainsText"
+  ],
+  "TEXT_ROUTE16_SNORLAX_WOKE_UP": [
+   "_Route16SnorlaxWokeUpText"
+  ]
+ },
+ "Route16FlyHouse": {
+  "TEXT_ROUTE16FLYHOUSE_BRUNETTE_GIRL": [
+   "_Route16FlyHouseBrunetteGirlText",
+   "_Route16FlyHouseBrunetteGirlHM02NoRoomText"
+  ],
+  "TEXT_ROUTE16FLYHOUSE_FEAROW": [
+   "_Route16FlyHouseFearowText"
+  ]
+ },
+ "Route16Gate1F": {
+  "TEXT_ROUTE16GATE1F_GAMBLER": [
+   "_Route16Gate1FGamblerText"
+  ],
+  "TEXT_ROUTE16GATE1F_GUARD": [
+   "_Route16Gate1FGuardCyclingRoadExplanationText",
+   "_Route16Gate1FGuardNoPedestriansAllowedText"
+  ],
+  "TEXT_ROUTE16GATE1F_GUARD_WAIT_UP": [
+   "_Route16Gate1FGuardWaitUpText"
+  ]
+ },
+ "Route16Gate2F": {
+  "TEXT_ROUTE16GATE2F_LITTLE_BOY": [
+   "_Route16Gate2FLittleBoyText"
+  ],
+  "TEXT_ROUTE16GATE2F_LITTLE_GIRL": [
+   "_Route16Gate2FLittleGirlText"
+  ]
+ },
+ "Route17": {
+  "TEXT_ROUTE17_BIKER1": [
+   "_Route17Biker1BattleText",
+   "_Route17Biker1EndBattleText",
+   "_Route17Biker1AfterBattleText"
+  ],
+  "TEXT_ROUTE17_BIKER10": [
+   "_Route17Biker10BattleText",
+   "_Route17Biker10EndBattleText",
+   "_Route17Biker10AfterBattleText"
+  ],
+  "TEXT_ROUTE17_BIKER2": [
+   "_Route17Biker2BattleText",
+   "_Route17Biker2EndBattleText",
+   "_Route17Biker2AfterBattleText"
+  ],
+  "TEXT_ROUTE17_BIKER3": [
+   "_Route17Biker3BattleText",
+   "_Route17Biker3EndBattleText",
+   "_Route17Biker3AfterBattleText"
+  ],
+  "TEXT_ROUTE17_BIKER4": [
+   "_Route17Biker4BattleText",
+   "_Route17Biker4EndBattleText",
+   "_Route17Biker4AfterBattleText"
+  ],
+  "TEXT_ROUTE17_BIKER5": [
+   "_Route17Biker5BattleText",
+   "_Route17Biker5EndBattleText",
+   "_Route17Biker5AfterBattleText"
+  ],
+  "TEXT_ROUTE17_BIKER6": [
+   "_Route17Biker6BattleText",
+   "_Route17Biker6EndBattleText",
+   "_Route17Biker6AfterBattleText"
+  ],
+  "TEXT_ROUTE17_BIKER7": [
+   "_Route17Biker7BattleText",
+   "_Route17Biker7EndBattleText",
+   "_Route17Biker7AfterBattleText"
+  ],
+  "TEXT_ROUTE17_BIKER8": [
+   "_Route17Biker8BattleText",
+   "_Route17Biker8EndBattleText",
+   "_Route17Biker8AfterBattleText"
+  ],
+  "TEXT_ROUTE17_BIKER9": [
+   "_Route17Biker9BattleText",
+   "_Route17Biker9EndBattleText",
+   "_Route17Biker9AfterBattleText"
+  ],
+  "TEXT_ROUTE17_CYCLING_ROAD_ENDS_SIGN": [
+   "_Route17CyclingRoadEndsSignText"
+  ],
+  "TEXT_ROUTE17_NOTICE_SIGN1": [
+   "_Route17NoticeSign1Text"
+  ],
+  "TEXT_ROUTE17_NOTICE_SIGN2": [
+   "_Route17NoticeSign2Text"
+  ],
+  "TEXT_ROUTE17_SIGN": [
+   "_Route17SignText"
+  ],
+  "TEXT_ROUTE17_TRAINER_TIPS1": [
+   "_Route17TrainerTips1Text"
+  ],
+  "TEXT_ROUTE17_TRAINER_TIPS2": [
+   "_Route17TrainerTips2Text"
+  ]
+ },
+ "Route18": {
+  "TEXT_ROUTE18_COOLTRAINER_M1": [
+   "_Route18CooltrainerM1BattleText",
+   "_Route18CooltrainerM1EndBattleText",
+   "_Route18CooltrainerM1AfterBattleText"
+  ],
+  "TEXT_ROUTE18_COOLTRAINER_M2": [
+   "_Route18CooltrainerM2BattleText",
+   "_Route18CooltrainerM2EndBattleText",
+   "_Route18CooltrainerM2AfterBattleText"
+  ],
+  "TEXT_ROUTE18_COOLTRAINER_M3": [
+   "_Route18CooltrainerM3BattleText",
+   "_Route18CooltrainerM3EndBattleText",
+   "_Route18CooltrainerM3AfterBattleText"
+  ],
+  "TEXT_ROUTE18_CYCLING_ROAD_SIGN": [
+   "_Route18CyclingRoadSignText"
+  ],
+  "TEXT_ROUTE18_SIGN": [
+   "_Route18SignText"
+  ]
+ },
+ "Route18Gate1F": {
+  "TEXT_ROUTE18GATE1F_GUARD": [
+   "_Route18Gate1FGuardCyclingRoadUphillText",
+   "_Route18Gate1FGuardYouNeedABicycleText"
+  ],
+  "TEXT_ROUTE18GATE1F_GUARD_EXCUSE_ME": [
+   "_Route18Gate1FGuardExcuseMeText"
+  ]
+ },
+ "Route18Gate2F": {},
+ "Route19": {
+  "TEXT_ROUTE19_COOLTRAINER_M1": [
+   "_Route19CooltrainerM1BattleText",
+   "_Route19CooltrainerM1EndBattleText",
+   "_Route19CooltrainerM1AfterBattleText"
+  ],
+  "TEXT_ROUTE19_COOLTRAINER_M2": [
+   "_Route19CooltrainerM2BattleText",
+   "_Route19CooltrainerM2EndBattleText",
+   "_Route19CooltrainerM2AfterBattleText"
+  ],
+  "TEXT_ROUTE19_SIGN": [
+   "_Route19SignText"
+  ],
+  "TEXT_ROUTE19_SWIMMER1": [
+   "_Route19Swimmer1BattleText",
+   "_Route19Swimmer1EndBattleText",
+   "_Route19Swimmer1AfterBattleText"
+  ],
+  "TEXT_ROUTE19_SWIMMER2": [
+   "_Route19Swimmer2BattleText",
+   "_Route19Swimmer2EndBattleText",
+   "_Route19Swimmer2AfterBattleText"
+  ],
+  "TEXT_ROUTE19_SWIMMER3": [
+   "_Route19Swimmer3BattleText",
+   "_Route19Swimmer3EndBattleText",
+   "_Route19Swimmer3AfterBattleText"
+  ],
+  "TEXT_ROUTE19_SWIMMER4": [
+   "_Route19Swimmer4BattleText",
+   "_Route19Swimmer4EndBattleText",
+   "_Route19Swimmer4AfterBattleText"
+  ],
+  "TEXT_ROUTE19_SWIMMER5": [
+   "_Route19Swimmer5BattleText",
+   "_Route19Swimmer5EndBattleText",
+   "_Route19Swimmer5AfterBattleText"
+  ],
+  "TEXT_ROUTE19_SWIMMER6": [
+   "_Route19Swimmer6BattleText",
+   "_Route19Swimmer6EndBattleText",
+   "_Route19Swimmer6AfterBattleText"
+  ],
+  "TEXT_ROUTE19_SWIMMER7": [
+   "_Route19Swimmer7BattleText",
+   "_Route19Swimmer7EndBattleText",
+   "_Route19Swimmer7AfterBattleText"
+  ],
+  "TEXT_ROUTE19_SWIMMER8": [
+   "_Route19Swimmer8BattleText",
+   "_Route19Swimmer8EndBattleText",
+   "_Route19Swimmer8AfterBattleText"
+  ]
+ },
+ "Route2": {
+  "TEXT_ROUTE2_DIGLETTS_CAVE_SIGN": [
+   "_Route2DiglettsCaveSignText"
+  ],
+  "TEXT_ROUTE2_SIGN": [
+   "_Route2SignText"
+  ]
+ },
+ "Route20": {
+  "TEXT_ROUTE20_COOLTRAINER_M": [
+   "_Route20CooltrainerMBattleText",
+   "_Route20CooltrainerMEndBattleText",
+   "_Route20CooltrainerMAfterBattleText"
+  ],
+  "TEXT_ROUTE20_SEAFOAM_ISLANDS_EAST_SIGN": [
+   "_Route20SeafoamIslandsSignText"
+  ],
+  "TEXT_ROUTE20_SEAFOAM_ISLANDS_WEST_SIGN": [
+   "_Route20SeafoamIslandsSignText"
+  ],
+  "TEXT_ROUTE20_SWIMMER1": [
+   "_Route20Swimmer1BattleText",
+   "_Route20Swimmer1EndBattleText",
+   "_Route20Swimmer1AfterBattleText"
+  ],
+  "TEXT_ROUTE20_SWIMMER2": [
+   "_Route20Swimmer2BattleText",
+   "_Route20Swimmer2EndBattleText",
+   "_Route20Swimmer2AfterBattleText"
+  ],
+  "TEXT_ROUTE20_SWIMMER3": [
+   "_Route20Swimmer3BattleText",
+   "_Route20Swimmer3EndBattleText",
+   "_Route20Swimmer3AfterBattleText"
+  ],
+  "TEXT_ROUTE20_SWIMMER4": [
+   "_Route20Swimmer4BattleText",
+   "_Route20Swimmer4EndBattleText",
+   "_Route20Swimmer4AfterBattleText"
+  ],
+  "TEXT_ROUTE20_SWIMMER5": [
+   "_Route20Swimmer5BattleText",
+   "_Route20Swimmer5EndBattleText",
+   "_Route20Swimmer5AfterBattleText"
+  ],
+  "TEXT_ROUTE20_SWIMMER6": [
+   "_Route20Swimmer6BattleText",
+   "_Route20Swimmer6EndBattleText",
+   "_Route20Swimmer6AfterBattleText"
+  ],
+  "TEXT_ROUTE20_SWIMMER7": [
+   "_Route20Swimmer7BattleText",
+   "_Route20Swimmer7EndBattleText",
+   "_Route20Swimmer7AfterBattleText"
+  ],
+  "TEXT_ROUTE20_SWIMMER8": [
+   "_Route20Swimmer8BattleText",
+   "_Route20Swimmer8EndBattleText",
+   "_Route20Swimmer8AfterBattleText"
+  ],
+  "TEXT_ROUTE20_SWIMMER9": [
+   "_Route20Swimmer9BattleText",
+   "_Route20Swimmer9EndBattleText",
+   "_Route20Swimmer9AfterBattleText"
+  ]
+ },
+ "Route21": {
+  "TEXT_ROUTE21_FISHER1": [
+   "_Route21Fisher1BattleText",
+   "_Route21Fisher1EndBattleText",
+   "_Route21Fisher1AfterBattleText"
+  ],
+  "TEXT_ROUTE21_FISHER2": [
+   "_Route21Fisher2BattleText",
+   "_Route21Fisher2EndBattleText",
+   "_Route21Fisher2AfterBattleText"
+  ],
+  "TEXT_ROUTE21_FISHER3": [
+   "_Route21Fisher3BattleText",
+   "_Route21Fisher3EndBattleText",
+   "_Route21Fisher3AfterBattleText"
+  ],
+  "TEXT_ROUTE21_FISHER4": [
+   "_Route21Fisher4BattleText",
+   "_Route21Fisher4EndBattleText",
+   "_Route21Fisher4AfterBattleText"
+  ],
+  "TEXT_ROUTE21_SWIMMER1": [
+   "_Route21Swimmer1BattleText",
+   "_Route21Swimmer1EndBattleText",
+   "_Route21Swimmer1AfterBattleText"
+  ],
+  "TEXT_ROUTE21_SWIMMER2": [
+   "_Route21Swimmer2BattleText",
+   "_Route21Swimmer2EndBattleText",
+   "_Route21Swimmer2AfterBattleText"
+  ],
+  "TEXT_ROUTE21_SWIMMER3": [
+   "_Route21Swimmer3BattleText",
+   "_Route21Swimmer3EndBattleText",
+   "_Route21Swimmer3AfterBattleText"
+  ],
+  "TEXT_ROUTE21_SWIMMER4": [
+   "_Route21Swimmer4BattleText",
+   "_Route21Swimmer4EndBattleText",
+   "_Route21Swimmer4AfterBattleText"
+  ],
+  "TEXT_ROUTE21_SWIMMER5": [
+   "_Route21Swimmer5BattleText",
+   "_Route21Swimmer5EndBattleText",
+   "_Route21Swimmer5AfterBattleText"
+  ]
+ },
+ "Route22": {
+  "TEXT_ROUTE22_POKEMON_LEAGUE_SIGN": [
+   "_Route22PokemonLeagueSignText"
+  ],
+  "TEXT_ROUTE22_RIVAL1": [
+   "_Route22RivalAfterBattleText1",
+   "_Route22RivalBeforeBattleText1"
+  ],
+  "TEXT_ROUTE22_RIVAL2": [
+   "_Route22RivalAfterBattleText2",
+   "_Route22RivalBeforeBattleText2"
+  ]
+ },
+ "Route22Gate": {
+  "TEXT_ROUTE22GATE_GUARD": [
+   "_Route22GateGuardNoBoulderbadgeText",
+   "_Route22GateGuardGoRightAheadText"
+  ]
+ },
+ "Route23": {
+  "TEXT_ROUTE23_VICTORY_ROAD_GATE_SIGN": [
+   "_Route23VictoryRoadGateSignText"
+  ]
+ },
+ "Route24": {
+  "TEXT_ROUTE24_COOLTRAINER_F1": [
+   "_Route24CooltrainerF1BattleText",
+   "_Route24CooltrainerF1EndBattleText",
+   "_Route24CooltrainerF1AfterBattleText"
+  ],
+  "TEXT_ROUTE24_COOLTRAINER_F2": [
+   "_Route24CooltrainerF2BattleText",
+   "_Route24CooltrainerF2EndBattleText",
+   "_Route24CooltrainerF2AfterBattleText"
+  ],
+  "TEXT_ROUTE24_COOLTRAINER_M1": [
+   "_Route24CooltrainerM1YouBeatOurContestText",
+   "_Route24CooltrainerM1YouJustEarnedAPrizeText",
+   "_Route24CooltrainerM1ReceivedNuggetText",
+   "_Route24CooltrainerM1JoinTeamRocketText",
+   "_Route24CooltrainerM1YouCouldBecomeATopLeaderText",
+   "_Route24CooltrainerM1NoRoomText"
+  ],
+  "TEXT_ROUTE24_COOLTRAINER_M2": [
+   "_Route24CooltrainerM2BattleText",
+   "_Route24CooltrainerM2EndBattleText",
+   "_Route24CooltrainerM2AfterBattleText"
+  ],
+  "TEXT_ROUTE24_COOLTRAINER_M3": [
+   "_Route24CooltrainerM3BattleText",
+   "_Route24CooltrainerM3EndBattleText",
+   "_Route24CooltrainerM3AfterBattleText"
+  ],
+  "TEXT_ROUTE24_YOUNGSTER1": [
+   "_Route24Youngster1BattleText",
+   "_Route24Youngster1EndBattleText",
+   "_Route24Youngster1AfterBattleText"
+  ],
+  "TEXT_ROUTE24_YOUNGSTER2": [
+   "_Route24Youngster2BattleText",
+   "_Route24Youngster2EndBattleText",
+   "_Route24Youngster2AfterBattleText"
+  ]
+ },
+ "Route25": {
+  "TEXT_ROUTE25_BILL_SIGN": [
+   "_Route25BillSignText"
+  ],
+  "TEXT_ROUTE25_COOLTRAINER_F1": [
+   "_Route25CooltrainerF1BattleText",
+   "_Route25CooltrainerF1EndBattleText",
+   "_Route25CooltrainerF1AfterBattleText"
+  ],
+  "TEXT_ROUTE25_COOLTRAINER_F2": [
+   "_Route25CooltrainerF2BattleText",
+   "_Route25CooltrainerF2EndBattleText",
+   "_Route25CooltrainerF2AfterBattleText"
+  ],
+  "TEXT_ROUTE25_COOLTRAINER_M": [
+   "_Route25CooltrainerMBattleText",
+   "_Route25CooltrainerMEndBattleText",
+   "_Route25CooltrainerMAfterBattleText"
+  ],
+  "TEXT_ROUTE25_HIKER1": [
+   "_Route25Hiker1BattleText",
+   "_Route25Hiker1EndBattleText",
+   "_Route25Hiker1AfterBattleText"
+  ],
+  "TEXT_ROUTE25_HIKER2": [
+   "_Route25Hiker2BattleText",
+   "_Route25Hiker2EndBattleText",
+   "_Route25Hiker2AfterBattleText"
+  ],
+  "TEXT_ROUTE25_HIKER3": [
+   "_Route25Hiker3BattleText",
+   "_Route25Hiker3EndBattleText",
+   "_Route25Hiker3AfterBattleText"
+  ],
+  "TEXT_ROUTE25_YOUNGSTER1": [
+   "_Route25Youngster1BattleText",
+   "_Route25Youngster1EndBattleText",
+   "_Route25Youngster1AfterBattleText"
+  ],
+  "TEXT_ROUTE25_YOUNGSTER2": [
+   "_Route25Youngster2BattleText",
+   "_Route25Youngster2EndBattleText",
+   "_Route25Youngster2AfterBattleText"
+  ],
+  "TEXT_ROUTE25_YOUNGSTER3": [
+   "_Route25Youngster3BattleText",
+   "_Route25Youngster3EndBattleText",
+   "_Route25Youngster3AfterBattleText"
+  ]
+ },
+ "Route2Gate": {
+  "TEXT_ROUTE2GATE_OAKS_AIDE": [
+   "_Route2GateOaksAideFlashExplanationText"
+  ],
+  "TEXT_ROUTE2GATE_YOUNGSTER": [
+   "_Route2GateYoungsterText"
+  ]
+ },
+ "Route2TradeHouse": {
+  "TEXT_ROUTE2TRADEHOUSE_SCIENTIST": [
+   "_Route2TradeHouseScientistText"
+  ]
+ },
+ "Route3": {
+  "TEXT_ROUTE3_COOLTRAINER_F1": [
+   "_Route3CooltrainerF1BattleText",
+   "_Route3CooltrainerF1EndBattleText",
+   "_Route3CooltrainerF1AfterBattleText"
+  ],
+  "TEXT_ROUTE3_COOLTRAINER_F2": [
+   "_Route3CooltrainerF2BattleText",
+   "_Route3CooltrainerF2EndBattleText",
+   "_Route3CooltrainerF2AfterBattleText"
+  ],
+  "TEXT_ROUTE3_COOLTRAINER_F3": [
+   "_Route3CooltrainerF3BattleText",
+   "_Route3CooltrainerF3EndBattleText",
+   "_Route3CooltrainerF3AfterBattleText"
+  ],
+  "TEXT_ROUTE3_SIGN": [
+   "_Route3SignText"
+  ],
+  "TEXT_ROUTE3_SUPER_NERD": [
+   "_Route3Text1"
+  ],
+  "TEXT_ROUTE3_YOUNGSTER1": [
+   "_Route3Youngster1BattleText",
+   "_Route3Youngster1EndBattleText",
+   "_Route3Youngster1AfterBattleText"
+  ],
+  "TEXT_ROUTE3_YOUNGSTER2": [
+   "_Route3Youngster2BattleText",
+   "_Route3Youngster2EndBattleText",
+   "_Route3Youngster2AfterBattleText"
+  ],
+  "TEXT_ROUTE3_YOUNGSTER3": [
+   "_Route3Youngster3BattleText",
+   "_Route3Youngster3EndBattleText",
+   "_Route3Youngster3AfterBattleText"
+  ],
+  "TEXT_ROUTE3_YOUNGSTER4": [
+   "_Route3Youngster4BattleText",
+   "_Route3Youngster4EndBattleText",
+   "_Route3Youngster4AfterBattleText"
+  ],
+  "TEXT_ROUTE3_YOUNGSTER5": [
+   "_Route3Youngster5BattleText",
+   "_Route3Youngster5EndBattleText",
+   "_Route3Youngster5AfterBattleText"
+  ]
+ },
+ "Route4": {
+  "TEXT_ROUTE4_COOLTRAINER_F1": [
+   "_Route4CooltrainerF1Text"
+  ],
+  "TEXT_ROUTE4_COOLTRAINER_F2": [
+   "_Route4CooltrainerF2BattleText",
+   "_Route4CooltrainerF2EndBattleText",
+   "_Route4CooltrainerF2AfterBattleText"
+  ],
+  "TEXT_ROUTE4_MT_MOON_SIGN": [
+   "_Route4MtMoonSignText"
+  ],
+  "TEXT_ROUTE4_SIGN": [
+   "_Route4SignText"
+  ],
+  "TEXT_ROUTE4_POKECENTER_SIGN": [
+   "_PokeCenterSignText"
+  ]
+ },
+ "Route5": {
+  "TEXT_ROUTE5_UNDERGROUND_PATH_SIGN": [
+   "_Route5UndergroundPathSignText"
+  ]
+ },
+ "Route5Gate": {
+  "TEXT_ROUTE5GATE_GUARD": [
+   "_SaffronGateGuardGeeImThirstyText",
+   "_SaffronGateGuardImParchedText",
+   "_SaffronGateGuardYouCanGoOnThroughText",
+   "_SaffronGateGuardThanksForTheDrinkText"
+  ],
+  "TEXT_ROUTE5GATE_GUARD_GEE_IM_THIRSTY": [
+   "_SaffronGateGuardGeeImThirstyText"
+  ],
+  "TEXT_ROUTE5GATE_GUARD_GIVE_DRINK": [
+   "_SaffronGateGuardImParchedText",
+   "_SaffronGateGuardYouCanGoOnThroughText"
+  ]
+ },
+ "Route6": {
+  "TEXT_ROUTE6_COOLTRAINER_F1": [
+   "_Route6CooltrainerF1BattleText",
+   "_Route6CooltrainerF1EndBattleText",
+   "_Route6CooltrainerAfterBattleText"
+  ],
+  "TEXT_ROUTE6_COOLTRAINER_F2": [
+   "_Route6CooltrainerF2BattleText",
+   "_Route6CooltrainerF2EndBattleText",
+   "_Route6CooltrainerF2AfterBattleText"
+  ],
+  "TEXT_ROUTE6_COOLTRAINER_M1": [
+   "_Route6CooltrainerM1BattleText",
+   "_Route6CooltrainerM1EndBattleText",
+   "_Route6CooltrainerAfterBattleText"
+  ],
+  "TEXT_ROUTE6_COOLTRAINER_M2": [
+   "_Route6CooltrainerM2BattleText",
+   "_Route6CooltrainerM2EndBattleText",
+   "_Route6CooltrainerM2AfterBattleText"
+  ],
+  "TEXT_ROUTE6_UNDERGROUND_PATH_SIGN": [
+   "_Route6UndergroundPathSignText"
+  ],
+  "TEXT_ROUTE6_YOUNGSTER1": [
+   "_Route6Youngster1BattleText",
+   "_Route6Youngster1EndBattleText",
+   "_Route6Youngster1AfterBattleText"
+  ],
+  "TEXT_ROUTE6_YOUNGSTER2": [
+   "_Route6Youngster2BattleText",
+   "_Route6Youngster2EndBattleText",
+   "_Route6Youngster2AfterBattleText"
+  ]
+ },
+ "Route6Gate": {
+  "TEXT_ROUTE6GATE_GUARD": [
+   "_SaffronGateGuardGeeImThirstyText",
+   "_SaffronGateGuardImParchedText",
+   "_SaffronGateGuardYouCanGoOnThroughText",
+   "_SaffronGateGuardThanksForTheDrinkText"
+  ],
+  "TEXT_ROUTE6GATE_GUARD_GEE_IM_THIRSTY": [
+   "_SaffronGateGuardGeeImThirstyText"
+  ],
+  "TEXT_ROUTE6GATE_GUARD_GIVE_DRINK": [
+   "_SaffronGateGuardImParchedText",
+   "_SaffronGateGuardYouCanGoOnThroughText"
+  ]
+ },
+ "Route7": {
+  "TEXT_ROUTE7_UNDERGROUND_PATH_SIGN": [
+   "_Route7UndergroundPathSignText"
+  ]
+ },
+ "Route7Gate": {
+  "TEXT_ROUTE7GATE_GUARD": [
+   "_SaffronGateGuardGeeImThirstyText",
+   "_SaffronGateGuardImParchedText",
+   "_SaffronGateGuardYouCanGoOnThroughText",
+   "_SaffronGateGuardThanksForTheDrinkText"
+  ],
+  "TEXT_ROUTE7GATE_GUARD_GEE_IM_THIRSTY": [
+   "_SaffronGateGuardGeeImThirstyText"
+  ],
+  "TEXT_ROUTE7GATE_GUARD_GIVE_DRINK": [
+   "_SaffronGateGuardImParchedText",
+   "_SaffronGateGuardYouCanGoOnThroughText"
+  ]
+ },
+ "Route8": {
+  "TEXT_ROUTE8_COOLTRAINER_F1": [
+   "_Route8CooltrainerF1BattleText",
+   "_Route8CooltrainerF1EndBattleText",
+   "_Route8CooltrainerF1AfterBattleText"
+  ],
+  "TEXT_ROUTE8_COOLTRAINER_F2": [
+   "_Route8CooltrainerF2BattleText",
+   "_Route8CooltrainerF2EndBattleText",
+   "_Route8CooltrainerF2AfterBattleText"
+  ],
+  "TEXT_ROUTE8_COOLTRAINER_F3": [
+   "_Route8CooltrainerF3BattleText",
+   "_Route8CooltrainerF3EndBattleText",
+   "_Route8CooltrainerF3AfterBattleText"
+  ],
+  "TEXT_ROUTE8_COOLTRAINER_F4": [
+   "_Route8CooltrainerF4BattleText",
+   "_Route8CooltrainerF4EndBattleText",
+   "_Route8CooltrainerF4AfterBattleText"
+  ],
+  "TEXT_ROUTE8_GAMBLER1": [
+   "_Route8Gambler1BattleText",
+   "_Route8Gambler1EndBattleText",
+   "_Route8Gambler1AfterBattleText"
+  ],
+  "TEXT_ROUTE8_GAMBLER2": [
+   "_Route8Gambler2BattleText",
+   "_Route8Gambler2EndBattleText",
+   "_Route8Gambler2AfterBattleText"
+  ],
+  "TEXT_ROUTE8_SUPER_NERD1": [
+   "_Route8SuperNerd1BattleText",
+   "_Route8SuperNerd1EndBattleText",
+   "_Route8SuperNerd1AfterBattleText"
+  ],
+  "TEXT_ROUTE8_SUPER_NERD2": [
+   "_Route8SuperNerd2BattleText",
+   "_Route8SuperNerd2EndBattleText",
+   "_Route8SuperNerd2AfterBattleText"
+  ],
+  "TEXT_ROUTE8_SUPER_NERD3": [
+   "_Route8SuperNerd3BattleText",
+   "_Route8SuperNerd3EndBattleText",
+   "_Route8SuperNerd3AfterBattleText"
+  ],
+  "TEXT_ROUTE8_UNDERGROUND_SIGN": [
+   "_Route8UndergroundSignText"
+  ]
+ },
+ "Route8Gate": {
+  "TEXT_ROUTE8GATE_GUARD": [
+   "_SaffronGateGuardGeeImThirstyText",
+   "_SaffronGateGuardImParchedText",
+   "_SaffronGateGuardYouCanGoOnThroughText",
+   "_SaffronGateGuardThanksForTheDrinkText"
+  ],
+  "TEXT_ROUTE8GATE_GUARD_GEE_IM_THIRSTY": [
+   "_SaffronGateGuardGeeImThirstyText"
+  ],
+  "TEXT_ROUTE8GATE_GUARD_GIVE_DRINK": [
+   "_SaffronGateGuardImParchedText",
+   "_SaffronGateGuardYouCanGoOnThroughText"
+  ]
+ },
+ "Route9": {
+  "TEXT_ROUTE9_SIGN": [
+   "_Route9SignText"
+  ]
+ },
+ "SSAnne1F": {
+  "TEXT_SSANNE1F_SAILOR": [
+   "_SSAnne1FSailorText"
+  ],
+  "TEXT_SSANNE1F_WAITER": [
+   "_SSAnne1FWaiterText"
+  ]
+ },
+ "SSAnne1FRooms": {
+  "TEXT_SSANNE1FROOMS_COOLTRAINER_F": [
+   "_SSAnne1FRoomsCooltrainerFBattleText",
+   "_SSAnne1FRoomsCooltrainerFEndBattleText",
+   "_SSAnne1FRoomsCooltrainerFAfterBattleText"
+  ],
+  "TEXT_SSANNE1FROOMS_GENTLEMAN1": [
+   "_SSAnne1FRoomsGentleman1BattleText",
+   "_SSAnne1FRoomsGentleman1EndBattleText",
+   "_SSAnne1FRoomsGentleman1AfterBattleText"
+  ],
+  "TEXT_SSANNE1FROOMS_GENTLEMAN2": [
+   "_SSAnne1FRoomsGentleman2BattleText",
+   "_SSAnne1FRoomsGentleman2EndBattleText",
+   "_SSAnne1FRoomsGentleman2AfterBattleText"
+  ],
+  "TEXT_SSANNE1FROOMS_GENTLEMAN3": [
+   "_SSAnne1FRoomsGentleman3Text"
+  ],
+  "TEXT_SSANNE1FROOMS_GIRL1": [
+   "_SSAnne1FRoomsGirl1Text"
+  ],
+  "TEXT_SSANNE1FROOMS_GIRL2": [
+   "_SSAnne1FRoomsGirl2Text"
+  ],
+  "TEXT_SSANNE1FROOMS_LITTLE_GIRL": [
+   "_SSAnne1FRoomsLittleGirlText"
+  ],
+  "TEXT_SSANNE1FROOMS_MIDDLE_AGED_MAN": [
+   "_SSAnne1FRoomsMiddleAgedManText"
+  ],
+  "TEXT_SSANNE1FROOMS_WIGGLYTUFF": [
+   "_SSAnne1FRoomsWigglytuffText"
+  ],
+  "TEXT_SSANNE1FROOMS_YOUNGSTER": [
+   "_SSAnne1FRoomsYoungsterBattleText",
+   "_SSAnne1FRoomsYoungsterEndBattleText",
+   "_SSAnne1FRoomsYoungsterAfterBattleText"
+  ]
+ },
+ "SSAnne2F": {
+  "TEXT_SSANNE2F_RIVAL": [
+   "_SSAnne2FRivalText"
+  ],
+  "TEXT_SSANNE2F_RIVAL_CUT_MASTER": [
+   "_SSAnne2FRivalCutMasterText"
+  ],
+  "TEXT_SSANNE2F_WAITER": [
+   "_SSAnne2FWaiterText"
+  ]
+ },
+ "SSAnne2FRooms": {
+  "TEXT_SSANNE2FROOMS_BEAUTY": [
+   "_SSAnne2FRoomsBeautyText"
+  ],
+  "TEXT_SSANNE2FROOMS_BRUNETTE_GIRL": [
+   "_SSAnne2FRoomsBrunetteGirlText"
+  ],
+  "TEXT_SSANNE2FROOMS_COOLTRAINER_F": [
+   "_SSAnne2FRoomsCooltrainerFBattleText",
+   "_SSAnne2FRoomsCooltrainerFEndBattleText",
+   "_SSAnne2FRoomsCooltrainerFAfterBattleText"
+  ],
+  "TEXT_SSANNE2FROOMS_FISHER": [
+   "_SSAnne2FRoomsFisherBattleText",
+   "_SSAnne2FRoomsFisherEndBattleText",
+   "_SSAnne2FRoomsFisherAfterBattleText"
+  ],
+  "TEXT_SSANNE2FROOMS_GENTLEMAN1": [
+   "_SSAnne2FRoomsGentleman1BattleText",
+   "_SSAnne2FRoomsGentleman1EndBattleText",
+   "_SSAnne2FRoomsGentleman1AfterBattleText"
+  ],
+  "TEXT_SSANNE2FROOMS_GENTLEMAN2": [
+   "_SSAnne2FRoomsGentleman2BattleText",
+   "_SSAnne2FRoomsGentleman2EndBattleText",
+   "_SSAnne2FRoomsGentleman2AfterBattleText"
+  ],
+  "TEXT_SSANNE2FROOMS_GENTLEMAN3": [
+   "_SSAnne2FRoomsGentleman3Text"
+  ],
+  "TEXT_SSANNE2FROOMS_GENTLEMAN4": [
+   "_SSAnne2FRoomsGentleman4Text"
+  ],
+  "TEXT_SSANNE2FROOMS_GENTLEMAN5": [
+   "_SSAnne2FRoomsGentleman5Text"
+  ],
+  "TEXT_SSANNE2FROOMS_GRAMPS": [
+   "_SSAnne2FRoomsGrampsText"
+  ],
+  "TEXT_SSANNE2FROOMS_LITTLE_BOY": [
+   "_SSAnne2FRoomsLittleBoyText"
+  ]
+ },
+ "SSAnne3F": {
+  "TEXT_SSANNE3F_SAILOR": [
+   "_SSAnne3FSailorText"
+  ]
+ },
+ "SSAnneB1FRooms": {
+  "TEXT_SSANNEB1FROOMS_FISHER": [
+   "_SSAnneB1FRoomsFisherBattleText",
+   "_SSAnneB1FRoomsFisherEndBattleText",
+   "_SSAnneB1FRoomsFisherAfterBattleText"
+  ],
+  "TEXT_SSANNEB1FROOMS_MACHOKE": [
+   "_SSAnneB1FRoomsMachokeText"
+  ],
+  "TEXT_SSANNEB1FROOMS_SAILOR1": [
+   "_SSAnneB1FRoomsSailor1BattleText",
+   "_SSAnneB1FRoomsSailor1EndBattleText",
+   "_SSAnneB1FRoomsSailor1AfterBattleText"
+  ],
+  "TEXT_SSANNEB1FROOMS_SAILOR2": [
+   "_SSAnneB1FRoomsSailor2BattleText",
+   "_SSAnneB1FRoomsSailor2EndBattleText",
+   "_SSAnneB1FRoomsSailor2AfterBattleText"
+  ],
+  "TEXT_SSANNEB1FROOMS_SAILOR3": [
+   "_SSAnneB1FRoomsSailor3BattleText",
+   "_SSAnneB1FRoomsSailor3EndBattleText",
+   "_SSAnneB1FRoomsSailor3AfterBattleText"
+  ],
+  "TEXT_SSANNEB1FROOMS_SAILOR4": [
+   "_SSAnneB1FRoomsSailor4BattleText",
+   "_SSAnneB1FRoomsSailor4EndBattleText",
+   "_SSAnneB1FRoomsSailor4AfterBattleText"
+  ],
+  "TEXT_SSANNEB1FROOMS_SAILOR5": [
+   "_SSAnneB1FRoomsSailor5BattleText",
+   "_SSAnneB1FRoomsSailor5EndBattleText",
+   "_SSAnneB1FRoomsSailor5AfterBattleText"
+  ],
+  "TEXT_SSANNEB1FROOMS_SUPER_NERD": [
+   "_SSAnneB1FRoomsSuperNerdText"
+  ]
+ },
+ "SSAnneBow": {
+  "TEXT_SSANNEBOW_COOLTRAINER_M": [
+   "_SSAnneBowCooltrainerMText"
+  ],
+  "TEXT_SSANNEBOW_SAILOR1": [
+   "_SSAnneBowSailor1Text"
+  ],
+  "TEXT_SSANNEBOW_SAILOR2": [
+   "_SSAnneBowSailor2BattleText",
+   "_SSAnneBowSailor2EndBattleText",
+   "_SSAnneBowSailor2AfterBattleText"
+  ],
+  "TEXT_SSANNEBOW_SAILOR3": [
+   "_SSAnneBowSailor3BattleText",
+   "_SSAnneBowSailor3EndBattleText",
+   "_SSAnneBowSailor3AfterBattleText"
+  ],
+  "TEXT_SSANNEBOW_SUPER_NERD": [
+   "_SSAnneBowSuperNerdText"
+  ]
+ },
+ "SSAnneCaptainsRoom": {
+  "TEXT_SSANNECAPTAINSROOM_CAPTAIN": [
+   "_SSAnneCaptainsRoomRubCaptainsBackText",
+   "_SSAnneCaptainsRoomCaptainIFeelMuchBetterText",
+   "_SSAnneCaptainsRoomCaptainReceivedHM01Text",
+   "_SSAnneCaptainsRoomCaptainHM01NoRoomText",
+   "_SSAnneCaptainsRoomCaptainNotSickAnymoreText"
+  ],
+  "TEXT_SSANNECAPTAINSROOM_SEASICK_BOOK": [
+   "_SSAnneCaptainsRoomSeasickBookText"
+  ],
+  "TEXT_SSANNECAPTAINSROOM_TRASH": [
+   "_SSAnneCaptainsRoomTrashText"
+  ]
+ },
+ "SSAnneKitchen": {
+  "TEXT_SSANNEKITCHEN_COOK1": [
+   "_SSAnneKitchenCook1Text"
+  ],
+  "TEXT_SSANNEKITCHEN_COOK2": [
+   "_SSAnneKitchenCook2Text"
+  ],
+  "TEXT_SSANNEKITCHEN_COOK3": [
+   "_SSAnneKitchenCook3Text"
+  ],
+  "TEXT_SSANNEKITCHEN_COOK4": [
+   "_SSAnneKitchenCook4Text"
+  ],
+  "TEXT_SSANNEKITCHEN_COOK5": [
+   "_SSAnneKitchenCook5Text"
+  ],
+  "TEXT_SSANNEKITCHEN_COOK6": [
+   "_SSAnneKitchenCook6Text"
+  ],
+  "TEXT_SSANNEKITCHEN_COOK7": [
+   "_SSAnneKitchenCook7MainCourseIsText",
+   "SSAnneKitchenCook7PrimeBeefSteakText"
+  ]
+ },
+ "SafariZoneCenter": {
+  "TEXT_SAFARIZONECENTER_REST_HOUSE_SIGN": [
+   "_SafariZoneCenterRestHouseSignText"
+  ],
+  "TEXT_SAFARIZONECENTER_TRAINER_TIPS_SIGN": [
+   "_SafariZoneCenterTrainerTipsSignText"
+  ]
+ },
+ "SafariZoneCenterRestHouse": {
+  "TEXT_SAFARIZONECENTERRESTHOUSE_GIRL": [
+   "_SafariZoneCenterRestHouseGirlText"
+  ],
+  "TEXT_SAFARIZONECENTERRESTHOUSE_SCIENTIST": [
+   "_SafariZoneCenterRestHouseScientistText"
+  ]
+ },
+ "SafariZoneEast": {
+  "TEXT_SAFARIZONEEAST_REST_HOUSE_SIGN": [
+   "_SafariZoneEastRestHouseSignText"
+  ],
+  "TEXT_SAFARIZONEEAST_SIGN": [
+   "_SafariZoneEastSignText"
+  ],
+  "TEXT_SAFARIZONEEAST_TRAINER_TIPS": [
+   "_SafariZoneEastTrainerTipsText"
+  ]
+ },
+ "SafariZoneEastRestHouse": {
+  "TEXT_SAFARIZONEEASTRESTHOUSE_ROCKER": [
+   "_SafariZoneEastRestHouseRockerText"
+  ],
+  "TEXT_SAFARIZONEEASTRESTHOUSE_SCIENTIST": [
+   "_SafariZoneEastRestHouseScientistText"
+  ],
+  "TEXT_SAFARIZONEEASTRESTHOUSE_SILPH_WORKER_M": [
+   "_SafariZoneEastRestHouseSilphWorkerMText"
+  ]
+ },
+ "SafariZoneGate": {
+  "TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER1": [
+   "_SafariZoneGateSafariZoneWorker1Text"
+  ],
+  "TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER1_1": [
+   "_SafariZoneGateSafariZoneWorker1Text"
+  ],
+  "TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER1_GOOD_HAUL_COME_AGAIN": [
+   "_SafariZoneGateSafariZoneWorker1GoodHaulComeAgainText"
+  ],
+  "TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER1_LEAVING_EARLY": [
+   "_SafariZoneGateSafariZoneWorker1LeavingEarlyText",
+   "_SafariZoneGateSafariZoneWorker1ReturnSafariBallsText",
+   "_SafariZoneGateSafariZoneWorker1GoodLuckText"
+  ],
+  "TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER1_WOULD_YOU_LIKE_TO_JOIN": [
+   "_SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText",
+   "_SafariZoneGateSafariZoneWorker1ThatllBe500PleaseText",
+   "_SafariZoneGateSafariZoneWorker1CallYouOnThePAText",
+   "_SafariZoneGateSafariZoneWorker1PleaseComeAgainText",
+   "_SafariZoneGateSafariZoneWorker1NotEnoughMoneyText"
+  ],
+  "TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER2": [
+   "_SafariZoneGateSafariZoneWorker2FirstTimeHereText",
+   "_SafariZoneGateSafariZoneWorker2SafariZoneExplanationText",
+   "_SafariZoneGateSafariZoneWorker2YoureARegularHereText"
+  ]
+ },
+ "SafariZoneNorth": {
+  "TEXT_SAFARIZONENORTH_REST_HOUSE_SIGN": [
+   "_SafariZoneNorthRestHouseSignText"
+  ],
+  "TEXT_SAFARIZONENORTH_SIGN": [
+   "_SafariZoneNorthSignText"
+  ],
+  "TEXT_SAFARIZONENORTH_TRAINER_TIPS_1": [
+   "_SafariZoneNorthTrainerTips1Text"
+  ],
+  "TEXT_SAFARIZONENORTH_TRAINER_TIPS_2": [
+   "_SafariZoneNorthTrainerTips2Text"
+  ],
+  "TEXT_SAFARIZONENORTH_TRAINER_TIPS_3": [
+   "_SafariZoneNorthTrainerTips3Text"
+  ]
+ },
+ "SafariZoneNorthRestHouse": {
+  "TEXT_SAFARIZONENORTHRESTHOUSE_GENTLEMAN": [
+   "_SafariZoneNorthRestHouseGentlemanText"
+  ],
+  "TEXT_SAFARIZONENORTHRESTHOUSE_SAFARI_ZONE_WORKER": [
+   "_SafariZoneNorthRestHouseSafariZoneWorkerText"
+  ],
+  "TEXT_SAFARIZONENORTHRESTHOUSE_SCIENTIST": [
+   "_SafariZoneNorthRestHouseScientistText"
+  ]
+ },
+ "SafariZoneSecretHouse": {
+  "TEXT_SAFARIZONESECRETHOUSE_FISHING_GURU": [
+   "_SafariZoneSecretHouseFishingGuruYouHaveWonText",
+   "_SafariZoneSecretHouseFishingGuruReceivedHM03Text",
+   "_SafariZoneSecretHouseFishingGuruHM03NoRoomText",
+   "_SafariZoneSecretHouseFishingGuruHM03ExplanationText"
+  ]
+ },
+ "SafariZoneWest": {
+  "TEXT_SAFARIZONEWEST_FIND_WARDENS_TEETH_SIGN": [
+   "_SafariZoneWestFindWardensTeethSignText"
+  ],
+  "TEXT_SAFARIZONEWEST_REST_HOUSE_SIGN": [
+   "_SafariZoneWestRestHouseSignText"
+  ],
+  "TEXT_SAFARIZONEWEST_SIGN": [
+   "_SafariZoneWestSignText"
+  ],
+  "TEXT_SAFARIZONEWEST_TRAINER_TIPS": [
+   "_SafariZoneWestTrainerTipsText"
+  ]
+ },
+ "SafariZoneWestRestHouse": {
+  "TEXT_SAFARIZONEWESTRESTHOUSE_COOLTRAINER_M": [
+   "_SafariZoneWestRestHouseCooltrainerMText"
+  ],
+  "TEXT_SAFARIZONEWESTRESTHOUSE_SCIENTIST": [
+   "_SafariZoneWestRestHouseScientistText"
+  ],
+  "TEXT_SAFARIZONEWESTRESTHOUSE_SILPH_WORKER_F": [
+   "_SafariZoneWestRestHouseSilphWorkerFText"
+  ]
+ },
+ "SaffronCity": {
+  "TEXT_SAFFRONCITY_FIGHTING_DOJO_SIGN": [
+   "_SaffronCityFightingDojoSignText"
+  ],
+  "TEXT_SAFFRONCITY_GENTLEMAN": [
+   "_SaffronCityGentlemanText"
+  ],
+  "TEXT_SAFFRONCITY_GYM_SIGN": [
+   "_SaffronCityGymSignText"
+  ],
+  "TEXT_SAFFRONCITY_MR_PSYCHICS_HOUSE_SIGN": [
+   "_SaffronCityMrPsychicsHouseSignText"
+  ],
+  "TEXT_SAFFRONCITY_PIDGEOT": [
+   "_SaffronCityPidgeotText"
+  ],
+  "TEXT_SAFFRONCITY_ROCKER": [
+   "_SaffronCityRockerText"
+  ],
+  "TEXT_SAFFRONCITY_ROCKET1": [
+   "_SaffronCityRocket1Text"
+  ],
+  "TEXT_SAFFRONCITY_ROCKET2": [
+   "_SaffronCityRocket2Text"
+  ],
+  "TEXT_SAFFRONCITY_ROCKET3": [
+   "_SaffronCityRocket3Text"
+  ],
+  "TEXT_SAFFRONCITY_ROCKET4": [
+   "_SaffronCityRocket4Text"
+  ],
+  "TEXT_SAFFRONCITY_ROCKET5": [
+   "_SaffronCityRocket5Text"
+  ],
+  "TEXT_SAFFRONCITY_ROCKET6": [
+   "_SaffronCityRocket6Text"
+  ],
+  "TEXT_SAFFRONCITY_ROCKET7": [
+   "_SaffronCityRocket7Text"
+  ],
+  "TEXT_SAFFRONCITY_ROCKET8": [
+   "_SaffronCityRocket8Text"
+  ],
+  "TEXT_SAFFRONCITY_ROCKET9": [
+   "_SaffronCityRocket9Text"
+  ],
+  "TEXT_SAFFRONCITY_SCIENTIST": [
+   "_SaffronCityScientistText"
+  ],
+  "TEXT_SAFFRONCITY_SIGN": [
+   "_SaffronCitySignText"
+  ],
+  "TEXT_SAFFRONCITY_SILPH_CO_LATEST_PRODUCT_SIGN": [
+   "_SaffronCitySilphCoLatestProductSignText"
+  ],
+  "TEXT_SAFFRONCITY_SILPH_CO_SIGN": [
+   "_SaffronCitySilphCoSignText"
+  ],
+  "TEXT_SAFFRONCITY_SILPH_WORKER_F": [
+   "_SaffronCitySilphWorkerFText"
+  ],
+  "TEXT_SAFFRONCITY_SILPH_WORKER_M": [
+   "_SaffronCitySilphWorkerMText"
+  ],
+  "TEXT_SAFFRONCITY_TRAINER_TIPS1": [
+   "_SaffronCityTrainerTips1Text"
+  ],
+  "TEXT_SAFFRONCITY_TRAINER_TIPS2": [
+   "_SaffronCityTrainerTips2Text"
+  ],
+  "TEXT_SAFFRONCITY_MART_SIGN": [
+   "_MartSignText"
+  ],
+  "TEXT_SAFFRONCITY_POKECENTER_SIGN": [
+   "_PokeCenterSignText"
+  ]
+ },
+ "SaffronGym": {
+  "TEXT_SAFFRONGYM_CHANNELER1": [
+   "_SaffronGymChanneler1BattleText",
+   "_SaffronGymChanneler1EndBattleText",
+   "_SaffronGymChanneler1AfterBattleText"
+  ],
+  "TEXT_SAFFRONGYM_CHANNELER2": [
+   "_SaffronGymChanneler2BattleText",
+   "_SaffronGymChanneler2EndBattleText",
+   "_SaffronGymChanneler2AfterBattleText"
+  ],
+  "TEXT_SAFFRONGYM_CHANNELER3": [
+   "_SaffronGymChanneler3BattleText",
+   "_SaffronGymChanneler3EndBattleText",
+   "_SaffronGymChanneler3AfterBattleText"
+  ],
+  "TEXT_SAFFRONGYM_GYM_GUIDE": [
+   "_SaffronGymGuideChampInMakingText",
+   "_SaffronGymGuideBeatSabrinaText"
+  ],
+  "TEXT_SAFFRONGYM_SABRINA": [
+   "_SaffronGymSabrinaPostBattleAdviceText",
+   "_SaffronGymSabrinaText"
+  ],
+  "TEXT_SAFFRONGYM_SABRINA_MARSH_BADGE_INFO": [
+   "_SaffronGymSabrinaMarshBadgeInfoText"
+  ],
+  "TEXT_SAFFRONGYM_SABRINA_RECEIVED_TM46": [
+   "_SaffronGymSabrinaReceivedTM46Text",
+   "_TM46ExplanationText"
+  ],
+  "TEXT_SAFFRONGYM_SABRINA_TM46_NO_ROOM": [
+   "_SaffronGymSabrinaTM46NoRoomText"
+  ],
+  "TEXT_SAFFRONGYM_YOUNGSTER1": [
+   "_SaffronGymYoungster1BattleText",
+   "_SaffronGymYoungster1EndBattleText",
+   "_SaffronGymYoungster1AfterBattleText"
+  ],
+  "TEXT_SAFFRONGYM_YOUNGSTER2": [
+   "_SaffronGymYoungster2BattleText",
+   "_SaffronGymYoungster2EndBattleText",
+   "_SaffronGymYoungster2AfterBattleText"
+  ],
+  "TEXT_SAFFRONGYM_YOUNGSTER3": [
+   "_SaffronGymYoungster3BattleText",
+   "_SaffronGymYoungster3EndBattleText",
+   "_SaffronGymYoungster3AfterBattleText"
+  ],
+  "TEXT_SAFFRONGYM_YOUNGSTER4": [
+   "_SaffronGymYoungster4BattleText",
+   "_SaffronGymYoungster4EndBattleText",
+   "_SaffronGymYoungster4AfterBattleText"
+  ]
+ },
+ "SaffronMart": {
+  "TEXT_SAFFRONMART_COOLTRAINER_F": [
+   "_SaffronMartCooltrainerFText"
+  ],
+  "TEXT_SAFFRONMART_SUPER_NERD": [
+   "_SaffronMartSuperNerdText"
+  ]
+ },
+ "SaffronPidgeyHouse": {
+  "TEXT_SAFFRONPIDGEYHOUSE_BRUNETTE_GIRL": [
+   "_SaffronPidgeyHouseBrunetteGirlText"
+  ],
+  "TEXT_SAFFRONPIDGEYHOUSE_PAPER": [
+   "_SaffronPidgeyHousePaperText"
+  ],
+  "TEXT_SAFFRONPIDGEYHOUSE_PIDGEY": [
+   "_SaffronPidgeyHousePidgeyText"
+  ],
+  "TEXT_SAFFRONPIDGEYHOUSE_YOUNGSTER": [
+   "_SaffronPidgeyHouseYoungsterText"
+  ]
+ },
+ "SaffronPokecenter": {
+  "TEXT_SAFFRONPOKECENTER_BEAUTY": [
+   "_SaffronPokecenterBeautyText"
+  ],
+  "TEXT_SAFFRONPOKECENTER_GENTLEMAN": [
+   "_SaffronPokecenterGentlemanText"
+  ]
+ },
+ "SeafoamIslands1F": {
+  "TEXT_SEAFOAMISLANDS1F_BOULDER1": [
+   "_BoulderText"
+  ],
+  "TEXT_SEAFOAMISLANDS1F_BOULDER2": [
+   "_BoulderText"
+  ]
+ },
+ "SeafoamIslandsB1F": {
+  "TEXT_SEAFOAMISLANDSB1F_BOULDER1": [
+   "_BoulderText"
+  ],
+  "TEXT_SEAFOAMISLANDSB1F_BOULDER2": [
+   "_BoulderText"
+  ]
+ },
+ "SeafoamIslandsB2F": {
+  "TEXT_SEAFOAMISLANDSB2F_BOULDER1": [
+   "_BoulderText"
+  ],
+  "TEXT_SEAFOAMISLANDSB2F_BOULDER2": [
+   "_BoulderText"
+  ]
+ },
+ "SeafoamIslandsB3F": {
+  "TEXT_SEAFOAMISLANDSB3F_BOULDER1": [
+   "_BoulderText"
+  ],
+  "TEXT_SEAFOAMISLANDSB3F_BOULDER2": [
+   "_BoulderText"
+  ],
+  "TEXT_SEAFOAMISLANDSB3F_BOULDER3": [
+   "_BoulderText"
+  ],
+  "TEXT_SEAFOAMISLANDSB3F_BOULDER4": [
+   "_BoulderText"
+  ],
+  "TEXT_SEAFOAMISLANDSB3F_BOULDER5": [
+   "_BoulderText"
+  ],
+  "TEXT_SEAFOAMISLANDSB3F_BOULDER6": [
+   "_BoulderText"
+  ]
+ },
+ "SeafoamIslandsB4F": {
+  "TEXT_SEAFOAMISLANDSB4F_ARTICUNO": [
+   "_SeafoamIslandsB4FArticunoBattleText"
+  ],
+  "TEXT_SEAFOAMISLANDSB4F_BOULDERS_SIGN": [
+   "_SeafoamIslandsB4FBouldersSignText"
+  ],
+  "TEXT_SEAFOAMISLANDSB4F_DANGER_SIGN": [
+   "_SeafoamIslandsB4FDangerSignText"
+  ],
+  "TEXT_SEAFOAMISLANDSB4F_BOULDER1": [
+   "_BoulderText"
+  ],
+  "TEXT_SEAFOAMISLANDSB4F_BOULDER2": [
+   "_BoulderText"
+  ]
+ },
+ "SilphCo10F": {
+  "TEXT_SILPHCO10F_ROCKET": [
+   "_SilphCo10FRocketBattleText",
+   "_SilphCo10FRocketEndBattleText",
+   "_SilphCo10FRocketAfterBattleText"
+  ],
+  "TEXT_SILPHCO10F_SCIENTIST": [
+   "_SilphCo10FScientistBattleText",
+   "_SilphCo10FScientistEndBattleText",
+   "_SilphCo10FScientistAfterBattleText"
+  ],
+  "TEXT_SILPHCO10F_SILPH_WORKER_F": [
+   "_SilphCo10FSilphWorkerFImScaredText"
+  ]
+ },
+ "SilphCo11F": {
+  "TEXT_SILPHCO11F_BEAUTY": [
+   "_SilphCo11FBeautyText"
+  ],
+  "TEXT_SILPHCO11F_GIOVANNI": [
+   "_SilphCo11FGiovanniText"
+  ],
+  "TEXT_SILPHCO11F_GIOVANNI_YOU_RUINED_OUR_PLANS": [
+   "_SilphCo11FGiovanniYouRuinedOurPlansText"
+  ],
+  "TEXT_SILPHCO11F_ROCKET1": [
+   "_SilphCo11FRocket1BattleText",
+   "_SilphCo11FRocket1EndBattleText",
+   "_SilphCo11FRocket1AfterBattleText"
+  ],
+  "TEXT_SILPHCO11F_ROCKET2": [
+   "_SilphCo11FRocket2BattleText",
+   "_SilphCo11FRocket2EndBattleText",
+   "_SilphCo11FRocket2AfterBattleText"
+  ],
+  "TEXT_SILPHCO11F_SILPH_PRESIDENT": [
+   "_SilphCo11FSilphPresidentText",
+   "_SilphCo11FSilphPresidentReceivedMasterBallText",
+   "_SilphCo11FSilphPresidentNoRoomText",
+   "_SilphCo11FSilphPresidentMasterBallDescriptionText"
+  ]
+ },
+ "SilphCo1F": {
+  "TEXT_SILPHCO1F_LINK_RECEPTIONIST": [
+   "_SilphCo1FLinkReceptionistText"
+  ]
+ },
+ "SilphCo2F": {
+  "TEXT_SILPHCO2F_ROCKET1": [
+   "_SilphCo2FRocket1BattleText",
+   "_SilphCo2FRocket1EndBattleText",
+   "_SilphCo2FRocket1AfterBattleText"
+  ],
+  "TEXT_SILPHCO2F_ROCKET2": [
+   "_SilphCo2FRocket2BattleText",
+   "_SilphCo2FRocket2EndBattleText",
+   "_SilphCo2FRocket2AfterBattleText"
+  ],
+  "TEXT_SILPHCO2F_SCIENTIST1": [
+   "_SilphCo2FScientist1BattleText",
+   "_SilphCo2FScientist1EndBattleText",
+   "_SilphCo2FScientist1AfterBattleText"
+  ],
+  "TEXT_SILPHCO2F_SCIENTIST2": [
+   "_SilphCo2FScientist2BattleText",
+   "_SilphCo2FScientist2EndBattleText",
+   "_SilphCo2FScientist2AfterBattleText"
+  ],
+  "TEXT_SILPHCO2F_SILPH_WORKER_F": [
+   "SilphCo2FSilphWorkerFPleaseTakeThisText",
+   "_SilphCo2FSilphWorkerFTM36ExplanationText"
+  ]
+ },
+ "SilphCo3F": {
+  "TEXT_SILPHCO3F_ROCKET": [
+   "_SilphCo3FRocketBattleText",
+   "_SilphCo3FRocketEndBattleText",
+   "_SilphCo3FRocketAfterBattleText"
+  ],
+  "TEXT_SILPHCO3F_SCIENTIST": [
+   "_SilphCo3FScientistBattleText",
+   "_SilphCo3FScientistEndBattleText",
+   "_SilphCo3FScientistAfterBattleText"
+  ],
+  "TEXT_SILPHCO3F_SILPH_WORKER_M": [
+   "_SilphCo3FSilphWorkerMWhatShouldIDoText"
+  ]
+ },
+ "SilphCo4F": {
+  "TEXT_SILPHCO4F_ROCKET1": [
+   "_SilphCo4FRocket1BattleText",
+   "_SilphCo4FRocket1EndBattleText",
+   "_SilphCo4FRocket1AfterBattleText"
+  ],
+  "TEXT_SILPHCO4F_ROCKET2": [
+   "_SilphCo4FRocket2BattleText",
+   "_SilphCo4FRocket2EndBattleText",
+   "_SilphCo4FRocket2AfterBattleText"
+  ],
+  "TEXT_SILPHCO4F_SCIENTIST": [
+   "_SilphCo4FScientistBattleText",
+   "_SilphCo4FScientistEndBattleText",
+   "_SilphCo4FScientistAfterBattleText"
+  ]
+ },
+ "SilphCo5F": {
+  "TEXT_SILPHCO5F_POKEMON_REPORT1": [
+   "_SilphCo5FPokemonReport1Text"
+  ],
+  "TEXT_SILPHCO5F_POKEMON_REPORT2": [
+   "_SilphCo5FPokemonReport2Text"
+  ],
+  "TEXT_SILPHCO5F_POKEMON_REPORT3": [
+   "_SilphCo5FPokemonReport3Text"
+  ],
+  "TEXT_SILPHCO5F_ROCKER": [
+   "_SilphCo5FRockerBattleText",
+   "_SilphCo5FRockerEndBattleText",
+   "_SilphCo5FRockerAfterBattleText"
+  ],
+  "TEXT_SILPHCO5F_ROCKET1": [
+   "_SilphCo5FRocket1BattleText",
+   "_SilphCo5FRocket1EndBattleText",
+   "_SilphCo5FRocket1AfterBattleText"
+  ],
+  "TEXT_SILPHCO5F_ROCKET2": [
+   "_SilphCo5FRocket2BattleText",
+   "_SilphCo5FRocket2EndBattleText",
+   "_SilphCo5FRocket2AfterBattleText"
+  ],
+  "TEXT_SILPHCO5F_SCIENTIST": [
+   "_SilphCo5FScientistBattleText",
+   "_SilphCo5FScientistEndBattleText",
+   "_SilphCo5FScientistAfterBattleText"
+  ]
+ },
+ "SilphCo6F": {
+  "TEXT_SILPHCO6F_ROCKET1": [
+   "_SilphCo6FRocket1BattleText",
+   "_SilphCo6FRocket1EndBattleText",
+   "_SilphCo6FRocket1AfterBattleText"
+  ],
+  "TEXT_SILPHCO6F_ROCKET2": [
+   "_SilphCo6FRocket2BattleText",
+   "_SilphCo6FRocket2EndBattleText",
+   "_SilphCo6FRocket2AfterBattleText"
+  ],
+  "TEXT_SILPHCO6F_SCIENTIST": [
+   "_SilphCo6FScientistBattleText",
+   "_SilphCo6FScientistEndBattleText",
+   "_SilphCo6FScientistAfterBattleText"
+  ]
+ },
+ "SilphCo7F": {
+  "TEXT_SILPHCO7F_RIVAL": [
+   "_SilphCo7FRivalText"
+  ],
+  "TEXT_SILPHCO7F_RIVAL_DEFEATED": [
+   "_SilphCo7FRivalDefeatedText"
+  ],
+  "TEXT_SILPHCO7F_RIVAL_GOOD_LUCK_TO_YOU": [
+   "_SilphCo7FRivalGoodLuckToYouText"
+  ],
+  "TEXT_SILPHCO7F_RIVAL_WAITED_HERE": [
+   "_SilphCo7FRivalWaitedHereText"
+  ],
+  "TEXT_SILPHCO7F_ROCKET1": [
+   "_SilphCo7FRocket1BattleText",
+   "_SilphCo7FRocket1EndBattleText",
+   "_SilphCo7FRocket1AfterBattleText"
+  ],
+  "TEXT_SILPHCO7F_ROCKET2": [
+   "_SilphCo7FRocket2BattleText",
+   "_SilphCo7FRocket2EndBattleText",
+   "_SilphCo7FRocket2AfterBattleText"
+  ],
+  "TEXT_SILPHCO7F_ROCKET3": [
+   "_SilphCo7FRocket3BattleText",
+   "_SilphCo7FRocket3EndBattleText",
+   "_SilphCo7FRocket3AfterBattleText"
+  ],
+  "TEXT_SILPHCO7F_SCIENTIST": [
+   "_SilphCo7FScientistBattleText",
+   "_SilphCo7FScientistEndBattleText",
+   "_SilphCo7FScientistAfterBattleText"
+  ],
+  "TEXT_SILPHCO7F_SILPH_WORKER_M1": [
+   "_SilphCo7FSilphWorkerM1HaveThisPokemonText",
+   "_SilphCo7FSilphWorkerM1LaprasDescriptionText",
+   "_SilphCo7FSilphWorkerM1IsOurPresidentOkText",
+   "_SilphCo7FSilphWorkerM1SavedText"
+  ],
+  "TEXT_SILPHCO7F_SILPH_WORKER_M2": [
+   "_SilphCo7FSilphWorkerM2AfterTheMasterBallText",
+   "_SilphCo7FSilphWorkerM2CancelledMasterBallText"
+  ],
+  "TEXT_SILPHCO7F_SILPH_WORKER_M3": [
+   "_SilphCo7FSilphWorkerM3ItWouldBeBadText",
+   "_SilphCo7FSilphWorkerM3YouChasedOffTeamRocketText"
+  ],
+  "TEXT_SILPHCO7F_SILPH_WORKER_M4": [
+   "_SilphCo7FSilphWorkerM4ItsReallyDangerousHereText",
+   "_SilphCo7FSilphWorkerM4SafeAtLastText"
+  ]
+ },
+ "SilphCo8F": {
+  "TEXT_SILPHCO8F_ROCKET1": [
+   "_SilphCo8FRocket1BattleText",
+   "_SilphCo8FRocket1EndBattleText",
+   "_SilphCo8FRocket1AfterBattleText"
+  ],
+  "TEXT_SILPHCO8F_ROCKET2": [
+   "_SilphCo8FRocket2BattleText",
+   "_SilphCo8FRocket2EndBattleText",
+   "_SilphCo8FRocket2AfterBattleText"
+  ],
+  "TEXT_SILPHCO8F_SCIENTIST": [
+   "_SilphCo8FScientistBattleText",
+   "_SilphCo8FScientistEndBattleText",
+   "_SilphCo8FScientistAfterBattleText"
+  ],
+  "TEXT_SILPHCO8F_SILPH_WORKER_M": [
+   "_SilphCo8FSilphWorkerMSilphIsFinishedText"
+  ]
+ },
+ "SilphCo9F": {
+  "TEXT_SILPHCO9F_NURSE": [
+   "SilphCo9FNurseYouLookTiredText",
+   "SilphCo9FNurseDontGiveUpText",
+   "SilphCo9FNurseThankYouText"
+  ],
+  "TEXT_SILPHCO9F_ROCKET1": [
+   "_SilphCo9FRocket1BattleText",
+   "_SilphCo9FRocket1EndBattleText",
+   "_SilphCo9FRocket1AfterBattleText"
+  ],
+  "TEXT_SILPHCO9F_ROCKET2": [
+   "_SilphCo9FRocket2BattleText",
+   "_SilphCo9FRocket2EndBattleText",
+   "_SilphCo9FRocket2AfterBattleText"
+  ],
+  "TEXT_SILPHCO9F_SCIENTIST": [
+   "_SilphCo9FScientistBattleText",
+   "_SilphCo9FScientistEndBattleText",
+   "_SilphCo9FScientistAfterBattleText"
+  ]
+ },
+ "SilphCoElevator": {},
+ "TradeCenter": {
+  "TEXT_TRADECENTER_OPPONENT": [
+   "_TradeCenterOpponentText"
+  ]
+ },
+ "UndergroundPathRoute5": {},
+ "UndergroundPathRoute6": {
+  "TEXT_UNDERGROUNDPATHROUTE6_GIRL": [
+   "_UndergroundPathRoute6GirlText"
+  ]
+ },
+ "UndergroundPathRoute7": {
+  "TEXT_UNDERGROUNDPATHROUTE7_MIDDLE_AGED_MAN": [
+   "_UndergroundPathRoute7MiddleAgedManText"
+  ]
+ },
+ "UndergroundPathRoute7Copy": {
+  "TEXT_UNDERGROUNDPATHROUTE7COPY_UNUSED_GIRL": [
+   "_UndergroundPathRoute7CopyUnusedGirlText"
+  ],
+  "TEXT_UNDERGROUNDPATHROUTE7COPY_UNUSED_MIDDLE_AGED_MAN": [
+   "_UndergroundPathRoute7CopyUnusedMiddleAgedManText"
+  ]
+ },
+ "UndergroundPathRoute8": {
+  "TEXT_UNDERGROUNDPATHROUTE8_GIRL": [
+   "_UndergroundPathRoute8GirlText"
+  ]
+ },
+ "VermilionCity": {
+  "TEXT_VERMILIONCITY_BEAUTY": [
+   "_VermilionCityBeautyText"
+  ],
+  "TEXT_VERMILIONCITY_GAMBLER1": [
+   "_VermilionCityGambler1DidYouSeeText",
+   "_VermilionCityGambler1SSAnneDepartedText"
+  ],
+  "TEXT_VERMILIONCITY_GAMBLER2": [
+   "_VermilionCityGambler2Text"
+  ],
+  "TEXT_VERMILIONCITY_GYM_SIGN": [
+   "_VermilionCityGymSignText"
+  ],
+  "TEXT_VERMILIONCITY_HARBOR_SIGN": [
+   "_VermilionCityHarborSignText"
+  ],
+  "TEXT_VERMILIONCITY_MACHOP": [
+   "_VermilionCityMachopText"
+  ],
+  "TEXT_VERMILIONCITY_NOTICE_SIGN": [
+   "_VermilionCityNoticeSignText"
+  ],
+  "TEXT_VERMILIONCITY_POKEMON_FAN_CLUB_SIGN": [
+   "_VermilionCityPokemonFanClubSignText"
+  ],
+  "TEXT_VERMILIONCITY_SAILOR1": [
+   "_VermilionCitySailor1WelcomeToSSAnneText",
+   "_VermilionCitySailor1DoYouHaveATicketText",
+   "_VermilionCitySailor1YouNeedATicketText",
+   "_VermilionCitySailor1FlashedTicketText",
+   "_VermilionCitySailor1ShipSetSailText"
+  ],
+  "TEXT_VERMILIONCITY_SAILOR2": [
+   "_VermilionCitySailor2Text"
+  ],
+  "TEXT_VERMILIONCITY_SIGN": [
+   "_VermilionCitySignText"
+  ],
+  "TEXT_VERMILIONCITY_MART_SIGN": [
+   "_MartSignText"
+  ],
+  "TEXT_VERMILIONCITY_POKECENTER_SIGN": [
+   "_PokeCenterSignText"
+  ]
+ },
+ "VermilionDock": {},
+ "VermilionGym": {
+  "TEXT_VERMILIONGYM_GENTLEMAN": [
+   "_VermilionGymGentlemanBattleText",
+   "_VermilionGymGentlemanEndBattleText",
+   "_VermilionGymGentlemanAfterBattleText"
+  ],
+  "TEXT_VERMILIONGYM_GYM_GUIDE": [
+   "_VermilionGymGymGuideChampInMakingText",
+   "_VermilionGymGymGuideBeatLTSurgeText"
+  ],
+  "TEXT_VERMILIONGYM_LT_SURGE": [
+   "_VermilionGymLTSurgePostBattleAdviceText",
+   "_VermilionGymLTSurgePreBattleText"
+  ],
+  "TEXT_VERMILIONGYM_LT_SURGE_RECEIVED_TM24": [
+   "_VermilionGymLTSurgeReceivedTM24Text",
+   "_TM24ExplanationText"
+  ],
+  "TEXT_VERMILIONGYM_LT_SURGE_THUNDER_BADGE_INFO": [
+   "_VermilionGymLTSurgeThunderBadgeInfoText"
+  ],
+  "TEXT_VERMILIONGYM_LT_SURGE_TM24_NO_ROOM": [
+   "_VermilionGymLTSurgeTM24NoRoomText"
+  ],
+  "TEXT_VERMILIONGYM_SAILOR": [
+   "_VermilionGymSailorBattleText",
+   "_VermilionGymSailorEndBattleText",
+   "_VermilionGymSailorAfterBattleText"
+  ],
+  "TEXT_VERMILIONGYM_SUPER_NERD": [
+   "_VermilionGymSuperNerdBattleText",
+   "_VermilionGymSuperNerdEndBattleText",
+   "_VermilionGymSuperNerdAfterBattleText"
+  ]
+ },
+ "VermilionMart": {
+  "TEXT_VERMILIONMART_COOLTRAINER_F": [
+   "_VermilionMartCooltrainerFText"
+  ],
+  "TEXT_VERMILIONMART_COOLTRAINER_M": [
+   "_VermilionMartCooltrainerMText"
+  ]
+ },
+ "VermilionOldRodHouse": {
+  "TEXT_VERMILIONOLDRODHOUSE_FISHING_GURU": [
+   "_VermilionOldRodHouseFishingGuruDoYouLikeToFishText",
+   "_VermilionOldRodHouseFishingGuruHowAreTheFishBitingText"
+  ]
+ },
+ "VermilionPidgeyHouse": {
+  "TEXT_VERMILIONPIDGEYHOUSE_LETTER": [
+   "_VermilionPidgeyHouseLetterText"
+  ],
+  "TEXT_VERMILIONPIDGEYHOUSE_PIDGEY": [
+   "_VermilionPidgeyHousePidgeyText"
+  ],
+  "TEXT_VERMILIONPIDGEYHOUSE_YOUNGSTER": [
+   "_VermilionPidgeyHouseYoungsterText"
+  ]
+ },
+ "VermilionPokecenter": {
+  "TEXT_VERMILIONPOKECENTER_FISHING_GURU": [
+   "_VermilionPokecenterFishingGuruText"
+  ],
+  "TEXT_VERMILIONPOKECENTER_SAILOR": [
+   "_VermilionPokecenterSailorText"
+  ]
+ },
+ "VermilionTradeHouse": {},
+ "VictoryRoad1F": {
+  "TEXT_VICTORYROAD1F_COOLTRAINER_F": [
+   "_VictoryRoad1FCooltrainerFBattleText",
+   "_VictoryRoad1FCooltrainerFEndBattleText",
+   "_VictoryRoad1FCooltrainerFAfterBattleText"
+  ],
+  "TEXT_VICTORYROAD1F_COOLTRAINER_M": [
+   "_VictoryRoad1FCooltrainerMBattleText",
+   "_VictoryRoad1FCooltrainerMEndBattleText",
+   "_VictoryRoad1FCooltrainerMAfterBattleText"
+  ],
+  "TEXT_VICTORYROAD1F_BOULDER1": [
+   "_BoulderText"
+  ],
+  "TEXT_VICTORYROAD1F_BOULDER2": [
+   "_BoulderText"
+  ],
+  "TEXT_VICTORYROAD1F_BOULDER3": [
+   "_BoulderText"
+  ]
+ },
+ "VictoryRoad2F": {
+  "TEXT_VICTORYROAD2F_COOLTRAINER_M": [
+   "_VictoryRoad2FCooltrainerMBattleText",
+   "_VictoryRoad2FCooltrainerMEndBattleText",
+   "_VictoryRoad2FCooltrainerMAfterBattleText"
+  ],
+  "TEXT_VICTORYROAD2F_HIKER": [
+   "_VictoryRoad2FHikerBattleText",
+   "_VictoryRoad2FHikerEndBattleText",
+   "_VictoryRoad2FHikerAfterBattleText"
+  ],
+  "TEXT_VICTORYROAD2F_MOLTRES": [
+   "_VictoryRoad2FMoltresBattleText"
+  ],
+  "TEXT_VICTORYROAD2F_SUPER_NERD1": [
+   "_VictoryRoad2FSuperNerd1BattleText",
+   "_VictoryRoad2FSuperNerd1EndBattleText",
+   "_VictoryRoad2FSuperNerd1AfterBattleText"
+  ],
+  "TEXT_VICTORYROAD2F_SUPER_NERD2": [
+   "_VictoryRoad2FSuperNerd2BattleText",
+   "_VictoryRoad2FSuperNerd2EndBattleText",
+   "_VictoryRoad2FSuperNerd2AfterBattleText"
+  ],
+  "TEXT_VICTORYROAD2F_SUPER_NERD3": [
+   "_VictoryRoad2FSuperNerd3BattleText",
+   "_VictoryRoad2FSuperNerd3EndBattleText",
+   "_VictoryRoad2FSuperNerd3AfterBattleText"
+  ],
+  "TEXT_VICTORYROAD2F_BOULDER1": [
+   "_BoulderText"
+  ],
+  "TEXT_VICTORYROAD2F_BOULDER2": [
+   "_BoulderText"
+  ],
+  "TEXT_VICTORYROAD2F_BOULDER3": [
+   "_BoulderText"
+  ]
+ },
+ "VictoryRoad3F": {
+  "TEXT_VICTORYROAD3F_COOLTRAINER_F1": [
+   "_VictoryRoad3FCooltrainerF1BattleText",
+   "_VictoryRoad3FCooltrainerF1EndBattleText",
+   "_VictoryRoad3FCooltrainerF1AfterBattleText"
+  ],
+  "TEXT_VICTORYROAD3F_COOLTRAINER_F2": [
+   "_VictoryRoad3FCooltrainerF2BattleText",
+   "_VictoryRoad3FCooltrainerF2EndBattleText",
+   "_VictoryRoad3FCooltrainerF2AfterBattleText"
+  ],
+  "TEXT_VICTORYROAD3F_COOLTRAINER_M1": [
+   "_VictoryRoad3FCooltrainerM1BattleText",
+   "_VictoryRoad3FCooltrainerM1EndBattleText",
+   "_VictoryRoad3FCooltrainerM1AfterBattleText"
+  ],
+  "TEXT_VICTORYROAD3F_COOLTRAINER_M2": [
+   "_VictoryRoad3FCooltrainerM2BattleText",
+   "_VictoryRoad3FCooltrainerM2EndBattleText",
+   "_VictoryRoad3FCooltrainerM2AfterBattleText"
+  ],
+  "TEXT_VICTORYROAD3F_BOULDER1": [
+   "_BoulderText"
+  ],
+  "TEXT_VICTORYROAD3F_BOULDER2": [
+   "_BoulderText"
+  ],
+  "TEXT_VICTORYROAD3F_BOULDER3": [
+   "_BoulderText"
+  ],
+  "TEXT_VICTORYROAD3F_BOULDER4": [
+   "_BoulderText"
+  ]
+ },
+ "ViridianCity": {
+  "TEXT_VIRIDIANCITY_FISHER": [
+   "ViridianCityFisherYouCanHaveThisText",
+   "_ViridianCityFisherReceivedTM42Text",
+   "_ViridianCityFisherTM42NoRoomText",
+   "_ViridianCityFisherTM42ExplanationText"
+  ],
+  "TEXT_VIRIDIANCITY_GAMBLER1": [
+   "_ViridianCityGambler1GymAlwaysClosedText"
+  ],
+  "TEXT_VIRIDIANCITY_GIRL": [
+   "_ViridianCityGirlHasntHadHisCoffeeYetText",
+   "_ViridianCityGirlWhenIGoShopText"
+  ],
+  "TEXT_VIRIDIANCITY_GYM_LOCKED": [
+   "_ViridianCityGymLockedText"
+  ],
+  "TEXT_VIRIDIANCITY_GYM_SIGN": [
+   "_ViridianCityGymSignText"
+  ],
+  "TEXT_VIRIDIANCITY_OLD_MAN": [
+   "_ViridianCityOldManHadMyCoffeeNowText",
+   "_ViridianCityOldManKnowHowToCatchPokemonText",
+   "_ViridianCityOldManTimeIsMoneyText"
+  ],
+  "TEXT_VIRIDIANCITY_OLD_MAN_SLEEPY": [
+   "_ViridianCityOldManSleepyPrivatePropertyText"
+  ],
+  "TEXT_VIRIDIANCITY_OLD_MAN_YOU_NEED_TO_WEAKEN_THE_TARGET": [
+   "_ViridianCityOldManYouNeedToWeakenTheTargetText"
+  ],
+  "TEXT_VIRIDIANCITY_SIGN": [
+   "_ViridianCitySignText"
+  ],
+  "TEXT_VIRIDIANCITY_TRAINER_TIPS1": [
+   "_ViridianCityTrainerTips1Text"
+  ],
+  "TEXT_VIRIDIANCITY_TRAINER_TIPS2": [
+   "_ViridianCityTrainerTips2Text"
+  ],
+  "TEXT_VIRIDIANCITY_YOUNGSTER1": [
+   "_ViridianCityYoungster1Text"
+  ],
+  "TEXT_VIRIDIANCITY_YOUNGSTER2": [
+   "_ViridianCityYoungster2YouWantToKnowAboutText",
+   "ViridianCityYoungster2CaterpieAndWeedleDescriptionText",
+   "ViridianCityYoungster2OkThenText"
+  ],
+  "TEXT_VIRIDIANCITY_MART_SIGN": [
+   "_MartSignText"
+  ],
+  "TEXT_VIRIDIANCITY_POKECENTER_SIGN": [
+   "_PokeCenterSignText"
+  ]
+ },
+ "ViridianForest": {
+  "TEXT_VIRIDIANFOREST_LEAVING_SIGN": [
+   "_ViridianForestLeavingSignText"
+  ],
+  "TEXT_VIRIDIANFOREST_TRAINER_TIPS1": [
+   "_ViridianForestTrainerTips1Text"
+  ],
+  "TEXT_VIRIDIANFOREST_TRAINER_TIPS2": [
+   "_ViridianForestTrainerTips2Text"
+  ],
+  "TEXT_VIRIDIANFOREST_TRAINER_TIPS3": [
+   "_ViridianForestTrainerTips3Text"
+  ],
+  "TEXT_VIRIDIANFOREST_TRAINER_TIPS4": [
+   "_ViridianForestTrainerTips4Text"
+  ],
+  "TEXT_VIRIDIANFOREST_USE_ANTIDOTE_SIGN": [
+   "_ViridianForestUseAntidoteSignText"
+  ],
+  "TEXT_VIRIDIANFOREST_YOUNGSTER1": [
+   "_ViridianForestYoungster1Text"
+  ],
+  "TEXT_VIRIDIANFOREST_YOUNGSTER2": [
+   "_ViridianForestYoungster2BattleText",
+   "_ViridianForestYoungster2EndBattleText",
+   "_ViridianForestYoungster2AfterBattleText"
+  ],
+  "TEXT_VIRIDIANFOREST_YOUNGSTER3": [
+   "_ViridianForestYoungster3BattleText",
+   "_ViridianForestYoungster3EndBattleText",
+   "_ViridianForestYoungster3AfterBattleText"
+  ],
+  "TEXT_VIRIDIANFOREST_YOUNGSTER4": [
+   "_ViridianForestYoungster4BattleText",
+   "_ViridianForestYoungster4EndBattleText",
+   "_ViridianForestYoungster4AfterBattleText"
+  ],
+  "TEXT_VIRIDIANFOREST_YOUNGSTER5": [
+   "_ViridianForestYoungster5Text"
+  ]
+ },
+ "ViridianForestNorthGate": {
+  "TEXT_VIRIDIANFORESTNORTHGATE_GRAMPS": [
+   "_ViridianForestNorthGateGrampsText"
+  ],
+  "TEXT_VIRIDIANFORESTNORTHGATE_SUPER_NERD": [
+   "_ViridianForestNorthGateSuperNerdText"
+  ]
+ },
+ "ViridianForestSouthGate": {
+  "TEXT_VIRIDIANFORESTSOUTHGATE_GIRL": [
+   "_ViridianForestSouthGateGirlText"
+  ],
+  "TEXT_VIRIDIANFORESTSOUTHGATE_LITTLE_GIRL": [
+   "_ViridianForestSouthGateLittleGirlText"
+  ]
+ },
+ "ViridianGym": {
+  "TEXT_VIRIDIANGYM_COOLTRAINER_M1": [
+   "_ViridianGymCooltrainerM1BattleText",
+   "_ViridianGymCooltrainerM1EndBattleText",
+   "_ViridianGymCooltrainerM1AfterBattleText"
+  ],
+  "TEXT_VIRIDIANGYM_COOLTRAINER_M2": [
+   "_ViridianGymCooltrainerM2BattleText",
+   "_ViridianGymCooltrainerM2EndBattleText",
+   "_ViridianGymCooltrainerM2AfterBattleText"
+  ],
+  "TEXT_VIRIDIANGYM_COOLTRAINER_M3": [
+   "_ViridianGymCooltrainerM3BattleText",
+   "_ViridianGymCooltrainerM3EndBattleText",
+   "_ViridianGymCooltrainerM3AfterBattleText"
+  ],
+  "TEXT_VIRIDIANGYM_GIOVANNI": [
+   "_ViridianGymGiovanniPostBattleAdviceText",
+   "_ViridianGymGiovanniPreBattleText"
+  ],
+  "TEXT_VIRIDIANGYM_GIOVANNI_EARTH_BADGE_INFO": [
+   "_ViridianGymGiovanniEarthBadgeInfoText"
+  ],
+  "TEXT_VIRIDIANGYM_GIOVANNI_RECEIVED_TM27": [
+   "_ViridianGymGiovanniReceivedTM27Text"
+  ],
+  "TEXT_VIRIDIANGYM_GIOVANNI_TM27_NO_ROOM": [
+   "_ViridianGymGiovanniTM27NoRoomText"
+  ],
+  "TEXT_VIRIDIANGYM_GYM_GUIDE": [
+   "_ViridianGymGuidePreBattleText",
+   "_ViridianGymGuidePostBattleText"
+  ],
+  "TEXT_VIRIDIANGYM_HIKER1": [
+   "_ViridianGymHiker1BattleText",
+   "_ViridianGymHiker1EndBattleText",
+   "_ViridianGymHiker1AfterBattleText"
+  ],
+  "TEXT_VIRIDIANGYM_HIKER2": [
+   "_ViridianGymHiker2BattleText",
+   "_ViridianGymHiker2EndBattleText",
+   "_ViridianGymHiker2AfterBattleText"
+  ],
+  "TEXT_VIRIDIANGYM_HIKER3": [
+   "_ViridianGymHiker3BattleText",
+   "_ViridianGymHiker3EndBattleText",
+   "_ViridianGymHiker3AfterBattleText"
+  ],
+  "TEXT_VIRIDIANGYM_ROCKER1": [
+   "_ViridianGymRocker1BattleText",
+   "_ViridianGymRocker1EndBattleText",
+   "_ViridianGymRocker1AfterBattleText"
+  ],
+  "TEXT_VIRIDIANGYM_ROCKER2": [
+   "_ViridianGymRocker2BattleText",
+   "_ViridianGymRocker2EndBattleText",
+   "_ViridianGymRocker2AfterBattleText"
+  ]
+ },
+ "ViridianMart": {
+  "TEXT_VIRIDIANMART_CLERK_PARCEL_QUEST": [
+   "_ViridianMartClerkParcelQuestText"
+  ],
+  "TEXT_VIRIDIANMART_CLERK_YOU_CAME_FROM_PALLET_TOWN": [
+   "_ViridianMartClerkYouCameFromPalletTownText"
+  ],
+  "TEXT_VIRIDIANMART_COOLTRAINER_M": [
+   "_ViridianMartCooltrainerMText"
+  ],
+  "TEXT_VIRIDIANMART_YOUNGSTER": [
+   "_ViridianMartYoungsterText"
+  ]
+ },
+ "ViridianNicknameHouse": {
+  "TEXT_VIRIDIANNICKNAMEHOUSE_BALDING_GUY": [
+   "_ViridianNicknameHouseBaldingGuyText"
+  ],
+  "TEXT_VIRIDIANNICKNAMEHOUSE_LITTLE_GIRL": [
+   "_ViridianNicknameHouseLittleGirlText"
+  ],
+  "TEXT_VIRIDIANNICKNAMEHOUSE_SPEAROW": [
+   "_ViridianNicknameHouseSpearowText"
+  ],
+  "TEXT_VIRIDIANNICKNAMEHOUSE_SPEARY_SIGN": [
+   "_ViridianNicknameHouseSpearySignText"
+  ]
+ },
+ "ViridianPokecenter": {
+  "TEXT_VIRIDIANPOKECENTER_COOLTRAINER_M": [
+   "_ViridianPokecenterCooltrainerMText"
+  ],
+  "TEXT_VIRIDIANPOKECENTER_GENTLEMAN": [
+   "_ViridianPokecenterGentlemanText"
+  ]
+ },
+ "ViridianSchoolHouse": {
+  "TEXT_VIRIDIANSCHOOLHOUSE_BRUNETTE_GIRL": [
+   "_ViridianSchoolHouseBrunetteGirlText"
+  ],
+  "TEXT_VIRIDIANSCHOOLHOUSE_COOLTRAINER_F": [
+   "_ViridianSchoolHouseCooltrainerFText"
+  ]
+ },
+ "WardensHouse": {
+  "TEXT_WARDENSHOUSE_DISPLAY_LEFT": [
+   "_WardensHouseDisplayPhotosAndFossilsText"
+  ],
+  "TEXT_WARDENSHOUSE_DISPLAY_RIGHT": [
+   "_WardensHouseDisplayPhotosAndFossilsText"
+  ],
+  "TEXT_WARDENSHOUSE_WARDEN": [
+   "_WardensHouseWardenGibberish1Text",
+   "_WardensHouseWardenGibberish2Text",
+   "_WardensHouseWardenGaveTheGoldTeethText",
+   "_WardensHouseWardenThanksText",
+   "_WardensHouseWardenReceivedHM04Text",
+   "_WardensHouseWardenHM04ExplanationText",
+   "_WardensHouseWardenHM04NoRoomText"
+  ],
+  "TEXT_WARDENSHOUSE_BOULDER": [
+   "_BoulderText"
+  ]
+ }
+}

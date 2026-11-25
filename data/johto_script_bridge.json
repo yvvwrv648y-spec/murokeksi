@@ -1,0 +1,7306 @@
+{
+ "AzaleaGym": {
+  "AzaleaGymBugsyScript": [
+   "BugsyText_INeverLose",
+   "Text_ReceivedHiveBadge",
+   "BugsyText_HiveBadgeSpeech",
+   "BugsyText_FuryCutterSpeech",
+   "BugsyText_BugMonsAreDeep"
+  ],
+  "AzaleaGymGuideScript": [
+   "AzaleaGymGuideText",
+   "AzaleaGymGuideWinText"
+  ],
+  "TrainerBugCatcherAl": [
+   "BugCatcherAlSeenText",
+   "BugCatcherAlBeatenText",
+   "BugCatcherAlAfterBattleText"
+  ],
+  "TrainerBugCatcherBenny": [
+   "BugCatcherBennySeenText",
+   "BugCatcherBennyBeatenText",
+   "BugCatcherBennyAfterBattleText"
+  ],
+  "TrainerBugCatcherJosh": [
+   "BugCatcherJoshSeenText",
+   "BugCatcherJoshBeatenText",
+   "BugCatcherJoshAfterBattleText"
+  ],
+  "TrainerTwinsAmyandmay1": [
+   "TwinsAmyandmay1SeenText",
+   "TwinsAmyandmay1BeatenText",
+   "TwinsAmyandmay1AfterBattleText"
+  ],
+  "TrainerTwinsAmyandmay2": [
+   "TwinsAmyandmay2SeenText",
+   "TwinsAmyandmay2BeatenText",
+   "TwinsAmyandmay2AfterBattleText"
+  ]
+ },
+ "AzaleaMart": {
+  "AzaleaMartBugCatcherScript": [
+   "AzaleaMartBugCatcherText"
+  ],
+  "AzaleaMartCooltrainerMScript": [
+   "AzaleaMartCooltrainerMText"
+  ]
+ },
+ "AzaleaPokecenter1F": {
+  "AzaleaPokecenter1FFishingGuruScript": [
+   "AzaleaPokecenter1FFishingGuruText"
+  ],
+  "AzaleaPokecenter1FGentlemanScript": [
+   "AzaleaPokecenter1FGentlemanText"
+  ],
+  "AzaleaPokecenter1FPokefanFScript": [
+   "AzaleaPokecenter1FPokefanFText"
+  ]
+ },
+ "AzaleaTown": {
+  "AzaleaGymSign": [
+   "AzaleaGymSignText"
+  ],
+  "AzaleaTownCelebiScene": [
+   "AzaleaTownKurtText1",
+   "AzaleaTownKurtText2",
+   "AzaleaTownKurtText3"
+  ],
+  "AzaleaTownGrampsScript": [
+   "AzaleaTownGrampsTextBefore",
+   "AzaleaTownGrampsTextAfter"
+  ],
+  "AzaleaTownIlextForestSign": [
+   "AzaleaTownIlexForestSignText"
+  ],
+  "AzaleaTownKurtScript": [
+   "AzaleaTownKurtText3"
+  ],
+  "AzaleaTownRivalBattleScene1": [
+   "AzaleaTownRivalBeforeText",
+   "AzaleaTownRivalWinText",
+   "AzaleaTownRivalLossText",
+   "AzaleaTownRivalAfterText"
+  ],
+  "AzaleaTownRivalBattleScript": [
+   "AzaleaTownRivalBeforeText",
+   "AzaleaTownRivalWinText",
+   "AzaleaTownRivalLossText",
+   "AzaleaTownRivalAfterText"
+  ],
+  "AzaleaTownRocket1Script": [
+   "AzaleaTownRocket1Text"
+  ],
+  "AzaleaTownRocket2Script": [
+   "AzaleaTownRocket2Text"
+  ],
+  "AzaleaTownSign": [
+   "AzaleaTownSignText"
+  ],
+  "AzaleaTownSlowpokeScript": [
+   "AzaleaTownSlowpokeText1",
+   "AzaleaTownSlowpokeText2"
+  ],
+  "AzaleaTownTeacherScript": [
+   "AzaleaTownTeacherText"
+  ],
+  "AzaleaTownYoungsterScript": [
+   "AzaleaTownYoungsterText"
+  ],
+  "CharcoalKilnSign": [
+   "CharcoalKilnSignText"
+  ],
+  "KurtsHouseSign": [
+   "KurtsHouseSignText"
+  ],
+  "SlowpokeWellSign": [
+   "SlowpokeWellSignText"
+  ],
+  "UnusedWoosterScript": [
+   "WoosterText"
+  ]
+ },
+ "BattleTower1F": {
+  "BattleTower1FBugCatcherScript": [
+   "Text_BattleTowerBugCatcher"
+  ],
+  "BattleTower1FCheckStateScene": [
+   "Text_WeveBeenWaitingForYou"
+  ],
+  "BattleTower1FCooltrainerFScript": [
+   "Text_BattleTowerCooltrainerF"
+  ],
+  "BattleTower1FGrannyScript": [
+   "Text_BattleTowerGranny"
+  ],
+  "BattleTower1FReceptionistScript": [
+   "Text_CongratulationsYouveBeatenAllTheTrainers",
+   "Text_BattleTowerWelcomesYou",
+   "Text_WantToGoIntoABattleRoom",
+   "Text_WouldYouLikeToHearAboutTheBattleTower"
+  ],
+  "BattleTower1FRulesSign": [
+   "Text_ReadBattleTowerRules",
+   "Text_BattleTowerRules"
+  ],
+  "BattleTower1FYoungsterScript": [
+   "Text_BattleTowerYoungster"
+  ],
+  "BattleTower_LeftWithoutSaving": [
+   "Text_BattleTower_LeftWithoutSaving",
+   "Text_WeHopeToServeYouAgain"
+  ],
+  "Script_AMonLevelExceeds": [
+   "Text_AMonLevelExceeds",
+   "Text_WantToGoIntoABattleRoom"
+  ],
+  "Script_BattleTowerExplanation": [
+   "Text_BattleTowerIntroduction_2"
+  ],
+  "Script_BattleTowerHopeToServeYouAgain": [
+   "Text_WeHopeToServeYouAgain"
+  ],
+  "Script_BattleTowerIntroductionYesNo": [
+   "Text_WouldYouLikeToHearAboutTheBattleTower"
+  ],
+  "Script_BattleTowerSkipExplanation": [
+   "Text_WantToGoIntoABattleRoom"
+  ],
+  "Script_ChooseChallenge": [
+   "Text_SaveBeforeEnteringBattleRoom",
+   "Text_WantToGoIntoABattleRoom",
+   "Text_RightThisWayToYourBattleRoom"
+  ],
+  "Script_ChooseChallenge2": [
+   "Text_SaveBeforeEnteringBattleRoom",
+   "Text_WantToGoIntoABattleRoom",
+   "Text_ReceivedAListOfLeadersOnTheHonorRoll",
+   "Text_PleaseConfirmOnThisMonitor"
+  ],
+  "Script_GivePlayerHisPrize": [
+   "Text_YourPackIsStuffedFull",
+   "Text_PlayerGotFive"
+  ],
+  "Script_MayNotEnterABattleRoomUnderL70": [
+   "Text_WantToGoIntoABattleRoom"
+  ],
+  "Script_Menu_ChallengeExplanationCancel": [
+   "Text_WantToGoIntoABattleRoom",
+   "Text_SaveBeforeEnteringBattleRoom",
+   "Text_RightThisWayToYourBattleRoom",
+   "Text_BattleTowerIntroduction_2",
+   "Text_WeHopeToServeYouAgain"
+  ],
+  "Script_ReachedBattleLimit": [
+   "Text_FiveDayBattleLimit_Mobile",
+   "Text_WeHopeToServeYouAgain"
+  ],
+  "Script_StartChallenge": [
+   "Text_AMonLevelExceeds",
+   "Text_CantBeRegistered_PreviousRecordDeleted",
+   "Text_CantBeRegistered",
+   "Text_WantToGoIntoABattleRoom",
+   "Text_SaveBeforeReentry",
+   "Text_RightThisWayToYourBattleRoom"
+  ],
+  "Script_YourPackIsStuffedFull": [
+   "Text_YourPackIsStuffedFull"
+  ]
+ },
+ "BattleTowerBattleRoom": {
+  "Script_BattleRoomLoop": [
+   "Text_ThanksForVisiting",
+   "Text_YourMonWillBeHealedToFullHealth",
+   "Text_NextUpOpponentNo",
+   "Text_SaveAndEndTheSession"
+  ],
+  "Script_BeatenAllTrainers2": [
+   "Text_CongratulationsYouveBeatenAllTheTrainers",
+   "Text_PlayerGotFive"
+  ],
+  "Script_ChallengeCanceled": [
+   "Text_ThanksForVisiting",
+   "Text_WeHopeToServeYouAgain"
+  ],
+  "Script_ContinueAndBattleNextOpponent": [
+   "Text_YourMonWillBeHealedToFullHealth",
+   "Text_NextUpOpponentNo"
+  ],
+  "Script_DontBattleNextOpponent": [
+   "Text_SaveAndEndTheSession",
+   "Text_CancelYourBattleRoomChallenge"
+  ],
+  "Script_DontSaveAndEndTheSession": [
+   "Text_CancelYourBattleRoomChallenge",
+   "Text_WeHopeToServeYouAgain"
+  ],
+  "Script_FailedBattleTowerChallenge": [
+   "Text_ThanksForVisiting"
+  ],
+  "Script_TooMuchTimeElapsedNoRegister": [
+   "Text_TooMuchTimeElapsedNoRegister"
+  ]
+ },
+ "BattleTowerElevator": {},
+ "BattleTowerHallway": {
+  "BattleTowerHallwayChooseBattleRoomScript": [
+   "Text_PleaseStepThisWay"
+  ]
+ },
+ "BattleTowerOutside": {
+  "BattleTowerOutsideBeautyScript": [
+   "BattleTowerOutsideBeautyText"
+  ],
+  "BattleTowerOutsideSailorScript": [
+   "BattleTowerOutsideSailorText"
+  ],
+  "BattleTowerOutsideSign": [
+   "BattleTowerOutsideSignText"
+  ],
+  "BattleTowerOutsideYoungsterScript": [
+   "BattleTowerOutsideYoungsterText"
+  ]
+ },
+ "BillsFamilysHouse": {
+  "BillScript": [
+   "BillTakeThisEeveeText",
+   "BillImCountingOnYouText",
+   "ReceivedEeveeText",
+   "BillEeveeMayEvolveText",
+   "BillPartyFullText",
+   "BillNoEeveeText",
+   "BillPopWontWorkText"
+  ],
+  "BillsMomScript": [
+   "BillsMomText_BeforeEcruteak",
+   "BillsMomText_AfterEcruteak"
+  ],
+  "BillsYoungerSisterScript": [
+   "BillsYoungerSisterUsefulNumberText",
+   "RecordedBillsNumberText",
+   "BillsYoungerSisterStorageSystemText",
+   "BillsYoungerSisterRefusedNumberText",
+   "BillsYoungerSisterPhoneFullText"
+  ]
+ },
+ "BillsHouse": {
+  "BillsGrandpa": [
+   "BillsGrandpaIntroText",
+   "BillsGrandpaLickitungText",
+   "BillsGrandpaAskToSeeMonText",
+   "BillsGrandpaOddishText",
+   "BillsGrandpaStaryuText",
+   "BillsGrandpaGrowlitheText",
+   "BillsGrandpaVulpixText",
+   "BillsGrandpaPichuText",
+   "BillsGrandpaExcitedToSeeText",
+   "BillsGrandpaYouDontHaveItTextText",
+   "BillsGrandpaShownPokemonText",
+   "BillsGrandpaTokenOfAppreciationText",
+   "BillsGrandpaComeAgainText",
+   "BillsGrandpaShownAllThePokemonText",
+   "BillsGrandpaWrongPokemonText"
+  ]
+ },
+ "BillsOlderSistersHouse": {
+  "BillsOlderSisterScript": [
+   "BillsOlderSisterText"
+  ],
+  "BillsOlderSistersHouseYoungsterScript": [
+   "BillsOlderSistersHouseYoungsterText"
+  ]
+ },
+ "BlackthornCity": {
+  "BlackthornBlackBeltScript": [
+   "BlackBeltText_WeirdRadio",
+   "BlackBeltText_VoicesInMyHead"
+  ],
+  "BlackthornCitySign": [
+   "BlackthornCitySignText"
+  ],
+  "BlackthornCityTrainerTips": [
+   "BlackthornCityTrainerTipsText"
+  ],
+  "BlackthornCooltrainerF1Script": [
+   "BlackthornCooltrainerF1Text"
+  ],
+  "BlackthornCooltrainerF2Script": [
+   "BlackthornCooltrainerF2Text"
+  ],
+  "BlackthornGramps1Script": [
+   "BlackthornGrampsRefusesEntryText"
+  ],
+  "BlackthornGramps2Script": [
+   "BlackthornGrampsGrantsEntryText"
+  ],
+  "BlackthornGymSign": [
+   "BlackthornGymSignText"
+  ],
+  "BlackthornSuperNerdScript": [
+   "Text_ClairIsOut",
+   "Text_ClairIsIn",
+   "Text_ClairIsBeaten"
+  ],
+  "BlackthornYoungsterScript": [
+   "BlackthornYoungsterText"
+  ],
+  "DragonDensSign": [
+   "DragonDensSignText"
+  ],
+  "MoveDeletersHouseSign": [
+   "MoveDeletersHouseSignText"
+  ],
+  "SantosScript": [
+   "MeetSantosText",
+   "SantosGivesGiftText",
+   "SantosGaveGiftText",
+   "SantosSaturdayText",
+   "SantosNotSaturdayText"
+  ]
+ },
+ "BlackthornDragonSpeechHouse": {
+  "BlackthornDragonSpeechHouseDratiniScript": [
+   "BlackthornDragonSpeechHouseDratiniText"
+  ],
+  "BlackthornDragonSpeechHouseGrannyScript": [
+   "BlackthornDragonSpeechHouseGrannyText"
+  ]
+ },
+ "BlackthornEmysHouse": {},
+ "BlackthornGym1F": {
+  "BlackthornGymClairScript": [
+   "ClairIntroText",
+   "ClairText_GoToDragonsDen",
+   "ClairText_TooMuchToExpect",
+   "BlackthornGymClairText_YouKeptMeWaiting",
+   "BlackthornGymText_ReceivedTM24",
+   "BlackthornGymClairText_DescribeTM24",
+   "BlackthornGymClairText_BagFull",
+   "BlackthornGymClairText_League"
+  ],
+  "BlackthornGymGuideScript": [
+   "BlackthornGymGuideText",
+   "BlackthornGymGuideWinText"
+  ],
+  "TrainerCooltrainerfLola": [
+   "CooltrainerfLolaSeenText",
+   "CooltrainerfLolaBeatenText",
+   "CooltrainerfLolaAfterBattleText"
+  ],
+  "TrainerCooltrainermMike": [
+   "CooltrainermMikeSeenText",
+   "CooltrainermMikeBeatenText",
+   "CooltrainermMikeAfterBattleText"
+  ],
+  "TrainerCooltrainermPaul": [
+   "CooltrainermPaulSeenText",
+   "CooltrainermPaulBeatenText",
+   "CooltrainermPaulAfterBattleText"
+  ]
+ },
+ "BlackthornGym2F": {
+  "BlackthornGym2FSetUpStoneTableCallback": [
+   "BlackthornGym2FBoulderFellText"
+  ],
+  "TrainerCooltrainerfFran": [
+   "CooltrainerfFranSeenText",
+   "CooltrainerfFranBeatenText",
+   "CooltrainerfFranAfterBattleText"
+  ],
+  "TrainerCooltrainermCody": [
+   "CooltrainermCodySeenText",
+   "CooltrainermCodyBeatenText",
+   "CooltrainermCodyAfterBattleText"
+  ]
+ },
+ "BlackthornMart": {
+  "BlackthornMartBlackBeltScript": [
+   "BlackthornMartBlackBeltText"
+  ],
+  "BlackthornMartCooltrainerMScript": [
+   "BlackthornMartCooltrainerMText"
+  ]
+ },
+ "BlackthornPokecenter1F": {
+  "BlackthornPokecenter1FGentlemanScript": [
+   "BlackthornPokecenter1FGentlemanText"
+  ],
+  "BlackthornPokecenter1FTwinScript": [
+   "BlackthornPokecenter1FTwinText"
+  ]
+ },
+ "BluesHouse": {
+  "DaisyScript": [
+   "DaisyHelloText",
+   "DaisyOfferGroomingText",
+   "DaisyWhichMonText",
+   "DaisyAlrightText",
+   "DaisyAllDoneText",
+   "DaisyAlreadyGroomedText",
+   "DaisyRefusedText",
+   "DaisyCantGroomEggText"
+  ]
+ },
+ "BrunosRoom": {
+  "BrunoScript_AfterBattle": [
+   "BrunoScript_BrunoDefeatText"
+  ],
+  "BrunoScript_Battle": [
+   "BrunoScript_BrunoDefeatText",
+   "BrunoScript_BrunoBeforeText"
+  ]
+ },
+ "BurnedTower1F": {
+  "BurnedTower1FEusineScript": [
+   "BurnedTower1FEusineText"
+  ],
+  "BurnedTower1FMeetEusineScript": [
+   "BurnedTower1FEusineIntroText"
+  ],
+  "BurnedTower1FMortyScript": [
+   "BurnedTower1FMortyText"
+  ],
+  "BurnedTowerRivalBattleScript": [
+   "BurnedTowerRival_BeforeText",
+   "BurnedTowerRival_WinText",
+   "BurnedTowerRival_LossText",
+   "BurnedTowerRival_AfterText1",
+   "BurnedTowerRival_AfterText2"
+  ]
+ },
+ "BurnedTowerB1F": {
+  "BurnedTowerB1FEusine": [
+   "BurnedTowerB1FEusineText"
+  ]
+ },
+ "CeladonCafe": {
+  "CeladonCafeChef": [
+   "ChefText_Eatathon"
+  ],
+  "CeladonCafeFisher1": [
+   "Fisher1Text_Snarfle",
+   "Fisher1Text_Concentration"
+  ],
+  "CeladonCafeFisher2": [
+   "Fisher2Text_GulpChew",
+   "Fisher2Text_Quantity"
+  ],
+  "CeladonCafeFisher3": [
+   "Fisher3Text_MunchMunch",
+   "Fisher3Text_GoldenrodIsBest"
+  ],
+  "CeladonCafeTeacher": [
+   "TeacherText_CrunchCrunch",
+   "TeacherText_NoCoinCase",
+   "TeacherText_KeepEating",
+   "TeacherText_MoreChef"
+  ],
+  "CeladonCafeTrashcan": [
+   "FoundLeftoversText",
+   "NoRoomForLeftoversText"
+  ],
+  "EatathonContestPoster": [
+   "EatathonContestPosterText"
+  ]
+ },
+ "CeladonCity": {
+  "CeladonCityDeptStoreSign": [
+   "CeladonCityDeptStoreSignText"
+  ],
+  "CeladonCityFisherScript": [
+   "CeladonCityFisherText"
+  ],
+  "CeladonCityGramps1Script": [
+   "CeladonCityGramps1Text"
+  ],
+  "CeladonCityGramps2Script": [
+   "CeladonCityGramps2Text"
+  ],
+  "CeladonCityLassScript": [
+   "CeladonCityLassText"
+  ],
+  "CeladonCityMansionSign": [
+   "CeladonCityMansionSignText"
+  ],
+  "CeladonCityPoliwrath": [
+   "CeladonCityPoliwrathText"
+  ],
+  "CeladonCitySign": [
+   "CeladonCitySignText"
+  ],
+  "CeladonCityTeacher2Script": [
+   "CeladonCityTeacher2Text"
+  ],
+  "CeladonCityTrainerTips": [
+   "CeladonCityTrainerTipsText"
+  ],
+  "CeladonCityYoungster1Script": [
+   "CeladonCityYoungster1Text"
+  ],
+  "CeladonCityYoungster2Script": [
+   "CeladonCityYoungster2Text"
+  ],
+  "CeladonGymSign": [
+   "CeladonGymSignText"
+  ]
+ },
+ "CeladonDeptStore1F": {
+  "CeladonDeptStore1FDirectory": [
+   "CeladonDeptStore1FDirectoryText"
+  ],
+  "CeladonDeptStore1FGentlemanScript": [
+   "CeladonDeptStore1FGentlemanText"
+  ],
+  "CeladonDeptStore1FReceptionistScript": [
+   "CeladonDeptStore1FReceptionistText"
+  ],
+  "CeladonDeptStore1FTeacherScript": [
+   "CeladonDeptStore1FTeacherText"
+  ]
+ },
+ "CeladonDeptStore2F": {
+  "CeladonDeptStore2FDirectory": [
+   "CeladonDeptStore2FDirectoryText"
+  ],
+  "CeladonDeptStore2FPokefanMScript": [
+   "CeladonDeptStore2FPokefanMText"
+  ],
+  "CeladonDeptStore2FYoungsterScript": [
+   "CeladonDeptStore2FYoungsterText"
+  ]
+ },
+ "CeladonDeptStore3F": {
+  "CeladonDeptStore3FDirectory": [
+   "CeladonDeptStore3FDirectoryText"
+  ],
+  "CeladonDeptStore3FGameboyKid1Script": [
+   "CeladonDeptStore3FGameboyKid1Text"
+  ],
+  "CeladonDeptStore3FGameboyKid2Script": [
+   "CeladonDeptStore3FGameboyKid2Text"
+  ],
+  "CeladonDeptStore3FSuperNerdScript": [
+   "CeladonDeptStore3FSuperNerdText"
+  ],
+  "CeladonDeptStore3FYoungsterScript": [
+   "CeladonDeptStore3FYoungsterText"
+  ]
+ },
+ "CeladonDeptStore4F": {
+  "CeladonDeptStore4FDirectory": [
+   "CeladonDeptStore4FDirectoryText"
+  ],
+  "CeladonDeptStore4FSuperNerdScript": [
+   "CeladonDeptStore4FSuperNerdText"
+  ],
+  "CeladonDeptStore4FYoungsterScript": [
+   "CeladonDeptStore4FYoungsterText"
+  ]
+ },
+ "CeladonDeptStore5F": {
+  "CeladonDeptStore5FDirectory": [
+   "CeladonDeptStore5FDirectoryText"
+  ],
+  "CeladonDeptStore5FGentlemanScript": [
+   "CeladonDeptStore5FGentlemanText"
+  ],
+  "CeladonDeptStore5FSailorScript": [
+   "CeladonDeptStore5FSailorText"
+  ],
+  "CeladonDeptStore5FTeacherScript": [
+   "CeladonDeptStore5FTeacherText"
+  ]
+ },
+ "CeladonDeptStore6F": {
+  "CeladonDeptStore6FDirectory": [
+   "CeladonDeptStore6FDirectoryText"
+  ],
+  "CeladonDeptStore6FSuperNerdScript": [
+   "CeladonDeptStore6FSuperNerdText"
+  ],
+  "CeladonDeptStore6FVendingMachine": [
+   "CeladonVendingText",
+   "CeladonClangText",
+   "CeladonVendingNoMoneyText",
+   "CeladonVendingNoSpaceText"
+  ],
+  "CeladonDeptStore6FYoungsterScript": [
+   "CeladonDeptStore6FYoungsterText"
+  ]
+ },
+ "CeladonDeptStoreElevator": {},
+ "CeladonGameCorner": {
+  "CeladonGameCornerFisherScript": [
+   "CeladonGameCornerFisherText2",
+   "CeladonGameCornerFisherNoCoinCaseText"
+  ],
+  "CeladonGameCornerLighterScript": [
+   "CeladonGameCornerLighterText"
+  ],
+  "CeladonGameCornerPokefanMScript": [
+   "CeladonGameCornerPokefanMText"
+  ],
+  "CeladonGameCornerPoster1Script": [
+   "CeladonGameCornerPoster1Text"
+  ],
+  "CeladonGameCornerPoster2Script": [
+   "CeladonGameCornerPoster2Text"
+  ],
+  "CeladonGameCornerReceptionistScript": [
+   "CeladonGameCornerReceptionistText"
+  ],
+  "CeladonGameCornerSodaCanScript": [
+   "CeladonGameCornerSodaCanText"
+  ],
+  "CeladonGymGuideScript": [
+   "CeladonGymGuideText"
+  ]
+ },
+ "CeladonGameCornerPrizeRoom": {
+  "CeladonGameCornerPrizeRoomGentlemanScript": [
+   "CeladonGameCornerPrizeRoomGentlemanText"
+  ],
+  "CeladonGameCornerPrizeRoomPokemonVendor": [
+   "CeladonPrizeRoom_PrizeVendorIntroText",
+   "CeladonPrizeRoom_NoCoinCaseText",
+   "CeladonPrizeRoom_AskWhichPrizeText",
+   "CeladonPrizeRoom_ComeAgainText",
+   "CeladonPrizeRoom_NotEnoughCoinsText",
+   "CeladonPrizeRoom_NotEnoughRoomText",
+   "CeladonPrizeRoom_HereYouGoText"
+  ],
+  "CeladonGameCornerPrizeRoomTMVendor": [
+   "CeladonPrizeRoom_PrizeVendorIntroText",
+   "CeladonPrizeRoom_NoCoinCaseText",
+   "CeladonPrizeRoom_AskWhichPrizeText"
+  ],
+  "CeladonPrizeRoom_CancelPurchaseScript": [
+   "CeladonPrizeRoom_ComeAgainText"
+  ],
+  "CeladonPrizeRoom_NoCoinCase": [
+   "CeladonPrizeRoom_NoCoinCaseText"
+  ],
+  "CeladonPrizeRoom_askbuy": [
+   "CeladonPrizeRoom_ConfirmPurchaseText"
+  ],
+  "CeladonPrizeRoom_notenoughcoins": [
+   "CeladonPrizeRoom_NotEnoughCoinsText"
+  ],
+  "CeladonPrizeRoom_notenoughroom": [
+   "CeladonPrizeRoom_NotEnoughRoomText"
+  ],
+  "CeladonPrizeRoom_purchased": [
+   "CeladonPrizeRoom_HereYouGoText"
+  ],
+  "CeladonPrizeRoom_tmcounterloop": [
+   "CeladonPrizeRoom_ComeAgainText",
+   "CeladonPrizeRoom_NotEnoughCoinsText",
+   "CeladonPrizeRoom_NotEnoughRoomText",
+   "CeladonPrizeRoom_HereYouGoText"
+  ]
+ },
+ "CeladonGym": {
+  "CeladonGymErikaScript": [
+   "ErikaBeforeBattleText",
+   "PlayerReceivedRainbowBadgeText",
+   "ErikaExplainTMText",
+   "ErikaAfterBattleText"
+  ],
+  "TrainerBeautyJulia": [
+   "BeautyJuliaSeenText",
+   "BeautyJuliaBeatenText",
+   "BeautyJuliaAfterBattleText"
+  ],
+  "TrainerLassMichelle": [
+   "LassMichelleSeenText",
+   "LassMichelleBeatenText",
+   "LassMichelleAfterBattleText"
+  ],
+  "TrainerPicnickerTanya": [
+   "PicnickerTanyaSeenText",
+   "PicnickerTanyaBeatenText",
+   "PicnickerTanyaAfterBattleText"
+  ],
+  "TrainerTwinsJoAndZoe1": [
+   "TwinsJoAndZoe1SeenText",
+   "TwinsJoAndZoe1BeatenText",
+   "TwinsJoAndZoe1AfterBattleText"
+  ],
+  "TrainerTwinsJoAndZoe2": [
+   "TwinsJoAndZoe2SeenText",
+   "TwinsJoAndZoe2BeatenText",
+   "TwinsJoAndZoe2AfterBattleText"
+  ]
+ },
+ "CeladonMansion1F": {
+  "CeladonMansion1FClefairy": [
+   "CeladonMansion1FClefairyText"
+  ],
+  "CeladonMansion1FMeowth": [
+   "CeladonMansion1FMeowthText"
+  ],
+  "CeladonMansion1FNidoranF": [
+   "CeladonMansion1FNidoranFText"
+  ],
+  "CeladonMansionManager": [
+   "CeladonMansionManagerText"
+  ],
+  "CeladonMansionManagersSuiteSign": [
+   "CeladonMansionManagersSuiteSignText"
+  ]
+ },
+ "CeladonMansion2F": {
+  "CeladonMansion2FComputer": [
+   "CeladonMansion2FComputerText"
+  ],
+  "CeladonMansion2FMeetingRoomSign": [
+   "CeladonMansion2FMeetingRoomSignText"
+  ]
+ },
+ "CeladonMansion3F": {
+  "CeladonMansion3FDevRoomSign": [
+   "CeladonMansion3FDevRoomSignText"
+  ],
+  "CeladonMansion3FDrawing": [
+   "CeladonMansion3FDrawingText"
+  ],
+  "CeladonMansion3FGameProgram": [
+   "CeladonMansion3FGameProgramText"
+  ],
+  "CeladonMansion3FReferenceMaterial": [
+   "CeladonMansion3FReferenceMaterialText"
+  ],
+  "GameFreakCharacterDesignerScript": [
+   "GameFreakCharacterDesignerText"
+  ],
+  "GameFreakGameDesignerScript": [
+   "GameFreakGameDesignerText",
+   "GameFreakGameDesignerCompletedPokedexText",
+   "GameFreakGameDesignerPauseForDiplomaText",
+   "GameFreakGameDesignerAfterDiplomaText"
+  ],
+  "GameFreakGraphicArtistScript": [
+   "GameFreakGraphicArtistText",
+   "GameFreakGraphicArtistPrintDiplomaText",
+   "GameFreakGraphicArtistRefusedText",
+   "GameFreakGraphicArtistErrorText"
+  ],
+  "GameFreakProgrammerScript": [
+   "GameFreakProgrammerText"
+  ]
+ },
+ "CeladonMansionRoof": {
+  "CeladonMansionRoofFisherScript": [
+   "CeladonMansionRoofFisherText"
+  ],
+  "CeladonMansionRoofGraffiti": [
+   "CeladonMansionRoofGraffitiText"
+  ]
+ },
+ "CeladonMansionRoofHouse": {
+  "CeladonMansionRoofHousePharmacistScript": [
+   "CeladonMansionRoofHousePharmacistIntroText",
+   "CeladonMansionRoofHousePharmacistNotNightText",
+   "CeladonMansionRoofHousePharmacistStoryText",
+   "CeladonMansionRoofHousePharmacistCurseText"
+  ]
+ },
+ "CeladonPokecenter1F": {
+  "CeladonEusine": [
+   "CeladonEusineText1",
+   "NoBeastsText",
+   "EusineLeavesCeladonText"
+  ],
+  "CeladonPokecenter1FCooltrainerFScript": [
+   "CeladonPokecenter1FCooltrainerFText"
+  ],
+  "CeladonPokecenter1FPharmacistScript": [
+   "CeladonPokecenter1FPharmacistText"
+  ]
+ },
+ "CeladonPokecenter2FBeta": {},
+ "CeruleanCity": {
+  "CeruleanBikeShopSign": [
+   "CeruleanBikeShopSignText"
+  ],
+  "CeruleanCapeSign": [
+   "CeruleanCapeSignText"
+  ],
+  "CeruleanCityCooltrainerFScript": [
+   "CeruleanCityCooltrainerFText1",
+   "CeruleanCityCooltrainerFText2",
+   "CeruleanCitySlowbroText",
+   "CeruleanCityCooltrainerFText3"
+  ],
+  "CeruleanCityCooltrainerMScript": [
+   "CeruleanCityCooltrainerMText1",
+   "CeruleanCityCooltrainerMText2"
+  ],
+  "CeruleanCityFisherScript": [
+   "CeruleanCityFisherText",
+   "CeruleanCityFisherRocketTipText"
+  ],
+  "CeruleanCitySign": [
+   "CeruleanCitySignText"
+  ],
+  "CeruleanCitySlowbro": [
+   "CeruleanCitySlowbroText"
+  ],
+  "CeruleanCitySuperNerdScript": [
+   "CeruleanCitySuperNerdText"
+  ],
+  "CeruleanCityYoungsterScript": [
+   "CeruleanCityYoungsterText1",
+   "CeruleanCityYoungsterText2"
+  ],
+  "CeruleanGymSign": [
+   "CeruleanGymSignText"
+  ],
+  "CeruleanLockedDoor": [
+   "CeruleanLockedDoorText"
+  ],
+  "CeruleanPoliceSign": [
+   "CeruleanPoliceSignText"
+  ]
+ },
+ "CeruleanGym": {
+  "CeruleanGymGruntRunsOutScript": [
+   "CeruleanGymGruntIntroText",
+   "CeruleanGymGruntBigMistakeText",
+   "CeruleanGymGruntByeText"
+  ],
+  "CeruleanGymGuideScript": [
+   "CeruleanGymGuideText",
+   "CeruleanGymGuideWinText"
+  ],
+  "CeruleanGymMistyScript": [
+   "MistyIntroText",
+   "ReceivedCascadeBadgeText",
+   "MistyFightDoneText"
+  ],
+  "CeruleanGymStatue1": [
+   "CeruleanGymNote1Text"
+  ],
+  "CeruleanGymStatue2": [
+   "CeruleanGymNote2Text"
+  ],
+  "TrainerSwimmerfBriana": [
+   "SwimmerfBrianaSeenText",
+   "SwimmerfBrianaBeatenText",
+   "SwimmerfBrianaAfterBattleText"
+  ],
+  "TrainerSwimmerfDiana": [
+   "SwimmerfDianaSeenText",
+   "SwimmerfDianaBeatenText",
+   "SwimmerfDianaAfterBattleText"
+  ],
+  "TrainerSwimmermParker": [
+   "SwimmermParkerSeenText",
+   "SwimmermParkerBeatenText",
+   "SwimmermParkerAfterBattleText"
+  ]
+ },
+ "CeruleanGymBadgeSpeechHouse": {
+  "CeruleanGymBadgeSpeechHousePokefanMScript": [
+   "CeruleanGymBadgeSpeechHousePokefanMText"
+  ]
+ },
+ "CeruleanMart": {
+  "CeruleanMart_CooltrainerF": [
+   "CeruleanMart_CooltrainerFText"
+  ],
+  "CeruleanMart_CooltrainerM": [
+   "CeruleanMart_CooltrainerMText"
+  ]
+ },
+ "CeruleanPokecenter1F": {
+  "CeruleanPokecenter1FGymGuideScript": [
+   "CeruleanPokecenter1FGymGuideText"
+  ],
+  "CeruleanPokecenter1FSuperNerdScript": [
+   "CeruleanPokecenter1FSuperNerdText",
+   "CeruleanPokecenter1FSuperNerdText_Mobile"
+  ]
+ },
+ "CeruleanPokecenter2FBeta": {},
+ "CeruleanPoliceStation": {
+  "CeruleanDiglett": [
+   "CeruleanDiglettText"
+  ],
+  "CeruleanPoliceStationFishingGuruScript": [
+   "CeruleanPoliceStationFishingGuruText"
+  ],
+  "CeruleanPoliceStationPokefanFScript": [
+   "CeruleanPoliceStationPokefanFText"
+  ]
+ },
+ "CeruleanTradeSpeechHouse": {
+  "CeruleanTradeSpeechHouseGrampsScript": [
+   "CeruleanTradeSpeechHouseGrampsText"
+  ],
+  "CeruleanTradeSpeechHouseGrannyScript": [
+   "CeruleanTradeSpeechHouseGrannyText"
+  ],
+  "CeruleanTradeSpeechHouseRhydonScript": [
+   "CeruleanTradeSpeechHouseRhydonText"
+  ],
+  "CeruleanTradeSpeechHouseZubatScript": [
+   "CeruleanTradeSpeechHouseZubatText"
+  ]
+ },
+ "CharcoalKiln": {
+  "CharcoalKilnApprentice": [
+   "CharcoalKilnApprenticeText1",
+   "CharcoalKilnApprenticeText2",
+   "CharcoalKilnApprenticeText3"
+  ],
+  "CharcoalKilnBoss": [
+   "CharcoalKilnBossText1",
+   "CharcoalKilnBossText2",
+   "CharcoalKilnBossText3"
+  ],
+  "CharcoalKilnFarfetchd": [
+   "FarfetchdText"
+  ]
+ },
+ "CherrygroveCity": {
+  "CherrygroveCityGuideGent": [
+   "GuideGentIntroText",
+   "GuideGentTourText1",
+   "GuideGentPokecenterText",
+   "GuideGentMartText",
+   "GuideGentRoute30Text",
+   "GuideGentSeaText",
+   "GuideGentGiftText",
+   "GotMapCardText",
+   "GuideGentPokegearText",
+   "GuideGentNoText"
+  ],
+  "CherrygroveCitySign": [
+   "CherrygroveCitySignText"
+  ],
+  "CherrygroveRivalSceneNorth": [
+   "CherrygroveRivalText_Seen",
+   "RivalCherrygroveWinText",
+   "RivalCherrygroveLossText",
+   "CherrygroveRivalText_YouWon",
+   "CherrygroveRivalText_YouLost"
+  ],
+  "CherrygroveTeacherScript": [
+   "CherrygroveTeacherText_NoMapCard",
+   "CherrygroveTeacherText_HaveMapCard"
+  ],
+  "CherrygroveYoungsterScript": [
+   "CherrygroveYoungsterText_NoPokedex",
+   "CherrygroveYoungsterText_HavePokedex"
+  ],
+  "GuideGentsHouseSign": [
+   "GuideGentsHouseSignText"
+  ],
+  "MysticWaterGuy": [
+   "MysticWaterGuyTextBefore",
+   "MysticWaterGuyTextAfter"
+  ]
+ },
+ "CherrygroveEvolutionSpeechHouse": {
+  "CherrygroveEvolutionSpeechHouseLassScript": [
+   "CherrygroveEvolutionSpeechHouseLassText"
+  ],
+  "CherrygroveEvolutionSpeechHouseYoungsterScript": [
+   "CherrygroveEvolutionSpeechHouseYoungsterText"
+  ]
+ },
+ "CherrygroveGymSpeechHouse": {
+  "CherrygroveGymSpeechHouseBugCatcherScript": [
+   "CherrygroveGymSpeechHouseBugCatcherText"
+  ],
+  "CherrygroveGymSpeechHousePokefanMScript": [
+   "CherrygroveGymSpeechHousePokefanMText"
+  ]
+ },
+ "CherrygroveMart": {
+  "CherrygroveMartCooltrainerMScript": [
+   "CherrygroveMartCooltrainerMText",
+   "CherrygroveMartCooltrainerMText_PokeBallsInStock"
+  ],
+  "CherrygroveMartYoungsterScript": [
+   "CherrygroveMartYoungsterText"
+  ]
+ },
+ "CherrygrovePokecenter1F": {
+  "CherrygrovePokecenter1FFisherScript": [
+   "CherrygrovePokecenter1FFisherText"
+  ],
+  "CherrygrovePokecenter1FGentlemanScript": [
+   "CherrygrovePokecenter1FGentlemanText"
+  ],
+  "CherrygrovePokecenter1FTeacherScript": [
+   "CherrygrovePokecenter1FTeacherText",
+   "CherrygrovePokecenter1FTeacherText_CommCenterOpen"
+  ]
+ },
+ "CianwoodCity": {
+  "CianwoodCityChucksWife": [
+   "ChucksWifeEasierToFlyText",
+   "ChucksWifeBeatChuckText",
+   "ChucksWifeGiveHMText",
+   "ChucksWifeFlySpeechText",
+   "ChucksWifeChubbyText"
+  ],
+  "CianwoodCityLass": [
+   "CianwoodCityLassText"
+  ],
+  "CianwoodCityPokefanM": [
+   "CianwoodCityPokefanMText"
+  ],
+  "CianwoodCitySign": [
+   "CianwoodCitySignText"
+  ],
+  "CianwoodCitySuicuneAndEusine": [
+   "EusineSuicuneText",
+   "EusineAfterText"
+  ],
+  "CianwoodCityUnusedScript": [
+   "CianwoodCityUnusedText"
+  ],
+  "CianwoodCityYoungster": [
+   "CianwoodCityYoungsterText"
+  ],
+  "CianwoodGymSign": [
+   "CianwoodGymSignText"
+  ],
+  "CianwoodPharmacySign": [
+   "CianwoodPharmacySignText"
+  ],
+  "CianwoodPhotoStudioSign": [
+   "CianwoodPhotoStudioSignText"
+  ],
+  "CianwoodPokeSeerSign": [
+   "CianwoodPokeSeerSignText"
+  ]
+ },
+ "CianwoodGym": {
+  "CianwoodGymChuckScript": [
+   "ChuckIntroText1",
+   "ChuckIntroText2",
+   "ChuckIntroText3",
+   "GetStormBadgeText",
+   "ChuckExplainBadgeText",
+   "ChuckExplainTMText",
+   "ChuckAfterText"
+  ],
+  "TrainerBlackbeltLao": [
+   "BlackbeltLaoSeenText",
+   "BlackbeltLaoBeatenText",
+   "BlackbeltLaoAfterText"
+  ],
+  "TrainerBlackbeltLung": [
+   "BlackbeltLungSeenText",
+   "BlackbeltLungBeatenText",
+   "BlackbeltLungAfterText"
+  ],
+  "TrainerBlackbeltNob": [
+   "BlackbeltNobSeenText",
+   "BlackbeltNobBeatenText",
+   "BlackbeltNobAfterText"
+  ],
+  "TrainerBlackbeltYoshi": [
+   "BlackbeltYoshiSeenText",
+   "BlackbeltYoshiBeatenText",
+   "BlackbeltYoshiAfterText"
+  ]
+ },
+ "CianwoodLugiaSpeechHouse": {
+  "CianwoodLugiaSpeechHouseLassScript": [
+   "CianwoodLugiaSpeechHouseLassText"
+  ],
+  "CianwoodLugiaSpeechHouseTeacherScript": [
+   "CianwoodLugiaSpeechHouseTeacherText"
+  ],
+  "CianwoodLugiaSpeechHouseTwinScript": [
+   "CianwoodLugiaSpeechHouseTwinText"
+  ]
+ },
+ "CianwoodPharmacy": {
+  "CianwoodPharmacist": [
+   "PharmacistGiveSecretpotionText",
+   "ReceivedSecretpotionText",
+   "PharmacistDescribeSecretpotionText"
+  ]
+ },
+ "CianwoodPhotoStudio": {
+  "CianwoodPhotoStudioFishingGuruScript": [
+   "CianwoodPhotoStudioFishingGuruText_Question",
+   "CianwoodPhotoStudioFishingGuruText_Yes",
+   "CianwoodPhotoStudioFishingGuruText_No"
+  ]
+ },
+ "CianwoodPokecenter1F": {
+  "CianwoodGymGuideScript": [
+   "CianwoodGymGuideText",
+   "CianwoodGymGuideWinText"
+  ],
+  "CianwoodPokecenter1FLassScript": [
+   "CianwoodPokecenter1FLassText"
+  ],
+  "CianwoodPokecenter1FSuperNerdScript": [
+   "CianwoodPokecenter1FSuperNerdText"
+  ]
+ },
+ "CinnabarIsland": {
+  "CinnabarIslandBlue": [
+   "CinnabarIslandBlueText"
+  ],
+  "CinnabarIslandGymSign": [
+   "CinnabarIslandGymSignText"
+  ],
+  "CinnabarIslandSign": [
+   "CinnabarIslandSignText"
+  ]
+ },
+ "CinnabarPokecenter1F": {
+  "CinnabarPokecenter1FCooltrainerFScript": [
+   "CinnabarPokecenter1FCooltrainerFText"
+  ],
+  "CinnabarPokecenter1FFisherScript": [
+   "CinnabarPokecenter1FFisherText"
+  ]
+ },
+ "CinnabarPokecenter2FBeta": {},
+ "Colosseum": {},
+ "CopycatsHouse1F": {
+  "CopycatsHouse1FBlisseyScript": [
+   "CopycatsHouse1FBlisseyText"
+  ],
+  "CopycatsHouse1FPokefanFScript": [
+   "CopycatsHouse1FPokefanFText",
+   "CopycatsHouse1FPokefanFText_ReturnedMachinePart"
+  ],
+  "CopycatsHouse1FPokefanMScript": [
+   "CopycatsHouse1FPokefanMText"
+  ]
+ },
+ "CopycatsHouse2F": {
+  "Copycat": [
+   "CopycatText_Male_1",
+   "CopycatText_Female_1",
+   "CopycatText_QuickMimicking",
+   "CopycatText_Male_2",
+   "CopycatText_Female_2",
+   "CopycatText_Worried",
+   "CopycatText_GiveDoll",
+   "CopycatText_GivePass",
+   "CopycatText_ExplainPass",
+   "CopycatText_Male_3",
+   "CopycatText_Female_3",
+   "CopycatText_ItsAScream"
+  ],
+  "CopycatsDodrio": [
+   "CopycatsDodrioText1",
+   "CopycatsDodrioText2"
+  ],
+  "CopycatsHouse2FDoll": [
+   "CopycatsHouse2FDollText"
+  ]
+ },
+ "DanceTheater": {
+  "DanceTheaterCooltrainerMScript": [
+   "DanceTheaterCooltrainerMText"
+  ],
+  "DanceTheaterFancyPanel": [
+   "DanceTheaterFancyPanelText"
+  ],
+  "DanceTheaterGrannyScript": [
+   "DanceTheaterGrannyText"
+  ],
+  "DanceTheaterRhydon": [
+   "RhydonText"
+  ],
+  "DanceTheaterSurfGuy": [
+   "SurfGuyNeverLeftAScratchText",
+   "SurfGuyElegantKimonoGirlsText",
+   "SurfGuyLadGiftText",
+   "SurfGuyLassieGiftText",
+   "SurfGuyLikeADanceText",
+   "SurfGuySurfExplanationText"
+  ],
+  "SurfGuyAlreadyGaveSurf": [
+   "SurfGuyElegantKimonoGirlsText"
+  ],
+  "TrainerKimonoGirlKuni": [
+   "KimonoGirlKuniSeenText",
+   "KimonoGirlKuniBeatenText",
+   "KimonoGirlKuniAfterBattleText"
+  ],
+  "TrainerKimonoGirlMiki": [
+   "KimonoGirlMikiSeenText",
+   "KimonoGirlMikiBeatenText",
+   "KimonoGirlMikiAfterBattleText"
+  ],
+  "TrainerKimonoGirlNaoko": [
+   "KimonoGirlNaokoSeenText",
+   "KimonoGirlNaokoBeatenText",
+   "KimonoGirlNaokoAfterBattleText"
+  ],
+  "TrainerKimonoGirlSayo": [
+   "KimonoGirlSayoSeenText",
+   "KimonoGirlSayoBeatenText",
+   "KimonoGirlSayoAfterBattleText"
+  ],
+  "TrainerKimonoGirlZuki": [
+   "KimonoGirlZukiSeenText",
+   "KimonoGirlZukiBeatenText",
+   "KimonoGirlZukiAfterBattleText"
+  ]
+ },
+ "DarkCaveBlackthornEntrance": {
+  "DarkCaveBlackthornEntrancePharmacistScript": [
+   "DarkCaveBlackthornEntrancePharmacistText1",
+   "DarkCaveBlackthornEntrancePharmacistText2"
+  ]
+ },
+ "DarkCaveVioletEntrance": {},
+ "DayCare": {
+  "DayCareLadyScript": [
+   "Text_GrampsLookingForYou"
+  ],
+  "DayCareManScript_Inside": [
+   "DayCareManText_GiveOddEgg",
+   "DayCareText_GotOddEgg",
+   "DayCareText_DescribeOddEgg",
+   "DayCareText_PartyFull"
+  ]
+ },
+ "DayOfWeekSiblingsHouse": {
+  "DayOfWeekSiblingsHousePokedexScript": [
+   "DayOfWeekSiblingsHousePokedexText1",
+   "DayOfWeekSiblingsHousePokedexText2",
+   "DayOfWeekSiblingsHousePokedexText3"
+  ]
+ },
+ "DiglettsCave": {
+  "DiglettsCavePokefanMScript": [
+   "DiglettsCavePokefanMText"
+  ]
+ },
+ "DragonShrine": {
+  "DragonShrineElder1Script": [
+   "DragonShrineClairsGrandfatherText",
+   "DragonShrineTakeThisDratiniText",
+   "DragonShrinePlayerReceivedDratiniText",
+   "DragonShrineSymbolicDragonText",
+   "DragonShrinePartyFullText",
+   "DragonShrineRivalIsInTrainingText",
+   "DragonShrineComeAgainText"
+  ],
+  "DragonShrineElder2Script": [
+   "DragonShrineElder2Text"
+  ],
+  "DragonShrineElder3Script": [
+   "DragonShrineElder3Text"
+  ],
+  "DragonShrineTakeTestScript": [
+   "DragonShrineElderGreetingText",
+   "DragonShrineQuestion1Text",
+   "DragonShrineQuestion2Text",
+   "DragonShrineQuestion3Text",
+   "DragonShrineQuestion4Text",
+   "DragonShrineQuestion5Text",
+   "DragonShrineRightAnswerText",
+   "DragonShrineWrongAnswerText1",
+   "DragonShrineWrongAnswerText2",
+   "DragonShrinePassedTestText",
+   "DragonShrineClairYouPassedText",
+   "DragonShrineClairThatCantBeText",
+   "DragonShrineClairYoureLyingText",
+   "DragonShrineMustIInformLanceText",
+   "DragonShrineIUnderstandText",
+   "DragonShrineHereRisingBadgeText",
+   "DragonShrinePlayerReceivedRisingBadgeText",
+   "DragonShrineRisingBadgeExplanationText",
+   "DragonShrineElderScoldsClairText",
+   "DragonShrineSpeechlessText"
+  ]
+ },
+ "DragonsDen1F": {},
+ "DragonsDenB1F": {
+  "DragonShrineSignpost": [
+   "DragonShrineSignpostText"
+  ],
+  "DragonsDenB1FDragonFangScript": [
+   "Text_FoundDragonFang",
+   "Text_NoRoomForDragonFang"
+  ],
+  "DragonsDenB1FRivalScript": [
+   "RivalText_Training1",
+   "RivalText_Training2"
+  ],
+  "DragonsDenB1F_ClairScene": [
+   "ClairText_Wait",
+   "ClairText_GiveDragonbreathDragonDen",
+   "Text_ReceivedTM24",
+   "ClairText_DescribeDragonbreathDragonDen",
+   "ClairText_WhatsTheMatterDragonDen",
+   "ClairText_NoRoom"
+  ],
+  "TrainerCooltrainerfCara": [
+   "CooltrainerfCaraSeenText",
+   "CooltrainerfCaraBeatenText",
+   "CooltrainerfCaraAfterBattleText"
+  ],
+  "TrainerCooltrainermDarin": [
+   "CooltrainermDarinSeenText",
+   "CooltrainermDarinBeatenText",
+   "CooltrainermDarinAfterBattleText"
+  ],
+  "TrainerTwinsLeaandpia1": [
+   "TwinsLeaandpia1SeenText",
+   "TwinsLeaandpia1BeatenText",
+   "TwinsLeaandpia1AfterBattleText"
+  ],
+  "TrainerTwinsLeaandpia2": [
+   "TwinsLeaandpia2SeenText",
+   "TwinsLeaandpia2BeatenText",
+   "TwinsLeaandpia2AfterBattleText"
+  ]
+ },
+ "EarlsPokemonAcademy": {
+  "AcademyBlackboard": [
+   "AcademyBlackboardText",
+   "AcademyPoisonText",
+   "AcademyParalysisText",
+   "AcademySleepText",
+   "AcademyBurnText",
+   "AcademyFreezeText"
+  ],
+  "AcademyEarl": [
+   "AcademyEarlIntroText",
+   "AcademyEarlTeachHowToWinText",
+   "AcademyEarlTeachMoreText",
+   "AcademyEarlTeachHowToRaiseWellText",
+   "AcademyEarlNoMoreToTeachText"
+  ],
+  "AcademyNotebook": [
+   "AcademyNotebookText",
+   "AcademyNotebookText1",
+   "AcademyNotebookText2",
+   "AcademyNotebookText3"
+  ],
+  "AcademyStickerMachine": [
+   "AcademyStickerMachineText"
+  ],
+  "EarlsPokemonAcademyGameboyKid1Script": [
+   "EarlsPokemonAcademyGameboyKid1Text"
+  ],
+  "EarlsPokemonAcademyGameboyKid2Script": [
+   "EarlsPokemonAcademyGameboyKid2Text"
+  ],
+  "EarlsPokemonAcademyYoungster1Script": [
+   "EarlsPokemonAcademyYoungster1Text"
+  ],
+  "EarlsPokemonAcademyYoungster2Script": [
+   "EarlsPokemonAcademyYoungster2Text"
+  ]
+ },
+ "EcruteakCity": {
+  "BurnedTowerSign": [
+   "BurnedTowerSignText"
+  ],
+  "EcruteakCityFisherScript": [
+   "EcruteakCityFisherText",
+   "EcruteakCityFisherText_JasmineReturned"
+  ],
+  "EcruteakCityGramps1Script": [
+   "EcruteakCityGramps1Text"
+  ],
+  "EcruteakCityGramps2Script": [
+   "EcruteakCityGramps2Text"
+  ],
+  "EcruteakCityGramps3Script": [
+   "EcruteakCityGramps3Text"
+  ],
+  "EcruteakCityLass1Script": [
+   "EcruteakCityLass1Text"
+  ],
+  "EcruteakCityLass2Script": [
+   "EcruteakCityLass2Text",
+   "EcruteakCityLass2Text_ReleasedBeasts"
+  ],
+  "EcruteakCitySign": [
+   "EcruteakCitySignText"
+  ],
+  "EcruteakCityYoungsterScript": [
+   "EcruteakCityYoungsterText"
+  ],
+  "EcruteakDanceTheaterSign": [
+   "EcruteakDanceTheaterSignText"
+  ],
+  "EcruteakGymSign": [
+   "EcruteakGymSignText"
+  ],
+  "TinTowerSign": [
+   "TinTowerSignText"
+  ]
+ },
+ "EcruteakGym": {
+  "EcruteakGymClosed": [
+   "EcruteakGymClosedText"
+  ],
+  "EcruteakGymGuideScript": [
+   "EcruteakGymGuideText",
+   "EcruteakGymGuideWinText"
+  ],
+  "EcruteakGymMortyScript": [
+   "MortyIntroText",
+   "Text_ReceivedFogBadge",
+   "MortyText_FogBadgeSpeech",
+   "MortyText_ShadowBallSpeech",
+   "MortyFightDoneText"
+  ],
+  "TrainerMediumGrace": [
+   "MediumGraceSeenText",
+   "MediumGraceBeatenText",
+   "MediumGraceAfterBattleText"
+  ],
+  "TrainerMediumMartha": [
+   "MediumMarthaSeenText",
+   "MediumMarthaBeatenText",
+   "MediumMarthaAfterBattleText"
+  ],
+  "TrainerSageJeffrey": [
+   "SageJeffreySeenText",
+   "SageJeffreyBeatenText",
+   "SageJeffreyAfterBattleText"
+  ],
+  "TrainerSagePing": [
+   "SagePingSeenText",
+   "SagePingBeatenText",
+   "SagePingAfterBattleText"
+  ]
+ },
+ "EcruteakItemfinderHouse": {
+  "EcruteakHistoryBook": [
+   "EcruteakHistoryBookText",
+   "EcruteakTwoTowersText",
+   "EcruteakThreeMonText"
+  ],
+  "EcruteakItemfinderGuy": [
+   "EcruteakItemfinderAdventureText",
+   "EcruteakItemfinderTrueSpiritText",
+   "ItemfinderExplanationText",
+   "EcruteakItemfinderToEachHisOwnText"
+  ]
+ },
+ "EcruteakLugiaSpeechHouse": {
+  "EcruteakLugiaSpeechHouseGrampsScript": [
+   "EcruteakLugiaSpeechHouseGrampsText"
+  ],
+  "EcruteakLugiaSpeechHouseYoungsterScript": [
+   "EcruteakLugiaSpeechHouseYoungsterText"
+  ]
+ },
+ "EcruteakMart": {
+  "EcruteakMartGrannyScript": [
+   "EcruteakMartGrannyText"
+  ],
+  "EcruteakMartSuperNerdScript": [
+   "EcruteakMartSuperNerdText"
+  ]
+ },
+ "EcruteakPokecenter1F": {
+  "EcruteakPokcenter1FBillActivatesTimeCapsuleScript": [
+   "EcruteakPokecenter1F_BillText1",
+   "EcruteakPokecenter1F_BillText2"
+  ],
+  "EcruteakPokecenter1FCooltrainerFScript": [
+   "EcruteakPokecenter1FCooltrainerFText"
+  ],
+  "EcruteakPokecenter1FGymGuideScript": [
+   "EcruteakPokecenter1FGymGuideText"
+  ],
+  "EcruteakPokecenter1FPokefanMScript": [
+   "EcruteakPokecenter1FPokefanMText",
+   "EcruteakPokecenter1FPokefanMTextMobile"
+  ]
+ },
+ "EcruteakTinTowerEntrance": {
+  "EcruteakTinTowerEntranceGrampsScript": [
+   "EcruteakTinTowerEntranceGrampsText"
+  ],
+  "EcruteakTinTowerEntranceSageScript": [
+   "EcruteakTinTowerEntranceSageText",
+   "EcruteakTinTowerEntranceSageText_GotFogBadge",
+   "EcruteakTinTowerEntranceSageText_NoClearBell",
+   "EcruteakTinTowerEntranceSageText_HearsClearBell",
+   "EcruteakTinTowerEntranceSageText_PleaseDoGoOn",
+   "EcruteakTinTowerEntranceSageText_HeardClearBell"
+  ],
+  "EcruteakTinTowerEntranceWanderingSageScript": [
+   "EcruteakTinTowerEntranceWanderingSageText",
+   "EcruteakTinTowerEntranceWanderingSageText_GotClearBell"
+  ]
+ },
+ "ElmsHouse": {
+  "ElmsHousePC": [
+   "ElmsHousePCText"
+  ],
+  "ElmsSon": [
+   "ElmsSonText"
+  ],
+  "ElmsWife": [
+   "ElmsWifeText"
+  ]
+ },
+ "ElmsLab": {
+  "AideScript_AfterTheft": [
+   "AideText_AfterTheft"
+  ],
+  "AideScript_ExplainBalls": [
+   "AideText_ExplainBalls"
+  ],
+  "AideScript_GivePotion": [
+   "AideText_GiveYouPotion",
+   "AideText_AlwaysBusy"
+  ],
+  "AideScript_GiveYouBalls": [
+   "AideText_GiveYouBalls",
+   "AideText_ExplainBalls"
+  ],
+  "AideScript_TheftTestimony": [
+   "AideText_TheftTestimony"
+  ],
+  "ChikoritaPokeBallScript": [
+   "ElmPokeBallText",
+   "TakeChikoritaText",
+   "DidntChooseStarterText",
+   "ChoseStarterText",
+   "ReceivedStarterText",
+   "ElmDirectionsText1",
+   "GotElmsNumberText",
+   "ElmDirectionsText2",
+   "ElmDirectionsText3"
+  ],
+  "CopScript": [
+   "ElmsLabOfficerText1",
+   "ElmsLabOfficerText2"
+  ],
+  "CyndaquilPokeBallScript": [
+   "ElmPokeBallText",
+   "TakeCyndaquilText",
+   "DidntChooseStarterText",
+   "ChoseStarterText",
+   "ReceivedStarterText",
+   "ElmDirectionsText1",
+   "GotElmsNumberText",
+   "ElmDirectionsText2",
+   "ElmDirectionsText3"
+  ],
+  "DidntChooseStarterScript": [
+   "DidntChooseStarterText"
+  ],
+  "ElmAfterTheftScript": [
+   "ElmAfterTheftText1",
+   "ElmAfterTheftText2",
+   "ElmAfterTheftText3",
+   "ElmAfterTheftText4",
+   "ElmAfterTheftText5",
+   "ElmAfterTheftText6"
+  ],
+  "ElmAideHasEggScript": [
+   "ElmAideHasEggText"
+  ],
+  "ElmCheckEverstone": [
+   "ElmText_CallYou",
+   "ElmGiveEverstoneText1",
+   "ElmGiveEverstoneText2",
+   "ShowElmTogepiText1",
+   "ShowElmTogepiText2",
+   "ShowElmTogepiText3",
+   "ElmThoughtEggHatchedText"
+  ],
+  "ElmCheckGotEggAgain": [
+   "ElmWaitingEggHatchText",
+   "ElmAideHasEggText",
+   "ElmStudyingEggText",
+   "ElmAfterTheftText1",
+   "ElmAfterTheftText2",
+   "ElmAfterTheftText3",
+   "ElmAfterTheftText4",
+   "ElmAfterTheftText5",
+   "ElmAfterTheftText6",
+   "ElmDescribesMrPokemonText",
+   "ElmText_LetYourMonBattleIt"
+  ],
+  "ElmCheckMasterBall": [
+   "ElmThoughtEggHatchedText",
+   "ElmGiveMasterBallText1",
+   "ElmGiveMasterBallText2"
+  ],
+  "ElmCheckTogepiEgg": [
+   "ElmText_LetYourMonBattleIt"
+  ],
+  "ElmDescribesMrPokemonScript": [
+   "ElmDescribesMrPokemonText"
+  ],
+  "ElmDirectionsScript": [
+   "ElmDirectionsText1",
+   "GotElmsNumberText",
+   "ElmDirectionsText2",
+   "ElmDirectionsText3"
+  ],
+  "ElmEggHatchedScript": [
+   "ShowElmTogepiText1",
+   "ShowElmTogepiText2",
+   "ShowElmTogepiText3",
+   "ElmText_LetYourMonBattleIt"
+  ],
+  "ElmGiveEverstoneScript": [
+   "ElmGiveEverstoneText1",
+   "ElmGiveEverstoneText2"
+  ],
+  "ElmGiveMasterBallScript": [
+   "ElmGiveMasterBallText1",
+   "ElmGiveMasterBallText2"
+  ],
+  "ElmGiveTicketScript": [
+   "ElmGiveTicketText1",
+   "ElmGiveTicketText2"
+  ],
+  "ElmScript_CallYou": [
+   "ElmText_CallYou"
+  ],
+  "ElmStudyingEggScript": [
+   "ElmStudyingEggText"
+  ],
+  "ElmWaitingEggHatchScript": [
+   "ElmWaitingEggHatchText"
+  ],
+  "ElmsAideScript": [
+   "AideText_AfterTheft",
+   "AideText_ExplainBalls",
+   "AideText_TheftTestimony",
+   "AideText_AlwaysBusy"
+  ],
+  "ElmsLabHealingMachine": [
+   "ElmsLabHealingMachineText1",
+   "ElmsLabHealingMachineText2"
+  ],
+  "ElmsLabPC": [
+   "ElmsLabPCText"
+  ],
+  "ElmsLabTrashcan": [
+   "ElmsLabTrashcanText"
+  ],
+  "ElmsLabTravelTip1": [
+   "ElmsLabTravelTip1Text"
+  ],
+  "ElmsLabTravelTip2": [
+   "ElmsLabTravelTip2Text"
+  ],
+  "ElmsLabTravelTip3": [
+   "ElmsLabTravelTip3Text"
+  ],
+  "ElmsLabTravelTip4": [
+   "ElmsLabTravelTip4Text"
+  ],
+  "ElmsLabWalkUpToElmScript": [
+   "ElmText_Intro",
+   "ElmText_Refused",
+   "ElmText_Accepted",
+   "ElmText_ResearchAmbitions",
+   "ElmText_GotAnEmail",
+   "ElmText_MissionFromMrPokemon",
+   "ElmText_ChooseAPokemon"
+  ],
+  "ElmsLabWindow": [
+   "ElmsLabWindowText2",
+   "ElmsLabWindowText1"
+  ],
+  "LabTryToLeaveScript": [
+   "LabWhereGoingText"
+  ],
+  "LookAtElmPokeBallScript": [
+   "ElmPokeBallText"
+  ],
+  "ProfElmScript": [
+   "ElmGiveTicketText1",
+   "ElmGiveTicketText2"
+  ],
+  "ShowElmTogepiScript": [
+   "ShowElmTogepiText1",
+   "ShowElmTogepiText2",
+   "ShowElmTogepiText3"
+  ],
+  "TotodilePokeBallScript": [
+   "ElmPokeBallText",
+   "TakeTotodileText",
+   "DidntChooseStarterText",
+   "ChoseStarterText",
+   "ReceivedStarterText",
+   "ElmDirectionsText1",
+   "GotElmsNumberText",
+   "ElmDirectionsText2",
+   "ElmDirectionsText3"
+  ]
+ },
+ "FastShip1F": {
+  "FastShip1FSailor1Script": [
+   "FastShip1FSailor1Text_ToVermilion",
+   "FastShip1FSailor1Text_ToOlivine",
+   "FastShip1FSailor1Text_InVermilion",
+   "FastShip1FSailor1Text_InOlivine"
+  ],
+  "FastShip1FSailor2Script": [
+   "FastShip1FSailor2Text_FirstTime",
+   "FastShip1FSailor2Text"
+  ],
+  "FastShip1FSailor3Script": [
+   "FastShip1FSailor3Text"
+  ],
+  "WorriedGrandpaSceneLeft": [
+   "FastShip1FGrandpaText"
+  ]
+ },
+ "FastShipB1F": {
+  "FastShipB1FSailorScript": [
+   "FastShipB1FOnDutySailorText",
+   "FastShipB1FOnDutySailorRefusedText",
+   "FastShipB1FOnDutySailorThanksText",
+   "FastShipB1FOnDutySailorSawLittleGirlText",
+   "FastShipB1FOnDutySailorDirectionsText"
+  ],
+  "TrainerBlackbeltWai": [
+   "BlackbeltWaiSeenText",
+   "BlackbeltWaiBeatenText",
+   "BlackbeltWaiAfterBattleText"
+  ],
+  "TrainerFisherJonah": [
+   "FisherJonahSeenText",
+   "FisherJonahBeatenText",
+   "FisherJonahAfterBattleText"
+  ],
+  "TrainerJugglerFritz": [
+   "JugglerFritzSeenText",
+   "JugglerFritzBeatenText",
+   "JugglerFritzAfterBattleText"
+  ],
+  "TrainerPicnickerDebra": [
+   "PicnickerDebraSeenText",
+   "PicnickerDebraBeatenText",
+   "PicnickerDebraAfterBattleText"
+  ],
+  "TrainerSailorGarrett": [
+   "SailorGarrettSeenText",
+   "SailorGarrettBeatenText",
+   "SailorGarrettAfterBattleText"
+  ],
+  "TrainerSailorJeff": [
+   "SailorJeffSeenText",
+   "SailorJeffBeatenText",
+   "SailorJeffAfterBattleText"
+  ],
+  "TrainerSailorKenneth": [
+   "SailorKennethSeenText",
+   "SailorKennethBeatenText",
+   "SailorKennethAfterBattleText"
+  ],
+  "TrainerSchoolboyNate": [
+   "SchoolboyNateSeenText",
+   "SchoolboyNateBeatenText",
+   "SchoolboyNateAfterBattleText"
+  ],
+  "TrainerSchoolboyRicky": [
+   "SchoolboyRickySeenText",
+   "SchoolboyRickyBeatenText",
+   "SchoolboyRickyAfterBattleText"
+  ],
+  "TrainerTeacherShirley": [
+   "TeacherShirleySeenText",
+   "TeacherShirleyBeatenText",
+   "TeacherShirleyAfterBattleText"
+  ]
+ },
+ "FastShipCabins_NNW_NNE_NE": {
+  "FastShipLazySailorScript": [
+   "SailorStanlySeenText",
+   "SailorStanlyAfterBattleText"
+  ],
+  "TrainerBurglarCorey": [
+   "BurglarCoreySeenText",
+   "BurglarCoreyBeatenText",
+   "BurglarCoreyAfterBattleText"
+  ],
+  "TrainerCooltrainerfCarol": [
+   "CooltrainerfCarolSeenText",
+   "CooltrainerfCarolBeatenText",
+   "CooltrainerfCarolAfterBattleText"
+  ],
+  "TrainerCooltrainermSean": [
+   "CooltrainermSeanSeenText",
+   "CooltrainermSeanBeatenText",
+   "CooltrainermSeanAfterBattleText"
+  ],
+  "TrainerGentlemanEdward": [
+   "GentlemanEdwardSeenText",
+   "GentlemanEdwardBeatenText",
+   "GentlemanEdwardAfterBattleText"
+  ],
+  "TrainerHikerNoland": [
+   "HikerNolandSeenText",
+   "HikerNolandBeatenText",
+   "HikerNolandAfterBattleText"
+  ],
+  "TrainerPokemaniacEthan": [
+   "PokemaniacEthanSeenText",
+   "PokemaniacEthanBeatenText",
+   "PokemaniacEthanAfterBattleText"
+  ]
+ },
+ "FastShipCabins_SE_SSE_CaptainsCabin": {
+  "SSAquaCaptain": [
+   "SSAquaCaptainExhaustingText",
+   "SSAquaCaptainHowDoYouLikeText"
+  ],
+  "SSAquaFoundGranddaughter": [
+   "SSAquaGrandpaHaveThisText"
+  ],
+  "SSAquaGotMetalCoat": [
+   "SSAquaGrandpaTravellingText"
+  ],
+  "SSAquaGranddaughterAfter": [
+   "SSAquaGranddaughterHadFunText"
+  ],
+  "SSAquaGranddaughterBefore": [
+   "SSAquaGranddaughterCaptainPlayWithMeText",
+   "SSAquaGranddaughterHasToFindGrandpaText",
+   "SSAquaGranddaughterWasPlayingMText",
+   "SSAquaGranddaughterWasPlayingFText",
+   "SSAquaEntertainedGranddaughterText",
+   "SSAquaGrandpaHaveThisText",
+   "SSAquaHasArrivedVermilionText"
+  ],
+  "SSAquaGrandpa": [
+   "SSAquaGrandpaTravellingText",
+   "SSAquaGrandpaHaveThisText",
+   "SSAquaCantFindGranddaughterText"
+  ],
+  "SSAquaMetalCoatAndDocking": [
+   "SSAquaGrandpaHaveThisText",
+   "SSAquaHasArrivedVermilionText"
+  ],
+  "TrainerPokefanfGeorgia": [
+   "PokefanfGeorgiaSeenText",
+   "PokefanfGeorgiaBeatenText",
+   "PokefanfGeorgiaAfterBattleText"
+  ],
+  "TrainerPokefanmColin": [
+   "PokefanmColinSeenText",
+   "PokefanmColinBeatenText",
+   "PokefanmColinAfterBattleText"
+  ],
+  "TrainerPokefanmJeremy": [
+   "PokefanmJeremySeenText",
+   "PokefanmJeremyBeatenText",
+   "PokefanmJeremyAfterBattleText"
+  ],
+  "TrainerPsychicRodney": [
+   "PsychicRodneySeenText",
+   "PsychicRodneyBeatenText",
+   "PsychicRodneyAfterBattleText"
+  ],
+  "TrainerSupernerdShawn": [
+   "SupernerdShawnSeenText",
+   "SupernerdShawnBeatenText",
+   "SupernerdShawnAfterBattleText"
+  ],
+  "TrainerTwinsMegandpeg1": [
+   "TwinsMegandpeg1SeenText",
+   "TwinsMegandpeg1BeatenText",
+   "TwinsMegandpeg1AfterBattleText"
+  ],
+  "TrainerTwinsMegandpeg2": [
+   "TwinsMegandpeg2SeenText",
+   "TwinsMegandpeg2BeatenText",
+   "TwinsMegandpeg2AfterBattleText"
+  ]
+ },
+ "FastShipCabins_SW_SSW_NW": {
+  "FastShipBed": [
+   "FastShipBedText1",
+   "FastShipBedText2",
+   "FastShipArrivedVermilionText",
+   "FastShipArrivedOlivineText"
+  ],
+  "TrainerBeautyCassie": [
+   "BeautyCassieSeenText",
+   "BeautyCassieBeatenText",
+   "BeautyCassieAfterBattleText"
+  ],
+  "TrainerBugCatcherKen": [
+   "BugCatcherKenSeenText",
+   "BugCatcherKenBeatenText",
+   "BugCatcherKenAfterBattleText"
+  ],
+  "TrainerFirebreatherLyle": [
+   "FirebreatherLyleSeenText",
+   "FirebreatherLyleBeatenText",
+   "FirebreatherLyleAfterBattleText"
+  ],
+  "TrainerGuitaristClyde": [
+   "GuitaristClydeSeenText",
+   "GuitaristClydeBeatenText",
+   "GuitaristClydeAfterBattleText",
+   "GuitaristClydeAfterBattleMobileText"
+  ]
+ },
+ "FightingDojo": {
+  "FightingDojoBlackBelt": [
+   "FightingDojoBlackBeltText"
+  ],
+  "FightingDojoSign1": [
+   "FightingDojoSign1Text"
+  ],
+  "FightingDojoSign2": [
+   "FightingDojoSign2Text"
+  ]
+ },
+ "FuchsiaCity": {
+  "FuchsiaCityPokefanM": [
+   "FuchsiaCityPokefanMText"
+  ],
+  "FuchsiaCitySign": [
+   "FuchsiaCitySignText"
+  ],
+  "FuchsiaCityTeacher": [
+   "FuchsiaCityTeacherText"
+  ],
+  "FuchsiaCityYoungster": [
+   "FuchsiaCityYoungsterText"
+  ],
+  "FuchsiaGymSign": [
+   "FuchsiaGymSignText"
+  ],
+  "NoLitteringSign": [
+   "NoLitteringSignText"
+  ],
+  "SafariZoneClosedSign": [
+   "SafariZoneClosedSignText"
+  ],
+  "SafariZoneOfficeSign": [
+   "SafariZoneOfficeSignText"
+  ],
+  "WardensHomeSign": [
+   "WardensHomeSignText"
+  ]
+ },
+ "FuchsiaGym": {
+  "CamperBarryScript": [
+   "CamperBarryBeforeText",
+   "CamperBarryAfterText"
+  ],
+  "FuchsiaGymGuideScript": [
+   "FuchsiaGymGuideText",
+   "FuchsiaGymGuideWinText"
+  ],
+  "FuchsiaGymJanineScript": [
+   "JanineText_DisappointYou",
+   "Text_ReceivedSoulBadge",
+   "JanineText_ToxicSpeech",
+   "JanineText_ApplyMyself"
+  ],
+  "LassAliceScript": [
+   "LassAliceBeforeText",
+   "LassAliceAfterText"
+  ],
+  "LassLindaScript": [
+   "LassLindaBeforeText",
+   "LassLindaAfterText"
+  ],
+  "PicnickerCindyScript": [
+   "PicnickerCindyBeforeText",
+   "PicnickerCindyAfterText"
+  ]
+ },
+ "FuchsiaMart": {
+  "FuchsiaMartCooltrainerFScript": [
+   "FuchsiaMartCooltrainerFText"
+  ],
+  "FuchsiaMartFisherScript": [
+   "FuchsiaMartFisherText"
+  ]
+ },
+ "FuchsiaPokecenter1F": {
+  "FuchsiaPokecenter1FCooltrainerFScript": [
+   "FuchsiaPokecenter1FCooltrainerFText"
+  ],
+  "FuchsiaPokecenter1FCooltrainerMScript": [
+   "FuchsiaPokecenter1FCooltrainerMText"
+  ],
+  "FuchsiaPokecenter1FJanineImpersonatorScript": [
+   "FuchsiaPokecenter1FJanineImpersonatorText1",
+   "FuchsiaPokecenter1FJanineImpersonatorText2"
+  ]
+ },
+ "FuchsiaPokecenter2FBeta": {},
+ "GoldenrodBikeShop": {
+  "GoldenrodBikeShopBicycle": [
+   "GoldenrodBikeShopBicycleText"
+  ],
+  "GoldenrodBikeShopClerkScript": [
+   "GoldenrodBikeShopClerkIntroText",
+   "GoldenrodBikeShopClerkAgreedText",
+   "BorrowedABicycleText",
+   "GoldenrodBikeShopClerkFirstRateBikesText",
+   "GoldenrodBikeShopClerkRefusedText"
+  ],
+  "GoldenrodBikeShopJustReleasedCompactBike": [
+   "GoldenrodBikeShopJustReleasedCompactBikeText"
+  ]
+ },
+ "GoldenrodCity": {
+  "GoldenrodCityBikeShopSign": [
+   "GoldenrodCityBikeShopSignText"
+  ],
+  "GoldenrodCityCooltrainerF1Script": [
+   "GoldenrodCityCooltrainerF1Text",
+   "GoldenrodCityCooltrainerF1Text_ClearedRadioTower"
+  ],
+  "GoldenrodCityCooltrainerF2Script": [
+   "GoldenrodCityCooltrainerF2Text",
+   "GoldenrodCityCooltrainerF2Text_GotRadioCard"
+  ],
+  "GoldenrodCityFlowerShopSign": [
+   "GoldenrodCityFlowerShopSignText"
+  ],
+  "GoldenrodCityGameCornerSign": [
+   "GoldenrodCityGameCornerSignText"
+  ],
+  "GoldenrodCityGrampsScript": [
+   "GoldenrodCityGrampsText"
+  ],
+  "GoldenrodCityLassScript": [
+   "GoldenrodCityLassText"
+  ],
+  "GoldenrodCityNameRaterSign": [
+   "GoldenrodCityNameRaterSignText"
+  ],
+  "GoldenrodCityPokefanMScript": [
+   "GoldenrodCityPokefanMText"
+  ],
+  "GoldenrodCityRadioTowerSign": [
+   "GoldenrodCityRadioTowerSignText"
+  ],
+  "GoldenrodCityRocket1Script": [
+   "GoldenrodCityRocket1Text"
+  ],
+  "GoldenrodCityRocket2Script": [
+   "GoldenrodCityRocket2Text"
+  ],
+  "GoldenrodCityRocket3Script": [
+   "GoldenrodCityRocket3Text"
+  ],
+  "GoldenrodCityRocket4Script": [
+   "GoldenrodCityRocket4Text"
+  ],
+  "GoldenrodCityRocket5Script": [
+   "GoldenrodCityRocket5Text"
+  ],
+  "GoldenrodCityRocket6Script": [
+   "GoldenrodCityRocket6Text"
+  ],
+  "GoldenrodCityRocketScoutScript": [
+   "GoldenrodCityRocketScoutText1",
+   "GoldenrodCityRocketScoutText2"
+  ],
+  "GoldenrodCitySign": [
+   "GoldenrodCitySignText"
+  ],
+  "GoldenrodCityStationSign": [
+   "GoldenrodCityStationSignText"
+  ],
+  "GoldenrodCityUndergroundSignNorth": [
+   "GoldenrodCityUndergroundSignNorthText"
+  ],
+  "GoldenrodCityUndergroundSignSouth": [
+   "GoldenrodCityUndergroundSignSouthText"
+  ],
+  "GoldenrodCityYoungster1Script": [
+   "GoldenrodCityYoungster1Text"
+  ],
+  "GoldenrodCityYoungster2Script": [
+   "GoldenrodCityYoungster2Text"
+  ],
+  "GoldenrodDeptStoreSign": [
+   "GoldenrodDeptStoreSignText"
+  ],
+  "GoldenrodGymSign": [
+   "GoldenrodGymSignText"
+  ],
+  "MoveTutorScript": [
+   "GoldenrodCityMoveTutorAskTeachAMoveText",
+   "GoldenrodCityMoveTutorAsk4000CoinsOkayText",
+   "GoldenrodCityMoveTutorWhichMoveShouldITeachText",
+   "GoldenrodCityMoveTutorAwwButTheyreAmazingText",
+   "GoldenrodCityMoveTutorHmTooBadText",
+   "GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText",
+   "GoldenrodCityMoveTutorFarewellKidText",
+   "GoldenrodCityMoveTutorBButText",
+   "GoldenrodCityMoveTutorYouDontHaveEnoughCoinsText"
+  ]
+ },
+ "GoldenrodDeptStore1F": {
+  "GoldenrodDeptStore1FBugCatcherScript": [
+   "GoldenrodDeptStore1FBugCatcherText"
+  ],
+  "GoldenrodDeptStore1FDirectory": [
+   "GoldenrodDeptStore1FDirectoryText"
+  ],
+  "GoldenrodDeptStore1FGentlemanScript": [
+   "GoldenrodDeptStore1FGentlemanText"
+  ],
+  "GoldenrodDeptStore1FPokefanFScript": [
+   "GoldenrodDeptStore1FPokefanFText"
+  ],
+  "GoldenrodDeptStore1FReceptionistScript": [
+   "GoldenrodDeptStore1FReceptionistText"
+  ]
+ },
+ "GoldenrodDeptStore2F": {
+  "GoldenrodDeptStore2FCooltrainerFScript": [
+   "GoldenrodDeptStore2FCooltrainerFText"
+  ],
+  "GoldenrodDeptStore2FDirectory": [
+   "GoldenrodDeptStore2FDirectoryText"
+  ],
+  "GoldenrodDeptStore2FGentlemanScript": [
+   "GoldenrodDeptStore2FGentlemanText"
+  ],
+  "GoldenrodDeptStore2FYoungsterScript": [
+   "GoldenrodDeptStore2FYoungsterText"
+  ]
+ },
+ "GoldenrodDeptStore3F": {
+  "GoldenrodDeptStore3FDirectory": [
+   "GoldenrodDeptStore3FDirectoryText"
+  ],
+  "GoldenrodDeptStore3FRockerScript": [
+   "GoldenrodDeptStore3FRockerText"
+  ],
+  "GoldenrodDeptStore3FSuperNerdScript": [
+   "GoldenrodDeptStore3FSuperNerdText"
+  ]
+ },
+ "GoldenrodDeptStore4F": {
+  "GoldenrodDeptStore4FBugCatcherScript": [
+   "GoldenrodDeptStore4FBugCatcherText"
+  ],
+  "GoldenrodDeptStore4FCooltrainerMScript": [
+   "GoldenrodDeptStore4FCooltrainerMText"
+  ],
+  "GoldenrodDeptStore4FDirectory": [
+   "GoldenrodDeptStore4FDirectoryText"
+  ],
+  "GoldenrodDeptStore4FGameboyKidScript": [
+   "GoldenrodDeptStore4FGameboyKidText"
+  ]
+ },
+ "GoldenrodDeptStore5F": {
+  "Carrie": [
+   "GoldenrodDeptStore5FCarrieMysteryGiftExplanationText",
+   "GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText"
+  ],
+  "GoldenrodDeptStore5FDirectory": [
+   "GoldenrodDeptStore5FDirectoryText"
+  ],
+  "GoldenrodDeptStore5FLassScript": [
+   "GoldenrodDeptStore5FLassText"
+  ],
+  "GoldenrodDeptStore5FPokefanMScript": [
+   "GoldenrodDeptStore5FPokefanMText"
+  ],
+  "GoldenrodDeptStore5FReceptionistScript": [
+   "GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText",
+   "GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText",
+   "GoldenrodDeptStore5FReceptionistItsAdorableText",
+   "GoldenrodDeptStore5FReceptionistItLooksEvilHowAboutThisTMText",
+   "GoldenrodDeptStore5FReceptionistThereAreTMsPerfectForMonText"
+  ]
+ },
+ "GoldenrodDeptStore6F": {
+  "GoldenrodDeptStore6FDirectory": [
+   "GoldenrodDeptStore6FDirectoryText"
+  ],
+  "GoldenrodDeptStore6FLassScript": [
+   "GoldenrodDeptStore6FLassText"
+  ],
+  "GoldenrodDeptStore6FSuperNerdScript": [
+   "GoldenrodDeptStore6FSuperNerdText"
+  ],
+  "GoldenrodVendingMachine": [
+   "GoldenrodVendingText",
+   "GoldenrodClangText",
+   "GoldenrodVendingNoMoneyText",
+   "GoldenrodVendingNoSpaceText"
+  ]
+ },
+ "GoldenrodDeptStoreB1F": {
+  "GoldenrodDeptStoreB1FBlackBelt1Script": [
+   "GoldenrodDeptStoreB1FBlackBelt1Text"
+  ],
+  "GoldenrodDeptStoreB1FBlackBelt2Script": [
+   "GoldenrodDeptStoreB1FBlackBelt2Text"
+  ],
+  "GoldenrodDeptStoreB1FBlackBelt3Script": [
+   "GoldenrodDeptStoreB1FBlackBelt3Text"
+  ],
+  "GoldenrodDeptStoreB1FMachopScript": [
+   "GoldenrodDeptStoreB1FMachokeText"
+  ]
+ },
+ "GoldenrodDeptStoreElevator": {},
+ "GoldenrodDeptStoreRoof": {
+  "Binoculars1": [
+   "Binoculars1Text"
+  ],
+  "Binoculars2": [
+   "Binoculars2Text"
+  ],
+  "Binoculars3": [
+   "Binoculars3Text"
+  ],
+  "GoldenrodDeptStoreRoofBugCatcherScript": [
+   "GoldenrodDeptStoreRoofBugCatcherText"
+  ],
+  "GoldenrodDeptStoreRoofFisherScript": [
+   "GoldenrodDeptStoreRoofFisherText"
+  ],
+  "GoldenrodDeptStoreRoofPokefanFScript": [
+   "GoldenrodDeptStoreRoofPokefanFText"
+  ],
+  "GoldenrodDeptStoreRoofPokefanMScript": [
+   "GoldenrodDeptStoreRoofPokefanMText"
+  ],
+  "GoldenrodDeptStoreRoofSuperNerdScript": [
+   "GoldenrodDeptStoreRoofSuperNerdOhWowText",
+   "GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText"
+  ],
+  "GoldenrodDeptStoreRoofTeacherScript": [
+   "GoldenrodDeptStoreRoofTeacherText"
+  ],
+  "GoldenrodDeptStoreRoofTwinScript": [
+   "GoldenrodDeptStoreRoofTwinText"
+  ],
+  "PokeDollVendingMachine": [
+   "PokeDollVendingMachineText"
+  ]
+ },
+ "GoldenrodFlowerShop": {
+  "FlowerShopFloriaScript": [
+   "GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText",
+   "GoldenrodFlowerShopFloriaYouBeatWhitneyText",
+   "GoldenrodFlowerShopFloriaItReallyWasAMonText"
+  ],
+  "FlowerShopTeacherScript": [
+   "GoldenrodFlowerShopTeacherHeresTheSquirtbottleText",
+   "GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText",
+   "GoldenrodFlowerShopTeacherDontDoAnythingDangerousText",
+   "GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText",
+   "GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text"
+  ]
+ },
+ "GoldenrodGameCorner": {
+  "GoldenrodGameCornerCooltrainerFScript": [
+   "GoldenrodGameCornerCooltrainerFText"
+  ],
+  "GoldenrodGameCornerGentlemanScript": [
+   "GoldenrodGameCornerGentlemanText"
+  ],
+  "GoldenrodGameCornerLeftTheirDrinkScript": [
+   "GoldenrodGameCornerLeftTheirDrinkText"
+  ],
+  "GoldenrodGameCornerPokefanFScript": [
+   "GoldenrodGameCornerPokefanFText"
+  ],
+  "GoldenrodGameCornerPrizeMonVendorScript": [
+   "GoldenrodGameCornerPrizeVendorIntroText",
+   "GoldenrodGameCornerPrizeVendorNoCoinCaseText",
+   "GoldenrodGameCornerPrizeVendorWhichPrizeText",
+   "GoldenrodGameCornerPrizeVendorQuitText",
+   "GoldenrodGameCornerPrizeVendorNeedMoreCoinsText",
+   "GoldenrodGameCornerPrizeVendorNoMoreRoomText",
+   "GoldenrodGameCornerPrizeVendorHereYouGoText"
+  ],
+  "GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript": [
+   "GoldenrodGameCornerPrizeVendorNoMoreRoomText"
+  ],
+  "GoldenrodGameCornerPrizeVendor_CancelPurchaseScript": [
+   "GoldenrodGameCornerPrizeVendorQuitText"
+  ],
+  "GoldenrodGameCornerPrizeVendor_NoCoinCaseScript": [
+   "GoldenrodGameCornerPrizeVendorNoCoinCaseText"
+  ],
+  "GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript": [
+   "GoldenrodGameCornerPrizeVendorNeedMoreCoinsText"
+  ],
+  "GoldenrodGameCornerTMVendorScript": [
+   "GoldenrodGameCornerPrizeVendorIntroText",
+   "GoldenrodGameCornerPrizeVendorNoCoinCaseText",
+   "GoldenrodGameCornerPrizeVendorWhichPrizeText"
+  ],
+  "GoldenrodGameCornerTMVendor_FinishScript": [
+   "GoldenrodGameCornerPrizeVendorHereYouGoText"
+  ],
+  "GoldenrodGameCornerTMVendor_LoopScript": [
+   "GoldenrodGameCornerPrizeVendorQuitText",
+   "GoldenrodGameCornerPrizeVendorNeedMoreCoinsText",
+   "GoldenrodGameCornerPrizeVendorNoMoreRoomText",
+   "GoldenrodGameCornerPrizeVendorHereYouGoText"
+  ],
+  "MoveTutorInsideScript": [
+   "MoveTutorInsideText"
+  ],
+  "GoldenrodGameCornerCooltrainerMScript": [
+   "GoldenrodGameCornerCooltrainerMText"
+  ],
+  "GoldenrodGameCornerPharmacistScript": [
+   "GoldenrodGameCornerPharmacistText"
+  ],
+  "GoldenrodGameCornerPokefanM1Script": [
+   "GoldenrodGameCornerPokefanM1Text"
+  ],
+  "GoldenrodGameCornerPokefanM2Script": [
+   "GoldenrodGameCornerPokefanM2Text"
+  ]
+ },
+ "GoldenrodGym": {
+  "GoldenrodGymGuideScript": [
+   "GoldenrodGymGuideText",
+   "GoldenrodGymGuideWinText"
+  ],
+  "GoldenrodGymWhitneyScript": [
+   "WhitneyBeforeText",
+   "WhitneyYouMeanieText",
+   "WhitneyWhatDoYouWantText",
+   "PlayerReceivedPlainBadgeText",
+   "WhitneyPlainBadgeText",
+   "WhitneyAttractText",
+   "WhitneyGoodCryText"
+  ],
+  "TrainerBeautySamantha": [
+   "BeautySamanthaSeenText",
+   "BeautySamanthaBeatenText",
+   "BeautySamanthaAfterBattleText"
+  ],
+  "TrainerBeautyVictoria": [
+   "BeautyVictoriaSeenText",
+   "BeautyVictoriaBeatenText",
+   "BeautyVictoriaAfterBattleText"
+  ],
+  "TrainerLassBridget": [
+   "LassBridgetSeenText",
+   "LassBridgetBeatenText",
+   "LassBridgetAfterBattleText"
+  ],
+  "TrainerLassCarrie": [
+   "LassCarrieSeenText",
+   "LassCarrieBeatenText",
+   "LassCarrieAfterBattleText"
+  ],
+  "WhitneyCriesScript": [
+   "BridgetWhitneyCriesText"
+  ]
+ },
+ "GoldenrodHappinessRater": {
+  "GoldenrodHappinessRaterPokefanMScript": [
+   "GoldenrodHappinessRaterPokefanMText"
+  ],
+  "GoldenrodHappinessRaterTeacherScript": [
+   "GoldenrodHappinessRaterTeacherText",
+   "GoldenrodHappinessRatingText_LovesYouALot",
+   "GoldenrodHappinessRatingText_ReallyTrustsYou",
+   "GoldenrodHappinessRatingText_SortOfHappy",
+   "GoldenrodHappinessRatingText_QuiteCute",
+   "GoldenrodHappinessRatingText_NotUsedToYou",
+   "GoldenrodHappinessRatingText_LooksMean"
+  ],
+  "GoldenrodHappinessRaterTwinScript": [
+   "GoldenrodHappinessRaterTwinText"
+  ]
+ },
+ "GoldenrodMagnetTrainStation": {
+  "GoldenrodMagnetTrainStationGentlemanScript": [
+   "GoldenrodMagnetTrainStationGentlemanText"
+  ],
+  "GoldenrodMagnetTrainStationOfficerScript": [
+   "GoldenrodMagnetTrainStationOfficerTheTrainHasntComeInText",
+   "GoldenrodMagnetTrainStationOfficerAreYouComingAboardText",
+   "GoldenrodMagnetTrainStationOfficerRightThisWayText",
+   "GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText",
+   "GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText"
+  ],
+  "Script_ArriveFromSaffron": [
+   "GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText"
+  ]
+ },
+ "GoldenrodNameRater": {},
+ "GoldenrodPPSpeechHouse": {
+  "GoldenrodPPSpeechHouseFisherScript": [
+   "GoldenrodPPSpeechHouseFisherText"
+  ],
+  "GoldenrodPPSpeechHouseLassScript": [
+   "GoldenrodPPSpeechHouseLassText"
+  ]
+ },
+ "GoldenrodPokecenter1F": {
+  "GoldenrodPokecenter1FGameboyKidScript": [
+   "GoldenrodPokecenter1FGameboyKidText"
+  ],
+  "GoldenrodPokecenter1FLassScript": [
+   "GoldenrodPokecenter1FLassText"
+  ],
+  "GoldenrodPokecenter1FPokefanF": [
+   "GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText",
+   "GoldenrodPokecenter1FAskGiveAwayAnEonMailText",
+   "GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText",
+   "GoldenrodPokecenter1FPokefanFThisIsForYouText",
+   "GoldenrodPokecenter1FPokefanFDaughterWillBeDelightedText",
+   "GoldenrodPokecenter1FPokefanFTooBadText",
+   "GoldenrodPokecenter1FPokefanFAnotherTimeThenText"
+  ],
+  "GoldenrodPokecenter1F_GSBallSceneLeft": [
+   "GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText",
+   "GoldenrodPokeCenter1FLinkReceptionistPleaseDoComeAgainText"
+  ],
+  "GoldenrodPokecenter1F_GSBallSceneRight": [
+   "GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText",
+   "GoldenrodPokeCenter1FLinkReceptionistPleaseDoComeAgainText"
+  ]
+ },
+ "GoldenrodUnderground": {
+  "BargainMerchantScript": [
+   "GoldenrodUndergroundWeAreNotOpenTodayText"
+  ],
+  "BasementDoorScript": [
+   "GoldenrodUndergroundTheDoorsLockedText",
+   "GoldenrodUndergroundBasementKeyOpenedDoorText",
+   "GoldenrodUndergroundTheDoorIsOpenText"
+  ],
+  "BitterMerchantScript": [
+   "GoldenrodUndergroundWeAreNotOpenTodayText"
+  ],
+  "GoldenrodUndergroundNoEntrySign": [
+   "GoldenrodUndergroundNoEntryText"
+  ],
+  "GoldenrodUndergroundScript_ShopClosed": [
+   "GoldenrodUndergroundWeAreNotOpenTodayText"
+  ],
+  "OlderHaircutBrotherScript": [
+   "GoldenrodUndergroundWeAreNotOpenTodayText",
+   "GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText",
+   "GoldenrodUndergroundOlderHaircutBrotherAskWhichMonText",
+   "GoldenrodUndergroundOlderHaircutBrotherWatchItBecomeBeautifulText",
+   "GoldenrodUndergroundOlderHaircutBrotherAllDoneText",
+   "GoldenrodUndergroundOlderHaircutBrotherThatsAShameText",
+   "GoldenrodUndergroundOlderHaircutBrotherYoullNeedMoreMoneyText",
+   "GoldenrodUndergroundOlderHaircutBrotherOneHaircutADayText"
+  ],
+  "TrainerPokemaniacDonald": [
+   "PokemaniacDonaldSeenText",
+   "PokemaniacDonaldBeatenText",
+   "PokemaniacDonaldAfterBattleText"
+  ],
+  "TrainerPokemaniacIssac": [
+   "PokemaniacIssacSeenText",
+   "PokemaniacIssacBeatenText",
+   "PokemaniacIssacAfterBattleText"
+  ],
+  "TrainerSupernerdEric": [
+   "SupernerdEricSeenText",
+   "SupernerdEricBeatenText",
+   "SupernerdEricAfterBattleText"
+  ],
+  "TrainerSupernerdTeru": [
+   "SupernerdTeruSeenText",
+   "SupernerdTeruBeatenText",
+   "SupernerdTeruAfterBattleText"
+  ],
+  "YoungerHaircutBrotherScript": [
+   "GoldenrodUndergroundWeAreNotOpenTodayText",
+   "GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText",
+   "GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText",
+   "GoldenrodUndergroundYoungerHaircutBrotherIllMakeItLookCoolText",
+   "GoldenrodUndergroundYoungerHaircutBrotherAllDoneText",
+   "GoldenrodUndergroundYoungerHaircutBrotherHowDisappointingText",
+   "GoldenrodUndergroundYoungerHaircutBrotherShortOnFundsText",
+   "GoldenrodUndergroundYoungerHaircutBrotherOneHaircutADayText"
+  ]
+ },
+ "GoldenrodUndergroundSwitchRoomEntrances": {
+  "EmergencySwitchScript": [
+   "SwitchRoomText_Emergency",
+   "SwitchRoomText_OffTurnOn",
+   "SwitchRoomText_OnTurnOff"
+  ],
+  "GoldenrodUndergroundSwitchRoomEntrancesSuperNerdScript": [
+   "GoldenrodUndergroundSwitchRoomEntrances_SuperNerdText"
+  ],
+  "GoldenrodUndergroundSwitchRoomEntrancesTeacherScript": [
+   "GoldenrodUndergroundSwitchRoomEntrances_TeacherText"
+  ],
+  "Switch1Script": [
+   "SwitchRoomText_Switch1",
+   "SwitchRoomText_OffTurnOn",
+   "SwitchRoomText_OnTurnOff"
+  ],
+  "Switch2Script": [
+   "SwitchRoomText_Switch2",
+   "SwitchRoomText_OffTurnOn",
+   "SwitchRoomText_OnTurnOff"
+  ],
+  "Switch3Script": [
+   "SwitchRoomText_Switch3",
+   "SwitchRoomText_OffTurnOn",
+   "SwitchRoomText_OnTurnOff"
+  ],
+  "TrainerBurglarDuncan": [
+   "BurglarDuncanSeenText",
+   "BurglarDuncanBeatenText",
+   "BurglarDuncanAfterBattleText"
+  ],
+  "TrainerBurglarEddie": [
+   "BurglarEddieSeenText",
+   "BurglarEddieBeatenText",
+   "BurglarEddieAfterBattleText"
+  ],
+  "TrainerGruntF3": [
+   "GruntF3SeenText",
+   "GruntF3BeatenText",
+   "GruntF3AfterBattleText"
+  ],
+  "TrainerGruntM11": [
+   "GruntM11SeenText",
+   "GruntM11BeatenText",
+   "GruntM11AfterBattleText"
+  ],
+  "TrainerGruntM13": [
+   "GruntM13SeenText",
+   "GruntM13BeatenText",
+   "GruntM13AfterBattleText"
+  ],
+  "TrainerGruntM25": [
+   "GruntM25SeenText",
+   "GruntM25BeatenText",
+   "GruntM25AfterBattleText"
+  ],
+  "UndergroundRivalBattleScript": [
+   "UndergroundRivalBeforeText",
+   "UndergroundRivalWinText",
+   "UndergroundRivalLossText",
+   "UndergroundRivalAfterText"
+  ]
+ },
+ "GoldenrodUndergroundWarehouse": {
+  "GoldenrodUndergroundWarehouseDirectorScript": [
+   "DirectorIntroText",
+   "DirectorCardKeyText",
+   "DirectorAfterText"
+  ],
+  "TrainerGruntM14": [
+   "GruntM14SeenText",
+   "GruntM14BeatenText",
+   "GruntM14AfterBattleText"
+  ],
+  "TrainerGruntM15": [
+   "GruntM15SeenText",
+   "GruntM15BeatenText",
+   "GruntM15AfterBattleText"
+  ],
+  "TrainerGruntM24": [
+   "GruntM24SeenText",
+   "GruntM24BeatenText",
+   "GruntM24AfterBattleText"
+  ]
+ },
+ "GuideGentsHouse": {
+  "GuideGentsHouseGuideGent": [
+   "GuideGentsHouseGuideGentText"
+  ]
+ },
+ "HallOfFame": {
+  "HallOfFameEnterScript": [
+   "HallOfFame_LanceText"
+  ]
+ },
+ "IcePath1F": {},
+ "IcePathB1F": {
+  "IcePathB1FSetUpStoneTableCallback": [
+   "IcePathBoulderFellThroughText"
+  ]
+ },
+ "IcePathB2FBlackthornSide": {},
+ "IcePathB2FMahoganySide": {
+  "IcePathB2FMahoganySideBoulder": [
+   "IcePathB2FMahoganySideBoulderText"
+  ]
+ },
+ "IcePathB3F": {},
+ "IlexForest": {
+  "IlexForestCharcoalApprenticeScript": [
+   "IlexForestApprenticeIntroText",
+   "IlexForestApprenticeAfterText"
+  ],
+  "IlexForestCharcoalMasterScript": [
+   "Text_CharcoalMasterIntro",
+   "Text_CharcoalMasterOutro",
+   "Text_CharcoalMasterTalkAfter"
+  ],
+  "IlexForestFarfetchdScript": [
+   "Text_ItsTheMissingPokemon",
+   "Text_Kwaaaa"
+  ],
+  "IlexForestHeadbuttGuyScript": [
+   "Text_HeadbuttIntro",
+   "Text_HeadbuttOutro"
+  ],
+  "IlexForestLassScript": [
+   "Text_IlexForestLass"
+  ],
+  "IlexForestShrineScript": [
+   "Text_IlexForestShrine",
+   "Text_ShrineCelebiEvent",
+   "Text_InsertGSBall",
+   "Text_KurtCaughtCelebi"
+  ],
+  "IlexForestSignpost": [
+   "IlexForestSignpostText"
+  ],
+  "TrainerBugCatcherWayne": [
+   "BugCatcherWayneSeenText",
+   "BugCatcherWayneBeatenText",
+   "BugCatcherWayneAfterBattleText"
+  ]
+ },
+ "IlexForestAzaleaGate": {
+  "IlexForestAzaleaGateGrannyScript": [
+   "IlexForestAzaleaGateGrannyText"
+  ],
+  "IlexForestAzaleaGateOfficerScript": [
+   "IlexForestAzaleaGateOfficerText"
+  ]
+ },
+ "IndigoPlateauPokecenter1F": {
+  "AbraScript": [
+   "AbraText"
+  ],
+  "IndigoPlateauPokecenter1FCooltrainerMScript": [
+   "IndigoPlateauPokecenter1FCooltrainerMText"
+  ],
+  "PlateauRivalBattle1": [
+   "PlateauRivalText1",
+   "PlateauRivalWinText",
+   "PlateauRivalLoseText"
+  ],
+  "PlateauRivalBattleCommon": [
+   "PlateauRivalText1",
+   "PlateauRivalWinText",
+   "PlateauRivalLoseText",
+   "PlateauRivalText2"
+  ],
+  "PlateauRivalPostBattle": [
+   "PlateauRivalText2"
+  ],
+  "TeleportGuyScript": [
+   "TeleportGuyText1",
+   "TeleportGuyYesText",
+   "TeleportGuyNoText"
+  ]
+ },
+ "KarensRoom": {
+  "KarenScript_AfterBattle": [
+   "KarenScript_KarenDefeatText"
+  ],
+  "KarenScript_Battle": [
+   "KarenScript_KarenDefeatText",
+   "KarenScript_KarenBeforeText"
+  ]
+ },
+ "KogasRoom": {
+  "KogaScript_AfterBattle": [
+   "KogaScript_KogaDefeatText"
+  ],
+  "KogaScript_Battle": [
+   "KogaScript_KogaDefeatText",
+   "KogaScript_KogaBeforeText"
+  ]
+ },
+ "KurtsHouse": {
+  "Kurt1": [
+   "KurtsHouseKurtMakingBallsMustWaitText",
+   "KurtsHouseKurtHonoredToMakeBallsText",
+   "KurtsHouseKurtBallsFromApricornsText",
+   "KurtsHouseKurtAskYouHaveAnApricornText",
+   "KurtsHouseKurtItWillTakeADayText",
+   "KurtsHouseKurtThatsALetdownText",
+   "KurtsHouseKurtTurnedOutGreatText",
+   "KurtsHouseKurtDontBotherMeText",
+   "KurtsHouseKurtJustFinishedYourBallText",
+   "KurtsHouseKurtWhatIsThatText",
+   "KurtsHouseKurtImCheckingItNowText",
+   "KurtsHouseKurtAhHaISeeText",
+   "KurtsHouseKurtThisBallStartedToShakeText"
+  ],
+  "Kurt2": [
+   "KurtsHouseKurtImCheckingItNowText",
+   "KurtsHouseKurtAhHaISeeText"
+  ],
+  "KurtMakingBallsScript": [
+   "KurtsHouseKurtGranddaughterHelpingWorkFasterText",
+   "KurtsHouseKurtDontBotherMeText"
+  ],
+  "KurtScript_ImCheckingItNow": [
+   "KurtsHouseKurtImCheckingItNowText",
+   "KurtsHouseKurtAhHaISeeText"
+  ],
+  "KurtsGranddaughter1": [
+   "KurtsGranddaughterHelpText",
+   "KurtsGranddaughterGSBallText",
+   "KurtsGranddaughterFunText",
+   "KurtsGranddaughterSlowpokeGoneText",
+   "KurtsGranddaughterSlowpokeBackText",
+   "KurtsGranddaughterLonelyText",
+   "KurtsGranddaughterDadText"
+  ],
+  "KurtsGranddaughter2Subscript": [
+   "KurtsGranddaughterHelpText",
+   "KurtsGranddaughterGSBallText"
+  ],
+  "KurtsGranddaughterFunScript": [
+   "KurtsGranddaughterFunText"
+  ],
+  "KurtsHouseCelebiStatue": [
+   "KurtsHouseCelebiStatueText"
+  ],
+  "KurtsHouseOakPhoto": [
+   "KurtsHouseOakPhotoText"
+  ],
+  "KurtsHouseSlowpoke": [
+   "KurtsHouseSlowpokeText"
+  ],
+  "Script_FirstTimeBuggingKurt": [
+   "KurtsHouseKurtGranddaughterHelpingWorkFasterText"
+  ]
+ },
+ "LakeOfRage": {
+  "LakeOfRageCooltrainerFScript": [
+   "LakeOfRageCooltrainerFText"
+  ],
+  "LakeOfRageGrampsScript": [
+   "LakeOfRageGrampsText",
+   "LakeOfRageGrampsText_ClearedRocketHideout"
+  ],
+  "LakeOfRageLanceScript": [
+   "LakeOfRageLanceForcedToEvolveText",
+   "LakeOfRageLanceIntroText",
+   "LakeOfRageLanceRadioSignalText",
+   "LakeOfRageLanceRefusedText",
+   "LakeOfRageLanceAskHelpText"
+  ],
+  "LakeOfRageSign": [
+   "LakeOfRageSignText"
+  ],
+  "LakeOfRageSuperNerdScript": [
+   "LakeOfRageSuperNerdText"
+  ],
+  "MagikarpHouseSignScript": [
+   "FishingGurusHouseSignText"
+  ],
+  "RedGyarados": [
+   "LakeOfRageGyaradosCryText",
+   "LakeOfRageGotRedScaleText"
+  ],
+  "TrainerCooltrainerfLois": [
+   "CooltrainerfLoisSeenText",
+   "CooltrainerfLoisBeatenText",
+   "CooltrainerfLoisAfterBattleText"
+  ],
+  "TrainerCooltrainermAaron": [
+   "CooltrainermAaronSeenText",
+   "CooltrainermAaronBeatenText",
+   "CooltrainermAaronAfterBattleText"
+  ],
+  "TrainerFisherAndre": [
+   "FisherAndreSeenText",
+   "FisherAndreBeatenText",
+   "FisherAndreAfterBattleText"
+  ],
+  "TrainerFisherRaymond": [
+   "FisherRaymondSeenText",
+   "FisherRaymondBeatenText",
+   "FisherRaymondAfterBattleText"
+  ],
+  "WesleyNotWednesdayScript": [
+   "WesleyNotWednesdayText"
+  ],
+  "WesleyScript": [
+   "WesleyWednesdayText",
+   "WesleyNotWednesdayText",
+   "MeetWesleyText",
+   "WesleyGivesGiftText",
+   "WesleyGaveGiftText"
+  ],
+  "WesleyWednesdayScript": [
+   "WesleyWednesdayText"
+  ]
+ },
+ "LakeOfRageHiddenPowerHouse": {
+  "HiddenPowerGuy": [
+   "HiddenPowerGuyText1",
+   "HiddenPowerGuyText2",
+   "HiddenPowerGuyText3"
+  ]
+ },
+ "LakeOfRageMagikarpHouse": {
+  "LakeOfRageMagikarpHouseUnusedRecordSign": [
+   "LakeOfRageMagikarpHouseUnusedRecordText"
+  ],
+  "MagikarpLengthRaterScript": [
+   "MagikarpLengthRaterText_LakeOfRageHistory",
+   "MagikarpLengthRaterText_MenInBlack",
+   "MagikarpLengthRaterText_WorldsLargestMagikarp",
+   "MagikarpLengthRaterText_YouHaveAMagikarp",
+   "MagikarpLengthRaterText_Memento",
+   "MagikarpLengthRaterText_Bonus",
+   "MagikarpLengthRaterText_TooShort",
+   "MagikarpLengthRaterText_NotMagikarp",
+   "MagikarpLengthRaterText_Refused"
+  ]
+ },
+ "LancesRoom": {
+  "LancesRoomLanceScript": [
+   "LanceBattleIntroText",
+   "LanceBattleAfterText",
+   "LancesRoomMaryOhNoOakText",
+   "LancesRoomOakCongratulationsText",
+   "LancesRoomMaryInterviewText",
+   "LancesRoomNoisyText",
+   "LancesRoomMaryNoInterviewText"
+  ],
+  "Script_ApproachLanceFromLeft": [
+   "LanceBattleIntroText",
+   "LanceBattleAfterText",
+   "LancesRoomMaryOhNoOakText",
+   "LancesRoomOakCongratulationsText",
+   "LancesRoomMaryInterviewText",
+   "LancesRoomNoisyText",
+   "LancesRoomMaryNoInterviewText"
+  ]
+ },
+ "LavRadioTower1F": {
+  "LavRadioTower1FDirectory": [
+   "LavRadioTower1FDirectoryText"
+  ],
+  "LavRadioTower1FGentlemanScript": [
+   "LavRadioTower1FGentlemanText",
+   "LavRadioTower1FGentlemanText_ReturnedMachinePart",
+   "LavRadioTower1FGentlemanText_GotExpnCard"
+  ],
+  "LavRadioTower1FOfficerScript": [
+   "LavRadioTower1FOfficerText"
+  ],
+  "LavRadioTower1FPokeFluteSign": [
+   "LavRadioTower1FPokeFluteSignText"
+  ],
+  "LavRadioTower1FReceptionistScript": [
+   "LavRadioTower1FReceptionistText"
+  ],
+  "LavRadioTower1FReferenceLibrary": [
+   "LavRadioTower1FReferenceLibraryText"
+  ],
+  "LavRadioTower1FSuperNerd1Script": [
+   "LavRadioTower1FSuperNerd1Text"
+  ],
+  "LavRadioTower1FSuperNerd2Script": [
+   "LavRadioTower1FSuperNerd2Text",
+   "LavRadioTower1FSuperNerd2Text_GotExpnCard"
+  ]
+ },
+ "LavenderMart": {
+  "LavenderMartPokefanMScript": [
+   "LavenderMartPokefanMText"
+  ],
+  "LavenderMartRockerScript": [
+   "LavenderMartRockerText"
+  ]
+ },
+ "LavenderNameRater": {},
+ "LavenderPokecenter1F": {
+  "LavenderPokecenter1FGentlemanScript": [
+   "LavenderPokecenter1FGentlemanText"
+  ],
+  "LavenderPokecenter1FTeacherScript": [
+   "LavenderPokecenter1FTeacherText"
+  ],
+  "LavenderPokecenter1FYoungsterScript": [
+   "LavenderPokecenter1FYoungsterText",
+   "LavenderPokecenter1FYoungsterText_ReturnedMachinePart"
+  ]
+ },
+ "LavenderPokecenter2FBeta": {},
+ "LavenderSpeechHouse": {
+  "LavenderSpeechHousePokefanFScript": [
+   "LavenderSpeechHousePokefanFText"
+  ]
+ },
+ "LavenderTown": {
+  "KantoRadioStationSign": [
+   "KantoRadioStationSignText"
+  ],
+  "LavenderTownGrampsScript": [
+   "LavenderTownGrampsText"
+  ],
+  "LavenderTownPokefanMScript": [
+   "LavenderTownPokefanMText"
+  ],
+  "LavenderTownSign": [
+   "LavenderTownSignText"
+  ],
+  "LavenderTownTeacherScript": [
+   "LavenderTownTeacherText"
+  ],
+  "LavenderTownYoungsterScript": [
+   "LavenderTownYoungsterText"
+  ],
+  "SoulHouseSign": [
+   "SoulHouseSignText"
+  ],
+  "VolunteerPokemonHouseSign": [
+   "VolunteerPokemonHouseSignText"
+  ]
+ },
+ "MahoganyGym": {
+  "MahoganyGymGuideScript": [
+   "MahoganyGymGuideText",
+   "MahoganyGymGuideWinText"
+  ],
+  "MahoganyGymPryceScript": [
+   "PryceText_Intro",
+   "Text_ReceivedGlacierBadge",
+   "PryceText_CherishYourPokemon",
+   "PryceText_GlacierBadgeSpeech",
+   "PryceText_IcyWindSpeech"
+  ],
+  "PryceScript_Defeat": [
+   "PryceText_CherishYourPokemon"
+  ],
+  "TrainerBoarderBrad": [
+   "BoarderBradSeenText",
+   "BoarderBradBeatenText",
+   "BoarderBradAfterBattleText"
+  ],
+  "TrainerBoarderDouglas": [
+   "BoarderDouglasSeenText",
+   "BoarderDouglasBeatenText",
+   "BoarderDouglasAfterBattleText"
+  ],
+  "TrainerBoarderRonald": [
+   "BoarderRonaldSeenText",
+   "BoarderRonaldBeatenText",
+   "BoarderRonaldAfterBattleText"
+  ],
+  "TrainerSkierClarissa": [
+   "SkierClarissaSeenText",
+   "SkierClarissaBeatenText",
+   "SkierClarissaAfterBattleText"
+  ],
+  "TrainerSkierRoxanne": [
+   "SkierRoxanneSeenText",
+   "SkierRoxanneBeatenText",
+   "SkierRoxanneAfterBattleText"
+  ]
+ },
+ "MahoganyMart1F": {
+  "MahoganyMart1FBlackBeltScript": [
+   "MahoganyMart1FBlackBeltText",
+   "MahoganyMart1FBlackBeltText_LanceEntered"
+  ],
+  "MahoganyMart1FLanceUncoversStaircaseScript": [
+   "MahoganyMart1FLanceDragoniteHyperBeamText",
+   "MahoganyMart1FLanceRadioText",
+   "MahoganyMart1FLanceStairsText",
+   "MahoganyMart1FLanceSplitUpText"
+  ],
+  "MahoganyMart1FPharmacistScript": [
+   "MahoganyMart1FPharmacistText_LanceEntered"
+  ]
+ },
+ "MahoganyPokecenter1F": {
+  "MahoganyPokecenter1FCooltrainerFScript": [
+   "MahoganyPokecenter1FCooltrainerFText"
+  ],
+  "MahoganyPokecenter1FPokefanMScript": [
+   "MahoganyPokecenter1FPokefanMText"
+  ],
+  "MahoganyPokecenter1FYoungsterScript": [
+   "MahoganyPokecenter1FYoungsterText"
+  ]
+ },
+ "MahoganyRedGyaradosSpeechHouse": {
+  "MahoganyRedGyaradosSpeechHouseBlackBeltScript": [
+   "MahoganyRedGyaradosSpeechHouseBlackBeltText"
+  ],
+  "MahoganyRedGyaradosSpeechHouseTeacherScript": [
+   "MahoganyRedGyaradosSpeechHouseTeacherText",
+   "MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower"
+  ]
+ },
+ "MahoganyTown": {
+  "MahoganyGymSign": [
+   "MahoganyGymSignText"
+  ],
+  "MahoganyTownFisherScript": [
+   "MahoganyTownFisherText"
+  ],
+  "MahoganyTownGrampsScript": [
+   "MahoganyTownGrampsText",
+   "MahoganyTownGrampsText_ClearedRocketHideout"
+  ],
+  "MahoganyTownLassScript": [
+   "MahoganyTownLassText"
+  ],
+  "MahoganyTownRagecandybarSign": [
+   "MahoganyTownRagecandybarSignText"
+  ],
+  "MahoganyTownSign": [
+   "MahoganyTownSignText"
+  ],
+  "RageCandyBarMerchantScript": [
+   "RageCandyBarMerchantSoldOutText",
+   "RageCandyBarMerchantTryOneText",
+   "RageCandyBarMerchantSavorItText",
+   "RageCandyBarMerchantNotEnoughMoneyText",
+   "RageCandyBarMerchantRefusedText",
+   "RageCandyBarMerchantNoRoomText"
+  ]
+ },
+ "ManiasHouse": {
+  "ManiaScript": [
+   "ManiaText_AskLookAfterShuckle",
+   "ManiaText_TakeCareOfShuckle",
+   "ManiaText_GotShuckle",
+   "ManiaText_PartyFull",
+   "ManiaText_IfHeComesBack",
+   "ManiaText_CanIHaveMyMonBack",
+   "ManiaText_ThankYou",
+   "ManiaText_ShuckleNotThere",
+   "ManiaText_ShuckleLikesYou",
+   "ManiaText_SameAsBeingRobbed",
+   "ManiaText_ShuckleIsYourLastMon",
+   "ManiaText_HappinessSpeech"
+  ]
+ },
+ "MobileBattleRoom": {
+  "MobileBattleRoomConsoleScript": [
+   "MobileBattleRoom_HealText",
+   "MobileBattleRoom_EstablishingCommsText"
+  ]
+ },
+ "MobileTradeRoom": {
+  "MobileTradeRoomConsoleScript": [
+   "MobileTradeRoom_EstablishingCommsText"
+  ]
+ },
+ "MountMoon": {
+  "MountMoonRivalBattleScript": [
+   "MountMoonRivalTextBefore",
+   "MountMoonRivalTextWin",
+   "MountMoonRivalTextLoss",
+   "MountMoonRivalTextAfter"
+  ]
+ },
+ "MountMoonGiftShop": {
+  "MountMoonGiftShopLassScript": [
+   "MountMoonGiftShopLassText"
+  ]
+ },
+ "MountMoonSquare": {
+  "DontLitterSign": [
+   "DontLitterSignText"
+  ]
+ },
+ "MountMortar1FInside": {
+  "TrainerPokemaniacMiller": [
+   "PokemaniacMillerSeenText",
+   "PokemaniacMillerBeatenText",
+   "PokemaniacMillerAfterBattleText"
+  ],
+  "TrainerSupernerdMarkus": [
+   "SupernerdMarkusSeenText",
+   "SupernerdMarkusBeatenText",
+   "SupernerdMarkusAfterBattleText"
+  ]
+ },
+ "MountMortar1FOutside": {},
+ "MountMortar2FInside": {
+  "TrainerSupernerdHugh": [
+   "SupernerdHughSeenText",
+   "SupernerdHughBeatenText",
+   "SupernerdHughAfterBattleText"
+  ]
+ },
+ "MountMortarB1F": {
+  "MountMortarB1FKiyoScript": [
+   "MountMortarB1FKiyoIntroText",
+   "MountMortarB1FTyrogueRewardText",
+   "MountMortarB1FReceiveMonText",
+   "MountMortarB1FKiyoGotTyrogueText",
+   "MountMortarB1FKiyoFullPartyText"
+  ]
+ },
+ "MoveDeletersHouse": {},
+ "MrFujisHouse": {
+  "MrFujisHouseLassScript": [
+   "MrFujisHouseLassText"
+  ],
+  "MrFujisHouseSuperNerdScript": [
+   "MrFujisHouseSuperNerdText"
+  ],
+  "MrFujisNidorino": [
+   "MrFujisNidorinoText"
+  ],
+  "MrFujisPidgey": [
+   "MrFujisPidgeyText"
+  ],
+  "MrFujisPsyduck": [
+   "MrFujisPsyduckText"
+  ]
+ },
+ "MrPokemonsHouse": {
+  "MrPokemonsHouseMrPokemonEventScript": [
+   "MrPokemonIntroText1",
+   "MrPokemonIntroText2",
+   "MrPokemonsHouse_GotEggText",
+   "MrPokemonIntroText3",
+   "MrPokemonIntroText4",
+   "MrPokemonIntroText5",
+   "MrPokemonsHouse_OakText1",
+   "MrPokemonsHouse_GetDexText",
+   "MrPokemonsHouse_OakText2",
+   "MrPokemonsHouse_MrPokemonHealText",
+   "MrPokemonText_ImDependingOnYou"
+  ],
+  "MrPokemonsHouse_BrokenComputer": [
+   "MrPokemonsHouse_BrokenComputerText"
+  ],
+  "MrPokemonsHouse_ForeignMagazines": [
+   "MrPokemonsHouse_ForeignMagazinesText"
+  ],
+  "MrPokemonsHouse_MrPokemonScript": [
+   "MrPokemonText_ImDependingOnYou",
+   "MrPokemonText_AlwaysNewDiscoveries",
+   "MrPokemonText_GimmeTheScale",
+   "MrPokemonText_Disappointed"
+  ],
+  "MrPokemonsHouse_OakScript": [
+   "MrPokemonsHouse_OakText1",
+   "MrPokemonsHouse_GetDexText",
+   "MrPokemonsHouse_OakText2",
+   "MrPokemonsHouse_MrPokemonHealText",
+   "MrPokemonText_ImDependingOnYou"
+  ],
+  "MrPokemonsHouse_StrangeCoins": [
+   "MrPokemonsHouse_StrangeCoinsText"
+  ]
+ },
+ "MrPsychicsHouse": {
+  "MrPsychic": [
+   "MrPsychicText1",
+   "MrPsychicText2"
+  ]
+ },
+ "NationalPark": {
+  "NationalParkBattleNoticeSign": [
+   "NationalParkBattleNoticeText"
+  ],
+  "NationalParkGameboyKidScript": [
+   "NationalParkGameboyKidText"
+  ],
+  "NationalParkLassScript": [
+   "NationalParkLassText"
+  ],
+  "NationalParkPersian": [
+   "NationalParkPersianText"
+  ],
+  "NationalParkPokefanFScript": [
+   "NationalParkPokefanFText"
+  ],
+  "NationalParkRelaxationSquareSign": [
+   "NationalParkRelaxationSquareText"
+  ],
+  "NationalParkTeacher1Script": [
+   "NationalParkTeacher1Text",
+   "NationalParkTeacher1Text_GotQuickClaw"
+  ],
+  "NationalParkTeacher2Script": [
+   "NationalParkTeacher2Text"
+  ],
+  "NationalParkTrainerTipsSign": [
+   "NationalParkTrainerTipsText"
+  ],
+  "NationalParkYoungster1Script": [
+   "NationalParkYoungster1Text"
+  ],
+  "NationalParkYoungster2Script": [
+   "NationalParkYoungster2Text"
+  ],
+  "TrainerLassKrise": [
+   "LassKriseSeenText",
+   "LassKriseBeatenText",
+   "LassKriseAfterBattleText"
+  ],
+  "TrainerPokefanfBeverly1": [
+   "PokefanfBeverly1SeenText",
+   "PokefanfBeverly1BeatenText",
+   "PokefanBeverlyCuteMonText",
+   "PokefanFBeverlyMarillFriendText"
+  ],
+  "TrainerPokefanmWilliam": [
+   "PokefanmWilliamSeenText",
+   "PokefanmWilliamBeatenText",
+   "PokefanmWilliamAfterBattleText"
+  ],
+  "TrainerSchoolboyJack1": [
+   "SchoolboyJack1SeenText",
+   "SchoolboyJack1BeatenText",
+   "SchoolboyJackTradeMonText"
+  ]
+ },
+ "NationalParkBugContest": {
+  "BugCatchingContestant10AScript": [
+   "BugCatchingContestant10AText"
+  ],
+  "BugCatchingContestant1AScript": [
+   "BugCatchingContestant1AText"
+  ],
+  "BugCatchingContestant2AScript": [
+   "BugCatchingContestant2AText"
+  ],
+  "BugCatchingContestant3AScript": [
+   "BugCatchingContestant3AText"
+  ],
+  "BugCatchingContestant4AScript": [
+   "BugCatchingContestant4AText"
+  ],
+  "BugCatchingContestant5AScript": [
+   "BugCatchingContestant5AText"
+  ],
+  "BugCatchingContestant6AScript": [
+   "BugCatchingContestant6AText"
+  ],
+  "BugCatchingContestant7AScript": [
+   "BugCatchingContestant7AText"
+  ],
+  "BugCatchingContestant8AScript": [
+   "BugCatchingContestant8AText"
+  ],
+  "BugCatchingContestant9AScript": [
+   "BugCatchingContestant9AText"
+  ],
+  "NationalParkBugContestBattleNoticeSign": [
+   "NationalParkBugContestBattleNoticeText"
+  ],
+  "NationalParkBugContestRelaxationSquareSign": [
+   "NationalParkBugContestRelaxationSquareText"
+  ],
+  "NationalParkBugContestTrainerTipsSign": [
+   "NationalParkBugContestTrainerTipsText"
+  ]
+ },
+ "NewBarkTown": {
+  "NewBarkTownElmsHouseSign": [
+   "NewBarkTownElmsHouseSignText"
+  ],
+  "NewBarkTownElmsLabSign": [
+   "NewBarkTownElmsLabSignText"
+  ],
+  "NewBarkTownFisherScript": [
+   "Text_ElmDiscoveredNewMon"
+  ],
+  "NewBarkTownPlayersHouseSign": [
+   "NewBarkTownPlayersHouseSignText"
+  ],
+  "NewBarkTownRivalScript": [
+   "NewBarkTownRivalText1",
+   "NewBarkTownRivalText2"
+  ],
+  "NewBarkTownSign": [
+   "NewBarkTownSignText"
+  ],
+  "NewBarkTownTeacherScript": [
+   "Text_GearIsImpressive",
+   "Text_YourMonIsAdorable",
+   "Text_TellMomIfLeaving",
+   "Text_CallMomOnGear"
+  ],
+  "NewBarkTown_TeacherStopsYouScene1": [
+   "Text_WaitPlayer",
+   "Text_WhatDoYouThinkYoureDoing",
+   "Text_ItsDangerousToGoAlone"
+  ],
+  "NewBarkTown_TeacherStopsYouScene2": [
+   "Text_WaitPlayer",
+   "Text_WhatDoYouThinkYoureDoing",
+   "Text_ItsDangerousToGoAlone"
+  ]
+ },
+ "OaksLab": {
+  "Oak": [
+   "OakWelcomeKantoText",
+   "OakLabDexCheckText",
+   "OakLabGoodbyeText",
+   "OakOpenMtSilverText",
+   "OakNoKantoBadgesText",
+   "OakYesKantoBadgesText"
+  ],
+  "OaksAssistant1Script": [
+   "OaksAssistant1Text"
+  ],
+  "OaksAssistant2Script": [
+   "OaksAssistant2Text"
+  ],
+  "OaksAssistant3Script": [
+   "OaksAssistant3Text"
+  ],
+  "OaksLabPC": [
+   "OaksLabPCText"
+  ],
+  "OaksLabPoster1": [
+   "OaksLabPoster1Text"
+  ],
+  "OaksLabPoster2": [
+   "OaksLabPoster2Text"
+  ],
+  "OaksLabTrashcan": [
+   "OaksLabTrashcanText"
+  ]
+ },
+ "OlivineCafe": {
+  "OlivineCafeFishingGuruScript": [
+   "OlivineCafeFishingGuruText"
+  ],
+  "OlivineCafeSailorScript": [
+   "OlivineCafeSailorText"
+  ],
+  "OlivineCafeStrengthSailorScript": [
+   "OlivineCafeStrengthSailorText",
+   "OlivineCafeStrengthSailorText_GotStrength"
+  ]
+ },
+ "OlivineCity": {
+  "OlivineCityBattleTowerSign": [
+   "OlivineCityBattleTowerSignText"
+  ],
+  "OlivineCityPortSign": [
+   "OlivineCityPortSignText"
+  ],
+  "OlivineCityRivalSceneBottom": [
+   "OlivineCityRivalText"
+  ],
+  "OlivineCityRivalSceneTop": [
+   "OlivineCityRivalText"
+  ],
+  "OlivineCitySailor1Script": [
+   "OlivineCitySailor1Text"
+  ],
+  "OlivineCitySailor2Script": [
+   "OlivineCitySailor2Text"
+  ],
+  "OlivineCitySign": [
+   "OlivineCitySignText"
+  ],
+  "OlivineCityStandingYoungsterScript": [
+   "OlivineCityStandingYoungsterPokegearText",
+   "OlivineCityStandingYoungsterPokedexText"
+  ],
+  "OlivineGymSign": [
+   "OlivineGymSignText"
+  ],
+  "OlivineLighthouseSign": [
+   "OlivineLighthouseSignText"
+  ]
+ },
+ "OlivineGoodRodHouse": {
+  "GoodRodGuru": [
+   "OfferGoodRodText",
+   "GiveGoodRodText",
+   "GaveGoodRodText",
+   "DontWantGoodRodText",
+   "HaveGoodRodText"
+  ]
+ },
+ "OlivineGym": {
+  "OlivineGymGuideScript": [
+   "OlivineGymGuideText",
+   "OlivineGymGuideWinText",
+   "OlivineGymGuidePreText"
+  ],
+  "OlivineGymJasmineScript": [
+   "Jasmine_SteelTypeIntro",
+   "Text_ReceivedMineralBadge",
+   "Jasmine_BadgeSpeech",
+   "Jasmine_IronTailSpeech",
+   "Jasmine_GoodLuck"
+  ]
+ },
+ "OlivineHouseBeta": {
+  "OlivineHouseBetaRhydonScript": [
+   "OlivineHouseBetaRhydonText"
+  ],
+  "OlivineHouseBetaTeacherScript": [
+   "OlivineHouseBetaTeacherText"
+  ]
+ },
+ "OlivineLighthouse1F": {
+  "OlivineLighthouse1FPokefanFScript": [
+   "OlivineLighthouse1FPokefanFText"
+  ],
+  "OlivineLighthouse1FSailorScript": [
+   "OlivineLighthouse1FSailorText"
+  ]
+ },
+ "OlivineLighthouse2F": {
+  "TrainerGentlemanAlfred": [
+   "GentlemanAlfredSeenText",
+   "GentlemanAlfredBeatenText",
+   "GentlemanAlfredAfterBattleText"
+  ],
+  "TrainerSailorHuey": [
+   "SailorHueySeenText",
+   "SailorHueyBeatenText",
+   "SailorHueyGiveProteinText"
+  ]
+ },
+ "OlivineLighthouse3F": {
+  "TrainerBirdKeeperTheo": [
+   "BirdKeeperTheoSeenText",
+   "BirdKeeperTheoBeatenText",
+   "BirdKeeperTheoAfterBattleText"
+  ],
+  "TrainerGentlemanPreston": [
+   "GentlemanPrestonSeenText",
+   "GentlemanPrestonBeatenText",
+   "GentlemanPrestonAfterBattleText"
+  ],
+  "TrainerSailorTerrell": [
+   "SailorTerrellSeenText",
+   "SailorTerrellBeatenText",
+   "SailorTerrellAfterBattleText"
+  ]
+ },
+ "OlivineLighthouse4F": {
+  "TrainerLassConnie": [
+   "LassConnie1SeenText",
+   "LassConnie1BeatenText",
+   "LassConnie1AfterBattleText"
+  ],
+  "TrainerSailorKent": [
+   "SailorKentSeenText",
+   "SailorKentBeatenText",
+   "SailorKentAfterBattleText"
+  ]
+ },
+ "OlivineLighthouse5F": {
+  "TrainerBirdKeeperDenis": [
+   "BirdKeeperDenisSeenText",
+   "BirdKeeperDenisBeatenText",
+   "BirdKeeperDenisAfterBattleText"
+  ],
+  "TrainerSailorErnest": [
+   "SailorErnestSeenText",
+   "SailorErnestBeatenText",
+   "SailorErnestAfterBattleText"
+  ]
+ },
+ "OlivineLighthouse6F": {
+  "OlivineLighthouseAmphy": [
+   "AmphyPalPalooText",
+   "AmphyBreathingLaboredText",
+   "AmphyPaluPaluluText"
+  ],
+  "OlivineLighthouseJasmine": [
+   "JasmineCianwoodPharmacyText",
+   "JasmineGetSomeMedicineText",
+   "JasmineCureAmphyText",
+   "PlayerHandedSecretpotionText",
+   "JasmineDontBeOffendedText",
+   "JasmineAmphyHowAreYouFeelingText",
+   "AmphyPaluPaluluText",
+   "JasmineThankYouText",
+   "JasmineISeeText",
+   "JasmineAmphyHangOnText"
+  ]
+ },
+ "OlivineMart": {
+  "OlivineMartCooltrainerFScript": [
+   "OlivineMartCooltrainerFText"
+  ],
+  "OlivineMartLassScript": [
+   "OlivineMartLassText"
+  ]
+ },
+ "OlivinePokecenter1F": {
+  "OlivinePokecenter1FFisherScript": [
+   "OlivinePokecenter1FFisherText"
+  ],
+  "OlivinePokecenter1FTeacherScript": [
+   "OlivinePokecenter1FTeacherText"
+  ]
+ },
+ "OlivinePort": {
+  "OlivinePortAlreadyRodeScript": [
+   "OlivinePortCantBoardText"
+  ],
+  "OlivinePortCooltrainerFScript": [
+   "OlivinePortCooltrainerFText"
+  ],
+  "OlivinePortFishingGuru1Script": [
+   "OlivinePortFishingGuru1Text"
+  ],
+  "OlivinePortFishingGuru2Script": [
+   "OlivinePortFishingGuru2Text"
+  ],
+  "OlivinePortNotRidingMoveAwayScript": [
+   "OlivinePortComeAgainText"
+  ],
+  "OlivinePortNotRidingScript": [
+   "OlivinePortComeAgainText"
+  ],
+  "OlivinePortSailorAfterHOFScript": [
+   "OlivinePortCantBoardText",
+   "OlivinePortAskBoardText",
+   "OlivinePortComeAgainText",
+   "OlivinePortAskTicketText",
+   "OlivinePortFlashTicketText",
+   "OlivinePortSailorGetOnBoardText",
+   "OlivinePortNoTicketText",
+   "OlivinePortMondayShipText",
+   "OlivinePortFridayShipText"
+  ],
+  "OlivinePortSailorAtGangwayScript": [
+   "OlivinePortCantBoardText",
+   "OlivinePortSailorGetOnBoardText"
+  ],
+  "OlivinePortSailorBeforeHOFScript": [
+   "OlivinePortSailorBeforeHOFText"
+  ],
+  "OlivinePortWalkUpToShipScript": [
+   "OlivinePortAskBoardText",
+   "OlivinePortComeAgainText",
+   "OlivinePortAskTicketText",
+   "OlivinePortFlashTicketText",
+   "OlivinePortSailorGetOnBoardText",
+   "OlivinePortNoTicketText",
+   "OlivinePortMondayShipText",
+   "OlivinePortFridayShipText"
+  ],
+  "OlivinePortYoungsterScript": [
+   "OlivinePortYoungsterText"
+  ]
+ },
+ "OlivinePortPassage": {
+  "OlivinePortPassagePokefanMScript": [
+   "OlivinePortPassagePokefanMText"
+  ]
+ },
+ "OlivinePunishmentSpeechHouse": {
+  "OlivinePunishmentSpeechHouseDad": [
+   "OlivinePunishmentSpeechHouseDadText"
+  ],
+  "OlivinePunishmentSpeechHouseDaughter": [
+   "OlivinePunishmentSpeechHouseDaughterText"
+  ]
+ },
+ "OlivineTimsHouse": {},
+ "PalletTown": {
+  "BluesHouseSign": [
+   "BluesHouseSignText"
+  ],
+  "OaksLabSign": [
+   "OaksLabSignText"
+  ],
+  "PalletTownFisherScript": [
+   "PalletTownFisherText"
+  ],
+  "PalletTownSign": [
+   "PalletTownSignText"
+  ],
+  "PalletTownTeacherScript": [
+   "PalletTownTeacherText"
+  ],
+  "RedsHouseSign": [
+   "RedsHouseSignText"
+  ]
+ },
+ "PewterCity": {
+  "PewterCityBugCatcherScript": [
+   "PewterCityBugCatcherText"
+  ],
+  "PewterCityCooltrainerFScript": [
+   "PewterCityCooltrainerFText"
+  ],
+  "PewterCityGrampsScript": [
+   "PewterCityGrampsText",
+   "PewterCityGrampsText_GotSilverWing"
+  ],
+  "PewterCityMtMoonGiftShopSign": [
+   "PewterCityMtMoonGiftShopSignText"
+  ],
+  "PewterCitySign": [
+   "PewterCitySignText"
+  ],
+  "PewterCityWelcomeSign": [
+   "PewterCityWelcomeSignText"
+  ],
+  "PewterGymSign": [
+   "PewterGymSignText"
+  ],
+  "PewterMuseumSign": [
+   "PewterMuseumSignText"
+  ]
+ },
+ "PewterGym": {
+  "PewterGymBrockScript": [
+   "BrockIntroText",
+   "ReceivedBoulderBadgeText",
+   "BrockBoulderBadgeText",
+   "BrockFightDoneText"
+  ],
+  "PewterGymGuideScript": [
+   "PewterGymGuideText",
+   "PewterGymGuideWinText"
+  ],
+  "TrainerCamperJerry": [
+   "CamperJerrySeenText",
+   "CamperJerryBeatenText",
+   "CamperJerryAfterBattleText"
+  ]
+ },
+ "PewterMart": {
+  "PewterMartSuperNerdScript": [
+   "PewterMartSuperNerdText"
+  ],
+  "PewterMartYoungsterScript": [
+   "PewterMartYoungsterText"
+  ]
+ },
+ "PewterNidoranSpeechHouse": {
+  "PewterNidoran": [
+   "PewterNidoranText"
+  ],
+  "PewterNidoranSpeechHouseSuperNerdScript": [
+   "PewterNidoranSpeechHouseSuperNerdText"
+  ]
+ },
+ "PewterPokecenter1F": {
+  "PewterJigglypuff": [
+   "PewterJigglypuffText"
+  ],
+  "PewterPokecenter1FBugCatcherScript": [
+   "PewterPokecenter1FBugCatcherText"
+  ],
+  "PewterPokecenter1FTeacherScript": [
+   "PewterPokecenter1FTeacherText"
+  ]
+ },
+ "PewterPokecenter2FBeta": {},
+ "PewterSnoozeSpeechHouse": {
+  "PewterSnoozeSpeechHouseGrampsScript": [
+   "PewterSnoozeSpeechHouseGrampsText"
+  ]
+ },
+ "PlayersHouse1F": {
+  "MeetMomRightScript": [
+   "ElmsLookingForYouText",
+   "MomGivesPokegearText",
+   "IsItDSTText",
+   "ComeHomeForDSTText",
+   "KnowTheInstructionsText",
+   "DontKnowTheInstructionsText",
+   "InstructionsNextText"
+  ],
+  "MeetMomScript": [
+   "ElmsLookingForYouText",
+   "MomGivesPokegearText",
+   "IsItDSTText",
+   "ComeHomeForDSTText",
+   "KnowTheInstructionsText",
+   "DontKnowTheInstructionsText",
+   "InstructionsNextText"
+  ],
+  "MeetMomTalkedScript": [
+   "ElmsLookingForYouText",
+   "MomGivesPokegearText",
+   "IsItDSTText",
+   "ComeHomeForDSTText",
+   "KnowTheInstructionsText",
+   "DontKnowTheInstructionsText",
+   "InstructionsNextText"
+  ],
+  "MomScript": [
+   "HurryUpElmIsWaitingText",
+   "SoWhatWasProfElmsErrandText",
+   "ImBehindYouText"
+  ],
+  "NeighborScript": [
+   "NeighborMornIntroText",
+   "NeighborDayIntroText",
+   "NeighborNiteIntroText",
+   "NeighborText"
+  ],
+  "PlayersHouse1FFridgeScript": [
+   "PlayersHouse1FFridgeText"
+  ],
+  "PlayersHouse1FSinkScript": [
+   "PlayersHouse1FSinkText"
+  ],
+  "PlayersHouse1FStoveScript": [
+   "PlayersHouse1FStoveText"
+  ],
+  "PlayersHouse1FTVScript": [
+   "PlayersHouse1FTVText"
+  ]
+ },
+ "PlayersHouse2F": {
+  "PlayersHouseRadioScript": [
+   "PlayersRadioText1",
+   "PlayersRadioText2",
+   "PlayersRadioText3",
+   "PlayersRadioText4"
+  ]
+ },
+ "PlayersNeighborsHouse": {
+  "PlayersNeighborScript": [
+   "PlayersNeighborText"
+  ],
+  "PlayersNeighborsDaughterScript": [
+   "PlayersNeighborsDaughterText"
+  ],
+  "PlayersNeighborsHouseRadioScript": [
+   "PlayerNeighborRadioText1",
+   "PlayerNeighborRadioText2",
+   "PlayerNeighborRadioText3",
+   "PlayerNeighborRadioText4"
+  ]
+ },
+ "PokeSeersHouse": {},
+ "Pokecenter2F": {
+  "LinkReceptionistScript_Battle": [
+   "Text_BattleRoomClosed",
+   "Text_BattleReceptionistIntro",
+   "Text_BattleReceptionistMobile",
+   "Text_PleaseWait",
+   "Text_MustSaveGame",
+   "Text_PleaseComeIn",
+   "YourFriendIsNotReadyText",
+   "Text_CantLinkToThePast",
+   "Text_IncompatibleRooms",
+   "Text_LinkTimedOut",
+   "Text_PleaseComeAgain",
+   "Text_BrokeStadiumRules"
+  ],
+  "LinkReceptionistScript_TimeCapsule": [
+   "Text_TimeCapsuleClosed",
+   "Text_TimeCapsuleReceptionistIntro",
+   "Text_PleaseWait",
+   "Text_MustSaveGame",
+   "Text_IncompatibleRooms",
+   "Text_PleaseComeIn",
+   "YourFriendIsNotReadyText",
+   "Text_LinkTimedOut",
+   "Text_PleaseComeAgain",
+   "Text_RejectNewMon",
+   "Text_RejectMonWithNewMove",
+   "Text_RejectMonWithMail"
+  ],
+  "LinkReceptionistScript_Trade": [
+   "Text_TradeRoomClosed",
+   "Text_TradeReceptionistIntro",
+   "Text_TradeReceptionistMobile",
+   "Text_PleaseWait",
+   "Text_MustSaveGame",
+   "Text_PleaseComeIn",
+   "YourFriendIsNotReadyText",
+   "Text_CantLinkToThePast",
+   "Text_IncompatibleRooms",
+   "Text_LinkTimedOut",
+   "Text_PleaseComeAgain"
+  ],
+  "Pokecenter2FOfficerScript": [
+   "Text_MysteryGiftDeliveryGuy_Intro",
+   "Text_MysteryGiftDeliveryGuy_HereYouGo",
+   "Text_MysteryGiftDeliveryGuy_Outro",
+   "Text_MysteryGiftDeliveryGuy_NoRoom",
+   "Text_MysteryGiftDeliveryGuy_SaidNo"
+  ],
+  "Pokecenter2F_CheckGender": [
+   "Text_OhPleaseWait",
+   "Text_ChangeTheLook",
+   "Text_LikeTheLook"
+  ],
+  "Script_BattleRoomClosed": [
+   "Text_BattleRoomClosed"
+  ],
+  "Script_TimeCapsuleClosed": [
+   "Text_TimeCapsuleClosed"
+  ],
+  "Script_TradeCenterClosed": [
+   "Text_TradeRoomClosed"
+  ],
+  "TimeCapsuleScript_CheckPlayerGender": [
+   "Text_OhPleaseWait",
+   "Text_ChangeTheLook",
+   "Text_LikeTheLook"
+  ]
+ },
+ "PokecomCenterAdminOfficeMobile": {
+  "PokecomCenterAdminOfficeMobileComputer1": [
+   "PokecomCenterAdminOfficeMobileComputer1Text",
+   "PokecomCenterAdminOfficeMobileComputer1Text_PokeComClub",
+   "PokecomCenterAdminOfficeMobileComputer1Text_MobileCenter"
+  ],
+  "PokecomCenterAdminOfficeMobileComputer2": [
+   "PokecomCenterAdminOfficeMobileComputer2Text",
+   "PokecomCenterAdminOfficeMobileComputer2Text_UsePhone",
+   "PokecomCenterAdminOfficeMobileComputer2Text_DontUsePhone"
+  ],
+  "PokecomCenterAdminOfficeMobileComputer3": [
+   "PokecomCenterAdminOfficeMobileComputer3Text"
+  ],
+  "PokecomCenterAdminOfficeMobileScientist1Script": [
+   "PokecomCenterAdminOfficeMobileScientist1Text"
+  ],
+  "PokecomCenterAdminOfficeMobileScientist2Script": [
+   "PokecomCenterAdminOfficeMobileScientist2Text"
+  ],
+  "PokecomCenterAdminOfficeMobileScientist3Script": [
+   "PokecomCenterAdminOfficeMobileScientist3Text"
+  ]
+ },
+ "PokemonFanClub": {
+  "PokemonFanClubBayleefScript": [
+   "PokemonFanClubBayleefText"
+  ],
+  "PokemonFanClubBraggingSign": [
+   "PokemonFanClubBraggingSignText"
+  ],
+  "PokemonFanClubChairmanScript": [
+   "PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText",
+   "PokemonFanClubChairmanRapidashText",
+   "PokemonFanClubChairmanIWantYouToHaveThisText",
+   "PokemonFanClubChairmanItsARareCandyText",
+   "PokemonFanClubChairmanMoreTalesToTellText",
+   "PokemonFanClubChairmanHowDisappointingText"
+  ],
+  "PokemonFanClubClefairyDollScript": [
+   "PokemonFanClubClefairyDollText"
+  ],
+  "PokemonFanClubClefairyGuyScript": [
+   "PokemonFanClubClefairyGuyClefairyIsSoAdorableText",
+   "PokemonFanClubClefairyGuyMakingDoWithADollIFoundText",
+   "PokemonFanClubClefairyGuyTakeThisDollBackToGirlText",
+   "PokemonFanClubPlayerReceivedDollText",
+   "PokemonFanClubClefairyGuyGoingToGetARealClefairyText",
+   "PokemonFanClubClefairyGuyPackIsJammedFullText"
+  ],
+  "PokemonFanClubListenSign": [
+   "PokemonFanClubListenSignText"
+  ],
+  "PokemonFanClubReceptionistScript": [
+   "PokemonFanClubReceptionistText"
+  ],
+  "PokemonFanClubTeacherScript": [
+   "PokemonFanClubTeacherText"
+  ]
+ },
+ "PowerPlant": {
+  "PowerPlantGuardPhoneScript": [
+   "PowerPlantOfficer1CeruleanShadyCharacterText",
+   "PowerPlantOfficer1CouldIAskForYourCooperationText"
+  ],
+  "PowerPlantGymGuide1Script": [
+   "PowerPlantGymGuide1SomeoneStoleAPartText",
+   "PowerPlantGymGuide1GeneratorUpAndRunningText"
+  ],
+  "PowerPlantGymGuide2Script": [
+   "PowerPlantGymGuide2PowerPlantUpAndRunningText",
+   "PowerPlantGymGuide2GeneratorIsRunningAgainText"
+  ],
+  "PowerPlantGymGuide4Script": [
+   "PowerPlantGymGuide4MagnetTrainConsumesElectricityText",
+   "PowerPlantGymGuide4WeCanGetMagnetTrainRunningText"
+  ],
+  "PowerPlantManager": [
+   "PowerPlantManagerWhoWouldRuinMyGeneratorText",
+   "PowerPlantManagerIWontForgiveCulpritText",
+   "PowerPlantManagerThatsThePartText",
+   "PowerPlantManagerTakeThisTMText",
+   "PowerPlantManagerTM07IsZapCannonText",
+   "PowerPlantManagerMyBelovedGeneratorText"
+  ],
+  "PowerPlantOfficer2Script": [
+   "PowerPlantOfficer2ManagerHasBeenSadAndFuriousText",
+   "PowerPlantOfficer2ManagerHasBeenCheerfulText"
+  ],
+  "PowerPlantOfficerScript": [
+   "PowerPlantOfficer1AThiefBrokeInText",
+   "PowerPlantOfficer1CouldIAskForYourCooperationText",
+   "PowerPlantOfficer1HaveToBeefUpSecurityText"
+  ]
+ },
+ "RadioTower1F": {
+  "RadioTower1FDirectory": [
+   "RadioTower1FDirectoryText"
+  ],
+  "RadioTower1FLassScript": [
+   "RadioTower1FLassText"
+  ],
+  "RadioTower1FLuckyChannelSign": [
+   "RadioTower1FLuckyChannelSignText"
+  ],
+  "RadioTower1FLuckyNumberManScript": [
+   "RadioTower1FLuckyNumberManAskToPlayText",
+   "RadioTower1FLuckyNumberManThisWeeksIdIsText",
+   "RadioTower1FLuckyNumberManCheckIfMatchText",
+   "RadioTower1FLuckyNumberManDotDotDotText",
+   "RadioTower1FLuckyNumberManComeAgainText",
+   "RadioTower1FLuckyNumberManPerfectMatchText",
+   "RadioTower1FLuckyNumberManOkayMatchText",
+   "RadioTower1FLuckyNumberManWeakMatchText",
+   "RadioTower1FLuckyNumberManNoneOfYourIDNumbersMatchText",
+   "RadioTower1FLuckyNumberManNoRoomForYourPrizeText"
+  ],
+  "RadioTower1FRadioCardWomanScript": [
+   "RadioTower1FRadioCardWomanOfferQuizText",
+   "RadioTower1FRadioCardWomanQuestion1Text",
+   "RadioTower1FRadioCardWomanQuestion2Text",
+   "RadioTower1FRadioCardWomanQuestion3Text",
+   "RadioTower1FRadioCardWomanQuestion4Text",
+   "RadioTower1FRadioCardWomanQuestion5Text",
+   "RadioTower1FRadioCardWomanYouWinText",
+   "RadioTower1FPokegearIsARadioText",
+   "RadioTower1FRadioCardWomanTuneInText",
+   "RadioTower1FRadioCardWomanWrongAnswerText",
+   "RadioTower1FRadioCardWomanNotTakingQuizText"
+  ],
+  "RadioTower1FReceptionistScript": [
+   "RadioTower1FReceptionistWelcomeText",
+   "RadioTower1FReceptionistNoToursText"
+  ],
+  "RadioTower1FYoungsterScript": [
+   "RadioTower1FYoungsterText"
+  ],
+  "TrainerGruntM3": [
+   "GruntM3SeenText",
+   "GruntM3BeatenText",
+   "GruntM3AfterBattleText"
+  ]
+ },
+ "RadioTower2F": {
+  "Buena": [
+   "RadioTower2FBuenaDoYouKnowPasswordText",
+   "RadioTower2FBuenaJoinTheShowText",
+   "RadioTower2FBuenaEveryoneSayPasswordText",
+   "RadioTower2FBuenaCorrectAnswerText",
+   "RadioTower2FBuenaThanksForComingText",
+   "RadioTower2FBuenaShowIntroductionText",
+   "RadioTower2FBuenaTuneInToMyShowText",
+   "RadioTower2FBuenaComeBackAfterListeningText",
+   "RadioTower2FBuenaAlreadyPlayedText",
+   "RadioTower2FBuenaDidYouForgetText",
+   "RadioTower2FBuenaPasswordIsHelpText",
+   "RadioTower2FBuenaNoBlueCardText",
+   "RadioTower2FBuenaCardIsFullText",
+   "RadioTower2FBuenaTuneInAfterSixText",
+   "RadioTower2FBuenaOfferPhoneNumberText",
+   "RadioTower2FBuenaOfferNumberAgainText",
+   "RadioTower2FRegisteredBuenasNumberText",
+   "RadioTower2FBuenaCallMeText",
+   "RadioTower2FBuenaSadRejectedText",
+   "RadioTower2FBuenaYourPhoneIsFullText"
+  ],
+  "RadioTower2FBlackBelt1Script": [
+   "RadioTower2FBlackBelt1Text"
+  ],
+  "RadioTower2FBlackBelt2Script": [
+   "RadioTower2FBlackBelt2Text"
+  ],
+  "RadioTower2FOaksPKMNTalkSign": [
+   "RadioTower2FOaksPKMNTalkSignText"
+  ],
+  "RadioTower2FPokemonRadioSign": [
+   "RadioTower2FPokemonRadioSignText"
+  ],
+  "RadioTower2FSalesSign": [
+   "RadioTower2FSalesSignText"
+  ],
+  "RadioTower2FSuperNerdScript": [
+   "RadioTower2FSuperNerdText"
+  ],
+  "RadioTower2FTeacherScript": [
+   "RadioTower2FTeacherText",
+   "RadioTower2FTeacherText_Rockets"
+  ],
+  "RadioTowerBuenaPrizeReceptionist": [
+   "RadioTower2FBuenaReceptionistPointsForPrizesText",
+   "RadioTower2FBuenaReceptionistNoCardText"
+  ],
+  "RadioTowerJigglypuff": [
+   "RadioTowerJigglypuffText"
+  ],
+  "TrainerGruntF2": [
+   "GruntF2SeenText",
+   "GruntF2BeatenText",
+   "GruntF2AfterBattleText"
+  ],
+  "TrainerGruntM4": [
+   "GruntM4SeenText",
+   "GruntM4BeatenText",
+   "GruntM4AfterBattleText"
+  ],
+  "TrainerGruntM5": [
+   "GruntM5SeenText",
+   "GruntM5BeatenText",
+   "GruntM5AfterBattleText"
+  ],
+  "TrainerGruntM6": [
+   "GruntM6SeenText",
+   "GruntM6BeatenText",
+   "GruntM6AfterBattleText"
+  ]
+ },
+ "RadioTower3F": {
+  "CardKeySlotScript": [
+   "RadioTower3FCardKeySlotText",
+   "InsertedTheCardKeyText"
+  ],
+  "RadioTower3FCooltrainerFScript": [
+   "RadioTower3FCooltrainerFPleaseSaveDirectorText",
+   "RadioTower3FCooltrainerFIsDirectorSafeText",
+   "RadioTower3FCooltrainerFYoureMyHeroText",
+   "RadioTower3FCooltrainerFItsSunnyDayText",
+   "RadioTower3FCooltrainerFYouWereMarvelousText"
+  ],
+  "RadioTower3FGymGuideScript": [
+   "RadioTower3FGymGuideText_Rockets",
+   "RadioTower3FGymGuideText"
+  ],
+  "RadioTower3FPersonnelSign": [
+   "RadioTower3FPersonnelSignText"
+  ],
+  "RadioTower3FPokemonMusicSign": [
+   "RadioTower3FPokemonMusicSignText"
+  ],
+  "RadioTower3FSuperNerdScript": [
+   "RadioTower3FSuperNerdText"
+  ],
+  "TrainerGruntM7": [
+   "GruntM7SeenText",
+   "GruntM7BeatenText",
+   "GruntM7AfterBattleText"
+  ],
+  "TrainerGruntM8": [
+   "GruntM8SeenText",
+   "GruntM8BeatenText",
+   "GruntM8AfterBattleText"
+  ],
+  "TrainerGruntM9": [
+   "GruntM9SeenText",
+   "GruntM9BeatenText",
+   "GruntM9AfterBattleText"
+  ],
+  "TrainerScientistMarc": [
+   "ScientistMarcSeenText",
+   "ScientistMarcBeatenText",
+   "ScientistMarcAfterBattleText"
+  ]
+ },
+ "RadioTower4F": {
+  "RadioTower4FDJMaryScript": [
+   "RadioTower4FDJMaryText",
+   "RadioTower4FDJMaryText_ClearedRockets",
+   "RadioTower4FDJMaryText_GivePinkBow",
+   "RadioTower4FDJMaryText_After"
+  ],
+  "RadioTower4FFisherScript": [
+   "RadioTower4FFisherText"
+  ],
+  "RadioTower4FProductionSign": [
+   "RadioTower4FProductionSignText"
+  ],
+  "RadioTower4FStudio2Sign": [
+   "RadioTower4FStudio2SignText"
+  ],
+  "RadioTowerMeowth": [
+   "RadioTowerMeowthText"
+  ],
+  "TrainerExecutivem2": [
+   "Executivem2SeenText",
+   "Executivem2BeatenText",
+   "Executivem2AfterBattleText"
+  ],
+  "TrainerGruntF4": [
+   "GruntF4SeenText",
+   "GruntF4BeatenText",
+   "GruntF4AfterBattleText"
+  ],
+  "TrainerGruntM10": [
+   "GruntM10SeenText",
+   "GruntM10BeatenText",
+   "GruntM10AfterBattleText"
+  ],
+  "TrainerScientistRich": [
+   "ScientistRichSeenText",
+   "ScientistRichBeatenText",
+   "ScientistRichAfterBattleText"
+  ]
+ },
+ "RadioTower5F": {
+  "Ben": [
+   "BenText"
+  ],
+  "Director": [
+   "FakeDirectorTextAfter",
+   "RadioTower5FDirectorText"
+  ],
+  "FakeDirectorScript": [
+   "FakeDirectorTextBefore1",
+   "FakeDirectorTextBefore2",
+   "FakeDirectorTextAfter"
+  ],
+  "RadioTower5FDirectorsOfficeSign": [
+   "RadioTower5FDirectorsOfficeSignText"
+  ],
+  "RadioTower5FRocketBossScript": [
+   "RadioTower5FRocketBossBeforeText",
+   "RadioTower5FRocketBossAfterText",
+   "RadioTower5FDirectorThankYouText",
+   "RadioTower5FDirectorDescribeClearBellText"
+  ],
+  "RadioTower5FStudio1Sign": [
+   "RadioTower5FStudio1SignText"
+  ],
+  "TrainerExecutivef1": [
+   "Executivef1SeenText",
+   "Executivef1BeatenText",
+   "Executivef1AfterBattleText"
+  ]
+ },
+ "RedsHouse1F": {
+  "RedsHouse1FTV": [
+   "RedsHouse1FTVText"
+  ],
+  "RedsMom": [
+   "RedsMomText1",
+   "RedsMomText2"
+  ]
+ },
+ "RedsHouse2F": {
+  "RedsHouse2FN64Script": [
+   "RedsHouse2FN64Text"
+  ],
+  "RedsHouse2FPCScript": [
+   "RedsHouse2FPCText"
+  ]
+ },
+ "RockTunnel1F": {},
+ "RockTunnelB1F": {},
+ "Route1": {
+  "Route1Sign": [
+   "Route1SignText"
+  ],
+  "TrainerCooltrainerfQuinn": [
+   "CooltrainerfQuinnSeenText",
+   "CooltrainerfQuinnBeatenText",
+   "CooltrainerfQuinnAfterBattleText"
+  ],
+  "TrainerSchoolboyDanny": [
+   "SchoolboyDannySeenText",
+   "SchoolboyDannyBeatenText",
+   "SchoolboyDannyAfterBattleText"
+  ]
+ },
+ "Route10North": {
+  "PowerPlantSign": [
+   "PowerPlantSignText"
+  ]
+ },
+ "Route10Pokecenter1F": {
+  "Route10Pokecenter1FCooltrainerFScript": [
+   "Route10Pokecenter1FCooltrainerFText"
+  ],
+  "Route10Pokecenter1FGentlemanScript": [
+   "Route10Pokecenter1FGentlemanText"
+  ],
+  "Route10Pokecenter1FGymGuideScript": [
+   "Route10Pokecenter1FGymGuideText",
+   "Route10Pokecenter1FGymGuideText_ReturnedMachinePart"
+  ]
+ },
+ "Route10Pokecenter2FBeta": {},
+ "Route10South": {
+  "Route10Sign": [
+   "Route10SignText"
+  ],
+  "TrainerHikerJim": [
+   "HikerJimSeenText",
+   "HikerJimBeatenText",
+   "HikerJimAfterBattleText"
+  ],
+  "TrainerPokefanmRobert": [
+   "PokefanmRobertSeenText",
+   "PokefanmRobertBeatenText",
+   "PokefanmRobertAfterBattleText"
+  ]
+ },
+ "Route11": {
+  "Route11Sign": [
+   "Route11SignText"
+  ],
+  "TrainerPsychicFidel": [
+   "PsychicFidelSeenText",
+   "PsychicFidelBeatenText",
+   "PsychicFidelAfterBattleText"
+  ],
+  "TrainerPsychicHerman": [
+   "PsychicHermanSeenText",
+   "PsychicHermanBeatenText",
+   "PsychicHermanAfterBattleText"
+  ],
+  "TrainerYoungsterJason": [
+   "YoungsterJasonSeenText",
+   "YoungsterJasonBeatenText",
+   "YoungsterJasonAfterBattleText"
+  ],
+  "TrainerYoungsterOwen": [
+   "YoungsterOwenSeenText",
+   "YoungsterOwenBeatenText",
+   "YoungsterOwenAfterBattleText"
+  ]
+ },
+ "Route12": {
+  "FishingSpotSign": [
+   "FishingSpotSignText"
+  ],
+  "Route12Sign": [
+   "Route12SignText"
+  ],
+  "TrainerFisherBarney": [
+   "FisherBarneySeenText",
+   "FisherBarneyBeatenText",
+   "FisherBarneyAfterBattleText"
+  ],
+  "TrainerFisherKyle": [
+   "FisherKyleSeenText",
+   "FisherKyleBeatenText",
+   "FisherKyleAfterBattleText"
+  ],
+  "TrainerFisherMartin": [
+   "FisherMartinSeenText",
+   "FisherMartinBeatenText",
+   "FisherMartinAfterBattleText"
+  ],
+  "TrainerFisherStephen": [
+   "FisherStephenSeenText",
+   "FisherStephenBeatenText",
+   "FisherStephenAfterBattleText"
+  ]
+ },
+ "Route12SuperRodHouse": {
+  "Route12SuperRodHouseFishingGuruScript": [
+   "OfferSuperRodText",
+   "GiveSuperRodText",
+   "GaveSuperRodText",
+   "DontWantSuperRodText"
+  ]
+ },
+ "Route13": {
+  "Route13DirectionsSign": [
+   "Route13DirectionsSignText"
+  ],
+  "Route13Sign": [
+   "Route13SignText"
+  ],
+  "Route13TrainerTips": [
+   "Route13TrainerTipsText"
+  ],
+  "TrainerBirdKeeperBret": [
+   "BirdKeeperBretSeenText",
+   "BirdKeeperBretBeatenText",
+   "BirdKeeperBretAfterBattleText"
+  ],
+  "TrainerBirdKeeperPerry": [
+   "BirdKeeperPerrySeenText",
+   "BirdKeeperPerryBeatenText",
+   "BirdKeeperPerryAfterBattleText"
+  ],
+  "TrainerHikerKenny": [
+   "HikerKennySeenText",
+   "HikerKennyBeatenText",
+   "HikerKennyAfterBattleText"
+  ],
+  "TrainerPokefanmAlex": [
+   "PokefanmAlexSeenText",
+   "PokefanmAlexBeatenText",
+   "PokefanmAlexAfterBattleText"
+  ],
+  "TrainerPokefanmJoshua": [
+   "PokefanmJoshuaSeenText",
+   "PokefanmJoshuaBeatenText",
+   "PokefanmJoshuaAfterBattleText"
+  ]
+ },
+ "Route14": {
+  "TrainerBirdKeeperRoy": [
+   "BirdKeeperRoySeenText",
+   "BirdKeeperRoyBeatenText",
+   "BirdKeeperRoyAfterBattleText"
+  ],
+  "TrainerPokefanmCarter": [
+   "PokefanmCarterSeenText",
+   "PokefanmCarterBeatenText",
+   "PokefanmCarterAfterBattleText"
+  ],
+  "TrainerPokefanmTrevor": [
+   "PokefanmTrevorSeenText",
+   "PokefanmTrevorBeatenText",
+   "PokefanmTrevorAfterBattleText"
+  ]
+ },
+ "Route15": {
+  "Route15Sign": [
+   "Route15SignText"
+  ],
+  "TrainerSchoolboyBilly": [
+   "SchoolboyBillySeenText",
+   "SchoolboyBillyBeatenText",
+   "SchoolboyBillyAfterBattleText"
+  ],
+  "TrainerSchoolboyJohnny": [
+   "SchoolboyJohnnySeenText",
+   "SchoolboyJohnnyBeatenText",
+   "SchoolboyJohnnyAfterBattleText"
+  ],
+  "TrainerSchoolboyKipp": [
+   "SchoolboyKippSeenText",
+   "SchoolboyKippBeatenText",
+   "SchoolboyKippAfterBattleText"
+  ],
+  "TrainerSchoolboyTommy": [
+   "SchoolboyTommySeenText",
+   "SchoolboyTommyBeatenText",
+   "SchoolboyTommyAfterBattleText"
+  ],
+  "TrainerTeacherColette": [
+   "TeacherColetteSeenText",
+   "TeacherColetteBeatenText",
+   "TeacherColetteAfterBattleText"
+  ],
+  "TrainerTeacherHillary": [
+   "TeacherHillarySeenText",
+   "TeacherHillaryBeatenText",
+   "TeacherHillaryAfterBattleText"
+  ]
+ },
+ "Route15FuchsiaGate": {
+  "Route15FuchsiaGateOfficerScript": [
+   "Route15FuchsiaGateOfficerText"
+  ]
+ },
+ "Route16": {
+  "CyclingRoadSign": [
+   "CyclingRoadSignText"
+  ]
+ },
+ "Route16FuchsiaSpeechHouse": {
+  "Route16FuchsiaSpeechHouseSuperNerdScript": [
+   "Route16FuchsiaSpeechHouseSuperNerdText"
+  ]
+ },
+ "Route16Gate": {
+  "Route16GateBicycleCheck": [
+   "Route16GateCannotPassText"
+  ],
+  "Route16GateOfficerScript": [
+   "Route16GateOfficerText"
+  ]
+ },
+ "Route17": {
+  "TrainerBikerCharles": [
+   "BikerCharlesSeenText",
+   "BikerCharlesBeatenText",
+   "BikerCharlesAfterBattleText"
+  ],
+  "TrainerBikerGlenn": [
+   "BikerGlennSeenText",
+   "BikerGlennBeatenText",
+   "BikerGlennAfterBattleText"
+  ],
+  "TrainerBikerJoel": [
+   "BikerJoelSeenText",
+   "BikerJoelBeatenText",
+   "BikerJoelAfterBattleText"
+  ],
+  "TrainerBikerRiley": [
+   "BikerRileySeenText",
+   "BikerRileyBeatenText",
+   "BikerRileyAfterBattleText"
+  ]
+ },
+ "Route17Route18Gate": {
+  "Route17Route18GateBicycleCheck": [
+   "Route17Route18GateCannotPassText"
+  ],
+  "Route17Route18GateOfficerScript": [
+   "Route17Route18GateOfficerText"
+  ]
+ },
+ "Route18": {
+  "Route18Sign": [
+   "Route18SignText"
+  ],
+  "TrainerBirdKeeperBob": [
+   "BirdKeeperBobSeenText",
+   "BirdKeeperBobBeatenText",
+   "BirdKeeperBobAfterBattleText"
+  ],
+  "TrainerBirdKeeperBoris": [
+   "BirdKeeperBorisSeenText",
+   "BirdKeeperBorisBeatenText",
+   "BirdKeeperBorisAfterBattleText"
+  ]
+ },
+ "Route19": {
+  "CarefulSwimmingSign": [
+   "CarefulSwimmingSignText"
+  ],
+  "Route19Fisher1Script": [
+   "Route19Fisher1Text",
+   "Route19Fisher1Text_RocksCleared"
+  ],
+  "Route19Fisher2Script": [
+   "Route19Fisher2Text",
+   "Route19Fisher2Text_RocksCleared"
+  ],
+  "Route19Sign": [
+   "Route19SignText"
+  ],
+  "TrainerSwimmerfDawn": [
+   "SwimmerfDawnSeenText",
+   "SwimmerfDawnBeatenText",
+   "SwimmerfDawnAfterBattleText"
+  ],
+  "TrainerSwimmermHarold": [
+   "SwimmermHaroldSeenText",
+   "SwimmermHaroldBeatenText",
+   "SwimmermHaroldAfterBattleText"
+  ],
+  "TrainerSwimmermJerome": [
+   "SwimmermJeromeSeenText",
+   "SwimmermJeromeBeatenText",
+   "SwimmermJeromeAfterBattleText"
+  ],
+  "TrainerSwimmermTucker": [
+   "SwimmermTuckerSeenText",
+   "SwimmermTuckerBeatenText",
+   "SwimmermTuckerAfterBattleText"
+  ]
+ },
+ "Route19FuchsiaGate": {
+  "Route19FuchsiaGateOfficerScript": [
+   "Route19FuchsiaGateOfficerText",
+   "Route19FuchsiaGateOfficerText_RocksCleared"
+  ]
+ },
+ "Route2": {
+  "Route2DiglettsCaveSign": [
+   "Route2DiglettsCaveSignText"
+  ],
+  "Route2Sign": [
+   "Route2SignText"
+  ],
+  "TrainerBugCatcherDoug": [
+   "BugCatcherDougSeenText",
+   "BugCatcherDougBeatenText",
+   "BugCatcherDougAfterBattleText"
+  ],
+  "TrainerBugCatcherEd": [
+   "BugCatcherEdSeenText",
+   "BugCatcherEdBeatenText",
+   "BugCatcherEdAfterBattleText"
+  ],
+  "TrainerBugCatcherRob": [
+   "BugCatcherRobSeenText",
+   "BugCatcherRobBeatenText",
+   "BugCatcherRobAfterBattleText"
+  ]
+ },
+ "Route20": {
+  "CinnabarGymSign": [
+   "CinnabarGymSignText"
+  ],
+  "TrainerSwimmerfLori": [
+   "SwimmerfLoriSeenText",
+   "SwimmerfLoriBeatenText",
+   "SwimmerfLoriAfterBattleText"
+  ],
+  "TrainerSwimmerfNicole": [
+   "SwimmerfNicoleSeenText",
+   "SwimmerfNicoleBeatenText",
+   "SwimmerfNicoleAfterBattleText"
+  ],
+  "TrainerSwimmermCameron": [
+   "SwimmermCameronSeenText",
+   "SwimmermCameronBeatenText",
+   "SwimmermCameronAfterBattleText"
+  ]
+ },
+ "Route21": {
+  "TrainerFisherArnold": [
+   "FisherArnoldSeenText",
+   "FisherArnoldBeatenText",
+   "FisherArnoldAfterBattleText"
+  ],
+  "TrainerSwimmerfNikki": [
+   "SwimmerfNikkiSeenText",
+   "SwimmerfNikkiBeatenText",
+   "SwimmerfNikkiAfterBattleText"
+  ],
+  "TrainerSwimmermSeth": [
+   "SwimmermSethSeenText",
+   "SwimmermSethBeatenText",
+   "SwimmermSethAfterBattleText"
+  ]
+ },
+ "Route22": {
+  "VictoryRoadEntranceSign": [
+   "VictoryRoadEntranceSignText"
+  ]
+ },
+ "Route23": {
+  "IndigoPlateauSign": [
+   "IndigoPlateauSignText"
+  ]
+ },
+ "Route24": {
+  "Route24RocketScript": [
+   "Route24RocketSeenText",
+   "Route24RocketAfterBattleText",
+   "Route24RocketDisappearsText"
+  ]
+ },
+ "Route25": {
+  "BillsHouseSign": [
+   "BillsHouseSignText"
+  ],
+  "Route25MistyDate1Script": [
+   "Route25MistyDateText"
+  ],
+  "Route25MistyDate2Script": [
+   "Route25MistyDateText"
+  ],
+  "TrainerCamperLloyd": [
+   "CamperLloydSeenText",
+   "CamperLloydBeatenText",
+   "CamperLloydAfterBattleText"
+  ],
+  "TrainerCooltrainermKevin": [
+   "CooltrainermKevinNuggetText",
+   "CooltrainermKevinSeenText",
+   "CooltrainermKevinAfterBattleText"
+  ],
+  "TrainerLassEllen": [
+   "LassEllenSeenText",
+   "LassEllenBeatenText",
+   "LassEllenAfterBattleText"
+  ],
+  "TrainerLassLaura": [
+   "LassLauraSeenText",
+   "LassLauraBeatenText",
+   "LassLauraAfterBattleText"
+  ],
+  "TrainerLassShannon": [
+   "LassShannonSeenText",
+   "LassShannonBeatenText",
+   "LassShannonAfterBattleText"
+  ],
+  "TrainerSchoolboyDudley": [
+   "SchoolboyDudleySeenText",
+   "SchoolboyDudleyBeatenText",
+   "SchoolboyDudleyAfterBattleText"
+  ],
+  "TrainerSchoolboyJoe": [
+   "SchoolboyJoeSeenText",
+   "SchoolboyJoeBeatenText",
+   "SchoolboyJoeAfterBattleText"
+  ],
+  "TrainerSupernerdPat": [
+   "SupernerdPatSeenText",
+   "SupernerdPatBeatenText",
+   "SupernerdPatAfterBattleText"
+  ]
+ },
+ "Route26": {
+  "Route26Sign": [
+   "Route26SignText"
+  ],
+  "TrainerCooltrainerfBeth1": [
+   "CooltrainerfBeth1SeenText",
+   "CooltrainerfBeth1BeatenText",
+   "CooltrainerfBethAfterText"
+  ],
+  "TrainerCooltrainerfJoyce": [
+   "CooltrainerfJoyceSeenText",
+   "CooltrainerfJoyceBeatenText",
+   "CooltrainerfJoyceAfterBattleText"
+  ],
+  "TrainerCooltrainermGaven3": [
+   "CooltrainermGaven3SeenText",
+   "CooltrainermGaven3BeatenText",
+   "CooltrainermGavenAfterText"
+  ],
+  "TrainerCooltrainermJake": [
+   "CooltrainermJakeSeenText",
+   "CooltrainermJakeBeatenText",
+   "CooltrainermJakeAfterBattleText"
+  ],
+  "TrainerFisherScott": [
+   "FisherScottSeenText",
+   "FisherScottBeatenText",
+   "FisherScottAfterBattleText"
+  ],
+  "TrainerPsychicRichard": [
+   "PsychicRichardSeenText",
+   "PsychicRichardBeatenText",
+   "PsychicRichardAfterBattleText"
+  ]
+ },
+ "Route26HealHouse": {
+  "Route26HealHouseTeacherScript": [
+   "Route26HealHouseRestAWhileText",
+   "Route26HealHouseKeepAtItText"
+  ]
+ },
+ "Route27": {
+  "FirstStepIntoKantoLeftScene": [
+   "Route27FisherHeyText",
+   "Route27FisherText"
+  ],
+  "FirstStepIntoKantoScene_Continue": [
+   "Route27FisherHeyText",
+   "Route27FisherText"
+  ],
+  "Route27FisherScript": [
+   "Route27FisherText"
+  ],
+  "TohjoFallsSign": [
+   "TohjoFallsSignText"
+  ],
+  "TrainerBirdKeeperJose2": [
+   "BirdKeeperJose2SeenText",
+   "BirdKeeperJose2BeatenText",
+   "BirdKeeperJose2AfterBattleText"
+  ],
+  "TrainerCooltrainerfMegan": [
+   "CooltrainerfMeganSeenText",
+   "CooltrainerfMeganBeatenText",
+   "CooltrainerfMeganAfterBattleText"
+  ],
+  "TrainerCooltrainerfReena": [
+   "CooltrainerfReenaSeenText",
+   "CooltrainerfReenaBeatenText",
+   "CooltrainerfReenaAfterBattleText"
+  ],
+  "TrainerCooltrainermBlake": [
+   "CooltrainermBlakeSeenText",
+   "CooltrainermBlakeBeatenText",
+   "CooltrainermBlakeAfterBattleText"
+  ],
+  "TrainerCooltrainermBrian": [
+   "CooltrainermBrianSeenText",
+   "CooltrainermBrianBeatenText",
+   "CooltrainermBrianAfterBattleText"
+  ],
+  "TrainerPsychicGilbert": [
+   "PsychicGilbertSeenText",
+   "PsychicGilbertBeatenText",
+   "PsychicGilbertAfterBattleText"
+  ]
+ },
+ "Route27SandstormHouse": {
+  "SandstormHouseWoman": [
+   "SandstormHouseWomanText1",
+   "SandstormHouseWomanLoyalText",
+   "SandstormHouseSandstormDescription",
+   "SandstormHouseWomanDisloyalText"
+  ]
+ },
+ "Route28": {
+  "Route28Sign": [
+   "Route28SignText"
+  ]
+ },
+ "Route28SteelWingHouse": {
+  "Celebrity": [
+   "CelebrityText1",
+   "CelebrityText2"
+  ],
+  "CelebritysFearow": [
+   "CelebritysFearowText"
+  ]
+ },
+ "Route29": {
+  "CatchingTutorialDudeScript": [
+   "CatchingTutorialRepeatText",
+   "CatchingTutorialDebriefText",
+   "CatchingTutorialBoxFullText",
+   "CatchingTutorialDeclinedText"
+  ],
+  "Route29CooltrainerMScript": [
+   "Route29CooltrainerMText_WaitingForNight",
+   "Route29CooltrainerMText_WaitingForMorning"
+  ],
+  "Route29FisherScript": [
+   "Route29FisherText"
+  ],
+  "Route29Sign1": [
+   "Route29Sign1Text"
+  ],
+  "Route29Sign2": [
+   "Route29Sign2Text"
+  ],
+  "Route29TeacherScript": [
+   "Route29TeacherText"
+  ],
+  "Route29Tutorial1": [
+   "CatchingTutorialIntroText",
+   "CatchingTutorialDeclinedText",
+   "CatchingTutorialDebriefText"
+  ],
+  "Route29Tutorial2": [
+   "CatchingTutorialIntroText",
+   "CatchingTutorialDeclinedText",
+   "CatchingTutorialDebriefText"
+  ],
+  "Route29YoungsterScript": [
+   "Route29YoungsterText"
+  ],
+  "Script_RefusedTutorial1": [
+   "CatchingTutorialDeclinedText"
+  ],
+  "Script_RefusedTutorial2": [
+   "CatchingTutorialDeclinedText"
+  ],
+  "TuscanyNotTuesdayScript": [
+   "TuscanyNotTuesdayText"
+  ],
+  "TuscanyScript": [
+   "TuscanyTuesdayText",
+   "TuscanyNotTuesdayText",
+   "MeetTuscanyText",
+   "TuscanyGivesGiftText",
+   "TuscanyGaveGiftText"
+  ],
+  "TuscanyTuesdayScript": [
+   "TuscanyTuesdayText"
+  ]
+ },
+ "Route29Route46Gate": {
+  "Route29Route46GateOfficerScript": [
+   "Route29Route46GateOfficerText"
+  ],
+  "Route29Route46GateYoungsterScript": [
+   "Route29Route46GateYoungsterText"
+  ]
+ },
+ "Route2Gate": {
+  "Route2GateScientistScript": [
+   "Route2GateScientistText"
+  ]
+ },
+ "Route2NuggetHouse": {
+  "Route2NuggetHouseFisherScript": [
+   "Route2NuggetHouseFisherText",
+   "Route2NuggetHouseFisherText_GotNugget"
+  ]
+ },
+ "Route3": {
+  "Route3MtMoonSquareSign": [
+   "Route3MtMoonSquareSignText"
+  ],
+  "TrainerFirebreatherBurt": [
+   "FirebreatherBurtSeenText",
+   "FirebreatherBurtBeatenText",
+   "FirebreatherBurtAfterBattleText"
+  ],
+  "TrainerFirebreatherOtis": [
+   "FirebreatherOtisSeenText",
+   "FirebreatherOtisBeatenText",
+   "FirebreatherOtisAfterBattleText"
+  ],
+  "TrainerYoungsterJimmy": [
+   "YoungsterJimmySeenText",
+   "YoungsterJimmyBeatenText",
+   "YoungsterJimmyAfterBattleText"
+  ],
+  "TrainerYoungsterWarren": [
+   "YoungsterWarrenSeenText",
+   "YoungsterWarrenBeatenText",
+   "YoungsterWarrenAfterBattleText"
+  ]
+ },
+ "Route30": {
+  "MrPokemonsHouseDirectionsSign": [
+   "MrPokemonsHouseDirectionsSignText"
+  ],
+  "MrPokemonsHouseSign": [
+   "MrPokemonsHouseSignText"
+  ],
+  "Route30CooltrainerFScript": [
+   "Route30CooltrainerFText"
+  ],
+  "Route30Sign": [
+   "Route30SignText"
+  ],
+  "Route30TrainerTips": [
+   "Route30TrainerTipsText"
+  ],
+  "Route30YoungsterScript": [
+   "Route30YoungsterText_DirectionsToMrPokemonsHouse",
+   "Route30YoungsterText_EveryoneIsBattling"
+  ],
+  "TrainerBugCatcherDon": [
+   "BugCatcherDonSeenText",
+   "BugCatcherDonBeatenText",
+   "BugCatcherDonAfterText"
+  ],
+  "TrainerYoungsterJoey": [
+   "YoungsterJoey1SeenText",
+   "YoungsterJoey1BeatenText",
+   "YoungsterJoey1AfterText",
+   "YoungsterJoeyText_GiveHPUpAfterBattle"
+  ],
+  "TrainerYoungsterMikey": [
+   "YoungsterMikeySeenText",
+   "YoungsterMikeyBeatenText",
+   "YoungsterMikeyAfterText"
+  ],
+  "YoungsterJoey_ImportantBattleScript": [
+   "Text_UseTackle",
+   "Text_ThisIsABigBattle"
+  ]
+ },
+ "Route30BerryHouse": {
+  "Route30BerryHousePokefanMScript": [
+   "Route30BerrySpeechHouseMonEatBerriesText",
+   "Route30BerrySpeechHouseCheckTreesText"
+  ]
+ },
+ "Route31": {
+  "DarkCaveSign": [
+   "DarkCaveSignText"
+  ],
+  "Route31CooltrainerMScript": [
+   "Route31CooltrainerMText"
+  ],
+  "Route31MailRecipientScript": [
+   "Text_Route31SleepyMan",
+   "Text_Route31SleepyManGotMail",
+   "Text_Route31HandOverMailMon",
+   "Text_Route31ReadingMail",
+   "Text_Route31DescribeNightmare",
+   "Text_Route31WrongMail",
+   "Text_Route31MissingMail",
+   "Text_Route31DeclinedToHandOverMail",
+   "Text_Route31CantTakeLastMon"
+  ],
+  "Route31Sign": [
+   "Route31SignText"
+  ],
+  "Route31YoungsterScript": [
+   "Route31YoungsterText"
+  ],
+  "TrainerBugCatcherWade1": [
+   "BugCatcherWade1SeenText",
+   "BugCatcherWade1BeatenText",
+   "BugCatcherWade1AfterText"
+  ]
+ },
+ "Route31VioletGate": {
+  "Route31VioletGateCooltrainerFScript": [
+   "Route31VioletGateCooltrainerFText"
+  ],
+  "Route31VioletGateOfficerScript": [
+   "Route31VioletGateOfficerText"
+  ]
+ },
+ "Route32": {
+  "FriedaScript": [
+   "MeetFriedaText",
+   "FriedaGivesGiftText",
+   "FriedaGaveGiftText",
+   "FriedaFridayText",
+   "FriedaNotFridayText"
+  ],
+  "Route32CooltrainerMContinueScene": [
+   "Route32CooltrainerMText_AideIsWaiting",
+   "Route32CooltrainerMText_UnusedSproutTower",
+   "Route32CooltrainerMText_HaveThisSeed",
+   "Route32CooltrainerMText_VioletGym",
+   "Route32CooltrainerMText_ExperiencesShouldBeUseful"
+  ],
+  "Route32CooltrainerMStopsYouScene": [
+   "Route32CooltrainerMText_WhatsTheHurry"
+  ],
+  "Route32RoarTMGuyScript": [
+   "Text_RoarIntro",
+   "Text_RoarOutro"
+  ],
+  "Route32RuinsSign": [
+   "Route32RuinsSignText"
+  ],
+  "Route32Sign": [
+   "Route32SignText"
+  ],
+  "Route32UnionCaveSign": [
+   "Route32UnionCaveSignText"
+  ],
+  "Route32WannaBuyASlowpokeTailScript": [
+   "Text_MillionDollarSlowpokeTail",
+   "Text_ThoughtKidsWereLoaded",
+   "Text_RefusedToBuySlowpokeTail"
+  ],
+  "TrainerBirdKeeperPeter": [
+   "BirdKeeperPeterSeenText",
+   "BirdKeeperPeterBeatenText",
+   "BirdKeeperPeterAfterText"
+  ],
+  "TrainerCamperRoland": [
+   "CamperRolandSeenText",
+   "CamperRolandBeatenText",
+   "CamperRolandAfterText"
+  ],
+  "TrainerFisherHenry": [
+   "FisherHenrySeenText",
+   "FisherHenryBeatenText",
+   "FisherHenryAfterText"
+  ],
+  "TrainerFisherJustin": [
+   "FisherJustinSeenText",
+   "FisherJustinBeatenText",
+   "FisherJustinAfterText"
+  ],
+  "TrainerFisherRalph1": [
+   "FisherRalph1SeenText",
+   "FisherRalph1BeatenText",
+   "FisherRalphAfterText",
+   "FisherRalphSwarmText"
+  ],
+  "TrainerPicnickerLiz1": [
+   "PicnickerLiz1SeenText",
+   "PicnickerLiz1BeatenText",
+   "PicnickerLiz1AfterText"
+  ],
+  "TrainerYoungsterAlbert": [
+   "YoungsterAlbertSeenText",
+   "YoungsterAlbertBeatenText",
+   "YoungsterAlbertAfterText"
+  ],
+  "TrainerYoungsterGordon": [
+   "YoungsterGordonSeenText",
+   "YoungsterGordonBeatenText",
+   "YoungsterGordonAfterText"
+  ],
+  "_OfferToSellSlowpokeTail": [
+   "Text_MillionDollarSlowpokeTail",
+   "Text_ThoughtKidsWereLoaded",
+   "Text_RefusedToBuySlowpokeTail"
+  ]
+ },
+ "Route32Pokecenter1F": {
+  "Route32Pokecenter1FCooltrainerFScript": [
+   "Route32Pokecenter1FCooltrainerFText"
+  ],
+  "Route32Pokecenter1FFishingGuruScript": [
+   "Route32Pokecenter1FFishingGuruText_Question",
+   "Route32Pokecenter1FFishingGuruText_Yes",
+   "Route32Pokecenter1FFishingGuruText_GiveOldRod",
+   "Route32Pokecenter1FFishingGuruText_No",
+   "Route32Pokecenter1FFishingGuruText_After"
+  ]
+ },
+ "Route32RuinsOfAlphGate": {
+  "Route32RuinsOfAlphGateOfficerScript": [
+   "Route32RuinsOfAlphGateOfficerText"
+  ],
+  "Route32RuinsOfAlphGatePokefanMScript": [
+   "Route32RuinsOfAlphGatePokefanMText"
+  ],
+  "Route32RuinsOfAlphGateYoungsterScript": [
+   "Route32RuinsOfAlphGateYoungsterText"
+  ]
+ },
+ "Route33": {
+  "Route33LassScript": [
+   "Route33LassText"
+  ],
+  "Route33Sign": [
+   "Route33SignText"
+  ],
+  "TrainerHikerAnthony": [
+   "HikerAnthony2SeenText",
+   "HikerAnthony2BeatenText",
+   "HikerAnthony2AfterText",
+   "HikerAnthonyDunsparceText"
+  ]
+ },
+ "Route34": {
+  "DayCareSign": [
+   "DayCareSignText"
+  ],
+  "OfficerKeithScript": [
+   "OfficerKeithSeenText",
+   "OfficerKeithAfterText",
+   "OfficerKeithDaytimeText"
+  ],
+  "Route34IlexForestSign": [
+   "Route34IlexForestSignText"
+  ],
+  "Route34Sign": [
+   "Route34SignText"
+  ],
+  "Route34TrainerTips": [
+   "Route34TrainerTipsText"
+  ],
+  "TrainerCamperTodd1": [
+   "CamperTodd1SeenText",
+   "CamperTodd1BeatenText",
+   "CamperTodd1AfterText",
+   "CamperToddSaleText"
+  ],
+  "TrainerCooltrainerfIrene": [
+   "CooltrainerfIreneSeenText",
+   "CooltrainerfIreneBeatenText",
+   "CooltrainerfIreneAfterText1",
+   "CooltrainerfIreneAfterText2"
+  ],
+  "TrainerCooltrainerfJenn": [
+   "CooltrainerfJennSeenText",
+   "CooltrainerfJennBeatenText",
+   "CooltrainerfJennAfterText1",
+   "CooltrainerfJennAfterText2"
+  ],
+  "TrainerCooltrainerfKate": [
+   "CooltrainerfKateSeenText",
+   "CooltrainerfKateBeatenText",
+   "CooltrainerfKateOfferSoftSandText",
+   "CooltrainerfKateAfterText"
+  ],
+  "TrainerPicnickerGina1": [
+   "PicnickerGina1SeenText",
+   "PicnickerGina1BeatenText",
+   "PicnickerGina1AfterText"
+  ],
+  "TrainerPokefanmBrandon": [
+   "PokefanmBrandonSeenText",
+   "PokefanmBrandonBeatenText",
+   "PokefanmBrandonAfterText"
+  ],
+  "TrainerYoungsterIan": [
+   "YoungsterIanSeenText",
+   "YoungsterIanBeatenText",
+   "YoungsterIanAfterText"
+  ],
+  "TrainerYoungsterSamuel": [
+   "YoungsterSamuelSeenText",
+   "YoungsterSamuelBeatenText",
+   "YoungsterSamuelAfterText"
+  ]
+ },
+ "Route34IlexForestGate": {
+  "Route34IlexForestGateButterfreeScript": [
+   "Route34IlexForestGateButterfreeText"
+  ],
+  "Route34IlexForestGateCelebiEvent": [
+   "Route34IlexForestGateTeacher_ForestIsRestless"
+  ],
+  "Route34IlexForestGateLassScript": [
+   "Route34IlexForestGateLassText"
+  ],
+  "Route34IlexForestGateTeacherScript": [
+   "Route34IlexForestGateTeacherText",
+   "Route34IlexForestGateTeacher_GotSweetScent",
+   "Route34IlexForestGateTeacher_ForestIsRestless"
+  ]
+ },
+ "Route35": {
+  "Route35Sign": [
+   "Route35SignText"
+  ],
+  "TrainerBirdKeeperBryan": [
+   "BirdKeeperBryanSeenText",
+   "BirdKeeperBryanBeatenText",
+   "BirdKeeperBryanAfterBattleText"
+  ],
+  "TrainerBugCatcherArnie": [
+   "BugCatcherArnieSeenText",
+   "BugCatcherArnieBeatenText",
+   "BugCatcherArnieAfterBattleText",
+   "BugCatcherArnieYanmaText"
+  ],
+  "TrainerCamperElliot": [
+   "CamperElliotSeenText",
+   "CamperElliotBeatenText",
+   "CamperElliotAfterBattleText"
+  ],
+  "TrainerCamperIvan": [
+   "CamperIvanSeenText",
+   "CamperIvanBeatenText",
+   "CamperIvanAfterBattleText"
+  ],
+  "TrainerFirebreatherWalt": [
+   "FirebreatherWaltSeenText",
+   "FirebreatherWaltBeatenText",
+   "FirebreatherWaltAfterBattleText"
+  ],
+  "TrainerJugglerIrwin": [
+   "JugglerIrwin1SeenText",
+   "JugglerIrwin1BeatenText",
+   "JugglerIrwinAfterBattleText"
+  ],
+  "TrainerOfficerDirk": [
+   "OfficerDirkSeenText",
+   "OfficerDirkAfterBattleText",
+   "OfficerDirkPrettyToughText"
+  ],
+  "TrainerPicnickerBrooke": [
+   "PicnickerBrookeSeenText",
+   "PicnickerBrookeBeatenText",
+   "PicnickerBrookeAfterBattleText"
+  ],
+  "TrainerPicnickerKim": [
+   "PicnickerKimSeenText",
+   "PicnickerKimBeatenText",
+   "PicnickerKimAfterBattleText"
+  ]
+ },
+ "Route35GoldenrodGate": {
+  "RandyScript": [
+   "Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText",
+   "Route35GoldenrodGateRandyThanksText",
+   "Route35GoldenrodGatePlayerReceivedAMonWithMailText",
+   "Route35GoldenrodGateRandyWeirdTreeBlockingRoadText",
+   "Route35GoldenrodGateRandyCantCarryAnotherMonText",
+   "Route35GoldenrodGateRandyOhNeverMindThenText",
+   "Route35GoldenrodGateRandySomethingForYourTroubleText",
+   "Route35GoldenrodGateRandyMyPalWasSnoozingRightText"
+  ],
+  "Route35GoldenrodGateFisherScript": [
+   "Route35GoldenrodGateFisherText"
+  ],
+  "Route35GoldenrodGatePokefanFScript": [
+   "Route35GoldenrodGatePokefanFText",
+   "Route35GoldenrodGatePokefanFText_FoughtSudowoodo"
+  ]
+ },
+ "Route35NationalParkGate": {
+  "BugCatchingContestExplanationSign": [
+   "BugCatchingContestExplanationText"
+  ],
+  "Route35NationalParkGateLeavingContestEarlyScript": [
+   "Route35NationalParkGateOfficer1WantToFinishText",
+   "Route35NationalParkGateOfficer1WaitAtNorthGateText",
+   "Route35NationalParkGateOfficer1OkGoFinishText"
+  ],
+  "Route35NationalParkGateOfficerScript": [
+   "Route35NationalParkGateOfficer1ContestIsOverText",
+   "Route35NationalParkGateOfficer1WeHoldContestsText"
+  ],
+  "Route35NationalParkGateYoungsterScript": [
+   "Route35NationalParkGateYoungsterText"
+  ],
+  "Route35NationalParkGate_ContestIsOver": [
+   "Route35NationalParkGateOfficer1ContestIsOverText"
+  ],
+  "Route35NationalParkGate_DeclinedToLeaveMonsBehind": [
+   "Route35NationalParkGateOfficer1ChooseMonAndComeBackText"
+  ],
+  "Route35NationalParkGate_DeclinedToParticipate": [
+   "Route35NationalParkGateOfficer1TakePartInFutureText"
+  ],
+  "Route35NationalParkGate_FirstMonIsEgg": [
+   "Route35NationalParkGateOfficer1EggAsFirstMonText"
+  ],
+  "Route35NationalParkGate_FirstMonIsFainted": [
+   "Route35NationalParkGateOfficer1FirstMonCantBattleText"
+  ],
+  "Route35NationalParkGate_LeaveTheRestBehind": [
+   "Route35NationalParkGateOfficer1AskToUseFirstMonText",
+   "Route35NationalParkGateOfficer1WellHoldYourMonText",
+   "Route35NationalParkGatePlayersMonLeftWithHelperText",
+   "Route35NationalParkGateOfficer1MakeRoomText"
+  ],
+  "Route35NationalParkGate_LessThanFullParty": [
+   "Route35NationalParkGateOfficer1EggAsFirstMonText",
+   "Route35NationalParkGateOfficer1AskToUseFirstMonText",
+   "Route35NationalParkGateOfficer1ChooseMonAndComeBackText",
+   "Route35NationalParkGateOfficer1FirstMonCantBattleText",
+   "Route35NationalParkGateOfficer1WellHoldYourMonText",
+   "Route35NationalParkGatePlayersMonLeftWithHelperText",
+   "Route35NationalParkGateOfficer1GiveParkBallsText",
+   "Route35NationalParkGatePlayerReceivedParkBallsText",
+   "Route35NationalParkGateOfficer1ExplainsRulesText"
+  ],
+  "Route35NationalParkGate_NoContestToday": [
+   "Route35NationalParkGateOfficer1WeHoldContestsText"
+  ],
+  "Route35NationalParkGate_NoRoomInBox": [
+   "Route35NationalParkGateOfficer1MakeRoomText"
+  ],
+  "Route35NationalParkGate_OkayToProceed": [
+   "Route35NationalParkGateOfficer1GiveParkBallsText",
+   "Route35NationalParkGatePlayerReceivedParkBallsText",
+   "Route35NationalParkGateOfficer1ExplainsRulesText"
+  ],
+  "Route35OfficerScriptContest": [
+   "Route35NationalParkGateOfficer1WeHoldContestsText",
+   "Route35NationalParkGateOfficer1ContestIsOverText",
+   "Route35NationalParkGateOfficer1AskToParticipateText",
+   "Route35NationalParkGateOfficer1TakePartInFutureText"
+  ]
+ },
+ "Route36": {
+  "ArthurNotThursdayScript": [
+   "ArthurNotThursdayText"
+  ],
+  "ArthurScript": [
+   "ArthurNotThursdayText",
+   "MeetArthurText",
+   "ArthurGivesGiftText",
+   "ArthurGaveGiftText",
+   "ArthurThursdayText"
+  ],
+  "Route36FloriaScript": [
+   "FloriaText1",
+   "FloriaText2"
+  ],
+  "Route36LassScript": [
+   "Route36LassText",
+   "Route36LassText_ClearedSudowoodo"
+  ],
+  "Route36RockSmashGuyScript": [
+   "RockSmashGuyText1",
+   "RockSmashGuyText2",
+   "RockSmashGuyText3"
+  ],
+  "Route36Sign": [
+   "Route36SignText"
+  ],
+  "Route36TrainerTips1": [
+   "Route36TrainerTips1Text"
+  ],
+  "Route36TrainerTips2": [
+   "Route36TrainerTips2Text"
+  ],
+  "RuinsOfAlphNorthSign": [
+   "RuinsOfAlphNorthSignText"
+  ],
+  "SudowoodoScript": [
+   "UseSquirtbottleText"
+  ],
+  "TrainerPsychicMark": [
+   "PsychicMarkSeenText",
+   "PsychicMarkBeatenText",
+   "PsychicMarkAfterBattleText"
+  ],
+  "TrainerSchoolboyAlan1": [
+   "SchoolboyAlan1SeenText",
+   "SchoolboyAlan1BeatenText",
+   "SchoolboyAlanBooksText"
+  ],
+  "WateredWeirdTreeScript": [
+   "UsedSquirtbottleText",
+   "SudowoodoAttackedText"
+  ]
+ },
+ "Route36NationalParkGate": {
+  "BugCatchingContestExplanationSign": [
+   "BugCatchingContestExplanationText"
+  ],
+  "BugCatchingContestant10BScript": [
+   "BugCatchingContestant10BText",
+   "BugCatchingContestant10BStillCompetingText"
+  ],
+  "BugCatchingContestant1BScript": [
+   "BugCatchingContestant1BText",
+   "BugCatchingContestant1BStillCompetingText"
+  ],
+  "BugCatchingContestant2BScript": [
+   "BugCatchingContestant2BText",
+   "BugCatchingContestant2BStillCompetingText"
+  ],
+  "BugCatchingContestant3BScript": [
+   "BugCatchingContestant3BText",
+   "BugCatchingContestant3BStillCompetingText"
+  ],
+  "BugCatchingContestant4BScript": [
+   "BugCatchingContestant4BText",
+   "BugCatchingContestant4BStillCompetingText"
+  ],
+  "BugCatchingContestant5BScript": [
+   "BugCatchingContestant5BText",
+   "BugCatchingContestant5BStillCompetingText"
+  ],
+  "BugCatchingContestant6BScript": [
+   "BugCatchingContestant6BText",
+   "BugCatchingContestant6BStillCompetingText"
+  ],
+  "BugCatchingContestant7BScript": [
+   "BugCatchingContestant7BText",
+   "BugCatchingContestant7BStillCompetingText"
+  ],
+  "BugCatchingContestant8BScript": [
+   "BugCatchingContestant8BText",
+   "BugCatchingContestant8BStillCompetingText"
+  ],
+  "BugCatchingContestant9BScript": [
+   "BugCatchingContestant9BText",
+   "BugCatchingContestant9BStillCompetingText"
+  ],
+  "Route36NationalParkGateLeavingContestEarlyScript": [
+   "Route36NationalParkGateOfficer1WantToFinishText",
+   "Route36NationalParkGateOfficer1WaitHereForAnnouncementText",
+   "Route36NationalParkGateOfficer1OkGoFinishText"
+  ],
+  "Route36NationalParkGateOfficerScript": [
+   "Route36NationalParkGateOfficer1ContestIsOverText",
+   "Route36NationalParkGateOfficer1HeresThePrizeText",
+   "Route36NationalParkGateOfficer1WellHoldPrizeText",
+   "Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText"
+  ],
+  "Route36OfficerScriptContest": [
+   "Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText",
+   "Route36NationalParkGateOfficer1ContestIsOverText",
+   "Route36NationalParkGateOfficer1HeresThePrizeText",
+   "Route36NationalParkGateOfficer1WellHoldPrizeText",
+   "Route36NationalParkGateOfficer1AskToParticipateText",
+   "Route36NationalParkGateOfficer1GiveParkBallsText",
+   "Route36NationalParkGatePlayerReceivedParkBallsText",
+   "Route36NationalParkGateOfficer1ExplainsRulesText",
+   "Route36NationalParkGateOfficer1AskToUseFirstMonText",
+   "Route36NationalParkGateOfficer1WellHoldYourMonText",
+   "Route36NationalParkGatePlayersMonLeftWithHelperText",
+   "Route36NationalParkGateOfficer1TakePartInFutureText",
+   "Route36NationalParkGateOfficer1ChooseMonAndComeBackText",
+   "Route36NationalParkGateOfficer1FirstMonCantBattleText",
+   "Route36NationalParkGateOfficer1MakeRoomText",
+   "Route36NationalParkGateOfficer1EggAsFirstMonText"
+  ],
+  "Route36Officer_ContestHasConcluded": [
+   "Route36NationalParkGateOfficer1ContestIsOverText",
+   "Route36NationalParkGateOfficer1HeresThePrizeText",
+   "Route36NationalParkGateOfficer1WellHoldPrizeText"
+  ],
+  "UnusedBugCatchingContestExplanationSign": [
+   "UnusedBugCatchingContestExplanationText"
+  ],
+  "_ContestNotOn": [
+   "Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText"
+  ]
+ },
+ "Route36RuinsOfAlphGate": {
+  "Route36RuinsOfAlphGateGrampsScript": [
+   "Route36RuinsOfAlphGateGrampsText"
+  ],
+  "Route36RuinsOfAlphGateOfficerScript": [
+   "Route36RuinsOfAlphGateOfficerText"
+  ]
+ },
+ "Route37": {
+  "Route37Sign": [
+   "Route37SignText"
+  ],
+  "SunnyNotSundayScript": [
+   "SunnyNotSundayText"
+  ],
+  "SunnyScript": [
+   "SunnySundayText",
+   "SunnyNotSundayText",
+   "MeetSunnyText",
+   "SunnyGivesGiftText1",
+   "SunnyGivesGiftText2",
+   "SunnyGaveGiftText"
+  ],
+  "SunnySundayScript": [
+   "SunnySundayText"
+  ],
+  "TrainerPsychicGreg": [
+   "PsychicGregSeenText",
+   "PsychicGregBeatenText",
+   "PsychicGregAfterBattleText"
+  ],
+  "TrainerTwinsAnnandanne1": [
+   "TwinsAnnandanne1SeenText",
+   "TwinsAnnandanne1BeatenText",
+   "TwinsAnnandanne1AfterBattleText"
+  ],
+  "TrainerTwinsAnnandanne2": [
+   "TwinsAnnandanne2SeenText",
+   "TwinsAnnandanne2BeatenText",
+   "TwinsAnnandanne2AfterBattleText"
+  ]
+ },
+ "Route38": {
+  "Route38Sign": [
+   "Route38SignText"
+  ],
+  "Route38TrainerTips": [
+   "Route38TrainerTipsText"
+  ],
+  "TrainerBeautyOlivia": [
+   "BeautyOliviaSeenText",
+   "BeautyOliviaBeatenText",
+   "BeautyOliviaAfterBattleText"
+  ],
+  "TrainerBeautyValerie": [
+   "BeautyValerieSeenText",
+   "BeautyValerieBeatenText",
+   "BeautyValerieAfterBattleText"
+  ],
+  "TrainerBirdKeeperToby": [
+   "BirdKeeperTobySeenText",
+   "BirdKeeperTobyBeatenText",
+   "BirdKeeperTobyAfterBattleText"
+  ],
+  "TrainerLassDana1": [
+   "LassDana1SeenText",
+   "LassDana1BeatenText",
+   "LassDanaMoomooMilkText"
+  ],
+  "TrainerSailorHarry": [
+   "SailorHarrySeenText",
+   "SailorHarryBeatenText",
+   "SailorHarryAfterBattleText"
+  ],
+  "TrainerSchoolboyChad1": [
+   "SchoolboyChad1SeenText",
+   "SchoolboyChad1BeatenText",
+   "SchoolboyChadSoManyTestsText"
+  ]
+ },
+ "Route38EcruteakGate": {
+  "Route38EcruteakGateOfficerScript": [
+   "Route38EcruteakGateOfficerText"
+  ]
+ },
+ "Route39": {
+  "MoomooFarmSign": [
+   "MoomooFarmSignText"
+  ],
+  "Route39Miltank": [
+   "Route39MiltankText"
+  ],
+  "Route39Sign": [
+   "Route39SignText"
+  ],
+  "Route39TrainerTips": [
+   "Route39TrainerTipsText"
+  ],
+  "TrainerPokefanfJaime": [
+   "PokefanfJaimeSeenText",
+   "PokefanfJaimeAfterBattleText",
+   "PokefanfJaimeHopeItGetsDarkText"
+  ],
+  "TrainerPokefanfRuth": [
+   "PokefanfRuthSeenText",
+   "PokefanfRuthBeatenText",
+   "PokefanfRuthAfterBattleText"
+  ],
+  "TrainerPokefanmDerek": [
+   "PokefanmDerekSeenText",
+   "PokefanmDerekBeatenText",
+   "PokefanMDerekText_NotBragging",
+   "PokefanMDerekPikachuIsItText"
+  ],
+  "TrainerPsychicNorman": [
+   "PsychicNormanSeenText",
+   "PsychicNormanBeatenText",
+   "PsychicNormanAfterBattleText"
+  ],
+  "TrainerSailorEugene": [
+   "SailorEugeneSeenText",
+   "SailorEugeneBeatenText",
+   "SailorEugeneAfterBattleText"
+  ]
+ },
+ "Route39Barn": {
+  "MoomooScript": [
+   "MoomooWeakMooText",
+   "Route39BarnItsCryIsWeakText",
+   "Route39BarnAskGiveBerryText",
+   "Route39BarnGaveBerryText",
+   "Route39BarnLittleHealthierText",
+   "Route39BarnQuiteHealthyText",
+   "Route39BarnTotallyHealthyText",
+   "Route39BarnNoBerriesText",
+   "Route39BarnRefusedBerryText",
+   "MoomooHappyMooText"
+  ],
+  "Route39BarnTwin1Script": [
+   "Route39BarnTwinMoomooIsSickText",
+   "Route39BarnTwinWereFeedingMoomooText"
+  ],
+  "Route39BarnTwin2Script": [
+   "Route39BarnTwinMoomooIsSickText",
+   "Route39BarnTwinWereFeedingMoomooText"
+  ]
+ },
+ "Route39Farmhouse": {
+  "FarmerFScript_GiveSnore": [
+   "FarmerFText_HealedMiltank"
+  ],
+  "FarmerFScript_GotSnore": [
+   "FarmerFText_SnoreSpeech"
+  ],
+  "FarmerMScript_Milking": [
+   "FarmerMText_Milking"
+  ],
+  "FarmerMScript_NoMoney": [
+   "FarmerMText_NoMoney"
+  ],
+  "FarmerMScript_NoRoom": [
+   "FarmerMText_NoRoom"
+  ],
+  "FarmerMScript_NoSale": [
+   "FarmerMText_NoSale"
+  ],
+  "FarmerMScript_SellMilk": [
+   "FarmerMText_Milking",
+   "FarmerMText_BuyMilk",
+   "FarmerMText_NoSale",
+   "FarmerMText_NoMoney",
+   "FarmerMText_NoRoom",
+   "FarmerMText_GotMilk"
+  ],
+  "PokefanF_SnoreFarmer": [
+   "FarmerFText_SnoreSpeech",
+   "FarmerFText_HealedMiltank",
+   "FarmerFText_InTrouble"
+  ],
+  "PokefanM_DairyFarmer": [
+   "FarmerMText_BuyMilk",
+   "FarmerMText_GotMilk",
+   "FarmerMText_SickCow"
+  ]
+ },
+ "Route4": {
+  "MtMoonSquareSign": [
+   "MtMoonSquareSignText"
+  ],
+  "TrainerBirdKeeperHank": [
+   "BirdKeeperHankSeenText",
+   "BirdKeeperHankBeatenText",
+   "BirdKeeperHankAfterBattleText"
+  ],
+  "TrainerPicnickerHope": [
+   "PicnickerHopeSeenText",
+   "PicnickerHopeBeatenText",
+   "PicnickerHopeAfterBattleText"
+  ],
+  "TrainerPicnickerSharon": [
+   "PicnickerSharonSeenText",
+   "PicnickerSharonBeatenText",
+   "PicnickerSharonAfterBattleText"
+  ]
+ },
+ "Route40": {
+  "MonicaScript": [
+   "MeetMonicaText",
+   "MonicaGivesGiftText",
+   "MonicaGaveGiftText",
+   "MonicaMondayText",
+   "MonicaNotMondayText"
+  ],
+  "Route40Lass1Script": [
+   "Route40Lass1Text"
+  ],
+  "Route40Lass2Script": [
+   "Route40Lass2Text"
+  ],
+  "Route40PokefanMScript": [
+   "Route40PokefanMText",
+   "Route40PokefanMText_Mobile"
+  ],
+  "Route40Sign": [
+   "Route40SignText"
+  ],
+  "Route40StandingYoungsterScript": [
+   "Route40StandingYoungsterText"
+  ],
+  "TrainerSwimmerfElaine": [
+   "SwimmerfElaineSeenText",
+   "SwimmerfElaineBeatenText",
+   "SwimmerfElaineAfterBattleText"
+  ],
+  "TrainerSwimmerfPaula": [
+   "SwimmerfPaulaSeenText",
+   "SwimmerfPaulaBeatenText",
+   "SwimmerfPaulaAfterBattleText"
+  ],
+  "TrainerSwimmermRandall": [
+   "SwimmermRandallSeenText",
+   "SwimmermRandallBeatenText",
+   "SwimmermRandallAfterBattleText"
+  ],
+  "TrainerSwimmermSimon": [
+   "SwimmermSimonSeenText",
+   "SwimmermSimonBeatenText",
+   "SwimmermSimonAfterBattleText"
+  ]
+ },
+ "Route40BattleTowerGate": {
+  "Route40BattleTowerGateRockerScript": [
+   "Route40BattleTowerGateRockerText"
+  ],
+  "Route40BattleTowerGateTwinScript": [
+   "Route40BattleTowerGateTwinText"
+  ]
+ },
+ "Route41": {
+  "TrainerSwimmerfDenise": [
+   "SwimmerfDeniseSeenText",
+   "SwimmerfDeniseBeatenText",
+   "SwimmerfDeniseAfterBattleText"
+  ],
+  "TrainerSwimmerfKara": [
+   "SwimmerfKaraSeenText",
+   "SwimmerfKaraBeatenText",
+   "SwimmerfKaraAfterBattleText"
+  ],
+  "TrainerSwimmerfKaylee": [
+   "SwimmerfKayleeSeenText",
+   "SwimmerfKayleeBeatenText",
+   "SwimmerfKayleeAfterBattleText"
+  ],
+  "TrainerSwimmerfSusie": [
+   "SwimmerfSusieSeenText",
+   "SwimmerfSusieBeatenText",
+   "SwimmerfSusieAfterBattleText"
+  ],
+  "TrainerSwimmerfWendy": [
+   "SwimmerfWendySeenText",
+   "SwimmerfWendyBeatenText",
+   "SwimmerfWendyAfterBattleText"
+  ],
+  "TrainerSwimmermBerke": [
+   "SwimmermBerkeSeenText",
+   "SwimmermBerkeBeatenText",
+   "SwimmermBerkeAfterBattleText"
+  ],
+  "TrainerSwimmermCharlie": [
+   "SwimmermCharlieSeenText",
+   "SwimmermCharlieBeatenText",
+   "SwimmermCharlieAfterBattleText"
+  ],
+  "TrainerSwimmermGeorge": [
+   "SwimmermGeorgeSeenText",
+   "SwimmermGeorgeBeatenText",
+   "SwimmermGeorgeAfterBattleText"
+  ],
+  "TrainerSwimmermKirk": [
+   "SwimmermKirkSeenText",
+   "SwimmermKirkBeatenText",
+   "SwimmermKirkAfterBattleText"
+  ],
+  "TrainerSwimmermMathew": [
+   "SwimmermMathewSeenText",
+   "SwimmermMathewBeatenText",
+   "SwimmermMathewAfterBattleText"
+  ]
+ },
+ "Route42": {
+  "MtMortarSign1": [
+   "MtMortarSign1Text"
+  ],
+  "MtMortarSign2": [
+   "MtMortarSign2Text"
+  ],
+  "Route42Sign1": [
+   "Route42Sign1Text"
+  ],
+  "Route42Sign2": [
+   "Route42Sign2Text"
+  ],
+  "TrainerFisherTully": [
+   "FisherTullySeenText",
+   "FisherTullyBeatenText",
+   "FisherTullyAfterBattleText"
+  ],
+  "TrainerHikerBenjamin": [
+   "HikerBenjaminSeenText",
+   "HikerBenjaminBeatenText",
+   "HikerBenjaminAfterBattleText"
+  ],
+  "TrainerPokemaniacShane": [
+   "PokemaniacShaneSeenText",
+   "PokemaniacShaneBeatenText",
+   "PokemaniacShaneAfterBattleText"
+  ]
+ },
+ "Route42EcruteakGate": {
+  "Route42EcruteakGateOfficerScript": [
+   "Route42EcruteakGateOfficerText"
+  ]
+ },
+ "Route43": {
+  "Route43Sign1": [
+   "Route43Sign1Text"
+  ],
+  "Route43Sign2": [
+   "Route43Sign2Text"
+  ],
+  "Route43TrainerTips": [
+   "Route43TrainerTipsText"
+  ],
+  "TrainerCamperSpencer": [
+   "CamperSpencerSeenText",
+   "CamperSpencerBeatenText",
+   "CamperSpencerAfterBattleText"
+  ],
+  "TrainerFisherMarvin": [
+   "FisherMarvinSeenText",
+   "FisherMarvinBeatenText",
+   "FisherMarvinAfterBattleText"
+  ],
+  "TrainerPicnickerTiffany": [
+   "PicnickerTiffanySeenText",
+   "PicnickerTiffanyBeatenText",
+   "PicnickerTiffanyWantsPicnicText",
+   "PicnickerTiffanyClefairyText"
+  ],
+  "TrainerPokemaniacBen": [
+   "PokemaniacBenSeenText",
+   "PokemaniacBenBeatenText",
+   "PokemaniacBenAfterBattleText"
+  ],
+  "TrainerPokemaniacBrent": [
+   "PokemaniacBrentSeenText",
+   "PokemaniacBrentBeatenText",
+   "PokemaniacBrentAfterBattleText"
+  ],
+  "TrainerPokemaniacRon": [
+   "PokemaniacRonSeenText",
+   "PokemaniacRonBeatenText",
+   "PokemaniacRonAfterBattleText"
+  ]
+ },
+ "Route43Gate": {
+  "OfficerScript_GuardWithSludgeBomb": [
+   "OfficerText_FoundTM",
+   "OfficerText_AvoidGrass"
+  ],
+  "RocketScript_MakingABundle": [
+   "RocketText_MakingABundle"
+  ],
+  "RocketScript_Northbound": [
+   "RocketText_TollFee",
+   "RocketText_ThankYou",
+   "RocketText_AllYouGot"
+  ],
+  "RocketScript_Southbound": [
+   "RocketText_TollFee",
+   "RocketText_ThankYou",
+   "RocketText_AllYouGot"
+  ],
+  "RocketScript_TollNorth": [
+   "RocketText_ThankYou"
+  ],
+  "RocketScript_TollSouth": [
+   "RocketText_ThankYou"
+  ],
+  "RocketScript_YoureBrokeNorth": [
+   "RocketText_AllYouGot"
+  ],
+  "RocketScript_YoureBrokeSouth": [
+   "RocketText_AllYouGot"
+  ],
+  "Route43GateRocketTakeoverScript": [
+   "RocketText_TollFee"
+  ]
+ },
+ "Route43MahoganyGate": {
+  "Route43MahoganyGateOfficer": [
+   "Route43MahoganyGateOfficerText",
+   "Route43MahoganyGateOfficerRocketsClearedText"
+  ]
+ },
+ "Route44": {
+  "Route44Sign1": [
+   "Route44Sign1Text"
+  ],
+  "Route44Sign2": [
+   "Route44Sign2Text"
+  ],
+  "TrainerBirdKeeperVance1": [
+   "BirdKeeperVance1SeenText",
+   "BirdKeeperVance1BeatenText",
+   "BirdKeeperVanceLegendaryBirdsText",
+   "BirdKeeperVance2BeatenText"
+  ],
+  "TrainerCooltrainerfCybil": [
+   "CooltrainerfCybilSeenText",
+   "CooltrainerfCybilBeatenText",
+   "CooltrainerfCybilAfterBattleText"
+  ],
+  "TrainerCooltrainermAllen": [
+   "CooltrainermAllenSeenText",
+   "CooltrainermAllenBeatenText",
+   "CooltrainermAllenAfterBattleText"
+  ],
+  "TrainerFisherEdgar": [
+   "FisherEdgarSeenText",
+   "FisherEdgarBeatenText",
+   "FisherEdgarAfterBattleText"
+  ],
+  "TrainerFisherWilton1": [
+   "FisherWilton1SeenText",
+   "FisherWilton1BeatenText",
+   "FisherWiltonHugePoliwagText"
+  ],
+  "TrainerPokemaniacZach": [
+   "PokemaniacZachSeenText",
+   "PokemaniacZachBeatenText",
+   "PokemaniacZachAfterBattleText"
+  ],
+  "TrainerPsychicPhil": [
+   "PsychicPhilSeenText",
+   "PsychicPhilBeatenText",
+   "PsychicPhilAfterBattleText"
+  ]
+ },
+ "Route45": {
+  "Route45DummyScript": [
+   "Route45DummyText"
+  ],
+  "Route45Sign": [
+   "Route45SignText"
+  ],
+  "TrainerBlackbeltKenji": [
+   "BlackbeltKenji3SeenText",
+   "BlackbeltKenji3BeatenText",
+   "BlackbeltKenjiAfterBattleText",
+   "BlackbeltKenjiMorningText",
+   "BlackbeltKenjiNightText"
+  ],
+  "TrainerCamperQuentin": [
+   "CamperQuentinSeenText",
+   "CamperQuentinAfterBattleText"
+  ],
+  "TrainerCooltrainerfKelly": [
+   "CooltrainerfKellySeenText",
+   "CooltrainerfKellyBeatenText",
+   "CooltrainerfKellyAfterBattleText"
+  ],
+  "TrainerCooltrainermRyan": [
+   "CooltrainermRyanSeenText",
+   "CooltrainermRyanBeatenText",
+   "CooltrainermRyanAfterBattleText"
+  ],
+  "TrainerHikerErik": [
+   "HikerErikSeenText",
+   "HikerErikBeatenText",
+   "HikerErikAfterBattleText"
+  ],
+  "TrainerHikerMichael": [
+   "HikerMichaelSeenText",
+   "HikerMichaelBeatenText",
+   "HikerMichaelAfterBattleText"
+  ],
+  "TrainerHikerParry": [
+   "HikerParry3SeenText",
+   "HikerParry3BeatenText",
+   "HikerParryAfterBattleText",
+   "HikerParryGivesIronText"
+  ],
+  "TrainerHikerTimothy": [
+   "HikerTimothySeenText",
+   "HikerTimothyBeatenText",
+   "HikerTimothyAfterBattleText"
+  ]
+ },
+ "Route46": {
+  "Route46Sign": [
+   "Route46SignText"
+  ],
+  "TrainerCamperTed": [
+   "CamperTedSeenText",
+   "CamperTedBeatenText",
+   "CamperTedAfterBattleText"
+  ],
+  "TrainerHikerBailey": [
+   "HikerBaileySeenText",
+   "HikerBaileyBeatenText",
+   "HikerBaileyAfterBattleText"
+  ],
+  "TrainerPicnickerErin1": [
+   "PicnickerErin1SeenText",
+   "PicnickerErin1BeatenText",
+   "PicnickerErinAfterBattleText",
+   "PicnickerErin2BeatenText"
+  ]
+ },
+ "Route5": {
+  "HouseForSaleSign": [
+   "HouseForSaleSignText"
+  ],
+  "Route5PokefanMScript": [
+   "Route5PokefanMText"
+  ],
+  "Route5UndergroundPathSign": [
+   "Route5UndergroundPathSignText"
+  ]
+ },
+ "Route5CleanseTagHouse": {
+  "Route5CleanseTagHouseGrannyScript": [
+   "Route5CleanseTagHouseGrannyText1",
+   "Route5CleanseTagHouseGrannyText2"
+  ],
+  "Route5CleanseTagHouseTeacherScript": [
+   "Route5CleanseTagHouseTeacherText"
+  ]
+ },
+ "Route5SaffronGate": {
+  "Route5SaffronGateOfficerScript": [
+   "Route5SaffronGateOfficerText"
+  ]
+ },
+ "Route5UndergroundPathEntrance": {
+  "Route5UndergroundPathEntranceTeacherScript": [
+   "Route5UndergroundPathEntranceTeacherText"
+  ]
+ },
+ "Route6": {
+  "Route6PokefanMScript": [
+   "Route6PokefanMText"
+  ],
+  "Route6UndergroundPathSign": [
+   "Route6UndergroundPathSignText"
+  ],
+  "TrainerPokefanmAllan": [
+   "PokefanmAllanSeenText",
+   "PokefanmAllanBeatenText",
+   "PokefanmAllanAfterBattleText"
+  ],
+  "TrainerPokefanmRex": [
+   "PokefanmRexSeenText",
+   "PokefanmRexBeatenText",
+   "PokefanmRexAfterBattleText"
+  ]
+ },
+ "Route6SaffronGate": {
+  "Route6SaffronGuardScript": [
+   "Route6SaffronGuardWelcomeText",
+   "Route6SaffronGuardMagnetTrainText"
+  ]
+ },
+ "Route6UndergroundPathEntrance": {},
+ "Route7": {
+  "Route7LockedDoor": [
+   "Route7LockedDoorText"
+  ],
+  "Route7UndergroundPathSign": [
+   "Route7UndergroundPathSignText"
+  ]
+ },
+ "Route7SaffronGate": {
+  "Route7SaffronGuardScript": [
+   "Route7SaffronGuardPowerPlantText",
+   "Route7SaffronGuardSeriousText"
+  ]
+ },
+ "Route8": {
+  "Route8LockedDoor": [
+   "Route8LockedDoorText"
+  ],
+  "Route8UndergroundPathSign": [
+   "Route8UndergroundPathSignText"
+  ],
+  "TrainerBikerDwayne": [
+   "BikerDwayneSeenText",
+   "BikerDwayneBeatenText",
+   "BikerDwayneAfterBattleText"
+  ],
+  "TrainerBikerHarris": [
+   "BikerHarrisSeenText",
+   "BikerHarrisBeatenText",
+   "BikerHarrisAfterBattleText"
+  ],
+  "TrainerBikerZeke": [
+   "BikerZekeSeenText",
+   "BikerZekeBeatenText",
+   "BikerZekeAfterBattleText"
+  ],
+  "TrainerSupernerdSam": [
+   "SupernerdSamSeenText",
+   "SupernerdSamBeatenText",
+   "SupernerdSamAfterBattleText"
+  ],
+  "TrainerSupernerdTom": [
+   "SupernerdTomSeenText",
+   "SupernerdTomBeatenText",
+   "SupernerdTomAfterBattleText"
+  ]
+ },
+ "Route8SaffronGate": {
+  "Route8SaffronGateOfficerScript": [
+   "Route8SaffronGateOfficerText"
+  ]
+ },
+ "Route9": {
+  "Route9Sign": [
+   "Route9SignText"
+  ],
+  "TrainerCamperDean": [
+   "CamperDeanSeenText",
+   "CamperDeanBeatenText",
+   "CamperDeanAfterBattleText"
+  ],
+  "TrainerCamperSid": [
+   "CamperSidSeenText",
+   "CamperSidBeatenText",
+   "CamperSidAfterBattleText"
+  ],
+  "TrainerHikerSidney": [
+   "HikerSidneySeenText",
+   "HikerSidneyBeatenText",
+   "HikerSidneyAfterBattleText"
+  ],
+  "TrainerHikerTim": [
+   "HikerTimSeenText",
+   "HikerTimBeatenText",
+   "HikerTimAfterBattleText"
+  ],
+  "TrainerPicnickerEdna": [
+   "PicnickerEdnaSeenText",
+   "PicnickerEdnaBeatenText",
+   "PicnickerEdnaAfterBattleText"
+  ],
+  "TrainerPicnickerHeidi": [
+   "PicnickerHeidiSeenText",
+   "PicnickerHeidiBeatenText",
+   "PicnickerHeidiAfterBattleText"
+  ]
+ },
+ "RuinsOfAlphAerodactylChamber": {
+  "RuinsOfAlphAerodactylChamberAncientReplica": [
+   "RuinsOfAlphAerodactylChamberAncientReplicaText"
+  ],
+  "RuinsOfAlphAerodactylChamberDescriptionSign": [
+   "RuinsOfAlphAerodactylChamberDescriptionText"
+  ],
+  "RuinsOfAlphAerodactylChamberWallPatternLeft": [
+   "RuinsOfAlphAerodactylChamberWallPatternLeftText"
+  ],
+  "RuinsOfAlphAerodactylChamberWallPatternRight": [
+   "RuinsOfAlphAerodactylChamberWallPatternRightText",
+   "RuinsOfAlphAerodactylChamberWallHoleText"
+  ]
+ },
+ "RuinsOfAlphAerodactylItemRoom": {
+  "RuinsOfAlphAerodactylItemRoomAncientReplica": [
+   "RuinsOfAlphAerodactylItemRoomAncientReplicaText"
+  ]
+ },
+ "RuinsOfAlphAerodactylWordRoom": {},
+ "RuinsOfAlphHoOhChamber": {
+  "RuinsOfAlphHoOhChamberAncientReplica": [
+   "RuinsOfAlphHoOhChamberAncientReplicaText"
+  ],
+  "RuinsOfAlphHoOhChamberDescriptionSign": [
+   "RuinsOfAlphHoOhChamberDescriptionText"
+  ],
+  "RuinsOfAlphHoOhChamberWallPatternLeft": [
+   "RuinsOfAlphHoOhChamberWallPatternLeftText"
+  ],
+  "RuinsOfAlphHoOhChamberWallPatternRight": [
+   "RuinsOfAlphHoOhChamberWallPatternRightText",
+   "RuinsOfAlphHoOhChamberWallHoleText"
+  ]
+ },
+ "RuinsOfAlphHoOhItemRoom": {
+  "RuinsOfAlphHoOhItemRoomAncientReplica": [
+   "RuinsOfAlphHoOhItemRoomAncientReplicaText"
+  ]
+ },
+ "RuinsOfAlphHoOhWordRoom": {},
+ "RuinsOfAlphInnerChamber": {
+  "RuinsOfAlphInnerChamberFisherScript": [
+   "RuinsOfAlphInnerChamberFisherText"
+  ],
+  "RuinsOfAlphInnerChamberGrampsScript": [
+   "RuinsOfAlphInnerChamberGrampsText"
+  ],
+  "RuinsOfAlphInnerChamberStatue": [
+   "RuinsOfAlphInnerChamberStatueText"
+  ],
+  "RuinsOfAlphInnerChamberStrangePresenceScript": [
+   "RuinsOfAlphStrangePresenceText"
+  ],
+  "RuinsOfAlphInnerChamberTeacherScript": [
+   "RuinsOfAlphInnerChamberTeacherText"
+  ]
+ },
+ "RuinsOfAlphKabutoChamber": {
+  "RuinsOfAlphKabutoChamberAncientReplica": [
+   "RuinsOfAlphKabutoChamberAncientReplicaText"
+  ],
+  "RuinsOfAlphKabutoChamberDescriptionSign": [
+   "RuinsOfAlphKabutoChamberDescriptionText"
+  ],
+  "RuinsOfAlphKabutoChamberReceptionistScript": [
+   "RuinsOfAlphKabutoChamberReceptionistText"
+  ],
+  "RuinsOfAlphKabutoChamberScientistScript": [
+   "RuinsOfAlphKabutoChamberScientistTremorText",
+   "RuinsOfAlphKabutoChamberScientistCrypticText",
+   "RuinsOfAlphKabutoChamberScientistHoleText",
+   "RuinsOfAlphResearchCenterScientist1Text_GotAllUnown"
+  ],
+  "RuinsOfAlphKabutoChamberWallPatternLeft": [
+   "RuinsOfAlphKabutoChamberWallPatternLeftText"
+  ],
+  "RuinsOfAlphKabutoChamberWallPatternRight": [
+   "RuinsOfAlphKabutoChamberWallPatternRightText",
+   "RuinsOfAlphKabutoChamberWallHoleText"
+  ]
+ },
+ "RuinsOfAlphKabutoItemRoom": {
+  "RuinsOfAlphKabutoItemRoomAncientReplica": [
+   "RuinsOfAlphKabutoItemRoomAncientReplicaText"
+  ]
+ },
+ "RuinsOfAlphKabutoWordRoom": {},
+ "RuinsOfAlphOmanyteChamber": {
+  "RuinsOfAlphOmanyteChamberAncientReplica": [
+   "RuinsOfAlphOmanyteChamberAncientReplicaText"
+  ],
+  "RuinsOfAlphOmanyteChamberDescriptionSign": [
+   "RuinsOfAlphOmanyteChamberDescriptionText"
+  ],
+  "RuinsOfAlphOmanyteChamberWallPatternLeft": [
+   "RuinsOfAlphOmanyteChamberWallPatternLeftText"
+  ],
+  "RuinsOfAlphOmanyteChamberWallPatternRight": [
+   "RuinsOfAlphOmanyteChamberWallPatternRightText",
+   "RuinsOfAlphOmanyteChamberWallHoleText"
+  ]
+ },
+ "RuinsOfAlphOmanyteItemRoom": {
+  "RuinsOfAlphOmanyteItemRoomAncientReplica": [
+   "RuinsOfAlphOmanyteItemRoomAncientReplicaText"
+  ]
+ },
+ "RuinsOfAlphOmanyteWordRoom": {},
+ "RuinsOfAlphOutside": {
+  "RuinsOfAlphOutsideFisherScript": [
+   "RuinsOfAlphOutsideFisherText1",
+   "RuinsOfAlphOutsideFisherText2"
+  ],
+  "RuinsOfAlphOutsideMysteryChamberSign": [
+   "RuinsOfAlphOutsideMysteryChamberSignText"
+  ],
+  "RuinsOfAlphOutsideScientistScene1": [
+   "RuinsOfAlphOutsideScientistText"
+  ],
+  "RuinsOfAlphOutsideScientistScene2": [
+   "RuinsOfAlphOutsideScientistText"
+  ],
+  "RuinsOfAlphOutsideScientistSceneContinue": [
+   "RuinsOfAlphOutsideScientistText"
+  ],
+  "RuinsOfAlphOutsideYoungster1Script": [
+   "RuinsOfAlphOutsideYoungster1Text"
+  ],
+  "RuinsOfAlphOutsideYoungster2Script": [
+   "RuinsOfAlphOutsideYoungster2Text"
+  ],
+  "RuinsOfAlphResearchCenterSign": [
+   "RuinsOfAlphResearchCenterSignText"
+  ],
+  "RuinsOfAlphSign": [
+   "RuinsOfAlphSignText"
+  ],
+  "TrainerPsychicNathan": [
+   "PsychicNathanSeenText",
+   "PsychicNathanBeatenText",
+   "PsychicNathanAfterBattleText"
+  ],
+  "TrainerSuperNerdStan": [
+   "SuperNerdStanSeenText",
+   "SuperNerdStanBeatenText",
+   "SuperNerdStanAfterBattleText"
+  ]
+ },
+ "RuinsOfAlphResearchCenter": {
+  "RuinsOfAlphResearchCenterBookshelf": [
+   "RuinsOfAlphResearchCenterAcademicBooksText"
+  ],
+  "RuinsOfAlphResearchCenterComputer": [
+   "RuinsOfAlphResearchCenterComputerText",
+   "RuinsOfAlphResearchCenterComputerText_GotAllUnown"
+  ],
+  "RuinsOfAlphResearchCenterGetUnownDexScript": [
+   "RuinsOfAlphResearchCenterModifiedDexText",
+   "RuinsOfAlphResearchCenterDexUpgradedText",
+   "RuinsOfAlphResearchCenterScientist3Text"
+  ],
+  "RuinsOfAlphResearchCenterPhoto": [
+   "RuinsOfAlphResearchCenterProfSilktreePhotoText"
+  ],
+  "RuinsOfAlphResearchCenterPrinter": [
+   "RuinsOfAlphResearchCenterPrinterText_DoesntWork",
+   "RuinsOfAlphResearchCenterUnownPrinterText"
+  ],
+  "RuinsOfAlphResearchCenterScientist1Script": [
+   "RuinsOfAlphResearchCenterScientist1Text",
+   "RuinsOfAlphResearchCenterScientist1Text_UnownAppeared",
+   "RuinsOfAlphResearchCenterScientist1Text_GotUnownDex",
+   "RuinsOfAlphResearchCenterScientist1Text_GotAllUnown"
+  ],
+  "RuinsOfAlphResearchCenterScientist2Script": [
+   "RuinsOfAlphResearchCenterScientist2Text",
+   "RuinsOfAlphResearchCenterScientist2Text_UnownAppeared",
+   "RuinsOfAlphResearchCenterScientist2Text_GotAllUnown"
+  ],
+  "RuinsOfAlphResearchCenterScientist3Script": [
+   "RuinsOfAlphResearchCenterScientist3Text",
+   "RuinsOfAlphResearchCenterScientist3_PrinterAvailable"
+  ]
+ },
+ "SafariZoneBeta": {},
+ "SafariZoneFuchsiaGateBeta": {},
+ "SafariZoneMainOffice": {},
+ "SafariZoneWardensHome": {
+  "SafariZonePhoto": [
+   "SafariZonePhotoText"
+  ],
+  "WardenPhoto": [
+   "WardenPhotoText"
+  ],
+  "WardensGranddaughter": [
+   "WardensGranddaughterText1",
+   "WardensGranddaughterText2"
+  ]
+ },
+ "SaffronCity": {
+  "FightingDojoSign": [
+   "FightingDojoSignText"
+  ],
+  "MrPsychicsHouseSign": [
+   "MrPsychicsHouseSignText"
+  ],
+  "SaffronCityCooltrainerFScript": [
+   "SaffronCityCooltrainerFText"
+  ],
+  "SaffronCityCooltrainerMScript": [
+   "SaffronCityCooltrainerMText"
+  ],
+  "SaffronCityFisherScript": [
+   "SaffronCityFisherText",
+   "SaffronCityFisherText_ReturnedMachinePart"
+  ],
+  "SaffronCityLass1Script": [
+   "SaffronCityLass1Text",
+   "SaffronCityLass1Text_ReturnedMachinePart"
+  ],
+  "SaffronCityLass2Script": [
+   "SaffronCityLass2Text"
+  ],
+  "SaffronCityMagnetTrainStationSign": [
+   "SaffronCityMagnetTrainStationSignText"
+  ],
+  "SaffronCityPokefanMScript": [
+   "SaffronCityPokefanMText",
+   "SaffronCityPokefanMText_ReturnedMachinePart"
+  ],
+  "SaffronCitySign": [
+   "SaffronCitySignText"
+  ],
+  "SaffronCityYoungster1Script": [
+   "SaffronCityYoungster1Text"
+  ],
+  "SaffronCityYoungster2Script": [
+   "SaffronCityYoungster2Text"
+  ],
+  "SaffronGymSign": [
+   "SaffronGymSignText"
+  ],
+  "SilphCoSign": [
+   "SilphCoSignText"
+  ]
+ },
+ "SaffronGym": {
+  "SaffronGymGuideScript": [
+   "SaffronGymGuideText",
+   "SaffronGymGuideWinText"
+  ],
+  "SaffronGymSabrinaScript": [
+   "SabrinaIntroText",
+   "ReceivedMarshBadgeText",
+   "SabrinaMarshBadgeText",
+   "SabrinaFightDoneText"
+  ],
+  "TrainerMediumDoris": [
+   "MediumDorisSeenText",
+   "MediumDorisBeatenText",
+   "MediumDorisAfterBattleText"
+  ],
+  "TrainerMediumRebecca": [
+   "MediumRebeccaSeenText",
+   "MediumRebeccaBeatenText",
+   "MediumRebeccaAfterBattleText"
+  ],
+  "TrainerPsychicFranklin": [
+   "PsychicFranklinSeenText",
+   "PsychicFranklinBeatenText",
+   "PsychicFranklinAfterBattleText"
+  ],
+  "TrainerPsychicJared": [
+   "PsychicJaredSeenText",
+   "PsychicJaredBeatenText",
+   "PsychicJaredAfterBattleText"
+  ]
+ },
+ "SaffronMagnetTrainStation": {
+  "SaffronMagnetTrainStationGymGuideScript": [
+   "SaffronMagnetTrainStationGymGuideText",
+   "SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart"
+  ],
+  "SaffronMagnetTrainStationLassScript": [
+   "SaffronMagnetTrainStationLassText"
+  ],
+  "SaffronMagnetTrainStationOfficerScript": [
+   "SaffronMagnetTrainStationOfficerTrainIsntOperatingText",
+   "SaffronMagnetTrainStationOfficerAreYouComingOnBoardText",
+   "SaffronMagnetTrainStationOfficerRightThisWayText",
+   "SaffronMagnetTrainStationOfficerYouDontHaveAPassText",
+   "SaffronMagnetTrainStationOfficerHopeToSeeYouAgainText"
+  ],
+  "SaffronMagnetTrainStationTeacherScript": [
+   "SaffronMagnetTrainStationTeacherText"
+  ],
+  "Script_ArriveFromGoldenrod": [
+   "SaffronMagnetTrainStationOfficerArrivedInSaffronText"
+  ]
+ },
+ "SaffronMart": {
+  "SaffronMartCooltrainerFScript": [
+   "SaffronMartCooltrainerFText"
+  ],
+  "SaffronMartCooltrainerMScript": [
+   "SaffronMartCooltrainerMText"
+  ]
+ },
+ "SaffronPokecenter1F": {
+  "SaffronPokecenter1FFisherScript": [
+   "SaffronPokecenter1FFisherText",
+   "SaffronPokecenter1FFisherReturnedMachinePartText"
+  ],
+  "SaffronPokecenter1FTeacherScript": [
+   "SaffronPokecenter1FTeacherText",
+   "SaffronPokecenter1FTeacherMobileText"
+  ],
+  "SaffronPokecenter1FYoungsterScript": [
+   "SaffronPokecenter1FYoungsterText"
+  ]
+ },
+ "SaffronPokecenter2FBeta": {},
+ "SeafoamGym": {
+  "SeafoamGymBlaineScript": [
+   "BlaineIntroText",
+   "ReceivedVolcanoBadgeText",
+   "BlaineAfterBattleText",
+   "BlaineFightDoneText"
+  ],
+  "SeafoamGymGuideScript": [
+   "SeafoamGymGuideWinText",
+   "SeafoamGymGuideWinText2"
+  ]
+ },
+ "SilphCo1F": {
+  "SilphCoOfficerScript": [
+   "SilphCoOfficerText",
+   "SilphCoOfficerText_GotUpGrade"
+  ],
+  "SilphCoReceptionistScript": [
+   "SilphCoReceptionistText"
+  ]
+ },
+ "SilverCaveItemRooms": {},
+ "SilverCaveOutside": {
+  "MtSilverSign": [
+   "MtSilverSignText"
+  ]
+ },
+ "SilverCavePokecenter1F": {
+  "SilverCavePokecenter1FGrannyScript": [
+   "SilverCavePokecenter1FGrannyText"
+  ]
+ },
+ "SilverCaveRoom1": {},
+ "SilverCaveRoom2": {},
+ "SilverCaveRoom3": {
+  "Red": [
+   "RedSeenText",
+   "RedWinLossText",
+   "RedLeavesText"
+  ]
+ },
+ "SlowpokeWellB1F": {
+  "SlowpokeWellB1FKurtScript": [
+   "SlowpokeWellB1FKurtText"
+  ],
+  "SlowpokeWellB1FSlowpokeWithMailScript": [
+   "SlowpokeWellB1FSlowpokeWithMailText",
+   "SlowpokeWellB1FSlowpokeMailText"
+  ],
+  "SlowpokeWellB1FTaillessSlowpokeScript": [
+   "SlowpokeWellB1FTaillessSlowpokeText"
+  ],
+  "TrainerGruntF1": [
+   "GruntF1SeenText",
+   "GruntF1BeatenText",
+   "GruntF1AfterBattleText"
+  ],
+  "TrainerGruntM1": [
+   "GruntM1SeenText",
+   "GruntM1BeatenText",
+   "TrainerGruntM1WhenTalkText",
+   "KurtLeaveSlowpokeWellText"
+  ],
+  "TrainerGruntM2": [
+   "GruntM2SeenText",
+   "GruntM2BeatenText",
+   "GruntM2AfterBattleText"
+  ],
+  "TrainerGruntM29": [
+   "GruntM29SeenText",
+   "GruntM29BeatenText",
+   "GruntM29AfterBattleText"
+  ]
+ },
+ "SlowpokeWellB2F": {
+  "SlowpokeWellB2FGymGuideScript": [
+   "SlowpokeWellB2FGymGuideText",
+   "SlowpokeWellB2FGymGuideText_GotKingsRock"
+  ]
+ },
+ "SoulHouse": {
+  "MrFuji": [
+   "MrFujiText"
+  ],
+  "SoulHouseGrannyScript": [
+   "SoulHouseGrannyText"
+  ],
+  "SoulHouseLassScript": [
+   "SoulHouseLassText"
+  ],
+  "SoulHouseTeacherScript": [
+   "SoulHouseTeacherText"
+  ]
+ },
+ "SproutTower1F": {
+  "SproutTower1FGrannyScript": [
+   "SproutTower1FGrannyText"
+  ],
+  "SproutTower1FSage1Script": [
+   "SproutTower1FSage1Text"
+  ],
+  "SproutTower1FSage2Script": [
+   "SproutTower1FSage2Text"
+  ],
+  "SproutTower1FStatue": [
+   "SproutTower1FStatueText"
+  ],
+  "SproutTower1FTeacherScript": [
+   "SproutTower1FTeacherText"
+  ],
+  "TrainerSageChow": [
+   "SageChowSeenText",
+   "SageChowBeatenText",
+   "SageChowAfterBattleText"
+  ]
+ },
+ "SproutTower2F": {
+  "SproutTower2FStatue": [
+   "SproutTower2FStatueText"
+  ],
+  "TrainerSageEdmond": [
+   "SageEdmondSeenText",
+   "SageEdmondBeatenText",
+   "SageEdmondAfterBattleText"
+  ],
+  "TrainerSageNico": [
+   "SageNicoSeenText",
+   "SageNicoBeatenText",
+   "SageNicoAfterBattleText"
+  ]
+ },
+ "SproutTower3F": {
+  "SageLiScript": [
+   "SageLiSeenText",
+   "SageLiTakeThisFlashText",
+   "SageLiFlashExplanationText",
+   "SageLiAfterBattleText"
+  ],
+  "SproutTower3FPainting": [
+   "SproutTower3FPaintingText"
+  ],
+  "SproutTower3FRivalScene": [
+   "SproutTowerElderLecturesRivalText",
+   "SproutTowerRivalOnlyCareAboutStrongText",
+   "SproutTowerRivalUsedEscapeRopeText"
+  ],
+  "SproutTower3FStatue": [
+   "SproutTower3FStatueText"
+  ],
+  "TrainerSageJin": [
+   "SageJinSeenText",
+   "SageJinBeatenText",
+   "SageJinAfterBattleText"
+  ],
+  "TrainerSageNeal": [
+   "SageNealSeenText",
+   "SageNealBeatenText",
+   "SageNealAfterBattleText"
+  ],
+  "TrainerSageTroy": [
+   "SageTroySeenText",
+   "SageTroyBeatenText",
+   "SageTroyAfterBattleText"
+  ]
+ },
+ "TeamRocketBaseB1F": {
+  "TeamRocketBaseB1FSecretSwitch": [
+   "TeamRocketBaseB1FSecretSwitchText",
+   "TeamRocketBaseB1FSwitchOffText"
+  ],
+  "TeamRocketBaseB1FSecurityCamera": [
+   "TeamRocketBaseB1FSecurityCameraText"
+  ],
+  "TrainerCameraGrunt1": [
+   "CameraGrunt1SeenText"
+  ],
+  "TrainerCameraGrunt2": [
+   "CameraGrunt2SeenText"
+  ],
+  "TrainerGruntM16": [
+   "GruntM16SeenText",
+   "GruntM16BeatenText",
+   "GruntM16AfterBattleText"
+  ],
+  "TrainerScientistJed": [
+   "ScientistJedSeenText",
+   "ScientistJedBeatenText",
+   "ScientistJedAfterBattleText"
+  ]
+ },
+ "TeamRocketBaseB2F": {
+  "LanceHealsCommon": [
+   "LanceHealsText1",
+   "LanceHealsText2"
+  ],
+  "LanceHealsScript1": [
+   "LanceHealsText1",
+   "LanceHealsText2"
+  ],
+  "RocketBaseBossFLeft": [
+   "RocketBaseExecutiveFHoldItText",
+   "RocketBaseBossFThrashText",
+   "RocketBaseLanceShareFunText",
+   "RocketBaseBossDontMeddleText",
+   "RocketBaseBossRetreatText",
+   "RocketBaseLancePostBattleText",
+   "RocketBaseLancePowerOffText",
+   "RockerBaseLanceElectrodeFaintText"
+  ],
+  "RocketBaseBossFScript": [
+   "RocketBaseExecutiveFHoldItText",
+   "RocketBaseBossFThrashText",
+   "RocketBaseLanceShareFunText",
+   "RocketBaseBossDontMeddleText",
+   "RocketBaseBossRetreatText",
+   "RocketBaseLancePostBattleText",
+   "RocketBaseLancePowerOffText",
+   "RockerBaseLanceElectrodeFaintText"
+  ],
+  "RocketBaseElectrodeScript": [
+   "RocketBaseLanceElectrodeDoneText",
+   "RocketBaseLanceWhirlpoolText",
+   "RocketBaseLanceMonMasterText"
+  ],
+  "RocketBaseLancesSideScript": [
+   "RocketBaseLancesSideText"
+  ],
+  "RocketElectrode1": [
+   "RocketBaseLanceElectrodeDoneText",
+   "RocketBaseLanceWhirlpoolText",
+   "RocketBaseLanceMonMasterText"
+  ],
+  "RocketElectrode2": [
+   "RocketBaseLanceElectrodeDoneText",
+   "RocketBaseLanceWhirlpoolText",
+   "RocketBaseLanceMonMasterText"
+  ],
+  "RocketElectrode3": [
+   "RocketBaseLanceElectrodeDoneText",
+   "RocketBaseLanceWhirlpoolText",
+   "RocketBaseLanceMonMasterText"
+  ],
+  "TeamRocketBaseB2FLockedDoor": [
+   "RocketBaseDoorNoPasswordText",
+   "RocketBaseDoorKnowPasswordText"
+  ],
+  "TeamRocketBaseB2FTransmitterScript": [
+   "RocketBaseB2FTransmitterText",
+   "RocketBaseB2FDeactivateTransmitterText"
+  ],
+  "TrainerGruntM17": [
+   "GruntM17SeenText",
+   "GruntM17BeatenText",
+   "GruntM17AfterBattleText"
+  ],
+  "TrainerGruntM18": [
+   "GruntM18SeenText",
+   "GruntM18BeatenText",
+   "GruntM18AfterBattleText"
+  ],
+  "TrainerGruntM19": [
+   "GruntM19SeenText",
+   "GruntM19BeatenText",
+   "GruntM19AfterBattleText"
+  ]
+ },
+ "TeamRocketBaseB3F": {
+  "GruntF5Script": [
+   "GruntF5AfterBattleText"
+  ],
+  "GruntM28Script": [
+   "GruntM28AfterBattleText"
+  ],
+  "LanceGetPasswordScript": [
+   "LanceGetPasswordText"
+  ],
+  "RaticateTailGrunt": [
+   "GruntM28SeenText",
+   "GruntM28BeatenText"
+  ],
+  "RocketBaseBoss": [
+   "ExecutiveM4BeforeText",
+   "ExecutiveM4AfterText"
+  ],
+  "RocketBaseBossLeft": [
+   "ExecutiveM4BeforeText",
+   "ExecutiveM4AfterText"
+  ],
+  "RocketBaseMurkrow": [
+   "RocketBaseMurkrowText"
+  ],
+  "RocketBaseRival": [
+   "RocketBaseRivalText"
+  ],
+  "SlowpokeTailGrunt": [
+   "GruntF5SeenText",
+   "GruntF5BeatenText"
+  ],
+  "TeamRocketBaseB3FLockedDoor": [
+   "TeamRocketBaseB3FLockedDoorNeedsPasswordText",
+   "TeamRocketBaseB3FLockedDoorOpenSesameText"
+  ],
+  "TeamRocketBaseB3FRocketScript": [
+   "TeamRocketBaseB3FRocketText"
+  ],
+  "TrainerScientistMitch": [
+   "ScientistMitchSeenText",
+   "ScientistMitchBeatenText",
+   "ScientistMitchAfterBattleText"
+  ],
+  "TrainerScientistRoss": [
+   "ScientistRossSeenText",
+   "ScientistRossBeatenText",
+   "ScientistRossAfterBattleText"
+  ]
+ },
+ "TimeCapsule": {},
+ "TinTower1F": {
+  "TinTower1FEusine": [
+   "TinTower1FEusineHoOhText"
+  ],
+  "TinTower1FSage1Script": [
+   "TinTower1FSage1Text"
+  ],
+  "TinTower1FSage2Script": [
+   "TinTower1FSage2Text"
+  ],
+  "TinTower1FSage3Script": [
+   "TinTower1FSage3Text"
+  ],
+  "TinTower1FSage4Script": [
+   "TinTower1FSage4Text1",
+   "TinTower1FSage4Text2"
+  ],
+  "TinTower1FSage5Script": [
+   "TinTower1FSage5Text1",
+   "TinTower1FSage5Text2",
+   "TinTower1FSage5Text3"
+  ],
+  "TinTower1FSage6Script": [
+   "TinTower1FSage6Text1",
+   "TinTower1FSage6Text2"
+  ],
+  "TinTower1FSuicuneBattleScript": [
+   "TinTower1FEusineSuicuneText"
+  ]
+ },
+ "TinTower2F": {},
+ "TinTower3F": {},
+ "TinTower4F": {},
+ "TinTower5F": {},
+ "TinTower6F": {},
+ "TinTower7F": {},
+ "TinTower8F": {},
+ "TinTower9F": {},
+ "TinTowerRoof": {
+  "TinTowerHoOh": [
+   "HoOhText"
+  ]
+ },
+ "TohjoFalls": {},
+ "TradeCenter": {
+  "TradeCenterFriendScript": [
+   "TradeCenterFriendReadyText"
+  ]
+ },
+ "TrainerHouse1F": {
+  "TrainerHouse1FCooltrainerFScript": [
+   "TrainerHouse1FCooltrainerFText"
+  ],
+  "TrainerHouse1FCooltrainerMScript": [
+   "TrainerHouse1FCooltrainerMText"
+  ],
+  "TrainerHouse1FGentlemanScript": [
+   "TrainerHouse1FGentlemanText"
+  ],
+  "TrainerHouse1FReceptionistScript": [
+   "TrainerHouse1FReceptionistText"
+  ],
+  "TrainerHouse1FYoungsterScript": [
+   "TrainerHouse1FYoungsterText"
+  ],
+  "TrainerHouseIllegibleBook": [
+   "TrainerHouseIllegibleText"
+  ],
+  "TrainerHouseSign1": [
+   "TrainerHouseSign1Text"
+  ],
+  "TrainerHouseSign2": [
+   "TrainerHouseSign2Text"
+  ]
+ },
+ "TrainerHouseB1F": {
+  "TrainerHouseReceptionistScript": [
+   "TrainerHouseB1FIntroText",
+   "TrainerHouseB1FAskWantToBattleText",
+   "TrainerHouseB1FGoRightInText",
+   "TrainerHouseB1FCalBeforeText",
+   "TrainerHouseB1FPleaseComeAgainText",
+   "TrainerHouseB1FSecondChallengeDeniedText"
+  ]
+ },
+ "UndergroundPath": {},
+ "UnionCave1F": {
+  "TrainerFirebreatherBill": [
+   "FirebreatherBillSeenText",
+   "FirebreatherBillBeatenText",
+   "FirebreatherBillAfterBattleText"
+  ],
+  "TrainerFirebreatherRay": [
+   "FirebreatherRaySeenText",
+   "FirebreatherRayBeatenText",
+   "FirebreatherRayAfterBattleText"
+  ],
+  "TrainerHikerDaniel": [
+   "HikerDanielSeenText",
+   "HikerDanielBeatenText",
+   "HikerDanielAfterBattleText"
+  ],
+  "TrainerHikerRussell": [
+   "HikerRussellSeenText",
+   "HikerRussellBeatenText",
+   "HikerRussellAfterBattleText"
+  ],
+  "TrainerPokemaniacLarry": [
+   "PokemaniacLarrySeenText",
+   "PokemaniacLarryBeatenText",
+   "PokemaniacLarryAfterBattleText"
+  ],
+  "UnionCave1FUnusedSign": [
+   "UnionCave1FUnusedSignText"
+  ]
+ },
+ "UnionCaveB1F": {
+  "TrainerHikerLeonard": [
+   "HikerLeonardSeenText",
+   "HikerLeonardBeatenText",
+   "HikerLeonardAfterBattleText"
+  ],
+  "TrainerHikerPhillip": [
+   "HikerPhillipSeenText",
+   "HikerPhillipBeatenText",
+   "HikerPhillipAfterBattleText"
+  ],
+  "TrainerPokemaniacAndrew": [
+   "PokemaniacAndrewSeenText",
+   "PokemaniacAndrewBeatenText",
+   "PokemaniacAndrewAfterBattleText"
+  ],
+  "TrainerPokemaniacCalvin": [
+   "PokemaniacCalvinSeenText",
+   "PokemaniacCalvinBeatenText",
+   "PokemaniacCalvinAfterBattleText"
+  ]
+ },
+ "UnionCaveB2F": {
+  "TrainerCooltrainerfEmma": [
+   "CooltrainerfEmmaSeenText",
+   "CooltrainerfEmmaBeatenText",
+   "CooltrainerfEmmaAfterBattleText"
+  ],
+  "TrainerCooltrainerfGwen": [
+   "CooltrainerfGwenSeenText",
+   "CooltrainerfGwenBeatenText",
+   "CooltrainerfGwenAfterBattleText"
+  ],
+  "TrainerCooltrainermNick": [
+   "CooltrainermNickSeenText",
+   "CooltrainermNickBeatenText",
+   "CooltrainermNickAfterBattleText"
+  ]
+ },
+ "VermilionCity": {
+  "PokemonFanClubSign": [
+   "PokemonFanClubSignText"
+  ],
+  "VermilionCityDiglettsCaveSign": [
+   "VermilionCityDiglettsCaveSignText"
+  ],
+  "VermilionCityPortSign": [
+   "VermilionCityPortSignText"
+  ],
+  "VermilionCitySign": [
+   "VermilionCitySignText"
+  ],
+  "VermilionCitySuperNerdScript": [
+   "VermilionCitySuperNerdText"
+  ],
+  "VermilionCityTeacherScript": [
+   "VermilionCityTeacherText"
+  ],
+  "VermilionGymBadgeGuy": [
+   "VermilionCityBadgeGuyTrainerText",
+   "VermilionCityBadgeGuySomeBadgesText",
+   "VermilionCityBadgeGuyMostBadgesText",
+   "VermilionCityBadgeGuyAllBadgesText",
+   "VermilionCityBadgeGuyBattleEdgeText"
+  ],
+  "VermilionGymSign": [
+   "VermilionGymSignText"
+  ],
+  "VermilionMachop": [
+   "VermilionMachopText1",
+   "VermilionMachopText2"
+  ],
+  "VermilionMachopOwner": [
+   "VermilionMachopOwnerText"
+  ],
+  "VermilionSnorlax": [
+   "VermilionCitySnorlaxSleepingText",
+   "VermilionCityRadioNearSnorlaxText"
+  ]
+ },
+ "VermilionDiglettsCaveSpeechHouse": {
+  "VermilionDiglettsCaveSpeechHouseGentlemanScript": [
+   "VermilionDiglettsCaveSpeechHouseGentlemanText"
+  ]
+ },
+ "VermilionFishingSpeechHouse": {
+  "FishingDude": [
+   "FishingDudeText"
+  ],
+  "FishingDudesHousePhoto": [
+   "FishingDudesHousePhotoText"
+  ]
+ },
+ "VermilionGym": {
+  "TrainerGentlemanGregory": [
+   "GentlemanGregorySeenText",
+   "GentlemanGregoryBeatenText",
+   "GentlemanGregoryAfterBattleText"
+  ],
+  "TrainerGuitaristVincent": [
+   "GuitaristVincentSeenText",
+   "GuitaristVincentBeatenText",
+   "GuitaristVincentAfterBattleText"
+  ],
+  "TrainerJugglerHorton": [
+   "JugglerHortonSeenText",
+   "JugglerHortonBeatenText",
+   "JugglerHortonAfterBattleText"
+  ],
+  "VermilionGymGuideScript": [
+   "VermilionGymGuideText",
+   "VermilionGymGuideWinText"
+  ],
+  "VermilionGymSurgeScript": [
+   "LtSurgeIntroText",
+   "ReceivedThunderBadgeText",
+   "LtSurgeThunderBadgeText",
+   "LtSurgeFightDoneText"
+  ],
+  "VermilionGymTrashCan": [
+   "VermilionGymTrashCanText"
+  ]
+ },
+ "VermilionMagnetTrainSpeechHouse": {
+  "VermilionMagnetTrainSpeechHousePokefanFScript": [
+   "VermilionMagnetTrainSpeechHousePokefanFText"
+  ],
+  "VermilionMagnetTrainSpeechHouseYoungsterScript": [
+   "VermilionMagnetTrainSpeechHouseYoungsterText"
+  ]
+ },
+ "VermilionMart": {
+  "VermilionMartBeautyScript": [
+   "VermilionMartBeautyText"
+  ],
+  "VermilionMartSuperNerdScript": [
+   "VermilionMartSuperNerdText"
+  ]
+ },
+ "VermilionPokecenter1F": {
+  "VermilionPokecenter1FBugCatcherScript": [
+   "VermilionPokecenter1FBugCatcherText"
+  ],
+  "VermilionPokecenter1FFishingGuruScript": [
+   "VermilionPokecenter1FFishingGuruText",
+   "VermilionPokecenter1FFishingGuruText_FoughtSnorlax"
+  ],
+  "VermilionPokecenter1FSailorScript": [
+   "VermilionPokecenter1FSailorText"
+  ]
+ },
+ "VermilionPokecenter2FBeta": {},
+ "VermilionPort": {
+  "VermilionPortAlreadyRodeScript": [
+   "VermilionPortCantBoardText"
+  ],
+  "VermilionPortNotRidingMoveAwayScript": [
+   "VermilionPortComeAgainText"
+  ],
+  "VermilionPortNotRidingScript": [
+   "VermilionPortComeAgainText"
+  ],
+  "VermilionPortSailorAtGangwayScript": [
+   "VermilionPortCantBoardText",
+   "VermilionPortDepartingText"
+  ],
+  "VermilionPortSailorScript": [
+   "VermilionPortCantBoardText",
+   "VermilionPortAskBoardingText",
+   "VermilionPortComeAgainText",
+   "VermilionPortAskTicketText",
+   "VermilionPortSSTicketText",
+   "VermilionPortDepartingText",
+   "VermilionPortNoTicketText",
+   "VermilionPortSailWednesdayText",
+   "VermilionPortSailSundayText"
+  ],
+  "VermilionPortSuperNerdScript": [
+   "VermilionPortSuperNerdText"
+  ],
+  "VermilionPortWalkUpToShipScript": [
+   "VermilionPortAskBoardingText",
+   "VermilionPortComeAgainText",
+   "VermilionPortAskTicketText",
+   "VermilionPortSSTicketText",
+   "VermilionPortDepartingText",
+   "VermilionPortNoTicketText",
+   "VermilionPortSailWednesdayText",
+   "VermilionPortSailSundayText"
+  ]
+ },
+ "VermilionPortPassage": {
+  "VermilionPortPassageTeacherScript": [
+   "VermilionPortPassageTeacherText"
+  ]
+ },
+ "VictoryRoad": {
+  "VictoryRoadRivalNext": [
+   "VictoryRoadRivalBeforeText",
+   "VictoryRoadRivalDefeatText",
+   "VictoryRoadRivalVictoryText",
+   "VictoryRoadRivalAfterText"
+  ]
+ },
+ "VictoryRoadGate": {
+  "VictoryRoadGateBadgeCheckScript": [
+   "VictoryRoadGateOfficerText",
+   "VictoryRoadGateNotEnoughBadgesText",
+   "VictoryRoadGateEightBadgesText"
+  ],
+  "VictoryRoadGateLeftBlackBeltScript": [
+   "VictoryRoadGateLeftBlackBeltText"
+  ],
+  "VictoryRoadGateRightBlackBeltScript": [
+   "VictoryRoadGateRightBlackBeltText"
+  ],
+  "_VictoryRoadGateBadgeCheckScript": [
+   "VictoryRoadGateOfficerText",
+   "VictoryRoadGateNotEnoughBadgesText",
+   "VictoryRoadGateEightBadgesText"
+  ]
+ },
+ "VioletCity": {
+  "EarlsPokemonAcademySign": [
+   "EarlsPokemonAcademySignText"
+  ],
+  "SproutTowerSign": [
+   "SproutTowerSignText"
+  ],
+  "VioletCityEarlScript": [
+   "Text_EarlAsksIfYouBeatFalkner",
+   "Text_VeryNiceIndeed",
+   "Text_FollowEarl",
+   "Text_HereTeacherIAm"
+  ],
+  "VioletCityGrampsScript": [
+   "VioletCityGrampsText"
+  ],
+  "VioletCityLassScript": [
+   "VioletCityLassText"
+  ],
+  "VioletCitySign": [
+   "VioletCitySignText"
+  ],
+  "VioletCitySuperNerdScript": [
+   "VioletCitySuperNerdText"
+  ],
+  "VioletCityYoungsterScript": [
+   "VioletCityYoungsterText"
+  ],
+  "VioletGymSign": [
+   "VioletGymSignText"
+  ]
+ },
+ "VioletGym": {
+  "TrainerBirdKeeperAbe": [
+   "BirdKeeperAbeSeenText",
+   "BirdKeeperAbeBeatenText",
+   "BirdKeeperAbeAfterBattleText"
+  ],
+  "TrainerBirdKeeperRod": [
+   "BirdKeeperRodSeenText",
+   "BirdKeeperRodBeatenText",
+   "BirdKeeperRodAfterBattleText"
+  ],
+  "VioletGymFalknerScript": [
+   "FalknerIntroText",
+   "ReceivedZephyrBadgeText",
+   "FalknerZephyrBadgeText",
+   "FalknerTMMudSlapText",
+   "FalknerFightDoneText"
+  ],
+  "VioletGymGuideScript": [
+   "VioletGymGuideText",
+   "VioletGymGuideWinText"
+  ]
+ },
+ "VioletKylesHouse": {
+  "VioletKylesHousePokefanMScript": [
+   "VioletKylesHousePokefanMText"
+  ]
+ },
+ "VioletMart": {
+  "VioletMartCooltrainerMScript": [
+   "VioletMartCooltrainerMText"
+  ],
+  "VioletMartGrannyScript": [
+   "VioletMartGrannyText"
+  ]
+ },
+ "VioletNicknameSpeechHouse": {
+  "VioletNicknameSpeechHouseBirdScript": [
+   "VioletNicknameSpeechHouseBirdText"
+  ],
+  "VioletNicknameSpeechHouseLassScript": [
+   "VioletNicknameSpeechHouseLassText"
+  ],
+  "VioletNicknameSpeechHouseTeacherScript": [
+   "VioletNicknameSpeechHouseTeacherText"
+  ]
+ },
+ "VioletPokecenter1F": {
+  "VioletPokecenter1FGameboyKidScript": [
+   "VioletPokecenter1FGameboyKidText"
+  ],
+  "VioletPokecenter1FGentlemanScript": [
+   "VioletPokecenter1FGentlemanText"
+  ],
+  "VioletPokecenter1FYoungsterScript": [
+   "VioletPokecenter1FYoungsterText"
+  ],
+  "VioletPokecenter1F_ElmsAideScript": [
+   "VioletPokecenterElmsAideFavorText",
+   "VioletPokecenterElmsAideGiveEggText",
+   "VioletCityElmsAideFullPartyText",
+   "VioletPokecenterElmsAideRefuseText",
+   "VioletPokecenterElmsAideAskEggText"
+  ]
+ },
+ "ViridianCity": {
+  "TrainerHouseSign": [
+   "TrainerHouseSignText"
+  ],
+  "ViridianCityCoffeeGramps": [
+   "ViridianCityCoffeeGrampsQuestionText",
+   "ViridianCityCoffeeGrampsBelievedText",
+   "ViridianCityCoffeeGrampsDoubtedText"
+  ],
+  "ViridianCityDreamEaterFisher": [
+   "ViridianCityDreamEaterFisherText",
+   "ViridianCityDreamEaterFisherGotDreamEaterText"
+  ],
+  "ViridianCityGrampsNearGym": [
+   "ViridianCityGrampsNearGymText",
+   "ViridianCityGrampsNearGymBlueReturnedText"
+  ],
+  "ViridianCitySign": [
+   "ViridianCitySignText"
+  ],
+  "ViridianCityWelcomeSign": [
+   "ViridianCityWelcomeSignText"
+  ],
+  "ViridianCityYoungsterScript": [
+   "ViridianCityYoungsterText"
+  ],
+  "ViridianGymSign": [
+   "ViridianGymSignText"
+  ]
+ },
+ "ViridianGym": {
+  "ViridianGymBlueScript": [
+   "LeaderBlueBeforeText",
+   "Text_ReceivedEarthBadge",
+   "LeaderBlueAfterText",
+   "LeaderBlueEpilogueText"
+  ],
+  "ViridianGymGuideScript": [
+   "ViridianGymGuideText",
+   "ViridianGymGuideWinText"
+  ]
+ },
+ "ViridianMart": {
+  "ViridianMartCooltrainerMScript": [
+   "ViridianMartCooltrainerMText"
+  ],
+  "ViridianMartLassScript": [
+   "ViridianMartLassText"
+  ]
+ },
+ "ViridianNicknameSpeechHouse": {
+  "Rattey": [
+   "RatteyText"
+  ],
+  "Speary": [
+   "SpearyText"
+  ],
+  "ViridianNicknameSpeechHouseLassScript": [
+   "ViridianNicknameSpeechHouseLassText"
+  ],
+  "ViridianNicknameSpeechHousePokefanMScript": [
+   "ViridianNicknameSpeechHousePokefanMText"
+  ]
+ },
+ "ViridianPokecenter1F": {
+  "ViridianPokecenter1FBugCatcherScript": [
+   "ViridianPokecenter1FBugCatcherText"
+  ],
+  "ViridianPokecenter1FCooltrainerFScript": [
+   "ViridianPokecenter1FCooltrainerFText"
+  ],
+  "ViridianPokecenter1FCooltrainerMScript": [
+   "ViridianPokecenter1FCooltrainerMText",
+   "ViridianPokecenter1FCooltrainerMText_BlueReturned"
+  ]
+ },
+ "ViridianPokecenter2FBeta": {},
+ "WhirlIslandB1F": {},
+ "WhirlIslandB2F": {},
+ "WhirlIslandCave": {},
+ "WhirlIslandLugiaChamber": {
+  "Lugia": [
+   "LugiaText"
+  ]
+ },
+ "WhirlIslandNE": {},
+ "WhirlIslandNW": {},
+ "WhirlIslandSE": {},
+ "WhirlIslandSW": {},
+ "WillsRoom": {
+  "WillScript_AfterBattle": [
+   "WillScript_WillDefeatText"
+  ],
+  "WillScript_Battle": [
+   "WillScript_WillDefeatText",
+   "WillScript_WillBeforeText"
+  ]
+ },
+ "WiseTriosRoom": {
+  "TrainerSageGaku": [
+   "SageGakuSeenText",
+   "SageGakuBeatenText",
+   "SageGakuAfterBattleText"
+  ],
+  "TrainerSageKoji": [
+   "SageKojiSeenText",
+   "SageKojiBeatenText",
+   "SageKojiAfterBattleQuestionText",
+   "SageKojiAfterBattleSpeechText",
+   "SageKojiAfterBattleFinalText"
+  ],
+  "TrainerSageMasa": [
+   "SageMasaSeenText",
+   "SageMasaBeatenText",
+   "SageMasaAfterBattleText"
+  ],
+  "WiseTriosRoomSage1Script": [
+   "WiseTriosRoomSage1Text"
+  ],
+  "WiseTriosRoomSage2Script": [
+   "WiseTriosRoomSage2Text"
+  ],
+  "WiseTriosRoomSage3Script": [
+   "WiseTriosRoomSage3Text"
+  ],
+  "WiseTriosRoom_CannotEnterTinTowerScript": [
+   "WiseTriosRoomSage3BlocksExitText"
+  ]
+ }
+}

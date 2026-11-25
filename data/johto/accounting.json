@@ -1,0 +1,21 @@
+{
+ "maps_total": 388,
+ "trainers": {
+  "classes": 67,
+  "parties": 541,
+  "placements": 333,
+  "unresolved_placements": 1,
+  "maps_with_placements": 87
+ },
+ "encounters": {
+  "maps_with_tables": 114,
+  "maps_with_grass": 91,
+  "maps_with_water": 62,
+  "maps_with_fishing_group": 114,
+  "fishing_groups": 13
+ },
+ "dialogue": {
+  "maps_with_text": 331,
+  "entries": 3243
+ }
+}

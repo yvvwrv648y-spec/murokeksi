@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dx471tiw18ehi"
+
+[deps]
+
+files=["res://data/johto/per_map_accounting.trainers.translation", "res://data/johto/per_map_accounting.encounters.translation", "res://data/johto/per_map_accounting.dialogue.translation"]
+
+source_file="res://data/johto/per_map_accounting.csv"
+dest_files=["res://data/johto/per_map_accounting.trainers.translation", "res://data/johto/per_map_accounting.encounters.translation", "res://data/johto/per_map_accounting.dialogue.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

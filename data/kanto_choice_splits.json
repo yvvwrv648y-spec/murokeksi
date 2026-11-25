@@ -1,0 +1,733 @@
+{
+ "assembly": {
+  "choices": [
+   {
+    "label": "Yes"
+   },
+   {
+    "label": "No"
+   }
+  ],
+  "known_limit": "PUWDialogueRunner v1 has no mid-list terminator: when both branches carry lines, the NO path (whose section is laid out first) falls through into the YES section after its own lines. The YES path is always exact. See PREP_REPORT.md.",
+  "layout": "Segments play in order. A linear segment appends its labels' resolved texts. A choice segment appends: the prompt line (as a runner choice entry), then the NO branch's lines, then the YES branch's lines, then the shared tail lines (the layout of the dialogue prep's own choice fixture). Labels resolve exactly like PUWSpawner._bridge_lines (map group first, global index fallback, empty text skipped).",
+  "targets": "Yes target = first YES line; if the YES branch is empty, the first tail line; if both are empty, -1 (runner advance). No target = first NO line; if the NO branch is empty, the first tail line; if both are empty, -1."
+ },
+ "base_prep": "hidden_files/code_prep_dialogue",
+ "schema": "puw.kanto_choice_splits/1",
+ "source_bridge": "data/kanto_text_bridge.json",
+ "source_bridge_sha256": "c9c190fdfbc0c0946531660bb9c84f1a4e4a65e42f20640c220690264229421b",
+ "splits": {
+  "BillsHouse": {
+   "TEXT_BILLSHOUSE_BILL_POKEMON": {
+    "notes": "Canonical rejoin: NO prints NoYouGottaHelp then falls into .use_machine, so UseSeparationSystem is a shared tail played on both paths.",
+    "restored": [],
+    "root": "BillsHouseBillPokemonText",
+    "segments": [
+     {
+      "no": [
+       "_BillsHouseBillNoYouGottaHelpText"
+      ],
+      "prompt": "_BillsHouseBillImNotAPokemonText",
+      "tail": [
+       "_BillsHouseBillUseSeparationSystemText"
+      ],
+      "type": "choice",
+      "yes": []
+     }
+    ],
+    "source_file": "scripts/BillsHouse.asm"
+   }
+  },
+  "CeladonMartRoof": {
+   "TEXT_CELADONMARTROOF_LITTLE_GIRL": {
+    "notes": "Both branches print nothing in this root: YES calls CeladonMartRoofScript_GiveDrinkToGirl (a separate drink-menu routine; its texts are that menu's layer, not this root's branches), NO jumps to .done. ImThirsty is the no-drinks-in-bag state line, kept as a trailing linear segment in bridge order.",
+    "restored": [],
+    "root": "CeladonMartRoofLittleGirlText",
+    "segments": [
+     {
+      "no": [],
+      "prompt": "_CeladonMartRoofLittleGirlGiveHerADrinkText",
+      "tail": [],
+      "type": "choice",
+      "yes": []
+     },
+     {
+      "labels": [
+       "_CeladonMartRoofLittleGirlImThirstyText"
+      ],
+      "type": "linear"
+     }
+    ],
+    "source_file": "scripts/CeladonMartRoof.asm"
+   }
+  },
+  "Daycare": {
+   "TEXT_DAYCARE_GENTLEMAN": {
+    "notes": "TWO YesNoChoice points in one root (deposit, then payment in the daycare-in-use flow). Deposit YES lists its conditional exits in source order: OnlyHaveOneMon (party of one), WhichMon, AllRightThen (party-menu cancel), CantAcceptMonWithHM, WillLookAfterMon, ComeSeeMeInAWhile. AllRightThen is genuinely printed at two flow points (deposit-menu cancel and payment refusal); it is a restored label used in both choice segments. The in-use lead labels sit between the two choices as a linear segment in source order.",
+    "restored": [
+     "_DaycareGentlemanComeAgainText",
+     "_DaycareGentlemanOnlyHaveOneMonText",
+     "_DaycareGentlemanAllRightThenText",
+     "_DaycareGentlemanCantAcceptMonWithHMText",
+     "_DaycareGentlemanComeSeeMeInAWhileText",
+     "_DaycareGentlemanMonNeedsMoreTimeText",
+     "_DaycareGentlemanNoRoomForMonText",
+     "_DaycareGentlemanNotEnoughMoneyText"
+    ],
+    "root": "DaycareGentlemanText",
+    "segments": [
+     {
+      "no": [
+       "_DaycareGentlemanComeAgainText"
+      ],
+      "prompt": "_DaycareGentlemanIntroText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_DaycareGentlemanOnlyHaveOneMonText",
+       "_DaycareGentlemanWhichMonText",
+       "_DaycareGentlemanAllRightThenText",
+       "_DaycareGentlemanCantAcceptMonWithHMText",
+       "_DaycareGentlemanWillLookAfterMonText",
+       "_DaycareGentlemanComeSeeMeInAWhileText"
+      ]
+     },
+     {
+      "labels": [
+       "_DaycareGentlemanMonNeedsMoreTimeText",
+       "_DaycareGentlemanMonHasGrownText",
+       "_DaycareGentlemanNoRoomForMonText"
+      ],
+      "type": "linear"
+     },
+     {
+      "no": [
+       "_DaycareGentlemanAllRightThenText"
+      ],
+      "prompt": "_DaycareGentlemanOweMoneyText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_DaycareGentlemanNotEnoughMoneyText",
+       "_DaycareGentlemanHeresYourMonText",
+       "_DaycareGentlemanGotMonBackText"
+      ]
+     }
+    ],
+    "source_file": "scripts/Daycare.asm"
+   }
+  },
+  "FightingDojo": {
+   "TEXT_FIGHTINGDOJO_HITMONCHAN_POKE_BALL": {
+    "notes": "Both branches print nothing (YES gives the Pokemon silently, NO ends). BetterNotGetGreedy is the already-took-one state line, kept as a leading linear segment in bridge order.",
+    "restored": [],
+    "root": "FightingDojoHitmonchanPokeBallText",
+    "segments": [
+     {
+      "labels": [
+       "_FightingDojoBetterNotGetGreedyText"
+      ],
+      "type": "linear"
+     },
+     {
+      "no": [],
+      "prompt": "_FightingDojoHitmonchanPokeBallText",
+      "tail": [],
+      "type": "choice",
+      "yes": []
+     }
+    ],
+    "source_file": "scripts/FightingDojo.asm"
+   },
+   "TEXT_FIGHTINGDOJO_HITMONLEE_POKE_BALL": {
+    "notes": "Same shape as the Hitmonchan ball: both branches print nothing; BetterNotGetGreedy is the other state line.",
+    "restored": [],
+    "root": "FightingDojoHitmonleePokeBallText",
+    "segments": [
+     {
+      "labels": [
+       "_FightingDojoBetterNotGetGreedyText"
+      ],
+      "type": "linear"
+     },
+     {
+      "no": [],
+      "prompt": "_FightingDojoHitmonleePokeBallText",
+      "tail": [],
+      "type": "choice",
+      "yes": []
+     }
+    ],
+    "source_file": "scripts/FightingDojo.asm"
+   }
+  },
+  "FuchsiaGoodRodHouse": {
+   "TEXT_FUCHSIAGOODRODHOUSE_FISHING_GURU": {
+    "notes": "YES success prints ReceivedGoodRod; YES with a full bag prints NoRoom (conditional exit, listed after by print-site order). NO prints ThatsSoDisappointing. HowAreTheFish is the already-has-rod state line (trailing linear, bridge order).",
+    "restored": [
+     "_FuchsiaGoodRodHouseFishingGuruReceivedGoodRodText",
+     "_FuchsiaGoodRodHouseFishingGuruNoRoomText",
+     "_FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText"
+    ],
+    "root": "FuchsiaGoodRodHouseFishingGuruText",
+    "segments": [
+     {
+      "no": [
+       "_FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText"
+      ],
+      "prompt": "_FuchsiaGoodRodHouseFishingGuruText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_FuchsiaGoodRodHouseFishingGuruReceivedGoodRodText",
+       "_FuchsiaGoodRodHouseFishingGuruNoRoomText"
+      ]
+     },
+     {
+      "labels": [
+       "_FuchsiaGoodRodHouseFishingGuruHowAreTheFishText"
+      ],
+      "type": "linear"
+     }
+    ],
+    "source_file": "scripts/FuchsiaGoodRodHouse.asm"
+   }
+  },
+  "GameCorner": {
+   "TEXT_GAMECORNER_CLERK1": {
+    "notes": "YES has four conditional outcomes; labels are ordered by print-site position in the source file: CantAffordTheCoins (main flow), ThanksHereAre50Coins (.buy_coins), CoinCaseIsFull (.coin_case_full), DontHaveCoinCase (.no_coin_case, the one outcome the bridge kept). NO prints PleaseComePlaySometime (.declined).",
+    "restored": [
+     "_GameCornerClerk1CantAffordTheCoinsText",
+     "_GameCornerClerk1ThanksHereAre50CoinsText",
+     "_GameCornerClerk1CoinCaseIsFullText",
+     "_GameCornerClerk1PleaseComePlaySometimeText"
+    ],
+    "root": "GameCornerClerk1Text",
+    "segments": [
+     {
+      "no": [
+       "_GameCornerClerk1PleaseComePlaySometimeText"
+      ],
+      "prompt": "_GameCornerClerk1DoYouNeedSomeGameCoinsText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_GameCornerClerk1CantAffordTheCoinsText",
+       "_GameCornerClerk1ThanksHereAre50CoinsText",
+       "_GameCornerClerk1CoinCaseIsFullText",
+       "_GameCornerClerk1DontHaveCoinCaseText"
+      ]
+     }
+    ],
+    "source_file": "scripts/GameCorner.asm"
+   }
+  },
+  "LavenderTown": {
+   "TEXT_LAVENDERTOWN_LITTLE_GIRL": {
+    "notes": "YES prints SoThereAreBelievers; NO prints HaHaGuessNot (pre-loaded in hl, then the YES fall-through overwrites hl \u2014 the overwrite is why the bridge generator dropped the NO label).",
+    "restored": [
+     "_LavenderTownLittleGirlHaHaGuessNotText"
+    ],
+    "root": "LavenderTownLittleGirlText",
+    "segments": [
+     {
+      "no": [
+       "_LavenderTownLittleGirlHaHaGuessNotText"
+      ],
+      "prompt": "_LavenderTownLittleGirlDoYouBelieveInGhostsText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_LavenderTownLittleGirlSoThereAreBelieversText"
+      ]
+     }
+    ],
+    "source_file": "scripts/LavenderTown.asm"
+   }
+  },
+  "MtMoonB2F": {
+   "TEXT_MTMOONB2F_DOME_FOSSIL": {
+    "notes": "Both branches print nothing in this root: YES gives the fossil (the received/no-room texts belong to the separate MtMoonB2FReceivedFossilText / MtMoonB2FYouHaveNoRoomText routines), NO ends.",
+    "restored": [],
+    "root": "MtMoonB2FDomeFossilText",
+    "segments": [
+     {
+      "no": [],
+      "prompt": "_MtMoonB2FDomeFossilYouWantText",
+      "tail": [],
+      "type": "choice",
+      "yes": []
+     }
+    ],
+    "source_file": "scripts/MtMoonB2F.asm"
+   },
+   "TEXT_MTMOONB2F_HELIX_FOSSIL": {
+    "notes": "Same shape as the Dome Fossil ball: both branches print nothing in this root.",
+    "restored": [],
+    "root": "MtMoonB2FHelixFossilText",
+    "segments": [
+     {
+      "no": [],
+      "prompt": "_MtMoonB2FHelixFossilYouWantText",
+      "tail": [],
+      "type": "choice",
+      "yes": []
+     }
+    ],
+    "source_file": "scripts/MtMoonB2F.asm"
+   }
+  },
+  "MtMoonPokecenter": {
+   "TEXT_MTMOONPOKECENTER_MAGIKARP_SALESMAN": {
+    "notes": "YES with too little money prints NoMoney; YES with enough money gives the Magikarp silently. NO prints NoText. NoRefunds is the already-bought state line (trailing linear, bridge order).",
+    "restored": [],
+    "root": "MtMoonPokecenterMagikarpSalesmanText",
+    "segments": [
+     {
+      "no": [
+       "_MtMoonPokecenterMagikarpSalesmanNoText"
+      ],
+      "prompt": "_MtMoonPokecenterMagikarpSalesmanIGotADealText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_MtMoonPokecenterMagikarpSalesmanNoMoneyText"
+      ]
+     },
+     {
+      "labels": [
+       "_MtMoonPokecenterMagikarpSalesmanNoRefundsText"
+      ],
+      "type": "linear"
+     }
+    ],
+    "source_file": "scripts/MtMoonPokecenter.asm"
+   }
+  },
+  "Museum1F": {
+   "TEXT_MUSEUM1F_SCIENTIST1": {
+    "notes": "TWO YesNoChoice points (ticket sale at the front, amber question behind the counter), preceded by two position/ticket state lines kept linear in bridge order. Ticket choice: YES prints DontHaveEnoughMoney (money short) or ThankYou (ticket bought); NO prints ComeAgain. Source overlap, recorded honestly: on the money-short YES sub-path, ComeAgain ALSO prints after DontHaveEnoughMoney (the script jumps to the same .deny_entry epilogue); the segment model keeps ComeAgain in the NO branch only. Amber choice is inverted in source (menu nonzero goes to .explain_amber): YES prints TheresALabSomewhere, NO prints AmberIsFossilizedTreeSap.",
+    "restored": [],
+    "root": "Museum1FScientist1Text",
+    "segments": [
+     {
+      "labels": [
+       "_Museum1FScientist1GoToOtherSideText",
+       "_Museum1FScientist1TakePlentyOfTimeText"
+      ],
+      "type": "linear"
+     },
+     {
+      "no": [
+       "_Museum1FScientist1ComeAgainText"
+      ],
+      "prompt": "_Museum1FScientist1WouldYouLikeToComeInText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_Museum1FScientist1DontHaveEnoughMoneyText",
+       "_Museum1FScientist1ThankYouText"
+      ]
+     },
+     {
+      "no": [
+       "_Museum1FScientist1AmberIsFossilizedTreeSapText"
+      ],
+      "prompt": "_Museum1FScientist1DoYouKnowWhatAmberIsText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_Museum1FScientist1TheresALabSomewhereText"
+      ]
+     }
+    ],
+    "source_file": "scripts/Museum1F.asm"
+   }
+  },
+  "PewterCity": {
+   "TEXT_PEWTERCITY_SUPER_NERD1": {
+    "notes": "YES prints WerentThoseFossilsAmazing; NO prints YouHaveToGo (then walks the player to the museum, no further text).",
+    "restored": [],
+    "root": "PewterCitySuperNerd1Text",
+    "segments": [
+     {
+      "no": [
+       "_PewterCitySuperNerd1YouHaveToGoText"
+      ],
+      "prompt": "_PewterCitySuperNerd1DidYouCheckOutMuseumText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_PewterCitySuperNerd1WerentThoseFossilsAmazingText"
+      ]
+     }
+    ],
+    "source_file": "scripts/PewterCity.asm"
+   },
+   "TEXT_PEWTERCITY_SUPER_NERD2": {
+    "notes": "YES (cp $0 fall-through) prints ThatsRight; NO prints ImSprayingRepel.",
+    "restored": [],
+    "root": "PewterCitySuperNerd2Text",
+    "segments": [
+     {
+      "no": [
+       "_PewterCitySuperNerd2ImSprayingRepelText"
+      ],
+      "prompt": "_PewterCitySuperNerd2DoYouKnowWhatImDoingText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_PewterCitySuperNerd2ThatsRightText"
+      ]
+     }
+    ],
+    "source_file": "scripts/PewterCity.asm"
+   }
+  },
+  "PewterGym": {
+   "TEXT_PEWTERGYM_GYM_GUIDE": {
+    "notes": "Rejoin: both branches fall into .PewterGymGuideAdviceText, so Advice is a shared tail. The NO jump target is a local block named .PewterGymGuideBeginAdviceText that actually loads FreeServiceText \u2014 branch membership follows the loaded text, not the block name. PostBattle is the after-badge state line (trailing linear, bridge order).",
+    "restored": [],
+    "root": "PewterGymGuideText",
+    "segments": [
+     {
+      "no": [
+       "_PewterGymGuideFreeServiceText"
+      ],
+      "prompt": "_PewterGymGuidePreAdviceText",
+      "tail": [
+       "_PewterGymGuideAdviceText"
+      ],
+      "type": "choice",
+      "yes": [
+       "_PewterGymGuideBeginAdviceText"
+      ]
+     },
+     {
+      "labels": [
+       "_PewterGymGuidePostBattleText"
+      ],
+      "type": "linear"
+     }
+    ],
+    "source_file": "scripts/PewterGym.asm"
+   }
+  },
+  "PokemonFanClub": {
+   "TEXT_POKEMONFANCLUB_CHAIRMAN": {
+    "notes": "YES prints Story, then on a successful voucher give the BikeVoucher local prints ReceivedBikeVoucher + ExplainBikeVoucher (two text_fars in one local, in that order); on a full bag it prints BagFull instead (conditional exit, last by print-site order). NO prints NoStory. ChairFinal is the nothing-left state line (trailing linear, bridge order).",
+    "restored": [],
+    "root": "PokemonFanClubChairmanText",
+    "segments": [
+     {
+      "no": [
+       "_PokemonFanClubNoStoryText"
+      ],
+      "prompt": "_PokemonFanClubChairmanIntroText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_PokemonFanClubChairmanStoryText",
+       "_PokemonFanClubReceivedBikeVoucherText",
+       "_PokemonFanClubExplainBikeVoucherText",
+       "_PokemonFanClubBagFullText"
+      ]
+     },
+     {
+      "labels": [
+       "_PokemonFanClubChairFinalText"
+      ],
+      "type": "linear"
+     }
+    ],
+    "source_file": "scripts/PokemonFanClub.asm"
+   }
+  },
+  "PokemonMansion1F": {
+   "TEXT_POKEMONMANSION1F_SWITCH": {
+    "notes": "YES prints Pressed (and toggles the mansion switch event); NO prints NotPressed.",
+    "restored": [],
+    "root": "PokemonMansion1FSwitchText",
+    "segments": [
+     {
+      "no": [
+       "_PokemonMansion1FSwitchNotPressedText"
+      ],
+      "prompt": "_PokemonMansion1FSwitchText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_PokemonMansion1FSwitchPressedText"
+      ]
+     }
+    ],
+    "source_file": "scripts/PokemonMansion1F.asm"
+   }
+  },
+  "PokemonMansion2F": {
+   "TEXT_POKEMONMANSION2F_SWITCH": {
+    "notes": "YES prints Pressed; NO prints NotPressed.",
+    "restored": [],
+    "root": "PokemonMansion2FSwitchText",
+    "segments": [
+     {
+      "no": [
+       "_PokemonMansion2FSwitchNotPressedText"
+      ],
+      "prompt": "_PokemonMansion2FSwitchText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_PokemonMansion2FSwitchPressedText"
+      ]
+     }
+    ],
+    "source_file": "scripts/PokemonMansion2F.asm"
+   }
+  },
+  "PokemonMansion3F": {
+   "TEXT_POKEMONMANSION3F_SWITCH": {
+    "notes": "This switch uses the 2F text script verbatim (the source's own dw_const comment says so); the split is the 2F flow and its labels resolve through the bank exactly as the current bridge entry does.",
+    "restored": [],
+    "root": "PokemonMansion2FSwitchText",
+    "segments": [
+     {
+      "no": [
+       "_PokemonMansion2FSwitchNotPressedText"
+      ],
+      "prompt": "_PokemonMansion2FSwitchText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_PokemonMansion2FSwitchPressedText"
+      ]
+     }
+    ],
+    "source_file": "scripts/PokemonMansion2F.asm"
+   }
+  },
+  "PokemonMansionB1F": {
+   "TEXT_POKEMONMANSIONB1F_SWITCH": {
+    "notes": "Same as 3F: the B1F switch uses the 2F text script verbatim per the source dw_const.",
+    "restored": [],
+    "root": "PokemonMansion2FSwitchText",
+    "segments": [
+     {
+      "no": [
+       "_PokemonMansion2FSwitchNotPressedText"
+      ],
+      "prompt": "_PokemonMansion2FSwitchText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_PokemonMansion2FSwitchPressedText"
+      ]
+     }
+    ],
+    "source_file": "scripts/PokemonMansion2F.asm"
+   }
+  },
+  "Route12SuperRodHouse": {
+   "TEXT_ROUTE12SUPERRODHOUSE_FISHING_GURU": {
+    "notes": "YES success prints the ReceivedSuperRod local (two text_fars: ReceivedSuperRod, then FishingWayOfLife); YES with a full bag prints NoRoom. NO prints ThatsDisappointing. TryFishing is the already-has-rod state line (trailing linear, bridge order).",
+    "restored": [
+     "_Route12SuperRodHouseFishingGuruReceivedSuperRodText",
+     "_Route12SuperRodHouseFishingGuruFishingWayOfLifeText",
+     "_Route12SuperRodHouseFishingGuruNoRoomText",
+     "_Route12SuperRodHouseFishingGuruThatsDisappointingText"
+    ],
+    "root": "Route12SuperRodHouseFishingGuruText",
+    "segments": [
+     {
+      "no": [
+       "_Route12SuperRodHouseFishingGuruThatsDisappointingText"
+      ],
+      "prompt": "_Route12SuperRodHouseFishingGuruDoYouLikeToFishText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_Route12SuperRodHouseFishingGuruReceivedSuperRodText",
+       "_Route12SuperRodHouseFishingGuruFishingWayOfLifeText",
+       "_Route12SuperRodHouseFishingGuruNoRoomText"
+      ]
+     },
+     {
+      "labels": [
+       "_Route12SuperRodHouseFishingGuruTryFishingText"
+      ],
+      "type": "linear"
+     }
+    ],
+    "source_file": "scripts/Route12SuperRodHouse.asm"
+   }
+  },
+  "SafariZoneGate": {
+   "TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER1_LEAVING_EARLY": {
+    "notes": "The root prints its own far text first (the prompt), then runs text_asm with the choice. YES (ready to leave) prints ReturnSafariBalls; NO prints GoodLuck.",
+    "restored": [],
+    "root": "SafariZoneGateSafariZoneWorker1LeavingEarlyText",
+    "segments": [
+     {
+      "no": [
+       "_SafariZoneGateSafariZoneWorker1GoodLuckText"
+      ],
+      "prompt": "_SafariZoneGateSafariZoneWorker1LeavingEarlyText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_SafariZoneGateSafariZoneWorker1ReturnSafariBallsText"
+      ]
+     }
+    ],
+    "source_file": "scripts/SafariZoneGate.asm"
+   },
+   "TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER1_WOULD_YOU_LIKE_TO_JOIN": {
+    "notes": "The root prints its own far text first (the prompt), then the choice. YES paid prints the MakePayment local (two text_fars: ThatllBe500Please, then CallYouOnThePA); YES with too little money prints NotEnoughMoney. The three YES labels keep their bridge relative order (the successful-payment outcome leads; NotEnoughMoney's load site sits earlier in the file, but the delta preserves bridge order for bridge labels). NO prints PleaseComeAgain.",
+    "restored": [],
+    "root": "SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText",
+    "segments": [
+     {
+      "no": [
+       "_SafariZoneGateSafariZoneWorker1PleaseComeAgainText"
+      ],
+      "prompt": "_SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_SafariZoneGateSafariZoneWorker1ThatllBe500PleaseText",
+       "_SafariZoneGateSafariZoneWorker1CallYouOnThePAText",
+       "_SafariZoneGateSafariZoneWorker1NotEnoughMoneyText"
+      ]
+     }
+    ],
+    "source_file": "scripts/SafariZoneGate.asm"
+   },
+   "TEXT_SAFARIZONEGATE_SAFARI_ZONE_WORKER2": {
+    "notes": "hl is pre-loaded with YoureARegularHere before the branch test: NO (nonzero) jumps and prints it; YES falls through, overwrites hl with SafariZoneExplanation, and prints that.",
+    "restored": [],
+    "root": "SafariZoneGateSafariZoneWorker2Text",
+    "segments": [
+     {
+      "no": [
+       "_SafariZoneGateSafariZoneWorker2YoureARegularHereText"
+      ],
+      "prompt": "_SafariZoneGateSafariZoneWorker2FirstTimeHereText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_SafariZoneGateSafariZoneWorker2SafariZoneExplanationText"
+      ]
+     }
+    ],
+    "source_file": "scripts/SafariZoneGate.asm"
+   }
+  },
+  "VermilionOldRodHouse": {
+   "TEXT_VERMILIONOLDRODHOUSE_FISHING_GURU": {
+    "notes": "YES success prints the TakeThis local (two text_fars: TakeThis, then FishingIsAWayOfLife); YES with a full bag prints NoRoom. NO prints ThatsSoDisappointing. HowAreTheFishBiting is the already-has-rod state line (trailing linear, bridge order).",
+    "restored": [
+     "_VermilionOldRodHouseFishingGuruTakeThisText",
+     "_VermilionOldRodHouseFishingGuruFishingIsAWayOfLifeText",
+     "_VermilionOldRodHouseFishingGuruNoRoomText",
+     "_VermilionOldRodHouseFishingGuruThatsSoDisappointingText"
+    ],
+    "root": "VermilionOldRodHouseFishingGuruText",
+    "segments": [
+     {
+      "no": [
+       "_VermilionOldRodHouseFishingGuruThatsSoDisappointingText"
+      ],
+      "prompt": "_VermilionOldRodHouseFishingGuruDoYouLikeToFishText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_VermilionOldRodHouseFishingGuruTakeThisText",
+       "_VermilionOldRodHouseFishingGuruFishingIsAWayOfLifeText",
+       "_VermilionOldRodHouseFishingGuruNoRoomText"
+      ]
+     },
+     {
+      "labels": [
+       "_VermilionOldRodHouseFishingGuruHowAreTheFishBitingText"
+      ],
+      "type": "linear"
+     }
+    ],
+    "source_file": "scripts/VermilionOldRodHouse.asm"
+   }
+  },
+  "ViridianCity": {
+   "TEXT_VIRIDIANCITY_OLD_MAN": {
+    "notes": "INVERTED in source: the branch test is 'jr z, .refused' on menu item 0, so YES goes to .refused and prints TimeIsMoney, while NO (nonzero) falls through, prints KnowHowToCatchPokemon, and starts the catching tutorial. Branch membership follows the code, not the label names.",
+    "restored": [],
+    "root": "ViridianCityOldManText",
+    "segments": [
+     {
+      "no": [
+       "_ViridianCityOldManKnowHowToCatchPokemonText"
+      ],
+      "prompt": "_ViridianCityOldManHadMyCoffeeNowText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_ViridianCityOldManTimeIsMoneyText"
+      ]
+     }
+    ],
+    "source_file": "scripts/ViridianCity.asm"
+   },
+   "TEXT_VIRIDIANCITY_YOUNGSTER2": {
+    "notes": "YES prints the Caterpie/Weedle description; NO prints OkThen. The two branch labels carry no leading underscore in the bank (the source text_fars name them without one); they are recorded exactly as the bank keys them.",
+    "restored": [],
+    "root": "ViridianCityYoungster2Text",
+    "segments": [
+     {
+      "no": [
+       "ViridianCityYoungster2OkThenText"
+      ],
+      "prompt": "_ViridianCityYoungster2YouWantToKnowAboutText",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "ViridianCityYoungster2CaterpieAndWeedleDescriptionText"
+      ]
+     }
+    ],
+    "source_file": "scripts/ViridianCity.asm"
+   }
+  },
+  "WardensHouse": {
+   "TEXT_WARDENSHOUSE_WARDEN": {
+    "notes": "hl is pre-loaded with Gibberish3 before the branch test: NO (nonzero) jumps to .refused and prints it; YES falls through, overwrites hl with Gibberish2, and prints that (the overwrite is why the bridge generator dropped Gibberish3). The remaining labels are the Gold Teeth / HM04 state flows, kept linear in bridge order.",
+    "restored": [
+     "_WardensHouseWardenGibberish3Text"
+    ],
+    "root": "WardensHouseWardenText",
+    "segments": [
+     {
+      "no": [
+       "_WardensHouseWardenGibberish3Text"
+      ],
+      "prompt": "_WardensHouseWardenGibberish1Text",
+      "tail": [],
+      "type": "choice",
+      "yes": [
+       "_WardensHouseWardenGibberish2Text"
+      ]
+     },
+     {
+      "labels": [
+       "_WardensHouseWardenGaveTheGoldTeethText",
+       "_WardensHouseWardenThanksText",
+       "_WardensHouseWardenReceivedHM04Text",
+       "_WardensHouseWardenHM04ExplanationText",
+       "_WardensHouseWardenHM04NoRoomText"
+      ],
+      "type": "linear"
+     }
+    ],
+    "source_file": "scripts/WardensHouse.asm"
+   }
+  }
+ }
+}
