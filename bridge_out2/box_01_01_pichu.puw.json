@@ -1,0 +1,21 @@
+{
+	"ability_filled": false,
+	"ball": 4,
+	"dex": 172,
+	"ec": 2696342406,
+	"form": 0,
+	"format": "puw-pkhex-sidecar/1",
+	"friendship": 50,
+	"gender": 0,
+	"mon_id": "puw-000003-eed5da",
+	"pid": 2284518543,
+	"puw_snapshot": {
+		"build_tier": 3.0,
+		"family": "MDX",
+		"mon_id": "puw-000003-eed5da"
+	},
+	"sid16": 47196,
+	"species_slug": "pichu",
+	"tera_source": "default_first_type",
+	"tid16": 33569
+}

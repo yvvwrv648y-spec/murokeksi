@@ -1,0 +1,28 @@
+{
+	"ability_filled": false,
+	"ball": 4,
+	"dex": 73,
+	"ec": 1530268714,
+	"form": 0,
+	"format": "puw-pkhex-sidecar/1",
+	"friendship": 50,
+	"gender": 0,
+	"mon_id": "puw-000002-6d8f09",
+	"pid": 20484597,
+	"puw_snapshot": {
+		"mon_id": "puw-000002-6d8f09",
+		"set_format": "ou",
+		"set_source": "smogon",
+		"stages": {
+			"atk": 0.0,
+			"def": 0.0,
+			"spa": 0.0,
+			"spd": 0.0,
+			"spe": 0.0
+		}
+	},
+	"sid16": 47196,
+	"species_slug": "tentacruel",
+	"tera_source": "default_first_type",
+	"tid16": 33569
+}

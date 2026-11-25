@@ -1,0 +1,34 @@
+{
+	"box_01_01_pichu.pk9": {
+		"move_ids": [
+			84,
+			39,
+			589
+		],
+		"species_internal": 172
+	},
+	"box_01_02_tentacool.pk9": {
+		"move_ids": [
+			40,
+			58
+		],
+		"species_internal": 72
+	},
+	"party_01_tentacool.pk9": {
+		"move_ids": [
+			51,
+			55,
+			40
+		],
+		"species_internal": 72
+	},
+	"party_02_tentacruel.pk9": {
+		"move_ids": [
+			503,
+			229,
+			491,
+			390
+		],
+		"species_internal": 73
+	}
+}
