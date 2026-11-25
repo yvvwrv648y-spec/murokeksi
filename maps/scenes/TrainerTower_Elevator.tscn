@@ -1,0 +1,32 @@
+[gd_scene format=4]
+
+[ext_resource type="TileSet" path="res://maps/tilesets/building__silph_co.tres" id="1_uh4js"]
+[ext_resource type="TileSet" path="res://maps/tilesets/collision_helper.tres" id="2_xuvld"]
+
+[node name="TrainerTower_Elevator" type="Node2D" unique_id=1441133881]
+y_sort_enabled = true
+metadata/id_const = "MAP_TRAINER_TOWER_ELEVATOR"
+metadata/region = "sevii"
+metadata/tileset = "building__silph_co"
+metadata/connections = "null"
+
+[node name="Ground" type="TileMapLayer" parent="." unique_id=1215157747]
+y_sort_enabled = true
+tile_map_data = PackedByteArray("AAAAAAAAAAALABcAAAABAAAAAAAIABcAAAACAAAAAAAIABcAAAADAAAAAAAIABcAAAAEAAAAAAAMABcAAAAAAAEAAAATABcAAAABAAEAAAAQABcAAAACAAEAAAAQABcAAAADAAEAAAAQABcAAAAEAAEAAAAUABcAAAAAAAIAAAAbABcAAAABAAIAAAAYABcAAAACAAIAAAAYABcAAAADAAIAAAAYABcAAAAEAAIAAAAcABcAAAAAAAMAAAANABcAAAABAAMAAAAOABcAAAACAAMAAAAOABcAAAADAAMAAAAOABcAAAAEAAMAAAAOABcAAAAAAAQAAAAVABcAAAABAAQAAAAWABcAAAACAAQAAAAWABcAAAADAAQAAAAWABcAAAAEAAQAAAAPABcAAAAAAAUAAAAVABcAAAABAAUAAAAdABcAAAACAAUAAAAeABcAAAADAAUAAAAXABcAAAAEAAUAAAAPABcAAAAAAAYAAAAIAAAAAAABAAYAAAAaAAAAAAACAAYAAAAbAAAAAAADAAYAAAAcAAAAAAAEAAYAAAAIAAAAAAA=")
+tile_set = ExtResource("1_uh4js")
+
+[node name="Presentation" type="CanvasModulate" parent="." unique_id=1914256086]
+
+[node name="Collision" type="TileMapLayer" parent="." unique_id=1264359322]
+visible = false
+tile_map_data = PackedByteArray("AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAEAAAAAAAAAAAACAAEAAAAAAAAAAAADAAEAAAAAAAAAAAAEAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAABAAIAAAAAAAAAAAACAAIAAAAAAAAAAAADAAIAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAYAAAAAAAAAAAABAAYAAAAAAAAAAAACAAYAAAAAAAAAAAADAAYAAAAAAAAAAAAEAAYAAAAAAAAAAAA=")
+tile_set = ExtResource("2_xuvld")
+
+[node name="Warp_1" type="Marker2D" parent="." unique_id=714776433]
+position = Vector2(40, 88)
+metadata/dest_map = "MAP_DYNAMIC"
+metadata/dest_warp = 0
+metadata/grid_x = 2
+metadata/grid_y = 5
+metadata/grid_w = 1
+metadata/grid_h = 1
