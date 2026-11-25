@@ -1,0 +1,34 @@
+{
+  "grid": {
+    "rows": 4,
+    "cols": 8,
+    "total_frames": 32,
+    "dimensions": "1376x768",
+    "chroma_key": "#FF00FF"
+  },
+  "row_directions": {
+    "row_1": "down",
+    "row_2": "up",
+    "row_3": "left",
+    "row_4": "right"
+  },
+  "palette_hexes_measured": {
+    "riley": {
+      "hair": "#E7C653",
+      "skin": "#F4BE92",
+      "left_eye": "#1C8243",
+      "right_eye": "#6E887B"
+    },
+    "tasha": {
+      "hair": "#D96C31",
+      "skin": "#F7C0A1",
+      "left_eye": "#1B1C5F",
+      "right_eye": "#2A336A"
+    }
+  },
+  "notes": [
+    "All 4 sheets share the exact 4x8 grid (Row 1 Down, Row 2 Up, Row 3 Left, Row 4 Right, 8 alternating walk frames per row).",
+    "Outfit layers were generated directly from their matching base-body sheets as visual references for pixel alignment.",
+    "Note on riley_outfit_signature_walk.jpg: small skin areas on thighs/midriff appear inside the outfit layer; Bossy's slicer can keep or mask them against the base body."
+  ]
+}

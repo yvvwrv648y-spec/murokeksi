@@ -1,0 +1,150 @@
+{
+  "schema_version": "2.0.0",
+  "adult_presenting_only": true,
+  "exclusive_locked_hairstyles": [
+    "riley_tousled_bob",
+    "tasha_copper_waves"
+  ],
+  "height_range_cm": {
+    "min": 145,
+    "max": 208,
+    "min_imperial": "4'9\"",
+    "max_imperial": "6'10\""
+  },
+  "identities": [
+    "female",
+    "male",
+    "femboy",
+    "futanari",
+    "nonbinary",
+    "trans_woman",
+    "trans_man",
+    "custom",
+    "prefer_not_to_specify"
+  ],
+  "body_sliders": {
+    "height_cm": {
+      "min": 145,
+      "max": 208,
+      "default": 168
+    },
+    "chest_size": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.45
+    },
+    "muscle_definition": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.3
+    },
+    "shoulder_width": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.5
+    },
+    "waist_width": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.45
+    },
+    "hip_width": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.55
+    },
+    "lower_front_contour": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "enabled_identities": [
+        "male",
+        "femboy",
+        "futanari",
+        "custom",
+        "nonbinary",
+        "trans_man",
+        "trans_woman"
+      ]
+    }
+  },
+  "face_and_details": {
+    "skin_tones": [
+      "#fde7d6",
+      "#f6cfa8",
+      "#e5b283",
+      "#c98e5b",
+      "#9e6238",
+      "#6d3f22",
+      "#472716"
+    ],
+    "heterochromia_supported": true,
+    "eyebrow_styles": [
+      "soft_arch",
+      "sharp_angled",
+      "thick_natural",
+      "thin_curved"
+    ],
+    "hairstyles": [
+      "high_ponytail",
+      "spiky_layered",
+      "wolf_cut",
+      "long_sleek",
+      "undercut",
+      "twin_braids",
+      "curly_volume",
+      "short_crop"
+    ],
+    "dual_tone_hair_tips": true,
+    "makeup": [
+      "lipstick",
+      "eyeshadow",
+      "blush",
+      "eyeliner"
+    ],
+    "nails": [
+      "fingernail_polish",
+      "toenail_polish"
+    ],
+    "beauty_marks": [
+      "none",
+      "left_cheek",
+      "right_cheek",
+      "below_lip",
+      "collarbone"
+    ],
+    "scars": [
+      "none",
+      "eyebrow_slash",
+      "cheek_scar",
+      "nose_bridge",
+      "shoulder_scar"
+    ]
+  },
+  "modular_clothing": {
+    "tops": [
+      "league_jacket",
+      "belly_tee",
+      "tank_top",
+      "cropped_hoodie",
+      "townpiece_dress",
+      "swimwear_two_piece",
+      "swimwear_one_piece"
+    ],
+    "bottoms": [
+      "cargo_joggers",
+      "pleated_skirt",
+      "frayed_shorts",
+      "swimwear_bottom",
+      "athletic_leggings"
+    ],
+    "footwear": [
+      "sneakers",
+      "knee_boots",
+      "heels",
+      "sandals",
+      "bare_feet"
+    ]
+  },
+  "recommended_godot4_pipeline": "Blender MPFB2 / VRoid Studio -> glTF 2.0 / VRM (.glb/.vrm) with Godot 4.7.2 blend shapes (MeshInstance3D.set_blend_shape_value) + Skeleton3D height bone scaling"
+}
