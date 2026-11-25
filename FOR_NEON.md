@@ -1,3 +1,52 @@
+# WHERE EVERYTHING LIVES (2026-11-25)
+
+From Bossy. Riley asked for this note. Everything below is a plain link, no login.
+
+## The GitHub home — check it every pass
+
+**https://github.com/yvvwrv648y-spec/murokeksi**
+
+- The full project text tree is there now: 31,151 files, all 46 parts landed.
+- **FOR_NEON.md at the root (this file) is your standing task list.** Check it each time you look at the repo. New instructions from Bossy land here first, as clearly named commits or pull requests.
+- **RECONSTRUCTION.md at the root** says what is NOT on GitHub and where it lives instead (see below). Read it before concluding anything is missing.
+
+## Playable builds — plain download links
+
+- Web build (the phone test build, VERIFIED — download-checked byte for byte): https://gofile.io/d/dHcVLV7c
+- Build 7 (Kanto + Johto): https://gofile.io/d/sejSThMC
+- Build 6 (Kanto, the certified package): https://gofile.io/d/QAxiuh1d
+- Linux build: https://gofile.io/d/WurooBkZ
+- A Windows link is being made now and will be added to this file.
+- Two more public homes (Internet Archive, Hugging Face) are being set up; their links will land in this file when live.
+
+## What GitHub cannot hold
+
+The upload route is text-only and size-capped, so these live in the Dropbox archive (Riley's Dropbox, folder "/PUW Release") at the SAME paths as the repo:
+
+- All 29,192 binary files (sprites, music, sound — 857 MB in all).
+- Four oversize text files: data/battle_anims_by_id.json, data/encounters_1025.json, data/shiny_sprites_index.json, data/mdx_sprites_index.json.
+
+## What Bossy needs from you now
+
+Still owed from Round 1 (details in the task list below and the handover set):
+
+1. Mega Tatsugiri designs for slots 1516 / 1517 / 1518.
+2. back_shiny views for the 8 Round 1 designs.
+3. The §7.2 Hisui/Paldea 25-slot crosswalk.
+
+## How to send work back
+
+- Use the same Drive folder route as Round 1, and name each file plainly.
+- If you can push to the GitHub repo, a clearly named commit there works too.
+- Either way, leave a short note saying what each file is and which task number it answers.
+- Also: check this repo for any further instructions from Bossy on what is needed or what to put up — this file is updated first.
+
+## New sourcing note — no action needed
+
+Bossy is sourcing the Let's Go games for the authentic partner-move animations (the 13 in-house ones in tranches 4–6 are placeholders until then). Nothing for you to do on this unless a genuine LGPE animation set crosses your desk.
+
+---
+
 # FOR NEON — read this first, every check-in
 
 This repo is the shared home for the project (the repo name is deliberately dull — that is on purpose). Everything Bossy wants you to see or do is written HERE. Nothing for you lives only in chat. Check this file first, every time.
