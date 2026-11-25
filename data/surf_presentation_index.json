@@ -1,0 +1,623 @@
+{
+ "title": "Unique Surfing presentation set (extraction integration build, 2026-11-23)",
+ "source_id": "unique-surfing-slawter666",
+ "provenance": "Unique Surfing Overworlds by Slawter666 and wally-217 (PokeCommunity thread + pokeemerald surfable branch); early custom sprites by Avara. Predominantly HGSS follower sprites per the author; everything posted in the thread is for public use. Credit: slawter666 and wally-217.",
+ "counts": {
+  "species": 102,
+  "files": 204
+ },
+ "rows": [
+  {
+   "dex_id": 7,
+   "species_slug": "squirtle",
+   "normal": "art/surf_presentation/007_squirtle.png",
+   "shiny": "art/surf_presentation/007_squirtle_shiny.png"
+  },
+  {
+   "dex_id": 8,
+   "species_slug": "wartortle",
+   "normal": "art/surf_presentation/008_wartortle.png",
+   "shiny": "art/surf_presentation/008_wartortle_shiny.png"
+  },
+  {
+   "dex_id": 9,
+   "species_slug": "blastoise",
+   "normal": "art/surf_presentation/009_blastoise.png",
+   "shiny": "art/surf_presentation/009_blastoise_shiny.png"
+  },
+  {
+   "dex_id": 31,
+   "species_slug": "nidoqueen",
+   "normal": "art/surf_presentation/031_nidoqueen.png",
+   "shiny": "art/surf_presentation/031_nidoqueen_shiny.png"
+  },
+  {
+   "dex_id": 34,
+   "species_slug": "nidoking",
+   "normal": "art/surf_presentation/034_nidoking.png",
+   "shiny": "art/surf_presentation/034_nidoking_shiny.png"
+  },
+  {
+   "dex_id": 54,
+   "species_slug": "psyduck",
+   "normal": "art/surf_presentation/054_psyduck.png",
+   "shiny": "art/surf_presentation/054_psyduck_shiny.png"
+  },
+  {
+   "dex_id": 55,
+   "species_slug": "golduck",
+   "normal": "art/surf_presentation/055_golduck.png",
+   "shiny": "art/surf_presentation/055_golduck_shiny.png"
+  },
+  {
+   "dex_id": 60,
+   "species_slug": "poliwag",
+   "normal": "art/surf_presentation/060_poliwag.png",
+   "shiny": "art/surf_presentation/060_poliwag_shiny.png"
+  },
+  {
+   "dex_id": 61,
+   "species_slug": "poliwhirl",
+   "normal": "art/surf_presentation/061_poliwhirl.png",
+   "shiny": "art/surf_presentation/061_poliwhirl_shiny.png"
+  },
+  {
+   "dex_id": 62,
+   "species_slug": "poliwrath",
+   "normal": "art/surf_presentation/062_poliwrath.png",
+   "shiny": "art/surf_presentation/062_poliwrath_shiny.png"
+  },
+  {
+   "dex_id": 72,
+   "species_slug": "tentacool",
+   "normal": "art/surf_presentation/072_tentacool.png",
+   "shiny": "art/surf_presentation/072_tentacool_shiny.png"
+  },
+  {
+   "dex_id": 73,
+   "species_slug": "tentacruel",
+   "normal": "art/surf_presentation/073_tentacruel.png",
+   "shiny": "art/surf_presentation/073_tentacruel_shiny.png"
+  },
+  {
+   "dex_id": 79,
+   "species_slug": "slowpoke",
+   "normal": "art/surf_presentation/079_slowpoke.png",
+   "shiny": "art/surf_presentation/079_slowpoke_shiny.png"
+  },
+  {
+   "dex_id": 80,
+   "species_slug": "slowbro",
+   "normal": "art/surf_presentation/080_slowbro.png",
+   "shiny": "art/surf_presentation/080_slowbro_shiny.png"
+  },
+  {
+   "dex_id": 86,
+   "species_slug": "seel",
+   "normal": "art/surf_presentation/086_seel.png",
+   "shiny": "art/surf_presentation/086_seel_shiny.png"
+  },
+  {
+   "dex_id": 87,
+   "species_slug": "dewgong",
+   "normal": "art/surf_presentation/087_dewgong.png",
+   "shiny": "art/surf_presentation/087_dewgong_shiny.png"
+  },
+  {
+   "dex_id": 90,
+   "species_slug": "shellder",
+   "normal": "art/surf_presentation/090_shellder.png",
+   "shiny": "art/surf_presentation/090_shellder_shiny.png"
+  },
+  {
+   "dex_id": 91,
+   "species_slug": "cloyster",
+   "normal": "art/surf_presentation/091_cloyster.png",
+   "shiny": "art/surf_presentation/091_cloyster_shiny.png"
+  },
+  {
+   "dex_id": 98,
+   "species_slug": "krabby",
+   "normal": "art/surf_presentation/098_krabby.png",
+   "shiny": "art/surf_presentation/098_krabby_shiny.png"
+  },
+  {
+   "dex_id": 99,
+   "species_slug": "kingler",
+   "normal": "art/surf_presentation/099_kingler.png",
+   "shiny": "art/surf_presentation/099_kingler_shiny.png"
+  },
+  {
+   "dex_id": 108,
+   "species_slug": "lickitung",
+   "normal": "art/surf_presentation/108_lickitung.png",
+   "shiny": "art/surf_presentation/108_lickitung_shiny.png"
+  },
+  {
+   "dex_id": 112,
+   "species_slug": "rhydon",
+   "normal": "art/surf_presentation/112_rhydon.png",
+   "shiny": "art/surf_presentation/112_rhydon_shiny.png"
+  },
+  {
+   "dex_id": 115,
+   "species_slug": "kangaskhan",
+   "normal": "art/surf_presentation/115_kangaskhan.png",
+   "shiny": "art/surf_presentation/115_kangaskhan_shiny.png"
+  },
+  {
+   "dex_id": 116,
+   "species_slug": "horsea",
+   "normal": "art/surf_presentation/116_horsea.png",
+   "shiny": "art/surf_presentation/116_horsea_shiny.png"
+  },
+  {
+   "dex_id": 117,
+   "species_slug": "seadra",
+   "normal": "art/surf_presentation/117_seadra.png",
+   "shiny": "art/surf_presentation/117_seadra_shiny.png"
+  },
+  {
+   "dex_id": 118,
+   "species_slug": "goldeen",
+   "normal": "art/surf_presentation/118_goldeen.png",
+   "shiny": "art/surf_presentation/118_goldeen_shiny.png"
+  },
+  {
+   "dex_id": 119,
+   "species_slug": "seaking",
+   "normal": "art/surf_presentation/119_seaking.png",
+   "shiny": "art/surf_presentation/119_seaking_shiny.png"
+  },
+  {
+   "dex_id": 120,
+   "species_slug": "staryu",
+   "normal": "art/surf_presentation/120_staryu.png",
+   "shiny": "art/surf_presentation/120_staryu_shiny.png"
+  },
+  {
+   "dex_id": 121,
+   "species_slug": "starmie",
+   "normal": "art/surf_presentation/121_starmie.png",
+   "shiny": "art/surf_presentation/121_starmie_shiny.png"
+  },
+  {
+   "dex_id": 128,
+   "species_slug": "tauros",
+   "normal": "art/surf_presentation/128_tauros.png",
+   "shiny": "art/surf_presentation/128_tauros_shiny.png"
+  },
+  {
+   "dex_id": 130,
+   "species_slug": "gyarados",
+   "normal": "art/surf_presentation/130_gyarados.png",
+   "shiny": "art/surf_presentation/130_gyarados_shiny.png"
+  },
+  {
+   "dex_id": 131,
+   "species_slug": "lapras",
+   "normal": "art/surf_presentation/131_lapras.png",
+   "shiny": "art/surf_presentation/131_lapras_shiny.png"
+  },
+  {
+   "dex_id": 134,
+   "species_slug": "vaporeon",
+   "normal": "art/surf_presentation/134_vaporeon.png",
+   "shiny": "art/surf_presentation/134_vaporeon_shiny.png"
+  },
+  {
+   "dex_id": 138,
+   "species_slug": "omanyte",
+   "normal": "art/surf_presentation/138_omanyte.png",
+   "shiny": "art/surf_presentation/138_omanyte_shiny.png"
+  },
+  {
+   "dex_id": 139,
+   "species_slug": "omastar",
+   "normal": "art/surf_presentation/139_omastar.png",
+   "shiny": "art/surf_presentation/139_omastar_shiny.png"
+  },
+  {
+   "dex_id": 140,
+   "species_slug": "kabuto",
+   "normal": "art/surf_presentation/140_kabuto.png",
+   "shiny": "art/surf_presentation/140_kabuto_shiny.png"
+  },
+  {
+   "dex_id": 141,
+   "species_slug": "kabutops",
+   "normal": "art/surf_presentation/141_kabutops.png",
+   "shiny": "art/surf_presentation/141_kabutops_shiny.png"
+  },
+  {
+   "dex_id": 143,
+   "species_slug": "snorlax",
+   "normal": "art/surf_presentation/143_snorlax.png",
+   "shiny": "art/surf_presentation/143_snorlax_shiny.png"
+  },
+  {
+   "dex_id": 147,
+   "species_slug": "dratini",
+   "normal": "art/surf_presentation/147_dratini.png",
+   "shiny": "art/surf_presentation/147_dratini_shiny.png"
+  },
+  {
+   "dex_id": 148,
+   "species_slug": "dragonair",
+   "normal": "art/surf_presentation/148_dragonair.png",
+   "shiny": "art/surf_presentation/148_dragonair_shiny.png"
+  },
+  {
+   "dex_id": 149,
+   "species_slug": "dragonite",
+   "normal": "art/surf_presentation/149_dragonite.png",
+   "shiny": "art/surf_presentation/149_dragonite_shiny.png"
+  },
+  {
+   "dex_id": 151,
+   "species_slug": "mew",
+   "normal": "art/surf_presentation/151_mew.png",
+   "shiny": "art/surf_presentation/151_mew_shiny.png"
+  },
+  {
+   "dex_id": 158,
+   "species_slug": "totodile",
+   "normal": "art/surf_presentation/158_totodile.png",
+   "shiny": "art/surf_presentation/158_totodile_shiny.png"
+  },
+  {
+   "dex_id": 159,
+   "species_slug": "croconaw",
+   "normal": "art/surf_presentation/159_croconaw.png",
+   "shiny": "art/surf_presentation/159_croconaw_shiny.png"
+  },
+  {
+   "dex_id": 160,
+   "species_slug": "feraligatr",
+   "normal": "art/surf_presentation/160_feraligatr.png",
+   "shiny": "art/surf_presentation/160_feraligatr_shiny.png"
+  },
+  {
+   "dex_id": 161,
+   "species_slug": "sentret",
+   "normal": "art/surf_presentation/161_sentret.png",
+   "shiny": "art/surf_presentation/161_sentret_shiny.png"
+  },
+  {
+   "dex_id": 162,
+   "species_slug": "furret",
+   "normal": "art/surf_presentation/162_furret.png",
+   "shiny": "art/surf_presentation/162_furret_shiny.png"
+  },
+  {
+   "dex_id": 170,
+   "species_slug": "chinchou",
+   "normal": "art/surf_presentation/170_chinchou.png",
+   "shiny": "art/surf_presentation/170_chinchou_shiny.png"
+  },
+  {
+   "dex_id": 171,
+   "species_slug": "lanturn",
+   "normal": "art/surf_presentation/171_lanturn.png",
+   "shiny": "art/surf_presentation/171_lanturn_shiny.png"
+  },
+  {
+   "dex_id": 183,
+   "species_slug": "marill",
+   "normal": "art/surf_presentation/183_marill.png",
+   "shiny": "art/surf_presentation/183_marill_shiny.png"
+  },
+  {
+   "dex_id": 184,
+   "species_slug": "azumarill",
+   "normal": "art/surf_presentation/184_azumarill.png",
+   "shiny": "art/surf_presentation/184_azumarill_shiny.png"
+  },
+  {
+   "dex_id": 186,
+   "species_slug": "politoed",
+   "normal": "art/surf_presentation/186_politoed.png",
+   "shiny": "art/surf_presentation/186_politoed_shiny.png"
+  },
+  {
+   "dex_id": 194,
+   "species_slug": "wooper",
+   "normal": "art/surf_presentation/194_wooper.png",
+   "shiny": "art/surf_presentation/194_wooper_shiny.png"
+  },
+  {
+   "dex_id": 195,
+   "species_slug": "quagsire",
+   "normal": "art/surf_presentation/195_quagsire.png",
+   "shiny": "art/surf_presentation/195_quagsire_shiny.png"
+  },
+  {
+   "dex_id": 199,
+   "species_slug": "slowking",
+   "normal": "art/surf_presentation/199_slowking.png",
+   "shiny": "art/surf_presentation/199_slowking_shiny.png"
+  },
+  {
+   "dex_id": 211,
+   "species_slug": "qwilfish",
+   "normal": "art/surf_presentation/211_qwilfish.png",
+   "shiny": "art/surf_presentation/211_qwilfish_shiny.png"
+  },
+  {
+   "dex_id": 215,
+   "species_slug": "sneasel",
+   "normal": "art/surf_presentation/215_sneasel.png",
+   "shiny": "art/surf_presentation/215_sneasel_shiny.png"
+  },
+  {
+   "dex_id": 222,
+   "species_slug": "corsola",
+   "normal": "art/surf_presentation/222_corsola.png",
+   "shiny": "art/surf_presentation/222_corsola_shiny.png"
+  },
+  {
+   "dex_id": 223,
+   "species_slug": "remoraid",
+   "normal": "art/surf_presentation/223_remoraid.png",
+   "shiny": "art/surf_presentation/223_remoraid_shiny.png"
+  },
+  {
+   "dex_id": 224,
+   "species_slug": "octillery",
+   "normal": "art/surf_presentation/224_octillery.png",
+   "shiny": "art/surf_presentation/224_octillery_shiny.png"
+  },
+  {
+   "dex_id": 226,
+   "species_slug": "mantine",
+   "normal": "art/surf_presentation/226_mantine.png",
+   "shiny": "art/surf_presentation/226_mantine_shiny.png"
+  },
+  {
+   "dex_id": 230,
+   "species_slug": "kingdra",
+   "normal": "art/surf_presentation/230_kingdra.png",
+   "shiny": "art/surf_presentation/230_kingdra_shiny.png"
+  },
+  {
+   "dex_id": 241,
+   "species_slug": "miltank",
+   "normal": "art/surf_presentation/241_miltank.png",
+   "shiny": "art/surf_presentation/241_miltank_shiny.png"
+  },
+  {
+   "dex_id": 245,
+   "species_slug": "suicune",
+   "normal": "art/surf_presentation/245_suicune.png",
+   "shiny": "art/surf_presentation/245_suicune_shiny.png"
+  },
+  {
+   "dex_id": 248,
+   "species_slug": "tyranitar",
+   "normal": "art/surf_presentation/248_tyranitar.png",
+   "shiny": "art/surf_presentation/248_tyranitar_shiny.png"
+  },
+  {
+   "dex_id": 249,
+   "species_slug": "lugia",
+   "normal": "art/surf_presentation/249_lugia.png",
+   "shiny": "art/surf_presentation/249_lugia_shiny.png"
+  },
+  {
+   "dex_id": 258,
+   "species_slug": "mudkip",
+   "normal": "art/surf_presentation/258_mudkip.png",
+   "shiny": "art/surf_presentation/258_mudkip_shiny.png"
+  },
+  {
+   "dex_id": 259,
+   "species_slug": "marshtomp",
+   "normal": "art/surf_presentation/259_marshtomp.png",
+   "shiny": "art/surf_presentation/259_marshtomp_shiny.png"
+  },
+  {
+   "dex_id": 260,
+   "species_slug": "swampert",
+   "normal": "art/surf_presentation/260_swampert.png",
+   "shiny": "art/surf_presentation/260_swampert_shiny.png"
+  },
+  {
+   "dex_id": 263,
+   "species_slug": "zigzagoon",
+   "normal": "art/surf_presentation/263_zigzagoon.png",
+   "shiny": "art/surf_presentation/263_zigzagoon_shiny.png"
+  },
+  {
+   "dex_id": 264,
+   "species_slug": "linoone",
+   "normal": "art/surf_presentation/264_linoone.png",
+   "shiny": "art/surf_presentation/264_linoone_shiny.png"
+  },
+  {
+   "dex_id": 270,
+   "species_slug": "lotad",
+   "normal": "art/surf_presentation/270_lotad.png",
+   "shiny": "art/surf_presentation/270_lotad_shiny.png"
+  },
+  {
+   "dex_id": 271,
+   "species_slug": "lombre",
+   "normal": "art/surf_presentation/271_lombre.png",
+   "shiny": "art/surf_presentation/271_lombre_shiny.png"
+  },
+  {
+   "dex_id": 272,
+   "species_slug": "ludicolo",
+   "normal": "art/surf_presentation/272_ludicolo.png",
+   "shiny": "art/surf_presentation/272_ludicolo_shiny.png"
+  },
+  {
+   "dex_id": 279,
+   "species_slug": "pelipper",
+   "normal": "art/surf_presentation/279_pelipper.png",
+   "shiny": "art/surf_presentation/279_pelipper_shiny.png"
+  },
+  {
+   "dex_id": 295,
+   "species_slug": "exploud",
+   "normal": "art/surf_presentation/295_exploud.png",
+   "shiny": "art/surf_presentation/295_exploud_shiny.png"
+  },
+  {
+   "dex_id": 296,
+   "species_slug": "makuhita",
+   "normal": "art/surf_presentation/296_makuhita.png",
+   "shiny": "art/surf_presentation/296_makuhita_shiny.png"
+  },
+  {
+   "dex_id": 297,
+   "species_slug": "hariyama",
+   "normal": "art/surf_presentation/297_hariyama.png",
+   "shiny": "art/surf_presentation/297_hariyama_shiny.png"
+  },
+  {
+   "dex_id": 298,
+   "species_slug": "azurill",
+   "normal": "art/surf_presentation/298_azurill.png",
+   "shiny": "art/surf_presentation/298_azurill_shiny.png"
+  },
+  {
+   "dex_id": 306,
+   "species_slug": "aggron",
+   "normal": "art/surf_presentation/306_aggron.png",
+   "shiny": "art/surf_presentation/306_aggron_shiny.png"
+  },
+  {
+   "dex_id": 318,
+   "species_slug": "carvanha",
+   "normal": "art/surf_presentation/318_carvanha.png",
+   "shiny": "art/surf_presentation/318_carvanha_shiny.png"
+  },
+  {
+   "dex_id": 319,
+   "species_slug": "sharpedo",
+   "normal": "art/surf_presentation/319_sharpedo.png",
+   "shiny": "art/surf_presentation/319_sharpedo_shiny.png"
+  },
+  {
+   "dex_id": 320,
+   "species_slug": "wailmer",
+   "normal": "art/surf_presentation/320_wailmer.png",
+   "shiny": "art/surf_presentation/320_wailmer_shiny.png"
+  },
+  {
+   "dex_id": 321,
+   "species_slug": "wailord",
+   "normal": "art/surf_presentation/321_wailord.png",
+   "shiny": "art/surf_presentation/321_wailord_shiny.png"
+  },
+  {
+   "dex_id": 339,
+   "species_slug": "barboach",
+   "normal": "art/surf_presentation/339_barboach.png",
+   "shiny": "art/surf_presentation/339_barboach_shiny.png"
+  },
+  {
+   "dex_id": 340,
+   "species_slug": "whiscash",
+   "normal": "art/surf_presentation/340_whiscash.png",
+   "shiny": "art/surf_presentation/340_whiscash_shiny.png"
+  },
+  {
+   "dex_id": 341,
+   "species_slug": "corphish",
+   "normal": "art/surf_presentation/341_corphish.png",
+   "shiny": "art/surf_presentation/341_corphish_shiny.png"
+  },
+  {
+   "dex_id": 342,
+   "species_slug": "crawdaunt",
+   "normal": "art/surf_presentation/342_crawdaunt.png",
+   "shiny": "art/surf_presentation/342_crawdaunt_shiny.png"
+  },
+  {
+   "dex_id": 349,
+   "species_slug": "feebas",
+   "normal": "art/surf_presentation/349_feebas.png",
+   "shiny": "art/surf_presentation/349_feebas_shiny.png"
+  },
+  {
+   "dex_id": 350,
+   "species_slug": "milotic",
+   "normal": "art/surf_presentation/350_milotic.png",
+   "shiny": "art/surf_presentation/350_milotic_shiny.png"
+  },
+  {
+   "dex_id": 363,
+   "species_slug": "spheal",
+   "normal": "art/surf_presentation/363_spheal.png",
+   "shiny": "art/surf_presentation/363_spheal_shiny.png"
+  },
+  {
+   "dex_id": 364,
+   "species_slug": "sealeo",
+   "normal": "art/surf_presentation/364_sealeo.png",
+   "shiny": "art/surf_presentation/364_sealeo_shiny.png"
+  },
+  {
+   "dex_id": 365,
+   "species_slug": "walrein",
+   "normal": "art/surf_presentation/365_walrein.png",
+   "shiny": "art/surf_presentation/365_walrein_shiny.png"
+  },
+  {
+   "dex_id": 366,
+   "species_slug": "clamperl",
+   "normal": "art/surf_presentation/366_clamperl.png",
+   "shiny": "art/surf_presentation/366_clamperl_shiny.png"
+  },
+  {
+   "dex_id": 367,
+   "species_slug": "huntail",
+   "normal": "art/surf_presentation/367_huntail.png",
+   "shiny": "art/surf_presentation/367_huntail_shiny.png"
+  },
+  {
+   "dex_id": 368,
+   "species_slug": "gorebyss",
+   "normal": "art/surf_presentation/368_gorebyss.png",
+   "shiny": "art/surf_presentation/368_gorebyss_shiny.png"
+  },
+  {
+   "dex_id": 369,
+   "species_slug": "relicanth",
+   "normal": "art/surf_presentation/369_relicanth.png",
+   "shiny": "art/surf_presentation/369_relicanth_shiny.png"
+  },
+  {
+   "dex_id": 370,
+   "species_slug": "luvdisc",
+   "normal": "art/surf_presentation/370_luvdisc.png",
+   "shiny": "art/surf_presentation/370_luvdisc_shiny.png"
+  },
+  {
+   "dex_id": 380,
+   "species_slug": "latias",
+   "normal": "art/surf_presentation/380_latias.png",
+   "shiny": "art/surf_presentation/380_latias_shiny.png"
+  },
+  {
+   "dex_id": 381,
+   "species_slug": "latios",
+   "normal": "art/surf_presentation/381_latios.png",
+   "shiny": "art/surf_presentation/381_latios_shiny.png"
+  },
+  {
+   "dex_id": 382,
+   "species_slug": "kyogre",
+   "normal": "art/surf_presentation/382_kyogre.png",
+   "shiny": "art/surf_presentation/382_kyogre_shiny.png"
+  },
+  {
+   "dex_id": 384,
+   "species_slug": "rayquaza",
+   "normal": "art/surf_presentation/384_rayquaza.png",
+   "shiny": "art/surf_presentation/384_rayquaza_shiny.png"
+  }
+ ]
+}

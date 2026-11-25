@@ -1,0 +1,4090 @@
+{
+ "version": "sv",
+ "system": "TM Machine (Pokemon Scarlet/Violet)",
+ "provenance": {
+  "tm_list": "PKHeX.Core PersonalInfo9SV.MachineMoves (CountTM=230: 200 base + DLC flags) via held data_registry clone; move slugs via converted showdown_moves.json (num->key)",
+  "recipe_schema": "pkNX FlatBuffers SV ShopWazamachineDataArray.fbs: {WazaNo, WazaItemID, LP, Cond, Item01..03 + ItemNum01..03 + DevNo01..03} \u2014 schema held, binary recipe rows NOT held anywhere in the staged sources",
+  "materials": "code_prep_items_batch5/enumeration_class_d.csv tm-materials rows (222); also canonical in test_project item_registry.json (category tm-materials)"
+ },
+ "recipe_field_status": "lp/materials/unlock_cond are null/empty for ALL 230 recipes: no held source carries SV recipe rows; values are labeled stubs, never invented. Crafting a stubbed recipe is refused (reason recipe_stubbed) until a sourced data drop lands.",
+ "recipes": [
+  {
+   "tm_id": "tm001",
+   "tm_index": 1,
+   "move_id": 5,
+   "move": "megapunch",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm002",
+   "tm_index": 2,
+   "move_id": 36,
+   "move": "takedown",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm003",
+   "tm_index": 3,
+   "move_id": 204,
+   "move": "charm",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm004",
+   "tm_index": 4,
+   "move_id": 313,
+   "move": "faketears",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm005",
+   "tm_index": 5,
+   "move_id": 97,
+   "move": "agility",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm006",
+   "tm_index": 6,
+   "move_id": 189,
+   "move": "mudslap",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm007",
+   "tm_index": 7,
+   "move_id": 184,
+   "move": "scaryface",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm008",
+   "tm_index": 8,
+   "move_id": 182,
+   "move": "protect",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm009",
+   "tm_index": 9,
+   "move_id": 424,
+   "move": "firefang",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm010",
+   "tm_index": 10,
+   "move_id": 422,
+   "move": "thunderfang",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm011",
+   "tm_index": 11,
+   "move_id": 423,
+   "move": "icefang",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm012",
+   "tm_index": 12,
+   "move_id": 352,
+   "move": "waterpulse",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm013",
+   "tm_index": 13,
+   "move_id": 67,
+   "move": "lowkick",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm014",
+   "tm_index": 14,
+   "move_id": 491,
+   "move": "acidspray",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm015",
+   "tm_index": 15,
+   "move_id": 512,
+   "move": "acrobatics",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm016",
+   "tm_index": 16,
+   "move_id": 522,
+   "move": "strugglebug",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm017",
+   "tm_index": 17,
+   "move_id": 60,
+   "move": "psybeam",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm018",
+   "tm_index": 18,
+   "move_id": 109,
+   "move": "confuseray",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm019",
+   "tm_index": 19,
+   "move_id": 168,
+   "move": "thief",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm020",
+   "tm_index": 20,
+   "move_id": 574,
+   "move": "disarmingvoice",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm021",
+   "tm_index": 21,
+   "move_id": 885,
+   "move": "trailblaze",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm022",
+   "tm_index": 22,
+   "move_id": 884,
+   "move": "pounce",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm023",
+   "tm_index": 23,
+   "move_id": 886,
+   "move": "chillingwater",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm024",
+   "tm_index": 24,
+   "move_id": 451,
+   "move": "chargebeam",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm025",
+   "tm_index": 25,
+   "move_id": 83,
+   "move": "firespin",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm026",
+   "tm_index": 26,
+   "move_id": 263,
+   "move": "facade",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm027",
+   "tm_index": 27,
+   "move_id": 342,
+   "move": "poisontail",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm028",
+   "tm_index": 28,
+   "move_id": 332,
+   "move": "aerialace",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm029",
+   "tm_index": 29,
+   "move_id": 523,
+   "move": "bulldoze",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm030",
+   "tm_index": 30,
+   "move_id": 506,
+   "move": "hex",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm031",
+   "tm_index": 31,
+   "move_id": 555,
+   "move": "snarl",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm032",
+   "tm_index": 32,
+   "move_id": 232,
+   "move": "metalclaw",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm033",
+   "tm_index": 33,
+   "move_id": 129,
+   "move": "swift",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm034",
+   "tm_index": 34,
+   "move_id": 345,
+   "move": "magicalleaf",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm035",
+   "tm_index": 35,
+   "move_id": 196,
+   "move": "icywind",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm036",
+   "tm_index": 36,
+   "move_id": 341,
+   "move": "mudshot",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm037",
+   "tm_index": 37,
+   "move_id": 317,
+   "move": "rocktomb",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm038",
+   "tm_index": 38,
+   "move_id": 577,
+   "move": "drainingkiss",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm039",
+   "tm_index": 39,
+   "move_id": 488,
+   "move": "flamecharge",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm040",
+   "tm_index": 40,
+   "move_id": 490,
+   "move": "lowsweep",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm041",
+   "tm_index": 41,
+   "move_id": 314,
+   "move": "aircutter",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm042",
+   "tm_index": 42,
+   "move_id": 500,
+   "move": "storedpower",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm043",
+   "tm_index": 43,
+   "move_id": 101,
+   "move": "nightshade",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm044",
+   "tm_index": 44,
+   "move_id": 374,
+   "move": "fling",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm045",
+   "tm_index": 45,
+   "move_id": 525,
+   "move": "dragontail",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm046",
+   "tm_index": 46,
+   "move_id": 474,
+   "move": "venoshock",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm047",
+   "tm_index": 47,
+   "move_id": 419,
+   "move": "avalanche",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm048",
+   "tm_index": 48,
+   "move_id": 203,
+   "move": "endure",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm049",
+   "tm_index": 49,
+   "move_id": 521,
+   "move": "voltswitch",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm050",
+   "tm_index": 50,
+   "move_id": 241,
+   "move": "sunnyday",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm051",
+   "tm_index": 51,
+   "move_id": 240,
+   "move": "raindance",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm052",
+   "tm_index": 52,
+   "move_id": 201,
+   "move": "sandstorm",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm053",
+   "tm_index": 53,
+   "move_id": 883,
+   "move": "snowscape",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm054",
+   "tm_index": 54,
+   "move_id": 684,
+   "move": "smartstrike",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm055",
+   "tm_index": 55,
+   "move_id": 473,
+   "move": "psyshock",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm056",
+   "tm_index": 56,
+   "move_id": 91,
+   "move": "dig",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm057",
+   "tm_index": 57,
+   "move_id": 331,
+   "move": "bulletseed",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm058",
+   "tm_index": 58,
+   "move_id": 206,
+   "move": "falseswipe",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm059",
+   "tm_index": 59,
+   "move_id": 280,
+   "move": "brickbreak",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm060",
+   "tm_index": 60,
+   "move_id": 428,
+   "move": "zenheadbutt",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm061",
+   "tm_index": 61,
+   "move_id": 369,
+   "move": "uturn",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm062",
+   "tm_index": 62,
+   "move_id": 421,
+   "move": "shadowclaw",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm063",
+   "tm_index": 63,
+   "move_id": 492,
+   "move": "foulplay",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm064",
+   "tm_index": 64,
+   "move_id": 706,
+   "move": "psychicfangs",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm065",
+   "tm_index": 65,
+   "move_id": 339,
+   "move": "bulkup",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm066",
+   "tm_index": 66,
+   "move_id": 403,
+   "move": "airslash",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm067",
+   "tm_index": 67,
+   "move_id": 34,
+   "move": "bodyslam",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm068",
+   "tm_index": 68,
+   "move_id": 7,
+   "move": "firepunch",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm069",
+   "tm_index": 69,
+   "move_id": 9,
+   "move": "thunderpunch",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm070",
+   "tm_index": 70,
+   "move_id": 8,
+   "move": "icepunch",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm071",
+   "tm_index": 71,
+   "move_id": 214,
+   "move": "sleeptalk",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm072",
+   "tm_index": 72,
+   "move_id": 402,
+   "move": "seedbomb",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm073",
+   "tm_index": 73,
+   "move_id": 486,
+   "move": "electroball",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm074",
+   "tm_index": 74,
+   "move_id": 409,
+   "move": "drainpunch",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm075",
+   "tm_index": 75,
+   "move_id": 115,
+   "move": "reflect",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm076",
+   "tm_index": 76,
+   "move_id": 113,
+   "move": "lightscreen",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm077",
+   "tm_index": 77,
+   "move_id": 350,
+   "move": "rockblast",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm078",
+   "tm_index": 78,
+   "move_id": 127,
+   "move": "waterfall",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm079",
+   "tm_index": 79,
+   "move_id": 337,
+   "move": "dragonclaw",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm080",
+   "tm_index": 80,
+   "move_id": 605,
+   "move": "dazzlinggleam",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm081",
+   "tm_index": 81,
+   "move_id": 118,
+   "move": "metronome",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm082",
+   "tm_index": 82,
+   "move_id": 447,
+   "move": "grassknot",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm083",
+   "tm_index": 83,
+   "move_id": 86,
+   "move": "thunderwave",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm084",
+   "tm_index": 84,
+   "move_id": 398,
+   "move": "poisonjab",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm085",
+   "tm_index": 85,
+   "move_id": 707,
+   "move": "stompingtantrum",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm086",
+   "tm_index": 86,
+   "move_id": 156,
+   "move": "rest",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm087",
+   "tm_index": 87,
+   "move_id": 157,
+   "move": "rockslide",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm088",
+   "tm_index": 88,
+   "move_id": 269,
+   "move": "taunt",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm089",
+   "tm_index": 89,
+   "move_id": 14,
+   "move": "swordsdance",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm090",
+   "tm_index": 90,
+   "move_id": 776,
+   "move": "bodypress",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm091",
+   "tm_index": 91,
+   "move_id": 191,
+   "move": "spikes",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm092",
+   "tm_index": 92,
+   "move_id": 390,
+   "move": "toxicspikes",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm093",
+   "tm_index": 93,
+   "move_id": 286,
+   "move": "imprison",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm094",
+   "tm_index": 94,
+   "move_id": 430,
+   "move": "flashcannon",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm095",
+   "tm_index": 95,
+   "move_id": 399,
+   "move": "darkpulse",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm096",
+   "tm_index": 96,
+   "move_id": 141,
+   "move": "leechlife",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm097",
+   "tm_index": 97,
+   "move_id": 598,
+   "move": "eerieimpulse",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm098",
+   "tm_index": 98,
+   "move_id": 19,
+   "move": "fly",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm099",
+   "tm_index": 99,
+   "move_id": 285,
+   "move": "skillswap",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm100",
+   "tm_index": 100,
+   "move_id": 442,
+   "move": "ironhead",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm101",
+   "tm_index": 101,
+   "move_id": 349,
+   "move": "dragondance",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm102",
+   "tm_index": 102,
+   "move_id": 408,
+   "move": "powergem",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm103",
+   "tm_index": 103,
+   "move_id": 441,
+   "move": "gunkshot",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm104",
+   "tm_index": 104,
+   "move_id": 164,
+   "move": "substitute",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm105",
+   "tm_index": 105,
+   "move_id": 334,
+   "move": "irondefense",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm106",
+   "tm_index": 106,
+   "move_id": 404,
+   "move": "xscissor",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm107",
+   "tm_index": 107,
+   "move_id": 529,
+   "move": "drillrun",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm108",
+   "tm_index": 108,
+   "move_id": 261,
+   "move": "willowisp",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm109",
+   "tm_index": 109,
+   "move_id": 242,
+   "move": "crunch",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm110",
+   "tm_index": 110,
+   "move_id": 271,
+   "move": "trick",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm111",
+   "tm_index": 111,
+   "move_id": 710,
+   "move": "liquidation",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm112",
+   "tm_index": 112,
+   "move_id": 202,
+   "move": "gigadrain",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm113",
+   "tm_index": 113,
+   "move_id": 396,
+   "move": "aurasphere",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm114",
+   "tm_index": 114,
+   "move_id": 366,
+   "move": "tailwind",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm115",
+   "tm_index": 115,
+   "move_id": 247,
+   "move": "shadowball",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm116",
+   "tm_index": 116,
+   "move_id": 406,
+   "move": "dragonpulse",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm117",
+   "tm_index": 117,
+   "move_id": 446,
+   "move": "stealthrock",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm118",
+   "tm_index": 118,
+   "move_id": 304,
+   "move": "hypervoice",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm119",
+   "tm_index": 119,
+   "move_id": 257,
+   "move": "heatwave",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm120",
+   "tm_index": 120,
+   "move_id": 412,
+   "move": "energyball",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm121",
+   "tm_index": 121,
+   "move_id": 94,
+   "move": "psychic",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm122",
+   "tm_index": 122,
+   "move_id": 484,
+   "move": "heavyslam",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm123",
+   "tm_index": 123,
+   "move_id": 227,
+   "move": "encore",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm124",
+   "tm_index": 124,
+   "move_id": 57,
+   "move": "surf",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm125",
+   "tm_index": 125,
+   "move_id": 861,
+   "move": "icespinner",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm126",
+   "tm_index": 126,
+   "move_id": 53,
+   "move": "flamethrower",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm127",
+   "tm_index": 127,
+   "move_id": 85,
+   "move": "thunderbolt",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm128",
+   "tm_index": 128,
+   "move_id": 583,
+   "move": "playrough",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm129",
+   "tm_index": 129,
+   "move_id": 133,
+   "move": "amnesia",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm130",
+   "tm_index": 130,
+   "move_id": 347,
+   "move": "calmmind",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm131",
+   "tm_index": 131,
+   "move_id": 270,
+   "move": "helpinghand",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm132",
+   "tm_index": 132,
+   "move_id": 676,
+   "move": "pollenpuff",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm133",
+   "tm_index": 133,
+   "move_id": 226,
+   "move": "batonpass",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm134",
+   "tm_index": 134,
+   "move_id": 414,
+   "move": "earthpower",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm135",
+   "tm_index": 135,
+   "move_id": 179,
+   "move": "reversal",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm136",
+   "tm_index": 136,
+   "move_id": 58,
+   "move": "icebeam",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm137",
+   "tm_index": 137,
+   "move_id": 604,
+   "move": "electricterrain",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm138",
+   "tm_index": 138,
+   "move_id": 580,
+   "move": "grassyterrain",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm139",
+   "tm_index": 139,
+   "move_id": 678,
+   "move": "psychicterrain",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm140",
+   "tm_index": 140,
+   "move_id": 581,
+   "move": "mistyterrain",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm141",
+   "tm_index": 141,
+   "move_id": 417,
+   "move": "nastyplot",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm142",
+   "tm_index": 142,
+   "move_id": 126,
+   "move": "fireblast",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm143",
+   "tm_index": 143,
+   "move_id": 56,
+   "move": "hydropump",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm144",
+   "tm_index": 144,
+   "move_id": 59,
+   "move": "blizzard",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm145",
+   "tm_index": 145,
+   "move_id": 519,
+   "move": "firepledge",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm146",
+   "tm_index": 146,
+   "move_id": 518,
+   "move": "waterpledge",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm147",
+   "tm_index": 147,
+   "move_id": 520,
+   "move": "grasspledge",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm148",
+   "tm_index": 148,
+   "move_id": 528,
+   "move": "wildcharge",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm149",
+   "tm_index": 149,
+   "move_id": 188,
+   "move": "sludgebomb",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm150",
+   "tm_index": 150,
+   "move_id": 89,
+   "move": "earthquake",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm151",
+   "tm_index": 151,
+   "move_id": 444,
+   "move": "stoneedge",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm152",
+   "tm_index": 152,
+   "move_id": 566,
+   "move": "phantomforce",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm153",
+   "tm_index": 153,
+   "move_id": 416,
+   "move": "gigaimpact",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm154",
+   "tm_index": 154,
+   "move_id": 307,
+   "move": "blastburn",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm155",
+   "tm_index": 155,
+   "move_id": 308,
+   "move": "hydrocannon",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm156",
+   "tm_index": 156,
+   "move_id": 338,
+   "move": "frenzyplant",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm157",
+   "tm_index": 157,
+   "move_id": 200,
+   "move": "outrage",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm158",
+   "tm_index": 158,
+   "move_id": 315,
+   "move": "overheat",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm159",
+   "tm_index": 159,
+   "move_id": 411,
+   "move": "focusblast",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm160",
+   "tm_index": 160,
+   "move_id": 437,
+   "move": "leafstorm",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm161",
+   "tm_index": 161,
+   "move_id": 542,
+   "move": "hurricane",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm162",
+   "tm_index": 162,
+   "move_id": 433,
+   "move": "trickroom",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm163",
+   "tm_index": 163,
+   "move_id": 405,
+   "move": "bugbuzz",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm164",
+   "tm_index": 164,
+   "move_id": 63,
+   "move": "hyperbeam",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm165",
+   "tm_index": 165,
+   "move_id": 413,
+   "move": "bravebird",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm166",
+   "tm_index": 166,
+   "move_id": 394,
+   "move": "flareblitz",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm167",
+   "tm_index": 167,
+   "move_id": 87,
+   "move": "thunder",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm168",
+   "tm_index": 168,
+   "move_id": 370,
+   "move": "closecombat",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm169",
+   "tm_index": 169,
+   "move_id": 76,
+   "move": "solarbeam",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm170",
+   "tm_index": 170,
+   "move_id": 434,
+   "move": "dracometeor",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm171",
+   "tm_index": 171,
+   "move_id": 796,
+   "move": "steelbeam",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm172",
+   "tm_index": 172,
+   "move_id": 851,
+   "move": "terablast",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm173",
+   "tm_index": 173,
+   "move_id": 46,
+   "move": "roar",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm174",
+   "tm_index": 174,
+   "move_id": 268,
+   "move": "charge",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm175",
+   "tm_index": 175,
+   "move_id": 114,
+   "move": "haze",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm176",
+   "tm_index": 176,
+   "move_id": 92,
+   "move": "toxic",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm177",
+   "tm_index": 177,
+   "move_id": 328,
+   "move": "sandtomb",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm178",
+   "tm_index": 178,
+   "move_id": 180,
+   "move": "spite",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm179",
+   "tm_index": 179,
+   "move_id": 356,
+   "move": "gravity",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm180",
+   "tm_index": 180,
+   "move_id": 479,
+   "move": "smackdown",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm181",
+   "tm_index": 181,
+   "move_id": 360,
+   "move": "gyroball",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm182",
+   "tm_index": 182,
+   "move_id": 282,
+   "move": "knockoff",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm183",
+   "tm_index": 183,
+   "move_id": 450,
+   "move": "bugbite",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm184",
+   "tm_index": 184,
+   "move_id": 162,
+   "move": "superfang",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm185",
+   "tm_index": 185,
+   "move_id": 410,
+   "move": "vacuumwave",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm186",
+   "tm_index": 186,
+   "move_id": 679,
+   "move": "lunge",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm187",
+   "tm_index": 187,
+   "move_id": 667,
+   "move": "highhorsepower",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm188",
+   "tm_index": 188,
+   "move_id": 333,
+   "move": "iciclespear",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm189",
+   "tm_index": 189,
+   "move_id": 503,
+   "move": "scald",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm190",
+   "tm_index": 190,
+   "move_id": 535,
+   "move": "heatcrash",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm191",
+   "tm_index": 191,
+   "move_id": 669,
+   "move": "solarblade",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm192",
+   "tm_index": 192,
+   "move_id": 253,
+   "move": "uproar",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm193",
+   "tm_index": 193,
+   "move_id": 264,
+   "move": "focuspunch",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm194",
+   "tm_index": 194,
+   "move_id": 311,
+   "move": "weatherball",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm195",
+   "tm_index": 195,
+   "move_id": 803,
+   "move": "grassyglide",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm196",
+   "tm_index": 196,
+   "move_id": 807,
+   "move": "burningjealousy",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm197",
+   "tm_index": 197,
+   "move_id": 812,
+   "move": "flipturn",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm198",
+   "tm_index": 198,
+   "move_id": 814,
+   "move": "dualwingbeat",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm199",
+   "tm_index": 199,
+   "move_id": 809,
+   "move": "poltergeist",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm200",
+   "tm_index": 200,
+   "move_id": 808,
+   "move": "lashout",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm201",
+   "tm_index": 201,
+   "move_id": 799,
+   "move": "scaleshot",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm202",
+   "tm_index": 202,
+   "move_id": 802,
+   "move": "mistyexplosion",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm203",
+   "tm_index": 203,
+   "move_id": 220,
+   "move": "painsplit",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm204",
+   "tm_index": 204,
+   "move_id": 244,
+   "move": "psychup",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm205",
+   "tm_index": 205,
+   "move_id": 38,
+   "move": "doubleedge",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm206",
+   "tm_index": 206,
+   "move_id": 283,
+   "move": "endeavor",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm207",
+   "tm_index": 207,
+   "move_id": 572,
+   "move": "petalblizzard",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm208",
+   "tm_index": 208,
+   "move_id": 915,
+   "move": "temperflare",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm209",
+   "tm_index": 209,
+   "move_id": 250,
+   "move": "whirlpool",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm210",
+   "tm_index": 210,
+   "move_id": 330,
+   "move": "muddywater",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm211",
+   "tm_index": 211,
+   "move_id": 916,
+   "move": "supercellslam",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm212",
+   "tm_index": 212,
+   "move_id": 527,
+   "move": "electroweb",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm213",
+   "tm_index": 213,
+   "move_id": 813,
+   "move": "tripleaxel",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm214",
+   "tm_index": 214,
+   "move_id": 811,
+   "move": "coaching",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm215",
+   "tm_index": 215,
+   "move_id": 482,
+   "move": "sludgewave",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm216",
+   "tm_index": 216,
+   "move_id": 815,
+   "move": "scorchingsands",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm217",
+   "tm_index": 217,
+   "move_id": 297,
+   "move": "featherdance",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm218",
+   "tm_index": 218,
+   "move_id": 248,
+   "move": "futuresight",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm219",
+   "tm_index": 219,
+   "move_id": 797,
+   "move": "expandingforce",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm220",
+   "tm_index": 220,
+   "move_id": 806,
+   "move": "skittersmack",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm221",
+   "tm_index": 221,
+   "move_id": 800,
+   "move": "meteorbeam",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm222",
+   "tm_index": 222,
+   "move_id": 675,
+   "move": "throatchop",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm223",
+   "tm_index": 223,
+   "move_id": 784,
+   "move": "breakingswipe",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm224",
+   "tm_index": 224,
+   "move_id": 319,
+   "move": "metalsound",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm225",
+   "tm_index": 225,
+   "move_id": 174,
+   "move": "curse",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm226",
+   "tm_index": 226,
+   "move_id": 912,
+   "move": "hardpress",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm227",
+   "tm_index": 227,
+   "move_id": 913,
+   "move": "dragoncheer",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm228",
+   "tm_index": 228,
+   "move_id": 914,
+   "move": "alluringvoice",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm229",
+   "tm_index": 229,
+   "move_id": 917,
+   "move": "psychicnoise",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  },
+  {
+   "tm_id": "tm230",
+   "tm_index": 230,
+   "move_id": 918,
+   "move": "upperhand",
+   "lp": null,
+   "materials": [],
+   "unlock_cond": null,
+   "recipe_status": "stub_unsourced_costs"
+  }
+ ],
+ "materials": [
+  {
+   "material_id": "aipom-hair",
+   "name": "Aipom Hair",
+   "drop_source_species": "Aipom",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "alomomola-mucus",
+   "name": "Alomomola Mucus",
+   "drop_source_species": "Alomomola",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "applin-juice",
+   "name": "Applin Juice",
+   "drop_source_species": "Applin",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "arrokuda-scales",
+   "name": "Arrokuda Scales",
+   "drop_source_species": "Arrokuda",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "axew-scales",
+   "name": "Axew Scales",
+   "drop_source_species": "Axew",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "azurill-fur",
+   "name": "Azurill Fur",
+   "drop_source_species": "Azurill",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "bagon-scales",
+   "name": "Bagon Scales",
+   "drop_source_species": "Bagon",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "barboach-slime",
+   "name": "Barboach Slime",
+   "drop_source_species": "Barboach",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "basculin-fang",
+   "name": "Basculin Fang",
+   "drop_source_species": "Basculin",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "bellsprout-vine",
+   "name": "Bellsprout Vine",
+   "drop_source_species": "Bellsprout",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "bergmite-ice",
+   "name": "Bergmite Ice",
+   "drop_source_species": "Bergmite",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "bombirdier-feather",
+   "name": "Bombirdier Feather",
+   "drop_source_species": "Bombirdier",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "bonsly-tears",
+   "name": "Bonsly Tears",
+   "drop_source_species": "Bonsly",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "bounsweet-sweat",
+   "name": "Bounsweet Sweat",
+   "drop_source_species": "Bounsweet",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "bramblin-twig",
+   "name": "Bramblin Twig",
+   "drop_source_species": "Bramblin",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "bronzor-fragment",
+   "name": "Bronzor Fragment",
+   "drop_source_species": "Bronzor",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "bruxish-tooth",
+   "name": "Bruxish Tooth",
+   "drop_source_species": "Bruxish",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "buizel-fur",
+   "name": "Buizel Fur",
+   "drop_source_species": "Buizel",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "cacnea-needle",
+   "name": "Cacnea Needle",
+   "drop_source_species": "Cacnea",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "capsakid-seed",
+   "name": "Capsakid Seed",
+   "drop_source_species": "Capsakid",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "carbink-jewel",
+   "name": "Carbink Jewel",
+   "drop_source_species": "Carbink",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "cetoddle-grease",
+   "name": "Cetoddle Grease",
+   "drop_source_species": "Cetoddle",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "charcadet-soot",
+   "name": "Charcadet Soot",
+   "drop_source_species": "Charcadet",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "chewtle-claw",
+   "name": "Chewtle Claw",
+   "drop_source_species": "Chewtle",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "chingling-fragment",
+   "name": "Chingling Fragment",
+   "drop_source_species": "Chingling",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "clauncher-claw",
+   "name": "Clauncher Claw",
+   "drop_source_species": "Clauncher",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "cleffa-fur",
+   "name": "Cleffa Fur",
+   "drop_source_species": "Cleffa",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "combee-honey",
+   "name": "Combee Honey",
+   "drop_source_species": "Combee",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "corphish-shell",
+   "name": "Corphish Shell",
+   "drop_source_species": "Corphish",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "crabrawler-shell",
+   "name": "Crabrawler Shell",
+   "drop_source_species": "Crabrawler",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "cramorant-down",
+   "name": "Cramorant Down",
+   "drop_source_species": "Cramorant",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "croagunk-poison",
+   "name": "Croagunk Poison",
+   "drop_source_species": "Croagunk",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "cryogonal-ice",
+   "name": "Cryogonal Ice",
+   "drop_source_species": "Cryogonal",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "cubchoo-fur",
+   "name": "Cubchoo Fur",
+   "drop_source_species": "Cubchoo",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "cufant-tarnish",
+   "name": "Cufant Tarnish",
+   "drop_source_species": "Cufant",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "cutiefly-powder",
+   "name": "Cutiefly Powder",
+   "drop_source_species": "Cutiefly",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "cyclizar-scales",
+   "name": "Cyclizar Scales",
+   "drop_source_species": "Cyclizar",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "dedenne-fur",
+   "name": "Dedenne Fur",
+   "drop_source_species": "Dedenne",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "deerling-hair",
+   "name": "Deerling Hair",
+   "drop_source_species": "Deerling",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "deino-scales",
+   "name": "Deino Scales",
+   "drop_source_species": "Deino",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "delibird-parcel",
+   "name": "Delibird Parcel",
+   "drop_source_species": "Delibird",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "diglett-dirt",
+   "name": "Diglett Dirt",
+   "drop_source_species": "Diglett",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "ditto-goo",
+   "name": "Ditto Goo",
+   "drop_source_species": "Ditto",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "dondozo-whisker",
+   "name": "Dondozo Whisker",
+   "drop_source_species": "Dondozo",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "dratini-scales",
+   "name": "Dratini Scales",
+   "drop_source_species": "Dratini",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "dreepy-powder",
+   "name": "Dreepy Powder",
+   "drop_source_species": "Dreepy",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "drifloon-gas",
+   "name": "Drifloon Gas",
+   "drop_source_species": "Drifloon",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "drowzee-fur",
+   "name": "Drowzee Fur",
+   "drop_source_species": "Drowzee",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "ducklett-feather",
+   "name": "Ducklett Feather",
+   "drop_source_species": "Ducklett",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "dunsparce-scales",
+   "name": "Dunsparce Scales",
+   "drop_source_species": "Dunsparce",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "duskull-fragment",
+   "name": "Duskull Fragment",
+   "drop_source_species": "Duskull",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "eevee-fur",
+   "name": "Eevee Fur",
+   "drop_source_species": "Eevee",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "eiscue-down",
+   "name": "Eiscue Down",
+   "drop_source_species": "Eiscue",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "ekans-fang",
+   "name": "Ekans Fang",
+   "drop_source_species": "Ekans",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "falinks-sweat",
+   "name": "Falinks Sweat",
+   "drop_source_species": "Falinks",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "feebas-scales",
+   "name": "Feebas Scales",
+   "drop_source_species": "Feebas",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "fidough-fur",
+   "name": "Fidough Fur",
+   "drop_source_species": "Fidough",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "finizen-mucus",
+   "name": "Finizen Mucus",
+   "drop_source_species": "Finizen",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "finneon-scales",
+   "name": "Finneon Scales",
+   "drop_source_species": "Finneon",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "flabebe-pollen",
+   "name": "Flab\u00e9b\u00e9 Pollen",
+   "drop_source_species": "Flab\u00e9b\u00e9",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "flamigo-down",
+   "name": "Flamigo Down",
+   "drop_source_species": "Flamigo",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "fletchling-feather",
+   "name": "Fletchling Feather",
+   "drop_source_species": "Fletchling",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "flittle-down",
+   "name": "Flittle Down",
+   "drop_source_species": "Flittle",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "fomantis-leaf",
+   "name": "Fomantis Leaf",
+   "drop_source_species": "Fomantis",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "foongus-spores",
+   "name": "Foongus Spores",
+   "drop_source_species": "Foongus",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "frigibax-scales",
+   "name": "Frigibax Scales",
+   "drop_source_species": "Frigibax",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "gastly-gas",
+   "name": "Gastly Gas",
+   "drop_source_species": "Gastly",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "geodude-fragment",
+   "name": "Geodude Fragment",
+   "drop_source_species": "Geodude",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "gible-scales",
+   "name": "Gible Scales",
+   "drop_source_species": "Gible",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "gimmighoul-coin",
+   "name": "Gimmighoul Coin",
+   "drop_source_species": "Gimmighoul",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "girafarig-fur",
+   "name": "Girafarig Fur",
+   "drop_source_species": "Girafarig",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "gligar-fang",
+   "name": "Gligar Fang",
+   "drop_source_species": "Gligar",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "glimmet-crystal",
+   "name": "Glimmet Crystal",
+   "drop_source_species": "Glimmet",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "goomy-goo",
+   "name": "Goomy Goo",
+   "drop_source_species": "Goomy",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "gothita-eyelash",
+   "name": "Gothita Eyelash",
+   "drop_source_species": "Gothita",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "greavard-wax",
+   "name": "Greavard Wax",
+   "drop_source_species": "Greavard",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "grimer-toxin",
+   "name": "Grimer Toxin",
+   "drop_source_species": "Grimer",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "growlithe-fur",
+   "name": "Growlithe Fur",
+   "drop_source_species": "Growlithe",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "grubbin-thread",
+   "name": "Grubbin Thread",
+   "drop_source_species": "Grubbin",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "gulpin-mucus",
+   "name": "Gulpin Mucus",
+   "drop_source_species": "Gulpin",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "happiny-dust",
+   "name": "Happiny Dust",
+   "drop_source_species": "Happiny",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "hatenna-dust",
+   "name": "Hatenna Dust",
+   "drop_source_species": "Hatenna",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "hawlucha-down",
+   "name": "Hawlucha Down",
+   "drop_source_species": "Hawlucha",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "heracross-claw",
+   "name": "Heracross Claw",
+   "drop_source_species": "Heracross",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "hippopotas-sand",
+   "name": "Hippopotas Sand",
+   "drop_source_species": "Hippopotas",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "hoothoot-feather",
+   "name": "Hoothoot Feather",
+   "drop_source_species": "Hoothoot",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "hoppip-leaf",
+   "name": "Hoppip Leaf",
+   "drop_source_species": "Hoppip",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "houndour-fang",
+   "name": "Houndour Fang",
+   "drop_source_species": "Houndour",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "igglybuff-fluff",
+   "name": "Igglybuff Fluff",
+   "drop_source_species": "Igglybuff",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "illumise-fluid",
+   "name": "Illumise Fluid",
+   "drop_source_species": "Illumise",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "impidimp-hair",
+   "name": "Impidimp Hair",
+   "drop_source_species": "Impidimp",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "indeedee-fur",
+   "name": "Indeedee Fur",
+   "drop_source_species": "Indeedee",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "jangmo-o-scales",
+   "name": "Jangmo-o Scales",
+   "drop_source_species": "Jangmo-o",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "klawf-claw",
+   "name": "Klawf Claw",
+   "drop_source_species": "Klawf",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "klefki-key",
+   "name": "Klefki Key",
+   "drop_source_species": "Klefki",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "koffing-gas",
+   "name": "Koffing Gas",
+   "drop_source_species": "Koffing",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "komala-claw",
+   "name": "Komala Claw",
+   "drop_source_species": "Komala",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "kricketot-shell",
+   "name": "Kricketot Shell",
+   "drop_source_species": "Kricketot",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "larvesta-fuzz",
+   "name": "Larvesta Fuzz",
+   "drop_source_species": "Larvesta",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "larvitar-claw",
+   "name": "Larvitar Claw",
+   "drop_source_species": "Larvitar",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "lechonk-hair",
+   "name": "Lechonk Hair",
+   "drop_source_species": "Lechonk",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "litleo-tuft",
+   "name": "Litleo Tuft",
+   "drop_source_species": "Litleo",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "litwick-soot",
+   "name": "Litwick Soot",
+   "drop_source_species": "Litwick",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "lotad-leaf",
+   "name": "Lotad Leaf",
+   "drop_source_species": "Lotad",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "luvdisc-scales",
+   "name": "Luvdisc Scales",
+   "drop_source_species": "Luvdisc",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "magikarp-scales",
+   "name": "Magikarp Scales",
+   "drop_source_species": "Magikarp",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "magnemite-screw",
+   "name": "Magnemite Screw",
+   "drop_source_species": "Magnemite",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "makuhita-sweat",
+   "name": "Makuhita Sweat",
+   "drop_source_species": "Makuhita",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "mankey-fur",
+   "name": "Mankey Fur",
+   "drop_source_species": "Mankey",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "mareanie-spike",
+   "name": "Mareanie Spike",
+   "drop_source_species": "Mareanie",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "mareep-wool",
+   "name": "Mareep Wool",
+   "drop_source_species": "Mareep",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "maschiff-fang",
+   "name": "Maschiff Fang",
+   "drop_source_species": "Maschiff",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "meditite-sweat",
+   "name": "Meditite Sweat",
+   "drop_source_species": "Meditite",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "meowth-fur",
+   "name": "Meowth Fur",
+   "drop_source_species": "Meowth",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "mienfoo-claw",
+   "name": "Mienfoo Claw",
+   "drop_source_species": "Mienfoo",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "mimikyu-scrap",
+   "name": "Mimikyu Scrap",
+   "drop_source_species": "Mimikyu",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "misdreavus-tears",
+   "name": "Misdreavus Tears",
+   "drop_source_species": "Misdreavus",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "morpeko-snack",
+   "name": "Morpeko Snack",
+   "drop_source_species": "Morpeko",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "mudbray-mud",
+   "name": "Mudbray Mud",
+   "drop_source_species": "Mudbray",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "munchlax-fang",
+   "name": "Munchlax Fang",
+   "drop_source_species": "Munchlax",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "murkrow-bauble",
+   "name": "Murkrow Bauble",
+   "drop_source_species": "Murkrow",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "nacli-salt",
+   "name": "Nacli Salt",
+   "drop_source_species": "Nacli",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "noibat-fur",
+   "name": "Noibat Fur",
+   "drop_source_species": "Noibat",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "nosepass-fragment",
+   "name": "Nosepass Fragment",
+   "drop_source_species": "Nosepass",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "numel-lava",
+   "name": "Numel Lava",
+   "drop_source_species": "Numel",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "nymble-claw",
+   "name": "Nymble Claw",
+   "drop_source_species": "Nymble",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "oranguru-fur",
+   "name": "Oranguru Fur",
+   "drop_source_species": "Oranguru",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "oricorio-feather",
+   "name": "Oricorio Feather",
+   "drop_source_species": "Oricorio",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "orthworm-tarnish",
+   "name": "Orthworm Tarnish",
+   "drop_source_species": "Orthworm",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "pachirisu-fur",
+   "name": "Pachirisu Fur",
+   "drop_source_species": "Pachirisu",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "passimian-fur",
+   "name": "Passimian Fur",
+   "drop_source_species": "Passimian",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "pawmi-fur",
+   "name": "Pawmi Fur",
+   "drop_source_species": "Pawmi",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "pawniard-blade",
+   "name": "Pawniard Blade",
+   "drop_source_species": "Pawniard",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "petilil-leaf",
+   "name": "Petilil Leaf",
+   "drop_source_species": "Petilil",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "phanpy-nail",
+   "name": "Phanpy Nail",
+   "drop_source_species": "Phanpy",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "phantump-twig",
+   "name": "Phantump Twig",
+   "drop_source_species": "Phantump",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "pichu-fur",
+   "name": "Pichu Fur",
+   "drop_source_species": "Pichu",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "pincurchin-spines",
+   "name": "Pincurchin Spines",
+   "drop_source_species": "Pincurchin",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "pineco-husk",
+   "name": "Pineco Husk",
+   "drop_source_species": "Pineco",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "poliwag-slime",
+   "name": "Poliwag Slime",
+   "drop_source_species": "Poliwag",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "poltchageist-powder",
+   "name": "Poltchageist Powder",
+   "drop_source_species": "Poltchageist",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "poochyena-fang",
+   "name": "Poochyena Fang",
+   "drop_source_species": "Poochyena",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "psyduck-down",
+   "name": "Psyduck Down",
+   "drop_source_species": "Psyduck",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "qwilfish-spines",
+   "name": "Qwilfish Spines",
+   "drop_source_species": "Qwilfish",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "ralts-dust",
+   "name": "Ralts Dust",
+   "drop_source_species": "Ralts",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "rellor-mud",
+   "name": "Rellor Mud",
+   "drop_source_species": "Rellor",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "riolu-fur",
+   "name": "Riolu Fur",
+   "drop_source_species": "Riolu",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "rockruff-rock",
+   "name": "Rockruff Rock",
+   "drop_source_species": "Rockruff",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "rolycoly-coal",
+   "name": "Rolycoly Coal",
+   "drop_source_species": "Rolycoly",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "rookidee-feather",
+   "name": "Rookidee Feather",
+   "drop_source_species": "Rookidee",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "rotom-sparks",
+   "name": "Rotom Sparks",
+   "drop_source_species": "Rotom",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "rufflet-feather",
+   "name": "Rufflet Feather",
+   "drop_source_species": "Rufflet",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "sableye-gem",
+   "name": "Sableye Gem",
+   "drop_source_species": "Sableye",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "salandit-gas",
+   "name": "Salandit Gas",
+   "drop_source_species": "Salandit",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "sandile-claw",
+   "name": "Sandile Claw",
+   "drop_source_species": "Sandile",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "sandshrew-claw",
+   "name": "Sandshrew Claw",
+   "drop_source_species": "Sandshrew",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "sandygast-sand",
+   "name": "Sandygast Sand",
+   "drop_source_species": "Sandygast",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "scatterbug-powder",
+   "name": "Scatterbug Powder",
+   "drop_source_species": "Scatterbug",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "scyther-claw",
+   "name": "Scyther Claw",
+   "drop_source_species": "Scyther",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "seedot-stem",
+   "name": "Seedot Stem",
+   "drop_source_species": "Seedot",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "sentret-fur",
+   "name": "Sentret Fur",
+   "drop_source_species": "Sentret",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "seviper-fang",
+   "name": "Seviper Fang",
+   "drop_source_species": "Seviper",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "sewaddle-leaf",
+   "name": "Sewaddle Leaf",
+   "drop_source_species": "Sewaddle",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "shellder-pearl",
+   "name": "Shellder Pearl",
+   "drop_source_species": "Shellder",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "shellos-mucus",
+   "name": "Shellos Mucus",
+   "drop_source_species": "Shellos",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "shinx-fang",
+   "name": "Shinx Fang",
+   "drop_source_species": "Shinx",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "shroodle-ink",
+   "name": "Shroodle Ink",
+   "drop_source_species": "Shroodle",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "shroomish-spores",
+   "name": "Shroomish Spores",
+   "drop_source_species": "Shroomish",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "shuppet-scrap",
+   "name": "Shuppet Scrap",
+   "drop_source_species": "Shuppet",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "silicobra-sand",
+   "name": "Silicobra Sand",
+   "drop_source_species": "Silicobra",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "sinistea-chip",
+   "name": "Sinistea Chip",
+   "drop_source_species": "Sinistea",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "skiddo-leaf",
+   "name": "Skiddo Leaf",
+   "drop_source_species": "Skiddo",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "skrelp-kelp",
+   "name": "Skrelp Kelp",
+   "drop_source_species": "Skrelp",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "skwovet-fur",
+   "name": "Skwovet Fur",
+   "drop_source_species": "Skwovet",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "slakoth-fur",
+   "name": "Slakoth Fur",
+   "drop_source_species": "Slakoth",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "slowpoke-claw",
+   "name": "Slowpoke Claw",
+   "drop_source_species": "Slowpoke",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "slugma-lava",
+   "name": "Slugma Lava",
+   "drop_source_species": "Slugma",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "smoliv-oil",
+   "name": "Smoliv Oil",
+   "drop_source_species": "Smoliv",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "sneasel-claw",
+   "name": "Sneasel Claw",
+   "drop_source_species": "Sneasel",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "snom-thread",
+   "name": "Snom Thread",
+   "drop_source_species": "Snom",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "snorunt-fur",
+   "name": "Snorunt Fur",
+   "drop_source_species": "Snorunt",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "snover-berries",
+   "name": "Snover Berries",
+   "drop_source_species": "Snover",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "spinarak-thread",
+   "name": "Spinarak Thread",
+   "drop_source_species": "Spinarak",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "spiritomb-fragment",
+   "name": "Spiritomb Fragment",
+   "drop_source_species": "Spiritomb",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "spoink-pearl",
+   "name": "Spoink Pearl",
+   "drop_source_species": "Spoink",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "squawkabilly-feather",
+   "name": "Squawkabilly Feather",
+   "drop_source_species": "Squawkabilly",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "stantler-hair",
+   "name": "Stantler Hair",
+   "drop_source_species": "Stantler",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "starly-feather",
+   "name": "Starly Feather",
+   "drop_source_species": "Starly",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "stonjourner-stone",
+   "name": "Stonjourner Stone",
+   "drop_source_species": "Stonjourner",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "stunky-fur",
+   "name": "Stunky Fur",
+   "drop_source_species": "Stunky",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "sunkern-leaf",
+   "name": "Sunkern Leaf",
+   "drop_source_species": "Sunkern",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "surskit-syrup",
+   "name": "Surskit Syrup",
+   "drop_source_species": "Surskit",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "swablu-fluff",
+   "name": "Swablu Fluff",
+   "drop_source_species": "Swablu",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "swinub-hair",
+   "name": "Swinub Hair",
+   "drop_source_species": "Swinub",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "tadbulb-mucus",
+   "name": "Tadbulb Mucus",
+   "drop_source_species": "Tadbulb",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "tandemaus-fur",
+   "name": "Tandemaus Fur",
+   "drop_source_species": "Tandemaus",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "tarountula-thread",
+   "name": "Tarountula Thread",
+   "drop_source_species": "Tarountula",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "tatsugiri-scales",
+   "name": "Tatsugiri Scales",
+   "drop_source_species": "Tatsugiri",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "tauros-hair",
+   "name": "Tauros Hair",
+   "drop_source_species": "Tauros",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "teddiursa-claw",
+   "name": "Teddiursa Claw",
+   "drop_source_species": "Teddiursa",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "timburr-sweat",
+   "name": "Timburr Sweat",
+   "drop_source_species": "Timburr",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "tinkatink-hair",
+   "name": "Tinkatink Hair",
+   "drop_source_species": "Tinkatink",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "toedscool-flaps",
+   "name": "Toedscool Flaps",
+   "drop_source_species": "Toedscool",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "torkoal-coal",
+   "name": "Torkoal Coal",
+   "drop_source_species": "Torkoal",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "toxel-sparks",
+   "name": "Toxel Sparks",
+   "drop_source_species": "Toxel",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "tropius-leaf",
+   "name": "Tropius Leaf",
+   "drop_source_species": "Tropius",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "tynamo-slime",
+   "name": "Tynamo Slime",
+   "drop_source_species": "Tynamo",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "varoom-fume",
+   "name": "Varoom Fume",
+   "drop_source_species": "Varoom",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "veluza-fillet",
+   "name": "Veluza Fillet",
+   "drop_source_species": "Veluza",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "venonat-fang",
+   "name": "Venonat Fang",
+   "drop_source_species": "Venonat",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "volbeat-fluid",
+   "name": "Volbeat Fluid",
+   "drop_source_species": "Volbeat",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "voltorb-sparks",
+   "name": "Voltorb Sparks",
+   "drop_source_species": "Voltorb",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "vullaby-feather",
+   "name": "Vullaby Feather",
+   "drop_source_species": "Vullaby",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "vulpix-fur",
+   "name": "Vulpix Fur",
+   "drop_source_species": "Vulpix",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "wattrel-feather",
+   "name": "Wattrel Feather",
+   "drop_source_species": "Wattrel",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "wiglett-sand",
+   "name": "Wiglett Sand",
+   "drop_source_species": "Wiglett",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "wingull-feather",
+   "name": "Wingull Feather",
+   "drop_source_species": "Wingull",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "wooper-slime",
+   "name": "Wooper Slime",
+   "drop_source_species": "Wooper",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "yanma-spike",
+   "name": "Yanma Spike",
+   "drop_source_species": "Yanma",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "yungoos-fur",
+   "name": "Yungoos Fur",
+   "drop_source_species": "Yungoos",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "zangoose-claw",
+   "name": "Zangoose Claw",
+   "drop_source_species": "Zangoose",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  },
+  {
+   "material_id": "zorua-fur",
+   "name": "Zorua Fur",
+   "drop_source_species": "Zorua",
+   "drop_source_provenance": "item-name transcription, batch-5 enumeration_class_d.csv (SV materials are named for their source species)",
+   "drop_rate": null,
+   "drop_rate_status": "unsourced_not_held"
+  }
+ ]
+}

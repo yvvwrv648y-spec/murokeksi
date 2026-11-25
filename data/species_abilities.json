@@ -1,0 +1,11045 @@
+{
+ "count": 1481,
+ "source": "smogon/pokemon-showdown data/pokedex.ts via hidden_files/data_registry/converted/showdown_pokedex.json",
+ "species": {
+  "ababo": {
+   "abilities": [
+    "Pixilate",
+    "Rattled"
+   ],
+   "hidden": "Own Tempo",
+   "name": "Ababo"
+  },
+  "abomasnow": {
+   "abilities": [
+    "Snow Warning"
+   ],
+   "hidden": "Soundproof",
+   "name": "Abomasnow"
+  },
+  "abomasnowmega": {
+   "abilities": [
+    "Snow Warning"
+   ],
+   "hidden": "",
+   "name": "Abomasnow-Mega"
+  },
+  "abra": {
+   "abilities": [
+    "Synchronize",
+    "Inner Focus"
+   ],
+   "hidden": "Magic Guard",
+   "name": "Abra"
+  },
+  "absol": {
+   "abilities": [
+    "Pressure",
+    "Super Luck"
+   ],
+   "hidden": "Justified",
+   "name": "Absol"
+  },
+  "absolmega": {
+   "abilities": [
+    "Magic Bounce"
+   ],
+   "hidden": "",
+   "name": "Absol-Mega"
+  },
+  "absolmegaz": {
+   "abilities": [
+    "Sharpness"
+   ],
+   "hidden": "",
+   "name": "Absol-Mega-Z"
+  },
+  "accelgor": {
+   "abilities": [
+    "Hydration",
+    "Sticky Hold"
+   ],
+   "hidden": "Unburden",
+   "name": "Accelgor"
+  },
+  "aegislash": {
+   "abilities": [
+    "Stance Change"
+   ],
+   "hidden": "",
+   "name": "Aegislash"
+  },
+  "aegislashblade": {
+   "abilities": [
+    "Stance Change"
+   ],
+   "hidden": "",
+   "name": "Aegislash-Blade"
+  },
+  "aerodactyl": {
+   "abilities": [
+    "Rock Head",
+    "Pressure"
+   ],
+   "hidden": "Unnerve",
+   "name": "Aerodactyl"
+  },
+  "aerodactylmega": {
+   "abilities": [
+    "Tough Claws"
+   ],
+   "hidden": "",
+   "name": "Aerodactyl-Mega"
+  },
+  "aggron": {
+   "abilities": [
+    "Sturdy",
+    "Rock Head"
+   ],
+   "hidden": "Heavy Metal",
+   "name": "Aggron"
+  },
+  "aggronmega": {
+   "abilities": [
+    "Filter"
+   ],
+   "hidden": "",
+   "name": "Aggron-Mega"
+  },
+  "aipom": {
+   "abilities": [
+    "Run Away",
+    "Pickup"
+   ],
+   "hidden": "Skill Link",
+   "name": "Aipom"
+  },
+  "alakazam": {
+   "abilities": [
+    "Synchronize",
+    "Inner Focus"
+   ],
+   "hidden": "Magic Guard",
+   "name": "Alakazam"
+  },
+  "alakazammega": {
+   "abilities": [
+    "Trace"
+   ],
+   "hidden": "",
+   "name": "Alakazam-Mega"
+  },
+  "alcremie": {
+   "abilities": [
+    "Sweet Veil"
+   ],
+   "hidden": "Aroma Veil",
+   "name": "Alcremie"
+  },
+  "alcremiegmax": {
+   "abilities": [
+    "Sweet Veil"
+   ],
+   "hidden": "Aroma Veil",
+   "name": "Alcremie-Gmax"
+  },
+  "alomomola": {
+   "abilities": [
+    "Healer",
+    "Hydration"
+   ],
+   "hidden": "Regenerator",
+   "name": "Alomomola"
+  },
+  "altaria": {
+   "abilities": [
+    "Natural Cure"
+   ],
+   "hidden": "Cloud Nine",
+   "name": "Altaria"
+  },
+  "altariamega": {
+   "abilities": [
+    "Pixilate"
+   ],
+   "hidden": "",
+   "name": "Altaria-Mega"
+  },
+  "amaura": {
+   "abilities": [
+    "Refrigerate"
+   ],
+   "hidden": "Snow Warning",
+   "name": "Amaura"
+  },
+  "ambipom": {
+   "abilities": [
+    "Technician",
+    "Pickup"
+   ],
+   "hidden": "Skill Link",
+   "name": "Ambipom"
+  },
+  "amoonguss": {
+   "abilities": [
+    "Effect Spore"
+   ],
+   "hidden": "Regenerator",
+   "name": "Amoonguss"
+  },
+  "ampharos": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Plus",
+   "name": "Ampharos"
+  },
+  "ampharosmega": {
+   "abilities": [
+    "Mold Breaker"
+   ],
+   "hidden": "",
+   "name": "Ampharos-Mega"
+  },
+  "annihilape": {
+   "abilities": [
+    "Vital Spirit",
+    "Inner Focus"
+   ],
+   "hidden": "Defiant",
+   "name": "Annihilape"
+  },
+  "anorith": {
+   "abilities": [
+    "Battle Armor"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Anorith"
+  },
+  "appletun": {
+   "abilities": [
+    "Ripen",
+    "Gluttony"
+   ],
+   "hidden": "Thick Fat",
+   "name": "Appletun"
+  },
+  "appletungmax": {
+   "abilities": [
+    "Ripen",
+    "Gluttony"
+   ],
+   "hidden": "Thick Fat",
+   "name": "Appletun-Gmax"
+  },
+  "applin": {
+   "abilities": [
+    "Ripen",
+    "Gluttony"
+   ],
+   "hidden": "Bulletproof",
+   "name": "Applin"
+  },
+  "araquanid": {
+   "abilities": [
+    "Water Bubble"
+   ],
+   "hidden": "Water Absorb",
+   "name": "Araquanid"
+  },
+  "araquanidtotem": {
+   "abilities": [
+    "Water Bubble"
+   ],
+   "hidden": "",
+   "name": "Araquanid-Totem"
+  },
+  "arbok": {
+   "abilities": [
+    "Intimidate",
+    "Shed Skin"
+   ],
+   "hidden": "Unnerve",
+   "name": "Arbok"
+  },
+  "arboliva": {
+   "abilities": [
+    "Seed Sower"
+   ],
+   "hidden": "Harvest",
+   "name": "Arboliva"
+  },
+  "arcanine": {
+   "abilities": [
+    "Intimidate",
+    "Flash Fire"
+   ],
+   "hidden": "Justified",
+   "name": "Arcanine"
+  },
+  "arcaninehisui": {
+   "abilities": [
+    "Intimidate",
+    "Flash Fire"
+   ],
+   "hidden": "Rock Head",
+   "name": "Arcanine-Hisui"
+  },
+  "arceus": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus"
+  },
+  "arceusbug": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Bug"
+  },
+  "arceusdark": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Dark"
+  },
+  "arceusdragon": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Dragon"
+  },
+  "arceuselectric": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Electric"
+  },
+  "arceusfairy": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Fairy"
+  },
+  "arceusfighting": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Fighting"
+  },
+  "arceusfire": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Fire"
+  },
+  "arceusflying": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Flying"
+  },
+  "arceusghost": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Ghost"
+  },
+  "arceusgrass": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Grass"
+  },
+  "arceusground": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Ground"
+  },
+  "arceusice": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Ice"
+  },
+  "arceuspoison": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Poison"
+  },
+  "arceuspsychic": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Psychic"
+  },
+  "arceusrock": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Rock"
+  },
+  "arceussteel": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Steel"
+  },
+  "arceuswater": {
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden": "",
+   "name": "Arceus-Water"
+  },
+  "archaludon": {
+   "abilities": [
+    "Stamina",
+    "Sturdy"
+   ],
+   "hidden": "Stalwart",
+   "name": "Archaludon"
+  },
+  "archen": {
+   "abilities": [
+    "Defeatist"
+   ],
+   "hidden": "",
+   "name": "Archen"
+  },
+  "archeops": {
+   "abilities": [
+    "Defeatist"
+   ],
+   "hidden": "",
+   "name": "Archeops"
+  },
+  "arctibax": {
+   "abilities": [
+    "Thermal Exchange"
+   ],
+   "hidden": "Ice Body",
+   "name": "Arctibax"
+  },
+  "arctovish": {
+   "abilities": [
+    "Water Absorb",
+    "Ice Body"
+   ],
+   "hidden": "Slush Rush",
+   "name": "Arctovish"
+  },
+  "arctozolt": {
+   "abilities": [
+    "Volt Absorb",
+    "Static"
+   ],
+   "hidden": "Slush Rush",
+   "name": "Arctozolt"
+  },
+  "argalis": {
+   "abilities": [
+    "Shed Skin",
+    "Compound Eyes"
+   ],
+   "hidden": "Overcoat",
+   "name": "Argalis"
+  },
+  "arghonaut": {
+   "abilities": [
+    "Unaware"
+   ],
+   "hidden": "Technician",
+   "name": "Arghonaut"
+  },
+  "ariados": {
+   "abilities": [
+    "Swarm",
+    "Insomnia"
+   ],
+   "hidden": "Sniper",
+   "name": "Ariados"
+  },
+  "armaldo": {
+   "abilities": [
+    "Battle Armor"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Armaldo"
+  },
+  "armarouge": {
+   "abilities": [
+    "Flash Fire"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Armarouge"
+  },
+  "aromatisse": {
+   "abilities": [
+    "Healer"
+   ],
+   "hidden": "Aroma Veil",
+   "name": "Aromatisse"
+  },
+  "aron": {
+   "abilities": [
+    "Sturdy",
+    "Rock Head"
+   ],
+   "hidden": "Heavy Metal",
+   "name": "Aron"
+  },
+  "arrokuda": {
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden": "Propeller Tail",
+   "name": "Arrokuda"
+  },
+  "articuno": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Snow Cloak",
+   "name": "Articuno"
+  },
+  "articunogalar": {
+   "abilities": [
+    "Competitive"
+   ],
+   "hidden": "",
+   "name": "Articuno-Galar"
+  },
+  "astrolotl": {
+   "abilities": [
+    "Regenerator",
+    "Vital Spirit"
+   ],
+   "hidden": "Magician",
+   "name": "Astrolotl"
+  },
+  "audino": {
+   "abilities": [
+    "Healer",
+    "Regenerator"
+   ],
+   "hidden": "Klutz",
+   "name": "Audino"
+  },
+  "audinomega": {
+   "abilities": [
+    "Healer"
+   ],
+   "hidden": "",
+   "name": "Audino-Mega"
+  },
+  "aurorus": {
+   "abilities": [
+    "Refrigerate"
+   ],
+   "hidden": "Snow Warning",
+   "name": "Aurorus"
+  },
+  "aurumoth": {
+   "abilities": [
+    "Weak Armor",
+    "No Guard"
+   ],
+   "hidden": "Light Metal",
+   "name": "Aurumoth"
+  },
+  "avalugg": {
+   "abilities": [
+    "Own Tempo",
+    "Ice Body"
+   ],
+   "hidden": "Sturdy",
+   "name": "Avalugg"
+  },
+  "avalugghisui": {
+   "abilities": [
+    "Strong Jaw",
+    "Ice Body"
+   ],
+   "hidden": "Sturdy",
+   "name": "Avalugg-Hisui"
+  },
+  "axew": {
+   "abilities": [
+    "Rivalry",
+    "Mold Breaker"
+   ],
+   "hidden": "Unnerve",
+   "name": "Axew"
+  },
+  "azelf": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Azelf"
+  },
+  "azumarill": {
+   "abilities": [
+    "Thick Fat",
+    "Huge Power"
+   ],
+   "hidden": "Sap Sipper",
+   "name": "Azumarill"
+  },
+  "azurill": {
+   "abilities": [
+    "Thick Fat",
+    "Huge Power"
+   ],
+   "hidden": "Sap Sipper",
+   "name": "Azurill"
+  },
+  "bagon": {
+   "abilities": [
+    "Rock Head"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Bagon"
+  },
+  "baltoy": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Baltoy"
+  },
+  "banette": {
+   "abilities": [
+    "Insomnia",
+    "Frisk"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Banette"
+  },
+  "banettemega": {
+   "abilities": [
+    "Prankster"
+   ],
+   "hidden": "",
+   "name": "Banette-Mega"
+  },
+  "barbaracle": {
+   "abilities": [
+    "Tough Claws",
+    "Sniper"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Barbaracle"
+  },
+  "barbaraclemega": {
+   "abilities": [
+    "Tough Claws"
+   ],
+   "hidden": "",
+   "name": "Barbaracle-Mega"
+  },
+  "barboach": {
+   "abilities": [
+    "Oblivious",
+    "Anticipation"
+   ],
+   "hidden": "Hydration",
+   "name": "Barboach"
+  },
+  "barraskewda": {
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden": "Propeller Tail",
+   "name": "Barraskewda"
+  },
+  "basculegion": {
+   "abilities": [
+    "Swift Swim",
+    "Adaptability"
+   ],
+   "hidden": "Mold Breaker",
+   "name": "Basculegion"
+  },
+  "basculegionf": {
+   "abilities": [
+    "Swift Swim",
+    "Adaptability"
+   ],
+   "hidden": "Mold Breaker",
+   "name": "Basculegion-F"
+  },
+  "basculin": {
+   "abilities": [
+    "Reckless",
+    "Adaptability"
+   ],
+   "hidden": "Mold Breaker",
+   "name": "Basculin"
+  },
+  "basculinbluestriped": {
+   "abilities": [
+    "Rock Head",
+    "Adaptability"
+   ],
+   "hidden": "Mold Breaker",
+   "name": "Basculin-Blue-Striped"
+  },
+  "basculinwhitestriped": {
+   "abilities": [
+    "Rattled",
+    "Adaptability"
+   ],
+   "hidden": "Mold Breaker",
+   "name": "Basculin-White-Striped"
+  },
+  "bastiodon": {
+   "abilities": [
+    "Sturdy"
+   ],
+   "hidden": "Soundproof",
+   "name": "Bastiodon"
+  },
+  "baxcalibur": {
+   "abilities": [
+    "Thermal Exchange"
+   ],
+   "hidden": "Ice Body",
+   "name": "Baxcalibur"
+  },
+  "baxcaliburmega": {
+   "abilities": [
+    "Thermal Exchange"
+   ],
+   "hidden": "",
+   "name": "Baxcalibur-Mega"
+  },
+  "bayleef": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Leaf Guard",
+   "name": "Bayleef"
+  },
+  "beartic": {
+   "abilities": [
+    "Snow Cloak",
+    "Slush Rush"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Beartic"
+  },
+  "beautifly": {
+   "abilities": [
+    "Swarm"
+   ],
+   "hidden": "Rivalry",
+   "name": "Beautifly"
+  },
+  "beedrill": {
+   "abilities": [
+    "Swarm"
+   ],
+   "hidden": "Sniper",
+   "name": "Beedrill"
+  },
+  "beedrillmega": {
+   "abilities": [
+    "Adaptability"
+   ],
+   "hidden": "",
+   "name": "Beedrill-Mega"
+  },
+  "beheeyem": {
+   "abilities": [
+    "Telepathy",
+    "Synchronize"
+   ],
+   "hidden": "Analytic",
+   "name": "Beheeyem"
+  },
+  "beldum": {
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden": "Light Metal",
+   "name": "Beldum"
+  },
+  "bellibolt": {
+   "abilities": [
+    "Electromorphosis",
+    "Static"
+   ],
+   "hidden": "Damp",
+   "name": "Bellibolt"
+  },
+  "bellossom": {
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden": "Healer",
+   "name": "Bellossom"
+  },
+  "bellsprout": {
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden": "Gluttony",
+   "name": "Bellsprout"
+  },
+  "bergmite": {
+   "abilities": [
+    "Own Tempo",
+    "Ice Body"
+   ],
+   "hidden": "Sturdy",
+   "name": "Bergmite"
+  },
+  "bewear": {
+   "abilities": [
+    "Fluffy",
+    "Klutz"
+   ],
+   "hidden": "Unnerve",
+   "name": "Bewear"
+  },
+  "bibarel": {
+   "abilities": [
+    "Simple",
+    "Unaware"
+   ],
+   "hidden": "Moody",
+   "name": "Bibarel"
+  },
+  "bidoof": {
+   "abilities": [
+    "Simple",
+    "Unaware"
+   ],
+   "hidden": "Moody",
+   "name": "Bidoof"
+  },
+  "binacle": {
+   "abilities": [
+    "Tough Claws",
+    "Sniper"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Binacle"
+  },
+  "bisharp": {
+   "abilities": [
+    "Defiant",
+    "Inner Focus"
+   ],
+   "hidden": "Pressure",
+   "name": "Bisharp"
+  },
+  "blacephalon": {
+   "abilities": [
+    "Beast Boost"
+   ],
+   "hidden": "",
+   "name": "Blacephalon"
+  },
+  "blastoise": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Rain Dish",
+   "name": "Blastoise"
+  },
+  "blastoisegmax": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Rain Dish",
+   "name": "Blastoise-Gmax"
+  },
+  "blastoisemega": {
+   "abilities": [
+    "Mega Launcher"
+   ],
+   "hidden": "",
+   "name": "Blastoise-Mega"
+  },
+  "blaziken": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Speed Boost",
+   "name": "Blaziken"
+  },
+  "blazikenmega": {
+   "abilities": [
+    "Speed Boost"
+   ],
+   "hidden": "",
+   "name": "Blaziken-Mega"
+  },
+  "blipbug": {
+   "abilities": [
+    "Swarm",
+    "Compound Eyes"
+   ],
+   "hidden": "Telepathy",
+   "name": "Blipbug"
+  },
+  "blissey": {
+   "abilities": [
+    "Natural Cure",
+    "Serene Grace"
+   ],
+   "hidden": "Healer",
+   "name": "Blissey"
+  },
+  "blitzle": {
+   "abilities": [
+    "Lightning Rod",
+    "Motor Drive"
+   ],
+   "hidden": "Sap Sipper",
+   "name": "Blitzle"
+  },
+  "boldore": {
+   "abilities": [
+    "Sturdy",
+    "Weak Armor"
+   ],
+   "hidden": "Sand Force",
+   "name": "Boldore"
+  },
+  "boltund": {
+   "abilities": [
+    "Strong Jaw"
+   ],
+   "hidden": "Competitive",
+   "name": "Boltund"
+  },
+  "bombirdier": {
+   "abilities": [
+    "Big Pecks",
+    "Keen Eye"
+   ],
+   "hidden": "Rocky Payload",
+   "name": "Bombirdier"
+  },
+  "bonsly": {
+   "abilities": [
+    "Sturdy",
+    "Rock Head"
+   ],
+   "hidden": "Rattled",
+   "name": "Bonsly"
+  },
+  "bouffalant": {
+   "abilities": [
+    "Reckless",
+    "Sap Sipper"
+   ],
+   "hidden": "Soundproof",
+   "name": "Bouffalant"
+  },
+  "bounsweet": {
+   "abilities": [
+    "Leaf Guard",
+    "Oblivious"
+   ],
+   "hidden": "Sweet Veil",
+   "name": "Bounsweet"
+  },
+  "braixen": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Magician",
+   "name": "Braixen"
+  },
+  "brambleghast": {
+   "abilities": [
+    "Wind Rider"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Brambleghast"
+  },
+  "bramblin": {
+   "abilities": [
+    "Wind Rider"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Bramblin"
+  },
+  "brattler": {
+   "abilities": [
+    "Harvest",
+    "Infiltrator"
+   ],
+   "hidden": "Rattled",
+   "name": "Brattler"
+  },
+  "braviary": {
+   "abilities": [
+    "Keen Eye",
+    "Sheer Force"
+   ],
+   "hidden": "Defiant",
+   "name": "Braviary"
+  },
+  "braviaryhisui": {
+   "abilities": [
+    "Keen Eye",
+    "Sheer Force"
+   ],
+   "hidden": "Tinted Lens",
+   "name": "Braviary-Hisui"
+  },
+  "breezi": {
+   "abilities": [
+    "Unburden",
+    "Own Tempo"
+   ],
+   "hidden": "Frisk",
+   "name": "Breezi"
+  },
+  "breloom": {
+   "abilities": [
+    "Effect Spore",
+    "Poison Heal"
+   ],
+   "hidden": "Technician",
+   "name": "Breloom"
+  },
+  "brionne": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Liquid Voice",
+   "name": "Brionne"
+  },
+  "bronzong": {
+   "abilities": [
+    "Levitate",
+    "Heatproof"
+   ],
+   "hidden": "Heavy Metal",
+   "name": "Bronzong"
+  },
+  "bronzor": {
+   "abilities": [
+    "Levitate",
+    "Heatproof"
+   ],
+   "hidden": "Heavy Metal",
+   "name": "Bronzor"
+  },
+  "brutebonnet": {
+   "abilities": [
+    "Protosynthesis"
+   ],
+   "hidden": "",
+   "name": "Brute Bonnet"
+  },
+  "bruxish": {
+   "abilities": [
+    "Dazzling",
+    "Strong Jaw"
+   ],
+   "hidden": "Wonder Skin",
+   "name": "Bruxish"
+  },
+  "budew": {
+   "abilities": [
+    "Natural Cure",
+    "Poison Point"
+   ],
+   "hidden": "Leaf Guard",
+   "name": "Budew"
+  },
+  "buizel": {
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden": "Water Veil",
+   "name": "Buizel"
+  },
+  "bulbasaur": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Chlorophyll",
+   "name": "Bulbasaur"
+  },
+  "buneary": {
+   "abilities": [
+    "Run Away",
+    "Klutz"
+   ],
+   "hidden": "Limber",
+   "name": "Buneary"
+  },
+  "bunnelby": {
+   "abilities": [
+    "Pickup",
+    "Cheek Pouch"
+   ],
+   "hidden": "Huge Power",
+   "name": "Bunnelby"
+  },
+  "burmy": {
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden": "Overcoat",
+   "name": "Burmy"
+  },
+  "butterfree": {
+   "abilities": [
+    "Compound Eyes"
+   ],
+   "hidden": "Tinted Lens",
+   "name": "Butterfree"
+  },
+  "butterfreegmax": {
+   "abilities": [
+    "Compound Eyes"
+   ],
+   "hidden": "Tinted Lens",
+   "name": "Butterfree-Gmax"
+  },
+  "buzzwole": {
+   "abilities": [
+    "Beast Boost"
+   ],
+   "hidden": "",
+   "name": "Buzzwole"
+  },
+  "cacnea": {
+   "abilities": [
+    "Sand Veil"
+   ],
+   "hidden": "Water Absorb",
+   "name": "Cacnea"
+  },
+  "cacturne": {
+   "abilities": [
+    "Sand Veil"
+   ],
+   "hidden": "Water Absorb",
+   "name": "Cacturne"
+  },
+  "caimanoe": {
+   "abilities": [
+    "Water Veil",
+    "Heatproof"
+   ],
+   "hidden": "Light Metal",
+   "name": "Caimanoe"
+  },
+  "calyrex": {
+   "abilities": [
+    "Unnerve"
+   ],
+   "hidden": "",
+   "name": "Calyrex"
+  },
+  "calyrexice": {
+   "abilities": [
+    "As One (Glastrier)"
+   ],
+   "hidden": "",
+   "name": "Calyrex-Ice"
+  },
+  "calyrexshadow": {
+   "abilities": [
+    "As One (Spectrier)"
+   ],
+   "hidden": "",
+   "name": "Calyrex-Shadow"
+  },
+  "camerupt": {
+   "abilities": [
+    "Magma Armor",
+    "Solid Rock"
+   ],
+   "hidden": "Anger Point",
+   "name": "Camerupt"
+  },
+  "cameruptmega": {
+   "abilities": [
+    "Sheer Force"
+   ],
+   "hidden": "",
+   "name": "Camerupt-Mega"
+  },
+  "capsakid": {
+   "abilities": [
+    "Chlorophyll",
+    "Insomnia"
+   ],
+   "hidden": "Klutz",
+   "name": "Capsakid"
+  },
+  "carbink": {
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden": "Sturdy",
+   "name": "Carbink"
+  },
+  "caribolt": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Galvanize",
+   "name": "Caribolt"
+  },
+  "carkol": {
+   "abilities": [
+    "Steam Engine",
+    "Flame Body"
+   ],
+   "hidden": "Flash Fire",
+   "name": "Carkol"
+  },
+  "carnivine": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Carnivine"
+  },
+  "carracosta": {
+   "abilities": [
+    "Solid Rock",
+    "Sturdy"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Carracosta"
+  },
+  "carvanha": {
+   "abilities": [
+    "Rough Skin"
+   ],
+   "hidden": "Speed Boost",
+   "name": "Carvanha"
+  },
+  "cascoon": {
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden": "",
+   "name": "Cascoon"
+  },
+  "castform": {
+   "abilities": [
+    "Forecast"
+   ],
+   "hidden": "",
+   "name": "Castform"
+  },
+  "castformrainy": {
+   "abilities": [
+    "Forecast"
+   ],
+   "hidden": "",
+   "name": "Castform-Rainy"
+  },
+  "castformsnowy": {
+   "abilities": [
+    "Forecast"
+   ],
+   "hidden": "",
+   "name": "Castform-Snowy"
+  },
+  "castformsunny": {
+   "abilities": [
+    "Forecast"
+   ],
+   "hidden": "",
+   "name": "Castform-Sunny"
+  },
+  "caterpie": {
+   "abilities": [
+    "Shield Dust"
+   ],
+   "hidden": "Run Away",
+   "name": "Caterpie"
+  },
+  "cawdet": {
+   "abilities": [
+    "Keen Eye",
+    "Volt Absorb"
+   ],
+   "hidden": "Big Pecks",
+   "name": "Cawdet"
+  },
+  "cawmodore": {
+   "abilities": [
+    "Intimidate",
+    "Volt Absorb"
+   ],
+   "hidden": "Big Pecks",
+   "name": "Cawmodore"
+  },
+  "celebi": {
+   "abilities": [
+    "Natural Cure"
+   ],
+   "hidden": "",
+   "name": "Celebi"
+  },
+  "celesteela": {
+   "abilities": [
+    "Beast Boost"
+   ],
+   "hidden": "",
+   "name": "Celesteela"
+  },
+  "centiskorch": {
+   "abilities": [
+    "Flash Fire",
+    "White Smoke"
+   ],
+   "hidden": "Flame Body",
+   "name": "Centiskorch"
+  },
+  "centiskorchgmax": {
+   "abilities": [
+    "Flash Fire",
+    "White Smoke"
+   ],
+   "hidden": "Flame Body",
+   "name": "Centiskorch-Gmax"
+  },
+  "ceruledge": {
+   "abilities": [
+    "Flash Fire"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Ceruledge"
+  },
+  "cetitan": {
+   "abilities": [
+    "Thick Fat",
+    "Slush Rush"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Cetitan"
+  },
+  "cetoddle": {
+   "abilities": [
+    "Thick Fat",
+    "Snow Cloak"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Cetoddle"
+  },
+  "chandelure": {
+   "abilities": [
+    "Flash Fire",
+    "Flame Body"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Chandelure"
+  },
+  "chandeluremega": {
+   "abilities": [
+    "Infiltrator"
+   ],
+   "hidden": "",
+   "name": "Chandelure-Mega"
+  },
+  "chansey": {
+   "abilities": [
+    "Natural Cure",
+    "Serene Grace"
+   ],
+   "hidden": "Healer",
+   "name": "Chansey"
+  },
+  "charcadet": {
+   "abilities": [
+    "Flash Fire"
+   ],
+   "hidden": "Flame Body",
+   "name": "Charcadet"
+  },
+  "charizard": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Solar Power",
+   "name": "Charizard"
+  },
+  "charizardgmax": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Solar Power",
+   "name": "Charizard-Gmax"
+  },
+  "charizardmegax": {
+   "abilities": [
+    "Tough Claws"
+   ],
+   "hidden": "",
+   "name": "Charizard-Mega-X"
+  },
+  "charizardmegay": {
+   "abilities": [
+    "Drought"
+   ],
+   "hidden": "",
+   "name": "Charizard-Mega-Y"
+  },
+  "charjabug": {
+   "abilities": [
+    "Battery"
+   ],
+   "hidden": "",
+   "name": "Charjabug"
+  },
+  "charmander": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Solar Power",
+   "name": "Charmander"
+  },
+  "charmeleon": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Solar Power",
+   "name": "Charmeleon"
+  },
+  "chatot": {
+   "abilities": [
+    "Keen Eye",
+    "Tangled Feet"
+   ],
+   "hidden": "Big Pecks",
+   "name": "Chatot"
+  },
+  "cherrim": {
+   "abilities": [
+    "Flower Gift"
+   ],
+   "hidden": "",
+   "name": "Cherrim"
+  },
+  "cherrimsunshine": {
+   "abilities": [
+    "Flower Gift"
+   ],
+   "hidden": "",
+   "name": "Cherrim-Sunshine"
+  },
+  "cherubi": {
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden": "",
+   "name": "Cherubi"
+  },
+  "chesnaught": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Bulletproof",
+   "name": "Chesnaught"
+  },
+  "chesnaughtmega": {
+   "abilities": [
+    "Bulletproof"
+   ],
+   "hidden": "",
+   "name": "Chesnaught-Mega"
+  },
+  "chespin": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Bulletproof",
+   "name": "Chespin"
+  },
+  "chewtle": {
+   "abilities": [
+    "Strong Jaw",
+    "Shell Armor"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Chewtle"
+  },
+  "chienpao": {
+   "abilities": [
+    "Sword of Ruin"
+   ],
+   "hidden": "",
+   "name": "Chien-Pao"
+  },
+  "chikorita": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Leaf Guard",
+   "name": "Chikorita"
+  },
+  "chimchar": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Iron Fist",
+   "name": "Chimchar"
+  },
+  "chimecho": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Chimecho"
+  },
+  "chimechomega": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Chimecho-Mega"
+  },
+  "chinchou": {
+   "abilities": [
+    "Volt Absorb",
+    "Illuminate"
+   ],
+   "hidden": "Water Absorb",
+   "name": "Chinchou"
+  },
+  "chingling": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Chingling"
+  },
+  "chiyu": {
+   "abilities": [
+    "Beads of Ruin"
+   ],
+   "hidden": "",
+   "name": "Chi-Yu"
+  },
+  "chromera": {
+   "abilities": [
+    "Color Change"
+   ],
+   "hidden": "",
+   "name": "Chromera"
+  },
+  "chuggalong": {
+   "abilities": [
+    "Armor Tail",
+    "White Smoke"
+   ],
+   "hidden": "Slow Start",
+   "name": "Chuggalong"
+  },
+  "chuggon": {
+   "abilities": [
+    "Shell Armor",
+    "White Smoke"
+   ],
+   "hidden": "Slow Start",
+   "name": "Chuggon"
+  },
+  "cinccino": {
+   "abilities": [
+    "Cute Charm",
+    "Technician"
+   ],
+   "hidden": "Skill Link",
+   "name": "Cinccino"
+  },
+  "cinderace": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Libero",
+   "name": "Cinderace"
+  },
+  "cinderacegmax": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Libero",
+   "name": "Cinderace-Gmax"
+  },
+  "clamperl": {
+   "abilities": [
+    "Shell Armor"
+   ],
+   "hidden": "Rattled",
+   "name": "Clamperl"
+  },
+  "clauncher": {
+   "abilities": [
+    "Mega Launcher"
+   ],
+   "hidden": "",
+   "name": "Clauncher"
+  },
+  "clawitzer": {
+   "abilities": [
+    "Mega Launcher"
+   ],
+   "hidden": "",
+   "name": "Clawitzer"
+  },
+  "claydol": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Claydol"
+  },
+  "clefable": {
+   "abilities": [
+    "Cute Charm",
+    "Magic Guard"
+   ],
+   "hidden": "Unaware",
+   "name": "Clefable"
+  },
+  "clefablemega": {
+   "abilities": [
+    "Magic Bounce"
+   ],
+   "hidden": "",
+   "name": "Clefable-Mega"
+  },
+  "clefairy": {
+   "abilities": [
+    "Cute Charm",
+    "Magic Guard"
+   ],
+   "hidden": "Friend Guard",
+   "name": "Clefairy"
+  },
+  "cleffa": {
+   "abilities": [
+    "Cute Charm",
+    "Magic Guard"
+   ],
+   "hidden": "Friend Guard",
+   "name": "Cleffa"
+  },
+  "clobbopus": {
+   "abilities": [
+    "Limber"
+   ],
+   "hidden": "Technician",
+   "name": "Clobbopus"
+  },
+  "clodsire": {
+   "abilities": [
+    "Poison Point",
+    "Water Absorb"
+   ],
+   "hidden": "Unaware",
+   "name": "Clodsire"
+  },
+  "cloyster": {
+   "abilities": [
+    "Shell Armor",
+    "Skill Link"
+   ],
+   "hidden": "Overcoat",
+   "name": "Cloyster"
+  },
+  "coalossal": {
+   "abilities": [
+    "Steam Engine",
+    "Flame Body"
+   ],
+   "hidden": "Flash Fire",
+   "name": "Coalossal"
+  },
+  "coalossalgmax": {
+   "abilities": [
+    "Steam Engine",
+    "Flame Body"
+   ],
+   "hidden": "Flash Fire",
+   "name": "Coalossal-Gmax"
+  },
+  "cobalion": {
+   "abilities": [
+    "Justified"
+   ],
+   "hidden": "",
+   "name": "Cobalion"
+  },
+  "cofagrigus": {
+   "abilities": [
+    "Mummy"
+   ],
+   "hidden": "",
+   "name": "Cofagrigus"
+  },
+  "colossoil": {
+   "abilities": [
+    "Rebound",
+    "Guts"
+   ],
+   "hidden": "Unnerve",
+   "name": "Colossoil"
+  },
+  "combee": {
+   "abilities": [
+    "Honey Gather"
+   ],
+   "hidden": "Hustle",
+   "name": "Combee"
+  },
+  "combusken": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Speed Boost",
+   "name": "Combusken"
+  },
+  "comfey": {
+   "abilities": [
+    "Flower Veil",
+    "Triage"
+   ],
+   "hidden": "Natural Cure",
+   "name": "Comfey"
+  },
+  "conkeldurr": {
+   "abilities": [
+    "Guts",
+    "Sheer Force"
+   ],
+   "hidden": "Iron Fist",
+   "name": "Conkeldurr"
+  },
+  "copperajah": {
+   "abilities": [
+    "Sheer Force"
+   ],
+   "hidden": "Heavy Metal",
+   "name": "Copperajah"
+  },
+  "copperajahgmax": {
+   "abilities": [
+    "Sheer Force"
+   ],
+   "hidden": "Heavy Metal",
+   "name": "Copperajah-Gmax"
+  },
+  "coribalis": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Poison Heal",
+   "name": "Coribalis"
+  },
+  "corphish": {
+   "abilities": [
+    "Hyper Cutter",
+    "Shell Armor"
+   ],
+   "hidden": "Adaptability",
+   "name": "Corphish"
+  },
+  "corsola": {
+   "abilities": [
+    "Hustle",
+    "Natural Cure"
+   ],
+   "hidden": "Regenerator",
+   "name": "Corsola"
+  },
+  "corsolagalar": {
+   "abilities": [
+    "Weak Armor"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Corsola-Galar"
+  },
+  "corviknight": {
+   "abilities": [
+    "Pressure",
+    "Unnerve"
+   ],
+   "hidden": "Mirror Armor",
+   "name": "Corviknight"
+  },
+  "corviknightgmax": {
+   "abilities": [
+    "Pressure",
+    "Unnerve"
+   ],
+   "hidden": "Mirror Armor",
+   "name": "Corviknight-Gmax"
+  },
+  "corvisquire": {
+   "abilities": [
+    "Keen Eye",
+    "Unnerve"
+   ],
+   "hidden": "Big Pecks",
+   "name": "Corvisquire"
+  },
+  "cosmoem": {
+   "abilities": [
+    "Sturdy"
+   ],
+   "hidden": "",
+   "name": "Cosmoem"
+  },
+  "cosmog": {
+   "abilities": [
+    "Unaware"
+   ],
+   "hidden": "",
+   "name": "Cosmog"
+  },
+  "cottonee": {
+   "abilities": [
+    "Prankster",
+    "Infiltrator"
+   ],
+   "hidden": "Chlorophyll",
+   "name": "Cottonee"
+  },
+  "crabominable": {
+   "abilities": [
+    "Hyper Cutter",
+    "Iron Fist"
+   ],
+   "hidden": "Anger Point",
+   "name": "Crabominable"
+  },
+  "crabominablemega": {
+   "abilities": [
+    "Iron Fist"
+   ],
+   "hidden": "",
+   "name": "Crabominable-Mega"
+  },
+  "crabrawler": {
+   "abilities": [
+    "Hyper Cutter",
+    "Iron Fist"
+   ],
+   "hidden": "Anger Point",
+   "name": "Crabrawler"
+  },
+  "cradily": {
+   "abilities": [
+    "Suction Cups"
+   ],
+   "hidden": "Storm Drain",
+   "name": "Cradily"
+  },
+  "cramorant": {
+   "abilities": [
+    "Gulp Missile"
+   ],
+   "hidden": "",
+   "name": "Cramorant"
+  },
+  "cramorantgorging": {
+   "abilities": [
+    "Gulp Missile"
+   ],
+   "hidden": "",
+   "name": "Cramorant-Gorging"
+  },
+  "cramorantgulping": {
+   "abilities": [
+    "Gulp Missile"
+   ],
+   "hidden": "",
+   "name": "Cramorant-Gulping"
+  },
+  "cranidos": {
+   "abilities": [
+    "Mold Breaker"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Cranidos"
+  },
+  "crawdaunt": {
+   "abilities": [
+    "Hyper Cutter",
+    "Shell Armor"
+   ],
+   "hidden": "Adaptability",
+   "name": "Crawdaunt"
+  },
+  "cresceidon": {
+   "abilities": [
+    "Multiscale",
+    "Rough Skin"
+   ],
+   "hidden": "Water Veil",
+   "name": "Cresceidon"
+  },
+  "cresselia": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Cresselia"
+  },
+  "croagunk": {
+   "abilities": [
+    "Anticipation",
+    "Dry Skin"
+   ],
+   "hidden": "Poison Touch",
+   "name": "Croagunk"
+  },
+  "crobat": {
+   "abilities": [
+    "Inner Focus"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Crobat"
+  },
+  "crocalor": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Unaware",
+   "name": "Crocalor"
+  },
+  "croconaw": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Croconaw"
+  },
+  "crucibelle": {
+   "abilities": [
+    "Regenerator",
+    "Mold Breaker"
+   ],
+   "hidden": "Liquid Ooze",
+   "name": "Crucibelle"
+  },
+  "crucibellemega": {
+   "abilities": [
+    "Magic Guard"
+   ],
+   "hidden": "",
+   "name": "Crucibelle-Mega"
+  },
+  "crustle": {
+   "abilities": [
+    "Sturdy",
+    "Shell Armor"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Crustle"
+  },
+  "cryogonal": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Cryogonal"
+  },
+  "cubchoo": {
+   "abilities": [
+    "Snow Cloak",
+    "Slush Rush"
+   ],
+   "hidden": "Rattled",
+   "name": "Cubchoo"
+  },
+  "cubone": {
+   "abilities": [
+    "Rock Head",
+    "Lightning Rod"
+   ],
+   "hidden": "Battle Armor",
+   "name": "Cubone"
+  },
+  "cufant": {
+   "abilities": [
+    "Sheer Force"
+   ],
+   "hidden": "Heavy Metal",
+   "name": "Cufant"
+  },
+  "cupra": {
+   "abilities": [
+    "Shield Dust",
+    "Keen Eye"
+   ],
+   "hidden": "Magic Guard",
+   "name": "Cupra"
+  },
+  "cursola": {
+   "abilities": [
+    "Weak Armor"
+   ],
+   "hidden": "Perish Body",
+   "name": "Cursola"
+  },
+  "cutiefly": {
+   "abilities": [
+    "Honey Gather",
+    "Shield Dust"
+   ],
+   "hidden": "Sweet Veil",
+   "name": "Cutiefly"
+  },
+  "cyclizar": {
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden": "Regenerator",
+   "name": "Cyclizar"
+  },
+  "cyclohm": {
+   "abilities": [
+    "Shield Dust",
+    "Static"
+   ],
+   "hidden": "Damp",
+   "name": "Cyclohm"
+  },
+  "cyndaquil": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Flash Fire",
+   "name": "Cyndaquil"
+  },
+  "dachsbun": {
+   "abilities": [
+    "Well-Baked Body"
+   ],
+   "hidden": "Aroma Veil",
+   "name": "Dachsbun"
+  },
+  "darkrai": {
+   "abilities": [
+    "Bad Dreams"
+   ],
+   "hidden": "",
+   "name": "Darkrai"
+  },
+  "darkraimega": {
+   "abilities": [
+    "Bad Dreams"
+   ],
+   "hidden": "",
+   "name": "Darkrai-Mega"
+  },
+  "darmanitan": {
+   "abilities": [
+    "Sheer Force"
+   ],
+   "hidden": "Zen Mode",
+   "name": "Darmanitan"
+  },
+  "darmanitangalar": {
+   "abilities": [
+    "Gorilla Tactics"
+   ],
+   "hidden": "Zen Mode",
+   "name": "Darmanitan-Galar"
+  },
+  "darmanitangalarzen": {
+   "abilities": [
+    "Zen Mode"
+   ],
+   "hidden": "",
+   "name": "Darmanitan-Galar-Zen"
+  },
+  "darmanitanzen": {
+   "abilities": [
+    "Zen Mode"
+   ],
+   "hidden": "",
+   "name": "Darmanitan-Zen"
+  },
+  "dartrix": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Long Reach",
+   "name": "Dartrix"
+  },
+  "darumaka": {
+   "abilities": [
+    "Hustle"
+   ],
+   "hidden": "Inner Focus",
+   "name": "Darumaka"
+  },
+  "darumakagalar": {
+   "abilities": [
+    "Hustle"
+   ],
+   "hidden": "Inner Focus",
+   "name": "Darumaka-Galar"
+  },
+  "decidueye": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Long Reach",
+   "name": "Decidueye"
+  },
+  "decidueyehisui": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Scrappy",
+   "name": "Decidueye-Hisui"
+  },
+  "dedenne": {
+   "abilities": [
+    "Cheek Pouch",
+    "Pickup"
+   ],
+   "hidden": "Plus",
+   "name": "Dedenne"
+  },
+  "deerling": {
+   "abilities": [
+    "Chlorophyll",
+    "Sap Sipper"
+   ],
+   "hidden": "Serene Grace",
+   "name": "Deerling"
+  },
+  "deino": {
+   "abilities": [
+    "Hustle"
+   ],
+   "hidden": "",
+   "name": "Deino"
+  },
+  "delcatty": {
+   "abilities": [
+    "Cute Charm",
+    "Normalize"
+   ],
+   "hidden": "Wonder Skin",
+   "name": "Delcatty"
+  },
+  "delibird": {
+   "abilities": [
+    "Vital Spirit",
+    "Hustle"
+   ],
+   "hidden": "Insomnia",
+   "name": "Delibird"
+  },
+  "delphox": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Magician",
+   "name": "Delphox"
+  },
+  "delphoxmega": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Delphox-Mega"
+  },
+  "deoxys": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "",
+   "name": "Deoxys"
+  },
+  "deoxysattack": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "",
+   "name": "Deoxys-Attack"
+  },
+  "deoxysdefense": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "",
+   "name": "Deoxys-Defense"
+  },
+  "deoxysspeed": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "",
+   "name": "Deoxys-Speed"
+  },
+  "dewgong": {
+   "abilities": [
+    "Thick Fat",
+    "Hydration"
+   ],
+   "hidden": "Ice Body",
+   "name": "Dewgong"
+  },
+  "dewott": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Shell Armor",
+   "name": "Dewott"
+  },
+  "dewpider": {
+   "abilities": [
+    "Water Bubble"
+   ],
+   "hidden": "Water Absorb",
+   "name": "Dewpider"
+  },
+  "dhelmise": {
+   "abilities": [
+    "Steelworker"
+   ],
+   "hidden": "",
+   "name": "Dhelmise"
+  },
+  "dialga": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Telepathy",
+   "name": "Dialga"
+  },
+  "dialgaorigin": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Telepathy",
+   "name": "Dialga-Origin"
+  },
+  "diancie": {
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden": "",
+   "name": "Diancie"
+  },
+  "dianciemega": {
+   "abilities": [
+    "Magic Bounce"
+   ],
+   "hidden": "",
+   "name": "Diancie-Mega"
+  },
+  "diggersby": {
+   "abilities": [
+    "Pickup",
+    "Cheek Pouch"
+   ],
+   "hidden": "Huge Power",
+   "name": "Diggersby"
+  },
+  "diglett": {
+   "abilities": [
+    "Sand Veil",
+    "Arena Trap"
+   ],
+   "hidden": "Sand Force",
+   "name": "Diglett"
+  },
+  "diglettalola": {
+   "abilities": [
+    "Sand Veil",
+    "Tangling Hair"
+   ],
+   "hidden": "Sand Force",
+   "name": "Diglett-Alola"
+  },
+  "dipplin": {
+   "abilities": [
+    "Supersweet Syrup",
+    "Gluttony"
+   ],
+   "hidden": "Sticky Hold",
+   "name": "Dipplin"
+  },
+  "ditto": {
+   "abilities": [
+    "Limber"
+   ],
+   "hidden": "Imposter",
+   "name": "Ditto"
+  },
+  "dodrio": {
+   "abilities": [
+    "Run Away",
+    "Early Bird"
+   ],
+   "hidden": "Tangled Feet",
+   "name": "Dodrio"
+  },
+  "doduo": {
+   "abilities": [
+    "Run Away",
+    "Early Bird"
+   ],
+   "hidden": "Tangled Feet",
+   "name": "Doduo"
+  },
+  "dolliv": {
+   "abilities": [
+    "Early Bird"
+   ],
+   "hidden": "Harvest",
+   "name": "Dolliv"
+  },
+  "dondozo": {
+   "abilities": [
+    "Unaware",
+    "Oblivious"
+   ],
+   "hidden": "Water Veil",
+   "name": "Dondozo"
+  },
+  "donphan": {
+   "abilities": [
+    "Sturdy"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Donphan"
+  },
+  "dorsoil": {
+   "abilities": [
+    "Oblivious",
+    "Guts"
+   ],
+   "hidden": "Unnerve",
+   "name": "Dorsoil"
+  },
+  "dottler": {
+   "abilities": [
+    "Swarm",
+    "Compound Eyes"
+   ],
+   "hidden": "Telepathy",
+   "name": "Dottler"
+  },
+  "doublade": {
+   "abilities": [
+    "No Guard"
+   ],
+   "hidden": "",
+   "name": "Doublade"
+  },
+  "dracovish": {
+   "abilities": [
+    "Water Absorb",
+    "Strong Jaw"
+   ],
+   "hidden": "Sand Rush",
+   "name": "Dracovish"
+  },
+  "dracozolt": {
+   "abilities": [
+    "Volt Absorb",
+    "Hustle"
+   ],
+   "hidden": "Sand Rush",
+   "name": "Dracozolt"
+  },
+  "dragalge": {
+   "abilities": [
+    "Poison Point",
+    "Poison Touch"
+   ],
+   "hidden": "Adaptability",
+   "name": "Dragalge"
+  },
+  "dragalgemega": {
+   "abilities": [
+    "Regenerator"
+   ],
+   "hidden": "",
+   "name": "Dragalge-Mega"
+  },
+  "dragapult": {
+   "abilities": [
+    "Clear Body",
+    "Infiltrator"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Dragapult"
+  },
+  "draggalong": {
+   "abilities": [
+    "Armor Tail",
+    "White Smoke"
+   ],
+   "hidden": "Slow Start",
+   "name": "Draggalong"
+  },
+  "dragonair": {
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden": "Marvel Scale",
+   "name": "Dragonair"
+  },
+  "dragonite": {
+   "abilities": [
+    "Inner Focus"
+   ],
+   "hidden": "Multiscale",
+   "name": "Dragonite"
+  },
+  "dragonitemega": {
+   "abilities": [
+    "Multiscale"
+   ],
+   "hidden": "",
+   "name": "Dragonite-Mega"
+  },
+  "drakloak": {
+   "abilities": [
+    "Clear Body",
+    "Infiltrator"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Drakloak"
+  },
+  "drampa": {
+   "abilities": [
+    "Berserk",
+    "Sap Sipper"
+   ],
+   "hidden": "Cloud Nine",
+   "name": "Drampa"
+  },
+  "drampamega": {
+   "abilities": [
+    "Berserk"
+   ],
+   "hidden": "",
+   "name": "Drampa-Mega"
+  },
+  "drapion": {
+   "abilities": [
+    "Battle Armor",
+    "Sniper"
+   ],
+   "hidden": "Keen Eye",
+   "name": "Drapion"
+  },
+  "dratini": {
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden": "Marvel Scale",
+   "name": "Dratini"
+  },
+  "drednaw": {
+   "abilities": [
+    "Strong Jaw",
+    "Shell Armor"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Drednaw"
+  },
+  "drednawgmax": {
+   "abilities": [
+    "Strong Jaw",
+    "Shell Armor"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Drednaw-Gmax"
+  },
+  "dreepy": {
+   "abilities": [
+    "Clear Body",
+    "Infiltrator"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Dreepy"
+  },
+  "drifblim": {
+   "abilities": [
+    "Aftermath",
+    "Unburden"
+   ],
+   "hidden": "Flare Boost",
+   "name": "Drifblim"
+  },
+  "drifloon": {
+   "abilities": [
+    "Aftermath",
+    "Unburden"
+   ],
+   "hidden": "Flare Boost",
+   "name": "Drifloon"
+  },
+  "drilbur": {
+   "abilities": [
+    "Sand Rush",
+    "Sand Force"
+   ],
+   "hidden": "Mold Breaker",
+   "name": "Drilbur"
+  },
+  "drizzile": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Sniper",
+   "name": "Drizzile"
+  },
+  "drowzee": {
+   "abilities": [
+    "Insomnia",
+    "Forewarn"
+   ],
+   "hidden": "Inner Focus",
+   "name": "Drowzee"
+  },
+  "druddigon": {
+   "abilities": [
+    "Rough Skin",
+    "Sheer Force"
+   ],
+   "hidden": "Mold Breaker",
+   "name": "Druddigon"
+  },
+  "dubwool": {
+   "abilities": [
+    "Fluffy",
+    "Steadfast"
+   ],
+   "hidden": "Bulletproof",
+   "name": "Dubwool"
+  },
+  "ducklett": {
+   "abilities": [
+    "Keen Eye",
+    "Big Pecks"
+   ],
+   "hidden": "Hydration",
+   "name": "Ducklett"
+  },
+  "dudunsparce": {
+   "abilities": [
+    "Serene Grace",
+    "Run Away"
+   ],
+   "hidden": "Rattled",
+   "name": "Dudunsparce"
+  },
+  "dudunsparcethreesegment": {
+   "abilities": [
+    "Serene Grace",
+    "Run Away"
+   ],
+   "hidden": "Rattled",
+   "name": "Dudunsparce-Three-Segment"
+  },
+  "dugtrio": {
+   "abilities": [
+    "Sand Veil",
+    "Arena Trap"
+   ],
+   "hidden": "Sand Force",
+   "name": "Dugtrio"
+  },
+  "dugtrioalola": {
+   "abilities": [
+    "Sand Veil",
+    "Tangling Hair"
+   ],
+   "hidden": "Sand Force",
+   "name": "Dugtrio-Alola"
+  },
+  "dunsparce": {
+   "abilities": [
+    "Serene Grace",
+    "Run Away"
+   ],
+   "hidden": "Rattled",
+   "name": "Dunsparce"
+  },
+  "duohm": {
+   "abilities": [
+    "Shield Dust",
+    "Static"
+   ],
+   "hidden": "Damp",
+   "name": "Duohm"
+  },
+  "duosion": {
+   "abilities": [
+    "Overcoat",
+    "Magic Guard"
+   ],
+   "hidden": "Regenerator",
+   "name": "Duosion"
+  },
+  "duraludon": {
+   "abilities": [
+    "Light Metal",
+    "Heavy Metal"
+   ],
+   "hidden": "Stalwart",
+   "name": "Duraludon"
+  },
+  "duraludongmax": {
+   "abilities": [
+    "Light Metal",
+    "Heavy Metal"
+   ],
+   "hidden": "Stalwart",
+   "name": "Duraludon-Gmax"
+  },
+  "durant": {
+   "abilities": [
+    "Swarm",
+    "Hustle"
+   ],
+   "hidden": "Truant",
+   "name": "Durant"
+  },
+  "dusclops": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Frisk",
+   "name": "Dusclops"
+  },
+  "dusknoir": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Frisk",
+   "name": "Dusknoir"
+  },
+  "duskull": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "Frisk",
+   "name": "Duskull"
+  },
+  "dustox": {
+   "abilities": [
+    "Shield Dust"
+   ],
+   "hidden": "Compound Eyes",
+   "name": "Dustox"
+  },
+  "dwebble": {
+   "abilities": [
+    "Sturdy",
+    "Shell Armor"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Dwebble"
+  },
+  "eelektrik": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Eelektrik"
+  },
+  "eelektross": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Eelektross"
+  },
+  "eelektrossmega": {
+   "abilities": [
+    "Eelevate"
+   ],
+   "hidden": "",
+   "name": "Eelektross-Mega"
+  },
+  "eevee": {
+   "abilities": [
+    "Run Away",
+    "Adaptability"
+   ],
+   "hidden": "Anticipation",
+   "name": "Eevee"
+  },
+  "eeveegmax": {
+   "abilities": [
+    "Run Away",
+    "Adaptability"
+   ],
+   "hidden": "Anticipation",
+   "name": "Eevee-Gmax"
+  },
+  "eeveestarter": {
+   "abilities": [
+    "Run Away",
+    "Adaptability"
+   ],
+   "hidden": "Anticipation",
+   "name": "Eevee-Starter"
+  },
+  "eiscue": {
+   "abilities": [
+    "Ice Face"
+   ],
+   "hidden": "",
+   "name": "Eiscue"
+  },
+  "eiscuenoice": {
+   "abilities": [
+    "Ice Face"
+   ],
+   "hidden": "",
+   "name": "Eiscue-Noice"
+  },
+  "ekans": {
+   "abilities": [
+    "Intimidate",
+    "Shed Skin"
+   ],
+   "hidden": "Unnerve",
+   "name": "Ekans"
+  },
+  "eldegoss": {
+   "abilities": [
+    "Cotton Down",
+    "Regenerator"
+   ],
+   "hidden": "Effect Spore",
+   "name": "Eldegoss"
+  },
+  "electabuzz": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Vital Spirit",
+   "name": "Electabuzz"
+  },
+  "electivire": {
+   "abilities": [
+    "Motor Drive"
+   ],
+   "hidden": "Vital Spirit",
+   "name": "Electivire"
+  },
+  "electrelk": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Galvanize",
+   "name": "Electrelk"
+  },
+  "electrike": {
+   "abilities": [
+    "Static",
+    "Lightning Rod"
+   ],
+   "hidden": "Minus",
+   "name": "Electrike"
+  },
+  "electrode": {
+   "abilities": [
+    "Soundproof",
+    "Static"
+   ],
+   "hidden": "Aftermath",
+   "name": "Electrode"
+  },
+  "electrodehisui": {
+   "abilities": [
+    "Soundproof",
+    "Static"
+   ],
+   "hidden": "Aftermath",
+   "name": "Electrode-Hisui"
+  },
+  "elekid": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Vital Spirit",
+   "name": "Elekid"
+  },
+  "elgyem": {
+   "abilities": [
+    "Telepathy",
+    "Synchronize"
+   ],
+   "hidden": "Analytic",
+   "name": "Elgyem"
+  },
+  "embirch": {
+   "abilities": [
+    "Reckless",
+    "Leaf Guard"
+   ],
+   "hidden": "Chlorophyll",
+   "name": "Embirch"
+  },
+  "emboar": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Reckless",
+   "name": "Emboar"
+  },
+  "emboarmega": {
+   "abilities": [
+    "Mold Breaker"
+   ],
+   "hidden": "",
+   "name": "Emboar-Mega"
+  },
+  "emolga": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Motor Drive",
+   "name": "Emolga"
+  },
+  "empoleon": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Competitive",
+   "name": "Empoleon"
+  },
+  "enamorus": {
+   "abilities": [
+    "Cute Charm"
+   ],
+   "hidden": "Contrary",
+   "name": "Enamorus"
+  },
+  "enamorustherian": {
+   "abilities": [
+    "Overcoat"
+   ],
+   "hidden": "",
+   "name": "Enamorus-Therian"
+  },
+  "entei": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Inner Focus",
+   "name": "Entei"
+  },
+  "equilibra": {
+   "abilities": [
+    "Levitate",
+    "Bulletproof"
+   ],
+   "hidden": "Justified",
+   "name": "Equilibra"
+  },
+  "escavalier": {
+   "abilities": [
+    "Swarm",
+    "Shell Armor"
+   ],
+   "hidden": "Overcoat",
+   "name": "Escavalier"
+  },
+  "espathra": {
+   "abilities": [
+    "Opportunist",
+    "Frisk"
+   ],
+   "hidden": "Speed Boost",
+   "name": "Espathra"
+  },
+  "espeon": {
+   "abilities": [
+    "Synchronize"
+   ],
+   "hidden": "Magic Bounce",
+   "name": "Espeon"
+  },
+  "espurr": {
+   "abilities": [
+    "Keen Eye",
+    "Infiltrator"
+   ],
+   "hidden": "Own Tempo",
+   "name": "Espurr"
+  },
+  "eternatus": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "",
+   "name": "Eternatus"
+  },
+  "eternatuseternamax": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "",
+   "name": "Eternatus-Eternamax"
+  },
+  "excadrill": {
+   "abilities": [
+    "Sand Rush",
+    "Sand Force"
+   ],
+   "hidden": "Mold Breaker",
+   "name": "Excadrill"
+  },
+  "excadrillmega": {
+   "abilities": [
+    "Piercing Drill"
+   ],
+   "hidden": "",
+   "name": "Excadrill-Mega"
+  },
+  "exeggcute": {
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden": "Harvest",
+   "name": "Exeggcute"
+  },
+  "exeggutor": {
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden": "Harvest",
+   "name": "Exeggutor"
+  },
+  "exeggutoralola": {
+   "abilities": [
+    "Frisk"
+   ],
+   "hidden": "Harvest",
+   "name": "Exeggutor-Alola"
+  },
+  "exploud": {
+   "abilities": [
+    "Soundproof"
+   ],
+   "hidden": "Scrappy",
+   "name": "Exploud"
+  },
+  "falinks": {
+   "abilities": [
+    "Battle Armor"
+   ],
+   "hidden": "Defiant",
+   "name": "Falinks"
+  },
+  "falinksmega": {
+   "abilities": [
+    "Defiant"
+   ],
+   "hidden": "",
+   "name": "Falinks-Mega"
+  },
+  "farfetchd": {
+   "abilities": [
+    "Keen Eye",
+    "Inner Focus"
+   ],
+   "hidden": "Defiant",
+   "name": "Farfetchu2019d"
+  },
+  "farfetchdgalar": {
+   "abilities": [
+    "Steadfast"
+   ],
+   "hidden": "Scrappy",
+   "name": "Farfetchu2019d-Galar"
+  },
+  "farigiraf": {
+   "abilities": [
+    "Cud Chew",
+    "Armor Tail"
+   ],
+   "hidden": "Sap Sipper",
+   "name": "Farigiraf"
+  },
+  "fawnifer": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Fawnifer"
+  },
+  "fearow": {
+   "abilities": [
+    "Keen Eye"
+   ],
+   "hidden": "Sniper",
+   "name": "Fearow"
+  },
+  "feebas": {
+   "abilities": [
+    "Swift Swim",
+    "Oblivious"
+   ],
+   "hidden": "Adaptability",
+   "name": "Feebas"
+  },
+  "fennekin": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Magician",
+   "name": "Fennekin"
+  },
+  "feraligatr": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Feraligatr"
+  },
+  "feraligatrmega": {
+   "abilities": [
+    "Dragonize"
+   ],
+   "hidden": "",
+   "name": "Feraligatr-Mega"
+  },
+  "ferroseed": {
+   "abilities": [
+    "Iron Barbs"
+   ],
+   "hidden": "",
+   "name": "Ferroseed"
+  },
+  "ferrothorn": {
+   "abilities": [
+    "Iron Barbs"
+   ],
+   "hidden": "Anticipation",
+   "name": "Ferrothorn"
+  },
+  "fezandipiti": {
+   "abilities": [
+    "Toxic Chain"
+   ],
+   "hidden": "Technician",
+   "name": "Fezandipiti"
+  },
+  "fidgit": {
+   "abilities": [
+    "Persistent",
+    "Vital Spirit"
+   ],
+   "hidden": "Frisk",
+   "name": "Fidgit"
+  },
+  "fidough": {
+   "abilities": [
+    "Own Tempo"
+   ],
+   "hidden": "Klutz",
+   "name": "Fidough"
+  },
+  "finizen": {
+   "abilities": [
+    "Water Veil"
+   ],
+   "hidden": "",
+   "name": "Finizen"
+  },
+  "finneon": {
+   "abilities": [
+    "Swift Swim",
+    "Storm Drain"
+   ],
+   "hidden": "Water Veil",
+   "name": "Finneon"
+  },
+  "flaaffy": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Plus",
+   "name": "Flaaffy"
+  },
+  "flabebe": {
+   "abilities": [
+    "Flower Veil"
+   ],
+   "hidden": "Symbiosis",
+   "name": "Flabeu0301beu0301"
+  },
+  "flamigo": {
+   "abilities": [
+    "Scrappy",
+    "Tangled Feet"
+   ],
+   "hidden": "Costar",
+   "name": "Flamigo"
+  },
+  "flapple": {
+   "abilities": [
+    "Ripen",
+    "Gluttony"
+   ],
+   "hidden": "Hustle",
+   "name": "Flapple"
+  },
+  "flapplegmax": {
+   "abilities": [
+    "Ripen",
+    "Gluttony"
+   ],
+   "hidden": "Hustle",
+   "name": "Flapple-Gmax"
+  },
+  "flarelm": {
+   "abilities": [
+    "Rock Head",
+    "Battle Armor"
+   ],
+   "hidden": "White Smoke",
+   "name": "Flarelm"
+  },
+  "flareon": {
+   "abilities": [
+    "Flash Fire"
+   ],
+   "hidden": "Guts",
+   "name": "Flareon"
+  },
+  "fletchinder": {
+   "abilities": [
+    "Flame Body"
+   ],
+   "hidden": "Gale Wings",
+   "name": "Fletchinder"
+  },
+  "fletchling": {
+   "abilities": [
+    "Big Pecks"
+   ],
+   "hidden": "Gale Wings",
+   "name": "Fletchling"
+  },
+  "flittle": {
+   "abilities": [
+    "Anticipation",
+    "Frisk"
+   ],
+   "hidden": "Speed Boost",
+   "name": "Flittle"
+  },
+  "floatoy": {
+   "abilities": [
+    "Water Veil",
+    "Heatproof"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Floatoy"
+  },
+  "floatzel": {
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden": "Water Veil",
+   "name": "Floatzel"
+  },
+  "floette": {
+   "abilities": [
+    "Flower Veil"
+   ],
+   "hidden": "Symbiosis",
+   "name": "Floette"
+  },
+  "floetteeternal": {
+   "abilities": [
+    "Flower Veil"
+   ],
+   "hidden": "Symbiosis",
+   "name": "Floette-Eternal"
+  },
+  "floettemega": {
+   "abilities": [
+    "Fairy Aura"
+   ],
+   "hidden": "",
+   "name": "Floette-Mega"
+  },
+  "floragato": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Protean",
+   "name": "Floragato"
+  },
+  "florges": {
+   "abilities": [
+    "Flower Veil"
+   ],
+   "hidden": "Symbiosis",
+   "name": "Florges"
+  },
+  "flox": {
+   "abilities": [
+    "Static",
+    "Sticky Hold"
+   ],
+   "hidden": "Cud Chew",
+   "name": "Flox"
+  },
+  "fluttermane": {
+   "abilities": [
+    "Protosynthesis"
+   ],
+   "hidden": "",
+   "name": "Flutter Mane"
+  },
+  "flygon": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Flygon"
+  },
+  "fomantis": {
+   "abilities": [
+    "Leaf Guard"
+   ],
+   "hidden": "Contrary",
+   "name": "Fomantis"
+  },
+  "foongus": {
+   "abilities": [
+    "Effect Spore"
+   ],
+   "hidden": "Regenerator",
+   "name": "Foongus"
+  },
+  "forretress": {
+   "abilities": [
+    "Sturdy"
+   ],
+   "hidden": "Overcoat",
+   "name": "Forretress"
+  },
+  "fraxure": {
+   "abilities": [
+    "Rivalry",
+    "Mold Breaker"
+   ],
+   "hidden": "Unnerve",
+   "name": "Fraxure"
+  },
+  "frigibax": {
+   "abilities": [
+    "Thermal Exchange"
+   ],
+   "hidden": "Ice Body",
+   "name": "Frigibax"
+  },
+  "frillish": {
+   "abilities": [
+    "Water Absorb",
+    "Cursed Body"
+   ],
+   "hidden": "Damp",
+   "name": "Frillish"
+  },
+  "froakie": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Protean",
+   "name": "Froakie"
+  },
+  "frogadier": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Protean",
+   "name": "Frogadier"
+  },
+  "froslass": {
+   "abilities": [
+    "Snow Cloak"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Froslass"
+  },
+  "froslassmega": {
+   "abilities": [
+    "Snow Warning"
+   ],
+   "hidden": "",
+   "name": "Froslass-Mega"
+  },
+  "frosmoth": {
+   "abilities": [
+    "Shield Dust"
+   ],
+   "hidden": "Ice Scales",
+   "name": "Frosmoth"
+  },
+  "fuecoco": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Unaware",
+   "name": "Fuecoco"
+  },
+  "furfrou": {
+   "abilities": [
+    "Fur Coat"
+   ],
+   "hidden": "",
+   "name": "Furfrou"
+  },
+  "furret": {
+   "abilities": [
+    "Run Away",
+    "Keen Eye"
+   ],
+   "hidden": "Frisk",
+   "name": "Furret"
+  },
+  "gabite": {
+   "abilities": [
+    "Sand Veil"
+   ],
+   "hidden": "Rough Skin",
+   "name": "Gabite"
+  },
+  "gallade": {
+   "abilities": [
+    "Steadfast",
+    "Sharpness"
+   ],
+   "hidden": "Justified",
+   "name": "Gallade"
+  },
+  "gallademega": {
+   "abilities": [
+    "Inner Focus"
+   ],
+   "hidden": "",
+   "name": "Gallade-Mega"
+  },
+  "galvantula": {
+   "abilities": [
+    "Compound Eyes",
+    "Unnerve"
+   ],
+   "hidden": "Swarm",
+   "name": "Galvantula"
+  },
+  "garbodor": {
+   "abilities": [
+    "Stench",
+    "Weak Armor"
+   ],
+   "hidden": "Aftermath",
+   "name": "Garbodor"
+  },
+  "garbodorgmax": {
+   "abilities": [
+    "Stench",
+    "Weak Armor"
+   ],
+   "hidden": "Aftermath",
+   "name": "Garbodor-Gmax"
+  },
+  "garchomp": {
+   "abilities": [
+    "Sand Veil"
+   ],
+   "hidden": "Rough Skin",
+   "name": "Garchomp"
+  },
+  "garchompmega": {
+   "abilities": [
+    "Sand Force"
+   ],
+   "hidden": "",
+   "name": "Garchomp-Mega"
+  },
+  "garchompmegaz": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Garchomp-Mega-Z"
+  },
+  "gardevoir": {
+   "abilities": [
+    "Synchronize",
+    "Trace"
+   ],
+   "hidden": "Telepathy",
+   "name": "Gardevoir"
+  },
+  "gardevoirmega": {
+   "abilities": [
+    "Pixilate"
+   ],
+   "hidden": "",
+   "name": "Gardevoir-Mega"
+  },
+  "garganacl": {
+   "abilities": [
+    "Purifying Salt",
+    "Sturdy"
+   ],
+   "hidden": "Clear Body",
+   "name": "Garganacl"
+  },
+  "gastly": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Gastly"
+  },
+  "gastrodon": {
+   "abilities": [
+    "Sticky Hold",
+    "Storm Drain"
+   ],
+   "hidden": "Sand Force",
+   "name": "Gastrodon"
+  },
+  "genesect": {
+   "abilities": [
+    "Download"
+   ],
+   "hidden": "",
+   "name": "Genesect"
+  },
+  "genesectburn": {
+   "abilities": [
+    "Download"
+   ],
+   "hidden": "",
+   "name": "Genesect-Burn"
+  },
+  "genesectchill": {
+   "abilities": [
+    "Download"
+   ],
+   "hidden": "",
+   "name": "Genesect-Chill"
+  },
+  "genesectdouse": {
+   "abilities": [
+    "Download"
+   ],
+   "hidden": "",
+   "name": "Genesect-Douse"
+  },
+  "genesectshock": {
+   "abilities": [
+    "Download"
+   ],
+   "hidden": "",
+   "name": "Genesect-Shock"
+  },
+  "gengar": {
+   "abilities": [
+    "Cursed Body"
+   ],
+   "hidden": "",
+   "name": "Gengar"
+  },
+  "gengargmax": {
+   "abilities": [
+    "Cursed Body"
+   ],
+   "hidden": "",
+   "name": "Gengar-Gmax"
+  },
+  "gengarmega": {
+   "abilities": [
+    "Shadow Tag"
+   ],
+   "hidden": "",
+   "name": "Gengar-Mega"
+  },
+  "geodude": {
+   "abilities": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Geodude"
+  },
+  "geodudealola": {
+   "abilities": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": "Galvanize",
+   "name": "Geodude-Alola"
+  },
+  "gholdengo": {
+   "abilities": [
+    "Good as Gold"
+   ],
+   "hidden": "",
+   "name": "Gholdengo"
+  },
+  "gible": {
+   "abilities": [
+    "Sand Veil"
+   ],
+   "hidden": "Rough Skin",
+   "name": "Gible"
+  },
+  "gigalith": {
+   "abilities": [
+    "Sturdy",
+    "Sand Stream"
+   ],
+   "hidden": "Sand Force",
+   "name": "Gigalith"
+  },
+  "gimmighoul": {
+   "abilities": [
+    "Rattled"
+   ],
+   "hidden": "",
+   "name": "Gimmighoul"
+  },
+  "gimmighoulroaming": {
+   "abilities": [
+    "Run Away"
+   ],
+   "hidden": "",
+   "name": "Gimmighoul-Roaming"
+  },
+  "girafarig": {
+   "abilities": [
+    "Inner Focus",
+    "Early Bird"
+   ],
+   "hidden": "Sap Sipper",
+   "name": "Girafarig"
+  },
+  "giratina": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Telepathy",
+   "name": "Giratina"
+  },
+  "giratinaorigin": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Giratina-Origin"
+  },
+  "glaceon": {
+   "abilities": [
+    "Snow Cloak"
+   ],
+   "hidden": "Ice Body",
+   "name": "Glaceon"
+  },
+  "glalie": {
+   "abilities": [
+    "Inner Focus",
+    "Ice Body"
+   ],
+   "hidden": "Moody",
+   "name": "Glalie"
+  },
+  "glaliemega": {
+   "abilities": [
+    "Refrigerate"
+   ],
+   "hidden": "",
+   "name": "Glalie-Mega"
+  },
+  "glameow": {
+   "abilities": [
+    "Limber",
+    "Own Tempo"
+   ],
+   "hidden": "Keen Eye",
+   "name": "Glameow"
+  },
+  "glastrier": {
+   "abilities": [
+    "Chilling Neigh"
+   ],
+   "hidden": "",
+   "name": "Glastrier"
+  },
+  "gligar": {
+   "abilities": [
+    "Hyper Cutter",
+    "Sand Veil"
+   ],
+   "hidden": "Immunity",
+   "name": "Gligar"
+  },
+  "glimmet": {
+   "abilities": [
+    "Toxic Debris"
+   ],
+   "hidden": "Corrosion",
+   "name": "Glimmet"
+  },
+  "glimmora": {
+   "abilities": [
+    "Toxic Debris"
+   ],
+   "hidden": "Corrosion",
+   "name": "Glimmora"
+  },
+  "glimmoramega": {
+   "abilities": [
+    "Adaptability"
+   ],
+   "hidden": "",
+   "name": "Glimmora-Mega"
+  },
+  "gliscor": {
+   "abilities": [
+    "Hyper Cutter",
+    "Sand Veil"
+   ],
+   "hidden": "Poison Heal",
+   "name": "Gliscor"
+  },
+  "gloom": {
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden": "Stench",
+   "name": "Gloom"
+  },
+  "gogoat": {
+   "abilities": [
+    "Sap Sipper"
+   ],
+   "hidden": "Grass Pelt",
+   "name": "Gogoat"
+  },
+  "golbat": {
+   "abilities": [
+    "Inner Focus"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Golbat"
+  },
+  "goldeen": {
+   "abilities": [
+    "Swift Swim",
+    "Water Veil"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Goldeen"
+  },
+  "golduck": {
+   "abilities": [
+    "Damp",
+    "Cloud Nine"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Golduck"
+  },
+  "golem": {
+   "abilities": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Golem"
+  },
+  "golemalola": {
+   "abilities": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": "Galvanize",
+   "name": "Golem-Alola"
+  },
+  "golett": {
+   "abilities": [
+    "Iron Fist",
+    "Klutz"
+   ],
+   "hidden": "No Guard",
+   "name": "Golett"
+  },
+  "golisopod": {
+   "abilities": [
+    "Emergency Exit"
+   ],
+   "hidden": "",
+   "name": "Golisopod"
+  },
+  "golisopodmega": {
+   "abilities": [
+    "Tough Claws"
+   ],
+   "hidden": "",
+   "name": "Golisopod-Mega"
+  },
+  "golurk": {
+   "abilities": [
+    "Iron Fist",
+    "Klutz"
+   ],
+   "hidden": "No Guard",
+   "name": "Golurk"
+  },
+  "golurkmega": {
+   "abilities": [
+    "Unseen Fist"
+   ],
+   "hidden": "",
+   "name": "Golurk-Mega"
+  },
+  "goodra": {
+   "abilities": [
+    "Sap Sipper",
+    "Hydration"
+   ],
+   "hidden": "Gooey",
+   "name": "Goodra"
+  },
+  "goodrahisui": {
+   "abilities": [
+    "Sap Sipper",
+    "Shell Armor"
+   ],
+   "hidden": "Gooey",
+   "name": "Goodra-Hisui"
+  },
+  "goomy": {
+   "abilities": [
+    "Sap Sipper",
+    "Hydration"
+   ],
+   "hidden": "Gooey",
+   "name": "Goomy"
+  },
+  "gorebyss": {
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden": "Hydration",
+   "name": "Gorebyss"
+  },
+  "gossifleur": {
+   "abilities": [
+    "Cotton Down",
+    "Regenerator"
+   ],
+   "hidden": "Effect Spore",
+   "name": "Gossifleur"
+  },
+  "gothita": {
+   "abilities": [
+    "Frisk",
+    "Competitive"
+   ],
+   "hidden": "Shadow Tag",
+   "name": "Gothita"
+  },
+  "gothitelle": {
+   "abilities": [
+    "Frisk",
+    "Competitive"
+   ],
+   "hidden": "Shadow Tag",
+   "name": "Gothitelle"
+  },
+  "gothorita": {
+   "abilities": [
+    "Frisk",
+    "Competitive"
+   ],
+   "hidden": "Shadow Tag",
+   "name": "Gothorita"
+  },
+  "gougingfire": {
+   "abilities": [
+    "Protosynthesis"
+   ],
+   "hidden": "",
+   "name": "Gouging Fire"
+  },
+  "gourgeist": {
+   "abilities": [
+    "Pickup",
+    "Frisk"
+   ],
+   "hidden": "Insomnia",
+   "name": "Gourgeist"
+  },
+  "gourgeistlarge": {
+   "abilities": [
+    "Pickup",
+    "Frisk"
+   ],
+   "hidden": "Insomnia",
+   "name": "Gourgeist-Large"
+  },
+  "gourgeistsmall": {
+   "abilities": [
+    "Pickup",
+    "Frisk"
+   ],
+   "hidden": "Insomnia",
+   "name": "Gourgeist-Small"
+  },
+  "gourgeistsuper": {
+   "abilities": [
+    "Pickup",
+    "Frisk"
+   ],
+   "hidden": "Insomnia",
+   "name": "Gourgeist-Super"
+  },
+  "grafaiai": {
+   "abilities": [
+    "Unburden",
+    "Poison Touch"
+   ],
+   "hidden": "Prankster",
+   "name": "Grafaiai"
+  },
+  "granbull": {
+   "abilities": [
+    "Intimidate",
+    "Quick Feet"
+   ],
+   "hidden": "Rattled",
+   "name": "Granbull"
+  },
+  "grapploct": {
+   "abilities": [
+    "Limber"
+   ],
+   "hidden": "Technician",
+   "name": "Grapploct"
+  },
+  "graveler": {
+   "abilities": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Graveler"
+  },
+  "graveleralola": {
+   "abilities": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": "Galvanize",
+   "name": "Graveler-Alola"
+  },
+  "greattusk": {
+   "abilities": [
+    "Protosynthesis"
+   ],
+   "hidden": "",
+   "name": "Great Tusk"
+  },
+  "greavard": {
+   "abilities": [
+    "Pickup"
+   ],
+   "hidden": "Fluffy",
+   "name": "Greavard"
+  },
+  "greedent": {
+   "abilities": [
+    "Cheek Pouch"
+   ],
+   "hidden": "Gluttony",
+   "name": "Greedent"
+  },
+  "greninja": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Protean",
+   "name": "Greninja"
+  },
+  "greninjaash": {
+   "abilities": [
+    "Battle Bond"
+   ],
+   "hidden": "",
+   "name": "Greninja-Ash"
+  },
+  "greninjabond": {
+   "abilities": [
+    "Battle Bond"
+   ],
+   "hidden": "",
+   "name": "Greninja-Bond"
+  },
+  "greninjamega": {
+   "abilities": [
+    "Protean"
+   ],
+   "hidden": "",
+   "name": "Greninja-Mega"
+  },
+  "grimer": {
+   "abilities": [
+    "Stench",
+    "Sticky Hold"
+   ],
+   "hidden": "Poison Touch",
+   "name": "Grimer"
+  },
+  "grimeralola": {
+   "abilities": [
+    "Poison Touch",
+    "Gluttony"
+   ],
+   "hidden": "Power of Alchemy",
+   "name": "Grimer-Alola"
+  },
+  "grimmsnarl": {
+   "abilities": [
+    "Prankster",
+    "Frisk"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Grimmsnarl"
+  },
+  "grimmsnarlgmax": {
+   "abilities": [
+    "Prankster",
+    "Frisk"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Grimmsnarl-Gmax"
+  },
+  "grookey": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Grassy Surge",
+   "name": "Grookey"
+  },
+  "grotle": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Shell Armor",
+   "name": "Grotle"
+  },
+  "groudon": {
+   "abilities": [
+    "Drought"
+   ],
+   "hidden": "",
+   "name": "Groudon"
+  },
+  "groudonprimal": {
+   "abilities": [
+    "Desolate Land"
+   ],
+   "hidden": "",
+   "name": "Groudon-Primal"
+  },
+  "grovyle": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Unburden",
+   "name": "Grovyle"
+  },
+  "growlithe": {
+   "abilities": [
+    "Intimidate",
+    "Flash Fire"
+   ],
+   "hidden": "Justified",
+   "name": "Growlithe"
+  },
+  "growlithehisui": {
+   "abilities": [
+    "Intimidate",
+    "Flash Fire"
+   ],
+   "hidden": "Rock Head",
+   "name": "Growlithe-Hisui"
+  },
+  "grubbin": {
+   "abilities": [
+    "Swarm"
+   ],
+   "hidden": "",
+   "name": "Grubbin"
+  },
+  "grumpig": {
+   "abilities": [
+    "Thick Fat",
+    "Own Tempo"
+   ],
+   "hidden": "Gluttony",
+   "name": "Grumpig"
+  },
+  "gulpin": {
+   "abilities": [
+    "Liquid Ooze",
+    "Sticky Hold"
+   ],
+   "hidden": "Gluttony",
+   "name": "Gulpin"
+  },
+  "gumshoos": {
+   "abilities": [
+    "Stakeout",
+    "Strong Jaw"
+   ],
+   "hidden": "Adaptability",
+   "name": "Gumshoos"
+  },
+  "gumshoostotem": {
+   "abilities": [
+    "Adaptability"
+   ],
+   "hidden": "",
+   "name": "Gumshoos-Totem"
+  },
+  "gurdurr": {
+   "abilities": [
+    "Guts",
+    "Sheer Force"
+   ],
+   "hidden": "Iron Fist",
+   "name": "Gurdurr"
+  },
+  "guzzlord": {
+   "abilities": [
+    "Beast Boost"
+   ],
+   "hidden": "",
+   "name": "Guzzlord"
+  },
+  "gyarados": {
+   "abilities": [
+    "Intimidate"
+   ],
+   "hidden": "Moxie",
+   "name": "Gyarados"
+  },
+  "gyaradosmega": {
+   "abilities": [
+    "Mold Breaker"
+   ],
+   "hidden": "",
+   "name": "Gyarados-Mega"
+  },
+  "hakamoo": {
+   "abilities": [
+    "Bulletproof",
+    "Soundproof"
+   ],
+   "hidden": "Overcoat",
+   "name": "Hakamo-o"
+  },
+  "happiny": {
+   "abilities": [
+    "Natural Cure",
+    "Serene Grace"
+   ],
+   "hidden": "Friend Guard",
+   "name": "Happiny"
+  },
+  "hariyama": {
+   "abilities": [
+    "Thick Fat",
+    "Guts"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Hariyama"
+  },
+  "hatenna": {
+   "abilities": [
+    "Healer",
+    "Anticipation"
+   ],
+   "hidden": "Magic Bounce",
+   "name": "Hatenna"
+  },
+  "hatterene": {
+   "abilities": [
+    "Healer",
+    "Anticipation"
+   ],
+   "hidden": "Magic Bounce",
+   "name": "Hatterene"
+  },
+  "hatterenegmax": {
+   "abilities": [
+    "Healer",
+    "Anticipation"
+   ],
+   "hidden": "Magic Bounce",
+   "name": "Hatterene-Gmax"
+  },
+  "hattrem": {
+   "abilities": [
+    "Healer",
+    "Anticipation"
+   ],
+   "hidden": "Magic Bounce",
+   "name": "Hattrem"
+  },
+  "haunter": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Haunter"
+  },
+  "hawlucha": {
+   "abilities": [
+    "Limber",
+    "Unburden"
+   ],
+   "hidden": "Mold Breaker",
+   "name": "Hawlucha"
+  },
+  "hawluchamega": {
+   "abilities": [
+    "No Guard"
+   ],
+   "hidden": "",
+   "name": "Hawlucha-Mega"
+  },
+  "haxorus": {
+   "abilities": [
+    "Rivalry",
+    "Mold Breaker"
+   ],
+   "hidden": "Unnerve",
+   "name": "Haxorus"
+  },
+  "heatmor": {
+   "abilities": [
+    "Gluttony",
+    "Flash Fire"
+   ],
+   "hidden": "White Smoke",
+   "name": "Heatmor"
+  },
+  "heatran": {
+   "abilities": [
+    "Flash Fire"
+   ],
+   "hidden": "Flame Body",
+   "name": "Heatran"
+  },
+  "heatranmega": {
+   "abilities": [
+    "Flash Fire"
+   ],
+   "hidden": "Flame Body",
+   "name": "Heatran-Mega"
+  },
+  "heliolisk": {
+   "abilities": [
+    "Dry Skin",
+    "Sand Veil"
+   ],
+   "hidden": "Solar Power",
+   "name": "Heliolisk"
+  },
+  "helioptile": {
+   "abilities": [
+    "Dry Skin",
+    "Sand Veil"
+   ],
+   "hidden": "Solar Power",
+   "name": "Helioptile"
+  },
+  "hemogoblin": {
+   "abilities": [
+    "Pixilate",
+    "Intimidate"
+   ],
+   "hidden": "Own Tempo",
+   "name": "Hemogoblin"
+  },
+  "heracross": {
+   "abilities": [
+    "Swarm",
+    "Guts"
+   ],
+   "hidden": "Moxie",
+   "name": "Heracross"
+  },
+  "heracrossmega": {
+   "abilities": [
+    "Skill Link"
+   ],
+   "hidden": "",
+   "name": "Heracross-Mega"
+  },
+  "herdier": {
+   "abilities": [
+    "Intimidate",
+    "Sand Rush"
+   ],
+   "hidden": "Scrappy",
+   "name": "Herdier"
+  },
+  "hippopotas": {
+   "abilities": [
+    "Sand Stream"
+   ],
+   "hidden": "Sand Force",
+   "name": "Hippopotas"
+  },
+  "hippowdon": {
+   "abilities": [
+    "Sand Stream"
+   ],
+   "hidden": "Sand Force",
+   "name": "Hippowdon"
+  },
+  "hitmonchan": {
+   "abilities": [
+    "Keen Eye",
+    "Iron Fist"
+   ],
+   "hidden": "Inner Focus",
+   "name": "Hitmonchan"
+  },
+  "hitmonlee": {
+   "abilities": [
+    "Limber",
+    "Reckless"
+   ],
+   "hidden": "Unburden",
+   "name": "Hitmonlee"
+  },
+  "hitmontop": {
+   "abilities": [
+    "Intimidate",
+    "Technician"
+   ],
+   "hidden": "Steadfast",
+   "name": "Hitmontop"
+  },
+  "honchkrow": {
+   "abilities": [
+    "Insomnia",
+    "Super Luck"
+   ],
+   "hidden": "Moxie",
+   "name": "Honchkrow"
+  },
+  "honedge": {
+   "abilities": [
+    "No Guard"
+   ],
+   "hidden": "",
+   "name": "Honedge"
+  },
+  "hooh": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Regenerator",
+   "name": "Ho-Oh"
+  },
+  "hoopa": {
+   "abilities": [
+    "Magician"
+   ],
+   "hidden": "",
+   "name": "Hoopa"
+  },
+  "hoopaunbound": {
+   "abilities": [
+    "Magician"
+   ],
+   "hidden": "",
+   "name": "Hoopa-Unbound"
+  },
+  "hoothoot": {
+   "abilities": [
+    "Insomnia",
+    "Keen Eye"
+   ],
+   "hidden": "Tinted Lens",
+   "name": "Hoothoot"
+  },
+  "hoppip": {
+   "abilities": [
+    "Chlorophyll",
+    "Leaf Guard"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Hoppip"
+  },
+  "horsea": {
+   "abilities": [
+    "Swift Swim",
+    "Sniper"
+   ],
+   "hidden": "Damp",
+   "name": "Horsea"
+  },
+  "houndoom": {
+   "abilities": [
+    "Early Bird",
+    "Flash Fire"
+   ],
+   "hidden": "Unnerve",
+   "name": "Houndoom"
+  },
+  "houndoommega": {
+   "abilities": [
+    "Solar Power"
+   ],
+   "hidden": "",
+   "name": "Houndoom-Mega"
+  },
+  "houndour": {
+   "abilities": [
+    "Early Bird",
+    "Flash Fire"
+   ],
+   "hidden": "Unnerve",
+   "name": "Houndour"
+  },
+  "houndstone": {
+   "abilities": [
+    "Sand Rush"
+   ],
+   "hidden": "Fluffy",
+   "name": "Houndstone"
+  },
+  "huntail": {
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden": "Water Veil",
+   "name": "Huntail"
+  },
+  "hydrapple": {
+   "abilities": [
+    "Supersweet Syrup",
+    "Regenerator"
+   ],
+   "hidden": "Sticky Hold",
+   "name": "Hydrapple"
+  },
+  "hydreigon": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Hydreigon"
+  },
+  "hypno": {
+   "abilities": [
+    "Insomnia",
+    "Forewarn"
+   ],
+   "hidden": "Inner Focus",
+   "name": "Hypno"
+  },
+  "igglybuff": {
+   "abilities": [
+    "Cute Charm",
+    "Competitive"
+   ],
+   "hidden": "Friend Guard",
+   "name": "Igglybuff"
+  },
+  "illumise": {
+   "abilities": [
+    "Oblivious",
+    "Tinted Lens"
+   ],
+   "hidden": "Prankster",
+   "name": "Illumise"
+  },
+  "impidimp": {
+   "abilities": [
+    "Prankster",
+    "Frisk"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Impidimp"
+  },
+  "incineroar": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Intimidate",
+   "name": "Incineroar"
+  },
+  "indeedee": {
+   "abilities": [
+    "Inner Focus",
+    "Synchronize"
+   ],
+   "hidden": "Psychic Surge",
+   "name": "Indeedee"
+  },
+  "indeedeef": {
+   "abilities": [
+    "Own Tempo",
+    "Synchronize"
+   ],
+   "hidden": "Psychic Surge",
+   "name": "Indeedee-F"
+  },
+  "infernape": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Iron Fist",
+   "name": "Infernape"
+  },
+  "inkay": {
+   "abilities": [
+    "Contrary",
+    "Suction Cups"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Inkay"
+  },
+  "inteleon": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Sniper",
+   "name": "Inteleon"
+  },
+  "inteleongmax": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Sniper",
+   "name": "Inteleon-Gmax"
+  },
+  "ironboulder": {
+   "abilities": [
+    "Quark Drive"
+   ],
+   "hidden": "",
+   "name": "Iron Boulder"
+  },
+  "ironbundle": {
+   "abilities": [
+    "Quark Drive"
+   ],
+   "hidden": "",
+   "name": "Iron Bundle"
+  },
+  "ironcrown": {
+   "abilities": [
+    "Quark Drive"
+   ],
+   "hidden": "",
+   "name": "Iron Crown"
+  },
+  "ironhands": {
+   "abilities": [
+    "Quark Drive"
+   ],
+   "hidden": "",
+   "name": "Iron Hands"
+  },
+  "ironjugulis": {
+   "abilities": [
+    "Quark Drive"
+   ],
+   "hidden": "",
+   "name": "Iron Jugulis"
+  },
+  "ironleaves": {
+   "abilities": [
+    "Quark Drive"
+   ],
+   "hidden": "",
+   "name": "Iron Leaves"
+  },
+  "ironmoth": {
+   "abilities": [
+    "Quark Drive"
+   ],
+   "hidden": "",
+   "name": "Iron Moth"
+  },
+  "ironthorns": {
+   "abilities": [
+    "Quark Drive"
+   ],
+   "hidden": "",
+   "name": "Iron Thorns"
+  },
+  "irontreads": {
+   "abilities": [
+    "Quark Drive"
+   ],
+   "hidden": "",
+   "name": "Iron Treads"
+  },
+  "ironvaliant": {
+   "abilities": [
+    "Quark Drive"
+   ],
+   "hidden": "",
+   "name": "Iron Valiant"
+  },
+  "ivysaur": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Chlorophyll",
+   "name": "Ivysaur"
+  },
+  "jangmoo": {
+   "abilities": [
+    "Bulletproof",
+    "Soundproof"
+   ],
+   "hidden": "Overcoat",
+   "name": "Jangmo-o"
+  },
+  "jellicent": {
+   "abilities": [
+    "Water Absorb",
+    "Cursed Body"
+   ],
+   "hidden": "Damp",
+   "name": "Jellicent"
+  },
+  "jigglypuff": {
+   "abilities": [
+    "Cute Charm",
+    "Competitive"
+   ],
+   "hidden": "Friend Guard",
+   "name": "Jigglypuff"
+  },
+  "jirachi": {
+   "abilities": [
+    "Serene Grace"
+   ],
+   "hidden": "",
+   "name": "Jirachi"
+  },
+  "jolteon": {
+   "abilities": [
+    "Volt Absorb"
+   ],
+   "hidden": "Quick Feet",
+   "name": "Jolteon"
+  },
+  "joltik": {
+   "abilities": [
+    "Compound Eyes",
+    "Unnerve"
+   ],
+   "hidden": "Swarm",
+   "name": "Joltik"
+  },
+  "jumbao": {
+   "abilities": [
+    "Trace",
+    "Overcoat"
+   ],
+   "hidden": "Drought",
+   "name": "Jumbao"
+  },
+  "jumpluff": {
+   "abilities": [
+    "Chlorophyll",
+    "Leaf Guard"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Jumpluff"
+  },
+  "justyke": {
+   "abilities": [
+    "Levitate",
+    "Bulletproof"
+   ],
+   "hidden": "Justified",
+   "name": "Justyke"
+  },
+  "jynx": {
+   "abilities": [
+    "Oblivious",
+    "Forewarn"
+   ],
+   "hidden": "Dry Skin",
+   "name": "Jynx"
+  },
+  "kabuto": {
+   "abilities": [
+    "Swift Swim",
+    "Battle Armor"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Kabuto"
+  },
+  "kabutops": {
+   "abilities": [
+    "Swift Swim",
+    "Battle Armor"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Kabutops"
+  },
+  "kadabra": {
+   "abilities": [
+    "Synchronize",
+    "Inner Focus"
+   ],
+   "hidden": "Magic Guard",
+   "name": "Kadabra"
+  },
+  "kakuna": {
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden": "",
+   "name": "Kakuna"
+  },
+  "kangaskhan": {
+   "abilities": [
+    "Early Bird",
+    "Scrappy"
+   ],
+   "hidden": "Inner Focus",
+   "name": "Kangaskhan"
+  },
+  "kangaskhanmega": {
+   "abilities": [
+    "Parental Bond"
+   ],
+   "hidden": "",
+   "name": "Kangaskhan-Mega"
+  },
+  "karrablast": {
+   "abilities": [
+    "Swarm",
+    "Shed Skin"
+   ],
+   "hidden": "No Guard",
+   "name": "Karrablast"
+  },
+  "kartana": {
+   "abilities": [
+    "Beast Boost"
+   ],
+   "hidden": "",
+   "name": "Kartana"
+  },
+  "kecleon": {
+   "abilities": [
+    "Color Change"
+   ],
+   "hidden": "Protean",
+   "name": "Kecleon"
+  },
+  "keldeo": {
+   "abilities": [
+    "Justified"
+   ],
+   "hidden": "",
+   "name": "Keldeo"
+  },
+  "keldeoresolute": {
+   "abilities": [
+    "Justified"
+   ],
+   "hidden": "",
+   "name": "Keldeo-Resolute"
+  },
+  "kerfluffle": {
+   "abilities": [
+    "Natural Cure",
+    "Aroma Veil"
+   ],
+   "hidden": "Friend Guard",
+   "name": "Kerfluffle"
+  },
+  "kilowattrel": {
+   "abilities": [
+    "Wind Power",
+    "Volt Absorb"
+   ],
+   "hidden": "Competitive",
+   "name": "Kilowattrel"
+  },
+  "kingambit": {
+   "abilities": [
+    "Defiant",
+    "Supreme Overlord"
+   ],
+   "hidden": "Pressure",
+   "name": "Kingambit"
+  },
+  "kingdra": {
+   "abilities": [
+    "Swift Swim",
+    "Sniper"
+   ],
+   "hidden": "Damp",
+   "name": "Kingdra"
+  },
+  "kingler": {
+   "abilities": [
+    "Hyper Cutter",
+    "Shell Armor"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Kingler"
+  },
+  "kinglergmax": {
+   "abilities": [
+    "Hyper Cutter",
+    "Shell Armor"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Kingler-Gmax"
+  },
+  "kirlia": {
+   "abilities": [
+    "Synchronize",
+    "Trace"
+   ],
+   "hidden": "Telepathy",
+   "name": "Kirlia"
+  },
+  "kitsunoh": {
+   "abilities": [
+    "Frisk",
+    "Limber"
+   ],
+   "hidden": "Trace",
+   "name": "Kitsunoh"
+  },
+  "klang": {
+   "abilities": [
+    "Plus",
+    "Minus"
+   ],
+   "hidden": "Clear Body",
+   "name": "Klang"
+  },
+  "klawf": {
+   "abilities": [
+    "Anger Shell",
+    "Shell Armor"
+   ],
+   "hidden": "Regenerator",
+   "name": "Klawf"
+  },
+  "kleavor": {
+   "abilities": [
+    "Swarm",
+    "Sheer Force"
+   ],
+   "hidden": "Sharpness",
+   "name": "Kleavor"
+  },
+  "klefki": {
+   "abilities": [
+    "Prankster"
+   ],
+   "hidden": "Magician",
+   "name": "Klefki"
+  },
+  "klink": {
+   "abilities": [
+    "Plus",
+    "Minus"
+   ],
+   "hidden": "Clear Body",
+   "name": "Klink"
+  },
+  "klinklang": {
+   "abilities": [
+    "Plus",
+    "Minus"
+   ],
+   "hidden": "Clear Body",
+   "name": "Klinklang"
+  },
+  "koffing": {
+   "abilities": [
+    "Levitate",
+    "Neutralizing Gas"
+   ],
+   "hidden": "Stench",
+   "name": "Koffing"
+  },
+  "komala": {
+   "abilities": [
+    "Comatose"
+   ],
+   "hidden": "",
+   "name": "Komala"
+  },
+  "kommoo": {
+   "abilities": [
+    "Bulletproof",
+    "Soundproof"
+   ],
+   "hidden": "Overcoat",
+   "name": "Kommo-o"
+  },
+  "kommoototem": {
+   "abilities": [
+    "Overcoat"
+   ],
+   "hidden": "",
+   "name": "Kommo-o-Totem"
+  },
+  "koraidon": {
+   "abilities": [
+    "Orichalcum Pulse"
+   ],
+   "hidden": "",
+   "name": "Koraidon"
+  },
+  "krabby": {
+   "abilities": [
+    "Hyper Cutter",
+    "Shell Armor"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Krabby"
+  },
+  "kricketot": {
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden": "Run Away",
+   "name": "Kricketot"
+  },
+  "kricketune": {
+   "abilities": [
+    "Swarm"
+   ],
+   "hidden": "Technician",
+   "name": "Kricketune"
+  },
+  "krilowatt": {
+   "abilities": [
+    "Trace",
+    "Magic Guard"
+   ],
+   "hidden": "Minus",
+   "name": "Krilowatt"
+  },
+  "krokorok": {
+   "abilities": [
+    "Intimidate",
+    "Moxie"
+   ],
+   "hidden": "Anger Point",
+   "name": "Krokorok"
+  },
+  "krookodile": {
+   "abilities": [
+    "Intimidate",
+    "Moxie"
+   ],
+   "hidden": "Anger Point",
+   "name": "Krookodile"
+  },
+  "kubfu": {
+   "abilities": [
+    "Inner Focus"
+   ],
+   "hidden": "",
+   "name": "Kubfu"
+  },
+  "kyogre": {
+   "abilities": [
+    "Drizzle"
+   ],
+   "hidden": "",
+   "name": "Kyogre"
+  },
+  "kyogreprimal": {
+   "abilities": [
+    "Primordial Sea"
+   ],
+   "hidden": "",
+   "name": "Kyogre-Primal"
+  },
+  "kyurem": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "",
+   "name": "Kyurem"
+  },
+  "kyuremblack": {
+   "abilities": [
+    "Teravolt"
+   ],
+   "hidden": "",
+   "name": "Kyurem-Black"
+  },
+  "kyuremwhite": {
+   "abilities": [
+    "Turboblaze"
+   ],
+   "hidden": "",
+   "name": "Kyurem-White"
+  },
+  "lairon": {
+   "abilities": [
+    "Sturdy",
+    "Rock Head"
+   ],
+   "hidden": "Heavy Metal",
+   "name": "Lairon"
+  },
+  "lampent": {
+   "abilities": [
+    "Flash Fire",
+    "Flame Body"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Lampent"
+  },
+  "landorus": {
+   "abilities": [
+    "Sand Force"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Landorus"
+  },
+  "landorustherian": {
+   "abilities": [
+    "Intimidate"
+   ],
+   "hidden": "",
+   "name": "Landorus-Therian"
+  },
+  "lanturn": {
+   "abilities": [
+    "Volt Absorb",
+    "Illuminate"
+   ],
+   "hidden": "Water Absorb",
+   "name": "Lanturn"
+  },
+  "lapras": {
+   "abilities": [
+    "Water Absorb",
+    "Shell Armor"
+   ],
+   "hidden": "Hydration",
+   "name": "Lapras"
+  },
+  "laprasgmax": {
+   "abilities": [
+    "Water Absorb",
+    "Shell Armor"
+   ],
+   "hidden": "Hydration",
+   "name": "Lapras-Gmax"
+  },
+  "larvesta": {
+   "abilities": [
+    "Flame Body"
+   ],
+   "hidden": "Swarm",
+   "name": "Larvesta"
+  },
+  "larvitar": {
+   "abilities": [
+    "Guts"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Larvitar"
+  },
+  "latias": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Latias"
+  },
+  "latiasmega": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Latias-Mega"
+  },
+  "latios": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Latios"
+  },
+  "latiosmega": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Latios-Mega"
+  },
+  "leafeon": {
+   "abilities": [
+    "Leaf Guard"
+   ],
+   "hidden": "Chlorophyll",
+   "name": "Leafeon"
+  },
+  "leavanny": {
+   "abilities": [
+    "Swarm",
+    "Chlorophyll"
+   ],
+   "hidden": "Overcoat",
+   "name": "Leavanny"
+  },
+  "lechonk": {
+   "abilities": [
+    "Aroma Veil",
+    "Gluttony"
+   ],
+   "hidden": "Thick Fat",
+   "name": "Lechonk"
+  },
+  "ledian": {
+   "abilities": [
+    "Swarm",
+    "Early Bird"
+   ],
+   "hidden": "Iron Fist",
+   "name": "Ledian"
+  },
+  "ledyba": {
+   "abilities": [
+    "Swarm",
+    "Early Bird"
+   ],
+   "hidden": "Rattled",
+   "name": "Ledyba"
+  },
+  "lickilicky": {
+   "abilities": [
+    "Own Tempo",
+    "Oblivious"
+   ],
+   "hidden": "Cloud Nine",
+   "name": "Lickilicky"
+  },
+  "lickitung": {
+   "abilities": [
+    "Own Tempo",
+    "Oblivious"
+   ],
+   "hidden": "Cloud Nine",
+   "name": "Lickitung"
+  },
+  "liepard": {
+   "abilities": [
+    "Limber",
+    "Unburden"
+   ],
+   "hidden": "Prankster",
+   "name": "Liepard"
+  },
+  "lileep": {
+   "abilities": [
+    "Suction Cups"
+   ],
+   "hidden": "Storm Drain",
+   "name": "Lileep"
+  },
+  "lilligant": {
+   "abilities": [
+    "Chlorophyll",
+    "Own Tempo"
+   ],
+   "hidden": "Leaf Guard",
+   "name": "Lilligant"
+  },
+  "lilliganthisui": {
+   "abilities": [
+    "Chlorophyll",
+    "Hustle"
+   ],
+   "hidden": "Leaf Guard",
+   "name": "Lilligant-Hisui"
+  },
+  "lillipup": {
+   "abilities": [
+    "Vital Spirit",
+    "Pickup"
+   ],
+   "hidden": "Run Away",
+   "name": "Lillipup"
+  },
+  "linoone": {
+   "abilities": [
+    "Pickup",
+    "Gluttony"
+   ],
+   "hidden": "Quick Feet",
+   "name": "Linoone"
+  },
+  "linoonegalar": {
+   "abilities": [
+    "Pickup",
+    "Gluttony"
+   ],
+   "hidden": "Quick Feet",
+   "name": "Linoone-Galar"
+  },
+  "litleo": {
+   "abilities": [
+    "Rivalry",
+    "Unnerve"
+   ],
+   "hidden": "Moxie",
+   "name": "Litleo"
+  },
+  "litten": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Intimidate",
+   "name": "Litten"
+  },
+  "litwick": {
+   "abilities": [
+    "Flash Fire",
+    "Flame Body"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Litwick"
+  },
+  "lokix": {
+   "abilities": [
+    "Swarm"
+   ],
+   "hidden": "Tinted Lens",
+   "name": "Lokix"
+  },
+  "lombre": {
+   "abilities": [
+    "Swift Swim",
+    "Rain Dish"
+   ],
+   "hidden": "Own Tempo",
+   "name": "Lombre"
+  },
+  "lopunny": {
+   "abilities": [
+    "Cute Charm",
+    "Klutz"
+   ],
+   "hidden": "Limber",
+   "name": "Lopunny"
+  },
+  "lopunnymega": {
+   "abilities": [
+    "Scrappy"
+   ],
+   "hidden": "",
+   "name": "Lopunny-Mega"
+  },
+  "lotad": {
+   "abilities": [
+    "Swift Swim",
+    "Rain Dish"
+   ],
+   "hidden": "Own Tempo",
+   "name": "Lotad"
+  },
+  "loudred": {
+   "abilities": [
+    "Soundproof"
+   ],
+   "hidden": "Scrappy",
+   "name": "Loudred"
+  },
+  "lucario": {
+   "abilities": [
+    "Steadfast",
+    "Inner Focus"
+   ],
+   "hidden": "Justified",
+   "name": "Lucario"
+  },
+  "lucariomega": {
+   "abilities": [
+    "Adaptability"
+   ],
+   "hidden": "",
+   "name": "Lucario-Mega"
+  },
+  "lucariomegaz": {
+   "abilities": [
+    "Aura Guard"
+   ],
+   "hidden": "",
+   "name": "Lucario-Mega-Z"
+  },
+  "ludicolo": {
+   "abilities": [
+    "Swift Swim",
+    "Rain Dish"
+   ],
+   "hidden": "Own Tempo",
+   "name": "Ludicolo"
+  },
+  "lugia": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Multiscale",
+   "name": "Lugia"
+  },
+  "lumineon": {
+   "abilities": [
+    "Swift Swim",
+    "Storm Drain"
+   ],
+   "hidden": "Water Veil",
+   "name": "Lumineon"
+  },
+  "lunala": {
+   "abilities": [
+    "Shadow Shield"
+   ],
+   "hidden": "",
+   "name": "Lunala"
+  },
+  "lunatone": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Lunatone"
+  },
+  "lurantis": {
+   "abilities": [
+    "Leaf Guard"
+   ],
+   "hidden": "Contrary",
+   "name": "Lurantis"
+  },
+  "lurantistotem": {
+   "abilities": [
+    "Leaf Guard"
+   ],
+   "hidden": "",
+   "name": "Lurantis-Totem"
+  },
+  "luvdisc": {
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden": "Hydration",
+   "name": "Luvdisc"
+  },
+  "luxio": {
+   "abilities": [
+    "Rivalry",
+    "Intimidate"
+   ],
+   "hidden": "Guts",
+   "name": "Luxio"
+  },
+  "luxray": {
+   "abilities": [
+    "Rivalry",
+    "Intimidate"
+   ],
+   "hidden": "Guts",
+   "name": "Luxray"
+  },
+  "lycanroc": {
+   "abilities": [
+    "Keen Eye",
+    "Sand Rush"
+   ],
+   "hidden": "Steadfast",
+   "name": "Lycanroc"
+  },
+  "lycanrocdusk": {
+   "abilities": [
+    "Tough Claws"
+   ],
+   "hidden": "",
+   "name": "Lycanroc-Dusk"
+  },
+  "lycanrocmidnight": {
+   "abilities": [
+    "Keen Eye",
+    "Vital Spirit"
+   ],
+   "hidden": "No Guard",
+   "name": "Lycanroc-Midnight"
+  },
+  "mabosstiff": {
+   "abilities": [
+    "Intimidate",
+    "Guard Dog"
+   ],
+   "hidden": "Stakeout",
+   "name": "Mabosstiff"
+  },
+  "machamp": {
+   "abilities": [
+    "Guts",
+    "No Guard"
+   ],
+   "hidden": "Steadfast",
+   "name": "Machamp"
+  },
+  "machampgmax": {
+   "abilities": [
+    "Guts",
+    "No Guard"
+   ],
+   "hidden": "Steadfast",
+   "name": "Machamp-Gmax"
+  },
+  "machoke": {
+   "abilities": [
+    "Guts",
+    "No Guard"
+   ],
+   "hidden": "Steadfast",
+   "name": "Machoke"
+  },
+  "machop": {
+   "abilities": [
+    "Guts",
+    "No Guard"
+   ],
+   "hidden": "Steadfast",
+   "name": "Machop"
+  },
+  "magby": {
+   "abilities": [
+    "Flame Body"
+   ],
+   "hidden": "Vital Spirit",
+   "name": "Magby"
+  },
+  "magcargo": {
+   "abilities": [
+    "Magma Armor",
+    "Flame Body"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Magcargo"
+  },
+  "magearna": {
+   "abilities": [
+    "Soul-Heart"
+   ],
+   "hidden": "",
+   "name": "Magearna"
+  },
+  "magearnamega": {
+   "abilities": [
+    "Soul-Heart"
+   ],
+   "hidden": "",
+   "name": "Magearna-Mega"
+  },
+  "magearnaoriginal": {
+   "abilities": [
+    "Soul-Heart"
+   ],
+   "hidden": "",
+   "name": "Magearna-Original"
+  },
+  "magearnaoriginalmega": {
+   "abilities": [
+    "Soul-Heart"
+   ],
+   "hidden": "",
+   "name": "Magearna-Original-Mega"
+  },
+  "magikarp": {
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden": "Rattled",
+   "name": "Magikarp"
+  },
+  "magmar": {
+   "abilities": [
+    "Flame Body"
+   ],
+   "hidden": "Vital Spirit",
+   "name": "Magmar"
+  },
+  "magmortar": {
+   "abilities": [
+    "Flame Body"
+   ],
+   "hidden": "Vital Spirit",
+   "name": "Magmortar"
+  },
+  "magnemite": {
+   "abilities": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": "Analytic",
+   "name": "Magnemite"
+  },
+  "magneton": {
+   "abilities": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": "Analytic",
+   "name": "Magneton"
+  },
+  "magnezone": {
+   "abilities": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden": "Analytic",
+   "name": "Magnezone"
+  },
+  "makuhita": {
+   "abilities": [
+    "Thick Fat",
+    "Guts"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Makuhita"
+  },
+  "malaconda": {
+   "abilities": [
+    "Harvest",
+    "Infiltrator"
+   ],
+   "hidden": "Drought",
+   "name": "Malaconda"
+  },
+  "malamar": {
+   "abilities": [
+    "Contrary",
+    "Suction Cups"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Malamar"
+  },
+  "malamarmega": {
+   "abilities": [
+    "Contrary"
+   ],
+   "hidden": "",
+   "name": "Malamar-Mega"
+  },
+  "mamoswine": {
+   "abilities": [
+    "Oblivious",
+    "Snow Cloak"
+   ],
+   "hidden": "Thick Fat",
+   "name": "Mamoswine"
+  },
+  "manaphy": {
+   "abilities": [
+    "Hydration"
+   ],
+   "hidden": "",
+   "name": "Manaphy"
+  },
+  "mandibuzz": {
+   "abilities": [
+    "Big Pecks",
+    "Overcoat"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Mandibuzz"
+  },
+  "manectric": {
+   "abilities": [
+    "Static",
+    "Lightning Rod"
+   ],
+   "hidden": "Minus",
+   "name": "Manectric"
+  },
+  "manectricmega": {
+   "abilities": [
+    "Intimidate"
+   ],
+   "hidden": "",
+   "name": "Manectric-Mega"
+  },
+  "mankey": {
+   "abilities": [
+    "Vital Spirit",
+    "Anger Point"
+   ],
+   "hidden": "Defiant",
+   "name": "Mankey"
+  },
+  "mantine": {
+   "abilities": [
+    "Swift Swim",
+    "Water Absorb"
+   ],
+   "hidden": "Water Veil",
+   "name": "Mantine"
+  },
+  "mantyke": {
+   "abilities": [
+    "Swift Swim",
+    "Water Absorb"
+   ],
+   "hidden": "Water Veil",
+   "name": "Mantyke"
+  },
+  "maractus": {
+   "abilities": [
+    "Water Absorb",
+    "Chlorophyll"
+   ],
+   "hidden": "Storm Drain",
+   "name": "Maractus"
+  },
+  "mareanie": {
+   "abilities": [
+    "Merciless",
+    "Limber"
+   ],
+   "hidden": "Regenerator",
+   "name": "Mareanie"
+  },
+  "mareep": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Plus",
+   "name": "Mareep"
+  },
+  "marill": {
+   "abilities": [
+    "Thick Fat",
+    "Huge Power"
+   ],
+   "hidden": "Sap Sipper",
+   "name": "Marill"
+  },
+  "marowak": {
+   "abilities": [
+    "Rock Head",
+    "Lightning Rod"
+   ],
+   "hidden": "Battle Armor",
+   "name": "Marowak"
+  },
+  "marowakalola": {
+   "abilities": [
+    "Cursed Body",
+    "Lightning Rod"
+   ],
+   "hidden": "Rock Head",
+   "name": "Marowak-Alola"
+  },
+  "marowakalolatotem": {
+   "abilities": [
+    "Rock Head"
+   ],
+   "hidden": "",
+   "name": "Marowak-Alola-Totem"
+  },
+  "marshadow": {
+   "abilities": [
+    "Technician"
+   ],
+   "hidden": "",
+   "name": "Marshadow"
+  },
+  "marshtomp": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Damp",
+   "name": "Marshtomp"
+  },
+  "maschiff": {
+   "abilities": [
+    "Intimidate",
+    "Run Away"
+   ],
+   "hidden": "Stakeout",
+   "name": "Maschiff"
+  },
+  "masquerain": {
+   "abilities": [
+    "Intimidate"
+   ],
+   "hidden": "Unnerve",
+   "name": "Masquerain"
+  },
+  "maushold": {
+   "abilities": [
+    "Friend Guard",
+    "Cheek Pouch"
+   ],
+   "hidden": "Technician",
+   "name": "Maushold"
+  },
+  "mausholdfour": {
+   "abilities": [
+    "Friend Guard",
+    "Cheek Pouch"
+   ],
+   "hidden": "Technician",
+   "name": "Maushold-Four"
+  },
+  "mawile": {
+   "abilities": [
+    "Hyper Cutter",
+    "Intimidate"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Mawile"
+  },
+  "mawilemega": {
+   "abilities": [
+    "Huge Power"
+   ],
+   "hidden": "",
+   "name": "Mawile-Mega"
+  },
+  "medicham": {
+   "abilities": [
+    "Pure Power"
+   ],
+   "hidden": "Telepathy",
+   "name": "Medicham"
+  },
+  "medichammega": {
+   "abilities": [
+    "Pure Power"
+   ],
+   "hidden": "",
+   "name": "Medicham-Mega"
+  },
+  "meditite": {
+   "abilities": [
+    "Pure Power"
+   ],
+   "hidden": "Telepathy",
+   "name": "Meditite"
+  },
+  "meganium": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Leaf Guard",
+   "name": "Meganium"
+  },
+  "meganiummega": {
+   "abilities": [
+    "Mega Sol"
+   ],
+   "hidden": "",
+   "name": "Meganium-Mega"
+  },
+  "melmetal": {
+   "abilities": [
+    "Iron Fist"
+   ],
+   "hidden": "",
+   "name": "Melmetal"
+  },
+  "melmetalgmax": {
+   "abilities": [
+    "Iron Fist"
+   ],
+   "hidden": "",
+   "name": "Melmetal-Gmax"
+  },
+  "meloetta": {
+   "abilities": [
+    "Serene Grace"
+   ],
+   "hidden": "",
+   "name": "Meloetta"
+  },
+  "meloettapirouette": {
+   "abilities": [
+    "Serene Grace"
+   ],
+   "hidden": "",
+   "name": "Meloetta-Pirouette"
+  },
+  "meltan": {
+   "abilities": [
+    "Magnet Pull"
+   ],
+   "hidden": "",
+   "name": "Meltan"
+  },
+  "meowscarada": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Protean",
+   "name": "Meowscarada"
+  },
+  "meowstic": {
+   "abilities": [
+    "Keen Eye",
+    "Infiltrator"
+   ],
+   "hidden": "Prankster",
+   "name": "Meowstic"
+  },
+  "meowsticf": {
+   "abilities": [
+    "Keen Eye",
+    "Infiltrator"
+   ],
+   "hidden": "Competitive",
+   "name": "Meowstic-F"
+  },
+  "meowsticfmega": {
+   "abilities": [
+    "Trace"
+   ],
+   "hidden": "",
+   "name": "Meowstic-F-Mega"
+  },
+  "meowsticmmega": {
+   "abilities": [
+    "Trace"
+   ],
+   "hidden": "",
+   "name": "Meowstic-M-Mega"
+  },
+  "meowth": {
+   "abilities": [
+    "Pickup",
+    "Technician"
+   ],
+   "hidden": "Unnerve",
+   "name": "Meowth"
+  },
+  "meowthalola": {
+   "abilities": [
+    "Pickup",
+    "Technician"
+   ],
+   "hidden": "Rattled",
+   "name": "Meowth-Alola"
+  },
+  "meowthgalar": {
+   "abilities": [
+    "Pickup",
+    "Tough Claws"
+   ],
+   "hidden": "Unnerve",
+   "name": "Meowth-Galar"
+  },
+  "meowthgmax": {
+   "abilities": [
+    "Pickup",
+    "Technician"
+   ],
+   "hidden": "Unnerve",
+   "name": "Meowth-Gmax"
+  },
+  "mesprit": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Mesprit"
+  },
+  "metagross": {
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden": "Light Metal",
+   "name": "Metagross"
+  },
+  "metagrossmega": {
+   "abilities": [
+    "Tough Claws"
+   ],
+   "hidden": "",
+   "name": "Metagross-Mega"
+  },
+  "metang": {
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden": "Light Metal",
+   "name": "Metang"
+  },
+  "metapod": {
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden": "",
+   "name": "Metapod"
+  },
+  "mew": {
+   "abilities": [
+    "Synchronize"
+   ],
+   "hidden": "",
+   "name": "Mew"
+  },
+  "mewtwo": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Unnerve",
+   "name": "Mewtwo"
+  },
+  "mewtwomegax": {
+   "abilities": [
+    "Steadfast"
+   ],
+   "hidden": "",
+   "name": "Mewtwo-Mega-X"
+  },
+  "mewtwomegay": {
+   "abilities": [
+    "Insomnia"
+   ],
+   "hidden": "",
+   "name": "Mewtwo-Mega-Y"
+  },
+  "miasmaw": {
+   "abilities": [
+    "Neutralizing Gas",
+    "Hyper Cutter"
+   ],
+   "hidden": "Compound Eyes",
+   "name": "Miasmaw"
+  },
+  "miasmite": {
+   "abilities": [
+    "Neutralizing Gas",
+    "Hyper Cutter"
+   ],
+   "hidden": "Compound Eyes",
+   "name": "Miasmite"
+  },
+  "mienfoo": {
+   "abilities": [
+    "Inner Focus",
+    "Regenerator"
+   ],
+   "hidden": "Reckless",
+   "name": "Mienfoo"
+  },
+  "mienshao": {
+   "abilities": [
+    "Inner Focus",
+    "Regenerator"
+   ],
+   "hidden": "Reckless",
+   "name": "Mienshao"
+  },
+  "mightyena": {
+   "abilities": [
+    "Intimidate",
+    "Quick Feet"
+   ],
+   "hidden": "Moxie",
+   "name": "Mightyena"
+  },
+  "milcery": {
+   "abilities": [
+    "Sweet Veil"
+   ],
+   "hidden": "Aroma Veil",
+   "name": "Milcery"
+  },
+  "milotic": {
+   "abilities": [
+    "Marvel Scale",
+    "Competitive"
+   ],
+   "hidden": "Cute Charm",
+   "name": "Milotic"
+  },
+  "miltank": {
+   "abilities": [
+    "Thick Fat",
+    "Scrappy"
+   ],
+   "hidden": "Sap Sipper",
+   "name": "Miltank"
+  },
+  "mimejr": {
+   "abilities": [
+    "Soundproof",
+    "Filter"
+   ],
+   "hidden": "Technician",
+   "name": "Mime Jr."
+  },
+  "mimikyu": {
+   "abilities": [
+    "Disguise"
+   ],
+   "hidden": "",
+   "name": "Mimikyu"
+  },
+  "mimikyubusted": {
+   "abilities": [
+    "Disguise"
+   ],
+   "hidden": "",
+   "name": "Mimikyu-Busted"
+  },
+  "mimikyubustedtotem": {
+   "abilities": [
+    "Disguise"
+   ],
+   "hidden": "",
+   "name": "Mimikyu-Busted-Totem"
+  },
+  "mimikyutotem": {
+   "abilities": [
+    "Disguise"
+   ],
+   "hidden": "",
+   "name": "Mimikyu-Totem"
+  },
+  "minccino": {
+   "abilities": [
+    "Cute Charm",
+    "Technician"
+   ],
+   "hidden": "Skill Link",
+   "name": "Minccino"
+  },
+  "minior": {
+   "abilities": [
+    "Shields Down"
+   ],
+   "hidden": "",
+   "name": "Minior"
+  },
+  "miniormeteor": {
+   "abilities": [
+    "Shields Down"
+   ],
+   "hidden": "",
+   "name": "Minior-Meteor"
+  },
+  "minun": {
+   "abilities": [
+    "Minus"
+   ],
+   "hidden": "Volt Absorb",
+   "name": "Minun"
+  },
+  "miraidon": {
+   "abilities": [
+    "Hadron Engine"
+   ],
+   "hidden": "",
+   "name": "Miraidon"
+  },
+  "misdreavus": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Misdreavus"
+  },
+  "mismagius": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Mismagius"
+  },
+  "missingno": {
+   "abilities": [
+    ""
+   ],
+   "hidden": "",
+   "name": "MissingNo."
+  },
+  "mollux": {
+   "abilities": [
+    "Dry Skin"
+   ],
+   "hidden": "Illuminate",
+   "name": "Mollux"
+  },
+  "moltres": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Flame Body",
+   "name": "Moltres"
+  },
+  "moltresgalar": {
+   "abilities": [
+    "Berserk"
+   ],
+   "hidden": "",
+   "name": "Moltres-Galar"
+  },
+  "monferno": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Iron Fist",
+   "name": "Monferno"
+  },
+  "monohm": {
+   "abilities": [
+    "Shield Dust",
+    "Static"
+   ],
+   "hidden": "Damp",
+   "name": "Monohm"
+  },
+  "morelull": {
+   "abilities": [
+    "Illuminate",
+    "Effect Spore"
+   ],
+   "hidden": "Rain Dish",
+   "name": "Morelull"
+  },
+  "morgrem": {
+   "abilities": [
+    "Prankster",
+    "Frisk"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Morgrem"
+  },
+  "morpeko": {
+   "abilities": [
+    "Hunger Switch"
+   ],
+   "hidden": "",
+   "name": "Morpeko"
+  },
+  "morpekohangry": {
+   "abilities": [
+    "Hunger Switch"
+   ],
+   "hidden": "",
+   "name": "Morpeko-Hangry"
+  },
+  "mothim": {
+   "abilities": [
+    "Swarm"
+   ],
+   "hidden": "Tinted Lens",
+   "name": "Mothim"
+  },
+  "mrmime": {
+   "abilities": [
+    "Soundproof",
+    "Filter"
+   ],
+   "hidden": "Technician",
+   "name": "Mr. Mime"
+  },
+  "mrmimegalar": {
+   "abilities": [
+    "Vital Spirit",
+    "Screen Cleaner"
+   ],
+   "hidden": "Ice Body",
+   "name": "Mr. Mime-Galar"
+  },
+  "mrrime": {
+   "abilities": [
+    "Tangled Feet",
+    "Screen Cleaner"
+   ],
+   "hidden": "Ice Body",
+   "name": "Mr. Rime"
+  },
+  "mudbray": {
+   "abilities": [
+    "Own Tempo",
+    "Stamina"
+   ],
+   "hidden": "Inner Focus",
+   "name": "Mudbray"
+  },
+  "mudkip": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Damp",
+   "name": "Mudkip"
+  },
+  "mudsdale": {
+   "abilities": [
+    "Own Tempo",
+    "Stamina"
+   ],
+   "hidden": "Inner Focus",
+   "name": "Mudsdale"
+  },
+  "muk": {
+   "abilities": [
+    "Stench",
+    "Sticky Hold"
+   ],
+   "hidden": "Poison Touch",
+   "name": "Muk"
+  },
+  "mukalola": {
+   "abilities": [
+    "Poison Touch",
+    "Gluttony"
+   ],
+   "hidden": "Power of Alchemy",
+   "name": "Muk-Alola"
+  },
+  "mumbao": {
+   "abilities": [
+    "Trace",
+    "Overcoat"
+   ],
+   "hidden": "Solar Power",
+   "name": "Mumbao"
+  },
+  "munchlax": {
+   "abilities": [
+    "Pickup",
+    "Thick Fat"
+   ],
+   "hidden": "Gluttony",
+   "name": "Munchlax"
+  },
+  "munkidori": {
+   "abilities": [
+    "Toxic Chain"
+   ],
+   "hidden": "Frisk",
+   "name": "Munkidori"
+  },
+  "munna": {
+   "abilities": [
+    "Forewarn",
+    "Synchronize"
+   ],
+   "hidden": "Telepathy",
+   "name": "Munna"
+  },
+  "murkrow": {
+   "abilities": [
+    "Insomnia",
+    "Super Luck"
+   ],
+   "hidden": "Prankster",
+   "name": "Murkrow"
+  },
+  "musharna": {
+   "abilities": [
+    "Forewarn",
+    "Synchronize"
+   ],
+   "hidden": "Telepathy",
+   "name": "Musharna"
+  },
+  "nacli": {
+   "abilities": [
+    "Purifying Salt",
+    "Sturdy"
+   ],
+   "hidden": "Clear Body",
+   "name": "Nacli"
+  },
+  "naclstack": {
+   "abilities": [
+    "Purifying Salt",
+    "Sturdy"
+   ],
+   "hidden": "Clear Body",
+   "name": "Naclstack"
+  },
+  "naganadel": {
+   "abilities": [
+    "Beast Boost"
+   ],
+   "hidden": "",
+   "name": "Naganadel"
+  },
+  "natu": {
+   "abilities": [
+    "Synchronize",
+    "Early Bird"
+   ],
+   "hidden": "Magic Bounce",
+   "name": "Natu"
+  },
+  "naviathan": {
+   "abilities": [
+    "Guts",
+    "Heatproof"
+   ],
+   "hidden": "Light Metal",
+   "name": "Naviathan"
+  },
+  "necrozma": {
+   "abilities": [
+    "Prism Armor"
+   ],
+   "hidden": "",
+   "name": "Necrozma"
+  },
+  "necrozmadawnwings": {
+   "abilities": [
+    "Prism Armor"
+   ],
+   "hidden": "",
+   "name": "Necrozma-Dawn-Wings"
+  },
+  "necrozmaduskmane": {
+   "abilities": [
+    "Prism Armor"
+   ],
+   "hidden": "",
+   "name": "Necrozma-Dusk-Mane"
+  },
+  "necrozmaultra": {
+   "abilities": [
+    "Neuroforce"
+   ],
+   "hidden": "",
+   "name": "Necrozma-Ultra"
+  },
+  "necturine": {
+   "abilities": [
+    "Anticipation"
+   ],
+   "hidden": "Telepathy",
+   "name": "Necturine"
+  },
+  "necturna": {
+   "abilities": [
+    "Forewarn"
+   ],
+   "hidden": "Telepathy",
+   "name": "Necturna"
+  },
+  "nickit": {
+   "abilities": [
+    "Run Away",
+    "Unburden"
+   ],
+   "hidden": "Stakeout",
+   "name": "Nickit"
+  },
+  "nidoking": {
+   "abilities": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Nidoking"
+  },
+  "nidoqueen": {
+   "abilities": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Nidoqueen"
+  },
+  "nidoranf": {
+   "abilities": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden": "Hustle",
+   "name": "Nidoran-F"
+  },
+  "nidoranm": {
+   "abilities": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden": "Hustle",
+   "name": "Nidoran-M"
+  },
+  "nidorina": {
+   "abilities": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden": "Hustle",
+   "name": "Nidorina"
+  },
+  "nidorino": {
+   "abilities": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden": "Hustle",
+   "name": "Nidorino"
+  },
+  "nihilego": {
+   "abilities": [
+    "Beast Boost"
+   ],
+   "hidden": "",
+   "name": "Nihilego"
+  },
+  "nincada": {
+   "abilities": [
+    "Compound Eyes"
+   ],
+   "hidden": "Run Away",
+   "name": "Nincada"
+  },
+  "ninetales": {
+   "abilities": [
+    "Flash Fire"
+   ],
+   "hidden": "Drought",
+   "name": "Ninetales"
+  },
+  "ninetalesalola": {
+   "abilities": [
+    "Snow Cloak"
+   ],
+   "hidden": "Snow Warning",
+   "name": "Ninetales-Alola"
+  },
+  "ninjask": {
+   "abilities": [
+    "Speed Boost"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Ninjask"
+  },
+  "noctowl": {
+   "abilities": [
+    "Insomnia",
+    "Keen Eye"
+   ],
+   "hidden": "Tinted Lens",
+   "name": "Noctowl"
+  },
+  "nohface": {
+   "abilities": [
+    "Frisk",
+    "Limber"
+   ],
+   "hidden": "Unnerve",
+   "name": "Nohface"
+  },
+  "noibat": {
+   "abilities": [
+    "Frisk",
+    "Infiltrator"
+   ],
+   "hidden": "Telepathy",
+   "name": "Noibat"
+  },
+  "noivern": {
+   "abilities": [
+    "Frisk",
+    "Infiltrator"
+   ],
+   "hidden": "Telepathy",
+   "name": "Noivern"
+  },
+  "nosepass": {
+   "abilities": [
+    "Sturdy",
+    "Magnet Pull"
+   ],
+   "hidden": "Sand Force",
+   "name": "Nosepass"
+  },
+  "numel": {
+   "abilities": [
+    "Oblivious",
+    "Simple"
+   ],
+   "hidden": "Own Tempo",
+   "name": "Numel"
+  },
+  "nuzleaf": {
+   "abilities": [
+    "Chlorophyll",
+    "Early Bird"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Nuzleaf"
+  },
+  "nymble": {
+   "abilities": [
+    "Swarm"
+   ],
+   "hidden": "Tinted Lens",
+   "name": "Nymble"
+  },
+  "obliteryx": {
+   "abilities": [
+    "Opportunist",
+    "Early Bird"
+   ],
+   "hidden": "Sniper",
+   "name": "Obliteryx"
+  },
+  "obstagoon": {
+   "abilities": [
+    "Reckless",
+    "Guts"
+   ],
+   "hidden": "Defiant",
+   "name": "Obstagoon"
+  },
+  "octillery": {
+   "abilities": [
+    "Suction Cups",
+    "Sniper"
+   ],
+   "hidden": "Moody",
+   "name": "Octillery"
+  },
+  "oddish": {
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden": "Run Away",
+   "name": "Oddish"
+  },
+  "ogerpon": {
+   "abilities": [
+    "Defiant"
+   ],
+   "hidden": "",
+   "name": "Ogerpon"
+  },
+  "ogerponcornerstone": {
+   "abilities": [
+    "Sturdy"
+   ],
+   "hidden": "",
+   "name": "Ogerpon-Cornerstone"
+  },
+  "ogerponcornerstonetera": {
+   "abilities": [
+    "Embody Aspect (Cornerstone)"
+   ],
+   "hidden": "",
+   "name": "Ogerpon-Cornerstone-Tera"
+  },
+  "ogerponhearthflame": {
+   "abilities": [
+    "Mold Breaker"
+   ],
+   "hidden": "",
+   "name": "Ogerpon-Hearthflame"
+  },
+  "ogerponhearthflametera": {
+   "abilities": [
+    "Embody Aspect (Hearthflame)"
+   ],
+   "hidden": "",
+   "name": "Ogerpon-Hearthflame-Tera"
+  },
+  "ogerpontealtera": {
+   "abilities": [
+    "Embody Aspect (Teal)"
+   ],
+   "hidden": "",
+   "name": "Ogerpon-Teal-Tera"
+  },
+  "ogerponwellspring": {
+   "abilities": [
+    "Water Absorb"
+   ],
+   "hidden": "",
+   "name": "Ogerpon-Wellspring"
+  },
+  "ogerponwellspringtera": {
+   "abilities": [
+    "Embody Aspect (Wellspring)"
+   ],
+   "hidden": "",
+   "name": "Ogerpon-Wellspring-Tera"
+  },
+  "oinkologne": {
+   "abilities": [
+    "Lingering Aroma",
+    "Gluttony"
+   ],
+   "hidden": "Thick Fat",
+   "name": "Oinkologne"
+  },
+  "oinkolognef": {
+   "abilities": [
+    "Aroma Veil",
+    "Gluttony"
+   ],
+   "hidden": "Thick Fat",
+   "name": "Oinkologne-F"
+  },
+  "okidogi": {
+   "abilities": [
+    "Toxic Chain"
+   ],
+   "hidden": "Guard Dog",
+   "name": "Okidogi"
+  },
+  "omanyte": {
+   "abilities": [
+    "Swift Swim",
+    "Shell Armor"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Omanyte"
+  },
+  "omastar": {
+   "abilities": [
+    "Swift Swim",
+    "Shell Armor"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Omastar"
+  },
+  "onix": {
+   "abilities": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Onix"
+  },
+  "oranguru": {
+   "abilities": [
+    "Inner Focus",
+    "Telepathy"
+   ],
+   "hidden": "Symbiosis",
+   "name": "Oranguru"
+  },
+  "orbeetle": {
+   "abilities": [
+    "Swarm",
+    "Frisk"
+   ],
+   "hidden": "Telepathy",
+   "name": "Orbeetle"
+  },
+  "orbeetlegmax": {
+   "abilities": [
+    "Swarm",
+    "Frisk"
+   ],
+   "hidden": "Telepathy",
+   "name": "Orbeetle-Gmax"
+  },
+  "oricorio": {
+   "abilities": [
+    "Dancer"
+   ],
+   "hidden": "",
+   "name": "Oricorio"
+  },
+  "oricoriopau": {
+   "abilities": [
+    "Dancer"
+   ],
+   "hidden": "",
+   "name": "Oricorio-Pa'u"
+  },
+  "oricoriopompom": {
+   "abilities": [
+    "Dancer"
+   ],
+   "hidden": "",
+   "name": "Oricorio-Pom-Pom"
+  },
+  "oricoriosensu": {
+   "abilities": [
+    "Dancer"
+   ],
+   "hidden": "",
+   "name": "Oricorio-Sensu"
+  },
+  "orthworm": {
+   "abilities": [
+    "Earth Eater"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Orthworm"
+  },
+  "oshawott": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Shell Armor",
+   "name": "Oshawott"
+  },
+  "overqwil": {
+   "abilities": [
+    "Poison Point",
+    "Swift Swim"
+   ],
+   "hidden": "Intimidate",
+   "name": "Overqwil"
+  },
+  "pachirisu": {
+   "abilities": [
+    "Run Away",
+    "Pickup"
+   ],
+   "hidden": "Volt Absorb",
+   "name": "Pachirisu"
+  },
+  "pajantom": {
+   "abilities": [
+    "Comatose"
+   ],
+   "hidden": "",
+   "name": "Pajantom"
+  },
+  "palafin": {
+   "abilities": [
+    "Zero to Hero"
+   ],
+   "hidden": "",
+   "name": "Palafin"
+  },
+  "palafinhero": {
+   "abilities": [
+    "Zero to Hero"
+   ],
+   "hidden": "",
+   "name": "Palafin-Hero"
+  },
+  "palkia": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Telepathy",
+   "name": "Palkia"
+  },
+  "palkiaorigin": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Telepathy",
+   "name": "Palkia-Origin"
+  },
+  "palossand": {
+   "abilities": [
+    "Water Compaction"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Palossand"
+  },
+  "palpitoad": {
+   "abilities": [
+    "Swift Swim",
+    "Hydration"
+   ],
+   "hidden": "Water Absorb",
+   "name": "Palpitoad"
+  },
+  "pancham": {
+   "abilities": [
+    "Iron Fist",
+    "Mold Breaker"
+   ],
+   "hidden": "Scrappy",
+   "name": "Pancham"
+  },
+  "pangoro": {
+   "abilities": [
+    "Iron Fist",
+    "Mold Breaker"
+   ],
+   "hidden": "Scrappy",
+   "name": "Pangoro"
+  },
+  "panpour": {
+   "abilities": [
+    "Gluttony"
+   ],
+   "hidden": "Torrent",
+   "name": "Panpour"
+  },
+  "pansage": {
+   "abilities": [
+    "Gluttony"
+   ],
+   "hidden": "Overgrow",
+   "name": "Pansage"
+  },
+  "pansear": {
+   "abilities": [
+    "Gluttony"
+   ],
+   "hidden": "Blaze",
+   "name": "Pansear"
+  },
+  "paras": {
+   "abilities": [
+    "Effect Spore",
+    "Dry Skin"
+   ],
+   "hidden": "Damp",
+   "name": "Paras"
+  },
+  "parasect": {
+   "abilities": [
+    "Effect Spore",
+    "Dry Skin"
+   ],
+   "hidden": "Damp",
+   "name": "Parasect"
+  },
+  "passimian": {
+   "abilities": [
+    "Receiver"
+   ],
+   "hidden": "Defiant",
+   "name": "Passimian"
+  },
+  "patrat": {
+   "abilities": [
+    "Run Away",
+    "Keen Eye"
+   ],
+   "hidden": "Analytic",
+   "name": "Patrat"
+  },
+  "pawmi": {
+   "abilities": [
+    "Static",
+    "Natural Cure"
+   ],
+   "hidden": "Iron Fist",
+   "name": "Pawmi"
+  },
+  "pawmo": {
+   "abilities": [
+    "Volt Absorb",
+    "Natural Cure"
+   ],
+   "hidden": "Iron Fist",
+   "name": "Pawmo"
+  },
+  "pawmot": {
+   "abilities": [
+    "Volt Absorb",
+    "Natural Cure"
+   ],
+   "hidden": "Iron Fist",
+   "name": "Pawmot"
+  },
+  "pawniard": {
+   "abilities": [
+    "Defiant",
+    "Inner Focus"
+   ],
+   "hidden": "Pressure",
+   "name": "Pawniard"
+  },
+  "pecharunt": {
+   "abilities": [
+    "Poison Puppeteer"
+   ],
+   "hidden": "",
+   "name": "Pecharunt"
+  },
+  "pelipper": {
+   "abilities": [
+    "Keen Eye",
+    "Drizzle"
+   ],
+   "hidden": "Rain Dish",
+   "name": "Pelipper"
+  },
+  "perrserker": {
+   "abilities": [
+    "Battle Armor",
+    "Tough Claws"
+   ],
+   "hidden": "Steely Spirit",
+   "name": "Perrserker"
+  },
+  "persian": {
+   "abilities": [
+    "Limber",
+    "Technician"
+   ],
+   "hidden": "Unnerve",
+   "name": "Persian"
+  },
+  "persianalola": {
+   "abilities": [
+    "Fur Coat",
+    "Technician"
+   ],
+   "hidden": "Rattled",
+   "name": "Persian-Alola"
+  },
+  "petilil": {
+   "abilities": [
+    "Chlorophyll",
+    "Own Tempo"
+   ],
+   "hidden": "Leaf Guard",
+   "name": "Petilil"
+  },
+  "phanpy": {
+   "abilities": [
+    "Pickup"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Phanpy"
+  },
+  "phantump": {
+   "abilities": [
+    "Natural Cure",
+    "Frisk"
+   ],
+   "hidden": "Harvest",
+   "name": "Phantump"
+  },
+  "pheromosa": {
+   "abilities": [
+    "Beast Boost"
+   ],
+   "hidden": "",
+   "name": "Pheromosa"
+  },
+  "phione": {
+   "abilities": [
+    "Hydration"
+   ],
+   "hidden": "",
+   "name": "Phione"
+  },
+  "pichu": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Pichu"
+  },
+  "pichuspikyeared": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "",
+   "name": "Pichu-Spiky-eared"
+  },
+  "pidgeot": {
+   "abilities": [
+    "Keen Eye",
+    "Tangled Feet"
+   ],
+   "hidden": "Big Pecks",
+   "name": "Pidgeot"
+  },
+  "pidgeotmega": {
+   "abilities": [
+    "No Guard"
+   ],
+   "hidden": "",
+   "name": "Pidgeot-Mega"
+  },
+  "pidgeotto": {
+   "abilities": [
+    "Keen Eye",
+    "Tangled Feet"
+   ],
+   "hidden": "Big Pecks",
+   "name": "Pidgeotto"
+  },
+  "pidgey": {
+   "abilities": [
+    "Keen Eye",
+    "Tangled Feet"
+   ],
+   "hidden": "Big Pecks",
+   "name": "Pidgey"
+  },
+  "pidove": {
+   "abilities": [
+    "Big Pecks",
+    "Super Luck"
+   ],
+   "hidden": "Rivalry",
+   "name": "Pidove"
+  },
+  "pignite": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Thick Fat",
+   "name": "Pignite"
+  },
+  "pikachu": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Pikachu"
+  },
+  "pikachualola": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Pikachu-Alola"
+  },
+  "pikachubelle": {
+   "abilities": [
+    "Lightning Rod"
+   ],
+   "hidden": "",
+   "name": "Pikachu-Belle"
+  },
+  "pikachucosplay": {
+   "abilities": [
+    "Lightning Rod"
+   ],
+   "hidden": "",
+   "name": "Pikachu-Cosplay"
+  },
+  "pikachugmax": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Pikachu-Gmax"
+  },
+  "pikachuhoenn": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Pikachu-Hoenn"
+  },
+  "pikachukalos": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Pikachu-Kalos"
+  },
+  "pikachulibre": {
+   "abilities": [
+    "Lightning Rod"
+   ],
+   "hidden": "",
+   "name": "Pikachu-Libre"
+  },
+  "pikachuoriginal": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Pikachu-Original"
+  },
+  "pikachupartner": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Pikachu-Partner"
+  },
+  "pikachuphd": {
+   "abilities": [
+    "Lightning Rod"
+   ],
+   "hidden": "",
+   "name": "Pikachu-PhD"
+  },
+  "pikachupopstar": {
+   "abilities": [
+    "Lightning Rod"
+   ],
+   "hidden": "",
+   "name": "Pikachu-Pop-Star"
+  },
+  "pikachurockstar": {
+   "abilities": [
+    "Lightning Rod"
+   ],
+   "hidden": "",
+   "name": "Pikachu-Rock-Star"
+  },
+  "pikachusinnoh": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Pikachu-Sinnoh"
+  },
+  "pikachustarter": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Pikachu-Starter"
+  },
+  "pikachuunova": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Pikachu-Unova"
+  },
+  "pikachuworld": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Pikachu-World"
+  },
+  "pikipek": {
+   "abilities": [
+    "Keen Eye",
+    "Skill Link"
+   ],
+   "hidden": "Pickup",
+   "name": "Pikipek"
+  },
+  "piloswine": {
+   "abilities": [
+    "Oblivious",
+    "Snow Cloak"
+   ],
+   "hidden": "Thick Fat",
+   "name": "Piloswine"
+  },
+  "pincurchin": {
+   "abilities": [
+    "Lightning Rod"
+   ],
+   "hidden": "Electric Surge",
+   "name": "Pincurchin"
+  },
+  "pineco": {
+   "abilities": [
+    "Sturdy"
+   ],
+   "hidden": "Overcoat",
+   "name": "Pineco"
+  },
+  "pinsir": {
+   "abilities": [
+    "Hyper Cutter",
+    "Mold Breaker"
+   ],
+   "hidden": "Moxie",
+   "name": "Pinsir"
+  },
+  "pinsirmega": {
+   "abilities": [
+    "Aerilate"
+   ],
+   "hidden": "",
+   "name": "Pinsir-Mega"
+  },
+  "piplup": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Competitive",
+   "name": "Piplup"
+  },
+  "plasmanta": {
+   "abilities": [
+    "Storm Drain",
+    "Vital Spirit"
+   ],
+   "hidden": "Telepathy",
+   "name": "Plasmanta"
+  },
+  "pluffle": {
+   "abilities": [
+    "Natural Cure",
+    "Aroma Veil"
+   ],
+   "hidden": "Friend Guard",
+   "name": "Pluffle"
+  },
+  "plusle": {
+   "abilities": [
+    "Plus"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Plusle"
+  },
+  "poipole": {
+   "abilities": [
+    "Beast Boost"
+   ],
+   "hidden": "",
+   "name": "Poipole"
+  },
+  "pokestarblackbelt": {
+   "abilities": [
+    "Huge Power"
+   ],
+   "hidden": "",
+   "name": "Pokestar Black Belt"
+  },
+  "pokestarblackdoor": {
+   "abilities": [
+    "Early Bird"
+   ],
+   "hidden": "",
+   "name": "Pokestar Black Door"
+  },
+  "pokestarbrycenman": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Pokestar Brycen-Man"
+  },
+  "pokestarf00": {
+   "abilities": [
+    "Volt Absorb"
+   ],
+   "hidden": "",
+   "name": "Pokestar F-00"
+  },
+  "pokestarf002": {
+   "abilities": [
+    "Reckless"
+   ],
+   "hidden": "",
+   "name": "Pokestar F-002"
+  },
+  "pokestargiant": {
+   "abilities": [
+    "Huge Power"
+   ],
+   "hidden": "",
+   "name": "Pokestar Giant"
+  },
+  "pokestarhumanoid": {
+   "abilities": [
+    "Insomnia"
+   ],
+   "hidden": "",
+   "name": "Pokestar Humanoid"
+  },
+  "pokestarmonster": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "",
+   "name": "Pokestar Monster"
+  },
+  "pokestarmt": {
+   "abilities": [
+    "Analytic"
+   ],
+   "hidden": "",
+   "name": "Pokestar MT"
+  },
+  "pokestarmt2": {
+   "abilities": [
+    "Flash Fire"
+   ],
+   "hidden": "",
+   "name": "Pokestar MT2"
+  },
+  "pokestarsmeargle": {
+   "abilities": [
+    "Own Tempo",
+    "Technician"
+   ],
+   "hidden": "Moody",
+   "name": "Pokestar Smeargle"
+  },
+  "pokestarspirit": {
+   "abilities": [
+    "Wonder Guard"
+   ],
+   "hidden": "",
+   "name": "Pokestar Spirit"
+  },
+  "pokestartransport": {
+   "abilities": [
+    "Motor Drive"
+   ],
+   "hidden": "",
+   "name": "Pokestar Transport"
+  },
+  "pokestarufo": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Pokestar UFO"
+  },
+  "pokestarufo2": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Pokestar UFO-2"
+  },
+  "pokestarufopropu2": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Pokestar UFO-PropU2"
+  },
+  "pokestarwhitedoor": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "",
+   "name": "Pokestar White Door"
+  },
+  "politoed": {
+   "abilities": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden": "Drizzle",
+   "name": "Politoed"
+  },
+  "poliwag": {
+   "abilities": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Poliwag"
+  },
+  "poliwhirl": {
+   "abilities": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Poliwhirl"
+  },
+  "poliwrath": {
+   "abilities": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Poliwrath"
+  },
+  "poltchageist": {
+   "abilities": [
+    "Hospitality"
+   ],
+   "hidden": "Heatproof",
+   "name": "Poltchageist"
+  },
+  "poltchageistartisan": {
+   "abilities": [
+    "Hospitality"
+   ],
+   "hidden": "Heatproof",
+   "name": "Poltchageist-Artisan"
+  },
+  "polteageist": {
+   "abilities": [
+    "Weak Armor"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Polteageist"
+  },
+  "polteageistantique": {
+   "abilities": [
+    "Weak Armor"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Polteageist-Antique"
+  },
+  "ponyta": {
+   "abilities": [
+    "Run Away",
+    "Flash Fire"
+   ],
+   "hidden": "Flame Body",
+   "name": "Ponyta"
+  },
+  "ponytagalar": {
+   "abilities": [
+    "Run Away",
+    "Pastel Veil"
+   ],
+   "hidden": "Anticipation",
+   "name": "Ponyta-Galar"
+  },
+  "poochyena": {
+   "abilities": [
+    "Run Away",
+    "Quick Feet"
+   ],
+   "hidden": "Rattled",
+   "name": "Poochyena"
+  },
+  "popplio": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Liquid Voice",
+   "name": "Popplio"
+  },
+  "porygon": {
+   "abilities": [
+    "Trace",
+    "Download"
+   ],
+   "hidden": "Analytic",
+   "name": "Porygon"
+  },
+  "porygon2": {
+   "abilities": [
+    "Trace",
+    "Download"
+   ],
+   "hidden": "Analytic",
+   "name": "Porygon2"
+  },
+  "porygonz": {
+   "abilities": [
+    "Adaptability",
+    "Download"
+   ],
+   "hidden": "Analytic",
+   "name": "Porygon-Z"
+  },
+  "primarina": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Liquid Voice",
+   "name": "Primarina"
+  },
+  "primeape": {
+   "abilities": [
+    "Vital Spirit",
+    "Anger Point"
+   ],
+   "hidden": "Defiant",
+   "name": "Primeape"
+  },
+  "prinplup": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Competitive",
+   "name": "Prinplup"
+  },
+  "privatyke": {
+   "abilities": [
+    "Unaware"
+   ],
+   "hidden": "Technician",
+   "name": "Privatyke"
+  },
+  "probopass": {
+   "abilities": [
+    "Sturdy",
+    "Magnet Pull"
+   ],
+   "hidden": "Sand Force",
+   "name": "Probopass"
+  },
+  "protowatt": {
+   "abilities": [
+    "Trace",
+    "Magic Guard"
+   ],
+   "hidden": "Minus",
+   "name": "Protowatt"
+  },
+  "psyduck": {
+   "abilities": [
+    "Damp",
+    "Cloud Nine"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Psyduck"
+  },
+  "pumpkaboo": {
+   "abilities": [
+    "Pickup",
+    "Frisk"
+   ],
+   "hidden": "Insomnia",
+   "name": "Pumpkaboo"
+  },
+  "pumpkaboolarge": {
+   "abilities": [
+    "Pickup",
+    "Frisk"
+   ],
+   "hidden": "Insomnia",
+   "name": "Pumpkaboo-Large"
+  },
+  "pumpkaboosmall": {
+   "abilities": [
+    "Pickup",
+    "Frisk"
+   ],
+   "hidden": "Insomnia",
+   "name": "Pumpkaboo-Small"
+  },
+  "pumpkaboosuper": {
+   "abilities": [
+    "Pickup",
+    "Frisk"
+   ],
+   "hidden": "Insomnia",
+   "name": "Pumpkaboo-Super"
+  },
+  "pupitar": {
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden": "",
+   "name": "Pupitar"
+  },
+  "purrloin": {
+   "abilities": [
+    "Limber",
+    "Unburden"
+   ],
+   "hidden": "Prankster",
+   "name": "Purrloin"
+  },
+  "purugly": {
+   "abilities": [
+    "Thick Fat",
+    "Own Tempo"
+   ],
+   "hidden": "Defiant",
+   "name": "Purugly"
+  },
+  "pyroak": {
+   "abilities": [
+    "Rock Head",
+    "Battle Armor"
+   ],
+   "hidden": "Contrary",
+   "name": "Pyroak"
+  },
+  "pyroar": {
+   "abilities": [
+    "Rivalry",
+    "Unnerve"
+   ],
+   "hidden": "Moxie",
+   "name": "Pyroar"
+  },
+  "pyroarmega": {
+   "abilities": [
+    "Fire Mane"
+   ],
+   "hidden": "",
+   "name": "Pyroar-Mega"
+  },
+  "pyukumuku": {
+   "abilities": [
+    "Innards Out"
+   ],
+   "hidden": "Unaware",
+   "name": "Pyukumuku"
+  },
+  "quagsire": {
+   "abilities": [
+    "Damp",
+    "Water Absorb"
+   ],
+   "hidden": "Unaware",
+   "name": "Quagsire"
+  },
+  "quaquaval": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Moxie",
+   "name": "Quaquaval"
+  },
+  "quaxly": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Moxie",
+   "name": "Quaxly"
+  },
+  "quaxwell": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Moxie",
+   "name": "Quaxwell"
+  },
+  "quilava": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Flash Fire",
+   "name": "Quilava"
+  },
+  "quilladin": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Bulletproof",
+   "name": "Quilladin"
+  },
+  "qwilfish": {
+   "abilities": [
+    "Poison Point",
+    "Swift Swim"
+   ],
+   "hidden": "Intimidate",
+   "name": "Qwilfish"
+  },
+  "qwilfishhisui": {
+   "abilities": [
+    "Poison Point",
+    "Swift Swim"
+   ],
+   "hidden": "Intimidate",
+   "name": "Qwilfish-Hisui"
+  },
+  "raboot": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Libero",
+   "name": "Raboot"
+  },
+  "rabsca": {
+   "abilities": [
+    "Synchronize"
+   ],
+   "hidden": "Telepathy",
+   "name": "Rabsca"
+  },
+  "ragingbolt": {
+   "abilities": [
+    "Protosynthesis"
+   ],
+   "hidden": "",
+   "name": "Raging Bolt"
+  },
+  "raichu": {
+   "abilities": [
+    "Static"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Raichu"
+  },
+  "raichualola": {
+   "abilities": [
+    "Surge Surfer"
+   ],
+   "hidden": "",
+   "name": "Raichu-Alola"
+  },
+  "raichumegax": {
+   "abilities": [
+    "Electric Surge"
+   ],
+   "hidden": "",
+   "name": "Raichu-Mega-X"
+  },
+  "raichumegay": {
+   "abilities": [
+    "No Guard"
+   ],
+   "hidden": "",
+   "name": "Raichu-Mega-Y"
+  },
+  "raikou": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Inner Focus",
+   "name": "Raikou"
+  },
+  "ralts": {
+   "abilities": [
+    "Synchronize",
+    "Trace"
+   ],
+   "hidden": "Telepathy",
+   "name": "Ralts"
+  },
+  "ramnarok": {
+   "abilities": [
+    "No Guard"
+   ],
+   "hidden": "",
+   "name": "Ramnarok"
+  },
+  "ramnarokradiant": {
+   "abilities": [
+    "No Guard"
+   ],
+   "hidden": "",
+   "name": "Ramnarok-Radiant"
+  },
+  "rampardos": {
+   "abilities": [
+    "Mold Breaker"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Rampardos"
+  },
+  "rapidash": {
+   "abilities": [
+    "Run Away",
+    "Flash Fire"
+   ],
+   "hidden": "Flame Body",
+   "name": "Rapidash"
+  },
+  "rapidashgalar": {
+   "abilities": [
+    "Run Away",
+    "Pastel Veil"
+   ],
+   "hidden": "Anticipation",
+   "name": "Rapidash-Galar"
+  },
+  "raticate": {
+   "abilities": [
+    "Run Away",
+    "Guts"
+   ],
+   "hidden": "Hustle",
+   "name": "Raticate"
+  },
+  "raticatealola": {
+   "abilities": [
+    "Gluttony",
+    "Hustle"
+   ],
+   "hidden": "Thick Fat",
+   "name": "Raticate-Alola"
+  },
+  "raticatealolatotem": {
+   "abilities": [
+    "Thick Fat"
+   ],
+   "hidden": "",
+   "name": "Raticate-Alola-Totem"
+  },
+  "rattata": {
+   "abilities": [
+    "Run Away",
+    "Guts"
+   ],
+   "hidden": "Hustle",
+   "name": "Rattata"
+  },
+  "rattataalola": {
+   "abilities": [
+    "Gluttony",
+    "Hustle"
+   ],
+   "hidden": "Thick Fat",
+   "name": "Rattata-Alola"
+  },
+  "rayquaza": {
+   "abilities": [
+    "Air Lock"
+   ],
+   "hidden": "",
+   "name": "Rayquaza"
+  },
+  "rayquazamega": {
+   "abilities": [
+    "Delta Stream"
+   ],
+   "hidden": "",
+   "name": "Rayquaza-Mega"
+  },
+  "rebble": {
+   "abilities": [
+    "Levitate",
+    "Solid Rock"
+   ],
+   "hidden": "Sniper",
+   "name": "Rebble"
+  },
+  "regice": {
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden": "Ice Body",
+   "name": "Regice"
+  },
+  "regidrago": {
+   "abilities": [
+    "Dragon's Maw"
+   ],
+   "hidden": "",
+   "name": "Regidrago"
+  },
+  "regieleki": {
+   "abilities": [
+    "Transistor"
+   ],
+   "hidden": "",
+   "name": "Regieleki"
+  },
+  "regigigas": {
+   "abilities": [
+    "Slow Start"
+   ],
+   "hidden": "",
+   "name": "Regigigas"
+  },
+  "regirock": {
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden": "Sturdy",
+   "name": "Regirock"
+  },
+  "registeel": {
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden": "Light Metal",
+   "name": "Registeel"
+  },
+  "relicanth": {
+   "abilities": [
+    "Swift Swim",
+    "Rock Head"
+   ],
+   "hidden": "Sturdy",
+   "name": "Relicanth"
+  },
+  "rellor": {
+   "abilities": [
+    "Compound Eyes"
+   ],
+   "hidden": "Shed Skin",
+   "name": "Rellor"
+  },
+  "remoraid": {
+   "abilities": [
+    "Hustle",
+    "Sniper"
+   ],
+   "hidden": "Moody",
+   "name": "Remoraid"
+  },
+  "reshiram": {
+   "abilities": [
+    "Turboblaze"
+   ],
+   "hidden": "",
+   "name": "Reshiram"
+  },
+  "reuniclus": {
+   "abilities": [
+    "Overcoat",
+    "Magic Guard"
+   ],
+   "hidden": "Regenerator",
+   "name": "Reuniclus"
+  },
+  "revavroom": {
+   "abilities": [
+    "Overcoat"
+   ],
+   "hidden": "Filter",
+   "name": "Revavroom"
+  },
+  "revenankh": {
+   "abilities": [
+    "Air Lock",
+    "Triage"
+   ],
+   "hidden": "Shed Skin",
+   "name": "Revenankh"
+  },
+  "rhydon": {
+   "abilities": [
+    "Lightning Rod",
+    "Rock Head"
+   ],
+   "hidden": "Reckless",
+   "name": "Rhydon"
+  },
+  "rhyhorn": {
+   "abilities": [
+    "Lightning Rod",
+    "Rock Head"
+   ],
+   "hidden": "Reckless",
+   "name": "Rhyhorn"
+  },
+  "rhyperior": {
+   "abilities": [
+    "Lightning Rod",
+    "Solid Rock"
+   ],
+   "hidden": "Reckless",
+   "name": "Rhyperior"
+  },
+  "ribombee": {
+   "abilities": [
+    "Honey Gather",
+    "Shield Dust"
+   ],
+   "hidden": "Sweet Veil",
+   "name": "Ribombee"
+  },
+  "ribombeetotem": {
+   "abilities": [
+    "Sweet Veil"
+   ],
+   "hidden": "",
+   "name": "Ribombee-Totem"
+  },
+  "rillaboom": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Grassy Surge",
+   "name": "Rillaboom"
+  },
+  "rillaboomgmax": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Grassy Surge",
+   "name": "Rillaboom-Gmax"
+  },
+  "riolu": {
+   "abilities": [
+    "Steadfast",
+    "Inner Focus"
+   ],
+   "hidden": "Prankster",
+   "name": "Riolu"
+  },
+  "roaringmoon": {
+   "abilities": [
+    "Protosynthesis"
+   ],
+   "hidden": "",
+   "name": "Roaring Moon"
+  },
+  "rockruff": {
+   "abilities": [
+    "Keen Eye",
+    "Vital Spirit"
+   ],
+   "hidden": "Steadfast",
+   "name": "Rockruff"
+  },
+  "rockruffdusk": {
+   "abilities": [
+    "Own Tempo"
+   ],
+   "hidden": "",
+   "name": "Rockruff-Dusk"
+  },
+  "roggenrola": {
+   "abilities": [
+    "Sturdy",
+    "Weak Armor"
+   ],
+   "hidden": "Sand Force",
+   "name": "Roggenrola"
+  },
+  "rolycoly": {
+   "abilities": [
+    "Steam Engine",
+    "Heatproof"
+   ],
+   "hidden": "Flash Fire",
+   "name": "Rolycoly"
+  },
+  "rookidee": {
+   "abilities": [
+    "Keen Eye",
+    "Unnerve"
+   ],
+   "hidden": "Big Pecks",
+   "name": "Rookidee"
+  },
+  "roselia": {
+   "abilities": [
+    "Natural Cure",
+    "Poison Point"
+   ],
+   "hidden": "Leaf Guard",
+   "name": "Roselia"
+  },
+  "roserade": {
+   "abilities": [
+    "Natural Cure",
+    "Poison Point"
+   ],
+   "hidden": "Technician",
+   "name": "Roserade"
+  },
+  "rotom": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Rotom"
+  },
+  "rotomfan": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Rotom-Fan"
+  },
+  "rotomfrost": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Rotom-Frost"
+  },
+  "rotomheat": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Rotom-Heat"
+  },
+  "rotommow": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Rotom-Mow"
+  },
+  "rotomwash": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Rotom-Wash"
+  },
+  "rowlet": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Long Reach",
+   "name": "Rowlet"
+  },
+  "rufflet": {
+   "abilities": [
+    "Keen Eye",
+    "Sheer Force"
+   ],
+   "hidden": "Hustle",
+   "name": "Rufflet"
+  },
+  "runerigus": {
+   "abilities": [
+    "Wandering Spirit"
+   ],
+   "hidden": "",
+   "name": "Runerigus"
+  },
+  "sableye": {
+   "abilities": [
+    "Keen Eye",
+    "Stall"
+   ],
+   "hidden": "Prankster",
+   "name": "Sableye"
+  },
+  "sableyemega": {
+   "abilities": [
+    "Magic Bounce"
+   ],
+   "hidden": "",
+   "name": "Sableye-Mega"
+  },
+  "saharaja": {
+   "abilities": [
+    "Water Absorb",
+    "Serene Grace"
+   ],
+   "hidden": "Sand Spit",
+   "name": "Saharaja"
+  },
+  "saharascal": {
+   "abilities": [
+    "Water Absorb",
+    "Pickpocket"
+   ],
+   "hidden": "Sand Spit",
+   "name": "Saharascal"
+  },
+  "salamence": {
+   "abilities": [
+    "Intimidate"
+   ],
+   "hidden": "Moxie",
+   "name": "Salamence"
+  },
+  "salamencemega": {
+   "abilities": [
+    "Aerilate"
+   ],
+   "hidden": "",
+   "name": "Salamence-Mega"
+  },
+  "salandit": {
+   "abilities": [
+    "Corrosion"
+   ],
+   "hidden": "Oblivious",
+   "name": "Salandit"
+  },
+  "salazzle": {
+   "abilities": [
+    "Corrosion"
+   ],
+   "hidden": "Oblivious",
+   "name": "Salazzle"
+  },
+  "salazzletotem": {
+   "abilities": [
+    "Corrosion"
+   ],
+   "hidden": "",
+   "name": "Salazzle-Totem"
+  },
+  "samurott": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Shell Armor",
+   "name": "Samurott"
+  },
+  "samurotthisui": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Sharpness",
+   "name": "Samurott-Hisui"
+  },
+  "sandaconda": {
+   "abilities": [
+    "Sand Spit",
+    "Shed Skin"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Sandaconda"
+  },
+  "sandacondagmax": {
+   "abilities": [
+    "Sand Spit",
+    "Shed Skin"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Sandaconda-Gmax"
+  },
+  "sandile": {
+   "abilities": [
+    "Intimidate",
+    "Moxie"
+   ],
+   "hidden": "Anger Point",
+   "name": "Sandile"
+  },
+  "sandshrew": {
+   "abilities": [
+    "Sand Veil"
+   ],
+   "hidden": "Sand Rush",
+   "name": "Sandshrew"
+  },
+  "sandshrewalola": {
+   "abilities": [
+    "Snow Cloak"
+   ],
+   "hidden": "Slush Rush",
+   "name": "Sandshrew-Alola"
+  },
+  "sandslash": {
+   "abilities": [
+    "Sand Veil"
+   ],
+   "hidden": "Sand Rush",
+   "name": "Sandslash"
+  },
+  "sandslashalola": {
+   "abilities": [
+    "Snow Cloak"
+   ],
+   "hidden": "Slush Rush",
+   "name": "Sandslash-Alola"
+  },
+  "sandygast": {
+   "abilities": [
+    "Water Compaction"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Sandygast"
+  },
+  "sandyshocks": {
+   "abilities": [
+    "Protosynthesis"
+   ],
+   "hidden": "",
+   "name": "Sandy Shocks"
+  },
+  "sawk": {
+   "abilities": [
+    "Sturdy",
+    "Inner Focus"
+   ],
+   "hidden": "Mold Breaker",
+   "name": "Sawk"
+  },
+  "sawsbuck": {
+   "abilities": [
+    "Chlorophyll",
+    "Sap Sipper"
+   ],
+   "hidden": "Serene Grace",
+   "name": "Sawsbuck"
+  },
+  "scatterbug": {
+   "abilities": [
+    "Shield Dust",
+    "Compound Eyes"
+   ],
+   "hidden": "Friend Guard",
+   "name": "Scatterbug"
+  },
+  "scattervein": {
+   "abilities": [
+    "Pixilate",
+    "Intimidate"
+   ],
+   "hidden": "Own Tempo",
+   "name": "Scattervein"
+  },
+  "sceptile": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Unburden",
+   "name": "Sceptile"
+  },
+  "sceptilemega": {
+   "abilities": [
+    "Lightning Rod"
+   ],
+   "hidden": "",
+   "name": "Sceptile-Mega"
+  },
+  "scizor": {
+   "abilities": [
+    "Swarm",
+    "Technician"
+   ],
+   "hidden": "Light Metal",
+   "name": "Scizor"
+  },
+  "scizormega": {
+   "abilities": [
+    "Technician"
+   ],
+   "hidden": "",
+   "name": "Scizor-Mega"
+  },
+  "scolipede": {
+   "abilities": [
+    "Poison Point",
+    "Swarm"
+   ],
+   "hidden": "Speed Boost",
+   "name": "Scolipede"
+  },
+  "scolipedemega": {
+   "abilities": [
+    "Shell Armor"
+   ],
+   "hidden": "",
+   "name": "Scolipede-Mega"
+  },
+  "scorbunny": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Libero",
+   "name": "Scorbunny"
+  },
+  "scovillain": {
+   "abilities": [
+    "Chlorophyll",
+    "Insomnia"
+   ],
+   "hidden": "Moody",
+   "name": "Scovillain"
+  },
+  "scovillainmega": {
+   "abilities": [
+    "Spicy Spray"
+   ],
+   "hidden": "",
+   "name": "Scovillain-Mega"
+  },
+  "scrafty": {
+   "abilities": [
+    "Shed Skin",
+    "Moxie"
+   ],
+   "hidden": "Intimidate",
+   "name": "Scrafty"
+  },
+  "scraftymega": {
+   "abilities": [
+    "Intimidate"
+   ],
+   "hidden": "",
+   "name": "Scrafty-Mega"
+  },
+  "scraggy": {
+   "abilities": [
+    "Shed Skin",
+    "Moxie"
+   ],
+   "hidden": "Intimidate",
+   "name": "Scraggy"
+  },
+  "scraptor": {
+   "abilities": [
+    "Opportunist",
+    "Early Bird"
+   ],
+   "hidden": "Pickup",
+   "name": "Scraptor"
+  },
+  "scratchet": {
+   "abilities": [
+    "Scrappy",
+    "Prankster"
+   ],
+   "hidden": "Vital Spirit",
+   "name": "Scratchet"
+  },
+  "screamtail": {
+   "abilities": [
+    "Protosynthesis"
+   ],
+   "hidden": "",
+   "name": "Scream Tail"
+  },
+  "scyther": {
+   "abilities": [
+    "Swarm",
+    "Technician"
+   ],
+   "hidden": "Steadfast",
+   "name": "Scyther"
+  },
+  "seadra": {
+   "abilities": [
+    "Poison Point",
+    "Sniper"
+   ],
+   "hidden": "Damp",
+   "name": "Seadra"
+  },
+  "seaking": {
+   "abilities": [
+    "Swift Swim",
+    "Water Veil"
+   ],
+   "hidden": "Lightning Rod",
+   "name": "Seaking"
+  },
+  "sealeo": {
+   "abilities": [
+    "Thick Fat",
+    "Ice Body"
+   ],
+   "hidden": "Oblivious",
+   "name": "Sealeo"
+  },
+  "seedot": {
+   "abilities": [
+    "Chlorophyll",
+    "Early Bird"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Seedot"
+  },
+  "seel": {
+   "abilities": [
+    "Thick Fat",
+    "Hydration"
+   ],
+   "hidden": "Ice Body",
+   "name": "Seel"
+  },
+  "seismitoad": {
+   "abilities": [
+    "Swift Swim",
+    "Poison Touch"
+   ],
+   "hidden": "Water Absorb",
+   "name": "Seismitoad"
+  },
+  "sentret": {
+   "abilities": [
+    "Run Away",
+    "Keen Eye"
+   ],
+   "hidden": "Frisk",
+   "name": "Sentret"
+  },
+  "serperior": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Contrary",
+   "name": "Serperior"
+  },
+  "servine": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Contrary",
+   "name": "Servine"
+  },
+  "seviper": {
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Seviper"
+  },
+  "sewaddle": {
+   "abilities": [
+    "Swarm",
+    "Chlorophyll"
+   ],
+   "hidden": "Overcoat",
+   "name": "Sewaddle"
+  },
+  "sharpedo": {
+   "abilities": [
+    "Rough Skin"
+   ],
+   "hidden": "Speed Boost",
+   "name": "Sharpedo"
+  },
+  "sharpedomega": {
+   "abilities": [
+    "Strong Jaw"
+   ],
+   "hidden": "",
+   "name": "Sharpedo-Mega"
+  },
+  "shaymin": {
+   "abilities": [
+    "Natural Cure"
+   ],
+   "hidden": "",
+   "name": "Shaymin"
+  },
+  "shayminsky": {
+   "abilities": [
+    "Serene Grace"
+   ],
+   "hidden": "",
+   "name": "Shaymin-Sky"
+  },
+  "shedinja": {
+   "abilities": [
+    "Wonder Guard"
+   ],
+   "hidden": "",
+   "name": "Shedinja"
+  },
+  "shelgon": {
+   "abilities": [
+    "Rock Head"
+   ],
+   "hidden": "Overcoat",
+   "name": "Shelgon"
+  },
+  "shellder": {
+   "abilities": [
+    "Shell Armor",
+    "Skill Link"
+   ],
+   "hidden": "Overcoat",
+   "name": "Shellder"
+  },
+  "shellos": {
+   "abilities": [
+    "Sticky Hold",
+    "Storm Drain"
+   ],
+   "hidden": "Sand Force",
+   "name": "Shellos"
+  },
+  "shelmet": {
+   "abilities": [
+    "Hydration",
+    "Shell Armor"
+   ],
+   "hidden": "Overcoat",
+   "name": "Shelmet"
+  },
+  "shieldon": {
+   "abilities": [
+    "Sturdy"
+   ],
+   "hidden": "Soundproof",
+   "name": "Shieldon"
+  },
+  "shiftry": {
+   "abilities": [
+    "Chlorophyll",
+    "Wind Rider"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Shiftry"
+  },
+  "shiinotic": {
+   "abilities": [
+    "Illuminate",
+    "Effect Spore"
+   ],
+   "hidden": "Rain Dish",
+   "name": "Shiinotic"
+  },
+  "shinx": {
+   "abilities": [
+    "Rivalry",
+    "Intimidate"
+   ],
+   "hidden": "Guts",
+   "name": "Shinx"
+  },
+  "shox": {
+   "abilities": [
+    "Electromorphosis",
+    "Sticky Hold"
+   ],
+   "hidden": "Cud Chew",
+   "name": "Shox"
+  },
+  "shroodle": {
+   "abilities": [
+    "Unburden",
+    "Pickpocket"
+   ],
+   "hidden": "Prankster",
+   "name": "Shroodle"
+  },
+  "shroomish": {
+   "abilities": [
+    "Effect Spore",
+    "Poison Heal"
+   ],
+   "hidden": "Quick Feet",
+   "name": "Shroomish"
+  },
+  "shuckle": {
+   "abilities": [
+    "Sturdy",
+    "Gluttony"
+   ],
+   "hidden": "Contrary",
+   "name": "Shuckle"
+  },
+  "shuppet": {
+   "abilities": [
+    "Insomnia",
+    "Frisk"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Shuppet"
+  },
+  "sigilyph": {
+   "abilities": [
+    "Wonder Skin",
+    "Magic Guard"
+   ],
+   "hidden": "Tinted Lens",
+   "name": "Sigilyph"
+  },
+  "silcoon": {
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden": "",
+   "name": "Silcoon"
+  },
+  "silicobra": {
+   "abilities": [
+    "Sand Spit",
+    "Shed Skin"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Silicobra"
+  },
+  "silvally": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally"
+  },
+  "silvallybug": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Bug"
+  },
+  "silvallydark": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Dark"
+  },
+  "silvallydragon": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Dragon"
+  },
+  "silvallyelectric": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Electric"
+  },
+  "silvallyfairy": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Fairy"
+  },
+  "silvallyfighting": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Fighting"
+  },
+  "silvallyfire": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Fire"
+  },
+  "silvallyflying": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Flying"
+  },
+  "silvallyghost": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Ghost"
+  },
+  "silvallygrass": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Grass"
+  },
+  "silvallyground": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Ground"
+  },
+  "silvallyice": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Ice"
+  },
+  "silvallypoison": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Poison"
+  },
+  "silvallypsychic": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Psychic"
+  },
+  "silvallyrock": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Rock"
+  },
+  "silvallysteel": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Steel"
+  },
+  "silvallywater": {
+   "abilities": [
+    "RKS System"
+   ],
+   "hidden": "",
+   "name": "Silvally-Water"
+  },
+  "simipour": {
+   "abilities": [
+    "Gluttony"
+   ],
+   "hidden": "Torrent",
+   "name": "Simipour"
+  },
+  "simisage": {
+   "abilities": [
+    "Gluttony"
+   ],
+   "hidden": "Overgrow",
+   "name": "Simisage"
+  },
+  "simisear": {
+   "abilities": [
+    "Gluttony"
+   ],
+   "hidden": "Blaze",
+   "name": "Simisear"
+  },
+  "sinistcha": {
+   "abilities": [
+    "Hospitality"
+   ],
+   "hidden": "Heatproof",
+   "name": "Sinistcha"
+  },
+  "sinistchamasterpiece": {
+   "abilities": [
+    "Hospitality"
+   ],
+   "hidden": "Heatproof",
+   "name": "Sinistcha-Masterpiece"
+  },
+  "sinistea": {
+   "abilities": [
+    "Weak Armor"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Sinistea"
+  },
+  "sinisteaantique": {
+   "abilities": [
+    "Weak Armor"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Sinistea-Antique"
+  },
+  "sirfetchd": {
+   "abilities": [
+    "Steadfast"
+   ],
+   "hidden": "Scrappy",
+   "name": "Sirfetchu2019d"
+  },
+  "sizzlipede": {
+   "abilities": [
+    "Flash Fire",
+    "White Smoke"
+   ],
+   "hidden": "Flame Body",
+   "name": "Sizzlipede"
+  },
+  "skarmory": {
+   "abilities": [
+    "Keen Eye",
+    "Sturdy"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Skarmory"
+  },
+  "skarmorymega": {
+   "abilities": [
+    "Stalwart"
+   ],
+   "hidden": "",
+   "name": "Skarmory-Mega"
+  },
+  "skeledirge": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Unaware",
+   "name": "Skeledirge"
+  },
+  "skiddo": {
+   "abilities": [
+    "Sap Sipper"
+   ],
+   "hidden": "Grass Pelt",
+   "name": "Skiddo"
+  },
+  "skiploom": {
+   "abilities": [
+    "Chlorophyll",
+    "Leaf Guard"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Skiploom"
+  },
+  "skitty": {
+   "abilities": [
+    "Cute Charm",
+    "Normalize"
+   ],
+   "hidden": "Wonder Skin",
+   "name": "Skitty"
+  },
+  "skorupi": {
+   "abilities": [
+    "Battle Armor",
+    "Sniper"
+   ],
+   "hidden": "Keen Eye",
+   "name": "Skorupi"
+  },
+  "skrelp": {
+   "abilities": [
+    "Poison Point",
+    "Poison Touch"
+   ],
+   "hidden": "Adaptability",
+   "name": "Skrelp"
+  },
+  "skuntank": {
+   "abilities": [
+    "Stench",
+    "Aftermath"
+   ],
+   "hidden": "Keen Eye",
+   "name": "Skuntank"
+  },
+  "skwovet": {
+   "abilities": [
+    "Cheek Pouch"
+   ],
+   "hidden": "Gluttony",
+   "name": "Skwovet"
+  },
+  "slaking": {
+   "abilities": [
+    "Truant"
+   ],
+   "hidden": "",
+   "name": "Slaking"
+  },
+  "slakoth": {
+   "abilities": [
+    "Truant"
+   ],
+   "hidden": "",
+   "name": "Slakoth"
+  },
+  "sliggoo": {
+   "abilities": [
+    "Sap Sipper",
+    "Hydration"
+   ],
+   "hidden": "Gooey",
+   "name": "Sliggoo"
+  },
+  "sliggoohisui": {
+   "abilities": [
+    "Sap Sipper",
+    "Shell Armor"
+   ],
+   "hidden": "Gooey",
+   "name": "Sliggoo-Hisui"
+  },
+  "slitherwing": {
+   "abilities": [
+    "Protosynthesis"
+   ],
+   "hidden": "",
+   "name": "Slither Wing"
+  },
+  "slowbro": {
+   "abilities": [
+    "Oblivious",
+    "Own Tempo"
+   ],
+   "hidden": "Regenerator",
+   "name": "Slowbro"
+  },
+  "slowbrogalar": {
+   "abilities": [
+    "Quick Draw",
+    "Own Tempo"
+   ],
+   "hidden": "Regenerator",
+   "name": "Slowbro-Galar"
+  },
+  "slowbromega": {
+   "abilities": [
+    "Shell Armor"
+   ],
+   "hidden": "",
+   "name": "Slowbro-Mega"
+  },
+  "slowking": {
+   "abilities": [
+    "Oblivious",
+    "Own Tempo"
+   ],
+   "hidden": "Regenerator",
+   "name": "Slowking"
+  },
+  "slowkinggalar": {
+   "abilities": [
+    "Curious Medicine",
+    "Own Tempo"
+   ],
+   "hidden": "Regenerator",
+   "name": "Slowking-Galar"
+  },
+  "slowpoke": {
+   "abilities": [
+    "Oblivious",
+    "Own Tempo"
+   ],
+   "hidden": "Regenerator",
+   "name": "Slowpoke"
+  },
+  "slowpokegalar": {
+   "abilities": [
+    "Gluttony",
+    "Own Tempo"
+   ],
+   "hidden": "Regenerator",
+   "name": "Slowpoke-Galar"
+  },
+  "slugma": {
+   "abilities": [
+    "Magma Armor",
+    "Flame Body"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Slugma"
+  },
+  "slurpuff": {
+   "abilities": [
+    "Sweet Veil"
+   ],
+   "hidden": "Unburden",
+   "name": "Slurpuff"
+  },
+  "smeargle": {
+   "abilities": [
+    "Own Tempo",
+    "Technician"
+   ],
+   "hidden": "Moody",
+   "name": "Smeargle"
+  },
+  "smogecko": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Technician",
+   "name": "Smogecko"
+  },
+  "smoguana": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Technician",
+   "name": "Smoguana"
+  },
+  "smokomodo": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Technician",
+   "name": "Smokomodo"
+  },
+  "smoliv": {
+   "abilities": [
+    "Early Bird"
+   ],
+   "hidden": "Harvest",
+   "name": "Smoliv"
+  },
+  "smoochum": {
+   "abilities": [
+    "Oblivious",
+    "Forewarn"
+   ],
+   "hidden": "Hydration",
+   "name": "Smoochum"
+  },
+  "snaelstrom": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Poison Heal",
+   "name": "Snaelstrom"
+  },
+  "sneasel": {
+   "abilities": [
+    "Inner Focus",
+    "Keen Eye"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Sneasel"
+  },
+  "sneaselhisui": {
+   "abilities": [
+    "Inner Focus",
+    "Keen Eye"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Sneasel-Hisui"
+  },
+  "sneasler": {
+   "abilities": [
+    "Pressure",
+    "Unburden"
+   ],
+   "hidden": "Poison Touch",
+   "name": "Sneasler"
+  },
+  "snivy": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Contrary",
+   "name": "Snivy"
+  },
+  "snom": {
+   "abilities": [
+    "Shield Dust"
+   ],
+   "hidden": "Ice Scales",
+   "name": "Snom"
+  },
+  "snorlax": {
+   "abilities": [
+    "Immunity",
+    "Thick Fat"
+   ],
+   "hidden": "Gluttony",
+   "name": "Snorlax"
+  },
+  "snorlaxgmax": {
+   "abilities": [
+    "Immunity",
+    "Thick Fat"
+   ],
+   "hidden": "Gluttony",
+   "name": "Snorlax-Gmax"
+  },
+  "snorunt": {
+   "abilities": [
+    "Inner Focus",
+    "Ice Body"
+   ],
+   "hidden": "Moody",
+   "name": "Snorunt"
+  },
+  "snover": {
+   "abilities": [
+    "Snow Warning"
+   ],
+   "hidden": "Soundproof",
+   "name": "Snover"
+  },
+  "snubbull": {
+   "abilities": [
+    "Intimidate",
+    "Run Away"
+   ],
+   "hidden": "Rattled",
+   "name": "Snubbull"
+  },
+  "snugglow": {
+   "abilities": [
+    "Storm Drain",
+    "Vital Spirit"
+   ],
+   "hidden": "Telepathy",
+   "name": "Snugglow"
+  },
+  "sobble": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Sniper",
+   "name": "Sobble"
+  },
+  "solgaleo": {
+   "abilities": [
+    "Full Metal Body"
+   ],
+   "hidden": "",
+   "name": "Solgaleo"
+  },
+  "solosis": {
+   "abilities": [
+    "Overcoat",
+    "Magic Guard"
+   ],
+   "hidden": "Regenerator",
+   "name": "Solosis"
+  },
+  "solotl": {
+   "abilities": [
+    "Regenerator",
+    "Vital Spirit"
+   ],
+   "hidden": "Magician",
+   "name": "Solotl"
+  },
+  "solrock": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Solrock"
+  },
+  "spearow": {
+   "abilities": [
+    "Keen Eye"
+   ],
+   "hidden": "Sniper",
+   "name": "Spearow"
+  },
+  "spectrier": {
+   "abilities": [
+    "Grim Neigh"
+   ],
+   "hidden": "",
+   "name": "Spectrier"
+  },
+  "spewpa": {
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden": "Friend Guard",
+   "name": "Spewpa"
+  },
+  "spheal": {
+   "abilities": [
+    "Thick Fat",
+    "Ice Body"
+   ],
+   "hidden": "Oblivious",
+   "name": "Spheal"
+  },
+  "spidops": {
+   "abilities": [
+    "Insomnia"
+   ],
+   "hidden": "Stakeout",
+   "name": "Spidops"
+  },
+  "spinarak": {
+   "abilities": [
+    "Swarm",
+    "Insomnia"
+   ],
+   "hidden": "Sniper",
+   "name": "Spinarak"
+  },
+  "spinda": {
+   "abilities": [
+    "Own Tempo",
+    "Tangled Feet"
+   ],
+   "hidden": "Contrary",
+   "name": "Spinda"
+  },
+  "spiritomb": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Spiritomb"
+  },
+  "spoink": {
+   "abilities": [
+    "Thick Fat",
+    "Own Tempo"
+   ],
+   "hidden": "Gluttony",
+   "name": "Spoink"
+  },
+  "sprigatito": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Protean",
+   "name": "Sprigatito"
+  },
+  "spritzee": {
+   "abilities": [
+    "Healer"
+   ],
+   "hidden": "Aroma Veil",
+   "name": "Spritzee"
+  },
+  "squawkabilly": {
+   "abilities": [
+    "Intimidate",
+    "Hustle"
+   ],
+   "hidden": "Guts",
+   "name": "Squawkabilly"
+  },
+  "squawkabillyblue": {
+   "abilities": [
+    "Intimidate",
+    "Hustle"
+   ],
+   "hidden": "Guts",
+   "name": "Squawkabilly-Blue"
+  },
+  "squawkabillywhite": {
+   "abilities": [
+    "Intimidate",
+    "Hustle"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Squawkabilly-White"
+  },
+  "squawkabillyyellow": {
+   "abilities": [
+    "Intimidate",
+    "Hustle"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Squawkabilly-Yellow"
+  },
+  "squirtle": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Rain Dish",
+   "name": "Squirtle"
+  },
+  "stakataka": {
+   "abilities": [
+    "Beast Boost"
+   ],
+   "hidden": "",
+   "name": "Stakataka"
+  },
+  "stantler": {
+   "abilities": [
+    "Intimidate",
+    "Frisk"
+   ],
+   "hidden": "Sap Sipper",
+   "name": "Stantler"
+  },
+  "staraptor": {
+   "abilities": [
+    "Intimidate"
+   ],
+   "hidden": "Reckless",
+   "name": "Staraptor"
+  },
+  "staraptormega": {
+   "abilities": [
+    "Contrary"
+   ],
+   "hidden": "",
+   "name": "Staraptor-Mega"
+  },
+  "staravia": {
+   "abilities": [
+    "Intimidate"
+   ],
+   "hidden": "Reckless",
+   "name": "Staravia"
+  },
+  "starly": {
+   "abilities": [
+    "Keen Eye"
+   ],
+   "hidden": "Reckless",
+   "name": "Starly"
+  },
+  "starmie": {
+   "abilities": [
+    "Illuminate",
+    "Natural Cure"
+   ],
+   "hidden": "Analytic",
+   "name": "Starmie"
+  },
+  "starmiemega": {
+   "abilities": [
+    "Huge Power"
+   ],
+   "hidden": "",
+   "name": "Starmie-Mega"
+  },
+  "staryu": {
+   "abilities": [
+    "Illuminate",
+    "Natural Cure"
+   ],
+   "hidden": "Analytic",
+   "name": "Staryu"
+  },
+  "steelix": {
+   "abilities": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Steelix"
+  },
+  "steelixmega": {
+   "abilities": [
+    "Sand Force"
+   ],
+   "hidden": "",
+   "name": "Steelix-Mega"
+  },
+  "steenee": {
+   "abilities": [
+    "Leaf Guard",
+    "Oblivious"
+   ],
+   "hidden": "Sweet Veil",
+   "name": "Steenee"
+  },
+  "stonjourner": {
+   "abilities": [
+    "Power Spot"
+   ],
+   "hidden": "",
+   "name": "Stonjourner"
+  },
+  "stoutland": {
+   "abilities": [
+    "Intimidate",
+    "Sand Rush"
+   ],
+   "hidden": "Scrappy",
+   "name": "Stoutland"
+  },
+  "stratagem": {
+   "abilities": [
+    "Levitate",
+    "Technician"
+   ],
+   "hidden": "Sniper",
+   "name": "Stratagem"
+  },
+  "stufful": {
+   "abilities": [
+    "Fluffy",
+    "Klutz"
+   ],
+   "hidden": "Cute Charm",
+   "name": "Stufful"
+  },
+  "stunfisk": {
+   "abilities": [
+    "Static",
+    "Limber"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Stunfisk"
+  },
+  "stunfiskgalar": {
+   "abilities": [
+    "Mimicry"
+   ],
+   "hidden": "",
+   "name": "Stunfisk-Galar"
+  },
+  "stunky": {
+   "abilities": [
+    "Stench",
+    "Aftermath"
+   ],
+   "hidden": "Keen Eye",
+   "name": "Stunky"
+  },
+  "sudowoodo": {
+   "abilities": [
+    "Sturdy",
+    "Rock Head"
+   ],
+   "hidden": "Rattled",
+   "name": "Sudowoodo"
+  },
+  "suicune": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Inner Focus",
+   "name": "Suicune"
+  },
+  "sunflora": {
+   "abilities": [
+    "Chlorophyll",
+    "Solar Power"
+   ],
+   "hidden": "Early Bird",
+   "name": "Sunflora"
+  },
+  "sunkern": {
+   "abilities": [
+    "Chlorophyll",
+    "Solar Power"
+   ],
+   "hidden": "Early Bird",
+   "name": "Sunkern"
+  },
+  "surskit": {
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden": "Rain Dish",
+   "name": "Surskit"
+  },
+  "swablu": {
+   "abilities": [
+    "Natural Cure"
+   ],
+   "hidden": "Cloud Nine",
+   "name": "Swablu"
+  },
+  "swadloon": {
+   "abilities": [
+    "Leaf Guard",
+    "Chlorophyll"
+   ],
+   "hidden": "Overcoat",
+   "name": "Swadloon"
+  },
+  "swalot": {
+   "abilities": [
+    "Liquid Ooze",
+    "Sticky Hold"
+   ],
+   "hidden": "Gluttony",
+   "name": "Swalot"
+  },
+  "swampert": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Damp",
+   "name": "Swampert"
+  },
+  "swampertmega": {
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden": "",
+   "name": "Swampert-Mega"
+  },
+  "swanna": {
+   "abilities": [
+    "Keen Eye",
+    "Big Pecks"
+   ],
+   "hidden": "Hydration",
+   "name": "Swanna"
+  },
+  "swellow": {
+   "abilities": [
+    "Guts"
+   ],
+   "hidden": "Scrappy",
+   "name": "Swellow"
+  },
+  "swinub": {
+   "abilities": [
+    "Oblivious",
+    "Snow Cloak"
+   ],
+   "hidden": "Thick Fat",
+   "name": "Swinub"
+  },
+  "swirlix": {
+   "abilities": [
+    "Sweet Veil"
+   ],
+   "hidden": "Unburden",
+   "name": "Swirlix"
+  },
+  "swirlpool": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Poison Heal",
+   "name": "Swirlpool"
+  },
+  "swoobat": {
+   "abilities": [
+    "Unaware",
+    "Klutz"
+   ],
+   "hidden": "Simple",
+   "name": "Swoobat"
+  },
+  "syclant": {
+   "abilities": [
+    "Compound Eyes",
+    "Mountaineer"
+   ],
+   "hidden": "Ice Body",
+   "name": "Syclant"
+  },
+  "syclar": {
+   "abilities": [
+    "Compound Eyes",
+    "Snow Cloak"
+   ],
+   "hidden": "Ice Body",
+   "name": "Syclar"
+  },
+  "sylveon": {
+   "abilities": [
+    "Cute Charm"
+   ],
+   "hidden": "Pixilate",
+   "name": "Sylveon"
+  },
+  "tactite": {
+   "abilities": [
+    "Levitate",
+    "Technician"
+   ],
+   "hidden": "Sniper",
+   "name": "Tactite"
+  },
+  "tadbulb": {
+   "abilities": [
+    "Own Tempo",
+    "Static"
+   ],
+   "hidden": "Damp",
+   "name": "Tadbulb"
+  },
+  "taillow": {
+   "abilities": [
+    "Guts"
+   ],
+   "hidden": "Scrappy",
+   "name": "Taillow"
+  },
+  "talonflame": {
+   "abilities": [
+    "Flame Body"
+   ],
+   "hidden": "Gale Wings",
+   "name": "Talonflame"
+  },
+  "tandemaus": {
+   "abilities": [
+    "Run Away",
+    "Pickup"
+   ],
+   "hidden": "Own Tempo",
+   "name": "Tandemaus"
+  },
+  "tangela": {
+   "abilities": [
+    "Chlorophyll",
+    "Leaf Guard"
+   ],
+   "hidden": "Regenerator",
+   "name": "Tangela"
+  },
+  "tangrowth": {
+   "abilities": [
+    "Chlorophyll",
+    "Leaf Guard"
+   ],
+   "hidden": "Regenerator",
+   "name": "Tangrowth"
+  },
+  "tapubulu": {
+   "abilities": [
+    "Grassy Surge"
+   ],
+   "hidden": "Telepathy",
+   "name": "Tapu Bulu"
+  },
+  "tapufini": {
+   "abilities": [
+    "Misty Surge"
+   ],
+   "hidden": "Telepathy",
+   "name": "Tapu Fini"
+  },
+  "tapukoko": {
+   "abilities": [
+    "Electric Surge"
+   ],
+   "hidden": "Telepathy",
+   "name": "Tapu Koko"
+  },
+  "tapulele": {
+   "abilities": [
+    "Psychic Surge"
+   ],
+   "hidden": "Telepathy",
+   "name": "Tapu Lele"
+  },
+  "tarountula": {
+   "abilities": [
+    "Insomnia"
+   ],
+   "hidden": "Stakeout",
+   "name": "Tarountula"
+  },
+  "tatsugiri": {
+   "abilities": [
+    "Commander"
+   ],
+   "hidden": "Storm Drain",
+   "name": "Tatsugiri"
+  },
+  "tatsugiricurlymega": {
+   "abilities": [
+    "Commander"
+   ],
+   "hidden": "Storm Drain",
+   "name": "Tatsugiri-Curly-Mega"
+  },
+  "tatsugiridroopy": {
+   "abilities": [
+    "Commander"
+   ],
+   "hidden": "Storm Drain",
+   "name": "Tatsugiri-Droopy"
+  },
+  "tatsugiridroopymega": {
+   "abilities": [
+    "Commander"
+   ],
+   "hidden": "Storm Drain",
+   "name": "Tatsugiri-Droopy-Mega"
+  },
+  "tatsugiristretchy": {
+   "abilities": [
+    "Commander"
+   ],
+   "hidden": "Storm Drain",
+   "name": "Tatsugiri-Stretchy"
+  },
+  "tatsugiristretchymega": {
+   "abilities": [
+    "Commander"
+   ],
+   "hidden": "Storm Drain",
+   "name": "Tatsugiri-Stretchy-Mega"
+  },
+  "tauros": {
+   "abilities": [
+    "Intimidate",
+    "Anger Point"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Tauros"
+  },
+  "taurospaldeaaqua": {
+   "abilities": [
+    "Intimidate",
+    "Anger Point"
+   ],
+   "hidden": "Cud Chew",
+   "name": "Tauros-Paldea-Aqua"
+  },
+  "taurospaldeablaze": {
+   "abilities": [
+    "Intimidate",
+    "Anger Point"
+   ],
+   "hidden": "Cud Chew",
+   "name": "Tauros-Paldea-Blaze"
+  },
+  "taurospaldeacombat": {
+   "abilities": [
+    "Intimidate",
+    "Anger Point"
+   ],
+   "hidden": "Cud Chew",
+   "name": "Tauros-Paldea-Combat"
+  },
+  "teddiursa": {
+   "abilities": [
+    "Pickup",
+    "Quick Feet"
+   ],
+   "hidden": "Honey Gather",
+   "name": "Teddiursa"
+  },
+  "tentacool": {
+   "abilities": [
+    "Clear Body",
+    "Liquid Ooze"
+   ],
+   "hidden": "Rain Dish",
+   "name": "Tentacool"
+  },
+  "tentacruel": {
+   "abilities": [
+    "Clear Body",
+    "Liquid Ooze"
+   ],
+   "hidden": "Rain Dish",
+   "name": "Tentacruel"
+  },
+  "tepig": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Thick Fat",
+   "name": "Tepig"
+  },
+  "terapagos": {
+   "abilities": [
+    "Tera Shift"
+   ],
+   "hidden": "",
+   "name": "Terapagos"
+  },
+  "terapagosstellar": {
+   "abilities": [
+    "Teraform Zero"
+   ],
+   "hidden": "",
+   "name": "Terapagos-Stellar"
+  },
+  "terapagosterastal": {
+   "abilities": [
+    "Tera Shell"
+   ],
+   "hidden": "",
+   "name": "Terapagos-Terastal"
+  },
+  "terrakion": {
+   "abilities": [
+    "Justified"
+   ],
+   "hidden": "",
+   "name": "Terrakion"
+  },
+  "thievul": {
+   "abilities": [
+    "Run Away",
+    "Unburden"
+   ],
+   "hidden": "Stakeout",
+   "name": "Thievul"
+  },
+  "throh": {
+   "abilities": [
+    "Guts",
+    "Inner Focus"
+   ],
+   "hidden": "Mold Breaker",
+   "name": "Throh"
+  },
+  "thundurus": {
+   "abilities": [
+    "Prankster"
+   ],
+   "hidden": "Defiant",
+   "name": "Thundurus"
+  },
+  "thundurustherian": {
+   "abilities": [
+    "Volt Absorb"
+   ],
+   "hidden": "",
+   "name": "Thundurus-Therian"
+  },
+  "thwackey": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Grassy Surge",
+   "name": "Thwackey"
+  },
+  "timburr": {
+   "abilities": [
+    "Guts",
+    "Sheer Force"
+   ],
+   "hidden": "Iron Fist",
+   "name": "Timburr"
+  },
+  "tinglu": {
+   "abilities": [
+    "Vessel of Ruin"
+   ],
+   "hidden": "",
+   "name": "Ting-Lu"
+  },
+  "tinkatink": {
+   "abilities": [
+    "Mold Breaker",
+    "Own Tempo"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Tinkatink"
+  },
+  "tinkaton": {
+   "abilities": [
+    "Mold Breaker",
+    "Own Tempo"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Tinkaton"
+  },
+  "tinkatuff": {
+   "abilities": [
+    "Mold Breaker",
+    "Own Tempo"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Tinkatuff"
+  },
+  "tirtouga": {
+   "abilities": [
+    "Solid Rock",
+    "Sturdy"
+   ],
+   "hidden": "Swift Swim",
+   "name": "Tirtouga"
+  },
+  "toedscool": {
+   "abilities": [
+    "Mycelium Might"
+   ],
+   "hidden": "",
+   "name": "Toedscool"
+  },
+  "toedscruel": {
+   "abilities": [
+    "Mycelium Might"
+   ],
+   "hidden": "",
+   "name": "Toedscruel"
+  },
+  "togedemaru": {
+   "abilities": [
+    "Iron Barbs",
+    "Lightning Rod"
+   ],
+   "hidden": "Sturdy",
+   "name": "Togedemaru"
+  },
+  "togedemarutotem": {
+   "abilities": [
+    "Sturdy"
+   ],
+   "hidden": "",
+   "name": "Togedemaru-Totem"
+  },
+  "togekiss": {
+   "abilities": [
+    "Hustle",
+    "Serene Grace"
+   ],
+   "hidden": "Super Luck",
+   "name": "Togekiss"
+  },
+  "togepi": {
+   "abilities": [
+    "Hustle",
+    "Serene Grace"
+   ],
+   "hidden": "Super Luck",
+   "name": "Togepi"
+  },
+  "togetic": {
+   "abilities": [
+    "Hustle",
+    "Serene Grace"
+   ],
+   "hidden": "Super Luck",
+   "name": "Togetic"
+  },
+  "tomohawk": {
+   "abilities": [
+    "Intimidate",
+    "Prankster"
+   ],
+   "hidden": "Justified",
+   "name": "Tomohawk"
+  },
+  "torchic": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Speed Boost",
+   "name": "Torchic"
+  },
+  "torkoal": {
+   "abilities": [
+    "White Smoke",
+    "Drought"
+   ],
+   "hidden": "Shell Armor",
+   "name": "Torkoal"
+  },
+  "tornadus": {
+   "abilities": [
+    "Prankster"
+   ],
+   "hidden": "Defiant",
+   "name": "Tornadus"
+  },
+  "tornadustherian": {
+   "abilities": [
+    "Regenerator"
+   ],
+   "hidden": "",
+   "name": "Tornadus-Therian"
+  },
+  "torracat": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Intimidate",
+   "name": "Torracat"
+  },
+  "torterra": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Shell Armor",
+   "name": "Torterra"
+  },
+  "totodile": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Totodile"
+  },
+  "toucannon": {
+   "abilities": [
+    "Keen Eye",
+    "Skill Link"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Toucannon"
+  },
+  "toxapex": {
+   "abilities": [
+    "Merciless",
+    "Limber"
+   ],
+   "hidden": "Regenerator",
+   "name": "Toxapex"
+  },
+  "toxel": {
+   "abilities": [
+    "Rattled",
+    "Static"
+   ],
+   "hidden": "Klutz",
+   "name": "Toxel"
+  },
+  "toxicroak": {
+   "abilities": [
+    "Anticipation",
+    "Dry Skin"
+   ],
+   "hidden": "Poison Touch",
+   "name": "Toxicroak"
+  },
+  "toxtricity": {
+   "abilities": [
+    "Punk Rock",
+    "Plus"
+   ],
+   "hidden": "Technician",
+   "name": "Toxtricity"
+  },
+  "toxtricitygmax": {
+   "abilities": [
+    "Punk Rock",
+    "Plus"
+   ],
+   "hidden": "Technician",
+   "name": "Toxtricity-Gmax"
+  },
+  "toxtricitylowkey": {
+   "abilities": [
+    "Punk Rock",
+    "Minus"
+   ],
+   "hidden": "Technician",
+   "name": "Toxtricity-Low-Key"
+  },
+  "toxtricitylowkeygmax": {
+   "abilities": [
+    "Punk Rock",
+    "Minus"
+   ],
+   "hidden": "Technician",
+   "name": "Toxtricity-Low-Key-Gmax"
+  },
+  "tranquill": {
+   "abilities": [
+    "Big Pecks",
+    "Super Luck"
+   ],
+   "hidden": "Rivalry",
+   "name": "Tranquill"
+  },
+  "trapinch": {
+   "abilities": [
+    "Hyper Cutter",
+    "Arena Trap"
+   ],
+   "hidden": "Sheer Force",
+   "name": "Trapinch"
+  },
+  "treecko": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Unburden",
+   "name": "Treecko"
+  },
+  "trevenant": {
+   "abilities": [
+    "Natural Cure",
+    "Frisk"
+   ],
+   "hidden": "Harvest",
+   "name": "Trevenant"
+  },
+  "tropius": {
+   "abilities": [
+    "Chlorophyll",
+    "Solar Power"
+   ],
+   "hidden": "Harvest",
+   "name": "Tropius"
+  },
+  "trubbish": {
+   "abilities": [
+    "Stench",
+    "Sticky Hold"
+   ],
+   "hidden": "Aftermath",
+   "name": "Trubbish"
+  },
+  "trumbeak": {
+   "abilities": [
+    "Keen Eye",
+    "Skill Link"
+   ],
+   "hidden": "Pickup",
+   "name": "Trumbeak"
+  },
+  "tsareena": {
+   "abilities": [
+    "Leaf Guard",
+    "Queenly Majesty"
+   ],
+   "hidden": "Sweet Veil",
+   "name": "Tsareena"
+  },
+  "turtonator": {
+   "abilities": [
+    "Shell Armor"
+   ],
+   "hidden": "",
+   "name": "Turtonator"
+  },
+  "turtwig": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Shell Armor",
+   "name": "Turtwig"
+  },
+  "tympole": {
+   "abilities": [
+    "Swift Swim",
+    "Hydration"
+   ],
+   "hidden": "Water Absorb",
+   "name": "Tympole"
+  },
+  "tynamo": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Tynamo"
+  },
+  "typenull": {
+   "abilities": [
+    "Battle Armor"
+   ],
+   "hidden": "",
+   "name": "Type: Null"
+  },
+  "typhlosion": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Flash Fire",
+   "name": "Typhlosion"
+  },
+  "typhlosionhisui": {
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden": "Frisk",
+   "name": "Typhlosion-Hisui"
+  },
+  "tyranitar": {
+   "abilities": [
+    "Sand Stream"
+   ],
+   "hidden": "Unnerve",
+   "name": "Tyranitar"
+  },
+  "tyranitarmega": {
+   "abilities": [
+    "Sand Stream"
+   ],
+   "hidden": "",
+   "name": "Tyranitar-Mega"
+  },
+  "tyrantrum": {
+   "abilities": [
+    "Strong Jaw"
+   ],
+   "hidden": "Rock Head",
+   "name": "Tyrantrum"
+  },
+  "tyrogue": {
+   "abilities": [
+    "Guts",
+    "Steadfast"
+   ],
+   "hidden": "Vital Spirit",
+   "name": "Tyrogue"
+  },
+  "tyrunt": {
+   "abilities": [
+    "Strong Jaw"
+   ],
+   "hidden": "Sturdy",
+   "name": "Tyrunt"
+  },
+  "umbreon": {
+   "abilities": [
+    "Synchronize"
+   ],
+   "hidden": "Inner Focus",
+   "name": "Umbreon"
+  },
+  "unfezant": {
+   "abilities": [
+    "Big Pecks",
+    "Super Luck"
+   ],
+   "hidden": "Rivalry",
+   "name": "Unfezant"
+  },
+  "unown": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Unown"
+  },
+  "ursaluna": {
+   "abilities": [
+    "Guts",
+    "Bulletproof"
+   ],
+   "hidden": "Unnerve",
+   "name": "Ursaluna"
+  },
+  "ursalunabloodmoon": {
+   "abilities": [
+    "Mind's Eye"
+   ],
+   "hidden": "",
+   "name": "Ursaluna-Bloodmoon"
+  },
+  "ursaring": {
+   "abilities": [
+    "Guts",
+    "Quick Feet"
+   ],
+   "hidden": "Unnerve",
+   "name": "Ursaring"
+  },
+  "urshifu": {
+   "abilities": [
+    "Unseen Fist"
+   ],
+   "hidden": "",
+   "name": "Urshifu"
+  },
+  "urshifugmax": {
+   "abilities": [
+    "Unseen Fist"
+   ],
+   "hidden": "",
+   "name": "Urshifu-Gmax"
+  },
+  "urshifurapidstrike": {
+   "abilities": [
+    "Unseen Fist"
+   ],
+   "hidden": "",
+   "name": "Urshifu-Rapid-Strike"
+  },
+  "urshifurapidstrikegmax": {
+   "abilities": [
+    "Unseen Fist"
+   ],
+   "hidden": "",
+   "name": "Urshifu-Rapid-Strike-Gmax"
+  },
+  "uxie": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Uxie"
+  },
+  "vanillish": {
+   "abilities": [
+    "Ice Body",
+    "Snow Cloak"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Vanillish"
+  },
+  "vanillite": {
+   "abilities": [
+    "Ice Body",
+    "Snow Cloak"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Vanillite"
+  },
+  "vanilluxe": {
+   "abilities": [
+    "Ice Body",
+    "Snow Warning"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Vanilluxe"
+  },
+  "vaporeon": {
+   "abilities": [
+    "Water Absorb"
+   ],
+   "hidden": "Hydration",
+   "name": "Vaporeon"
+  },
+  "varoom": {
+   "abilities": [
+    "Overcoat"
+   ],
+   "hidden": "Slow Start",
+   "name": "Varoom"
+  },
+  "veluza": {
+   "abilities": [
+    "Mold Breaker"
+   ],
+   "hidden": "Sharpness",
+   "name": "Veluza"
+  },
+  "venipede": {
+   "abilities": [
+    "Poison Point",
+    "Swarm"
+   ],
+   "hidden": "Speed Boost",
+   "name": "Venipede"
+  },
+  "venomicon": {
+   "abilities": [
+    "Stamina"
+   ],
+   "hidden": "Power of Alchemy",
+   "name": "Venomicon"
+  },
+  "venomiconepilogue": {
+   "abilities": [
+    "Tinted Lens"
+   ],
+   "hidden": "",
+   "name": "Venomicon-Epilogue"
+  },
+  "venomoth": {
+   "abilities": [
+    "Shield Dust",
+    "Tinted Lens"
+   ],
+   "hidden": "Wonder Skin",
+   "name": "Venomoth"
+  },
+  "venonat": {
+   "abilities": [
+    "Compound Eyes",
+    "Tinted Lens"
+   ],
+   "hidden": "Run Away",
+   "name": "Venonat"
+  },
+  "venusaur": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Chlorophyll",
+   "name": "Venusaur"
+  },
+  "venusaurgmax": {
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden": "Chlorophyll",
+   "name": "Venusaur-Gmax"
+  },
+  "venusaurmega": {
+   "abilities": [
+    "Thick Fat"
+   ],
+   "hidden": "",
+   "name": "Venusaur-Mega"
+  },
+  "vespiquen": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Unnerve",
+   "name": "Vespiquen"
+  },
+  "vibrava": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Vibrava"
+  },
+  "victini": {
+   "abilities": [
+    "Victory Star"
+   ],
+   "hidden": "",
+   "name": "Victini"
+  },
+  "victreebel": {
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden": "Gluttony",
+   "name": "Victreebel"
+  },
+  "victreebelmega": {
+   "abilities": [
+    "Innards Out"
+   ],
+   "hidden": "",
+   "name": "Victreebel-Mega"
+  },
+  "vigoroth": {
+   "abilities": [
+    "Vital Spirit"
+   ],
+   "hidden": "",
+   "name": "Vigoroth"
+  },
+  "vikavolt": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Vikavolt"
+  },
+  "vikavolttotem": {
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden": "",
+   "name": "Vikavolt-Totem"
+  },
+  "vileplume": {
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden": "Effect Spore",
+   "name": "Vileplume"
+  },
+  "virizion": {
+   "abilities": [
+    "Justified"
+   ],
+   "hidden": "",
+   "name": "Virizion"
+  },
+  "vivillon": {
+   "abilities": [
+    "Shield Dust",
+    "Compound Eyes"
+   ],
+   "hidden": "Friend Guard",
+   "name": "Vivillon"
+  },
+  "vivillonfancy": {
+   "abilities": [
+    "Shield Dust",
+    "Compound Eyes"
+   ],
+   "hidden": "Friend Guard",
+   "name": "Vivillon-Fancy"
+  },
+  "vivillonpokeball": {
+   "abilities": [
+    "Shield Dust",
+    "Compound Eyes"
+   ],
+   "hidden": "Friend Guard",
+   "name": "Vivillon-Pokeball"
+  },
+  "volbeat": {
+   "abilities": [
+    "Illuminate",
+    "Swarm"
+   ],
+   "hidden": "Prankster",
+   "name": "Volbeat"
+  },
+  "volcanion": {
+   "abilities": [
+    "Water Absorb"
+   ],
+   "hidden": "",
+   "name": "Volcanion"
+  },
+  "volcarona": {
+   "abilities": [
+    "Flame Body"
+   ],
+   "hidden": "Swarm",
+   "name": "Volcarona"
+  },
+  "volkraken": {
+   "abilities": [
+    "Analytic",
+    "Infiltrator"
+   ],
+   "hidden": "Pressure",
+   "name": "Volkraken"
+  },
+  "volkritter": {
+   "abilities": [
+    "Anticipation",
+    "Infiltrator"
+   ],
+   "hidden": "Unnerve",
+   "name": "Volkritter"
+  },
+  "voltorb": {
+   "abilities": [
+    "Soundproof",
+    "Static"
+   ],
+   "hidden": "Aftermath",
+   "name": "Voltorb"
+  },
+  "voltorbhisui": {
+   "abilities": [
+    "Soundproof",
+    "Static"
+   ],
+   "hidden": "Aftermath",
+   "name": "Voltorb-Hisui"
+  },
+  "voodoll": {
+   "abilities": [
+    "Volt Absorb",
+    "Lightning Rod"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Voodoll"
+  },
+  "voodoom": {
+   "abilities": [
+    "Volt Absorb",
+    "Lightning Rod"
+   ],
+   "hidden": "Cursed Body",
+   "name": "Voodoom"
+  },
+  "vullaby": {
+   "abilities": [
+    "Big Pecks",
+    "Overcoat"
+   ],
+   "hidden": "Weak Armor",
+   "name": "Vullaby"
+  },
+  "vulpix": {
+   "abilities": [
+    "Flash Fire"
+   ],
+   "hidden": "Drought",
+   "name": "Vulpix"
+  },
+  "vulpixalola": {
+   "abilities": [
+    "Snow Cloak"
+   ],
+   "hidden": "Snow Warning",
+   "name": "Vulpix-Alola"
+  },
+  "wailmer": {
+   "abilities": [
+    "Water Veil",
+    "Oblivious"
+   ],
+   "hidden": "Pressure",
+   "name": "Wailmer"
+  },
+  "wailord": {
+   "abilities": [
+    "Water Veil",
+    "Oblivious"
+   ],
+   "hidden": "Pressure",
+   "name": "Wailord"
+  },
+  "walkingwake": {
+   "abilities": [
+    "Protosynthesis"
+   ],
+   "hidden": "",
+   "name": "Walking Wake"
+  },
+  "walrein": {
+   "abilities": [
+    "Thick Fat",
+    "Ice Body"
+   ],
+   "hidden": "Oblivious",
+   "name": "Walrein"
+  },
+  "wartortle": {
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden": "Rain Dish",
+   "name": "Wartortle"
+  },
+  "watchog": {
+   "abilities": [
+    "Illuminate",
+    "Keen Eye"
+   ],
+   "hidden": "Analytic",
+   "name": "Watchog"
+  },
+  "wattrel": {
+   "abilities": [
+    "Wind Power",
+    "Volt Absorb"
+   ],
+   "hidden": "Competitive",
+   "name": "Wattrel"
+  },
+  "weavile": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Pickpocket",
+   "name": "Weavile"
+  },
+  "weedle": {
+   "abilities": [
+    "Shield Dust"
+   ],
+   "hidden": "Run Away",
+   "name": "Weedle"
+  },
+  "weepinbell": {
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden": "Gluttony",
+   "name": "Weepinbell"
+  },
+  "weezing": {
+   "abilities": [
+    "Levitate",
+    "Neutralizing Gas"
+   ],
+   "hidden": "Stench",
+   "name": "Weezing"
+  },
+  "weezinggalar": {
+   "abilities": [
+    "Levitate",
+    "Neutralizing Gas"
+   ],
+   "hidden": "Misty Surge",
+   "name": "Weezing-Galar"
+  },
+  "whimsicott": {
+   "abilities": [
+    "Prankster",
+    "Infiltrator"
+   ],
+   "hidden": "Chlorophyll",
+   "name": "Whimsicott"
+  },
+  "whirlipede": {
+   "abilities": [
+    "Poison Point",
+    "Swarm"
+   ],
+   "hidden": "Speed Boost",
+   "name": "Whirlipede"
+  },
+  "whiscash": {
+   "abilities": [
+    "Oblivious",
+    "Anticipation"
+   ],
+   "hidden": "Hydration",
+   "name": "Whiscash"
+  },
+  "whismur": {
+   "abilities": [
+    "Soundproof"
+   ],
+   "hidden": "Rattled",
+   "name": "Whismur"
+  },
+  "wigglytuff": {
+   "abilities": [
+    "Cute Charm",
+    "Competitive"
+   ],
+   "hidden": "Frisk",
+   "name": "Wigglytuff"
+  },
+  "wiglett": {
+   "abilities": [
+    "Gooey",
+    "Rattled"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Wiglett"
+  },
+  "wimpod": {
+   "abilities": [
+    "Wimp Out"
+   ],
+   "hidden": "",
+   "name": "Wimpod"
+  },
+  "wingull": {
+   "abilities": [
+    "Keen Eye",
+    "Hydration"
+   ],
+   "hidden": "Rain Dish",
+   "name": "Wingull"
+  },
+  "wishiwashi": {
+   "abilities": [
+    "Schooling"
+   ],
+   "hidden": "",
+   "name": "Wishiwashi"
+  },
+  "wishiwashischool": {
+   "abilities": [
+    "Schooling"
+   ],
+   "hidden": "",
+   "name": "Wishiwashi-School"
+  },
+  "wobbuffet": {
+   "abilities": [
+    "Shadow Tag"
+   ],
+   "hidden": "Telepathy",
+   "name": "Wobbuffet"
+  },
+  "wochien": {
+   "abilities": [
+    "Tablets of Ruin"
+   ],
+   "hidden": "",
+   "name": "Wo-Chien"
+  },
+  "woobat": {
+   "abilities": [
+    "Unaware",
+    "Klutz"
+   ],
+   "hidden": "Simple",
+   "name": "Woobat"
+  },
+  "wooloo": {
+   "abilities": [
+    "Fluffy",
+    "Run Away"
+   ],
+   "hidden": "Bulletproof",
+   "name": "Wooloo"
+  },
+  "wooper": {
+   "abilities": [
+    "Damp",
+    "Water Absorb"
+   ],
+   "hidden": "Unaware",
+   "name": "Wooper"
+  },
+  "wooperpaldea": {
+   "abilities": [
+    "Poison Point",
+    "Water Absorb"
+   ],
+   "hidden": "Unaware",
+   "name": "Wooper-Paldea"
+  },
+  "wormadam": {
+   "abilities": [
+    "Anticipation"
+   ],
+   "hidden": "Overcoat",
+   "name": "Wormadam"
+  },
+  "wormadamsandy": {
+   "abilities": [
+    "Anticipation"
+   ],
+   "hidden": "Overcoat",
+   "name": "Wormadam-Sandy"
+  },
+  "wormadamtrash": {
+   "abilities": [
+    "Anticipation"
+   ],
+   "hidden": "Overcoat",
+   "name": "Wormadam-Trash"
+  },
+  "wugtrio": {
+   "abilities": [
+    "Gooey",
+    "Rattled"
+   ],
+   "hidden": "Sand Veil",
+   "name": "Wugtrio"
+  },
+  "wurmple": {
+   "abilities": [
+    "Shield Dust"
+   ],
+   "hidden": "Run Away",
+   "name": "Wurmple"
+  },
+  "wynaut": {
+   "abilities": [
+    "Shadow Tag"
+   ],
+   "hidden": "Telepathy",
+   "name": "Wynaut"
+  },
+  "wyrdeer": {
+   "abilities": [
+    "Intimidate",
+    "Frisk"
+   ],
+   "hidden": "Sap Sipper",
+   "name": "Wyrdeer"
+  },
+  "xatu": {
+   "abilities": [
+    "Synchronize",
+    "Early Bird"
+   ],
+   "hidden": "Magic Bounce",
+   "name": "Xatu"
+  },
+  "xerneas": {
+   "abilities": [
+    "Fairy Aura"
+   ],
+   "hidden": "",
+   "name": "Xerneas"
+  },
+  "xerneasneutral": {
+   "abilities": [
+    "Fairy Aura"
+   ],
+   "hidden": "",
+   "name": "Xerneas-Neutral"
+  },
+  "xurkitree": {
+   "abilities": [
+    "Beast Boost"
+   ],
+   "hidden": "",
+   "name": "Xurkitree"
+  },
+  "yamask": {
+   "abilities": [
+    "Mummy"
+   ],
+   "hidden": "",
+   "name": "Yamask"
+  },
+  "yamaskgalar": {
+   "abilities": [
+    "Wandering Spirit"
+   ],
+   "hidden": "",
+   "name": "Yamask-Galar"
+  },
+  "yamper": {
+   "abilities": [
+    "Ball Fetch"
+   ],
+   "hidden": "Rattled",
+   "name": "Yamper"
+  },
+  "yanma": {
+   "abilities": [
+    "Speed Boost",
+    "Compound Eyes"
+   ],
+   "hidden": "Frisk",
+   "name": "Yanma"
+  },
+  "yanmega": {
+   "abilities": [
+    "Speed Boost",
+    "Tinted Lens"
+   ],
+   "hidden": "Frisk",
+   "name": "Yanmega"
+  },
+  "yungoos": {
+   "abilities": [
+    "Stakeout",
+    "Strong Jaw"
+   ],
+   "hidden": "Adaptability",
+   "name": "Yungoos"
+  },
+  "yveltal": {
+   "abilities": [
+    "Dark Aura"
+   ],
+   "hidden": "",
+   "name": "Yveltal"
+  },
+  "zacian": {
+   "abilities": [
+    "Intrepid Sword"
+   ],
+   "hidden": "",
+   "name": "Zacian"
+  },
+  "zaciancrowned": {
+   "abilities": [
+    "Intrepid Sword"
+   ],
+   "hidden": "",
+   "name": "Zacian-Crowned"
+  },
+  "zamazenta": {
+   "abilities": [
+    "Dauntless Shield"
+   ],
+   "hidden": "",
+   "name": "Zamazenta"
+  },
+  "zamazentacrowned": {
+   "abilities": [
+    "Dauntless Shield"
+   ],
+   "hidden": "",
+   "name": "Zamazenta-Crowned"
+  },
+  "zangoose": {
+   "abilities": [
+    "Immunity"
+   ],
+   "hidden": "Toxic Boost",
+   "name": "Zangoose"
+  },
+  "zapdos": {
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden": "Static",
+   "name": "Zapdos"
+  },
+  "zapdosgalar": {
+   "abilities": [
+    "Defiant"
+   ],
+   "hidden": "",
+   "name": "Zapdos-Galar"
+  },
+  "zarude": {
+   "abilities": [
+    "Leaf Guard"
+   ],
+   "hidden": "",
+   "name": "Zarude"
+  },
+  "zarudedada": {
+   "abilities": [
+    "Leaf Guard"
+   ],
+   "hidden": "",
+   "name": "Zarude-Dada"
+  },
+  "zebstrika": {
+   "abilities": [
+    "Lightning Rod",
+    "Motor Drive"
+   ],
+   "hidden": "Sap Sipper",
+   "name": "Zebstrika"
+  },
+  "zekrom": {
+   "abilities": [
+    "Teravolt"
+   ],
+   "hidden": "",
+   "name": "Zekrom"
+  },
+  "zeraora": {
+   "abilities": [
+    "Volt Absorb"
+   ],
+   "hidden": "",
+   "name": "Zeraora"
+  },
+  "zeraoramega": {
+   "abilities": [
+    "Volt Absorb"
+   ],
+   "hidden": "",
+   "name": "Zeraora-Mega"
+  },
+  "zigzagoon": {
+   "abilities": [
+    "Pickup",
+    "Gluttony"
+   ],
+   "hidden": "Quick Feet",
+   "name": "Zigzagoon"
+  },
+  "zigzagoongalar": {
+   "abilities": [
+    "Pickup",
+    "Gluttony"
+   ],
+   "hidden": "Quick Feet",
+   "name": "Zigzagoon-Galar"
+  },
+  "zoroark": {
+   "abilities": [
+    "Illusion"
+   ],
+   "hidden": "",
+   "name": "Zoroark"
+  },
+  "zoroarkhisui": {
+   "abilities": [
+    "Illusion"
+   ],
+   "hidden": "",
+   "name": "Zoroark-Hisui"
+  },
+  "zorua": {
+   "abilities": [
+    "Illusion"
+   ],
+   "hidden": "",
+   "name": "Zorua"
+  },
+  "zoruahisui": {
+   "abilities": [
+    "Illusion"
+   ],
+   "hidden": "",
+   "name": "Zorua-Hisui"
+  },
+  "zubat": {
+   "abilities": [
+    "Inner Focus"
+   ],
+   "hidden": "Infiltrator",
+   "name": "Zubat"
+  },
+  "zweilous": {
+   "abilities": [
+    "Hustle"
+   ],
+   "hidden": "",
+   "name": "Zweilous"
+  },
+  "zygarde": {
+   "abilities": [
+    "Aura Break"
+   ],
+   "hidden": "",
+   "name": "Zygarde"
+  },
+  "zygarde10": {
+   "abilities": [
+    "Aura Break"
+   ],
+   "hidden": "",
+   "name": "Zygarde-10%"
+  },
+  "zygardecomplete": {
+   "abilities": [
+    "Power Construct"
+   ],
+   "hidden": "",
+   "name": "Zygarde-Complete"
+  },
+  "zygardemega": {
+   "abilities": [
+    "Aura Break"
+   ],
+   "hidden": "",
+   "name": "Zygarde-Mega"
+  }
+ }
+}

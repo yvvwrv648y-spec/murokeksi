@@ -1,0 +1,4129 @@
+{
+ "metadata": {
+  "file": "species_habitats.json",
+  "source": "PokeAPI CSV dumps (PokeAPI/pokeapi repo, data/v2/csv/)",
+  "source_urls": [
+   "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_species.csv",
+   "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_habitats.csv",
+   "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_habitat_names.csv"
+  ],
+  "fetch_date": "2026-11-22",
+  "species_total": 1025,
+  "species_with_habitat": 386,
+  "species_without_habitat": 639,
+  "notes": "habitat is the PokeAPI habitat identifier for the species, or null when pokemon_species.csv leaves habitat_id empty. No habitat is invented for uncovered species; in-game those species join encounter pools by type fit only (see systems/overworld/habitat_encounters.gd)."
+ },
+ "habitats": {
+  "1": "cave",
+  "2": "forest",
+  "3": "grassland",
+  "4": "mountain",
+  "5": "rare",
+  "6": "rough-terrain",
+  "7": "sea",
+  "8": "urban",
+  "9": "waters-edge"
+ },
+ "species": {
+  "1": {
+   "slug": "bulbasaur",
+   "habitat": "grassland"
+  },
+  "2": {
+   "slug": "ivysaur",
+   "habitat": "grassland"
+  },
+  "3": {
+   "slug": "venusaur",
+   "habitat": "grassland"
+  },
+  "4": {
+   "slug": "charmander",
+   "habitat": "mountain"
+  },
+  "5": {
+   "slug": "charmeleon",
+   "habitat": "mountain"
+  },
+  "6": {
+   "slug": "charizard",
+   "habitat": "mountain"
+  },
+  "7": {
+   "slug": "squirtle",
+   "habitat": "waters-edge"
+  },
+  "8": {
+   "slug": "wartortle",
+   "habitat": "waters-edge"
+  },
+  "9": {
+   "slug": "blastoise",
+   "habitat": "waters-edge"
+  },
+  "10": {
+   "slug": "caterpie",
+   "habitat": "forest"
+  },
+  "11": {
+   "slug": "metapod",
+   "habitat": "forest"
+  },
+  "12": {
+   "slug": "butterfree",
+   "habitat": "forest"
+  },
+  "13": {
+   "slug": "weedle",
+   "habitat": "forest"
+  },
+  "14": {
+   "slug": "kakuna",
+   "habitat": "forest"
+  },
+  "15": {
+   "slug": "beedrill",
+   "habitat": "forest"
+  },
+  "16": {
+   "slug": "pidgey",
+   "habitat": "forest"
+  },
+  "17": {
+   "slug": "pidgeotto",
+   "habitat": "forest"
+  },
+  "18": {
+   "slug": "pidgeot",
+   "habitat": "forest"
+  },
+  "19": {
+   "slug": "rattata",
+   "habitat": "grassland"
+  },
+  "20": {
+   "slug": "raticate",
+   "habitat": "grassland"
+  },
+  "21": {
+   "slug": "spearow",
+   "habitat": "rough-terrain"
+  },
+  "22": {
+   "slug": "fearow",
+   "habitat": "rough-terrain"
+  },
+  "23": {
+   "slug": "ekans",
+   "habitat": "grassland"
+  },
+  "24": {
+   "slug": "arbok",
+   "habitat": "grassland"
+  },
+  "25": {
+   "slug": "pikachu",
+   "habitat": "forest"
+  },
+  "26": {
+   "slug": "raichu",
+   "habitat": "forest"
+  },
+  "27": {
+   "slug": "sandshrew",
+   "habitat": "rough-terrain"
+  },
+  "28": {
+   "slug": "sandslash",
+   "habitat": "rough-terrain"
+  },
+  "29": {
+   "slug": "nidoran-f",
+   "habitat": "grassland"
+  },
+  "30": {
+   "slug": "nidorina",
+   "habitat": "grassland"
+  },
+  "31": {
+   "slug": "nidoqueen",
+   "habitat": "grassland"
+  },
+  "32": {
+   "slug": "nidoran-m",
+   "habitat": "grassland"
+  },
+  "33": {
+   "slug": "nidorino",
+   "habitat": "grassland"
+  },
+  "34": {
+   "slug": "nidoking",
+   "habitat": "grassland"
+  },
+  "35": {
+   "slug": "clefairy",
+   "habitat": "mountain"
+  },
+  "36": {
+   "slug": "clefable",
+   "habitat": "mountain"
+  },
+  "37": {
+   "slug": "vulpix",
+   "habitat": "grassland"
+  },
+  "38": {
+   "slug": "ninetales",
+   "habitat": "grassland"
+  },
+  "39": {
+   "slug": "jigglypuff",
+   "habitat": "grassland"
+  },
+  "40": {
+   "slug": "wigglytuff",
+   "habitat": "grassland"
+  },
+  "41": {
+   "slug": "zubat",
+   "habitat": "cave"
+  },
+  "42": {
+   "slug": "golbat",
+   "habitat": "cave"
+  },
+  "43": {
+   "slug": "oddish",
+   "habitat": "grassland"
+  },
+  "44": {
+   "slug": "gloom",
+   "habitat": "grassland"
+  },
+  "45": {
+   "slug": "vileplume",
+   "habitat": "grassland"
+  },
+  "46": {
+   "slug": "paras",
+   "habitat": "forest"
+  },
+  "47": {
+   "slug": "parasect",
+   "habitat": "forest"
+  },
+  "48": {
+   "slug": "venonat",
+   "habitat": "forest"
+  },
+  "49": {
+   "slug": "venomoth",
+   "habitat": "forest"
+  },
+  "50": {
+   "slug": "diglett",
+   "habitat": "cave"
+  },
+  "51": {
+   "slug": "dugtrio",
+   "habitat": "cave"
+  },
+  "52": {
+   "slug": "meowth",
+   "habitat": "urban"
+  },
+  "53": {
+   "slug": "persian",
+   "habitat": "urban"
+  },
+  "54": {
+   "slug": "psyduck",
+   "habitat": "waters-edge"
+  },
+  "55": {
+   "slug": "golduck",
+   "habitat": "waters-edge"
+  },
+  "56": {
+   "slug": "mankey",
+   "habitat": "mountain"
+  },
+  "57": {
+   "slug": "primeape",
+   "habitat": "mountain"
+  },
+  "58": {
+   "slug": "growlithe",
+   "habitat": "grassland"
+  },
+  "59": {
+   "slug": "arcanine",
+   "habitat": "grassland"
+  },
+  "60": {
+   "slug": "poliwag",
+   "habitat": "waters-edge"
+  },
+  "61": {
+   "slug": "poliwhirl",
+   "habitat": "waters-edge"
+  },
+  "62": {
+   "slug": "poliwrath",
+   "habitat": "waters-edge"
+  },
+  "63": {
+   "slug": "abra",
+   "habitat": "urban"
+  },
+  "64": {
+   "slug": "kadabra",
+   "habitat": "urban"
+  },
+  "65": {
+   "slug": "alakazam",
+   "habitat": "urban"
+  },
+  "66": {
+   "slug": "machop",
+   "habitat": "mountain"
+  },
+  "67": {
+   "slug": "machoke",
+   "habitat": "mountain"
+  },
+  "68": {
+   "slug": "machamp",
+   "habitat": "mountain"
+  },
+  "69": {
+   "slug": "bellsprout",
+   "habitat": "forest"
+  },
+  "70": {
+   "slug": "weepinbell",
+   "habitat": "forest"
+  },
+  "71": {
+   "slug": "victreebel",
+   "habitat": "forest"
+  },
+  "72": {
+   "slug": "tentacool",
+   "habitat": "sea"
+  },
+  "73": {
+   "slug": "tentacruel",
+   "habitat": "sea"
+  },
+  "74": {
+   "slug": "geodude",
+   "habitat": "mountain"
+  },
+  "75": {
+   "slug": "graveler",
+   "habitat": "mountain"
+  },
+  "76": {
+   "slug": "golem",
+   "habitat": "mountain"
+  },
+  "77": {
+   "slug": "ponyta",
+   "habitat": "grassland"
+  },
+  "78": {
+   "slug": "rapidash",
+   "habitat": "grassland"
+  },
+  "79": {
+   "slug": "slowpoke",
+   "habitat": "waters-edge"
+  },
+  "80": {
+   "slug": "slowbro",
+   "habitat": "waters-edge"
+  },
+  "81": {
+   "slug": "magnemite",
+   "habitat": "rough-terrain"
+  },
+  "82": {
+   "slug": "magneton",
+   "habitat": "rough-terrain"
+  },
+  "83": {
+   "slug": "farfetchd",
+   "habitat": "grassland"
+  },
+  "84": {
+   "slug": "doduo",
+   "habitat": "grassland"
+  },
+  "85": {
+   "slug": "dodrio",
+   "habitat": "grassland"
+  },
+  "86": {
+   "slug": "seel",
+   "habitat": "sea"
+  },
+  "87": {
+   "slug": "dewgong",
+   "habitat": "sea"
+  },
+  "88": {
+   "slug": "grimer",
+   "habitat": "urban"
+  },
+  "89": {
+   "slug": "muk",
+   "habitat": "urban"
+  },
+  "90": {
+   "slug": "shellder",
+   "habitat": "sea"
+  },
+  "91": {
+   "slug": "cloyster",
+   "habitat": "sea"
+  },
+  "92": {
+   "slug": "gastly",
+   "habitat": "cave"
+  },
+  "93": {
+   "slug": "haunter",
+   "habitat": "cave"
+  },
+  "94": {
+   "slug": "gengar",
+   "habitat": "cave"
+  },
+  "95": {
+   "slug": "onix",
+   "habitat": "cave"
+  },
+  "96": {
+   "slug": "drowzee",
+   "habitat": "grassland"
+  },
+  "97": {
+   "slug": "hypno",
+   "habitat": "grassland"
+  },
+  "98": {
+   "slug": "krabby",
+   "habitat": "waters-edge"
+  },
+  "99": {
+   "slug": "kingler",
+   "habitat": "waters-edge"
+  },
+  "100": {
+   "slug": "voltorb",
+   "habitat": "urban"
+  },
+  "101": {
+   "slug": "electrode",
+   "habitat": "urban"
+  },
+  "102": {
+   "slug": "exeggcute",
+   "habitat": "forest"
+  },
+  "103": {
+   "slug": "exeggutor",
+   "habitat": "forest"
+  },
+  "104": {
+   "slug": "cubone",
+   "habitat": "mountain"
+  },
+  "105": {
+   "slug": "marowak",
+   "habitat": "mountain"
+  },
+  "106": {
+   "slug": "hitmonlee",
+   "habitat": "urban"
+  },
+  "107": {
+   "slug": "hitmonchan",
+   "habitat": "urban"
+  },
+  "108": {
+   "slug": "lickitung",
+   "habitat": "grassland"
+  },
+  "109": {
+   "slug": "koffing",
+   "habitat": "urban"
+  },
+  "110": {
+   "slug": "weezing",
+   "habitat": "urban"
+  },
+  "111": {
+   "slug": "rhyhorn",
+   "habitat": "rough-terrain"
+  },
+  "112": {
+   "slug": "rhydon",
+   "habitat": "rough-terrain"
+  },
+  "113": {
+   "slug": "chansey",
+   "habitat": "urban"
+  },
+  "114": {
+   "slug": "tangela",
+   "habitat": "grassland"
+  },
+  "115": {
+   "slug": "kangaskhan",
+   "habitat": "grassland"
+  },
+  "116": {
+   "slug": "horsea",
+   "habitat": "sea"
+  },
+  "117": {
+   "slug": "seadra",
+   "habitat": "sea"
+  },
+  "118": {
+   "slug": "goldeen",
+   "habitat": "waters-edge"
+  },
+  "119": {
+   "slug": "seaking",
+   "habitat": "waters-edge"
+  },
+  "120": {
+   "slug": "staryu",
+   "habitat": "sea"
+  },
+  "121": {
+   "slug": "starmie",
+   "habitat": "sea"
+  },
+  "122": {
+   "slug": "mr-mime",
+   "habitat": "urban"
+  },
+  "123": {
+   "slug": "scyther",
+   "habitat": "grassland"
+  },
+  "124": {
+   "slug": "jynx",
+   "habitat": "urban"
+  },
+  "125": {
+   "slug": "electabuzz",
+   "habitat": "grassland"
+  },
+  "126": {
+   "slug": "magmar",
+   "habitat": "mountain"
+  },
+  "127": {
+   "slug": "pinsir",
+   "habitat": "forest"
+  },
+  "128": {
+   "slug": "tauros",
+   "habitat": "grassland"
+  },
+  "129": {
+   "slug": "magikarp",
+   "habitat": "waters-edge"
+  },
+  "130": {
+   "slug": "gyarados",
+   "habitat": "waters-edge"
+  },
+  "131": {
+   "slug": "lapras",
+   "habitat": "sea"
+  },
+  "132": {
+   "slug": "ditto",
+   "habitat": "urban"
+  },
+  "133": {
+   "slug": "eevee",
+   "habitat": "urban"
+  },
+  "134": {
+   "slug": "vaporeon",
+   "habitat": "urban"
+  },
+  "135": {
+   "slug": "jolteon",
+   "habitat": "urban"
+  },
+  "136": {
+   "slug": "flareon",
+   "habitat": "urban"
+  },
+  "137": {
+   "slug": "porygon",
+   "habitat": "urban"
+  },
+  "138": {
+   "slug": "omanyte",
+   "habitat": "sea"
+  },
+  "139": {
+   "slug": "omastar",
+   "habitat": "sea"
+  },
+  "140": {
+   "slug": "kabuto",
+   "habitat": "sea"
+  },
+  "141": {
+   "slug": "kabutops",
+   "habitat": "sea"
+  },
+  "142": {
+   "slug": "aerodactyl",
+   "habitat": "mountain"
+  },
+  "143": {
+   "slug": "snorlax",
+   "habitat": "mountain"
+  },
+  "144": {
+   "slug": "articuno",
+   "habitat": "rare"
+  },
+  "145": {
+   "slug": "zapdos",
+   "habitat": "rare"
+  },
+  "146": {
+   "slug": "moltres",
+   "habitat": "rare"
+  },
+  "147": {
+   "slug": "dratini",
+   "habitat": "waters-edge"
+  },
+  "148": {
+   "slug": "dragonair",
+   "habitat": "waters-edge"
+  },
+  "149": {
+   "slug": "dragonite",
+   "habitat": "waters-edge"
+  },
+  "150": {
+   "slug": "mewtwo",
+   "habitat": "rare"
+  },
+  "151": {
+   "slug": "mew",
+   "habitat": "rare"
+  },
+  "152": {
+   "slug": "chikorita",
+   "habitat": "grassland"
+  },
+  "153": {
+   "slug": "bayleef",
+   "habitat": "grassland"
+  },
+  "154": {
+   "slug": "meganium",
+   "habitat": "grassland"
+  },
+  "155": {
+   "slug": "cyndaquil",
+   "habitat": "grassland"
+  },
+  "156": {
+   "slug": "quilava",
+   "habitat": "grassland"
+  },
+  "157": {
+   "slug": "typhlosion",
+   "habitat": "grassland"
+  },
+  "158": {
+   "slug": "totodile",
+   "habitat": "waters-edge"
+  },
+  "159": {
+   "slug": "croconaw",
+   "habitat": "waters-edge"
+  },
+  "160": {
+   "slug": "feraligatr",
+   "habitat": "waters-edge"
+  },
+  "161": {
+   "slug": "sentret",
+   "habitat": "grassland"
+  },
+  "162": {
+   "slug": "furret",
+   "habitat": "grassland"
+  },
+  "163": {
+   "slug": "hoothoot",
+   "habitat": "forest"
+  },
+  "164": {
+   "slug": "noctowl",
+   "habitat": "forest"
+  },
+  "165": {
+   "slug": "ledyba",
+   "habitat": "forest"
+  },
+  "166": {
+   "slug": "ledian",
+   "habitat": "forest"
+  },
+  "167": {
+   "slug": "spinarak",
+   "habitat": "forest"
+  },
+  "168": {
+   "slug": "ariados",
+   "habitat": "forest"
+  },
+  "169": {
+   "slug": "crobat",
+   "habitat": "cave"
+  },
+  "170": {
+   "slug": "chinchou",
+   "habitat": "sea"
+  },
+  "171": {
+   "slug": "lanturn",
+   "habitat": "sea"
+  },
+  "172": {
+   "slug": "pichu",
+   "habitat": "forest"
+  },
+  "173": {
+   "slug": "cleffa",
+   "habitat": "mountain"
+  },
+  "174": {
+   "slug": "igglybuff",
+   "habitat": "grassland"
+  },
+  "175": {
+   "slug": "togepi",
+   "habitat": "forest"
+  },
+  "176": {
+   "slug": "togetic",
+   "habitat": "forest"
+  },
+  "177": {
+   "slug": "natu",
+   "habitat": "forest"
+  },
+  "178": {
+   "slug": "xatu",
+   "habitat": "forest"
+  },
+  "179": {
+   "slug": "mareep",
+   "habitat": "grassland"
+  },
+  "180": {
+   "slug": "flaaffy",
+   "habitat": "grassland"
+  },
+  "181": {
+   "slug": "ampharos",
+   "habitat": "grassland"
+  },
+  "182": {
+   "slug": "bellossom",
+   "habitat": "grassland"
+  },
+  "183": {
+   "slug": "marill",
+   "habitat": "waters-edge"
+  },
+  "184": {
+   "slug": "azumarill",
+   "habitat": "waters-edge"
+  },
+  "185": {
+   "slug": "sudowoodo",
+   "habitat": "forest"
+  },
+  "186": {
+   "slug": "politoed",
+   "habitat": "waters-edge"
+  },
+  "187": {
+   "slug": "hoppip",
+   "habitat": "grassland"
+  },
+  "188": {
+   "slug": "skiploom",
+   "habitat": "grassland"
+  },
+  "189": {
+   "slug": "jumpluff",
+   "habitat": "grassland"
+  },
+  "190": {
+   "slug": "aipom",
+   "habitat": "forest"
+  },
+  "191": {
+   "slug": "sunkern",
+   "habitat": "grassland"
+  },
+  "192": {
+   "slug": "sunflora",
+   "habitat": "grassland"
+  },
+  "193": {
+   "slug": "yanma",
+   "habitat": "forest"
+  },
+  "194": {
+   "slug": "wooper",
+   "habitat": "waters-edge"
+  },
+  "195": {
+   "slug": "quagsire",
+   "habitat": "waters-edge"
+  },
+  "196": {
+   "slug": "espeon",
+   "habitat": "urban"
+  },
+  "197": {
+   "slug": "umbreon",
+   "habitat": "urban"
+  },
+  "198": {
+   "slug": "murkrow",
+   "habitat": "forest"
+  },
+  "199": {
+   "slug": "slowking",
+   "habitat": "waters-edge"
+  },
+  "200": {
+   "slug": "misdreavus",
+   "habitat": "cave"
+  },
+  "201": {
+   "slug": "unown",
+   "habitat": "rare"
+  },
+  "202": {
+   "slug": "wobbuffet",
+   "habitat": "cave"
+  },
+  "203": {
+   "slug": "girafarig",
+   "habitat": "grassland"
+  },
+  "204": {
+   "slug": "pineco",
+   "habitat": "forest"
+  },
+  "205": {
+   "slug": "forretress",
+   "habitat": "forest"
+  },
+  "206": {
+   "slug": "dunsparce",
+   "habitat": "cave"
+  },
+  "207": {
+   "slug": "gligar",
+   "habitat": "mountain"
+  },
+  "208": {
+   "slug": "steelix",
+   "habitat": "cave"
+  },
+  "209": {
+   "slug": "snubbull",
+   "habitat": "urban"
+  },
+  "210": {
+   "slug": "granbull",
+   "habitat": "urban"
+  },
+  "211": {
+   "slug": "qwilfish",
+   "habitat": "sea"
+  },
+  "212": {
+   "slug": "scizor",
+   "habitat": "grassland"
+  },
+  "213": {
+   "slug": "shuckle",
+   "habitat": "mountain"
+  },
+  "214": {
+   "slug": "heracross",
+   "habitat": "forest"
+  },
+  "215": {
+   "slug": "sneasel",
+   "habitat": "forest"
+  },
+  "216": {
+   "slug": "teddiursa",
+   "habitat": "mountain"
+  },
+  "217": {
+   "slug": "ursaring",
+   "habitat": "mountain"
+  },
+  "218": {
+   "slug": "slugma",
+   "habitat": "mountain"
+  },
+  "219": {
+   "slug": "magcargo",
+   "habitat": "mountain"
+  },
+  "220": {
+   "slug": "swinub",
+   "habitat": "cave"
+  },
+  "221": {
+   "slug": "piloswine",
+   "habitat": "cave"
+  },
+  "222": {
+   "slug": "corsola",
+   "habitat": "sea"
+  },
+  "223": {
+   "slug": "remoraid",
+   "habitat": "sea"
+  },
+  "224": {
+   "slug": "octillery",
+   "habitat": "sea"
+  },
+  "225": {
+   "slug": "delibird",
+   "habitat": "mountain"
+  },
+  "226": {
+   "slug": "mantine",
+   "habitat": "sea"
+  },
+  "227": {
+   "slug": "skarmory",
+   "habitat": "rough-terrain"
+  },
+  "228": {
+   "slug": "houndour",
+   "habitat": "rough-terrain"
+  },
+  "229": {
+   "slug": "houndoom",
+   "habitat": "rough-terrain"
+  },
+  "230": {
+   "slug": "kingdra",
+   "habitat": "sea"
+  },
+  "231": {
+   "slug": "phanpy",
+   "habitat": "rough-terrain"
+  },
+  "232": {
+   "slug": "donphan",
+   "habitat": "rough-terrain"
+  },
+  "233": {
+   "slug": "porygon2",
+   "habitat": "urban"
+  },
+  "234": {
+   "slug": "stantler",
+   "habitat": "forest"
+  },
+  "235": {
+   "slug": "smeargle",
+   "habitat": "urban"
+  },
+  "236": {
+   "slug": "tyrogue",
+   "habitat": "urban"
+  },
+  "237": {
+   "slug": "hitmontop",
+   "habitat": "urban"
+  },
+  "238": {
+   "slug": "smoochum",
+   "habitat": "urban"
+  },
+  "239": {
+   "slug": "elekid",
+   "habitat": "grassland"
+  },
+  "240": {
+   "slug": "magby",
+   "habitat": "mountain"
+  },
+  "241": {
+   "slug": "miltank",
+   "habitat": "grassland"
+  },
+  "242": {
+   "slug": "blissey",
+   "habitat": "urban"
+  },
+  "243": {
+   "slug": "raikou",
+   "habitat": "grassland"
+  },
+  "244": {
+   "slug": "entei",
+   "habitat": "grassland"
+  },
+  "245": {
+   "slug": "suicune",
+   "habitat": "grassland"
+  },
+  "246": {
+   "slug": "larvitar",
+   "habitat": "mountain"
+  },
+  "247": {
+   "slug": "pupitar",
+   "habitat": "mountain"
+  },
+  "248": {
+   "slug": "tyranitar",
+   "habitat": "mountain"
+  },
+  "249": {
+   "slug": "lugia",
+   "habitat": "rare"
+  },
+  "250": {
+   "slug": "ho-oh",
+   "habitat": "rare"
+  },
+  "251": {
+   "slug": "celebi",
+   "habitat": "forest"
+  },
+  "252": {
+   "slug": "treecko",
+   "habitat": "forest"
+  },
+  "253": {
+   "slug": "grovyle",
+   "habitat": "forest"
+  },
+  "254": {
+   "slug": "sceptile",
+   "habitat": "forest"
+  },
+  "255": {
+   "slug": "torchic",
+   "habitat": "grassland"
+  },
+  "256": {
+   "slug": "combusken",
+   "habitat": "grassland"
+  },
+  "257": {
+   "slug": "blaziken",
+   "habitat": "grassland"
+  },
+  "258": {
+   "slug": "mudkip",
+   "habitat": "waters-edge"
+  },
+  "259": {
+   "slug": "marshtomp",
+   "habitat": "waters-edge"
+  },
+  "260": {
+   "slug": "swampert",
+   "habitat": "waters-edge"
+  },
+  "261": {
+   "slug": "poochyena",
+   "habitat": "grassland"
+  },
+  "262": {
+   "slug": "mightyena",
+   "habitat": "grassland"
+  },
+  "263": {
+   "slug": "zigzagoon",
+   "habitat": "grassland"
+  },
+  "264": {
+   "slug": "linoone",
+   "habitat": "grassland"
+  },
+  "265": {
+   "slug": "wurmple",
+   "habitat": "forest"
+  },
+  "266": {
+   "slug": "silcoon",
+   "habitat": "forest"
+  },
+  "267": {
+   "slug": "beautifly",
+   "habitat": "forest"
+  },
+  "268": {
+   "slug": "cascoon",
+   "habitat": "forest"
+  },
+  "269": {
+   "slug": "dustox",
+   "habitat": "forest"
+  },
+  "270": {
+   "slug": "lotad",
+   "habitat": "waters-edge"
+  },
+  "271": {
+   "slug": "lombre",
+   "habitat": "waters-edge"
+  },
+  "272": {
+   "slug": "ludicolo",
+   "habitat": "waters-edge"
+  },
+  "273": {
+   "slug": "seedot",
+   "habitat": "forest"
+  },
+  "274": {
+   "slug": "nuzleaf",
+   "habitat": "forest"
+  },
+  "275": {
+   "slug": "shiftry",
+   "habitat": "forest"
+  },
+  "276": {
+   "slug": "taillow",
+   "habitat": "grassland"
+  },
+  "277": {
+   "slug": "swellow",
+   "habitat": "grassland"
+  },
+  "278": {
+   "slug": "wingull",
+   "habitat": "sea"
+  },
+  "279": {
+   "slug": "pelipper",
+   "habitat": "sea"
+  },
+  "280": {
+   "slug": "ralts",
+   "habitat": "urban"
+  },
+  "281": {
+   "slug": "kirlia",
+   "habitat": "urban"
+  },
+  "282": {
+   "slug": "gardevoir",
+   "habitat": "urban"
+  },
+  "283": {
+   "slug": "surskit",
+   "habitat": "waters-edge"
+  },
+  "284": {
+   "slug": "masquerain",
+   "habitat": "waters-edge"
+  },
+  "285": {
+   "slug": "shroomish",
+   "habitat": "forest"
+  },
+  "286": {
+   "slug": "breloom",
+   "habitat": "forest"
+  },
+  "287": {
+   "slug": "slakoth",
+   "habitat": "forest"
+  },
+  "288": {
+   "slug": "vigoroth",
+   "habitat": "forest"
+  },
+  "289": {
+   "slug": "slaking",
+   "habitat": "forest"
+  },
+  "290": {
+   "slug": "nincada",
+   "habitat": "forest"
+  },
+  "291": {
+   "slug": "ninjask",
+   "habitat": "forest"
+  },
+  "292": {
+   "slug": "shedinja",
+   "habitat": "forest"
+  },
+  "293": {
+   "slug": "whismur",
+   "habitat": "cave"
+  },
+  "294": {
+   "slug": "loudred",
+   "habitat": "cave"
+  },
+  "295": {
+   "slug": "exploud",
+   "habitat": "cave"
+  },
+  "296": {
+   "slug": "makuhita",
+   "habitat": "mountain"
+  },
+  "297": {
+   "slug": "hariyama",
+   "habitat": "mountain"
+  },
+  "298": {
+   "slug": "azurill",
+   "habitat": "waters-edge"
+  },
+  "299": {
+   "slug": "nosepass",
+   "habitat": "cave"
+  },
+  "300": {
+   "slug": "skitty",
+   "habitat": "forest"
+  },
+  "301": {
+   "slug": "delcatty",
+   "habitat": "forest"
+  },
+  "302": {
+   "slug": "sableye",
+   "habitat": "cave"
+  },
+  "303": {
+   "slug": "mawile",
+   "habitat": "cave"
+  },
+  "304": {
+   "slug": "aron",
+   "habitat": "mountain"
+  },
+  "305": {
+   "slug": "lairon",
+   "habitat": "mountain"
+  },
+  "306": {
+   "slug": "aggron",
+   "habitat": "mountain"
+  },
+  "307": {
+   "slug": "meditite",
+   "habitat": "mountain"
+  },
+  "308": {
+   "slug": "medicham",
+   "habitat": "mountain"
+  },
+  "309": {
+   "slug": "electrike",
+   "habitat": "grassland"
+  },
+  "310": {
+   "slug": "manectric",
+   "habitat": "grassland"
+  },
+  "311": {
+   "slug": "plusle",
+   "habitat": "grassland"
+  },
+  "312": {
+   "slug": "minun",
+   "habitat": "grassland"
+  },
+  "313": {
+   "slug": "volbeat",
+   "habitat": "forest"
+  },
+  "314": {
+   "slug": "illumise",
+   "habitat": "forest"
+  },
+  "315": {
+   "slug": "roselia",
+   "habitat": "grassland"
+  },
+  "316": {
+   "slug": "gulpin",
+   "habitat": "grassland"
+  },
+  "317": {
+   "slug": "swalot",
+   "habitat": "grassland"
+  },
+  "318": {
+   "slug": "carvanha",
+   "habitat": "sea"
+  },
+  "319": {
+   "slug": "sharpedo",
+   "habitat": "sea"
+  },
+  "320": {
+   "slug": "wailmer",
+   "habitat": "sea"
+  },
+  "321": {
+   "slug": "wailord",
+   "habitat": "sea"
+  },
+  "322": {
+   "slug": "numel",
+   "habitat": "mountain"
+  },
+  "323": {
+   "slug": "camerupt",
+   "habitat": "mountain"
+  },
+  "324": {
+   "slug": "torkoal",
+   "habitat": "mountain"
+  },
+  "325": {
+   "slug": "spoink",
+   "habitat": "mountain"
+  },
+  "326": {
+   "slug": "grumpig",
+   "habitat": "mountain"
+  },
+  "327": {
+   "slug": "spinda",
+   "habitat": "mountain"
+  },
+  "328": {
+   "slug": "trapinch",
+   "habitat": "rough-terrain"
+  },
+  "329": {
+   "slug": "vibrava",
+   "habitat": "rough-terrain"
+  },
+  "330": {
+   "slug": "flygon",
+   "habitat": "rough-terrain"
+  },
+  "331": {
+   "slug": "cacnea",
+   "habitat": "rough-terrain"
+  },
+  "332": {
+   "slug": "cacturne",
+   "habitat": "rough-terrain"
+  },
+  "333": {
+   "slug": "swablu",
+   "habitat": "forest"
+  },
+  "334": {
+   "slug": "altaria",
+   "habitat": "forest"
+  },
+  "335": {
+   "slug": "zangoose",
+   "habitat": "grassland"
+  },
+  "336": {
+   "slug": "seviper",
+   "habitat": "grassland"
+  },
+  "337": {
+   "slug": "lunatone",
+   "habitat": "cave"
+  },
+  "338": {
+   "slug": "solrock",
+   "habitat": "cave"
+  },
+  "339": {
+   "slug": "barboach",
+   "habitat": "waters-edge"
+  },
+  "340": {
+   "slug": "whiscash",
+   "habitat": "waters-edge"
+  },
+  "341": {
+   "slug": "corphish",
+   "habitat": "waters-edge"
+  },
+  "342": {
+   "slug": "crawdaunt",
+   "habitat": "waters-edge"
+  },
+  "343": {
+   "slug": "baltoy",
+   "habitat": "rough-terrain"
+  },
+  "344": {
+   "slug": "claydol",
+   "habitat": "rough-terrain"
+  },
+  "345": {
+   "slug": "lileep",
+   "habitat": "sea"
+  },
+  "346": {
+   "slug": "cradily",
+   "habitat": "sea"
+  },
+  "347": {
+   "slug": "anorith",
+   "habitat": "waters-edge"
+  },
+  "348": {
+   "slug": "armaldo",
+   "habitat": "waters-edge"
+  },
+  "349": {
+   "slug": "feebas",
+   "habitat": "waters-edge"
+  },
+  "350": {
+   "slug": "milotic",
+   "habitat": "waters-edge"
+  },
+  "351": {
+   "slug": "castform",
+   "habitat": "grassland"
+  },
+  "352": {
+   "slug": "kecleon",
+   "habitat": "forest"
+  },
+  "353": {
+   "slug": "shuppet",
+   "habitat": "urban"
+  },
+  "354": {
+   "slug": "banette",
+   "habitat": "urban"
+  },
+  "355": {
+   "slug": "duskull",
+   "habitat": "forest"
+  },
+  "356": {
+   "slug": "dusclops",
+   "habitat": "forest"
+  },
+  "357": {
+   "slug": "tropius",
+   "habitat": "forest"
+  },
+  "358": {
+   "slug": "chimecho",
+   "habitat": "grassland"
+  },
+  "359": {
+   "slug": "absol",
+   "habitat": "mountain"
+  },
+  "360": {
+   "slug": "wynaut",
+   "habitat": "cave"
+  },
+  "361": {
+   "slug": "snorunt",
+   "habitat": "cave"
+  },
+  "362": {
+   "slug": "glalie",
+   "habitat": "cave"
+  },
+  "363": {
+   "slug": "spheal",
+   "habitat": "sea"
+  },
+  "364": {
+   "slug": "sealeo",
+   "habitat": "sea"
+  },
+  "365": {
+   "slug": "walrein",
+   "habitat": "sea"
+  },
+  "366": {
+   "slug": "clamperl",
+   "habitat": "sea"
+  },
+  "367": {
+   "slug": "huntail",
+   "habitat": "sea"
+  },
+  "368": {
+   "slug": "gorebyss",
+   "habitat": "sea"
+  },
+  "369": {
+   "slug": "relicanth",
+   "habitat": "sea"
+  },
+  "370": {
+   "slug": "luvdisc",
+   "habitat": "sea"
+  },
+  "371": {
+   "slug": "bagon",
+   "habitat": "rough-terrain"
+  },
+  "372": {
+   "slug": "shelgon",
+   "habitat": "rough-terrain"
+  },
+  "373": {
+   "slug": "salamence",
+   "habitat": "rough-terrain"
+  },
+  "374": {
+   "slug": "beldum",
+   "habitat": "rough-terrain"
+  },
+  "375": {
+   "slug": "metang",
+   "habitat": "rough-terrain"
+  },
+  "376": {
+   "slug": "metagross",
+   "habitat": "rough-terrain"
+  },
+  "377": {
+   "slug": "regirock",
+   "habitat": "cave"
+  },
+  "378": {
+   "slug": "regice",
+   "habitat": "cave"
+  },
+  "379": {
+   "slug": "registeel",
+   "habitat": "cave"
+  },
+  "380": {
+   "slug": "latias",
+   "habitat": "waters-edge"
+  },
+  "381": {
+   "slug": "latios",
+   "habitat": "waters-edge"
+  },
+  "382": {
+   "slug": "kyogre",
+   "habitat": "sea"
+  },
+  "383": {
+   "slug": "groudon",
+   "habitat": "rough-terrain"
+  },
+  "384": {
+   "slug": "rayquaza",
+   "habitat": "rare"
+  },
+  "385": {
+   "slug": "jirachi",
+   "habitat": "mountain"
+  },
+  "386": {
+   "slug": "deoxys",
+   "habitat": "rare"
+  },
+  "387": {
+   "slug": "turtwig",
+   "habitat": null
+  },
+  "388": {
+   "slug": "grotle",
+   "habitat": null
+  },
+  "389": {
+   "slug": "torterra",
+   "habitat": null
+  },
+  "390": {
+   "slug": "chimchar",
+   "habitat": null
+  },
+  "391": {
+   "slug": "monferno",
+   "habitat": null
+  },
+  "392": {
+   "slug": "infernape",
+   "habitat": null
+  },
+  "393": {
+   "slug": "piplup",
+   "habitat": null
+  },
+  "394": {
+   "slug": "prinplup",
+   "habitat": null
+  },
+  "395": {
+   "slug": "empoleon",
+   "habitat": null
+  },
+  "396": {
+   "slug": "starly",
+   "habitat": null
+  },
+  "397": {
+   "slug": "staravia",
+   "habitat": null
+  },
+  "398": {
+   "slug": "staraptor",
+   "habitat": null
+  },
+  "399": {
+   "slug": "bidoof",
+   "habitat": null
+  },
+  "400": {
+   "slug": "bibarel",
+   "habitat": null
+  },
+  "401": {
+   "slug": "kricketot",
+   "habitat": null
+  },
+  "402": {
+   "slug": "kricketune",
+   "habitat": null
+  },
+  "403": {
+   "slug": "shinx",
+   "habitat": null
+  },
+  "404": {
+   "slug": "luxio",
+   "habitat": null
+  },
+  "405": {
+   "slug": "luxray",
+   "habitat": null
+  },
+  "406": {
+   "slug": "budew",
+   "habitat": null
+  },
+  "407": {
+   "slug": "roserade",
+   "habitat": null
+  },
+  "408": {
+   "slug": "cranidos",
+   "habitat": null
+  },
+  "409": {
+   "slug": "rampardos",
+   "habitat": null
+  },
+  "410": {
+   "slug": "shieldon",
+   "habitat": null
+  },
+  "411": {
+   "slug": "bastiodon",
+   "habitat": null
+  },
+  "412": {
+   "slug": "burmy",
+   "habitat": null
+  },
+  "413": {
+   "slug": "wormadam",
+   "habitat": null
+  },
+  "414": {
+   "slug": "mothim",
+   "habitat": null
+  },
+  "415": {
+   "slug": "combee",
+   "habitat": null
+  },
+  "416": {
+   "slug": "vespiquen",
+   "habitat": null
+  },
+  "417": {
+   "slug": "pachirisu",
+   "habitat": null
+  },
+  "418": {
+   "slug": "buizel",
+   "habitat": null
+  },
+  "419": {
+   "slug": "floatzel",
+   "habitat": null
+  },
+  "420": {
+   "slug": "cherubi",
+   "habitat": null
+  },
+  "421": {
+   "slug": "cherrim",
+   "habitat": null
+  },
+  "422": {
+   "slug": "shellos",
+   "habitat": null
+  },
+  "423": {
+   "slug": "gastrodon",
+   "habitat": null
+  },
+  "424": {
+   "slug": "ambipom",
+   "habitat": null
+  },
+  "425": {
+   "slug": "drifloon",
+   "habitat": null
+  },
+  "426": {
+   "slug": "drifblim",
+   "habitat": null
+  },
+  "427": {
+   "slug": "buneary",
+   "habitat": null
+  },
+  "428": {
+   "slug": "lopunny",
+   "habitat": null
+  },
+  "429": {
+   "slug": "mismagius",
+   "habitat": null
+  },
+  "430": {
+   "slug": "honchkrow",
+   "habitat": null
+  },
+  "431": {
+   "slug": "glameow",
+   "habitat": null
+  },
+  "432": {
+   "slug": "purugly",
+   "habitat": null
+  },
+  "433": {
+   "slug": "chingling",
+   "habitat": null
+  },
+  "434": {
+   "slug": "stunky",
+   "habitat": null
+  },
+  "435": {
+   "slug": "skuntank",
+   "habitat": null
+  },
+  "436": {
+   "slug": "bronzor",
+   "habitat": null
+  },
+  "437": {
+   "slug": "bronzong",
+   "habitat": null
+  },
+  "438": {
+   "slug": "bonsly",
+   "habitat": null
+  },
+  "439": {
+   "slug": "mime-jr",
+   "habitat": null
+  },
+  "440": {
+   "slug": "happiny",
+   "habitat": null
+  },
+  "441": {
+   "slug": "chatot",
+   "habitat": null
+  },
+  "442": {
+   "slug": "spiritomb",
+   "habitat": null
+  },
+  "443": {
+   "slug": "gible",
+   "habitat": null
+  },
+  "444": {
+   "slug": "gabite",
+   "habitat": null
+  },
+  "445": {
+   "slug": "garchomp",
+   "habitat": null
+  },
+  "446": {
+   "slug": "munchlax",
+   "habitat": null
+  },
+  "447": {
+   "slug": "riolu",
+   "habitat": null
+  },
+  "448": {
+   "slug": "lucario",
+   "habitat": null
+  },
+  "449": {
+   "slug": "hippopotas",
+   "habitat": null
+  },
+  "450": {
+   "slug": "hippowdon",
+   "habitat": null
+  },
+  "451": {
+   "slug": "skorupi",
+   "habitat": null
+  },
+  "452": {
+   "slug": "drapion",
+   "habitat": null
+  },
+  "453": {
+   "slug": "croagunk",
+   "habitat": null
+  },
+  "454": {
+   "slug": "toxicroak",
+   "habitat": null
+  },
+  "455": {
+   "slug": "carnivine",
+   "habitat": null
+  },
+  "456": {
+   "slug": "finneon",
+   "habitat": null
+  },
+  "457": {
+   "slug": "lumineon",
+   "habitat": null
+  },
+  "458": {
+   "slug": "mantyke",
+   "habitat": null
+  },
+  "459": {
+   "slug": "snover",
+   "habitat": null
+  },
+  "460": {
+   "slug": "abomasnow",
+   "habitat": null
+  },
+  "461": {
+   "slug": "weavile",
+   "habitat": null
+  },
+  "462": {
+   "slug": "magnezone",
+   "habitat": null
+  },
+  "463": {
+   "slug": "lickilicky",
+   "habitat": null
+  },
+  "464": {
+   "slug": "rhyperior",
+   "habitat": null
+  },
+  "465": {
+   "slug": "tangrowth",
+   "habitat": null
+  },
+  "466": {
+   "slug": "electivire",
+   "habitat": null
+  },
+  "467": {
+   "slug": "magmortar",
+   "habitat": null
+  },
+  "468": {
+   "slug": "togekiss",
+   "habitat": null
+  },
+  "469": {
+   "slug": "yanmega",
+   "habitat": null
+  },
+  "470": {
+   "slug": "leafeon",
+   "habitat": null
+  },
+  "471": {
+   "slug": "glaceon",
+   "habitat": null
+  },
+  "472": {
+   "slug": "gliscor",
+   "habitat": null
+  },
+  "473": {
+   "slug": "mamoswine",
+   "habitat": null
+  },
+  "474": {
+   "slug": "porygon-z",
+   "habitat": null
+  },
+  "475": {
+   "slug": "gallade",
+   "habitat": null
+  },
+  "476": {
+   "slug": "probopass",
+   "habitat": null
+  },
+  "477": {
+   "slug": "dusknoir",
+   "habitat": null
+  },
+  "478": {
+   "slug": "froslass",
+   "habitat": null
+  },
+  "479": {
+   "slug": "rotom",
+   "habitat": null
+  },
+  "480": {
+   "slug": "uxie",
+   "habitat": null
+  },
+  "481": {
+   "slug": "mesprit",
+   "habitat": null
+  },
+  "482": {
+   "slug": "azelf",
+   "habitat": null
+  },
+  "483": {
+   "slug": "dialga",
+   "habitat": null
+  },
+  "484": {
+   "slug": "palkia",
+   "habitat": null
+  },
+  "485": {
+   "slug": "heatran",
+   "habitat": null
+  },
+  "486": {
+   "slug": "regigigas",
+   "habitat": null
+  },
+  "487": {
+   "slug": "giratina",
+   "habitat": null
+  },
+  "488": {
+   "slug": "cresselia",
+   "habitat": null
+  },
+  "489": {
+   "slug": "phione",
+   "habitat": null
+  },
+  "490": {
+   "slug": "manaphy",
+   "habitat": null
+  },
+  "491": {
+   "slug": "darkrai",
+   "habitat": null
+  },
+  "492": {
+   "slug": "shaymin",
+   "habitat": null
+  },
+  "493": {
+   "slug": "arceus",
+   "habitat": null
+  },
+  "494": {
+   "slug": "victini",
+   "habitat": null
+  },
+  "495": {
+   "slug": "snivy",
+   "habitat": null
+  },
+  "496": {
+   "slug": "servine",
+   "habitat": null
+  },
+  "497": {
+   "slug": "serperior",
+   "habitat": null
+  },
+  "498": {
+   "slug": "tepig",
+   "habitat": null
+  },
+  "499": {
+   "slug": "pignite",
+   "habitat": null
+  },
+  "500": {
+   "slug": "emboar",
+   "habitat": null
+  },
+  "501": {
+   "slug": "oshawott",
+   "habitat": null
+  },
+  "502": {
+   "slug": "dewott",
+   "habitat": null
+  },
+  "503": {
+   "slug": "samurott",
+   "habitat": null
+  },
+  "504": {
+   "slug": "patrat",
+   "habitat": null
+  },
+  "505": {
+   "slug": "watchog",
+   "habitat": null
+  },
+  "506": {
+   "slug": "lillipup",
+   "habitat": null
+  },
+  "507": {
+   "slug": "herdier",
+   "habitat": null
+  },
+  "508": {
+   "slug": "stoutland",
+   "habitat": null
+  },
+  "509": {
+   "slug": "purrloin",
+   "habitat": null
+  },
+  "510": {
+   "slug": "liepard",
+   "habitat": null
+  },
+  "511": {
+   "slug": "pansage",
+   "habitat": null
+  },
+  "512": {
+   "slug": "simisage",
+   "habitat": null
+  },
+  "513": {
+   "slug": "pansear",
+   "habitat": null
+  },
+  "514": {
+   "slug": "simisear",
+   "habitat": null
+  },
+  "515": {
+   "slug": "panpour",
+   "habitat": null
+  },
+  "516": {
+   "slug": "simipour",
+   "habitat": null
+  },
+  "517": {
+   "slug": "munna",
+   "habitat": null
+  },
+  "518": {
+   "slug": "musharna",
+   "habitat": null
+  },
+  "519": {
+   "slug": "pidove",
+   "habitat": null
+  },
+  "520": {
+   "slug": "tranquill",
+   "habitat": null
+  },
+  "521": {
+   "slug": "unfezant",
+   "habitat": null
+  },
+  "522": {
+   "slug": "blitzle",
+   "habitat": null
+  },
+  "523": {
+   "slug": "zebstrika",
+   "habitat": null
+  },
+  "524": {
+   "slug": "roggenrola",
+   "habitat": null
+  },
+  "525": {
+   "slug": "boldore",
+   "habitat": null
+  },
+  "526": {
+   "slug": "gigalith",
+   "habitat": null
+  },
+  "527": {
+   "slug": "woobat",
+   "habitat": null
+  },
+  "528": {
+   "slug": "swoobat",
+   "habitat": null
+  },
+  "529": {
+   "slug": "drilbur",
+   "habitat": null
+  },
+  "530": {
+   "slug": "excadrill",
+   "habitat": null
+  },
+  "531": {
+   "slug": "audino",
+   "habitat": null
+  },
+  "532": {
+   "slug": "timburr",
+   "habitat": null
+  },
+  "533": {
+   "slug": "gurdurr",
+   "habitat": null
+  },
+  "534": {
+   "slug": "conkeldurr",
+   "habitat": null
+  },
+  "535": {
+   "slug": "tympole",
+   "habitat": null
+  },
+  "536": {
+   "slug": "palpitoad",
+   "habitat": null
+  },
+  "537": {
+   "slug": "seismitoad",
+   "habitat": null
+  },
+  "538": {
+   "slug": "throh",
+   "habitat": null
+  },
+  "539": {
+   "slug": "sawk",
+   "habitat": null
+  },
+  "540": {
+   "slug": "sewaddle",
+   "habitat": null
+  },
+  "541": {
+   "slug": "swadloon",
+   "habitat": null
+  },
+  "542": {
+   "slug": "leavanny",
+   "habitat": null
+  },
+  "543": {
+   "slug": "venipede",
+   "habitat": null
+  },
+  "544": {
+   "slug": "whirlipede",
+   "habitat": null
+  },
+  "545": {
+   "slug": "scolipede",
+   "habitat": null
+  },
+  "546": {
+   "slug": "cottonee",
+   "habitat": null
+  },
+  "547": {
+   "slug": "whimsicott",
+   "habitat": null
+  },
+  "548": {
+   "slug": "petilil",
+   "habitat": null
+  },
+  "549": {
+   "slug": "lilligant",
+   "habitat": null
+  },
+  "550": {
+   "slug": "basculin",
+   "habitat": null
+  },
+  "551": {
+   "slug": "sandile",
+   "habitat": null
+  },
+  "552": {
+   "slug": "krokorok",
+   "habitat": null
+  },
+  "553": {
+   "slug": "krookodile",
+   "habitat": null
+  },
+  "554": {
+   "slug": "darumaka",
+   "habitat": null
+  },
+  "555": {
+   "slug": "darmanitan",
+   "habitat": null
+  },
+  "556": {
+   "slug": "maractus",
+   "habitat": null
+  },
+  "557": {
+   "slug": "dwebble",
+   "habitat": null
+  },
+  "558": {
+   "slug": "crustle",
+   "habitat": null
+  },
+  "559": {
+   "slug": "scraggy",
+   "habitat": null
+  },
+  "560": {
+   "slug": "scrafty",
+   "habitat": null
+  },
+  "561": {
+   "slug": "sigilyph",
+   "habitat": null
+  },
+  "562": {
+   "slug": "yamask",
+   "habitat": null
+  },
+  "563": {
+   "slug": "cofagrigus",
+   "habitat": null
+  },
+  "564": {
+   "slug": "tirtouga",
+   "habitat": null
+  },
+  "565": {
+   "slug": "carracosta",
+   "habitat": null
+  },
+  "566": {
+   "slug": "archen",
+   "habitat": null
+  },
+  "567": {
+   "slug": "archeops",
+   "habitat": null
+  },
+  "568": {
+   "slug": "trubbish",
+   "habitat": null
+  },
+  "569": {
+   "slug": "garbodor",
+   "habitat": null
+  },
+  "570": {
+   "slug": "zorua",
+   "habitat": null
+  },
+  "571": {
+   "slug": "zoroark",
+   "habitat": null
+  },
+  "572": {
+   "slug": "minccino",
+   "habitat": null
+  },
+  "573": {
+   "slug": "cinccino",
+   "habitat": null
+  },
+  "574": {
+   "slug": "gothita",
+   "habitat": null
+  },
+  "575": {
+   "slug": "gothorita",
+   "habitat": null
+  },
+  "576": {
+   "slug": "gothitelle",
+   "habitat": null
+  },
+  "577": {
+   "slug": "solosis",
+   "habitat": null
+  },
+  "578": {
+   "slug": "duosion",
+   "habitat": null
+  },
+  "579": {
+   "slug": "reuniclus",
+   "habitat": null
+  },
+  "580": {
+   "slug": "ducklett",
+   "habitat": null
+  },
+  "581": {
+   "slug": "swanna",
+   "habitat": null
+  },
+  "582": {
+   "slug": "vanillite",
+   "habitat": null
+  },
+  "583": {
+   "slug": "vanillish",
+   "habitat": null
+  },
+  "584": {
+   "slug": "vanilluxe",
+   "habitat": null
+  },
+  "585": {
+   "slug": "deerling",
+   "habitat": null
+  },
+  "586": {
+   "slug": "sawsbuck",
+   "habitat": null
+  },
+  "587": {
+   "slug": "emolga",
+   "habitat": null
+  },
+  "588": {
+   "slug": "karrablast",
+   "habitat": null
+  },
+  "589": {
+   "slug": "escavalier",
+   "habitat": null
+  },
+  "590": {
+   "slug": "foongus",
+   "habitat": null
+  },
+  "591": {
+   "slug": "amoonguss",
+   "habitat": null
+  },
+  "592": {
+   "slug": "frillish",
+   "habitat": null
+  },
+  "593": {
+   "slug": "jellicent",
+   "habitat": null
+  },
+  "594": {
+   "slug": "alomomola",
+   "habitat": null
+  },
+  "595": {
+   "slug": "joltik",
+   "habitat": null
+  },
+  "596": {
+   "slug": "galvantula",
+   "habitat": null
+  },
+  "597": {
+   "slug": "ferroseed",
+   "habitat": null
+  },
+  "598": {
+   "slug": "ferrothorn",
+   "habitat": null
+  },
+  "599": {
+   "slug": "klink",
+   "habitat": null
+  },
+  "600": {
+   "slug": "klang",
+   "habitat": null
+  },
+  "601": {
+   "slug": "klinklang",
+   "habitat": null
+  },
+  "602": {
+   "slug": "tynamo",
+   "habitat": null
+  },
+  "603": {
+   "slug": "eelektrik",
+   "habitat": null
+  },
+  "604": {
+   "slug": "eelektross",
+   "habitat": null
+  },
+  "605": {
+   "slug": "elgyem",
+   "habitat": null
+  },
+  "606": {
+   "slug": "beheeyem",
+   "habitat": null
+  },
+  "607": {
+   "slug": "litwick",
+   "habitat": null
+  },
+  "608": {
+   "slug": "lampent",
+   "habitat": null
+  },
+  "609": {
+   "slug": "chandelure",
+   "habitat": null
+  },
+  "610": {
+   "slug": "axew",
+   "habitat": null
+  },
+  "611": {
+   "slug": "fraxure",
+   "habitat": null
+  },
+  "612": {
+   "slug": "haxorus",
+   "habitat": null
+  },
+  "613": {
+   "slug": "cubchoo",
+   "habitat": null
+  },
+  "614": {
+   "slug": "beartic",
+   "habitat": null
+  },
+  "615": {
+   "slug": "cryogonal",
+   "habitat": null
+  },
+  "616": {
+   "slug": "shelmet",
+   "habitat": null
+  },
+  "617": {
+   "slug": "accelgor",
+   "habitat": null
+  },
+  "618": {
+   "slug": "stunfisk",
+   "habitat": null
+  },
+  "619": {
+   "slug": "mienfoo",
+   "habitat": null
+  },
+  "620": {
+   "slug": "mienshao",
+   "habitat": null
+  },
+  "621": {
+   "slug": "druddigon",
+   "habitat": null
+  },
+  "622": {
+   "slug": "golett",
+   "habitat": null
+  },
+  "623": {
+   "slug": "golurk",
+   "habitat": null
+  },
+  "624": {
+   "slug": "pawniard",
+   "habitat": null
+  },
+  "625": {
+   "slug": "bisharp",
+   "habitat": null
+  },
+  "626": {
+   "slug": "bouffalant",
+   "habitat": null
+  },
+  "627": {
+   "slug": "rufflet",
+   "habitat": null
+  },
+  "628": {
+   "slug": "braviary",
+   "habitat": null
+  },
+  "629": {
+   "slug": "vullaby",
+   "habitat": null
+  },
+  "630": {
+   "slug": "mandibuzz",
+   "habitat": null
+  },
+  "631": {
+   "slug": "heatmor",
+   "habitat": null
+  },
+  "632": {
+   "slug": "durant",
+   "habitat": null
+  },
+  "633": {
+   "slug": "deino",
+   "habitat": null
+  },
+  "634": {
+   "slug": "zweilous",
+   "habitat": null
+  },
+  "635": {
+   "slug": "hydreigon",
+   "habitat": null
+  },
+  "636": {
+   "slug": "larvesta",
+   "habitat": null
+  },
+  "637": {
+   "slug": "volcarona",
+   "habitat": null
+  },
+  "638": {
+   "slug": "cobalion",
+   "habitat": null
+  },
+  "639": {
+   "slug": "terrakion",
+   "habitat": null
+  },
+  "640": {
+   "slug": "virizion",
+   "habitat": null
+  },
+  "641": {
+   "slug": "tornadus",
+   "habitat": null
+  },
+  "642": {
+   "slug": "thundurus",
+   "habitat": null
+  },
+  "643": {
+   "slug": "reshiram",
+   "habitat": null
+  },
+  "644": {
+   "slug": "zekrom",
+   "habitat": null
+  },
+  "645": {
+   "slug": "landorus",
+   "habitat": null
+  },
+  "646": {
+   "slug": "kyurem",
+   "habitat": null
+  },
+  "647": {
+   "slug": "keldeo",
+   "habitat": null
+  },
+  "648": {
+   "slug": "meloetta",
+   "habitat": null
+  },
+  "649": {
+   "slug": "genesect",
+   "habitat": null
+  },
+  "650": {
+   "slug": "chespin",
+   "habitat": null
+  },
+  "651": {
+   "slug": "quilladin",
+   "habitat": null
+  },
+  "652": {
+   "slug": "chesnaught",
+   "habitat": null
+  },
+  "653": {
+   "slug": "fennekin",
+   "habitat": null
+  },
+  "654": {
+   "slug": "braixen",
+   "habitat": null
+  },
+  "655": {
+   "slug": "delphox",
+   "habitat": null
+  },
+  "656": {
+   "slug": "froakie",
+   "habitat": null
+  },
+  "657": {
+   "slug": "frogadier",
+   "habitat": null
+  },
+  "658": {
+   "slug": "greninja",
+   "habitat": null
+  },
+  "659": {
+   "slug": "bunnelby",
+   "habitat": null
+  },
+  "660": {
+   "slug": "diggersby",
+   "habitat": null
+  },
+  "661": {
+   "slug": "fletchling",
+   "habitat": null
+  },
+  "662": {
+   "slug": "fletchinder",
+   "habitat": null
+  },
+  "663": {
+   "slug": "talonflame",
+   "habitat": null
+  },
+  "664": {
+   "slug": "scatterbug",
+   "habitat": null
+  },
+  "665": {
+   "slug": "spewpa",
+   "habitat": null
+  },
+  "666": {
+   "slug": "vivillon",
+   "habitat": null
+  },
+  "667": {
+   "slug": "litleo",
+   "habitat": null
+  },
+  "668": {
+   "slug": "pyroar",
+   "habitat": null
+  },
+  "669": {
+   "slug": "flabebe",
+   "habitat": null
+  },
+  "670": {
+   "slug": "floette",
+   "habitat": null
+  },
+  "671": {
+   "slug": "florges",
+   "habitat": null
+  },
+  "672": {
+   "slug": "skiddo",
+   "habitat": null
+  },
+  "673": {
+   "slug": "gogoat",
+   "habitat": null
+  },
+  "674": {
+   "slug": "pancham",
+   "habitat": null
+  },
+  "675": {
+   "slug": "pangoro",
+   "habitat": null
+  },
+  "676": {
+   "slug": "furfrou",
+   "habitat": null
+  },
+  "677": {
+   "slug": "espurr",
+   "habitat": null
+  },
+  "678": {
+   "slug": "meowstic",
+   "habitat": null
+  },
+  "679": {
+   "slug": "honedge",
+   "habitat": null
+  },
+  "680": {
+   "slug": "doublade",
+   "habitat": null
+  },
+  "681": {
+   "slug": "aegislash",
+   "habitat": null
+  },
+  "682": {
+   "slug": "spritzee",
+   "habitat": null
+  },
+  "683": {
+   "slug": "aromatisse",
+   "habitat": null
+  },
+  "684": {
+   "slug": "swirlix",
+   "habitat": null
+  },
+  "685": {
+   "slug": "slurpuff",
+   "habitat": null
+  },
+  "686": {
+   "slug": "inkay",
+   "habitat": null
+  },
+  "687": {
+   "slug": "malamar",
+   "habitat": null
+  },
+  "688": {
+   "slug": "binacle",
+   "habitat": null
+  },
+  "689": {
+   "slug": "barbaracle",
+   "habitat": null
+  },
+  "690": {
+   "slug": "skrelp",
+   "habitat": null
+  },
+  "691": {
+   "slug": "dragalge",
+   "habitat": null
+  },
+  "692": {
+   "slug": "clauncher",
+   "habitat": null
+  },
+  "693": {
+   "slug": "clawitzer",
+   "habitat": null
+  },
+  "694": {
+   "slug": "helioptile",
+   "habitat": null
+  },
+  "695": {
+   "slug": "heliolisk",
+   "habitat": null
+  },
+  "696": {
+   "slug": "tyrunt",
+   "habitat": null
+  },
+  "697": {
+   "slug": "tyrantrum",
+   "habitat": null
+  },
+  "698": {
+   "slug": "amaura",
+   "habitat": null
+  },
+  "699": {
+   "slug": "aurorus",
+   "habitat": null
+  },
+  "700": {
+   "slug": "sylveon",
+   "habitat": null
+  },
+  "701": {
+   "slug": "hawlucha",
+   "habitat": null
+  },
+  "702": {
+   "slug": "dedenne",
+   "habitat": null
+  },
+  "703": {
+   "slug": "carbink",
+   "habitat": null
+  },
+  "704": {
+   "slug": "goomy",
+   "habitat": null
+  },
+  "705": {
+   "slug": "sliggoo",
+   "habitat": null
+  },
+  "706": {
+   "slug": "goodra",
+   "habitat": null
+  },
+  "707": {
+   "slug": "klefki",
+   "habitat": null
+  },
+  "708": {
+   "slug": "phantump",
+   "habitat": null
+  },
+  "709": {
+   "slug": "trevenant",
+   "habitat": null
+  },
+  "710": {
+   "slug": "pumpkaboo",
+   "habitat": null
+  },
+  "711": {
+   "slug": "gourgeist",
+   "habitat": null
+  },
+  "712": {
+   "slug": "bergmite",
+   "habitat": null
+  },
+  "713": {
+   "slug": "avalugg",
+   "habitat": null
+  },
+  "714": {
+   "slug": "noibat",
+   "habitat": null
+  },
+  "715": {
+   "slug": "noivern",
+   "habitat": null
+  },
+  "716": {
+   "slug": "xerneas",
+   "habitat": null
+  },
+  "717": {
+   "slug": "yveltal",
+   "habitat": null
+  },
+  "718": {
+   "slug": "zygarde",
+   "habitat": null
+  },
+  "719": {
+   "slug": "diancie",
+   "habitat": null
+  },
+  "720": {
+   "slug": "hoopa",
+   "habitat": null
+  },
+  "721": {
+   "slug": "volcanion",
+   "habitat": null
+  },
+  "722": {
+   "slug": "rowlet",
+   "habitat": null
+  },
+  "723": {
+   "slug": "dartrix",
+   "habitat": null
+  },
+  "724": {
+   "slug": "decidueye",
+   "habitat": null
+  },
+  "725": {
+   "slug": "litten",
+   "habitat": null
+  },
+  "726": {
+   "slug": "torracat",
+   "habitat": null
+  },
+  "727": {
+   "slug": "incineroar",
+   "habitat": null
+  },
+  "728": {
+   "slug": "popplio",
+   "habitat": null
+  },
+  "729": {
+   "slug": "brionne",
+   "habitat": null
+  },
+  "730": {
+   "slug": "primarina",
+   "habitat": null
+  },
+  "731": {
+   "slug": "pikipek",
+   "habitat": null
+  },
+  "732": {
+   "slug": "trumbeak",
+   "habitat": null
+  },
+  "733": {
+   "slug": "toucannon",
+   "habitat": null
+  },
+  "734": {
+   "slug": "yungoos",
+   "habitat": null
+  },
+  "735": {
+   "slug": "gumshoos",
+   "habitat": null
+  },
+  "736": {
+   "slug": "grubbin",
+   "habitat": null
+  },
+  "737": {
+   "slug": "charjabug",
+   "habitat": null
+  },
+  "738": {
+   "slug": "vikavolt",
+   "habitat": null
+  },
+  "739": {
+   "slug": "crabrawler",
+   "habitat": null
+  },
+  "740": {
+   "slug": "crabominable",
+   "habitat": null
+  },
+  "741": {
+   "slug": "oricorio",
+   "habitat": null
+  },
+  "742": {
+   "slug": "cutiefly",
+   "habitat": null
+  },
+  "743": {
+   "slug": "ribombee",
+   "habitat": null
+  },
+  "744": {
+   "slug": "rockruff",
+   "habitat": null
+  },
+  "745": {
+   "slug": "lycanroc",
+   "habitat": null
+  },
+  "746": {
+   "slug": "wishiwashi",
+   "habitat": null
+  },
+  "747": {
+   "slug": "mareanie",
+   "habitat": null
+  },
+  "748": {
+   "slug": "toxapex",
+   "habitat": null
+  },
+  "749": {
+   "slug": "mudbray",
+   "habitat": null
+  },
+  "750": {
+   "slug": "mudsdale",
+   "habitat": null
+  },
+  "751": {
+   "slug": "dewpider",
+   "habitat": null
+  },
+  "752": {
+   "slug": "araquanid",
+   "habitat": null
+  },
+  "753": {
+   "slug": "fomantis",
+   "habitat": null
+  },
+  "754": {
+   "slug": "lurantis",
+   "habitat": null
+  },
+  "755": {
+   "slug": "morelull",
+   "habitat": null
+  },
+  "756": {
+   "slug": "shiinotic",
+   "habitat": null
+  },
+  "757": {
+   "slug": "salandit",
+   "habitat": null
+  },
+  "758": {
+   "slug": "salazzle",
+   "habitat": null
+  },
+  "759": {
+   "slug": "stufful",
+   "habitat": null
+  },
+  "760": {
+   "slug": "bewear",
+   "habitat": null
+  },
+  "761": {
+   "slug": "bounsweet",
+   "habitat": null
+  },
+  "762": {
+   "slug": "steenee",
+   "habitat": null
+  },
+  "763": {
+   "slug": "tsareena",
+   "habitat": null
+  },
+  "764": {
+   "slug": "comfey",
+   "habitat": null
+  },
+  "765": {
+   "slug": "oranguru",
+   "habitat": null
+  },
+  "766": {
+   "slug": "passimian",
+   "habitat": null
+  },
+  "767": {
+   "slug": "wimpod",
+   "habitat": null
+  },
+  "768": {
+   "slug": "golisopod",
+   "habitat": null
+  },
+  "769": {
+   "slug": "sandygast",
+   "habitat": null
+  },
+  "770": {
+   "slug": "palossand",
+   "habitat": null
+  },
+  "771": {
+   "slug": "pyukumuku",
+   "habitat": null
+  },
+  "772": {
+   "slug": "type-null",
+   "habitat": null
+  },
+  "773": {
+   "slug": "silvally",
+   "habitat": null
+  },
+  "774": {
+   "slug": "minior",
+   "habitat": null
+  },
+  "775": {
+   "slug": "komala",
+   "habitat": null
+  },
+  "776": {
+   "slug": "turtonator",
+   "habitat": null
+  },
+  "777": {
+   "slug": "togedemaru",
+   "habitat": null
+  },
+  "778": {
+   "slug": "mimikyu",
+   "habitat": null
+  },
+  "779": {
+   "slug": "bruxish",
+   "habitat": null
+  },
+  "780": {
+   "slug": "drampa",
+   "habitat": null
+  },
+  "781": {
+   "slug": "dhelmise",
+   "habitat": null
+  },
+  "782": {
+   "slug": "jangmo-o",
+   "habitat": null
+  },
+  "783": {
+   "slug": "hakamo-o",
+   "habitat": null
+  },
+  "784": {
+   "slug": "kommo-o",
+   "habitat": null
+  },
+  "785": {
+   "slug": "tapu-koko",
+   "habitat": null
+  },
+  "786": {
+   "slug": "tapu-lele",
+   "habitat": null
+  },
+  "787": {
+   "slug": "tapu-bulu",
+   "habitat": null
+  },
+  "788": {
+   "slug": "tapu-fini",
+   "habitat": null
+  },
+  "789": {
+   "slug": "cosmog",
+   "habitat": null
+  },
+  "790": {
+   "slug": "cosmoem",
+   "habitat": null
+  },
+  "791": {
+   "slug": "solgaleo",
+   "habitat": null
+  },
+  "792": {
+   "slug": "lunala",
+   "habitat": null
+  },
+  "793": {
+   "slug": "nihilego",
+   "habitat": null
+  },
+  "794": {
+   "slug": "buzzwole",
+   "habitat": null
+  },
+  "795": {
+   "slug": "pheromosa",
+   "habitat": null
+  },
+  "796": {
+   "slug": "xurkitree",
+   "habitat": null
+  },
+  "797": {
+   "slug": "celesteela",
+   "habitat": null
+  },
+  "798": {
+   "slug": "kartana",
+   "habitat": null
+  },
+  "799": {
+   "slug": "guzzlord",
+   "habitat": null
+  },
+  "800": {
+   "slug": "necrozma",
+   "habitat": null
+  },
+  "801": {
+   "slug": "magearna",
+   "habitat": null
+  },
+  "802": {
+   "slug": "marshadow",
+   "habitat": null
+  },
+  "803": {
+   "slug": "poipole",
+   "habitat": null
+  },
+  "804": {
+   "slug": "naganadel",
+   "habitat": null
+  },
+  "805": {
+   "slug": "stakataka",
+   "habitat": null
+  },
+  "806": {
+   "slug": "blacephalon",
+   "habitat": null
+  },
+  "807": {
+   "slug": "zeraora",
+   "habitat": null
+  },
+  "808": {
+   "slug": "meltan",
+   "habitat": null
+  },
+  "809": {
+   "slug": "melmetal",
+   "habitat": null
+  },
+  "810": {
+   "slug": "grookey",
+   "habitat": null
+  },
+  "811": {
+   "slug": "thwackey",
+   "habitat": null
+  },
+  "812": {
+   "slug": "rillaboom",
+   "habitat": null
+  },
+  "813": {
+   "slug": "scorbunny",
+   "habitat": null
+  },
+  "814": {
+   "slug": "raboot",
+   "habitat": null
+  },
+  "815": {
+   "slug": "cinderace",
+   "habitat": null
+  },
+  "816": {
+   "slug": "sobble",
+   "habitat": null
+  },
+  "817": {
+   "slug": "drizzile",
+   "habitat": null
+  },
+  "818": {
+   "slug": "inteleon",
+   "habitat": null
+  },
+  "819": {
+   "slug": "skwovet",
+   "habitat": null
+  },
+  "820": {
+   "slug": "greedent",
+   "habitat": null
+  },
+  "821": {
+   "slug": "rookidee",
+   "habitat": null
+  },
+  "822": {
+   "slug": "corvisquire",
+   "habitat": null
+  },
+  "823": {
+   "slug": "corviknight",
+   "habitat": null
+  },
+  "824": {
+   "slug": "blipbug",
+   "habitat": null
+  },
+  "825": {
+   "slug": "dottler",
+   "habitat": null
+  },
+  "826": {
+   "slug": "orbeetle",
+   "habitat": null
+  },
+  "827": {
+   "slug": "nickit",
+   "habitat": null
+  },
+  "828": {
+   "slug": "thievul",
+   "habitat": null
+  },
+  "829": {
+   "slug": "gossifleur",
+   "habitat": null
+  },
+  "830": {
+   "slug": "eldegoss",
+   "habitat": null
+  },
+  "831": {
+   "slug": "wooloo",
+   "habitat": null
+  },
+  "832": {
+   "slug": "dubwool",
+   "habitat": null
+  },
+  "833": {
+   "slug": "chewtle",
+   "habitat": null
+  },
+  "834": {
+   "slug": "drednaw",
+   "habitat": null
+  },
+  "835": {
+   "slug": "yamper",
+   "habitat": null
+  },
+  "836": {
+   "slug": "boltund",
+   "habitat": null
+  },
+  "837": {
+   "slug": "rolycoly",
+   "habitat": null
+  },
+  "838": {
+   "slug": "carkol",
+   "habitat": null
+  },
+  "839": {
+   "slug": "coalossal",
+   "habitat": null
+  },
+  "840": {
+   "slug": "applin",
+   "habitat": null
+  },
+  "841": {
+   "slug": "flapple",
+   "habitat": null
+  },
+  "842": {
+   "slug": "appletun",
+   "habitat": null
+  },
+  "843": {
+   "slug": "silicobra",
+   "habitat": null
+  },
+  "844": {
+   "slug": "sandaconda",
+   "habitat": null
+  },
+  "845": {
+   "slug": "cramorant",
+   "habitat": null
+  },
+  "846": {
+   "slug": "arrokuda",
+   "habitat": null
+  },
+  "847": {
+   "slug": "barraskewda",
+   "habitat": null
+  },
+  "848": {
+   "slug": "toxel",
+   "habitat": null
+  },
+  "849": {
+   "slug": "toxtricity",
+   "habitat": null
+  },
+  "850": {
+   "slug": "sizzlipede",
+   "habitat": null
+  },
+  "851": {
+   "slug": "centiskorch",
+   "habitat": null
+  },
+  "852": {
+   "slug": "clobbopus",
+   "habitat": null
+  },
+  "853": {
+   "slug": "grapploct",
+   "habitat": null
+  },
+  "854": {
+   "slug": "sinistea",
+   "habitat": null
+  },
+  "855": {
+   "slug": "polteageist",
+   "habitat": null
+  },
+  "856": {
+   "slug": "hatenna",
+   "habitat": null
+  },
+  "857": {
+   "slug": "hattrem",
+   "habitat": null
+  },
+  "858": {
+   "slug": "hatterene",
+   "habitat": null
+  },
+  "859": {
+   "slug": "impidimp",
+   "habitat": null
+  },
+  "860": {
+   "slug": "morgrem",
+   "habitat": null
+  },
+  "861": {
+   "slug": "grimmsnarl",
+   "habitat": null
+  },
+  "862": {
+   "slug": "obstagoon",
+   "habitat": null
+  },
+  "863": {
+   "slug": "perrserker",
+   "habitat": null
+  },
+  "864": {
+   "slug": "cursola",
+   "habitat": null
+  },
+  "865": {
+   "slug": "sirfetchd",
+   "habitat": null
+  },
+  "866": {
+   "slug": "mr-rime",
+   "habitat": null
+  },
+  "867": {
+   "slug": "runerigus",
+   "habitat": null
+  },
+  "868": {
+   "slug": "milcery",
+   "habitat": null
+  },
+  "869": {
+   "slug": "alcremie",
+   "habitat": null
+  },
+  "870": {
+   "slug": "falinks",
+   "habitat": null
+  },
+  "871": {
+   "slug": "pincurchin",
+   "habitat": null
+  },
+  "872": {
+   "slug": "snom",
+   "habitat": null
+  },
+  "873": {
+   "slug": "frosmoth",
+   "habitat": null
+  },
+  "874": {
+   "slug": "stonjourner",
+   "habitat": null
+  },
+  "875": {
+   "slug": "eiscue",
+   "habitat": null
+  },
+  "876": {
+   "slug": "indeedee",
+   "habitat": null
+  },
+  "877": {
+   "slug": "morpeko",
+   "habitat": null
+  },
+  "878": {
+   "slug": "cufant",
+   "habitat": null
+  },
+  "879": {
+   "slug": "copperajah",
+   "habitat": null
+  },
+  "880": {
+   "slug": "dracozolt",
+   "habitat": null
+  },
+  "881": {
+   "slug": "arctozolt",
+   "habitat": null
+  },
+  "882": {
+   "slug": "dracovish",
+   "habitat": null
+  },
+  "883": {
+   "slug": "arctovish",
+   "habitat": null
+  },
+  "884": {
+   "slug": "duraludon",
+   "habitat": null
+  },
+  "885": {
+   "slug": "dreepy",
+   "habitat": null
+  },
+  "886": {
+   "slug": "drakloak",
+   "habitat": null
+  },
+  "887": {
+   "slug": "dragapult",
+   "habitat": null
+  },
+  "888": {
+   "slug": "zacian",
+   "habitat": null
+  },
+  "889": {
+   "slug": "zamazenta",
+   "habitat": null
+  },
+  "890": {
+   "slug": "eternatus",
+   "habitat": null
+  },
+  "891": {
+   "slug": "kubfu",
+   "habitat": null
+  },
+  "892": {
+   "slug": "urshifu",
+   "habitat": null
+  },
+  "893": {
+   "slug": "zarude",
+   "habitat": null
+  },
+  "894": {
+   "slug": "regieleki",
+   "habitat": null
+  },
+  "895": {
+   "slug": "regidrago",
+   "habitat": null
+  },
+  "896": {
+   "slug": "glastrier",
+   "habitat": null
+  },
+  "897": {
+   "slug": "spectrier",
+   "habitat": null
+  },
+  "898": {
+   "slug": "calyrex",
+   "habitat": null
+  },
+  "899": {
+   "slug": "wyrdeer",
+   "habitat": null
+  },
+  "900": {
+   "slug": "kleavor",
+   "habitat": null
+  },
+  "901": {
+   "slug": "ursaluna",
+   "habitat": null
+  },
+  "902": {
+   "slug": "basculegion",
+   "habitat": null
+  },
+  "903": {
+   "slug": "sneasler",
+   "habitat": null
+  },
+  "904": {
+   "slug": "overqwil",
+   "habitat": null
+  },
+  "905": {
+   "slug": "enamorus",
+   "habitat": null
+  },
+  "906": {
+   "slug": "sprigatito",
+   "habitat": null
+  },
+  "907": {
+   "slug": "floragato",
+   "habitat": null
+  },
+  "908": {
+   "slug": "meowscarada",
+   "habitat": null
+  },
+  "909": {
+   "slug": "fuecoco",
+   "habitat": null
+  },
+  "910": {
+   "slug": "crocalor",
+   "habitat": null
+  },
+  "911": {
+   "slug": "skeledirge",
+   "habitat": null
+  },
+  "912": {
+   "slug": "quaxly",
+   "habitat": null
+  },
+  "913": {
+   "slug": "quaxwell",
+   "habitat": null
+  },
+  "914": {
+   "slug": "quaquaval",
+   "habitat": null
+  },
+  "915": {
+   "slug": "lechonk",
+   "habitat": null
+  },
+  "916": {
+   "slug": "oinkologne",
+   "habitat": null
+  },
+  "917": {
+   "slug": "tarountula",
+   "habitat": null
+  },
+  "918": {
+   "slug": "spidops",
+   "habitat": null
+  },
+  "919": {
+   "slug": "nymble",
+   "habitat": null
+  },
+  "920": {
+   "slug": "lokix",
+   "habitat": null
+  },
+  "921": {
+   "slug": "pawmi",
+   "habitat": null
+  },
+  "922": {
+   "slug": "pawmo",
+   "habitat": null
+  },
+  "923": {
+   "slug": "pawmot",
+   "habitat": null
+  },
+  "924": {
+   "slug": "tandemaus",
+   "habitat": null
+  },
+  "925": {
+   "slug": "maushold",
+   "habitat": null
+  },
+  "926": {
+   "slug": "fidough",
+   "habitat": null
+  },
+  "927": {
+   "slug": "dachsbun",
+   "habitat": null
+  },
+  "928": {
+   "slug": "smoliv",
+   "habitat": null
+  },
+  "929": {
+   "slug": "dolliv",
+   "habitat": null
+  },
+  "930": {
+   "slug": "arboliva",
+   "habitat": null
+  },
+  "931": {
+   "slug": "squawkabilly",
+   "habitat": null
+  },
+  "932": {
+   "slug": "nacli",
+   "habitat": null
+  },
+  "933": {
+   "slug": "naclstack",
+   "habitat": null
+  },
+  "934": {
+   "slug": "garganacl",
+   "habitat": null
+  },
+  "935": {
+   "slug": "charcadet",
+   "habitat": null
+  },
+  "936": {
+   "slug": "armarouge",
+   "habitat": null
+  },
+  "937": {
+   "slug": "ceruledge",
+   "habitat": null
+  },
+  "938": {
+   "slug": "tadbulb",
+   "habitat": null
+  },
+  "939": {
+   "slug": "bellibolt",
+   "habitat": null
+  },
+  "940": {
+   "slug": "wattrel",
+   "habitat": null
+  },
+  "941": {
+   "slug": "kilowattrel",
+   "habitat": null
+  },
+  "942": {
+   "slug": "maschiff",
+   "habitat": null
+  },
+  "943": {
+   "slug": "mabosstiff",
+   "habitat": null
+  },
+  "944": {
+   "slug": "shroodle",
+   "habitat": null
+  },
+  "945": {
+   "slug": "grafaiai",
+   "habitat": null
+  },
+  "946": {
+   "slug": "bramblin",
+   "habitat": null
+  },
+  "947": {
+   "slug": "brambleghast",
+   "habitat": null
+  },
+  "948": {
+   "slug": "toedscool",
+   "habitat": null
+  },
+  "949": {
+   "slug": "toedscruel",
+   "habitat": null
+  },
+  "950": {
+   "slug": "klawf",
+   "habitat": null
+  },
+  "951": {
+   "slug": "capsakid",
+   "habitat": null
+  },
+  "952": {
+   "slug": "scovillain",
+   "habitat": null
+  },
+  "953": {
+   "slug": "rellor",
+   "habitat": null
+  },
+  "954": {
+   "slug": "rabsca",
+   "habitat": null
+  },
+  "955": {
+   "slug": "flittle",
+   "habitat": null
+  },
+  "956": {
+   "slug": "espathra",
+   "habitat": null
+  },
+  "957": {
+   "slug": "tinkatink",
+   "habitat": null
+  },
+  "958": {
+   "slug": "tinkatuff",
+   "habitat": null
+  },
+  "959": {
+   "slug": "tinkaton",
+   "habitat": null
+  },
+  "960": {
+   "slug": "wiglett",
+   "habitat": null
+  },
+  "961": {
+   "slug": "wugtrio",
+   "habitat": null
+  },
+  "962": {
+   "slug": "bombirdier",
+   "habitat": null
+  },
+  "963": {
+   "slug": "finizen",
+   "habitat": null
+  },
+  "964": {
+   "slug": "palafin",
+   "habitat": null
+  },
+  "965": {
+   "slug": "varoom",
+   "habitat": null
+  },
+  "966": {
+   "slug": "revavroom",
+   "habitat": null
+  },
+  "967": {
+   "slug": "cyclizar",
+   "habitat": null
+  },
+  "968": {
+   "slug": "orthworm",
+   "habitat": null
+  },
+  "969": {
+   "slug": "glimmet",
+   "habitat": null
+  },
+  "970": {
+   "slug": "glimmora",
+   "habitat": null
+  },
+  "971": {
+   "slug": "greavard",
+   "habitat": null
+  },
+  "972": {
+   "slug": "houndstone",
+   "habitat": null
+  },
+  "973": {
+   "slug": "flamigo",
+   "habitat": null
+  },
+  "974": {
+   "slug": "cetoddle",
+   "habitat": null
+  },
+  "975": {
+   "slug": "cetitan",
+   "habitat": null
+  },
+  "976": {
+   "slug": "veluza",
+   "habitat": null
+  },
+  "977": {
+   "slug": "dondozo",
+   "habitat": null
+  },
+  "978": {
+   "slug": "tatsugiri",
+   "habitat": null
+  },
+  "979": {
+   "slug": "annihilape",
+   "habitat": null
+  },
+  "980": {
+   "slug": "clodsire",
+   "habitat": null
+  },
+  "981": {
+   "slug": "farigiraf",
+   "habitat": null
+  },
+  "982": {
+   "slug": "dudunsparce",
+   "habitat": null
+  },
+  "983": {
+   "slug": "kingambit",
+   "habitat": null
+  },
+  "984": {
+   "slug": "great-tusk",
+   "habitat": null
+  },
+  "985": {
+   "slug": "scream-tail",
+   "habitat": null
+  },
+  "986": {
+   "slug": "brute-bonnet",
+   "habitat": null
+  },
+  "987": {
+   "slug": "flutter-mane",
+   "habitat": null
+  },
+  "988": {
+   "slug": "slither-wing",
+   "habitat": null
+  },
+  "989": {
+   "slug": "sandy-shocks",
+   "habitat": null
+  },
+  "990": {
+   "slug": "iron-treads",
+   "habitat": null
+  },
+  "991": {
+   "slug": "iron-bundle",
+   "habitat": null
+  },
+  "992": {
+   "slug": "iron-hands",
+   "habitat": null
+  },
+  "993": {
+   "slug": "iron-jugulis",
+   "habitat": null
+  },
+  "994": {
+   "slug": "iron-moth",
+   "habitat": null
+  },
+  "995": {
+   "slug": "iron-thorns",
+   "habitat": null
+  },
+  "996": {
+   "slug": "frigibax",
+   "habitat": null
+  },
+  "997": {
+   "slug": "arctibax",
+   "habitat": null
+  },
+  "998": {
+   "slug": "baxcalibur",
+   "habitat": null
+  },
+  "999": {
+   "slug": "gimmighoul",
+   "habitat": null
+  },
+  "1000": {
+   "slug": "gholdengo",
+   "habitat": null
+  },
+  "1001": {
+   "slug": "wo-chien",
+   "habitat": null
+  },
+  "1002": {
+   "slug": "chien-pao",
+   "habitat": null
+  },
+  "1003": {
+   "slug": "ting-lu",
+   "habitat": null
+  },
+  "1004": {
+   "slug": "chi-yu",
+   "habitat": null
+  },
+  "1005": {
+   "slug": "roaring-moon",
+   "habitat": null
+  },
+  "1006": {
+   "slug": "iron-valiant",
+   "habitat": null
+  },
+  "1007": {
+   "slug": "koraidon",
+   "habitat": null
+  },
+  "1008": {
+   "slug": "miraidon",
+   "habitat": null
+  },
+  "1009": {
+   "slug": "walking-wake",
+   "habitat": null
+  },
+  "1010": {
+   "slug": "iron-leaves",
+   "habitat": null
+  },
+  "1011": {
+   "slug": "dipplin",
+   "habitat": null
+  },
+  "1012": {
+   "slug": "poltchageist",
+   "habitat": null
+  },
+  "1013": {
+   "slug": "sinistcha",
+   "habitat": null
+  },
+  "1014": {
+   "slug": "okidogi",
+   "habitat": null
+  },
+  "1015": {
+   "slug": "munkidori",
+   "habitat": null
+  },
+  "1016": {
+   "slug": "fezandipiti",
+   "habitat": null
+  },
+  "1017": {
+   "slug": "ogerpon",
+   "habitat": null
+  },
+  "1018": {
+   "slug": "archaludon",
+   "habitat": null
+  },
+  "1019": {
+   "slug": "hydrapple",
+   "habitat": null
+  },
+  "1020": {
+   "slug": "gouging-fire",
+   "habitat": null
+  },
+  "1021": {
+   "slug": "raging-bolt",
+   "habitat": null
+  },
+  "1022": {
+   "slug": "iron-boulder",
+   "habitat": null
+  },
+  "1023": {
+   "slug": "iron-crown",
+   "habitat": null
+  },
+  "1024": {
+   "slug": "terapagos",
+   "habitat": null
+  },
+  "1025": {
+   "slug": "pecharunt",
+   "habitat": null
+  }
+ }
+}

@@ -1,0 +1,482 @@
+{
+ "note": "Supply trainer + Vexa placement records. Source: SUPPLY_AND_VEXA_PLACEMENTS_PROPOSAL.md, APPROVED and final (Riley, 2026-11-23). The supply trio (Kira / Haruka / Vance, data/supply_trainers.json) stands grouped in one building in every settlement; Vexa's holo pad is in the same building -- a lab-like building where the town has one, the Pokemon Center otherwise (league lobby at Indigo Plateau under the same fallback rule). Pallet's Oak's Lab pad is Vexa's home spot. Claim system and isSimulation rules are unchanged by these records.",
+ "placements": [
+  {
+   "building_map": "OaksLab",
+   "building_name": "Professor Oak's Pok\u00e9mon Lab",
+   "host_kind": "lab_like",
+   "id": "pallet_town",
+   "region": "kanto",
+   "settlement": "Pallet Town",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Lab, ground floor, grouped along the wall beside the entrance, clear of Oak's work area",
+   "vexa": true,
+   "vexa_home": true,
+   "vexa_spot": "Inside the Lab on her holo pad"
+  },
+  {
+   "building_map": "ViridianPokecenter",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "viridian_city",
+   "region": "kanto",
+   "settlement": "Viridian City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "Museum1F",
+   "building_name": "Museum of Science",
+   "host_kind": "lab_like",
+   "id": "pewter_city",
+   "region": "kanto",
+   "settlement": "Pewter City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Museum, ground floor, grouped in the entrance hall",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Museum, ground floor, beside the trio"
+  },
+  {
+   "building_map": "CeruleanPokecenter",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "cerulean_city",
+   "region": "kanto",
+   "settlement": "Cerulean City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "LavenderPokecenter",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "lavender_town",
+   "region": "kanto",
+   "settlement": "Lavender Town",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "VermilionPokecenter",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "vermilion_city",
+   "region": "kanto",
+   "settlement": "Vermilion City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "CeladonPokecenter",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "celadon_city",
+   "region": "kanto",
+   "settlement": "Celadon City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "SilphCo1F",
+   "building_name": "Silph Co. headquarters",
+   "host_kind": "lab_like",
+   "id": "saffron_city",
+   "region": "kanto",
+   "settlement": "Saffron City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside Silph Co., ground floor lobby, grouped beside the entrance",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed in the ground floor lobby, beside the trio"
+  },
+  {
+   "building_map": "FuchsiaPokecenter",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "fuchsia_city",
+   "region": "kanto",
+   "settlement": "Fuchsia City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "CinnabarLab",
+   "building_name": "Pok\u00e9mon Lab",
+   "host_kind": "lab_like",
+   "id": "cinnabar_island",
+   "region": "kanto",
+   "settlement": "Cinnabar Island",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Lab, entry room, grouped beside the entrance",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed in the Lab's entry room, beside the trio"
+  },
+  {
+   "building_map": "OneIsland_PokemonCenter_1F",
+   "building_name": "Pok\u00e9mon Center (Pok\u00e9mon Network Center)",
+   "host_kind": "lab_like",
+   "id": "one_island",
+   "region": "sevii",
+   "settlement": "One Island",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, ground floor, grouped beside the Network Center machines",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the Network Center"
+  },
+  {
+   "building_map": "TwoIsland_PokemonCenter_1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "two_island",
+   "region": "sevii",
+   "settlement": "Two Island",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, ground floor, grouped beside the entrance",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "ThreeIsland_PokemonCenter_1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "three_island",
+   "region": "sevii",
+   "settlement": "Three Island",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, ground floor, grouped beside the entrance",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "FourIsland_PokemonCenter_1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "four_island",
+   "region": "sevii",
+   "settlement": "Four Island",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, ground floor, grouped beside the entrance",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "FiveIsland_PokemonCenter_1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "five_island",
+   "region": "sevii",
+   "settlement": "Five Island",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, ground floor, grouped beside the entrance",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "SixIsland_PokemonCenter_1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "six_island",
+   "region": "sevii",
+   "settlement": "Six Island",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, ground floor, grouped beside the entrance",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "SevenIsland_PokemonCenter_1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "seven_island",
+   "region": "sevii",
+   "settlement": "Seven Island",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, ground floor, grouped beside the entrance",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "IndigoPlateauLobby",
+   "building_name": "League lobby",
+   "host_kind": "league_lobby",
+   "id": "indigo_plateau",
+   "region": "kanto",
+   "settlement": "Indigo Plateau",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the lobby, grouped beside the Center-style counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the lobby, beside the trio"
+  },
+  {
+   "building_map": "ElmsLab",
+   "building_name": "Professor Elm's Pok\u00e9mon Lab",
+   "host_kind": "lab_like",
+   "id": "new_bark_town",
+   "region": "johto",
+   "settlement": "New Bark Town",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Lab, ground floor, grouped along the wall beside the entrance, clear of Elm's work area",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Inside the Lab on her holo pad"
+  },
+  {
+   "building_map": "CherrygrovePokecenter1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "cherrygrove_city",
+   "region": "johto",
+   "settlement": "Cherrygrove City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "VioletPokecenter1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "violet_city",
+   "region": "johto",
+   "settlement": "Violet City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "AzaleaPokecenter1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "azalea_town",
+   "region": "johto",
+   "settlement": "Azalea Town",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "GoldenrodPokecenter1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "goldenrod_city",
+   "region": "johto",
+   "settlement": "Goldenrod City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "EcruteakPokecenter1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "ecruteak_city",
+   "region": "johto",
+   "settlement": "Ecruteak City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "OlivinePokecenter1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "olivine_city",
+   "region": "johto",
+   "settlement": "Olivine City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "CianwoodPokecenter1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "cianwood_city",
+   "region": "johto",
+   "settlement": "Cianwood City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "MahoganyPokecenter1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "mahogany_town",
+   "region": "johto",
+   "settlement": "Mahogany Town",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  },
+  {
+   "building_map": "BlackthornPokecenter1F",
+   "building_name": "Pok\u00e9mon Center",
+   "host_kind": "pokemon_center",
+   "id": "blackthorn_city",
+   "region": "johto",
+   "settlement": "Blackthorn City",
+   "supply_trainer_ids": [
+    "kira",
+    "haruka",
+    "vance"
+   ],
+   "trio_spot": "Inside the Center, grouped beside the entrance, next to the healing counter",
+   "vexa": true,
+   "vexa_home": false,
+   "vexa_spot": "Pad installed inside the Center, beside the trio"
+  }
+ ],
+ "schema": "puw_supply_placements_v1"
+}

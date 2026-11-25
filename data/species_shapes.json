@@ -1,0 +1,6179 @@
+{
+ "metadata": {
+  "source": "PokeAPI/pokeapi CSV dumps: data/v2/csv/pokemon_shapes.csv + pokemon_species.csv (shape_id column)",
+  "source_urls": [
+   "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_shapes.csv",
+   "https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/pokemon_species.csv"
+  ],
+  "fetched": "2026-11-23",
+  "note": "Same source family as data/species_habitats.json. Covers dex 1-1025 (base species only; PokeAPI assigns no shape to forms)."
+ },
+ "shapes": {
+  "1": "ball",
+  "2": "squiggle",
+  "3": "fish",
+  "4": "arms",
+  "5": "blob",
+  "6": "upright",
+  "7": "legs",
+  "8": "quadruped",
+  "9": "wings",
+  "10": "tentacles",
+  "11": "heads",
+  "12": "humanoid",
+  "13": "bug-wings",
+  "14": "armor"
+ },
+ "species": {
+  "bulbasaur": {
+   "dex": 1,
+   "name": "bulbasaur",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "ivysaur": {
+   "dex": 2,
+   "name": "ivysaur",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "venusaur": {
+   "dex": 3,
+   "name": "venusaur",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "charmander": {
+   "dex": 4,
+   "name": "charmander",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "charmeleon": {
+   "dex": 5,
+   "name": "charmeleon",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "charizard": {
+   "dex": 6,
+   "name": "charizard",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "squirtle": {
+   "dex": 7,
+   "name": "squirtle",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "wartortle": {
+   "dex": 8,
+   "name": "wartortle",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "blastoise": {
+   "dex": 9,
+   "name": "blastoise",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "caterpie": {
+   "dex": 10,
+   "name": "caterpie",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "metapod": {
+   "dex": 11,
+   "name": "metapod",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "butterfree": {
+   "dex": 12,
+   "name": "butterfree",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "weedle": {
+   "dex": 13,
+   "name": "weedle",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "kakuna": {
+   "dex": 14,
+   "name": "kakuna",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "beedrill": {
+   "dex": 15,
+   "name": "beedrill",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "pidgey": {
+   "dex": 16,
+   "name": "pidgey",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "pidgeotto": {
+   "dex": 17,
+   "name": "pidgeotto",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "pidgeot": {
+   "dex": 18,
+   "name": "pidgeot",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "rattata": {
+   "dex": 19,
+   "name": "rattata",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "raticate": {
+   "dex": 20,
+   "name": "raticate",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "spearow": {
+   "dex": 21,
+   "name": "spearow",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "fearow": {
+   "dex": 22,
+   "name": "fearow",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "ekans": {
+   "dex": 23,
+   "name": "ekans",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "arbok": {
+   "dex": 24,
+   "name": "arbok",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "pikachu": {
+   "dex": 25,
+   "name": "pikachu",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "raichu": {
+   "dex": 26,
+   "name": "raichu",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "sandshrew": {
+   "dex": 27,
+   "name": "sandshrew",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "sandslash": {
+   "dex": 28,
+   "name": "sandslash",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "nidoranf": {
+   "dex": 29,
+   "name": "nidoran-f",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "nidorina": {
+   "dex": 30,
+   "name": "nidorina",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "nidoqueen": {
+   "dex": 31,
+   "name": "nidoqueen",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "nidoranm": {
+   "dex": 32,
+   "name": "nidoran-m",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "nidorino": {
+   "dex": 33,
+   "name": "nidorino",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "nidoking": {
+   "dex": 34,
+   "name": "nidoking",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "clefairy": {
+   "dex": 35,
+   "name": "clefairy",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "clefable": {
+   "dex": 36,
+   "name": "clefable",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "vulpix": {
+   "dex": 37,
+   "name": "vulpix",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "ninetales": {
+   "dex": 38,
+   "name": "ninetales",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "jigglypuff": {
+   "dex": 39,
+   "name": "jigglypuff",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "wigglytuff": {
+   "dex": 40,
+   "name": "wigglytuff",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "zubat": {
+   "dex": 41,
+   "name": "zubat",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "golbat": {
+   "dex": 42,
+   "name": "golbat",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "oddish": {
+   "dex": 43,
+   "name": "oddish",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "gloom": {
+   "dex": 44,
+   "name": "gloom",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "vileplume": {
+   "dex": 45,
+   "name": "vileplume",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "paras": {
+   "dex": 46,
+   "name": "paras",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "parasect": {
+   "dex": 47,
+   "name": "parasect",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "venonat": {
+   "dex": 48,
+   "name": "venonat",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "venomoth": {
+   "dex": 49,
+   "name": "venomoth",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "diglett": {
+   "dex": 50,
+   "name": "diglett",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "dugtrio": {
+   "dex": 51,
+   "name": "dugtrio",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "meowth": {
+   "dex": 52,
+   "name": "meowth",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "persian": {
+   "dex": 53,
+   "name": "persian",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "psyduck": {
+   "dex": 54,
+   "name": "psyduck",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "golduck": {
+   "dex": 55,
+   "name": "golduck",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "mankey": {
+   "dex": 56,
+   "name": "mankey",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "primeape": {
+   "dex": 57,
+   "name": "primeape",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "growlithe": {
+   "dex": 58,
+   "name": "growlithe",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "arcanine": {
+   "dex": 59,
+   "name": "arcanine",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "poliwag": {
+   "dex": 60,
+   "name": "poliwag",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "poliwhirl": {
+   "dex": 61,
+   "name": "poliwhirl",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "poliwrath": {
+   "dex": 62,
+   "name": "poliwrath",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "abra": {
+   "dex": 63,
+   "name": "abra",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "kadabra": {
+   "dex": 64,
+   "name": "kadabra",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "alakazam": {
+   "dex": 65,
+   "name": "alakazam",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "machop": {
+   "dex": 66,
+   "name": "machop",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "machoke": {
+   "dex": 67,
+   "name": "machoke",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "machamp": {
+   "dex": 68,
+   "name": "machamp",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "bellsprout": {
+   "dex": 69,
+   "name": "bellsprout",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "weepinbell": {
+   "dex": 70,
+   "name": "weepinbell",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "victreebel": {
+   "dex": 71,
+   "name": "victreebel",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "tentacool": {
+   "dex": 72,
+   "name": "tentacool",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "tentacruel": {
+   "dex": 73,
+   "name": "tentacruel",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "geodude": {
+   "dex": 74,
+   "name": "geodude",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "graveler": {
+   "dex": 75,
+   "name": "graveler",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "golem": {
+   "dex": 76,
+   "name": "golem",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "ponyta": {
+   "dex": 77,
+   "name": "ponyta",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "rapidash": {
+   "dex": 78,
+   "name": "rapidash",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "slowpoke": {
+   "dex": 79,
+   "name": "slowpoke",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "slowbro": {
+   "dex": 80,
+   "name": "slowbro",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "magnemite": {
+   "dex": 81,
+   "name": "magnemite",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "magneton": {
+   "dex": 82,
+   "name": "magneton",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "farfetchd": {
+   "dex": 83,
+   "name": "farfetchd",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "doduo": {
+   "dex": 84,
+   "name": "doduo",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "dodrio": {
+   "dex": 85,
+   "name": "dodrio",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "seel": {
+   "dex": 86,
+   "name": "seel",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "dewgong": {
+   "dex": 87,
+   "name": "dewgong",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "grimer": {
+   "dex": 88,
+   "name": "grimer",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "muk": {
+   "dex": 89,
+   "name": "muk",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "shellder": {
+   "dex": 90,
+   "name": "shellder",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "cloyster": {
+   "dex": 91,
+   "name": "cloyster",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "gastly": {
+   "dex": 92,
+   "name": "gastly",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "haunter": {
+   "dex": 93,
+   "name": "haunter",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "gengar": {
+   "dex": 94,
+   "name": "gengar",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "onix": {
+   "dex": 95,
+   "name": "onix",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "drowzee": {
+   "dex": 96,
+   "name": "drowzee",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "hypno": {
+   "dex": 97,
+   "name": "hypno",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "krabby": {
+   "dex": 98,
+   "name": "krabby",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "kingler": {
+   "dex": 99,
+   "name": "kingler",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "voltorb": {
+   "dex": 100,
+   "name": "voltorb",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "electrode": {
+   "dex": 101,
+   "name": "electrode",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "exeggcute": {
+   "dex": 102,
+   "name": "exeggcute",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "exeggutor": {
+   "dex": 103,
+   "name": "exeggutor",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "cubone": {
+   "dex": 104,
+   "name": "cubone",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "marowak": {
+   "dex": 105,
+   "name": "marowak",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "hitmonlee": {
+   "dex": 106,
+   "name": "hitmonlee",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "hitmonchan": {
+   "dex": 107,
+   "name": "hitmonchan",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "lickitung": {
+   "dex": 108,
+   "name": "lickitung",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "koffing": {
+   "dex": 109,
+   "name": "koffing",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "weezing": {
+   "dex": 110,
+   "name": "weezing",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "rhyhorn": {
+   "dex": 111,
+   "name": "rhyhorn",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "rhydon": {
+   "dex": 112,
+   "name": "rhydon",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "chansey": {
+   "dex": 113,
+   "name": "chansey",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "tangela": {
+   "dex": 114,
+   "name": "tangela",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "kangaskhan": {
+   "dex": 115,
+   "name": "kangaskhan",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "horsea": {
+   "dex": 116,
+   "name": "horsea",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "seadra": {
+   "dex": 117,
+   "name": "seadra",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "goldeen": {
+   "dex": 118,
+   "name": "goldeen",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "seaking": {
+   "dex": 119,
+   "name": "seaking",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "staryu": {
+   "dex": 120,
+   "name": "staryu",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "starmie": {
+   "dex": 121,
+   "name": "starmie",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "mrmime": {
+   "dex": 122,
+   "name": "mr-mime",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "scyther": {
+   "dex": 123,
+   "name": "scyther",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "jynx": {
+   "dex": 124,
+   "name": "jynx",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "electabuzz": {
+   "dex": 125,
+   "name": "electabuzz",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "magmar": {
+   "dex": 126,
+   "name": "magmar",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "pinsir": {
+   "dex": 127,
+   "name": "pinsir",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "tauros": {
+   "dex": 128,
+   "name": "tauros",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "magikarp": {
+   "dex": 129,
+   "name": "magikarp",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "gyarados": {
+   "dex": 130,
+   "name": "gyarados",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "lapras": {
+   "dex": 131,
+   "name": "lapras",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "ditto": {
+   "dex": 132,
+   "name": "ditto",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "eevee": {
+   "dex": 133,
+   "name": "eevee",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "vaporeon": {
+   "dex": 134,
+   "name": "vaporeon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "jolteon": {
+   "dex": 135,
+   "name": "jolteon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "flareon": {
+   "dex": 136,
+   "name": "flareon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "porygon": {
+   "dex": 137,
+   "name": "porygon",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "omanyte": {
+   "dex": 138,
+   "name": "omanyte",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "omastar": {
+   "dex": 139,
+   "name": "omastar",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "kabuto": {
+   "dex": 140,
+   "name": "kabuto",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "kabutops": {
+   "dex": 141,
+   "name": "kabutops",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "aerodactyl": {
+   "dex": 142,
+   "name": "aerodactyl",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "snorlax": {
+   "dex": 143,
+   "name": "snorlax",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "articuno": {
+   "dex": 144,
+   "name": "articuno",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "zapdos": {
+   "dex": 145,
+   "name": "zapdos",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "moltres": {
+   "dex": 146,
+   "name": "moltres",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "dratini": {
+   "dex": 147,
+   "name": "dratini",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "dragonair": {
+   "dex": 148,
+   "name": "dragonair",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "dragonite": {
+   "dex": 149,
+   "name": "dragonite",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "mewtwo": {
+   "dex": 150,
+   "name": "mewtwo",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "mew": {
+   "dex": 151,
+   "name": "mew",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "chikorita": {
+   "dex": 152,
+   "name": "chikorita",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "bayleef": {
+   "dex": 153,
+   "name": "bayleef",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "meganium": {
+   "dex": 154,
+   "name": "meganium",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "cyndaquil": {
+   "dex": 155,
+   "name": "cyndaquil",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "quilava": {
+   "dex": 156,
+   "name": "quilava",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "typhlosion": {
+   "dex": 157,
+   "name": "typhlosion",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "totodile": {
+   "dex": 158,
+   "name": "totodile",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "croconaw": {
+   "dex": 159,
+   "name": "croconaw",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "feraligatr": {
+   "dex": 160,
+   "name": "feraligatr",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "sentret": {
+   "dex": 161,
+   "name": "sentret",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "furret": {
+   "dex": 162,
+   "name": "furret",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "hoothoot": {
+   "dex": 163,
+   "name": "hoothoot",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "noctowl": {
+   "dex": 164,
+   "name": "noctowl",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "ledyba": {
+   "dex": 165,
+   "name": "ledyba",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "ledian": {
+   "dex": 166,
+   "name": "ledian",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "spinarak": {
+   "dex": 167,
+   "name": "spinarak",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "ariados": {
+   "dex": 168,
+   "name": "ariados",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "crobat": {
+   "dex": 169,
+   "name": "crobat",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "chinchou": {
+   "dex": 170,
+   "name": "chinchou",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "lanturn": {
+   "dex": 171,
+   "name": "lanturn",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "pichu": {
+   "dex": 172,
+   "name": "pichu",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "cleffa": {
+   "dex": 173,
+   "name": "cleffa",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "igglybuff": {
+   "dex": 174,
+   "name": "igglybuff",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "togepi": {
+   "dex": 175,
+   "name": "togepi",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "togetic": {
+   "dex": 176,
+   "name": "togetic",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "natu": {
+   "dex": 177,
+   "name": "natu",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "xatu": {
+   "dex": 178,
+   "name": "xatu",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "mareep": {
+   "dex": 179,
+   "name": "mareep",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "flaaffy": {
+   "dex": 180,
+   "name": "flaaffy",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "ampharos": {
+   "dex": 181,
+   "name": "ampharos",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "bellossom": {
+   "dex": 182,
+   "name": "bellossom",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "marill": {
+   "dex": 183,
+   "name": "marill",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "azumarill": {
+   "dex": 184,
+   "name": "azumarill",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "sudowoodo": {
+   "dex": 185,
+   "name": "sudowoodo",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "politoed": {
+   "dex": 186,
+   "name": "politoed",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "hoppip": {
+   "dex": 187,
+   "name": "hoppip",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "skiploom": {
+   "dex": 188,
+   "name": "skiploom",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "jumpluff": {
+   "dex": 189,
+   "name": "jumpluff",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "aipom": {
+   "dex": 190,
+   "name": "aipom",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "sunkern": {
+   "dex": 191,
+   "name": "sunkern",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "sunflora": {
+   "dex": 192,
+   "name": "sunflora",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "yanma": {
+   "dex": 193,
+   "name": "yanma",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "wooper": {
+   "dex": 194,
+   "name": "wooper",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "quagsire": {
+   "dex": 195,
+   "name": "quagsire",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "espeon": {
+   "dex": 196,
+   "name": "espeon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "umbreon": {
+   "dex": 197,
+   "name": "umbreon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "murkrow": {
+   "dex": 198,
+   "name": "murkrow",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "slowking": {
+   "dex": 199,
+   "name": "slowking",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "misdreavus": {
+   "dex": 200,
+   "name": "misdreavus",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "unown": {
+   "dex": 201,
+   "name": "unown",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "wobbuffet": {
+   "dex": 202,
+   "name": "wobbuffet",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "girafarig": {
+   "dex": 203,
+   "name": "girafarig",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "pineco": {
+   "dex": 204,
+   "name": "pineco",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "forretress": {
+   "dex": 205,
+   "name": "forretress",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "dunsparce": {
+   "dex": 206,
+   "name": "dunsparce",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "gligar": {
+   "dex": 207,
+   "name": "gligar",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "steelix": {
+   "dex": 208,
+   "name": "steelix",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "snubbull": {
+   "dex": 209,
+   "name": "snubbull",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "granbull": {
+   "dex": 210,
+   "name": "granbull",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "qwilfish": {
+   "dex": 211,
+   "name": "qwilfish",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "scizor": {
+   "dex": 212,
+   "name": "scizor",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "shuckle": {
+   "dex": 213,
+   "name": "shuckle",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "heracross": {
+   "dex": 214,
+   "name": "heracross",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "sneasel": {
+   "dex": 215,
+   "name": "sneasel",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "teddiursa": {
+   "dex": 216,
+   "name": "teddiursa",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "ursaring": {
+   "dex": 217,
+   "name": "ursaring",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "slugma": {
+   "dex": 218,
+   "name": "slugma",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "magcargo": {
+   "dex": 219,
+   "name": "magcargo",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "swinub": {
+   "dex": 220,
+   "name": "swinub",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "piloswine": {
+   "dex": 221,
+   "name": "piloswine",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "corsola": {
+   "dex": 222,
+   "name": "corsola",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "remoraid": {
+   "dex": 223,
+   "name": "remoraid",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "octillery": {
+   "dex": 224,
+   "name": "octillery",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "delibird": {
+   "dex": 225,
+   "name": "delibird",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "mantine": {
+   "dex": 226,
+   "name": "mantine",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "skarmory": {
+   "dex": 227,
+   "name": "skarmory",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "houndour": {
+   "dex": 228,
+   "name": "houndour",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "houndoom": {
+   "dex": 229,
+   "name": "houndoom",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "kingdra": {
+   "dex": 230,
+   "name": "kingdra",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "phanpy": {
+   "dex": 231,
+   "name": "phanpy",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "donphan": {
+   "dex": 232,
+   "name": "donphan",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "porygon2": {
+   "dex": 233,
+   "name": "porygon2",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "stantler": {
+   "dex": 234,
+   "name": "stantler",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "smeargle": {
+   "dex": 235,
+   "name": "smeargle",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "tyrogue": {
+   "dex": 236,
+   "name": "tyrogue",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "hitmontop": {
+   "dex": 237,
+   "name": "hitmontop",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "smoochum": {
+   "dex": 238,
+   "name": "smoochum",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "elekid": {
+   "dex": 239,
+   "name": "elekid",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "magby": {
+   "dex": 240,
+   "name": "magby",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "miltank": {
+   "dex": 241,
+   "name": "miltank",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "blissey": {
+   "dex": 242,
+   "name": "blissey",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "raikou": {
+   "dex": 243,
+   "name": "raikou",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "entei": {
+   "dex": 244,
+   "name": "entei",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "suicune": {
+   "dex": 245,
+   "name": "suicune",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "larvitar": {
+   "dex": 246,
+   "name": "larvitar",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "pupitar": {
+   "dex": 247,
+   "name": "pupitar",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "tyranitar": {
+   "dex": 248,
+   "name": "tyranitar",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "lugia": {
+   "dex": 249,
+   "name": "lugia",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "hooh": {
+   "dex": 250,
+   "name": "ho-oh",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "celebi": {
+   "dex": 251,
+   "name": "celebi",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "treecko": {
+   "dex": 252,
+   "name": "treecko",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "grovyle": {
+   "dex": 253,
+   "name": "grovyle",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "sceptile": {
+   "dex": 254,
+   "name": "sceptile",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "torchic": {
+   "dex": 255,
+   "name": "torchic",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "combusken": {
+   "dex": 256,
+   "name": "combusken",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "blaziken": {
+   "dex": 257,
+   "name": "blaziken",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "mudkip": {
+   "dex": 258,
+   "name": "mudkip",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "marshtomp": {
+   "dex": 259,
+   "name": "marshtomp",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "swampert": {
+   "dex": 260,
+   "name": "swampert",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "poochyena": {
+   "dex": 261,
+   "name": "poochyena",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "mightyena": {
+   "dex": 262,
+   "name": "mightyena",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "zigzagoon": {
+   "dex": 263,
+   "name": "zigzagoon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "linoone": {
+   "dex": 264,
+   "name": "linoone",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "wurmple": {
+   "dex": 265,
+   "name": "wurmple",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "silcoon": {
+   "dex": 266,
+   "name": "silcoon",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "beautifly": {
+   "dex": 267,
+   "name": "beautifly",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "cascoon": {
+   "dex": 268,
+   "name": "cascoon",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "dustox": {
+   "dex": 269,
+   "name": "dustox",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "lotad": {
+   "dex": 270,
+   "name": "lotad",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "lombre": {
+   "dex": 271,
+   "name": "lombre",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "ludicolo": {
+   "dex": 272,
+   "name": "ludicolo",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "seedot": {
+   "dex": 273,
+   "name": "seedot",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "nuzleaf": {
+   "dex": 274,
+   "name": "nuzleaf",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "shiftry": {
+   "dex": 275,
+   "name": "shiftry",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "taillow": {
+   "dex": 276,
+   "name": "taillow",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "swellow": {
+   "dex": 277,
+   "name": "swellow",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "wingull": {
+   "dex": 278,
+   "name": "wingull",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "pelipper": {
+   "dex": 279,
+   "name": "pelipper",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "ralts": {
+   "dex": 280,
+   "name": "ralts",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "kirlia": {
+   "dex": 281,
+   "name": "kirlia",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "gardevoir": {
+   "dex": 282,
+   "name": "gardevoir",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "surskit": {
+   "dex": 283,
+   "name": "surskit",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "masquerain": {
+   "dex": 284,
+   "name": "masquerain",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "shroomish": {
+   "dex": 285,
+   "name": "shroomish",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "breloom": {
+   "dex": 286,
+   "name": "breloom",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "slakoth": {
+   "dex": 287,
+   "name": "slakoth",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "vigoroth": {
+   "dex": 288,
+   "name": "vigoroth",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "slaking": {
+   "dex": 289,
+   "name": "slaking",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "nincada": {
+   "dex": 290,
+   "name": "nincada",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "ninjask": {
+   "dex": 291,
+   "name": "ninjask",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "shedinja": {
+   "dex": 292,
+   "name": "shedinja",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "whismur": {
+   "dex": 293,
+   "name": "whismur",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "loudred": {
+   "dex": 294,
+   "name": "loudred",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "exploud": {
+   "dex": 295,
+   "name": "exploud",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "makuhita": {
+   "dex": 296,
+   "name": "makuhita",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "hariyama": {
+   "dex": 297,
+   "name": "hariyama",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "azurill": {
+   "dex": 298,
+   "name": "azurill",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "nosepass": {
+   "dex": 299,
+   "name": "nosepass",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "skitty": {
+   "dex": 300,
+   "name": "skitty",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "delcatty": {
+   "dex": 301,
+   "name": "delcatty",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "sableye": {
+   "dex": 302,
+   "name": "sableye",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "mawile": {
+   "dex": 303,
+   "name": "mawile",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "aron": {
+   "dex": 304,
+   "name": "aron",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "lairon": {
+   "dex": 305,
+   "name": "lairon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "aggron": {
+   "dex": 306,
+   "name": "aggron",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "meditite": {
+   "dex": 307,
+   "name": "meditite",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "medicham": {
+   "dex": 308,
+   "name": "medicham",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "electrike": {
+   "dex": 309,
+   "name": "electrike",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "manectric": {
+   "dex": 310,
+   "name": "manectric",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "plusle": {
+   "dex": 311,
+   "name": "plusle",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "minun": {
+   "dex": 312,
+   "name": "minun",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "volbeat": {
+   "dex": 313,
+   "name": "volbeat",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "illumise": {
+   "dex": 314,
+   "name": "illumise",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "roselia": {
+   "dex": 315,
+   "name": "roselia",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "gulpin": {
+   "dex": 316,
+   "name": "gulpin",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "swalot": {
+   "dex": 317,
+   "name": "swalot",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "carvanha": {
+   "dex": 318,
+   "name": "carvanha",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "sharpedo": {
+   "dex": 319,
+   "name": "sharpedo",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "wailmer": {
+   "dex": 320,
+   "name": "wailmer",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "wailord": {
+   "dex": 321,
+   "name": "wailord",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "numel": {
+   "dex": 322,
+   "name": "numel",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "camerupt": {
+   "dex": 323,
+   "name": "camerupt",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "torkoal": {
+   "dex": 324,
+   "name": "torkoal",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "spoink": {
+   "dex": 325,
+   "name": "spoink",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "grumpig": {
+   "dex": 326,
+   "name": "grumpig",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "spinda": {
+   "dex": 327,
+   "name": "spinda",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "trapinch": {
+   "dex": 328,
+   "name": "trapinch",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "vibrava": {
+   "dex": 329,
+   "name": "vibrava",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "flygon": {
+   "dex": 330,
+   "name": "flygon",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "cacnea": {
+   "dex": 331,
+   "name": "cacnea",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "cacturne": {
+   "dex": 332,
+   "name": "cacturne",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "swablu": {
+   "dex": 333,
+   "name": "swablu",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "altaria": {
+   "dex": 334,
+   "name": "altaria",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "zangoose": {
+   "dex": 335,
+   "name": "zangoose",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "seviper": {
+   "dex": 336,
+   "name": "seviper",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "lunatone": {
+   "dex": 337,
+   "name": "lunatone",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "solrock": {
+   "dex": 338,
+   "name": "solrock",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "barboach": {
+   "dex": 339,
+   "name": "barboach",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "whiscash": {
+   "dex": 340,
+   "name": "whiscash",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "corphish": {
+   "dex": 341,
+   "name": "corphish",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "crawdaunt": {
+   "dex": 342,
+   "name": "crawdaunt",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "baltoy": {
+   "dex": 343,
+   "name": "baltoy",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "claydol": {
+   "dex": 344,
+   "name": "claydol",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "lileep": {
+   "dex": 345,
+   "name": "lileep",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "cradily": {
+   "dex": 346,
+   "name": "cradily",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "anorith": {
+   "dex": 347,
+   "name": "anorith",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "armaldo": {
+   "dex": 348,
+   "name": "armaldo",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "feebas": {
+   "dex": 349,
+   "name": "feebas",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "milotic": {
+   "dex": 350,
+   "name": "milotic",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "castform": {
+   "dex": 351,
+   "name": "castform",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "kecleon": {
+   "dex": 352,
+   "name": "kecleon",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "shuppet": {
+   "dex": 353,
+   "name": "shuppet",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "banette": {
+   "dex": 354,
+   "name": "banette",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "duskull": {
+   "dex": 355,
+   "name": "duskull",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "dusclops": {
+   "dex": 356,
+   "name": "dusclops",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "tropius": {
+   "dex": 357,
+   "name": "tropius",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "chimecho": {
+   "dex": 358,
+   "name": "chimecho",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "absol": {
+   "dex": 359,
+   "name": "absol",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "wynaut": {
+   "dex": 360,
+   "name": "wynaut",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "snorunt": {
+   "dex": 361,
+   "name": "snorunt",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "glalie": {
+   "dex": 362,
+   "name": "glalie",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "spheal": {
+   "dex": 363,
+   "name": "spheal",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "sealeo": {
+   "dex": 364,
+   "name": "sealeo",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "walrein": {
+   "dex": 365,
+   "name": "walrein",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "clamperl": {
+   "dex": 366,
+   "name": "clamperl",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "huntail": {
+   "dex": 367,
+   "name": "huntail",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "gorebyss": {
+   "dex": 368,
+   "name": "gorebyss",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "relicanth": {
+   "dex": 369,
+   "name": "relicanth",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "luvdisc": {
+   "dex": 370,
+   "name": "luvdisc",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "bagon": {
+   "dex": 371,
+   "name": "bagon",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "shelgon": {
+   "dex": 372,
+   "name": "shelgon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "salamence": {
+   "dex": 373,
+   "name": "salamence",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "beldum": {
+   "dex": 374,
+   "name": "beldum",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "metang": {
+   "dex": 375,
+   "name": "metang",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "metagross": {
+   "dex": 376,
+   "name": "metagross",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "regirock": {
+   "dex": 377,
+   "name": "regirock",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "regice": {
+   "dex": 378,
+   "name": "regice",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "registeel": {
+   "dex": 379,
+   "name": "registeel",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "latias": {
+   "dex": 380,
+   "name": "latias",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "latios": {
+   "dex": 381,
+   "name": "latios",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "kyogre": {
+   "dex": 382,
+   "name": "kyogre",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "groudon": {
+   "dex": 383,
+   "name": "groudon",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "rayquaza": {
+   "dex": 384,
+   "name": "rayquaza",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "jirachi": {
+   "dex": 385,
+   "name": "jirachi",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "deoxysnormal": {
+   "dex": 386,
+   "name": "deoxys-normal",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "turtwig": {
+   "dex": 387,
+   "name": "turtwig",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "grotle": {
+   "dex": 388,
+   "name": "grotle",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "torterra": {
+   "dex": 389,
+   "name": "torterra",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "chimchar": {
+   "dex": 390,
+   "name": "chimchar",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "monferno": {
+   "dex": 391,
+   "name": "monferno",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "infernape": {
+   "dex": 392,
+   "name": "infernape",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "piplup": {
+   "dex": 393,
+   "name": "piplup",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "prinplup": {
+   "dex": 394,
+   "name": "prinplup",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "empoleon": {
+   "dex": 395,
+   "name": "empoleon",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "starly": {
+   "dex": 396,
+   "name": "starly",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "staravia": {
+   "dex": 397,
+   "name": "staravia",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "staraptor": {
+   "dex": 398,
+   "name": "staraptor",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "bidoof": {
+   "dex": 399,
+   "name": "bidoof",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "bibarel": {
+   "dex": 400,
+   "name": "bibarel",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "kricketot": {
+   "dex": 401,
+   "name": "kricketot",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "kricketune": {
+   "dex": 402,
+   "name": "kricketune",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "shinx": {
+   "dex": 403,
+   "name": "shinx",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "luxio": {
+   "dex": 404,
+   "name": "luxio",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "luxray": {
+   "dex": 405,
+   "name": "luxray",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "budew": {
+   "dex": 406,
+   "name": "budew",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "roserade": {
+   "dex": 407,
+   "name": "roserade",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "cranidos": {
+   "dex": 408,
+   "name": "cranidos",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "rampardos": {
+   "dex": 409,
+   "name": "rampardos",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "shieldon": {
+   "dex": 410,
+   "name": "shieldon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "bastiodon": {
+   "dex": 411,
+   "name": "bastiodon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "burmy": {
+   "dex": 412,
+   "name": "burmy",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "wormadamplant": {
+   "dex": 413,
+   "name": "wormadam-plant",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "mothim": {
+   "dex": 414,
+   "name": "mothim",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "combee": {
+   "dex": 415,
+   "name": "combee",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "vespiquen": {
+   "dex": 416,
+   "name": "vespiquen",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "pachirisu": {
+   "dex": 417,
+   "name": "pachirisu",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "buizel": {
+   "dex": 418,
+   "name": "buizel",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "floatzel": {
+   "dex": 419,
+   "name": "floatzel",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "cherubi": {
+   "dex": 420,
+   "name": "cherubi",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "cherrim": {
+   "dex": 421,
+   "name": "cherrim",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "shellos": {
+   "dex": 422,
+   "name": "shellos",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "gastrodon": {
+   "dex": 423,
+   "name": "gastrodon",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "ambipom": {
+   "dex": 424,
+   "name": "ambipom",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "drifloon": {
+   "dex": 425,
+   "name": "drifloon",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "drifblim": {
+   "dex": 426,
+   "name": "drifblim",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "buneary": {
+   "dex": 427,
+   "name": "buneary",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "lopunny": {
+   "dex": 428,
+   "name": "lopunny",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "mismagius": {
+   "dex": 429,
+   "name": "mismagius",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "honchkrow": {
+   "dex": 430,
+   "name": "honchkrow",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "glameow": {
+   "dex": 431,
+   "name": "glameow",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "purugly": {
+   "dex": 432,
+   "name": "purugly",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "chingling": {
+   "dex": 433,
+   "name": "chingling",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "stunky": {
+   "dex": 434,
+   "name": "stunky",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "skuntank": {
+   "dex": 435,
+   "name": "skuntank",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "bronzor": {
+   "dex": 436,
+   "name": "bronzor",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "bronzong": {
+   "dex": 437,
+   "name": "bronzong",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "bonsly": {
+   "dex": 438,
+   "name": "bonsly",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "mimejr": {
+   "dex": 439,
+   "name": "mime-jr",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "happiny": {
+   "dex": 440,
+   "name": "happiny",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "chatot": {
+   "dex": 441,
+   "name": "chatot",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "spiritomb": {
+   "dex": 442,
+   "name": "spiritomb",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "gible": {
+   "dex": 443,
+   "name": "gible",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "gabite": {
+   "dex": 444,
+   "name": "gabite",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "garchomp": {
+   "dex": 445,
+   "name": "garchomp",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "munchlax": {
+   "dex": 446,
+   "name": "munchlax",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "riolu": {
+   "dex": 447,
+   "name": "riolu",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "lucario": {
+   "dex": 448,
+   "name": "lucario",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "hippopotas": {
+   "dex": 449,
+   "name": "hippopotas",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "hippowdon": {
+   "dex": 450,
+   "name": "hippowdon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "skorupi": {
+   "dex": 451,
+   "name": "skorupi",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "drapion": {
+   "dex": 452,
+   "name": "drapion",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "croagunk": {
+   "dex": 453,
+   "name": "croagunk",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "toxicroak": {
+   "dex": 454,
+   "name": "toxicroak",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "carnivine": {
+   "dex": 455,
+   "name": "carnivine",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "finneon": {
+   "dex": 456,
+   "name": "finneon",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "lumineon": {
+   "dex": 457,
+   "name": "lumineon",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "mantyke": {
+   "dex": 458,
+   "name": "mantyke",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "snover": {
+   "dex": 459,
+   "name": "snover",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "abomasnow": {
+   "dex": 460,
+   "name": "abomasnow",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "weavile": {
+   "dex": 461,
+   "name": "weavile",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "magnezone": {
+   "dex": 462,
+   "name": "magnezone",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "lickilicky": {
+   "dex": 463,
+   "name": "lickilicky",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "rhyperior": {
+   "dex": 464,
+   "name": "rhyperior",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "tangrowth": {
+   "dex": 465,
+   "name": "tangrowth",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "electivire": {
+   "dex": 466,
+   "name": "electivire",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "magmortar": {
+   "dex": 467,
+   "name": "magmortar",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "togekiss": {
+   "dex": 468,
+   "name": "togekiss",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "yanmega": {
+   "dex": 469,
+   "name": "yanmega",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "leafeon": {
+   "dex": 470,
+   "name": "leafeon",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "glaceon": {
+   "dex": 471,
+   "name": "glaceon",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "gliscor": {
+   "dex": 472,
+   "name": "gliscor",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "mamoswine": {
+   "dex": 473,
+   "name": "mamoswine",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "porygonz": {
+   "dex": 474,
+   "name": "porygon-z",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "gallade": {
+   "dex": 475,
+   "name": "gallade",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "probopass": {
+   "dex": 476,
+   "name": "probopass",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "dusknoir": {
+   "dex": 477,
+   "name": "dusknoir",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "froslass": {
+   "dex": 478,
+   "name": "froslass",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "rotom": {
+   "dex": 479,
+   "name": "rotom",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "uxie": {
+   "dex": 480,
+   "name": "uxie",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "mesprit": {
+   "dex": 481,
+   "name": "mesprit",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "azelf": {
+   "dex": 482,
+   "name": "azelf",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "dialga": {
+   "dex": 483,
+   "name": "dialga",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "palkia": {
+   "dex": 484,
+   "name": "palkia",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "heatran": {
+   "dex": 485,
+   "name": "heatran",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "regigigas": {
+   "dex": 486,
+   "name": "regigigas",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "giratinaaltered": {
+   "dex": 487,
+   "name": "giratina-altered",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "cresselia": {
+   "dex": 488,
+   "name": "cresselia",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "phione": {
+   "dex": 489,
+   "name": "phione",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "manaphy": {
+   "dex": 490,
+   "name": "manaphy",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "darkrai": {
+   "dex": 491,
+   "name": "darkrai",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "shayminland": {
+   "dex": 492,
+   "name": "shaymin-land",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "arceus": {
+   "dex": 493,
+   "name": "arceus",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "victini": {
+   "dex": 494,
+   "name": "victini",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "snivy": {
+   "dex": 495,
+   "name": "snivy",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "servine": {
+   "dex": 496,
+   "name": "servine",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "serperior": {
+   "dex": 497,
+   "name": "serperior",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "tepig": {
+   "dex": 498,
+   "name": "tepig",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "pignite": {
+   "dex": 499,
+   "name": "pignite",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "emboar": {
+   "dex": 500,
+   "name": "emboar",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "oshawott": {
+   "dex": 501,
+   "name": "oshawott",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "dewott": {
+   "dex": 502,
+   "name": "dewott",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "samurott": {
+   "dex": 503,
+   "name": "samurott",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "patrat": {
+   "dex": 504,
+   "name": "patrat",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "watchog": {
+   "dex": 505,
+   "name": "watchog",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "lillipup": {
+   "dex": 506,
+   "name": "lillipup",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "herdier": {
+   "dex": 507,
+   "name": "herdier",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "stoutland": {
+   "dex": 508,
+   "name": "stoutland",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "purrloin": {
+   "dex": 509,
+   "name": "purrloin",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "liepard": {
+   "dex": 510,
+   "name": "liepard",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "pansage": {
+   "dex": 511,
+   "name": "pansage",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "simisage": {
+   "dex": 512,
+   "name": "simisage",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "pansear": {
+   "dex": 513,
+   "name": "pansear",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "simisear": {
+   "dex": 514,
+   "name": "simisear",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "panpour": {
+   "dex": 515,
+   "name": "panpour",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "simipour": {
+   "dex": 516,
+   "name": "simipour",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "munna": {
+   "dex": 517,
+   "name": "munna",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "musharna": {
+   "dex": 518,
+   "name": "musharna",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "pidove": {
+   "dex": 519,
+   "name": "pidove",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "tranquill": {
+   "dex": 520,
+   "name": "tranquill",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "unfezant": {
+   "dex": 521,
+   "name": "unfezant",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "blitzle": {
+   "dex": 522,
+   "name": "blitzle",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "zebstrika": {
+   "dex": 523,
+   "name": "zebstrika",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "roggenrola": {
+   "dex": 524,
+   "name": "roggenrola",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "boldore": {
+   "dex": 525,
+   "name": "boldore",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "gigalith": {
+   "dex": 526,
+   "name": "gigalith",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "woobat": {
+   "dex": 527,
+   "name": "woobat",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "swoobat": {
+   "dex": 528,
+   "name": "swoobat",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "drilbur": {
+   "dex": 529,
+   "name": "drilbur",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "excadrill": {
+   "dex": 530,
+   "name": "excadrill",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "audino": {
+   "dex": 531,
+   "name": "audino",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "timburr": {
+   "dex": 532,
+   "name": "timburr",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "gurdurr": {
+   "dex": 533,
+   "name": "gurdurr",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "conkeldurr": {
+   "dex": 534,
+   "name": "conkeldurr",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "tympole": {
+   "dex": 535,
+   "name": "tympole",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "palpitoad": {
+   "dex": 536,
+   "name": "palpitoad",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "seismitoad": {
+   "dex": 537,
+   "name": "seismitoad",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "throh": {
+   "dex": 538,
+   "name": "throh",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "sawk": {
+   "dex": 539,
+   "name": "sawk",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "sewaddle": {
+   "dex": 540,
+   "name": "sewaddle",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "swadloon": {
+   "dex": 541,
+   "name": "swadloon",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "leavanny": {
+   "dex": 542,
+   "name": "leavanny",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "venipede": {
+   "dex": 543,
+   "name": "venipede",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "whirlipede": {
+   "dex": 544,
+   "name": "whirlipede",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "scolipede": {
+   "dex": 545,
+   "name": "scolipede",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "cottonee": {
+   "dex": 546,
+   "name": "cottonee",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "whimsicott": {
+   "dex": 547,
+   "name": "whimsicott",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "petilil": {
+   "dex": 548,
+   "name": "petilil",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "lilligant": {
+   "dex": 549,
+   "name": "lilligant",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "basculinredstriped": {
+   "dex": 550,
+   "name": "basculin-red-striped",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "sandile": {
+   "dex": 551,
+   "name": "sandile",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "krokorok": {
+   "dex": 552,
+   "name": "krokorok",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "krookodile": {
+   "dex": 553,
+   "name": "krookodile",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "darumaka": {
+   "dex": 554,
+   "name": "darumaka",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "darmanitanstandard": {
+   "dex": 555,
+   "name": "darmanitan-standard",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "maractus": {
+   "dex": 556,
+   "name": "maractus",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "dwebble": {
+   "dex": 557,
+   "name": "dwebble",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "crustle": {
+   "dex": 558,
+   "name": "crustle",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "scraggy": {
+   "dex": 559,
+   "name": "scraggy",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "scrafty": {
+   "dex": 560,
+   "name": "scrafty",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "sigilyph": {
+   "dex": 561,
+   "name": "sigilyph",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "yamask": {
+   "dex": 562,
+   "name": "yamask",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "cofagrigus": {
+   "dex": 563,
+   "name": "cofagrigus",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "tirtouga": {
+   "dex": 564,
+   "name": "tirtouga",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "carracosta": {
+   "dex": 565,
+   "name": "carracosta",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "archen": {
+   "dex": 566,
+   "name": "archen",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "archeops": {
+   "dex": 567,
+   "name": "archeops",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "trubbish": {
+   "dex": 568,
+   "name": "trubbish",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "garbodor": {
+   "dex": 569,
+   "name": "garbodor",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "zorua": {
+   "dex": 570,
+   "name": "zorua",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "zoroark": {
+   "dex": 571,
+   "name": "zoroark",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "minccino": {
+   "dex": 572,
+   "name": "minccino",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "cinccino": {
+   "dex": 573,
+   "name": "cinccino",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "gothita": {
+   "dex": 574,
+   "name": "gothita",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "gothorita": {
+   "dex": 575,
+   "name": "gothorita",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "gothitelle": {
+   "dex": 576,
+   "name": "gothitelle",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "solosis": {
+   "dex": 577,
+   "name": "solosis",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "duosion": {
+   "dex": 578,
+   "name": "duosion",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "reuniclus": {
+   "dex": 579,
+   "name": "reuniclus",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "ducklett": {
+   "dex": 580,
+   "name": "ducklett",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "swanna": {
+   "dex": 581,
+   "name": "swanna",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "vanillite": {
+   "dex": 582,
+   "name": "vanillite",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "vanillish": {
+   "dex": 583,
+   "name": "vanillish",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "vanilluxe": {
+   "dex": 584,
+   "name": "vanilluxe",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "deerling": {
+   "dex": 585,
+   "name": "deerling",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "sawsbuck": {
+   "dex": 586,
+   "name": "sawsbuck",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "emolga": {
+   "dex": 587,
+   "name": "emolga",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "karrablast": {
+   "dex": 588,
+   "name": "karrablast",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "escavalier": {
+   "dex": 589,
+   "name": "escavalier",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "foongus": {
+   "dex": 590,
+   "name": "foongus",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "amoonguss": {
+   "dex": 591,
+   "name": "amoonguss",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "frillishmale": {
+   "dex": 592,
+   "name": "frillish-male",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "jellicentmale": {
+   "dex": 593,
+   "name": "jellicent-male",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "alomomola": {
+   "dex": 594,
+   "name": "alomomola",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "joltik": {
+   "dex": 595,
+   "name": "joltik",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "galvantula": {
+   "dex": 596,
+   "name": "galvantula",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "ferroseed": {
+   "dex": 597,
+   "name": "ferroseed",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "ferrothorn": {
+   "dex": 598,
+   "name": "ferrothorn",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "klink": {
+   "dex": 599,
+   "name": "klink",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "klang": {
+   "dex": 600,
+   "name": "klang",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "klinklang": {
+   "dex": 601,
+   "name": "klinklang",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "tynamo": {
+   "dex": 602,
+   "name": "tynamo",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "eelektrik": {
+   "dex": 603,
+   "name": "eelektrik",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "eelektross": {
+   "dex": 604,
+   "name": "eelektross",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "elgyem": {
+   "dex": 605,
+   "name": "elgyem",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "beheeyem": {
+   "dex": 606,
+   "name": "beheeyem",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "litwick": {
+   "dex": 607,
+   "name": "litwick",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "lampent": {
+   "dex": 608,
+   "name": "lampent",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "chandelure": {
+   "dex": 609,
+   "name": "chandelure",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "axew": {
+   "dex": 610,
+   "name": "axew",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "fraxure": {
+   "dex": 611,
+   "name": "fraxure",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "haxorus": {
+   "dex": 612,
+   "name": "haxorus",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "cubchoo": {
+   "dex": 613,
+   "name": "cubchoo",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "beartic": {
+   "dex": 614,
+   "name": "beartic",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "cryogonal": {
+   "dex": 615,
+   "name": "cryogonal",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "shelmet": {
+   "dex": 616,
+   "name": "shelmet",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "accelgor": {
+   "dex": 617,
+   "name": "accelgor",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "stunfisk": {
+   "dex": 618,
+   "name": "stunfisk",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "mienfoo": {
+   "dex": 619,
+   "name": "mienfoo",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "mienshao": {
+   "dex": 620,
+   "name": "mienshao",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "druddigon": {
+   "dex": 621,
+   "name": "druddigon",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "golett": {
+   "dex": 622,
+   "name": "golett",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "golurk": {
+   "dex": 623,
+   "name": "golurk",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "pawniard": {
+   "dex": 624,
+   "name": "pawniard",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "bisharp": {
+   "dex": 625,
+   "name": "bisharp",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "bouffalant": {
+   "dex": 626,
+   "name": "bouffalant",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "rufflet": {
+   "dex": 627,
+   "name": "rufflet",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "braviary": {
+   "dex": 628,
+   "name": "braviary",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "vullaby": {
+   "dex": 629,
+   "name": "vullaby",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "mandibuzz": {
+   "dex": 630,
+   "name": "mandibuzz",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "heatmor": {
+   "dex": 631,
+   "name": "heatmor",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "durant": {
+   "dex": 632,
+   "name": "durant",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "deino": {
+   "dex": 633,
+   "name": "deino",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "zweilous": {
+   "dex": 634,
+   "name": "zweilous",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "hydreigon": {
+   "dex": 635,
+   "name": "hydreigon",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "larvesta": {
+   "dex": 636,
+   "name": "larvesta",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "volcarona": {
+   "dex": 637,
+   "name": "volcarona",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "cobalion": {
+   "dex": 638,
+   "name": "cobalion",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "terrakion": {
+   "dex": 639,
+   "name": "terrakion",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "virizion": {
+   "dex": 640,
+   "name": "virizion",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "tornadusincarnate": {
+   "dex": 641,
+   "name": "tornadus-incarnate",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "thundurusincarnate": {
+   "dex": 642,
+   "name": "thundurus-incarnate",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "reshiram": {
+   "dex": 643,
+   "name": "reshiram",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "zekrom": {
+   "dex": 644,
+   "name": "zekrom",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "landorusincarnate": {
+   "dex": 645,
+   "name": "landorus-incarnate",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "kyurem": {
+   "dex": 646,
+   "name": "kyurem",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "keldeoordinary": {
+   "dex": 647,
+   "name": "keldeo-ordinary",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "meloettaaria": {
+   "dex": 648,
+   "name": "meloetta-aria",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "genesect": {
+   "dex": 649,
+   "name": "genesect",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "chespin": {
+   "dex": 650,
+   "name": "chespin",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "quilladin": {
+   "dex": 651,
+   "name": "quilladin",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "chesnaught": {
+   "dex": 652,
+   "name": "chesnaught",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "fennekin": {
+   "dex": 653,
+   "name": "fennekin",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "braixen": {
+   "dex": 654,
+   "name": "braixen",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "delphox": {
+   "dex": 655,
+   "name": "delphox",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "froakie": {
+   "dex": 656,
+   "name": "froakie",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "frogadier": {
+   "dex": 657,
+   "name": "frogadier",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "greninja": {
+   "dex": 658,
+   "name": "greninja",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "bunnelby": {
+   "dex": 659,
+   "name": "bunnelby",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "diggersby": {
+   "dex": 660,
+   "name": "diggersby",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "fletchling": {
+   "dex": 661,
+   "name": "fletchling",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "fletchinder": {
+   "dex": 662,
+   "name": "fletchinder",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "talonflame": {
+   "dex": 663,
+   "name": "talonflame",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "scatterbug": {
+   "dex": 664,
+   "name": "scatterbug",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "spewpa": {
+   "dex": 665,
+   "name": "spewpa",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "vivillon": {
+   "dex": 666,
+   "name": "vivillon",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "litleo": {
+   "dex": 667,
+   "name": "litleo",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "pyroarmale": {
+   "dex": 668,
+   "name": "pyroar-male",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "flabebe": {
+   "dex": 669,
+   "name": "flabebe",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "floette": {
+   "dex": 670,
+   "name": "floette",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "florges": {
+   "dex": 671,
+   "name": "florges",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "skiddo": {
+   "dex": 672,
+   "name": "skiddo",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "gogoat": {
+   "dex": 673,
+   "name": "gogoat",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "pancham": {
+   "dex": 674,
+   "name": "pancham",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "pangoro": {
+   "dex": 675,
+   "name": "pangoro",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "furfrou": {
+   "dex": 676,
+   "name": "furfrou",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "espurr": {
+   "dex": 677,
+   "name": "espurr",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "meowsticmale": {
+   "dex": 678,
+   "name": "meowstic-male",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "honedge": {
+   "dex": 679,
+   "name": "honedge",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "doublade": {
+   "dex": 680,
+   "name": "doublade",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "aegislashshield": {
+   "dex": 681,
+   "name": "aegislash-shield",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "spritzee": {
+   "dex": 682,
+   "name": "spritzee",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "aromatisse": {
+   "dex": 683,
+   "name": "aromatisse",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "swirlix": {
+   "dex": 684,
+   "name": "swirlix",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "slurpuff": {
+   "dex": 685,
+   "name": "slurpuff",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "inkay": {
+   "dex": 686,
+   "name": "inkay",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "malamar": {
+   "dex": 687,
+   "name": "malamar",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "binacle": {
+   "dex": 688,
+   "name": "binacle",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "barbaracle": {
+   "dex": 689,
+   "name": "barbaracle",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "skrelp": {
+   "dex": 690,
+   "name": "skrelp",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "dragalge": {
+   "dex": 691,
+   "name": "dragalge",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "clauncher": {
+   "dex": 692,
+   "name": "clauncher",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "clawitzer": {
+   "dex": 693,
+   "name": "clawitzer",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "helioptile": {
+   "dex": 694,
+   "name": "helioptile",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "heliolisk": {
+   "dex": 695,
+   "name": "heliolisk",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "tyrunt": {
+   "dex": 696,
+   "name": "tyrunt",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "tyrantrum": {
+   "dex": 697,
+   "name": "tyrantrum",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "amaura": {
+   "dex": 698,
+   "name": "amaura",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "aurorus": {
+   "dex": 699,
+   "name": "aurorus",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "sylveon": {
+   "dex": 700,
+   "name": "sylveon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "hawlucha": {
+   "dex": 701,
+   "name": "hawlucha",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "dedenne": {
+   "dex": 702,
+   "name": "dedenne",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "carbink": {
+   "dex": 703,
+   "name": "carbink",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "goomy": {
+   "dex": 704,
+   "name": "goomy",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "sliggoo": {
+   "dex": 705,
+   "name": "sliggoo",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "goodra": {
+   "dex": 706,
+   "name": "goodra",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "klefki": {
+   "dex": 707,
+   "name": "klefki",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "phantump": {
+   "dex": 708,
+   "name": "phantump",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "trevenant": {
+   "dex": 709,
+   "name": "trevenant",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "pumpkabooaverage": {
+   "dex": 710,
+   "name": "pumpkaboo-average",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "gourgeistaverage": {
+   "dex": 711,
+   "name": "gourgeist-average",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "bergmite": {
+   "dex": 712,
+   "name": "bergmite",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "avalugg": {
+   "dex": 713,
+   "name": "avalugg",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "noibat": {
+   "dex": 714,
+   "name": "noibat",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "noivern": {
+   "dex": 715,
+   "name": "noivern",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "xerneas": {
+   "dex": 716,
+   "name": "xerneas",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "yveltal": {
+   "dex": 717,
+   "name": "yveltal",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "zygarde50": {
+   "dex": 718,
+   "name": "zygarde-50",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "diancie": {
+   "dex": 719,
+   "name": "diancie",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "hoopa": {
+   "dex": 720,
+   "name": "hoopa",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "volcanion": {
+   "dex": 721,
+   "name": "volcanion",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "rowlet": {
+   "dex": 722,
+   "name": "rowlet",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "dartrix": {
+   "dex": 723,
+   "name": "dartrix",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "decidueye": {
+   "dex": 724,
+   "name": "decidueye",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "litten": {
+   "dex": 725,
+   "name": "litten",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "torracat": {
+   "dex": 726,
+   "name": "torracat",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "incineroar": {
+   "dex": 727,
+   "name": "incineroar",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "popplio": {
+   "dex": 728,
+   "name": "popplio",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "brionne": {
+   "dex": 729,
+   "name": "brionne",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "primarina": {
+   "dex": 730,
+   "name": "primarina",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "pikipek": {
+   "dex": 731,
+   "name": "pikipek",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "trumbeak": {
+   "dex": 732,
+   "name": "trumbeak",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "toucannon": {
+   "dex": 733,
+   "name": "toucannon",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "yungoos": {
+   "dex": 734,
+   "name": "yungoos",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "gumshoos": {
+   "dex": 735,
+   "name": "gumshoos",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "grubbin": {
+   "dex": 736,
+   "name": "grubbin",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "charjabug": {
+   "dex": 737,
+   "name": "charjabug",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "vikavolt": {
+   "dex": 738,
+   "name": "vikavolt",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "crabrawler": {
+   "dex": 739,
+   "name": "crabrawler",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "crabominable": {
+   "dex": 740,
+   "name": "crabominable",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "oricoriobaile": {
+   "dex": 741,
+   "name": "oricorio-baile",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "cutiefly": {
+   "dex": 742,
+   "name": "cutiefly",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "ribombee": {
+   "dex": 743,
+   "name": "ribombee",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "rockruff": {
+   "dex": 744,
+   "name": "rockruff",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "lycanrocmidday": {
+   "dex": 745,
+   "name": "lycanroc-midday",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "wishiwashisolo": {
+   "dex": 746,
+   "name": "wishiwashi-solo",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "mareanie": {
+   "dex": 747,
+   "name": "mareanie",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "toxapex": {
+   "dex": 748,
+   "name": "toxapex",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "mudbray": {
+   "dex": 749,
+   "name": "mudbray",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "mudsdale": {
+   "dex": 750,
+   "name": "mudsdale",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "dewpider": {
+   "dex": 751,
+   "name": "dewpider",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "araquanid": {
+   "dex": 752,
+   "name": "araquanid",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "fomantis": {
+   "dex": 753,
+   "name": "fomantis",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "lurantis": {
+   "dex": 754,
+   "name": "lurantis",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "morelull": {
+   "dex": 755,
+   "name": "morelull",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "shiinotic": {
+   "dex": 756,
+   "name": "shiinotic",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "salandit": {
+   "dex": 757,
+   "name": "salandit",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "salazzle": {
+   "dex": 758,
+   "name": "salazzle",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "stufful": {
+   "dex": 759,
+   "name": "stufful",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "bewear": {
+   "dex": 760,
+   "name": "bewear",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "bounsweet": {
+   "dex": 761,
+   "name": "bounsweet",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "steenee": {
+   "dex": 762,
+   "name": "steenee",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "tsareena": {
+   "dex": 763,
+   "name": "tsareena",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "comfey": {
+   "dex": 764,
+   "name": "comfey",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "oranguru": {
+   "dex": 765,
+   "name": "oranguru",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "passimian": {
+   "dex": 766,
+   "name": "passimian",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "wimpod": {
+   "dex": 767,
+   "name": "wimpod",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "golisopod": {
+   "dex": 768,
+   "name": "golisopod",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "sandygast": {
+   "dex": 769,
+   "name": "sandygast",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "palossand": {
+   "dex": 770,
+   "name": "palossand",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "pyukumuku": {
+   "dex": 771,
+   "name": "pyukumuku",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "typenull": {
+   "dex": 772,
+   "name": "type-null",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "silvally": {
+   "dex": 773,
+   "name": "silvally",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "miniorredmeteor": {
+   "dex": 774,
+   "name": "minior-red-meteor",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "komala": {
+   "dex": 775,
+   "name": "komala",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "turtonator": {
+   "dex": 776,
+   "name": "turtonator",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "togedemaru": {
+   "dex": 777,
+   "name": "togedemaru",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "mimikyudisguised": {
+   "dex": 778,
+   "name": "mimikyu-disguised",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "bruxish": {
+   "dex": 779,
+   "name": "bruxish",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "drampa": {
+   "dex": 780,
+   "name": "drampa",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "dhelmise": {
+   "dex": 781,
+   "name": "dhelmise",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "jangmoo": {
+   "dex": 782,
+   "name": "jangmo-o",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "hakamoo": {
+   "dex": 783,
+   "name": "hakamo-o",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "kommoo": {
+   "dex": 784,
+   "name": "kommo-o",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "tapukoko": {
+   "dex": 785,
+   "name": "tapu-koko",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "tapulele": {
+   "dex": 786,
+   "name": "tapu-lele",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "tapubulu": {
+   "dex": 787,
+   "name": "tapu-bulu",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "tapufini": {
+   "dex": 788,
+   "name": "tapu-fini",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "cosmog": {
+   "dex": 789,
+   "name": "cosmog",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "cosmoem": {
+   "dex": 790,
+   "name": "cosmoem",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "solgaleo": {
+   "dex": 791,
+   "name": "solgaleo",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "lunala": {
+   "dex": 792,
+   "name": "lunala",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "nihilego": {
+   "dex": 793,
+   "name": "nihilego",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "buzzwole": {
+   "dex": 794,
+   "name": "buzzwole",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "pheromosa": {
+   "dex": 795,
+   "name": "pheromosa",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "xurkitree": {
+   "dex": 796,
+   "name": "xurkitree",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "celesteela": {
+   "dex": 797,
+   "name": "celesteela",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "kartana": {
+   "dex": 798,
+   "name": "kartana",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "guzzlord": {
+   "dex": 799,
+   "name": "guzzlord",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "necrozma": {
+   "dex": 800,
+   "name": "necrozma",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "magearna": {
+   "dex": 801,
+   "name": "magearna",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "marshadow": {
+   "dex": 802,
+   "name": "marshadow",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "poipole": {
+   "dex": 803,
+   "name": "poipole",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "naganadel": {
+   "dex": 804,
+   "name": "naganadel",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "stakataka": {
+   "dex": 805,
+   "name": "stakataka",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "blacephalon": {
+   "dex": 806,
+   "name": "blacephalon",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "zeraora": {
+   "dex": 807,
+   "name": "zeraora",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "meltan": {
+   "dex": 808,
+   "name": "meltan",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "melmetal": {
+   "dex": 809,
+   "name": "melmetal",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "grookey": {
+   "dex": 810,
+   "name": "grookey",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "thwackey": {
+   "dex": 811,
+   "name": "thwackey",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "rillaboom": {
+   "dex": 812,
+   "name": "rillaboom",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "scorbunny": {
+   "dex": 813,
+   "name": "scorbunny",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "raboot": {
+   "dex": 814,
+   "name": "raboot",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "cinderace": {
+   "dex": 815,
+   "name": "cinderace",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "sobble": {
+   "dex": 816,
+   "name": "sobble",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "drizzile": {
+   "dex": 817,
+   "name": "drizzile",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "inteleon": {
+   "dex": 818,
+   "name": "inteleon",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "skwovet": {
+   "dex": 819,
+   "name": "skwovet",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "greedent": {
+   "dex": 820,
+   "name": "greedent",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "rookidee": {
+   "dex": 821,
+   "name": "rookidee",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "corvisquire": {
+   "dex": 822,
+   "name": "corvisquire",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "corviknight": {
+   "dex": 823,
+   "name": "corviknight",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "blipbug": {
+   "dex": 824,
+   "name": "blipbug",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "dottler": {
+   "dex": 825,
+   "name": "dottler",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "orbeetle": {
+   "dex": 826,
+   "name": "orbeetle",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "nickit": {
+   "dex": 827,
+   "name": "nickit",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "thievul": {
+   "dex": 828,
+   "name": "thievul",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "gossifleur": {
+   "dex": 829,
+   "name": "gossifleur",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "eldegoss": {
+   "dex": 830,
+   "name": "eldegoss",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "wooloo": {
+   "dex": 831,
+   "name": "wooloo",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "dubwool": {
+   "dex": 832,
+   "name": "dubwool",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "chewtle": {
+   "dex": 833,
+   "name": "chewtle",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "drednaw": {
+   "dex": 834,
+   "name": "drednaw",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "yamper": {
+   "dex": 835,
+   "name": "yamper",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "boltund": {
+   "dex": 836,
+   "name": "boltund",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "rolycoly": {
+   "dex": 837,
+   "name": "rolycoly",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "carkol": {
+   "dex": 838,
+   "name": "carkol",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "coalossal": {
+   "dex": 839,
+   "name": "coalossal",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "applin": {
+   "dex": 840,
+   "name": "applin",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "flapple": {
+   "dex": 841,
+   "name": "flapple",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "appletun": {
+   "dex": 842,
+   "name": "appletun",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "silicobra": {
+   "dex": 843,
+   "name": "silicobra",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "sandaconda": {
+   "dex": 844,
+   "name": "sandaconda",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "cramorant": {
+   "dex": 845,
+   "name": "cramorant",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "arrokuda": {
+   "dex": 846,
+   "name": "arrokuda",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "barraskewda": {
+   "dex": 847,
+   "name": "barraskewda",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "toxel": {
+   "dex": 848,
+   "name": "toxel",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "toxtricityamped": {
+   "dex": 849,
+   "name": "toxtricity-amped",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "sizzlipede": {
+   "dex": 850,
+   "name": "sizzlipede",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "centiskorch": {
+   "dex": 851,
+   "name": "centiskorch",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "clobbopus": {
+   "dex": 852,
+   "name": "clobbopus",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "grapploct": {
+   "dex": 853,
+   "name": "grapploct",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "sinistea": {
+   "dex": 854,
+   "name": "sinistea",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "polteageist": {
+   "dex": 855,
+   "name": "polteageist",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "hatenna": {
+   "dex": 856,
+   "name": "hatenna",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "hattrem": {
+   "dex": 857,
+   "name": "hattrem",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "hatterene": {
+   "dex": 858,
+   "name": "hatterene",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "impidimp": {
+   "dex": 859,
+   "name": "impidimp",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "morgrem": {
+   "dex": 860,
+   "name": "morgrem",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "grimmsnarl": {
+   "dex": 861,
+   "name": "grimmsnarl",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "obstagoon": {
+   "dex": 862,
+   "name": "obstagoon",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "perrserker": {
+   "dex": 863,
+   "name": "perrserker",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "cursola": {
+   "dex": 864,
+   "name": "cursola",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "sirfetchd": {
+   "dex": 865,
+   "name": "sirfetchd",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "mrrime": {
+   "dex": 866,
+   "name": "mr-rime",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "runerigus": {
+   "dex": 867,
+   "name": "runerigus",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "milcery": {
+   "dex": 868,
+   "name": "milcery",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "alcremie": {
+   "dex": 869,
+   "name": "alcremie",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "falinks": {
+   "dex": 870,
+   "name": "falinks",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "pincurchin": {
+   "dex": 871,
+   "name": "pincurchin",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "snom": {
+   "dex": 872,
+   "name": "snom",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "frosmoth": {
+   "dex": 873,
+   "name": "frosmoth",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "stonjourner": {
+   "dex": 874,
+   "name": "stonjourner",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "eiscueice": {
+   "dex": 875,
+   "name": "eiscue-ice",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "indeedeemale": {
+   "dex": 876,
+   "name": "indeedee-male",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "morpekofullbelly": {
+   "dex": 877,
+   "name": "morpeko-full-belly",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "cufant": {
+   "dex": 878,
+   "name": "cufant",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "copperajah": {
+   "dex": 879,
+   "name": "copperajah",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "dracozolt": {
+   "dex": 880,
+   "name": "dracozolt",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "arctozolt": {
+   "dex": 881,
+   "name": "arctozolt",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "dracovish": {
+   "dex": 882,
+   "name": "dracovish",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "arctovish": {
+   "dex": 883,
+   "name": "arctovish",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "duraludon": {
+   "dex": 884,
+   "name": "duraludon",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "dreepy": {
+   "dex": 885,
+   "name": "dreepy",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "drakloak": {
+   "dex": 886,
+   "name": "drakloak",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "dragapult": {
+   "dex": 887,
+   "name": "dragapult",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "zacian": {
+   "dex": 888,
+   "name": "zacian",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "zamazenta": {
+   "dex": 889,
+   "name": "zamazenta",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "eternatus": {
+   "dex": 890,
+   "name": "eternatus",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "kubfu": {
+   "dex": 891,
+   "name": "kubfu",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "urshifusinglestrike": {
+   "dex": 892,
+   "name": "urshifu-single-strike",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "zarude": {
+   "dex": 893,
+   "name": "zarude",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "regieleki": {
+   "dex": 894,
+   "name": "regieleki",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "regidrago": {
+   "dex": 895,
+   "name": "regidrago",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "glastrier": {
+   "dex": 896,
+   "name": "glastrier",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "spectrier": {
+   "dex": 897,
+   "name": "spectrier",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "calyrex": {
+   "dex": 898,
+   "name": "calyrex",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "wyrdeer": {
+   "dex": 899,
+   "name": "wyrdeer",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "kleavor": {
+   "dex": 900,
+   "name": "kleavor",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "ursaluna": {
+   "dex": 901,
+   "name": "ursaluna",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "basculegionmale": {
+   "dex": 902,
+   "name": "basculegion-male",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "sneasler": {
+   "dex": 903,
+   "name": "sneasler",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "overqwil": {
+   "dex": 904,
+   "name": "overqwil",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "enamorusincarnate": {
+   "dex": 905,
+   "name": "enamorus-incarnate",
+   "shape_id": 4,
+   "shape": "arms"
+  },
+  "sprigatito": {
+   "dex": 906,
+   "name": "sprigatito",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "floragato": {
+   "dex": 907,
+   "name": "floragato",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "meowscarada": {
+   "dex": 908,
+   "name": "meowscarada",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "fuecoco": {
+   "dex": 909,
+   "name": "fuecoco",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "crocalor": {
+   "dex": 910,
+   "name": "crocalor",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "skeledirge": {
+   "dex": 911,
+   "name": "skeledirge",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "quaxly": {
+   "dex": 912,
+   "name": "quaxly",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "quaxwell": {
+   "dex": 913,
+   "name": "quaxwell",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "quaquaval": {
+   "dex": 914,
+   "name": "quaquaval",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "lechonk": {
+   "dex": 915,
+   "name": "lechonk",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "oinkolognemale": {
+   "dex": 916,
+   "name": "oinkologne-male",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "tarountula": {
+   "dex": 917,
+   "name": "tarountula",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "spidops": {
+   "dex": 918,
+   "name": "spidops",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "nymble": {
+   "dex": 919,
+   "name": "nymble",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "lokix": {
+   "dex": 920,
+   "name": "lokix",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "pawmi": {
+   "dex": 921,
+   "name": "pawmi",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "pawmo": {
+   "dex": 922,
+   "name": "pawmo",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "pawmot": {
+   "dex": 923,
+   "name": "pawmot",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "tandemaus": {
+   "dex": 924,
+   "name": "tandemaus",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "mausholdfamilyoffour": {
+   "dex": 925,
+   "name": "maushold-family-of-four",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "fidough": {
+   "dex": 926,
+   "name": "fidough",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "dachsbun": {
+   "dex": 927,
+   "name": "dachsbun",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "smoliv": {
+   "dex": 928,
+   "name": "smoliv",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "dolliv": {
+   "dex": 929,
+   "name": "dolliv",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "arboliva": {
+   "dex": 930,
+   "name": "arboliva",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "squawkabillygreenplumage": {
+   "dex": 931,
+   "name": "squawkabilly-green-plumage",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "nacli": {
+   "dex": 932,
+   "name": "nacli",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "naclstack": {
+   "dex": 933,
+   "name": "naclstack",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "garganacl": {
+   "dex": 934,
+   "name": "garganacl",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "charcadet": {
+   "dex": 935,
+   "name": "charcadet",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "armarouge": {
+   "dex": 936,
+   "name": "armarouge",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "ceruledge": {
+   "dex": 937,
+   "name": "ceruledge",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "tadbulb": {
+   "dex": 938,
+   "name": "tadbulb",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "bellibolt": {
+   "dex": 939,
+   "name": "bellibolt",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "wattrel": {
+   "dex": 940,
+   "name": "wattrel",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "kilowattrel": {
+   "dex": 941,
+   "name": "kilowattrel",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "maschiff": {
+   "dex": 942,
+   "name": "maschiff",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "mabosstiff": {
+   "dex": 943,
+   "name": "mabosstiff",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "shroodle": {
+   "dex": 944,
+   "name": "shroodle",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "grafaiai": {
+   "dex": 945,
+   "name": "grafaiai",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "bramblin": {
+   "dex": 946,
+   "name": "bramblin",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "brambleghast": {
+   "dex": 947,
+   "name": "brambleghast",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "toedscool": {
+   "dex": 948,
+   "name": "toedscool",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "toedscruel": {
+   "dex": 949,
+   "name": "toedscruel",
+   "shape_id": 10,
+   "shape": "tentacles"
+  },
+  "klawf": {
+   "dex": 950,
+   "name": "klawf",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "capsakid": {
+   "dex": 951,
+   "name": "capsakid",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "scovillain": {
+   "dex": 952,
+   "name": "scovillain",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "rellor": {
+   "dex": 953,
+   "name": "rellor",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "rabsca": {
+   "dex": 954,
+   "name": "rabsca",
+   "shape_id": 14,
+   "shape": "armor"
+  },
+  "flittle": {
+   "dex": 955,
+   "name": "flittle",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "espathra": {
+   "dex": 956,
+   "name": "espathra",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "tinkatink": {
+   "dex": 957,
+   "name": "tinkatink",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "tinkatuff": {
+   "dex": 958,
+   "name": "tinkatuff",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "tinkaton": {
+   "dex": 959,
+   "name": "tinkaton",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "wiglett": {
+   "dex": 960,
+   "name": "wiglett",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "wugtrio": {
+   "dex": 961,
+   "name": "wugtrio",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "bombirdier": {
+   "dex": 962,
+   "name": "bombirdier",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "finizen": {
+   "dex": 963,
+   "name": "finizen",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "palafinzero": {
+   "dex": 964,
+   "name": "palafin-zero",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "varoom": {
+   "dex": 965,
+   "name": "varoom",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "revavroom": {
+   "dex": 966,
+   "name": "revavroom",
+   "shape_id": 7,
+   "shape": "legs"
+  },
+  "cyclizar": {
+   "dex": 967,
+   "name": "cyclizar",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "orthworm": {
+   "dex": 968,
+   "name": "orthworm",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "glimmet": {
+   "dex": 969,
+   "name": "glimmet",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "glimmora": {
+   "dex": 970,
+   "name": "glimmora",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "greavard": {
+   "dex": 971,
+   "name": "greavard",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "houndstone": {
+   "dex": 972,
+   "name": "houndstone",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "flamigo": {
+   "dex": 973,
+   "name": "flamigo",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "cetoddle": {
+   "dex": 974,
+   "name": "cetoddle",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "cetitan": {
+   "dex": 975,
+   "name": "cetitan",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "veluza": {
+   "dex": 976,
+   "name": "veluza",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "dondozo": {
+   "dex": 977,
+   "name": "dondozo",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "tatsugiricurly": {
+   "dex": 978,
+   "name": "tatsugiri-curly",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "annihilape": {
+   "dex": 979,
+   "name": "annihilape",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "clodsire": {
+   "dex": 980,
+   "name": "clodsire",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "farigiraf": {
+   "dex": 981,
+   "name": "farigiraf",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "dudunsparcetwosegment": {
+   "dex": 982,
+   "name": "dudunsparce-two-segment",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "kingambit": {
+   "dex": 983,
+   "name": "kingambit",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "greattusk": {
+   "dex": 984,
+   "name": "great-tusk",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "screamtail": {
+   "dex": 985,
+   "name": "scream-tail",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "brutebonnet": {
+   "dex": 986,
+   "name": "brute-bonnet",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "fluttermane": {
+   "dex": 987,
+   "name": "flutter-mane",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "slitherwing": {
+   "dex": 988,
+   "name": "slither-wing",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "sandyshocks": {
+   "dex": 989,
+   "name": "sandy-shocks",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "irontreads": {
+   "dex": 990,
+   "name": "iron-treads",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "ironbundle": {
+   "dex": 991,
+   "name": "iron-bundle",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "ironhands": {
+   "dex": 992,
+   "name": "iron-hands",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "ironjugulis": {
+   "dex": 993,
+   "name": "iron-jugulis",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "ironmoth": {
+   "dex": 994,
+   "name": "iron-moth",
+   "shape_id": 13,
+   "shape": "bug-wings"
+  },
+  "ironthorns": {
+   "dex": 995,
+   "name": "iron-thorns",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "frigibax": {
+   "dex": 996,
+   "name": "frigibax",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "arctibax": {
+   "dex": 997,
+   "name": "arctibax",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "baxcalibur": {
+   "dex": 998,
+   "name": "baxcalibur",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "gimmighoul": {
+   "dex": 999,
+   "name": "gimmighoul",
+   "shape_id": 5,
+   "shape": "blob"
+  },
+  "gholdengo": {
+   "dex": 1000,
+   "name": "gholdengo",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "wochien": {
+   "dex": 1001,
+   "name": "wo-chien",
+   "shape_id": 2,
+   "shape": "squiggle"
+  },
+  "chienpao": {
+   "dex": 1002,
+   "name": "chien-pao",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "tinglu": {
+   "dex": 1003,
+   "name": "ting-lu",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "chiyu": {
+   "dex": 1004,
+   "name": "chi-yu",
+   "shape_id": 3,
+   "shape": "fish"
+  },
+  "roaringmoon": {
+   "dex": 1005,
+   "name": "roaring-moon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "ironvaliant": {
+   "dex": 1006,
+   "name": "iron-valiant",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "koraidon": {
+   "dex": 1007,
+   "name": "koraidon",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "miraidon": {
+   "dex": 1008,
+   "name": "miraidon",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "walkingwake": {
+   "dex": 1009,
+   "name": "walking-wake",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "ironleaves": {
+   "dex": 1010,
+   "name": "iron-leaves",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "dipplin": {
+   "dex": 1011,
+   "name": "dipplin",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "poltchageist": {
+   "dex": 1012,
+   "name": "poltchageist",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "sinistcha": {
+   "dex": 1013,
+   "name": "sinistcha",
+   "shape_id": 1,
+   "shape": "ball"
+  },
+  "okidogi": {
+   "dex": 1014,
+   "name": "okidogi",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "munkidori": {
+   "dex": 1015,
+   "name": "munkidori",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "fezandipiti": {
+   "dex": 1016,
+   "name": "fezandipiti",
+   "shape_id": 9,
+   "shape": "wings"
+  },
+  "ogerpon": {
+   "dex": 1017,
+   "name": "ogerpon",
+   "shape_id": 12,
+   "shape": "humanoid"
+  },
+  "archaludon": {
+   "dex": 1018,
+   "name": "archaludon",
+   "shape_id": 6,
+   "shape": "upright"
+  },
+  "hydrapple": {
+   "dex": 1019,
+   "name": "hydrapple",
+   "shape_id": 11,
+   "shape": "heads"
+  },
+  "gougingfire": {
+   "dex": 1020,
+   "name": "gouging-fire",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "ragingbolt": {
+   "dex": 1021,
+   "name": "raging-bolt",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "ironboulder": {
+   "dex": 1022,
+   "name": "iron-boulder",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "ironcrown": {
+   "dex": 1023,
+   "name": "iron-crown",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "terapagos": {
+   "dex": 1024,
+   "name": "terapagos",
+   "shape_id": 8,
+   "shape": "quadruped"
+  },
+  "pecharunt": {
+   "dex": 1025,
+   "name": "pecharunt",
+   "shape_id": 1,
+   "shape": "ball"
+  }
+ }
+}

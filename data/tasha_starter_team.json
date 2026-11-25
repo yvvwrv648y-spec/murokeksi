@@ -1,0 +1,468 @@
+{
+ "bind_notes": [
+  "Tasha currently has NO starting team anywhere in the project: protagonist_canon.json / protagonist_canon.gd define her identity and 6-ball rig only, and the pack tree (files/pokemon-full/playable-kanto/) contains no Tasha team data. The only starting-party mechanism in the game today is the single Lv5 starter choice (campaign/starters.json: Bulbasaur/Charmander/Squirtle) via CampaignFlow.choose_starter, which also refuses a second starter. Binding this team therefore needs a Tasha-specific starting-party grant at bind time (her six records placed directly into her new-game party), not a starters.json edit.",
+  "CampaignFlow.build_starter builds IV 0 / EV 0 mons with no ability, nature, or held item. This record's extended fields carry the spec's builds; the binding lane must apply them (or extend the builder) rather than letting them drop.",
+  "Eviolite is real and implemented in the staged item work (code_prep_items and code_prep_items_hooks item_engine.gd: 1.5x Def/SpD while the holder can still evolve; also in the item registry and Showdown items data, num 538). It is held by slots 1, 2, 4, 5, 6, all unevolved, and works as specified on each. Slot 3 originally also listed Eviolite, which would have done nothing on a fully-evolved Scizor; Riley resolved that himself on 2026-11-23 22:40 CST by giving Scizor a Metal Coat instead (held data num 233). Closed."
+ ],
+ "format": "6v6 Singles Nuzlocke starter team, all Level 5",
+ "gimmick_notes": "Spec's gimmick section recorded as-is and checked against canon: Mega Scizor exists (stone gimmick-gated, unavailable in Kanto); Dynamax/Z-Moves/Terastallization follow the locked per-progression gimmick-unlock canon - none are available at a Kanto start, and no team member has a Gigantamax form. Nothing in the team record depends on a gimmick.",
+ "party_mon_shape": "Project party-member shape (campaign/campaign_flow.gd build_starter: species_id, name, level, types, base_stats, hp, max_hp, status, moves[{name, pp, max_pp}]) extended with the competitive fields the spec requires (nature, ability, ability_slot, ivs, evs, held_item, computed stats). NOTE for the binding lane: build_starter itself builds IV 0 / EV 0 with no ability, nature, or item; this record's extended fields must be consumed at bind time, not dropped.",
+ "protagonist_id": "tasha",
+ "protagonist_name": "Tasha",
+ "record": "tasha_starting_team",
+ "source_spec": "TASHA_STARTER_TEAM_SPEC.md (Riley, 2026-11-23 22:36 CST; slot 3 correction appended 22:39 CST; Riley's full Scizor spec appended 22:40 CST and followed wherever it conflicts)",
+ "team": [
+  {
+   "ability": "torrent",
+   "ability_slot": "regular",
+   "base_stats": {
+    "atk": 51,
+    "def": 53,
+    "hp": 53,
+    "spa": 61,
+    "spd": 56,
+    "spe": 40
+   },
+   "ev_cap_note": "508 of PUW's locked 510 cap allocated; 2 points unspent, exactly as the spec intends (the last 2 points buy no stat at any level). Legal.",
+   "ev_total": 508,
+   "evolution": {
+    "chain": "piplup -> prinplup (16) -> empoleon (36)",
+    "final_types": [
+     "water",
+     "steel"
+    ],
+    "level": 16,
+    "method": "level_up",
+    "to": "prinplup"
+   },
+   "evs": {
+    "atk": 0,
+    "def": 0,
+    "hp": 252,
+    "spa": 252,
+    "spd": 4,
+    "spe": 0
+   },
+   "held_item": "eviolite",
+   "hidden_ability": "competitive",
+   "hidden_ability_note": "Newest held data (PKHeX SV personal + Showdown Gen 9 pokedex) gives Piplup's hidden ability as Competitive. The spec listed Defiant, which was Piplup's hidden ability in Gens 5-8 (PKHeX BDSP/LA personal confirm Defiant there). Tasha's Piplup runs Torrent either way; only the HA field is corrected. See DISCREPANCIES.md D4.",
+   "hp": 25,
+   "ivs": {
+    "atk": 0,
+    "def": 31,
+    "hp": 31,
+    "spa": 31,
+    "spd": 31,
+    "spe": 31
+   },
+   "level": 5,
+   "max_hp": 25,
+   "moves": [
+    {
+     "max_pp": 35,
+     "name": "pound",
+     "pp": 35
+    },
+    {
+     "max_pp": 40,
+     "name": "growl",
+     "pp": 40
+    }
+   ],
+   "moves_verified": "Gen 9 (SV) level-up: Pound L1, Growl L4 - both known at Level 5. Spec's upcoming list also verified exact against Gen 9: Water Gun L8, Charm L11, Peck L15, Bubble Beam L18.",
+   "name": "piplup",
+   "nature": "Modest",
+   "role": "Special Attacker / Defensive Support",
+   "slot": 1,
+   "species_id": 393,
+   "stats_at_level_5": {
+    "atk": 9,
+    "def": 11,
+    "hp": 25,
+    "spa": 16,
+    "spd": 12,
+    "spe": 10
+   },
+   "status": "",
+   "types": [
+    "water"
+   ]
+  },
+  {
+   "ability": "rough-skin",
+   "ability_note": "The spec lists Rough Skin as the ability and Sand Veil as the alternative. Held data (PKHeX SV/BDSP/SwSh personal, Showdown pokedex) is the other way round: Sand Veil is the regular ability, Rough Skin is the HIDDEN ability. The build is unchanged - Tasha's Gible has Rough Skin - but it is recorded here as the hidden-ability slot, which is what it is. See DISCREPANCIES.md D3.",
+   "ability_slot": "hidden",
+   "base_stats": {
+    "atk": 70,
+    "def": 45,
+    "hp": 58,
+    "spa": 40,
+    "spd": 45,
+    "spe": 42
+   },
+   "ev_total": 508,
+   "evolution": {
+    "chain": "gible -> gabite (24) -> garchomp (48)",
+    "final_types": [
+     "dragon",
+     "ground"
+    ],
+    "level": 24,
+    "method": "level_up",
+    "to": "gabite"
+   },
+   "evs": {
+    "atk": 252,
+    "def": 0,
+    "hp": 4,
+    "spa": 0,
+    "spd": 0,
+    "spe": 252
+   },
+   "held_item": "eviolite",
+   "hp": 22,
+   "ivs": {
+    "atk": 31,
+    "def": 31,
+    "hp": 31,
+    "spa": 0,
+    "spd": 31,
+    "spe": 31
+   },
+   "level": 5,
+   "max_hp": 22,
+   "moves": [
+    {
+     "max_pp": 35,
+     "name": "tackle",
+     "pp": 35
+    },
+    {
+     "max_pp": 15,
+     "name": "sandtomb",
+     "pp": 15
+    }
+   ],
+   "moves_verified": "Gen 9 (SV) level-up: Tackle L1, Sand Tomb L1 - both known at Level 5. Spec's upcoming list verified exact against Gen 9: Sand Attack L6, Dragon Breath L12, Bulldoze L18, Bite L25.",
+   "name": "gible",
+   "nature": "Jolly",
+   "role": "Physical Attacker / Future Sweeper",
+   "slot": 2,
+   "species_id": 443,
+   "stats_at_level_5": {
+    "atk": 16,
+    "def": 11,
+    "hp": 22,
+    "spa": 8,
+    "spd": 11,
+    "spe": 14
+   },
+   "status": "",
+   "types": [
+    "dragon",
+    "ground"
+   ]
+  },
+  {
+   "ability": "technician",
+   "ability_note": "Technician is Scizor's regular slot-1 ability (PKHeX SV personal abilities [Swarm, Technician, Light Metal]; Showdown pokedex agrees). Same ability the spec picked for Scyther, and it is equally legal on Scizor.",
+   "ability_slot": "regular",
+   "base_stats": {
+    "atk": 130,
+    "def": 100,
+    "hp": 70,
+    "spa": 55,
+    "spd": 80,
+    "spe": 65
+   },
+   "ev_total": 508,
+   "evolution": null,
+   "evs": {
+    "atk": 252,
+    "def": 0,
+    "hp": 252,
+    "spa": 0,
+    "spd": 4,
+    "spe": 0
+   },
+   "exception": true,
+   "exception_note": "RILEY CORRECTION 2026-11-23 22:39 CST, full spec 22:40 CST: slot 3 is SCIZOR, not Scyther - 'she should have Scizor and is the exception.' Scizor is the team's one exception to the Basic/Unevolved rule: Tasha starts with it already evolved at Level 5. DO NOT 'fix' this slot back to Scyther. No evolution entry for this slot.",
+   "held_item": "metal-coat",
+   "held_item_note": "Riley resolved the slot 3 item himself (2026-11-23 22:40 CST): Metal Coat, not Eviolite. Metal Coat is real in held item data (Showdown items num 233: boosts the holder's Steel-type moves). It is live on this build - Bullet Punch is Steel-type. The earlier Eviolite-on-Scizor flag is CLOSED, resolved by Riley; see DISCREPANCIES.md D1.",
+   "hp": 26,
+   "ivs": {
+    "atk": 31,
+    "def": 31,
+    "hp": 31,
+    "spa": 0,
+    "spd": 31,
+    "spe": 31
+   },
+   "level": 5,
+   "max_hp": 26,
+   "mega_note": "Mega Scizor verified in held data (Showdown pokedex scizormega): base stats 70/150/140/65/100/75, BST 600, ability Technician - exactly as Riley listed. Its Mega Stone remains gimmick-gated by canon (no gimmicks in Kanto); unavailable at a Kanto start. Recorded, not changed.",
+   "moves": [
+    {
+     "max_pp": 30,
+     "name": "bulletpunch",
+     "pp": 30
+    },
+    {
+     "max_pp": 20,
+     "name": "furycutter",
+     "pp": 20
+    },
+    {
+     "max_pp": 35,
+     "name": "wingattack",
+     "pp": 35
+    },
+    {
+     "max_pp": 30,
+     "name": "quickattack",
+     "pp": 30
+    }
+   ],
+   "moves_verified": "All four verified as SCIZOR's own moves at Level 5 in the newest held data (PKHeX SV learnset + Showdown Gen 9): Bullet Punch level 0 (learned on evolution; Showdown L1 in Gens 4-7), Fury Cutter L1, Wing Attack L1, Quick Attack L1. No Scyther pre-evolution inheritance is needed for any of them - each is native to Scizor at or below Level 5. Also in Scizor's SV Level 1 set, not taken: Leer, False Swipe, Agility, Air Slash.",
+   "name": "scizor",
+   "nature": "Adamant",
+   "role": "Bulky Physical Attacker / Priority Sweeper",
+   "slot": 3,
+   "species_id": 212,
+   "stats_at_level_5": {
+    "atk": 24,
+    "def": 16,
+    "hp": 26,
+    "spa": 9,
+    "spd": 14,
+    "spe": 13
+   },
+   "stats_note": "Computed with the standard stat formula (project team_builder.gd _compute_stats) from the spec's IVs/EVs/Adamant. Riley's stated line (26/24/16/10/14/13) matches the formula on five of six stats; Special Attack is 9 by formula, not 10 - Adamant's 0.9x applies after the +5 (floor(110*5/100)=5, +5=10, floor(10*0.9)=9). Record carries the formula value. See DISCREPANCIES.md D7.",
+   "status": "",
+   "types": [
+    "bug",
+    "steel"
+   ]
+  },
+  {
+   "ability": "adaptability",
+   "ability_note": "The spec's chosen ability, Adaptability, is Corphish's HIDDEN ability in held data (regular abilities: Hyper Cutter, Shell Armor - PKHeX SV/BDSP/SwSh personal and Showdown pokedex agree). Build unchanged; recorded as the hidden-ability slot. The spec's 'alternative' Hyper Cutter is a regular ability. See DISCREPANCIES.md D5.",
+   "ability_slot": "hidden",
+   "base_stats": {
+    "atk": 80,
+    "def": 65,
+    "hp": 43,
+    "spa": 50,
+    "spd": 35,
+    "spe": 35
+   },
+   "ev_total": 508,
+   "evolution": {
+    "final_types": [
+     "water",
+     "dark"
+    ],
+    "level": 30,
+    "method": "level_up",
+    "to": "crawdaunt"
+   },
+   "evs": {
+    "atk": 252,
+    "def": 0,
+    "hp": 4,
+    "spa": 0,
+    "spd": 0,
+    "spe": 252
+   },
+   "held_item": "eviolite",
+   "hp": 20,
+   "ivs": {
+    "atk": 31,
+    "def": 31,
+    "hp": 31,
+    "spa": 0,
+    "spd": 31,
+    "spe": 31
+   },
+   "level": 5,
+   "max_hp": 20,
+   "moves": [
+    {
+     "max_pp": 25,
+     "name": "watergun",
+     "pp": 25
+    },
+    {
+     "max_pp": 30,
+     "name": "harden",
+     "pp": 30
+    }
+   ],
+   "moves_verified": "Gen 9 (SV) level-up: Water Gun L1, Harden L1 - both known at Level 5. Spec's upcoming list verified against Gen 9 with one note: Leer is L4, i.e. already learnable by Level 5, not upcoming; Taunt L8, Bubble Beam L12, Knock Off L16, Double Hit L20 all exact.",
+   "name": "corphish",
+   "nature": "Adamant",
+   "role": "Physical Attacker",
+   "slot": 4,
+   "species_id": 341,
+   "stats_at_level_5": {
+    "atk": 18,
+    "def": 13,
+    "hp": 20,
+    "spa": 9,
+    "spd": 10,
+    "spe": 13
+   },
+   "status": "",
+   "types": [
+    "water"
+   ]
+  },
+  {
+   "ability": "battle-armor",
+   "ability_note": "Battle Armor is Anorith's regular ability; the spec's alternative, Swift Swim, is its hidden ability (PKHeX BDSP/SwSh personal, Showdown pokedex agree). Build unchanged.",
+   "ability_slot": "regular",
+   "base_stats": {
+    "atk": 95,
+    "def": 50,
+    "hp": 45,
+    "spa": 40,
+    "spd": 50,
+    "spe": 75
+   },
+   "ev_total": 508,
+   "evolution": {
+    "final_types": [
+     "rock",
+     "bug"
+    ],
+    "level": 40,
+    "method": "level_up",
+    "to": "armaldo"
+   },
+   "evs": {
+    "atk": 252,
+    "def": 0,
+    "hp": 4,
+    "spa": 0,
+    "spd": 0,
+    "spe": 252
+   },
+   "held_item": "eviolite",
+   "hp": 21,
+   "ivs": {
+    "atk": 31,
+    "def": 31,
+    "hp": 31,
+    "spa": 0,
+    "spd": 31,
+    "spe": 31
+   },
+   "level": 5,
+   "max_hp": 21,
+   "moves": [
+    {
+     "max_pp": 20,
+     "name": "furycutter",
+     "pp": 20
+    },
+    {
+     "max_pp": 30,
+     "name": "harden",
+     "pp": 30
+    }
+   ],
+   "moves_verified": "CORRECTED - see DISCREPANCIES.md D2. The spec's Scratch is NOT in Anorith's newest held learnset: Scratch was its Level 1 move in Gens 3-7 only; Gen 8 (SwSh, confirmed identically in PKHeX BDSP) replaced it with Fury Cutter at Level 1. Record uses Fury Cutter + Harden (both L1). Anorith also knows Water Gun (L4) by Level 5 per the same data.",
+   "name": "anorith",
+   "nature": "Jolly",
+   "role": "Physical Attacker",
+   "slot": 5,
+   "species_id": 347,
+   "stats_at_level_5": {
+    "atk": 19,
+    "def": 11,
+    "hp": 21,
+    "spa": 8,
+    "spd": 11,
+    "spe": 18
+   },
+   "status": "",
+   "types": [
+    "rock",
+    "bug"
+   ]
+  },
+  {
+   "ability": "slush-rush",
+   "ability_note": "Slush Rush is Cubchoo's regular slot-1 ability in held data (PKHeX SV/SwSh personal abilities [Snow Cloak, Slush Rush, Rattled]; Showdown pokedex agrees) - it is NOT a hidden ability, despite the assumption in the verification brief. Cubchoo's hidden ability is Rattled. The spec's alternative, Snow Cloak, is the other regular ability. Build unchanged; only the slot classification differs. See DISCREPANCIES.md D6.",
+   "ability_slot": "regular",
+   "base_stats": {
+    "atk": 70,
+    "def": 40,
+    "hp": 55,
+    "spa": 60,
+    "spd": 40,
+    "spe": 40
+   },
+   "ev_total": 508,
+   "evolution": {
+    "final_types": [
+     "ice"
+    ],
+    "level": 37,
+    "method": "level_up",
+    "to": "beartic"
+   },
+   "evs": {
+    "atk": 252,
+    "def": 0,
+    "hp": 4,
+    "spa": 0,
+    "spd": 0,
+    "spe": 252
+   },
+   "held_item": "eviolite",
+   "hp": 22,
+   "ivs": {
+    "atk": 31,
+    "def": 31,
+    "hp": 31,
+    "spa": 0,
+    "spd": 31,
+    "spe": 31
+   },
+   "level": 5,
+   "max_hp": 22,
+   "moves": [
+    {
+     "max_pp": 25,
+     "name": "powdersnow",
+     "pp": 25
+    },
+    {
+     "max_pp": 40,
+     "name": "growl",
+     "pp": 40
+    }
+   ],
+   "moves_verified": "Gen 9 (SV) level-up: Powder Snow L1, Growl L1 - both known at Level 5.",
+   "name": "cubchoo",
+   "nature": "Jolly",
+   "role": "Physical Attacker / Ice Coverage",
+   "slot": 6,
+   "species_id": 613,
+   "stats_at_level_5": {
+    "atk": 16,
+    "def": 10,
+    "hp": 22,
+    "spa": 9,
+    "spd": 10,
+    "spe": 14
+   },
+   "status": "",
+   "types": [
+    "ice"
+   ]
+  }
+ ],
+ "verification": "Every field checked against held data only: hidden_files/data_registry/converted/ (Showdown learnsets/pokedex/moves/items, PKHeX SV/BDSP/SwSh personal tables, PKHeX learnsets and evolutions) at the newest generation held per species, matching the convention used by campaign/starters.json. See DISCREPANCIES.md for every correction and flag."
+}
