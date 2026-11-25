@@ -1,0 +1,284 @@
+{
+ "region": "johto",
+ "style_law": "ONE graphics style through the entire game (Riley, 2026-11-23 16:30 CST): no region ships in its source generation's native look. Converted maps are data/layout deliverables; presentation restyles via this map at bind time.",
+ "quality_floor": "peak BW2 / best pre-full-3D presentation (PRESENTATION_STANDARD.md)",
+ "presentation_status_for_all_maps": "layout converted - presentation restyles via STYLE_MAP at bind time",
+ "families": {
+  "johto_outdoor": {
+   "bw2_replacement": "BW2 town/route families: michi01/michi02 roads, grass01 grass, ki02/ki03 trees, hana01 flowers, kaidan01 stairs, town wall sets; building models from BW2 overworld grid chunks. Per-map-group roof graphics restyle from the same town wall/roof families (source roofs are dynamic loads, see conversion report)",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "johto_modern_outdoor": {
+   "bw2_replacement": "BW2 modern city families (c3/c8 city sets, michi01/michi02 roads) + city building chunks",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "kanto_gen2_outdoor": {
+   "bw2_replacement": "BW2 town/route families (same register as johto_outdoor)",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "forest": {
+   "bw2_replacement": "BW2 forest families (Pinwheel Forest texture sets + forest chunks)",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "park": {
+   "bw2_replacement": "BW2 park/garden families (Lostlorn Forest clearings, Castelia garden sets)",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "cave": {
+   "bw2_replacement": "BW2 cave/dungeon texture sets (d0/d6/d7/d29 families) + m_dun* dungeon chunks",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "ice_cave": {
+   "bw2_replacement": "BW2 ice-area families: Twist Mountain / Giant Chasm chunks and ice texture subsets of the dungeon sets (bind-time pick of the ice subset)",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "underground": {
+   "bw2_replacement": "BW2 ruins/cave sets (Relic Castle lower floors + d* families)",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "ruins": {
+   "bw2_replacement": "BW2 Relic Castle ruins families (masonry, floors, pillars)",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "unown_glyphs": {
+   "bw2_replacement": "Ruins masonry from the ruins family (meets floor); the glyph art itself has no BW2 source",
+   "floor": "below_floor",
+   "floor_note": "The Unown glyph wall art is unique to these rooms and exists nowhere in BW2. Needed: the glyph set redrawn at BW2 resolution (upscale/restyle from the source glyphs, which the conversion preserves as layout data). Flagged rather than mapped to a weak stand-in."
+  },
+  "tower": {
+   "bw2_replacement": "BW2 tower interior families (Dragonspiral Tower / Celestial Tower chunks + in* sets)",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "lighthouse": {
+   "bw2_replacement": "BW2 tower interior families (same register as tower; BW2 has no lighthouse set of its own)",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "radio_tower": {
+   "bw2_replacement": "BW2 Pokestar Studios / broadcast interior sets (in* families) + studio chunks",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "battle_facility": {
+   "bw2_replacement": "BW2 PWT and Battle Subway interior chunks (m_* family) + in* sets",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "league": {
+   "bw2_replacement": "BW2 Pokemon League interior chunks + in* sets; pack 'plateau' tileset as 2D register",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "pokecenter": {
+   "bw2_replacement": "BW2 Pokemon Center interior sets (in* families); pack 'pokecenter' tileset as 2D register",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "mart": {
+   "bw2_replacement": "BW2 mart interior sets (in* families); pack 'mart' tileset as 2D register",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "house": {
+   "bw2_replacement": "BW2 house interior sets (in* families); pack 'house' tileset as 2D register",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "lab": {
+   "bw2_replacement": "BW2 lab interior sets (in* families); pack 'lab' tileset as 2D register. Map note: DragonShrine uses this source tileset but is a shrine -- its restyle takes the tower/ruins masonry register plus Dragonspiral Tower dragon-statue models",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "facility": {
+   "bw2_replacement": "BW2 facility interior sets (in* families)",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "mansion": {
+   "bw2_replacement": "BW2 mansion interior sets (in* families); pack 'mansion' tileset as 2D register",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "game_corner": {
+   "bw2_replacement": "Room shell: BW2 lobby/Join Avenue interior sets (in* families)",
+   "floor": "below_floor",
+   "floor_note": "The room shell meets the floor, but the family's identity is its slot machines and arcade props, for which BW2 has no source (BW2 has no Game Corner). Needed: original slot-machine/arcade prop models built at BW2 standard. Flagged rather than mapped to a weak stand-in."
+  },
+  "gate": {
+   "bw2_replacement": "BW2 gate interior sets (in* families); pack 'gate' tileset as 2D register",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "port": {
+   "bw2_replacement": "BW2 harbor / Marine Tube interior families + dock chunks",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "train_station": {
+   "bw2_replacement": "BW2 station interior chunks (m_gstation* family) + in* sets",
+   "floor": "meets_floor",
+   "floor_note": ""
+  },
+  "pokecom_center": {
+   "bw2_replacement": "BW2 tech/facility interior sets (in* families)",
+   "floor": "meets_floor",
+   "floor_note": ""
+  }
+ },
+ "tilesets": {
+  "aerodactyl_word_room": {
+   "family": "unown_glyphs",
+   "floor": "below_floor"
+  },
+  "battle_tower_inside": {
+   "family": "battle_facility",
+   "floor": "meets_floor"
+  },
+  "battle_tower_outside": {
+   "family": "johto_modern_outdoor",
+   "floor": "meets_floor"
+  },
+  "beta_word_room": {
+   "family": "unown_glyphs",
+   "floor": "below_floor"
+  },
+  "cave": {
+   "family": "cave",
+   "floor": "meets_floor"
+  },
+  "champions_room": {
+   "family": "league",
+   "floor": "meets_floor"
+  },
+  "dark_cave": {
+   "family": "cave",
+   "floor": "meets_floor"
+  },
+  "elite_four_room": {
+   "family": "league",
+   "floor": "meets_floor"
+  },
+  "facility": {
+   "family": "facility",
+   "floor": "meets_floor"
+  },
+  "forest": {
+   "family": "forest",
+   "floor": "meets_floor"
+  },
+  "game_corner": {
+   "family": "game_corner",
+   "floor": "below_floor"
+  },
+  "gate": {
+   "family": "gate",
+   "floor": "meets_floor"
+  },
+  "ho_oh_word_room": {
+   "family": "unown_glyphs",
+   "floor": "below_floor"
+  },
+  "house": {
+   "family": "house",
+   "floor": "meets_floor"
+  },
+  "ice_path": {
+   "family": "ice_cave",
+   "floor": "meets_floor"
+  },
+  "johto": {
+   "family": "johto_outdoor",
+   "floor": "meets_floor"
+  },
+  "johto_modern": {
+   "family": "johto_modern_outdoor",
+   "floor": "meets_floor"
+  },
+  "kabuto_word_room": {
+   "family": "unown_glyphs",
+   "floor": "below_floor"
+  },
+  "kanto": {
+   "family": "kanto_gen2_outdoor",
+   "floor": "meets_floor"
+  },
+  "lab": {
+   "family": "lab",
+   "floor": "meets_floor"
+  },
+  "lighthouse": {
+   "family": "lighthouse",
+   "floor": "meets_floor"
+  },
+  "mansion": {
+   "family": "mansion",
+   "floor": "meets_floor"
+  },
+  "mart": {
+   "family": "mart",
+   "floor": "meets_floor"
+  },
+  "omanyte_word_room": {
+   "family": "unown_glyphs",
+   "floor": "below_floor"
+  },
+  "park": {
+   "family": "park",
+   "floor": "meets_floor"
+  },
+  "players_house": {
+   "family": "house",
+   "floor": "meets_floor"
+  },
+  "players_room": {
+   "family": "house",
+   "floor": "meets_floor"
+  },
+  "pokecenter": {
+   "family": "pokecenter",
+   "floor": "meets_floor"
+  },
+  "pokecom_center": {
+   "family": "pokecom_center",
+   "floor": "meets_floor"
+  },
+  "port": {
+   "family": "port",
+   "floor": "meets_floor"
+  },
+  "radio_tower": {
+   "family": "radio_tower",
+   "floor": "meets_floor"
+  },
+  "ruins_of_alph": {
+   "family": "ruins",
+   "floor": "meets_floor"
+  },
+  "tower": {
+   "family": "tower",
+   "floor": "meets_floor"
+  },
+  "traditional_house": {
+   "family": "house",
+   "floor": "meets_floor"
+  },
+  "train_station": {
+   "family": "train_station",
+   "floor": "meets_floor"
+  },
+  "underground": {
+   "family": "underground",
+   "floor": "meets_floor"
+  }
+ }
+}

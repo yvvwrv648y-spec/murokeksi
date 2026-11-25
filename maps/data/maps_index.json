@@ -1,0 +1,5811 @@
+[
+ {
+  "name": "AgathasRoom",
+  "id_const": "AGATHAS_ROOM",
+  "tileset": "cemetery",
+  "width_tiles": 20,
+  "height_tiles": 24,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "BikeShop",
+  "id_const": "BIKE_SHOP",
+  "tileset": "club",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "BillsHouse",
+  "id_const": "BILLS_HOUSE",
+  "tileset": "interior",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "BluesHouse",
+  "id_const": "BLUES_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "BrunosRoom",
+  "id_const": "BRUNOS_ROOM",
+  "tileset": "gym",
+  "width_tiles": 20,
+  "height_tiles": 24,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "CeladonChiefHouse",
+  "id_const": "CELADON_CHIEF_HOUSE",
+  "tileset": "mansion",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "CeladonCity",
+  "id_const": "CELADON_CITY",
+  "tileset": "overworld",
+  "width_tiles": 100,
+  "height_tiles": 72,
+  "warps": 13,
+  "objects": 9
+ },
+ {
+  "name": "CeladonDiner",
+  "id_const": "CELADON_DINER",
+  "tileset": "lobby",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 5
+ },
+ {
+  "name": "CeladonGym",
+  "id_const": "CELADON_GYM",
+  "tileset": "gym",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 8
+ },
+ {
+  "name": "CeladonHotel",
+  "id_const": "CELADON_HOTEL",
+  "tileset": "pokecenter",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "CeladonMansion1F",
+  "id_const": "CELADON_MANSION_1F",
+  "tileset": "mansion",
+  "width_tiles": 16,
+  "height_tiles": 24,
+  "warps": 5,
+  "objects": 4
+ },
+ {
+  "name": "CeladonMansion2F",
+  "id_const": "CELADON_MANSION_2F",
+  "tileset": "mansion",
+  "width_tiles": 16,
+  "height_tiles": 24,
+  "warps": 4,
+  "objects": 0
+ },
+ {
+  "name": "CeladonMansion3F",
+  "id_const": "CELADON_MANSION_3F",
+  "tileset": "mansion",
+  "width_tiles": 16,
+  "height_tiles": 24,
+  "warps": 4,
+  "objects": 4
+ },
+ {
+  "name": "CeladonMansionRoof",
+  "id_const": "CELADON_MANSION_ROOF",
+  "tileset": "mansion",
+  "width_tiles": 16,
+  "height_tiles": 24,
+  "warps": 3,
+  "objects": 0
+ },
+ {
+  "name": "CeladonMansionRoofHouse",
+  "id_const": "CELADON_MANSION_ROOF_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "CeladonMart1F",
+  "id_const": "CELADON_MART_1F",
+  "tileset": "lobby",
+  "width_tiles": 40,
+  "height_tiles": 16,
+  "warps": 6,
+  "objects": 1
+ },
+ {
+  "name": "CeladonMart2F",
+  "id_const": "CELADON_MART_2F",
+  "tileset": "lobby",
+  "width_tiles": 40,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "CeladonMart3F",
+  "id_const": "CELADON_MART_3F",
+  "tileset": "lobby",
+  "width_tiles": 40,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "CeladonMart4F",
+  "id_const": "CELADON_MART_4F",
+  "tileset": "lobby",
+  "width_tiles": 40,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 3
+ },
+ {
+  "name": "CeladonMart5F",
+  "id_const": "CELADON_MART_5F",
+  "tileset": "lobby",
+  "width_tiles": 40,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "CeladonMartElevator",
+  "id_const": "CELADON_MART_ELEVATOR",
+  "tileset": "lobby",
+  "width_tiles": 8,
+  "height_tiles": 8,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "CeladonMartRoof",
+  "id_const": "CELADON_MART_ROOF",
+  "tileset": "lobby",
+  "width_tiles": 40,
+  "height_tiles": 16,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "CeladonPokecenter",
+  "id_const": "CELADON_POKECENTER",
+  "tileset": "pokecenter",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "CeruleanBadgeHouse",
+  "id_const": "CERULEAN_BADGE_HOUSE",
+  "tileset": "ship",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 1
+ },
+ {
+  "name": "CeruleanCave1F",
+  "id_const": "CERULEAN_CAVE_1F",
+  "tileset": "cavern",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 9,
+  "objects": 3
+ },
+ {
+  "name": "CeruleanCave2F",
+  "id_const": "CERULEAN_CAVE_2F",
+  "tileset": "cavern",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 6,
+  "objects": 3
+ },
+ {
+  "name": "CeruleanCaveB1F",
+  "id_const": "CERULEAN_CAVE_B1F",
+  "tileset": "cavern",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 1,
+  "objects": 3
+ },
+ {
+  "name": "CeruleanCity",
+  "id_const": "CERULEAN_CITY",
+  "tileset": "overworld",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 10,
+  "objects": 11
+ },
+ {
+  "name": "CeruleanGym",
+  "id_const": "CERULEAN_GYM",
+  "tileset": "gym",
+  "width_tiles": 20,
+  "height_tiles": 28,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "CeruleanMart",
+  "id_const": "CERULEAN_MART",
+  "tileset": "mart",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "CeruleanPokecenter",
+  "id_const": "CERULEAN_POKECENTER",
+  "tileset": "pokecenter",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "CeruleanTradeHouse",
+  "id_const": "CERULEAN_TRADE_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "CeruleanTrashedHouse",
+  "id_const": "CERULEAN_TRASHED_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 2
+ },
+ {
+  "name": "ChampionsRoom",
+  "id_const": "CHAMPIONS_ROOM",
+  "tileset": "gym",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "CinnabarGym",
+  "id_const": "CINNABAR_GYM",
+  "tileset": "facility",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 9
+ },
+ {
+  "name": "CinnabarIsland",
+  "id_const": "CINNABAR_ISLAND",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 2
+ },
+ {
+  "name": "CinnabarLab",
+  "id_const": "CINNABAR_LAB",
+  "tileset": "lab",
+  "width_tiles": 36,
+  "height_tiles": 16,
+  "warps": 5,
+  "objects": 1
+ },
+ {
+  "name": "CinnabarLabFossilRoom",
+  "id_const": "CINNABAR_LAB_FOSSIL_ROOM",
+  "tileset": "lab",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "CinnabarLabMetronomeRoom",
+  "id_const": "CINNABAR_LAB_METRONOME_ROOM",
+  "tileset": "lab",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "CinnabarLabTradeRoom",
+  "id_const": "CINNABAR_LAB_TRADE_ROOM",
+  "tileset": "lab",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "CinnabarMart",
+  "id_const": "CINNABAR_MART",
+  "tileset": "mart",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "CinnabarPokecenter",
+  "id_const": "CINNABAR_POKECENTER",
+  "tileset": "pokecenter",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "Colosseum",
+  "id_const": "COLOSSEUM",
+  "tileset": "club",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "CopycatsHouse1F",
+  "id_const": "COPYCATS_HOUSE_1F",
+  "tileset": "redshouse1",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 3
+ },
+ {
+  "name": "CopycatsHouse2F",
+  "id_const": "COPYCATS_HOUSE_2F",
+  "tileset": "redshouse2",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 1,
+  "objects": 5
+ },
+ {
+  "name": "Daycare",
+  "id_const": "DAYCARE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "DiglettsCave",
+  "id_const": "DIGLETTS_CAVE",
+  "tileset": "cavern",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "DiglettsCaveRoute11",
+  "id_const": "DIGLETTS_CAVE_ROUTE_11",
+  "tileset": "cavern",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 1
+ },
+ {
+  "name": "DiglettsCaveRoute2",
+  "id_const": "DIGLETTS_CAVE_ROUTE_2",
+  "tileset": "cavern",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 1
+ },
+ {
+  "name": "FightingDojo",
+  "id_const": "FIGHTING_DOJO",
+  "tileset": "dojo",
+  "width_tiles": 20,
+  "height_tiles": 24,
+  "warps": 2,
+  "objects": 7
+ },
+ {
+  "name": "FuchsiaBillsGrandpasHouse",
+  "id_const": "FUCHSIA_BILLS_GRANDPAS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "FuchsiaCity",
+  "id_const": "FUCHSIA_CITY",
+  "tileset": "overworld",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 9,
+  "objects": 10
+ },
+ {
+  "name": "FuchsiaGoodRodHouse",
+  "id_const": "FUCHSIA_GOOD_ROD_HOUSE",
+  "tileset": "ship",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 1
+ },
+ {
+  "name": "FuchsiaGym",
+  "id_const": "FUCHSIA_GYM",
+  "tileset": "gym",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 8
+ },
+ {
+  "name": "FuchsiaMart",
+  "id_const": "FUCHSIA_MART",
+  "tileset": "mart",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "FuchsiaMeetingRoom",
+  "id_const": "FUCHSIA_MEETING_ROOM",
+  "tileset": "lab",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "FuchsiaPokecenter",
+  "id_const": "FUCHSIA_POKECENTER",
+  "tileset": "pokecenter",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "GameCorner",
+  "id_const": "GAME_CORNER",
+  "tileset": "lobby",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 11
+ },
+ {
+  "name": "GameCornerPrizeRoom",
+  "id_const": "GAME_CORNER_PRIZE_ROOM",
+  "tileset": "lobby",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "HallOfFame",
+  "id_const": "HALL_OF_FAME",
+  "tileset": "gym",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "IndigoPlateau",
+  "id_const": "INDIGO_PLATEAU",
+  "tileset": "plateau",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "IndigoPlateauLobby",
+  "id_const": "INDIGO_PLATEAU_LOBBY",
+  "tileset": "mart",
+  "width_tiles": 32,
+  "height_tiles": 24,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "LancesRoom",
+  "id_const": "LANCES_ROOM",
+  "tileset": "dojo",
+  "width_tiles": 52,
+  "height_tiles": 52,
+  "warps": 3,
+  "objects": 1
+ },
+ {
+  "name": "LavenderCuboneHouse",
+  "id_const": "LAVENDER_CUBONE_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "LavenderMart",
+  "id_const": "LAVENDER_MART",
+  "tileset": "mart",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "LavenderPokecenter",
+  "id_const": "LAVENDER_POKECENTER",
+  "tileset": "pokecenter",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "LavenderTown",
+  "id_const": "LAVENDER_TOWN",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 6,
+  "objects": 3
+ },
+ {
+  "name": "LoreleisRoom",
+  "id_const": "LORELEIS_ROOM",
+  "tileset": "gym",
+  "width_tiles": 20,
+  "height_tiles": 24,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "MrFujisHouse",
+  "id_const": "MR_FUJIS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 6
+ },
+ {
+  "name": "MrPsychicsHouse",
+  "id_const": "MR_PSYCHICS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "MtMoon1F",
+  "id_const": "MT_MOON_1F",
+  "tileset": "cavern",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 5,
+  "objects": 13
+ },
+ {
+  "name": "MtMoonB1F",
+  "id_const": "MT_MOON_B1F",
+  "tileset": "cavern",
+  "width_tiles": 56,
+  "height_tiles": 56,
+  "warps": 8,
+  "objects": 0
+ },
+ {
+  "name": "MtMoonB2F",
+  "id_const": "MT_MOON_B2F",
+  "tileset": "cavern",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 4,
+  "objects": 9
+ },
+ {
+  "name": "MtMoonPokecenter",
+  "id_const": "MT_MOON_POKECENTER",
+  "tileset": "pokecenter",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 6
+ },
+ {
+  "name": "Museum1F",
+  "id_const": "MUSEUM_1F",
+  "tileset": "museum",
+  "width_tiles": 40,
+  "height_tiles": 16,
+  "warps": 5,
+  "objects": 5
+ },
+ {
+  "name": "Museum2F",
+  "id_const": "MUSEUM_2F",
+  "tileset": "museum",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 1,
+  "objects": 5
+ },
+ {
+  "name": "NameRatersHouse",
+  "id_const": "NAME_RATERS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "OaksLab",
+  "id_const": "OAKS_LAB",
+  "tileset": "dojo",
+  "width_tiles": 20,
+  "height_tiles": 24,
+  "warps": 2,
+  "objects": 11
+ },
+ {
+  "name": "PalletTown",
+  "id_const": "PALLET_TOWN",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 3
+ },
+ {
+  "name": "PewterCity",
+  "id_const": "PEWTER_CITY",
+  "tileset": "overworld",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 7,
+  "objects": 5
+ },
+ {
+  "name": "PewterGym",
+  "id_const": "PEWTER_GYM",
+  "tileset": "gym",
+  "width_tiles": 20,
+  "height_tiles": 28,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "PewterMart",
+  "id_const": "PEWTER_MART",
+  "tileset": "mart",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "PewterNidoranHouse",
+  "id_const": "PEWTER_NIDORAN_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "PewterPokecenter",
+  "id_const": "PEWTER_POKECENTER",
+  "tileset": "pokecenter",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "PewterSpeechHouse",
+  "id_const": "PEWTER_SPEECH_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "PokemonFanClub",
+  "id_const": "POKEMON_FAN_CLUB",
+  "tileset": "interior",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 6
+ },
+ {
+  "name": "PokemonMansion1F",
+  "id_const": "POKEMON_MANSION_1F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 56,
+  "warps": 8,
+  "objects": 3
+ },
+ {
+  "name": "PokemonMansion2F",
+  "id_const": "POKEMON_MANSION_2F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 56,
+  "warps": 4,
+  "objects": 4
+ },
+ {
+  "name": "PokemonMansion3F",
+  "id_const": "POKEMON_MANSION_3F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "PokemonMansionB1F",
+  "id_const": "POKEMON_MANSION_B1F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 56,
+  "warps": 1,
+  "objects": 8
+ },
+ {
+  "name": "PokemonTower1F",
+  "id_const": "POKEMON_TOWER_1F",
+  "tileset": "cemetery",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "PokemonTower2F",
+  "id_const": "POKEMON_TOWER_2F",
+  "tileset": "cemetery",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "PokemonTower3F",
+  "id_const": "POKEMON_TOWER_3F",
+  "tileset": "cemetery",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "PokemonTower4F",
+  "id_const": "POKEMON_TOWER_4F",
+  "tileset": "cemetery",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 6
+ },
+ {
+  "name": "PokemonTower5F",
+  "id_const": "POKEMON_TOWER_5F",
+  "tileset": "cemetery",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 6
+ },
+ {
+  "name": "PokemonTower6F",
+  "id_const": "POKEMON_TOWER_6F",
+  "tileset": "cemetery",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 5
+ },
+ {
+  "name": "PokemonTower7F",
+  "id_const": "POKEMON_TOWER_7F",
+  "tileset": "cemetery",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 1,
+  "objects": 4
+ },
+ {
+  "name": "PowerPlant",
+  "id_const": "POWER_PLANT",
+  "tileset": "facility",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 3,
+  "objects": 14
+ },
+ {
+  "name": "RedsHouse1F",
+  "id_const": "REDS_HOUSE_1F",
+  "tileset": "redshouse1",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 1
+ },
+ {
+  "name": "RedsHouse2F",
+  "id_const": "REDS_HOUSE_2F",
+  "tileset": "redshouse2",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 1,
+  "objects": 0
+ },
+ {
+  "name": "RockTunnel1F",
+  "id_const": "ROCK_TUNNEL_1F",
+  "tileset": "cavern",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 8,
+  "objects": 7
+ },
+ {
+  "name": "RockTunnelB1F",
+  "id_const": "ROCK_TUNNEL_B1F",
+  "tileset": "cavern",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 4,
+  "objects": 8
+ },
+ {
+  "name": "RockTunnelPokecenter",
+  "id_const": "ROCK_TUNNEL_POKECENTER",
+  "tileset": "pokecenter",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "RocketHideoutB1F",
+  "id_const": "ROCKET_HIDEOUT_B1F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 56,
+  "warps": 5,
+  "objects": 7
+ },
+ {
+  "name": "RocketHideoutB2F",
+  "id_const": "ROCKET_HIDEOUT_B2F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 56,
+  "warps": 5,
+  "objects": 5
+ },
+ {
+  "name": "RocketHideoutB3F",
+  "id_const": "ROCKET_HIDEOUT_B3F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 56,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "RocketHideoutB4F",
+  "id_const": "ROCKET_HIDEOUT_B4F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 48,
+  "warps": 3,
+  "objects": 9
+ },
+ {
+  "name": "RocketHideoutElevator",
+  "id_const": "ROCKET_HIDEOUT_ELEVATOR",
+  "tileset": "lobby",
+  "width_tiles": 12,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "Route1",
+  "id_const": "ROUTE_1",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 0,
+  "objects": 2
+ },
+ {
+  "name": "Route10",
+  "id_const": "ROUTE_10",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 144,
+  "warps": 4,
+  "objects": 6
+ },
+ {
+  "name": "Route11",
+  "id_const": "ROUTE_11",
+  "tileset": "overworld",
+  "width_tiles": 120,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 10
+ },
+ {
+  "name": "Route11Gate1F",
+  "id_const": "ROUTE_11_GATE_1F",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 20,
+  "warps": 5,
+  "objects": 1
+ },
+ {
+  "name": "Route11Gate2F",
+  "id_const": "ROUTE_11_GATE_2F",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "Route12",
+  "id_const": "ROUTE_12",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 216,
+  "warps": 4,
+  "objects": 10
+ },
+ {
+  "name": "Route12Gate1F",
+  "id_const": "ROUTE_12_GATE_1F",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 5,
+  "objects": 1
+ },
+ {
+  "name": "Route12Gate2F",
+  "id_const": "ROUTE_12_GATE_2F",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "Route12SuperRodHouse",
+  "id_const": "ROUTE_12_SUPER_ROD_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "Route13",
+  "id_const": "ROUTE_13",
+  "tileset": "overworld",
+  "width_tiles": 120,
+  "height_tiles": 36,
+  "warps": 0,
+  "objects": 10
+ },
+ {
+  "name": "Route14",
+  "id_const": "ROUTE_14",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 108,
+  "warps": 0,
+  "objects": 10
+ },
+ {
+  "name": "Route15",
+  "id_const": "ROUTE_15",
+  "tileset": "overworld",
+  "width_tiles": 120,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 11
+ },
+ {
+  "name": "Route15Gate1F",
+  "id_const": "ROUTE_15_GATE_1F",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 20,
+  "warps": 5,
+  "objects": 1
+ },
+ {
+  "name": "Route15Gate2F",
+  "id_const": "ROUTE_15_GATE_2F",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "Route16",
+  "id_const": "ROUTE_16",
+  "tileset": "overworld",
+  "width_tiles": 80,
+  "height_tiles": 36,
+  "warps": 9,
+  "objects": 7
+ },
+ {
+  "name": "Route16FlyHouse",
+  "id_const": "ROUTE_16_FLY_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "Route16Gate1F",
+  "id_const": "ROUTE_16_GATE_1F",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 28,
+  "warps": 9,
+  "objects": 2
+ },
+ {
+  "name": "Route16Gate2F",
+  "id_const": "ROUTE_16_GATE_2F",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "Route17",
+  "id_const": "ROUTE_17",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 288,
+  "warps": 0,
+  "objects": 10
+ },
+ {
+  "name": "Route18",
+  "id_const": "ROUTE_18",
+  "tileset": "overworld",
+  "width_tiles": 100,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "Route18Gate1F",
+  "id_const": "ROUTE_18_GATE_1F",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 20,
+  "warps": 5,
+  "objects": 1
+ },
+ {
+  "name": "Route18Gate2F",
+  "id_const": "ROUTE_18_GATE_2F",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "Route19",
+  "id_const": "ROUTE_19",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 108,
+  "warps": 0,
+  "objects": 10
+ },
+ {
+  "name": "Route2",
+  "id_const": "ROUTE_2",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 144,
+  "warps": 6,
+  "objects": 2
+ },
+ {
+  "name": "Route20",
+  "id_const": "ROUTE_20",
+  "tileset": "overworld",
+  "width_tiles": 200,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 10
+ },
+ {
+  "name": "Route21",
+  "id_const": "ROUTE_21",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 180,
+  "warps": 0,
+  "objects": 9
+ },
+ {
+  "name": "Route22",
+  "id_const": "ROUTE_22",
+  "tileset": "overworld",
+  "width_tiles": 80,
+  "height_tiles": 36,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "Route22Gate",
+  "id_const": "ROUTE_22_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "Route23",
+  "id_const": "ROUTE_23",
+  "tileset": "plateau",
+  "width_tiles": 40,
+  "height_tiles": 288,
+  "warps": 4,
+  "objects": 7
+ },
+ {
+  "name": "Route24",
+  "id_const": "ROUTE_24",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 0,
+  "objects": 8
+ },
+ {
+  "name": "Route25",
+  "id_const": "ROUTE_25",
+  "tileset": "overworld",
+  "width_tiles": 120,
+  "height_tiles": 36,
+  "warps": 1,
+  "objects": 10
+ },
+ {
+  "name": "Route2Gate",
+  "id_const": "ROUTE_2_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "Route2TradeHouse",
+  "id_const": "ROUTE_2_TRADE_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "Route3",
+  "id_const": "ROUTE_3",
+  "tileset": "overworld",
+  "width_tiles": 140,
+  "height_tiles": 36,
+  "warps": 0,
+  "objects": 9
+ },
+ {
+  "name": "Route4",
+  "id_const": "ROUTE_4",
+  "tileset": "overworld",
+  "width_tiles": 180,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 3
+ },
+ {
+  "name": "Route5",
+  "id_const": "ROUTE_5",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 5,
+  "objects": 0
+ },
+ {
+  "name": "Route5Gate",
+  "id_const": "ROUTE_5_GATE",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 12,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "Route6",
+  "id_const": "ROUTE_6",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 4,
+  "objects": 6
+ },
+ {
+  "name": "Route6Gate",
+  "id_const": "ROUTE_6_GATE",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 12,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "Route7",
+  "id_const": "ROUTE_7",
+  "tileset": "overworld",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 0
+ },
+ {
+  "name": "Route7Gate",
+  "id_const": "ROUTE_7_GATE",
+  "tileset": "gate",
+  "width_tiles": 12,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "Route8",
+  "id_const": "ROUTE_8",
+  "tileset": "overworld",
+  "width_tiles": 120,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 9
+ },
+ {
+  "name": "Route8Gate",
+  "id_const": "ROUTE_8_GATE",
+  "tileset": "gate",
+  "width_tiles": 12,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "Route9",
+  "id_const": "ROUTE_9",
+  "tileset": "overworld",
+  "width_tiles": 120,
+  "height_tiles": 36,
+  "warps": 0,
+  "objects": 10
+ },
+ {
+  "name": "SSAnne1F",
+  "id_const": "SS_ANNE_1F",
+  "tileset": "ship",
+  "width_tiles": 80,
+  "height_tiles": 36,
+  "warps": 11,
+  "objects": 2
+ },
+ {
+  "name": "SSAnne1FRooms",
+  "id_const": "SS_ANNE_1F_ROOMS",
+  "tileset": "ship",
+  "width_tiles": 48,
+  "height_tiles": 32,
+  "warps": 6,
+  "objects": 11
+ },
+ {
+  "name": "SSAnne2F",
+  "id_const": "SS_ANNE_2F",
+  "tileset": "ship",
+  "width_tiles": 80,
+  "height_tiles": 36,
+  "warps": 9,
+  "objects": 2
+ },
+ {
+  "name": "SSAnne2FRooms",
+  "id_const": "SS_ANNE_2F_ROOMS",
+  "tileset": "ship",
+  "width_tiles": 48,
+  "height_tiles": 32,
+  "warps": 12,
+  "objects": 13
+ },
+ {
+  "name": "SSAnne3F",
+  "id_const": "SS_ANNE_3F",
+  "tileset": "ship",
+  "width_tiles": 40,
+  "height_tiles": 12,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "SSAnneB1F",
+  "id_const": "SS_ANNE_B1F",
+  "tileset": "ship",
+  "width_tiles": 60,
+  "height_tiles": 16,
+  "warps": 6,
+  "objects": 0
+ },
+ {
+  "name": "SSAnneB1FRooms",
+  "id_const": "SS_ANNE_B1F_ROOMS",
+  "tileset": "ship",
+  "width_tiles": 48,
+  "height_tiles": 32,
+  "warps": 10,
+  "objects": 11
+ },
+ {
+  "name": "SSAnneBow",
+  "id_const": "SS_ANNE_BOW",
+  "tileset": "ship",
+  "width_tiles": 40,
+  "height_tiles": 28,
+  "warps": 2,
+  "objects": 5
+ },
+ {
+  "name": "SSAnneCaptainsRoom",
+  "id_const": "SS_ANNE_CAPTAINS_ROOM",
+  "tileset": "ship",
+  "width_tiles": 12,
+  "height_tiles": 16,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "SSAnneKitchen",
+  "id_const": "SS_ANNE_KITCHEN",
+  "tileset": "ship",
+  "width_tiles": 28,
+  "height_tiles": 32,
+  "warps": 1,
+  "objects": 7
+ },
+ {
+  "name": "SafariZoneCenter",
+  "id_const": "SAFARI_ZONE_CENTER",
+  "tileset": "forest",
+  "width_tiles": 60,
+  "height_tiles": 52,
+  "warps": 9,
+  "objects": 1
+ },
+ {
+  "name": "SafariZoneCenterRestHouse",
+  "id_const": "SAFARI_ZONE_CENTER_REST_HOUSE",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "SafariZoneEast",
+  "id_const": "SAFARI_ZONE_EAST",
+  "tileset": "forest",
+  "width_tiles": 60,
+  "height_tiles": 52,
+  "warps": 5,
+  "objects": 4
+ },
+ {
+  "name": "SafariZoneEastRestHouse",
+  "id_const": "SAFARI_ZONE_EAST_REST_HOUSE",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "SafariZoneGate",
+  "id_const": "SAFARI_ZONE_GATE",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 12,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "SafariZoneNorth",
+  "id_const": "SAFARI_ZONE_NORTH",
+  "tileset": "forest",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 9,
+  "objects": 2
+ },
+ {
+  "name": "SafariZoneNorthRestHouse",
+  "id_const": "SAFARI_ZONE_NORTH_REST_HOUSE",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "SafariZoneSecretHouse",
+  "id_const": "SAFARI_ZONE_SECRET_HOUSE",
+  "tileset": "lab",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "SafariZoneWest",
+  "id_const": "SAFARI_ZONE_WEST",
+  "tileset": "forest",
+  "width_tiles": 60,
+  "height_tiles": 52,
+  "warps": 8,
+  "objects": 4
+ },
+ {
+  "name": "SafariZoneWestRestHouse",
+  "id_const": "SAFARI_ZONE_WEST_REST_HOUSE",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "SaffronCity",
+  "id_const": "SAFFRON_CITY",
+  "tileset": "overworld",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 8,
+  "objects": 15
+ },
+ {
+  "name": "SaffronGym",
+  "id_const": "SAFFRON_GYM",
+  "tileset": "facility",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 32,
+  "objects": 9
+ },
+ {
+  "name": "SaffronMart",
+  "id_const": "SAFFRON_MART",
+  "tileset": "mart",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "SaffronPidgeyHouse",
+  "id_const": "SAFFRON_PIDGEY_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "SaffronPokecenter",
+  "id_const": "SAFFRON_POKECENTER",
+  "tileset": "pokecenter",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "SeafoamIslands1F",
+  "id_const": "SEAFOAM_ISLANDS_1F",
+  "tileset": "cavern",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 7,
+  "objects": 2
+ },
+ {
+  "name": "SeafoamIslandsB1F",
+  "id_const": "SEAFOAM_ISLANDS_B1F",
+  "tileset": "cavern",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 7,
+  "objects": 2
+ },
+ {
+  "name": "SeafoamIslandsB2F",
+  "id_const": "SEAFOAM_ISLANDS_B2F",
+  "tileset": "cavern",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 7,
+  "objects": 2
+ },
+ {
+  "name": "SeafoamIslandsB3F",
+  "id_const": "SEAFOAM_ISLANDS_B3F",
+  "tileset": "cavern",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 7,
+  "objects": 6
+ },
+ {
+  "name": "SeafoamIslandsB4F",
+  "id_const": "SEAFOAM_ISLANDS_B4F",
+  "tileset": "cavern",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "SilphCo10F",
+  "id_const": "SILPH_CO_10F",
+  "tileset": "facility",
+  "width_tiles": 32,
+  "height_tiles": 36,
+  "warps": 6,
+  "objects": 6
+ },
+ {
+  "name": "SilphCo11F",
+  "id_const": "SILPH_CO_11F",
+  "tileset": "interior",
+  "width_tiles": 36,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 5
+ },
+ {
+  "name": "SilphCo1F",
+  "id_const": "SILPH_CO_1F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 1
+ },
+ {
+  "name": "SilphCo2F",
+  "id_const": "SILPH_CO_2F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 7,
+  "objects": 5
+ },
+ {
+  "name": "SilphCo3F",
+  "id_const": "SILPH_CO_3F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 10,
+  "objects": 4
+ },
+ {
+  "name": "SilphCo4F",
+  "id_const": "SILPH_CO_4F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 7,
+  "objects": 7
+ },
+ {
+  "name": "SilphCo5F",
+  "id_const": "SILPH_CO_5F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 7,
+  "objects": 11
+ },
+ {
+  "name": "SilphCo6F",
+  "id_const": "SILPH_CO_6F",
+  "tileset": "facility",
+  "width_tiles": 52,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 10
+ },
+ {
+  "name": "SilphCo7F",
+  "id_const": "SILPH_CO_7F",
+  "tileset": "facility",
+  "width_tiles": 52,
+  "height_tiles": 36,
+  "warps": 6,
+  "objects": 11
+ },
+ {
+  "name": "SilphCo8F",
+  "id_const": "SILPH_CO_8F",
+  "tileset": "facility",
+  "width_tiles": 52,
+  "height_tiles": 36,
+  "warps": 7,
+  "objects": 4
+ },
+ {
+  "name": "SilphCo9F",
+  "id_const": "SILPH_CO_9F",
+  "tileset": "facility",
+  "width_tiles": 52,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 4
+ },
+ {
+  "name": "SilphCoElevator",
+  "id_const": "SILPH_CO_ELEVATOR",
+  "tileset": "lobby",
+  "width_tiles": 8,
+  "height_tiles": 8,
+  "warps": 0,
+  "objects": 0
+ },
+ {
+  "name": "TradeCenter",
+  "id_const": "TRADE_CENTER",
+  "tileset": "club",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "UndergroundPathNorthSouth",
+  "id_const": "UNDERGROUND_PATH_NORTH_SOUTH",
+  "tileset": "underground",
+  "width_tiles": 16,
+  "height_tiles": 92,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "UndergroundPathRoute5",
+  "id_const": "UNDERGROUND_PATH_ROUTE_5",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 1
+ },
+ {
+  "name": "UndergroundPathRoute6",
+  "id_const": "UNDERGROUND_PATH_ROUTE_6",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 1
+ },
+ {
+  "name": "UndergroundPathRoute7",
+  "id_const": "UNDERGROUND_PATH_ROUTE_7",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 1
+ },
+ {
+  "name": "UndergroundPathRoute7Copy",
+  "id_const": "UNDERGROUND_PATH_ROUTE_7_COPY",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 2,
+  "unused": true
+ },
+ {
+  "name": "UndergroundPathRoute8",
+  "id_const": "UNDERGROUND_PATH_ROUTE_8",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 1
+ },
+ {
+  "name": "UndergroundPathWestEast",
+  "id_const": "UNDERGROUND_PATH_WEST_EAST",
+  "tileset": "underground",
+  "width_tiles": 100,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "VermilionCity",
+  "id_const": "VERMILION_CITY",
+  "tileset": "overworld",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 9,
+  "objects": 6
+ },
+ {
+  "name": "VermilionDock",
+  "id_const": "VERMILION_DOCK",
+  "tileset": "shipport",
+  "width_tiles": 56,
+  "height_tiles": 24,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "VermilionGym",
+  "id_const": "VERMILION_GYM",
+  "tileset": "gym",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 5
+ },
+ {
+  "name": "VermilionMart",
+  "id_const": "VERMILION_MART",
+  "tileset": "mart",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "VermilionOldRodHouse",
+  "id_const": "VERMILION_OLD_ROD_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "VermilionPidgeyHouse",
+  "id_const": "VERMILION_PIDGEY_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "VermilionPokecenter",
+  "id_const": "VERMILION_POKECENTER",
+  "tileset": "pokecenter",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "VermilionTradeHouse",
+  "id_const": "VERMILION_TRADE_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "VictoryRoad1F",
+  "id_const": "VICTORY_ROAD_1F",
+  "tileset": "cavern",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 7
+ },
+ {
+  "name": "VictoryRoad2F",
+  "id_const": "VICTORY_ROAD_2F",
+  "tileset": "cavern",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 7,
+  "objects": 13
+ },
+ {
+  "name": "VictoryRoad3F",
+  "id_const": "VICTORY_ROAD_3F",
+  "tileset": "cavern",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 10
+ },
+ {
+  "name": "ViridianCity",
+  "id_const": "VIRIDIAN_CITY",
+  "tileset": "overworld",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 5,
+  "objects": 7
+ },
+ {
+  "name": "ViridianForest",
+  "id_const": "VIRIDIAN_FOREST",
+  "tileset": "forest",
+  "width_tiles": 68,
+  "height_tiles": 96,
+  "warps": 6,
+  "objects": 8
+ },
+ {
+  "name": "ViridianForestNorthGate",
+  "id_const": "VIRIDIAN_FOREST_NORTH_GATE",
+  "tileset": "forestgate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "ViridianForestSouthGate",
+  "id_const": "VIRIDIAN_FOREST_SOUTH_GATE",
+  "tileset": "forestgate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "ViridianGym",
+  "id_const": "VIRIDIAN_GYM",
+  "tileset": "gym",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 11
+ },
+ {
+  "name": "ViridianMart",
+  "id_const": "VIRIDIAN_MART",
+  "tileset": "mart",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "ViridianNicknameHouse",
+  "id_const": "VIRIDIAN_NICKNAME_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "ViridianPokecenter",
+  "id_const": "VIRIDIAN_POKECENTER",
+  "tileset": "pokecenter",
+  "width_tiles": 28,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "ViridianSchoolHouse",
+  "id_const": "VIRIDIAN_SCHOOL_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "WardensHouse",
+  "id_const": "WARDENS_HOUSE",
+  "tileset": "lab",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "BirthIsland_Exterior",
+  "id_const": "MAP_BIRTH_ISLAND_EXTERIOR",
+  "tileset": "general__sevii_islands_67",
+  "width_tiles": 30,
+  "height_tiles": 30,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "BirthIsland_Harbor",
+  "id_const": "MAP_BIRTH_ISLAND_HARBOR",
+  "tileset": "general__island_harbor",
+  "width_tiles": 17,
+  "height_tiles": 13,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "FiveIsland",
+  "id_const": "MAP_FIVE_ISLAND",
+  "tileset": "general__sevii_islands_45",
+  "width_tiles": 24,
+  "height_tiles": 20,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "FiveIsland_Harbor",
+  "id_const": "MAP_FIVE_ISLAND_HARBOR",
+  "tileset": "general__island_harbor",
+  "width_tiles": 17,
+  "height_tiles": 13,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "FiveIsland_House1",
+  "id_const": "MAP_FIVE_ISLAND_HOUSE1",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "FiveIsland_House2",
+  "id_const": "MAP_FIVE_ISLAND_HOUSE2",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "FiveIsland_LostCave_Entrance",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ENTRANCE",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "FiveIsland_LostCave_Room1",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM1",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 5,
+  "objects": 1
+ },
+ {
+  "name": "FiveIsland_LostCave_Room10",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM10",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "FiveIsland_LostCave_Room11",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM11",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "FiveIsland_LostCave_Room12",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM12",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "FiveIsland_LostCave_Room13",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM13",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "FiveIsland_LostCave_Room14",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM14",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "FiveIsland_LostCave_Room2",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM2",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 4,
+  "objects": 0
+ },
+ {
+  "name": "FiveIsland_LostCave_Room3",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM3",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 4,
+  "objects": 0
+ },
+ {
+  "name": "FiveIsland_LostCave_Room4",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM4",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "FiveIsland_LostCave_Room5",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM5",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 4,
+  "objects": 0
+ },
+ {
+  "name": "FiveIsland_LostCave_Room6",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM6",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 4,
+  "objects": 0
+ },
+ {
+  "name": "FiveIsland_LostCave_Room7",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM7",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 4,
+  "objects": 0
+ },
+ {
+  "name": "FiveIsland_LostCave_Room8",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM8",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 4,
+  "objects": 0
+ },
+ {
+  "name": "FiveIsland_LostCave_Room9",
+  "id_const": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM9",
+  "tileset": "general__cave",
+  "width_tiles": 11,
+  "height_tiles": 11,
+  "warps": 4,
+  "objects": 0
+ },
+ {
+  "name": "FiveIsland_Meadow",
+  "id_const": "MAP_FIVE_ISLAND_MEADOW",
+  "tileset": "general__sevii_islands_45",
+  "width_tiles": 24,
+  "height_tiles": 40,
+  "warps": 1,
+  "objects": 7
+ },
+ {
+  "name": "FiveIsland_MemorialPillar",
+  "id_const": "MAP_FIVE_ISLAND_MEMORIAL_PILLAR",
+  "tileset": "general__sevii_islands_45",
+  "width_tiles": 24,
+  "height_tiles": 60,
+  "warps": 0,
+  "objects": 5
+ },
+ {
+  "name": "FiveIsland_PokemonCenter_1F",
+  "id_const": "MAP_FIVE_ISLAND_POKEMON_CENTER_1F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 2,
+  "objects": 5
+ },
+ {
+  "name": "FiveIsland_PokemonCenter_2F",
+  "id_const": "MAP_FIVE_ISLAND_POKEMON_CENTER_2F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "FiveIsland_ResortGorgeous",
+  "id_const": "MAP_FIVE_ISLAND_RESORT_GORGEOUS",
+  "tileset": "general__sevii_islands_45",
+  "width_tiles": 72,
+  "height_tiles": 20,
+  "warps": 2,
+  "objects": 8
+ },
+ {
+  "name": "FiveIsland_ResortGorgeous_House",
+  "id_const": "MAP_FIVE_ISLAND_RESORT_GORGEOUS_HOUSE",
+  "tileset": "building__museum",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "FiveIsland_RocketWarehouse",
+  "id_const": "MAP_FIVE_ISLAND_ROCKET_WAREHOUSE",
+  "tileset": "building__silph_co",
+  "width_tiles": 29,
+  "height_tiles": 27,
+  "warps": 1,
+  "objects": 10
+ },
+ {
+  "name": "FiveIsland_WaterLabyrinth",
+  "id_const": "MAP_FIVE_ISLAND_WATER_LABYRINTH",
+  "tileset": "general__sevii_islands_45",
+  "width_tiles": 72,
+  "height_tiles": 20,
+  "warps": 0,
+  "objects": 2
+ },
+ {
+  "name": "FourIsland",
+  "id_const": "MAP_FOUR_ISLAND",
+  "tileset": "general__sevii_islands_45",
+  "width_tiles": 48,
+  "height_tiles": 40,
+  "warps": 8,
+  "objects": 12
+ },
+ {
+  "name": "FourIsland_Harbor",
+  "id_const": "MAP_FOUR_ISLAND_HARBOR",
+  "tileset": "general__island_harbor",
+  "width_tiles": 17,
+  "height_tiles": 13,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "FourIsland_House1",
+  "id_const": "MAP_FOUR_ISLAND_HOUSE1",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "FourIsland_House2",
+  "id_const": "MAP_FOUR_ISLAND_HOUSE2",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "FourIsland_IcefallCave_1F",
+  "id_const": "MAP_FOUR_ISLAND_ICEFALL_CAVE_1F",
+  "tileset": "general__seafoam_islands",
+  "width_tiles": 20,
+  "height_tiles": 20,
+  "warps": 6,
+  "objects": 2
+ },
+ {
+  "name": "FourIsland_IcefallCave_B1F",
+  "id_const": "MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F",
+  "tileset": "general__seafoam_islands",
+  "width_tiles": 24,
+  "height_tiles": 20,
+  "warps": 3,
+  "objects": 2
+ },
+ {
+  "name": "FourIsland_IcefallCave_Back",
+  "id_const": "MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK",
+  "tileset": "general__seafoam_islands",
+  "width_tiles": 25,
+  "height_tiles": 26,
+  "warps": 1,
+  "objects": 4
+ },
+ {
+  "name": "FourIsland_IcefallCave_Entrance",
+  "id_const": "MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE",
+  "tileset": "general__seafoam_islands",
+  "width_tiles": 30,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 0
+ },
+ {
+  "name": "FourIsland_LoreleisHouse",
+  "id_const": "MAP_FOUR_ISLAND_LORELEIS_HOUSE",
+  "tileset": "building__safari_zone_building",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 15
+ },
+ {
+  "name": "FourIsland_Mart",
+  "id_const": "MAP_FOUR_ISLAND_MART",
+  "tileset": "building__mart",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 3
+ },
+ {
+  "name": "FourIsland_PokemonCenter_1F",
+  "id_const": "MAP_FOUR_ISLAND_POKEMON_CENTER_1F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "FourIsland_PokemonCenter_2F",
+  "id_const": "MAP_FOUR_ISLAND_POKEMON_CENTER_2F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "FourIsland_PokemonDayCare",
+  "id_const": "MAP_FOUR_ISLAND_POKEMON_DAY_CARE",
+  "tileset": "building__fan_club_daycare",
+  "width_tiles": 12,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "MtEmber_Exterior",
+  "id_const": "MAP_MT_EMBER_EXTERIOR",
+  "tileset": "general__sevii_islands_123",
+  "width_tiles": 57,
+  "height_tiles": 54,
+  "warps": 6,
+  "objects": 20
+ },
+ {
+  "name": "MtEmber_RubyPath_1F",
+  "id_const": "MAP_MT_EMBER_RUBY_PATH_1F",
+  "tileset": "general__mt_ember",
+  "width_tiles": 27,
+  "height_tiles": 19,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "MtEmber_RubyPath_B1F",
+  "id_const": "MAP_MT_EMBER_RUBY_PATH_B1F",
+  "tileset": "general__mt_ember",
+  "width_tiles": 11,
+  "height_tiles": 23,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "MtEmber_RubyPath_B1F_Stairs",
+  "id_const": "MAP_MT_EMBER_RUBY_PATH_B1F_STAIRS",
+  "tileset": "general__mt_ember",
+  "width_tiles": 6,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "MtEmber_RubyPath_B2F",
+  "id_const": "MAP_MT_EMBER_RUBY_PATH_B2F",
+  "tileset": "general__mt_ember",
+  "width_tiles": 16,
+  "height_tiles": 11,
+  "warps": 2,
+  "objects": 7
+ },
+ {
+  "name": "MtEmber_RubyPath_B2F_Stairs",
+  "id_const": "MAP_MT_EMBER_RUBY_PATH_B2F_STAIRS",
+  "tileset": "general__mt_ember",
+  "width_tiles": 8,
+  "height_tiles": 6,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "MtEmber_RubyPath_B3F",
+  "id_const": "MAP_MT_EMBER_RUBY_PATH_B3F",
+  "tileset": "general__mt_ember",
+  "width_tiles": 31,
+  "height_tiles": 23,
+  "warps": 3,
+  "objects": 10
+ },
+ {
+  "name": "MtEmber_RubyPath_B4F",
+  "id_const": "MAP_MT_EMBER_RUBY_PATH_B4F",
+  "tileset": "general__mt_ember",
+  "width_tiles": 18,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "MtEmber_RubyPath_B5F",
+  "id_const": "MAP_MT_EMBER_RUBY_PATH_B5F",
+  "tileset": "general__mt_ember",
+  "width_tiles": 16,
+  "height_tiles": 15,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "MtEmber_Summit",
+  "id_const": "MAP_MT_EMBER_SUMMIT",
+  "tileset": "general__sevii_islands_123",
+  "width_tiles": 19,
+  "height_tiles": 22,
+  "warps": 1,
+  "objects": 5
+ },
+ {
+  "name": "MtEmber_SummitPath_1F",
+  "id_const": "MAP_MT_EMBER_SUMMIT_PATH_1F",
+  "tileset": "general__mt_ember",
+  "width_tiles": 15,
+  "height_tiles": 18,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "MtEmber_SummitPath_2F",
+  "id_const": "MAP_MT_EMBER_SUMMIT_PATH_2F",
+  "tileset": "general__mt_ember",
+  "width_tiles": 48,
+  "height_tiles": 46,
+  "warps": 2,
+  "objects": 9
+ },
+ {
+  "name": "MtEmber_SummitPath_3F",
+  "id_const": "MAP_MT_EMBER_SUMMIT_PATH_3F",
+  "tileset": "general__mt_ember",
+  "width_tiles": 15,
+  "height_tiles": 11,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_1F",
+  "id_const": "MAP_NAVEL_ROCK_1F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 17,
+  "height_tiles": 26,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_B1F",
+  "id_const": "MAP_NAVEL_ROCK_B1F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 17,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_Base",
+  "id_const": "MAP_NAVEL_ROCK_BASE",
+  "tileset": "general__navel_rock",
+  "width_tiles": 21,
+  "height_tiles": 23,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "NavelRock_BasePath_B10F",
+  "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B10F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_BasePath_B11F",
+  "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B11F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_BasePath_B1F",
+  "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B1F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_BasePath_B2F",
+  "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B2F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_BasePath_B3F",
+  "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B3F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_BasePath_B4F",
+  "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B4F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_BasePath_B5F",
+  "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B5F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_BasePath_B6F",
+  "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B6F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_BasePath_B7F",
+  "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B7F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_BasePath_B8F",
+  "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B8F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_BasePath_B9F",
+  "id_const": "MAP_NAVEL_ROCK_BASE_PATH_B9F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_Exterior",
+  "id_const": "MAP_NAVEL_ROCK_EXTERIOR",
+  "tileset": "general__sevii_islands_123",
+  "width_tiles": 20,
+  "height_tiles": 23,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_Fork",
+  "id_const": "MAP_NAVEL_ROCK_FORK",
+  "tileset": "general__navel_rock",
+  "width_tiles": 30,
+  "height_tiles": 100,
+  "warps": 3,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_Harbor",
+  "id_const": "MAP_NAVEL_ROCK_HARBOR",
+  "tileset": "general__island_harbor",
+  "width_tiles": 17,
+  "height_tiles": 13,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "NavelRock_Summit",
+  "id_const": "MAP_NAVEL_ROCK_SUMMIT",
+  "tileset": "general__navel_rock",
+  "width_tiles": 19,
+  "height_tiles": 25,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "NavelRock_SummitPath_2F",
+  "id_const": "MAP_NAVEL_ROCK_SUMMIT_PATH_2F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_SummitPath_3F",
+  "id_const": "MAP_NAVEL_ROCK_SUMMIT_PATH_3F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_SummitPath_4F",
+  "id_const": "MAP_NAVEL_ROCK_SUMMIT_PATH_4F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "NavelRock_SummitPath_5F",
+  "id_const": "MAP_NAVEL_ROCK_SUMMIT_PATH_5F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 7,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "OneIsland",
+  "id_const": "MAP_ONE_ISLAND",
+  "tileset": "general__sevii_islands_123",
+  "width_tiles": 24,
+  "height_tiles": 20,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "OneIsland_Harbor",
+  "id_const": "MAP_ONE_ISLAND_HARBOR",
+  "tileset": "general__island_harbor",
+  "width_tiles": 17,
+  "height_tiles": 13,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "OneIsland_House1",
+  "id_const": "MAP_ONE_ISLAND_HOUSE1",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "OneIsland_House2",
+  "id_const": "MAP_ONE_ISLAND_HOUSE2",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "OneIsland_KindleRoad",
+  "id_const": "MAP_ONE_ISLAND_KINDLE_ROAD",
+  "tileset": "general__sevii_islands_123",
+  "width_tiles": 24,
+  "height_tiles": 140,
+  "warps": 3,
+  "objects": 29
+ },
+ {
+  "name": "OneIsland_KindleRoad_EmberSpa",
+  "id_const": "MAP_ONE_ISLAND_KINDLE_ROAD_EMBER_SPA",
+  "tileset": "general__mt_ember",
+  "width_tiles": 27,
+  "height_tiles": 39,
+  "warps": 1,
+  "objects": 6
+ },
+ {
+  "name": "OneIsland_PokemonCenter_1F",
+  "id_const": "MAP_ONE_ISLAND_POKEMON_CENTER_1F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 19,
+  "height_tiles": 11,
+  "warps": 2,
+  "objects": 6
+ },
+ {
+  "name": "OneIsland_PokemonCenter_2F",
+  "id_const": "MAP_ONE_ISLAND_POKEMON_CENTER_2F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "OneIsland_TreasureBeach",
+  "id_const": "MAP_ONE_ISLAND_TREASURE_BEACH",
+  "tileset": "general__sevii_islands_123",
+  "width_tiles": 24,
+  "height_tiles": 40,
+  "warps": 0,
+  "objects": 2
+ },
+ {
+  "name": "SevenIsland",
+  "id_const": "MAP_SEVEN_ISLAND",
+  "tileset": "general__sevii_islands_67",
+  "width_tiles": 24,
+  "height_tiles": 20,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "SevenIsland_Harbor",
+  "id_const": "MAP_SEVEN_ISLAND_HARBOR",
+  "tileset": "general__island_harbor",
+  "width_tiles": 17,
+  "height_tiles": 13,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "SevenIsland_House_Room1",
+  "id_const": "MAP_SEVEN_ISLAND_HOUSE_ROOM1",
+  "tileset": "building__seafoam_islands",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "SevenIsland_House_Room2",
+  "id_const": "MAP_SEVEN_ISLAND_HOUSE_ROOM2",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 12,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "SevenIsland_Mart",
+  "id_const": "MAP_SEVEN_ISLAND_MART",
+  "tileset": "building__mart",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 4
+ },
+ {
+  "name": "SevenIsland_PokemonCenter_1F",
+  "id_const": "MAP_SEVEN_ISLAND_POKEMON_CENTER_1F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 2,
+  "objects": 6
+ },
+ {
+  "name": "SevenIsland_PokemonCenter_2F",
+  "id_const": "MAP_SEVEN_ISLAND_POKEMON_CENTER_2F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "SevenIsland_SevaultCanyon",
+  "id_const": "MAP_SEVEN_ISLAND_SEVAULT_CANYON",
+  "tileset": "general__sevii_islands_67",
+  "width_tiles": 24,
+  "height_tiles": 80,
+  "warps": 2,
+  "objects": 20
+ },
+ {
+  "name": "SevenIsland_SevaultCanyon_Entrance",
+  "id_const": "MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE",
+  "tileset": "general__sevii_islands_67",
+  "width_tiles": 24,
+  "height_tiles": 40,
+  "warps": 0,
+  "objects": 7
+ },
+ {
+  "name": "SevenIsland_SevaultCanyon_House",
+  "id_const": "MAP_SEVEN_ISLAND_SEVAULT_CANYON_HOUSE",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 3
+ },
+ {
+  "name": "SevenIsland_SevaultCanyon_TanobyKey",
+  "id_const": "MAP_SEVEN_ISLAND_SEVAULT_CANYON_TANOBY_KEY",
+  "tileset": "general__digletts_cave",
+  "width_tiles": 15,
+  "height_tiles": 16,
+  "warps": 1,
+  "objects": 7
+ },
+ {
+  "name": "SevenIsland_TanobyRuins",
+  "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS",
+  "tileset": "general__sevii_islands_67",
+  "width_tiles": 144,
+  "height_tiles": 20,
+  "warps": 7,
+  "objects": 4
+ },
+ {
+  "name": "SevenIsland_TanobyRuins_DilfordChamber",
+  "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_DILFORD_CHAMBER",
+  "tileset": "building__tanoby_ruins",
+  "width_tiles": 23,
+  "height_tiles": 17,
+  "warps": 1,
+  "objects": 0
+ },
+ {
+  "name": "SevenIsland_TanobyRuins_LiptooChamber",
+  "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_LIPTOO_CHAMBER",
+  "tileset": "building__tanoby_ruins",
+  "width_tiles": 23,
+  "height_tiles": 17,
+  "warps": 1,
+  "objects": 0
+ },
+ {
+  "name": "SevenIsland_TanobyRuins_MoneanChamber",
+  "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER",
+  "tileset": "building__tanoby_ruins",
+  "width_tiles": 23,
+  "height_tiles": 17,
+  "warps": 1,
+  "objects": 0
+ },
+ {
+  "name": "SevenIsland_TanobyRuins_RixyChamber",
+  "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_RIXY_CHAMBER",
+  "tileset": "building__tanoby_ruins",
+  "width_tiles": 23,
+  "height_tiles": 17,
+  "warps": 1,
+  "objects": 0
+ },
+ {
+  "name": "SevenIsland_TanobyRuins_ScufibChamber",
+  "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_SCUFIB_CHAMBER",
+  "tileset": "building__tanoby_ruins",
+  "width_tiles": 23,
+  "height_tiles": 17,
+  "warps": 1,
+  "objects": 0
+ },
+ {
+  "name": "SevenIsland_TanobyRuins_ViapoisChamber",
+  "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_VIAPOIS_CHAMBER",
+  "tileset": "building__tanoby_ruins",
+  "width_tiles": 23,
+  "height_tiles": 17,
+  "warps": 1,
+  "objects": 0
+ },
+ {
+  "name": "SevenIsland_TanobyRuins_WeepthChamber",
+  "id_const": "MAP_SEVEN_ISLAND_TANOBY_RUINS_WEEPTH_CHAMBER",
+  "tileset": "building__tanoby_ruins",
+  "width_tiles": 23,
+  "height_tiles": 17,
+  "warps": 1,
+  "objects": 0
+ },
+ {
+  "name": "SevenIsland_TrainerTower",
+  "id_const": "MAP_SEVEN_ISLAND_TRAINER_TOWER",
+  "tileset": "general__sevii_islands_67",
+  "width_tiles": 120,
+  "height_tiles": 40,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "SevenIsland_UnusedHouse",
+  "id_const": "MAP_SEVEN_ISLAND_UNUSED_HOUSE",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 0,
+  "objects": 0,
+  "unused": true
+ },
+ {
+  "name": "SixIsland",
+  "id_const": "MAP_SIX_ISLAND",
+  "tileset": "general__sevii_islands_67",
+  "width_tiles": 24,
+  "height_tiles": 30,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "SixIsland_AlteringCave",
+  "id_const": "MAP_SIX_ISLAND_ALTERING_CAVE",
+  "tileset": "general__rock_tunnel",
+  "width_tiles": 32,
+  "height_tiles": 24,
+  "warps": 1,
+  "objects": 0
+ },
+ {
+  "name": "SixIsland_DottedHole_1F",
+  "id_const": "MAP_SIX_ISLAND_DOTTED_HOLE_1F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 16,
+  "height_tiles": 11,
+  "warps": 4,
+  "objects": 0
+ },
+ {
+  "name": "SixIsland_DottedHole_B1F",
+  "id_const": "MAP_SIX_ISLAND_DOTTED_HOLE_B1F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 13,
+  "height_tiles": 11,
+  "warps": 5,
+  "objects": 0
+ },
+ {
+  "name": "SixIsland_DottedHole_B2F",
+  "id_const": "MAP_SIX_ISLAND_DOTTED_HOLE_B2F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 13,
+  "height_tiles": 11,
+  "warps": 5,
+  "objects": 0
+ },
+ {
+  "name": "SixIsland_DottedHole_B3F",
+  "id_const": "MAP_SIX_ISLAND_DOTTED_HOLE_B3F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 13,
+  "height_tiles": 11,
+  "warps": 5,
+  "objects": 0
+ },
+ {
+  "name": "SixIsland_DottedHole_B4F",
+  "id_const": "MAP_SIX_ISLAND_DOTTED_HOLE_B4F",
+  "tileset": "general__navel_rock",
+  "width_tiles": 13,
+  "height_tiles": 11,
+  "warps": 5,
+  "objects": 0
+ },
+ {
+  "name": "SixIsland_DottedHole_SapphireRoom",
+  "id_const": "MAP_SIX_ISLAND_DOTTED_HOLE_SAPPHIRE_ROOM",
+  "tileset": "general__navel_rock",
+  "width_tiles": 16,
+  "height_tiles": 15,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "SixIsland_GreenPath",
+  "id_const": "MAP_SIX_ISLAND_GREEN_PATH",
+  "tileset": "general__sevii_islands_67",
+  "width_tiles": 72,
+  "height_tiles": 20,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "SixIsland_Harbor",
+  "id_const": "MAP_SIX_ISLAND_HARBOR",
+  "tileset": "general__island_harbor",
+  "width_tiles": 17,
+  "height_tiles": 13,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "SixIsland_House",
+  "id_const": "MAP_SIX_ISLAND_HOUSE",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "SixIsland_Mart",
+  "id_const": "MAP_SIX_ISLAND_MART",
+  "tileset": "building__mart",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 3
+ },
+ {
+  "name": "SixIsland_OutcastIsland",
+  "id_const": "MAP_SIX_ISLAND_OUTCAST_ISLAND",
+  "tileset": "general__sevii_islands_67",
+  "width_tiles": 24,
+  "height_tiles": 80,
+  "warps": 1,
+  "objects": 7
+ },
+ {
+  "name": "SixIsland_PatternBush",
+  "id_const": "MAP_SIX_ISLAND_PATTERN_BUSH",
+  "tileset": "general__viridian_forest",
+  "width_tiles": 60,
+  "height_tiles": 32,
+  "warps": 6,
+  "objects": 12
+ },
+ {
+  "name": "SixIsland_PokemonCenter_1F",
+  "id_const": "MAP_SIX_ISLAND_POKEMON_CENTER_1F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "SixIsland_PokemonCenter_2F",
+  "id_const": "MAP_SIX_ISLAND_POKEMON_CENTER_2F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "SixIsland_RuinValley",
+  "id_const": "MAP_SIX_ISLAND_RUIN_VALLEY",
+  "tileset": "general__sevii_islands_67",
+  "width_tiles": 48,
+  "height_tiles": 40,
+  "warps": 1,
+  "objects": 17
+ },
+ {
+  "name": "SixIsland_WaterPath",
+  "id_const": "MAP_SIX_ISLAND_WATER_PATH",
+  "tileset": "general__sevii_islands_67",
+  "width_tiles": 24,
+  "height_tiles": 100,
+  "warps": 2,
+  "objects": 9
+ },
+ {
+  "name": "SixIsland_WaterPath_House1",
+  "id_const": "MAP_SIX_ISLAND_WATER_PATH_HOUSE1",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "SixIsland_WaterPath_House2",
+  "id_const": "MAP_SIX_ISLAND_WATER_PATH_HOUSE2",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "ThreeIsland",
+  "id_const": "MAP_THREE_ISLAND",
+  "tileset": "general__sevii_islands_123",
+  "width_tiles": 24,
+  "height_tiles": 40,
+  "warps": 7,
+  "objects": 14
+ },
+ {
+  "name": "ThreeIsland_BerryForest",
+  "id_const": "MAP_THREE_ISLAND_BERRY_FOREST",
+  "tileset": "general__berry_forest",
+  "width_tiles": 57,
+  "height_tiles": 47,
+  "warps": 3,
+  "objects": 14
+ },
+ {
+  "name": "ThreeIsland_BondBridge",
+  "id_const": "MAP_THREE_ISLAND_BOND_BRIDGE",
+  "tileset": "general__sevii_islands_123",
+  "width_tiles": 96,
+  "height_tiles": 20,
+  "warps": 2,
+  "objects": 9
+ },
+ {
+  "name": "ThreeIsland_DunsparceTunnel",
+  "id_const": "MAP_THREE_ISLAND_DUNSPARCE_TUNNEL",
+  "tileset": "general__cave",
+  "width_tiles": 30,
+  "height_tiles": 7,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "ThreeIsland_Harbor",
+  "id_const": "MAP_THREE_ISLAND_HARBOR",
+  "tileset": "general__island_harbor",
+  "width_tiles": 17,
+  "height_tiles": 13,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "ThreeIsland_House1",
+  "id_const": "MAP_THREE_ISLAND_HOUSE1",
+  "tileset": "building__lab",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "ThreeIsland_House2",
+  "id_const": "MAP_THREE_ISLAND_HOUSE2",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "ThreeIsland_House3",
+  "id_const": "MAP_THREE_ISLAND_HOUSE3",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "ThreeIsland_House4",
+  "id_const": "MAP_THREE_ISLAND_HOUSE4",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "ThreeIsland_House5",
+  "id_const": "MAP_THREE_ISLAND_HOUSE5",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "ThreeIsland_Mart",
+  "id_const": "MAP_THREE_ISLAND_MART",
+  "tileset": "building__mart",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 4
+ },
+ {
+  "name": "ThreeIsland_PokemonCenter_1F",
+  "id_const": "MAP_THREE_ISLAND_POKEMON_CENTER_1F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "ThreeIsland_PokemonCenter_2F",
+  "id_const": "MAP_THREE_ISLAND_POKEMON_CENTER_2F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "ThreeIsland_Port",
+  "id_const": "MAP_THREE_ISLAND_PORT",
+  "tileset": "general__sevii_islands_123",
+  "width_tiles": 48,
+  "height_tiles": 20,
+  "warps": 3,
+  "objects": 3
+ },
+ {
+  "name": "TrainerTower_1F",
+  "id_const": "MAP_TRAINER_TOWER_1F",
+  "tileset": "building__trainer_tower",
+  "width_tiles": 18,
+  "height_tiles": 17,
+  "warps": 2,
+  "objects": 5
+ },
+ {
+  "name": "TrainerTower_2F",
+  "id_const": "MAP_TRAINER_TOWER_2F",
+  "tileset": "building__trainer_tower",
+  "width_tiles": 18,
+  "height_tiles": 17,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "TrainerTower_3F",
+  "id_const": "MAP_TRAINER_TOWER_3F",
+  "tileset": "building__trainer_tower",
+  "width_tiles": 18,
+  "height_tiles": 17,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "TrainerTower_4F",
+  "id_const": "MAP_TRAINER_TOWER_4F",
+  "tileset": "building__trainer_tower",
+  "width_tiles": 18,
+  "height_tiles": 17,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "TrainerTower_5F",
+  "id_const": "MAP_TRAINER_TOWER_5F",
+  "tileset": "building__trainer_tower",
+  "width_tiles": 18,
+  "height_tiles": 17,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "TrainerTower_6F",
+  "id_const": "MAP_TRAINER_TOWER_6F",
+  "tileset": "building__trainer_tower",
+  "width_tiles": 18,
+  "height_tiles": 17,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "TrainerTower_7F",
+  "id_const": "MAP_TRAINER_TOWER_7F",
+  "tileset": "building__trainer_tower",
+  "width_tiles": 18,
+  "height_tiles": 17,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "TrainerTower_8F",
+  "id_const": "MAP_TRAINER_TOWER_8F",
+  "tileset": "building__trainer_tower",
+  "width_tiles": 18,
+  "height_tiles": 17,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "TrainerTower_Elevator",
+  "id_const": "MAP_TRAINER_TOWER_ELEVATOR",
+  "tileset": "building__silph_co",
+  "width_tiles": 5,
+  "height_tiles": 7,
+  "warps": 1,
+  "objects": 0
+ },
+ {
+  "name": "TrainerTower_Lobby",
+  "id_const": "MAP_TRAINER_TOWER_LOBBY",
+  "tileset": "building__trainer_tower",
+  "width_tiles": 19,
+  "height_tiles": 17,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "TrainerTower_Roof",
+  "id_const": "MAP_TRAINER_TOWER_ROOF",
+  "tileset": "building__trainer_tower",
+  "width_tiles": 18,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "TwoIsland",
+  "id_const": "MAP_TWO_ISLAND",
+  "tileset": "general__sevii_islands_123",
+  "width_tiles": 48,
+  "height_tiles": 20,
+  "warps": 4,
+  "objects": 9
+ },
+ {
+  "name": "TwoIsland_CapeBrink",
+  "id_const": "MAP_TWO_ISLAND_CAPE_BRINK",
+  "tileset": "general__sevii_islands_123",
+  "width_tiles": 24,
+  "height_tiles": 40,
+  "warps": 1,
+  "objects": 0
+ },
+ {
+  "name": "TwoIsland_CapeBrink_House",
+  "id_const": "MAP_TWO_ISLAND_CAPE_BRINK_HOUSE",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "TwoIsland_Harbor",
+  "id_const": "MAP_TWO_ISLAND_HARBOR",
+  "tileset": "general__island_harbor",
+  "width_tiles": 17,
+  "height_tiles": 13,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "TwoIsland_House",
+  "id_const": "MAP_TWO_ISLAND_HOUSE",
+  "tileset": "building__generic_building_2",
+  "width_tiles": 11,
+  "height_tiles": 9,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "TwoIsland_JoyfulGameCorner",
+  "id_const": "MAP_TWO_ISLAND_JOYFUL_GAME_CORNER",
+  "tileset": "building__game_corner",
+  "width_tiles": 12,
+  "height_tiles": 10,
+  "warps": 1,
+  "objects": 4
+ },
+ {
+  "name": "TwoIsland_PokemonCenter_1F",
+  "id_const": "MAP_TWO_ISLAND_POKEMON_CENTER_1F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "TwoIsland_PokemonCenter_2F",
+  "id_const": "MAP_TWO_ISLAND_POKEMON_CENTER_2F",
+  "tileset": "building__pokemon_center",
+  "width_tiles": 15,
+  "height_tiles": 10,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "AzaleaGym",
+  "id_const": "AZALEA_GYM",
+  "tileset": "elite_four_room",
+  "width_tiles": 20,
+  "height_tiles": 32,
+  "warps": 2,
+  "objects": 7
+ },
+ {
+  "name": "AzaleaMart",
+  "id_const": "AZALEA_MART",
+  "tileset": "mart",
+  "width_tiles": 24,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "AzaleaPokecenter1F",
+  "id_const": "AZALEA_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "AzaleaTown",
+  "id_const": "AZALEA_TOWN",
+  "tileset": "johto_modern",
+  "width_tiles": 80,
+  "height_tiles": 36,
+  "warps": 8,
+  "objects": 12
+ },
+ {
+  "name": "BattleTower1F",
+  "id_const": "BATTLE_TOWER_1F",
+  "tileset": "battle_tower_inside",
+  "width_tiles": 32,
+  "height_tiles": 20,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "BattleTowerBattleRoom",
+  "id_const": "BATTLE_TOWER_BATTLE_ROOM",
+  "tileset": "battle_tower_inside",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "BattleTowerElevator",
+  "id_const": "BATTLE_TOWER_ELEVATOR",
+  "tileset": "battle_tower_inside",
+  "width_tiles": 8,
+  "height_tiles": 8,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "BattleTowerHallway",
+  "id_const": "BATTLE_TOWER_HALLWAY",
+  "tileset": "battle_tower_inside",
+  "width_tiles": 44,
+  "height_tiles": 8,
+  "warps": 6,
+  "objects": 1
+ },
+ {
+  "name": "BattleTowerOutside",
+  "id_const": "BATTLE_TOWER_OUTSIDE",
+  "tileset": "battle_tower_outside",
+  "width_tiles": 40,
+  "height_tiles": 56,
+  "warps": 4,
+  "objects": 4
+ },
+ {
+  "name": "BillsFamilysHouse",
+  "id_const": "BILLS_FAMILYS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "BlackthornCity",
+  "id_const": "BLACKTHORN_CITY",
+  "tileset": "johto",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 8,
+  "objects": 9
+ },
+ {
+  "name": "BlackthornDragonSpeechHouse",
+  "id_const": "BLACKTHORN_DRAGON_SPEECH_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "BlackthornEmysHouse",
+  "id_const": "BLACKTHORN_EMYS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "BlackthornGym1F",
+  "id_const": "BLACKTHORN_GYM_1F",
+  "tileset": "elite_four_room",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 7,
+  "objects": 5
+ },
+ {
+  "name": "BlackthornGym2F",
+  "id_const": "BLACKTHORN_GYM_2F",
+  "tileset": "elite_four_room",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 8
+ },
+ {
+  "name": "BlackthornMart",
+  "id_const": "BLACKTHORN_MART",
+  "tileset": "mart",
+  "width_tiles": 24,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "BlackthornPokecenter1F",
+  "id_const": "BLACKTHORN_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "BurnedTower1F",
+  "id_const": "BURNED_TOWER_1F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 14,
+  "objects": 5
+ },
+ {
+  "name": "BurnedTowerB1F",
+  "id_const": "BURNED_TOWER_B1F",
+  "tileset": "cave",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 6,
+  "objects": 9
+ },
+ {
+  "name": "CharcoalKiln",
+  "id_const": "CHARCOAL_KILN",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "CherrygroveCity",
+  "id_const": "CHERRYGROVE_CITY",
+  "tileset": "johto",
+  "width_tiles": 80,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 5
+ },
+ {
+  "name": "CherrygroveEvolutionSpeechHouse",
+  "id_const": "CHERRYGROVE_EVOLUTION_SPEECH_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "CherrygroveGymSpeechHouse",
+  "id_const": "CHERRYGROVE_GYM_SPEECH_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "CherrygroveMart",
+  "id_const": "CHERRYGROVE_MART",
+  "tileset": "mart",
+  "width_tiles": 24,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "CherrygrovePokecenter1F",
+  "id_const": "CHERRYGROVE_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "CianwoodCity",
+  "id_const": "CIANWOOD_CITY",
+  "tileset": "johto",
+  "width_tiles": 60,
+  "height_tiles": 108,
+  "warps": 7,
+  "objects": 12
+ },
+ {
+  "name": "CianwoodGym",
+  "id_const": "CIANWOOD_GYM",
+  "tileset": "tower",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 9
+ },
+ {
+  "name": "CianwoodLugiaSpeechHouse",
+  "id_const": "CIANWOOD_LUGIA_SPEECH_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "CianwoodPharmacy",
+  "id_const": "CIANWOOD_PHARMACY",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "CianwoodPhotoStudio",
+  "id_const": "CIANWOOD_PHOTO_STUDIO",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "CianwoodPokecenter1F",
+  "id_const": "CIANWOOD_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "DanceTheater",
+  "id_const": "DANCE_THEATER",
+  "tileset": "traditional_house",
+  "width_tiles": 24,
+  "height_tiles": 28,
+  "warps": 2,
+  "objects": 9
+ },
+ {
+  "name": "DarkCaveBlackthornEntrance",
+  "id_const": "DARK_CAVE_BLACKTHORN_ENTRANCE",
+  "tileset": "dark_cave",
+  "width_tiles": 60,
+  "height_tiles": 72,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "DarkCaveVioletEntrance",
+  "id_const": "DARK_CAVE_VIOLET_ENTRANCE",
+  "tileset": "dark_cave",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 3,
+  "objects": 8
+ },
+ {
+  "name": "DayCare",
+  "id_const": "DAY_CARE",
+  "tileset": "house",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "DragonShrine",
+  "id_const": "DRAGON_SHRINE",
+  "tileset": "lab",
+  "width_tiles": 20,
+  "height_tiles": 20,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "DragonsDen1F",
+  "id_const": "DRAGONS_DEN_1F",
+  "tileset": "cave",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 0
+ },
+ {
+  "name": "DragonsDenB1F",
+  "id_const": "DRAGONS_DEN_B1F",
+  "tileset": "johto",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 2,
+  "objects": 9
+ },
+ {
+  "name": "EarlsPokemonAcademy",
+  "id_const": "EARLS_POKEMON_ACADEMY",
+  "tileset": "lab",
+  "width_tiles": 16,
+  "height_tiles": 32,
+  "warps": 2,
+  "objects": 6
+ },
+ {
+  "name": "EcruteakCity",
+  "id_const": "ECRUTEAK_CITY",
+  "tileset": "johto",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 15,
+  "objects": 7
+ },
+ {
+  "name": "EcruteakGym",
+  "id_const": "ECRUTEAK_GYM",
+  "tileset": "tower",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 33,
+  "objects": 7
+ },
+ {
+  "name": "EcruteakItemfinderHouse",
+  "id_const": "ECRUTEAK_ITEMFINDER_HOUSE",
+  "tileset": "traditional_house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "EcruteakLugiaSpeechHouse",
+  "id_const": "ECRUTEAK_LUGIA_SPEECH_HOUSE",
+  "tileset": "traditional_house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "EcruteakMart",
+  "id_const": "ECRUTEAK_MART",
+  "tileset": "mart",
+  "width_tiles": 24,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "EcruteakPokecenter1F",
+  "id_const": "ECRUTEAK_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "EcruteakTinTowerEntrance",
+  "id_const": "ECRUTEAK_TIN_TOWER_ENTRANCE",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 4
+ },
+ {
+  "name": "ElmsHouse",
+  "id_const": "ELMS_HOUSE",
+  "tileset": "players_house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "ElmsLab",
+  "id_const": "ELMS_LAB",
+  "tileset": "lab",
+  "width_tiles": 20,
+  "height_tiles": 24,
+  "warps": 2,
+  "objects": 6
+ },
+ {
+  "name": "GoldenrodBikeShop",
+  "id_const": "GOLDENROD_BIKE_SHOP",
+  "tileset": "champions_room",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "GoldenrodCity",
+  "id_const": "GOLDENROD_CITY",
+  "tileset": "johto_modern",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 15,
+  "objects": 15
+ },
+ {
+  "name": "GoldenrodDeptStore1F",
+  "id_const": "GOLDENROD_DEPT_STORE_1F",
+  "tileset": "mart",
+  "width_tiles": 32,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 4
+ },
+ {
+  "name": "GoldenrodDeptStore2F",
+  "id_const": "GOLDENROD_DEPT_STORE_2F",
+  "tileset": "mart",
+  "width_tiles": 32,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "GoldenrodDeptStore3F",
+  "id_const": "GOLDENROD_DEPT_STORE_3F",
+  "tileset": "mart",
+  "width_tiles": 32,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 3
+ },
+ {
+  "name": "GoldenrodDeptStore4F",
+  "id_const": "GOLDENROD_DEPT_STORE_4F",
+  "tileset": "mart",
+  "width_tiles": 32,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "GoldenrodDeptStore5F",
+  "id_const": "GOLDENROD_DEPT_STORE_5F",
+  "tileset": "mart",
+  "width_tiles": 32,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 6
+ },
+ {
+  "name": "GoldenrodDeptStore6F",
+  "id_const": "GOLDENROD_DEPT_STORE_6F",
+  "tileset": "mart",
+  "width_tiles": 32,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 2
+ },
+ {
+  "name": "GoldenrodDeptStoreB1F",
+  "id_const": "GOLDENROD_DEPT_STORE_B1F",
+  "tileset": "underground",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 8
+ },
+ {
+  "name": "GoldenrodDeptStoreElevator",
+  "id_const": "GOLDENROD_DEPT_STORE_ELEVATOR",
+  "tileset": "mart",
+  "width_tiles": 8,
+  "height_tiles": 8,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "GoldenrodDeptStoreRoof",
+  "id_const": "GOLDENROD_DEPT_STORE_ROOF",
+  "tileset": "mart",
+  "width_tiles": 32,
+  "height_tiles": 16,
+  "warps": 1,
+  "objects": 8
+ },
+ {
+  "name": "GoldenrodFlowerShop",
+  "id_const": "GOLDENROD_FLOWER_SHOP",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "GoldenrodGameCorner",
+  "id_const": "GOLDENROD_GAME_CORNER",
+  "tileset": "game_corner",
+  "width_tiles": 40,
+  "height_tiles": 28,
+  "warps": 2,
+  "objects": 12
+ },
+ {
+  "name": "GoldenrodGym",
+  "id_const": "GOLDENROD_GYM",
+  "tileset": "elite_four_room",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 6
+ },
+ {
+  "name": "GoldenrodHappinessRater",
+  "id_const": "GOLDENROD_HAPPINESS_RATER",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "GoldenrodMagnetTrainStation",
+  "id_const": "GOLDENROD_MAGNET_TRAIN_STATION",
+  "tileset": "train_station",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "GoldenrodNameRater",
+  "id_const": "GOLDENROD_NAME_RATER",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "GoldenrodPPSpeechHouse",
+  "id_const": "GOLDENROD_PP_SPEECH_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "GoldenrodPokecenter1F",
+  "id_const": "GOLDENROD_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 5
+ },
+ {
+  "name": "GoldenrodUnderground",
+  "id_const": "GOLDENROD_UNDERGROUND",
+  "tileset": "gate",
+  "width_tiles": 60,
+  "height_tiles": 72,
+  "warps": 6,
+  "objects": 9
+ },
+ {
+  "name": "GoldenrodUndergroundSwitchRoomEntrances",
+  "id_const": "GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES",
+  "tileset": "elite_four_room",
+  "width_tiles": 60,
+  "height_tiles": 72,
+  "warps": 9,
+  "objects": 11
+ },
+ {
+  "name": "GoldenrodUndergroundWarehouse",
+  "id_const": "GOLDENROD_UNDERGROUND_WAREHOUSE",
+  "tileset": "underground",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 7
+ },
+ {
+  "name": "GuideGentsHouse",
+  "id_const": "GUIDE_GENTS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "IcePath1F",
+  "id_const": "ICE_PATH_1F",
+  "tileset": "ice_path",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "IcePathB1F",
+  "id_const": "ICE_PATH_B1F",
+  "tileset": "ice_path",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 8,
+  "objects": 5
+ },
+ {
+  "name": "IcePathB2FBlackthornSide",
+  "id_const": "ICE_PATH_B2F_BLACKTHORN_SIDE",
+  "tileset": "ice_path",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "IcePathB2FMahoganySide",
+  "id_const": "ICE_PATH_B2F_MAHOGANY_SIDE",
+  "tileset": "ice_path",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 6,
+  "objects": 6
+ },
+ {
+  "name": "IcePathB3F",
+  "id_const": "ICE_PATH_B3F",
+  "tileset": "ice_path",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "IlexForest",
+  "id_const": "ILEX_FOREST",
+  "tileset": "forest",
+  "width_tiles": 60,
+  "height_tiles": 108,
+  "warps": 3,
+  "objects": 11
+ },
+ {
+  "name": "IlexForestAzaleaGate",
+  "id_const": "ILEX_FOREST_AZALEA_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "KurtsHouse",
+  "id_const": "KURTS_HOUSE",
+  "tileset": "traditional_house",
+  "width_tiles": 32,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 5
+ },
+ {
+  "name": "LakeOfRage",
+  "id_const": "LAKE_OF_RAGE",
+  "tileset": "johto",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 2,
+  "objects": 12
+ },
+ {
+  "name": "LakeOfRageHiddenPowerHouse",
+  "id_const": "LAKE_OF_RAGE_HIDDEN_POWER_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "LakeOfRageMagikarpHouse",
+  "id_const": "LAKE_OF_RAGE_MAGIKARP_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "MahoganyGym",
+  "id_const": "MAHOGANY_GYM",
+  "tileset": "elite_four_room",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 7
+ },
+ {
+  "name": "MahoganyMart1F",
+  "id_const": "MAHOGANY_MART_1F",
+  "tileset": "traditional_house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "MahoganyPokecenter1F",
+  "id_const": "MAHOGANY_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "MahoganyRedGyaradosSpeechHouse",
+  "id_const": "MAHOGANY_RED_GYARADOS_SPEECH_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "MahoganyTown",
+  "id_const": "MAHOGANY_TOWN",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 4
+ },
+ {
+  "name": "ManiasHouse",
+  "id_const": "MANIAS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "MobileBattleRoom",
+  "id_const": "MOBILE_BATTLE_ROOM",
+  "tileset": "mansion",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "MobileTradeRoom",
+  "id_const": "MOBILE_TRADE_ROOM",
+  "tileset": "mansion",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "MountMortar1FInside",
+  "id_const": "MOUNT_MORTAR_1F_INSIDE",
+  "tileset": "dark_cave",
+  "width_tiles": 80,
+  "height_tiles": 108,
+  "warps": 6,
+  "objects": 10
+ },
+ {
+  "name": "MountMortar1FOutside",
+  "id_const": "MOUNT_MORTAR_1F_OUTSIDE",
+  "tileset": "dark_cave",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 9,
+  "objects": 2
+ },
+ {
+  "name": "MountMortar2FInside",
+  "id_const": "MOUNT_MORTAR_2F_INSIDE",
+  "tileset": "dark_cave",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 2,
+  "objects": 7
+ },
+ {
+  "name": "MountMortarB1F",
+  "id_const": "MOUNT_MORTAR_B1F",
+  "tileset": "dark_cave",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 2,
+  "objects": 7
+ },
+ {
+  "name": "MoveDeletersHouse",
+  "id_const": "MOVE_DELETERS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "MrPokemonsHouse",
+  "id_const": "MR_POKEMONS_HOUSE",
+  "tileset": "facility",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "NationalPark",
+  "id_const": "NATIONAL_PARK",
+  "tileset": "park",
+  "width_tiles": 80,
+  "height_tiles": 108,
+  "warps": 4,
+  "objects": 14
+ },
+ {
+  "name": "NationalParkBugContest",
+  "id_const": "NATIONAL_PARK_BUG_CONTEST",
+  "tileset": "park",
+  "width_tiles": 80,
+  "height_tiles": 108,
+  "warps": 4,
+  "objects": 12
+ },
+ {
+  "name": "NewBarkTown",
+  "id_const": "NEW_BARK_TOWN",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "OlivineCafe",
+  "id_const": "OLIVINE_CAFE",
+  "tileset": "game_corner",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "OlivineCity",
+  "id_const": "OLIVINE_CITY",
+  "tileset": "johto",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 11,
+  "objects": 4
+ },
+ {
+  "name": "OlivineGoodRodHouse",
+  "id_const": "OLIVINE_GOOD_ROD_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "OlivineGym",
+  "id_const": "OLIVINE_GYM",
+  "tileset": "champions_room",
+  "width_tiles": 20,
+  "height_tiles": 32,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "OlivineHouseBeta",
+  "id_const": "OLIVINE_HOUSE_BETA",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "OlivineLighthouse1F",
+  "id_const": "OLIVINE_LIGHTHOUSE_1F",
+  "tileset": "lighthouse",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 2
+ },
+ {
+  "name": "OlivineLighthouse2F",
+  "id_const": "OLIVINE_LIGHTHOUSE_2F",
+  "tileset": "lighthouse",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 6,
+  "objects": 2
+ },
+ {
+  "name": "OlivineLighthouse3F",
+  "id_const": "OLIVINE_LIGHTHOUSE_3F",
+  "tileset": "lighthouse",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 9,
+  "objects": 4
+ },
+ {
+  "name": "OlivineLighthouse4F",
+  "id_const": "OLIVINE_LIGHTHOUSE_4F",
+  "tileset": "lighthouse",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 10,
+  "objects": 2
+ },
+ {
+  "name": "OlivineLighthouse5F",
+  "id_const": "OLIVINE_LIGHTHOUSE_5F",
+  "tileset": "lighthouse",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 7,
+  "objects": 5
+ },
+ {
+  "name": "OlivineLighthouse6F",
+  "id_const": "OLIVINE_LIGHTHOUSE_6F",
+  "tileset": "lighthouse",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 3
+ },
+ {
+  "name": "OlivineMart",
+  "id_const": "OLIVINE_MART",
+  "tileset": "mart",
+  "width_tiles": 24,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "OlivinePokecenter1F",
+  "id_const": "OLIVINE_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 4
+ },
+ {
+  "name": "OlivinePort",
+  "id_const": "OLIVINE_PORT",
+  "tileset": "port",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 2,
+  "objects": 7
+ },
+ {
+  "name": "OlivinePortPassage",
+  "id_const": "OLIVINE_PORT_PASSAGE",
+  "tileset": "underground",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 1
+ },
+ {
+  "name": "OlivinePunishmentSpeechHouse",
+  "id_const": "OLIVINE_PUNISHMENT_SPEECH_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "OlivineTimsHouse",
+  "id_const": "OLIVINE_TIMS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "PlayersHouse1F",
+  "id_const": "PLAYERS_HOUSE_1F",
+  "tileset": "players_house",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "PlayersHouse2F",
+  "id_const": "PLAYERS_HOUSE_2F",
+  "tileset": "players_room",
+  "width_tiles": 16,
+  "height_tiles": 12,
+  "warps": 1,
+  "objects": 4
+ },
+ {
+  "name": "PlayersNeighborsHouse",
+  "id_const": "PLAYERS_NEIGHBORS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "PokeSeersHouse",
+  "id_const": "POKE_SEERS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "Pokecenter2F",
+  "id_const": "POKECENTER_2F",
+  "tileset": "pokecenter",
+  "width_tiles": 32,
+  "height_tiles": 16,
+  "warps": 6,
+  "objects": 4
+ },
+ {
+  "name": "PokecomCenterAdminOfficeMobile",
+  "id_const": "POKECOM_CENTER_ADMIN_OFFICE_MOBILE",
+  "tileset": "pokecom_center",
+  "width_tiles": 64,
+  "height_tiles": 64,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "RadioTower1F",
+  "id_const": "RADIO_TOWER_1F",
+  "tileset": "radio_tower",
+  "width_tiles": 36,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 6
+ },
+ {
+  "name": "RadioTower2F",
+  "id_const": "RADIO_TOWER_2F",
+  "tileset": "radio_tower",
+  "width_tiles": 36,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 11
+ },
+ {
+  "name": "RadioTower3F",
+  "id_const": "RADIO_TOWER_3F",
+  "tileset": "radio_tower",
+  "width_tiles": 36,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 7
+ },
+ {
+  "name": "RadioTower4F",
+  "id_const": "RADIO_TOWER_4F",
+  "tileset": "radio_tower",
+  "width_tiles": 36,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 7
+ },
+ {
+  "name": "RadioTower5F",
+  "id_const": "RADIO_TOWER_5F",
+  "tileset": "radio_tower",
+  "width_tiles": 36,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 5
+ },
+ {
+  "name": "Route29",
+  "id_const": "ROUTE_29",
+  "tileset": "johto",
+  "width_tiles": 120,
+  "height_tiles": 36,
+  "warps": 1,
+  "objects": 8
+ },
+ {
+  "name": "Route29Route46Gate",
+  "id_const": "ROUTE_29_ROUTE_46_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "Route30",
+  "id_const": "ROUTE_30",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 108,
+  "warps": 2,
+  "objects": 11
+ },
+ {
+  "name": "Route30BerryHouse",
+  "id_const": "ROUTE_30_BERRY_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "Route31",
+  "id_const": "ROUTE_31",
+  "tileset": "johto",
+  "width_tiles": 80,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 7
+ },
+ {
+  "name": "Route31VioletGate",
+  "id_const": "ROUTE_31_VIOLET_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "Route32",
+  "id_const": "ROUTE_32",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 180,
+  "warps": 4,
+  "objects": 14
+ },
+ {
+  "name": "Route32Pokecenter1F",
+  "id_const": "ROUTE_32_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 3
+ },
+ {
+  "name": "Route32RuinsOfAlphGate",
+  "id_const": "ROUTE_32_RUINS_OF_ALPH_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "Route33",
+  "id_const": "ROUTE_33",
+  "tileset": "johto_modern",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 1,
+  "objects": 3
+ },
+ {
+  "name": "Route34",
+  "id_const": "ROUTE_34",
+  "tileset": "johto_modern",
+  "width_tiles": 40,
+  "height_tiles": 108,
+  "warps": 5,
+  "objects": 13
+ },
+ {
+  "name": "Route34IlexForestGate",
+  "id_const": "ROUTE_34_ILEX_FOREST_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 4
+ },
+ {
+  "name": "Route35",
+  "id_const": "ROUTE_35",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 3,
+  "objects": 11
+ },
+ {
+  "name": "Route35GoldenrodGate",
+  "id_const": "ROUTE_35_GOLDENROD_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "Route35NationalParkGate",
+  "id_const": "ROUTE_35_NATIONAL_PARK_GATE",
+  "tileset": "gate",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "Route36",
+  "id_const": "ROUTE_36",
+  "tileset": "johto",
+  "width_tiles": 120,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 9
+ },
+ {
+  "name": "Route36NationalParkGate",
+  "id_const": "ROUTE_36_NATIONAL_PARK_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 12
+ },
+ {
+  "name": "Route36RuinsOfAlphGate",
+  "id_const": "ROUTE_36_RUINS_OF_ALPH_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "Route37",
+  "id_const": "ROUTE_37",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 0,
+  "objects": 7
+ },
+ {
+  "name": "Route38",
+  "id_const": "ROUTE_38",
+  "tileset": "johto",
+  "width_tiles": 80,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 7
+ },
+ {
+  "name": "Route38EcruteakGate",
+  "id_const": "ROUTE_38_ECRUTEAK_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "Route39",
+  "id_const": "ROUTE_39",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 2,
+  "objects": 10
+ },
+ {
+  "name": "Route39Barn",
+  "id_const": "ROUTE_39_BARN",
+  "tileset": "traditional_house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "Route39Farmhouse",
+  "id_const": "ROUTE_39_FARMHOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "Route40",
+  "id_const": "ROUTE_40",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 1,
+  "objects": 12
+ },
+ {
+  "name": "Route40BattleTowerGate",
+  "id_const": "ROUTE_40_BATTLE_TOWER_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 2
+ },
+ {
+  "name": "Route41",
+  "id_const": "ROUTE_41",
+  "tileset": "johto",
+  "width_tiles": 100,
+  "height_tiles": 108,
+  "warps": 4,
+  "objects": 10
+ },
+ {
+  "name": "Route42",
+  "id_const": "ROUTE_42",
+  "tileset": "johto",
+  "width_tiles": 120,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 9
+ },
+ {
+  "name": "Route42EcruteakGate",
+  "id_const": "ROUTE_42_ECRUTEAK_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "Route43",
+  "id_const": "ROUTE_43",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 108,
+  "warps": 5,
+  "objects": 8
+ },
+ {
+  "name": "Route43Gate",
+  "id_const": "ROUTE_43_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "Route43MahoganyGate",
+  "id_const": "ROUTE_43_MAHOGANY_GATE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "Route44",
+  "id_const": "ROUTE_44",
+  "tileset": "johto",
+  "width_tiles": 120,
+  "height_tiles": 36,
+  "warps": 1,
+  "objects": 11
+ },
+ {
+  "name": "Route45",
+  "id_const": "ROUTE_45",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 180,
+  "warps": 1,
+  "objects": 13
+ },
+ {
+  "name": "Route46",
+  "id_const": "ROUTE_46",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 3,
+  "objects": 6
+ },
+ {
+  "name": "RuinsOfAlphAerodactylChamber",
+  "id_const": "RUINS_OF_ALPH_AERODACTYL_CHAMBER",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 16,
+  "height_tiles": 20,
+  "warps": 5,
+  "objects": 0
+ },
+ {
+  "name": "RuinsOfAlphAerodactylItemRoom",
+  "id_const": "RUINS_OF_ALPH_AERODACTYL_ITEM_ROOM",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 16,
+  "height_tiles": 20,
+  "warps": 4,
+  "objects": 4
+ },
+ {
+  "name": "RuinsOfAlphAerodactylWordRoom",
+  "id_const": "RUINS_OF_ALPH_AERODACTYL_WORD_ROOM",
+  "tileset": "aerodactyl_word_room",
+  "width_tiles": 40,
+  "height_tiles": 28,
+  "warps": 3,
+  "objects": 0
+ },
+ {
+  "name": "RuinsOfAlphHoOhChamber",
+  "id_const": "RUINS_OF_ALPH_HO_OH_CHAMBER",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 16,
+  "height_tiles": 20,
+  "warps": 5,
+  "objects": 0
+ },
+ {
+  "name": "RuinsOfAlphHoOhItemRoom",
+  "id_const": "RUINS_OF_ALPH_HO_OH_ITEM_ROOM",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 16,
+  "height_tiles": 20,
+  "warps": 4,
+  "objects": 4
+ },
+ {
+  "name": "RuinsOfAlphHoOhWordRoom",
+  "id_const": "RUINS_OF_ALPH_HO_OH_WORD_ROOM",
+  "tileset": "ho_oh_word_room",
+  "width_tiles": 40,
+  "height_tiles": 48,
+  "warps": 3,
+  "objects": 0
+ },
+ {
+  "name": "RuinsOfAlphInnerChamber",
+  "id_const": "RUINS_OF_ALPH_INNER_CHAMBER",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 40,
+  "height_tiles": 56,
+  "warps": 9,
+  "objects": 3
+ },
+ {
+  "name": "RuinsOfAlphKabutoChamber",
+  "id_const": "RUINS_OF_ALPH_KABUTO_CHAMBER",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 16,
+  "height_tiles": 20,
+  "warps": 5,
+  "objects": 2
+ },
+ {
+  "name": "RuinsOfAlphKabutoItemRoom",
+  "id_const": "RUINS_OF_ALPH_KABUTO_ITEM_ROOM",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 16,
+  "height_tiles": 20,
+  "warps": 4,
+  "objects": 4
+ },
+ {
+  "name": "RuinsOfAlphKabutoWordRoom",
+  "id_const": "RUINS_OF_ALPH_KABUTO_WORD_ROOM",
+  "tileset": "kabuto_word_room",
+  "width_tiles": 40,
+  "height_tiles": 28,
+  "warps": 3,
+  "objects": 0
+ },
+ {
+  "name": "RuinsOfAlphOmanyteChamber",
+  "id_const": "RUINS_OF_ALPH_OMANYTE_CHAMBER",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 16,
+  "height_tiles": 20,
+  "warps": 5,
+  "objects": 0
+ },
+ {
+  "name": "RuinsOfAlphOmanyteItemRoom",
+  "id_const": "RUINS_OF_ALPH_OMANYTE_ITEM_ROOM",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 16,
+  "height_tiles": 20,
+  "warps": 4,
+  "objects": 4
+ },
+ {
+  "name": "RuinsOfAlphOmanyteWordRoom",
+  "id_const": "RUINS_OF_ALPH_OMANYTE_WORD_ROOM",
+  "tileset": "omanyte_word_room",
+  "width_tiles": 40,
+  "height_tiles": 32,
+  "warps": 3,
+  "objects": 0
+ },
+ {
+  "name": "RuinsOfAlphOutside",
+  "id_const": "RUINS_OF_ALPH_OUTSIDE",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 11,
+  "objects": 5
+ },
+ {
+  "name": "RuinsOfAlphResearchCenter",
+  "id_const": "RUINS_OF_ALPH_RESEARCH_CENTER",
+  "tileset": "facility",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "SilverCaveItemRooms",
+  "id_const": "SILVER_CAVE_ITEM_ROOMS",
+  "tileset": "cave",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "SilverCaveOutside",
+  "id_const": "SILVER_CAVE_OUTSIDE",
+  "tileset": "kanto",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "SilverCavePokecenter1F",
+  "id_const": "SILVER_CAVE_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 2
+ },
+ {
+  "name": "SilverCaveRoom1",
+  "id_const": "SILVER_CAVE_ROOM_1",
+  "tileset": "dark_cave",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "SilverCaveRoom2",
+  "id_const": "SILVER_CAVE_ROOM_2",
+  "tileset": "cave",
+  "width_tiles": 60,
+  "height_tiles": 72,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "SilverCaveRoom3",
+  "id_const": "SILVER_CAVE_ROOM_3",
+  "tileset": "cave",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "SlowpokeWellB1F",
+  "id_const": "SLOWPOKE_WELL_B1F",
+  "tileset": "cave",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 9
+ },
+ {
+  "name": "SlowpokeWellB2F",
+  "id_const": "SLOWPOKE_WELL_B2F",
+  "tileset": "cave",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "SproutTower1F",
+  "id_const": "SPROUT_TOWER_1F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 32,
+  "warps": 5,
+  "objects": 6
+ },
+ {
+  "name": "SproutTower2F",
+  "id_const": "SPROUT_TOWER_2F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 32,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "SproutTower3F",
+  "id_const": "SPROUT_TOWER_3F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 32,
+  "warps": 1,
+  "objects": 7
+ },
+ {
+  "name": "TeamRocketBaseB1F",
+  "id_const": "TEAM_ROCKET_BASE_B1F",
+  "tileset": "underground",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 6
+ },
+ {
+  "name": "TeamRocketBaseB2F",
+  "id_const": "TEAM_ROCKET_BASE_B2F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 14
+ },
+ {
+  "name": "TeamRocketBaseB3F",
+  "id_const": "TEAM_ROCKET_BASE_B3F",
+  "tileset": "facility",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 14
+ },
+ {
+  "name": "TimeCapsule",
+  "id_const": "TIME_CAPSULE",
+  "tileset": "gate",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "TinTower1F",
+  "id_const": "TIN_TOWER_1F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 10
+ },
+ {
+  "name": "TinTower2F",
+  "id_const": "TIN_TOWER_2F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "TinTower3F",
+  "id_const": "TIN_TOWER_3F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "TinTower4F",
+  "id_const": "TIN_TOWER_4F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "TinTower5F",
+  "id_const": "TIN_TOWER_5F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "TinTower6F",
+  "id_const": "TIN_TOWER_6F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "TinTower7F",
+  "id_const": "TIN_TOWER_7F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 1
+ },
+ {
+  "name": "TinTower8F",
+  "id_const": "TIN_TOWER_8F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 6,
+  "objects": 3
+ },
+ {
+  "name": "TinTower9F",
+  "id_const": "TIN_TOWER_9F",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 7,
+  "objects": 1
+ },
+ {
+  "name": "TinTowerRoof",
+  "id_const": "TIN_TOWER_ROOF",
+  "tileset": "tower",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "UnionCave1F",
+  "id_const": "UNION_CAVE_1F",
+  "tileset": "cave",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 4,
+  "objects": 9
+ },
+ {
+  "name": "UnionCaveB1F",
+  "id_const": "UNION_CAVE_B1F",
+  "tileset": "cave",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 5,
+  "objects": 7
+ },
+ {
+  "name": "UnionCaveB2F",
+  "id_const": "UNION_CAVE_B2F",
+  "tileset": "cave",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 1,
+  "objects": 6
+ },
+ {
+  "name": "VioletCity",
+  "id_const": "VIOLET_CITY",
+  "tileset": "johto",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 9,
+  "objects": 8
+ },
+ {
+  "name": "VioletGym",
+  "id_const": "VIOLET_GYM",
+  "tileset": "elite_four_room",
+  "width_tiles": 20,
+  "height_tiles": 32,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "VioletKylesHouse",
+  "id_const": "VIOLET_KYLES_HOUSE",
+  "tileset": "traditional_house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "VioletMart",
+  "id_const": "VIOLET_MART",
+  "tileset": "mart",
+  "width_tiles": 24,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "VioletNicknameSpeechHouse",
+  "id_const": "VIOLET_NICKNAME_SPEECH_HOUSE",
+  "tileset": "traditional_house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "VioletPokecenter1F",
+  "id_const": "VIOLET_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 20,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "WhirlIslandB1F",
+  "id_const": "WHIRL_ISLAND_B1F",
+  "tileset": "dark_cave",
+  "width_tiles": 80,
+  "height_tiles": 72,
+  "warps": 9,
+  "objects": 6
+ },
+ {
+  "name": "WhirlIslandB2F",
+  "id_const": "WHIRL_ISLAND_B2F",
+  "tileset": "dark_cave",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "WhirlIslandCave",
+  "id_const": "WHIRL_ISLAND_CAVE",
+  "tileset": "dark_cave",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "WhirlIslandLugiaChamber",
+  "id_const": "WHIRL_ISLAND_LUGIA_CHAMBER",
+  "tileset": "dark_cave",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "WhirlIslandNE",
+  "id_const": "WHIRL_ISLAND_NE",
+  "tileset": "dark_cave",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 1
+ },
+ {
+  "name": "WhirlIslandNW",
+  "id_const": "WHIRL_ISLAND_NW",
+  "tileset": "dark_cave",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 0
+ },
+ {
+  "name": "WhirlIslandSE",
+  "id_const": "WHIRL_ISLAND_SE",
+  "tileset": "dark_cave",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "WhirlIslandSW",
+  "id_const": "WHIRL_ISLAND_SW",
+  "tileset": "dark_cave",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 1
+ },
+ {
+  "name": "WiseTriosRoom",
+  "id_const": "WISE_TRIOS_ROOM",
+  "tileset": "traditional_house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 3,
+  "objects": 6
+ },
+ {
+  "name": "UnionRoom",
+  "id_const": "MAP_UNION_ROOM",
+  "region": "sevii",
+  "tileset": "building",
+  "width_tiles": 15,
+  "height_tiles": 12,
+  "warps": 1,
+  "objects": 9,
+  "note": "Converted from the FRLG original by the Sevii converter pipeline (build 6); entry shape follows maps_index.json."
+ },
+ {
+  "name": "CliffCave",
+  "id_const": "CLIFF_CAVE",
+  "tileset": "cave",
+  "width_tiles": 32,
+  "height_tiles": 32,
+  "warps": 9,
+  "objects": 7
+ },
+ {
+  "name": "CliffEdgeGate",
+  "id_const": "CLIFF_EDGE_GATE",
+  "tileset": "johto",
+  "width_tiles": 64,
+  "height_tiles": 64,
+  "warps": 2,
+  "objects": 4
+ },
+ {
+  "name": "EmbeddedTowerGroudonRoom",
+  "id_const": "EMBEDDED_TOWER_GROUDON_ROOM",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 32,
+  "height_tiles": 32,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "EmbeddedTowerKyogreRoom",
+  "id_const": "EMBEDDED_TOWER_KYOGRE_ROOM",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 32,
+  "height_tiles": 32,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "EmbeddedTowerRayquazaRoom",
+  "id_const": "EMBEDDED_TOWER_RAYQUAZA_ROOM",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 32,
+  "height_tiles": 32,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "Route47",
+  "id_const": "ROUTE_47",
+  "tileset": "johto",
+  "width_tiles": 96,
+  "height_tiles": 64,
+  "warps": 7,
+  "objects": 13
+ },
+ {
+  "name": "Route48",
+  "id_const": "ROUTE_48",
+  "tileset": "johto",
+  "width_tiles": 64,
+  "height_tiles": 32,
+  "warps": 0,
+  "objects": 2
+ },
+ {
+  "name": "RuinsOfAlphHallEntrance",
+  "id_const": "RUINS_OF_ALPH_HALL_ENTRANCE",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 32,
+  "height_tiles": 32,
+  "warps": 4,
+  "objects": 3
+ },
+ {
+  "name": "RuinsOfAlphUndergroundHall",
+  "id_const": "RUINS_OF_ALPH_UNDERGROUND_HALL",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 32,
+  "height_tiles": 64,
+  "warps": 2,
+  "objects": 8
+ },
+ {
+  "name": "SafariZoneEntranceExterior",
+  "id_const": "SAFARI_ZONE_ENTRANCE_EXTERIOR",
+  "tileset": "johto",
+  "width_tiles": 96,
+  "height_tiles": 96,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "SafariZoneEntranceInterior",
+  "id_const": "SAFARI_ZONE_ENTRANCE_INTERIOR",
+  "tileset": "facility",
+  "width_tiles": 32,
+  "height_tiles": 32,
+  "warps": 3,
+  "objects": 7
+ },
+ {
+  "name": "SafariZoneGatePokecenter1F",
+  "id_const": "SAFARI_ZONE_GATE_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 32,
+  "height_tiles": 32,
+  "warps": 2,
+  "objects": 6
+ },
+ {
+  "name": "SafariZoneGatePokecenterB1F",
+  "id_const": "SAFARI_ZONE_GATE_POKECENTER_B1F",
+  "tileset": "pokecenter",
+  "width_tiles": 32,
+  "height_tiles": 32,
+  "warps": 1,
+  "objects": 3
+ },
+ {
+  "name": "SinjohRuinsCabin",
+  "id_const": "SINJOH_RUINS_CABIN",
+  "tileset": "house",
+  "width_tiles": 32,
+  "height_tiles": 32,
+  "warps": 1,
+  "objects": 4
+ },
+ {
+  "name": "SinjohRuinsExterior",
+  "id_const": "SINJOH_RUINS_EXTERIOR",
+  "tileset": "johto",
+  "width_tiles": 32,
+  "height_tiles": 32,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "SinjohRuinsMystriStage",
+  "id_const": "SINJOH_RUINS_MYSTRI_STAGE",
+  "tileset": "ruins_of_alph",
+  "width_tiles": 32,
+  "height_tiles": 32,
+  "warps": 1,
+  "objects": 1
+ },
+ {
+  "name": "Route26",
+  "id_const": "ROUTE_26",
+  "tileset": "johto",
+  "width_tiles": 40,
+  "height_tiles": 216,
+  "warps": 3,
+  "objects": 8
+ },
+ {
+  "name": "Route26HealHouse",
+  "id_const": "ROUTE_26_HEAL_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "Route27",
+  "id_const": "ROUTE_27",
+  "tileset": "johto",
+  "width_tiles": 160,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 9
+ },
+ {
+  "name": "Route27SandstormHouse",
+  "id_const": "ROUTE_27_SANDSTORM_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "Route28",
+  "id_const": "ROUTE_28",
+  "tileset": "kanto",
+  "width_tiles": 80,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 0
+ },
+ {
+  "name": "Route28SteelWingHouse",
+  "id_const": "ROUTE_28_STEEL_WING_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 2
+ },
+ {
+  "name": "TohjoFalls",
+  "id_const": "TOHJO_FALLS",
+  "tileset": "cave",
+  "width_tiles": 60,
+  "height_tiles": 36,
+  "warps": 2,
+  "objects": 1
+ },
+ {
+  "name": "VictoryRoad",
+  "id_const": "VICTORY_ROAD",
+  "tileset": "cave",
+  "width_tiles": 40,
+  "height_tiles": 144,
+  "warps": 10,
+  "objects": 6
+ },
+ {
+  "name": "VictoryRoadGate",
+  "id_const": "VICTORY_ROAD_GATE",
+  "tileset": "gate",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 8,
+  "objects": 3
+ },
+ {
+  "name": "FastShip1F",
+  "id_const": "FAST_SHIP_1F",
+  "tileset": "lighthouse",
+  "width_tiles": 64,
+  "height_tiles": 36,
+  "warps": 12,
+  "objects": 4
+ },
+ {
+  "name": "FastShipB1F",
+  "id_const": "FAST_SHIP_B1F",
+  "tileset": "lighthouse",
+  "width_tiles": 64,
+  "height_tiles": 32,
+  "warps": 2,
+  "objects": 12
+ },
+ {
+  "name": "FastShipCabins_NNW_NNE_NE",
+  "id_const": "FAST_SHIP_CABINS_NNW_NNE_NE",
+  "tileset": "lighthouse",
+  "width_tiles": 16,
+  "height_tiles": 64,
+  "warps": 3,
+  "objects": 7
+ },
+ {
+  "name": "FastShipCabins_SE_SSE_CaptainsCabin",
+  "id_const": "FAST_SHIP_CABINS_SE_SSE_CAPTAINS_CABIN",
+  "tileset": "lighthouse",
+  "width_tiles": 20,
+  "height_tiles": 68,
+  "warps": 6,
+  "objects": 11
+ },
+ {
+  "name": "FastShipCabins_SW_SSW_NW",
+  "id_const": "FAST_SHIP_CABINS_SW_SSW_NW",
+  "tileset": "lighthouse",
+  "width_tiles": 16,
+  "height_tiles": 64,
+  "warps": 5,
+  "objects": 4
+ },
+ {
+  "name": "SaffronMagnetTrainStation",
+  "id_const": "SAFFRON_MAGNET_TRAIN_STATION",
+  "tileset": "train_station",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 4
+ },
+ {
+  "name": "VermilionPort",
+  "id_const": "VERMILION_PORT",
+  "tileset": "port",
+  "width_tiles": 40,
+  "height_tiles": 72,
+  "warps": 2,
+  "objects": 3
+ },
+ {
+  "name": "VermilionPortPassage",
+  "id_const": "VERMILION_PORT_PASSAGE",
+  "tileset": "underground",
+  "width_tiles": 40,
+  "height_tiles": 36,
+  "warps": 5,
+  "objects": 1
+ },
+ {
+  "name": "IndigoPlateauPokecenter1F",
+  "id_const": "INDIGO_PLATEAU_POKECENTER_1F",
+  "tileset": "pokecenter",
+  "width_tiles": 36,
+  "height_tiles": 28,
+  "warps": 4,
+  "objects": 6
+ },
+ {
+  "name": "WillsRoom",
+  "id_const": "WILLS_ROOM",
+  "tileset": "elite_four_room",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 3,
+  "objects": 1
+ },
+ {
+  "name": "KogasRoom",
+  "id_const": "KOGAS_ROOM",
+  "tileset": "elite_four_room",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "KarensRoom",
+  "id_const": "KARENS_ROOM",
+  "tileset": "elite_four_room",
+  "width_tiles": 20,
+  "height_tiles": 36,
+  "warps": 4,
+  "objects": 1
+ },
+ {
+  "name": "TrainerHouse1F",
+  "id_const": "TRAINER_HOUSE_1F",
+  "tileset": "house",
+  "width_tiles": 20,
+  "height_tiles": 28,
+  "warps": 3,
+  "objects": 5
+ },
+ {
+  "name": "TrainerHouseB1F",
+  "id_const": "TRAINER_HOUSE_B1F",
+  "tileset": "facility",
+  "width_tiles": 20,
+  "height_tiles": 32,
+  "warps": 1,
+  "objects": 2
+ },
+ {
+  "name": "SafariZoneGateJohto",
+  "id_const": "SAFARI_ZONE_GATE_JOHTO",
+  "tileset": "johto",
+  "width_tiles": 64,
+  "height_tiles": 64,
+  "warps": 3,
+  "objects": 19
+ },
+ {
+  "name": "DayOfWeekSiblingsHouse",
+  "id_const": "DAY_OF_WEEK_SIBLINGS_HOUSE",
+  "tileset": "house",
+  "width_tiles": 16,
+  "height_tiles": 16,
+  "warps": 2,
+  "objects": 1
+ }
+]
