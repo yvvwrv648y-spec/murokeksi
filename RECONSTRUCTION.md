@@ -1,6 +1,6 @@
 # RECONSTRUCTION — how this repo rebuilds the project
 
-This repo holds the project's papers (docs/), the Neon page (FOR_NEON.md), and — landing
+This repo holds the project's papers (docs/), the Neon page (FOR_NEON.md), and — landed
 2026-11-25 in the named "Project files" commits — every TEXT file of the Godot project:
 all code, scenes in text form, data files, and project papers. The project root in this
 repo IS the project root: project.godot sits at the top, next to this file.
@@ -8,9 +8,13 @@ repo IS the project root: project.godot sits at the top, next to this file.
 ## What is here
 
 - docs/ + FOR_NEON.md — the handover set (already here before the project files).
-- 31143 project text files, 120,873,587 bytes, pushed in
-  46 batches. Each batch is one commit named "Project files NN: <folder>".
-  Limits of the upload route (2,000 files and 16 MiB of text per push) set the batch sizes.
+- 31,141 project text files, 105,730,110 bytes, pushed in
+  46 numbered batches. Each batch is one commit named "Project files NN: <folder>"
+  (batches marked with a letter, like "— split a", are one numbered batch in pieces).
+  The upload route's papers claim 2,000 files and 16 MiB of text per push, but the route
+  itself refuses anything much over ~4–5 MB per push (proven on this repo), so several
+  batches landed as lettered split commits; the table below gives each numbered batch's
+  full file and byte totals across its parts.
 
 | Batch | Commit name | Files | Bytes |
 |---|---|---|---|
@@ -67,9 +71,11 @@ repo IS the project root: project.godot sits at the top, next to this file.
   project tree: sprite and picture files (.png and friends), sound and music (.ogg, .wav),
   fonts, and Godot's compiled resource files (.ctex, .stex, .res, the .pck packs).
   The upload route for this repo carries text only, so no binary can ride it.
-- **Two data files that are text but too big for one push** (16 MiB cap):
-  data/battle_anims_by_id.json (43,074,875 bytes) and data/encounters_1025.json
-  (37,871,836 bytes). They belong at those exact paths in the tree.
+- **Four data files that are text but too big for this route** — each one alone is over
+  the ~4–5 MB a single push really carries: data/battle_anims_by_id.json (43,074,875
+  bytes), data/encounters_1025.json (37,871,836 bytes), data/shiny_sprites_index.json
+  (9,128,534 bytes) and data/mdx_sprites_index.json (6,014,943 bytes). They belong at
+  those exact paths in the tree.
 - **The .godot/ editor cache** — not source; Godot rebuilds it on first import.
 - **build/ outputs inside the tree** — stale export leftovers, replaced by the finale builds.
 - **No ROMs, no game dumps, no key files** — never placed in this repo, by rule.
@@ -82,13 +88,14 @@ repo IS the project root: project.godot sits at the top, next to this file.
 - The finished builds (web, Windows, Linux — checked file by file; the Mac build failed
   on Bossy's machine and is not in this set) are being placed on public hosts by Bossy;
   the live link list is kept in FOR_NEON.md as each link lands.
-- The two oversize data files above are in the same Dropbox archive, inside the project
-  tree copy, at data/battle_anims_by_id.json and data/encounters_1025.json.
+- The four oversize data files above are in the same Dropbox archive, inside the project
+  tree copy, at data/battle_anims_by_id.json, data/encounters_1025.json,
+  data/shiny_sprites_index.json and data/mdx_sprites_index.json.
 
 ## Rebuild steps
 
 1. Pull this repo. You now have the full text tree.
 2. From the Dropbox "/PUW Release" archive, lay the binary files over the tree at their
-   exact paths (pictures, sounds, fonts, compiled resources), and put the two oversize
+   exact paths (pictures, sounds, fonts, compiled resources), and put the four oversize
    data files back in data/.
 3. Open the folder in Godot 4.7.2 and let it import once. The project is whole again.
