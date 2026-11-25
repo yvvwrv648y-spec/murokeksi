@@ -444,3 +444,25 @@ What this means for your design work:
   workspace — Bossy passes your lists and packs through Riley / the
   shared Drive folder. This push keeps the repo copy true for the
   record.
+
+## STATUS UPDATE — 2026-11-25 (evening)
+
+- **Wave 3B Batches 01–03 are graded.** 38 of 108 slots are
+  complete in all 4 views.
+- **Clean re-exports are still owed.** The designs are approved.
+  No redraw is needed. Slot 0899: back views. Slot 0983: back
+  views.
+- **Re-crops are still owed.** Front masters of slots 1087 and
+  1115.
+- **Batch 04 stills pack is built.** Bossy holds it. It has 14
+  slots, from slot 1116. It reaches you through Riley and Drive
+  when Riley returns at 5:31 PM, with the relay note.
+- **The rules are unchanged.** Designs only. Features stay full
+  size in every view. Mainstream only. No liberties. No added
+  extras. Redraw only from the bound stills in the pack. The
+  DO NOT DRAW list is unchanged.
+- **New standing fact:** Riley has ordered a full shiny living
+  dex in the game. Future batches keep giving all 4 views —
+  front, back, front_shiny, and back_shiny — as Batches 02–03
+  did.
+- **Nothing else changes.** Wave 3C is still not yours yet.
