@@ -1,0 +1,21 @@
+{
+	"ability_filled": false,
+	"ball": 4,
+	"dex": 72,
+	"ec": 430856303,
+	"form": 0,
+	"format": "puw-pkhex-sidecar/1",
+	"friendship": 50,
+	"gender": 1,
+	"mon_id": "puw-000001-b0b834",
+	"pid": 3051160916,
+	"puw_snapshot": {
+		"build_tier": 2.0,
+		"family": "PKDX",
+		"mon_id": "puw-000001-b0b834"
+	},
+	"sid16": 47196,
+	"species_slug": "tentacool",
+	"tera_source": "default_first_type",
+	"tid16": 33569
+}

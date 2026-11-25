@@ -1,0 +1,61 @@
+{
+	"entries": [
+		{
+			"file": "party_01_tentacool.pk9",
+			"mon_id": "puw-000001-b0b834",
+			"notes": [],
+			"pk9_sha256": "120043b88d883ca99f12bddd8b48397fc0040427e248eca1be80c266bb5d2e21",
+			"sidecar": "party_01_tentacool.puw.json",
+			"slot": {
+				"index": 0.0,
+				"kind": "party"
+			},
+			"species_slug": "tentacool"
+		},
+		{
+			"file": "party_02_tentacruel.pk9",
+			"mon_id": "puw-000002-6d8f09",
+			"notes": [],
+			"pk9_sha256": "a88d07adc3a10216efa6a491d70c71d11010e1504506c6160d76550754894485",
+			"sidecar": "party_02_tentacruel.puw.json",
+			"slot": {
+				"index": 1.0,
+				"kind": "party"
+			},
+			"species_slug": "tentacruel"
+		},
+		{
+			"file": "box_01_01_pichu.pk9",
+			"mon_id": "puw-000003-eed5da",
+			"notes": [],
+			"pk9_sha256": "8e3a706201de4c3bc95c6c3e49559ede7131358fd96cb17ce1d944b620153390",
+			"sidecar": "box_01_01_pichu.puw.json",
+			"slot": {
+				"box": 0.0,
+				"index": 0.0,
+				"kind": "box"
+			},
+			"species_slug": "pichu"
+		},
+		{
+			"file": "box_01_02_tentacool.pk9",
+			"mon_id": "puw-000004-8eba06",
+			"notes": [],
+			"pk9_sha256": "7bcd51813c89d56cb5ea6b571f07d1bc24ad6aa51c267fde955eca0b79554fce",
+			"sidecar": "box_01_02_tentacool.puw.json",
+			"slot": {
+				"box": 0.0,
+				"index": 1.0,
+				"kind": "box"
+			},
+			"species_slug": "tentacool"
+		}
+	],
+	"format": "puw-pkhex-bridge/1",
+	"refused": [],
+	"trainer": {
+		"ot_name": "Riley",
+		"sid16": 47196.0,
+		"tid16": 33569.0
+	}
+}

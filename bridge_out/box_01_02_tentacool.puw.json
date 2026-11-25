@@ -1,0 +1,56 @@
+{
+	"ability_filled": false,
+	"ball": 4,
+	"dex": 72,
+	"ec": 1209231713,
+	"form": 0,
+	"format": "puw-pkhex-sidecar/1",
+	"friendship": 50,
+	"gender": 1,
+	"mon_id": "puw-000004-8eba06",
+	"pid": 2078799263,
+	"puw_snapshot": {
+		"ability_note": "Spec's ability labels are all correct in held data (Showdown pokedex; PKHeX SV personal abilities [Clear Body, Liquid Ooze, Rain Dish]): Clear Body regular slot-0, Liquid Ooze regular slot-1 alternative, Rain Dish hidden. Recorded as specified.",
+		"ev_total": 508.0,
+		"evolution": {
+			"final_types": [
+				"water",
+				"poison"
+			],
+			"level": 30.0,
+			"method": "level_up",
+			"retains_tera_type": "flying",
+			"to": "tentacruel"
+		},
+		"formerly_shadow": false,
+		"gimmick_assignment": {
+			"kind": "terastallization",
+			"status": "assigned_but_gated - Tentacool's designated Tera Type is Flying, stored on this record and retained through evolution into Tentacruel (spec's implementation note + gimmick table). Terastallization unlocks per progression under locked canon; NOT available in Kanto.",
+			"target": "tentacruel",
+			"tera_type": "flying"
+		},
+		"heart_gauge": 40.0,
+		"heart_gauge_max": 100.0,
+		"heart_stage": 2.0,
+		"hidden_ability": "rain-dish",
+		"mon_id": "puw-000004-8eba06",
+		"moves_verified": "Gen 9 level-up: Poison Sting L1, Water Gun L1 - both known at Level 5 (PKHeX SV learnset and Showdown Gen 9 agree move-for-move). The spec's upcoming list matches Gen 9 levels exactly (Wrap L8, Supersonic L12, Water Pulse L16) with one listing note: Acid is L4, i.e. already learnable by the Level 5 start, not strictly 'upcoming' - same class of note as Tasha's Corphish Leer. See DISCREPANCIES.md D3.",
+		"role": "Special Defense / Speed / Poison Coverage / Tera Support",
+		"shadow_origin": "orre",
+		"shadow_state": "shadow",
+		"slot": 5.0,
+		"stats_at_level_5": {
+			"atk": 8.0,
+			"def": 10.0,
+			"hp": 23.0,
+			"spa": 11.0,
+			"spd": 16.0,
+			"spe": 17.0
+		},
+		"stats_note": "Computed with the standard stat formula from the spec's IVs/EVs/Timid. Riley's stated line (23/8/10/11/16/17) matches the formula on ALL SIX stats."
+	},
+	"sid16": 47196,
+	"species_slug": "tentacool",
+	"tera_source": "default_first_type",
+	"tid16": 33569
+}

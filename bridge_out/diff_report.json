@@ -1,0 +1,40 @@
+{
+	"entries": [
+		{
+			"file": "party_01_tentacool.pk9",
+			"slot": {
+				"index": 0.0,
+				"kind": "party"
+			},
+			"status": "unchanged"
+		},
+		{
+			"file": "party_02_tentacruel.pk9",
+			"slot": {
+				"index": 1.0,
+				"kind": "party"
+			},
+			"status": "unchanged"
+		},
+		{
+			"file": "box_01_01_pichu.pk9",
+			"slot": {
+				"box": 0.0,
+				"index": 0.0,
+				"kind": "box"
+			},
+			"status": "unchanged"
+		},
+		{
+			"file": "box_01_02_tentacool.pk9",
+			"slot": {
+				"box": 0.0,
+				"index": 1.0,
+				"kind": "box"
+			},
+			"status": "unchanged"
+		}
+	],
+	"format": "puw-pkhex-bridge-diff/1",
+	"ignored_files": []
+}
